@@ -844,7 +844,7 @@
 }
 ],
 "watch": [],
-"updated": "2026-11-16 00:00"
+"updated": "2026-11-15 23:55"
 },
 "trees": [
 {
@@ -852,8 +852,14 @@
 "lane": "인게임",
 "session": "",
 "owns": "MatchScreen·BoardView·Core 판 규칙·Data 판 수치 · 주문 CD-0005",
-"head": "dbd4b41",
+"head": "70078c1",
 "commits": [
+{
+"sha": "70078c1",
+"at": "2026-11-15 23:51",
+"ts": 1794754313,
+"msg": "CD-0001·CD-0002 마감: 검수(수용 기준 재확인)·마감 문서, 게이트 qa·close 통과"
+},
 {
 "sha": "dbd4b41",
 "at": "2026-11-15 23:36",
@@ -937,101 +943,95 @@
 "at": "2026-11-15 21:11",
 "ts": 1794744700,
 "msg": "CD-0004: 4단계 카드 일러스트 시안 6종(Codex), 대조 그림과 검수 기록"
-},
-{
-"sha": "b70d657",
-"at": "2026-11-15 20:26",
-"ts": 1794741995,
-"msg": "결정 0011 갱신: 정식 명칭 «그림자 균열», 적은 그림자 무리"
 }
 ],
-"dirtyCount": 74,
+"dirtyCount": 133,
 "dirty": [
 {
 "file": "art/ingame/prompts.jsonl",
-"at": "2026-11-15 23:47"
+"at": "2026-11-15 23:51"
 },
 {
-"file": "Core/tests/WaveEconomyTests.cs",
-"at": "2026-11-15 23:47"
+"file": "art/overview.png",
+"at": "2026-11-15 23:51"
+},
+{
+"file": "art/tools/overview.py",
+"at": "2026-11-15 23:51"
 },
 {
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-15 23:46"
+"at": "2026-11-15 23:51"
 },
 {
-"file": "art/ingame/raw/bounty/bounty_6.png",
-"at": "2026-11-15 23:46"
+"file": "art/ingame/raw/ui/ui_bars.png",
+"at": "2026-11-15 23:51"
 },
 {
-"file": "Core/tests/SellForfeitTests.cs",
-"at": "2026-11-15 23:45"
+"file": "UnityProject/Assets/_Game/Resources/Data/summon.json",
+"at": "2026-11-15 23:51"
 },
 {
-"file": "art/ingame/raw/bounty/bounty_5.png",
-"at": "2026-11-15 23:45"
+"file": "UnityProject/Assets/_Game/Resources/Data/economy.json",
+"at": "2026-11-15 23:51"
 },
 {
-"file": "Core/tests/ReplayTests.cs",
-"at": "2026-11-15 23:45"
+"file": "studio/assets-ledger.csv",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "Core/tests/ConfigTests.cs",
-"at": "2026-11-15 23:44"
+"file": "studio/art-manifest.json",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "art/ingame/raw/bounty/bounty_4.png",
-"at": "2026-11-15 23:43"
+"file": "art/final/sprite/dragon/4.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "Core/tests/CombatTests.cs",
-"at": "2026-11-15 23:43"
+"file": "art/final/sprite/_master/dragon/4.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "art/ingame/raw/bounty/bounty_3.png",
-"at": "2026-11-15 23:42"
+"file": "art/final/sprite/dragon/3.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "Core/tests/FieldTests.cs",
-"at": "2026-11-15 23:42"
+"file": "art/final/sprite/_master/dragon/3.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "Core/tests/TestData.cs",
-"at": "2026-11-15 23:41"
+"file": "art/final/sprite/dragon/2.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "art/ingame/raw/bounty/bounty_2.png",
-"at": "2026-11-15 23:41"
+"file": "art/final/sprite/_master/dragon/2.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "tools/validate_data.py",
-"at": "2026-11-15 23:40"
+"file": "art/final/sprite/dragon/1.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "Data/summon.json",
-"at": "2026-11-15 23:40"
+"file": "art/final/sprite/_master/dragon/1.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "Data/economy.json",
-"at": "2026-11-15 23:40"
+"file": "art/final/illust/dragon/3.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "art/ingame/raw/bounty/bounty_1.png",
-"at": "2026-11-15 23:39"
+"file": "art/final/illust/_master/dragon/3.png",
+"at": "2026-11-15 23:50"
 },
 {
-"file": "Core/package/Runtime/Match/GameMatch.Queries.cs",
-"at": "2026-11-15 23:39"
-},
-{
-"file": "Core/package/Runtime/Match/SimpleBot.cs",
-"at": "2026-11-15 23:39"
+"file": "art/final/sprite/spirit/4.png",
+"at": "2026-11-15 23:50"
 }
 ],
-"lastEdit": "2026-11-15 23:47",
-"lastEditTs": 1794754029.2580779,
-"lastCommitTs": 1794753385,
-"unpushed": 23,
+"lastEdit": "2026-11-15 23:51",
+"lastEditTs": 1794754313.1390457,
+"lastCommitTs": 1794754313,
+"unpushed": 24,
 "today": 15
 },
 {
@@ -1132,8 +1132,28 @@
 "msg": "결정 0012: 캐릭터 24명 이름·성별·속성 없음·12세 아트 기준, CD-0004 2차 일러스트 시안"
 }
 ],
-"dirtyCount": 52,
+"dirtyCount": 57,
 "dirty": [
+{
+"file": "UnityProject/Assets/_Game/UI/BoxTray.cs",
+"at": "2026-11-15 23:51"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
+"at": "2026-11-15 23:51"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/TicketView.cs",
+"at": "2026-11-15 23:49"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
+"at": "2026-11-15 23:48"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
+"at": "2026-11-15 23:48"
+},
 {
 "file": "UnityProject/Assets/_Game/UI/LoadingScreen.cs",
 "at": "2026-11-15 23:46"
@@ -1193,30 +1213,10 @@
 {
 "file": "UnityProject/Assets/_Game/Art/Final/illust/spirit/3.png",
 "at": "2026-11-15 23:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/illust/spirit/2.png",
-"at": "2026-11-15 23:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/illust/spirit/1.png",
-"at": "2026-11-15 23:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/illust/human/4.png",
-"at": "2026-11-15 23:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/illust/human/3.png",
-"at": "2026-11-15 23:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/illust/human/2.png",
-"at": "2026-11-15 23:43"
 }
 ],
-"lastEdit": "2026-11-15 23:46",
-"lastEditTs": 1794753974.7088435,
+"lastEdit": "2026-11-15 23:51",
+"lastEditTs": 1794754301.3412933,
 "lastCommitTs": 1794753271,
 "unpushed": 25,
 "today": 15
@@ -1226,20 +1226,22 @@
 {
 "id": "CD-0001",
 "title": "리소스 제작 방식 비교",
-"branch": "outgame",
-"updated": "2026-11-15 23:26",
+"branch": "main",
+"updated": "2026-11-15 23:51",
 "files": [
 "00-order.md",
 "10-spec.md",
-"20-art.md"
+"20-art.md",
+"30-qa.md",
+"90-close.md"
 ],
 "milestone": "M0",
-"stage": "검수",
+"stage": "완료",
 "route": "fast",
 "risk": "low",
 "teams": "art",
 "opened": "2026-11-15",
-"closed": "",
+"closed": "2026-11-15",
 "goal": "<p>같은 과제(유닛 2·몬스터 2·스킬 FX 2·UI 3)를 네 가지 방식으로 만들어 한 페이지에서 비교하고, 사용자가 리소스 조달 방식을 확정할 수 있게 한다.</p>",
 "tasks": [
 {
@@ -1249,7 +1251,7 @@
 "title": "방식 A: Claude 가 코드로 직접 그리기",
 "output": "art-lab/a-claude-code/",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A-2",
@@ -1258,7 +1260,7 @@
 "title": "방식 B: GitHub 오픈소스 제작 방식을 찾아 적용",
 "output": "art-lab/b-opensource/",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A-3",
@@ -1267,7 +1269,7 @@
 "title": "방식 C: Gemini 웹(구독 계정)으로 생성",
 "output": "art-lab/c-gemini/",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A-4",
@@ -1276,7 +1278,7 @@
 "title": "방식 D: CC0 기성 팩 수급",
 "output": "art-lab/d-cc0-pack/",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A-5",
@@ -1285,27 +1287,29 @@
 "title": "비교 페이지와 추천안",
 "output": "Artifact, art-lab/COMPARE.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 }
 ]
 },
 {
 "id": "CD-0002",
 "title": "게임 기획 확정",
-"branch": "outgame",
-"updated": "2026-11-15 23:26",
+"branch": "main",
+"updated": "2026-11-15 23:51",
 "files": [
 "00-order.md",
 "10-spec.md",
-"20-planning.md"
+"20-planning.md",
+"30-qa.md",
+"90-close.md"
 ],
 "milestone": "M0",
-"stage": "검수",
+"stage": "완료",
 "route": "fast",
 "risk": "mid",
 "teams": "planning",
 "opened": "2026-11-15",
-"closed": "",
+"closed": "2026-11-15",
 "goal": "<p>사용자 요구 12항과 선택 4건을 게임 기획(규칙·콘텐츠·보상·육성·협동·배포와 저장)으로 확정하고, 수치 데이터 초안과 검사 도구, 첫 목표 중심의 마일스톤을 만든다.</p>",
 "tasks": [
 {
@@ -1315,7 +1319,7 @@
 "title": "한 장 기획서, 규칙, 콘텐츠 목록, 보상·육성·꾸밈",
 "output": "docs/10~13",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "P-2",
@@ -1324,7 +1328,7 @@
 "title": "배포·콘텐츠 갱신·유저 저장 구성",
 "output": "docs/14, 결정 0010",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "P-3",
@@ -1333,7 +1337,7 @@
 "title": "수치 데이터 초안과 검사 도구",
 "output": "Data/.json, tools/validate_data.py",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "P-4",
@@ -1342,7 +1346,7 @@
 "title": "마일스톤 재편, 결정 기록, 방향 잠금",
 "output": "studio/milestones.json, 결정 0009, 헌장 L10~L13",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 }
 ]
 },
@@ -3490,7 +3494,8 @@
 "title": "인간 1단계 테오 (인게임 SD)",
 "brief": "풋내기 모험가",
 "address": "unit/human/1",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/human/1.png",
 "hasFile": true
 },
 {
@@ -3501,7 +3506,8 @@
 "title": "인간 2단계 에단 (인게임 SD)",
 "brief": "견습 기사",
 "address": "unit/human/2",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/human/2.png",
 "hasFile": true
 },
 {
@@ -3512,7 +3518,8 @@
 "title": "인간 3단계 세드릭 (인게임 SD)",
 "brief": "기사",
 "address": "unit/human/3",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/human/3.png",
 "hasFile": true
 },
 {
@@ -3523,7 +3530,8 @@
 "title": "인간 4단계 레오폴드 (인게임 SD)",
 "brief": "정예 기사",
 "address": "unit/human/4",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/human/4.png",
 "hasFile": true
 },
 {
@@ -3534,7 +3542,8 @@
 "title": "엘프 1단계 리엘 (인게임 SD)",
 "brief": "예닐곱 살 아이",
 "address": "unit/elf/1",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/elf/1.png",
 "hasFile": true
 },
 {
@@ -3545,7 +3554,8 @@
 "title": "엘프 2단계 세린 (인게임 SD)",
 "brief": "열두세 살 소녀",
 "address": "unit/elf/2",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/elf/2.png",
 "hasFile": true
 },
 {
@@ -3556,7 +3566,8 @@
 "title": "엘프 3단계 시레아 (인게임 SD)",
 "brief": "젊은 사냥꾼",
 "address": "unit/elf/3",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/elf/3.png",
 "hasFile": true
 },
 {
@@ -3567,7 +3578,8 @@
 "title": "엘프 4단계 이실리아 (인게임 SD)",
 "brief": "어른 궁수",
 "address": "unit/elf/4",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/elf/4.png",
 "hasFile": true
 },
 {
@@ -3578,7 +3590,8 @@
 "title": "드워프 1단계 그론 (인게임 SD)",
 "brief": "수염 없는 꼬마",
 "address": "unit/dwarf/1",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/dwarf/1.png",
 "hasFile": true
 },
 {
@@ -3589,7 +3602,8 @@
 "title": "드워프 2단계 보르딘 (인게임 SD)",
 "brief": "소년",
 "address": "unit/dwarf/2",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/dwarf/2.png",
 "hasFile": true
 },
 {
@@ -3600,7 +3614,8 @@
 "title": "드워프 3단계 할드레크 (인게임 SD)",
 "brief": "청년",
 "address": "unit/dwarf/3",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/dwarf/3.png",
 "hasFile": true
 },
 {
@@ -3611,7 +3626,8 @@
 "title": "드워프 4단계 달그룬드 (인게임 SD)",
 "brief": "어른",
 "address": "unit/dwarf/4",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/dwarf/4.png",
 "hasFile": true
 },
 {
@@ -3622,7 +3638,8 @@
 "title": "수인 1단계 카자 (인게임 SD)",
 "brief": "새끼 맹수(네 발)",
 "address": "unit/beast/1",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/beast/1.png",
 "hasFile": true
 },
 {
@@ -3633,7 +3650,8 @@
 "title": "수인 2단계 자야 (인게임 SD)",
 "brief": "어린 맹수(네 발)",
 "address": "unit/beast/2",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/beast/2.png",
 "hasFile": true
 },
 {
@@ -3644,7 +3662,8 @@
 "title": "수인 3단계 바리카 (인게임 SD)",
 "brief": "반수인(두 발)",
 "address": "unit/beast/3",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/beast/3.png",
 "hasFile": true
 },
 {
@@ -3655,7 +3674,8 @@
 "title": "수인 4단계 라자카 (인게임 SD)",
 "brief": "수인",
 "address": "unit/beast/4",
-"status": "temp",
+"status": "draft",
+"temp_file": "UnityProject/Assets/_Game/Art/Temp/unit/beast/4.png",
 "hasFile": true
 },
 {
@@ -3666,8 +3686,9 @@
 "title": "정령 1단계 펠리 (인게임 SD)",
 "brief": "빛 방울",
 "address": "unit/spirit/1",
-"status": "planned",
-"hasFile": false
+"status": "draft",
+"temp_file": null,
+"hasFile": true
 },
 {
 "id": "sprite/spirit/2",
@@ -3677,8 +3698,9 @@
 "title": "정령 2단계 벨리사 (인게임 SD)",
 "brief": "윤곽이 생긴 빛",
 "address": "unit/spirit/2",
-"status": "planned",
-"hasFile": false
+"status": "draft",
+"temp_file": null,
+"hasFile": true
 },
 {
 "id": "sprite/spirit/3",
@@ -3688,8 +3710,9 @@
 "title": "정령 3단계 멜리안테 (인게임 SD)",
 "brief": "반쯤 사람 모양",
 "address": "unit/spirit/3",
-"status": "planned",
-"hasFile": false
+"status": "draft",
+"temp_file": null,
+"hasFile": true
 },
 {
 "id": "sprite/spirit/4",
@@ -3699,8 +3722,9 @@
 "title": "정령 4단계 오베리아 (인게임 SD)",
 "brief": "사람 모양",
 "address": "unit/spirit/4",
-"status": "planned",
-"hasFile": false
+"status": "draft",
+"temp_file": null,
+"hasFile": true
 },
 {
 "id": "sprite/dragon/1",
@@ -3710,8 +3734,9 @@
 "title": "용족 1단계 라카 (인게임 SD)",
 "brief": "알을 깬 해츨링",
 "address": "unit/dragon/1",
-"status": "planned",
-"hasFile": false
+"status": "draft",
+"temp_file": null,
+"hasFile": true
 },
 {
 "id": "sprite/dragon/2",
@@ -3721,8 +3746,9 @@
 "title": "용족 2단계 드레나 (인게임 SD)",
 "brief": "어린 용",
 "address": "unit/dragon/2",
-"status": "planned",
-"hasFile": false
+"status": "draft",
+"temp_file": null,
+"hasFile": true
 },
 {
 "id": "sprite/dragon/3",
@@ -3732,8 +3758,9 @@
 "title": "용족 3단계 타르기아 (인게임 SD)",
 "brief": "젊은 용",
 "address": "unit/dragon/3",
-"status": "planned",
-"hasFile": false
+"status": "draft",
+"temp_file": null,
+"hasFile": true
 },
 {
 "id": "sprite/dragon/4",
@@ -3743,8 +3770,9 @@
 "title": "용족 4단계 아즈가리아 (인게임 SD)",
 "brief": "폴리모프한 모습",
 "address": "unit/dragon/4",
-"status": "planned",
-"hasFile": false
+"status": "draft",
+"temp_file": null,
+"hasFile": true
 },
 {
 "id": "monster/all",
@@ -3809,9 +3837,9 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-15 23:34",
-"branch": "outgame",
-"dirty": false
+"at": "2026-11-15 23:50",
+"branch": "main",
+"dirty": true
 },
 "assets": {
 "items": [
@@ -4217,7 +4245,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-15 23:47",
-"generatedAt": "2026-11-15 23:47",
-"digest": "d2f2dbb47bbe588b"
+"sourceAt": "2026-11-15 23:51",
+"generatedAt": "2026-11-15 23:52",
+"digest": "f2e4b00c706641fb"
 }
