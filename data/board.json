@@ -866,8 +866,8 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-16 04:18",
-"branch": "fin-outgame",
+"at": "2026-11-16 08:36",
+"branch": "fin-core",
 "dirty": false
 },
 "pm": {
@@ -903,8 +903,14 @@
 "lane": "인게임",
 "session": "",
 "owns": "MatchScreen·BoardView·Core 판 규칙·Data 판 수치 · 주문 CD-0005",
-"head": "edd5291",
+"head": "0b33055",
 "commits": [
+{
+"sha": "0b33055",
+"at": "2026-11-16 08:35",
+"ts": 1794785732,
+"msg": "CD-0007 마감 초안(90-close)·일지: 밤사이 완성 묶음 기록"
+},
 {
 "sha": "edd5291",
 "at": "2026-11-16 04:18",
@@ -988,32 +994,10 @@
 "at": "2026-11-16 02:36",
 "ts": 1794764194,
 "msg": "Merge branch 'fin-outgame' into fin"
-},
-{
-"sha": "d0a0b83",
-"at": "2026-11-16 02:36",
-"ts": 1794764160,
-"msg": "CD-0007 U3 2단계 판 밖: 성장 → 판(loadout), 설정·크레딧, 판 밖 소리, 자동 한 바퀴 모드"
 }
 ],
-"dirtyCount": 32,
+"dirtyCount": 28,
 "dirty": [
-{
-"file": "devlog/2026-11-16.md",
-"at": "2026-11-16 04:19"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/90-close.md",
-"at": "2026-11-16 04:19"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/ScreenshotTests.cs",
-"at": "2026-11-16 04:18"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/00-order.md",
-"at": "2026-11-16 04:18"
-},
 {
 "file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_3.png",
 "at": "2026-11-16 00:50"
@@ -1077,12 +1061,28 @@
 {
 "file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/09_menu_1080x2400.png",
 "at": "2026-11-16 00:43"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/08_life_1080x2400.png",
+"at": "2026-11-16 00:43"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/07_bounty_on_1080x2400.png",
+"at": "2026-11-16 00:42"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/06_bounty_1080x2400.png",
+"at": "2026-11-16 00:42"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/05_mission_1080x2400.png",
+"at": "2026-11-16 00:42"
 }
 ],
-"lastEdit": "2026-11-16 04:19",
-"lastEditTs": 1794770371.3119173,
-"lastCommitTs": 1794770288,
-"unpushed": 75,
+"lastEdit": "2026-11-16 00:50",
+"lastEditTs": 1794757851.2407582,
+"lastCommitTs": 1794785732,
+"unpushed": 76,
 "today": 15
 },
 {
@@ -1090,220 +1090,38 @@
 "lane": "fin",
 "session": "",
 "owns": "",
-"head": "c435534",
+"head": "4a745c0",
 "commits": [
 {
-"sha": "c435534",
-"at": "2026-11-16 03:53",
-"ts": 1794768808,
-"msg": "CD-0007 제작 게이트: 화면 팀 보고 묶음, 기획서 업적 수 오타(18→19)"
+"sha": "4a745c0",
+"at": "2026-11-16 08:39",
+"ts": 1794785959,
+"msg": "CD-0008 스펙 게이트 통과(art 줄 추가)"
 },
 {
-"sha": "01e516f",
-"at": "2026-11-16 03:52",
-"ts": 1794768773,
-"msg": "Merge branch 'fin-ingame' into fin"
+"sha": "989ad76",
+"at": "2026-11-16 08:39",
+"ts": 1794785950,
+"msg": "CD-0008 열림: 서비스 마감 다듬기·TA 그래픽·UX 수정·판 이어 하기 기획서, 스펙 게이트"
 },
 {
-"sha": "c44e727",
-"at": "2026-11-16 03:52",
-"ts": 1794768736,
-"msg": "CD-0007 U4 인게임: 전투 소리 묶음 상한, 판 시작 끊김 줄이기(미리 만들기·글꼴), 배속 글, 용족 줄기·번쩍임·타격 그림·막대 높이"
+"sha": "0b33055",
+"at": "2026-11-16 08:35",
+"ts": 1794785732,
+"msg": "CD-0007 마감 초안(90-close)·일지: 밤사이 완성 묶음 기록"
 },
 {
-"sha": "6ebfa4e",
-"at": "2026-11-16 03:27",
-"ts": 1794767246,
-"msg": "CD-0007 U3 4단계 판 밖: 모바일 대비 — 뒤로 가기, 앱 멈춤, 버전 0.2.0(2), 안전 영역 확인"
+"sha": "edd5291",
+"at": "2026-11-16 04:18",
+"ts": 1794770288,
+"msg": "Merge commit '19e1a60'"
 },
 {
-"sha": "67444ff",
-"at": "2026-11-16 03:14",
-"ts": 1794766448,
-"msg": "Merge branch 'fin-core' into fin"
+"sha": "5b30e5c",
+"at": "2026-11-16 04:18",
+"ts": 1794770288,
+"msg": "마일스톤 갱신: CD-0007 로 닫힌 M3·앞당겨진 M2/M6 작업, 사용자 확인 항목(결정 0033~0038, 소리 듣기)"
 },
-{
-"sha": "caa11ec",
-"at": "2026-11-16 03:13",
-"ts": 1794766422,
-"msg": "CD-0007 C4 core: 소환 단계 확률이 웨이브와 함께 오른다(결정 0038) — 4단계가 판에서 나오게"
-},
-{
-"sha": "8da7a73",
-"at": "2026-11-16 03:10",
-"ts": 1794766237,
-"msg": "Merge branch 'fin-ingame' into fin"
-},
-{
-"sha": "08dc907",
-"at": "2026-11-16 03:10",
-"ts": 1794766210,
-"msg": "CD-0007 U3 인게임 마무리: 결과 단계 칩·코인 배율 글, 여진=갈라진 땅, 빨라진 수인 표시 확인, 강화 창 캡처"
-},
-{
-"sha": "ff3eb6e",
-"at": "2026-11-16 02:57",
-"ts": 1794765456,
-"msg": "CD-0007 U3 3단계 판 밖: 난이도 고르기·저장 v4, 배너는 로비에서, 토스트 정리, 읽기 좋은 크레딧·글꼴 OFL, 자동 한 바퀴 갱신"
-},
-{
-"sha": "0448e38",
-"at": "2026-11-16 02:36",
-"ts": 1794764203,
-"msg": "Merge commit 'ee56f1d' into fin"
-},
-{
-"sha": "db4e408",
-"at": "2026-11-16 02:36",
-"ts": 1794764194,
-"msg": "Merge branch 'fin-outgame' into fin"
-},
-{
-"sha": "d0a0b83",
-"at": "2026-11-16 02:36",
-"ts": 1794764160,
-"msg": "CD-0007 U3 2단계 판 밖: 성장 → 판(loadout), 설정·크레딧, 판 밖 소리, 자동 한 바퀴 모드"
-},
-{
-"sha": "ee56f1d",
-"at": "2026-11-16 02:35",
-"ts": 1794764109,
-"msg": "유니티가 만든 메타: Meta/Stages.cs, Resources/Data/stages.json (CD-0007 core 3차)"
-},
-{
-"sha": "85695b8",
-"at": "2026-11-16 02:34",
-"ts": 1794764051,
-"msg": "Merge branch 'fin-ingame' into fin"
-},
-{
-"sha": "9ef9161",
-"at": "2026-11-16 02:33",
-"ts": 1794764014,
-"msg": "CD-0007 U2: 강화 창·스탯 카드 성장·결과 최고 캐릭터·꾸밈·첫 판 길잡이, 새 특성 이벤트 표현 (2차 I5~I7)"
-}
-],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1794768808,
-"unpushed": 72,
-"today": 15
-},
-{
-"branch": "fin-core",
-"lane": "fin-core",
-"session": "",
-"owns": "",
-"head": "caa11ec",
-"commits": [
-{
-"sha": "caa11ec",
-"at": "2026-11-16 03:13",
-"ts": 1794766422,
-"msg": "CD-0007 C4 core: 소환 단계 확률이 웨이브와 함께 오른다(결정 0038) — 4단계가 판에서 나오게"
-},
-{
-"sha": "ff3eb6e",
-"at": "2026-11-16 02:57",
-"ts": 1794765456,
-"msg": "CD-0007 U3 3단계 판 밖: 난이도 고르기·저장 v4, 배너는 로비에서, 토스트 정리, 읽기 좋은 크레딧·글꼴 OFL, 자동 한 바퀴 갱신"
-},
-{
-"sha": "0448e38",
-"at": "2026-11-16 02:36",
-"ts": 1794764203,
-"msg": "Merge commit 'ee56f1d' into fin"
-},
-{
-"sha": "db4e408",
-"at": "2026-11-16 02:36",
-"ts": 1794764194,
-"msg": "Merge branch 'fin-outgame' into fin"
-},
-{
-"sha": "d0a0b83",
-"at": "2026-11-16 02:36",
-"ts": 1794764160,
-"msg": "CD-0007 U3 2단계 판 밖: 성장 → 판(loadout), 설정·크레딧, 판 밖 소리, 자동 한 바퀴 모드"
-},
-{
-"sha": "ee56f1d",
-"at": "2026-11-16 02:35",
-"ts": 1794764109,
-"msg": "유니티가 만든 메타: Meta/Stages.cs, Resources/Data/stages.json (CD-0007 core 3차)"
-},
-{
-"sha": "85695b8",
-"at": "2026-11-16 02:34",
-"ts": 1794764051,
-"msg": "Merge branch 'fin-ingame' into fin"
-},
-{
-"sha": "9ef9161",
-"at": "2026-11-16 02:33",
-"ts": 1794764014,
-"msg": "CD-0007 U2: 강화 창·스탯 카드 성장·결과 최고 캐릭터·꾸밈·첫 판 길잡이, 새 특성 이벤트 표현 (2차 I5~I7)"
-},
-{
-"sha": "ef368e2",
-"at": "2026-11-16 02:23",
-"ts": 1794763393,
-"msg": "﻿CD-0007 C3 core: 오르막 웨이브 곡선, 난이도 단계(보통·어려움·정예, 결정 0037)"
-},
-{
-"sha": "c16b1aa",
-"at": "2026-11-16 02:12",
-"ts": 1794762763,
-"msg": "유니티가 만든 메타: 강화·육성 Core 파일, upgrade.json"
-},
-{
-"sha": "e53fa8c",
-"at": "2026-11-16 02:11",
-"ts": 1794762687,
-"msg": "Merge branch 'fin-outgame' into fin"
-},
-{
-"sha": "303959e",
-"at": "2026-11-16 02:11",
-"ts": 1794762663,
-"msg": "fin 병합: 판 안·판 밖 규칙, 문서, main 최종본 — 결과 화면 충돌 해소(위치는 인게임, 코인 아이콘은 ui/icon_coin), 코인 계산 글을 단계 보상에 맞춤"
-},
-{
-"sha": "aab5f02",
-"at": "2026-11-16 02:10",
-"ts": 1794762644,
-"msg": "CD-0007 U3 1단계 판 밖: 저장 v3·육성 상세·업적·프로필·꾸밈, 판 끝 기록·업적"
-},
-{
-"sha": "254aacc",
-"at": "2026-11-16 02:09",
-"ts": 1794762588,
-"msg": "CD-0007 U1+A1: 소리 반입·연결, 공격/맞음/처치/소환/합성 연출, 맵·HUD 다듬기 (1차 I1~I4)"
-},
-{
-"sha": "655f70b",
-"at": "2026-11-16 02:07",
-"ts": 1794762448,
-"msg": "Merge branch 'fin-plan' into fin"
-}
-],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1794766422,
-"unpushed": 65,
-"today": 15
-},
-{
-"branch": "fin-ingame",
-"lane": "fin-ingame",
-"session": "",
-"owns": "",
-"head": "19e1a60",
-"commits": [
 {
 "sha": "19e1a60",
 "at": "2026-11-16 04:17",
@@ -1363,43 +1181,295 @@
 "at": "2026-11-16 02:57",
 "ts": 1794765456,
 "msg": "CD-0007 U3 3단계 판 밖: 난이도 고르기·저장 v4, 배너는 로비에서, 토스트 정리, 읽기 좋은 크레딧·글꼴 OFL, 자동 한 바퀴 갱신"
-},
-{
-"sha": "0448e38",
-"at": "2026-11-16 02:36",
-"ts": 1794764203,
-"msg": "Merge commit 'ee56f1d' into fin"
-},
-{
-"sha": "db4e408",
-"at": "2026-11-16 02:36",
-"ts": 1794764194,
-"msg": "Merge branch 'fin-outgame' into fin"
-},
-{
-"sha": "d0a0b83",
-"at": "2026-11-16 02:36",
-"ts": 1794764160,
-"msg": "CD-0007 U3 2단계 판 밖: 성장 → 판(loadout), 설정·크레딧, 판 밖 소리, 자동 한 바퀴 모드"
-},
-{
-"sha": "ee56f1d",
-"at": "2026-11-16 02:35",
-"ts": 1794764109,
-"msg": "유니티가 만든 메타: Meta/Stages.cs, Resources/Data/stages.json (CD-0007 core 3차)"
-},
-{
-"sha": "85695b8",
-"at": "2026-11-16 02:34",
-"ts": 1794764051,
-"msg": "Merge branch 'fin-ingame' into fin"
 }
 ],
-"dirtyCount": 63,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-16 04:13"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/25-ux-audit.md",
+"at": "2026-11-16 08:46"
+}
+],
+"lastEdit": "2026-11-16 08:46",
+"lastEditTs": 1794786372.2036057,
+"lastCommitTs": 1794785959,
+"unpushed": 78,
+"today": 15
+},
+{
+"branch": "fin-core",
+"lane": "fin-core",
+"session": "",
+"owns": "",
+"head": "4a745c0",
+"commits": [
+{
+"sha": "4a745c0",
+"at": "2026-11-16 08:39",
+"ts": 1794785959,
+"msg": "CD-0008 스펙 게이트 통과(art 줄 추가)"
+},
+{
+"sha": "989ad76",
+"at": "2026-11-16 08:39",
+"ts": 1794785950,
+"msg": "CD-0008 열림: 서비스 마감 다듬기·TA 그래픽·UX 수정·판 이어 하기 기획서, 스펙 게이트"
+},
+{
+"sha": "0b33055",
+"at": "2026-11-16 08:35",
+"ts": 1794785732,
+"msg": "CD-0007 마감 초안(90-close)·일지: 밤사이 완성 묶음 기록"
+},
+{
+"sha": "edd5291",
+"at": "2026-11-16 04:18",
+"ts": 1794770288,
+"msg": "Merge commit '19e1a60'"
+},
+{
+"sha": "5b30e5c",
+"at": "2026-11-16 04:18",
+"ts": 1794770288,
+"msg": "마일스톤 갱신: CD-0007 로 닫힌 M3·앞당겨진 M2/M6 작업, 사용자 확인 항목(결정 0033~0038, 소리 듣기)"
+},
+{
+"sha": "19e1a60",
+"at": "2026-11-16 04:17",
+"ts": 1794770257,
+"msg": "CD-0007 Q1 QA: 30-qa.md 판정 PASS, 묶음 그림·로그"
+},
+{
+"sha": "c435534",
+"at": "2026-11-16 03:53",
+"ts": 1794768808,
+"msg": "CD-0007 제작 게이트: 화면 팀 보고 묶음, 기획서 업적 수 오타(18→19)"
+},
+{
+"sha": "01e516f",
+"at": "2026-11-16 03:52",
+"ts": 1794768773,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "c44e727",
+"at": "2026-11-16 03:52",
+"ts": 1794768736,
+"msg": "CD-0007 U4 인게임: 전투 소리 묶음 상한, 판 시작 끊김 줄이기(미리 만들기·글꼴), 배속 글, 용족 줄기·번쩍임·타격 그림·막대 높이"
+},
+{
+"sha": "6ebfa4e",
+"at": "2026-11-16 03:27",
+"ts": 1794767246,
+"msg": "CD-0007 U3 4단계 판 밖: 모바일 대비 — 뒤로 가기, 앱 멈춤, 버전 0.2.0(2), 안전 영역 확인"
+},
+{
+"sha": "67444ff",
+"at": "2026-11-16 03:14",
+"ts": 1794766448,
+"msg": "Merge branch 'fin-core' into fin"
+},
+{
+"sha": "caa11ec",
+"at": "2026-11-16 03:13",
+"ts": 1794766422,
+"msg": "CD-0007 C4 core: 소환 단계 확률이 웨이브와 함께 오른다(결정 0038) — 4단계가 판에서 나오게"
+},
+{
+"sha": "8da7a73",
+"at": "2026-11-16 03:10",
+"ts": 1794766237,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "08dc907",
+"at": "2026-11-16 03:10",
+"ts": 1794766210,
+"msg": "CD-0007 U3 인게임 마무리: 결과 단계 칩·코인 배율 글, 여진=갈라진 땅, 빨라진 수인 표시 확인, 강화 창 캡처"
+},
+{
+"sha": "ff3eb6e",
+"at": "2026-11-16 02:57",
+"ts": 1794765456,
+"msg": "CD-0007 U3 3단계 판 밖: 난이도 고르기·저장 v4, 배너는 로비에서, 토스트 정리, 읽기 좋은 크레딧·글꼴 OFL, 자동 한 바퀴 갱신"
+}
+],
+"dirtyCount": 7,
+"dirty": [
+{
+"file": "Data/monsters.json",
+"at": "2026-11-16 08:47"
+},
+{
+"file": "Data/bounty.json",
+"at": "2026-11-16 08:47"
+},
+{
+"file": "Core/package/Runtime/Config/MissionBountyConfig.cs",
+"at": "2026-11-16 08:47"
+},
+{
+"file": "Core/package/Runtime/Config/GameConfig.cs",
+"at": "2026-11-16 08:46"
+},
+{
+"file": "tools/validate_data.py",
+"at": "2026-11-16 08:46"
+},
+{
+"file": "Core/package/Runtime/Meta/Daily.cs",
+"at": "2026-11-16 08:45"
+},
+{
+"file": "Data/daily.json",
+"at": "2026-11-16 08:44"
+}
+],
+"lastEdit": "2026-11-16 08:47",
+"lastEditTs": 1794786434.5606513,
+"lastCommitTs": 1794785959,
+"unpushed": 78,
+"today": 15
+},
+{
+"branch": "fin-ingame",
+"lane": "fin-ingame",
+"session": "",
+"owns": "",
+"head": "4a745c0",
+"commits": [
+{
+"sha": "4a745c0",
+"at": "2026-11-16 08:39",
+"ts": 1794785959,
+"msg": "CD-0008 스펙 게이트 통과(art 줄 추가)"
+},
+{
+"sha": "989ad76",
+"at": "2026-11-16 08:39",
+"ts": 1794785950,
+"msg": "CD-0008 열림: 서비스 마감 다듬기·TA 그래픽·UX 수정·판 이어 하기 기획서, 스펙 게이트"
+},
+{
+"sha": "0b33055",
+"at": "2026-11-16 08:35",
+"ts": 1794785732,
+"msg": "CD-0007 마감 초안(90-close)·일지: 밤사이 완성 묶음 기록"
+},
+{
+"sha": "edd5291",
+"at": "2026-11-16 04:18",
+"ts": 1794770288,
+"msg": "Merge commit '19e1a60'"
+},
+{
+"sha": "5b30e5c",
+"at": "2026-11-16 04:18",
+"ts": 1794770288,
+"msg": "마일스톤 갱신: CD-0007 로 닫힌 M3·앞당겨진 M2/M6 작업, 사용자 확인 항목(결정 0033~0038, 소리 듣기)"
+},
+{
+"sha": "19e1a60",
+"at": "2026-11-16 04:17",
+"ts": 1794770257,
+"msg": "CD-0007 Q1 QA: 30-qa.md 판정 PASS, 묶음 그림·로그"
+},
+{
+"sha": "c435534",
+"at": "2026-11-16 03:53",
+"ts": 1794768808,
+"msg": "CD-0007 제작 게이트: 화면 팀 보고 묶음, 기획서 업적 수 오타(18→19)"
+},
+{
+"sha": "01e516f",
+"at": "2026-11-16 03:52",
+"ts": 1794768773,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "c44e727",
+"at": "2026-11-16 03:52",
+"ts": 1794768736,
+"msg": "CD-0007 U4 인게임: 전투 소리 묶음 상한, 판 시작 끊김 줄이기(미리 만들기·글꼴), 배속 글, 용족 줄기·번쩍임·타격 그림·막대 높이"
+},
+{
+"sha": "6ebfa4e",
+"at": "2026-11-16 03:27",
+"ts": 1794767246,
+"msg": "CD-0007 U3 4단계 판 밖: 모바일 대비 — 뒤로 가기, 앱 멈춤, 버전 0.2.0(2), 안전 영역 확인"
+},
+{
+"sha": "67444ff",
+"at": "2026-11-16 03:14",
+"ts": 1794766448,
+"msg": "Merge branch 'fin-core' into fin"
+},
+{
+"sha": "caa11ec",
+"at": "2026-11-16 03:13",
+"ts": 1794766422,
+"msg": "CD-0007 C4 core: 소환 단계 확률이 웨이브와 함께 오른다(결정 0038) — 4단계가 판에서 나오게"
+},
+{
+"sha": "8da7a73",
+"at": "2026-11-16 03:10",
+"ts": 1794766237,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "08dc907",
+"at": "2026-11-16 03:10",
+"ts": 1794766210,
+"msg": "CD-0007 U3 인게임 마무리: 결과 단계 칩·코인 배율 글, 여진=갈라진 땅, 빨라진 수인 표시 확인, 강화 창 캡처"
+},
+{
+"sha": "ff3eb6e",
+"at": "2026-11-16 02:57",
+"ts": 1794765456,
+"msg": "CD-0007 U3 3단계 판 밖: 난이도 고르기·저장 v4, 배너는 로비에서, 토스트 정리, 읽기 좋은 크레딧·글꼴 OFL, 자동 한 바퀴 갱신"
+}
+],
+"dirtyCount": 69,
+"dirty": [
+{
+"file": "UnityProject/Assets/_Game/View/GfxQuality.cs",
+"at": "2026-11-16 08:47"
+},
+{
+"file": "UnityProject/Assets/_Game/Shaders/Resources/CdFx/UiAmbient.shader",
+"at": "2026-11-16 08:47"
+},
+{
+"file": "UnityProject/Assets/_Game/Shaders/Resources/CdFx/UiRift.shader",
+"at": "2026-11-16 08:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Shaders/Resources/CdFx/UiSway.shader",
+"at": "2026-11-16 08:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Shaders/Resources/CdFx/UiSpriteFx.shader",
+"at": "2026-11-16 08:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Shaders/CdUiCommon.cginc",
+"at": "2026-11-16 08:45"
+},
+{
+"file": "UnityProject/Assets/InitTestScene4693a3d3-edf3-434e-b710-78590f08e5a7.unity.meta",
+"at": "2026-11-16 08:41"
+},
+{
+"file": "UnityProject/Assets/InitTestScene4693a3d3-edf3-434e-b710-78590f08e5a7.unity",
+"at": "2026-11-16 08:41"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-16 08:41"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-16 08:41"
 },
 {
 "file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/00_lobby_1080x2400.png",
@@ -1440,48 +1510,12 @@
 {
 "file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/19_linger.png",
 "at": "2026-11-16 04:07"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/16_grown_field_1080x2400.png",
-"at": "2026-11-16 04:07"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/16_grown_field.png",
-"at": "2026-11-16 04:07"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/17_haste_1080x2400.png",
-"at": "2026-11-16 04:06"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/17_haste.png",
-"at": "2026-11-16 04:06"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/15_guide_summon_1080x2400.png",
-"at": "2026-11-16 04:06"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/15_guide_summon.png",
-"at": "2026-11-16 04:06"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/14_guide_cell_1080x2400.png",
-"at": "2026-11-16 04:06"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/14_guide_cell.png",
-"at": "2026-11-16 04:06"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/autoplay/40_match2_wave5.png",
-"at": "2026-11-16 04:05"
 }
 ],
-"lastEdit": "2026-11-16 04:13",
-"lastEditTs": 1794770039.81154,
-"lastCommitTs": 1794770257,
-"unpushed": 73,
+"lastEdit": "2026-11-16 08:47",
+"lastEditTs": 1794786434.5355232,
+"lastCommitTs": 1794785959,
+"unpushed": 78,
 "today": 15
 },
 {
@@ -1595,8 +1629,32 @@
 "lane": "fin-outgame",
 "session": "",
 "owns": "",
-"head": "edd5291",
+"head": "5a1a166",
 "commits": [
+{
+"sha": "5a1a166",
+"at": "2026-11-16 08:44",
+"ts": 1794786295,
+"msg": "CD-0007 검수 뒤 수정: 조각 칸 한 줄·업적 보상 이름 겹침·테스트 이름 «모험가»"
+},
+{
+"sha": "4a745c0",
+"at": "2026-11-16 08:39",
+"ts": 1794785959,
+"msg": "CD-0008 스펙 게이트 통과(art 줄 추가)"
+},
+{
+"sha": "989ad76",
+"at": "2026-11-16 08:39",
+"ts": 1794785950,
+"msg": "CD-0008 열림: 서비스 마감 다듬기·TA 그래픽·UX 수정·판 이어 하기 기획서, 스펙 게이트"
+},
+{
+"sha": "0b33055",
+"at": "2026-11-16 08:35",
+"ts": 1794785732,
+"msg": "CD-0007 마감 초안(90-close)·일지: 밤사이 완성 묶음 기록"
+},
 {
 "sha": "edd5291",
 "at": "2026-11-16 04:18",
@@ -1662,49 +1720,37 @@
 "at": "2026-11-16 03:10",
 "ts": 1794766210,
 "msg": "CD-0007 U3 인게임 마무리: 결과 단계 칩·코인 배율 글, 여진=갈라진 땅, 빨라진 수인 표시 확인, 강화 창 캡처"
-},
-{
-"sha": "ff3eb6e",
-"at": "2026-11-16 02:57",
-"ts": 1794765456,
-"msg": "CD-0007 U3 3단계 판 밖: 난이도 고르기·저장 v4, 배너는 로비에서, 토스트 정리, 읽기 좋은 크레딧·글꼴 OFL, 자동 한 바퀴 갱신"
-},
-{
-"sha": "0448e38",
-"at": "2026-11-16 02:36",
-"ts": 1794764203,
-"msg": "Merge commit 'ee56f1d' into fin"
-},
-{
-"sha": "db4e408",
-"at": "2026-11-16 02:36",
-"ts": 1794764194,
-"msg": "Merge branch 'fin-outgame' into fin"
-},
-{
-"sha": "d0a0b83",
-"at": "2026-11-16 02:36",
-"ts": 1794764160,
-"msg": "CD-0007 U3 2단계 판 밖: 성장 → 판(loadout), 설정·크레딧, 판 밖 소리, 자동 한 바퀴 모드"
 }
 ],
-"dirtyCount": 195,
+"dirtyCount": 198,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameMetaShotTests.cs",
-"at": "2026-11-16 04:19"
+"file": "UnityProject/Assets/_Game/App/GraphicsPrefs.cs",
+"at": "2026-11-16 08:47"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/AchievementScreen.cs",
-"at": "2026-11-16 04:19"
+"file": "UnityProject/Assets/_Game/Outgame/PlayerName.cs",
+"at": "2026-11-16 08:47"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
-"at": "2026-11-16 04:19"
+"file": "UnityProject/Assets/_Game/Outgame/MatchOutcome.cs",
+"at": "2026-11-16 08:47"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/ScreenshotTests.cs",
-"at": "2026-11-16 04:19"
+"file": "UnityProject/Assets/_Game/Outgame/MatchResume.cs",
+"at": "2026-11-16 08:47"
+},
+{
+"file": "UnityProject/Assets/_Game/Save/PlayerStore.cs",
+"at": "2026-11-16 08:45"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/OutgameStage2EditModeTests.cs",
+"at": "2026-11-16 08:45"
+},
+{
+"file": "UnityProject/Assets/_Game/Save/PlayerData.cs",
+"at": "2026-11-16 08:45"
 },
 {
 "file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/40_match2_wave5.png",
@@ -1757,24 +1803,12 @@
 {
 "file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/29_level_up_human_1.png",
 "at": "2026-11-16 03:25"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/28_characters.png",
-"at": "2026-11-16 03:25"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/27_box_after.png",
-"at": "2026-11-16 03:25"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/26_box_choose.png",
-"at": "2026-11-16 03:25"
 }
 ],
-"lastEdit": "2026-11-16 04:19",
-"lastEditTs": 1794770373.883587,
-"lastCommitTs": 1794770288,
-"unpushed": 75,
+"lastEdit": "2026-11-16 08:47",
+"lastEditTs": 1794786450.5027378,
+"lastCommitTs": 1794786295,
+"unpushed": 79,
 "today": 15
 },
 {
@@ -2521,8 +2555,8 @@
 {
 "id": "CD-0007",
 "title": "완성 묶음 육성 강화 업적 소리 연출 폴리싱 빌드",
-"branch": "main",
-"updated": "2026-11-16 04:19",
+"branch": "fin-outgame",
+"updated": "2026-11-16 08:36",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -2623,6 +2657,100 @@
 "output": "30-qa.md",
 "status": "done",
 "why": "주문 마감"
+}
+]
+},
+{
+"id": "CD-0008",
+"title": "서비스 마감 다듬기 TA 그래픽 UX 수정 이어하기",
+"branch": "fin",
+"updated": "2026-11-16 08:46",
+"files": [
+"00-order.md",
+"10-spec.md",
+"25-ux-audit.md",
+"ux-audit"
+],
+"milestone": "M6",
+"stage": "제작",
+"route": "full",
+"risk": "high",
+"teams": "planning, core, client, art, qa",
+"opened": "2026-11-16",
+"closed": "",
+"goal": "<p>v0.3.0 — 처음 깐 유저가 «만들다 만 게임» 이 아니라 «서비스 중인 게임» 으로 느끼게: 화면의 어색한 곳을 없애고, 서비스라면 당연히 있을 기능을 채우고, 판 화면의 그래픽 품질을 TA 작업으로 한 단계 올린다.</p>",
+"tasks": [
+{
+"id": "A0",
+"key": "CD-0008/A0",
+"team": "qa 보조",
+"title": "UX 전수 감사(읽기 전용)",
+"output": "25-ux-audit.md",
+"status": "done",
+"why": "보고서 있음: 25-ux-audit.md"
+},
+{
+"id": "T1",
+"key": "CD-0008/T1",
+"team": "client",
+"title": "§1 T1~T6 (TA·끊김·품질 설정)",
+"output": "셰이더·연출, 23-client-ingame.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "A1",
+"key": "CD-0008/A1",
+"team": "art",
+"title": "§1 의 코드 제작 이펙트 그림(노이즈·입자·그림자 타원)과 §2 S5 앱 아이콘(확정 그림 가공)의 규격·장부 — 인게임·판 밖 팀장이 각자 맡아 하고 장부 줄 수를 보고",
+"output": "22-art.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "S1",
+"key": "CD-0008/S1",
+"team": "client",
+"title": "§2 S0~S2·S4~S7",
+"output": "서비스 기능, 23-client-outgame.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "C1",
+"key": "CD-0008/C1",
+"team": "core",
+"title": "§3 C1~C3",
+"output": "Core·데이터, 21-core.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "U2",
+"key": "CD-0008/U2",
+"team": "client",
+"title": "2차(감사 항목·몬스터 정보·일일 목표 화면)",
+"output": "위 두 보고서의 «2차» 절",
+"status": "todo",
+"why": ""
+},
+{
+"id": "P1",
+"key": "CD-0008/P1",
+"team": "planning",
+"title": "§4",
+"output": "문서·결정, 20-planning.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "Q1",
+"key": "CD-0008/Q1",
+"team": "qa",
+"title": "수용 기준 전부 재실행",
+"output": "30-qa.md",
+"status": "todo",
+"why": ""
 }
 ]
 }
@@ -3270,7 +3398,7 @@
 },
 "monsters": {
 "data": {
-"_note": "초안(2026-11-15). 시뮬레이터(M2) 전의 값이다. 구조는 확정, 숫자는 바뀐다. 몬스터의 체력·속도는 baseHp·baseSpeed 에 유형 배율과 웨이브 배율을 곱한다. speed 는 틱당 칸의 1/100. countPct 는 웨이브를 짤 때의 참고값이고 실행 중에는 쓰지 않는다(웨이브의 count 가 실제 수).",
+"_note": "초안(2026-11-15). 시뮬레이터(M2) 전의 값이다. 구조는 확정, 숫자는 바뀐다. 몬스터의 체력·속도는 baseHp·baseSpeed 에 유형 배율과 웨이브 배율을 곱한다. speed 는 틱당 칸의 1/100. countPct 는 웨이브를 짤 때의 참고값이고 실행 중에는 쓰지 않는다(웨이브의 count 가 실제 수). trait 는 몬스터 카드의 특징 한 줄(CD-0008, 20자 안, 속성 낱말 금지).",
 "baseHp": 120,
 "baseSpeed": 5,
 "baseBounty": 2,
@@ -3348,6 +3476,7 @@
 "family": "goblin",
 "type": "normal",
 "name": "고블린 졸개",
+"trait": "가장 흔한 그림자 무리 졸개",
 "firstGoal": true
 },
 {
@@ -3355,6 +3484,7 @@
 "family": "goblin",
 "type": "swarm",
 "name": "고블린 떼",
+"trait": "몸은 약하지만 떼로 몰려온다",
 "firstGoal": false
 },
 {
@@ -3362,6 +3492,7 @@
 "family": "goblin",
 "type": "rush",
 "name": "늑대 기수",
+"trait": "늑대를 타고 빠르게 달린다",
 "firstGoal": false
 },
 {
@@ -3369,6 +3500,7 @@
 "family": "goblin",
 "type": "boss",
 "name": "고블린 대족장",
+"trait": "고블린을 이끄는 큰 우두머리",
 "firstGoal": false
 },
 {
@@ -3376,6 +3508,7 @@
 "family": "orc",
 "type": "normal",
 "name": "오크 전사",
+"trait": "단단한 몸으로 꾸준히 걷는다",
 "firstGoal": false
 },
 {
@@ -3383,6 +3516,7 @@
 "family": "orc",
 "type": "armored",
 "name": "철갑 오크",
+"trait": "두꺼운 철갑이 피해를 깎는다",
 "firstGoal": false
 },
 {
@@ -3390,6 +3524,7 @@
 "family": "orc",
 "type": "rush",
 "name": "오크 돌격병",
+"trait": "앞만 보고 빠르게 돌진한다",
 "firstGoal": false
 },
 {
@@ -3397,6 +3532,7 @@
 "family": "orc",
 "type": "boss",
 "name": "오크 전쟁군주",
+"trait": "오크를 호령하는 전쟁의 주인",
 "firstGoal": false
 },
 {
@@ -3404,6 +3540,7 @@
 "family": "undead",
 "type": "normal",
 "name": "해골 병사",
+"trait": "뼈만 남은 채 줄지어 걷는다",
 "firstGoal": false
 },
 {
@@ -3411,6 +3548,7 @@
 "family": "undead",
 "type": "regen",
 "name": "썩은 거인",
+"trait": "입은 상처가 조금씩 아문다",
 "firstGoal": false
 },
 {
@@ -3418,6 +3556,7 @@
 "family": "undead",
 "type": "swarm",
 "name": "해골 무리",
+"trait": "약한 해골이 무리 지어 온다",
 "firstGoal": false
 },
 {
@@ -3425,6 +3564,7 @@
 "family": "undead",
 "type": "boss",
 "name": "망자의 왕",
+"trait": "망자를 거느린 왕, 체력이 많다",
 "firstGoal": false
 },
 {
@@ -3432,6 +3572,7 @@
 "family": "fiend",
 "type": "armored",
 "name": "가시 멧돼지",
+"trait": "가시 가죽이 피해를 깎는다",
 "firstGoal": false
 },
 {
@@ -3439,6 +3580,7 @@
 "family": "fiend",
 "type": "flying",
 "name": "박쥐 떼",
+"trait": "날아서 길을 질러 온다",
 "firstGoal": false
 },
 {
@@ -3446,6 +3588,7 @@
 "family": "fiend",
 "type": "rush",
 "name": "그림자 표범",
+"trait": "그림자 속을 빠르게 달린다",
 "firstGoal": false
 },
 {
@@ -3453,6 +3596,7 @@
 "family": "fiend",
 "type": "boss",
 "name": "삼두 마수",
+"trait": "머리 셋 달린 거대한 마수",
 "firstGoal": false
 },
 {
@@ -3460,6 +3604,7 @@
 "family": "demon",
 "type": "flying",
 "name": "임프",
+"trait": "작은 날개로 길을 질러 온다",
 "firstGoal": false
 },
 {
@@ -3467,6 +3612,7 @@
 "family": "demon",
 "type": "armored",
 "name": "지옥 기사",
+"trait": "무거운 갑옷의 느린 기사",
 "firstGoal": false
 },
 {
@@ -3474,6 +3620,7 @@
 "family": "demon",
 "type": "regen",
 "name": "재생 악령",
+"trait": "입은 상처를 천천히 되돌린다",
 "firstGoal": false
 },
 {
@@ -3481,6 +3628,7 @@
 "family": "demon",
 "type": "boss",
 "name": "심연의 군주",
+"trait": "심연에서 온 마족의 군주",
 "firstGoal": false
 },
 {
@@ -3488,6 +3636,7 @@
 "family": "shadow",
 "type": "normal",
 "name": "그림자 졸개",
+"trait": "균열에서 갓 나온 그림자",
 "firstGoal": false
 },
 {
@@ -3495,6 +3644,7 @@
 "family": "shadow",
 "type": "rush",
 "name": "그림자 추적자",
+"trait": "발소리 없이 빠르게 쫓는다",
 "firstGoal": false
 },
 {
@@ -3502,6 +3652,7 @@
 "family": "shadow",
 "type": "armored",
 "name": "그림자 방패병",
+"trait": "그림자 방패로 피해를 깎는다",
 "firstGoal": false
 },
 {
@@ -3509,13 +3660,14 @@
 "family": "shadow",
 "type": "boss",
 "name": "균열의 거수",
+"trait": "균열을 지키는 거대한 짐승",
 "firstGoal": false
 }
 ]
 },
-"at": "2026-11-16 01:59",
-"branch": "fin-plan",
-"dirty": false
+"at": "2026-11-16 08:47",
+"branch": "fin-core",
+"dirty": true
 },
 "waves": {
 "data": {
@@ -4885,7 +5037,8 @@
 },
 "bounty": {
 "data": {
-"_note": "초안(2026-11-15). 균열(길 0번의 시작)에서 부르면 나오는 이름 있는 몬스터 6종. hp 는 웨이브 배율을 받지 않는 절대값, speedPct 는 baseSpeed 에 곱하는 %, reward 는 전원 균등 골드, unlockWave 는 그 웨이브가 시작된 뒤부터 부를 수 있다. 쿨타임은 economy.json 의 bountyCooldownTicks(전체 공통). 관문에 닿으면 목숨을 깎지 않고 사라진다.",
+"_note": "초안(2026-11-15). 균열(길 0번의 시작)에서 부르면 나오는 이름 있는 몬스터 6종. hp 는 웨이브 배율을 받지 않는 절대값, speedPct 는 baseSpeed 에 곱하는 %, reward 는 전원 균등 골드, unlockWave 는 그 웨이브가 시작된 뒤부터 부를 수 있다. 쿨타임은 economy.json 의 bountyCooldownTicks(전체 공통). 관문에 닿으면 목숨을 깎지 않고 사라진다. trait 는 몬스터 카드의 특징 한 줄, typeName 은 카드의 유형 이름(CD-0008).",
+"typeName": "현상금",
 "bounties": [
 {
 "id": "bounty_1",
@@ -4955,9 +5108,9 @@
 }
 ]
 },
-"at": "2026-11-16 01:59",
-"branch": "fin-plan",
-"dirty": false
+"at": "2026-11-16 08:47",
+"branch": "fin-core",
+"dirty": true
 },
 "box": {
 "data": {
@@ -6621,8 +6774,8 @@
 "file": "2026-11-16.md",
 "title": "2026-11-16",
 "html": "<h3>한 일</h3>\n<ul>\n<li>사용자가 그림 57장을 확정했다(결정 0032): 일러스트 24, 인게임 SD 24, 원화 3, 화면용 6.\n</li>\n<li>주문 CD-0006(판 밖 화면): 로딩·로비·캐릭터·박스 뽑기를 worktree <code>outgame</code> 에서 만들고, 인게임(CD-0005, 다른 세션, 커밋 bf8bcad)이 main 에 들어온 뒤 합쳤다. main = ee20ec1.\n<ul>\n<li>병합 충돌 3곳(GameApp, TempArtPostprocessor, SpriteCatalog)을 풀었다. 두 쪽이 그림 경로를 다르게 다루던 것(확장자 유무)을 이름표 기준으로 통일했고, 이름이 겹친 <code>Shake</code> 는 판 밖 것을 <code>OutgameShake</code> 로 바꿨다.\n</li>\n<li>판 밖 화면에 인게임의 UI 그림 세트를 입혔고, 앱을 켜면 첫 프레임부터 로딩 원화가 보이게 했다.\n</li></ul>\n</li>\n<li>빌드: PC <code>Builds/Windows/CoopDefense.exe</code>(약 143MB), 안드로이드 <code>Builds/Android/coopdefense-dev-arm64.apk</code>(37MB).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>합친 상태의 테스트: Core 126, EditMode 28, PlayMode 18 통과(건너뜀 2는 캡처용). main 에서 <code>python tools/studio.py check --unity</code> 통과(Core 126 · 데이터 · 그림 57장 · 설정 · EditMode 28/28). 독립 검수 PASS.\n</li>\n<li>PC 빌드를 직접 켜서: 로딩 원화 → 로비 → 박스 1장(D상, 코인 40→30, 남은 제비 79) → 로비 → 출전 → 새 판 화면에서 빈칸 소환(엘프 1단계가 서서 그림자 무리를 공격). 실행 로그에 오류 없음.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람(사용자) 플레이. 폰 설치와 터치로 제비 뜯기. 폰에서의 로딩 속도.\n</li>\n<li>worktree 에서 <code>unity test</code> CLI 는 13개만 돈 결과를 남겼다(직접 <code>-runTests</code> 로는 28개). main 에 합친 뒤 <code>studio.py check --unity</code> 는 28/28. CLI 가 worktree 가 아니라 main 체크아웃의 프로젝트를 돌린 것으로 보인다(증명은 못 함).\n</li>\n<li>판 화면 위 띠의 얼굴은 아직 기본 그림이다(대표 캐릭터를 읽지 않는다).\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: 빌드를 해 보고 피드백. 로비·박스·판 화면을 하나씩 다듬는다.\n</li>\n<li>육성(레벨·각성) 동작, 그림자 무리 군단 구성, 상위 성장 기획, 게임 이름.\n</li>\n<li>worktree <code>outgame</code> 은 main 에 다 들어갔다. 지워도 된다(사용자 확인 뒤).\n</li></ul>\n<h2>2026-11-16 새벽 — 밤사이 완성 묶음 (주문 CD-0007)</h2>\n<p>사용자가 자러 가며 «다른 세션이 끝나면 전체를 검토해 폴리싱하고, 만들려는 방향을 완성까지 개발해 빌드해 둬» 라고 했다. 인게임(CD-0005)·판 밖(CD-0006) 세션이 02:00 에 끝났고, 그 통합본 위에 줄기 <code>fin</code> 계열에서 만들어 main 에 합쳤다.</p>\n<h3>한 일</h3>\n<ul>\n<li>판 안: 종족별 강화(결정 0033), 캐릭터 레벨·각성의 피해 반영, 특성 24개(0034), 판이 진행될수록 높은 단계가 나오는 소환(0038), 난이도 단계 셋(0037), 웨이브 곡선을 내려가지 않게 다시 맞춤.\n</li>\n<li>판 밖: 레벨 업·각성, 업적 19·꾸밈 22(0035), 프로필, 설정·크레딧, 보상 단계(0036), 로비의 단계 고르기, 저장 구조 4.\n</li>\n<li>소리: CC0 효과음 59·음악 2 를 넣고 판 안팎에 연결. 전투 소리는 실시간 초당 7개로 묶음.\n</li>\n<li>연출·폴리싱: 종족별 공격 그림, 맞음·처치·소환·합성 연출, 상태 표시, 흔들림, 맵·HUD 다듬기, 첫 판 길잡이.\n</li>\n<li>모바일 대비: 앱이 뒤로 갈 때 저장·일시정지, 뒤로 가기, 버전 0.2.0.\n</li>\n<li>자동 한 바퀴 모드(<code>-cdAutoplay</code>)를 넣어 창을 누르지 않고 빌드를 검토했다.\n</li>\n<li>결정 0033~0038 은 전부 대표 초안이다(사용자 확인 대기, 각 결정에 되돌리는 법).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>Core 테스트 198, 유니티 EditMode 50, PlayMode 37 통과(건너뜀은 캡처·진단용). 데이터·그림 57장·설정 검사 통과. 독립 검수 PASS(사소 8).\n</li>\n<li>봇 20판: 보통 10승, 어려움·정예는 육성 단계별 목표 안. 4단계를 만든 판이 기본 봇 0 → 6, 몰아 키우는 봇 3 → 13.\n</li>\n<li>PC 빌드의 자동 한 바퀴: 로딩 → 로비 → 첫 판 → 결과 → 박스 10장 → 레벨 업 → 업적·프로필·설정 → 둘째 판, 끝 코드 0·문제 0. 레벨 업한 캐릭터가 다음 판에서 더 세다(테스트).\n</li>\n<li>소리 재생 수: 판 하나에서 7,701(초당 27) → 1,392(초당 7.6).\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람 플레이 0판. 창을 눌러 보지 못했다(조작 권한 승인을 받을 사람이 없었다).\n</li>\n<li>소리를 한 번도 듣지 못했다. 진동·터치·실기기·폰 설치.\n</li>\n<li>판 시작 프레임 끊김(약 320ms)이 남아 있다.\n</li>\n<li>새 그림은 0장이다(Codex 그림 상한 초과 상태라 부르지 않았다).\n</li></ul>\n<h3>사고</h3>\n<ul>\n<li>01:13 규칙 엔진 팀이 상대 경로 실수로 main 의 <code>GameConfig.cs</code> 를 덮어썼다가 2분쯤 뒤 원래 바이트로 되돌렸다. 그 뒤 팀에는 절대 경로로만 쓰게 했다.\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: 빌드(v0.2.0)를 해 보고 피드백, 소리 듣기, 결정 0033~0038 확인.\n</li>\n<li>협동(M4), 클라우드 저장·배포(계정 연결 뒤), 몬스터 유형 확장과 군단 구성, 판 시작 끊김, 그림(졸개 개성·꾸밈 본 그림·코인 아이콘).\n</li>\n<li>worktree <code>fin</code>·<code>fin-*</code> 여섯 개는 main 에 다 들어갔다. 지워도 된다(사용자 확인 뒤).\n</li></ul>",
-"at": "2026-11-16 04:19",
-"branch": "main"
+"at": "2026-11-16 08:36",
+"branch": "fin-outgame"
 },
 {
 "file": "2026-11-15.md",
@@ -6635,10 +6788,10 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-16 03:55",
-"passed": 198,
+"at": "2026-11-16 01:52",
+"passed": 126,
 "failed": 0,
-"total": 198,
+"total": 126,
 "ok": true
 },
 "unity": {
@@ -6651,7 +6804,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-16 03:55",
+"at": "2026-11-16 01:52",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -6659,7 +6812,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-16 03:55",
+"at": "2026-11-16 01:52",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -6667,7 +6820,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-16 03:55",
+"at": "2026-11-16 01:52",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -6767,7 +6920,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 04:19",
-"generatedAt": "2026-11-16 04:47",
-"digest": "7b5fb6fa1618fe5d"
+"sourceAt": "2026-11-16 08:47",
+"generatedAt": "2026-11-16 08:47",
+"digest": "cbac9f8826e207a1"
 }
