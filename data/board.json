@@ -945,15 +945,23 @@
 "msg": "결정 0011 갱신: 정식 명칭 «그림자 균열», 적은 그림자 무리"
 }
 ],
-"dirtyCount": 72,
+"dirtyCount": 74,
 "dirty": [
 {
 "file": "art/ingame/prompts.jsonl",
-"at": "2026-11-15 23:45"
+"at": "2026-11-15 23:47"
+},
+{
+"file": "Core/tests/WaveEconomyTests.cs",
+"at": "2026-11-15 23:47"
 },
 {
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-15 23:45"
+"at": "2026-11-15 23:46"
+},
+{
+"file": "art/ingame/raw/bounty/bounty_6.png",
+"at": "2026-11-15 23:46"
 },
 {
 "file": "Core/tests/SellForfeitTests.cs",
@@ -1018,18 +1026,10 @@
 {
 "file": "Core/package/Runtime/Match/SimpleBot.cs",
 "at": "2026-11-15 23:39"
-},
-{
-"file": "Core/package/Runtime/Match/GameMatch.Snapshot.cs",
-"at": "2026-11-15 23:38"
-},
-{
-"file": "art/ingame/gen.py",
-"at": "2026-11-15 23:38"
 }
 ],
-"lastEdit": "2026-11-15 23:45",
-"lastEditTs": 1794753936.2295046,
+"lastEdit": "2026-11-15 23:47",
+"lastEditTs": 1794754029.2580779,
 "lastCommitTs": 1794753385,
 "unpushed": 23,
 "today": 15
@@ -1132,8 +1132,16 @@
 "msg": "결정 0012: 캐릭터 24명 이름·성별·속성 없음·12세 아트 기준, CD-0004 2차 일러스트 시안"
 }
 ],
-"dirtyCount": 50,
+"dirtyCount": 52,
 "dirty": [
+{
+"file": "UnityProject/Assets/_Game/UI/LoadingScreen.cs",
+"at": "2026-11-15 23:46"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Portraits.cs",
+"at": "2026-11-15 23:45"
+},
 {
 "file": "UnityProject/Assets/_Game/UI/OutgameFx.cs",
 "at": "2026-11-15 23:45"
@@ -1205,18 +1213,10 @@
 {
 "file": "UnityProject/Assets/_Game/Art/Final/illust/human/2.png",
 "at": "2026-11-15 23:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/illust/human/1.png",
-"at": "2026-11-15 23:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/illust/elf/4.png",
-"at": "2026-11-15 23:43"
 }
 ],
-"lastEdit": "2026-11-15 23:45",
-"lastEditTs": 1794753935.2639747,
+"lastEdit": "2026-11-15 23:46",
+"lastEditTs": 1794753974.7088435,
 "lastCommitTs": 1794753271,
 "unpushed": 25,
 "today": 15
@@ -4217,7 +4217,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-15 23:45",
-"generatedAt": "2026-11-15 23:45",
-"digest": "c9807c313fd106a5"
+"sourceAt": "2026-11-15 23:47",
+"generatedAt": "2026-11-15 23:47",
+"digest": "d2f2dbb47bbe588b"
 }
