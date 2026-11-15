@@ -945,18 +945,30 @@
 "msg": "결정 0011 갱신: 정식 명칭 «그림자 균열», 적은 그림자 무리"
 }
 ],
-"dirtyCount": 69,
+"dirtyCount": 72,
 "dirty": [
 {
-"file": "Core/tests/ConfigTests.cs",
-"at": "2026-11-15 23:44"
-},
-{
 "file": "art/ingame/prompts.jsonl",
-"at": "2026-11-15 23:44"
+"at": "2026-11-15 23:45"
 },
 {
 "file": "studio/codex-usage.jsonl",
+"at": "2026-11-15 23:45"
+},
+{
+"file": "Core/tests/SellForfeitTests.cs",
+"at": "2026-11-15 23:45"
+},
+{
+"file": "art/ingame/raw/bounty/bounty_5.png",
+"at": "2026-11-15 23:45"
+},
+{
+"file": "Core/tests/ReplayTests.cs",
+"at": "2026-11-15 23:45"
+},
+{
+"file": "Core/tests/ConfigTests.cs",
 "at": "2026-11-15 23:44"
 },
 {
@@ -1014,22 +1026,10 @@
 {
 "file": "art/ingame/gen.py",
 "at": "2026-11-15 23:38"
-},
-{
-"file": "Core/package/Runtime/Match/Entities.cs",
-"at": "2026-11-15 23:38"
-},
-{
-"file": "art/ingame/raw/monster/shadow_behemoth.png",
-"at": "2026-11-15 23:38"
-},
-{
-"file": "Core/package/Runtime/Match/GameMatch.MissionsBounty.cs",
-"at": "2026-11-15 23:37"
 }
 ],
-"lastEdit": "2026-11-15 23:44",
-"lastEditTs": 1794753857.2444093,
+"lastEdit": "2026-11-15 23:45",
+"lastEditTs": 1794753936.2295046,
 "lastCommitTs": 1794753385,
 "unpushed": 23,
 "today": 15
@@ -1132,8 +1132,16 @@
 "msg": "결정 0012: 캐릭터 24명 이름·성별·속성 없음·12세 아트 기준, CD-0004 2차 일러스트 시안"
 }
 ],
-"dirtyCount": 48,
+"dirtyCount": 50,
 "dirty": [
+{
+"file": "UnityProject/Assets/_Game/UI/OutgameFx.cs",
+"at": "2026-11-15 23:45"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Theme.cs",
+"at": "2026-11-15 23:45"
+},
 {
 "file": "UnityProject/Assets/_Game/Outgame/OutgameState.cs",
 "at": "2026-11-15 23:43"
@@ -1205,18 +1213,10 @@
 {
 "file": "UnityProject/Assets/_Game/Art/Final/illust/elf/4.png",
 "at": "2026-11-15 23:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/illust/elf/3.png",
-"at": "2026-11-15 23:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/illust/elf/2.png",
-"at": "2026-11-15 23:43"
 }
 ],
-"lastEdit": "2026-11-15 23:43",
-"lastEditTs": 1794753823.7027817,
+"lastEdit": "2026-11-15 23:45",
+"lastEditTs": 1794753935.2639747,
 "lastCommitTs": 1794753271,
 "unpushed": 25,
 "today": 15
@@ -4184,8 +4184,8 @@
 "sizeMB": 99.9,
 "branch": "main",
 "local": "Builds\\Windows\\CoopDefense.exe",
-"release": "",
-"tag": ""
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261115-2013",
+"tag": "build-windows-20261115-2013"
 },
 {
 "kind": "android",
@@ -4194,13 +4194,30 @@
 "sizeMB": 28.9,
 "branch": "main",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "",
-"tag": ""
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261115-1624",
+"tag": "build-android-20261115-1624"
 }
 ],
-"buildHistory": [],
+"buildHistory": [
+{
+"tag": "build-windows-20261115-2013",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261115-2013",
+"kind": "windows",
+"at": "2026-11-15 20:13",
+"branch": "main",
+"sizeMB": 37.0
+},
+{
+"tag": "build-android-20261115-1624",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261115-1624",
+"kind": "android",
+"at": "2026-11-15 16:24",
+"branch": "main",
+"sizeMB": 28.9
+}
+],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-15 23:44",
-"generatedAt": "2026-11-15 23:44",
-"digest": "7f40b692a9af2e14"
+"sourceAt": "2026-11-15 23:45",
+"generatedAt": "2026-11-15 23:45",
+"digest": "c9807c313fd106a5"
 }
