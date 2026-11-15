@@ -1044,8 +1044,14 @@
 "lane": "fin",
 "session": "",
 "owns": "",
-"head": "67444ff",
+"head": "6ebfa4e",
 "commits": [
+{
+"sha": "6ebfa4e",
+"at": "2026-11-16 03:27",
+"ts": 1794767246,
+"msg": "CD-0007 U3 4단계 판 밖: 모바일 대비 — 뒤로 가기, 앱 멈춤, 버전 0.2.0(2), 안전 영역 확인"
+},
 {
 "sha": "67444ff",
 "at": "2026-11-16 03:14",
@@ -1129,20 +1135,14 @@
 "at": "2026-11-16 02:11",
 "ts": 1794762687,
 "msg": "Merge branch 'fin-outgame' into fin"
-},
-{
-"sha": "303959e",
-"at": "2026-11-16 02:11",
-"ts": 1794762663,
-"msg": "fin 병합: 판 안·판 밖 규칙, 문서, main 최종본 — 결과 화면 충돌 해소(위치는 인게임, 코인 아이콘은 ui/icon_coin), 코인 계산 글을 단계 보상에 맞춤"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1794766448,
-"unpushed": 68,
+"lastCommitTs": 1794767246,
+"unpushed": 69,
 "today": 15
 },
 {
@@ -1349,91 +1349,91 @@
 "msg": "CD-0007 U1+A1: 소리 반입·연결, 공격/맞음/처치/소환/합성 연출, 맵·HUD 다듬기 (1차 I1~I4)"
 }
 ],
-"dirtyCount": 20,
+"dirtyCount": 60,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/MatchScreen.cs",
-"at": "2026-11-16 03:16"
+"file": "UnityProject/Assets/InitTestScenee9a451cd-6cd7-4450-8302-28b0a838204e.unity.meta",
+"at": "2026-11-16 03:42"
+},
+{
+"file": "UnityProject/Assets/InitTestScenee9a451cd-6cd7-4450-8302-28b0a838204e.unity",
+"at": "2026-11-16 03:42"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-16 03:42"
 },
 {
 "file": "UnityProject/Assets/_Game/View/InGamePrewarm.cs",
-"at": "2026-11-16 03:16"
+"at": "2026-11-16 03:38"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/InGameTwoTests.cs",
-"at": "2026-11-16 03:15"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/11_result_win_1080x2400.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/InitTestScene2f360af8-9129-4896-99ca-ea30e60682b4.unity.meta",
-"at": "2026-11-16 03:15"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/11_result_win.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/InitTestScene2f360af8-9129-4896-99ca-ea30e60682b4.unity",
-"at": "2026-11-16 03:15"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/09_menu_1080x2400.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-16 03:15"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/09_menu.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-16 03:15"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/08_life_1080x2400.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/AutoTourMeasureTests.cs.meta",
-"at": "2026-11-16 03:15"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/08_life.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/View/FrameWatch.cs.meta",
-"at": "2026-11-16 03:15"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/07_bounty_on_1080x2400.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/AutoTourMeasureTests.cs",
-"at": "2026-11-16 03:14"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/07_bounty_on.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ResultScreen.cs",
-"at": "2026-11-16 03:14"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/06_bounty_1080x2400.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/Audio/Bgm.cs",
-"at": "2026-11-16 03:14"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/06_bounty.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/Audio/Sfx.cs",
-"at": "2026-11-16 03:14"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/05_mission_1080x2400.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/Match/Skin.cs",
-"at": "2026-11-16 03:14"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/05_mission.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/View/FxArt.cs",
-"at": "2026-11-16 03:14"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/04_drag_1080x2400.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/View/FrameWatch.cs",
-"at": "2026-11-16 03:14"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/04_drag.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/View/BoardView.cs",
-"at": "2026-11-16 03:13"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/03b_merge_1080x2400.png",
+"at": "2026-11-16 03:36"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/Match/SystemBar.cs",
-"at": "2026-11-16 03:13"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/AudioFxTests.cs",
-"at": "2026-11-16 03:13"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/MatchAudio.cs",
-"at": "2026-11-16 03:13"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/shots/03b_merge.png",
+"at": "2026-11-16 03:36"
 }
 ],
-"lastEdit": "2026-11-16 03:16",
-"lastEditTs": 1794766574.0950587,
+"lastEdit": "2026-11-16 03:42",
+"lastEditTs": 1794768146.9326086,
 "lastCommitTs": 1794766237,
 "unpushed": 66,
 "today": 15
@@ -1549,8 +1549,14 @@
 "lane": "fin-outgame",
 "session": "",
 "owns": "",
-"head": "67444ff",
+"head": "6ebfa4e",
 "commits": [
+{
+"sha": "6ebfa4e",
+"at": "2026-11-16 03:27",
+"ts": 1794767246,
+"msg": "CD-0007 U3 4단계 판 밖: 모바일 대비 — 뒤로 가기, 앱 멈춤, 버전 0.2.0(2), 안전 영역 확인"
+},
 {
 "sha": "67444ff",
 "at": "2026-11-16 03:14",
@@ -1634,101 +1640,95 @@
 "at": "2026-11-16 02:11",
 "ts": 1794762687,
 "msg": "Merge branch 'fin-outgame' into fin"
-},
-{
-"sha": "303959e",
-"at": "2026-11-16 02:11",
-"ts": 1794762663,
-"msg": "fin 병합: 판 안·판 밖 규칙, 문서, main 최종본 — 결과 화면 충돌 해소(위치는 인게임, 코인 아이콘은 ui/icon_coin), 코인 계산 글을 단계 보상에 맞춤"
 }
 ],
-"dirtyCount": 156,
+"dirtyCount": 191,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/EditMode/OutgameStage2EditModeTests.cs",
-"at": "2026-11-16 03:17"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/40_match2_wave5.png",
+"at": "2026-11-16 03:26"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameStage4FlowTests.cs",
-"at": "2026-11-16 03:17"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/39_match2_t080s.png",
+"at": "2026-11-16 03:26"
 },
 {
-"file": "UnityProject/Assets/_Game/Editor/ProjectSetup.cs",
-"at": "2026-11-16 03:16"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/38_match2_t060s.png",
+"at": "2026-11-16 03:26"
 },
 {
-"file": "UnityProject/Assets/_Game/App/GameApp.cs",
-"at": "2026-11-16 03:16"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/37_match2_t040s.png",
+"at": "2026-11-16 03:26"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
-"at": "2026-11-16 03:15"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/36_match2_t020s.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/BoxDrawOverlay.cs",
-"at": "2026-11-16 03:15"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/35_match2_t000s.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed2/player.log",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/34_stage_locked.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed2/52_match2_wave5.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/33_settings.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed2/51_match2_t080s.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/32_profile.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed1/player.log",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/31_achievements.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed1/51_match2_wave5.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/30_characters_after.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed1/50_match2_t080s.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/save/player.json",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed2/50_match2_t060s.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/29_level_up_human_1.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed1/49_match2_t060s.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/28_characters.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed2/49_match2_t040s.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/27_box_after.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed1/48_match2_t040s.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/26_box_choose.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed2/48_match2_t020s.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/25_box_ten_open.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed1/47_match2_t020s.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/24_box_ten.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed2/47_match2_t000s.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/23_box.png",
+"at": "2026-11-16 03:25"
 },
 {
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-pc-seed2/46_stage_gate_01_hard.png",
-"at": "2026-11-16 02:55"
+"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/autoplay-editor/22_match1_lobby.png",
+"at": "2026-11-16 03:25"
 }
 ],
-"lastEdit": "2026-11-16 03:17",
-"lastEditTs": 1794766652.0004761,
-"lastCommitTs": 1794766448,
-"unpushed": 68,
+"lastEdit": "2026-11-16 03:26",
+"lastEditTs": 1794767191.2412114,
+"lastCommitTs": 1794767246,
+"unpushed": 69,
 "today": 15
 },
 {
@@ -2475,8 +2475,8 @@
 {
 "id": "CD-0007",
 "title": "완성 묶음 육성 강화 업적 소리 연출 폴리싱 빌드",
-"branch": "fin-outgame",
-"updated": "2026-11-16 03:14",
+"branch": "fin",
+"updated": "2026-11-16 03:27",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -2486,6 +2486,7 @@
 "22-art.md",
 "23-client-ingame.md",
 "23-client-outgame.md",
+"autoplay-editor",
 "autoplay-pc",
 "autoplay-pc-seed1",
 "autoplay-pc-seed2",
@@ -6708,7 +6709,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 03:17",
-"generatedAt": "2026-11-16 03:17",
-"digest": "9b1fd2e42fe1f569"
+"sourceAt": "2026-11-16 03:42",
+"generatedAt": "2026-11-16 03:47",
+"digest": "c1ec31627e9da036"
 }
