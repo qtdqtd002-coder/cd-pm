@@ -1,0 +1,26 @@
+{
+  "_note": "PM 이 손으로 쓰는 판단·메모. 수집기(sync)가 board.json 에 그대로 싣는다. taskStatus 는 주문 작업의 상태를 PM 이 확인해 덮어쓸 때만 쓴다(키 = 주문ID/작업번호).",
+  "updated": "2026-11-16 00:00",
+  "goal": "M1 첫 목표(로비 + 싱글 한 판)를 실서비스 품질의 인게임 화면(CD-0005)과 판 밖 화면(CD-0006)으로 끌어올리고, 두 줄기를 합친 PC·안드로이드 빌드를 사람이 직접 플레이한다.",
+  "focus": [
+    "인게임 줄기(main): CD-0005 인게임 구현 — 결정 0015~0019 반영, 미션·현상금·새 맵 규격",
+    "판 밖 줄기(outgame): CD-0006 로딩·로비·캐릭터·박스 뽑기 + 셀화풍 그림 반입, 마지막에 main 병합과 최종 빌드"
+  ],
+  "risks": [
+    {"level": "high", "text": "사람 플레이 0판 — M1 마감 기준(직접 5판·피드백)이 아직 열리지 않았다"},
+    {"level": "mid", "text": "두 줄기가 Data/·milestones.json·devlog 를 함께 쓴다 — 병합(CD-0006 I-1) 때 충돌 정리 필요"},
+    {"level": "mid", "text": "origin/main 이 로컬보다 크게 뒤처짐(미푸시) — PC 고장 시 작업 유실 위험"},
+    {"level": "mid", "text": "계정 연결(Unity·Firebase·폰 USB 디버깅) 대기 — 클라우드 저장·배포(M1-13~15)가 막혀 있다"}
+  ],
+  "lanes": {
+    "main": {"name": "인게임", "owns": "MatchScreen·BoardView·Core 판 규칙·Data 판 수치 · 주문 CD-0005"},
+    "outgame": {"name": "판 밖·리소스", "owns": "GameApp·Save·Core/Meta·Data/box.json·그림 반입·최종 빌드 · 주문 CD-0006"}
+  },
+  "watch": [],
+  "taskStatus": {
+    "CD-0005/P1": {"status": "doing", "note": "docs/10·11·12 미커밋 수정 중", "at": "11-15 23:40"},
+    "CD-0005/C1": {"status": "doing", "note": "Core Match 7파일·MissionBountyConfig.cs 미커밋 작업 중", "at": "11-15 23:40"},
+    "CD-0005/A1": {"status": "doing", "note": "art/ingame/ 새 그림 폴더 미커밋", "at": "11-15 23:40"},
+    "CD-0006/A-1": {"status": "doing", "note": "일러스트 1~3단계 18장·로딩 원화·화면용 그림 시안 커밋(main), 확정·SD 24장 남음", "at": "11-15 23:40"}
+  }
+}

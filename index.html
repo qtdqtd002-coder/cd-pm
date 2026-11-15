@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>프로젝트CD PM</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --bg:#f6f5f2;--panel:#ffffff;--sunk:#efede8;--line:#e2dfd8;--line2:#d3cfc6;
+  --ink:#1d1c1a;--ink2:#55524c;--ink3:#8a867d;
+  --acc:#2f5bd3;--acc-soft:#e6ecfb;
+  --ok:#1f8a5b;--ok-soft:#e2f3ea;--warn:#b7791f;--warn-soft:#fbf0dc;--bad:#c2413a;--bad-soft:#fbe5e3;--doing:#6d4bd1;--doing-soft:#eee8fb;
+  --r:10px;--shadow:0 1px 0 rgba(0,0,0,.03),0 1px 3px rgba(0,0,0,.05);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141413;--panel:#1d1c1b;--sunk:#252422;--line:#2f2d2a;--line2:#3c3a36;
+  --ink:#eeebe5;--ink2:#b3aea4;--ink3:#7f7a71;
+  --acc:#7d9cf5;--acc-soft:#232c46;
+  --ok:#5cc596;--ok-soft:#1b3328;--warn:#e0a84c;--warn-soft:#382c17;--bad:#ef7d75;--bad-soft:#3d2120;--doing:#a991f2;--doing-soft:#2b2442;
+  --shadow:none;color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#141413;--panel:#1d1c1b;--sunk:#252422;--line:#2f2d2a;--line2:#3c3a36;
+  --ink:#eeebe5;--ink2:#b3aea4;--ink3:#7f7a71;
+  --acc:#7d9cf5;--acc-soft:#232c46;
+  --ok:#5cc596;--ok-soft:#1b3328;--warn:#e0a84c;--warn-soft:#382c17;--bad:#ef7d75;--bad-soft:#3d2120;--doing:#a991f2;--doing-soft:#2b2442;
+  --shadow:none;color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 "Pretendard Variable",Pretendard,-apple-system,"Segoe UI","Malgun Gothic",sans-serif;font-feature-settings:"tnum"}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+code{font:12.5px/1.4 ui-monospace,Consolas,monospace;background:var(--sunk);padding:1px 5px;border-radius:4px;word-break:break-all}
+header.top{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{max-width:1320px;margin:0 auto;padding:10px 20px 0;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{font-weight:750;font-size:16px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px}
+.brand i{display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--acc)}
+.meta{margin-left:auto;color:var(--ink3);font-size:12px;display:flex;gap:12px;align-items:center}
+.meta button{border:1px solid var(--line2);background:var(--panel);color:var(--ink2);border-radius:7px;padding:3px 8px;font:inherit;cursor:pointer}
+nav.tabs{max-width:1320px;margin:0 auto;padding:6px 14px 0;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs a{padding:8px 11px 9px;color:var(--ink2);border-bottom:2px solid transparent;white-space:nowrap;font-weight:550;font-size:13.5px}
+nav.tabs a:hover{color:var(--ink);text-decoration:none}
+nav.tabs a.on{color:var(--ink);border-color:var(--acc)}
+nav.tabs a .n{font-size:11px;color:var(--ink3);margin-left:4px;font-weight:500}
+main{max-width:1320px;margin:0 auto;padding:22px 20px 60px}
+h1{font-size:22px;margin:0 0 4px;letter-spacing:-.02em}
+h2{font-size:16px;margin:0 0 12px;letter-spacing:-.01em}
+h3{font-size:14px;margin:0 0 8px}
+.sub{color:var(--ink2);margin:0 0 18px;max-width:80ch}
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(420px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(170px,1fr));margin-bottom:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:var(--shadow);min-width:0}
+.kpi .l{color:var(--ink3);font-size:12px}.kpi .v{font-size:24px;font-weight:700;letter-spacing:-.02em;line-height:1.3}.kpi .s{color:var(--ink2);font-size:12px}
+.prog{height:6px;background:var(--sunk);border-radius:9px;overflow:hidden;margin-top:6px}.prog>i{display:block;height:100%;background:var(--acc);border-radius:9px}
+.chip{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;font-weight:600;padding:1px 8px;border-radius:99px;background:var(--sunk);color:var(--ink2);white-space:nowrap;line-height:1.7}
+.c-done{background:var(--ok-soft);color:var(--ok)}.c-doing{background:var(--doing-soft);color:var(--doing)}.c-wait{background:var(--warn-soft);color:var(--warn)}.c-todo{background:var(--sunk);color:var(--ink2)}.c-bad{background:var(--bad-soft);color:var(--bad)}.c-acc{background:var(--acc-soft);color:var(--acc)}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;background:var(--ink3)}.dot.live{background:var(--ok);box-shadow:0 0 0 3px var(--ok-soft)}
+ul.plain{list-style:none;margin:0;padding:0}ul.plain li{padding:7px 0;border-top:1px solid var(--line)}ul.plain li:first-child{border-top:0}
+.row{display:flex;gap:8px;align-items:baseline}.row .grow{flex:1;min-width:0}
+.muted{color:var(--ink3)}.small{font-size:12px}
+.risk-high{border-left:3px solid var(--bad);padding-left:10px}.risk-mid{border-left:3px solid var(--warn);padding-left:10px}.risk-low{border-left:3px solid var(--line2);padding-left:10px}
+/* 칸반 */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+.filters select,.filters input{font:inherit;font-size:13px;padding:6px 9px;border:1px solid var(--line2);border-radius:8px;background:var(--panel);color:var(--ink)}
+.filters label{font-size:12.5px;color:var(--ink2);display:flex;gap:5px;align-items:center}
+.kanban{display:grid;grid-template-columns:repeat(4,minmax(240px,1fr));gap:12px;align-items:start;overflow-x:auto}
+.col{background:var(--sunk);border-radius:var(--r);padding:10px;min-height:120px}
+.col h3{display:flex;justify-content:space-between;font-size:13px;padding:2px 4px 8px;margin:0}
+.k{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:9px 10px;margin-bottom:8px;box-shadow:var(--shadow)}
+.k .t{font-weight:560;font-size:13.5px;line-height:1.45}
+.k .m{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
+.k .w{font-size:11.5px;color:var(--ink3);margin-top:5px}
+.more{width:100%;font:inherit;font-size:12.5px;padding:6px;border:1px dashed var(--line2);background:none;border-radius:8px;color:var(--ink2);cursor:pointer}
+/* 표 */
+.tw{overflow-x:auto;margin:8px 0 14px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border-bottom:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--ink2);font-weight:600;background:var(--sunk);white-space:nowrap}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* 문서 */
+.doclay{display:grid;grid-template-columns:240px 1fr;gap:18px;align-items:start}
+.toc{position:sticky;top:110px;display:flex;flex-direction:column;gap:2px}
+.toc a{padding:7px 10px;border-radius:7px;color:var(--ink2);font-size:13px}.toc a.on{background:var(--panel);color:var(--ink);border:1px solid var(--line)}
+.prose{max-width:860px}
+.prose h2{font-size:15.5px;margin:22px 0 8px;padding-top:12px;border-top:1px solid var(--line)}
+.prose h2:first-child{border-top:0;margin-top:0;padding-top:0}
+.prose h3,.prose h4{font-size:14px;margin:16px 0 6px}
+.prose p,.prose li{color:var(--ink)}
+.prose ul,.prose ol{padding-left:20px;margin:6px 0}
+.prose blockquote{margin:8px 0;padding:6px 12px;border-left:3px solid var(--line2);color:var(--ink2)}
+.prose pre{background:var(--sunk);padding:10px;border-radius:8px;overflow-x:auto}
+.src{font-size:11.5px;color:var(--ink3);margin:-4px 0 12px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+details{border-top:1px solid var(--line);padding:8px 0}details:first-of-type{border-top:0}
+summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:baseline}summary::-webkit-details-marker{display:none}
+summary .id{font-variant-numeric:tabular-nums;color:var(--ink3);font-size:12px;min-width:34px}
+.stages{display:flex;gap:4px;margin:8px 0 12px;flex-wrap:wrap}
+.stages span{font-size:11.5px;padding:2px 9px;border-radius:99px;background:var(--sunk);color:var(--ink3)}
+.stages span.past{background:var(--acc-soft);color:var(--acc)}.stages span.now{background:var(--acc);color:#fff}
+.ms{display:grid;grid-template-columns:64px 1fr;gap:14px;padding:14px 0;border-top:1px solid var(--line)}
+.ms:first-child{border-top:0}
+.ms .mid{font-weight:750;font-size:18px;color:var(--ink3)}.ms.active .mid{color:var(--acc)}.ms.done .mid{color:var(--ok)}
+.check{display:flex;gap:7px;align-items:flex-start;font-size:13px;padding:2px 0}
+.check b{flex:none;width:15px;height:15px;border-radius:4px;border:1.5px solid var(--line2);margin-top:3px;display:grid;place-items:center;font-size:10px}
+.check.y b{background:var(--ok);border-color:var(--ok);color:#fff}
+.empty{color:var(--ink3);padding:20px;text-align:center}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:8px;background:var(--acc);color:#fff;font-weight:600;font-size:13px}
+.btn:hover{text-decoration:none;filter:brightness(1.08)}
+.btn.ghost{background:none;color:var(--ink2);border:1px solid var(--line2)}
+.stat-chips{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 10px}
+.err{background:var(--bad-soft);color:var(--bad);padding:12px;border-radius:8px}
+@media (max-width:760px){
+  .bar{padding:10px 16px 0}.meta{margin-left:0;width:100%}
+  main{padding:16px 16px 50px}
+  .g2,.g3{grid-template-columns:1fr}
+  .kanban{grid-template-columns:repeat(4,minmax(78vw,1fr))}
+  .doclay{grid-template-columns:1fr}.toc{position:static;flex-direction:row;overflow-x:auto}.toc a{white-space:nowrap}
+  .ms{grid-template-columns:1fr;gap:4px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <div class="brand"><i></i><span id="pname">프로젝트CD</span><span class="muted small" style="font-weight:500">PM</span></div>
+    <div class="meta"><span id="stamp">불러오는 중…</span><button id="theme" type="button" aria-label="화면 밝기 바꾸기">밝기</button></div>
+  </div>
+  <nav class="tabs" id="tabs"></nav>
+</header>
+<main id="app"><div class="empty">불러오는 중…</div></main>
+<script>
+(function(){
+"use strict";
+var B=null, VIEW={};
+var TABS=[["overview","개요"],["kanban","칸반"],["milestones","마일스톤"],["orders","주문"],["resources","리소스"],["system","시스템"],["balance","밸런스"],["content","콘텐츠"],["decisions","결정"],["builds","빌드"],["log","기록"]];
+var ST={todo:"할 일",doing:"진행 중",wait:"사용자 대기",done:"완료",active:"진행 중"};
+var TEAM={"대표":"대표","사용자":"사용자",planning:"기획",core:"Core",client:"클라이언트",art:"아트",qa:"QA",member:"팀원"};
+var RACE={human:"인간",elf:"엘프",dwarf:"드워프",beast:"수인",spirit:"정령",dragon:"용족"};
+var ART_ST={planned:["계획","c-todo"],draft:["시안","c-wait"],confirmed:["확정본","c-acc"],ingame:["게임 반입","c-done"],temp:["임시 그림","c-todo"],final:["본 그림","c-done"],none:["없음","c-bad"]};
+
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function chip(st,label){var c={done:"c-done",doing:"c-doing",wait:"c-wait",todo:"c-todo",active:"c-doing"}[st]||"c-todo";return '<span class="chip '+c+'">'+esc(label||ST[st]||st)+'</span>'}
+function team(t){return TEAM[t]||t}
+function src(o){if(!o)return"";return '<div class="src"><span>'+esc(o.at||"")+'</span><span class="chip">'+esc(lane(o.branch))+'</span>'+(o.dirty?'<span class="chip c-wait">미커밋 작업 반영</span>':'')+'</div>'}
+function lane(br){var t=(B.trees||[]).filter(function(x){return x.branch===br})[0];return t?t.lane+" 줄기":br}
+function pct(a,b){return b?Math.round(a*100/b):0}
+function $(s){return document.querySelector(s)}
+
+/* ---------- 개요 ---------- */
+function vOverview(){
+  var ms=B.milestones||[], act=ms.filter(function(m){return m.status==="active"})[0]||ms[0]||{};
+  var mt=act.tasks||[], md=mt.filter(function(t){return t.status==="done"}).length;
+  var ex=act.exit||[], ed=ex.filter(function(e){return e.done}).length;
+  var open=(B.orders||[]).filter(function(o){return !(o.closed||o.stage==="마감"||o.stage==="완료")});
+  var ck=B.checks||{}, ckk=Object.keys(ck), ckok=ckk.filter(function(k){return ck[k].ok}).length;
+  var pend=B.pending||[], pm=B.pm||{};
+  var h='<h1>'+esc((B.project||{}).name||"프로젝트CD")+'</h1><p class="sub">'+esc((B.project||{}).summary||"")+'</p>';
+  h+='<div class="grid kpis">';
+  h+=kpi("현재 마일스톤",esc(act.id||"-"),esc(act.title||""),pct(md,mt.length));
+  h+=kpi("마일스톤 업무",md+" / "+mt.length,"완료 기준 "+ed+" / "+ex.length,pct(md,mt.length));
+  h+=kpi("열린 주문",open.length,open.map(function(o){return o.id}).join(" · "));
+  h+=kpi("사용자 대기",pend.length,"결정·확인이 필요한 항목");
+  h+=kpi("자동 검사",ckok+" / "+ckk.length,ckk.length&&ckok===ckk.length?"전부 통과":"실패 있음",null,ckk.length&&ckok!==ckk.length);
+  h+='</div><div class="grid g2">';
+  h+='<section class="card"><h2>작업 목표</h2><p style="margin-top:0">'+esc(pm.goal||act.goal||"")+'</p>';
+  if(pm.focus&&pm.focus.length)h+='<h3>지금 집중</h3><ul class="plain">'+pm.focus.map(function(f){return'<li>'+esc(f)+'</li>'}).join("")+'</ul>';
+  h+='</section>';
+  h+='<section class="card"><h2>위험</h2>'+((pm.risks||[]).length?'<ul class="plain">'+pm.risks.map(function(r){return'<li class="risk-'+esc(r.level)+'">'+esc(r.text)+'</li>'}).join("")+'</ul>':'<div class="empty">없음</div>')+'</section>';
+  h+='</div><h2 style="margin-top:22px">작업 줄기</h2><div class="grid g2">';
+  (B.trees||[]).forEach(function(t){
+    var live=t.lastEditTs&&(Date.parse(B.generatedAt.replace(" ","T"))/1000-t.lastEditTs)<1800;
+    h+='<section class="card"><div class="row"><span class="dot'+(live?" live":"")+'"></span><h3 class="grow" style="margin:0">'+esc(t.lane)+' <span class="muted small">'+esc(t.branch)+'</span></h3>'+(live?'<span class="chip c-done">작업 중</span>':'<span class="chip">조용함</span>')+'</div>';
+    h+='<p class="small muted" style="margin:6px 0 10px">'+esc(t.owns||"")+'</p>';
+    h+='<div class="stat-chips"><span class="chip">미커밋 '+t.dirtyCount+'</span><span class="chip">오늘 커밋 '+t.today+'</span>'+(t.unpushed!=null?'<span class="chip '+(t.unpushed>10?"c-wait":"")+'">원격 미반영 '+t.unpushed+'</span>':'')+(t.lastEdit?'<span class="chip">마지막 수정 '+esc(t.lastEdit.slice(5))+'</span>':'')+'</div>';
+    h+='<ul class="plain small">'+t.commits.slice(0,5).map(function(c){return'<li class="row"><code>'+esc(c.sha)+'</code><span class="grow">'+esc(c.msg)+'</span><span class="muted">'+esc(c.at.slice(5))+'</span></li>'}).join("")+'</ul>';
+    if(t.dirty&&t.dirty.length)h+='<details><summary class="small muted">작업 중인 파일 '+t.dirtyCount+'개</summary><ul class="plain small">'+t.dirty.map(function(d){return'<li class="row"><span class="grow"><code>'+esc(d.file)+'</code></span><span class="muted">'+esc((d.at||"").slice(11))+'</span></li>'}).join("")+'</ul></details>';
+    h+='</section>';
+  });
+  h+='</div><h2 style="margin-top:22px">사용자 대기</h2><section class="card">'+(pend.length?'<ul class="plain">'+pend.map(function(p){return'<li><div class="row"><span class="chip c-wait">'+esc(p.id)+'</span><span class="grow"><b style="font-weight:600">'+esc(p.q)+'</b></span><span class="muted small">'+esc(p.when||"")+'</span></div>'+(p.rec?'<div class="small muted" style="margin:3px 0 0 2px">'+esc(p.rec)+'</div>':'')+'</li>'}).join("")+'</ul>':'<div class="empty">없음</div>')+'</section>';
+  return h;
+}
+function kpi(l,v,s,p,bad){return'<div class="card kpi"><div class="l">'+l+'</div><div class="v"'+(bad?' style="color:var(--bad)"':'')+'>'+v+'</div><div class="s">'+(s||"&nbsp;")+'</div>'+(p!=null?'<div class="prog"><i style="width:'+p+'%"></i></div>':'')+'</div>'}
+
+/* ---------- 칸반 ---------- */
+function cards(){
+  var out=[];
+  (B.milestones||[]).forEach(function(m){(m.tasks||[]).forEach(function(t){out.push({id:t.id,title:t.title,team:t.team,status:t.status,note:t.note||"",ms:m.id,from:"마일스톤 "+m.id,src:"ms"})})});
+  (B.orders||[]).forEach(function(o){(o.tasks||[]).forEach(function(t){out.push({id:o.id+" "+t.id,title:t.title,team:t.team,status:t.status,note:t.why||"",ms:o.milestone,from:o.id,src:"order",order:o.id,branch:o.branch})})});
+  return out;
+}
+function vKanban(){
+  var f=VIEW.k||(VIEW.k={ms:"open",team:"",src:"",q:""});
+  var all=cards(), mss=(B.milestones||[]);
+  var openMs=mss.filter(function(m){return m.status!=="done"}).map(function(m){return m.id});
+  var list=all.filter(function(c){
+    if(f.ms==="open"){if(c.src==="ms"&&openMs.indexOf(c.ms)<0)return false;if(c.src==="order"){var o=B.orders.filter(function(x){return x.id===c.order})[0];if(o&&(o.closed||o.stage==="마감"||o.stage==="완료"))return false}}
+    else if(f.ms&&c.ms!==f.ms)return false;
+    if(f.team&&c.team!==f.team)return false;
+    if(f.src&&c.src!==f.src)return false;
+    if(f.q&&(c.title+" "+c.id+" "+c.note).toLowerCase().indexOf(f.q.toLowerCase())<0)return false;
+    return true;
+  });
+  var teams=[];all.forEach(function(c){if(teams.indexOf(c.team)<0)teams.push(c.team)});
+  var h='<h1>칸반</h1><p class="sub">마일스톤 업무와 주문별 팀 작업을 한 판에 모았다. 주문 작업의 상태는 보고서·커밋 근거나 PM 확인으로 정해진다.</p>';
+  h+='<div class="filters"><select id="fms"><option value="open">열린 것만</option><option value="">전체</option>'+mss.map(function(m){return'<option value="'+esc(m.id)+'">'+esc(m.id+" "+m.title)+'</option>'}).join("")+'</select>';
+  h+='<select id="fteam"><option value="">모든 팀</option>'+teams.map(function(t){return'<option value="'+esc(t)+'">'+esc(team(t))+'</option>'}).join("")+'</select>';
+  h+='<select id="fsrc"><option value="">마일스톤+주문</option><option value="ms">마일스톤 업무</option><option value="order">주문 작업</option></select>';
+  h+='<input id="fq" type="search" placeholder="검색" value="'+esc(f.q)+'"><span class="muted small">'+list.length+'건</span></div>';
+  h+='<div class="kanban">';
+  ["todo","doing","wait","done"].forEach(function(s){
+    var cs=list.filter(function(c){return c.status===s||(s==="doing"&&c.status==="active")});
+    var lim=s==="done"&&!f.allDone?12:9999;
+    h+='<div class="col"><h3><span>'+ST[s]+'</span><span class="muted">'+cs.length+'</span></h3>';
+    cs.slice(0,lim).forEach(function(c){
+      h+='<div class="k"><div class="t">'+esc(c.title)+'</div><div class="m"><span class="chip c-acc">'+esc(c.from)+'</span><span class="chip">'+esc(team(c.team))+'</span><span class="chip muted">'+esc(c.src==="order"?c.id.split(" ")[1]:c.id)+'</span></div>'+(c.note?'<div class="w">'+esc(c.note)+'</div>':'')+'</div>';
+    });
+    if(cs.length>lim)h+='<button class="more" id="alldone">나머지 '+(cs.length-lim)+'건 보기</button>';
+    if(!cs.length)h+='<div class="empty small">없음</div>';
+    h+='</div>';
+  });
+  return h+'</div>';
+}
+function bindKanban(){
+  var f=VIEW.k;
+  $("#fms").value=f.ms;$("#fteam").value=f.team;$("#fsrc").value=f.src;
+  ["fms","fteam","fsrc"].forEach(function(id){$("#"+id).onchange=function(e){f[{fms:"ms",fteam:"team",fsrc:"src"}[id]]=e.target.value;render()}});
+  var q=$("#fq");q.oninput=function(){f.q=q.value;clearTimeout(q._t);q._t=setTimeout(function(){render();var n=$("#fq");n.focus();n.setSelectionRange(n.value.length,n.value.length)},250)};
+  var a=$("#alldone");if(a)a.onclick=function(){f.allDone=1;render()};
+}
+
+/* ---------- 마일스톤 ---------- */
+function vMilestones(){
+  var h='<h1>마일스톤</h1>'+src(B.milestonesSrc)+'<section class="card">';
+  (B.milestones||[]).forEach(function(m){
+    var t=m.tasks||[],d=t.filter(function(x){return x.status==="done"}).length;
+    h+='<div class="ms '+esc(m.status)+'"><div class="mid">'+esc(m.id)+'</div><div><div class="row"><h3 class="grow" style="margin:0;font-size:15px">'+esc(m.title)+'</h3>'+chip(m.status==="active"?"doing":m.status)+'</div>';
+    if(m.goal)h+='<p class="small" style="color:var(--ink2);margin:6px 0 8px">'+esc(m.goal)+'</p>';
+    h+='<div class="row small muted"><span>업무 '+d+' / '+t.length+'</span></div><div class="prog" style="max-width:420px"><i style="width:'+pct(d,t.length)+'%"></i></div>';
+    if(m.exit&&m.exit.length)h+='<div style="margin-top:10px"><div class="small muted" style="margin-bottom:2px">완료 기준</div>'+m.exit.map(function(e){return'<div class="check'+(e.done?" y":"")+'"><b>'+(e.done?"✓":"")+'</b><span>'+esc(e.text)+'</span></div>'}).join("")+'</div>';
+    h+='</div></div>';
+  });
+  return h+'</section>';
+}
+
+/* ---------- 주문 ---------- */
+var STAGES=["접수","기획","제작","검수","마감"];
+function vOrders(){
+  var h='<h1>주문</h1>';
+  (B.orders||[]).slice().reverse().forEach(function(o){
+    var si=STAGES.indexOf(o.stage==="완료"?"마감":o.stage);
+    var d=o.tasks.filter(function(t){return t.status==="done"}).length;
+    h+='<section class="card" style="margin-bottom:14px"><div class="row"><h2 class="grow" style="margin:0">'+esc(o.id)+' <span style="font-weight:600">'+esc(o.title)+'</span></h2><span class="chip">'+esc(lane(o.branch))+'</span><span class="chip c-acc">'+esc(o.milestone)+'</span></div>';
+    h+='<div class="stages">'+STAGES.map(function(s,i){return'<span class="'+(i<si?"past":i===si?"now":"")+'">'+s+'</span>'}).join("")+'</div>';
+    h+='<div class="small muted">열림 '+esc(o.opened)+(o.closed?' · 마감 '+esc(o.closed):'')+' · 팀 '+esc((o.teams||[]).map(team).join(", "))+' · 위험 '+esc(o.risk||"-")+' · 갱신 '+esc(o.updated)+'</div>';
+    if(o.goal)h+='<div class="prose small" style="margin-top:8px">'+o.goal+'</div>';
+    if(o.tasks.length){h+='<div class="tw"><table><thead><tr><th>번호</th><th>팀</th><th>할 일</th><th>상태</th><th>근거</th></tr></thead><tbody>'+o.tasks.map(function(t){return'<tr><td>'+esc(t.id)+'</td><td>'+esc(team(t.team))+'</td><td>'+esc(t.title)+'<div class="small muted">'+esc(t.output)+'</div></td><td>'+chip(t.status)+'</td><td class="small muted">'+esc(t.why)+'</td></tr>'}).join("")+'</tbody></table></div><div class="small muted">작업 '+d+' / '+o.tasks.length+'</div>'}
+    h+='</section>';
+  });
+  return h;
+}
+
+/* ---------- 리소스 ---------- */
+function vResources(){
+  var a=B.art||{}, m=a.manifest, h='<h1>리소스</h1>';
+  if(m){
+    h+=src(m);
+    var cnt={};m.items.forEach(function(i){cnt[i.status]=(cnt[i.status]||0)+1});
+    h+='<div class="grid kpis">'+["planned","draft","confirmed","ingame"].map(function(s){return kpi(ART_ST[s][0],cnt[s]||0,"전체 "+m.items.length+"개 중",pct(cnt[s]||0,m.items.length))}).join("")+'</div>';
+    m.groups.forEach(function(g){
+      var its=m.items.filter(function(i){return i.group===g.id});
+      var gc={};its.forEach(function(i){gc[i.status]=(gc[i.status]||0)+1});
+      h+='<section class="card" style="margin-bottom:14px"><div class="row"><h2 class="grow" style="margin:0">'+esc(g.title)+'</h2><span class="muted small">'+its.length+'개</span></div><div class="small muted" style="margin:2px 0 6px">'+esc(g.note||"")+'</div><div class="stat-chips">'+Object.keys(gc).map(function(s){var x=ART_ST[s]||[s,""];return'<span class="chip '+x[1]+'">'+x[0]+' '+gc[s]+'</span>'}).join("")+'</div>';
+      h+=its.length?'<div class="tw"><table><thead><tr><th>이름표</th><th>제목</th><th>설명</th><th>상태</th></tr></thead><tbody>'+its.map(function(i){var x=ART_ST[i.status]||[i.status,""];return'<tr><td><code>'+esc(i.id)+'</code></td><td>'+esc(i.title)+'</td><td class="small">'+esc(i.brief||"")+'</td><td><span class="chip '+x[1]+'">'+x[0]+'</span></td></tr>'}).join("")+'</tbody></table></div>':'<div class="empty small">아직 목록 없음</div>';
+      h+='</section>';
+    });
+  }
+  if(a.assets){
+    var by={};a.assets.items.forEach(function(i){var k=i.kind;by[k]=by[k]||{};by[k][i.state]=(by[k][i.state]||0)+1});
+    h+='<section class="card"><h2>게임 안 그림 이름표 (Data/assets.json)</h2>'+src(a.assets)+'<div class="tw"><table><thead><tr><th>종류</th><th class="num">없음</th><th class="num">임시</th><th class="num">본 그림</th></tr></thead><tbody>'+Object.keys(by).map(function(k){return'<tr><td>'+esc(k)+'</td><td class="num">'+(by[k].none||0)+'</td><td class="num">'+(by[k].temp||0)+'</td><td class="num">'+(by[k].final||0)+'</td></tr>'}).join("")+'</tbody></table></div></section>';
+  }
+  return h;
+}
+
+/* ---------- 문서 ---------- */
+function vDocs(tab,title,extra){
+  var docs=(B.docs||[]).filter(function(d){return d.tab===tab});
+  var k="doc_"+tab, cur=VIEW[k]==null?0:VIEW[k];
+  var h='<h1>'+title+'</h1>';
+  var items=docs.map(function(d){return{t:d.title,html:'<div class="prose">'+src(d)+d.html+'</div>'}});
+  if(extra)items=extra.concat(items);
+  if(cur>=items.length)cur=0;
+  h+='<div class="doclay"><div class="toc">'+items.map(function(d,i){return'<a href="#" data-doc="'+i+'" class="'+(i===cur?"on":"")+'">'+esc(d.t)+'</a>'}).join("")+'</div><section class="card">'+(items[cur]?items[cur].html:'<div class="empty">문서 없음</div>')+'</section></div>';
+  return h;
+}
+function bindDocs(tab){document.querySelectorAll("[data-doc]").forEach(function(a){a.onclick=function(e){e.preventDefault();VIEW["doc_"+tab]=+a.getAttribute("data-doc");render();window.scrollTo(0,0)}})}
+
+/* ---------- 밸런스 ---------- */
+function D(n){var x=(B.data||{})[n];return x&&x.data?x.data:null}
+function tbl(head,rows,numCols){numCols=numCols||[];return'<div class="tw"><table><thead><tr>'+head.map(function(h,i){return'<th'+(numCols.indexOf(i)>=0?' class="num"':'')+'>'+esc(h)+'</th>'}).join("")+'</tr></thead><tbody>'+rows.map(function(r){return'<tr>'+r.map(function(c,i){return'<td'+(numCols.indexOf(i)>=0?' class="num"':'')+'>'+(c&&c.__html?c.__html:esc(c))+'</td>'}).join("")+'</tr>'}).join("")+'</tbody></table></div>'}
+function H(s){return{__html:s}}
+function fmt(n,d){if(typeof n!=="number")return n;return n.toLocaleString("ko-KR",{maximumFractionDigits:d==null?1:d})}
+function kv(o){if(o==null)return"";if(typeof o!=="object")return esc(o);if(Array.isArray(o))return o.every(function(x){return typeof x!=="object"})?esc(o.join(", ")):o.map(kv).join("<hr style='border:0;border-top:1px solid var(--line)'>");return'<table>'+Object.keys(o).filter(function(k){return k!=="_note"}).map(function(k){return'<tr><th style="width:34%;white-space:normal">'+esc(k)+'</th><td>'+kv(o[k])+'</td></tr>'}).join("")+'</table>'}
+function bsec(name,title,body){var x=(B.data||{})[name];if(!x)return"";var note=x.data&&x.data._note;return'<section class="card" style="margin-bottom:14px" id="b-'+name+'"><div class="row"><h2 class="grow" style="margin:0">'+esc(title)+'</h2><code>Data/'+name+'.json</code></div>'+src(x)+(note?'<p class="small muted" style="margin:0 0 8px">'+esc(note)+'</p>':'')+(x.error?'<div class="err">'+esc(x.error)+'</div>':body())+'</section>'}
+function vBalance(){
+  var eco=D("economy")||{}, tps=eco.ticksPerSecond||20;
+  var h='<h1>밸런스</h1><p class="sub">수치 정본 <code>Data/*.json</code> 을 표로 풀었다. 초당 피해(DPS)는 피해 ÷ 공격 간격(초당 '+tps+'틱 기준)으로 계산한 값이고 방어·범위·특수 효과는 넣지 않았다.</p>';
+  h+='<div class="filters">'+[["units","종족"],["economy","경제"],["summon","소환"],["monsters","몬스터"],["waves","웨이브"],["missions","미션"],["bounty","현상금"],["box","박스 뽑기"],["growth","육성"],["reward","판 보상"],["maps","맵"]].filter(function(x){return(B.data||{})[x[0]]}).map(function(x){return'<a class="chip" href="#balance" data-jump="b-'+x[0]+'">'+x[1]+'</a>'}).join("")+'</div>';
+  h+=bsec("units","종족 · 단계",function(){
+    var u=D("units"),r=[];(u.races||[]).forEach(function(rc){var iv=rc.intervalTicks/tps;(rc.stages||[]).forEach(function(s,i){r.push([i===0?H("<b>"+esc(rc.name)+"</b>"):"",i===0?rc.role||"":"",i===0?atk(rc.attack):"",s.stage,s.name,s.damage,iv?fmt(s.damage/iv):"-",i===0?fmt(iv,2)+"초":"",i===0?fmt(rc.range/100,2)+"칸":""])})});
+    return(u.stageDamagePct?'<div class="small muted">단계 피해 배율: '+esc(u.stageDamagePct.join("% → "))+'%</div>':'')+tbl(["종족","역할","공격","단계","이름","피해","DPS","간격","사거리"],r,[3,5,6,7,8]);
+  });
+  h+=bsec("economy","경제",function(){var e=D("economy"),L={ticksPerSecond:"초당 틱",startGold:"시작 골드",summonCostBase:"소환 비용(처음)",summonCostStep:"소환할 때마다 오름",sellRefundPct:"판매 환급 %",life:"목숨",prepTicks:"준비 시간(틱)",waveClearBonusBase:"웨이브 통과 보상(기본)",waveClearBonusPerWave:"웨이브당 추가",killBountySharedEqually:"처치 보상 균등 분배",firstWaveDelayTicks:"첫 웨이브까지(틱)",waveGapTicks:"웨이브 간격(틱)",bountyCooldownTicks:"현상금 쿨타임(틱)"};
+    return tbl(["항목","값","키"],Object.keys(e).filter(function(k){return k!=="_note"}).map(function(k){var v=e[k];var s=typeof v==="object"?JSON.stringify(v):String(v);if(/Ticks$/.test(k)&&typeof v==="number")s+=" ("+fmt(v/tps,1)+"초)";return[L[k]||k,s,H("<code>"+esc(k)+"</code>")]}),[1]);});
+  h+=bsec("summon","소환 확률",function(){var s=D("summon"),o="";
+    if(s.raceWeights){var t=0;for(var k in s.raceWeights)t+=s.raceWeights[k];o+='<h3>종족</h3>'+tbl(["종족","가중치","확률"],Object.keys(s.raceWeights).map(function(k){return[RACE[k]||k,s.raceWeights[k],fmt(s.raceWeights[k]*100/t,2)+"%"]}),[1,2])}
+    if(s.stageWeights){var t2=0;for(var k2 in s.stageWeights)t2+=s.stageWeights[k2];o+='<h3>나오는 단계</h3>'+tbl(["단계","가중치","확률"],Object.keys(s.stageWeights).map(function(k){return[k+"단계",s.stageWeights[k],fmt(s.stageWeights[k]*100/t2,2)+"%"]}),[1,2])}
+    var rest={};for(var k3 in s)if(["_note","raceWeights","stageWeights"].indexOf(k3)<0)rest[k3]=s[k3];
+    return o+(Object.keys(rest).length?'<h3>기타</h3>'+kv(rest):"");});
+  h+=bsec("monsters","몬스터",function(){var m=D("monsters"),o='<div class="small muted">기본 체력 '+esc(m.baseHp)+' · 기본 속도 '+esc(m.baseSpeed)+'(틱당 칸/100) · 기본 처치 보상 '+esc(m.baseBounty)+'</div>';
+    if(m.types)o+='<h3>유형</h3>'+tbl(["키","이름","체력%","속도%","방어","수%","새는 목숨","기타"],Object.keys(m.types).map(function(k){var t=m.types[k],x={};for(var q in t)if(["name","hpPct","speedPct","armor","countPct","leak"].indexOf(q)<0)x[q]=t[q];return[H("<code>"+esc(k)+"</code>"),t.name,t.hpPct,t.speedPct,t.armor,t.countPct,t.leak,Object.keys(x).length?JSON.stringify(x):""]}),[2,3,4,5,6]);
+    var list=m.monsters||m.list;if(list&&list.length)o+='<h3>몬스터 목록</h3>'+tbl(Object.keys(list[0]),list.map(function(x){return Object.keys(list[0]).map(function(k){var v=x[k];return typeof v==="object"?JSON.stringify(v):v})}));
+    var rest={};for(var k in m)if(["_note","baseHp","baseSpeed","baseBounty","types","monsters","list"].indexOf(k)<0)rest[k]=m[k];
+    return o+(Object.keys(rest).length?'<h3>기타</h3>'+kv(rest):"");});
+  h+=bsec("waves","웨이브",function(){var w=D("waves"),o="";var sets=w.sets||{};
+    Object.keys(sets).forEach(function(k){var s=sets[k];var ws=s.waves||[];o+='<h3>'+esc(k)+' <span class="muted small">맵 '+esc(s.map||"-")+' · '+ws.length+'웨이브</span></h3>'+tbl(["웨이브","체력%","구성","마릿수"],ws.map(function(x){var n=0;var g=(x.groups||[]).map(function(gr){n+=gr.count||0;return gr.monster+" ×"+gr.count+(gr.spacingTicks?" (간격 "+gr.spacingTicks+"틱)":"")}).join(", ");var extra={};for(var q in x)if(["wave","hpPct","groups"].indexOf(q)<0)extra[q]=x[q];return[x.wave,x.hpPct,g+(Object.keys(extra).length?" · "+JSON.stringify(extra):""),n]}),[0,1,3])});
+    return o||kv(w);});
+  h+=bsec("missions","미션",function(){var m=D("missions"),p=m.pool||[];return'<div class="small muted">판마다 '+esc(m.pickCount)+'개 뽑음 · 후보 '+p.length+'개</div>'+tbl(["이름","종류","목표","보상 골드","id"],p.map(function(x){return[x.name,x.kind,x.goal,x.reward,H("<code>"+esc(x.id)+"</code>")]}),[2,3]);});
+  h+=bsec("bounty","현상금",function(){var b=D("bounty"),l=b.bounties||[];return tbl(["이름","체력","속도%","방어","보상 골드","열리는 웨이브","특징"],l.map(function(x){return[x.name,x.hp,x.speedPct,x.armor,x.reward,x.unlockWave,x.trait||""]}),[1,2,3,4,5]);});
+  h+=bsec("box","박스 뽑기",function(){var b=D("box"),o='<div class="small muted">한 번 뽑는 데 코인 '+esc(b.drawCost)+'</div>';(b.boxes||[]).forEach(function(bx){var t=0;(bx.tickets||[]).forEach(function(x){t+=x.count});o+='<h3>'+esc(bx.id)+' <span class="muted small">제비 '+t+'장 · 다 뽑으면 코인 '+fmt(t*b.drawCost,0)+'</span></h3>'+tbl(["등급","장수","첫 뽑기 확률","보상"],(bx.tickets||[]).map(function(x){return[x.grade,x.count,fmt(x.count*100/t,1)+"%",rw(x.reward)]}),[1,2])+(bx.lastOne?'<div class="small">마지막 상: '+esc(rw(bx.lastOne))+'</div>':'')});return o;});
+  h+=bsec("growth","육성",function(){return kv(D("growth"))});
+  h+=bsec("reward","판 보상",function(){return kv(D("reward"))});
+  h+=bsec("maps","맵",function(){return kv(D("maps"))});
+  return h;
+}
+function atk(a){if(!a)return"";var s=a.kind||"";var x=[];for(var k in a)if(k!=="kind")x.push(k+" "+JSON.stringify(a[k]));return s+(x.length?" ("+x.join(", ")+")":"")}
+function rw(r){if(!r)return"";var T={shard_choice:"고르는 조각",shard_random:"무작위 조각",exp:"경험 결정"};return(T[r.type]||r.type)+" "+r.amount}
+function bindBalance(){document.querySelectorAll("[data-jump]").forEach(function(a){a.onclick=function(e){e.preventDefault();var el=document.getElementById(a.getAttribute("data-jump"));if(el)window.scrollTo({top:el.getBoundingClientRect().top+scrollY-110,behavior:"smooth"})}})}
+
+/* ---------- 콘텐츠 ---------- */
+function vContent(){
+  var u=D("units"),extra=[];
+  if(u&&u.races){
+    var r=u.races.map(function(rc){return[H("<b>"+esc(rc.name)+"</b>")].concat([0,1,2,3].map(function(i){var s=(rc.stages||[])[i];return s?s.name:"-"}))});
+    var b=D("bounty"),m=D("missions");
+    var html='<div class="prose"><h2>캐릭터 24명</h2>'+src(B.data.units)+tbl(["종족","1단계","2단계","3단계","4단계"],r);
+    if(b)html+='<h2>현상금 몬스터</h2>'+tbl(["이름","특징","열리는 웨이브"],(b.bounties||[]).map(function(x){return[x.name,x.trait||"",x.unlockWave]}),[2]);
+    if(m)html+='<h2>미션 후보</h2>'+tbl(["이름","보상 골드"],(m.pool||[]).map(function(x){return[x.name,x.reward]}),[1]);
+    extra.push({t:"한눈에 보기",html:html+'</div>'});
+  }
+  return vDocs("content","콘텐츠",extra);
+}
+
+/* ---------- 결정 ---------- */
+function vDecisions(){
+  var d=(B.decisions||[]).slice().reverse();
+  return'<h1>결정 기록</h1><p class="sub">'+d.length+'건 · 최신순</p><section class="card">'+d.map(function(x,i){return'<details'+(i<2?" open":"")+'><summary><span class="id">'+esc(x.id)+'</span><span class="grow" style="font-weight:600">'+esc(x.title)+'</span><span class="muted small">'+esc(x.date)+' · '+esc(x.by)+'</span>'+(x.dirty?'<span class="chip c-wait">미커밋</span>':'')+'</summary><div class="prose small" style="margin:8px 0 4px 42px">'+(x.status?'<div class="muted">'+esc(x.status)+'</div>':'')+x.html+'</div></details>'}).join("")+'</section>';
+}
+
+/* ---------- 빌드 ---------- */
+function vBuilds(){
+  var b=B.builds||[], hs=B.buildHistory||[];
+  var KIND={android:"안드로이드 APK",windows:"Windows PC"};
+  var h='<h1>빌드</h1><p class="sub">다운로드는 비공개 저장소의 Release 에 있다 — GitHub 에 로그인한 저장소 소유자만 받을 수 있다.</p>';
+  h+='<div class="grid g2">'+(b.length?b.map(function(x){return'<section class="card"><div class="row"><h2 class="grow" style="margin:0">'+esc(KIND[x.kind]||x.kind)+'</h2><span class="chip">'+esc(lane(x.branch))+'</span></div><div class="small muted" style="margin:6px 0 10px">빌드 '+esc(x.at)+' · '+esc(x.sizeMB)+'MB</div><div class="small">로컬 경로 <code>'+esc(x.local)+'</code></div><div style="margin-top:12px">'+(x.release?'<a class="btn" href="'+esc(x.release)+'" target="_blank" rel="noopener">내려받기</a> <span class="muted small">'+esc(x.tag)+'</span>':'<span class="chip c-wait">업로드 대기</span>')+'</div></section>'}).join(""):'<div class="card empty">빌드 없음</div>')+'</div>';
+  h+='<h2 style="margin-top:22px">올린 빌드</h2><section class="card">'+(hs.length?tbl(["빌드 시각","종류","줄기","크기","받기"],hs.map(function(x){return[x.at,KIND[x.kind]||x.kind,lane(x.branch),x.sizeMB+"MB",H('<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.tag)+'</a>')]}),[3]):'<div class="empty">아직 없음</div>')+'<div style="margin-top:8px"><a class="btn ghost" href="'+esc(B.releasesUrl)+'" target="_blank" rel="noopener">Release 전체 보기</a></div></section>';
+  return h;
+}
+
+/* ---------- 기록 ---------- */
+function vLog(){
+  var d=B.devlog||[];
+  return'<h1>개발 기록</h1>'+d.map(function(x){return'<section class="card prose" style="margin-bottom:14px;max-width:none"><h2 style="border:0;margin-top:0;padding:0">'+esc(x.title)+'</h2>'+src(x)+x.html+'</section>'}).join("");
+}
+
+/* ---------- 틀 ---------- */
+var VIEWS={overview:vOverview,kanban:vKanban,milestones:vMilestones,orders:vOrders,resources:vResources,system:function(){return vDocs("system","시스템")},balance:vBalance,content:vContent,decisions:vDecisions,builds:vBuilds,log:vLog};
+function route(){var r=(location.hash||"#overview").slice(1);return VIEWS[r]?r:"overview"}
+function render(){
+  var r=route();
+  var cnt={kanban:cards().filter(function(c){return c.status!=="done"}).length,decisions:(B.decisions||[]).length,orders:(B.orders||[]).filter(function(o){return!(o.closed||o.stage==="마감"||o.stage==="완료")}).length};
+  $("#tabs").innerHTML=TABS.map(function(t){return'<a href="#'+t[0]+'" class="'+(t[0]===r?"on":"")+'">'+t[1]+(cnt[t[0]]?'<span class="n">'+cnt[t[0]]+'</span>':'')+'</a>'}).join("");
+  try{$("#app").innerHTML=VIEWS[r]()}catch(e){$("#app").innerHTML='<div class="err">화면을 그리지 못했다: '+esc(e.message)+'</div>';console.error(e)}
+  if(r==="kanban")bindKanban();if(r==="system")bindDocs("system");if(r==="content")bindDocs("content");if(r==="balance")bindBalance();
+}
+window.addEventListener("hashchange",function(){render();window.scrollTo(0,0)});
+var th=null;try{th=localStorage.getItem("cdpm-theme")}catch(e){}
+if(th)document.documentElement.setAttribute("data-theme",th);
+$("#theme").onclick=function(){var cur=document.documentElement.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");var n=cur==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",n);try{localStorage.setItem("cdpm-theme",n)}catch(e){}};
+fetch("data/board.json?t="+Date.now(),{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(d){
+  B=d;$("#pname").textContent=(d.project&&d.project.name)||"프로젝트CD";
+  $("#stamp").textContent="갱신 "+d.generatedAt+" · 마지막 작업 "+(d.sourceAt||"-");
+  render();
+}).catch(function(e){$("#app").innerHTML='<div class="err">데이터를 불러오지 못했다: '+esc(e.message)+'</div>'});
+})();
+</script>
+</body>
+</html>
