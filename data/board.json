@@ -951,195 +951,26 @@
 "lane": "인게임",
 "session": "",
 "owns": "MatchScreen·BoardView·Core 판 규칙·Data 판 수치 · 주문 CD-0005",
-"head": "3fa014e",
+"head": "2e8e96c",
 "commits": [
 {
-"sha": "3fa014e",
-"at": "2026-11-16 12:19",
-"ts": 1794799156,
-"msg": "일지: CD-0009 서비스 마감 다듬기(v0.3.0) 기록"
+"sha": "2e8e96c",
+"at": "2026-11-16 13:04",
+"ts": 1794801887,
+"msg": "Merge branch 'fin-outgame' into fin"
 },
 {
-"sha": "e9a65c7",
-"at": "2026-11-16 12:08",
-"ts": 1794798486,
-"msg": "CD-0009 검수 게이트 통과(재검수 PASS)"
+"sha": "4c61668",
+"at": "2026-11-16 13:04",
+"ts": 1794801863,
+"msg": "CD-0009 2차 감사 수정(판 밖): N7·N8·N9·N10/N11 기준·N12·N15·N5·N6·N17·R1·N20 외"
 },
 {
-"sha": "fbc5f49",
-"at": "2026-11-16 12:08",
-"ts": 1794798486,
-"msg": "Merge branch 'fin-ingame' into fin"
+"sha": "ec9f031",
+"at": "2026-11-16 13:03",
+"ts": 1794801837,
+"msg": "CD-0009 2차 감사 수정(인게임): N21 길잡이 원, N22 캐릭터가 몬스터 위·현상금 꼬리표 맨 위, N23 무리 막대, N24 날개 몬스터, N25 여파 점 잇기, N26 꼬리표 대비, N31 코인 줄·포기 제목, N11 판 안 창 틀, 몬스터 카드 칸 이름, 이어 한 판 배속"
 },
-{
-"sha": "1ac9eba",
-"at": "2026-11-16 12:07",
-"ts": 1794798464,
-"msg": "CD-0009 재검수: 중요 2·사소 3~6 해결 확인, 판정 PASS"
-},
-{
-"sha": "4bc4b8e",
-"at": "2026-11-16 11:46",
-"ts": 1794797218,
-"msg": "CD-0009 마감 초안(90-close)·마일스톤 갱신"
-},
-{
-"sha": "fed8de7",
-"at": "2026-11-16 11:45",
-"ts": 1794797140,
-"msg": "CD-0009 검수 뒤 수정(판 밖): 자동 한 바퀴 판 시작 프레임 캡처 제외(46/63/38ms), 초기화 창 «뽑기 코인», 박스 알림 자리, 코인 제비 굵게, 알림 배경 불투명"
-},
-{
-"sha": "c6d79c3",
-"at": "2026-11-16 11:28",
-"ts": 1794796098,
-"msg": "Merge branch 'fin-ingame' into fin"
-},
-{
-"sha": "72551f8",
-"at": "2026-11-16 11:27",
-"ts": 1794796072,
-"msg": "CD-0009 Q1 검수: 30-qa.md(판정 FAIL — 중요 2) + 묶음 그림·실행 로그"
-},
-{
-"sha": "6f2d8a9",
-"at": "2026-11-16 11:15",
-"ts": 1794795316,
-"msg": "CD-0009 인게임 5차: 결과 «열림» 줄을 코인 칸 아래 독립 줄로, 판 안 위 띠·결과 프로필을 판 밖과 같은 CosmeticLook.ApplyImage(기본 = 문장)로"
-},
-{
-"sha": "3e7c1e8",
-"at": "2026-11-16 11:01",
-"ts": 1794794481,
-"msg": "CD-0009 제작 게이트: 화면 팀 보고 묶음"
-},
-{
-"sha": "069cc04",
-"at": "2026-11-16 11:00",
-"ts": 1794794457,
-"msg": "이 세션 주문 번호를 CD-0009 로(다른 세션 주문 CD-0008 «졸개 그림 변형» 과 겹치지 않게): 폴더·문서·결정 0039~0043 안의 번호"
-},
-{
-"sha": "012aa44",
-"at": "2026-11-16 11:00",
-"ts": 1794794443,
-"msg": "CD-0008 판 밖 5차: 로비 토스트를 맵 카드 위로([출전] 을 덮지 않음), 코인 칩 확인(배너에 가렸을 뿐 — 테스트 더함)"
-},
-{
-"sha": "8ee48fb",
-"at": "2026-11-16 10:57",
-"ts": 1794794267,
-"msg": "CD-0008 판 밖 4차 보고·캡처: 맵 고르기 검증(병합 뒤 EditMode 72/0 · PlayMode 55/0, 자동 한 바퀴 시드 2 맵 2 두 번째 판·문제 0)"
-},
-{
-"sha": "ad2374f",
-"at": "2026-11-16 10:44",
-"ts": 1794793479,
-"msg": "Merge branch 'fin' into fin-outgame"
-},
-{
-"sha": "7096ecd",
-"at": "2026-11-16 10:44",
-"ts": 1794793479,
-"msg": "CD-0008 판 밖 4차: 로비 맵 고르기(결정 0043 초안)"
-}
-],
-"dirtyCount": 28,
-"dirty": [
-{
-"file": "studio/site/index.html",
-"at": "2026-11-16 12:19"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_3.png",
-"at": "2026-11-16 00:50"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_2.png",
-"at": "2026-11-16 00:50"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_1.png",
-"at": "2026-11-16 00:50"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_0.png",
-"at": "2026-11-16 00:50"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_3.png",
-"at": "2026-11-16 00:50"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_2.png",
-"at": "2026-11-16 00:50"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_1.png",
-"at": "2026-11-16 00:50"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_0.png",
-"at": "2026-11-16 00:50"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/play.xml",
-"at": "2026-11-16 00:48"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/play.log",
-"at": "2026-11-16 00:47"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/edit.xml",
-"at": "2026-11-16 00:47"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/edit.log",
-"at": "2026-11-16 00:47"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/11_result_win_1080x2400.png",
-"at": "2026-11-16 00:43"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/10_result_1080x2400.png",
-"at": "2026-11-16 00:43"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/09_menu_1080x2400.png",
-"at": "2026-11-16 00:43"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/08_life_1080x2400.png",
-"at": "2026-11-16 00:43"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/07_bounty_on_1080x2400.png",
-"at": "2026-11-16 00:42"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/06_bounty_1080x2400.png",
-"at": "2026-11-16 00:42"
-},
-{
-"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/05_mission_1080x2400.png",
-"at": "2026-11-16 00:42"
-}
-],
-"lastEdit": "2026-11-16 12:19",
-"lastEditTs": 1794799157.3694687,
-"lastCommitTs": 1794799156,
-"unpushed": 128,
-"today": 15
-},
-{
-"branch": "fin",
-"lane": "fin",
-"session": "",
-"owns": "",
-"head": "142c336",
-"commits": [
 {
 "sha": "142c336",
 "at": "2026-11-16 12:30",
@@ -1211,32 +1042,201 @@
 "at": "2026-11-16 11:00",
 "ts": 1794794457,
 "msg": "이 세션 주문 번호를 CD-0009 로(다른 세션 주문 CD-0008 «졸개 그림 변형» 과 겹치지 않게): 폴더·문서·결정 0039~0043 안의 번호"
+}
+],
+"dirtyCount": 35,
+"dirty": [
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-16 13:15"
 },
 {
-"sha": "012aa44",
+"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
+"at": "2026-11-16 13:13"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/UiResources.asset",
+"at": "2026-11-16 13:13"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/SpriteCatalog.asset",
+"at": "2026-11-16 13:13"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/90-close.md",
+"at": "2026-11-16 13:05"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-16 13:05"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-16 13:05"
+},
+{
+"file": "studio/site/index.html",
+"at": "2026-11-16 12:19"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_3.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_2.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_1.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_0.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_3.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_2.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_1.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_0.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/play.xml",
+"at": "2026-11-16 00:48"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/play.log",
+"at": "2026-11-16 00:47"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/edit.xml",
+"at": "2026-11-16 00:47"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/edit.log",
+"at": "2026-11-16 00:47"
+}
+],
+"lastEdit": "2026-11-16 13:15",
+"lastEditTs": 1794802507.5913284,
+"lastCommitTs": 1794801887,
+"unpushed": 132,
+"today": 15
+},
+{
+"branch": "fin",
+"lane": "fin",
+"session": "",
+"owns": "",
+"head": "2e8e96c",
+"commits": [
+{
+"sha": "2e8e96c",
+"at": "2026-11-16 13:04",
+"ts": 1794801887,
+"msg": "Merge branch 'fin-outgame' into fin"
+},
+{
+"sha": "4c61668",
+"at": "2026-11-16 13:04",
+"ts": 1794801863,
+"msg": "CD-0009 2차 감사 수정(판 밖): N7·N8·N9·N10/N11 기준·N12·N15·N5·N6·N17·R1·N20 외"
+},
+{
+"sha": "ec9f031",
+"at": "2026-11-16 13:03",
+"ts": 1794801837,
+"msg": "CD-0009 2차 감사 수정(인게임): N21 길잡이 원, N22 캐릭터가 몬스터 위·현상금 꼬리표 맨 위, N23 무리 막대, N24 날개 몬스터, N25 여파 점 잇기, N26 꼬리표 대비, N31 코인 줄·포기 제목, N11 판 안 창 틀, 몬스터 카드 칸 이름, 이어 한 판 배속"
+},
+{
+"sha": "142c336",
+"at": "2026-11-16 12:30",
+"ts": 1794799825,
+"msg": "CD-0009: v0.3.0 2차 UX 감사 31항목(높음 0·중간 11·낮음 20)"
+},
+{
+"sha": "3fa014e",
+"at": "2026-11-16 12:19",
+"ts": 1794799156,
+"msg": "일지: CD-0009 서비스 마감 다듬기(v0.3.0) 기록"
+},
+{
+"sha": "e9a65c7",
+"at": "2026-11-16 12:08",
+"ts": 1794798486,
+"msg": "CD-0009 검수 게이트 통과(재검수 PASS)"
+},
+{
+"sha": "fbc5f49",
+"at": "2026-11-16 12:08",
+"ts": 1794798486,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "1ac9eba",
+"at": "2026-11-16 12:07",
+"ts": 1794798464,
+"msg": "CD-0009 재검수: 중요 2·사소 3~6 해결 확인, 판정 PASS"
+},
+{
+"sha": "4bc4b8e",
+"at": "2026-11-16 11:46",
+"ts": 1794797218,
+"msg": "CD-0009 마감 초안(90-close)·마일스톤 갱신"
+},
+{
+"sha": "fed8de7",
+"at": "2026-11-16 11:45",
+"ts": 1794797140,
+"msg": "CD-0009 검수 뒤 수정(판 밖): 자동 한 바퀴 판 시작 프레임 캡처 제외(46/63/38ms), 초기화 창 «뽑기 코인», 박스 알림 자리, 코인 제비 굵게, 알림 배경 불투명"
+},
+{
+"sha": "c6d79c3",
+"at": "2026-11-16 11:28",
+"ts": 1794796098,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "72551f8",
+"at": "2026-11-16 11:27",
+"ts": 1794796072,
+"msg": "CD-0009 Q1 검수: 30-qa.md(판정 FAIL — 중요 2) + 묶음 그림·실행 로그"
+},
+{
+"sha": "6f2d8a9",
+"at": "2026-11-16 11:15",
+"ts": 1794795316,
+"msg": "CD-0009 인게임 5차: 결과 «열림» 줄을 코인 칸 아래 독립 줄로, 판 안 위 띠·결과 프로필을 판 밖과 같은 CosmeticLook.ApplyImage(기본 = 문장)로"
+},
+{
+"sha": "3e7c1e8",
+"at": "2026-11-16 11:01",
+"ts": 1794794481,
+"msg": "CD-0009 제작 게이트: 화면 팀 보고 묶음"
+},
+{
+"sha": "069cc04",
 "at": "2026-11-16 11:00",
-"ts": 1794794443,
-"msg": "CD-0008 판 밖 5차: 로비 토스트를 맵 카드 위로([출전] 을 덮지 않음), 코인 칩 확인(배너에 가렸을 뿐 — 테스트 더함)"
-},
-{
-"sha": "8ee48fb",
-"at": "2026-11-16 10:57",
-"ts": 1794794267,
-"msg": "CD-0008 판 밖 4차 보고·캡처: 맵 고르기 검증(병합 뒤 EditMode 72/0 · PlayMode 55/0, 자동 한 바퀴 시드 2 맵 2 두 번째 판·문제 0)"
-},
-{
-"sha": "ad2374f",
-"at": "2026-11-16 10:44",
-"ts": 1794793479,
-"msg": "Merge branch 'fin' into fin-outgame"
+"ts": 1794794457,
+"msg": "이 세션 주문 번호를 CD-0009 로(다른 세션 주문 CD-0008 «졸개 그림 변형» 과 겹치지 않게): 폴더·문서·결정 0039~0043 안의 번호"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1794799825,
-"unpushed": 129,
+"lastCommitTs": 1794801887,
+"unpushed": 132,
 "today": 15
 },
 {
@@ -1350,8 +1350,14 @@
 "lane": "fin-ingame",
 "session": "",
 "owns": "",
-"head": "142c336",
+"head": "ec9f031",
 "commits": [
+{
+"sha": "ec9f031",
+"at": "2026-11-16 13:03",
+"ts": 1794801837,
+"msg": "CD-0009 2차 감사 수정(인게임): N21 길잡이 원, N22 캐릭터가 몬스터 위·현상금 꼬리표 맨 위, N23 무리 막대, N24 날개 몬스터, N25 여파 점 잇기, N26 꼬리표 대비, N31 코인 줄·포기 제목, N11 판 안 창 틀, 몬스터 카드 칸 이름, 이어 한 판 배속"
+},
 {
 "sha": "142c336",
 "at": "2026-11-16 12:30",
@@ -1435,76 +1441,10 @@
 "at": "2026-11-16 10:57",
 "ts": 1794794267,
 "msg": "CD-0008 판 밖 4차 보고·캡처: 맵 고르기 검증(병합 뒤 EditMode 72/0 · PlayMode 55/0, 자동 한 바퀴 시드 2 맵 2 두 번째 판·문제 0)"
-},
-{
-"sha": "ad2374f",
-"at": "2026-11-16 10:44",
-"ts": 1794793479,
-"msg": "Merge branch 'fin' into fin-outgame"
 }
 ],
-"dirtyCount": 709,
+"dirtyCount": 694,
 "dirty": [
-{
-"file": "UnityProject/Assets/InitTestScenea2e31986-4c04-47cd-8a9b-71dd7f19eab2.unity.meta",
-"at": "2026-11-16 12:41"
-},
-{
-"file": "UnityProject/Assets/InitTestScenea2e31986-4c04-47cd-8a9b-71dd7f19eab2.unity",
-"at": "2026-11-16 12:41"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-16 12:41"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-16 12:41"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-16 12:41"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/AuditTwoShotTests.cs.meta",
-"at": "2026-11-16 12:41"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/AuditTwoShotTests.cs",
-"at": "2026-11-16 12:34"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/MatchScreen.cs",
-"at": "2026-11-16 12:33"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/MonsterCard.cs",
-"at": "2026-11-16 12:33"
-},
-{
-"file": "UnityProject/Assets/_Game/View/BoardView.cs",
-"at": "2026-11-16 12:33"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/Guide.cs",
-"at": "2026-11-16 12:32"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/CellPopup.cs",
-"at": "2026-11-16 12:32"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/InGameTwoTests.cs",
-"at": "2026-11-16 12:31"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/ResultScreen.cs",
-"at": "2026-11-16 12:31"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/Sheet.cs",
-"at": "2026-11-16 12:31"
-},
 {
 "file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/logs2/autoplay.log",
 "at": "2026-11-16 12:06"
@@ -1524,12 +1464,72 @@
 {
 "file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/61_match2_t060s.png",
 "at": "2026-11-16 12:06"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/60_match2_t040s.png",
+"at": "2026-11-16 12:06"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/59_match2_t020s.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/58_match2_t000s.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/57_map_gate_02.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/save/player.json",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/56_stage_locked.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/55_help.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/54_credits.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/53_settings.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/52_daily.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/51_profile.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/50_achievements.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/49_characters_after.png",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/save/player.json.bak",
+"at": "2026-11-16 12:05"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/48_level_up_human_1.png",
+"at": "2026-11-16 12:05"
 }
 ],
-"lastEdit": "2026-11-16 12:41",
-"lastEditTs": 1794800513.0787418,
-"lastCommitTs": 1794799825,
-"unpushed": 129,
+"lastEdit": "2026-11-16 12:06",
+"lastEditTs": 1794798391.2868795,
+"lastCommitTs": 1794801837,
+"unpushed": 130,
 "today": 15
 },
 {
@@ -1643,8 +1643,14 @@
 "lane": "fin-outgame",
 "session": "",
 "owns": "",
-"head": "142c336",
+"head": "4c61668",
 "commits": [
+{
+"sha": "4c61668",
+"at": "2026-11-16 13:04",
+"ts": 1794801863,
+"msg": "CD-0009 2차 감사 수정(판 밖): N7·N8·N9·N10/N11 기준·N12·N15·N5·N6·N17·R1·N20 외"
+},
 {
 "sha": "142c336",
 "at": "2026-11-16 12:30",
@@ -1728,101 +1734,95 @@
 "at": "2026-11-16 10:57",
 "ts": 1794794267,
 "msg": "CD-0008 판 밖 4차 보고·캡처: 맵 고르기 검증(병합 뒤 EditMode 72/0 · PlayMode 55/0, 자동 한 바퀴 시드 2 맵 2 두 번째 판·문제 0)"
-},
-{
-"sha": "ad2374f",
-"at": "2026-11-16 10:44",
-"ts": 1794793479,
-"msg": "Merge branch 'fin' into fin-outgame"
 }
 ],
-"dirtyCount": 401,
+"dirtyCount": 442,
 "dirty": [
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_name_rename_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_reset_2_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_name_rename.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_reset_2.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_name_dice_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_reset_1_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_name_dice.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_reset_1.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_name_empty_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_help_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_name_empty.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_help.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_resumed_paused_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_credits_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_resumed_paused.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_credits.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_resume_card_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_settings_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_resume_card.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_settings.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_settings_low_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_daily_done_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_settings_low.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_daily_done.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_settings_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_daily_toast_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_settings.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_daily_toast.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_resume_forfeit_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_daily_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_resume_forfeit.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_daily.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_resume_broken_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_lobby_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/s8_resume_broken.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_lobby.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_lobby_plate_1080x2400.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_choice_check_1080x2400.png",
+"at": "2026-11-16 12:56"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_lobby_plate.png",
-"at": "2026-11-16 12:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u2_choice_check.png",
+"at": "2026-11-16 12:56"
 }
 ],
-"lastEdit": "2026-11-16 12:47",
-"lastEditTs": 1794800843.4333878,
-"lastCommitTs": 1794799825,
-"unpushed": 129,
+"lastEdit": "2026-11-16 12:56",
+"lastEditTs": 1794801389.8101382,
+"lastCommitTs": 1794801863,
+"unpushed": 130,
 "today": 15
 },
 {
@@ -2729,8 +2729,8 @@
 {
 "id": "CD-0009",
 "title": "서비스 마감 다듬기 TA 그래픽 UX 수정 이어하기",
-"branch": "fin-outgame",
-"updated": "2026-11-16 12:47",
+"branch": "main",
+"updated": "2026-11-16 13:05",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -2747,6 +2747,7 @@
 "90-close.md",
 "_qa",
 "autoplay-editor",
+"autoplay-editor-a2",
 "autoplay-editor-qa",
 "autoplay-editor-u2",
 "autoplay-editor-u3",
@@ -8617,12 +8618,12 @@
 {
 "kind": "android",
 "name": "coopdefense-dev-arm64.apk",
-"at": "2026-11-16 12:12",
+"at": "2026-11-16 13:15",
 "sizeMB": 41.1,
 "branch": "main",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1212",
-"tag": "build-android-20261116-1212"
+"release": "",
+"tag": ""
 },
 {
 "kind": "windows",
@@ -8748,7 +8749,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 12:47",
-"generatedAt": "2026-11-16 12:47",
-"digest": "6cd366b120b38402"
+"sourceAt": "2026-11-16 13:15",
+"generatedAt": "2026-11-16 13:17",
+"digest": "3fb033b7d80cb041"
 }
