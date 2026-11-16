@@ -1502,43 +1502,43 @@
 "msg": "CD-0015 기획서: TA·UI 도구 체크리스트(docs/03 §10) 추가"
 }
 ],
-"dirtyCount": 18,
+"dirtyCount": 24,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene0d067163-378c-4a08-a949-4019bcff79e2.unity.meta",
-"at": "2026-11-17 03:16"
-},
-{
-"file": "UnityProject/Assets/InitTestScene0d067163-378c-4a08-a949-4019bcff79e2.unity",
-"at": "2026-11-17 03:16"
-},
-{
-"file": "pm.log",
-"at": "2026-11-17 03:16"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 03:16"
+"at": "2026-11-17 03:47"
+},
+{
+"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
+"at": "2026-11-17 03:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/UiResources.asset",
+"at": "2026-11-17 03:46"
 },
 {
 "file": "test-results.xml",
-"at": "2026-11-17 03:16"
+"at": "2026-11-17 03:46"
 },
 {
-"file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
-"at": "2026-11-17 03:16"
+"file": "studio/checks.json",
+"at": "2026-11-17 03:42"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd13UiPolishTests.cs",
-"at": "2026-11-17 03:16"
+"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2c_kuji_ten.jpg",
+"at": "2026-11-17 03:38"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
-"at": "2026-11-17 03:16"
+"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2c_kuji_board.jpg",
+"at": "2026-11-17 03:38"
+},
+{
+"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2c_help_bottom.jpg",
+"at": "2026-11-17 03:38"
 }
 ],
-"lastEdit": "2026-11-17 03:16",
-"lastEditTs": 1794853019.9709435,
+"lastEdit": "2026-11-17 03:47",
+"lastEditTs": 1794854841.0667925,
 "lastCommitTs": 1794852610,
 "unpushed": 8,
 "notInMain": 7,
@@ -1867,7 +1867,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 122,
+"commits": 121,
 "byOrder": [
 [
 "CD-0008",
@@ -1902,15 +1902,15 @@
 8
 ],
 [
-"CD-0007",
-7
-],
-[
 "CD-0020",
 6
 ],
 [
 "CD-0011",
+6
+],
+[
+"CD-0007",
 6
 ],
 [
@@ -9853,7 +9853,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 03:00",
+"at": "2026-11-17 03:41",
 "passed": 329,
 "failed": 0,
 "total": 329,
@@ -9870,7 +9870,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 03:00",
+"at": "2026-11-17 03:41",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9878,7 +9878,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 03:00",
+"at": "2026-11-17 03:41",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9886,7 +9886,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 03:00",
+"at": "2026-11-17 03:41",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9894,6 +9894,16 @@
 }
 },
 "builds": [
+{
+"kind": "windows",
+"name": "CoopDefense (Windows)",
+"at": "2026-11-17 03:46",
+"sizeMB": 154.3,
+"branch": "cd15",
+"local": "Builds\\Windows\\CoopDefense.exe",
+"release": "",
+"tag": ""
+},
 {
 "kind": "android",
 "name": "coopdefense-dev-arm64.apk",
@@ -10148,7 +10158,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 03:16",
-"generatedAt": "2026-11-17 03:17",
-"digest": "118d826bb3a1ad25"
+"sourceAt": "2026-11-17 03:47",
+"generatedAt": "2026-11-17 03:47",
+"digest": "b28a74d890be11c4"
 }
