@@ -1463,8 +1463,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0015",
-"head": "d31c02c",
+"head": "bab5d8d",
 "commits": [
+{
+"sha": "bab5d8d",
+"at": "2026-11-17 04:07",
+"ts": 1794856023,
+"msg": "CD-0015 QA: 판정 FAIL(불확정 시험 1·알림 겹침·보고서 불일치), 규칙·저장·Core 통과"
+},
+{
+"sha": "6f63849",
+"at": "2026-11-17 03:49",
+"ts": 1794854944,
+"msg": "CD-0015 클라 보고 대표 요약(25-client), 게이트 impl"
+},
+{
+"sha": "f461b3c",
+"at": "2026-11-17 03:48",
+"ts": 1794854897,
+"msg": "CD-0015 U2 마무리: PlayMode 실패 7 해결(시험 5 새 규칙·코드 2 보강) · 영웅 상세 [대표로 지정]·«대표» 표시 제거 · 레벨 업 버튼 강조 · 4단계 카드 홀로 테두리 · 전체 검증(EditMode 106, PlayMode 99/103, AutoTour 0건, PC 빌드)"
+},
 {
 "sha": "d31c02c",
 "at": "2026-11-17 03:10",
@@ -1482,67 +1500,49 @@
 "at": "2026-11-17 02:01",
 "ts": 1794848488,
 "msg": "CD-0015 U1: 저장 v9·v8→v9 마이그레이션·OutgameState 계약·행동력 소모·판 끝 보상/경험치/미션/업적·날짜 고정 테스트"
-},
-{
-"sha": "0b7f5b8",
-"at": "2026-11-17 01:05",
-"ts": 1794845158,
-"msg": "CD-0015 core: 판 밖 규칙(영웅·쿠지·행동력·계정·미션·업적·은화 상점·v8→v9 환산)과 판 안 반영(레벨·강화·판 보상), 특성·각성·박스 폐지"
-},
-{
-"sha": "817e6c7",
-"at": "2026-11-17 00:34",
-"ts": 1794843244,
-"msg": "CD-0015 A1: 재화 아이콘 6·쿠지 상위상 표식·영웅 창 단계 배경 4 (코드 제작 임시 그림)"
-},
-{
-"sha": "93811c7",
-"at": "2026-11-17 00:33",
-"ts": 1794843216,
-"msg": "CD-0015 기획서: TA·UI 도구 체크리스트(docs/03 §10) 추가"
 }
 ],
-"dirtyCount": 24,
+"dirtyCount": 33,
 "dirty": [
 {
+"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/24-client-ui.md",
+"at": "2026-11-17 04:14"
+},
+{
+"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/craft-game-floors.md",
+"at": "2026-11-17 04:14"
+},
+{
+"file": "UnityProject/Assets/InitTestScene6f1ad37c-3d33-4c7c-a85b-03b94bf4db7f.unity.meta",
+"at": "2026-11-17 04:11"
+},
+{
+"file": "UnityProject/Assets/InitTestScene6f1ad37c-3d33-4c7c-a85b-03b94bf4db7f.unity",
+"at": "2026-11-17 04:11"
+},
+{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 03:47"
+"at": "2026-11-17 04:10"
 },
 {
-"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
-"at": "2026-11-17 03:46"
+"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2m_shop_silver_1080x2400.jpg",
+"at": "2026-11-17 04:10"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/UiResources.asset",
-"at": "2026-11-17 03:46"
+"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2m_shop_silver.jpg",
+"at": "2026-11-17 04:10"
 },
 {
-"file": "test-results.xml",
-"at": "2026-11-17 03:46"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-17 03:42"
-},
-{
-"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2c_kuji_ten.jpg",
-"at": "2026-11-17 03:38"
-},
-{
-"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2c_kuji_board.jpg",
-"at": "2026-11-17 03:38"
-},
-{
-"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2c_help_bottom.jpg",
-"at": "2026-11-17 03:38"
+"file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2m_shop_package_1080x2400.jpg",
+"at": "2026-11-17 04:10"
 }
 ],
-"lastEdit": "2026-11-17 03:47",
-"lastEditTs": 1794854841.0667925,
-"lastCommitTs": 1794852610,
-"unpushed": 8,
-"notInMain": 7,
-"today": 10
+"lastEdit": "2026-11-17 04:14",
+"lastEditTs": 1794856449.7331707,
+"lastCommitTs": 1794856023,
+"unpushed": 11,
+"notInMain": 10,
+"today": 13
 },
 {
 "branch": "cd16",
@@ -1867,7 +1867,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 121,
+"commits": 122,
 "byOrder": [
 [
 "CD-0008",
@@ -1882,6 +1882,10 @@
 12
 ],
 [
+"CD-0015",
+11
+],
+[
 "CD-0014",
 11
 ],
@@ -1892,10 +1896,6 @@
 [
 "CD-0013",
 9
-],
-[
-"CD-0015",
-8
 ],
 [
 "CD-0016",
@@ -1910,12 +1910,12 @@
 6
 ],
 [
-"CD-0007",
-6
-],
-[
 "CD-0017",
 5
+],
+[
+"CD-0007",
+4
 ],
 [
 "CD-0019",
@@ -1927,6 +1927,21 @@
 ]
 ],
 "latest": [
+{
+"sha": "bab5d8d",
+"at": "2026-11-17 04:07",
+"msg": "CD-0015 QA: 판정 FAIL(불확정 시험 1·알림 겹침·보고서 불일치), 규칙·저장·Core 통과"
+},
+{
+"sha": "6f63849",
+"at": "2026-11-17 03:49",
+"msg": "CD-0015 클라 보고 대표 요약(25-client), 게이트 impl"
+},
+{
+"sha": "f461b3c",
+"at": "2026-11-17 03:48",
+"msg": "CD-0015 U2 마무리: PlayMode 실패 7 해결(시험 5 새 규칙·코드 2 보강) · 영웅 상세 [대표로 지정]·«대표» 표시 제거 · 레벨 업 버튼 강조 · 4단계 카드 홀로 테두리 · 전체 검증(EditMode 106, PlayMode 99/103, AutoTour 0건, PC 빌드)"
+},
 {
 "sha": "d31c02c",
 "at": "2026-11-17 03:10",
@@ -1961,21 +1976,6 @@
 "sha": "64ea690",
 "at": "2026-11-17 01:48",
 "msg": "CD-0016 U4: 놓는 칸 평소 옅은 고리 · 소환·합성 빛 알갱이 키움 · craft-game-floors 감사 · 30fps 이동 시험 · 마무리 검증"
-},
-{
-"sha": "ccbb01a",
-"at": "2026-11-17 01:38",
-"msg": "CD-0020 A 수정: 장부 Fx 20줄에 RGB 흰색·알파 모양 덧붙임"
-},
-{
-"sha": "7e6fad7",
-"at": "2026-11-17 01:38",
-"msg": "CD-0020 A 수정: Fx 20장 RGB 순백·알파 모양으로 다시 만듦"
-},
-{
-"sha": "57fab37",
-"at": "2026-11-17 01:38",
-"msg": "CD-0020 도구함 정리: LitMotion 후보 줄 지움(들임), 화면 전환 1순위 줄을 들인 방식(카메라 1회 렌더)으로"
 }
 ]
 },
@@ -3157,7 +3157,7 @@
 "id": "CD-0015",
 "title": "판 밖 개편 영웅 은화 연합의 결정 쿠지 행동력 계정 레벨 업적 미션 상점",
 "branch": "cd15",
-"updated": "2026-11-17 03:10",
+"updated": "2026-11-17 04:14",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3166,11 +3166,13 @@
 "22-art.md",
 "23-client-state.md",
 "24-client-ui.md",
+"25-client.md",
+"30-qa.md",
 "_qa",
 "contract-lobby.md"
 ],
 "milestone": "M3",
-"stage": "제작",
+"stage": "검수",
 "route": "full",
 "risk": "high",
 "teams": "planning, core, client, art",
@@ -3186,7 +3188,7 @@
 "title": "판 밖 규칙 전부: 지갑·영웅·쿠지·행동력·계정·미션(일일·주간)·업적(1회·반복)·상점(은화 상점 포함)·우편 kind·v8→v9 환산 함수",
 "output": "Core/Meta, 테스트, 21-core.md",
 "status": "done",
-"why": "보고서 있음: 21-core.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "C2",
@@ -3195,7 +3197,7 @@
 "title": "판 안 반영: loadout = 레벨·강화, 특성·각성 코드 삭제, 새 피해 순서, 판 보상(새 재화) 계산, 시간당 보상 테스트",
 "output": "Core/Match·Config, 테스트, 21-core.md 같은 파일의 절",
 "status": "done",
-"why": "보고서 있음: 21-core.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "U1",
@@ -3204,7 +3206,7 @@
 "title": "저장 v9·마이그레이션·OutgameState(계약)·GameApp 연결·데이터 사본·EditMode 테스트",
 "output": "저장·상태 코드, 테스트, 23-client-state.md",
 "status": "done",
-"why": "보고서 있음: 23-client-state.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "U2",
@@ -3213,7 +3215,7 @@
 "title": "화면: 영웅·쿠지·업적·미션(일일·주간)·상점(은화 상점 탭)·결과·우편함 글, 판 안 육성 줄",
 "output": "화면 코드, 캡처, 24-client-ui.md",
 "status": "done",
-"why": "보고서 있음: 24-client-ui.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "A1",
@@ -3222,7 +3224,7 @@
 "title": "재화 아이콘 6·단계 배경 4·쿠지 상위상 표식",
 "output": "그림, 장부, 22-art.md",
 "status": "done",
-"why": "보고서 있음: 22-art.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "P1",
@@ -3231,7 +3233,7 @@
 "title": "수치 초안·검사·문서(이번 커밋), core 측정 뒤 문서 숫자 맞추기, 확인 대기 답 반영",
 "output": "Data/, tools/validate_data.py, docs/10~14, contract-lobby.md, 20-planning.md",
 "status": "done",
-"why": "보고서 있음: 20-planning.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "Q1",
@@ -3239,8 +3241,8 @@
 "team": "qa",
 "title": "수용 기준 전부를 직접 다시 돌려 판정",
 "output": "30-qa.md",
-"status": "todo",
-"why": ""
+"status": "doing",
+"why": "주문이 검수 단계"
 }
 ]
 },
@@ -9901,8 +9903,8 @@
 "sizeMB": 154.3,
 "branch": "cd15",
 "local": "Builds\\Windows\\CoopDefense.exe",
-"release": "",
-"tag": ""
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261117-0346",
+"tag": "build-windows-20261117-0346"
 },
 {
 "kind": "android",
@@ -9996,6 +9998,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-windows-20261117-0346",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261117-0346",
+"kind": "windows",
+"at": "2026-11-17 03:46",
+"branch": "cd15",
+"sizeMB": 56.3
+},
 {
 "tag": "build-android-20261117-0119",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261117-0119",
@@ -10147,18 +10157,10 @@
 "at": "2026-11-16 12:12",
 "branch": "main",
 "sizeMB": 41.1
-},
-{
-"tag": "build-windows-20261116-1209",
-"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261116-1209",
-"kind": "windows",
-"at": "2026-11-16 12:09",
-"branch": "main",
-"sizeMB": 55.2
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 03:47",
-"generatedAt": "2026-11-17 03:47",
-"digest": "b28a74d890be11c4"
+"sourceAt": "2026-11-17 04:14",
+"generatedAt": "2026-11-17 04:17",
+"digest": "801d38188716e48b"
 }
