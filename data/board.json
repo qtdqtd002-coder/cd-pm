@@ -1019,27 +1019,15 @@
 "msg": "CD-0011 화면: 상점·우편함·테스트 결제·박스 확률 %, 저장 v8 · CD-0010 2차 HUD 요청"
 }
 ],
-"dirtyCount": 32,
+"dirtyCount": 29,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene5e39f0bb-d384-4dd1-9458-883bc6093ea0.unity.meta",
-"at": "2026-11-16 17:41"
-},
-{
-"file": "UnityProject/Assets/InitTestScene5e39f0bb-d384-4dd1-9458-883bc6093ea0.unity",
-"at": "2026-11-16 17:41"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-16 17:41"
+"at": "2026-11-16 17:58"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-16 17:41"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-16 17:41"
+"file": "UnityProject/ProjectSettings/UnityConnectSettings.asset",
+"at": "2026-11-16 17:50"
 },
 {
 "file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_3.png",
@@ -1052,10 +1040,22 @@
 {
 "file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_1.png",
 "at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_0.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_3.png",
+"at": "2026-11-16 00:50"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_2.png",
+"at": "2026-11-16 00:50"
 }
 ],
-"lastEdit": "2026-11-16 17:41",
-"lastEditTs": 1794818517.881292,
+"lastEdit": "2026-11-16 17:58",
+"lastEditTs": 1794819493.3336341,
 "lastCommitTs": 1794818446,
 "unpushed": 152,
 "notInMain": 0,
@@ -1067,8 +1067,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0010",
-"head": "b158198",
+"head": "8a964ba",
 "commits": [
+{
+"sha": "8a964ba",
+"at": "2026-11-16 18:04",
+"ts": 1794819874,
+"msg": "CD-0010·0011 독립 검수 PASS(중요 0) — 보고와 캡처"
+},
 {
 "sha": "b158198",
 "at": "2026-11-16 17:40",
@@ -1098,39 +1104,49 @@
 "at": "2026-11-16 17:03",
 "ts": 1794816214,
 "msg": "CD-0010 판 화면 TA 2차: 탁함 걷기·또렷한 흙길·장판 테두리 문양·큰 균열/관문 결계·숫자 톤"
-},
-{
-"sha": "4beb381",
-"at": "2026-11-16 16:39",
-"ts": 1794814776,
-"msg": "CD-0011 화면: 상점·우편함·테스트 결제·박스 확률 %, 저장 v8 · CD-0010 2차 HUD 요청"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 24,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene3925f8ce-e8c5-43db-999f-4f5e8e965810.unity.meta",
-"at": "2026-11-16 17:43"
+"file": "UnityProject/Assets/InitTestScene9682d693-cac9-440c-ae45-f1af7eb10bbd.unity.meta",
+"at": "2026-11-16 18:14"
 },
 {
-"file": "UnityProject/Assets/InitTestScene3925f8ce-e8c5-43db-999f-4f5e8e965810.unity",
-"at": "2026-11-16 17:43"
+"file": "UnityProject/Assets/InitTestScene9682d693-cac9-440c-ae45-f1af7eb10bbd.unity",
+"at": "2026-11-16 18:14"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-16 17:42"
+"at": "2026-11-16 18:14"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-16 17:42"
+"at": "2026-11-16 18:14"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/BuildFlavorTests.cs.meta",
+"at": "2026-11-16 18:14"
+},
+{
+"file": "UnityProject/Assets/_Game/Editor/BuildFlavor.cs.meta",
+"at": "2026-11-16 18:14"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/BuildFlavorTests.cs",
+"at": "2026-11-16 18:14"
+},
+{
+"file": "UnityProject/Assets/_Game/Editor/BuildFlavor.cs",
+"at": "2026-11-16 18:14"
 }
 ],
-"lastEdit": "2026-11-16 17:43",
-"lastEditTs": 1794818592.9671845,
-"lastCommitTs": 1794818446,
-"unpushed": 152,
-"notInMain": 0,
-"today": 123
+"lastEdit": "2026-11-16 18:14",
+"lastEditTs": 1794820492.0705175,
+"lastCommitTs": 1794819874,
+"unpushed": 153,
+"notInMain": 1,
+"today": 124
 },
 {
 "branch": "cd10-core",
@@ -1525,7 +1541,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 101,
+"commits": 102,
 "byOrder": [
 [
 "CD-0008",
@@ -1545,7 +1561,7 @@
 ],
 [
 "CD-0010",
-7
+8
 ],
 [
 "CD-0011",
@@ -1569,6 +1585,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "8a964ba",
+"at": "2026-11-16 18:04",
+"msg": "CD-0010·0011 독립 검수 PASS(중요 0) — 보고와 캡처"
+},
 {
 "sha": "b158198",
 "at": "2026-11-16 17:40",
@@ -1613,11 +1634,6 @@
 "sha": "35396a5",
 "at": "2026-11-16 16:17",
 "msg": "CD-0010 UI 통일·글자 정렬(U1·U2): 디자인 토큰 한 곳, 코드 생성 틀, 글자 가운데 보정"
-},
-{
-"sha": "1a27e8e",
-"at": "2026-11-16 15:50",
-"msg": "CD-0011 core 테스트: 줄 끝이 CRLF 인 사본에서도 깨진 파일 검사가 맞게"
 }
 ]
 },
@@ -2436,8 +2452,8 @@
 {
 "id": "CD-0010",
 "title": "판 화면 그래픽 재작업 장판 그림자 병사 FX UI 통일 공격 고정",
-"branch": "main",
-"updated": "2026-11-16 17:41",
+"branch": "cd10",
+"updated": "2026-11-16 18:03",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -2447,6 +2463,8 @@
 "23-client-ingame.md",
 "23-client-ui.md",
 "23-client.md",
+"30-qa.md",
+"_qa",
 "ta",
 "ui"
 ],
@@ -2510,14 +2528,16 @@
 {
 "id": "CD-0011",
 "title": "우편함과 패키지 상점 월정액 뽑기 코인 묶음 유료 재화",
-"branch": "main",
-"updated": "2026-11-16 17:41",
+"branch": "cd10",
+"updated": "2026-11-16 18:04",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-planning.md",
 "21-core.md",
 "23-client.md",
+"30-qa.md",
+"_qa",
 "shots"
 ],
 "milestone": "M6",
@@ -8723,6 +8743,16 @@
 {
 "kind": "android",
 "name": "coopdefense-dev-arm64.apk",
+"at": "2026-11-16 17:58",
+"sizeMB": 42.0,
+"branch": "main",
+"local": "Builds\\Android\\coopdefense-dev-arm64.apk",
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1758",
+"tag": "build-android-20261116-1758"
+},
+{
+"kind": "android",
+"name": "coopdefense-dev-arm64.apk",
 "at": "2026-11-16 17:33",
 "sizeMB": 41.3,
 "branch": "cd10",
@@ -8741,20 +8771,10 @@
 "tag": "build-windows-20261116-1729"
 },
 {
-"kind": "android",
-"name": "coopdefense-dev-arm64.apk",
-"at": "2026-11-16 13:15",
-"sizeMB": 41.1,
-"branch": "main",
-"local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1315",
-"tag": "build-android-20261116-1315"
-},
-{
 "kind": "windows",
 "name": "CoopDefense (Windows)",
 "at": "2026-11-16 12:09",
-"sizeMB": 147.6,
+"sizeMB": 147.7,
 "branch": "main",
 "local": "Builds\\Windows\\CoopDefense.exe",
 "release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261116-1209",
@@ -8792,6 +8812,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261116-1758",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1758",
+"kind": "android",
+"at": "2026-11-16 17:58",
+"branch": "main",
+"sizeMB": 42.0
+},
 {
 "tag": "build-android-20261116-1733",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1733",
@@ -8914,7 +8942,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 17:43",
-"generatedAt": "2026-11-16 17:47",
-"digest": "a09b8f5c915b442b"
+"sourceAt": "2026-11-16 18:14",
+"generatedAt": "2026-11-16 18:17",
+"digest": "e720d8500721ef45"
 }
