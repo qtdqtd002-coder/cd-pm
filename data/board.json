@@ -1329,8 +1329,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0010",
-"head": "4beb381",
+"head": "d6b07c7",
 "commits": [
+{
+"sha": "d6b07c7",
+"at": "2026-11-16 17:04",
+"ts": 1794816266,
+"msg": "장부: UiTone 옛 줄 지움(2차 줄로 대체)"
+},
+{
+"sha": "fe9b29a",
+"at": "2026-11-16 17:04",
+"ts": 1794816256,
+"msg": "Merge branch 'cd10-ingame' into cd10"
+},
+{
+"sha": "f95515c",
+"at": "2026-11-16 17:03",
+"ts": 1794816214,
+"msg": "CD-0010 판 화면 TA 2차: 탁함 걷기·또렷한 흙길·장판 테두리 문양·큰 균열/관문 결계·숫자 톤"
+},
 {
 "sha": "4beb381",
 "at": "2026-11-16 16:39",
@@ -1348,67 +1366,49 @@
 "at": "2026-11-16 16:25",
 "ts": 1794813901,
 "msg": "CD-0011 화면 작업 중간(저장 v8·상점 상태·스토어·확률 %·틀 두께 띠) — 아직 화면·테스트 전"
-},
-{
-"sha": "a74c949",
-"at": "2026-11-16 16:24",
-"ts": 1794813840,
-"msg": "Merge branch 'cd10-ingame' into cd10"
-},
-{
-"sha": "f1e3cc8",
-"at": "2026-11-16 16:23",
-"ts": 1794813786,
-"msg": "CD-0010 판 화면 TA: 장판·서 있는 캐릭터·그림자 병사·균열/관문 FX·체력 막대 없앰"
-},
-{
-"sha": "ffbc634",
-"at": "2026-11-16 16:19",
-"ts": 1794813584,
-"msg": "Merge branch 'cd10-ui' into cd10"
 }
 ],
-"dirtyCount": 1001,
+"dirtyCount": 1005,
 "dirty": [
 {
 "file": "studio/orders/CD-0011-우편함과-패키지-상점-월정액-뽑기-코인-묶음-유료-재화/23-client.md",
-"at": "2026-11-16 17:04"
+"at": "2026-11-16 17:12"
 },
 {
-"file": "studio/assets-ledger.csv",
-"at": "2026-11-16 17:02"
+"file": "UnityProject/Assets/InitTestScenec55bc3c1-23e4-44fd-baaf-ee238821020d.unity.meta",
+"at": "2026-11-16 17:12"
 },
 {
-"file": "UnityProject/Assets/InitTestSceneb4ebd6e1-fa38-40d8-ae47-b4ced25d9472.unity.meta",
-"at": "2026-11-16 17:02"
-},
-{
-"file": "UnityProject/Assets/InitTestSceneb4ebd6e1-fa38-40d8-ae47-b4ced25d9472.unity",
-"at": "2026-11-16 17:02"
+"file": "UnityProject/Assets/InitTestScenec55bc3c1-23e4-44fd-baaf-ee238821020d.unity",
+"at": "2026-11-16 17:12"
 },
 {
 "file": "studio/orders/CD-0011-우편함과-패키지-상점-월정액-뽑기-코인-묶음-유료-재화/shots/sheet_polish_compare_1080x1920.jpg",
-"at": "2026-11-16 17:02"
+"at": "2026-11-16 17:12"
 },
 {
 "file": "studio/orders/CD-0011-우편함과-패키지-상점-월정액-뽑기-코인-묶음-유료-재화/shots/sheet_polish_1080x2400.jpg",
-"at": "2026-11-16 17:02"
+"at": "2026-11-16 17:12"
 },
 {
 "file": "studio/orders/CD-0011-우편함과-패키지-상점-월정액-뽑기-코인-묶음-유료-재화/shots/sheet_polish_1080x1920.jpg",
-"at": "2026-11-16 17:02"
+"at": "2026-11-16 17:12"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ShopScreen.cs",
-"at": "2026-11-16 17:00"
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-16 17:11"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/UiUnifyShotTests.cs",
+"at": "2026-11-16 17:10"
 }
 ],
-"lastEdit": "2026-11-16 17:04",
-"lastEditTs": 1794816267.7996428,
-"lastCommitTs": 1794814776,
-"unpushed": 147,
-"notInMain": 12,
-"today": 118
+"lastEdit": "2026-11-16 17:12",
+"lastEditTs": 1794816778.0174415,
+"lastCommitTs": 1794816266,
+"unpushed": 150,
+"notInMain": 15,
+"today": 121
 },
 {
 "branch": "fin-plan",
@@ -2432,8 +2432,8 @@
 {
 "id": "CD-0010",
 "title": "판 화면 그래픽 재작업 장판 그림자 병사 FX UI 통일 공격 고정",
-"branch": "cd10",
-"updated": "2026-11-16 17:04",
+"branch": "cd10-ui",
+"updated": "2026-11-16 17:10",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -2504,7 +2504,7 @@
 "id": "CD-0011",
 "title": "우편함과 패키지 상점 월정액 뽑기 코인 묶음 유료 재화",
 "branch": "cd10-ui",
-"updated": "2026-11-16 17:04",
+"updated": "2026-11-16 17:12",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -6303,8 +6303,8 @@
 }
 ]
 },
-"at": "2026-11-16 17:04",
-"branch": "cd10",
+"at": "2026-11-16 17:10",
+"branch": "cd10-ui",
 "dirty": false
 },
 "missions": {
@@ -7585,6 +7585,307 @@
 "branch": "fin-plan",
 "dirty": false
 },
+"gallery": {
+"v": 1,
+"kdf": "PBKDF2-SHA256",
+"iter": 600000,
+"salt": "bMLIauKggblX3qUzsFOwIg==",
+"check": "Z24dbpVBlL4lupLkWFywePH5dUWXe8wvlawHDcqMjAUuuhXn+I+dbw==",
+"cipher": "AES-256-GCM(iv12+ct)",
+"files": {
+"key/loading": {
+"f": "data/art/391565b960eda2ac005c.bin",
+"w": 720,
+"h": 1280
+},
+"key/lobby_bg": {
+"f": "data/art/cd0863a2fc1110b2e7b7.bin",
+"w": 720,
+"h": 1280
+},
+"key/box_bg": {
+"f": "data/art/aad911c5b34ae6d8bf29.bin",
+"w": 720,
+"h": 1280
+},
+"illust/human/1": {
+"f": "data/art/7e287b602a174b573991.bin",
+"w": 768,
+"h": 1024
+},
+"illust/human/2": {
+"f": "data/art/90ea950c999faf2a5ed6.bin",
+"w": 768,
+"h": 1024
+},
+"illust/human/3": {
+"f": "data/art/c651b2b86e370a20d157.bin",
+"w": 768,
+"h": 1024
+},
+"illust/human/4": {
+"f": "data/art/fe5ed2293ff12ef48170.bin",
+"w": 768,
+"h": 1024
+},
+"illust/elf/1": {
+"f": "data/art/12dd38f4b803a465e211.bin",
+"w": 768,
+"h": 1024
+},
+"illust/elf/2": {
+"f": "data/art/895bd0b8d3edb0761ed8.bin",
+"w": 768,
+"h": 1024
+},
+"illust/elf/3": {
+"f": "data/art/f61fc3b109baaa30b735.bin",
+"w": 768,
+"h": 1024
+},
+"illust/elf/4": {
+"f": "data/art/f049c4d0556c89d7bb9d.bin",
+"w": 768,
+"h": 1024
+},
+"illust/dwarf/1": {
+"f": "data/art/ece078dcfcb14e6fc486.bin",
+"w": 768,
+"h": 1024
+},
+"illust/dwarf/2": {
+"f": "data/art/7b856f5ff3c79be6dca7.bin",
+"w": 768,
+"h": 1024
+},
+"illust/dwarf/3": {
+"f": "data/art/f0040c81880b60fe5ad0.bin",
+"w": 768,
+"h": 1024
+},
+"illust/dwarf/4": {
+"f": "data/art/1c0ca74ba562b1c67a74.bin",
+"w": 768,
+"h": 1024
+},
+"illust/beast/1": {
+"f": "data/art/f9b3805f673bdbb10068.bin",
+"w": 768,
+"h": 1024
+},
+"illust/beast/2": {
+"f": "data/art/7073250b8ab400ec8b30.bin",
+"w": 768,
+"h": 1024
+},
+"illust/beast/3": {
+"f": "data/art/4dbd8d346468c5916c1b.bin",
+"w": 768,
+"h": 1024
+},
+"illust/beast/4": {
+"f": "data/art/4e48af048b63f9754127.bin",
+"w": 768,
+"h": 1024
+},
+"illust/spirit/1": {
+"f": "data/art/57732dce2d4e3fb58e0e.bin",
+"w": 768,
+"h": 1024
+},
+"illust/spirit/2": {
+"f": "data/art/480d4129ecba01695e24.bin",
+"w": 768,
+"h": 1024
+},
+"illust/spirit/3": {
+"f": "data/art/b96b9ce03346ec5e7f88.bin",
+"w": 768,
+"h": 1024
+},
+"illust/spirit/4": {
+"f": "data/art/f12b3cd579dc97523783.bin",
+"w": 768,
+"h": 1024
+},
+"illust/dragon/1": {
+"f": "data/art/4ace69dd9169310be345.bin",
+"w": 768,
+"h": 1024
+},
+"illust/dragon/2": {
+"f": "data/art/af0457ddf89047a9235a.bin",
+"w": 768,
+"h": 1024
+},
+"illust/dragon/3": {
+"f": "data/art/9c5642e9ff0b712b3936.bin",
+"w": 768,
+"h": 1024
+},
+"illust/dragon/4": {
+"f": "data/art/aa69e2722894fe6605c0.bin",
+"w": 768,
+"h": 1024
+},
+"sprite/human/1": {
+"f": "data/art/696d2c47aa9ea3db0da0.bin",
+"w": 512,
+"h": 512
+},
+"sprite/human/2": {
+"f": "data/art/5f333b26c17de614197f.bin",
+"w": 512,
+"h": 512
+},
+"sprite/human/3": {
+"f": "data/art/caa41765e434fcb365d9.bin",
+"w": 512,
+"h": 512
+},
+"sprite/human/4": {
+"f": "data/art/8927fc00819682fcfd1d.bin",
+"w": 512,
+"h": 512
+},
+"sprite/elf/1": {
+"f": "data/art/451fcad5ccc1e6deba2d.bin",
+"w": 512,
+"h": 512
+},
+"sprite/elf/2": {
+"f": "data/art/3c99f8ecc37c78019520.bin",
+"w": 512,
+"h": 512
+},
+"sprite/elf/3": {
+"f": "data/art/f7dea79bc8d8c7855eef.bin",
+"w": 512,
+"h": 512
+},
+"sprite/elf/4": {
+"f": "data/art/01c1f2e7dec45bca649b.bin",
+"w": 512,
+"h": 512
+},
+"sprite/dwarf/1": {
+"f": "data/art/ee18ed661d28c439a9fe.bin",
+"w": 512,
+"h": 512
+},
+"sprite/dwarf/2": {
+"f": "data/art/9716e2484e7edc3cf1b6.bin",
+"w": 512,
+"h": 512
+},
+"sprite/dwarf/3": {
+"f": "data/art/c36f260318e02670073a.bin",
+"w": 512,
+"h": 512
+},
+"sprite/dwarf/4": {
+"f": "data/art/1e619193daf188803631.bin",
+"w": 512,
+"h": 512
+},
+"sprite/beast/1": {
+"f": "data/art/cea0e81ed56f65d902fe.bin",
+"w": 512,
+"h": 512
+},
+"sprite/beast/2": {
+"f": "data/art/aacce59bf4fdaccbef1a.bin",
+"w": 512,
+"h": 512
+},
+"sprite/beast/3": {
+"f": "data/art/524ea6a2021e38a2b9d1.bin",
+"w": 512,
+"h": 512
+},
+"sprite/beast/4": {
+"f": "data/art/756f451ff188f33f632f.bin",
+"w": 512,
+"h": 512
+},
+"sprite/spirit/1": {
+"f": "data/art/941ab428b04c651528e4.bin",
+"w": 512,
+"h": 512
+},
+"sprite/spirit/2": {
+"f": "data/art/f615fe777dd03d5b48f0.bin",
+"w": 512,
+"h": 512
+},
+"sprite/spirit/3": {
+"f": "data/art/6a711edf630e68e1b62c.bin",
+"w": 512,
+"h": 512
+},
+"sprite/spirit/4": {
+"f": "data/art/b5284e1de1bb1d5ba4c0.bin",
+"w": 512,
+"h": 512
+},
+"sprite/dragon/1": {
+"f": "data/art/d22a8f9c8a196d2468be.bin",
+"w": 512,
+"h": 512
+},
+"sprite/dragon/2": {
+"f": "data/art/bc9b44502f8563560f84.bin",
+"w": 512,
+"h": 512
+},
+"sprite/dragon/3": {
+"f": "data/art/d423d2421df489c4e75c.bin",
+"w": 512,
+"h": 512
+},
+"sprite/dragon/4": {
+"f": "data/art/d7ff3967f00df987a196.bin",
+"w": 512,
+"h": 512
+},
+"monster/all": {
+"f": "data/art/4a2b1fd05445b005fdb3.bin",
+"w": 512,
+"h": 512
+},
+"box/ticket": {
+"f": "data/art/66058189543fc9043acf.bin",
+"w": 512,
+"h": 512
+},
+"box/ticket_open": {
+"f": "data/art/8ca6cd5b0fbd9bbe58de.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_exp": {
+"f": "data/art/4f470e0d399b0aa78813.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_shard": {
+"f": "data/art/7fe88baccf1206461d40.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_choice": {
+"f": "data/art/1eafb2a601f0c2b68ce6.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_coin": {
+"f": "data/art/27c6e9979b5e35081b6a.bin",
+"w": 512,
+"h": 512
+}
+},
+"keyAt": "2026-11-16 17:14"
+},
 "assets": {
 "items": [
 {
@@ -8553,7 +8854,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 17:05",
-"generatedAt": "2026-11-16 17:05",
-"digest": "593f8dfdaaccfb71"
+"sourceAt": "2026-11-16 17:12",
+"generatedAt": "2026-11-16 17:15",
+"digest": "0b2fbd0fab31b488"
 }
