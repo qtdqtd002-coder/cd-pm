@@ -1463,8 +1463,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0015",
-"head": "50460c4",
+"head": "d31c02c",
 "commits": [
+{
+"sha": "d31c02c",
+"at": "2026-11-17 03:10",
+"ts": 1794852610,
+"msg": "CD-0015 U2 이어 받기: 영웅·쿠지 유니티 캡처로 고침(사라진 글·겹친 제비·알림 겹침·대비) · Cd15HeroKujiTests · 막아 둔 PlayMode 25개 새 규칙으로 · 게임 방법 판 밖 6장 · craft 감사(부분) · 턴 한도에서 멈춤(PlayMode 103 중 실패 7 남음)"
+},
 {
 "sha": "50460c4",
 "at": "2026-11-17 02:38",
@@ -1494,55 +1500,49 @@
 "at": "2026-11-17 00:33",
 "ts": 1794843216,
 "msg": "CD-0015 기획서: TA·UI 도구 체크리스트(docs/03 §10) 추가"
-},
-{
-"sha": "d5a8a1c",
-"at": "2026-11-17 00:29",
-"ts": 1794842972,
-"msg": "CD-0015 기획: 판 밖 개편 수치 초안·검사·문서·기획서·로비 계약"
 }
 ],
-"dirtyCount": 10,
+"dirtyCount": 18,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
-"at": "2026-11-17 02:46"
+"file": "UnityProject/Assets/InitTestScene0d067163-378c-4a08-a949-4019bcff79e2.unity.meta",
+"at": "2026-11-17 03:16"
+},
+{
+"file": "UnityProject/Assets/InitTestScene0d067163-378c-4a08-a949-4019bcff79e2.unity",
+"at": "2026-11-17 03:16"
+},
+{
+"file": "pm.log",
+"at": "2026-11-17 03:16"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 02:46"
+"at": "2026-11-17 03:16"
 },
 {
 "file": "test-results.xml",
-"at": "2026-11-17 02:46"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd15HeroKujiTests.cs",
-"at": "2026-11-17 02:45"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
-"at": "2026-11-17 02:45"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/CurrencyChip.cs",
-"at": "2026-11-17 02:44"
+"at": "2026-11-17 03:16"
 },
 {
 "file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
-"at": "2026-11-17 02:42"
+"at": "2026-11-17 03:16"
 },
 {
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Bold SDF.asset",
-"at": "2026-11-17 02:42"
+"file": "UnityProject/Assets/Tests/PlayMode/Cd13UiPolishTests.cs",
+"at": "2026-11-17 03:16"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
+"at": "2026-11-17 03:16"
 }
 ],
-"lastEdit": "2026-11-17 02:46",
-"lastEditTs": 1794851192.267536,
-"lastCommitTs": 1794850686,
-"unpushed": 7,
-"notInMain": 6,
-"today": 9
+"lastEdit": "2026-11-17 03:16",
+"lastEditTs": 1794853019.9709435,
+"lastCommitTs": 1794852610,
+"unpushed": 8,
+"notInMain": 7,
+"today": 10
 },
 {
 "branch": "cd16",
@@ -1867,7 +1867,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 124,
+"commits": 122,
 "byOrder": [
 [
 "CD-0008",
@@ -1890,19 +1890,19 @@
 11
 ],
 [
-"CD-0007",
-10
-],
-[
 "CD-0013",
 9
+],
+[
+"CD-0015",
+8
 ],
 [
 "CD-0016",
 8
 ],
 [
-"CD-0015",
+"CD-0007",
 7
 ],
 [
@@ -1927,6 +1927,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "d31c02c",
+"at": "2026-11-17 03:10",
+"msg": "CD-0015 U2 이어 받기: 영웅·쿠지 유니티 캡처로 고침(사라진 글·겹친 제비·알림 겹침·대비) · Cd15HeroKujiTests · 막아 둔 PlayMode 25개 새 규칙으로 · 게임 방법 판 밖 6장 · craft 감사(부분) · 턴 한도에서 멈춤(PlayMode 103 중 실패 7 남음)"
+},
 {
 "sha": "50460c4",
 "at": "2026-11-17 02:38",
@@ -1971,11 +1976,6 @@
 "sha": "57fab37",
 "at": "2026-11-17 01:38",
 "msg": "CD-0020 도구함 정리: LitMotion 후보 줄 지움(들임), 화면 전환 1순위 줄을 들인 방식(카메라 1회 렌더)으로"
-},
-{
-"sha": "4fdd402",
-"at": "2026-11-17 01:37",
-"msg": "CD-0020 client D·E·크레딧: Fx 소재 반입(.meta), 토스트 글자 튀기, LitMotion MIT 고지"
 }
 ]
 },
@@ -3157,7 +3157,7 @@
 "id": "CD-0015",
 "title": "판 밖 개편 영웅 은화 연합의 결정 쿠지 행동력 계정 레벨 업적 미션 상점",
 "branch": "cd15",
-"updated": "2026-11-17 02:47",
+"updated": "2026-11-17 03:10",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -9853,24 +9853,24 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 01:38",
-"passed": 313,
+"at": "2026-11-17 03:00",
+"passed": 329,
 "failed": 0,
-"total": 313,
+"total": 329,
 "ok": true
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-17 00:03",
-"passed": 85,
-"failed": 1,
-"total": 86,
-"ok": false,
+"at": "2026-11-16 21:51",
+"passed": 82,
+"failed": 0,
+"total": 82,
+"ok": true,
 "fresh": false
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 01:38",
+"at": "2026-11-17 03:00",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9878,7 +9878,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 01:38",
+"at": "2026-11-17 03:00",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9886,7 +9886,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 01:38",
+"at": "2026-11-17 03:00",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10148,7 +10148,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 02:46",
-"generatedAt": "2026-11-17 02:47",
-"digest": "8c4ce1ad674c3f43"
+"sourceAt": "2026-11-17 03:16",
+"generatedAt": "2026-11-17 03:17",
+"digest": "118d826bb3a1ad25"
 }
