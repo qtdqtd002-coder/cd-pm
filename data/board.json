@@ -956,7 +956,7 @@
 "milestonesSrc": {
 "at": "2026-11-16 18:43",
 "branch": "main",
-"dirty": true
+"dirty": false
 },
 "pm": {
 "headline": [
@@ -1020,8 +1020,14 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0010",
-"head": "8d4f09f",
+"head": "9ad9604",
 "commits": [
+{
+"sha": "9ad9604",
+"at": "2026-11-16 19:00",
+"ts": 1794823216,
+"msg": "CD-0010·0011 마감 초안·검수 게이트·일지·마일스톤·현황 사이트(v0.4.0)"
+},
 {
 "sha": "8d4f09f",
 "at": "2026-11-16 18:41",
@@ -1051,55 +1057,49 @@
 "at": "2026-11-16 17:04",
 "ts": 1794816266,
 "msg": "장부: UiTone 옛 줄 지움(2차 줄로 대체)"
-},
-{
-"sha": "fe9b29a",
-"at": "2026-11-16 17:04",
-"ts": 1794816256,
-"msg": "Merge branch 'cd10-ingame' into cd10"
 }
 ],
-"dirtyCount": 41,
+"dirtyCount": 29,
 "dirty": [
 {
-"file": "studio/orders/CD-0011-우편함과-패키지-상점-월정액-뽑기-코인-묶음-유료-재화/00-order.md",
-"at": "2026-11-16 18:44"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-16 18:53"
 },
 {
-"file": "studio/orders/CD-0010-판-화면-그래픽-재작업-장판-그림자-병사-FX-UI-통/00-order.md",
-"at": "2026-11-16 18:44"
+"file": "UnityProject/ProjectSettings/UnityConnectSettings.asset",
+"at": "2026-11-16 17:50"
 },
 {
-"file": "studio/orders/CD-0011-우편함과-패키지-상점-월정액-뽑기-코인-묶음-유료-재화/30-qa.md",
-"at": "2026-11-16 18:44"
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_3.png",
+"at": "2026-11-16 00:50"
 },
 {
-"file": "studio/orders/CD-0010-판-화면-그래픽-재작업-장판-그림자-병사-FX-UI-통/30-qa.md",
-"at": "2026-11-16 18:44"
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_2.png",
+"at": "2026-11-16 00:50"
 },
 {
-"file": "devlog/2026-11-16.md",
-"at": "2026-11-16 18:43"
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_1.png",
+"at": "2026-11-16 00:50"
 },
 {
-"file": "studio/orders/CD-0011-우편함과-패키지-상점-월정액-뽑기-코인-묶음-유료-재화/90-close.md",
-"at": "2026-11-16 18:43"
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_0.png",
+"at": "2026-11-16 00:50"
 },
 {
-"file": "studio/orders/CD-0010-판-화면-그래픽-재작업-장판-그림자-병사-FX-UI-통/90-close.md",
-"at": "2026-11-16 18:43"
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_3.png",
+"at": "2026-11-16 00:50"
 },
 {
-"file": "UnityProject/Assets/InitTestScene3d1b2098-161f-41a6-ad0b-05ab14a63154.unity.meta",
-"at": "2026-11-16 18:43"
+"file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_1920_2.png",
+"at": "2026-11-16 00:50"
 }
 ],
-"lastEdit": "2026-11-16 18:44",
-"lastEditTs": 1794822246.395298,
-"lastCommitTs": 1794822117,
-"unpushed": 154,
+"lastEdit": "2026-11-16 18:53",
+"lastEditTs": 1794822811.3385818,
+"lastCommitTs": 1794823216,
+"unpushed": 155,
 "notInMain": 0,
-"today": 125
+"today": 126
 },
 {
 "branch": "cd10",
@@ -1548,7 +1548,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 103,
+"commits": 104,
 "byOrder": [
 [
 "CD-0008",
@@ -1568,7 +1568,7 @@
 ],
 [
 "CD-0010",
-9
+10
 ],
 [
 "CD-0011",
@@ -1592,6 +1592,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "9ad9604",
+"at": "2026-11-16 19:00",
+"msg": "CD-0010·0011 마감 초안·검수 게이트·일지·마일스톤·현황 사이트(v0.4.0)"
+},
 {
 "sha": "8d4f09f",
 "at": "2026-11-16 18:41",
@@ -1636,11 +1641,6 @@
 "sha": "f1e3cc8",
 "at": "2026-11-16 16:23",
 "msg": "CD-0010 판 화면 TA: 장판·서 있는 캐릭터·그림자 병사·균열/관문 FX·체력 막대 없앰"
-},
-{
-"sha": "0ab147c",
-"at": "2026-11-16 16:18",
-"msg": "CD-0010 UI 보고서(23-client-ui.md)와 전·후 캡처 묶음·글자 정렬 표"
 }
 ]
 },
@@ -8752,12 +8752,12 @@
 {
 "kind": "android",
 "name": "coopdefense-dev-arm64.apk",
-"at": "2026-11-16 17:58",
+"at": "2026-11-16 18:53",
 "sizeMB": 42.0,
 "branch": "main",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1758",
-"tag": "build-android-20261116-1758"
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1853",
+"tag": "build-android-20261116-1853"
 },
 {
 "kind": "android",
@@ -8821,6 +8821,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261116-1853",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1853",
+"kind": "android",
+"at": "2026-11-16 18:53",
+"branch": "main",
+"sizeMB": 42.0
+},
 {
 "tag": "build-android-20261116-1758",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1758",
@@ -8951,7 +8959,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 18:44",
-"generatedAt": "2026-11-16 18:47",
-"digest": "524b9bf2ae3e2378"
+"sourceAt": "2026-11-16 19:00",
+"generatedAt": "2026-11-16 19:17",
+"digest": "5eb420e51b3c7d40"
 }
