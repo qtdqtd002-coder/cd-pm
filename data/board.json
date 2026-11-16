@@ -254,7 +254,8 @@
 "id": "M0-16",
 "team": "art",
 "title": "OpenAI 생성물 상업 이용 조항 원문 확인",
-"status": "todo"
+"status": "done",
+"note": "CD-0012(M6-2 와 같은 일): 약관 발효 2026-01-01 — 출력은 이용자 소유, 상업 이용 제한 문장 없음, 사람이 만든 것으로 표시 금지. 장부 133줄 반영"
 },
 {
 "id": "M0-17",
@@ -778,7 +779,8 @@
 "id": "M6-2",
 "team": "art",
 "title": "OpenAI 생성물 상업 이용 조항 원문 확인",
-"status": "todo"
+"status": "done",
+"note": "CD-0012: 출력 소유·양도, 상업 이용 제한 문장 없음, 사람이 만든 것으로 표시 금지, 유일하지 않음, 사업자면 OpenAI 면책 의무. 장부 133줄 반영. 남은 것: 크레딧 «일부 그림은 AI 로 생성» 한 줄(권장), Usage Policies 11-20 새 판 재확인, Play Console AI 신고 항목"
 },
 {
 "id": "M6-3",
@@ -954,7 +956,7 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-16 18:43",
+"at": "2026-11-16 21:24",
 "branch": "main",
 "dirty": false
 },
@@ -1020,8 +1022,20 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0010",
-"head": "97e0852",
+"head": "8233994",
 "commits": [
+{
+"sha": "8233994",
+"at": "2026-11-16 21:31",
+"ts": 1794832313,
+"msg": "배포 기반: 고정 서명 키·Firebase App Distribution 한 줄 명령·CCD 버킷 기록"
+},
+{
+"sha": "ecfe7a7",
+"at": "2026-11-16 21:26",
+"ts": 1794831996,
+"msg": "CD-0012 OpenAI 생성물 상업 이용 조항 확인과 장부 반영"
+},
 {
 "sha": "97e0852",
 "at": "2026-11-16 21:01",
@@ -1045,61 +1059,49 @@
 "at": "2026-11-16 18:41",
 "ts": 1794822117,
 "msg": "CD-0010·0011 검수 뒤 수정: 관문 빛 알갱이·현상금 칸·초상 띠 안·테스트 결제 빌드·교환 진열대·장판 흙빛·전각 ／"
-},
-{
-"sha": "8a964ba",
-"at": "2026-11-16 18:04",
-"ts": 1794819874,
-"msg": "CD-0010·0011 독립 검수 PASS(중요 0) — 보고와 캡처"
-},
-{
-"sha": "b158198",
-"at": "2026-11-16 17:40",
-"ts": 1794818446,
-"msg": "v0.4.0: 앱 버전 0.4.0·코드 4, CD-0010·0011 기획·그림·client 묶음 보고, 크레딧 장부 갱신"
 }
 ],
-"dirtyCount": 35,
+"dirtyCount": 39,
 "dirty": [
 {
-"file": "studio/orders/CD-0012-OpenAI-생성물-상업-이용-조항-확인과-장부-반영/00-order.md",
-"at": "2026-11-16 21:13"
+"file": "UnityProject/Assets/Resources/PerformanceTestRunSettings.json.meta",
+"at": "2026-11-16 21:46"
 },
 {
-"file": "studio/orders/CD-0012-OpenAI-생성물-상업-이용-조항-확인과-장부-반영/10-spec.md",
-"at": "2026-11-16 21:13"
+"file": "UnityProject/Assets/Resources/PerformanceTestRunInfo.json.meta",
+"at": "2026-11-16 21:46"
 },
 {
-"file": "firebase-debug.log",
-"at": "2026-11-16 21:07"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-16 21:46"
 },
 {
-"file": "studio/checks.json",
-"at": "2026-11-16 21:06"
+"file": "UnityProject/Assets/Resources/PerformanceTestRunSettings.json",
+"at": "2026-11-16 21:46"
 },
 {
-"file": "UnityProject/Assets/_Game/Editor/AndroidSigning.cs",
-"at": "2026-11-16 21:05"
+"file": "UnityProject/Assets/Resources/PerformanceTestRunInfo.json",
+"at": "2026-11-16 21:46"
 },
 {
-"file": "UnityProject/Assets/_Game/Editor/AndroidSigning.cs.meta",
-"at": "2026-11-16 21:02"
+"file": "UnityProject/Assets/Resources.meta",
+"at": "2026-11-16 21:46"
 },
 {
-"file": "tools/build_android.ps1",
-"at": "2026-11-16 21:02"
+"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
+"at": "2026-11-16 21:46"
 },
 {
-"file": "UnityProject/Assets/_Game/Editor/AndroidBuild.cs",
-"at": "2026-11-16 21:02"
+"file": "UnityProject/Assets/_Game/Resources/UiResources.asset",
+"at": "2026-11-16 21:46"
 }
 ],
-"lastEdit": "2026-11-16 21:13",
-"lastEditTs": 1794831187.1970026,
-"lastCommitTs": 1794830510,
-"unpushed": 1,
+"lastEdit": "2026-11-16 21:46",
+"lastEditTs": 1794833209.3781137,
+"lastCommitTs": 1794832313,
+"unpushed": 0,
 "notInMain": 0,
-"today": 128
+"today": 130
 },
 {
 "branch": "cd10",
@@ -1548,7 +1550,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 101,
+"commits": 98,
 "byOrder": [
 [
 "CD-0008",
@@ -1579,8 +1581,8 @@
 6
 ],
 [
-"CD-0004",
-4
+"CD-0012",
+1
 ],
 [
 "CD-0005",
@@ -1592,6 +1594,16 @@
 ]
 ],
 "latest": [
+{
+"sha": "8233994",
+"at": "2026-11-16 21:31",
+"msg": "배포 기반: 고정 서명 키·Firebase App Distribution 한 줄 명령·CCD 버킷 기록"
+},
+{
+"sha": "ecfe7a7",
+"at": "2026-11-16 21:26",
+"msg": "CD-0012 OpenAI 생성물 상업 이용 조항 확인과 장부 반영"
+},
 {
 "sha": "97e0852",
 "at": "2026-11-16 21:01",
@@ -1631,16 +1643,6 @@
 "sha": "d6b07c7",
 "at": "2026-11-16 17:04",
 "msg": "장부: UiTone 옛 줄 지움(2차 줄로 대체)"
-},
-{
-"sha": "f95515c",
-"at": "2026-11-16 17:03",
-"msg": "CD-0010 판 화면 TA 2차: 탁함 걷기·또렷한 흙길·장판 테두리 문양·큰 균열/관문 결계·숫자 톤"
-},
-{
-"sha": "4beb381",
-"at": "2026-11-16 16:39",
-"msg": "CD-0011 화면: 상점·우편함·테스트 결제·박스 확률 %, 저장 v8 · CD-0010 2차 HUD 요청"
 }
 ]
 },
@@ -2601,18 +2603,21 @@
 "id": "CD-0012",
 "title": "OpenAI 생성물 상업 이용 조항 확인과 장부 반영",
 "branch": "main",
-"updated": "2026-11-16 21:13",
+"updated": "2026-11-16 21:24",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"20-art.md",
+"30-qa.md",
+"90-close.md"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "완료",
 "route": "fast",
 "risk": "low",
 "teams": "art",
 "opened": "2026-11-16",
-"closed": "",
+"closed": "2026-11-16",
 "goal": "<p>Codex(ChatGPT Plus 구독, 앱 내장 그림 생성)로 만든 그림을 <strong>유료 판매·인앱 결제가 있는 모바일 게임에 넣어도 되는지</strong>를 OpenAI 의 현행 약관 <strong>원문</strong>으로 확인하고, 그 결과(조항 인용·주소·확인일·약관 시행일)를 장부와 문서에 남긴다. 추측으로 «괜찮다» 고 적지 않는다. 원문에서 확인하지 못한 것은 «확인 못 함» 으로 남긴다.</p>",
 "goalShort": "Codex(ChatGPT Plus 구독, 앱 내장 그림 생성)로 만든 그림을 유료 판매·인앱 결제가 있는 모바일 게임에 넣어도 되는지를 OpenAI 의 현행 약관 원문으로 확인하고, 그 결과(조항 인용·주소·확인일·약관 시행일)를 장부와 문서에 남긴다.",
 "tasks": [
@@ -2622,8 +2627,8 @@
 "team": "art",
 "title": "① OpenAI 공식 페이지에서 원문을 찾아 읽는다: 개인용 이용 약관(Terms of Use — ChatGPT Plus 에 적용되는지 포함), Service Terms(이미지 생성·Codex 관련 조항이 있으면), Usage Policies, Sharing & Publication Policy(생성물 공개·AI 표시 요구), 그 밖에 Codex 앱에 따로 붙는 조항이 있으면 그것. 각 문서의 시행일·최종 수정일, 주소, 확인일을 적는다. ② 다음 질문마다 원문 문장을 짧게 인용해 답한다: (가) 생성물의 소유권은 누구에게 있나, (나) 상업 이용(판매·인앱 결제 게임)에 제한이 있나, (다) 생성물이 유일하지 않다는 조항·남과 같은 결과가 나올 수 있다는 조항, (라) 공개할 때 AI 생성임을 밝혀야 하나, «사람이 만들었다» 고 하면 안 되나, (마) 이용자 책임(제3자 권리 침해·금지 용도) 조항, (바) Plus 같은 개인 구독과 Business/Enterprise 의 차이가 생성물 권리에 있나. ③ 같은 방식으로 Google Play 정책을 확인한다: 생성형 AI 앱 정책이 «게임 안에서 AI 가 생성하지 않고, 미리 만든 AI 그림만 쓰는 게임» 에 적용되는지, 스토어 등록 때 AI 사용을 밝히는 항목이 있는지(docs/03 §4 5번). ④ 장부 133줄의 라이선스 칸을 확인 결과 문자열 하나로 바꾼다(예: «OpenAI Terms of Use (eff. YYYY-MM-DD) - output assigned to user, commercial use allowed; checked 2026-11-16» — 실제 원문에 맞춰 쓴다, «OpenAI» 로 시작). 확인 결과 상업 이용이 막히거나 애매하면 바꾸지 말고 대표에게 보고만 한다. ⑤ art/tools/accept.py 112줄의 새 줄 기본 문자열을 같은 문자열로 바꾼다. ⑥ docs/03-리소스계획.md §4 1번·5번과 §7 의 «아직 확인 안 함» 을 결과로 고친다(인용 주소 포함). 다른 절은 건드리지 않는다",
 "output": "20-art.md(질문별 인용·주소·시행일·확인일 표, 확인 못 한 것), 장부·accept.py·docs/03 수정",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "Q1",
@@ -2631,8 +2636,8 @@
 "team": "qa",
 "title": "수용 기준 확인. 인용 주소 중 최소 3개를 직접 열어 인용 문장이 실제로 있는지 대조",
 "output": "30-qa.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 }
 ]
 }
@@ -3078,10 +3083,10 @@
 "tab": "system",
 "file": "docs/14-배포-저장.md",
 "title": "14. 핸드폰 설치 · 새 빌드 · 콘텐츠 갱신 · 유저 정보 저장",
-"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0008: §3-1~3-5 이어 하기·백업·기기 설정·저장 버전 6·버전 0.3.0 — 결정 0040·0041 사용자 확인 대기) · 상태: 구성 추천안(공식 문서·요금 페이지 확인, 2026-11-15). <strong>계정 연결은 사용자가 해야 한다.</strong>\n</li>\n<li>목표: 개발하는 동안 핸드폰에 설치해서 해 보고, 새 빌드를 받고, 그림·수치를 앱 재설치 없이 바꾸고, 유저 정보를 서버에 저장한다. 비용은 0에 가깝게.\n</li></ul>\n<h3>1. 고른 구성</h3>\n<div class=tw><table><thead><tr><th>필요</th><th>고른 것</th><th>무료 범위(공식)</th><th>비고</th></tr></thead><tbody><tr><td>핸드폰에 새 빌드 받기</td><td><strong>Firebase App Distribution</strong> + 평소엔 USB <code>adb install -r</code></td><td>무료(수치 한도 없음)</td><td>새 빌드를 올리면 폰에 알림. 출시 직전에 Google Play 내부 테스트(등록비 US$25 한 번)</td></tr><tr><td>그림·데이터를 재설치 없이 갱신</td><td><strong>Addressables 2.10.3 + Unity Cloud Content Delivery(CCD)</strong></td><td>대역폭 월 50 GB, 저장 무료</td><td>버킷(개발/출시) → 릴리스 → 배지(<code>latest</code>)</td></tr><tr><td>수치만 가볍게 바꾸기</td><td><strong>Unity Remote Config</strong></td><td>전부 무료</td><td><code>Data/*.json</code> 을 원격 값으로 덮어쓴다</td></tr><tr><td>계정</td><td><strong>Unity Authentication</strong> 익명 로그인</td><td>전부 무료</td><td>출시 전 Google Play Games 연결(기기 변경 대비)</td></tr><tr><td>유저 정보 저장</td><td><strong>Unity Cloud Save</strong></td><td>저장 5 GiB, 읽기·쓰기 각 100만 회</td><td>플레이어당 키 2,000개·5 MiB</td></tr><tr><td>서버에서 뽑기·재화 처리</td><td><strong>Unity Cloud Code</strong> (출시 전)</td><td>호출 100만 회</td><td>★ 최신 패키지 3.0 은 Unity 6.7 이상. <strong>6.3 에서 쓸 수 있는 버전이 있는지 먼저 확인해야 한다</strong></td></tr><tr><td>협동 중계</td><td>Unity Relay (M4)</td><td>월평균 동시접속 50명</td><td>결정 0003</td></tr></tbody></table></div>\n<ul>\n<li><strong>Unity Economy 는 쓸 수 없다.</strong> 2026-09-08 부터 새 프로젝트 가입을 받지 않는다. 재화·상자는 Cloud Save 에 직접 저장한다.\n</li>\n<li>한 곳(Unity Gaming Services)으로 모은 이유: 협동(Relay)에 어차피 Unity 계정과 인증이 필요하고, 대시보드와 명령 도구가 하나다. 빌드 배포만 Firebase 를 쓴다.\n</li>\n<li>위험: Unity 는 서비스를 접은 적이 있다(Multiplay 2026-03, Economy 신규 중단). 그래서 저장·뽑기 코드는 <strong>인터페이스 뒤에 숨겨</strong> 다른 서버로 바꿀 수 있게 만든다.\n</li></ul>\n<h3>2. 단계</h3>\n<div class=tw><table><thead><tr><th>단계</th><th>하는 것</th><th>언제</th></tr></thead><tbody><tr><td>1</td><td>안드로이드 빌드 → USB 로 폰에 설치(<code>unity build</code> → <code>adb install -r</code>)</td><td>첫 목표</td></tr><tr><td>2</td><td>유저 정보를 <strong>기기에 저장</strong>(저장 인터페이스 + 로컬 구현, 버전 번호 포함)</td><td>첫 목표</td></tr><tr><td>3</td><td>Unity 프로젝트를 클라우드에 연결, 익명 로그인, Cloud Save 로 동기화</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>4</td><td>Firebase App Distribution 으로 빌드 올리기 한 줄 명령</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>5</td><td>Addressables 로 그림을 묶고 CCD 에서 받기. 임시 그림 → 본 그림 교체가 재설치 없이 된다</td><td>첫 목표 후반</td></tr><tr><td>6</td><td>Remote Config 로 수치 덮어쓰기</td><td>보상·육성 단계</td></tr><tr><td>7</td><td>뽑기·재화 계산을 서버(Cloud Code)로 옮김, Google Play Games 연결</td><td>출시 전</td></tr></tbody></table></div>\n<h3>3. 저장 구조</h3>\n<ul>\n<li><strong>저장 인터페이스</strong> 하나(<code>IPlayerStore</code>: 불러오기, 저장하기)에 구현 둘: 기기 파일, Cloud Save. 게임 코드는 인터페이스만 안다.\n</li>\n<li><strong>기기 먼저, 서버는 동기화.</strong> 판이 끝나거나 박스를 뽑을 때 기기에 쓰고 곧바로 서버에 올린다. 오프라인이면 다음에 올린다.\n</li>\n<li>데이터에 <strong>버전 번호</strong>를 넣는다. 구조가 바뀌면 옛 저장을 새 구조로 옮기는 코드를 같이 쓴다(저장이 깨지면 유저가 떠난다).\n</li>\n<li>충돌: 서버와 기기가 다르면 «더 나중에 저장된 쪽» 을 쓰되, 재화는 줄어드는 방향의 덮어쓰기를 기록으로 남긴다(초안).\n</li>\n<li>내용: <code>13-보상-육성-꾸밈.md</code> §7 의 여섯 묶음.\n</li>\n<li>개발 단계의 한계: 기기에서 계산하므로 조작할 수 있다. 출시 전 7단계에서 막는다. 지금은 혼자 쓰는 빌드라 문제가 아니다.\n</li>\n<li><strong>지금 구현은 기기 파일 하나뿐이다</strong>(<code>IPlayerStore</code> 의 구현은 <code>FilePlayerStore</code>, <code>player.json</code>). Cloud Save 구현은 아직 없다(코드로 확인).\n</li></ul>\n<h4>3-1. 판 이어 하기 (결정 0040 — 대표 초안 · 사용자 확인 대기)</h4>\n<ul>\n<li>싱글 판 중 <strong>웨이브가 시작될 때마다 · 앱이 뒤로 갈 때 · 앱이 종료될 때</strong> <code>match-resume.json</code> 을 저장 옆에 원자 저장(임시 파일 + 바꿔 넣기)한다. 판이 끝나거나(승리·패배·메뉴 포기) «다시 하기» 로 버리거나 카드에서 포기하면 지운다.\n</li>\n<li>내용: 파일 형식(1) · <strong>앱 버전</strong> · 시각 · 이유 · 단계 id · 시드 · 웨이브 · 깬 웨이브 · 처치 · 틱 · 상태 해시 · Core 스냅샷 문자열(머리 <code>CDSNAP4</code>(CD-0010 부터 · 옛 <code>CDSNAP3</code> 은 <code>SnapshotVersionException</code>), 시드·loadout·미션·현상금·강화·특성 상태 포함. 최대 약 2.5 KB).\n</li>\n<li>다시 켜서 로비에 오면 <strong>복원해 해시가 쓴 때와 같은지</strong> 확인한다. 같으면 «이어 하기» 카드(단계 · 웨이브)에서 [이어 하기](일시정지 메뉴가 열린 채 시작) / [포기](한 번 확인 뒤 정산). 이어 할 판이 있으면 [출전] 은 막힌다.\n</li>\n<li><strong>앱 버전이 다르거나 · 형식이 다르거나 · 스냅샷을 못 읽거나 · 해시가 다르면</strong> «지난 판을 이어 할 수 없어요» 토스트 한 번과 <strong>포기 정산</strong>(그 판의 깬 웨이브만큼 뽑기 코인, 난이도 배율 반영) 뒤 파일을 지운다.\n</li>\n<li>협동은 이어 하기가 없다. 실기기 확인은 못 했다(에디터에서 «앱 뒤로 감 → 다시 켬» 흉내만).\n</li></ul>\n<h4>3-2. 저장 백업</h4>\n<ul>\n<li>저장할 때마다 이전 파일을 <code>player.json.bak</code> 한 개로 남긴다. 읽기에 실패하면 깨진 파일은 <code>player.json.broken-&lt;시각&gt;</code> 으로 옆에 보관하고 <code>.bak</code> 로 복구한다(로그만, 화면 알림 없음). <code>.bak</code> 도 깨졌으면 새 저장으로 시작한다.\n</li></ul>\n<h4>3-3. 기기 설정 (PlayerPrefs — 저장 파일 밖)</h4>\n<div class=tw><table><thead><tr><th>키</th><th>뜻</th><th>기본</th></tr></thead><tbody><tr><td><code>cd.gfx</code></td><td>그래픽 품질 1 높음 · 0 낮음(다음 판부터)</td><td>1</td></tr><tr><td><code>cd.fps</code></td><td>프레임 60 · 30</td><td>60</td></tr><tr><td><code>settings.sound</code> · <code>settings.music</code> · <code>settings.vibration</code></td><td>소리·음악·진동 켬/끔</td><td>1</td></tr><tr><td><code>settings.soundVolume</code> · <code>settings.musicVolume</code></td><td>음량 0~100</td><td>100</td></tr></tbody></table></div>\n<ul>\n<li>저장 초기화(설정 → 두 번 확인)는 <code>player.json</code>·<code>.bak</code>·<code>match-resume.json</code> 만 지우고 위 설정은 남긴다. 낮음에서 꺼지는 것은 결정 0041.\n</li></ul>\n<h4>3-4. 저장 구조 버전 — 지금 <strong>6</strong> (<code>PlayerData.CurrentVersion</code>)</h4>\n<div class=tw><table><thead><tr><th>버전</th><th>주문</th><th>더한 것</th></tr></thead><tbody><tr><td>2</td><td>CD-0006</td><td>대표 캐릭터 · 종족 조각 선택권 · 박스 판</td></tr><tr><td>3</td><td>CD-0007</td><td>첫 판 길잡이 완료 · 최근 판</td></tr><tr><td>4</td><td>CD-0007</td><td>난이도 단계(이긴 단계가 다음을 연다). 이긴 판이 있는 옛 저장은 첫 단계를 이긴 것으로 옮긴다</td></tr><tr><td>5</td><td>CD-0008</td><td>이름을 정했는가(<code>profile.nameChosen</code>) — 옛 저장은 «아직» 으로 옮겨 한 번 묻는다</td></tr><tr><td>6</td><td>CD-0008</td><td>일일 목표 진행(<code>daily</code>) — 옛 저장은 빈 진행</td></tr></tbody></table></div>\n<ul>\n<li>옛 저장은 한 단계씩 옮기는 코드(<code>PlayerDataMigrations</code>)로 읽는다. 버전 1 → 2 이후 각 단계의 옮김이 코드에 있다.\n</li></ul>\n<h4>3-5. 앱 이름·버전 (CD-0008)</h4>\n<ul>\n<li>버전 <strong>0.3.0</strong>, 안드로이드 <code>versionCode</code> 3(<code>ProjectSetup.AppVersion</code>·<code>AndroidVersionCode</code>). 이어 하기는 앱 버전이 다르면 포기 정산이므로(§3-1) 버전을 올린 빌드를 깔면 진행 중이던 판은 정산된다.\n</li>\n<li>폰 홈 화면 글자는 «프로젝트CD»(안드로이드 빌드 동안만 <code>productName</code> 을 바꾼다), 유니티 제품명·폴더는 <code>CoopDefense</code> 그대로. 앱 아이콘·스플래시는 결정 0041. 실제 홈 화면 글자·아이콘·스플래시는 빌드로 확인하지 못했다.\n</li></ul>\n<h3>4. 임시 그림 → 본 그림 교체</h3>\n<ul>\n<li>모든 그림은 <strong>이름표(주소)</strong> 로 부른다. 예: <code>unit/human/1</code>, <code>monster/goblin_grunt</code>, <code>ui/button_summon</code>.\n</li>\n<li>임시 그림과 본 그림은 같은 이름표를 쓴다. 본 그림이 나오면 <strong>그 파일만 바꿔</strong> CCD 에 올린다. 코드와 앱은 그대로다.\n</li>\n<li><code>Data/assets.json</code> 에 이름표마다 상태(임시/본)를 적고, 개발 현황 사이트에 교체 진행률을 싣는다.\n</li></ul>\n<h3>5. 사용자가 해야 하는 일</h3>\n<ol>\n<li><strong>Unity 계정 로그인</strong>: <code>unity auth login</code> (지금 이 PC 의 Unity CLI 는 로그인돼 있지 않다). 그 뒤 프로젝트를 Unity Cloud 에 연결한다.\n</li>\n<li><strong>Firebase 프로젝트 만들기</strong>(Google 계정)와 테스터로 본인 이메일 등록. 폰에서 초대 메일을 연다.\n</li>\n<li>핸드폰에서 <strong>개발자 옵션 → USB 디버깅</strong> 켜기(USB 설치용).\n</li></ol>\n<p>위 세 가지는 계정·기기 권한이라 대신할 수 없다. 나머지는 준비해 둔다.</p>\n<h3>6. 확인하지 못한 것</h3>\n<ul>\n<li>Cloud Code 가 Unity 6.3 에서 돌아가는 패키지 버전(7단계 전에 확인)\n</li>\n<li>Firebase 테스터 앱이 폰에 필요한지\n</li>\n<li>Google Play Games 로 기기를 바꿨을 때의 정확한 흐름\n</li>\n<li>박스 뽑기(비복원 추첨)가 확률 공개 규정에서 어느 유형인지, 해설서 원문\n</li>\n<li>GitHub Releases 를 Addressables 원격 경로로 쓰는 방식(쓰지 않기로 했으므로 조사하지 않음)\n</li></ul>\n<h3>출처</h3>\n<ul>\n<li><a href=\"https://firebase.google.com/docs/app-distribution\" rel=\"noopener\" target=\"_blank\">Firebase App Distribution</a> · <a href=\"https://firebase.google.com/docs/app-distribution/android/distribute-cli\" rel=\"noopener\" target=\"_blank\">CLI 배포</a> · <a href=\"https://firebase.google.com/pricing\" rel=\"noopener\" target=\"_blank\">Firebase 요금</a>\n</li>\n<li><a href=\"https://unity.com/products/gaming-services/pricing\" rel=\"noopener\" target=\"_blank\">Unity Gaming Services 요금</a> · <a href=\"https://docs.unity.com/ugs/manual/ccd/manual/UnityCCD\" rel=\"noopener\" target=\"_blank\">CCD 개념</a> · <a href=\"https://docs.unity.com/en-us/ccd/cli\" rel=\"noopener\" target=\"_blank\">CCD 명령 도구</a>\n</li>\n<li><a href=\"https://docs.unity.com/en-us/engine/6000.3/manual/packages-list/packages-all/pack-safe/com-unity-addressables\" rel=\"noopener\" target=\"_blank\">Addressables (6000.3)</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-save/manual/concepts/player-data\" rel=\"noopener\" target=\"_blank\">Cloud Save 플레이어 데이터</a> · <a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-code/manual\" rel=\"noopener\" target=\"_blank\">Cloud Code</a> · <a href=\"https://docs.unity.com/en-us/economy/index\" rel=\"noopener\" target=\"_blank\">Economy 신규 중단</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/authentication/manual/platform-signin-google-play-games\" rel=\"noopener\" target=\"_blank\">Google Play Games 로그인 연결</a> · <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465\" rel=\"noopener\" target=\"_blank\">Play 테스트 요건</a>\n</li>\n<li><a href=\"https://www.mcst.go.kr/kor/s_notice/notice/noticeView.jsp?pSeq=17856\" rel=\"noopener\" target=\"_blank\">확률형 아이템 해설서 공지(문체부)</a> · <a href=\"https://zdnet.co.kr/view/?no=20240222164405\" rel=\"noopener\" target=\"_blank\">유·무료 구분 보도(ZDNet)</a>\n</li></ul>",
-"at": "2026-11-16 17:41",
+"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0008: §3-1~3-5 이어 하기·백업·기기 설정·저장 버전 6·버전 0.3.0 — 결정 0040·0041 사용자 확인 대기) · 2026-11-16(§1-1·1-2 구축: Unity Cloud·CCD 버킷·Firebase·고정 서명 키·배포 한 줄 명령) · 상태: 구성 추천안(공식 문서·요금 페이지 확인, 2026-11-15). <strong>계정 연결은 사용자가 해야 한다.</strong>\n</li>\n<li>목표: 개발하는 동안 핸드폰에 설치해서 해 보고, 새 빌드를 받고, 그림·수치를 앱 재설치 없이 바꾸고, 유저 정보를 서버에 저장한다. 비용은 0에 가깝게.\n</li></ul>\n<h3>1. 고른 구성</h3>\n<div class=tw><table><thead><tr><th>필요</th><th>고른 것</th><th>무료 범위(공식)</th><th>비고</th></tr></thead><tbody><tr><td>핸드폰에 새 빌드 받기</td><td><strong>Firebase App Distribution</strong> + 평소엔 USB <code>adb install -r</code></td><td>무료(수치 한도 없음)</td><td>새 빌드를 올리면 폰에 알림. 출시 직전에 Google Play 내부 테스트(등록비 US$25 한 번)</td></tr><tr><td>그림·데이터를 재설치 없이 갱신</td><td><strong>Addressables 2.10.3 + Unity Cloud Content Delivery(CCD)</strong></td><td>대역폭 월 50 GB, 저장 무료</td><td>버킷(개발/출시) → 릴리스 → 배지(<code>latest</code>)</td></tr><tr><td>수치만 가볍게 바꾸기</td><td><strong>Unity Remote Config</strong></td><td>전부 무료</td><td><code>Data/*.json</code> 을 원격 값으로 덮어쓴다</td></tr><tr><td>계정</td><td><strong>Unity Authentication</strong> 익명 로그인</td><td>전부 무료</td><td>출시 전 Google Play Games 연결(기기 변경 대비)</td></tr><tr><td>유저 정보 저장</td><td><strong>Unity Cloud Save</strong></td><td>저장 5 GiB, 읽기·쓰기 각 100만 회</td><td>플레이어당 키 2,000개·5 MiB</td></tr><tr><td>서버에서 뽑기·재화 처리</td><td><strong>Unity Cloud Code</strong> (출시 전)</td><td>호출 100만 회</td><td>★ 최신 패키지 3.0 은 Unity 6.7 이상. <strong>6.3 에서 쓸 수 있는 버전이 있는지 먼저 확인해야 한다</strong></td></tr><tr><td>협동 중계</td><td>Unity Relay (M4)</td><td>월평균 동시접속 50명</td><td>결정 0003</td></tr></tbody></table></div>\n<ul>\n<li><strong>Unity Economy 는 쓸 수 없다.</strong> 2026-09-08 부터 새 프로젝트 가입을 받지 않는다. 재화·상자는 Cloud Save 에 직접 저장한다.\n</li>\n<li>한 곳(Unity Gaming Services)으로 모은 이유: 협동(Relay)에 어차피 Unity 계정과 인증이 필요하고, 대시보드와 명령 도구가 하나다. 빌드 배포만 Firebase 를 쓴다.\n</li>\n<li>위험: Unity 는 서비스를 접은 적이 있다(Multiplay 2026-03, Economy 신규 중단). 그래서 저장·뽑기 코드는 <strong>인터페이스 뒤에 숨겨</strong> 다른 서버로 바꿀 수 있게 만든다.\n</li>\n<li><strong>Firebase App Distribution 은 테스트 기간용이다.</strong> 실서비스 앱 배포는 Google Play 가 맡는다(M7). CCD·UGS·서명 키는 실서비스까지 그대로 간다.\n</li></ul>\n<h3>1-1. 계정과 연결 (2026-11-16 구축, 대표 직접)</h3>\n<div class=tw><table><thead><tr><th>무엇</th><th>값</th><th>확인</th></tr></thead><tbody><tr><td>Unity Cloud 프로젝트</td><td><code>CoopDefense</code> · id <code>f4c4460b-2b57-4c46-9485-ab701b3cfd7b</code> · 조직 <code>dbc594f4-…</code>(genesis 14568767606770) · COPPA «아동 대상 아님»</td><td><code>unity projects link cloud</code> 로 만들고 대시보드에서 이름을 바꿨다. <code>ProjectSettings</code> 의 <code>projectName</code> 은 아직 <code>UnityProject</code>(에디터가 열 때 맞추는지 확인 안 함)</td></tr><tr><td>CCD</td><td>가입(주문 OC-00151164, $0, 월 50 GB 넘으면 GB당 $0.08) · 환경 <code>production</code> · 버킷 <strong><code>android-dev</code></strong> id <code>40859a40-fb29-4e36-8ab8-bebde29d24f3</code> · 공개 · Regular</td><td>버킷만 있고 릴리스는 없다. 올리는 일은 Addressables 도입(5단계) 뒤</td></tr><tr><td>Firebase</td><td>프로젝트 <code>coopdefense</code>(번호 320478939297, Spark 무료, Analytics·Gemini 끔) · 안드로이드 앱 <code>1:320478939297:android:e026ed3e001988bf86c8e0</code>(<code>com.local.coopdefense</code>) · 테스터 그룹 <code>testers</code>(<strong>1명</strong>, 사용자 본인 메일, 11-16 등록)</td><td>0.4.0(4) 첫 업로드 성공(등록 전이라 그 빌드는 아무 폰에도 가지 않았다)</td></tr><tr><td>서명 키</td><td><code>%USERPROFILE%\\.coopdefense\\signing\\</code> 의 <code>coopdefense-release.keystore</code>(PKCS12, 별칭 <code>coopdefense</code>, SHA-256 <code>DB:94:3E:…:F4:1B</code>) + <code>signing.json</code>(비밀번호). <strong>저장소 밖, 커밋 금지</strong></td><td><code>apksigner</code> 로 APK 인증서가 이 키인 것을 확인. <strong>이 폴더를 잃으면 테스터 폰에 업데이트를 깔 수 없다 → 따로 백업</strong></td></tr></tbody></table></div>\n<h3>1-2. 새 빌드를 테스터 폰에 보내기</h3>\n<pre><code>powershell -ExecutionPolicy Bypass -File tools\\distribute_android.ps1 -Notes &quot;바뀐 것&quot;   # 빌드(고정 키 필수) → Firebase → 그룹 testers\npowershell -ExecutionPolicy Bypass -File tools\\distribute_android.ps1 -SkipBuild        # 이미 만든 APK 를 다시 보낸다\nfirebase.cmd appdistribution:testers:add --project coopdefense --group-alias testers a@x.com b@y.com   # 테스터 추가</code></pre>\n<ul>\n<li>테스터 폰: 초대 메일 → 수락 → 메일 링크나 App Tester 앱으로 설치. «출처를 알 수 없는 앱 설치» 허용이 필요하다.\n</li>\n<li><strong>업데이트로 깔리려면 <code>versionCode</code> 가 폰에 있는 것보다 커야 하고 서명 키가 같아야 한다.</strong> 키는 <code>build_android.ps1</code> 가 <code>signing.json</code> 에서 읽어 이 빌드에만 넣는다(<code>AndroidSigning.cs</code>, ProjectSettings 에 남기지 않음). 파일이 없으면 디버그 키로 빌드하고 경고, <code>-RequireSigning</code>(배포 스크립트가 붙인다)이면 실패.\n</li>\n<li>이 PC 의 PowerShell 은 스크립트 실행 정책 때문에 <code>firebase</code> 대신 <strong><code>firebase.cmd</code></strong> 로 부른다. CLI 로그인은 이 PC 의 Google 계정(Firebase 프로젝트 만든 계정)으로 돼 있다.\n</li></ul>\n<h3>2. 단계</h3>\n<div class=tw><table><thead><tr><th>단계</th><th>하는 것</th><th>언제</th></tr></thead><tbody><tr><td>1</td><td>안드로이드 빌드 → USB 로 폰에 설치(<code>unity build</code> → <code>adb install -r</code>)</td><td>첫 목표</td></tr><tr><td>2</td><td>유저 정보를 <strong>기기에 저장</strong>(저장 인터페이스 + 로컬 구현, 버전 번호 포함)</td><td>첫 목표</td></tr><tr><td>3</td><td>Unity 프로젝트를 클라우드에 연결, 익명 로그인, Cloud Save 로 동기화</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>4</td><td>Firebase App Distribution 으로 빌드 올리기 한 줄 명령</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>5</td><td>Addressables 로 그림을 묶고 CCD 에서 받기. 임시 그림 → 본 그림 교체가 재설치 없이 된다</td><td>첫 목표 후반</td></tr><tr><td>6</td><td>Remote Config 로 수치 덮어쓰기</td><td>보상·육성 단계</td></tr><tr><td>7</td><td>뽑기·재화 계산을 서버(Cloud Code)로 옮김, Google Play Games 연결</td><td>출시 전</td></tr></tbody></table></div>\n<h3>3. 저장 구조</h3>\n<ul>\n<li><strong>저장 인터페이스</strong> 하나(<code>IPlayerStore</code>: 불러오기, 저장하기)에 구현 둘: 기기 파일, Cloud Save. 게임 코드는 인터페이스만 안다.\n</li>\n<li><strong>기기 먼저, 서버는 동기화.</strong> 판이 끝나거나 박스를 뽑을 때 기기에 쓰고 곧바로 서버에 올린다. 오프라인이면 다음에 올린다.\n</li>\n<li>데이터에 <strong>버전 번호</strong>를 넣는다. 구조가 바뀌면 옛 저장을 새 구조로 옮기는 코드를 같이 쓴다(저장이 깨지면 유저가 떠난다).\n</li>\n<li>충돌: 서버와 기기가 다르면 «더 나중에 저장된 쪽» 을 쓰되, 재화는 줄어드는 방향의 덮어쓰기를 기록으로 남긴다(초안).\n</li>\n<li>내용: <code>13-보상-육성-꾸밈.md</code> §7 의 여섯 묶음.\n</li>\n<li>개발 단계의 한계: 기기에서 계산하므로 조작할 수 있다. 출시 전 7단계에서 막는다. 지금은 혼자 쓰는 빌드라 문제가 아니다.\n</li>\n<li><strong>지금 구현은 기기 파일 하나뿐이다</strong>(<code>IPlayerStore</code> 의 구현은 <code>FilePlayerStore</code>, <code>player.json</code>). Cloud Save 구현은 아직 없다(코드로 확인).\n</li></ul>\n<h4>3-1. 판 이어 하기 (결정 0040 — 대표 초안 · 사용자 확인 대기)</h4>\n<ul>\n<li>싱글 판 중 <strong>웨이브가 시작될 때마다 · 앱이 뒤로 갈 때 · 앱이 종료될 때</strong> <code>match-resume.json</code> 을 저장 옆에 원자 저장(임시 파일 + 바꿔 넣기)한다. 판이 끝나거나(승리·패배·메뉴 포기) «다시 하기» 로 버리거나 카드에서 포기하면 지운다.\n</li>\n<li>내용: 파일 형식(1) · <strong>앱 버전</strong> · 시각 · 이유 · 단계 id · 시드 · 웨이브 · 깬 웨이브 · 처치 · 틱 · 상태 해시 · Core 스냅샷 문자열(머리 <code>CDSNAP4</code>(CD-0010 부터 · 옛 <code>CDSNAP3</code> 은 <code>SnapshotVersionException</code>), 시드·loadout·미션·현상금·강화·특성 상태 포함. 최대 약 2.5 KB).\n</li>\n<li>다시 켜서 로비에 오면 <strong>복원해 해시가 쓴 때와 같은지</strong> 확인한다. 같으면 «이어 하기» 카드(단계 · 웨이브)에서 [이어 하기](일시정지 메뉴가 열린 채 시작) / [포기](한 번 확인 뒤 정산). 이어 할 판이 있으면 [출전] 은 막힌다.\n</li>\n<li><strong>앱 버전이 다르거나 · 형식이 다르거나 · 스냅샷을 못 읽거나 · 해시가 다르면</strong> «지난 판을 이어 할 수 없어요» 토스트 한 번과 <strong>포기 정산</strong>(그 판의 깬 웨이브만큼 뽑기 코인, 난이도 배율 반영) 뒤 파일을 지운다.\n</li>\n<li>협동은 이어 하기가 없다. 실기기 확인은 못 했다(에디터에서 «앱 뒤로 감 → 다시 켬» 흉내만).\n</li></ul>\n<h4>3-2. 저장 백업</h4>\n<ul>\n<li>저장할 때마다 이전 파일을 <code>player.json.bak</code> 한 개로 남긴다. 읽기에 실패하면 깨진 파일은 <code>player.json.broken-&lt;시각&gt;</code> 으로 옆에 보관하고 <code>.bak</code> 로 복구한다(로그만, 화면 알림 없음). <code>.bak</code> 도 깨졌으면 새 저장으로 시작한다.\n</li></ul>\n<h4>3-3. 기기 설정 (PlayerPrefs — 저장 파일 밖)</h4>\n<div class=tw><table><thead><tr><th>키</th><th>뜻</th><th>기본</th></tr></thead><tbody><tr><td><code>cd.gfx</code></td><td>그래픽 품질 1 높음 · 0 낮음(다음 판부터)</td><td>1</td></tr><tr><td><code>cd.fps</code></td><td>프레임 60 · 30</td><td>60</td></tr><tr><td><code>settings.sound</code> · <code>settings.music</code> · <code>settings.vibration</code></td><td>소리·음악·진동 켬/끔</td><td>1</td></tr><tr><td><code>settings.soundVolume</code> · <code>settings.musicVolume</code></td><td>음량 0~100</td><td>100</td></tr></tbody></table></div>\n<ul>\n<li>저장 초기화(설정 → 두 번 확인)는 <code>player.json</code>·<code>.bak</code>·<code>match-resume.json</code> 만 지우고 위 설정은 남긴다. 낮음에서 꺼지는 것은 결정 0041.\n</li></ul>\n<h4>3-4. 저장 구조 버전 — 지금 <strong>6</strong> (<code>PlayerData.CurrentVersion</code>)</h4>\n<div class=tw><table><thead><tr><th>버전</th><th>주문</th><th>더한 것</th></tr></thead><tbody><tr><td>2</td><td>CD-0006</td><td>대표 캐릭터 · 종족 조각 선택권 · 박스 판</td></tr><tr><td>3</td><td>CD-0007</td><td>첫 판 길잡이 완료 · 최근 판</td></tr><tr><td>4</td><td>CD-0007</td><td>난이도 단계(이긴 단계가 다음을 연다). 이긴 판이 있는 옛 저장은 첫 단계를 이긴 것으로 옮긴다</td></tr><tr><td>5</td><td>CD-0008</td><td>이름을 정했는가(<code>profile.nameChosen</code>) — 옛 저장은 «아직» 으로 옮겨 한 번 묻는다</td></tr><tr><td>6</td><td>CD-0008</td><td>일일 목표 진행(<code>daily</code>) — 옛 저장은 빈 진행</td></tr></tbody></table></div>\n<ul>\n<li>옛 저장은 한 단계씩 옮기는 코드(<code>PlayerDataMigrations</code>)로 읽는다. 버전 1 → 2 이후 각 단계의 옮김이 코드에 있다.\n</li></ul>\n<h4>3-5. 앱 이름·버전 (CD-0008)</h4>\n<ul>\n<li>버전 <strong>0.3.0</strong>, 안드로이드 <code>versionCode</code> 3(<code>ProjectSetup.AppVersion</code>·<code>AndroidVersionCode</code>). 이어 하기는 앱 버전이 다르면 포기 정산이므로(§3-1) 버전을 올린 빌드를 깔면 진행 중이던 판은 정산된다.\n</li>\n<li>폰 홈 화면 글자는 «프로젝트CD»(안드로이드 빌드 동안만 <code>productName</code> 을 바꾼다), 유니티 제품명·폴더는 <code>CoopDefense</code> 그대로. 앱 아이콘·스플래시는 결정 0041. 실제 홈 화면 글자·아이콘·스플래시는 빌드로 확인하지 못했다.\n</li></ul>\n<h3>4. 임시 그림 → 본 그림 교체</h3>\n<ul>\n<li>모든 그림은 <strong>이름표(주소)</strong> 로 부른다. 예: <code>unit/human/1</code>, <code>monster/goblin_grunt</code>, <code>ui/button_summon</code>.\n</li>\n<li>임시 그림과 본 그림은 같은 이름표를 쓴다. 본 그림이 나오면 <strong>그 파일만 바꿔</strong> CCD 에 올린다. 코드와 앱은 그대로다.\n</li>\n<li><code>Data/assets.json</code> 에 이름표마다 상태(임시/본)를 적고, 개발 현황 사이트에 교체 진행률을 싣는다.\n</li></ul>\n<h3>5. 사용자가 해야 하는 일</h3>\n<ol>\n<li>~~Unity 계정 로그인·클라우드 연결~~ — 2026-11-16 됨(§1-1).\n</li>\n<li>~~Firebase 프로젝트~~ — 2026-11-16 됨. 테스터 1명 등록(늘리면 그룹 <code>testers</code> 에 넣는다). 폰에서 초대 메일을 연다.\n</li>\n<li>핸드폰에서 <strong>개발자 옵션 → USB 디버깅</strong> 켜기(USB 설치용) — 아직.\n</li>\n<li>서명 키 폴더(<code>%USERPROFILE%\\.coopdefense\\signing\\</code>) 백업 — 아직.\n</li></ol>\n<p>이메일·기기·백업은 사용자만 할 수 있다.</p>\n<h3>6. 확인하지 못한 것</h3>\n<ul>\n<li>Cloud Code 가 Unity 6.3 에서 돌아가는 패키지 버전(7단계 전에 확인)\n</li>\n<li>Firebase 테스터 앱이 폰에 필요한지(검색으로는 «선택, 권장». 실기기로는 확인 안 함)\n</li>\n<li>테스터 폰에 실제로 설치되는지(테스터 0명이라 아직)\n</li>\n<li>Google Play Games 로 기기를 바꿨을 때의 정확한 흐름\n</li>\n<li>박스 뽑기(비복원 추첨)가 확률 공개 규정에서 어느 유형인지, 해설서 원문\n</li>\n<li>GitHub Releases 를 Addressables 원격 경로로 쓰는 방식(쓰지 않기로 했으므로 조사하지 않음)\n</li></ul>\n<h3>출처</h3>\n<ul>\n<li><a href=\"https://firebase.google.com/docs/app-distribution\" rel=\"noopener\" target=\"_blank\">Firebase App Distribution</a> · <a href=\"https://firebase.google.com/docs/app-distribution/android/distribute-cli\" rel=\"noopener\" target=\"_blank\">CLI 배포</a> · <a href=\"https://firebase.google.com/pricing\" rel=\"noopener\" target=\"_blank\">Firebase 요금</a>\n</li>\n<li><a href=\"https://unity.com/products/gaming-services/pricing\" rel=\"noopener\" target=\"_blank\">Unity Gaming Services 요금</a> · <a href=\"https://docs.unity.com/ugs/manual/ccd/manual/UnityCCD\" rel=\"noopener\" target=\"_blank\">CCD 개념</a> · <a href=\"https://docs.unity.com/en-us/ccd/cli\" rel=\"noopener\" target=\"_blank\">CCD 명령 도구</a>\n</li>\n<li><a href=\"https://docs.unity.com/en-us/engine/6000.3/manual/packages-list/packages-all/pack-safe/com-unity-addressables\" rel=\"noopener\" target=\"_blank\">Addressables (6000.3)</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-save/manual/concepts/player-data\" rel=\"noopener\" target=\"_blank\">Cloud Save 플레이어 데이터</a> · <a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-code/manual\" rel=\"noopener\" target=\"_blank\">Cloud Code</a> · <a href=\"https://docs.unity.com/en-us/economy/index\" rel=\"noopener\" target=\"_blank\">Economy 신규 중단</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/authentication/manual/platform-signin-google-play-games\" rel=\"noopener\" target=\"_blank\">Google Play Games 로그인 연결</a> · <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465\" rel=\"noopener\" target=\"_blank\">Play 테스트 요건</a>\n</li>\n<li><a href=\"https://www.mcst.go.kr/kor/s_notice/notice/noticeView.jsp?pSeq=17856\" rel=\"noopener\" target=\"_blank\">확률형 아이템 해설서 공지(문체부)</a> · <a href=\"https://zdnet.co.kr/view/?no=20240222164405\" rel=\"noopener\" target=\"_blank\">유·무료 구분 보도(ZDNet)</a>\n</li></ul>",
+"at": "2026-11-16 21:44",
 "branch": "main",
-"dirty": false
+"dirty": true
 },
 {
 "tab": "content",
@@ -8733,8 +8738,8 @@
 {
 "file": "2026-11-16.md",
 "title": "2026-11-16",
-"html": "<h3>한 일</h3>\n<ul>\n<li>사용자가 그림 57장을 확정했다(결정 0032): 일러스트 24, 인게임 SD 24, 원화 3, 화면용 6.\n</li>\n<li>주문 CD-0006(판 밖 화면): 로딩·로비·캐릭터·박스 뽑기를 worktree <code>outgame</code> 에서 만들고, 인게임(CD-0005, 다른 세션, 커밋 bf8bcad)이 main 에 들어온 뒤 합쳤다. main = ee20ec1.\n<ul>\n<li>병합 충돌 3곳(GameApp, TempArtPostprocessor, SpriteCatalog)을 풀었다. 두 쪽이 그림 경로를 다르게 다루던 것(확장자 유무)을 이름표 기준으로 통일했고, 이름이 겹친 <code>Shake</code> 는 판 밖 것을 <code>OutgameShake</code> 로 바꿨다.\n</li>\n<li>판 밖 화면에 인게임의 UI 그림 세트를 입혔고, 앱을 켜면 첫 프레임부터 로딩 원화가 보이게 했다.\n</li></ul>\n</li>\n<li>빌드: PC <code>Builds/Windows/CoopDefense.exe</code>(약 143MB), 안드로이드 <code>Builds/Android/coopdefense-dev-arm64.apk</code>(37MB).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>합친 상태의 테스트: Core 126, EditMode 28, PlayMode 18 통과(건너뜀 2는 캡처용). main 에서 <code>python tools/studio.py check --unity</code> 통과(Core 126 · 데이터 · 그림 57장 · 설정 · EditMode 28/28). 독립 검수 PASS.\n</li>\n<li>PC 빌드를 직접 켜서: 로딩 원화 → 로비 → 박스 1장(D상, 코인 40→30, 남은 제비 79) → 로비 → 출전 → 새 판 화면에서 빈칸 소환(엘프 1단계가 서서 그림자 무리를 공격). 실행 로그에 오류 없음.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람(사용자) 플레이. 폰 설치와 터치로 제비 뜯기. 폰에서의 로딩 속도.\n</li>\n<li>worktree 에서 <code>unity test</code> CLI 는 13개만 돈 결과를 남겼다(직접 <code>-runTests</code> 로는 28개). main 에 합친 뒤 <code>studio.py check --unity</code> 는 28/28. CLI 가 worktree 가 아니라 main 체크아웃의 프로젝트를 돌린 것으로 보인다(증명은 못 함).\n</li>\n<li>판 화면 위 띠의 얼굴은 아직 기본 그림이다(대표 캐릭터를 읽지 않는다).\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: 빌드를 해 보고 피드백. 로비·박스·판 화면을 하나씩 다듬는다.\n</li>\n<li>육성(레벨·각성) 동작, 그림자 무리 군단 구성, 상위 성장 기획, 게임 이름.\n</li>\n<li>worktree <code>outgame</code> 은 main 에 다 들어갔다. 지워도 된다(사용자 확인 뒤).\n</li></ul>\n<h2>2026-11-16 새벽 — 밤사이 완성 묶음 (주문 CD-0007)</h2>\n<p>사용자가 자러 가며 «다른 세션이 끝나면 전체를 검토해 폴리싱하고, 만들려는 방향을 완성까지 개발해 빌드해 둬» 라고 했다. 인게임(CD-0005)·판 밖(CD-0006) 세션이 02:00 에 끝났고, 그 통합본 위에 줄기 <code>fin</code> 계열에서 만들어 main 에 합쳤다.</p>\n<h3>한 일</h3>\n<ul>\n<li>판 안: 종족별 강화(결정 0033), 캐릭터 레벨·각성의 피해 반영, 특성 24개(0034), 판이 진행될수록 높은 단계가 나오는 소환(0038), 난이도 단계 셋(0037), 웨이브 곡선을 내려가지 않게 다시 맞춤.\n</li>\n<li>판 밖: 레벨 업·각성, 업적 19·꾸밈 22(0035), 프로필, 설정·크레딧, 보상 단계(0036), 로비의 단계 고르기, 저장 구조 4.\n</li>\n<li>소리: CC0 효과음 59·음악 2 를 넣고 판 안팎에 연결. 전투 소리는 실시간 초당 7개로 묶음.\n</li>\n<li>연출·폴리싱: 종족별 공격 그림, 맞음·처치·소환·합성 연출, 상태 표시, 흔들림, 맵·HUD 다듬기, 첫 판 길잡이.\n</li>\n<li>모바일 대비: 앱이 뒤로 갈 때 저장·일시정지, 뒤로 가기, 버전 0.2.0.\n</li>\n<li>자동 한 바퀴 모드(<code>-cdAutoplay</code>)를 넣어 창을 누르지 않고 빌드를 검토했다.\n</li>\n<li>결정 0033~0038 은 전부 대표 초안이다(사용자 확인 대기, 각 결정에 되돌리는 법).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>Core 테스트 198, 유니티 EditMode 50, PlayMode 37 통과(건너뜀은 캡처·진단용). 데이터·그림 57장·설정 검사 통과. 독립 검수 PASS(사소 8).\n</li>\n<li>봇 20판: 보통 10승, 어려움·정예는 육성 단계별 목표 안. 4단계를 만든 판이 기본 봇 0 → 6, 몰아 키우는 봇 3 → 13.\n</li>\n<li>PC 빌드의 자동 한 바퀴: 로딩 → 로비 → 첫 판 → 결과 → 박스 10장 → 레벨 업 → 업적·프로필·설정 → 둘째 판, 끝 코드 0·문제 0. 레벨 업한 캐릭터가 다음 판에서 더 세다(테스트).\n</li>\n<li>소리 재생 수: 판 하나에서 7,701(초당 27) → 1,392(초당 7.6).\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람 플레이 0판. 창을 눌러 보지 못했다(조작 권한 승인을 받을 사람이 없었다).\n</li>\n<li>소리를 한 번도 듣지 못했다. 진동·터치·실기기·폰 설치.\n</li>\n<li>판 시작 프레임 끊김(약 320ms)이 남아 있다.\n</li>\n<li>새 그림은 0장이다(Codex 그림 상한 초과 상태라 부르지 않았다).\n</li></ul>\n<h3>사고</h3>\n<ul>\n<li>01:13 규칙 엔진 팀이 상대 경로 실수로 main 의 <code>GameConfig.cs</code> 를 덮어썼다가 2분쯤 뒤 원래 바이트로 되돌렸다. 그 뒤 팀에는 절대 경로로만 쓰게 했다.\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: 빌드(v0.2.0)를 해 보고 피드백, 소리 듣기, 결정 0033~0038 확인.\n</li>\n<li>협동(M4), 클라우드 저장·배포(계정 연결 뒤), 몬스터 유형 확장과 군단 구성, 판 시작 끊김, 그림(졸개 개성·꾸밈 본 그림·코인 아이콘).\n</li>\n<li>worktree <code>fin</code>·<code>fin-*</code> 여섯 개는 main 에 다 들어갔다. 지워도 된다(사용자 확인 뒤).\n</li></ul>\n<h3>오전 — 졸개 그림 변형 (주문 CD-0008)</h3>\n<ul>\n<li>검수에서 나온 «졸개가 복제한 듯 같다» 를 고쳤다: 변형 3장을 몬스터 묶음의 원래 Codex 세션을 이어 그리고(6회, 1차는 털·줄무늬·자주색으로 어긋나 셋 다 다시 뽑음), 몬스터 고유 번호로 그림을 고르게 했다.\n</li>\n<li>확인: Core 198, EditMode 52, PlayMode 37 통과·건너뜀 9, 캡처에서 변형 셋이 섞여 보임. 검수 PASS.\n</li>\n<li>확인 못 한 것: 사람 플레이. 기존 캡처 테스트(CaptureScreens)가 시간 초과로 실패하는 원인.\n</li></ul>\n<h2>2026-11-16 낮 — 서비스 마감 다듬기 (주문 CD-0009, v0.3.0)</h2>\n<p>사용자가 출근하며 «저녁까지 남은 작업, 유저 시야의 어색한 곳, 서비스 관점 부족한 부분 기획·개발, QA, 폴리싱, TA 그래픽» 을 맡겼다. 처음엔 CD-0008 로 열었다가, 같은 날 다른 세션이 main 에 CD-0008(졸개 그림 변형, 사용자 허락으로 Codex 3장)을 커밋해 CD-0009 로 바꿨다.</p>\n<h3>한 일</h3>\n<ul>\n<li>UX 전수 감사(실제 빌드 캡처를 처음 깐 유저 시선으로): 49항목 — 45 고침, 1 일부, 3 대표 판단으로 안 고침.\n</li>\n<li>서비스 기능: 닉네임, 판 이어 하기, 저장 백업, 일일 목표, 게임 방법, 설정(음량·그래픽·프레임·크레딧·초기화), 앱 아이콘·홈 화면 이름, 로딩 글자 로고, 몬스터 정보 카드.\n</li>\n<li>콘텐츠: 몬스터 유형 3종(그림자 떼·날개·응어리), 두 번째 맵 «바윗골 관문» 과 로비 맵 고르기.\n</li>\n<li>TA: UI 셰이더 5종, 땅·길·돌판 명암, 접지 그림자, 몬스터 림·디졸브, 균열·관문 빛, 연출 정리, 그래픽 «낮음».\n</li>\n<li>판 시작 끊김 321 → 38~63ms.\n</li>\n<li>결정 0039~0043(전부 대표 초안 · 사용자 확인 대기).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>독립 검수 1차 FAIL(중요 2) → 고침 → 재검수 PASS. Core 262, EditMode 72, PlayMode 64(건너뜀 3, 실패 0).\n</li>\n<li>PC 빌드 자동 한 바퀴(시드 2): 이름 정하기 → 이어 하기(해시 일치) → 20웨이브 승리 → 오늘 목표 3/3 → «바윗골 관문 열림» → 박스·육성·설정 → 맵 2 판, 문제 0.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람 플레이 0판, 소리 듣기, 실기기(터치·키보드·진동·노치), 폰 설치.\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: v0.3.0 빌드를 해 보고 피드백, 결정 0033~0043 확인, «경험 결정» 이름, 맵 2·새 몬스터 고유 그림 여부(Codex 허락).\n</li>\n<li>worktree <code>fin*</code> 은 main 에 다 들어갔다 — 지워도 된다(사용자 확인 뒤).\n</li></ul>\n<h3>오후 — 판 화면 재작업·UI 통일·공격 고정 (CD-0010), 상점·우편함 (CD-0011) · v0.4.0</h3>\n<h4>한 일</h4>\n<ul>\n<li>사용자 8항목:\n<ul>\n<li>글자 정렬을 한 곳에서 보정했다.\n</li>\n<li>배치 칸을 장판으로 바꾸고, 캐릭터가 서 있게 했다.\n</li>\n<li>몬스터를 그림자 병사(검은 몸·푸른 눈빛·연기)로 바꿨다(결정 0045).\n</li>\n<li>공격 대상을 «가장 먼 적, 죽을 때까지 고정» 으로 바꿨다(결정 0044, 균형 재조정).\n</li>\n<li>체력 막대를 없앴다.\n</li>\n<li>UI 를 디자인 토큰 하나로 통일했다.\n</li>\n<li>균열·관문을 FX 로 바꿨다.\n</li>\n<li>색을 정리했다(2차).\n</li></ul>\n</li>\n<li>상점(30일 보급·뽑기 코인·보석·교환)·우편함·박스 확률 %·테스트 결제를 넣었다(결정 0046·0047 초안).\n</li>\n<li>독립 검수 PASS(중요 0) 뒤 보통 7건을 고쳤다.\n</li>\n<li>빌드 스크립트 기본에 테스트 결제가 켜지고, -Release 는 잠긴다.\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>테스트: Core 301, EditMode 82, PlayMode 60 통과(실패 0, 캡처용 건너뜀 15)\n</li>\n<li>studio.py check, PC·APK 빌드, 자동 한 바퀴(시드 2): 문제 0, 이어 하기 해시 일치, 평균 약 16.9ms\n</li>\n<li>판 채도 0.31 → 0.48, 몬스터 보라 0\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>사람 플레이, 움직임(정지 캡처만), 소리, 실기기, 실제 결제\n</li></ul>\n<h4>사고</h4>\n<ul>\n<li>UI 팀이 scratchpad 의 같은 이름 스크립트로 인게임 worktree 의 유니티를 한 번 띄웠다. 컴파일 오류로 바로 꺼졌고 피해는 없었다.\n</li>\n<li>UI 팀이 사용자 클립보드를 한 번 덮어썼다. 그 뒤 팀마다 전용 하위 폴더를 쓰게 했고, 클립보드 금지를 지시문에 넣었다.\n</li>\n<li>수정 팀의 치환 스크립트가 파일 4개를 비웠다가 git 에서 곧바로 복구했다.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자 플레이 피드백, 결정 0044~0047 확인(0046·0047 은 초안), 실제 결제 계정(P2), 새 그림 허락(A9)\n</li></ul>\n<h3>형상관리 정리 (사용자 지시)</h3>\n<ul>\n<li><code>docs/02-개발방식.md</code> §6 을 실제 운영에 맞췄다: 통합 줄기는 <code>main</code> 하나, 작업 줄기 <code>cd&lt;번호&gt;</code>·<code>cd&lt;번호&gt;-&lt;영역&gt;</code>, worktree 는 팀 자리(폴더 이름 ≠ 브랜치 이름), 버전 태그 규칙, 푸시 백업 시점. 1차 개발 완료 뒤 <code>develop</code> 을 가른다는 계획도 적었다. <code>CLAUDE.md</code> 규칙 9 에서 그 절을 가리킨다.\n</li>\n<li>버전 태그 4개를 달았다: v0.1.0(2f10398) · v0.2.0(6ebfa4e) · v0.3.0(03cdb79) · v0.4.0(b158198). 버전을 올린 커밋 기준이다.\n</li>\n<li>원격에 밀려 있던 main 커밋(11-15 오후부터)과 태그를 푸시했다.\n</li>\n<li>손대지 않은 것: 커밋 안 된 <code>ProjectSettings.asset</code>·<code>UnityConnectSettings.asset</code>(유니티 클라우드 프로젝트 연결, 이번 일과 무관), CD-0005 캡처 파일, worktree 폴더(<code>outgame</code> 은 다 합쳐져서 지워도 되지만 사용자 확인 전).\n</li></ul>",
-"at": "2026-11-16 20:36",
+"html": "<h3>한 일</h3>\n<ul>\n<li>사용자가 그림 57장을 확정했다(결정 0032): 일러스트 24, 인게임 SD 24, 원화 3, 화면용 6.\n</li>\n<li>주문 CD-0006(판 밖 화면): 로딩·로비·캐릭터·박스 뽑기를 worktree <code>outgame</code> 에서 만들고, 인게임(CD-0005, 다른 세션, 커밋 bf8bcad)이 main 에 들어온 뒤 합쳤다. main = ee20ec1.\n<ul>\n<li>병합 충돌 3곳(GameApp, TempArtPostprocessor, SpriteCatalog)을 풀었다. 두 쪽이 그림 경로를 다르게 다루던 것(확장자 유무)을 이름표 기준으로 통일했고, 이름이 겹친 <code>Shake</code> 는 판 밖 것을 <code>OutgameShake</code> 로 바꿨다.\n</li>\n<li>판 밖 화면에 인게임의 UI 그림 세트를 입혔고, 앱을 켜면 첫 프레임부터 로딩 원화가 보이게 했다.\n</li></ul>\n</li>\n<li>빌드: PC <code>Builds/Windows/CoopDefense.exe</code>(약 143MB), 안드로이드 <code>Builds/Android/coopdefense-dev-arm64.apk</code>(37MB).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>합친 상태의 테스트: Core 126, EditMode 28, PlayMode 18 통과(건너뜀 2는 캡처용). main 에서 <code>python tools/studio.py check --unity</code> 통과(Core 126 · 데이터 · 그림 57장 · 설정 · EditMode 28/28). 독립 검수 PASS.\n</li>\n<li>PC 빌드를 직접 켜서: 로딩 원화 → 로비 → 박스 1장(D상, 코인 40→30, 남은 제비 79) → 로비 → 출전 → 새 판 화면에서 빈칸 소환(엘프 1단계가 서서 그림자 무리를 공격). 실행 로그에 오류 없음.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람(사용자) 플레이. 폰 설치와 터치로 제비 뜯기. 폰에서의 로딩 속도.\n</li>\n<li>worktree 에서 <code>unity test</code> CLI 는 13개만 돈 결과를 남겼다(직접 <code>-runTests</code> 로는 28개). main 에 합친 뒤 <code>studio.py check --unity</code> 는 28/28. CLI 가 worktree 가 아니라 main 체크아웃의 프로젝트를 돌린 것으로 보인다(증명은 못 함).\n</li>\n<li>판 화면 위 띠의 얼굴은 아직 기본 그림이다(대표 캐릭터를 읽지 않는다).\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: 빌드를 해 보고 피드백. 로비·박스·판 화면을 하나씩 다듬는다.\n</li>\n<li>육성(레벨·각성) 동작, 그림자 무리 군단 구성, 상위 성장 기획, 게임 이름.\n</li>\n<li>worktree <code>outgame</code> 은 main 에 다 들어갔다. 지워도 된다(사용자 확인 뒤).\n</li></ul>\n<h2>2026-11-16 새벽 — 밤사이 완성 묶음 (주문 CD-0007)</h2>\n<p>사용자가 자러 가며 «다른 세션이 끝나면 전체를 검토해 폴리싱하고, 만들려는 방향을 완성까지 개발해 빌드해 둬» 라고 했다. 인게임(CD-0005)·판 밖(CD-0006) 세션이 02:00 에 끝났고, 그 통합본 위에 줄기 <code>fin</code> 계열에서 만들어 main 에 합쳤다.</p>\n<h3>한 일</h3>\n<ul>\n<li>판 안: 종족별 강화(결정 0033), 캐릭터 레벨·각성의 피해 반영, 특성 24개(0034), 판이 진행될수록 높은 단계가 나오는 소환(0038), 난이도 단계 셋(0037), 웨이브 곡선을 내려가지 않게 다시 맞춤.\n</li>\n<li>판 밖: 레벨 업·각성, 업적 19·꾸밈 22(0035), 프로필, 설정·크레딧, 보상 단계(0036), 로비의 단계 고르기, 저장 구조 4.\n</li>\n<li>소리: CC0 효과음 59·음악 2 를 넣고 판 안팎에 연결. 전투 소리는 실시간 초당 7개로 묶음.\n</li>\n<li>연출·폴리싱: 종족별 공격 그림, 맞음·처치·소환·합성 연출, 상태 표시, 흔들림, 맵·HUD 다듬기, 첫 판 길잡이.\n</li>\n<li>모바일 대비: 앱이 뒤로 갈 때 저장·일시정지, 뒤로 가기, 버전 0.2.0.\n</li>\n<li>자동 한 바퀴 모드(<code>-cdAutoplay</code>)를 넣어 창을 누르지 않고 빌드를 검토했다.\n</li>\n<li>결정 0033~0038 은 전부 대표 초안이다(사용자 확인 대기, 각 결정에 되돌리는 법).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>Core 테스트 198, 유니티 EditMode 50, PlayMode 37 통과(건너뜀은 캡처·진단용). 데이터·그림 57장·설정 검사 통과. 독립 검수 PASS(사소 8).\n</li>\n<li>봇 20판: 보통 10승, 어려움·정예는 육성 단계별 목표 안. 4단계를 만든 판이 기본 봇 0 → 6, 몰아 키우는 봇 3 → 13.\n</li>\n<li>PC 빌드의 자동 한 바퀴: 로딩 → 로비 → 첫 판 → 결과 → 박스 10장 → 레벨 업 → 업적·프로필·설정 → 둘째 판, 끝 코드 0·문제 0. 레벨 업한 캐릭터가 다음 판에서 더 세다(테스트).\n</li>\n<li>소리 재생 수: 판 하나에서 7,701(초당 27) → 1,392(초당 7.6).\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람 플레이 0판. 창을 눌러 보지 못했다(조작 권한 승인을 받을 사람이 없었다).\n</li>\n<li>소리를 한 번도 듣지 못했다. 진동·터치·실기기·폰 설치.\n</li>\n<li>판 시작 프레임 끊김(약 320ms)이 남아 있다.\n</li>\n<li>새 그림은 0장이다(Codex 그림 상한 초과 상태라 부르지 않았다).\n</li></ul>\n<h3>사고</h3>\n<ul>\n<li>01:13 규칙 엔진 팀이 상대 경로 실수로 main 의 <code>GameConfig.cs</code> 를 덮어썼다가 2분쯤 뒤 원래 바이트로 되돌렸다. 그 뒤 팀에는 절대 경로로만 쓰게 했다.\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: 빌드(v0.2.0)를 해 보고 피드백, 소리 듣기, 결정 0033~0038 확인.\n</li>\n<li>협동(M4), 클라우드 저장·배포(계정 연결 뒤), 몬스터 유형 확장과 군단 구성, 판 시작 끊김, 그림(졸개 개성·꾸밈 본 그림·코인 아이콘).\n</li>\n<li>worktree <code>fin</code>·<code>fin-*</code> 여섯 개는 main 에 다 들어갔다. 지워도 된다(사용자 확인 뒤).\n</li></ul>\n<h3>오전 — 졸개 그림 변형 (주문 CD-0008)</h3>\n<ul>\n<li>검수에서 나온 «졸개가 복제한 듯 같다» 를 고쳤다: 변형 3장을 몬스터 묶음의 원래 Codex 세션을 이어 그리고(6회, 1차는 털·줄무늬·자주색으로 어긋나 셋 다 다시 뽑음), 몬스터 고유 번호로 그림을 고르게 했다.\n</li>\n<li>확인: Core 198, EditMode 52, PlayMode 37 통과·건너뜀 9, 캡처에서 변형 셋이 섞여 보임. 검수 PASS.\n</li>\n<li>확인 못 한 것: 사람 플레이. 기존 캡처 테스트(CaptureScreens)가 시간 초과로 실패하는 원인.\n</li></ul>\n<h2>2026-11-16 낮 — 서비스 마감 다듬기 (주문 CD-0009, v0.3.0)</h2>\n<p>사용자가 출근하며 «저녁까지 남은 작업, 유저 시야의 어색한 곳, 서비스 관점 부족한 부분 기획·개발, QA, 폴리싱, TA 그래픽» 을 맡겼다. 처음엔 CD-0008 로 열었다가, 같은 날 다른 세션이 main 에 CD-0008(졸개 그림 변형, 사용자 허락으로 Codex 3장)을 커밋해 CD-0009 로 바꿨다.</p>\n<h3>한 일</h3>\n<ul>\n<li>UX 전수 감사(실제 빌드 캡처를 처음 깐 유저 시선으로): 49항목 — 45 고침, 1 일부, 3 대표 판단으로 안 고침.\n</li>\n<li>서비스 기능: 닉네임, 판 이어 하기, 저장 백업, 일일 목표, 게임 방법, 설정(음량·그래픽·프레임·크레딧·초기화), 앱 아이콘·홈 화면 이름, 로딩 글자 로고, 몬스터 정보 카드.\n</li>\n<li>콘텐츠: 몬스터 유형 3종(그림자 떼·날개·응어리), 두 번째 맵 «바윗골 관문» 과 로비 맵 고르기.\n</li>\n<li>TA: UI 셰이더 5종, 땅·길·돌판 명암, 접지 그림자, 몬스터 림·디졸브, 균열·관문 빛, 연출 정리, 그래픽 «낮음».\n</li>\n<li>판 시작 끊김 321 → 38~63ms.\n</li>\n<li>결정 0039~0043(전부 대표 초안 · 사용자 확인 대기).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>독립 검수 1차 FAIL(중요 2) → 고침 → 재검수 PASS. Core 262, EditMode 72, PlayMode 64(건너뜀 3, 실패 0).\n</li>\n<li>PC 빌드 자동 한 바퀴(시드 2): 이름 정하기 → 이어 하기(해시 일치) → 20웨이브 승리 → 오늘 목표 3/3 → «바윗골 관문 열림» → 박스·육성·설정 → 맵 2 판, 문제 0.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람 플레이 0판, 소리 듣기, 실기기(터치·키보드·진동·노치), 폰 설치.\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: v0.3.0 빌드를 해 보고 피드백, 결정 0033~0043 확인, «경험 결정» 이름, 맵 2·새 몬스터 고유 그림 여부(Codex 허락).\n</li>\n<li>worktree <code>fin*</code> 은 main 에 다 들어갔다 — 지워도 된다(사용자 확인 뒤).\n</li></ul>\n<h3>오후 — 판 화면 재작업·UI 통일·공격 고정 (CD-0010), 상점·우편함 (CD-0011) · v0.4.0</h3>\n<h4>한 일</h4>\n<ul>\n<li>사용자 8항목:\n<ul>\n<li>글자 정렬을 한 곳에서 보정했다.\n</li>\n<li>배치 칸을 장판으로 바꾸고, 캐릭터가 서 있게 했다.\n</li>\n<li>몬스터를 그림자 병사(검은 몸·푸른 눈빛·연기)로 바꿨다(결정 0045).\n</li>\n<li>공격 대상을 «가장 먼 적, 죽을 때까지 고정» 으로 바꿨다(결정 0044, 균형 재조정).\n</li>\n<li>체력 막대를 없앴다.\n</li>\n<li>UI 를 디자인 토큰 하나로 통일했다.\n</li>\n<li>균열·관문을 FX 로 바꿨다.\n</li>\n<li>색을 정리했다(2차).\n</li></ul>\n</li>\n<li>상점(30일 보급·뽑기 코인·보석·교환)·우편함·박스 확률 %·테스트 결제를 넣었다(결정 0046·0047 초안).\n</li>\n<li>독립 검수 PASS(중요 0) 뒤 보통 7건을 고쳤다.\n</li>\n<li>빌드 스크립트 기본에 테스트 결제가 켜지고, -Release 는 잠긴다.\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>테스트: Core 301, EditMode 82, PlayMode 60 통과(실패 0, 캡처용 건너뜀 15)\n</li>\n<li>studio.py check, PC·APK 빌드, 자동 한 바퀴(시드 2): 문제 0, 이어 하기 해시 일치, 평균 약 16.9ms\n</li>\n<li>판 채도 0.31 → 0.48, 몬스터 보라 0\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>사람 플레이, 움직임(정지 캡처만), 소리, 실기기, 실제 결제\n</li></ul>\n<h4>사고</h4>\n<ul>\n<li>UI 팀이 scratchpad 의 같은 이름 스크립트로 인게임 worktree 의 유니티를 한 번 띄웠다. 컴파일 오류로 바로 꺼졌고 피해는 없었다.\n</li>\n<li>UI 팀이 사용자 클립보드를 한 번 덮어썼다. 그 뒤 팀마다 전용 하위 폴더를 쓰게 했고, 클립보드 금지를 지시문에 넣었다.\n</li>\n<li>수정 팀의 치환 스크립트가 파일 4개를 비웠다가 git 에서 곧바로 복구했다.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자 플레이 피드백, 결정 0044~0047 확인(0046·0047 은 초안), 실제 결제 계정(P2), 새 그림 허락(A9)\n</li></ul>\n<h3>형상관리 정리 (사용자 지시)</h3>\n<ul>\n<li><code>docs/02-개발방식.md</code> §6 을 실제 운영에 맞췄다: 통합 줄기는 <code>main</code> 하나, 작업 줄기 <code>cd&lt;번호&gt;</code>·<code>cd&lt;번호&gt;-&lt;영역&gt;</code>, worktree 는 팀 자리(폴더 이름 ≠ 브랜치 이름), 버전 태그 규칙, 푸시 백업 시점. 1차 개발 완료 뒤 <code>develop</code> 을 가른다는 계획도 적었다. <code>CLAUDE.md</code> 규칙 9 에서 그 절을 가리킨다.\n</li>\n<li>버전 태그 4개를 달았다: v0.1.0(2f10398) · v0.2.0(6ebfa4e) · v0.3.0(03cdb79) · v0.4.0(b158198). 버전을 올린 커밋 기준이다.\n</li>\n<li>원격에 밀려 있던 main 커밋(11-15 오후부터)과 태그를 푸시했다.\n</li>\n<li>손대지 않은 것: 커밋 안 된 <code>ProjectSettings.asset</code>·<code>UnityConnectSettings.asset</code>(유니티 클라우드 프로젝트 연결, 이번 일과 무관), CD-0005 캡처 파일, worktree 폴더(<code>outgame</code> 은 다 합쳐져서 지워도 되지만 사용자 확인 전).\n</li></ul>\n<h3>밤 — 전체 검토와 OpenAI 약관 확인 (주문 CD-0012)</h3>\n<ul>\n<li>사용자 요청으로 프로젝트 전체를 검토했다. 사람 플레이는 0판이고, 대표 초안 결정 15건(0033~0047)이 확인을 기다린다.\n<ul>\n<li>장부 133줄이 «라이선스 불명» 이었다. 규칙 6 과 어긋난다.\n</li>\n<li>검사 도구가 옛 EditMode 결과 파일을 지금 결과처럼 적는다.\n</li>\n<li><code>docs/14</code> 의 저장 버전 표기(6)가 코드(8)보다 뒤처졌다.\n</li>\n<li>M2 의 «30웨이브» 가 기획(20웨이브 승리)과 어긋난다.\n</li>\n<li>브랜치·worktree 12개는 다 합쳐져 있다.\n</li></ul>\n</li>\n<li>사용자가 «라이선스 조항 확인» 을 골랐다 → CD-0012(fast, art).\n<ul>\n<li>OpenAI 개인용 이용 약관(발효 2026-01-01)에서 확인한 것:\n<ul>\n<li>출력은 이용자 소유이고, 상업 이용을 막는 문장은 없다.\n</li>\n<li>사람이 만든 것으로 표시하면 안 된다.\n</li>\n<li>출력은 유일하지 않을 수 있다.\n</li>\n<li>사업자이면 제3자 청구에 대해 OpenAI 를 면책해야 한다.\n</li></ul>\n</li>\n<li>Google Play AI 정책은 앱 안에서 생성하는 콘텐츠가 대상이다. 미리 만든 그림이 대상인지는 명시가 없다.\n</li>\n<li>장부 133줄, <code>art/tools/accept.py</code>, <code>docs/03</code> §4·§7 을 고쳤다.\n</li></ul>\n</li>\n<li>확인한 것:\n<ul>\n<li>대표가 Chrome 으로 openai.com 원문을 직접 대조했다. 자동 접속은 403 이라 아트·QA 는 같은 날 웨이백 보관본을 썼다.\n</li>\n<li>QA PASS. <code>studio.py check</code> 통과.\n</li></ul>\n</li>\n<li>확인 못 한 것: Codex 앱 안 동의 화면, Usage Policies 11-20 새 판, Play Console 의 AI 신고 항목.\n</li>\n<li>다음: 크레딧에 «일부 그림은 AI 로 생성» 한 줄을 넣는다(권장, client).\n</li>\n<li>다른 세션의 일: 같은 시각 안드로이드 서명 빌드와 Firebase 작업이 있었다(<code>AndroidSigning.cs</code> 등 커밋 안 됨). 손대지 않았다.\n</li></ul>",
+"at": "2026-11-16 21:25",
 "branch": "main"
 },
 {
@@ -8748,7 +8753,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-16 21:05",
+"at": "2026-11-16 21:25",
 "passed": 301,
 "failed": 0,
 "total": 301,
@@ -8764,7 +8769,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-16 21:05",
+"at": "2026-11-16 21:25",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -8772,7 +8777,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-16 21:05",
+"at": "2026-11-16 21:25",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -8780,7 +8785,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-16 21:05",
+"at": "2026-11-16 21:25",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9006,7 +9011,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 21:13",
-"generatedAt": "2026-11-16 21:17",
-"digest": "5d985546a797615e"
+"sourceAt": "2026-11-16 21:46",
+"generatedAt": "2026-11-16 21:47",
+"digest": "2ac9067af3a1da15"
 }
