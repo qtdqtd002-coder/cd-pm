@@ -1061,8 +1061,16 @@
 "msg": "CD-0010·0011 마감 초안·검수 게이트·일지·마일스톤·현황 사이트(v0.4.0)"
 }
 ],
-"dirtyCount": 10,
+"dirtyCount": 12,
 "dirty": [
+{
+"file": "studio/orders/CD-0013-그래픽-UI-품질-1-2순위-TMP-파티클-셰이더-블러/23-client-ui2.md",
+"at": "2026-11-16 23:16"
+},
+{
+"file": "studio/orders/CD-0013-그래픽-UI-품질-1-2순위-TMP-파티클-셰이더-블러/23-client-ingame.md",
+"at": "2026-11-16 23:14"
+},
 {
 "file": "studio/orders/CD-0013-그래픽-UI-품질-1-2순위-TMP-파티클-셰이더-블러/00-order.md",
 "at": "2026-11-16 22:45"
@@ -1086,18 +1094,10 @@
 {
 "file": "studio/orders/CD-0014-Addressables-CCD-원격-그림-갱신/10-spec.md",
 "at": "2026-11-16 21:58"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-16 21:51"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-16 21:51"
 }
 ],
-"lastEdit": "2026-11-16 22:45",
-"lastEditTs": 1794836750.3480866,
+"lastEdit": "2026-11-16 23:16",
+"lastEditTs": 1794838590.3052506,
 "lastCommitTs": 1794834203,
 "unpushed": 1,
 "notInMain": 0,
@@ -1109,8 +1109,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0014",
-"head": "b59149b",
+"head": "13aed92",
 "commits": [
+{
+"sha": "13aed92",
+"at": "2026-11-16 23:02",
+"ts": 1794837746,
+"msg": "CD-0014 PlayMode: 비동기 그림 로딩으로 앱 준비 때 1.2초가 지났을 수 있어 «넘어가지 않음» 확인을 조건부로"
+},
+{
+"sha": "455a491",
+"at": "2026-11-16 22:54",
+"ts": 1794837244,
+"msg": "CD-0014 이어받기: PC 끝-끝 확인, -Gui 콘텐츠 빌드가 모달 창에서 멈추지 않게"
+},
 {
 "sha": "b59149b",
 "at": "2026-11-16 22:24",
@@ -1134,61 +1146,33 @@
 "at": "2026-11-16 21:01",
 "ts": 1794830510,
 "msg": "유니티 클라우드 프로젝트 연결(cloudProjectId·organizationId, UnityConnect 켬)"
-},
-{
-"sha": "5d44601",
-"at": "2026-11-16 20:36",
-"ts": 1794829011,
-"msg": "형상관리 규칙을 실제 운영에 맞춤: main 단일 통합 줄기, cd<번호> 작업 줄기, worktree 팀 자리, 버전 태그"
-},
-{
-"sha": "9ad9604",
-"at": "2026-11-16 19:00",
-"ts": 1794823216,
-"msg": "CD-0010·0011 마감 초안·검수 게이트·일지·마일스톤·현황 사이트(v0.4.0)"
 }
 ],
-"dirtyCount": 8,
+"dirtyCount": 4,
 "dirty": [
 {
-"file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
-"at": "2026-11-16 22:45"
-},
-{
-"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
-"at": "2026-11-16 22:39"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/UiResources.asset",
-"at": "2026-11-16 22:39"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-16 22:39"
+"at": "2026-11-16 23:02"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Final/key/lobby_bg.png",
-"at": "2026-11-16 22:39"
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-16 22:54"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-16 22:54"
 },
 {
 "file": "UnityProject/ContentState/0.4.0/StandaloneWindows64/addressables_content_state.bin",
 "at": "2026-11-16 22:36"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-16 22:35"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-16 22:35"
 }
 ],
-"lastEdit": "2026-11-16 22:45",
-"lastEditTs": 1794836757.0656953,
-"lastCommitTs": 1794835499,
-"unpushed": 1,
-"notInMain": 1,
-"today": 131
+"lastEdit": "2026-11-16 23:02",
+"lastEditTs": 1794837728.5681243,
+"lastCommitTs": 1794837746,
+"unpushed": 3,
+"notInMain": 3,
+"today": 133
 },
 {
 "branch": "cd13",
@@ -1343,43 +1327,43 @@
 "msg": "CD-0012 OpenAI 생성물 상업 이용 조항 확인과 장부 반영"
 }
 ],
-"dirtyCount": 694,
+"dirtyCount": 715,
 "dirty": [
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/logs2/autoplay.log",
-"at": "2026-11-16 12:06"
+"file": "studio/orders/CD-0013-그래픽-UI-품질-1-2순위-TMP-파티클-셰이더-블러/_qa/ingame/crop_summon_merge_100pct.jpg",
+"at": "2026-11-16 23:07"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/63_match2_wave5.png",
-"at": "2026-11-16 12:06"
+"file": "studio/orders/CD-0013-그래픽-UI-품질-1-2순위-TMP-파티클-셰이더-블러/_qa/ingame/compare_low.jpg",
+"at": "2026-11-16 23:07"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/save/match-resume.json",
-"at": "2026-11-16 12:06"
+"file": "studio/orders/CD-0013-그래픽-UI-품질-1-2순위-TMP-파티클-셰이더-블러/_qa/ingame/compare_crit_busy.jpg",
+"at": "2026-11-16 23:07"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/62_match2_t080s.png",
-"at": "2026-11-16 12:06"
+"file": "studio/orders/CD-0013-그래픽-UI-품질-1-2순위-TMP-파티클-셰이더-블러/_qa/ingame/compare_kill_gold.jpg",
+"at": "2026-11-16 23:07"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/61_match2_t060s.png",
-"at": "2026-11-16 12:06"
+"file": "studio/orders/CD-0013-그래픽-UI-품질-1-2순위-TMP-파티클-셰이더-블러/_qa/ingame/compare_summon_merge.jpg",
+"at": "2026-11-16 23:07"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/60_match2_t040s.png",
-"at": "2026-11-16 12:06"
+"file": "UnityProject/Assets/InitTestScene8e9e69c9-3ba6-40d9-ba4f-73a4c3f51d0d.unity.meta",
+"at": "2026-11-16 23:07"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/59_match2_t020s.png",
-"at": "2026-11-16 12:05"
+"file": "UnityProject/Assets/InitTestScene8e9e69c9-3ba6-40d9-ba4f-73a4c3f51d0d.unity",
+"at": "2026-11-16 23:07"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/58_match2_t000s.png",
-"at": "2026-11-16 12:05"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-16 23:07"
 }
 ],
-"lastEdit": "2026-11-16 12:06",
-"lastEditTs": 1794798391.2868795,
+"lastEdit": "2026-11-16 23:07",
+"lastEditTs": 1794838063.0176413,
 "lastCommitTs": 1794836691,
 "unpushed": 4,
 "notInMain": 4,
@@ -1445,8 +1429,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0013",
-"head": "cff04d8",
+"head": "a7250d4",
 "commits": [
+{
+"sha": "a7250d4",
+"at": "2026-11-16 23:16",
+"ts": 1794838573,
+"msg": "CD-0013 U3-U6: 홀로 셰이더·UIEffect 빛 쓸림/흑백·팝업 정적 블러·SoftMask, 크레딧 MIT 고지, EmojiOne 제거"
+},
 {
 "sha": "cff04d8",
 "at": "2026-11-16 22:44",
@@ -1476,12 +1466,6 @@
 "at": "2026-11-16 21:31",
 "ts": 1794832313,
 "msg": "배포 기반: 고정 서명 키·Firebase App Distribution 한 줄 명령·CCD 버킷 기록"
-},
-{
-"sha": "ecfe7a7",
-"at": "2026-11-16 21:26",
-"ts": 1794831996,
-"msg": "CD-0012 OpenAI 생성물 상업 이용 조항 확인과 장부 반영"
 }
 ],
 "dirtyCount": 972,
@@ -1521,10 +1505,10 @@
 ],
 "lastEdit": "2026-11-16 16:30",
 "lastEditTs": 1794814250.6980152,
-"lastCommitTs": 1794836691,
-"unpushed": 4,
-"notInMain": 4,
-"today": 134
+"lastCommitTs": 1794838573,
+"unpushed": 5,
+"notInMain": 5,
+"today": 135
 },
 {
 "branch": "fin-plan",
@@ -1583,7 +1567,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 102,
+"commits": 106,
 "byOrder": [
 [
 "CD-0008",
@@ -1615,11 +1599,11 @@
 ],
 [
 "CD-0013",
-2
+4
 ],
 [
 "CD-0014",
-1
+3
 ],
 [
 "CD-0012",
@@ -1635,6 +1619,26 @@
 ]
 ],
 "latest": [
+{
+"sha": "b501b04",
+"at": "2026-11-16 23:17",
+"msg": "CD-0013 I1·I2: 판 안 UIParticle 입자(동전 끌어당김·소환/합성 빛 알갱이·먼지 고리)와 데미지 숫자 풀"
+},
+{
+"sha": "a7250d4",
+"at": "2026-11-16 23:16",
+"msg": "CD-0013 U3-U6: 홀로 셰이더·UIEffect 빛 쓸림/흑백·팝업 정적 블러·SoftMask, 크레딧 MIT 고지, EmojiOne 제거"
+},
+{
+"sha": "13aed92",
+"at": "2026-11-16 23:02",
+"msg": "CD-0014 PlayMode: 비동기 그림 로딩으로 앱 준비 때 1.2초가 지났을 수 있어 «넘어가지 않음» 확인을 조건부로"
+},
+{
+"sha": "455a491",
+"at": "2026-11-16 22:54",
+"msg": "CD-0014 이어받기: PC 끝-끝 확인, -Gui 콘텐츠 빌드가 모달 창에서 멈추지 않게"
+},
 {
 "sha": "b00a3eb",
 "at": "2026-11-16 22:46",
@@ -1664,26 +1668,6 @@
 "sha": "214671d",
 "at": "2026-11-16 22:02",
 "msg": "CD-0013 art: package ledger rows, finish.py (cutout/upscale) and trial sheet"
-},
-{
-"sha": "8233994",
-"at": "2026-11-16 21:31",
-"msg": "배포 기반: 고정 서명 키·Firebase App Distribution 한 줄 명령·CCD 버킷 기록"
-},
-{
-"sha": "ecfe7a7",
-"at": "2026-11-16 21:26",
-"msg": "CD-0012 OpenAI 생성물 상업 이용 조항 확인과 장부 반영"
-},
-{
-"sha": "97e0852",
-"at": "2026-11-16 21:01",
-"msg": "유니티 클라우드 프로젝트 연결(cloudProjectId·organizationId, UnityConnect 켬)"
-},
-{
-"sha": "5d44601",
-"at": "2026-11-16 20:36",
-"msg": "형상관리 규칙을 실제 운영에 맞춤: main 단일 통합 줄기, cd<번호> 작업 줄기, worktree 팀 자리, 버전 태그"
 }
 ]
 },
@@ -2680,6 +2664,76 @@
 "output": "30-qa.md",
 "status": "done",
 "why": "주문 마감"
+}
+]
+},
+{
+"id": "CD-0013",
+"title": "그래픽 UI 품질 1·2순위 TMP 파티클 셰이더 블러 그림 마감 도구",
+"branch": "main",
+"updated": "2026-11-16 23:16",
+"files": [
+"00-order.md",
+"10-spec.md",
+"22-art.md",
+"23-client-ingame.md",
+"23-client-ui.md",
+"23-client-ui2.md"
+],
+"milestone": "M6",
+"stage": "제작",
+"route": "full",
+"risk": "high",
+"teams": "client, art",
+"opened": "2026-11-16",
+"closed": "",
+"goal": "<p>v0.5.0 — 화면의 «덜 만든 느낌»의 가장 큰 원인인 <strong>글자</strong>(legacy Text)를 TextMeshPro 로 바꾸고, 보상·연출 순간에 <strong>진짜 입자와 빛</strong>을 얹어 «서비스 중인 게임» 의 마감 수준으로 올린다. 이미 있는 CdFx 셰이더 9종·Juice·FloatText·골드 날리기를 버리지 않고 <strong>그 위를 다듬는다</strong>. 그림 마감 도구는 앞으로의 Codex 그림 정리에 쓰는 개발 PC 도구다.</p>",
+"goalShort": "v0.5.0 — 화면의 «덜 만든 느낌»의 가장 큰 원인인 글자(legacy Text)를 TextMeshPro 로 바꾸고, 보상·연출 순간에 진짜 입자와 빛을 얹어 «서비스 중인 게임» 의 마감 수준으로 올린다.",
+"tasks": [
+{
+"id": "client",
+"key": "CD-0013/client",
+"team": "client",
+"title": "U1 패키지 반입 · U2 TMP 전환 (§1)",
+"output": "",
+"status": "todo",
+"why": ""
+},
+{
+"id": "art",
+"key": "CD-0013/art",
+"team": "art",
+"title": "R1 장부 · R2 AI 그림 마감 도구 (§1)",
+"output": "",
+"status": "doing",
+"why": "커밋에 언급됨"
+},
+{
+"id": "client",
+"key": "CD-0013/client",
+"team": "client",
+"title": "I1 판 안 입자 · I2 데미지 숫자 (§2)",
+"output": "",
+"status": "todo",
+"why": ""
+},
+{
+"id": "client",
+"key": "CD-0013/client",
+"team": "client",
+"title": "U3 홀로 · U4 UIEffect · U5 블러 · U6 모서리·SoftMask (§2)",
+"output": "",
+"status": "todo",
+"why": ""
+},
+{
+"id": "(대표)",
+"key": "CD-0013/(대표)",
+"team": "(대표)",
+"title": "통합·빌드·M4 할 일 기록 (§3)",
+"output": "",
+"status": "todo",
+"why": ""
 }
 ]
 }
@@ -8853,8 +8907,8 @@
 "sizeMB": 44.4,
 "branch": "cd13-ui2",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "",
-"tag": ""
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-2242",
+"tag": "build-android-20261116-2242"
 },
 {
 "kind": "windows",
@@ -8938,6 +8992,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261116-2242",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-2242",
+"kind": "android",
+"at": "2026-11-16 22:42",
+"branch": "cd13-ui2",
+"sizeMB": 44.4
+},
 {
 "tag": "build-windows-20261116-2236",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261116-2236",
@@ -9089,18 +9151,10 @@
 "at": "2026-11-16 09:46",
 "branch": "cd10-ingame",
 "sizeMB": 55.1
-},
-{
-"tag": "build-windows-20261116-0946",
-"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261116-0946",
-"kind": "windows",
-"at": "2026-11-16 09:46",
-"branch": "cd13-ingame",
-"sizeMB": 55.1
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 22:45",
-"generatedAt": "2026-11-16 22:47",
-"digest": "85aa49272aa0a46a"
+"sourceAt": "2026-11-16 23:16",
+"generatedAt": "2026-11-16 23:17",
+"digest": "512051c8f565414b"
 }
