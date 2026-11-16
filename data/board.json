@@ -1091,11 +1091,23 @@
 "msg": "CD-0017 마감: 90-close, 게이트 close"
 }
 ],
-"dirtyCount": 32,
+"dirtyCount": 35,
 "dirty": [
 {
 "file": "studio/orders/CD-0020-TA-권장안-적용-CC0-VFX-소재와-화면-전환-공용/00-order.md",
-"at": "2026-11-17 01:39"
+"at": "2026-11-17 01:58"
+},
+{
+"file": "studio/orders/CD-0020-TA-권장안-적용-CC0-VFX-소재와-화면-전환-공용/90-close.md",
+"at": "2026-11-17 01:58"
+},
+{
+"file": "studio/orders/CD-0020-TA-권장안-적용-CC0-VFX-소재와-화면-전환-공용/30-qa.md",
+"at": "2026-11-17 01:57"
+},
+{
+"file": "UsersqtdqtAppDataLocalTempqa20play.xml",
+"at": "2026-11-17 01:48"
 },
 {
 "file": "studio/orders/CD-0020-TA-권장안-적용-CC0-VFX-소재와-화면-전환-공용/22-art.md",
@@ -1112,22 +1124,10 @@
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
 "at": "2026-11-17 00:43"
-},
-{
-"file": "studio/site/index.html",
-"at": "2026-11-17 00:39"
-},
-{
-"file": "studio/site/files.json",
-"at": "2026-11-17 00:39"
-},
-{
-"file": "studio/site/res/icon_app.webp",
-"at": "2026-11-17 00:39"
 }
 ],
-"lastEdit": "2026-11-17 01:39",
-"lastEditTs": 1794847143.0613828,
+"lastEdit": "2026-11-17 01:58",
+"lastEditTs": 1794848309.8860414,
 "lastCommitTs": 1794843217,
 "unpushed": 16,
 "notInMain": 0,
@@ -1448,27 +1448,10 @@
 "msg": "Merge cd20-art: CC0 VFX 라이브러리·첫 묶음 20장·장부"
 }
 ],
-"dirtyCount": 4,
-"dirty": [
-{
-"file": "UnityProject/Assets/InitTestScene742d13ea-6b99-4542-b569-4138355eb527.unity.meta",
-"at": "2026-11-17 01:40"
-},
-{
-"file": "UnityProject/Assets/InitTestScene742d13ea-6b99-4542-b569-4138355eb527.unity",
-"at": "2026-11-17 01:40"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-17 01:40"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-17 01:40"
-}
-],
-"lastEdit": "2026-11-17 01:40",
-"lastEditTs": 1794847252.2747264,
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
 "lastCommitTs": 1794847135,
 "unpushed": 24,
 "notInMain": 8,
@@ -1480,8 +1463,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0015",
-"head": "0b7f5b8",
+"head": "68ff45b",
 "commits": [
+{
+"sha": "68ff45b",
+"at": "2026-11-17 02:01",
+"ts": 1794848488,
+"msg": "CD-0015 U1: 저장 v9·v8→v9 마이그레이션·OutgameState 계약·행동력 소모·판 끝 보상/경험치/미션/업적·날짜 고정 테스트"
+},
 {
 "sha": "0b7f5b8",
 "at": "2026-11-17 01:05",
@@ -1511,55 +1500,45 @@
 "at": "2026-11-17 00:01",
 "ts": 1794841270,
 "msg": "결정 0049(영웅·은화·연합의 결정·쿠지·행동력·계정 레벨·소환 90/10 고정 비용·자유 배치) · L10·L11 갱신 · 주문 CD-0015~0018 접수"
-},
-{
-"sha": "53c98cc",
-"at": "2026-11-17 00:01",
-"ts": 1794841262,
-"msg": "현황 사이트 갱신: CD-0013 · v0.5.0"
 }
 ],
-"dirtyCount": 133,
+"dirtyCount": 7,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestSceneec8f6f75-d70b-43ca-80cc-4c598efdf877.unity.meta",
-"at": "2026-11-17 01:42"
+"file": "UnityProject/Assets/_Game/UI/ShopScreen.cs",
+"at": "2026-11-17 02:16"
 },
 {
-"file": "UnityProject/Assets/InitTestSceneec8f6f75-d70b-43ca-80cc-4c598efdf877.unity",
-"at": "2026-11-17 01:42"
+"file": "UnityProject/Assets/_Game/UI/DailyScreen.cs",
+"at": "2026-11-17 02:14"
 },
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 01:41"
+"file": "UnityProject/Assets/_Game/UI/AchievementBanner.cs",
+"at": "2026-11-17 02:13"
 },
 {
-"file": "UnityProject/Assets/_Game/Outgame/OutgameState.cs",
-"at": "2026-11-17 01:41"
+"file": "UnityProject/Assets/_Game/UI/AchievementScreen.cs",
+"at": "2026-11-17 02:13"
 },
 {
-"file": "UnityProject/Assets/_Game/Save/PlayerData.cs",
-"at": "2026-11-17 01:41"
+"file": "UnityProject/Assets/_Game/UI/ClaimRow.cs",
+"at": "2026-11-17 02:13"
 },
 {
-"file": "UnityProject/Assets/Tests/EditMode/OutgameContractEditModeTests.cs.meta",
-"at": "2026-11-17 01:41"
+"file": "UnityProject/Assets/_Game/UI/CurrencyChip.cs",
+"at": "2026-11-17 02:08"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/AuditTwoShotTests.cs",
-"at": "2026-11-17 01:40"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd13UiPolishTests.cs",
-"at": "2026-11-17 01:40"
+"file": "UnityProject/Assets/_Game/UI/RewardFx.cs",
+"at": "2026-11-17 02:08"
 }
 ],
-"lastEdit": "2026-11-17 01:42",
-"lastEditTs": 1794847331.0483038,
-"lastCommitTs": 1794845158,
-"unpushed": 5,
-"notInMain": 4,
-"today": 7
+"lastEdit": "2026-11-17 02:16",
+"lastEditTs": 1794849393.275222,
+"lastCommitTs": 1794848488,
+"unpushed": 6,
+"notInMain": 5,
+"today": 8
 },
 {
 "branch": "cd16",
@@ -1567,8 +1546,32 @@
 "session": "",
 "owns": "",
 "order": "CD-0016",
-"head": "cd8b323",
+"head": "61b045e",
 "commits": [
+{
+"sha": "61b045e",
+"at": "2026-11-17 02:04",
+"ts": 1794848667,
+"msg": "CD-0016 게이트 qa 통과"
+},
+{
+"sha": "382d43d",
+"at": "2026-11-17 02:04",
+"ts": 1794848656,
+"msg": "CD-0016 QA: 수용 기준 재검사 PASS (기존 결함 5개 제외)"
+},
+{
+"sha": "3818667",
+"at": "2026-11-17 01:49",
+"ts": 1794847744,
+"msg": "CD-0016 클라 보고서 대표 요약 절, 게이트 impl"
+},
+{
+"sha": "64ea690",
+"at": "2026-11-17 01:48",
+"ts": 1794847716,
+"msg": "CD-0016 U4: 놓는 칸 평소 옅은 고리 · 소환·합성 빛 알갱이 키움 · craft-game-floors 감사 · 30fps 이동 시험 · 마무리 검증"
+},
 {
 "sha": "cd8b323",
 "at": "2026-11-17 01:32",
@@ -1580,73 +1583,49 @@
 "at": "2026-11-17 01:06",
 "ts": 1794845173,
 "msg": "CD-0016 U1: 몬스터 이동 끊김 — 매 틱 Core 위치를 읽어 보간 (MonsterMotionTests)"
-},
-{
-"sha": "6415889",
-"at": "2026-11-17 01:03",
-"ts": 1794845029,
-"msg": "CD-0016 core C1~C3: 그리드·길 칸·영웅 수 상한 · 현상금 목숨 · 봇·균형 새 규칙 (Core 313/313)"
-},
-{
-"sha": "23b622a",
-"at": "2026-11-17 00:39",
-"ts": 1794843562,
-"msg": "CD-0016 기획: 소환 90/10·고정 비용·자유 배치(영웅 수 상한)·현상금 목숨 수치·검사·문서·기획서"
-},
-{
-"sha": "6b07a50",
-"at": "2026-11-17 00:01",
-"ts": 1794841270,
-"msg": "결정 0049(영웅·은화·연합의 결정·쿠지·행동력·계정 레벨·소환 90/10 고정 비용·자유 배치) · L10·L11 갱신 · 주문 CD-0015~0018 접수"
-},
-{
-"sha": "53c98cc",
-"at": "2026-11-17 00:01",
-"ts": 1794841262,
-"msg": "현황 사이트 갱신: CD-0013 · v0.5.0"
 }
 ],
-"dirtyCount": 725,
+"dirtyCount": 694,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 01:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/logs2/autoplay.log",
+"at": "2026-11-16 12:06"
 },
 {
-"file": "UnityProject/Assets/Resources/PerformanceTestRunSettings.json.meta",
-"at": "2026-11-17 01:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/63_match2_wave5.png",
+"at": "2026-11-16 12:06"
 },
 {
-"file": "UnityProject/Assets/Resources/PerformanceTestRunInfo.json.meta",
-"at": "2026-11-17 01:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/save/match-resume.json",
+"at": "2026-11-16 12:06"
 },
 {
-"file": "UnityProject/Assets/Resources/PerformanceTestRunSettings.json",
-"at": "2026-11-17 01:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/62_match2_t080s.png",
+"at": "2026-11-16 12:06"
 },
 {
-"file": "UnityProject/Assets/Resources/PerformanceTestRunInfo.json",
-"at": "2026-11-17 01:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/61_match2_t060s.png",
+"at": "2026-11-16 12:06"
 },
 {
-"file": "UnityProject/Assets/Resources.meta",
-"at": "2026-11-17 01:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/60_match2_t040s.png",
+"at": "2026-11-16 12:06"
 },
 {
-"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
-"at": "2026-11-17 01:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/59_match2_t020s.png",
+"at": "2026-11-16 12:05"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/UiResources.asset",
-"at": "2026-11-17 01:47"
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/58_match2_t000s.png",
+"at": "2026-11-16 12:05"
 }
 ],
-"lastEdit": "2026-11-17 01:47",
-"lastEditTs": 1794847655.4068696,
-"lastCommitTs": 1794846724,
-"unpushed": 5,
-"notInMain": 4,
-"today": 7
+"lastEdit": "2026-11-16 12:06",
+"lastEditTs": 1794798391.2868795,
+"lastCommitTs": 1794848667,
+"unpushed": 9,
+"notInMain": 8,
+"today": 11
 },
 {
 "branch": "cd19",
@@ -1884,7 +1863,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 129,
+"commits": 127,
 "byOrder": [
 [
 "CD-0008",
@@ -1892,11 +1871,7 @@
 ],
 [
 "CD-0007",
-18
-],
-[
-"기타",
-13
+14
 ],
 [
 "CD-0009",
@@ -1911,8 +1886,20 @@
 11
 ],
 [
+"기타",
+11
+],
+[
 "CD-0013",
 9
+],
+[
+"CD-0016",
+8
+],
+[
+"CD-0015",
+6
 ],
 [
 "CD-0020",
@@ -1923,16 +1910,8 @@
 6
 ],
 [
-"CD-0015",
-5
-],
-[
 "CD-0017",
 5
-],
-[
-"CD-0016",
-4
 ],
 [
 "CD-0019",
@@ -1941,13 +1920,34 @@
 [
 "CD-0012",
 1
-],
-[
-"CD-0006",
-1
 ]
 ],
 "latest": [
+{
+"sha": "61b045e",
+"at": "2026-11-17 02:04",
+"msg": "CD-0016 게이트 qa 통과"
+},
+{
+"sha": "382d43d",
+"at": "2026-11-17 02:04",
+"msg": "CD-0016 QA: 수용 기준 재검사 PASS (기존 결함 5개 제외)"
+},
+{
+"sha": "68ff45b",
+"at": "2026-11-17 02:01",
+"msg": "CD-0015 U1: 저장 v9·v8→v9 마이그레이션·OutgameState 계약·행동력 소모·판 끝 보상/경험치/미션/업적·날짜 고정 테스트"
+},
+{
+"sha": "3818667",
+"at": "2026-11-17 01:49",
+"msg": "CD-0016 클라 보고서 대표 요약 절, 게이트 impl"
+},
+{
+"sha": "64ea690",
+"at": "2026-11-17 01:48",
+"msg": "CD-0016 U4: 놓는 칸 평소 옅은 고리 · 소환·합성 빛 알갱이 키움 · craft-game-floors 감사 · 30fps 이동 시험 · 마무리 검증"
+},
 {
 "sha": "ccbb01a",
 "at": "2026-11-17 01:38",
@@ -1972,31 +1972,6 @@
 "sha": "cd8b323",
 "at": "2026-11-17 01:32",
 "msg": "CD-0016 U2·U3: 자유 배치 화면(길 칸 터치 없음·놓는 칸 빛·영웅 n/20 팝업·상한 흑백·현상금 목숨 알림) · 영웅 절차 애니메이션(숨쉬기·돌진·땅에서 솟음·합성·피격 눌림) · 판 안 PlayMode 시험 새 규칙으로"
-},
-{
-"sha": "1bbc00e",
-"at": "2026-11-17 01:25",
-"msg": "CD-0014 4차 보고: C8 PC 끝-끝(막는 창·용량 창·오프라인·되돌리기) 캡처, Android 0.5.0 카탈로그·버전 파일 CCD 반영"
-},
-{
-"sha": "337f6e3",
-"at": "2026-11-17 01:06",
-"msg": "CD-0016 U1: 몬스터 이동 끊김 — 매 틱 Core 위치를 읽어 보간 (MonsterMotionTests)"
-},
-{
-"sha": "37aa234",
-"at": "2026-11-17 01:06",
-"msg": "CD-0020 client B·C: 화면 전환 공용 ScreenTransition + LitMotion 2.0.2"
-},
-{
-"sha": "0b7f5b8",
-"at": "2026-11-17 01:05",
-"msg": "CD-0015 core: 판 밖 규칙(영웅·쿠지·행동력·계정·미션·업적·은화 상점·v8→v9 환산)과 판 안 반영(레벨·강화·판 보상), 특성·각성·박스 폐지"
-},
-{
-"sha": "6415889",
-"at": "2026-11-17 01:03",
-"msg": "CD-0016 core C1~C3: 그리드·길 칸·영웅 수 상한 · 현상금 목숨 · 봇·균형 새 규칙 (Core 313/313)"
 }
 ]
 },
@@ -3178,7 +3153,7 @@
 "id": "CD-0015",
 "title": "판 밖 개편 영웅 은화 연합의 결정 쿠지 행동력 계정 레벨 업적 미션 상점",
 "branch": "cd15",
-"updated": "2026-11-17 01:36",
+"updated": "2026-11-17 02:01",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3267,18 +3242,19 @@
 "id": "CD-0016",
 "title": "판 안 개편 소환 확률과 고정 비용 자유 배치 현상금 목숨 몬스터 이동",
 "branch": "cd16",
-"updated": "2026-11-17 01:37",
+"updated": "2026-11-17 02:04",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-planning.md",
 "21-core.md",
 "23-client.md",
+"30-qa.md",
 "_qa",
 "_sim"
 ],
 "milestone": "M2",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "high",
 "teams": "planning, core, client",
@@ -3294,7 +3270,7 @@
 "title": "수치·검사·문서·기획서(이번 커밋), core 측정 뒤 문서 숫자 맞추기, 확인 대기 답 반영",
 "output": "Data/, validate_data.py, docs/10·11·12, 이 파일, 20-planning.md",
 "status": "done",
-"why": "보고서 있음: 20-planning.md"
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -3302,8 +3278,8 @@
 "team": "core",
 "title": "그리드·길 칸·영웅 수 상한·명령 거절·조회·스냅샷",
 "output": "코드·테스트",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -3311,8 +3287,8 @@
 "team": "core",
 "title": "소환 90/10·고정 비용 테스트, 현상금 목숨",
 "output": "코드·테스트",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "C3",
@@ -3320,8 +3296,8 @@
 "team": "core",
 "title": "봇·균형 테스트를 새 규칙으로, T1~T6 재현",
 "output": "테스트·표",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "U1",
@@ -3329,8 +3305,8 @@
 "team": "client",
 "title": "몬스터 이동 끊김: 재현 테스트 → 원인 확정 → 고침",
 "output": "코드·테스트·전후 숫자",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "U2",
@@ -3338,8 +3314,8 @@
 "team": "client",
 "title": "자유 배치 화면: 놓을 칸 표시·터치·끌기·상한·현상금 목숨 알림",
 "output": "코드·캡처",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "U3",
@@ -3347,8 +3323,8 @@
 "team": "client",
 "title": "영웅 절차 애니메이션(§10-5 1순위)",
 "output": "코드·캡처",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "U4",
@@ -3356,8 +3332,8 @@
 "team": "client",
 "title": "unity:craft-game-floors 감사",
 "output": "_qa/craft-game-floors.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "Q1",
@@ -3365,8 +3341,8 @@
 "team": "qa",
 "title": "수용 기준 전부 다시 돌려 판정",
 "output": "30-qa.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 }
 ]
 },
@@ -3597,20 +3573,22 @@
 "id": "CD-0020",
 "title": "TA 권장안 적용 CC0 VFX 소재와 화면 전환 공용 컴포넌트 LitMotion",
 "branch": "main",
-"updated": "2026-11-17 01:39",
+"updated": "2026-11-17 01:58",
 "files": [
 "00-order.md",
 "10-spec.md",
 "22-art.md",
-"23-client.md"
+"23-client.md",
+"30-qa.md",
+"90-close.md"
 ],
 "milestone": "M6",
-"stage": "검수",
+"stage": "완료",
 "route": "full",
 "risk": "mid",
 "teams": "art, client",
 "opened": "2026-11-17",
-"closed": "",
+"closed": "2026-11-17",
 "goal": "<p>조사에서 1순위로 권장한 것 중 <strong>다른 세션의 파일과 겹치지 않는 것</strong>을 실제로 들여 와, 지금 화면을 고치는 세션들(CD-0014·0015·0016·0017·0018)이 바로 가져다 쓸 수 있게 한다: CC0 VFX 소재 라이브러리와 첫 묶음, 한 줄로 부르는 화면 전환, 코드 트윈 라이브러리.</p>",
 "goalShort": "조사에서 1순위로 권장한 것 중 다른 세션의 파일과 겹치지 않는 것을 실제로 들여 와, 지금 화면을 고치는 세션들(CD-0014·0015·0016·0017·0018)이 바로 가져다",
 "tasks": [
@@ -3621,7 +3599,7 @@
 "title": "새 .worktrees\\art20 · cd20-art ← main",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "client",
@@ -3630,7 +3608,7 @@
 "title": ".worktrees\\fin · cd20 ← main",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 }
 ]
 },
@@ -9869,24 +9847,24 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 01:39",
-"passed": 301,
+"at": "2026-11-17 01:38",
+"passed": 313,
 "failed": 0,
-"total": 301,
+"total": 313,
 "ok": true
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-17 01:40",
-"passed": 101,
+"at": "2026-11-17 00:03",
+"passed": 85,
 "failed": 1,
-"total": 102,
+"total": 86,
 "ok": false,
-"fresh": true
+"fresh": false
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 01:39",
+"at": "2026-11-17 01:38",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9894,7 +9872,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 01:39",
+"at": "2026-11-17 01:38",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9902,7 +9880,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 01:39",
+"at": "2026-11-17 01:38",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10164,7 +10142,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 01:47",
-"generatedAt": "2026-11-17 01:47",
-"digest": "5ab30df27cfe730e"
+"sourceAt": "2026-11-17 02:16",
+"generatedAt": "2026-11-17 02:17",
+"digest": "e1e0c1a39f3934c2"
 }
