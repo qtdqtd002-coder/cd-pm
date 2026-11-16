@@ -117,6 +117,17 @@ details.row .body{padding:10px 14px 14px}
 .empty{color:var(--ink3);padding:14px;text-align:center;font-size:13px}
 .err{background:var(--bad-soft);color:var(--bad);padding:12px;border-radius:8px}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+/* 원화 잠금 갤러리 */
+.lock{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.lock input{font:inherit;font-size:13px;padding:7px 10px;border:1px solid var(--line2);border-radius:8px;background:var(--panel);color:var(--ink);min-width:0;flex:1 1 220px;max-width:320px}
+.lock button{border:0;cursor:pointer;font:inherit;font-size:13px}
+.lock button.ghost{background:none;color:var(--ink2);border:1px solid var(--line2);font-weight:550}
+.lock .msg{font-size:12.5px;color:var(--ink3)}.lock .msg.bad{color:var(--bad)}.lock .grow{flex:1;min-width:0}
+.thumb{width:64px;height:64px;object-fit:cover;border-radius:7px;background:var(--sunk);display:block;cursor:zoom-in;border:1px solid var(--line)}
+.thumb.ph{display:grid;place-items:center;font-size:11px;color:var(--ink3);cursor:default}
+.lb{position:fixed;inset:0;z-index:50;background:rgba(10,10,10,.86);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}
+.lb img{max-width:100%;max-height:calc(100vh - 80px);object-fit:contain;border-radius:6px}
+.lb .cap{color:#eee;font-size:13px;margin-top:10px;text-align:center}
 @media (max-width:760px){
   .bar{padding:10px 16px 0}.meta{margin-left:0;width:100%}
   main{padding:18px 16px 56px}
@@ -266,13 +277,78 @@ function vDecisions(){
 function bindDecisions(){document.querySelectorAll("[data-df]").forEach(function(a){a.onclick=function(e){e.preventDefault();V.dec=a.getAttribute("data-df");render()}})}
 
 /* ===== 리소스 ===== */
+/* 원화는 공개 저장소에 암호화(AES-256-GCM)된 축소본(data/art/*.bin)만 있다. 암호 → PBKDF2 → 키, 키는 이 탭 메모리(+세션 저장소)에만 둔다. */
+var GAL={key:null,url:{},busy:{},q:[],run:0,msg:"",bad:false};
+function u8(b64){var s=atob(b64),a=new Uint8Array(s.length);for(var i=0;i<s.length;i++)a[i]=s.charCodeAt(i);return a}
+function galDecrypt(key,buf){var a=new Uint8Array(buf);return crypto.subtle.decrypt({name:"AES-GCM",iv:a.slice(0,12)},key,a.slice(12))}
+function galUnlock(pw){
+  var g=B.art.gallery;
+  return crypto.subtle.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveKey"]).then(function(base){
+    return crypto.subtle.deriveKey({name:"PBKDF2",hash:"SHA-256",salt:u8(g.salt),iterations:g.iter},base,{name:"AES-GCM",length:256},true,["decrypt"]);
+  }).then(function(key){return galDecrypt(key,u8(g.check).buffer).then(function(){return key})});
+}
+function galRemember(key){crypto.subtle.exportKey("raw",key).then(function(raw){try{sessionStorage.setItem("cdpm-art-"+B.art.gallery.salt,btoa(String.fromCharCode.apply(null,new Uint8Array(raw))))}catch(e){}})}
+function galRestore(){
+  var g=B.art&&B.art.gallery;if(!g||GAL.key||!window.crypto||!crypto.subtle)return Promise.resolve();
+  var s=null;try{s=sessionStorage.getItem("cdpm-art-"+g.salt)}catch(e){}
+  if(!s)return Promise.resolve();
+  return crypto.subtle.importKey("raw",u8(s),{name:"AES-GCM"},true,["decrypt"]).then(function(key){return galDecrypt(key,u8(g.check).buffer).then(function(){GAL.key=key})}).catch(function(){try{sessionStorage.removeItem("cdpm-art-"+g.salt)}catch(e){}});
+}
+function galLoad(id){var f=B.art.gallery.files[id];if(!f||GAL.url[id]||GAL.busy[id])return;GAL.busy[id]=1;GAL.q.push(id);galPump()}
+function galPump(){
+  while(GAL.run<4&&GAL.q.length){
+    (function(id){
+      GAL.run++;var f=B.art.gallery.files[id];
+      fetch(f.f).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.arrayBuffer()}).then(function(buf){return galDecrypt(GAL.key,buf)}).then(function(plain){
+        GAL.url[id]=URL.createObjectURL(new Blob([plain],{type:"image/webp"}));
+        document.querySelectorAll('[data-art="'+CSS.escape(id)+'"]').forEach(galPaint);
+      }).catch(function(e){console.error("원화",id,e);document.querySelectorAll('[data-art="'+CSS.escape(id)+'"]').forEach(function(el){el.textContent="실패"})}).then(function(){GAL.run--;delete GAL.busy[id];galPump()});
+    })(GAL.q.shift());
+  }
+}
+function galPaint(el){var id=el.getAttribute("data-art");if(!GAL.url[id])return;var im=document.createElement("img");im.className="thumb";im.alt=el.getAttribute("data-title")||id;im.src=GAL.url[id];im.setAttribute("data-zoom",id);el.replaceWith(im)}
+function galCell(i){
+  var g=B.art.gallery;
+  if(!g.files[i.id])return'<span class="thumb ph">없음</span>';
+  if(!GAL.key)return'<span class="thumb ph" title="잠김">잠김</span>';
+  if(GAL.url[i.id])return'<img class="thumb" alt="'+esc(i.title)+'" src="'+GAL.url[i.id]+'" data-zoom="'+esc(i.id)+'">';
+  return'<span class="thumb ph" data-art="'+esc(i.id)+'" data-title="'+esc(i.title)+'">…</span>';
+}
+function galCard(){
+  var g=B.art.gallery,n=Object.keys(g.files).length;
+  if(!window.crypto||!crypto.subtle)return'<div class="err">이 브라우저(또는 http 주소)에서는 암호 해제를 쓸 수 없어요. https 주소로 열어 주세요.</div>';
+  if(GAL.key)return'<div class="card"><div class="lock"><span class="chip c-done">원화 열림</span><span class="small muted grow">'+n+'장 · 축소본(긴 변 1280px) · 묶음을 펼치고 그림을 누르면 크게 봐요</span><button type="button" class="btn ghost" id="galLock">다시 잠그기</button></div></div>';
+  return'<div class="card"><p class="small muted" style="margin:0 0 10px">원화 '+n+'장은 암호화되어 있어요. 암호를 넣으면 이 브라우저 안에서만 풀려요.</p><form class="lock" id="galForm" autocomplete="off"><input type="password" id="galPw" placeholder="갤러리 암호" aria-label="갤러리 암호" autocomplete="current-password"><button type="submit" class="btn" id="galGo">열기</button><span class="msg'+(GAL.bad?" bad":"")+'" id="galMsg">'+esc(GAL.msg)+'</span></form></div>';
+}
+function bindResources(){
+  var g=B.art&&B.art.gallery;if(!g)return;
+  var f=$("#galForm");
+  if(f)f.onsubmit=function(e){
+    e.preventDefault();var pw=$("#galPw").value;if(!pw)return;
+    $("#galGo").disabled=true;$("#galMsg").className="msg";$("#galMsg").textContent="확인하는 중…";
+    galUnlock(pw).then(function(key){GAL.key=key;GAL.msg="";GAL.bad=false;galRemember(key);render()}).catch(function(){GAL.msg="암호가 맞지 않아요.";GAL.bad=true;render();var p=$("#galPw");if(p)p.focus()});
+  };
+  var l=$("#galLock");
+  if(l)l.onclick=function(){GAL.key=null;Object.keys(GAL.url).forEach(function(k){URL.revokeObjectURL(GAL.url[k])});GAL.url={};GAL.q=[];try{sessionStorage.removeItem("cdpm-art-"+g.salt)}catch(e){}render()};
+  if(GAL.key)document.querySelectorAll("[data-art]").forEach(function(el){galLoad(el.getAttribute("data-art"))});
+}
+document.addEventListener("click",function(e){
+  var t=e.target.closest&&e.target.closest("[data-zoom]");if(!t)return;
+  var id=t.getAttribute("data-zoom"),it=((B.art.manifest||{}).items||[]).filter(function(x){return x.id===id})[0]||{};
+  var lb=document.createElement("div");lb.className="lb";lb.setAttribute("role","dialog");lb.setAttribute("aria-label",it.title||id);
+  lb.innerHTML='<img alt="'+esc(it.title||id)+'" src="'+GAL.url[id]+'"><div class="cap">'+esc(it.title||"")+' · <code style="background:none;color:#bbb">'+esc(id)+'</code></div>';
+  function close(){lb.remove();document.removeEventListener("keydown",k)}
+  function k(ev){if(ev.key==="Escape")close()}
+  lb.onclick=close;document.addEventListener("keydown",k);document.body.appendChild(lb);
+});
 function vResources(){
-  var a=B.art||{},m=a.manifest,h='<h1>리소스</h1>';if(!m)return h+'<div class="card empty">목록 없음</div>';
+  var a=B.art||{},m=a.manifest,gal=a.gallery,h='<h1>리소스</h1>';if(!m)return h+'<div class="card empty">목록 없음</div>';
   var tot={};m.items.forEach(function(i){tot[i.status]=(tot[i.status]||0)+1});
   h+='<div class="eyebrow">'+srcLine(m)+'</div>';
+  if(gal)h+=sec("","원화 보기",galCard());
   h+=sec("","요약",'<div class="stats">'+stat("전체",m.items.length,"그림 목록")+Object.keys(ART).map(function(s){return stat(ART[s][0],tot[s]||0,pct(tot[s]||0,m.items.length)+"%")}).join("")+'</div>');
   h+=sec("","묶음별",'<div class="card flush">'+m.groups.map(function(g){var its=m.items.filter(function(i){return i.group===g.id}),gc={};its.forEach(function(i){gc[i.status]=(gc[i.status]||0)+1});
-    return'<details class="row"><summary class="g-gr"><span class="caret">▸</span><span><b>'+esc(g.title)+'</b> <span class="small muted">'+its.length+'개</span></span><span>'+Object.keys(gc).map(function(s){var x=ART[s]||[s,""];return'<span class="chip '+x[1]+'">'+x[0]+' '+gc[s]+'</span> '}).join("")+'</span></summary><div class="body">'+(g.note?'<div class="small muted" style="margin-bottom:6px">'+esc(g.note)+'</div>':'')+(its.length?tbl(["이름표","제목","상태"],its.map(function(i){var x=ART[i.status]||[i.status,""];return[H('<code>'+esc(i.id)+'</code>'),H(esc(i.title)+(i.brief?'<div class="small muted">'+esc(short(i.brief,90))+'</div>':'')),H('<span class="chip '+x[1]+'">'+x[0]+'</span>')]})):'<div class="empty">없음</div>')+'</div></details>'}).join("")+'</div>');
+    return'<details class="row"><summary class="g-gr"><span class="caret">▸</span><span><b>'+esc(g.title)+'</b> <span class="small muted">'+its.length+'개</span></span><span>'+Object.keys(gc).map(function(s){var x=ART[s]||[s,""];return'<span class="chip '+x[1]+'">'+x[0]+' '+gc[s]+'</span> '}).join("")+'</span></summary><div class="body">'+(g.note?'<div class="small muted" style="margin-bottom:6px">'+esc(g.note)+'</div>':'')+(its.length?tbl((gal?["그림"]:[]).concat(["이름표","제목","상태"]),its.map(function(i){var x=ART[i.status]||[i.status,""];return(gal?[H(galCell(i))]:[]).concat([H('<code>'+esc(i.id)+'</code>'),H(esc(i.title)+(i.brief?'<div class="small muted">'+esc(short(i.brief,90))+'</div>':'')),H('<span class="chip '+x[1]+'">'+x[0]+'</span>')])})):'<div class="empty">없음</div>')+'</div></details>'}).join("")+'</div>');
   if(a.assets){var by={};a.assets.items.forEach(function(i){by[i.kind]=by[i.kind]||{};by[i.kind][i.state]=(by[i.kind][i.state]||0)+1});
     h+=sec("","게임 안 그림 이름표",'<div class="card flush">'+tbl(["종류","없음","임시","본 그림"],Object.keys(by).map(function(k){return[k,by[k].none||0,by[k].temp||0,by[k].final||0]}),[1,2,3])+'</div>');}
   return h;
@@ -356,14 +432,14 @@ function render(){
   var r=route(),cnt={kanban:cards().filter(function(c){return c.status!=="done"&&(c.src==="ms"||c.open)}).length,orders:(B.orders||[]).filter(isOpen).length,decisions:(B.decisions||[]).filter(function(d){return d.kind!=="confirmed"}).length};
   $("#tabs").innerHTML=TABS.map(function(t){return'<a href="#'+t[0]+'" class="'+(t[0]===r?"on":"")+'">'+t[1]+(cnt[t[0]]?'<span class="n">'+cnt[t[0]]+'</span>':'')+'</a>'}).join("");
   try{$("#app").innerHTML=VIEWS[r]()}catch(e){$("#app").innerHTML='<div class="err">화면 오류: '+esc(e.message)+'</div>';console.error(e)}
-  if(r==="kanban")bindKanban();if(r==="decisions")bindDecisions();
+  if(r==="kanban")bindKanban();if(r==="decisions")bindDecisions();if(r==="resources")bindResources();
 }
 window.addEventListener("hashchange",function(){render();window.scrollTo(0,0)});
 var th=null;try{th=localStorage.getItem("cdpm-theme")}catch(e){}
 if(th)document.documentElement.setAttribute("data-theme",th);
 $("#theme").onclick=function(){var cur=document.documentElement.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"),n=cur==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",n);try{localStorage.setItem("cdpm-theme",n)}catch(e){}};
 fetch("data/board.json?t="+Date.now(),{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(d){
-  B=d;$("#pname").textContent=(d.project&&d.project.name)||"프로젝트CD";$("#stamp").textContent="갱신 "+d.generatedAt;render();
+  B=d;$("#pname").textContent=(d.project&&d.project.name)||"프로젝트CD";$("#stamp").textContent="갱신 "+d.generatedAt;galRestore().then(render);
 }).catch(function(e){$("#app").innerHTML='<div class="err">데이터를 불러오지 못했다: '+esc(e.message)+'</div>'});
 })();
 </script>
