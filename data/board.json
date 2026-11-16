@@ -1502,8 +1502,20 @@
 "msg": "CD-0015 U1: 저장 v9·v8→v9 마이그레이션·OutgameState 계약·행동력 소모·판 끝 보상/경험치/미션/업적·날짜 고정 테스트"
 }
 ],
-"dirtyCount": 33,
+"dirtyCount": 32,
 "dirty": [
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-17 04:26"
+},
+{
+"file": "studio/checks.json",
+"at": "2026-11-17 04:19"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Bold SDF.asset",
+"at": "2026-11-17 04:18"
+},
 {
 "file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/24-client-ui.md",
 "at": "2026-11-17 04:14"
@@ -1511,18 +1523,6 @@
 {
 "file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/craft-game-floors.md",
 "at": "2026-11-17 04:14"
-},
-{
-"file": "UnityProject/Assets/InitTestScene6f1ad37c-3d33-4c7c-a85b-03b94bf4db7f.unity.meta",
-"at": "2026-11-17 04:11"
-},
-{
-"file": "UnityProject/Assets/InitTestScene6f1ad37c-3d33-4c7c-a85b-03b94bf4db7f.unity",
-"at": "2026-11-17 04:11"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 04:10"
 },
 {
 "file": "studio/orders/CD-0015-판-밖-개편-영웅-은화-연합의-결정-쿠지-행동력-계정-/_qa/screens/u2m_shop_silver_1080x2400.jpg",
@@ -1537,8 +1537,8 @@
 "at": "2026-11-17 04:10"
 }
 ],
-"lastEdit": "2026-11-17 04:14",
-"lastEditTs": 1794856449.7331707,
+"lastEdit": "2026-11-17 04:26",
+"lastEditTs": 1794857177.7963874,
 "lastCommitTs": 1794856023,
 "unpushed": 11,
 "notInMain": 10,
@@ -1867,7 +1867,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 122,
+"commits": 120,
 "byOrder": [
 [
 "CD-0008",
@@ -1914,11 +1914,11 @@
 5
 ],
 [
-"CD-0007",
-4
+"CD-0019",
+2
 ],
 [
-"CD-0019",
+"CD-0007",
 2
 ],
 [
@@ -9855,7 +9855,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 03:41",
+"at": "2026-11-17 04:18",
 "passed": 329,
 "failed": 0,
 "total": 329,
@@ -9872,7 +9872,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 03:41",
+"at": "2026-11-17 04:18",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9880,7 +9880,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 03:41",
+"at": "2026-11-17 04:18",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9888,7 +9888,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 03:41",
+"at": "2026-11-17 04:18",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10160,7 +10160,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 04:14",
-"generatedAt": "2026-11-17 04:17",
-"digest": "801d38188716e48b"
+"sourceAt": "2026-11-17 04:26",
+"generatedAt": "2026-11-17 04:47",
+"digest": "ae9d5f5474afc166"
 }
