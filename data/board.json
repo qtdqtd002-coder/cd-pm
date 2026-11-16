@@ -1090,8 +1090,68 @@
 "lane": "fin",
 "session": "",
 "owns": "",
-"head": "22d610c",
+"head": "a055ccc",
 "commits": [
+{
+"sha": "a055ccc",
+"at": "2026-11-16 10:15",
+"ts": 1794791755,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "5701c62",
+"at": "2026-11-16 10:15",
+"ts": 1794791727,
+"msg": "CD-0008 인게임 3차: 균열 기운 띠 덩어리·+N 위치 고침, G5·G11·E3, 안전 영역 캡처 모드, TA 한 단계 더(땅 그늘·길 결·솟은 칸·접지 그림자·무리 아지랑이), 캡처 판 끝까지 확인, PC 빌드 캡처 확인"
+},
+{
+"sha": "180c043",
+"at": "2026-11-16 10:10",
+"ts": 1794791442,
+"msg": "Merge branch 'fin-outgame' into fin"
+},
+{
+"sha": "d105abb",
+"at": "2026-11-16 10:10",
+"ts": 1794791420,
+"msg": "CD-0008 판 밖 3차: 남은 감사 10개(R5·B4·B5·C2·C3·C7·C9·A1·A3·P1)"
+},
+{
+"sha": "f82ca52",
+"at": "2026-11-16 09:51",
+"ts": 1794790318,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "fc1834a",
+"at": "2026-11-16 09:51",
+"ts": 1794790282,
+"msg": "CD-0008 인게임 2차 마무리: 게임 방법 → HelpScreen.Open(), 결과 뽑기 코인 아이콘 = ui/icon_drawcoin(R1), 균열 기운 띠 계단 줄임, 보고서 2차 절(대조표·PC 빌드 확인)"
+},
+{
+"sha": "51bf363",
+"at": "2026-11-16 09:49",
+"ts": 1794790169,
+"msg": "일일 목표를 끈 상태(빈 pool)를 데이터 검사가 허용, 결정 0042 에 졸개 변형 3장(다른 세션) 참고"
+},
+{
+"sha": "cd73f44",
+"at": "2026-11-16 09:49",
+"ts": 1794790142,
+"msg": "CD-0008 P1 기획 문서: 결정 0039~0041, docs 03·10·12·13·14 갱신"
+},
+{
+"sha": "d22a6f1",
+"at": "2026-11-16 09:45",
+"ts": 1794789932,
+"msg": "Merge branch 'fin' into fin-ingame"
+},
+{
+"sha": "909f6f0",
+"at": "2026-11-16 09:45",
+"ts": 1794789932,
+"msg": "CD-0008 인게임 2차: 몬스터 카드·카드 자리(G2)·골드 부족 말풍선(G4)·G3·G5~G12·E1·E2·게임 방법 버튼·판 시작 미리 그리기·색보정 셰이더"
+},
 {
 "sha": "22d610c",
 "at": "2026-11-16 09:42",
@@ -1105,90 +1165,30 @@
 "msg": "CD-0008 판 밖 2차(U2): 일일 목표·게임 방법·설정(음량·크레딧 창·저장 초기화)·뽑기 코인 통일·종족 고르기 나눠 쓰기·감사 판 밖 항목"
 },
 {
+"sha": "e620868",
+"at": "2026-11-16 09:37",
+"ts": 1794789457,
+"msg": "fin 병합(졸개 변형 d2bd58e 포함): BoardView 충돌 해소 — MonsterAddress 가 Def.ViewArt 를 기준 이름표로 쓰게, 몬스터 누르기 코드는 그 위에 둠"
+},
+{
+"sha": "50e1606",
+"at": "2026-11-16 09:33",
+"ts": 1794789181,
+"msg": "CD-0008 인게임 2차 진행분(중간): 몬스터 보기 값(크기·색조·비행·재생)·몬스터 누르기·G1·G5·G11·UiGrade 셰이더 초안"
+},
+{
 "sha": "b190068",
 "at": "2026-11-16 09:32",
 "ts": 1794789124,
 "msg": "main 병합: 졸개 그림 변형(다른 세션 CD-0008, d2bd58e) — 장부는 양쪽 줄을 다 살림"
-},
-{
-"sha": "d2bd58e",
-"at": "2026-11-16 09:31",
-"ts": 1794789099,
-"msg": "CD-0008 졸개 그림 변형: 변형 3장(Codex)과 몬스터 번호로 그림 고르기"
-},
-{
-"sha": "5177fc9",
-"at": "2026-11-16 09:28",
-"ts": 1794788918,
-"msg": "fin-ingame 병합(CD-0008 TA 1차): 장부·22-art.md 는 양쪽 줄을 다 살림"
-},
-{
-"sha": "7c76206",
-"at": "2026-11-16 09:27",
-"ts": 1794788829,
-"msg": "CD-0008 T1+A1(인게임) 1차: UI 셰이더 4종·캐릭터/몬스터 연출·맵 분위기·그래픽 품질·판 화면 미리 만들기"
-},
-{
-"sha": "4db2992",
-"at": "2026-11-16 09:22",
-"ts": 1794788557,
-"msg": "Merge commit '1757640' into fin"
-},
-{
-"sha": "2927702",
-"at": "2026-11-16 09:22",
-"ts": 1794788550,
-"msg": "Merge branch 'fin-core' into fin"
-},
-{
-"sha": "e551249",
-"at": "2026-11-16 09:22",
-"ts": 1794788535,
-"msg": "CD-0008 C4 보강: 어려움·정예의 4웨이브 벽 없애기 (결정 0042 보강)"
-},
-{
-"sha": "22467cb",
-"at": "2026-11-16 09:18",
-"ts": 1794788305,
-"msg": "Merge branch 'fin-core' into fin"
-},
-{
-"sha": "d94517f",
-"at": "2026-11-16 09:18",
-"ts": 1794788281,
-"msg": "CD-0008 C4 Core: 몬스터 유형 확장(무리·비행·재생) · 그림자 무리 새 3종 · 균형 다시 맞춤 (결정 0042 초안)"
-},
-{
-"sha": "1757640",
-"at": "2026-11-16 09:14",
-"ts": 1794788076,
-"msg": "CD-0008 core 1차 새 파일의 .meta(유니티가 만든 것): Meta/Daily.cs · Resources/Data/daily.json"
-},
-{
-"sha": "ed988f5",
-"at": "2026-11-16 09:13",
-"ts": 1794788013,
-"msg": "Merge branch 'fin-outgame' into fin"
-},
-{
-"sha": "03cdb79",
-"at": "2026-11-16 09:12",
-"ts": 1794787927,
-"msg": "CD-0008 S1·A1 판 밖 서비스 기능: 닉네임·판 이어 하기·설정(그래픽·프레임)·앱 아이콘·저장 백업·0.3.0"
-},
-{
-"sha": "afab226",
-"at": "2026-11-16 09:03",
-"ts": 1794787434,
-"msg": "Merge branch 'fin-core' into fin"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1794789762,
-"unpushed": 96,
+"lastCommitTs": 1794791755,
+"unpushed": 108,
 "today": 15
 },
 {
@@ -1196,114 +1196,44 @@
 "lane": "fin-core",
 "session": "",
 "owns": "",
-"head": "4db2992",
+"head": "180c043",
 "commits": [
 {
-"sha": "4db2992",
-"at": "2026-11-16 09:22",
-"ts": 1794788557,
-"msg": "Merge commit '1757640' into fin"
-},
-{
-"sha": "2927702",
-"at": "2026-11-16 09:22",
-"ts": 1794788550,
-"msg": "Merge branch 'fin-core' into fin"
-},
-{
-"sha": "e551249",
-"at": "2026-11-16 09:22",
-"ts": 1794788535,
-"msg": "CD-0008 C4 보강: 어려움·정예의 4웨이브 벽 없애기 (결정 0042 보강)"
-},
-{
-"sha": "22467cb",
-"at": "2026-11-16 09:18",
-"ts": 1794788305,
-"msg": "Merge branch 'fin-core' into fin"
-},
-{
-"sha": "d94517f",
-"at": "2026-11-16 09:18",
-"ts": 1794788281,
-"msg": "CD-0008 C4 Core: 몬스터 유형 확장(무리·비행·재생) · 그림자 무리 새 3종 · 균형 다시 맞춤 (결정 0042 초안)"
-},
-{
-"sha": "1757640",
-"at": "2026-11-16 09:14",
-"ts": 1794788076,
-"msg": "CD-0008 core 1차 새 파일의 .meta(유니티가 만든 것): Meta/Daily.cs · Resources/Data/daily.json"
-},
-{
-"sha": "ed988f5",
-"at": "2026-11-16 09:13",
-"ts": 1794788013,
+"sha": "180c043",
+"at": "2026-11-16 10:10",
+"ts": 1794791442,
 "msg": "Merge branch 'fin-outgame' into fin"
 },
 {
-"sha": "03cdb79",
-"at": "2026-11-16 09:12",
-"ts": 1794787927,
-"msg": "CD-0008 S1·A1 판 밖 서비스 기능: 닉네임·판 이어 하기·설정(그래픽·프레임)·앱 아이콘·저장 백업·0.3.0"
+"sha": "d105abb",
+"at": "2026-11-16 10:10",
+"ts": 1794791420,
+"msg": "CD-0008 판 밖 3차: 남은 감사 10개(R5·B4·B5·C2·C3·C7·C9·A1·A3·P1)"
 },
 {
-"sha": "afab226",
-"at": "2026-11-16 09:03",
-"ts": 1794787434,
-"msg": "Merge branch 'fin-core' into fin"
+"sha": "f82ca52",
+"at": "2026-11-16 09:51",
+"ts": 1794790318,
+"msg": "Merge branch 'fin-ingame' into fin"
 },
 {
-"sha": "9b0903a",
-"at": "2026-11-16 09:03",
-"ts": 1794787399,
-"msg": "CD-0008 C1 Core: 일일 목표 · 판 이어 하기 스냅샷 예외·테스트 · 몬스터 정보 조회"
+"sha": "fc1834a",
+"at": "2026-11-16 09:51",
+"ts": 1794790282,
+"msg": "CD-0008 인게임 2차 마무리: 게임 방법 → HelpScreen.Open(), 결과 뽑기 코인 아이콘 = ui/icon_drawcoin(R1), 균열 기운 띠 계단 줄임, 보고서 2차 절(대조표·PC 빌드 확인)"
 },
 {
-"sha": "87ea3b1",
-"at": "2026-11-16 08:47",
-"ts": 1794786466,
-"msg": "CD-0008: UX 전수 감사 49항목(높음 4·중간 19·낮음 26)과 2차 작업표"
+"sha": "51bf363",
+"at": "2026-11-16 09:49",
+"ts": 1794790169,
+"msg": "일일 목표를 끈 상태(빈 pool)를 데이터 검사가 허용, 결정 0042 에 졸개 변형 3장(다른 세션) 참고"
 },
 {
-"sha": "5a1a166",
-"at": "2026-11-16 08:44",
-"ts": 1794786295,
-"msg": "CD-0007 검수 뒤 수정: 조각 칸 한 줄·업적 보상 이름 겹침·테스트 이름 «모험가»"
+"sha": "cd73f44",
+"at": "2026-11-16 09:49",
+"ts": 1794790142,
+"msg": "CD-0008 P1 기획 문서: 결정 0039~0041, docs 03·10·12·13·14 갱신"
 },
-{
-"sha": "4a745c0",
-"at": "2026-11-16 08:39",
-"ts": 1794785959,
-"msg": "CD-0008 스펙 게이트 통과(art 줄 추가)"
-},
-{
-"sha": "989ad76",
-"at": "2026-11-16 08:39",
-"ts": 1794785950,
-"msg": "CD-0008 열림: 서비스 마감 다듬기·TA 그래픽·UX 수정·판 이어 하기 기획서, 스펙 게이트"
-},
-{
-"sha": "0b33055",
-"at": "2026-11-16 08:35",
-"ts": 1794785732,
-"msg": "CD-0007 마감 초안(90-close)·일지: 밤사이 완성 묶음 기록"
-}
-],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1794788557,
-"unpushed": 90,
-"today": 15
-},
-{
-"branch": "fin-ingame",
-"lane": "fin-ingame",
-"session": "",
-"owns": "",
-"head": "d22a6f1",
-"commits": [
 {
 "sha": "d22a6f1",
 "at": "2026-11-16 09:45",
@@ -1357,131 +1287,250 @@
 "at": "2026-11-16 09:28",
 "ts": 1794788918,
 "msg": "fin-ingame 병합(CD-0008 TA 1차): 장부·22-art.md 는 양쪽 줄을 다 살림"
-},
-{
-"sha": "7c76206",
-"at": "2026-11-16 09:27",
-"ts": 1794788829,
-"msg": "CD-0008 T1+A1(인게임) 1차: UI 셰이더 4종·캐릭터/몬스터 연출·맵 분위기·그래픽 품질·판 화면 미리 만들기"
-},
-{
-"sha": "4db2992",
-"at": "2026-11-16 09:22",
-"ts": 1794788557,
-"msg": "Merge commit '1757640' into fin"
-},
-{
-"sha": "2927702",
-"at": "2026-11-16 09:22",
-"ts": 1794788550,
-"msg": "Merge branch 'fin-core' into fin"
-},
-{
-"sha": "e551249",
-"at": "2026-11-16 09:22",
-"ts": 1794788535,
-"msg": "CD-0008 C4 보강: 어려움·정예의 4웨이브 벽 없애기 (결정 0042 보강)"
-},
-{
-"sha": "22467cb",
-"at": "2026-11-16 09:18",
-"ts": 1794788305,
-"msg": "Merge branch 'fin-core' into fin"
-},
-{
-"sha": "d94517f",
-"at": "2026-11-16 09:18",
-"ts": 1794788281,
-"msg": "CD-0008 C4 Core: 몬스터 유형 확장(무리·비행·재생) · 그림자 무리 새 3종 · 균형 다시 맞춤 (결정 0042 초안)"
 }
 ],
-"dirtyCount": 73,
+"dirtyCount": 12,
 "dirty": [
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/save/match-resume.json",
-"at": "2026-11-16 09:47"
+"file": "UnityProject/Assets/_Game/Resources/Data/waves.json",
+"at": "2026-11-16 10:17"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/player.log",
-"at": "2026-11-16 09:47"
+"file": "UnityProject/Assets/_Game/Resources/Data/stages.json",
+"at": "2026-11-16 10:17"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/autoplay.log",
-"at": "2026-11-16 09:47"
+"file": "UnityProject/Assets/_Game/Resources/Data/reward.json",
+"at": "2026-11-16 10:17"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/07_match1_t040s.png",
-"at": "2026-11-16 09:47"
+"file": "UnityProject/Assets/_Game/Resources/Data/maps.json",
+"at": "2026-11-16 10:17"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/06_match1_t020s.png",
-"at": "2026-11-16 09:47"
+"file": "tools/validate_data.py",
+"at": "2026-11-16 10:17"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/05_match1_t000s.png",
-"at": "2026-11-16 09:47"
+"file": "Data/reward.json",
+"at": "2026-11-16 10:16"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/04_lobby.png",
-"at": "2026-11-16 09:47"
+"file": "Data/stages.json",
+"at": "2026-11-16 10:16"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/save/player.json",
-"at": "2026-11-16 09:47"
+"file": "Data/waves.json",
+"at": "2026-11-16 10:16"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/03_name_typed.png",
-"at": "2026-11-16 09:47"
+"file": "Core/tests/TuneTmp.cs",
+"at": "2026-11-16 10:14"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/02_name_empty.png",
-"at": "2026-11-16 09:47"
+"file": "Core/package/Runtime/Meta/Stages.cs",
+"at": "2026-11-16 10:14"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/01_loading.png",
-"at": "2026-11-16 09:47"
+"file": "Data/maps.json",
+"at": "2026-11-16 10:13"
 },
 {
-"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta/save/player.json.bak",
-"at": "2026-11-16 09:47"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/ResultScreen.cs",
-"at": "2026-11-16 09:45"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/PauseMenu.cs",
-"at": "2026-11-16 09:45"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/00_lobby_1080x2400.png",
-"at": "2026-11-16 04:10"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/00_lobby.png",
-"at": "2026-11-16 04:10"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/18_result_hard_1080x2400.png",
-"at": "2026-11-16 04:07"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/18_result_hard.png",
-"at": "2026-11-16 04:07"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/13_card_grown_1080x2400.png",
-"at": "2026-11-16 04:07"
-},
-{
-"file": "studio/orders/CD-0007-완성-묶음-육성-강화-업적-소리-연출-폴리싱-빌드/_qa/shots/13_card_grown.png",
-"at": "2026-11-16 04:07"
+"file": "Core/package/Runtime/Config/GameConfig.cs",
+"at": "2026-11-16 10:13"
 }
 ],
-"lastEdit": "2026-11-16 09:47",
-"lastEditTs": 1794790050.8469172,
-"lastCommitTs": 1794789932,
-"unpushed": 100,
+"lastEdit": "2026-11-16 10:17",
+"lastEditTs": 1794791852.1028807,
+"lastCommitTs": 1794791442,
+"unpushed": 106,
+"today": 15
+},
+{
+"branch": "fin-ingame",
+"lane": "fin-ingame",
+"session": "",
+"owns": "",
+"head": "a055ccc",
+"commits": [
+{
+"sha": "a055ccc",
+"at": "2026-11-16 10:15",
+"ts": 1794791755,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "5701c62",
+"at": "2026-11-16 10:15",
+"ts": 1794791727,
+"msg": "CD-0008 인게임 3차: 균열 기운 띠 덩어리·+N 위치 고침, G5·G11·E3, 안전 영역 캡처 모드, TA 한 단계 더(땅 그늘·길 결·솟은 칸·접지 그림자·무리 아지랑이), 캡처 판 끝까지 확인, PC 빌드 캡처 확인"
+},
+{
+"sha": "180c043",
+"at": "2026-11-16 10:10",
+"ts": 1794791442,
+"msg": "Merge branch 'fin-outgame' into fin"
+},
+{
+"sha": "d105abb",
+"at": "2026-11-16 10:10",
+"ts": 1794791420,
+"msg": "CD-0008 판 밖 3차: 남은 감사 10개(R5·B4·B5·C2·C3·C7·C9·A1·A3·P1)"
+},
+{
+"sha": "f82ca52",
+"at": "2026-11-16 09:51",
+"ts": 1794790318,
+"msg": "Merge branch 'fin-ingame' into fin"
+},
+{
+"sha": "fc1834a",
+"at": "2026-11-16 09:51",
+"ts": 1794790282,
+"msg": "CD-0008 인게임 2차 마무리: 게임 방법 → HelpScreen.Open(), 결과 뽑기 코인 아이콘 = ui/icon_drawcoin(R1), 균열 기운 띠 계단 줄임, 보고서 2차 절(대조표·PC 빌드 확인)"
+},
+{
+"sha": "51bf363",
+"at": "2026-11-16 09:49",
+"ts": 1794790169,
+"msg": "일일 목표를 끈 상태(빈 pool)를 데이터 검사가 허용, 결정 0042 에 졸개 변형 3장(다른 세션) 참고"
+},
+{
+"sha": "cd73f44",
+"at": "2026-11-16 09:49",
+"ts": 1794790142,
+"msg": "CD-0008 P1 기획 문서: 결정 0039~0041, docs 03·10·12·13·14 갱신"
+},
+{
+"sha": "d22a6f1",
+"at": "2026-11-16 09:45",
+"ts": 1794789932,
+"msg": "Merge branch 'fin' into fin-ingame"
+},
+{
+"sha": "909f6f0",
+"at": "2026-11-16 09:45",
+"ts": 1794789932,
+"msg": "CD-0008 인게임 2차: 몬스터 카드·카드 자리(G2)·골드 부족 말풍선(G4)·G3·G5~G12·E1·E2·게임 방법 버튼·판 시작 미리 그리기·색보정 셰이더"
+},
+{
+"sha": "22d610c",
+"at": "2026-11-16 09:42",
+"ts": 1794789762,
+"msg": "fin-outgame 병합(CD-0008 판 밖 2차): 장부는 양쪽 줄을 다 살림"
+},
+{
+"sha": "5245c0f",
+"at": "2026-11-16 09:42",
+"ts": 1794789727,
+"msg": "CD-0008 판 밖 2차(U2): 일일 목표·게임 방법·설정(음량·크레딧 창·저장 초기화)·뽑기 코인 통일·종족 고르기 나눠 쓰기·감사 판 밖 항목"
+},
+{
+"sha": "e620868",
+"at": "2026-11-16 09:37",
+"ts": 1794789457,
+"msg": "fin 병합(졸개 변형 d2bd58e 포함): BoardView 충돌 해소 — MonsterAddress 가 Def.ViewArt 를 기준 이름표로 쓰게, 몬스터 누르기 코드는 그 위에 둠"
+},
+{
+"sha": "50e1606",
+"at": "2026-11-16 09:33",
+"ts": 1794789181,
+"msg": "CD-0008 인게임 2차 진행분(중간): 몬스터 보기 값(크기·색조·비행·재생)·몬스터 누르기·G1·G5·G11·UiGrade 셰이더 초안"
+},
+{
+"sha": "b190068",
+"at": "2026-11-16 09:32",
+"ts": 1794789124,
+"msg": "main 병합: 졸개 그림 변형(다른 세션 CD-0008, d2bd58e) — 장부는 양쪽 줄을 다 살림"
+}
+],
+"dirtyCount": 162,
+"dirty": [
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-16 10:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-16 10:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-16 10:17"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/MatchScreen.cs",
+"at": "2026-11-16 10:17"
+},
+{
+"file": "UnityProject/Assets/_Game/View/BoardView.cs",
+"at": "2026-11-16 10:16"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/player.log",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/45_match2_wave5.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/save/match-resume.json",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/44_match2_t080s.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/43_match2_t060s.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/42_match2_t040s.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/41_match2_t020s.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/40_match2_t000s.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/39_stage_locked.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/38_help.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/37_credits.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/36_settings.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/35_daily.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/34_profile.png",
+"at": "2026-11-16 10:14"
+},
+{
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/autoplay-pc-ta3/33_achievements.png",
+"at": "2026-11-16 10:14"
+}
+],
+"lastEdit": "2026-11-16 10:17",
+"lastEditTs": 1794791847.2766857,
+"lastCommitTs": 1794791755,
+"unpushed": 108,
 "today": 15
 },
 {
@@ -1595,8 +1644,14 @@
 "lane": "fin-outgame",
 "session": "",
 "owns": "",
-"head": "22d610c",
+"head": "d105abb",
 "commits": [
+{
+"sha": "d105abb",
+"at": "2026-11-16 10:10",
+"ts": 1794791420,
+"msg": "CD-0008 판 밖 3차: 남은 감사 10개(R5·B4·B5·C2·C3·C7·C9·A1·A3·P1)"
+},
 {
 "sha": "22d610c",
 "at": "2026-11-16 09:42",
@@ -1680,101 +1735,95 @@
 "at": "2026-11-16 09:12",
 "ts": 1794787927,
 "msg": "CD-0008 S1·A1 판 밖 서비스 기능: 닉네임·판 이어 하기·설정(그래픽·프레임)·앱 아이콘·저장 백업·0.3.0"
-},
-{
-"sha": "afab226",
-"at": "2026-11-16 09:03",
-"ts": 1794787434,
-"msg": "Merge branch 'fin-core' into fin"
 }
 ],
-"dirtyCount": 438,
+"dirtyCount": 481,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/ProfileScreen.cs",
-"at": "2026-11-16 09:47"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_lobby_plate_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/AchievementScreen.cs",
-"at": "2026-11-16 09:47"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_lobby_plate.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
-"at": "2026-11-16 09:47"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_profile_image_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/OutgameWidgets.cs",
-"at": "2026-11-16 09:47"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_profile_image.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Data/assets.json",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_profile_plate_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Data/achievements.json",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_profile_plate.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "Data/achievements.json",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_achievements_end_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "studio/assets-ledger.csv",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_achievements_end.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "Data/assets.json",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_achievements_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/plate_pat_dragon.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_achievements.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/plate_pat_beast.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_box_ten_open_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/plate_pat_spirit.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_box_ten_open.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/plate_pat_dwarf.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_box_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/plate_pat_elf.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_box.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/plate_pat_human.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_detail_toast_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/plate_pat_hunter.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_detail_toast.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/plate_pat_box.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_characters_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/plate_pat_victory.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_characters.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/profile_crest.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_lobby_1080x2400.png",
+"at": "2026-11-16 10:08"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/tab_profile.png",
-"at": "2026-11-16 09:46"
+"file": "studio/orders/CD-0008-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/shots-outgame/u3_lobby.png",
+"at": "2026-11-16 10:08"
 }
 ],
-"lastEdit": "2026-11-16 09:47",
-"lastEditTs": 1794790046.5063553,
-"lastCommitTs": 1794789762,
-"unpushed": 96,
+"lastEdit": "2026-11-16 10:08",
+"lastEditTs": 1794791329.323428,
+"lastCommitTs": 1794791420,
+"unpushed": 97,
 "today": 15
 },
 {
@@ -1782,8 +1831,14 @@
 "lane": "fin-plan",
 "session": "",
 "owns": "",
-"head": "22d610c",
+"head": "cd73f44",
 "commits": [
+{
+"sha": "cd73f44",
+"at": "2026-11-16 09:49",
+"ts": 1794790142,
+"msg": "CD-0008 P1 기획 문서: 결정 0039~0041, docs 03·10·12·13·14 갱신"
+},
 {
 "sha": "22d610c",
 "at": "2026-11-16 09:42",
@@ -1867,41 +1922,14 @@
 "at": "2026-11-16 09:12",
 "ts": 1794787927,
 "msg": "CD-0008 S1·A1 판 밖 서비스 기능: 닉네임·판 이어 하기·설정(그래픽·프레임)·앱 아이콘·저장 백업·0.3.0"
-},
-{
-"sha": "afab226",
-"at": "2026-11-16 09:03",
-"ts": 1794787434,
-"msg": "Merge branch 'fin-core' into fin"
 }
 ],
-"dirtyCount": 5,
-"dirty": [
-{
-"file": "docs/14-배포-저장.md",
-"at": "2026-11-16 09:47"
-},
-{
-"file": "docs/13-보상-육성-꾸밈.md",
-"at": "2026-11-16 09:47"
-},
-{
-"file": "docs/decisions/0041-그래픽-품질-프레임-설정-앱-아이콘-홈-화면-이름-로딩-로고-뽑기-코인-각인-가공본.md",
-"at": "2026-11-16 09:46"
-},
-{
-"file": "docs/decisions/0040-판-이어-하기와-저장-백업-스냅샷-앱-버전-다르면-포기-정산-bak-복구.md",
-"at": "2026-11-16 09:46"
-},
-{
-"file": "docs/decisions/0039-일일-목표-하루-3개-뽑기-코인만-UTC+9-일-번호.md",
-"at": "2026-11-16 09:46"
-}
-],
-"lastEdit": "2026-11-16 09:47",
-"lastEditTs": 1794790051.0409696,
-"lastCommitTs": 1794789762,
-"unpushed": 96,
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1794790142,
+"unpushed": 97,
 "today": 15
 },
 {
@@ -2651,10 +2679,11 @@
 "id": "CD-0008",
 "title": "서비스 마감 다듬기 TA 그래픽 UX 수정 이어하기",
 "branch": "fin-ingame",
-"updated": "2026-11-16 09:47",
+"updated": "2026-11-16 10:16",
 "files": [
 "00-order.md",
 "10-spec.md",
+"20-planning.md",
 "21-core.md",
 "22-art.md",
 "23-client-ingame.md",
@@ -2663,7 +2692,9 @@
 "26-round2.md",
 "autoplay-editor",
 "autoplay-editor-u2",
+"autoplay-editor-u3",
 "autoplay-pc-ta",
+"autoplay-pc-ta3",
 "shots-outgame",
 "ta"
 ],
@@ -2736,8 +2767,8 @@
 "team": "planning",
 "title": "§4",
 "output": "문서·결정, 20-planning.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 20-planning.md"
 },
 {
 "id": "Q1",
@@ -2753,8 +2784,8 @@
 {
 "id": "CD-0008",
 "title": "졸개 그림 변형과 무리 다양성",
-"branch": "fin-plan",
-"updated": "2026-11-16 09:43",
+"branch": "fin-core",
+"updated": "2026-11-16 10:11",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3091,8 +3122,8 @@
 "date": "2026-11-16",
 "by": "대표(사용자가 저녁까지 자리를 비워 권장안으로 정했다) · 규칙·수치는 서버팀(CD-0008 C1), 화면은 클라팀(CD-0008 U2)",
 "html": "<ol>\n<li><strong>하루에 목표 3개.</strong> <code>Data/daily.json</code> 의 <code>pool</code>(13개, 종류 7가지)에서 뽑는다. 하루 안에 같은 종류는 겹치지 않는다.\n<ul>\n<li>종류: <code>matches</code>(판 N번) · <code>waves</code>(웨이브 합) · <code>merges</code>(합성) · <code>bounties</code>(현상금) · <code>box_draws</code>(박스 뽑기 장 수) · <code>level_ups</code>(캐릭터 레벨 업) · <code>wins</code>(승리). 코드가 아는 것은 종류 7개 문자열이고, 목표 수·보상·화면 글은 전부 데이터다.\n</li></ul>\n</li>\n<li><strong>날짜 = UTC+9 일 번호.</strong> 화면이 <code>(유닉스 초 + 9×3600) / 86400</code> 을 계산해 Core 에 넘긴다(UTC+9 자정에 바뀐다). Core 는 시계를 읽지 않는다(<code>DateTime</code> 금지). 그 번호를 시드로 목록을 뽑는다(PCG32, 스트림 <code>0x646179</code> «day»). 같은 날은 늘 같은 목록이다.\n</li>\n<li><strong>보상은 뽑기 코인만이다.</strong> 새 재화는 없다.\n<ul>\n<li>목표 하나 8~15 코인, <strong>셋 다 하면 +10</strong>. 하루 합은 최소 34 · 최대 51(<code>daily.json</code> 에서 계산)이라 보통 단계 20웨이브 승리 한 판(80)의 43~64% 다. 검사기는 30~70% 를 요구한다.\n</li>\n<li><strong>달성하는 순간 자동 지급</strong>(«받기» 버튼 없음). 같은 목표·같은 날 한 번만 지급한다. 코인과 진행 상태를 한 번에 저장해 «한 번만» 이 저장 실패 사이에서도 지켜지게 한다.\n</li></ul>\n</li>\n<li><strong>«판 N번 하기» 는 웨이브 3 까지 간 판만 센다</strong>(<code>matchMinWave</code> 3, 데이터). 시작하자마자 포기하는 판으로 채우는 것을 막는다. 이긴 판은 늘 센다. «웨이브 합» 은 판마다 도달한 웨이브를 더한다(포기한 판도 그 웨이브까지 센다).\n</li>\n<li><strong>날이 «다르면» 진행을 처음부터 시작한다</strong>(앞으로 가든 뒤로 가든 같다). 시계를 되돌리면 같은 날을 다시 받을 수 있지만 받으려면 다시 플레이해야 해서 이득이 작고, 거꾸로 «미래로 간 시계 때문에 며칠 막힘» 이 생기지 않는다. 서버 시간 검증은 범위 밖이다.\n</li>\n<li><strong>사건</strong>은 세 군데서 들어온다: 판 끝(업적과 같은 자리 — 판 수·웨이브·합성 수·현상금 수), 박스 뽑기(1장·10장), 캐릭터 레벨 업. 오늘 목록은 저장하지 않고 일 번호에서 다시 뽑는다. 저장 구조 버전이 5 → 6 이 된다(<code>14-배포-저장.md</code> §3-4).\n</li>\n<li><strong>화면</strong>(판 밖): 로비 오른쪽 «오늘 목표 n/3» 버튼과 «창을 연 뒤 새로 달성한 수» 배지. 창은 3줄(이름 · 진행 막대 · 숫자 · 코인 · 달성 도장)과 «셋 다 하면 뽑기 코인 +10». 달성 알림은 로비가 보일 때만 토스트로 하나씩 띄운다(판·결과 위에서는 쌓아 둔다 — 결과 화면 소유가 인게임이고 업적 배너와 같은 규칙).\n</li>\n<li><strong>화폐 이름은 «뽑기 코인» 하나로 통일한다</strong>(UX 감사 R2): 로비 칩·박스 가격·결과·단계 칸(«뽑기 코인 ×1.5»)·일일 목표·크레딧까지 같은 이름과 같은 아이콘을 쓴다. 판 안 «골드» 와 모양·색이 겹치지 않게 한다. 아이콘 가공은 결정 0041.\n</li></ol>",
-"branch": "fin-plan",
-"dirty": true
+"branch": "fin-core",
+"dirty": false
 },
 {
 "id": "0040",
@@ -3101,8 +3132,8 @@
 "date": "2026-11-16",
 "by": "대표(사용자가 저녁까지 자리를 비워 권장안으로 정했다) · Core 지원은 서버팀(CD-0008 C2), 화면·파일은 클라팀(CD-0008 S2·S6)",
 "html": "<h4>판 이어 하기</h4>\n<ol>\n<li><strong>저장하는 때</strong>(싱글 판만): 웨이브가 시작될 때마다 · 앱이 뒤로 갈 때 · 앱이 종료될 때. 판이 끝나거나(승리·패배·메뉴 포기), 판을 «다시 하기» 로 버리거나, 카드에서 포기하면 지운다.\n</li>\n<li><strong>저장 내용 — <code>match-resume.json</code></strong>(<code>player.json</code> 옆, 임시 파일에 쓰고 바꿔 넣는 원자 저장): 파일 형식 1 · <strong>앱 버전</strong> · 쓴 시각 · 판 시작 시각 · 이유(<code>wave</code>/<code>background</code>/<code>quit</code>) · 단계 id · 시드 · 웨이브 · 깬 웨이브 · 처치 · 틱 · 상태 해시 · <strong>Core 스냅샷 문자열</strong>. 스냅샷에는 loadout·단계(웨이브 세트)·미션·현상금·강화·특성 상태가 전부 들어 있어, 복원에는 스냅샷 하나면 된다(파일의 단계·시드는 카드 글과 깨졌을 때의 정산용).\n</li>\n<li><strong>복원 검증</strong>: ① 파일 형식이 1 ② 파일의 <strong>앱 버전이 지금 앱 버전과 같다</strong> ③ Core 가 스냅샷을 읽는다(<code>GameMatch.FromSnapshot</code>) ④ 복원한 판의 해시가 쓴 때의 해시와 같다 ⑤ 이미 끝난 판이 아니다. 하나라도 어긋나면 «이어 할 수 없음».\n</li>\n<li><strong>이어 하기 카드</strong>: 로비에서 «지난 판 · 보통 · 웨이브 12» 와 [이어 하기] [포기]. 카드가 단계 줄·모드 칩 자리를 대신하고, 그때 [출전] 은 막는다(새 판이 덮어쓰면 그 판의 정산이 사라지므로). [이어 하기] 는 정확히 그 상태로 <strong>일시정지 메뉴가 열린 채</strong> 시작한다([계속] 으로 푼다).\n</li>\n<li><strong>포기 정산</strong>: [포기] 는 한 번 확인(«포기할까요? · 뽑기 코인 +N») 뒤 정산한다. 복원한 판의 사본에 Core 의 포기 명령을 넣어 나온 결과를 그대로 <code>RecordMatch</code> 로 기록한다 — 판 안 메뉴 포기와 같은 값이다(코인 = 그 단계의 «깬 웨이브» 만큼, 난이도 배율 반영 — <code>13-보상-육성-꾸밈.md</code> §3). 기록·최근 판·업적·일일 목표가 한 번에 저장된다.\n</li>\n<li><strong>읽지 못하거나 앱 버전이 다르면</strong>: 카드 없이 «지난 판을 이어 할 수 없어요 · 뽑기 코인 +N» 토스트 한 번 + 파일의 «깬 웨이브» 로 <code>CoinsFor(단계, 깬 웨이브, 패배)</code> 정산 + 파일 삭제.\n</li>\n<li><strong>Core 쪽</strong>: 스냅샷 형식 머리 <code>CDSNAP3</code> 은 그대로다(옛 스냅샷도 읽힌다). 형식 버전이 다르면 <code>SnapshotVersionException</code>, 그 밖의 손상은 <code>SnapshotFormatException</code>(둘 다 <code>FormatException</code> 의 자식)으로 거절한다. 복원한 판의 <code>CommandLog</code>·이벤트는 비어 있다(재생 기록은 스냅샷에 넣지 않는다). 스냅샷 크기는 최대 약 2.5 KB(판 전체에서 2,514 B, 테스트가 32 KB 아래를 단정).\n</li>\n<li><strong>판 객체를 여는 코드는 <code>GameApp.OpenMatch</code> 하나</strong>로 모았다(새 판·이어 하기 공용). <code>MatchScreen.cs</code> 는 고치지 않았다.\n</li></ol>\n<h4>저장 백업</h4>\n<ol>\n<li>저장할 때마다 바꿔 넣기 직전의 이전 파일을 <strong><code>player.json.bak</code> 한 개</strong>로 남긴다.\n</li>\n<li>읽기 실패(읽기 오류·깨진 JSON·저장 형식 아님) 시: 깨진 파일은 <code>player.json.broken-&lt;시각&gt;</code> 으로 옆에 보관하고, <code>.bak</code> 가 읽히면 그것을 정상본으로 되돌려 놓고 쓴다(경고 로그에 그 저장의 시각). <code>.bak</code> 도 깨졌으면 새 저장으로 시작하고 오류 로그를 남긴다.\n</li>\n<li>백업으로 복구됐다는 <strong>화면 알림은 없다</strong>(«화면에 설명 문장 금지» — 로그에만). 필요하면 토스트 한 줄을 더하면 된다.\n</li>\n<li><strong>저장 구조 버전은 6</strong>이다(<code>PlayerData.CurrentVersion</code>). 이번 주문에서 5(닉네임 <code>profile.nameChosen</code>)·6(일일 목표 <code>daily</code>)이 더해졌다. 옛 저장은 한 단계씩 옮긴다(<code>14-배포-저장.md</code> §3-4).\n</li></ol>",
-"branch": "fin-plan",
-"dirty": true
+"branch": "fin-core",
+"dirty": false
 },
 {
 "id": "0041",
@@ -3111,8 +3142,8 @@
 "date": "2026-11-16",
 "by": "대표(사용자가 저녁까지 자리를 비워 권장안으로 정했다) · 구현은 클라팀(CD-0008 T5·S4·S5, 2차 U2)",
 "html": "<h4>1. 설정 — 저장 파일이 아니라 PlayerPrefs(기기 설정)</h4>\n<div class=tw><table><thead><tr><th>키</th><th>뜻</th><th>값 · 기본</th></tr></thead><tbody><tr><td><code>cd.gfx</code></td><td>그래픽 품질</td><td>1 높음(기본) · 0 낮음</td></tr><tr><td><code>cd.fps</code></td><td>프레임</td><td>60(기본) · 30 → <code>Application.targetFrameRate</code></td></tr><tr><td><code>settings.sound</code>·<code>settings.music</code>·<code>settings.vibration</code></td><td>켬/끔</td><td>1 켬(기본)</td></tr><tr><td><code>settings.soundVolume</code>·<code>settings.musicVolume</code></td><td>음량 막대</td><td>0~100, 기본 100</td></tr></tbody></table></div>\n<ul>\n<li>켬/끔과 음량 막대를 함께 둔다(판 안 메뉴의 켬/끔과 같은 값을 쓰므로).\n</li>\n<li>설정은 <strong>저장 초기화로 지워지지 않는다</strong>(기기 설정이다).\n</li>\n<li><strong>그래픽 «낮음»</strong> 에서 꺼지는 것: 앰비언트 입자 · 구름 그림자 · 풀·덤불 흔들림 셰이더 · 디졸브(대신 0.18초 페이드). 그대로 켜 두는 것: 발밑 그림자 타원 · 외곽선 · 림 빛 · 피격 번쩍 · 맵 얼룩 · 위아래 분위기 그러데이션 · 균열 소용돌이. 판 화면을 만들 때 한 번 읽으므로 <strong>다음 판부터</strong> 적용된다.\n</li>\n<li>설정 화면은 로비에서만 연다(판 안 메뉴 → 설정은 이번에 안 했다). «게임 방법»·«크레딧»·«저장 데이터 초기화(두 번 확인)» 버튼이 같은 화면에 있다.\n</li></ul>\n<h4>2. 앱 아이콘 — 확정 일러스트 «리엘» 얼굴 가공</h4>\n<ul>\n<li>새 그림 없음(Codex 호출 0). 얼굴 = 확정 일러스트 <code>art/final/illust/elf/1.png</code>(엘프 1단계 «리엘»), 배경 = 확정 그림 <code>art/final/key/loading.png</code> 의 하늘을 흐리게 + 아래로 어둡게, 테두리 = 금색 띠 + 짙은 나무색 외곽선(코드로 그림). 도구 <code>art/tools/app_icon.py</code>(Python + PIL).\n</li>\n<li>산출물 4장(<code>UnityProject/Assets/_Game/Art/AppIcon/</code>): <code>icon_512.png</code>(기본·legacy) · <code>icon_round_512.png</code>(round) · <code>adaptive_bg_432.png</code> · <code>adaptive_fg_432.png</code>(적응형 전경·배경, 얼굴 메달은 안전 영역 66% 안). PlayerSettings 에는 에디터 스크립트 <code>AppIconSetup</code> 이 넣는다(<code>.asset</code> 을 손으로 고치지 않는다).\n</li>\n<li>얼굴로 «리엘» 을 고른 이유: 48px 에서 눈·입이 가장 또렷하다(후보 7개를 192px·48px 로 나란히 봤다). 차선은 드워프 4단계. <strong>얼굴 선택은 사용자 확인 대기.</strong>\n</li>\n<li>장부 «확정 그림 가공» 4줄(<code>studio/assets-ledger.csv</code>). <strong>확정 원본은 그대로</strong>이고 가공본은 새 파일이다.\n</li></ul>\n<h4>3. 홈 화면 이름 «프로젝트CD» — 안드로이드만</h4>\n<ul>\n<li><code>ProjectSetup.HomeScreenName = \"프로젝트CD\"</code>. <strong>안드로이드 빌드 동안만</strong> <code>PlayerSettings.productName</code> 을 이것으로 바꾸고 끝나면 되돌린다.\n</li>\n<li>유니티 제품명은 «CoopDefense» 를 유지한다(제품명을 바꾸면 PC 저장 폴더 <code>LocalLow/local/CoopDefense</code> 와 창 제목이 바뀐다). 안드로이드 저장 경로는 패키지 이름 기준이라 영향이 없다. 게임 이름은 아직 없는 가칭이다(결정 0030).\n</li>\n<li>유니티 스플래시: <code>SplashScreen.show = false</code>, 배경색 = 로딩 원화 하늘의 짙은 남색 <code>#0E152B</code>.\n</li></ul>\n<h4>4. 로딩 글자 로고 <code>ui/logo_text</code></h4>\n<ul>\n<li>게임 이름이 가칭이라 <strong>글자 로고</strong>로 둔다: «프로젝트CD» 를 Noto Sans KR Bold + 금빛 채움 + 짙은 갈색 외곽선으로 <strong>코드에서 구워</strong>(<code>art/tools/ui_marks.py</code>) 로딩 화면 하늘 자리에 놓는다. 이름이 정해지면 파일만 바꾼다. 버전은 오른쪽 아래에 «v0.3.0» 작게.\n</li>\n<li>코드 제작 임시 그림이고 <code>Data/assets.json</code> 상태는 temp, 장부에 코드 제작 줄이 있다.\n</li></ul>\n<h4>5. 뽑기 코인 각인 가공본 <code>ui/icon_drawcoin</code></h4>\n<ul>\n<li>확정 그림 <code>art/final/ui/icon_coin.png</code> 은 무늬 없는 은빛 주화다(사용자 확정, 결정 0032). <strong>원본은 건드리지 않는다.</strong> 코드로 가운데에 각인(접힌 종이 제비 문양 — 박스 뽑기와 이어지는 상징, 구멍 다섯 줄, 문자·속성 없음)을 얹은 가공본을 만들어 판 밖 모든 화면의 뽑기 코인 아이콘으로 쓴다(<code>art/tools/ui_marks.py</code>).\n</li>\n<li>이유: 판 안 «골드»(금화 더미)와 판 밖 «뽑기 코인»(은빛 주화)이 모양·색으로 구별돼야 한다(UX 감사 R1·R2, 결정 0039 §8).\n</li>\n<li><code>Data/assets.json</code> 상태 temp, 장부 «확정 그림 가공» 한 줄. 결과 화면은 인게임 소유라 아직 옛 아이콘이다(남은 일).\n</li></ul>\n<h4>6. 확정 그림 가공 규칙(공통)</h4>\n<p>확정 그림(<code>art/final/**</code>)을 가공해 쓸 때: ① 원본 파일·원본 이름표는 그대로 ② 가공본은 새 파일·새 이름표 ③ <code>Data/assets.json</code> 상태 temp ④ 장부에 «확정 그림 X 를 코드로 가공» 줄 ⑤ 되돌리기 = 이름표만 원본으로. 규칙 본문은 <code>03-리소스계획.md</code> §9.</p>",
-"branch": "fin-plan",
-"dirty": true
+"branch": "fin-core",
+"dirty": false
 },
 {
 "id": "0042",
@@ -3121,7 +3152,7 @@
 "date": "2026-11-16",
 "by": "대표(문제 제기·목표) · 규칙·수치·구현은 서버팀(CD-0008 2차 C4)",
 "html": "<ol>\n<li><strong>무리</strong>: 체력 35% · 속도 110%.\n<ul>\n<li>4마리씩 묶여 나온다(<code>burst</code> 4). 묶음 안은 4틱 간격(<code>burstGapTicks</code>), 묶음 사이는 웨이브 칸의 <code>spacingTicks</code> 다.\n</li>\n<li>처치 골드는 50%(<code>bountyPct</code>, 2 → 1)다. 많고 약한 것이 골드를 몰아주지 않게 하려는 것이다.\n</li></ul>\n</li>\n<li><strong>비행</strong>: 맵의 비행 길(<code>flyPaths</code>, 지름길)로 온다. 공격 사거리 규칙은 그대로라서 지름길 옆 칸이 비행을 잘 잡는다. 이 규칙은 원래 Core 에 있었고 이번에 테스트로 고정했다.\n</li>\n<li><strong>재생</strong>: 초당 최대 체력의 2% 가 찬다. 피해를 받으면 20틱(1초) 동안 차지 않는다(<code>regenDelayTicks</code>). 멈춤 동안에도 차지 않는다.\n</li>\n<li><strong>그림자 무리 새 3종</strong>(이름·특징은 사용자 확인 대기):\n</li></ol>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>유형</th><th>특징 한 줄</th><th>그림(<code>view</code>, 화면 전용)</th><th>처음 나오는 웨이브</th></tr></thead><tbody><tr><td><code>shadow_swarm</code></td><td>그림자 떼</td><td>무리</td><td>작은 그림자가 한꺼번에 몰려온다</td><td>졸개 그림 · 70% · 색조 −12°</td><td>4</td></tr><tr><td><code>shadow_flier</code></td><td>그림자 날개</td><td>비행</td><td>길을 건너질러 날아온다</td><td>추적자 그림 · 90% · 색조 +20° · 0.45칸 떠 있음</td><td>12</td></tr><tr><td><code>shadow_mender</code></td><td>그림자 응어리</td><td>재생</td><td>맞지 않으면 상처가 아문다</td><td>방패병 그림 · 100% · 색조 +35°</td><td>13</td></tr></tbody></table></div>\n<ol>\n<li><strong>세 난이도 세트에 같은 줄을 더했다.</strong> 옛 줄은 그대로 두고 각 웨이브 끝에 붙였다.\n<ul>\n<li>떼: 4·6·9·14·16·18웨이브(어려움·정예는 6웨이브부터 — 아래 «보강»)\n</li>\n<li>날개: 12·13·15·17·19웨이브\n</li>\n<li>응어리: 13·14·16·17·19웨이브\n</li>\n<li>보통은 9웨이브부터 <code>hpPct</code> ×108%(내림)이다. 어려움·정예의 배율은 그대로다.\n</li></ul>\n</li>\n<li><strong><code>view</code> 칸은 규칙이 읽지 않는다</strong>(<code>art</code>·<code>scalePct</code>·<code>hueShift</code>·<code>floatHeight</code>). Core 는 <code>MonsterDef</code>·<code>MonsterInfo</code> 로 넘겨주기만 한다.\n</li></ol>",
-"branch": "fin-plan",
+"branch": "fin-core",
 "dirty": false
 }
 ],
@@ -3130,9 +3161,9 @@
 "tab": "system",
 "file": "docs/10-한장기획서.md",
 "title": "10. 한 장 기획서",
-"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0007: 강화·육성 반영·업적·꾸밈·보상 단계 — 결정 0033~0036, <strong>사용자 확인 대기</strong>) · 상태: <strong>사용자 요구 12항 + 선택 4건 반영</strong>. 수치는 전부 초안(사람 플레이 전).\n</li>\n<li>정본 관계: 규칙은 <code>11-규칙.md</code>, 등장 목록은 <code>12-콘텐츠목록.md</code>, 보상·육성은 <code>13-보상-육성-꾸밈.md</code>, 배포·저장은 <code>14-배포-저장.md</code>, 숫자는 <code>Data/*.json</code>.\n</li></ul>\n<h3>약속 한 문장</h3>\n<p><strong>여섯 종족을 무작위로 소환하고, 같은 것 셋을 합쳐 진화시켜, 혼자 또는 여럿이 한 목숨으로 관문을 지킨다.</strong></p>\n<h3>스토리</h3>\n<p>없다. 대사·컷신·설정 글을 만들지 않는다. 배경 구도 하나만 쓴다(결정 0011):</p>\n<p><strong>그림자 균열에 맞서는 여섯 종족 연합.</strong> 적은 균열에서 쏟아지는 무리다. 균열이 닫힐 때까지(마지막 웨이브) 관문을 지키면 이긴다. 목숨은 관문의 내구도다.</p>\n<h3>한 판</h3>\n<ol>\n<li>로비에서 싱글 또는 협동을 고르고 입장한다.\n</li>\n<li>내 영역의 <strong>빈칸을 골라</strong> 골드로 <strong>소환</strong>한다. 여섯 종족 중 하나가 무작위로 그 칸에 선다.\n</li>\n<li>같은 종족·같은 단계 <strong>셋을 합치면</strong> 그 종족의 다음 단계 하나가 된다(4단계까지). 마음에 안 드는 캐릭터는 팔아서(들인 골드의 80%) 칸을 비운다.\n</li>\n<li>몬스터(그림자 무리)가 웨이브마다 길을 따라 온다. <strong>웨이브는 시간으로 이어진다</strong> — 앞 웨이브를 다 잡지 못해도 다음 웨이브가 나온다. 캐릭터는 알아서 싸운다. 잡으면 골드를 얻는다.\n</li>\n<li>판 안에서 <strong>미션</strong>(판마다 8개, 채우면 바로 골드)을 노리고, <strong>현상금</strong>(쿨타임마다 센 몬스터 하나를 불러 잡으면 큰 골드)을 부른다.\n</li>\n<li>골드로 <strong>강화</strong>를 산다(초안 · 사용자 확인 대기, 결정 0033). 종족마다 단계가 있고, 그 종족 캐릭터 전부의 피해가 단계마다 12% 오른다(최대 10단계). 소환할까 강화할까가 골드를 쓰는 선택이 된다.\n</li>\n<li>몬스터가 끝까지 가면 <strong>목숨</strong>(10)이 깎인다. 목숨이 0이면 패배, 20웨이브를 넘기면 승리.\n</li>\n<li>결과에 따라 <strong>뽑기 코인</strong>을 받는다. 일찍 지는 판은 코인이 적고, 끝까지 이기면 많다(초안, 결정 0036).\n</li></ol>\n<h3>판 밖</h3>\n<ul>\n<li>뽑기 코인으로 <strong>박스 뽑기</strong>(정해진 수량의 상자에서 하나씩 꺼내는 방식)를 한다. 나오는 것은 <strong>육성 재료뿐</strong>이다.\n</li>\n<li>육성 재료로 <strong>캐릭터마다</strong> <strong>레벨</strong>을 올리고 <strong>각성</strong>한다. 올린 레벨·각성은 <strong>다음 판에서 그 캐릭터가 나올 때</strong> 피해와 특성으로 반영된다(규칙은 <code>11-규칙.md</code> §12-2).\n</li>\n<li><strong>업적</strong> 19개(<code>Data/achievements.json</code>)를 채우면 <strong>그 자리에서 꾸밈이 자동으로 들어온다</strong>(«받기» 버튼 없음). 프로필 이미지·프레임·네임플레이트(꾸밈 22개 가운데 기본 3개는 처음부터)는 <strong>업적과 이벤트</strong>로만 얻는다. 초안 · 사용자 확인 대기(결정 0035).\n</li>\n<li><strong>프로필</strong>에서 꾸밈을 고르고 기록(판 수·승리·최고 웨이브·누적 처치)을 본다. <strong>설정</strong>에서 소리·음악·진동을 끄고 켠다.\n</li></ul>\n<h3>재화 (적게)</h3>\n<div class=tw><table><thead><tr><th>어디서</th><th>이름</th><th>얻는 곳</th><th>쓰는 곳</th></tr></thead><tbody><tr><td>판 안</td><td>골드</td><td>처치, 웨이브 통과, 미션, 현상금</td><td>소환, 강화</td></tr><tr><td>판 밖</td><td>뽑기 코인</td><td>판 결과</td><td>박스 뽑기</td></tr><tr><td>판 밖</td><td>경험 결정</td><td>박스</td><td>캐릭터 레벨</td></tr><tr><td>판 밖</td><td>종족 조각(종족마다)</td><td>박스</td><td>그 종족 캐릭터의 각성</td></tr></tbody></table></div>\n<p>재화를 얻는 창구는 하나다: <strong>판 → 뽑기 코인 → 박스 → 육성 재료.</strong> 판 밖 골드, 스태미나, 유료 재화는 없다.</p>\n<h3>협동</h3>\n<ul>\n<li>각자 자기 영역에서 소환한다. 몬스터는 모두가 같이 상대한다.\n</li>\n<li>n명이면 <strong>스폰 지점이 n곳</strong>이고 몬스터 수도 <strong>n배</strong>다.\n</li>\n<li><strong>목숨은 하나를 같이 쓴다.</strong>\n</li></ul>\n<h3>넣는 것 / 빼는 것</h3>\n<div class=tw><table><thead><tr><th>넣는다</th><th>뺀다</th></tr></thead><tbody><tr><td>6종족 × 4단계 진화</td><td>스토리, 대사</td></tr><tr><td>3개 합성</td><td>합성 실패, 무작위 결과 합성</td></tr><tr><td>고른 빈칸에 소환, 판매 환급 80%</td><td>소환 버튼·빈칸 수 표시, 종족별 보유 수 줄</td></tr><tr><td>시간으로 이어지는 웨이브 20개(보스 10·20)</td><td>다음 웨이브 예고·«지금 시작»</td></tr><tr><td>판 안 미션(8개)·현상금(6종)</td><td>판 안의 둘째 재화, 미션 «받기» 버튼</td></tr><tr><td>종족별 판 안 강화(골드, 10단계 · 초안 · 끌 수 있다)</td><td>강화용 새 재화, 캐릭터 하나만 강화</td></tr><tr><td>캐릭터별 레벨 + 각성 + 종족별 특성 4개(24개)</td><td>장비, 스킬 트리</td></tr><tr><td>박스 뽑기(육성 재료)</td><td>박스에서 캐릭터·꾸밈, 유료 재화</td></tr><tr><td>업적 19개 → 꾸밈 22개(프로필·프레임·네임플레이트, 자동 지급)</td><td>캐릭터 스킨(나중에 검토), 꾸밈 구매·박스에서 나오기</td></tr><tr><td>로비, 싱글, 2~4인 협동</td><td>대전(PvP), 길드, 자유 입력 채팅(빠른 대화만)</td></tr><tr><td>소리(효과음·배경음)·연출·설정(소리·음악·진동)</td><td>이름 바꾸기, 클라우드 저장(남은 일)</td></tr></tbody></table></div>\n<h3>첫 번째 목표</h3>\n<p>로비 → 싱글 한 판 → 결과. <strong>맵 1개(<code>gate_01</code>, 9×13칸 캔버스), 그림자 무리 몬스터 4종 + 현상금 6종, 캐릭터 6종족</strong>(각 4단계)으로 한 판이 처음부터 끝까지 돈다: 빈칸 소환 → 합성·판매·이동 → 20웨이브 자동 진행 → 미션·현상금 → 결과. 그림은 임시 그림. 협동은 자리만 두고 «개발 중» 표시만.</p>\n<p><strong>완성 묶음(CD-0007)에서 싱글 한 바퀴가 닫혔다:</strong> 판 → 뽑기 코인 → 박스 → 육성 재료 → 캐릭터 레벨·각성 → 다음 판에서 더 강함. 판 안에는 강화가, 판 밖에는 업적·꾸밈·프로필·설정이 더해졌다. 협동·클라우드 저장·상위 성장·무한 모드는 아직이다. 동시에 핸드폰 설치·새 빌드 받기·유저 정보 저장의 뼈대를 만든다.</p>",
-"at": "2026-11-16 03:54",
-"branch": "main",
+"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0007: 강화·육성 반영·업적·꾸밈·보상 단계 — 결정 0033~0036 · CD-0008: 닉네임·일일 목표·이어 하기·설정 — 결정 0039~0041 · 모두 <strong>사용자 확인 대기</strong>) · 상태: <strong>사용자 요구 12항 + 선택 4건 반영</strong>. 수치는 전부 초안(사람 플레이 전).\n</li>\n<li>정본 관계: 규칙은 <code>11-규칙.md</code>, 등장 목록은 <code>12-콘텐츠목록.md</code>, 보상·육성은 <code>13-보상-육성-꾸밈.md</code>, 배포·저장은 <code>14-배포-저장.md</code>, 숫자는 <code>Data/*.json</code>.\n</li></ul>\n<h3>약속 한 문장</h3>\n<p><strong>여섯 종족을 무작위로 소환하고, 같은 것 셋을 합쳐 진화시켜, 혼자 또는 여럿이 한 목숨으로 관문을 지킨다.</strong></p>\n<h3>스토리</h3>\n<p>없다. 대사·컷신·설정 글을 만들지 않는다. 배경 구도 하나만 쓴다(결정 0011):</p>\n<p><strong>그림자 균열에 맞서는 여섯 종족 연합.</strong> 적은 균열에서 쏟아지는 무리다. 균열이 닫힐 때까지(마지막 웨이브) 관문을 지키면 이긴다. 목숨은 관문의 내구도다.</p>\n<h3>한 판</h3>\n<ol>\n<li>로비에서 싱글 또는 협동을 고르고 입장한다.\n</li>\n<li>내 영역의 <strong>빈칸을 골라</strong> 골드로 <strong>소환</strong>한다. 여섯 종족 중 하나가 무작위로 그 칸에 선다.\n</li>\n<li>같은 종족·같은 단계 <strong>셋을 합치면</strong> 그 종족의 다음 단계 하나가 된다(4단계까지). 마음에 안 드는 캐릭터는 팔아서(들인 골드의 80%) 칸을 비운다.\n</li>\n<li>몬스터(그림자 무리)가 웨이브마다 길을 따라 온다. <strong>웨이브는 시간으로 이어진다</strong> — 앞 웨이브를 다 잡지 못해도 다음 웨이브가 나온다. 캐릭터는 알아서 싸운다. 잡으면 골드를 얻는다.\n</li>\n<li>판 안에서 <strong>미션</strong>(판마다 8개, 채우면 바로 골드)을 노리고, <strong>현상금</strong>(쿨타임마다 센 몬스터 하나를 불러 잡으면 큰 골드)을 부른다.\n</li>\n<li>골드로 <strong>강화</strong>를 산다(초안 · 사용자 확인 대기, 결정 0033). 종족마다 단계가 있고, 그 종족 캐릭터 전부의 피해가 단계마다 12% 오른다(최대 10단계). 소환할까 강화할까가 골드를 쓰는 선택이 된다.\n</li>\n<li>몬스터가 끝까지 가면 <strong>목숨</strong>(10)이 깎인다. 목숨이 0이면 패배, 20웨이브를 넘기면 승리.\n</li>\n<li>결과에 따라 <strong>뽑기 코인</strong>을 받는다. 일찍 지는 판은 코인이 적고, 끝까지 이기면 많다(초안, 결정 0036).\n</li></ol>\n<h3>판 밖</h3>\n<ul>\n<li>뽑기 코인으로 <strong>박스 뽑기</strong>(정해진 수량의 상자에서 하나씩 꺼내는 방식)를 한다. 나오는 것은 <strong>육성 재료뿐</strong>이다.\n</li>\n<li>육성 재료로 <strong>캐릭터마다</strong> <strong>레벨</strong>을 올리고 <strong>각성</strong>한다. 올린 레벨·각성은 <strong>다음 판에서 그 캐릭터가 나올 때</strong> 피해와 특성으로 반영된다(규칙은 <code>11-규칙.md</code> §12-2).\n</li>\n<li><strong>업적</strong> 19개(<code>Data/achievements.json</code>)를 채우면 <strong>그 자리에서 꾸밈이 자동으로 들어온다</strong>(«받기» 버튼 없음). 프로필 이미지·프레임·네임플레이트(꾸밈 22개 가운데 기본 3개는 처음부터)는 <strong>업적과 이벤트</strong>로만 얻는다. 초안 · 사용자 확인 대기(결정 0035).\n</li>\n<li><strong>프로필</strong>에서 꾸밈을 고르고 기록(판 수·승리·최고 웨이브·누적 처치)을 본다.\n</li>\n<li><strong>닉네임</strong>: 처음 켤 때 한 번 이름을 정한다(2~10자, 한글·영문·숫자). 프로필에서 바꿀 수 있다.\n</li>\n<li><strong>일일 목표</strong>(초안 · 사용자 확인 대기, 결정 0039): 하루 3개, 보상은 뽑기 코인뿐, 셋 다 하면 보너스. 규칙은 <code>13-보상-육성-꾸밈.md</code> §8.\n</li>\n<li><strong>판 이어 하기</strong>(초안 · 사용자 확인 대기, 결정 0040): 앱이 꺼져도 싱글 판이 남아, 다시 켜면 로비에서 이어 하거나 포기 정산한다. 저장이 깨져도 직전 정상본으로 돌아온다(<code>14-배포-저장.md</code> §3-1·3-2).\n</li>\n<li><strong>설정</strong>에서 소리·음악(음량 막대)·진동, 그래픽 품질(높음/낮음)·프레임(60/30)을 고르고, 게임 방법을 다시 보고, 크레딧을 보고, 저장 데이터를 지운다(결정 0041).\n</li></ul>\n<h3>재화 (적게)</h3>\n<div class=tw><table><thead><tr><th>어디서</th><th>이름</th><th>얻는 곳</th><th>쓰는 곳</th></tr></thead><tbody><tr><td>판 안</td><td>골드</td><td>처치, 웨이브 통과, 미션, 현상금</td><td>소환, 강화</td></tr><tr><td>판 밖</td><td>뽑기 코인</td><td>판 결과, 일일 목표</td><td>박스 뽑기</td></tr><tr><td>판 밖</td><td>경험 결정</td><td>박스</td><td>캐릭터 레벨</td></tr><tr><td>판 밖</td><td>종족 조각(종족마다)</td><td>박스</td><td>그 종족 캐릭터의 각성</td></tr></tbody></table></div>\n<p>재화를 얻는 창구는 하나다: <strong>판(과 그 판을 부르는 일일 목표) → 뽑기 코인 → 박스 → 육성 재료.</strong> 판 밖 화폐 이름은 «뽑기 코인» 하나다. 판 밖 골드, 스태미나, 유료 재화는 없다.</p>\n<h3>협동</h3>\n<ul>\n<li>각자 자기 영역에서 소환한다. 몬스터는 모두가 같이 상대한다.\n</li>\n<li>n명이면 <strong>스폰 지점이 n곳</strong>이고 몬스터 수도 <strong>n배</strong>다.\n</li>\n<li><strong>목숨은 하나를 같이 쓴다.</strong>\n</li></ul>\n<h3>넣는 것 / 빼는 것</h3>\n<div class=tw><table><thead><tr><th>넣는다</th><th>뺀다</th></tr></thead><tbody><tr><td>6종족 × 4단계 진화</td><td>스토리, 대사</td></tr><tr><td>3개 합성</td><td>합성 실패, 무작위 결과 합성</td></tr><tr><td>고른 빈칸에 소환, 판매 환급 80%</td><td>소환 버튼·빈칸 수 표시, 종족별 보유 수 줄</td></tr><tr><td>시간으로 이어지는 웨이브 20개(보스 10·20)</td><td>다음 웨이브 예고·«지금 시작»</td></tr><tr><td>판 안 미션(8개)·현상금(6종)</td><td>판 안의 둘째 재화, 미션 «받기» 버튼</td></tr><tr><td>종족별 판 안 강화(골드, 10단계 · 초안 · 끌 수 있다)</td><td>강화용 새 재화, 캐릭터 하나만 강화</td></tr><tr><td>캐릭터별 레벨 + 각성 + 종족별 특성 4개(24개)</td><td>장비, 스킬 트리</td></tr><tr><td>박스 뽑기(육성 재료)</td><td>박스에서 캐릭터·꾸밈, 유료 재화</td></tr><tr><td>업적 19개 → 꾸밈 22개(프로필·프레임·네임플레이트, 자동 지급)</td><td>캐릭터 스킨(나중에 검토), 꾸밈 구매·박스에서 나오기</td></tr><tr><td>로비, 싱글, 2~4인 협동</td><td>대전(PvP), 길드, 자유 입력 채팅(빠른 대화만)</td></tr><tr><td>소리(효과음·배경음)·연출·설정(음량·진동·그래픽·프레임)</td><td>클라우드 저장(남은 일)</td></tr><tr><td>닉네임(처음 한 번 + 프로필에서 바꾸기), 일일 목표 3개, 판 이어 하기, 게임 방법 화면</td><td>공지·우편함(서버가 없어 뺐다), 일일 목표의 연속 출석·주간 목표, 협동 이어 하기</td></tr></tbody></table></div>\n<h3>첫 번째 목표</h3>\n<p>로비 → 싱글 한 판 → 결과. <strong>맵 1개(<code>gate_01</code>, 9×13칸 캔버스), 그림자 무리 몬스터 4종 + 현상금 6종, 캐릭터 6종족</strong>(각 4단계)으로 한 판이 처음부터 끝까지 돈다: 빈칸 소환 → 합성·판매·이동 → 20웨이브 자동 진행 → 미션·현상금 → 결과. 그림은 임시 그림. 협동은 자리만 두고 «개발 중» 표시만.</p>\n<p><strong>완성 묶음(CD-0007)에서 싱글 한 바퀴가 닫혔다:</strong> 판 → 뽑기 코인 → 박스 → 육성 재료 → 캐릭터 레벨·각성 → 다음 판에서 더 강함. 판 안에는 강화가, 판 밖에는 업적·꾸밈·프로필·설정이 더해졌다. 협동·클라우드 저장·상위 성장·무한 모드는 아직이다. 동시에 핸드폰 설치·새 빌드 받기·유저 정보 저장의 뼈대를 만든다.</p>",
+"at": "2026-11-16 10:11",
+"branch": "fin-core",
 "dirty": false
 },
 {
@@ -3149,26 +3180,26 @@
 "file": "docs/13-보상-육성-꾸밈.md",
 "title": "13. 판 밖: 흐름 · 보상 · 박스 뽑기 · 육성 · 꾸밈",
 "html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0007: §3 보상 단계, §5 특성 24·비용 표, §6 업적 19·꾸밈 22 — 결정 0034~0036 · CD-0008: §1 설정·닉네임·이어 하기, §8 일일 목표 — 결정 0039 · 모두 <strong>사용자 확인 대기</strong>) · 상태: 구조 확정, <strong>수치는 초안</strong>(<code>Data/reward.json</code>, <code>Data/box.json</code>, <code>Data/growth.json</code>, <code>Data/achievements.json</code>, <code>Data/cosmetics.json</code>). 숫자와 글은 데이터가 정본이고 이 문서의 표는 그것을 옮긴 것이다(다르면 데이터가 맞다).\n</li></ul>\n<h3>1. 전체 흐름</h3>\n<pre><code>앱 실행 → 자동 로그인(익명 계정) → 로비\n로비 ─ [싱글 시작] ───────────────▶ 디펜스 → 결과(뽑기 코인) → 로비\n     ─ [협동] 방 만들기 / 코드로 참가 → 대기실 → 디펜스 → 결과 → 로비\n     ─ [캐릭터] 캐릭터별 레벨 · 각성\n     ─ [박스] 박스 뽑기\n     ─ [프로필] 이미지 · 프레임 · 네임플레이트 · 기록 · 업적 · 이름 바꾸기\n     ─ [오늘 목표] 일일 목표 3개(§8)\n     ─ [설정] 소리·음악(켬/끔 + 음량 0~100) · 진동 · 그래픽 · 프레임 · 게임 방법 · 크레딧 · 저장 데이터 초기화</code></pre>\n<ul>\n<li>처음 켤 때 한 번 «이름 정하기» 창(2~10자, 한글·영문·숫자)이 뜬다. 앱이 꺼진 판이 남아 있으면 로비에 «이어 하기» 카드가 뜬다(<code>14-배포-저장.md</code> §3-1).\n</li>\n<li>판 밖 화폐 이름은 <strong>«뽑기 코인»</strong> 하나로 통일한다(로비 칩·박스 가격·결과·단계 칸·일일 목표·크레딧). «코인» 만 쓰지 않는다(결정 0039).\n</li></ul>\n<h3>2. 로비</h3>\n<ul>\n<li>싱글이든 협동이든 <strong>로비에서 시작한다.</strong> 로비에는 내 프로필(이미지·프레임·네임플레이트·이름)과 뽑기 코인이 보인다.\n</li>\n<li>싱글: 맵을 고르고 바로 시작.\n</li>\n<li>협동: 방을 만들면 <strong>참가 코드</strong>가 나온다. 친구가 코드로 들어오면 <strong>대기실</strong>에 모두의 네임플레이트가 보인다. 방장이 시작한다.\n</li>\n<li>완성 묶음(CD-0007)에서 싱글 시작·캐릭터·박스·업적·프로필·설정이 동작한다. <strong>협동만</strong> 버튼과 «개발 중» 표시로 남는다.\n</li></ul>\n<h3>3. 결과와 보상</h3>\n<ul>\n<li>판이 끝나면 결과 화면: 승패, 도달 웨이브, 처치 수, 받은 <strong>뽑기 코인</strong>, 가장 잘 싸운 캐릭터.\n</li>\n<li>판에서 나오는 보상은 뽑기 코인 <strong>하나뿐</strong>이다. 경험치·골드·아이템이 따로 떨어지지 않는다. 협동도 각자 같은 식으로 받는다.\n</li>\n<li><strong>코인 = 막은 웨이브마다 받는 코인(단계별) + 승리 보너스</strong>(결정 0036 — 대표 초안 · 사용자 확인 대기, <code>Data/reward.json</code>).\n</li></ul>\n<div class=tw><table><thead><tr><th>웨이브</th><th>웨이브마다</th><th>그 단계까지 누적</th></tr></thead><tbody><tr><td>1~5</td><td>1</td><td>5</td></tr><tr><td>6~10</td><td>2</td><td>15</td></tr><tr><td>11~15</td><td>3</td><td>30</td></tr><tr><td>16~20</td><td>4</td><td>50</td></tr><tr><td>승리 보너스</td><td>+30</td><td><strong>20웨이브 승리 = 50 + 30 = 80</strong></td></tr></tbody></table></div>\n<ul>\n<li><strong>난이도 단계의 코인 배율</strong>(결정 0037 — 대표 초안 · 사용자 확인 대기, <code>reward.json</code> <code>setCoinPct</code>): 위 코인(웨이브 코인 + 승리 보너스)에 곱한다(내림).\n</li></ul>\n<div class=tw><table><thead><tr><th>단계(웨이브 세트)</th><th>배율</th><th>20웨이브 승리</th></tr></thead><tbody><tr><td>보통 <code>gate_01_std</code></td><td>100%</td><td>80</td></tr><tr><td>어려움 <code>gate_01_hard</code></td><td>150%</td><td>120</td></tr><tr><td>정예 <code>gate_01_elite</code></td><td>200%</td><td>160</td></tr></tbody></table></div>\n<ul>\n<li>마지막 단계보다 뒤의 웨이브(있다면)는 마지막 단계 값이다. 옛 규칙은 «웨이브마다 같은 코인» 한 값(<code>coinsPerWaveCleared</code>)이었고 이 표로 바꿨다.\n</li>\n<li>왜: 일찍 지는 판을 계속 반복하는 것이 «판 시간당 코인» 으로 이득이면 승리를 목표로 할 이유가 없다. 코인이 <strong>뒤 웨이브일수록 크게</strong> 올라 끝까지 가는 판이 시간당 가장 많이 번다.\n</li>\n<li>측정(봇 판, <code>gate_01_std</code>, 시드 1~20, 육성 없음, 가장 유리하게 «웨이브 N 을 막은 그 틱에 포기» 로 쟀다 — 판 사이 로딩 시간은 뺐다. CD-0007 C4 의 곡선·소환 확률(결정 0037·0038)로 다시 쟀다. 테스트 <code>WinningPaysMoreCoinsPerTickThanGivingUpEarly</code>):\n</li></ul>\n<div class=tw><table><thead><tr><th>경우</th><th>판 수</th><th>코인</th><th>틱</th><th>1만 틱당 코인</th></tr></thead><tbody><tr><td><strong>승리</strong></td><td>10</td><td>800</td><td>112,273</td><td><strong>71</strong></td></tr><tr><td>웨이브 5 막고 포기</td><td>20</td><td>100</td><td>42,978</td><td>23</td></tr><tr><td>웨이브 10 막고 포기</td><td>18</td><td>270</td><td>90,861</td><td>29</td></tr><tr><td>웨이브 15 막고 포기</td><td>15</td><td>450</td><td>120,064</td><td>37</td></tr></tbody></table></div>\n<ul>\n<li>어려움·정예는 같은 판 길이에 코인이 1.5·2배라, 이길 수 있을 만큼 키웠다면 높은 단계가 시간당 더 번다(측정 안 함 — 배율이 그대로 곱해질 뿐이다).\n</li>\n<li>망가지는 길: ① 포기·일찍 지기가 시간당 이득 → 위 측정에서 승리가 가장 높다(테스트가 정수 곱으로 고정). ② 끝까지 갔다가 지는 판의 코인이 승리 코인에 너무 가까우면 승리 보너스의 값이 없어진다 → 승리(80)가 끝까지 가서 진 판(38~46)의 두 배쯤 되게 승리 보너스를 30 으로 두었다. ③ 수치는 초안이다 — 실제 코인 가치는 박스 한 번(<code>Data/box.json</code>)의 비용과 함께 사람 플레이로 다시 본다.\n</li></ul>\n<h3>4. 박스 뽑기</h3>\n<p>제비 뽑기 상자 방식이다. 상자 하나에 <strong>정해진 수량</strong>의 제비가 들어 있고, 뽑으면 그 제비는 상자에서 빠진다.</p>\n<ul>\n<li>상자 화면에 <strong>등급별 남은 수량</strong>이 항상 보인다. 뽑을수록 남은 것의 확률이 올라간다.\n</li>\n<li>한 번 뽑는 데 뽑기 코인이 든다. 여러 번 연속 뽑기 가능.\n</li>\n<li>마지막 제비를 뽑으면 <strong>마지막 상</strong>을 덤으로 받는다.\n</li>\n<li>상자를 다 비우면 다음 상자가 열린다(내용이 조금씩 좋아짐). 비우기 전에 새 상자로 바꿀 수는 없다(초안).\n</li>\n<li>나오는 것은 <strong>육성 재료뿐</strong>이다: 경험 결정, 종족 조각, 종족 조각 선택권.\n</li>\n<li>꾸밈과 캐릭터는 나오지 않는다.\n</li></ul>\n<p>초안 구성(상자 하나 80장):</p>\n<div class=tw><table><thead><tr><th>상</th><th>수량</th><th>내용</th></tr></thead><tbody><tr><td>A</td><td>1</td><td>종족 조각 선택권 30</td></tr><tr><td>B</td><td>3</td><td>종족 조각 선택권 10</td></tr><tr><td>C</td><td>12</td><td>무작위 종족 조각 5</td></tr><tr><td>D</td><td>24</td><td>경험 결정 (대)</td></tr><tr><td>E</td><td>40</td><td>경험 결정 (소)</td></tr><tr><td>마지막 상</td><td>—</td><td>종족 조각 선택권 20</td></tr></tbody></table></div>\n<ul>\n<li>왜 이 방식인가: 확률이 숨지 않는다. 남은 수량이 곧 확률이고, 끝이 있어서 «언젠가는 반드시» 가 보장된다.\n</li>\n<li>판정 위치: 상자의 상태(남은 제비)와 뽑기 결과는 <strong>서버에 저장</strong>한다. 개발 단계에서는 기기에서 계산하고 서버에 저장하며, 출시 전에 서버에서 계산하도록 옮긴다(<code>14-배포-저장.md</code>).\n</li>\n<li>규정: 무료로 얻은 재화로만 뽑으면 확률 공개 의무 대상에서 빠진다는 보도가 있다(해설서 원문은 확인 못 함). <strong>뽑기 코인을 돈으로 팔게 되면 공개 대상이 된다.</strong> 지금 계획에는 유료 재화가 없다.\n</li></ul>\n<h3>5. 육성 — 캐릭터별 (사용자 결정 2026-11-15)</h3>\n<p>육성은 <strong>캐릭터 하나하나</strong>에 한다. 캐릭터는 종족 6 × 단계 4 = 24종이고, 각자 레벨과 각성을 따로 가진다. «기사» 를 키우면 판 안에 나오는 기사가 강해진다.</p>\n<div class=tw><table><thead><tr><th>축</th><th>재료</th><th>효과</th></tr></thead><tbody><tr><td>레벨</td><td>경험 결정(공용)</td><td>그 캐릭터의 공격력이 레벨마다 조금씩 오른다</td></tr><tr><td>각성</td><td><strong>그 캐릭터가 속한 종족의 조각</strong></td><td>그 캐릭터의 레벨 상한이 오르고, 각성마다 <strong>특성</strong> 하나가 열린다</td></tr></tbody></table></div>\n<ul>\n<li>재료 종류는 늘리지 않는다. 조각은 캐릭터마다 따로 두지 않고 <strong>종족 조각 6종</strong>을 그 종족의 네 캐릭터가 나눠 쓴다. 어느 캐릭터에 쓸지는 플레이어가 고른다.\n</li>\n<li>레벨 상한은 그 캐릭터의 각성 단계로 정해진다(초안: 각성 0~4 → 상한 10·15·20·25·30).\n</li>\n<li>특성은 종족마다 네 개가 정해져 있고, 캐릭터가 각성할 때마다 그 캐릭터에게 차례로 열린다(<code>Data/growth.json</code>). 같은 종족의 네 캐릭터는 같은 특성 목록을 쓴다.\n</li>\n<li>레벨 n → n+1 비용 = <code>expCostBase</code>(100) + <code>expCostStepPerLevel</code>(50) × (n − 1) <strong>경험 결정</strong>. 각성 a → a+1 비용 = <code>awakenShardCost[a]</code>(20·40·80·160) <strong>그 종족 조각</strong>(한 캐릭터를 각성 4 로 올리는 데 300). 레벨 보너스는 레벨마다 +3%(더하기, 레벨 1 = 0).\n</li>\n<li>레벨이 상한에 닿으면 «각성하면 더 오른다» 는 뜻으로, 마지막 각성의 상한에 닿으면 «끝» 이라는 뜻으로 거절한다(화면 글이 다르다). 조각 선택권은 각성에 바로 못 쓴다 — 먼저 조각으로 바꾼다.\n</li>\n<li>어떻게 판에 반영되나(곱하는 순서 포함)는 <code>11-규칙.md</code> §12-2.\n</li></ul>\n<h4>레벨·각성 비용 (초안 · <code>Data/growth.json</code>)</h4>\n<div class=tw><table><thead><tr><th>각성</th><th>레벨 상한</th><th>이 구간의 비용(경험 결정, 한 단계)</th><th>구간 합계</th><th>상한에서 피해 보너스</th></tr></thead><tbody><tr><td>0</td><td>10</td><td>100 → 500 (1~10 레벨)</td><td>2700</td><td>+27%</td></tr><tr><td>1</td><td>15</td><td>550 → 750 (10~15 레벨)</td><td>3250</td><td>+42%</td></tr><tr><td>2</td><td>20</td><td>800 → 1000 (15~20 레벨)</td><td>4500</td><td>+57%</td></tr><tr><td>3</td><td>25</td><td>1050 → 1250 (20~25 레벨)</td><td>5750</td><td>+72%</td></tr><tr><td>4</td><td>30</td><td>1300 → 1500 (25~30 레벨)</td><td>7000</td><td>+87%</td></tr></tbody></table></div>\n<ul>\n<li>한 캐릭터를 1 → 30 레벨로 올리는 데 경험 결정 23,200 + 각성 4 번에 그 종족 조각 300 이 든다. 24명 전부를 올리는 일은 일부러 멀다 — «어느 캐릭터를 키우나» 가 선택이 된다.\n</li></ul>\n<h4>특성 24개 (결정 0034 — 대표 초안 · 사용자 확인 대기)</h4>\n<p>각성 a 인 캐릭터는 그 종족의 특성 1..a 를 가진다. 글은 화면에 그대로 나가고, 수치는 <code>Data/growth.json</code> 의 <code>params</code> 다. «유형» 은 <code>Data/monsters.json</code> 의 유형 id(<code>rush</code> 질주 · <code>flying</code> 비행 · <code>normal</code> 일반 · <code>swarm</code> 무리 · <code>boss</code> 보스, 현상금 몬스터는 <code>bounty</code>).</p>\n<div class=tw><table><thead><tr><th>종족</th><th>각성</th><th>글 (<code>id</code>)</th><th>수치</th></tr></thead><tbody><tr><td>인간</td><td>1</td><td>보스에게 주는 피해 증가 (<code>boss_damage</code>)</td><td>보스·현상금 +25%</td></tr><tr><td></td><td>2</td><td>사거리 증가 (<code>range</code>)</td><td>+15%</td></tr><tr><td></td><td>3</td><td>가끔 두 번 벰 (<code>double_strike</code>)</td><td>20% 확률로 같은 대상에 한 번 더</td></tr><tr><td></td><td>4</td><td>곁의 아군 공격력 증가 (<code>ally_aura</code>)</td><td>둘레 8칸 아군 +10%, 하나만</td></tr><tr><td>엘프</td><td>1</td><td>사거리 증가 (<code>range</code>)</td><td>+15%</td></tr><tr><td></td><td>2</td><td>질주하는 적에게 주는 피해 증가 (<code>type_damage</code>)</td><td>rush·flying +30%</td></tr><tr><td></td><td>3</td><td>가끔 화살 둘 (<code>double_shot</code>)</td><td>20% 확률로 한 발 더</td></tr><tr><td></td><td>4</td><td>화살이 한 번 튕김 (<code>bounce</code>)</td><td>반경 150 안 다른 적에 50%</td></tr><tr><td>드워프</td><td>1</td><td>폭발 범위 증가 (<code>splash_radius</code>)</td><td>+25%</td></tr><tr><td></td><td>2</td><td>일반 적에게 주는 피해 증가 (<code>type_damage</code>)</td><td>normal·swarm +20%</td></tr><tr><td></td><td>3</td><td>포격이 적을 잠깐 멈춤 (<code>stun</code>)</td><td>범위 안 8틱 멈춤</td></tr><tr><td></td><td>4</td><td>포격 자리에 여진을 남김 (<code>linger</code>)</td><td>40틱, 10틱마다 포격 피해 15%</td></tr><tr><td>수인</td><td>1</td><td>치명타 확률 증가 (<code>crit_chance</code>)</td><td>+10%p</td></tr><tr><td></td><td>2</td><td>공격 속도 증가 (<code>attack_speed</code>)</td><td>간격 −15%</td></tr><tr><td></td><td>3</td><td>처치하면 잠깐 더 빨라짐 (<code>kill_haste</code>)</td><td>40틱, 간격 −30%</td></tr><tr><td></td><td>4</td><td>치명타 피해 증가 (<code>crit_damage</code>)</td><td>+50%p</td></tr><tr><td>정령</td><td>1</td><td>감속 시간 증가 (<code>slow_ticks</code>)</td><td>+50%</td></tr><tr><td></td><td>2</td><td>감속 세기 증가 (<code>slow_pct</code>)</td><td>+10%p</td></tr><tr><td></td><td>3</td><td>가끔 적을 멈춤 (<code>stop_chance</code>)</td><td>10% 확률로 10틱 멈춤</td></tr><tr><td></td><td>4</td><td>둘레의 적도 감속 (<code>area_slow</code>)</td><td>반경 120 안 전부</td></tr><tr><td>용족</td><td>1</td><td>여파 피해 증가 (<code>aftermath_damage</code>)</td><td>+100%</td></tr><tr><td></td><td>2</td><td>관통 수 증가 (<code>pierce_count</code>)</td><td>+2</td></tr><tr><td></td><td>3</td><td>여파가 남은 적이 받는 피해 증가 (<code>aftermath_vulnerable</code>)</td><td>받는 피해 +15%</td></tr><tr><td></td><td>4</td><td>관통 폭 증가 (<code>line_width</code>)</td><td>+50%</td></tr></tbody></table></div>\n<ul>\n<li>여기서 %p 는 퍼센트포인트(확률에 더하는 값)다. «멈춤»·«여진»·«여파» 의 규칙은 <code>11-규칙.md</code> §12-3.\n</li>\n<li><strong>옛 초안의 글과 바뀐 곳</strong>(속성 낱말과 지금 웨이브에 없는 유형을 걷어냈다): 인간 2번 «사거리 소폭» → «사거리 증가»(+15%) · 엘프 2번 «비행에게» → «질주하는 적에게»(질주·비행 둘 다) · 드워프 2번 «무리에게» → «일반 적에게»(일반·무리) · 드워프 3번 «기절» → «멈춤» · 드워프 4번 «불타는 자리» → «여진» · 정령 3번 «얼림» → «가끔 적을 멈춤» · 용족 1번 «불태우기 피해» → «여파 피해» · 용족 3번 «불탄 적이 받는 피해 증가» → «여파가 남은 적이 받는 피해 증가» · 용족 4번 «숨결 폭» → «관통 폭». 이유와 되돌리는 법은 결정 0034.\n</li></ul>\n<ul>\n<li>고민할 거리: 1단계는 매 판 가장 많이 나오고 4단계는 드물게 나온다. 흔한 낮은 단계를 키울지, 드물지만 센 높은 단계를 키울지가 플레이어의 선택이 된다.\n</li>\n<li>망가지는 길 ①: 4단계에 쓴 재료가 그 캐릭터를 못 만든 판에서는 쓸모없다. → 육성 화면에 «최근 판에서 이 캐릭터가 나온 횟수» 를 보여 주고, 단계별 효율은 M3 에서 시뮬레이션한다.\n</li>\n<li>망가지는 길 ②: 육성 차이가 크면 협동에서 한 사람이 다 해 버린다. → 레벨 효과를 작게(초안 레벨당 3%) 둔다. 다만 봇 판에서는 레벨 10·각성 0 도, 레벨 30·각성 4 도 20판 20승이었다 — 육성이 충분하면 판이 쉬워진다. 성장 상한의 난이도는 사람 플레이로 다시 본다.\n</li>\n<li>망가지는 길 ③: 캐릭터가 24종이라 육성 화면이 복잡해진다. → 종족별 묶음으로 보여 준다.\n</li></ul>\n<h3>6. 꾸밈과 업적</h3>\n<ul>\n<li>꾸밈 세 가지: <strong>프로필 이미지, 프레임, 네임플레이트.</strong> 능력치에 영향 없음.\n</li>\n<li>얻는 길: <strong>업적</strong>(상시)과 <strong>이벤트</strong>(기간)뿐. 박스에서 나오지 않고 재화로 사지 않는다.\n</li>\n<li>보이는 곳: 로비, 대기실, 판 안의 플레이어 표시, 결과 화면.\n</li>\n<li><strong>업적은 달성하는 그 자리에서 자동으로 꾸밈을 준다</strong>(«받기» 버튼 없음). 같은 업적은 한 번만. 업적 하나가 꾸밈 하나를 준다(남는 꾸밈 없음). 누적 승리·누적 처치는 기록에서 센다. (결정 0035 — 대표 초안 · 사용자 확인 대기)\n</li>\n<li>업적 <strong>협동 첫 승리</strong>는 협동이 들어올 때 더한다(지금은 없다).\n</li>\n<li>꾸밈 이름은 꾸밈 없는 한두 낱말이고 속성 낱말이 없다. 프레임·네임플레이트는 기본 그림(<code>ui/frame_default</code>·<code>ui/nameplate_default</code>)에 색(<code>tint</code>)을 입힌 것이다 — 그림을 따로 그리지 않는다. 프로필 이미지는 그 종족 4단계 일러스트(<code>illust/&lt;종족&gt;/4</code>)에서 얼굴을 잘라 쓴다.\n</li>\n<li>기본 3종(이미지·프레임·네임플레이트의 <code>default</code>)은 처음부터 가진다.\n</li>\n<li>왜: 꾸밈이 재화로 사지지 않고 «해낸 일» 의 흔적이 되게 한다. 자동 지급은 «받기» 를 잊어 업적이 쌓이지 않는 일을 없앤다.\n</li>\n<li>망가지는 길: ① 업적이 «쌓기만 하면 되는 것» 뿐이면 꾸밈이 의미가 없다 → 4단계 만들기·각성 4·흠 없는 승리처럼 판단이 드는 것을 섞었다. ② 누적 처치 1000·5000·20000 의 간격은 초안이다 — 너무 멀면 아무도 못 보고 너무 가까우면 값이 없다. 판당 처치 수를 재 본 값이 아직 없어 사람 플레이로 정한다.\n</li></ul>\n<h4>업적 19개 (<code>Data/achievements.json</code>)</h4>\n<div class=tw><table><thead><tr><th>#</th><th>id</th><th>이름</th><th>조건</th><th>보상 꾸밈</th></tr></thead><tbody><tr><td>1</td><td><code>first_win</code></td><td>첫 승리</td><td>승리 1번(누적)</td><td>네임플레이트 «승리의 명패» (<code>plate_victory</code>)</td></tr><tr><td>2</td><td><code>stage4_first</code></td><td>첫 4단계</td><td>4단계 캐릭터 처음 만들기</td><td>프레임 «은빛 테» (<code>frame_silver</code>)</td></tr><tr><td>3</td><td><code>stage4_human</code></td><td>인간 4단계</td><td>인간 4단계 만들기</td><td>프로필 이미지 «레오폴드» (<code>face_human_4</code>)</td></tr><tr><td>4</td><td><code>stage4_elf</code></td><td>엘프 4단계</td><td>엘프 4단계 만들기</td><td>프로필 이미지 «이실리아» (<code>face_elf_4</code>)</td></tr><tr><td>5</td><td><code>stage4_dwarf</code></td><td>드워프 4단계</td><td>드워프 4단계 만들기</td><td>프로필 이미지 «달그룬드» (<code>face_dwarf_4</code>)</td></tr><tr><td>6</td><td><code>stage4_beast</code></td><td>수인 4단계</td><td>수인 4단계 만들기</td><td>프로필 이미지 «라자카» (<code>face_beast_4</code>)</td></tr><tr><td>7</td><td><code>stage4_spirit</code></td><td>정령 4단계</td><td>정령 4단계 만들기</td><td>프로필 이미지 «오베리아» (<code>face_spirit_4</code>)</td></tr><tr><td>8</td><td><code>stage4_dragon</code></td><td>용족 4단계</td><td>용족 4단계 만들기</td><td>프로필 이미지 «아즈가리아» (<code>face_dragon_4</code>)</td></tr><tr><td>9</td><td><code>flawless_win</code></td><td>흠 없는 승리</td><td>목숨을 하나도 안 잃고 승리 1번</td><td>프레임 «금빛 테» (<code>frame_gold</code>)</td></tr><tr><td>10</td><td><code>box_emptied</code></td><td>상자 비우기</td><td>상자 1개 비우기</td><td>네임플레이트 «상자 명패» (<code>plate_box</code>)</td></tr><tr><td>11</td><td><code>awaken4_human</code></td><td>인간 각성 4</td><td>인간 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «인간 명패» (<code>plate_human</code>)</td></tr><tr><td>12</td><td><code>awaken4_elf</code></td><td>엘프 각성 4</td><td>엘프 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «엘프 명패» (<code>plate_elf</code>)</td></tr><tr><td>13</td><td><code>awaken4_dwarf</code></td><td>드워프 각성 4</td><td>드워프 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «드워프 명패» (<code>plate_dwarf</code>)</td></tr><tr><td>14</td><td><code>awaken4_beast</code></td><td>수인 각성 4</td><td>수인 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «수인 명패» (<code>plate_beast</code>)</td></tr><tr><td>15</td><td><code>awaken4_spirit</code></td><td>정령 각성 4</td><td>정령 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «정령 명패» (<code>plate_spirit</code>)</td></tr><tr><td>16</td><td><code>awaken4_dragon</code></td><td>용족 각성 4</td><td>용족 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «용족 명패» (<code>plate_dragon</code>)</td></tr><tr><td>17</td><td><code>kills_1000</code></td><td>처치 1000</td><td>누적 처치 1000</td><td>프레임 «청동 테» (<code>frame_bronze</code>)</td></tr><tr><td>18</td><td><code>kills_5000</code></td><td>처치 5000</td><td>누적 처치 5000</td><td>네임플레이트 «토벌 명패» (<code>plate_hunter</code>)</td></tr><tr><td>19</td><td><code>kills_20000</code></td><td>처치 20000</td><td>누적 처치 20000</td><td>프레임 «보랏빛 테» (<code>frame_violet</code>)</td></tr></tbody></table></div>\n<ul>\n<li>이름은 한 줄이고 속성 낱말이 없다. 조건의 종류 7가지(<code>wins</code>·<code>flawless_wins</code>·<code>stage4_any</code>·<code>stage4_race</code>·<code>boxes_emptied</code>·<code>awaken_race</code>·<code>kills</code>)는 코드가 알고, 목표·보상·종족은 데이터다. «종족 각성 4» 는 그 종족 캐릭터 <strong>하나</strong>의 각성이 4 가 되면 달성이다.\n</li>\n<li>목록에는 «협동 첫 승리» 가 없다(위). 아래 <code>12-콘텐츠목록.md</code> §4 에도 같은 목록을 둔다.\n</li></ul>\n<h4>꾸밈 22개 (<code>Data/cosmetics.json</code>)</h4>\n<div class=tw><table><thead><tr><th>#</th><th>종류</th><th>id</th><th>이름</th><th>그림 이름표</th><th>색</th><th>얻는 길</th></tr></thead><tbody><tr><td>1</td><td>프로필 이미지</td><td><code>default</code></td><td>기본</td><td><code>ui/profile_default</code></td><td>없음</td><td>처음부터</td></tr><tr><td>2</td><td>프레임</td><td><code>default</code></td><td>기본 테</td><td><code>ui/frame_default</code></td><td>없음</td><td>처음부터</td></tr><tr><td>3</td><td>네임플레이트</td><td><code>default</code></td><td>기본 명패</td><td><code>ui/nameplate_default</code></td><td>없음</td><td>처음부터</td></tr><tr><td>4</td><td>프로필 이미지</td><td><code>face_human_4</code></td><td>레오폴드</td><td><code>illust/human/4</code></td><td>없음</td><td>업적 «인간 4단계»</td></tr><tr><td>5</td><td>프로필 이미지</td><td><code>face_elf_4</code></td><td>이실리아</td><td><code>illust/elf/4</code></td><td>없음</td><td>업적 «엘프 4단계»</td></tr><tr><td>6</td><td>프로필 이미지</td><td><code>face_dwarf_4</code></td><td>달그룬드</td><td><code>illust/dwarf/4</code></td><td>없음</td><td>업적 «드워프 4단계»</td></tr><tr><td>7</td><td>프로필 이미지</td><td><code>face_beast_4</code></td><td>라자카</td><td><code>illust/beast/4</code></td><td>없음</td><td>업적 «수인 4단계»</td></tr><tr><td>8</td><td>프로필 이미지</td><td><code>face_spirit_4</code></td><td>오베리아</td><td><code>illust/spirit/4</code></td><td>없음</td><td>업적 «정령 4단계»</td></tr><tr><td>9</td><td>프로필 이미지</td><td><code>face_dragon_4</code></td><td>아즈가리아</td><td><code>illust/dragon/4</code></td><td>없음</td><td>업적 «용족 4단계»</td></tr><tr><td>10</td><td>프레임</td><td><code>frame_bronze</code></td><td>청동 테</td><td><code>ui/frame_default</code></td><td>#B07A45</td><td>업적 «처치 1000»</td></tr><tr><td>11</td><td>프레임</td><td><code>frame_silver</code></td><td>은빛 테</td><td><code>ui/frame_default</code></td><td>#C3CAD2</td><td>업적 «첫 4단계»</td></tr><tr><td>12</td><td>프레임</td><td><code>frame_gold</code></td><td>금빛 테</td><td><code>ui/frame_default</code></td><td>#E0B44A</td><td>업적 «흠 없는 승리»</td></tr><tr><td>13</td><td>프레임</td><td><code>frame_violet</code></td><td>보랏빛 테</td><td><code>ui/frame_default</code></td><td>#9A78D0</td><td>업적 «처치 20000»</td></tr><tr><td>14</td><td>네임플레이트</td><td><code>plate_victory</code></td><td>승리의 명패</td><td><code>ui/nameplate_default</code></td><td>#D8A548</td><td>업적 «첫 승리»</td></tr><tr><td>15</td><td>네임플레이트</td><td><code>plate_box</code></td><td>상자 명패</td><td><code>ui/nameplate_default</code></td><td>#A9825A</td><td>업적 «상자 비우기»</td></tr><tr><td>16</td><td>네임플레이트</td><td><code>plate_hunter</code></td><td>토벌 명패</td><td><code>ui/nameplate_default</code></td><td>#7F8E9E</td><td>업적 «처치 5000»</td></tr><tr><td>17</td><td>네임플레이트</td><td><code>plate_human</code></td><td>인간 명패</td><td><code>ui/nameplate_default</code></td><td>#C9B48A</td><td>업적 «인간 각성 4»</td></tr><tr><td>18</td><td>네임플레이트</td><td><code>plate_elf</code></td><td>엘프 명패</td><td><code>ui/nameplate_default</code></td><td>#9CC08A</td><td>업적 «엘프 각성 4»</td></tr><tr><td>19</td><td>네임플레이트</td><td><code>plate_dwarf</code></td><td>드워프 명패</td><td><code>ui/nameplate_default</code></td><td>#B98E6A</td><td>업적 «드워프 각성 4»</td></tr><tr><td>20</td><td>네임플레이트</td><td><code>plate_beast</code></td><td>수인 명패</td><td><code>ui/nameplate_default</code></td><td>#C79A5E</td><td>업적 «수인 각성 4»</td></tr><tr><td>21</td><td>네임플레이트</td><td><code>plate_spirit</code></td><td>정령 명패</td><td><code>ui/nameplate_default</code></td><td>#9FC3D6</td><td>업적 «정령 각성 4»</td></tr><tr><td>22</td><td>네임플레이트</td><td><code>plate_dragon</code></td><td>용족 명패</td><td><code>ui/nameplate_default</code></td><td>#B7837E</td><td>업적 «용족 각성 4»</td></tr></tbody></table></div>\n<ul>\n<li>tint 값은 따뜻한 채도의 초안이다. 이름·색은 사람 눈으로 보고 다듬는다.\n</li></ul>\n<h3>7. 저장하는 것 (유저 정보)</h3>\n<div class=tw><table><thead><tr><th>묶음</th><th>내용</th></tr></thead><tbody><tr><td>프로필</td><td>이름, 고른 프로필 이미지·프레임·네임플레이트</td></tr><tr><td>재화</td><td>뽑기 코인, 경험 결정, 종족 조각(6)</td></tr><tr><td>육성</td><td>캐릭터 24종마다 레벨, 각성 단계</td></tr><tr><td>상자</td><td>지금 상자 번호, 등급별 남은 수량</td></tr><tr><td>수집</td><td>가진 꾸밈, 달성한 업적과 진행도</td></tr><tr><td>기록</td><td>판 수, 승리 수, 최고 웨이브, 누적 처치</td></tr><tr><td>일일 목표</td><td>그 날의 일 번호, 목표별 진행·달성, 셋 다 한 보너스 지급 여부(§8)</td></tr></tbody></table></div>\n<p>프로필에는 «이름을 정했는가» 도 저장한다. 소리·그래픽·프레임 설정은 저장 파일이 아니라 기기(PlayerPrefs)에 둔다. 저장 방식은 <code>14-배포-저장.md</code>.</p>\n<h3>8. 일일 목표 (결정 0039 — 대표 초안 · 사용자 확인 대기)</h3>\n<ul>\n<li><strong>하루에 3개.</strong> 날짜(UTC+9 자정에 바뀌는 일 번호)를 시드로 아래 풀에서 뽑는다. 같은 날은 같은 목록이고, 하루 안에 같은 종류는 겹치지 않는다(종류 7가지, 풀 13개).\n</li>\n<li><strong>보상은 뽑기 코인만</strong>이다(새 재화 없음). 달성하는 순간 자동 지급(«받기» 없음), 같은 목표는 하루에 한 번. <strong>셋 다 달성하면 +10</strong>(<code>allDoneBonus</code>).\n</li>\n<li>하루 합은 최소 34 · 최대 51 코인이다(보통 단계 20웨이브 승리 한 판 80 의 43~64%).\n</li>\n<li><strong>«판 N번 하기» 는 웨이브 3 이상까지 간 판만 센다</strong>(<code>matchMinWave</code>). 이긴 판은 늘 센다. 날이 바뀌면 진행은 0 부터다.\n</li>\n<li>숫자와 글은 <code>Data/daily.json</code> 이 정본이고 아래 표는 그것을 스크립트로 옮긴 것이다(다르면 데이터가 맞다).\n</li></ul>\n<div class=tw><table><thead><tr><th>id</th><th>종류(<code>kind</code>)</th><th>글(화면에 그대로)</th><th>목표</th><th>보상(뽑기 코인)</th></tr></thead><tbody><tr><td><code>matches_2</code></td><td><code>matches</code> (판)</td><td>판 2번 하기</td><td>2</td><td>8</td></tr><tr><td><code>matches_3</code></td><td><code>matches</code> (판)</td><td>판 3번 하기</td><td>3</td><td>11</td></tr><tr><td><code>waves_20</code></td><td><code>waves</code> (웨이브)</td><td>웨이브 합 20</td><td>20</td><td>9</td></tr><tr><td><code>waves_40</code></td><td><code>waves</code> (웨이브)</td><td>웨이브 합 40</td><td>40</td><td>13</td></tr><tr><td><code>merges_15</code></td><td><code>merges</code> (합성)</td><td>합성 15번</td><td>15</td><td>8</td></tr><tr><td><code>merges_30</code></td><td><code>merges</code> (합성)</td><td>합성 30번</td><td>30</td><td>12</td></tr><tr><td><code>bounties_2</code></td><td><code>bounties</code> (현상금)</td><td>현상금 2번 잡기</td><td>2</td><td>9</td></tr><tr><td><code>bounties_4</code></td><td><code>bounties</code> (현상금)</td><td>현상금 4번 잡기</td><td>4</td><td>13</td></tr><tr><td><code>box_draws_3</code></td><td><code>box_draws</code> (박스 뽑기)</td><td>박스 3장 뽑기</td><td>3</td><td>8</td></tr><tr><td><code>box_draws_6</code></td><td><code>box_draws</code> (박스 뽑기)</td><td>박스 6장 뽑기</td><td>6</td><td>11</td></tr><tr><td><code>level_ups_3</code></td><td><code>level_ups</code> (레벨 업)</td><td>캐릭터 레벨 업 3번</td><td>3</td><td>8</td></tr><tr><td><code>level_ups_6</code></td><td><code>level_ups</code> (레벨 업)</td><td>캐릭터 레벨 업 6번</td><td>6</td><td>11</td></tr><tr><td><code>wins_1</code></td><td><code>wins</code> (승리)</td><td>승리 1번</td><td>1</td><td>15</td></tr></tbody></table></div>\n<ul>\n<li>사건: 판 끝(판 수·웨이브 합·합성 수·현상금 수·승리), 박스 뽑기(장 수), 캐릭터 레벨 업(올라간 레벨 수).\n</li>\n<li>화면: 로비의 «오늘 목표 n/3» 버튼(새로 달성한 수 배지)과 3줄 창. 달성 알림은 로비가 보일 때 토스트로 띄운다.\n</li>\n<li>망가지는 길: ① 하루 합이 승리 한 판에 너무 가까우면 일일 목표만 하게 된다 → 절반 안팎으로 맞췄다. ② 사람이 하루에 몇 판을 해야 다 끝나는지는 재 보지 않았다(사람 플레이로 다시 본다). ③ 시계를 되돌려 같은 날을 다시 받을 수 있다(서버 검증 없음, 이득은 작다).\n</li></ul>",
-"at": "2026-11-16 09:47",
-"branch": "fin-plan",
-"dirty": true
+"at": "2026-11-16 10:11",
+"branch": "fin-core",
+"dirty": false
 },
 {
 "tab": "system",
 "file": "docs/14-배포-저장.md",
 "title": "14. 핸드폰 설치 · 새 빌드 · 콘텐츠 갱신 · 유저 정보 저장",
 "html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0008: §3-1~3-5 이어 하기·백업·기기 설정·저장 버전 6·버전 0.3.0 — 결정 0040·0041 사용자 확인 대기) · 상태: 구성 추천안(공식 문서·요금 페이지 확인, 2026-11-15). <strong>계정 연결은 사용자가 해야 한다.</strong>\n</li>\n<li>목표: 개발하는 동안 핸드폰에 설치해서 해 보고, 새 빌드를 받고, 그림·수치를 앱 재설치 없이 바꾸고, 유저 정보를 서버에 저장한다. 비용은 0에 가깝게.\n</li></ul>\n<h3>1. 고른 구성</h3>\n<div class=tw><table><thead><tr><th>필요</th><th>고른 것</th><th>무료 범위(공식)</th><th>비고</th></tr></thead><tbody><tr><td>핸드폰에 새 빌드 받기</td><td><strong>Firebase App Distribution</strong> + 평소엔 USB <code>adb install -r</code></td><td>무료(수치 한도 없음)</td><td>새 빌드를 올리면 폰에 알림. 출시 직전에 Google Play 내부 테스트(등록비 US$25 한 번)</td></tr><tr><td>그림·데이터를 재설치 없이 갱신</td><td><strong>Addressables 2.10.3 + Unity Cloud Content Delivery(CCD)</strong></td><td>대역폭 월 50 GB, 저장 무료</td><td>버킷(개발/출시) → 릴리스 → 배지(<code>latest</code>)</td></tr><tr><td>수치만 가볍게 바꾸기</td><td><strong>Unity Remote Config</strong></td><td>전부 무료</td><td><code>Data/*.json</code> 을 원격 값으로 덮어쓴다</td></tr><tr><td>계정</td><td><strong>Unity Authentication</strong> 익명 로그인</td><td>전부 무료</td><td>출시 전 Google Play Games 연결(기기 변경 대비)</td></tr><tr><td>유저 정보 저장</td><td><strong>Unity Cloud Save</strong></td><td>저장 5 GiB, 읽기·쓰기 각 100만 회</td><td>플레이어당 키 2,000개·5 MiB</td></tr><tr><td>서버에서 뽑기·재화 처리</td><td><strong>Unity Cloud Code</strong> (출시 전)</td><td>호출 100만 회</td><td>★ 최신 패키지 3.0 은 Unity 6.7 이상. <strong>6.3 에서 쓸 수 있는 버전이 있는지 먼저 확인해야 한다</strong></td></tr><tr><td>협동 중계</td><td>Unity Relay (M4)</td><td>월평균 동시접속 50명</td><td>결정 0003</td></tr></tbody></table></div>\n<ul>\n<li><strong>Unity Economy 는 쓸 수 없다.</strong> 2026-09-08 부터 새 프로젝트 가입을 받지 않는다. 재화·상자는 Cloud Save 에 직접 저장한다.\n</li>\n<li>한 곳(Unity Gaming Services)으로 모은 이유: 협동(Relay)에 어차피 Unity 계정과 인증이 필요하고, 대시보드와 명령 도구가 하나다. 빌드 배포만 Firebase 를 쓴다.\n</li>\n<li>위험: Unity 는 서비스를 접은 적이 있다(Multiplay 2026-03, Economy 신규 중단). 그래서 저장·뽑기 코드는 <strong>인터페이스 뒤에 숨겨</strong> 다른 서버로 바꿀 수 있게 만든다.\n</li></ul>\n<h3>2. 단계</h3>\n<div class=tw><table><thead><tr><th>단계</th><th>하는 것</th><th>언제</th></tr></thead><tbody><tr><td>1</td><td>안드로이드 빌드 → USB 로 폰에 설치(<code>unity build</code> → <code>adb install -r</code>)</td><td>첫 목표</td></tr><tr><td>2</td><td>유저 정보를 <strong>기기에 저장</strong>(저장 인터페이스 + 로컬 구현, 버전 번호 포함)</td><td>첫 목표</td></tr><tr><td>3</td><td>Unity 프로젝트를 클라우드에 연결, 익명 로그인, Cloud Save 로 동기화</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>4</td><td>Firebase App Distribution 으로 빌드 올리기 한 줄 명령</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>5</td><td>Addressables 로 그림을 묶고 CCD 에서 받기. 임시 그림 → 본 그림 교체가 재설치 없이 된다</td><td>첫 목표 후반</td></tr><tr><td>6</td><td>Remote Config 로 수치 덮어쓰기</td><td>보상·육성 단계</td></tr><tr><td>7</td><td>뽑기·재화 계산을 서버(Cloud Code)로 옮김, Google Play Games 연결</td><td>출시 전</td></tr></tbody></table></div>\n<h3>3. 저장 구조</h3>\n<ul>\n<li><strong>저장 인터페이스</strong> 하나(<code>IPlayerStore</code>: 불러오기, 저장하기)에 구현 둘: 기기 파일, Cloud Save. 게임 코드는 인터페이스만 안다.\n</li>\n<li><strong>기기 먼저, 서버는 동기화.</strong> 판이 끝나거나 박스를 뽑을 때 기기에 쓰고 곧바로 서버에 올린다. 오프라인이면 다음에 올린다.\n</li>\n<li>데이터에 <strong>버전 번호</strong>를 넣는다. 구조가 바뀌면 옛 저장을 새 구조로 옮기는 코드를 같이 쓴다(저장이 깨지면 유저가 떠난다).\n</li>\n<li>충돌: 서버와 기기가 다르면 «더 나중에 저장된 쪽» 을 쓰되, 재화는 줄어드는 방향의 덮어쓰기를 기록으로 남긴다(초안).\n</li>\n<li>내용: <code>13-보상-육성-꾸밈.md</code> §7 의 여섯 묶음.\n</li>\n<li>개발 단계의 한계: 기기에서 계산하므로 조작할 수 있다. 출시 전 7단계에서 막는다. 지금은 혼자 쓰는 빌드라 문제가 아니다.\n</li>\n<li><strong>지금 구현은 기기 파일 하나뿐이다</strong>(<code>IPlayerStore</code> 의 구현은 <code>FilePlayerStore</code>, <code>player.json</code>). Cloud Save 구현은 아직 없다(코드로 확인).\n</li></ul>\n<h4>3-1. 판 이어 하기 (결정 0040 — 대표 초안 · 사용자 확인 대기)</h4>\n<ul>\n<li>싱글 판 중 <strong>웨이브가 시작될 때마다 · 앱이 뒤로 갈 때 · 앱이 종료될 때</strong> <code>match-resume.json</code> 을 저장 옆에 원자 저장(임시 파일 + 바꿔 넣기)한다. 판이 끝나거나(승리·패배·메뉴 포기) «다시 하기» 로 버리거나 카드에서 포기하면 지운다.\n</li>\n<li>내용: 파일 형식(1) · <strong>앱 버전</strong> · 시각 · 이유 · 단계 id · 시드 · 웨이브 · 깬 웨이브 · 처치 · 틱 · 상태 해시 · Core 스냅샷 문자열(머리 <code>CDSNAP3</code>, 시드·loadout·미션·현상금·강화·특성 상태 포함. 최대 약 2.5 KB).\n</li>\n<li>다시 켜서 로비에 오면 <strong>복원해 해시가 쓴 때와 같은지</strong> 확인한다. 같으면 «이어 하기» 카드(단계 · 웨이브)에서 [이어 하기](일시정지 메뉴가 열린 채 시작) / [포기](한 번 확인 뒤 정산). 이어 할 판이 있으면 [출전] 은 막힌다.\n</li>\n<li><strong>앱 버전이 다르거나 · 형식이 다르거나 · 스냅샷을 못 읽거나 · 해시가 다르면</strong> «지난 판을 이어 할 수 없어요» 토스트 한 번과 <strong>포기 정산</strong>(그 판의 깬 웨이브만큼 뽑기 코인, 난이도 배율 반영) 뒤 파일을 지운다.\n</li>\n<li>협동은 이어 하기가 없다. 실기기 확인은 못 했다(에디터에서 «앱 뒤로 감 → 다시 켬» 흉내만).\n</li></ul>\n<h4>3-2. 저장 백업</h4>\n<ul>\n<li>저장할 때마다 이전 파일을 <code>player.json.bak</code> 한 개로 남긴다. 읽기에 실패하면 깨진 파일은 <code>player.json.broken-&lt;시각&gt;</code> 으로 옆에 보관하고 <code>.bak</code> 로 복구한다(로그만, 화면 알림 없음). <code>.bak</code> 도 깨졌으면 새 저장으로 시작한다.\n</li></ul>\n<h4>3-3. 기기 설정 (PlayerPrefs — 저장 파일 밖)</h4>\n<div class=tw><table><thead><tr><th>키</th><th>뜻</th><th>기본</th></tr></thead><tbody><tr><td><code>cd.gfx</code></td><td>그래픽 품질 1 높음 · 0 낮음(다음 판부터)</td><td>1</td></tr><tr><td><code>cd.fps</code></td><td>프레임 60 · 30</td><td>60</td></tr><tr><td><code>settings.sound</code> · <code>settings.music</code> · <code>settings.vibration</code></td><td>소리·음악·진동 켬/끔</td><td>1</td></tr><tr><td><code>settings.soundVolume</code> · <code>settings.musicVolume</code></td><td>음량 0~100</td><td>100</td></tr></tbody></table></div>\n<ul>\n<li>저장 초기화(설정 → 두 번 확인)는 <code>player.json</code>·<code>.bak</code>·<code>match-resume.json</code> 만 지우고 위 설정은 남긴다. 낮음에서 꺼지는 것은 결정 0041.\n</li></ul>\n<h4>3-4. 저장 구조 버전 — 지금 <strong>6</strong> (<code>PlayerData.CurrentVersion</code>)</h4>\n<div class=tw><table><thead><tr><th>버전</th><th>주문</th><th>더한 것</th></tr></thead><tbody><tr><td>2</td><td>CD-0006</td><td>대표 캐릭터 · 종족 조각 선택권 · 박스 판</td></tr><tr><td>3</td><td>CD-0007</td><td>첫 판 길잡이 완료 · 최근 판</td></tr><tr><td>4</td><td>CD-0007</td><td>난이도 단계(이긴 단계가 다음을 연다). 이긴 판이 있는 옛 저장은 첫 단계를 이긴 것으로 옮긴다</td></tr><tr><td>5</td><td>CD-0008</td><td>이름을 정했는가(<code>profile.nameChosen</code>) — 옛 저장은 «아직» 으로 옮겨 한 번 묻는다</td></tr><tr><td>6</td><td>CD-0008</td><td>일일 목표 진행(<code>daily</code>) — 옛 저장은 빈 진행</td></tr></tbody></table></div>\n<ul>\n<li>옛 저장은 한 단계씩 옮기는 코드(<code>PlayerDataMigrations</code>)로 읽는다. 버전 1 → 2 이후 각 단계의 옮김이 코드에 있다.\n</li></ul>\n<h4>3-5. 앱 이름·버전 (CD-0008)</h4>\n<ul>\n<li>버전 <strong>0.3.0</strong>, 안드로이드 <code>versionCode</code> 3(<code>ProjectSetup.AppVersion</code>·<code>AndroidVersionCode</code>). 이어 하기는 앱 버전이 다르면 포기 정산이므로(§3-1) 버전을 올린 빌드를 깔면 진행 중이던 판은 정산된다.\n</li>\n<li>폰 홈 화면 글자는 «프로젝트CD»(안드로이드 빌드 동안만 <code>productName</code> 을 바꾼다), 유니티 제품명·폴더는 <code>CoopDefense</code> 그대로. 앱 아이콘·스플래시는 결정 0041. 실제 홈 화면 글자·아이콘·스플래시는 빌드로 확인하지 못했다.\n</li></ul>\n<h3>4. 임시 그림 → 본 그림 교체</h3>\n<ul>\n<li>모든 그림은 <strong>이름표(주소)</strong> 로 부른다. 예: <code>unit/human/1</code>, <code>monster/goblin_grunt</code>, <code>ui/button_summon</code>.\n</li>\n<li>임시 그림과 본 그림은 같은 이름표를 쓴다. 본 그림이 나오면 <strong>그 파일만 바꿔</strong> CCD 에 올린다. 코드와 앱은 그대로다.\n</li>\n<li><code>Data/assets.json</code> 에 이름표마다 상태(임시/본)를 적고, 개발 현황 사이트에 교체 진행률을 싣는다.\n</li></ul>\n<h3>5. 사용자가 해야 하는 일</h3>\n<ol>\n<li><strong>Unity 계정 로그인</strong>: <code>unity auth login</code> (지금 이 PC 의 Unity CLI 는 로그인돼 있지 않다). 그 뒤 프로젝트를 Unity Cloud 에 연결한다.\n</li>\n<li><strong>Firebase 프로젝트 만들기</strong>(Google 계정)와 테스터로 본인 이메일 등록. 폰에서 초대 메일을 연다.\n</li>\n<li>핸드폰에서 <strong>개발자 옵션 → USB 디버깅</strong> 켜기(USB 설치용).\n</li></ol>\n<p>위 세 가지는 계정·기기 권한이라 대신할 수 없다. 나머지는 준비해 둔다.</p>\n<h3>6. 확인하지 못한 것</h3>\n<ul>\n<li>Cloud Code 가 Unity 6.3 에서 돌아가는 패키지 버전(7단계 전에 확인)\n</li>\n<li>Firebase 테스터 앱이 폰에 필요한지\n</li>\n<li>Google Play Games 로 기기를 바꿨을 때의 정확한 흐름\n</li>\n<li>박스 뽑기(비복원 추첨)가 확률 공개 규정에서 어느 유형인지, 해설서 원문\n</li>\n<li>GitHub Releases 를 Addressables 원격 경로로 쓰는 방식(쓰지 않기로 했으므로 조사하지 않음)\n</li></ul>\n<h3>출처</h3>\n<ul>\n<li><a href=\"https://firebase.google.com/docs/app-distribution\" rel=\"noopener\" target=\"_blank\">Firebase App Distribution</a> · <a href=\"https://firebase.google.com/docs/app-distribution/android/distribute-cli\" rel=\"noopener\" target=\"_blank\">CLI 배포</a> · <a href=\"https://firebase.google.com/pricing\" rel=\"noopener\" target=\"_blank\">Firebase 요금</a>\n</li>\n<li><a href=\"https://unity.com/products/gaming-services/pricing\" rel=\"noopener\" target=\"_blank\">Unity Gaming Services 요금</a> · <a href=\"https://docs.unity.com/ugs/manual/ccd/manual/UnityCCD\" rel=\"noopener\" target=\"_blank\">CCD 개념</a> · <a href=\"https://docs.unity.com/en-us/ccd/cli\" rel=\"noopener\" target=\"_blank\">CCD 명령 도구</a>\n</li>\n<li><a href=\"https://docs.unity.com/en-us/engine/6000.3/manual/packages-list/packages-all/pack-safe/com-unity-addressables\" rel=\"noopener\" target=\"_blank\">Addressables (6000.3)</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-save/manual/concepts/player-data\" rel=\"noopener\" target=\"_blank\">Cloud Save 플레이어 데이터</a> · <a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-code/manual\" rel=\"noopener\" target=\"_blank\">Cloud Code</a> · <a href=\"https://docs.unity.com/en-us/economy/index\" rel=\"noopener\" target=\"_blank\">Economy 신규 중단</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/authentication/manual/platform-signin-google-play-games\" rel=\"noopener\" target=\"_blank\">Google Play Games 로그인 연결</a> · <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465\" rel=\"noopener\" target=\"_blank\">Play 테스트 요건</a>\n</li>\n<li><a href=\"https://www.mcst.go.kr/kor/s_notice/notice/noticeView.jsp?pSeq=17856\" rel=\"noopener\" target=\"_blank\">확률형 아이템 해설서 공지(문체부)</a> · <a href=\"https://zdnet.co.kr/view/?no=20240222164405\" rel=\"noopener\" target=\"_blank\">유·무료 구분 보도(ZDNet)</a>\n</li></ul>",
-"at": "2026-11-16 09:47",
-"branch": "fin-plan",
-"dirty": true
+"at": "2026-11-16 10:11",
+"branch": "fin-core",
+"dirty": false
 },
 {
 "tab": "content",
 "file": "docs/12-콘텐츠목록.md",
 "title": "12. 콘텐츠 목록 (캐릭터·몬스터·맵)",
-"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0007: §4 꾸밈·업적 목록, 용족 역할 글) · 상태: 구성 확정(사용자: 6종족 × 4단계). 캐릭터 이름 확정(결정 0012). 몬스터·맵 이름은 가칭.\n</li>\n<li>이 목록이 그림 제작 목록(매니페스트)의 바탕이다. 다른 게임의 이름·디자인을 쓰지 않는다.\n</li>\n<li>«첫 목표» 열에 ●가 있는 것만 첫 번째 목표에서 동작한다. 나머지는 자리만 잡는다.\n</li></ul>\n<h3>1. 수비 캐릭터 — 6종족 × 4단계 = 24명</h3>\n<p>이름 있는 인물 24명이다(결정 0012). 이름은 고유명 하나이고, 해외판에서는 괄호의 로마자로 옮겨 적는다.</p>\n<div class=tw><table><thead><tr><th>종족 (id)</th><th>성별</th><th>생김새</th><th>1단계</th><th>2단계</th><th>3단계</th><th>4단계</th><th>역할(초안, 바뀔 수 있음)</th><th>첫 목표</th></tr></thead><tbody><tr><td>인간 <code>human</code></td><td>남성</td><td>사람</td><td>테오 (Theo)</td><td>에단 (Ethan)</td><td>세드릭 (Cedric)</td><td>레오폴드 (Leopold)</td><td>묵직한 단일</td><td>●</td></tr><tr><td>엘프 <code>elf</code></td><td>여성</td><td>뾰족한 귀</td><td>리엘 (Liel)</td><td>세린 (Serin)</td><td>시레아 (Sirea)</td><td>이실리아 (Isylia)</td><td>긴 사거리 연사</td><td>●</td></tr><tr><td>드워프 <code>dwarf</code></td><td>남성</td><td>작고 다부진 몸, 큰 수염</td><td>그론 (Gron)</td><td>보르딘 (Bordin)</td><td>할드레크 (Haldrek)</td><td>달그룬드 (Dalgrund)</td><td>범위 포격</td><td>●</td></tr><tr><td>수인 <code>beast</code></td><td>여성</td><td>고양이과 맹수의 귀·꼬리·털</td><td>카자 (Kaza)</td><td>자야 (Zaya)</td><td>바리카 (Varika)</td><td>라자카 (Razaka)</td><td>연타·치명타</td><td>●</td></tr><tr><td>정령 <code>spirit</code></td><td>여성</td><td>빛으로 된 작은 존재, 다리 대신 꼬리처럼 흐르는 몸</td><td>펠리 (Pheli)</td><td>벨리사 (Velisa)</td><td>멜리안테 (Meliante)</td><td>오베리아 (Oberia)</td><td>감속 지원</td><td></td></tr><tr><td>용족 <code>dragon</code></td><td>여성</td><td>뿔·비늘·꼬리·날개가 있는 사람 모양</td><td>라카 (Raka)</td><td>드레나 (Drena)</td><td>타르기아 (Targia)</td><td>아즈가리아 (Azgaria)</td><td>관통·여파</td><td></td></tr></tbody></table></div>\n<ul>\n<li><strong>단계가 오를수록 격이 높다:</strong> 1단계 애칭 → 2단계 보통 이름 → 3단계 귀족풍 → 4단계 가장 격 높은 이름. 한 종족의 네 단계는 <strong>서로 다른 인물</strong>이고, 종족의 배색과 생김새를 같이 쓴다.\n</li>\n<li><strong>속성을 쓰지 않는다.</strong> 불·얼음·번개 같은 표현을 이름·그림·연출에 넣지 않는다. 용족의 지속 피해는 «여파» 다(옛 초안의 역할 글은 CD-0007 에서 고쳤다).\n</li>\n<li><strong>4단계 위에 상위 성장이 하나 더 있다</strong>(기획 전). 4단계까지는 장식을 절제한다(왕관·예복·빽빽한 문양 금지).\n</li>\n<li>화풍만 통일한다: 일러스트는 셀화풍(결정 0013, <code>03-리소스계획.md</code> §8). 등신은 종족마다 달라도 된다. 이용 등급 목표는 12세. 4단계 일러스트 6장 확정본은 <code>art/final/illust/</code>.\n</li>\n<li>그림: 인물마다 <strong>옆모습 인게임 그림 1장</strong>(24장) + 종족마다 <strong>카드 일러스트 1장</strong>(6장, 4단계 기준) = 30장. 상위 성장의 그림 수는 기획 뒤에 더한다.\n</li>\n<li>이름 겹침 확인(2026-11-15, 영어 위주 웹 검색): 지어낸 이름 가운데 다른 작품의 인물과 같았던 7개를 바꿨다(미라엘→시레아, 엘라리엘→이실리아, 하르그림→할드레크, 울드가르→달그룬드, 키라→카자, 피나→펠리, 네리스→벨리사). 남은 주의: 리엘(덜 알려진 작품의 하프엘프와 같은 철자), 자야(다른 게임의 조연 NPC), 세드릭·레오폴드(흔한 실제 이름). 한국어 위키·상표 검색은 하지 않았다 → 출시 준비(M7) 때 다시 본다.\n</li></ul>\n<h3>2. 몬스터</h3>\n<p>적은 «그림자 균열에서 쏟아지는 무리» 다(결정 0011). 유형의 뜻은 <code>11-규칙.md</code> §8. 수치는 <code>Data/monsters.json</code>·<code>Data/bounty.json</code>.</p>\n<h4>2-1. 그림자 무리 — 웨이브 몬스터 7종 (CD-0005 4종 + CD-0008 3종, 세 난이도 세트)</h4>\n<p>가족 <code>shadow</code>(그림자 무리). 그림은 옆모습(오른쪽)이고 어두운 몸에 밝은 눈, 귀엽되 위협적으로 그린다. 카드의 특징 한 줄은 <code>monsters.json</code> <code>trait</code>(데이터가 정본).</p>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>유형</th><th>역할</th><th>특징 한 줄(<code>trait</code>)</th><th>그림</th><th>나오는 웨이브</th></tr></thead><tbody><tr><td><code>shadow_grunt</code></td><td>그림자 졸개</td><td>일반</td><td>기준. 수가 가장 많다</td><td>균열에서 갓 나온 그림자</td><td>자기 그림</td><td>1~</td></tr><tr><td><code>shadow_runner</code></td><td>그림자 추적자</td><td>질주</td><td>빠르고 약하다. 사거리 짧은 캐릭터를 지나친다</td><td>발소리 없이 빠르게 쫓는다</td><td>자기 그림</td><td>6~</td></tr><tr><td><code>shadow_guard</code></td><td>그림자 방패병</td><td>중장</td><td>느리고 단단하다(방어). 약한 한 방은 깎인다</td><td>그림자 방패로 피해를 깎는다</td><td>자기 그림</td><td>7~</td></tr><tr><td><code>shadow_behemoth</code></td><td>균열의 거수</td><td>보스</td><td>체력이 매우 많고 느리다. 놓치면 목숨 5</td><td>균열을 지키는 거대한 짐승</td><td>자기 그림</td><td>10, 20</td></tr><tr><td><code>shadow_swarm</code></td><td>그림자 떼</td><td>무리</td><td>작고 약한 것이 4마리씩 몰려온다. 범위 공격이 잘 듣는다</td><td>작은 그림자가 한꺼번에 몰려온다</td><td>졸개 그림 70% · 색조 −12°</td><td>4~(어려움·정예 6~)</td></tr><tr><td><code>shadow_flier</code></td><td>그림자 날개</td><td>비행</td><td>지름길로 날아온다. 지름길 옆 칸이 잘 잡는다</td><td>길을 건너질러 날아온다</td><td>추적자 그림 90% · 색조 +20° · 0.45칸 떠 있음</td><td>12~</td></tr><tr><td><code>shadow_mender</code></td><td>그림자 응어리</td><td>재생</td><td>맞지 않으면 체력이 찬다. 꾸준히 때려야 한다</td><td>맞지 않으면 상처가 아문다</td><td>방패병 그림 · 색조 +35°</td><td>13~</td></tr></tbody></table></div>\n<ul>\n<li>1~3웨이브는 졸개만 나온다. 4웨이브에 떼, 6웨이브부터 추적자와 방패병, 12웨이브에 날개, 13웨이브에 응어리가 처음 섞인다. 10·20 웨이브는 거수 1마리와 졸개(10웨이브는 새 유형 없음).\n</li>\n<li>새 3종은 새 그림 없이 기존 그림을 크기·색조로 변형해 쓴다(결정 0042 초안, <code>view</code> 칸 — 화면 전용). 이름·특징 글은 결정 0042 와 함께 사용자 확인 대기.\n</li>\n<li>옛 20종(고블린·오크·언데드·마수·마족, 아래 표)은 <code>Data/monsters.json</code> 에 남아 있지만 새 세트는 쓰지 않는다.\n</li></ul>\n<h4>2-2. 현상금 — 이름 있는 몬스터 6종</h4>\n<p>같은 무리의 «이름 있는» 개체다. 판 안에서 «현상금» 으로 불러내 잡으면 골드를 준다(<code>11-규칙.md</code> §11). 그림 이름표는 <code>monster/bounty_N</code>, 실루엣이 서로 달라야 한다.</p>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>체력</th><th>속도</th><th>방어</th><th>보상(골드)</th><th>열리는 웨이브</th><th>화면 특징</th></tr></thead><tbody><tr><td><code>bounty_1</code></td><td>좀도둑 그림자</td><td>600</td><td>100%</td><td>0</td><td>60</td><td>1</td><td>가장 만만함</td></tr><tr><td><code>bounty_2</code></td><td>발 빠른 약탈자</td><td>900</td><td>160%</td><td>0</td><td>100</td><td>3</td><td>아주 빠름</td></tr><tr><td><code>bounty_3</code></td><td>무쇠 등껍질</td><td>2,000</td><td>70%</td><td>6</td><td>160</td><td>5</td><td>방어가 높음</td></tr><tr><td><code>bounty_4</code></td><td>굶주린 큰입</td><td>4,500</td><td>90%</td><td>2</td><td>240</td><td>8</td><td>묵직한 체력</td></tr><tr><td><code>bounty_5</code></td><td>균열 파수꾼</td><td>9,000</td><td>60%</td><td>4</td><td>360</td><td>12</td><td>느린 거구</td></tr><tr><td><code>bounty_6</code></td><td>그림자 수괴</td><td>20,000</td><td>70%</td><td>8</td><td>500</td><td>16</td><td>가장 단단함</td></tr></tbody></table></div>\n<h4>2-3. 옛 초안 — 5군단 20종 (쓰지 않음)</h4>\n<blockquote>결정 0011 이전의 초안이다. 새 세트는 쓰지 않고, 데이터에는 남겨 두었다. 정리는 Core 가 옛 세트(<code>first_goal</code>)를 걷어낼 때 같이 한다.</blockquote>\n<div class=tw><table><thead><tr><th>군단 (id)</th><th>일반 계열</th><th>특수 1</th><th>특수 2</th><th>보스</th><th>첫 목표</th></tr></thead><tbody><tr><td>고블린 <code>goblin</code></td><td>고블린 졸개(일반)</td><td>고블린 떼(무리)</td><td>늑대 기수(질주)</td><td>고블린 대족장</td><td>● 졸개만</td></tr><tr><td>오크 <code>orc</code></td><td>오크 전사(일반)</td><td>철갑 오크(중장)</td><td>오크 돌격병(질주)</td><td>오크 전쟁군주</td><td></td></tr><tr><td>언데드 <code>undead</code></td><td>해골 병사(일반)</td><td>썩은 거인(재생)</td><td>해골 무리(무리)</td><td>망자의 왕</td><td></td></tr><tr><td>마수 <code>fiend</code></td><td>가시 멧돼지(중장)</td><td>박쥐 떼(비행·무리)</td><td>그림자 표범(질주)</td><td>삼두 마수</td><td></td></tr><tr><td>마족 <code>demon</code></td><td>임프(비행)</td><td>지옥 기사(중장)</td><td>재생 악령(재생)</td><td>심연의 군주</td><td></td></tr></tbody></table></div>\n<ul>\n<li>일반 몬스터 15종 + 보스 5종. 웨이브 구간마다 한 군단이 주로 나온다(초안: 6웨이브씩).\n</li>\n<li>그림: 종마다 옆모습 1장(20장). 보스는 크게 그린다.\n</li></ul>\n<h3>3. 맵</h3>\n<div class=tw><table><thead><tr><th>id</th><th>이름(가칭)</th><th>구성</th><th>첫 목표</th></tr></thead><tbody><tr><td><code>gate_01</code></td><td>숲길 관문</td><td>9×13칸 캔버스, 굽은 길 하나(약 28칸), 영역 4×5 는 세 면이 길에 닿는다(<code>11-규칙.md</code> §1). 2~4인용 스폰 지점과 영역 배치는 자리만 정의</td><td>● 1인 배치</td></tr></tbody></table></div>\n<h3>4. 꾸밈과 업적</h3>\n<p>꾸밈 22개와 업적 19개다(결정 0035 — 대표 초안 · 사용자 확인 대기). 이름은 <code>Data/cosmetics.json</code>·<code>Data/achievements.json</code> 그대로이고, 규칙과 이유는 <code>13-보상-육성-꾸밈.md</code> §6. 얻는 길은 업적(과 나중의 이벤트)뿐이다.</p>\n<div class=tw><table><thead><tr><th>종류</th><th>설명</th><th>수</th><th>얻는 길</th></tr></thead><tbody><tr><td>프로필 이미지</td><td>기본 1 + 종족 4단계 얼굴 6(레오폴드·이실리아·달그룬드·라자카·오베리아·아즈가리아)</td><td>7</td><td>기본은 처음부터, 얼굴은 «종족 4단계» 업적</td></tr><tr><td>프레임</td><td>기본 1 + 청동·은빛·금빛·보랏빛 4</td><td>5</td><td>기본은 처음부터, 나머지는 업적</td></tr><tr><td>네임플레이트</td><td>기본 1 + 승리·상자·토벌 3 + 종족 명패 6</td><td>10</td><td>기본은 처음부터, 나머지는 업적</td></tr></tbody></table></div>\n<h4>4-1. 꾸밈 22개</h4>\n<div class=tw><table><thead><tr><th>#</th><th>종류</th><th>id</th><th>이름</th><th>그림 이름표</th><th>색</th><th>얻는 길</th></tr></thead><tbody><tr><td>1</td><td>프로필 이미지</td><td><code>default</code></td><td>기본</td><td><code>ui/profile_default</code></td><td>없음</td><td>처음부터</td></tr><tr><td>2</td><td>프레임</td><td><code>default</code></td><td>기본 테</td><td><code>ui/frame_default</code></td><td>없음</td><td>처음부터</td></tr><tr><td>3</td><td>네임플레이트</td><td><code>default</code></td><td>기본 명패</td><td><code>ui/nameplate_default</code></td><td>없음</td><td>처음부터</td></tr><tr><td>4</td><td>프로필 이미지</td><td><code>face_human_4</code></td><td>레오폴드</td><td><code>illust/human/4</code></td><td>없음</td><td>업적 «인간 4단계»</td></tr><tr><td>5</td><td>프로필 이미지</td><td><code>face_elf_4</code></td><td>이실리아</td><td><code>illust/elf/4</code></td><td>없음</td><td>업적 «엘프 4단계»</td></tr><tr><td>6</td><td>프로필 이미지</td><td><code>face_dwarf_4</code></td><td>달그룬드</td><td><code>illust/dwarf/4</code></td><td>없음</td><td>업적 «드워프 4단계»</td></tr><tr><td>7</td><td>프로필 이미지</td><td><code>face_beast_4</code></td><td>라자카</td><td><code>illust/beast/4</code></td><td>없음</td><td>업적 «수인 4단계»</td></tr><tr><td>8</td><td>프로필 이미지</td><td><code>face_spirit_4</code></td><td>오베리아</td><td><code>illust/spirit/4</code></td><td>없음</td><td>업적 «정령 4단계»</td></tr><tr><td>9</td><td>프로필 이미지</td><td><code>face_dragon_4</code></td><td>아즈가리아</td><td><code>illust/dragon/4</code></td><td>없음</td><td>업적 «용족 4단계»</td></tr><tr><td>10</td><td>프레임</td><td><code>frame_bronze</code></td><td>청동 테</td><td><code>ui/frame_default</code></td><td>#B07A45</td><td>업적 «처치 1000»</td></tr><tr><td>11</td><td>프레임</td><td><code>frame_silver</code></td><td>은빛 테</td><td><code>ui/frame_default</code></td><td>#C3CAD2</td><td>업적 «첫 4단계»</td></tr><tr><td>12</td><td>프레임</td><td><code>frame_gold</code></td><td>금빛 테</td><td><code>ui/frame_default</code></td><td>#E0B44A</td><td>업적 «흠 없는 승리»</td></tr><tr><td>13</td><td>프레임</td><td><code>frame_violet</code></td><td>보랏빛 테</td><td><code>ui/frame_default</code></td><td>#9A78D0</td><td>업적 «처치 20000»</td></tr><tr><td>14</td><td>네임플레이트</td><td><code>plate_victory</code></td><td>승리의 명패</td><td><code>ui/nameplate_default</code></td><td>#D8A548</td><td>업적 «첫 승리»</td></tr><tr><td>15</td><td>네임플레이트</td><td><code>plate_box</code></td><td>상자 명패</td><td><code>ui/nameplate_default</code></td><td>#A9825A</td><td>업적 «상자 비우기»</td></tr><tr><td>16</td><td>네임플레이트</td><td><code>plate_hunter</code></td><td>토벌 명패</td><td><code>ui/nameplate_default</code></td><td>#7F8E9E</td><td>업적 «처치 5000»</td></tr><tr><td>17</td><td>네임플레이트</td><td><code>plate_human</code></td><td>인간 명패</td><td><code>ui/nameplate_default</code></td><td>#C9B48A</td><td>업적 «인간 각성 4»</td></tr><tr><td>18</td><td>네임플레이트</td><td><code>plate_elf</code></td><td>엘프 명패</td><td><code>ui/nameplate_default</code></td><td>#9CC08A</td><td>업적 «엘프 각성 4»</td></tr><tr><td>19</td><td>네임플레이트</td><td><code>plate_dwarf</code></td><td>드워프 명패</td><td><code>ui/nameplate_default</code></td><td>#B98E6A</td><td>업적 «드워프 각성 4»</td></tr><tr><td>20</td><td>네임플레이트</td><td><code>plate_beast</code></td><td>수인 명패</td><td><code>ui/nameplate_default</code></td><td>#C79A5E</td><td>업적 «수인 각성 4»</td></tr><tr><td>21</td><td>네임플레이트</td><td><code>plate_spirit</code></td><td>정령 명패</td><td><code>ui/nameplate_default</code></td><td>#9FC3D6</td><td>업적 «정령 각성 4»</td></tr><tr><td>22</td><td>네임플레이트</td><td><code>plate_dragon</code></td><td>용족 명패</td><td><code>ui/nameplate_default</code></td><td>#B7837E</td><td>업적 «용족 각성 4»</td></tr></tbody></table></div>\n<h4>4-2. 업적 19개</h4>\n<div class=tw><table><thead><tr><th>#</th><th>id</th><th>이름</th><th>조건</th><th>보상 꾸밈</th></tr></thead><tbody><tr><td>1</td><td><code>first_win</code></td><td>첫 승리</td><td>승리 1번(누적)</td><td>네임플레이트 «승리의 명패» (<code>plate_victory</code>)</td></tr><tr><td>2</td><td><code>stage4_first</code></td><td>첫 4단계</td><td>4단계 캐릭터 처음 만들기</td><td>프레임 «은빛 테» (<code>frame_silver</code>)</td></tr><tr><td>3</td><td><code>stage4_human</code></td><td>인간 4단계</td><td>인간 4단계 만들기</td><td>프로필 이미지 «레오폴드» (<code>face_human_4</code>)</td></tr><tr><td>4</td><td><code>stage4_elf</code></td><td>엘프 4단계</td><td>엘프 4단계 만들기</td><td>프로필 이미지 «이실리아» (<code>face_elf_4</code>)</td></tr><tr><td>5</td><td><code>stage4_dwarf</code></td><td>드워프 4단계</td><td>드워프 4단계 만들기</td><td>프로필 이미지 «달그룬드» (<code>face_dwarf_4</code>)</td></tr><tr><td>6</td><td><code>stage4_beast</code></td><td>수인 4단계</td><td>수인 4단계 만들기</td><td>프로필 이미지 «라자카» (<code>face_beast_4</code>)</td></tr><tr><td>7</td><td><code>stage4_spirit</code></td><td>정령 4단계</td><td>정령 4단계 만들기</td><td>프로필 이미지 «오베리아» (<code>face_spirit_4</code>)</td></tr><tr><td>8</td><td><code>stage4_dragon</code></td><td>용족 4단계</td><td>용족 4단계 만들기</td><td>프로필 이미지 «아즈가리아» (<code>face_dragon_4</code>)</td></tr><tr><td>9</td><td><code>flawless_win</code></td><td>흠 없는 승리</td><td>목숨을 하나도 안 잃고 승리 1번</td><td>프레임 «금빛 테» (<code>frame_gold</code>)</td></tr><tr><td>10</td><td><code>box_emptied</code></td><td>상자 비우기</td><td>상자 1개 비우기</td><td>네임플레이트 «상자 명패» (<code>plate_box</code>)</td></tr><tr><td>11</td><td><code>awaken4_human</code></td><td>인간 각성 4</td><td>인간 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «인간 명패» (<code>plate_human</code>)</td></tr><tr><td>12</td><td><code>awaken4_elf</code></td><td>엘프 각성 4</td><td>엘프 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «엘프 명패» (<code>plate_elf</code>)</td></tr><tr><td>13</td><td><code>awaken4_dwarf</code></td><td>드워프 각성 4</td><td>드워프 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «드워프 명패» (<code>plate_dwarf</code>)</td></tr><tr><td>14</td><td><code>awaken4_beast</code></td><td>수인 각성 4</td><td>수인 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «수인 명패» (<code>plate_beast</code>)</td></tr><tr><td>15</td><td><code>awaken4_spirit</code></td><td>정령 각성 4</td><td>정령 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «정령 명패» (<code>plate_spirit</code>)</td></tr><tr><td>16</td><td><code>awaken4_dragon</code></td><td>용족 각성 4</td><td>용족 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «용족 명패» (<code>plate_dragon</code>)</td></tr><tr><td>17</td><td><code>kills_1000</code></td><td>처치 1000</td><td>누적 처치 1000</td><td>프레임 «청동 테» (<code>frame_bronze</code>)</td></tr><tr><td>18</td><td><code>kills_5000</code></td><td>처치 5000</td><td>누적 처치 5000</td><td>네임플레이트 «토벌 명패» (<code>plate_hunter</code>)</td></tr><tr><td>19</td><td><code>kills_20000</code></td><td>처치 20000</td><td>누적 처치 20000</td><td>프레임 «보랏빛 테» (<code>frame_violet</code>)</td></tr></tbody></table></div>\n<ul>\n<li>프로필 이미지는 종족 4단계 일러스트(<code>illust/&lt;종족&gt;/4</code>)에서 얼굴을 잘라 쓴다. 프레임·네임플레이트는 기본 그림(<code>ui/frame_default</code>·<code>ui/nameplate_default</code>)에 색을 입힌다.\n</li>\n<li>협동 첫 승리 업적은 협동이 들어올 때 더한다.\n</li></ul>\n<h3>5. 그림 제작량 (본 리소스 기준 추정)</h3>\n<div class=tw><table><thead><tr><th>묶음</th><th>장수</th></tr></thead><tbody><tr><td>수비 캐릭터 인게임</td><td>24</td></tr><tr><td>종족 일러스트</td><td>6</td></tr><tr><td>몬스터</td><td>20</td></tr><tr><td>맵 배경·타일</td><td>3~5</td></tr><tr><td>UI·아이콘</td><td>약 40 (대부분 코드 제작)</td></tr><tr><td>꾸밈(프로필 12, 프레임 8, 네임플레이트 8)</td><td>약 28 — CD-0007 은 새 그림 없이 기본 그림에 색만 입히고 얼굴은 기존 4단계 일러스트를 잘라 쓴다(그림 0장)</td></tr><tr><td><strong>Codex 로 뽑는 것 합계</strong></td><td><strong>약 80~90장</strong>, 재시도 30% 포함 약 105~120장</td></tr></tbody></table></div>\n<p>Codex 상한(5시간 20장, 7일 150장) 안에서 1주면 된다. 그 전까지는 전부 임시 그림으로 간다(<code>03-리소스계획.md</code> §7).</p>",
-"at": "2026-11-16 09:43",
-"branch": "fin-plan",
+"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0007: §4 꾸밈·업적 목록, 용족 역할 글 · CD-0008: §2 몬스터 \trait 한 줄 — 결정 0042 사용자 확인 대기) · 상태: 구성 확정(사용자: 6종족 × 4단계). 캐릭터 이름 확정(결정 0012). 몬스터·맵 이름은 가칭.\n</li>\n<li>이 목록이 그림 제작 목록(매니페스트)의 바탕이다. 다른 게임의 이름·디자인을 쓰지 않는다.\n</li>\n<li>«첫 목표» 열에 ●가 있는 것만 첫 번째 목표에서 동작한다. 나머지는 자리만 잡는다.\n</li></ul>\n<h3>1. 수비 캐릭터 — 6종족 × 4단계 = 24명</h3>\n<p>이름 있는 인물 24명이다(결정 0012). 이름은 고유명 하나이고, 해외판에서는 괄호의 로마자로 옮겨 적는다.</p>\n<div class=tw><table><thead><tr><th>종족 (id)</th><th>성별</th><th>생김새</th><th>1단계</th><th>2단계</th><th>3단계</th><th>4단계</th><th>역할(초안, 바뀔 수 있음)</th><th>첫 목표</th></tr></thead><tbody><tr><td>인간 <code>human</code></td><td>남성</td><td>사람</td><td>테오 (Theo)</td><td>에단 (Ethan)</td><td>세드릭 (Cedric)</td><td>레오폴드 (Leopold)</td><td>묵직한 단일</td><td>●</td></tr><tr><td>엘프 <code>elf</code></td><td>여성</td><td>뾰족한 귀</td><td>리엘 (Liel)</td><td>세린 (Serin)</td><td>시레아 (Sirea)</td><td>이실리아 (Isylia)</td><td>긴 사거리 연사</td><td>●</td></tr><tr><td>드워프 <code>dwarf</code></td><td>남성</td><td>작고 다부진 몸, 큰 수염</td><td>그론 (Gron)</td><td>보르딘 (Bordin)</td><td>할드레크 (Haldrek)</td><td>달그룬드 (Dalgrund)</td><td>범위 포격</td><td>●</td></tr><tr><td>수인 <code>beast</code></td><td>여성</td><td>고양이과 맹수의 귀·꼬리·털</td><td>카자 (Kaza)</td><td>자야 (Zaya)</td><td>바리카 (Varika)</td><td>라자카 (Razaka)</td><td>연타·치명타</td><td>●</td></tr><tr><td>정령 <code>spirit</code></td><td>여성</td><td>빛으로 된 작은 존재, 다리 대신 꼬리처럼 흐르는 몸</td><td>펠리 (Pheli)</td><td>벨리사 (Velisa)</td><td>멜리안테 (Meliante)</td><td>오베리아 (Oberia)</td><td>감속 지원</td><td></td></tr><tr><td>용족 <code>dragon</code></td><td>여성</td><td>뿔·비늘·꼬리·날개가 있는 사람 모양</td><td>라카 (Raka)</td><td>드레나 (Drena)</td><td>타르기아 (Targia)</td><td>아즈가리아 (Azgaria)</td><td>관통·여파</td><td></td></tr></tbody></table></div>\n<ul>\n<li><strong>단계가 오를수록 격이 높다:</strong> 1단계 애칭 → 2단계 보통 이름 → 3단계 귀족풍 → 4단계 가장 격 높은 이름. 한 종족의 네 단계는 <strong>서로 다른 인물</strong>이고, 종족의 배색과 생김새를 같이 쓴다.\n</li>\n<li><strong>속성을 쓰지 않는다.</strong> 불·얼음·번개 같은 표현을 이름·그림·연출에 넣지 않는다. 용족의 지속 피해는 «여파» 다(옛 초안의 역할 글은 CD-0007 에서 고쳤다).\n</li>\n<li><strong>4단계 위에 상위 성장이 하나 더 있다</strong>(기획 전). 4단계까지는 장식을 절제한다(왕관·예복·빽빽한 문양 금지).\n</li>\n<li>화풍만 통일한다: 일러스트는 셀화풍(결정 0013, <code>03-리소스계획.md</code> §8). 등신은 종족마다 달라도 된다. 이용 등급 목표는 12세. 4단계 일러스트 6장 확정본은 <code>art/final/illust/</code>.\n</li>\n<li>그림: 인물마다 <strong>옆모습 인게임 그림 1장</strong>(24장) + 종족마다 <strong>카드 일러스트 1장</strong>(6장, 4단계 기준) = 30장. 상위 성장의 그림 수는 기획 뒤에 더한다.\n</li>\n<li>이름 겹침 확인(2026-11-15, 영어 위주 웹 검색): 지어낸 이름 가운데 다른 작품의 인물과 같았던 7개를 바꿨다(미라엘→시레아, 엘라리엘→이실리아, 하르그림→할드레크, 울드가르→달그룬드, 키라→카자, 피나→펠리, 네리스→벨리사). 남은 주의: 리엘(덜 알려진 작품의 하프엘프와 같은 철자), 자야(다른 게임의 조연 NPC), 세드릭·레오폴드(흔한 실제 이름). 한국어 위키·상표 검색은 하지 않았다 → 출시 준비(M7) 때 다시 본다.\n</li></ul>\n<h3>2. 몬스터</h3>\n<p>적은 «그림자 균열에서 쏟아지는 무리» 다(결정 0011). 유형의 뜻은 <code>11-규칙.md</code> §8. 수치는 <code>Data/monsters.json</code>·<code>Data/bounty.json</code>.</p>\n<h4>2-1. 그림자 무리 — 웨이브 몬스터 7종 (CD-0005 4종 + CD-0008 3종, 세 난이도 세트)</h4>\n<p>가족 <code>shadow</code>(그림자 무리). 그림은 옆모습(오른쪽)이고 어두운 몸에 밝은 눈, 귀엽되 위협적으로 그린다. 카드의 특징 한 줄은 <code>monsters.json</code> <code>trait</code>(데이터가 정본).</p>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>유형</th><th>역할</th><th>특징 한 줄(<code>trait</code>)</th><th>그림</th><th>나오는 웨이브</th></tr></thead><tbody><tr><td><code>shadow_grunt</code></td><td>그림자 졸개</td><td>일반</td><td>기준. 수가 가장 많다</td><td>균열에서 갓 나온 그림자</td><td>자기 그림</td><td>1~</td></tr><tr><td><code>shadow_runner</code></td><td>그림자 추적자</td><td>질주</td><td>빠르고 약하다. 사거리 짧은 캐릭터를 지나친다</td><td>발소리 없이 빠르게 쫓는다</td><td>자기 그림</td><td>6~</td></tr><tr><td><code>shadow_guard</code></td><td>그림자 방패병</td><td>중장</td><td>느리고 단단하다(방어). 약한 한 방은 깎인다</td><td>그림자 방패로 피해를 깎는다</td><td>자기 그림</td><td>7~</td></tr><tr><td><code>shadow_behemoth</code></td><td>균열의 거수</td><td>보스</td><td>체력이 매우 많고 느리다. 놓치면 목숨 5</td><td>균열을 지키는 거대한 짐승</td><td>자기 그림</td><td>10, 20</td></tr><tr><td><code>shadow_swarm</code></td><td>그림자 떼</td><td>무리</td><td>작고 약한 것이 4마리씩 몰려온다. 범위 공격이 잘 듣는다</td><td>작은 그림자가 한꺼번에 몰려온다</td><td>졸개 그림 70% · 색조 −12°</td><td>4~(어려움·정예 6~)</td></tr><tr><td><code>shadow_flier</code></td><td>그림자 날개</td><td>비행</td><td>지름길로 날아온다. 지름길 옆 칸이 잘 잡는다</td><td>길을 건너질러 날아온다</td><td>추적자 그림 90% · 색조 +20° · 0.45칸 떠 있음</td><td>12~</td></tr><tr><td><code>shadow_mender</code></td><td>그림자 응어리</td><td>재생</td><td>맞지 않으면 체력이 찬다. 꾸준히 때려야 한다</td><td>맞지 않으면 상처가 아문다</td><td>방패병 그림 · 색조 +35°</td><td>13~</td></tr></tbody></table></div>\n<ul>\n<li>1~3웨이브는 졸개만 나온다. 4웨이브에 떼, 6웨이브부터 추적자와 방패병, 12웨이브에 날개, 13웨이브에 응어리가 처음 섞인다. 10·20 웨이브는 거수 1마리와 졸개(10웨이브는 새 유형 없음).\n</li>\n<li>새 3종은 새 그림 없이 기존 그림을 크기·색조로 변형해 쓴다(결정 0042 초안, <code>view</code> 칸 — 화면 전용). 이름·특징 글은 결정 0042 와 함께 사용자 확인 대기.\n</li>\n<li>옛 20종(고블린·오크·언데드·마수·마족, 아래 표)은 <code>Data/monsters.json</code> 에 남아 있지만 새 세트는 쓰지 않는다.\n</li></ul>\n<h4>2-2. 현상금 — 이름 있는 몬스터 6종</h4>\n<p>같은 무리의 «이름 있는» 개체다. 몬스터 카드에서 유형 이름은 «현상금»(<code>bounty.json</code> <code>typeName</code>), 특징 한 줄은 아래 «화면 특징» 열(<code>trait</code>)이다. 판 안에서 «현상금» 으로 불러내 잡으면 골드를 준다(<code>11-규칙.md</code> §11). 그림 이름표는 <code>monster/bounty_N</code>, 실루엣이 서로 달라야 한다.</p>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>체력</th><th>속도</th><th>방어</th><th>보상(골드)</th><th>열리는 웨이브</th><th>화면 특징</th></tr></thead><tbody><tr><td><code>bounty_1</code></td><td>좀도둑 그림자</td><td>600</td><td>100%</td><td>0</td><td>60</td><td>1</td><td>가장 만만함</td></tr><tr><td><code>bounty_2</code></td><td>발 빠른 약탈자</td><td>900</td><td>160%</td><td>0</td><td>100</td><td>3</td><td>아주 빠름</td></tr><tr><td><code>bounty_3</code></td><td>무쇠 등껍질</td><td>2,000</td><td>70%</td><td>6</td><td>160</td><td>5</td><td>방어가 높음</td></tr><tr><td><code>bounty_4</code></td><td>굶주린 큰입</td><td>4,500</td><td>90%</td><td>2</td><td>240</td><td>8</td><td>묵직한 체력</td></tr><tr><td><code>bounty_5</code></td><td>균열 파수꾼</td><td>9,000</td><td>60%</td><td>4</td><td>360</td><td>12</td><td>느린 거구</td></tr><tr><td><code>bounty_6</code></td><td>그림자 수괴</td><td>20,000</td><td>70%</td><td>8</td><td>500</td><td>16</td><td>가장 단단함</td></tr></tbody></table></div>\n<h4>2-3. 옛 초안 — 5군단 20종 (쓰지 않음)</h4>\n<blockquote>결정 0011 이전의 초안이다. 새 세트는 쓰지 않고, 데이터에는 남겨 두었다. 정리는 Core 가 옛 세트(<code>first_goal</code>)를 걷어낼 때 같이 한다.</blockquote>\n<div class=tw><table><thead><tr><th>군단 (id)</th><th>일반 계열</th><th>특수 1</th><th>특수 2</th><th>보스</th><th>첫 목표</th></tr></thead><tbody><tr><td>고블린 <code>goblin</code></td><td>고블린 졸개(일반)</td><td>고블린 떼(무리)</td><td>늑대 기수(질주)</td><td>고블린 대족장</td><td>● 졸개만</td></tr><tr><td>오크 <code>orc</code></td><td>오크 전사(일반)</td><td>철갑 오크(중장)</td><td>오크 돌격병(질주)</td><td>오크 전쟁군주</td><td></td></tr><tr><td>언데드 <code>undead</code></td><td>해골 병사(일반)</td><td>썩은 거인(재생)</td><td>해골 무리(무리)</td><td>망자의 왕</td><td></td></tr><tr><td>마수 <code>fiend</code></td><td>가시 멧돼지(중장)</td><td>박쥐 떼(비행·무리)</td><td>그림자 표범(질주)</td><td>삼두 마수</td><td></td></tr><tr><td>마족 <code>demon</code></td><td>임프(비행)</td><td>지옥 기사(중장)</td><td>재생 악령(재생)</td><td>심연의 군주</td><td></td></tr></tbody></table></div>\n<ul>\n<li>일반 몬스터 15종 + 보스 5종. 웨이브 구간마다 한 군단이 주로 나온다(초안: 6웨이브씩).\n</li>\n<li>카드에 보이는 특징 한 줄(\trait, 데이터 Data/monsters.json 이 정본 — 스크립트로 옮긴 것):\n</li></ul>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>유형</th><th>특징 한 줄(<code>trait</code>)</th></tr></thead><tbody><tr><td><code>goblin_grunt</code></td><td>고블린 졸개</td><td>일반</td><td>가장 흔한 그림자 무리 졸개</td></tr><tr><td><code>goblin_pack</code></td><td>고블린 떼</td><td>무리</td><td>몸은 약하지만 떼로 몰려온다</td></tr><tr><td><code>goblin_rider</code></td><td>늑대 기수</td><td>질주</td><td>늑대를 타고 빠르게 달린다</td></tr><tr><td><code>goblin_chief</code></td><td>고블린 대족장</td><td>보스</td><td>고블린을 이끄는 큰 우두머리</td></tr><tr><td><code>orc_warrior</code></td><td>오크 전사</td><td>일반</td><td>단단한 몸으로 꾸준히 걷는다</td></tr><tr><td><code>orc_ironclad</code></td><td>철갑 오크</td><td>중장</td><td>두꺼운 철갑이 피해를 깎는다</td></tr><tr><td><code>orc_charger</code></td><td>오크 돌격병</td><td>질주</td><td>앞만 보고 빠르게 돌진한다</td></tr><tr><td><code>orc_warlord</code></td><td>오크 전쟁군주</td><td>보스</td><td>오크를 호령하는 전쟁의 주인</td></tr><tr><td><code>undead_skeleton</code></td><td>해골 병사</td><td>일반</td><td>뼈만 남은 채 줄지어 걷는다</td></tr><tr><td><code>undead_giant</code></td><td>썩은 거인</td><td>재생</td><td>입은 상처가 조금씩 아문다</td></tr><tr><td><code>undead_horde</code></td><td>해골 무리</td><td>무리</td><td>약한 해골이 무리 지어 온다</td></tr><tr><td><code>undead_king</code></td><td>망자의 왕</td><td>보스</td><td>망자를 거느린 왕, 체력이 많다</td></tr><tr><td><code>fiend_boar</code></td><td>가시 멧돼지</td><td>중장</td><td>가시 가죽이 피해를 깎는다</td></tr><tr><td><code>fiend_bats</code></td><td>박쥐 떼</td><td>비행</td><td>날아서 길을 질러 온다</td></tr><tr><td><code>fiend_panther</code></td><td>그림자 표범</td><td>질주</td><td>그림자 속을 빠르게 달린다</td></tr><tr><td><code>fiend_cerberus</code></td><td>삼두 마수</td><td>보스</td><td>머리 셋 달린 거대한 마수</td></tr><tr><td><code>demon_imp</code></td><td>임프</td><td>비행</td><td>작은 날개로 길을 질러 온다</td></tr><tr><td><code>demon_knight</code></td><td>지옥 기사</td><td>중장</td><td>무거운 갑옷의 느린 기사</td></tr><tr><td><code>demon_wraith</code></td><td>재생 악령</td><td>재생</td><td>입은 상처를 천천히 되돌린다</td></tr><tr><td><code>demon_lord</code></td><td>심연의 군주</td><td>보스</td><td>심연에서 온 마족의 군주</td></tr></tbody></table></div>\n<ul>\n<li>그림: 종마다 옆모습 1장(20장). 보스는 크게 그린다.\n</li></ul>\n<h3>3. 맵</h3>\n<div class=tw><table><thead><tr><th>id</th><th>이름(가칭)</th><th>구성</th><th>첫 목표</th></tr></thead><tbody><tr><td><code>gate_01</code></td><td>숲길 관문</td><td>9×13칸 캔버스, 굽은 길 하나(약 28칸), 영역 4×5 는 세 면이 길에 닿는다(<code>11-규칙.md</code> §1). 2~4인용 스폰 지점과 영역 배치는 자리만 정의</td><td>● 1인 배치</td></tr></tbody></table></div>\n<h3>4. 꾸밈과 업적</h3>\n<p>꾸밈 22개와 업적 19개다(결정 0035 — 대표 초안 · 사용자 확인 대기). 이름은 <code>Data/cosmetics.json</code>·<code>Data/achievements.json</code> 그대로이고, 규칙과 이유는 <code>13-보상-육성-꾸밈.md</code> §6. 얻는 길은 업적(과 나중의 이벤트)뿐이다.</p>\n<div class=tw><table><thead><tr><th>종류</th><th>설명</th><th>수</th><th>얻는 길</th></tr></thead><tbody><tr><td>프로필 이미지</td><td>기본 1 + 종족 4단계 얼굴 6(레오폴드·이실리아·달그룬드·라자카·오베리아·아즈가리아)</td><td>7</td><td>기본은 처음부터, 얼굴은 «종족 4단계» 업적</td></tr><tr><td>프레임</td><td>기본 1 + 청동·은빛·금빛·보랏빛 4</td><td>5</td><td>기본은 처음부터, 나머지는 업적</td></tr><tr><td>네임플레이트</td><td>기본 1 + 승리·상자·토벌 3 + 종족 명패 6</td><td>10</td><td>기본은 처음부터, 나머지는 업적</td></tr></tbody></table></div>\n<h4>4-1. 꾸밈 22개</h4>\n<div class=tw><table><thead><tr><th>#</th><th>종류</th><th>id</th><th>이름</th><th>그림 이름표</th><th>색</th><th>얻는 길</th></tr></thead><tbody><tr><td>1</td><td>프로필 이미지</td><td><code>default</code></td><td>기본</td><td><code>ui/profile_default</code></td><td>없음</td><td>처음부터</td></tr><tr><td>2</td><td>프레임</td><td><code>default</code></td><td>기본 테</td><td><code>ui/frame_default</code></td><td>없음</td><td>처음부터</td></tr><tr><td>3</td><td>네임플레이트</td><td><code>default</code></td><td>기본 명패</td><td><code>ui/nameplate_default</code></td><td>없음</td><td>처음부터</td></tr><tr><td>4</td><td>프로필 이미지</td><td><code>face_human_4</code></td><td>레오폴드</td><td><code>illust/human/4</code></td><td>없음</td><td>업적 «인간 4단계»</td></tr><tr><td>5</td><td>프로필 이미지</td><td><code>face_elf_4</code></td><td>이실리아</td><td><code>illust/elf/4</code></td><td>없음</td><td>업적 «엘프 4단계»</td></tr><tr><td>6</td><td>프로필 이미지</td><td><code>face_dwarf_4</code></td><td>달그룬드</td><td><code>illust/dwarf/4</code></td><td>없음</td><td>업적 «드워프 4단계»</td></tr><tr><td>7</td><td>프로필 이미지</td><td><code>face_beast_4</code></td><td>라자카</td><td><code>illust/beast/4</code></td><td>없음</td><td>업적 «수인 4단계»</td></tr><tr><td>8</td><td>프로필 이미지</td><td><code>face_spirit_4</code></td><td>오베리아</td><td><code>illust/spirit/4</code></td><td>없음</td><td>업적 «정령 4단계»</td></tr><tr><td>9</td><td>프로필 이미지</td><td><code>face_dragon_4</code></td><td>아즈가리아</td><td><code>illust/dragon/4</code></td><td>없음</td><td>업적 «용족 4단계»</td></tr><tr><td>10</td><td>프레임</td><td><code>frame_bronze</code></td><td>청동 테</td><td><code>ui/frame_default</code></td><td>#B07A45</td><td>업적 «처치 1000»</td></tr><tr><td>11</td><td>프레임</td><td><code>frame_silver</code></td><td>은빛 테</td><td><code>ui/frame_default</code></td><td>#C3CAD2</td><td>업적 «첫 4단계»</td></tr><tr><td>12</td><td>프레임</td><td><code>frame_gold</code></td><td>금빛 테</td><td><code>ui/frame_default</code></td><td>#E0B44A</td><td>업적 «흠 없는 승리»</td></tr><tr><td>13</td><td>프레임</td><td><code>frame_violet</code></td><td>보랏빛 테</td><td><code>ui/frame_default</code></td><td>#9A78D0</td><td>업적 «처치 20000»</td></tr><tr><td>14</td><td>네임플레이트</td><td><code>plate_victory</code></td><td>승리의 명패</td><td><code>ui/nameplate_default</code></td><td>#D8A548</td><td>업적 «첫 승리»</td></tr><tr><td>15</td><td>네임플레이트</td><td><code>plate_box</code></td><td>상자 명패</td><td><code>ui/nameplate_default</code></td><td>#A9825A</td><td>업적 «상자 비우기»</td></tr><tr><td>16</td><td>네임플레이트</td><td><code>plate_hunter</code></td><td>토벌 명패</td><td><code>ui/nameplate_default</code></td><td>#7F8E9E</td><td>업적 «처치 5000»</td></tr><tr><td>17</td><td>네임플레이트</td><td><code>plate_human</code></td><td>인간 명패</td><td><code>ui/nameplate_default</code></td><td>#C9B48A</td><td>업적 «인간 각성 4»</td></tr><tr><td>18</td><td>네임플레이트</td><td><code>plate_elf</code></td><td>엘프 명패</td><td><code>ui/nameplate_default</code></td><td>#9CC08A</td><td>업적 «엘프 각성 4»</td></tr><tr><td>19</td><td>네임플레이트</td><td><code>plate_dwarf</code></td><td>드워프 명패</td><td><code>ui/nameplate_default</code></td><td>#B98E6A</td><td>업적 «드워프 각성 4»</td></tr><tr><td>20</td><td>네임플레이트</td><td><code>plate_beast</code></td><td>수인 명패</td><td><code>ui/nameplate_default</code></td><td>#C79A5E</td><td>업적 «수인 각성 4»</td></tr><tr><td>21</td><td>네임플레이트</td><td><code>plate_spirit</code></td><td>정령 명패</td><td><code>ui/nameplate_default</code></td><td>#9FC3D6</td><td>업적 «정령 각성 4»</td></tr><tr><td>22</td><td>네임플레이트</td><td><code>plate_dragon</code></td><td>용족 명패</td><td><code>ui/nameplate_default</code></td><td>#B7837E</td><td>업적 «용족 각성 4»</td></tr></tbody></table></div>\n<h4>4-2. 업적 19개</h4>\n<div class=tw><table><thead><tr><th>#</th><th>id</th><th>이름</th><th>조건</th><th>보상 꾸밈</th></tr></thead><tbody><tr><td>1</td><td><code>first_win</code></td><td>첫 승리</td><td>승리 1번(누적)</td><td>네임플레이트 «승리의 명패» (<code>plate_victory</code>)</td></tr><tr><td>2</td><td><code>stage4_first</code></td><td>첫 4단계</td><td>4단계 캐릭터 처음 만들기</td><td>프레임 «은빛 테» (<code>frame_silver</code>)</td></tr><tr><td>3</td><td><code>stage4_human</code></td><td>인간 4단계</td><td>인간 4단계 만들기</td><td>프로필 이미지 «레오폴드» (<code>face_human_4</code>)</td></tr><tr><td>4</td><td><code>stage4_elf</code></td><td>엘프 4단계</td><td>엘프 4단계 만들기</td><td>프로필 이미지 «이실리아» (<code>face_elf_4</code>)</td></tr><tr><td>5</td><td><code>stage4_dwarf</code></td><td>드워프 4단계</td><td>드워프 4단계 만들기</td><td>프로필 이미지 «달그룬드» (<code>face_dwarf_4</code>)</td></tr><tr><td>6</td><td><code>stage4_beast</code></td><td>수인 4단계</td><td>수인 4단계 만들기</td><td>프로필 이미지 «라자카» (<code>face_beast_4</code>)</td></tr><tr><td>7</td><td><code>stage4_spirit</code></td><td>정령 4단계</td><td>정령 4단계 만들기</td><td>프로필 이미지 «오베리아» (<code>face_spirit_4</code>)</td></tr><tr><td>8</td><td><code>stage4_dragon</code></td><td>용족 4단계</td><td>용족 4단계 만들기</td><td>프로필 이미지 «아즈가리아» (<code>face_dragon_4</code>)</td></tr><tr><td>9</td><td><code>flawless_win</code></td><td>흠 없는 승리</td><td>목숨을 하나도 안 잃고 승리 1번</td><td>프레임 «금빛 테» (<code>frame_gold</code>)</td></tr><tr><td>10</td><td><code>box_emptied</code></td><td>상자 비우기</td><td>상자 1개 비우기</td><td>네임플레이트 «상자 명패» (<code>plate_box</code>)</td></tr><tr><td>11</td><td><code>awaken4_human</code></td><td>인간 각성 4</td><td>인간 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «인간 명패» (<code>plate_human</code>)</td></tr><tr><td>12</td><td><code>awaken4_elf</code></td><td>엘프 각성 4</td><td>엘프 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «엘프 명패» (<code>plate_elf</code>)</td></tr><tr><td>13</td><td><code>awaken4_dwarf</code></td><td>드워프 각성 4</td><td>드워프 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «드워프 명패» (<code>plate_dwarf</code>)</td></tr><tr><td>14</td><td><code>awaken4_beast</code></td><td>수인 각성 4</td><td>수인 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «수인 명패» (<code>plate_beast</code>)</td></tr><tr><td>15</td><td><code>awaken4_spirit</code></td><td>정령 각성 4</td><td>정령 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «정령 명패» (<code>plate_spirit</code>)</td></tr><tr><td>16</td><td><code>awaken4_dragon</code></td><td>용족 각성 4</td><td>용족 캐릭터 하나를 각성 4 로</td><td>네임플레이트 «용족 명패» (<code>plate_dragon</code>)</td></tr><tr><td>17</td><td><code>kills_1000</code></td><td>처치 1000</td><td>누적 처치 1000</td><td>프레임 «청동 테» (<code>frame_bronze</code>)</td></tr><tr><td>18</td><td><code>kills_5000</code></td><td>처치 5000</td><td>누적 처치 5000</td><td>네임플레이트 «토벌 명패» (<code>plate_hunter</code>)</td></tr><tr><td>19</td><td><code>kills_20000</code></td><td>처치 20000</td><td>누적 처치 20000</td><td>프레임 «보랏빛 테» (<code>frame_violet</code>)</td></tr></tbody></table></div>\n<ul>\n<li>프로필 이미지는 종족 4단계 일러스트(<code>illust/&lt;종족&gt;/4</code>)에서 얼굴을 잘라 쓴다. 프레임·네임플레이트는 기본 그림(<code>ui/frame_default</code>·<code>ui/nameplate_default</code>)에 색을 입힌다.\n</li>\n<li>협동 첫 승리 업적은 협동이 들어올 때 더한다.\n</li></ul>\n<h3>5. 그림 제작량 (본 리소스 기준 추정)</h3>\n<div class=tw><table><thead><tr><th>묶음</th><th>장수</th></tr></thead><tbody><tr><td>수비 캐릭터 인게임</td><td>24</td></tr><tr><td>종족 일러스트</td><td>6</td></tr><tr><td>몬스터</td><td>20</td></tr><tr><td>맵 배경·타일</td><td>3~5</td></tr><tr><td>UI·아이콘</td><td>약 40 (대부분 코드 제작)</td></tr><tr><td>꾸밈(프로필 12, 프레임 8, 네임플레이트 8)</td><td>약 28 — CD-0007 은 새 그림 없이 기본 그림에 색만 입히고 얼굴은 기존 4단계 일러스트를 잘라 쓴다(그림 0장)</td></tr><tr><td><strong>Codex 로 뽑는 것 합계</strong></td><td><strong>약 80~90장</strong>, 재시도 30% 포함 약 105~120장</td></tr></tbody></table></div>\n<p>Codex 상한(5시간 20장, 7일 150장) 안에서 1주면 된다. 그 전까지는 전부 임시 그림으로 간다(<code>03-리소스계획.md</code> §7).</p>",
+"at": "2026-11-16 10:11",
+"branch": "fin-core",
 "dirty": false
 },
 {
@@ -3805,7 +3836,7 @@
 },
 "waves": {
 "data": {
-"_note": "초안(2026-11-15). 시뮬레이터(M2) 전의 값이다. 구조는 확정, 숫자는 바뀐다. first_goal 은 옛 첫 목표용 10웨이브(Core 가 gate_01_std 로 옮기면 지운다). gate_01_std 는 CD-0005 의 20웨이브(10·20 은 보스 1마리 + 졸개, 그림자 무리): hpPct 는 first_goal 곡선(웨이브당 약 +15%)을 10웨이브 뒤 +13% 로 이어 그린 초안이며 core 가 봇 판으로 맞춘다. 웨이브 안의 groups 는 위에서 아래 차례로 나온다. CD-0007(결정 0037·초안): gate_01_std(«보통»)의 hpPct 는 내려가지 않는 곡선(1~5 웨이브당 약 +15%, 6~15 웨이브당 약 +75, 16~20 웨이브당 +19)이고 20웨이브는 보스 1 + 졸개 4(보스에 집중). gate_01_hard(«어려움»)·gate_01_elite(«정예»)는 같은 구성에 hpPct 만 보통의 약 1.58배·2.53배(기준 곡선 ×150%·×240%, 내림). 단계 목록·보상 배율은 stages.json·reward.json. CD-0007 C4(결정 0038): 소환 단계 확률이 웨이브와 함께 오르므로 보통 hpPct 는 6웨이브부터 ×130% 뒤 전부 ×106%, 어려움 ×130%, 정예 ×115%(모두 내림, 봇 판으로 맞춤). CD-0008 2차(결정 0042 초안·사용자 확인 대기): 세 난이도 세트의 웨이브 끝에 그림자 무리 새 3종 줄을 더했다(그림자 떼=무리, 그림자 날개=비행 12웨이브~, 그림자 응어리=재생 13웨이브~; 옛 줄은 그대로). 떼는 보통 4웨이브~, 어려움·정예 6웨이브~. 보통 hpPct 는 9웨이브부터 ×108%. 보강(4웨이브 벽 없애기): 어려움 1~5웨이브 ×80%, 정예 1~5웨이브 ×72%·6웨이브부터 ×104%(모두 내림). 되돌리는 법 = 세트에서 shadow_swarm·shadow_flier·shadow_mender 줄을 지우고 위 배율을 나눈다.",
+"_note": "초안(2026-11-15). 시뮬레이터(M2) 전의 값이다. 구조는 확정, 숫자는 바뀐다. first_goal 은 옛 첫 목표용 10웨이브(Core 가 gate_01_std 로 옮기면 지운다). gate_01_std 는 CD-0005 의 20웨이브(10·20 은 보스 1마리 + 졸개, 그림자 무리): hpPct 는 first_goal 곡선(웨이브당 약 +15%)을 10웨이브 뒤 +13% 로 이어 그린 초안이며 core 가 봇 판으로 맞춘다. 웨이브 안의 groups 는 위에서 아래 차례로 나온다. CD-0007(결정 0037·초안): gate_01_std(«보통»)의 hpPct 는 내려가지 않는 곡선(1~5 웨이브당 약 +15%, 6~15 웨이브당 약 +75, 16~20 웨이브당 +19)이고 20웨이브는 보스 1 + 졸개 4(보스에 집중). gate_01_hard(«어려움»)·gate_01_elite(«정예»)는 같은 구성에 hpPct 만 보통의 약 1.58배·2.53배(기준 곡선 ×150%·×240%, 내림). 단계 목록·보상 배율은 stages.json·reward.json. CD-0007 C4(결정 0038): 소환 단계 확률이 웨이브와 함께 오르므로 보통 hpPct 는 6웨이브부터 ×130% 뒤 전부 ×106%, 어려움 ×130%, 정예 ×115%(모두 내림, 봇 판으로 맞춤). CD-0008 2차(결정 0042 초안·사용자 확인 대기): 세 난이도 세트의 웨이브 끝에 그림자 무리 새 3종 줄을 더했다(그림자 떼=무리, 그림자 날개=비행 12웨이브~, 그림자 응어리=재생 13웨이브~; 옛 줄은 그대로). 떼는 보통 4웨이브~, 어려움·정예 6웨이브~. 보통 hpPct 는 9웨이브부터 ×108%. 보강(4웨이브 벽 없애기): 어려움 1~5웨이브 ×80%, 정예 1~5웨이브 ×72%·6웨이브부터 ×104%(모두 내림). 되돌리는 법 = 세트에서 shadow_swarm·shadow_flier·shadow_mender 줄을 지우고 위 배율을 나눈다. CD-0008 3차(결정 0043 초안·사용자 확인 대기): gate_02_std·gate_02_hard·gate_02_elite = 맵 gate_02(«바윗골 관문») 위의 gate_01 세 세트 사본. 구성은 같고 hpPct 만 바꿨다 — 보통 1~5웨이브 ×92%·6웨이브부터 ×96%(내림), 어려움·정예는 gate_01 값 그대로(봇 판으로 맞춤). 되돌리는 법 = 이 세 세트와 stages.json 의 gate_02 줄을 지운다.",
 "sets": {
 "first_goal": {
 "map": "gate_01",
@@ -5111,16 +5142,1206 @@
 ]
 }
 ]
+},
+"gate_02_std": {
+"map": "gate_02",
+"waves": [
+{
+"wave": 1,
+"hpPct": 92,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 6,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 105,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 121,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 139,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 30
+},
+{
+"monster": "shadow_swarm",
+"count": 4,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 161,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 10,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 376,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_runner",
+"count": 4,
+"spacingTicks": 18
+},
+{
+"monster": "shadow_swarm",
+"count": 4,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 437,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 10,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 40
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 502,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 18
+},
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 40
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 624,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 10,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_swarm",
+"count": 8,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 881,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+},
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 24
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 1002,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 18
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 1110,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_flier",
+"count": 3,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 1220,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_flier",
+"count": 4,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_mender",
+"count": 2,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 1328,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_swarm",
+"count": 12,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_mender",
+"count": 3,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 1437,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_flier",
+"count": 5,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 1463,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 16,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_mender",
+"count": 3,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 1491,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 8,
+"spacingTicks": 32
+},
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_flier",
+"count": 6,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_mender",
+"count": 3,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 1518,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 16,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 32
+},
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 1545,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 12,
+"spacingTicks": 14
+},
+{
+"monster": "shadow_guard",
+"count": 8,
+"spacingTicks": 32
+},
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_flier",
+"count": 6,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_mender",
+"count": 4,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 1572,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+},
+{
+"monster": "shadow_grunt",
+"count": 4,
+"spacingTicks": 20
+}
+]
+}
+]
+},
+"gate_02_hard": {
+"map": "gate_02",
+"waves": [
+{
+"wave": 1,
+"hpPct": 156,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 6,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 178,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 205,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 236,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 272,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 10,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 585,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_runner",
+"count": 4,
+"spacingTicks": 18
+},
+{
+"monster": "shadow_swarm",
+"count": 4,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 682,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 10,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 40
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 780,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 18
+},
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 40
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 897,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 10,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_swarm",
+"count": 8,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 1267,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+},
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 24
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 1443,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 18
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 1599,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_flier",
+"count": 3,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 1755,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_flier",
+"count": 4,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_mender",
+"count": 2,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 1911,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_swarm",
+"count": 12,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_mender",
+"count": 3,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 2067,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_flier",
+"count": 5,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 2106,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 16,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_mender",
+"count": 3,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 2145,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 8,
+"spacingTicks": 32
+},
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_flier",
+"count": 6,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_mender",
+"count": 3,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 2184,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 16,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 32
+},
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 2223,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 12,
+"spacingTicks": 14
+},
+{
+"monster": "shadow_guard",
+"count": 8,
+"spacingTicks": 32
+},
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_flier",
+"count": 6,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_mender",
+"count": 4,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 2262,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+},
+{
+"monster": "shadow_grunt",
+"count": 4,
+"spacingTicks": 20
+}
+]
+}
+]
+},
+"gate_02_elite": {
+"map": "gate_02",
+"waves": [
+{
+"wave": 1,
+"hpPct": 198,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 6,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 228,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 261,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 300,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 347,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 10,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 861,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_runner",
+"count": 4,
+"spacingTicks": 18
+},
+{
+"monster": "shadow_swarm",
+"count": 4,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 1004,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 10,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 40
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 1148,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 18
+},
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 40
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 1319,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 10,
+"spacingTicks": 24
+},
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_swarm",
+"count": 8,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 1865,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+},
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 24
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 2123,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 18
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 2353,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_flier",
+"count": 3,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 2583,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_flier",
+"count": 4,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_mender",
+"count": 2,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 2812,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_swarm",
+"count": 12,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_mender",
+"count": 3,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 3042,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 22
+},
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+},
+{
+"monster": "shadow_flier",
+"count": 5,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 3099,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 16,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_mender",
+"count": 3,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 3157,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 8,
+"spacingTicks": 32
+},
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_flier",
+"count": 6,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_mender",
+"count": 3,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 3214,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 16,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 32
+},
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 3271,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 12,
+"spacingTicks": 14
+},
+{
+"monster": "shadow_guard",
+"count": 8,
+"spacingTicks": 32
+},
+{
+"monster": "shadow_grunt",
+"count": 14,
+"spacingTicks": 20
+},
+{
+"monster": "shadow_flier",
+"count": 6,
+"spacingTicks": 16
+},
+{
+"monster": "shadow_mender",
+"count": 4,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 3329,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+},
+{
+"monster": "shadow_grunt",
+"count": 4,
+"spacingTicks": 20
+}
+]
+}
+]
 }
 }
 },
-"at": "2026-11-16 09:43",
-"branch": "fin-plan",
-"dirty": false
+"at": "2026-11-16 10:16",
+"branch": "fin-core",
+"dirty": true
 },
 "maps": {
 "data": {
-"_note": "초안(2026-11-15). 좌표는 칸의 1/100, 캔버스(canvas.cols×rows 칸)의 왼쪽 위가 (0,0). 영역(4×5)의 왼쪽 위는 layout 의 origin 이고 칸 중심은 origin+(50,50)부터 100 간격. gate_01 1인: 영역 원점 (300,500), 길은 영역의 위·오른쪽·아래 세 면을 감싼다(영역 가장자리 칸에서 길까지 1칸). 사거리는 캐릭터가 선 칸의 중심에서 몬스터 위치까지 잰다.",
+"_note": "초안(2026-11-15). 좌표는 칸의 1/100, 캔버스(canvas.cols×rows 칸)의 왼쪽 위가 (0,0). 영역(4×5)의 왼쪽 위는 layout 의 origin 이고 칸 중심은 origin+(50,50)부터 100 간격. gate_01 1인: 영역 원점 (300,500), 길은 영역의 위·오른쪽·아래 세 면을 감싼다(영역 가장자리 칸에서 길까지 1칸). 사거리는 캐릭터가 선 칸의 중심에서 몬스터 위치까지 잰다. CD-0008 3차(결정 0043 초안·사용자 확인 대기): gate_02 «바윗골 관문» 1인: 영역 원점 (300,500) 그대로, 균열(왼쪽 위 250,50)에서 위쪽을 두 번 꺾어(ㄹ자) 내려와 영역의 왼쪽·아래·오른쪽을 감싸고 관문(오른쪽 위 750,450)에서 끝난다(29칸). 비행 길은 영역 위를 지나는 두 토막. viewArt = 그림 이름표 앞부분(새 그림이 없어 gate_01 그림을 쓴다), viewTint = 그 위에 덧칠할 색(#RRGGBB 또는 null) — 둘 다 화면 전용.",
 "maps": [
 {
 "id": "gate_01",
@@ -5188,13 +6409,89 @@
 "2": null,
 "3": null,
 "4": null
+},
+"viewArt": "map/gate_01",
+"viewTint": null
+},
+{
+"id": "gate_02",
+"name": "바윗골 관문",
+"canvas": {
+"cols": 9,
+"rows": 13
+},
+"viewArt": "map/gate_01",
+"viewTint": "#C8B49A",
+"layouts": {
+"1": {
+"fields": [
+{
+"player": 0,
+"origin": [
+300,
+500
+]
+}
+],
+"paths": [
+[
+[
+250,
+50
+],
+[
+650,
+50
+],
+[
+650,
+250
+],
+[
+250,
+250
+],
+[
+250,
+1050
+],
+[
+750,
+1050
+],
+[
+750,
+450
+]
+]
+],
+"flyPaths": [
+[
+[
+250,
+50
+],
+[
+450,
+750
+],
+[
+750,
+450
+]
+]
+]
+},
+"2": null,
+"3": null,
+"4": null
 }
 }
 ]
 },
-"at": "2026-11-16 01:59",
-"branch": "fin-plan",
-"dirty": false
+"at": "2026-11-16 10:13",
+"branch": "fin-core",
+"dirty": true
 },
 "missions": {
 "data": {
@@ -5562,13 +6859,16 @@
 "setCoinPct": {
 "gate_01_std": 100,
 "gate_01_hard": 150,
-"gate_01_elite": 200
+"gate_01_elite": 200,
+"gate_02_std": 100,
+"gate_02_hard": 150,
+"gate_02_elite": 200
 },
 "onlyRewardIsCoin": true
 },
-"at": "2026-11-16 09:43",
-"branch": "fin-plan",
-"dirty": false
+"at": "2026-11-16 10:16",
+"branch": "fin-core",
+"dirty": true
 },
 "growth": {
 "data": {
@@ -7234,8 +8534,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-16 09:46",
-"branch": "fin-outgame"
+"at": "2026-11-16 10:16",
+"branch": "fin-ingame"
 }
 },
 "devlog": [
@@ -7243,8 +8543,8 @@
 "file": "2026-11-16.md",
 "title": "2026-11-16",
 "html": "<h3>한 일</h3>\n<ul>\n<li>사용자가 그림 57장을 확정했다(결정 0032): 일러스트 24, 인게임 SD 24, 원화 3, 화면용 6.\n</li>\n<li>주문 CD-0006(판 밖 화면): 로딩·로비·캐릭터·박스 뽑기를 worktree <code>outgame</code> 에서 만들고, 인게임(CD-0005, 다른 세션, 커밋 bf8bcad)이 main 에 들어온 뒤 합쳤다. main = ee20ec1.\n<ul>\n<li>병합 충돌 3곳(GameApp, TempArtPostprocessor, SpriteCatalog)을 풀었다. 두 쪽이 그림 경로를 다르게 다루던 것(확장자 유무)을 이름표 기준으로 통일했고, 이름이 겹친 <code>Shake</code> 는 판 밖 것을 <code>OutgameShake</code> 로 바꿨다.\n</li>\n<li>판 밖 화면에 인게임의 UI 그림 세트를 입혔고, 앱을 켜면 첫 프레임부터 로딩 원화가 보이게 했다.\n</li></ul>\n</li>\n<li>빌드: PC <code>Builds/Windows/CoopDefense.exe</code>(약 143MB), 안드로이드 <code>Builds/Android/coopdefense-dev-arm64.apk</code>(37MB).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>합친 상태의 테스트: Core 126, EditMode 28, PlayMode 18 통과(건너뜀 2는 캡처용). main 에서 <code>python tools/studio.py check --unity</code> 통과(Core 126 · 데이터 · 그림 57장 · 설정 · EditMode 28/28). 독립 검수 PASS.\n</li>\n<li>PC 빌드를 직접 켜서: 로딩 원화 → 로비 → 박스 1장(D상, 코인 40→30, 남은 제비 79) → 로비 → 출전 → 새 판 화면에서 빈칸 소환(엘프 1단계가 서서 그림자 무리를 공격). 실행 로그에 오류 없음.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람(사용자) 플레이. 폰 설치와 터치로 제비 뜯기. 폰에서의 로딩 속도.\n</li>\n<li>worktree 에서 <code>unity test</code> CLI 는 13개만 돈 결과를 남겼다(직접 <code>-runTests</code> 로는 28개). main 에 합친 뒤 <code>studio.py check --unity</code> 는 28/28. CLI 가 worktree 가 아니라 main 체크아웃의 프로젝트를 돌린 것으로 보인다(증명은 못 함).\n</li>\n<li>판 화면 위 띠의 얼굴은 아직 기본 그림이다(대표 캐릭터를 읽지 않는다).\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: 빌드를 해 보고 피드백. 로비·박스·판 화면을 하나씩 다듬는다.\n</li>\n<li>육성(레벨·각성) 동작, 그림자 무리 군단 구성, 상위 성장 기획, 게임 이름.\n</li>\n<li>worktree <code>outgame</code> 은 main 에 다 들어갔다. 지워도 된다(사용자 확인 뒤).\n</li></ul>\n<h2>2026-11-16 새벽 — 밤사이 완성 묶음 (주문 CD-0007)</h2>\n<p>사용자가 자러 가며 «다른 세션이 끝나면 전체를 검토해 폴리싱하고, 만들려는 방향을 완성까지 개발해 빌드해 둬» 라고 했다. 인게임(CD-0005)·판 밖(CD-0006) 세션이 02:00 에 끝났고, 그 통합본 위에 줄기 <code>fin</code> 계열에서 만들어 main 에 합쳤다.</p>\n<h3>한 일</h3>\n<ul>\n<li>판 안: 종족별 강화(결정 0033), 캐릭터 레벨·각성의 피해 반영, 특성 24개(0034), 판이 진행될수록 높은 단계가 나오는 소환(0038), 난이도 단계 셋(0037), 웨이브 곡선을 내려가지 않게 다시 맞춤.\n</li>\n<li>판 밖: 레벨 업·각성, 업적 19·꾸밈 22(0035), 프로필, 설정·크레딧, 보상 단계(0036), 로비의 단계 고르기, 저장 구조 4.\n</li>\n<li>소리: CC0 효과음 59·음악 2 를 넣고 판 안팎에 연결. 전투 소리는 실시간 초당 7개로 묶음.\n</li>\n<li>연출·폴리싱: 종족별 공격 그림, 맞음·처치·소환·합성 연출, 상태 표시, 흔들림, 맵·HUD 다듬기, 첫 판 길잡이.\n</li>\n<li>모바일 대비: 앱이 뒤로 갈 때 저장·일시정지, 뒤로 가기, 버전 0.2.0.\n</li>\n<li>자동 한 바퀴 모드(<code>-cdAutoplay</code>)를 넣어 창을 누르지 않고 빌드를 검토했다.\n</li>\n<li>결정 0033~0038 은 전부 대표 초안이다(사용자 확인 대기, 각 결정에 되돌리는 법).\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li>Core 테스트 198, 유니티 EditMode 50, PlayMode 37 통과(건너뜀은 캡처·진단용). 데이터·그림 57장·설정 검사 통과. 독립 검수 PASS(사소 8).\n</li>\n<li>봇 20판: 보통 10승, 어려움·정예는 육성 단계별 목표 안. 4단계를 만든 판이 기본 봇 0 → 6, 몰아 키우는 봇 3 → 13.\n</li>\n<li>PC 빌드의 자동 한 바퀴: 로딩 → 로비 → 첫 판 → 결과 → 박스 10장 → 레벨 업 → 업적·프로필·설정 → 둘째 판, 끝 코드 0·문제 0. 레벨 업한 캐릭터가 다음 판에서 더 세다(테스트).\n</li>\n<li>소리 재생 수: 판 하나에서 7,701(초당 27) → 1,392(초당 7.6).\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>사람 플레이 0판. 창을 눌러 보지 못했다(조작 권한 승인을 받을 사람이 없었다).\n</li>\n<li>소리를 한 번도 듣지 못했다. 진동·터치·실기기·폰 설치.\n</li>\n<li>판 시작 프레임 끊김(약 320ms)이 남아 있다.\n</li>\n<li>새 그림은 0장이다(Codex 그림 상한 초과 상태라 부르지 않았다).\n</li></ul>\n<h3>사고</h3>\n<ul>\n<li>01:13 규칙 엔진 팀이 상대 경로 실수로 main 의 <code>GameConfig.cs</code> 를 덮어썼다가 2분쯤 뒤 원래 바이트로 되돌렸다. 그 뒤 팀에는 절대 경로로만 쓰게 했다.\n</li></ul>\n<h3>다음</h3>\n<ul>\n<li>사용자: 빌드(v0.2.0)를 해 보고 피드백, 소리 듣기, 결정 0033~0038 확인.\n</li>\n<li>협동(M4), 클라우드 저장·배포(계정 연결 뒤), 몬스터 유형 확장과 군단 구성, 판 시작 끊김, 그림(졸개 개성·꾸밈 본 그림·코인 아이콘).\n</li>\n<li>worktree <code>fin</code>·<code>fin-*</code> 여섯 개는 main 에 다 들어갔다. 지워도 된다(사용자 확인 뒤).\n</li></ul>\n<h3>오전 — 졸개 그림 변형 (주문 CD-0008)</h3>\n<ul>\n<li>검수에서 나온 «졸개가 복제한 듯 같다» 를 고쳤다: 변형 3장을 몬스터 묶음의 원래 Codex 세션을 이어 그리고(6회, 1차는 털·줄무늬·자주색으로 어긋나 셋 다 다시 뽑음), 몬스터 고유 번호로 그림을 고르게 했다.\n</li>\n<li>확인: Core 198, EditMode 52, PlayMode 37 통과·건너뜀 9, 캡처에서 변형 셋이 섞여 보임. 검수 PASS.\n</li>\n<li>확인 못 한 것: 사람 플레이. 기존 캡처 테스트(CaptureScreens)가 시간 초과로 실패하는 원인.\n</li></ul>",
-"at": "2026-11-16 09:43",
-"branch": "fin-plan"
+"at": "2026-11-16 10:11",
+"branch": "fin-core"
 },
 {
 "file": "2026-11-15.md",
@@ -7304,8 +8604,8 @@
 "sizeMB": 147.4,
 "branch": "fin-ingame",
 "local": "Builds\\Windows\\CoopDefense.exe",
-"release": "",
-"tag": ""
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261116-0946",
+"tag": "build-windows-20261116-0946"
 },
 {
 "kind": "android",
@@ -7349,6 +8649,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-windows-20261116-0946",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261116-0946",
+"kind": "windows",
+"at": "2026-11-16 09:46",
+"branch": "fin-ingame",
+"sizeMB": 55.1
+},
 {
 "tag": "build-android-20261116-0359",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-0359",
@@ -7399,7 +8707,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 09:47",
-"generatedAt": "2026-11-16 09:47",
-"digest": "b4f7cf7228352cdb"
+"sourceAt": "2026-11-16 10:17",
+"generatedAt": "2026-11-16 10:17",
+"digest": "ebc368d766d780af"
 }
