@@ -1463,8 +1463,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0015",
-"head": "68ff45b",
+"head": "50460c4",
 "commits": [
+{
+"sha": "50460c4",
+"at": "2026-11-17 02:38",
+"ts": 1794850686,
+"msg": "CD-0015 U2 (중간): 영웅 단계 구역·크롭 통일·쿠지 화면·재화 칩·보상 연출 + 업적·미션·은화 상점·결과(팀원) · 60턴에서 멈춤"
+},
 {
 "sha": "68ff45b",
 "at": "2026-11-17 02:01",
@@ -1494,51 +1500,49 @@
 "at": "2026-11-17 00:29",
 "ts": 1794842972,
 "msg": "CD-0015 기획: 판 밖 개편 수치 초안·검사·문서·기획서·로비 계약"
-},
-{
-"sha": "6b07a50",
-"at": "2026-11-17 00:01",
-"ts": 1794841270,
-"msg": "결정 0049(영웅·은화·연합의 결정·쿠지·행동력·계정 레벨·소환 90/10 고정 비용·자유 배치) · L10·L11 갱신 · 주문 CD-0015~0018 접수"
 }
 ],
-"dirtyCount": 7,
+"dirtyCount": 10,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/ShopScreen.cs",
-"at": "2026-11-17 02:16"
+"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
+"at": "2026-11-17 02:46"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/DailyScreen.cs",
-"at": "2026-11-17 02:14"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-17 02:46"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/AchievementBanner.cs",
-"at": "2026-11-17 02:13"
+"file": "test-results.xml",
+"at": "2026-11-17 02:46"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/AchievementScreen.cs",
-"at": "2026-11-17 02:13"
+"file": "UnityProject/Assets/Tests/PlayMode/Cd15HeroKujiTests.cs",
+"at": "2026-11-17 02:45"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ClaimRow.cs",
-"at": "2026-11-17 02:13"
+"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
+"at": "2026-11-17 02:45"
 },
 {
 "file": "UnityProject/Assets/_Game/UI/CurrencyChip.cs",
-"at": "2026-11-17 02:08"
+"at": "2026-11-17 02:44"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/RewardFx.cs",
-"at": "2026-11-17 02:08"
+"file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
+"at": "2026-11-17 02:42"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Bold SDF.asset",
+"at": "2026-11-17 02:42"
 }
 ],
-"lastEdit": "2026-11-17 02:16",
-"lastEditTs": 1794849393.275222,
-"lastCommitTs": 1794848488,
-"unpushed": 6,
-"notInMain": 5,
-"today": 8
+"lastEdit": "2026-11-17 02:46",
+"lastEditTs": 1794851192.267536,
+"lastCommitTs": 1794850686,
+"unpushed": 7,
+"notInMain": 6,
+"today": 9
 },
 {
 "branch": "cd16",
@@ -1863,15 +1867,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 127,
+"commits": 124,
 "byOrder": [
 [
 "CD-0008",
 23
-],
-[
-"CD-0007",
-14
 ],
 [
 "CD-0009",
@@ -1890,6 +1890,10 @@
 11
 ],
 [
+"CD-0007",
+10
+],
+[
 "CD-0013",
 9
 ],
@@ -1899,7 +1903,7 @@
 ],
 [
 "CD-0015",
-6
+7
 ],
 [
 "CD-0020",
@@ -1923,6 +1927,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "50460c4",
+"at": "2026-11-17 02:38",
+"msg": "CD-0015 U2 (중간): 영웅 단계 구역·크롭 통일·쿠지 화면·재화 칩·보상 연출 + 업적·미션·은화 상점·결과(팀원) · 60턴에서 멈춤"
+},
 {
 "sha": "61b045e",
 "at": "2026-11-17 02:04",
@@ -1967,11 +1976,6 @@
 "sha": "4fdd402",
 "at": "2026-11-17 01:37",
 "msg": "CD-0020 client D·E·크레딧: Fx 소재 반입(.meta), 토스트 글자 튀기, LitMotion MIT 고지"
-},
-{
-"sha": "cd8b323",
-"at": "2026-11-17 01:32",
-"msg": "CD-0016 U2·U3: 자유 배치 화면(길 칸 터치 없음·놓는 칸 빛·영웅 n/20 팝업·상한 흑백·현상금 목숨 알림) · 영웅 절차 애니메이션(숨쉬기·돌진·땅에서 솟음·합성·피격 눌림) · 판 안 PlayMode 시험 새 규칙으로"
 }
 ]
 },
@@ -3153,7 +3157,7 @@
 "id": "CD-0015",
 "title": "판 밖 개편 영웅 은화 연합의 결정 쿠지 행동력 계정 레벨 업적 미션 상점",
 "branch": "cd15",
-"updated": "2026-11-17 02:01",
+"updated": "2026-11-17 02:47",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3161,6 +3165,8 @@
 "21-core.md",
 "22-art.md",
 "23-client-state.md",
+"24-client-ui.md",
+"_qa",
 "contract-lobby.md"
 ],
 "milestone": "M3",
@@ -3206,8 +3212,8 @@
 "team": "client",
 "title": "화면: 영웅·쿠지·업적·미션(일일·주간)·상점(은화 상점 탭)·결과·우편함 글, 판 안 육성 줄",
 "output": "화면 코드, 캡처, 24-client-ui.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 24-client-ui.md"
 },
 {
 "id": "A1",
@@ -10142,7 +10148,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 02:16",
-"generatedAt": "2026-11-17 02:17",
-"digest": "e1e0c1a39f3934c2"
+"sourceAt": "2026-11-17 02:46",
+"generatedAt": "2026-11-17 02:47",
+"digest": "8c4ce1ad674c3f43"
 }
