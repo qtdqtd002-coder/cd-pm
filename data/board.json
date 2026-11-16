@@ -951,8 +951,14 @@
 "lane": "인게임",
 "session": "",
 "owns": "MatchScreen·BoardView·Core 판 규칙·Data 판 수치 · 주문 CD-0005",
-"head": "2e8e96c",
+"head": "3d881ee",
 "commits": [
+{
+"sha": "3d881ee",
+"at": "2026-11-16 13:22",
+"ts": 1794802934,
+"msg": "CD-0009 마감 초안에 2차 UX 감사 결과, 현황 사이트 다시 만듦"
+},
 {
 "sha": "2e8e96c",
 "at": "2026-11-16 13:04",
@@ -1036,48 +1042,10 @@
 "at": "2026-11-16 11:01",
 "ts": 1794794481,
 "msg": "CD-0009 제작 게이트: 화면 팀 보고 묶음"
-},
-{
-"sha": "069cc04",
-"at": "2026-11-16 11:00",
-"ts": 1794794457,
-"msg": "이 세션 주문 번호를 CD-0009 로(다른 세션 주문 CD-0008 «졸개 그림 변형» 과 겹치지 않게): 폴더·문서·결정 0039~0043 안의 번호"
 }
 ],
-"dirtyCount": 35,
+"dirtyCount": 27,
 "dirty": [
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-16 13:15"
-},
-{
-"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
-"at": "2026-11-16 13:13"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/UiResources.asset",
-"at": "2026-11-16 13:13"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/SpriteCatalog.asset",
-"at": "2026-11-16 13:13"
-},
-{
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/90-close.md",
-"at": "2026-11-16 13:05"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-16 13:05"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-16 13:05"
-},
-{
-"file": "studio/site/index.html",
-"at": "2026-11-16 12:19"
-},
 {
 "file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/sheet_2400_3.png",
 "at": "2026-11-16 00:50"
@@ -1125,12 +1093,44 @@
 {
 "file": "studio/orders/CD-0005-인게임-화면-재구성/_qa/edit.log",
 "at": "2026-11-16 00:47"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/11_result_win_1080x2400.png",
+"at": "2026-11-16 00:43"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/10_result_1080x2400.png",
+"at": "2026-11-16 00:43"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/09_menu_1080x2400.png",
+"at": "2026-11-16 00:43"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/08_life_1080x2400.png",
+"at": "2026-11-16 00:43"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/07_bounty_on_1080x2400.png",
+"at": "2026-11-16 00:42"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/06_bounty_1080x2400.png",
+"at": "2026-11-16 00:42"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/05_mission_1080x2400.png",
+"at": "2026-11-16 00:42"
+},
+{
+"file": "studio/orders/CD-0005-인게임-화면-재구성/shots5/04_drag_1080x2400.png",
+"at": "2026-11-16 00:42"
 }
 ],
-"lastEdit": "2026-11-16 13:15",
-"lastEditTs": 1794802507.5913284,
-"lastCommitTs": 1794801887,
-"unpushed": 132,
+"lastEdit": "2026-11-16 00:50",
+"lastEditTs": 1794757851.2407582,
+"lastCommitTs": 1794802934,
+"unpushed": 133,
 "today": 15
 },
 {
@@ -8622,8 +8622,8 @@
 "sizeMB": 41.1,
 "branch": "main",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "",
-"tag": ""
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1315",
+"tag": "build-android-20261116-1315"
 },
 {
 "kind": "windows",
@@ -8667,6 +8667,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261116-1315",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1315",
+"kind": "android",
+"at": "2026-11-16 13:15",
+"branch": "main",
+"sizeMB": 41.1
+},
 {
 "tag": "build-android-20261116-1212",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-1212",
@@ -8749,7 +8757,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-16 13:15",
-"generatedAt": "2026-11-16 13:17",
-"digest": "3fb033b7d80cb041"
+"sourceAt": "2026-11-16 13:22",
+"generatedAt": "2026-11-16 13:47",
+"digest": "1b8e14bf6fbcd786"
 }
