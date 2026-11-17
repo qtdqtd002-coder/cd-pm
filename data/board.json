@@ -1117,8 +1117,14 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0024",
-"head": "2f61c6b",
+"head": "5fc739f",
 "commits": [
+{
+"sha": "5fc739f",
+"at": "2026-11-17 23:51",
+"ts": 1794927097,
+"msg": "현황 사이트 다시 만들기: CD-0026 병합 뒤 board, check --unity (Core 403/403 · EditMode 151/151)"
+},
 {
 "sha": "2f61c6b",
 "at": "2026-11-17 23:43",
@@ -1148,19 +1154,17 @@
 "at": "2026-11-17 18:32",
 "ts": 1794907972,
 "msg": "Merge branch 'cd25'"
-},
-{
-"sha": "8ac0da4",
-"at": "2026-11-17 18:32",
-"ts": 1794907961,
-"msg": "CD-0025 마감: 90-close, 게이트 close, 마일스톤 M3-14, 개발일지 (main ff7b6d2 받은 뒤 check --unity: Core 403/403·EditMode 142/142, PlayMode 영웅·쿠지 11/11)"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 4,
 "dirty": [
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 18:39"
+"at": "2026-11-17 23:51"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-17 23:51"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
@@ -1171,12 +1175,12 @@
 "at": "2026-11-17 18:39"
 }
 ],
-"lastEdit": "2026-11-17 18:39",
-"lastEditTs": 1794908385.2307837,
-"lastCommitTs": 1794926631,
-"unpushed": 2,
+"lastEdit": "2026-11-17 23:51",
+"lastEditTs": 1794927081.5702188,
+"lastCommitTs": 1794927097,
+"unpushed": 3,
 "notInMain": 0,
-"today": 135
+"today": 0
 },
 {
 "branch": "rel-052",
@@ -1243,7 +1247,7 @@
 "lastCommitTs": 1794907543,
 "unpushed": 0,
 "notInMain": 0,
-"today": 122
+"today": 0
 },
 {
 "branch": "cd26",
@@ -1322,7 +1326,7 @@
 "lastCommitTs": 1794926595,
 "unpushed": 1,
 "notInMain": 0,
-"today": 134
+"today": 0
 },
 {
 "branch": "cd27",
@@ -1369,64 +1373,64 @@
 "msg": "앱 0.5.2 · versionCode 7 (CD-0024 UI 틀 폰 배포): AppUpdateCheck.BuiltInVersionCode 7, 0.5.2 Android 기본 빌드 content state·base_id c486f0b2"
 }
 ],
-"dirtyCount": 119,
+"dirtyCount": 123,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 23:47"
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/22-art.md",
+"at": "2026-11-17 23:57"
 },
 {
-"file": "test-results.xml",
-"at": "2026-11-17 23:37"
+"file": "studio/assets-ledger.csv",
+"at": "2026-11-17 23:56"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-17 23:37"
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/90-close.md",
+"at": "2026-11-17 23:56"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-17 23:37"
+"file": "docs/03-리소스계획.md",
+"at": "2026-11-17 23:56"
 },
 {
 "file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/00-order.md",
-"at": "2026-11-17 23:36"
+"at": "2026-11-17 23:55"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/21-client.md",
-"at": "2026-11-17 23:36"
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/30-qa.md",
+"at": "2026-11-17 23:55"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/cd27_craft_audit.md",
-"at": "2026-11-17 23:27"
+"file": "studio/checks.json",
+"at": "2026-11-17 23:54"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/cd27_zoom300.png",
-"at": "2026-11-17 23:26"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-17 23:47"
 }
 ],
-"lastEdit": "2026-11-17 23:47",
-"lastEditTs": 1794926847.7119067,
+"lastEdit": "2026-11-17 23:57",
+"lastEditTs": 1794927440.8041625,
 "lastCommitTs": 1794908395,
 "unpushed": 0,
 "notInMain": 0,
-"today": 133
+"today": 0
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 115,
+"commits": 104,
 "byOrder": [
 [
 "CD-0014",
-22
+19
 ],
 [
 "CD-0015",
-16
+15
 ],
 [
 "기타",
-14
+13
 ],
 [
 "CD-0016",
@@ -1453,20 +1457,16 @@
 6
 ],
 [
-"CD-0017",
-5
-],
-[
-"CD-0013",
-4
+"CD-0026",
+2
 ],
 [
 "CD-0019",
 2
 ],
 [
-"CD-0026",
-1
+"CD-0017",
+2
 ],
 [
 "CD-0022",
@@ -1478,6 +1478,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "5fc739f",
+"at": "2026-11-17 23:51",
+"msg": "현황 사이트 다시 만들기: CD-0026 병합 뒤 board, check --unity (Core 403/403 · EditMode 151/151)"
+},
 {
 "sha": "e145fe8",
 "at": "2026-11-17 23:43",
@@ -1522,11 +1527,6 @@
 "sha": "ff7b6d2",
 "at": "2026-11-17 18:17",
 "msg": "현황 사이트 다시 만들기: CD-0024 병합 뒤 board, check --unity (Core 382/382 · EditMode 141/141)"
-},
-{
-"sha": "6d254e5",
-"at": "2026-11-17 18:06",
-"msg": "CD-0025 균형: gate_02_hard 6웨이브부터 ×101%(×105% 되돌림), Map2Tests 40판·범위 ×2, 정예 L10/+0 상한 9(10배 전부터 8/40), HeroView.DamagePct* 삭제, 1만 판 48칸 ±3%p 이내"
 }
 ]
 },
@@ -3791,18 +3791,20 @@
 "id": "CD-0027",
 "title": "로비 상단 재화 아이콘 글자 외곽선 깜빡임 제거와 UI 제작 공정 스킬 안",
 "branch": "cd27",
-"updated": "2026-11-17 23:36",
+"updated": "2026-11-17 23:57",
 "files": [
 "00-order.md",
 "10-spec.md",
 "21-client.md",
 "22-art.md",
+"30-qa.md",
 "40-ui-skill-plan.md",
+"90-close.md",
 "_qa",
 "_research"
 ],
 "milestone": "M6",
-"stage": "검수",
+"stage": "마감",
 "route": "full",
 "risk": "mid",
 "teams": "art, client",
@@ -3818,7 +3820,7 @@
 "title": "글꼴 후보 비교판. 한글·숫자·라틴을 다 가진 OFL(또는 상업 게임 임베드가 명시적으로 허용된) 굵은 글꼴 후보 3개를 공식 배포처에서 받는다(지금 쓰는 Noto Sans KR 계열의 Black/ExtraBold 하나 + 둥근 게임체 둘 정도. 라이선스는 공식 페이지로 확인해 링크를 적는다). 각 후보로 실제 로비 문구(«모험가», «Lv.1», «60/60», «0», «500», «1,250», «숲길 관문», «보통 · 어려움 · 정예», «출전», «보통 · 보상 ×1», «오늘 목표», «0/5», «우편», «영웅 쿠지 로비 업적 상점»)를 밝은 채움 + 어두운 바깥 선 + 아래 그림자로 PIL 렌더해, 실제 로비 캡처의 같은 자리 크기로 한 장에 나란히 놓는다(지금 글꼴도 한 줄 포함). 1080 폭 실크기와 숫자 300% 확대를 같이.",
 "output": "_qa/cd27_font_compare.png, 후보별 라이선스 링크·글리프 수·파일 크기를 22-art.md 에",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A2",
@@ -3827,7 +3829,7 @@
 "title": "A1 에서 대표가 고른 글꼴 반입: TTF 를 UnityProject/Assets/_Game/Fonts/ 에, 라이선스 전문을 Resources/Credits/font-license.txt 에 덧붙이고, studio/assets-ledger.csv 에 적는다. (SDF 에셋 생성은 client C1)",
 "output": "글꼴 파일·장부",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A3",
@@ -3836,7 +3838,7 @@
 "title": "Codex 아이콘 5종(스킬 cd-art 절차): icon_stamina(번개), icon_silver(은화 여러 닢을 쌓아 올린 더미), icon_gemstone(젬스톤), icon_mission(오늘 목표), icon_mail(우편 — 지금은 코드 봉투 ThemeArt.Envelope). 그림체 기준은 지금 하단 탭 아이콘(Art/Temp/ui/tab_.png)과 영웅 그림 — 다섯 장이 하단 탭 다섯 장 옆에 놓였을 때 한 벌로 보여야 한다. 512×512 RGBA, 글자·숫자 없음, 속성 표현 금지 규칙은 «번개 = 행동력 기호» 로만 쓰고 공격 속성처럼 보이지 않게(전기 불꽃·번쩍임 효과 없이 단단한 노란 번개 모양 물건). 같은 세션에서 차례로 뽑아(gen.py --key a,b,…) 결을 맞춘다. 48px·72px 로 줄여서도 보고, 탭 아이콘과의 대조판을 만든다. 5장 + 재시도 항목당 1번까지(최대 10장).",
 "output": "art/final/ui/.png → Art/Final/ui/, _qa/cd27_icons_sheet.png, 장부·art-manifest.json 상태 draft",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -3845,7 +3847,7 @@
 "title": "글자 체계 하나로(TextStyle·TmpSetup): ① A2 의 글꼴로 SDF 에셋을 만들고 기본 글꼴로. ② 머티리얼 프리셋을 «누끼 글자» 결로 다시 정한다 — rim(밝은 글자 일반: 어두운 바깥 선 + 아래 그림자, 지금보다 확실히 굵게), number(숫자: 더 굵은 선), plain(종이·양피지 같은 밝은 면 위 본문만 어두운 잉크). ③ 지금 어두운 글자를 쓰는 색 바탕 버튼·칩(금색 [출전]·선택된 난이도 칸·«Lv.1» 칩 등)도 밝은 채움 + 어두운 선으로 바꾼다. 선 색은 순검정이 아니라 짙은 남색/짙은 갈색(Theme 의 잉크 색)에서 고른다. ④ 숫자 칸(재화·행동력·0/5·레벨)은 number 프리셋. 규칙을 TextStyle 머리 주석과 docs/03 §10 에 넣을 문장으로 보고서에 적는다.",
 "output": "코드, 전·후 캡처",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -3854,7 +3856,7 @@
 "title": "재화 줄 3칸: PurseBar 에서 연합의 결정 칸을 뺀다(행동력·은화·젬스톤). 남는 폭은 세 칸에 고르게. 아이콘은 이름표(ui/icon_stamina 등) 그대로 — A3 파일이 들어오면 파일만 바뀐다(L13). 영웅 탭(CharacterScreen)에 연합의 결정 칩이 보이는지 확인(이미 있으면 그대로, 글자 체계만 C1). 관련 시험이 4칸을 가정하면 3칸으로 고친다(통과시키려고 지우지 않는다).",
 "output": "코드·시험",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C3",
@@ -3863,7 +3865,7 @@
 "title": "반짝임 제거·배지로 대신: 버튼에 붙는 Gleam.Shine·Gleam.ShineWhile 호출을 모두 없앤다(로딩 로고 LoadingScreen·패치 막대 PatchScreen 은 남김 — 단 이 두 파일은 CD-0026 이 고치는 중이니 손대지 않는다). 받을 게 있는 곳(오늘 목표 받기, 우편 미수령, 업적 받기, 영웅 레벨 업·강화 가능, 쿠지 10회 가능 등 지금 반짝이던 곳)에는 공용 빨간 점 배지(움직이지 않음, 한 번 나타날 때만 짧은 팝 하나는 허용)를 붙인다. 배지가 이미 있는 곳은 그것을 쓴다. Gleam 의 흑백(잠김) 기능은 그대로.",
 "output": "코드·시험",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C4",
@@ -3872,7 +3874,7 @@
 "title": "오늘 목표·우편 입구: 새 아이콘(ui/icon_mission, 새 이름표 ui/icon_mail; 파일 없을 때는 지금 그림으로 물러남)을 키 안에 크게, 진행 수 0/5 는 키 아래쪽 배지(숫자 프리셋), 이름표 글자는 C1 결. 우편은 안 받은 수를 빨간 점/숫자 배지로.",
 "output": "코드",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C5",
@@ -3881,7 +3883,7 @@
 "title": "하단 탭: 탭 이름 글자를 C1 결로, 선택 탭과 안 선택 탭의 대비(글자 밝기·아이콘 크기)를 또렷하게. 탭 아이콘 그림은 그대로. 영웅 탭 배지(레벨 업 가능 등)도 C3 배지로.",
 "output": "코드",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C6",
@@ -3890,7 +3892,7 @@
 "title": "감사·캡처: 1080×2400 로비·영웅 탭·상점·우편·오늘 목표 전/후 캡처와 300% 확대 비교판, 공식 스킬 unity:craft-game-floors 로 로비·하단 탭 감사(_qa/cd27_craft_audit.md).",
 "output": "_qa/cd27_compare.png 등",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 }
 ]
 }
@@ -10278,7 +10280,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 22:48",
+"at": "2026-11-17 23:47",
 "passed": 403,
 "failed": 0,
 "total": 403,
@@ -10286,16 +10288,16 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-17 18:30",
+"at": "2026-11-17 18:39",
 "passed": 142,
 "failed": 0,
 "total": 142,
 "ok": true,
-"fresh": false
+"fresh": true
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 22:48",
+"at": "2026-11-17 23:47",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10303,7 +10305,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 22:48",
+"at": "2026-11-17 23:47",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10311,7 +10313,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 22:48",
+"at": "2026-11-17 23:47",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10523,7 +10525,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 23:47",
-"generatedAt": "2026-11-17 23:47",
-"digest": "763b2fc11fa97269"
+"sourceAt": "2026-11-17 23:57",
+"generatedAt": "2026-11-18 00:17",
+"digest": "95d9d69a85b38a3c"
 }
