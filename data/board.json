@@ -1150,8 +1150,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0024",
-"head": "2b62cd4",
+"head": "96fd720",
 "commits": [
+{
+"sha": "96fd720",
+"at": "2026-11-17 17:10",
+"ts": 1794903052,
+"msg": "CD-0024 client 2차: 코드 틀 폴리싱·기본값 전환"
+},
 {
 "sha": "2b62cd4",
 "at": "2026-11-17 16:08",
@@ -1181,55 +1187,49 @@
 "at": "2026-11-17 13:53",
 "ts": 1794891223,
 "msg": "CD-0014 폰 확인 기록: 0.5.0 → 필수 업데이트 창 → Firebase → 0.5.1 설치(사용자 11-17)"
-},
-{
-"sha": "f189c4a",
-"at": "2026-11-17 13:25",
-"ts": 1794889501,
-"msg": "앱 0.5.1 · versionCode 6 (CD-0014 폰 배포): AppUpdateCheck.BuiltInVersionCode 6, 0.5.1 Android 기본 빌드 content state·base_id 3beb8451"
 }
 ],
 "dirtyCount": 24,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScenee04e3b7e-4f3d-4091-9cb5-f69640c09c77.unity.meta",
-"at": "2026-11-17 16:46"
+"file": "UnityProject/Assets/InitTestScene91aa50ca-9191-487c-b7cf-89d3730d466a.unity.meta",
+"at": "2026-11-17 17:15"
 },
 {
-"file": "UnityProject/Assets/InitTestScenee04e3b7e-4f3d-4091-9cb5-f69640c09c77.unity",
-"at": "2026-11-17 16:46"
+"file": "UnityProject/Assets/InitTestScene91aa50ca-9191-487c-b7cf-89d3730d466a.unity",
+"at": "2026-11-17 17:15"
 },
 {
-"file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
-"at": "2026-11-17 16:44"
+"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/21-client.md",
+"at": "2026-11-17 17:15"
 },
 {
-"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Schemas/Art_BundledAssetGroupSchema.asset",
-"at": "2026-11-17 16:44"
+"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_match_pause.png",
+"at": "2026-11-17 17:14"
 },
 {
-"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
-"at": "2026-11-17 16:44"
+"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_match.png",
+"at": "2026-11-17 17:14"
 },
 {
-"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
-"at": "2026-11-17 16:44"
+"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_shop.png",
+"at": "2026-11-17 17:14"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/UiResources.asset",
-"at": "2026-11-17 16:44"
+"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_shop_confirm.png",
+"at": "2026-11-17 17:14"
 },
 {
-"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
-"at": "2026-11-17 16:44"
+"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_settings.png",
+"at": "2026-11-17 17:14"
 }
 ],
-"lastEdit": "2026-11-17 16:46",
-"lastEditTs": 1794901613.4846044,
-"lastCommitTs": 1794899325,
-"unpushed": 4,
-"notInMain": 4,
-"today": 115
+"lastEdit": "2026-11-17 17:15",
+"lastEditTs": 1794903318.084486,
+"lastCommitTs": 1794903052,
+"unpushed": 5,
+"notInMain": 5,
+"today": 116
 },
 {
 "branch": "cd25",
@@ -1276,43 +1276,43 @@
 "msg": "CD-0023 게이트 qa 통과"
 }
 ],
-"dirtyCount": 8,
+"dirtyCount": 31,
 "dirty": [
 {
-"file": "Core/package/Runtime/Match/GameMatch.Snapshot.cs",
-"at": "2026-11-17 16:47"
+"file": "UnityProject/Assets/_Game/Resources/Data/economy.json",
+"at": "2026-11-17 17:15"
 },
 {
-"file": "Core/package/Runtime/Meta/Heroes.cs",
-"at": "2026-11-17 16:47"
+"file": "studio/orders/CD-0025-영웅-팝업-스탯-표시와-공격력-체력-10배/_sim/compare-before-after.md",
+"at": "2026-11-17 17:13"
 },
 {
-"file": "Core/package/Runtime/Meta/MetaData.cs",
-"at": "2026-11-17 16:47"
+"file": "tools/sim/results/run-meta.json",
+"at": "2026-11-17 17:13"
 },
 {
-"file": "Core/package/Runtime/Match/GameMatch.Queries.cs",
-"at": "2026-11-17 16:46"
+"file": "tools/sim/results/summary.md",
+"at": "2026-11-17 17:13"
 },
 {
-"file": "Core/package/Runtime/Match/GameMatch.Growth.cs",
-"at": "2026-11-17 16:46"
+"file": "tools/sim/results/summary.json",
+"at": "2026-11-17 17:13"
 },
 {
-"file": "Core/package/Runtime/Match/GameMatch.cs",
-"at": "2026-11-17 16:45"
+"file": "studio/orders/CD-0025-영웅-팝업-스탯-표시와-공격력-체력-10배/_sim/baseline-5f7c367-summary.json",
+"at": "2026-11-17 17:11"
 },
 {
-"file": "Core/package/Runtime/Match/SimpleBot.cs",
-"at": "2026-11-17 16:45"
+"file": "studio/orders/CD-0025-영웅-팝업-스탯-표시와-공격력-체력-10배/_sim/baseline-5f7c367-summary.md",
+"at": "2026-11-17 17:11"
 },
 {
-"file": "Core/package/Runtime/Config/GameConfig.cs",
-"at": "2026-11-17 16:45"
+"file": "Core/tests/Fixtures/baseline_cd0023_seed7.txt",
+"at": "2026-11-17 17:04"
 }
 ],
-"lastEdit": "2026-11-17 16:47",
-"lastEditTs": 1794901634.8104713,
+"lastEdit": "2026-11-17 17:15",
+"lastEditTs": 1794903315.335371,
 "lastCommitTs": 1794901509,
 "unpushed": 1,
 "notInMain": 1,
@@ -1321,7 +1321,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 120,
+"commits": 119,
 "byOrder": [
 [
 "CD-0014",
@@ -1329,7 +1329,7 @@
 ],
 [
 "기타",
-17
+16
 ],
 [
 "CD-0015",
@@ -1352,11 +1352,11 @@
 7
 ],
 [
-"CD-0010",
-7
+"CD-0018",
+6
 ],
 [
-"CD-0018",
+"CD-0010",
 6
 ],
 [
@@ -1365,7 +1365,7 @@
 ],
 [
 "CD-0024",
-3
+4
 ],
 [
 "CD-0019",
@@ -1393,6 +1393,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "96fd720",
+"at": "2026-11-17 17:10",
+"msg": "CD-0024 client 2차: 코드 틀 폴리싱·기본값 전환"
+},
 {
 "sha": "0bd7ee9",
 "at": "2026-11-17 16:45",
@@ -1437,11 +1442,6 @@
 "sha": "abd3b91",
 "at": "2026-11-17 12:38",
 "msg": "CD-0023 QA: 수용 기준 1~14 통과 · 15 사람 플레이 검증 못 함 · 판정 PASS"
-},
-{
-"sha": "d336572",
-"at": "2026-11-17 12:20",
-"msg": "CD-0014 cd14-fix QA: 7차 후속 수정 검증 PASS (안드로이드 폴백은 사람 확인 남음)"
 }
 ]
 },
@@ -3348,7 +3348,7 @@
 "id": "CD-0024",
 "title": "UI 틀 코드 제작 시안 비교",
 "branch": "cd24",
-"updated": "2026-11-17 16:08",
+"updated": "2026-11-17 17:15",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3398,11 +3398,12 @@
 "id": "CD-0025",
 "title": "영웅 팝업 스탯 표시와 공격력 체력 10배",
 "branch": "cd25",
-"updated": "2026-11-17 16:45",
+"updated": "2026-11-17 17:13",
 "files": [
 "00-order.md",
 "10-spec.md",
-"20-planning.md"
+"20-planning.md",
+"_sim"
 ],
 "milestone": "M3",
 "stage": "제작",
@@ -4386,7 +4387,7 @@
 "waveGapTicks": 160,
 "bountyCooldownTicks": 900
 },
-"at": "2026-11-17 16:42",
+"at": "2026-11-17 17:14",
 "branch": "cd25",
 "dirty": false
 },
@@ -9870,10 +9871,10 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 12:20",
-"passed": 362,
+"at": "2026-11-17 16:50",
+"passed": 382,
 "failed": 0,
-"total": 362,
+"total": 382,
 "ok": true
 },
 "unity": {
@@ -9887,7 +9888,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 12:20",
+"at": "2026-11-17 16:50",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9895,7 +9896,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 12:20",
+"at": "2026-11-17 16:50",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9903,7 +9904,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 12:20",
+"at": "2026-11-17 16:50",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10115,7 +10116,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 16:47",
-"generatedAt": "2026-11-17 16:47",
-"digest": "3c77627fa65e53aa"
+"sourceAt": "2026-11-17 17:15",
+"generatedAt": "2026-11-17 17:17",
+"digest": "17ede3f9dd0e5da8"
 }
