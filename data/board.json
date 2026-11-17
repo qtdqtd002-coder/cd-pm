@@ -1150,8 +1150,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0024",
-"head": "04ad09d",
+"head": "57b0f84",
 "commits": [
+{
+"sha": "57b0f84",
+"at": "2026-11-17 14:22",
+"ts": 1794892966,
+"msg": "CD-0024 client: UI 틀 코드 시안(개발 스위치 -uiSkin code|art, 기본 그대로) · 틀 화면 캡처 -cdAutoplayShots · 비교판 _qa/cd24_compare.png"
+},
 {
 "sha": "04ad09d",
 "at": "2026-11-17 13:54",
@@ -1181,60 +1187,21 @@
 "at": "2026-11-17 12:38",
 "ts": 1794886728,
 "msg": "CD-0023 게이트 qa 통과"
-},
-{
-"sha": "abd3b91",
-"at": "2026-11-17 12:38",
-"ts": 1794886712,
-"msg": "CD-0023 QA: 수용 기준 1~14 통과 · 15 사람 플레이 검증 못 함 · 판정 PASS"
 }
 ],
-"dirtyCount": 36,
-"dirty": [
-{
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/21-client.md",
-"at": "2026-11-17 14:17"
-},
-{
-"file": "UnityProject/Assets/InitTestScene7f098146-6792-400f-952d-b7cc6fc773b8.unity.meta",
-"at": "2026-11-17 14:13"
-},
-{
-"file": "UnityProject/Assets/InitTestScene7f098146-6792-400f-952d-b7cc6fc773b8.unity",
-"at": "2026-11-17 14:13"
-},
-{
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_compare.png",
-"at": "2026-11-17 14:12"
-},
-{
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_art_skin_shop.png",
-"at": "2026-11-17 14:12"
-},
-{
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_code_skin_shop.png",
-"at": "2026-11-17 14:12"
-},
-{
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_now_skin_shop.png",
-"at": "2026-11-17 14:12"
-},
-{
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_art_skin_shop_confirm.png",
-"at": "2026-11-17 14:12"
-}
-],
-"lastEdit": "2026-11-17 14:17",
-"lastEditTs": 1794892624.021767,
-"lastCommitTs": 1794891262,
-"unpushed": 1,
-"notInMain": 1,
-"today": 111
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1794892966,
+"unpushed": 2,
+"notInMain": 2,
+"today": 112
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 127,
+"commits": 128,
 "byOrder": [
 [
 "CD-0014",
@@ -1281,12 +1248,12 @@
 5
 ],
 [
-"CD-0019",
+"CD-0024",
 2
 ],
 [
-"CD-0024",
-1
+"CD-0019",
+2
 ],
 [
 "CD-0022",
@@ -1302,6 +1269,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "57b0f84",
+"at": "2026-11-17 14:22",
+"msg": "CD-0024 client: UI 틀 코드 시안(개발 스위치 -uiSkin code|art, 기본 그대로) · 틀 화면 캡처 -cdAutoplayShots · 비교판 _qa/cd24_compare.png"
+},
 {
 "sha": "04ad09d",
 "at": "2026-11-17 13:54",
@@ -1346,11 +1318,6 @@
 "sha": "51b7824",
 "at": "2026-11-17 11:56",
 "msg": "CD-0023 client: 강화 창 단계 4줄(◆·단계 색)·스탯 카드 단계 강화·그 단계 영웅만 반짝임·도움말·거절 글·시험 새 API·CDSNAP6 포기 정산 시험·졸개 캡처 조건"
-},
-{
-"sha": "5d37342",
-"at": "2026-11-17 11:35",
-"msg": "통합 기록: main 최종 검사(check --unity: Core 362/362 · EditMode 132/132)·현황 사이트 다시 만듦·devlog 통합 절(남은 일: 원격 카탈로그 결함, CaptureGruntCrowd)"
 }
 ]
 },
@@ -3257,7 +3224,7 @@
 "id": "CD-0024",
 "title": "UI 틀 코드 제작 시안 비교",
 "branch": "cd24",
-"updated": "2026-11-17 14:17",
+"updated": "2026-11-17 14:22",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -9810,7 +9777,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 14:17",
-"generatedAt": "2026-11-17 14:17",
-"digest": "dca691284ad4d5da"
+"sourceAt": "2026-11-17 14:22",
+"generatedAt": "2026-11-17 14:47",
+"digest": "fe6cd5496c447d57"
 }
