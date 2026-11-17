@@ -951,6 +951,13 @@
 "title": "UI 틀 품질 올림: 코드로 굽는 나무·금·양피지 틀(CodeSkin)을 기본으로 — 나무결·금 모서리 덮개·굵은 잉크선·광택 키",
 "status": "done",
 "note": "CD-0024. Codex 틀 그림 대신 코드(공유 아틀라스 한 장, 로비 batches 62→49). 게이지·진행 막대 재질과 안드로이드 실기기 선명도는 남음"
+},
+{
+"id": "M6-19",
+"team": "client",
+"title": "로딩 인트로(균열 → 그림자 무리 → 줌아웃 → 타이틀 «포트메이츠» 디자인 로고)와 업데이트 창 개편, 업데이트 확인 글 없앰",
+"status": "active",
+"note": "CD-0026, 결정 0056. Codex 그림 6장(draft). 사람 플레이(연출 길이·느낌)·안드로이드 실기기 확인 대기"
 }
 ]
 },
@@ -1044,9 +1051,9 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-17 18:32",
-"branch": "main",
-"dirty": false
+"at": "2026-11-17 22:07",
+"branch": "cd26",
+"dirty": true
 },
 "pm": {
 "headline": [
@@ -1171,7 +1178,7 @@
 "lastEdit": "2026-11-17 18:39",
 "lastEditTs": 1794908385.2307837,
 "lastCommitTs": 1794908395,
-"unpushed": 1,
+"unpushed": 0,
 "notInMain": 0,
 "today": 133
 },
@@ -1287,32 +1294,52 @@
 "msg": "앱 0.5.2 · versionCode 7 (CD-0024 UI 틀 폰 배포): AppUpdateCheck.BuiltInVersionCode 7, 0.5.2 Android 기본 빌드 content state·base_id c486f0b2"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 70,
 "dirty": [
 {
-"file": "art/tools/gen.py",
-"at": "2026-11-17 21:46"
+"file": "UnityProject/Assets/InitTestSceneb0deef6d-4510-47ac-b7e6-83738e2266c5.unity.meta",
+"at": "2026-11-17 22:17"
 },
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/10-spec.md",
-"at": "2026-11-17 21:45"
+"file": "UnityProject/Assets/InitTestSceneb0deef6d-4510-47ac-b7e6-83738e2266c5.unity",
+"at": "2026-11-17 22:17"
 },
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/00-order.md",
-"at": "2026-11-17 21:45"
+"file": "UnityProject/Assets/Tests/PlayMode/Cd26ShotTests.cs",
+"at": "2026-11-17 22:17"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/LoadingIntro.cs",
+"at": "2026-11-17 22:17"
+},
+{
+"file": "studio/checks.json",
+"at": "2026-11-17 22:16"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-17 22:10"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/PatchScreen.cs",
+"at": "2026-11-17 22:09"
+},
+{
+"file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
+"at": "2026-11-17 22:07"
 }
 ],
-"lastEdit": "2026-11-17 21:46",
-"lastEditTs": 1794919605.1671488,
+"lastEdit": "2026-11-17 22:17",
+"lastEditTs": 1794921449.0327427,
 "lastCommitTs": 1794908395,
-"unpushed": 1,
+"unpushed": 0,
 "notInMain": 0,
 "today": 133
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 123,
+"commits": 121,
 "byOrder": [
 [
 "CD-0014",
@@ -1324,7 +1351,7 @@
 ],
 [
 "기타",
-15
+14
 ],
 [
 "CD-0016",
@@ -1339,11 +1366,11 @@
 9
 ],
 [
-"CD-0013",
-9
+"CD-0023",
+8
 ],
 [
-"CD-0023",
+"CD-0013",
 8
 ],
 [
@@ -3587,21 +3614,95 @@
 "id": "CD-0026",
 "title": "로딩 인트로 균열 침공 줌아웃 타이틀 로고와 업데이트 창 개편",
 "branch": "cd26",
-"updated": "2026-11-17 21:45",
+"updated": "2026-11-17 22:07",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"21-art.md"
 ],
 "milestone": "M6",
-"stage": "접수",
+"stage": "제작",
 "route": "full",
 "risk": "mid",
 "teams": "art, client",
 "opened": "2026-11-17",
 "closed": "",
-"goal": "",
-"goalShort": "",
-"tasks": []
+"goal": "<ol>\n<li><strong>앱을 켤 때 «업데이트 확인 중» 글이 없다.</strong> 확인하는 동안 화면에는 그림만 있다. 새 빌드가 있거나 받을 데이터가 있을 때만 창이 뜬다. 받는 중에는 지금처럼 막대와 «데이터 받는 중».\n</li>\n<li><strong>업데이트 창의 품질을 올린다.</strong> 그림(Codex: 두루마리를 든 전령 새)이 창 위로 걸쳐 나오고, 빛 무리가 그 뒤에서 돈다. 새 빌드 창은 «지금 버전 → 새 버전» 칩, 바뀐 내용(버전 파일의 <code>notes</code>)은 우물 칸에 왼쪽 정렬, 버튼은 큰 강조 키에 빛 쓸림. 받을 데이터 창은 용량 칩. 실패 창은 그림 없이 같은 틀.\n</li>\n<li><strong>로딩 화면을 인트로 연출로 바꾼다.</strong> 평온한 하늘(같은 원화에서 균열만 지운 그림)을 크게 당겨 보다가 → 하늘에 금이 가고 → 찢어지며 번쩍 → 그림자 무리가 카메라 쪽으로 쏟아져 나오고 → 카메라가 빠지며 지금 원화 전체(영웅 여섯이 성벽 위에서 균열을 봄)가 드러나고 → 타이틀 로고가 내려 박힌다 → 그 뒤는 지금처럼 천천히 움직이는 카메라(켄 번스)와 빛 알갱이.\n</li>\n<li><strong>타이틀은 «포트메이츠» 만</strong>, 글자 로고가 아니라 게임 타이틀 디자인(Codex: 금빛 글자 + 성벽 받침 + 검·활 + 파란 깃발)으로.\n</li></ol>",
+"goalShort": "1.",
+"tasks": [
+{
+"id": "A1",
+"key": "CD-0026/A1",
+"team": "art",
+"title": "Codex 6장: 평온한 하늘 원화 key/loading_calm, 하늘 균열 fx/rift, 그림자 무리 정면 비행 2프레임 fx/shade_up·fx/shade_down(결정 0053 색: 검은 남색 실루엣·청록 발광선, 보라 금지), 타이틀 로고 ui/logo_title(«포트메이츠» 철자 확인), 업데이트 창 그림 ui/update_art. 지시문 정본은 art/tools/gen.py",
+"output": "art/raw/ → 눈 검수",
+"status": "todo",
+"why": ""
+},
+{
+"id": "A2",
+"key": "CD-0026/A2",
+"team": "art",
+"title": "받아들이기: 원화는 --key, 나머지는 규격 맞춤(투명 여백 잘라 가로 ≤ 1200, 무리 두 장은 같은 캔버스 그대로 512×512 — 몸 위치가 프레임 사이에 같아야 날갯짓이 튀지 않는다). 목록·장부 기록, check.py 오류 0",
+"output": "art/final/{key,fx,ui}/…, studio/art-manifest.json, studio/assets-ledger.csv, art/tools/accept.py",
+"status": "todo",
+"why": ""
+},
+{
+"id": "A3",
+"key": "CD-0026/A3",
+"team": "art",
+"title": "tools/import_art.py 로 유니티에 복사(Art/Final/<이름표>.png)",
+"output": "UnityProject/Assets/_Game/Art/Final/",
+"status": "todo",
+"why": ""
+},
+{
+"id": "L1",
+"key": "CD-0026/L1",
+"team": "client",
+"title": "UiResources 에 인트로 그림 6장 참조를 더하고 ProjectSetup.BuildUiResources 가 이름표로 채운다(앱 안 그림 — CDN 을 읽기 전 첫 화면에 필요). 로고도 앱 안에서 읽는다(원격 카탈로그가 옛것이어도 나오게)",
+"output": "View/UiResources.cs, Editor/ProjectSetup.cs, Resources/UiResources.asset(배치 실행으로)",
+"status": "todo",
+"why": ""
+},
+{
+"id": "L2",
+"key": "CD-0026/L2",
+"team": "client",
+"title": "PatchBoot·PatchScreen: 확인 중 글 없음, 뒤판 = 인트로 첫 장면, 띠는 받는 중에만. 창 개편(목표 2). 기존 Ask 는 남기고 AskNewBuild·AskDownload·AskRetry 를 더한다",
+"output": "App/PatchBoot.cs, UI/PatchScreen.cs",
+"status": "todo",
+"why": ""
+},
+{
+"id": "L3",
+"key": "CD-0026/L3",
+"team": "client",
+"title": "인트로(목표 3·4): 새 UI/LoadingIntro.cs 가 시간표를 돌리고 LoadingScreen 이 그것을 붙인다. 막대·글·버전은 한 묶음(투명도)으로 인트로 끝에 나타난다. CanContinue = 불러오기 끝 ∧ 인트로 끝. 로고는 ui/logo_title(앱 안), OutgameBoot.FinishLoading 이 옛 ui/logo_text 를 덮지 않게",
+"output": "UI/LoadingScreen.cs, UI/LoadingIntro.cs, Outgame/OutgameBoot.cs",
+"status": "todo",
+"why": ""
+},
+{
+"id": "L4",
+"key": "CD-0026/L4",
+"team": "client",
+"title": "테스트: EditMode — 인트로 시간표(배율이 2.2 → 1, 끝에서 켄 번스와 이어짐, 건너뛰기, 그림 없으면 인트로 없음), 패치 화면 확인 중 글 없음·창 세 종류. 기존 테스트 중 «확인 중 글» 을 보던 줄은 새 동작으로 고친다(지우지 않는다)",
+"output": "Assets/Tests/EditMode/Cd26EditModeTests.cs, PlayMode/PatchBootTests.cs",
+"status": "todo",
+"why": ""
+},
+{
+"id": "L5",
+"key": "CD-0026/L5",
+"team": "client",
+"title": "캡처: 인트로 6장면(평온 · 금 · 찢어짐 · 무리 · 줌아웃 중 · 타이틀 뒤) + 업데이트 창 3종 + 받는 중 막대, 1080×1920. _qa/ 에",
+"output": "studio/orders/CD-0026-…/_qa/.png",
+"status": "todo",
+"why": ""
+}
+]
 }
 ],
 "decisions": [
@@ -4063,9 +4164,9 @@
 "kind": "confirmed",
 "date": "2026-11-17",
 "by": "사용자",
-"html": "<div class=tw><table><thead><tr><th>쓰는 곳</th><th>한국어</th><th>영어(해외판)</th></tr></thead><tbody><tr><td><strong>게임 이름(정식)</strong></td><td><strong>포트메이츠: 같이 지킬래?</strong></td><td><strong>Fortmates: Guard With Me?</strong></td></tr><tr><td>이름 본체(짧게 부를 때, 로고 큰 글자)</td><td>포트메이츠</td><td>Fortmates</td></tr><tr><td>부제(친구에게 건네는 말, 로고 작은 글자)</td><td>같이 지킬래?</td><td>Guard With Me?</td></tr><tr><td>폰 홈 화면 글자(안드로이드)</td><td><strong>포트메이츠</strong> — 런처 글자 칸이 짧아 부제는 넣지 않는다</td><td>Fortmates</td></tr><tr><td>로딩 화면 타이틀 로고 <code>ui/logo_text</code></td><td>두 줄: 큰 «포트메이츠» + 아래 작은 «같이 지킬래?»</td><td>(현지화 때 같은 틀로 따로 만든다)</td></tr></tbody></table></div>\n<ul>\n<li>띄어쓰기·문장부호는 위 표 그대로다. «포트 메이츠»(띄움)·«포트메이트»(단수)·«같이 지킬래»(물음표 없음)로 쓰지 않는다.\n</li>\n<li>뜻: fort(요새) + mates(동료) = «요새를 같이 지키는 동료들». 부제는 친구에게 같이 하자고 권하는 말이다.\n</li>\n<li><strong>폴더·저장소·유니티 제품명은 <code>CoopDefense</code> 그대로 둔다.</strong> 결정 0030 은 «이름이 정해질 때 한 번에 바꾼다» 고 적었지만, 그때 적은 이유(절대 경로가 여러 곳에 걸림, 제품명을 바꾸면 PC 저장 폴더 <code>LocalLow/local/CoopDefense</code> 와 창 제목이 바뀜 — 0041)가 지금도 그대로이고, 지금 worktree 8곳에서 다른 주문이 돌고 있다. 바꿀지는 출시 준비(M7) 때 사용자에게 따로 묻는다.\n</li>\n<li>코드 네임스페이스 <code>Game.*</code>, 문서 안의 주문 번호 접두사 <code>CD-</code>, 스킬 이름 <code>cd-art</code>·<code>cd-canon</code> 은 그대로 둔다(이름과 무관한 식별자다).\n</li></ul>",
+"html": "<div class=tw><table><thead><tr><th>쓰는 곳</th><th>한국어</th><th>영어(해외판)</th></tr></thead><tbody><tr><td><strong>게임 이름(정식)</strong></td><td><strong>포트메이츠: 같이 지킬래?</strong></td><td><strong>Fortmates: Guard With Me?</strong></td></tr><tr><td>이름 본체(짧게 부를 때, 로고 큰 글자)</td><td>포트메이츠</td><td>Fortmates</td></tr><tr><td>부제(친구에게 건네는 말, 로고 작은 글자)</td><td>같이 지킬래?</td><td>Guard With Me?</td></tr><tr><td>폰 홈 화면 글자(안드로이드)</td><td><strong>포트메이츠</strong> — 런처 글자 칸이 짧아 부제는 넣지 않는다</td><td>Fortmates</td></tr><tr><td>로딩 화면 타이틀 로고 <code>ui/logo_text</code></td><td>두 줄: 큰 «포트메이츠» + 아래 작은 «같이 지킬래?» — <strong>결정 0056 이 대체: «포트메이츠» 한 줄 디자인 로고 <code>ui/logo_title</code></strong></td><td>(현지화 때 같은 틀로 따로 만든다)</td></tr></tbody></table></div>\n<ul>\n<li>띄어쓰기·문장부호는 위 표 그대로다. «포트 메이츠»(띄움)·«포트메이트»(단수)·«같이 지킬래»(물음표 없음)로 쓰지 않는다.\n</li>\n<li>뜻: fort(요새) + mates(동료) = «요새를 같이 지키는 동료들». 부제는 친구에게 같이 하자고 권하는 말이다.\n</li>\n<li><strong>폴더·저장소·유니티 제품명은 <code>CoopDefense</code> 그대로 둔다.</strong> 결정 0030 은 «이름이 정해질 때 한 번에 바꾼다» 고 적었지만, 그때 적은 이유(절대 경로가 여러 곳에 걸림, 제품명을 바꾸면 PC 저장 폴더 <code>LocalLow/local/CoopDefense</code> 와 창 제목이 바뀜 — 0041)가 지금도 그대로이고, 지금 worktree 8곳에서 다른 주문이 돌고 있다. 바꿀지는 출시 준비(M7) 때 사용자에게 따로 묻는다.\n</li>\n<li>코드 네임스페이스 <code>Game.*</code>, 문서 안의 주문 번호 접두사 <code>CD-</code>, 스킬 이름 <code>cd-art</code>·<code>cd-canon</code> 은 그대로 둔다(이름과 무관한 식별자다).\n</li></ul>",
 "branch": "cd26",
-"dirty": false
+"dirty": true
 },
 {
 "id": "0053",
@@ -4099,6 +4200,17 @@
 "html": "<ol>\n<li><strong>영웅 팝업에 스탯을 보인다</strong>: 공격력, 공격 속도, 사거리, 초당 피해, 종족 특기(치명타·범위·감속·관통·여파 중 그 종족의 것).\n</li>\n<li><strong>레벨 업·강화는 «공격력» 을 올린다.</strong> 버튼과 팝업에는 «공격력 지금 → 다음» 숫자를 보인다. «피해 %» 표시는 없앤다.\n</li>\n<li><strong>피해 단위 10배</strong>: 판정의 피해·체력 숫자를 모두 10배로 한다. 비율(%)·시간(틱)·사거리·골드·확률은 그대로다. 난이도(봇 승률)는 바뀌지 않아야 한다.\n</li></ol>",
 "branch": "main",
 "dirty": false
+},
+{
+"id": "0056",
+"title": "로딩 인트로 연출(균열 → 침공 → 줌아웃 → 타이틀)과 타이틀 로고 «포트메이츠» 한 줄 · 업데이트 확인 글 없앰",
+"status": "확정(사용자 지시) · 연출 세부(시간표·배율)는 대표 초안 — 사용자가 실제로 켜 보고 다듬는다",
+"kind": "confirmed",
+"date": "2026-11-17",
+"by": "사용자",
+"html": "<ol>\n<li><strong>로딩 화면 타이틀은 «포트메이츠» 한 줄</strong>이다. 부제 «같이 지킬래?» 는 로딩 화면에 쓰지 않는다. 게임의 정식 이름(«포트메이츠: 같이 지킬래?»)·영어 이름·홈 화면 글자는 0052 그대로다.\n</li>\n<li>타이틀은 <strong>Codex 가 그린 디자인 로고</strong>(<code>ui/logo_title</code>: 금빛 글자 + 성벽 받침 + 검·활 + 파란 깃발)다. 코드로 구운 글자 로고 <code>ui/logo_text</code> 는 로딩 화면에서 쓰지 않는다(파일은 남는다).\n</li>\n<li><strong>로딩 화면은 인트로 연출로 시작한다</strong>: 평온한 하늘 → 금 → 찢어짐 → 그림자 무리가 카메라 쪽으로 → 줌아웃으로 원화 전체 → 타이틀 등장 → 켄 번스. 말·글이 없는 그림 연출이라 결정 0009(스토리 없음 — 대사·컷신·설정 글 없음, 그림·배경으로만 전한다)와 맞는다. 인트로 중 탭은 건너뛰기.\n</li>\n<li>인트로의 그림자 무리는 결정 0053 의 그림자 무리 모양(검은 남색 실루엣·청록 발광선·검은 연기, 보라·빨강 없음)을 따른다. 균열 자체의 보라 테두리는 확정 원화(<code>key/loading</code>)의 균열 색을 따른다.\n</li>\n<li><strong>패치 화면은 확인하는 동안 글을 보이지 않는다.</strong> 새 빌드·받을 데이터가 있을 때만 창이 뜨고, 받는 중에만 막대와 «데이터 받는 중» 이 보인다. 패치 화면의 뒤판은 인트로의 첫 장면(평온한 하늘)이다.\n</li></ol>",
+"branch": "cd26",
+"dirty": true
 }
 ],
 "docs": [
@@ -7744,6 +7856,11 @@
 "note": "세로 9:16 한 장짜리 그림"
 },
 {
+"id": "intro",
+"title": "로딩 인트로·타이틀",
+"note": "CD-0026: 균열 → 그림자 무리 → 줌아웃 → 타이틀. 원화 key/loading_calm 은 원화 묶음에"
+},
+{
 "id": "ui",
 "title": "화면용 그림(제비·아이콘)",
 "note": "512×512 투명"
@@ -7779,6 +7896,14 @@
 "title": "로딩 화면 원화",
 "brief": "세로 9:16. 관문 앞의 여섯 종족과 하늘의 그림자 균열. 로고 자리 비움",
 "status": "confirmed",
+"hasFile": true
+},
+{
+"id": "key/loading_calm",
+"group": "key",
+"title": "로딩 원화 — 평온한 하늘(인트로 첫 장면)",
+"brief": "key/loading 과 같은 그림에서 균열·그림자 무리만 지운 판. 인트로가 이 하늘을 당겨 보다가 찢는다(CD-0026)",
+"status": "draft",
 "hasFile": true
 },
 {
@@ -8522,11 +8647,56 @@
 "status": "confirmed",
 "address": "ui/icon_coin",
 "hasFile": true
+},
+{
+"id": "ui/update_art",
+"group": "ui",
+"title": "업데이트 창 그림(두루마리를 든 전령 새)",
+"brief": "업데이트 창 그림: 두루마리를 든 전령 새(글자 없음)",
+"status": "draft",
+"address": "ui/update_art",
+"hasFile": true
+},
+{
+"id": "ui/logo_title",
+"group": "intro",
+"title": "타이틀 로고 «포트메이츠»",
+"brief": "로딩 타이틀 «포트메이츠» 한 줄 디자인 로고: 금빛 글자, 성벽 받침, 검·활, 파란 깃발(결정 0056)",
+"status": "draft",
+"address": "ui/logo_title",
+"hasFile": true
+},
+{
+"id": "fx/rift",
+"group": "intro",
+"title": "인트로: 하늘이 찢어지는 균열",
+"brief": "인트로: 하늘이 유리처럼 찢어지는 균열(보라 테두리 — 원화의 균열 색)",
+"status": "draft",
+"address": "fx/rift",
+"hasFile": true
+},
+{
+"id": "fx/shade_up",
+"group": "intro",
+"title": "인트로: 그림자 무리 정면 비행(날개 위)",
+"brief": "인트로: 카메라 쪽으로 날아오는 그림자 무리(정면), 날개 위 — 결정 0053 색",
+"status": "draft",
+"address": "fx/shade_up",
+"hasFile": true
+},
+{
+"id": "fx/shade_down",
+"group": "intro",
+"title": "인트로: 그림자 무리 정면 비행(날개 아래)",
+"brief": "인트로: 같은 개체 날개 아래(날갯짓 2프레임, 같은 캔버스)",
+"status": "draft",
+"address": "fx/shade_down",
+"hasFile": true
 }
 ],
-"at": "2026-11-17 16:40",
+"at": "2026-11-17 21:54",
 "branch": "cd26",
-"dirty": false
+"dirty": true
 },
 "gallery": {
 "v": 1,
@@ -8543,6 +8713,11 @@
 },
 "key/loading": {
 "f": "data/art/391565b960eda2ac005c.bin",
+"w": 720,
+"h": 1280
+},
+"key/loading_calm": {
+"f": "data/art/f2e51049b11617f1ace9.bin",
 "w": 720,
 "h": 1280
 },
@@ -8903,6 +9078,31 @@
 },
 "ui/icon_coin": {
 "f": "data/art/27c6e9979b5e35081b6a.bin",
+"w": 512,
+"h": 512
+},
+"ui/update_art": {
+"f": "data/art/216835f1be84d0583b8c.bin",
+"w": 512,
+"h": 512
+},
+"ui/logo_title": {
+"f": "data/art/22c8b275fb5a45f1c6f0.bin",
+"w": 1200,
+"h": 762
+},
+"fx/rift": {
+"f": "data/art/4a5e19cf3fefb3d85b58.bin",
+"w": 1200,
+"h": 397
+},
+"fx/shade_up": {
+"f": "data/art/49721690f32cbef341ed.bin",
+"w": 512,
+"h": 512
+},
+"fx/shade_down": {
+"f": "data/art/188eccd060a59e0047e6.bin",
 "w": 512,
 "h": 512
 }
@@ -9877,7 +10077,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 18:32",
+"at": "2026-11-17 22:09",
 "passed": 403,
 "failed": 0,
 "total": 403,
@@ -9885,16 +10085,16 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-17 18:39",
+"at": "2026-11-17 18:30",
 "passed": 142,
 "failed": 0,
 "total": 142,
 "ok": true,
-"fresh": true
+"fresh": false
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 18:32",
+"at": "2026-11-17 22:09",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9902,7 +10102,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 18:32",
+"at": "2026-11-17 22:09",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9910,7 +10110,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 18:32",
+"at": "2026-11-17 22:09",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10122,7 +10322,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 21:46",
-"generatedAt": "2026-11-17 21:47",
-"digest": "a36e3d597bc87471"
+"sourceAt": "2026-11-17 22:17",
+"generatedAt": "2026-11-17 22:17",
+"digest": "79f70829b93af5b2"
 }
