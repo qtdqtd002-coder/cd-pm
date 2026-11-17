@@ -1150,8 +1150,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0024",
-"head": "57b0f84",
+"head": "2b62cd4",
 "commits": [
+{
+"sha": "2b62cd4",
+"at": "2026-11-17 16:08",
+"ts": 1794899325,
+"msg": "CD-0024 2차 범위: 폴리싱·기본값 전환(사용자 지시 11-17)"
+},
+{
+"sha": "6f6fa6b",
+"at": "2026-11-17 16:08",
+"ts": 1794899297,
+"msg": "Merge remote-tracking branch 'origin/main' into cd24"
+},
 {
 "sha": "57b0f84",
 "at": "2026-11-17 14:22",
@@ -1165,43 +1177,64 @@
 "msg": "CD-0024 주문서·기획서: UI 틀 코드 제작 시안 비교"
 },
 {
+"sha": "35fb47c",
+"at": "2026-11-17 13:53",
+"ts": 1794891223,
+"msg": "CD-0014 폰 확인 기록: 0.5.0 → 필수 업데이트 창 → Firebase → 0.5.1 설치(사용자 11-17)"
+},
+{
 "sha": "f189c4a",
 "at": "2026-11-17 13:25",
 "ts": 1794889501,
 "msg": "앱 0.5.1 · versionCode 6 (CD-0014 폰 배포): AppUpdateCheck.BuiltInVersionCode 6, 0.5.1 Android 기본 빌드 content state·base_id 3beb8451"
-},
-{
-"sha": "94706e2",
-"at": "2026-11-17 12:52",
-"ts": 1794887521,
-"msg": "CD-0023 마감: 90-close, 게이트 close, 마일스톤 M2-13, 개발일지 (main d2fc6c5 받은 뒤 check --unity: Core 382/382·EditMode 134/134)"
-},
-{
-"sha": "d5a4f3d",
-"at": "2026-11-17 12:38",
-"ts": 1794886728,
-"msg": "Merge main(d2fc6c5) into cd23: CD-0014 원격 카탈로그 수정"
-},
-{
-"sha": "13f8abc",
-"at": "2026-11-17 12:38",
-"ts": 1794886728,
-"msg": "CD-0023 게이트 qa 통과"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1794892966,
-"unpushed": 2,
-"notInMain": 2,
-"today": 112
+"dirtyCount": 10,
+"dirty": [
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
+"at": "2026-11-17 16:15"
+},
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Schemas/Art_BundledAssetGroupSchema.asset",
+"at": "2026-11-17 16:15"
+},
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
+"at": "2026-11-17 16:15"
+},
+{
+"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
+"at": "2026-11-17 16:15"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/UiResources.asset",
+"at": "2026-11-17 16:15"
+},
+{
+"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
+"at": "2026-11-17 16:15"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-17 16:15"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-17 16:15"
+}
+],
+"lastEdit": "2026-11-17 16:15",
+"lastEditTs": 1794899745.1111658,
+"lastCommitTs": 1794899325,
+"unpushed": 4,
+"notInMain": 4,
+"today": 115
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 125,
+"commits": 124,
 "byOrder": [
 [
 "CD-0014",
@@ -1244,12 +1277,12 @@
 5
 ],
 [
-"CD-0011",
-5
+"CD-0024",
+3
 ],
 [
-"CD-0024",
-2
+"CD-0011",
+3
 ],
 [
 "CD-0019",
@@ -1269,6 +1302,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "2b62cd4",
+"at": "2026-11-17 16:08",
+"msg": "CD-0024 2차 범위: 폴리싱·기본값 전환(사용자 지시 11-17)"
+},
 {
 "sha": "57b0f84",
 "at": "2026-11-17 14:22",
@@ -1313,11 +1351,6 @@
 "sha": "436d09c",
 "at": "2026-11-17 12:06",
 "msg": "CD-0014 7차: 원격 카탈로그 불일치 — 카탈로그 이름에 기본 빌드 식별자, 앱 안 카탈로그로 되돌리는 안전망, 투어 부팅 훅"
-},
-{
-"sha": "51b7824",
-"at": "2026-11-17 11:56",
-"msg": "CD-0023 client: 강화 창 단계 4줄(◆·단계 색)·스탯 카드 단계 강화·그 단계 영웅만 반짝임·도움말·거절 글·시험 새 API·CDSNAP6 포기 정산 시험·졸개 캡처 조건"
 }
 ]
 },
@@ -2394,8 +2427,8 @@
 {
 "id": "CD-0014",
 "title": "Addressables CCD 원격 그림 갱신",
-"branch": "main",
-"updated": "2026-11-17 13:54",
+"branch": "cd24",
+"updated": "2026-11-17 16:08",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3224,7 +3257,7 @@
 "id": "CD-0024",
 "title": "UI 틀 코드 제작 시안 비교",
 "branch": "cd24",
-"updated": "2026-11-17 14:22",
+"updated": "2026-11-17 16:08",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3790,8 +3823,8 @@
 "file": "docs/14-배포-저장.md",
 "title": "14. 핸드폰 설치 · 새 빌드 · 콘텐츠 갱신 · 유저 정보 저장",
 "html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0009: §3-1~3-5 이어 하기·백업·기기 설정·버전 0.3.0 — 결정 0040·0041 사용자 확인 대기) · 2026-11-16(§3-4 저장 구조 버전 8 까지: 맵 고르기 CD-0009 · 상점·우편함 CD-0011) · 2026-11-16(§1-1·1-2 구축: Unity Cloud·CCD 버킷·Firebase·고정 서명 키·배포 한 줄 명령) · 상태: 구성 추천안(공식 문서·요금 페이지 확인, 2026-11-15). <strong>계정 연결은 사용자가 해야 한다.</strong>\n</li>\n<li>목표: 개발하는 동안 핸드폰에 설치해서 해 보고, 새 빌드를 받고, 그림·수치를 앱 재설치 없이 바꾸고, 유저 정보를 서버에 저장한다. 비용은 0에 가깝게.\n</li></ul>\n<h3>1. 고른 구성</h3>\n<div class=tw><table><thead><tr><th>필요</th><th>고른 것</th><th>무료 범위(공식)</th><th>비고</th></tr></thead><tbody><tr><td>핸드폰에 새 빌드 받기</td><td><strong>Firebase App Distribution</strong> + 평소엔 USB <code>adb install -r</code></td><td>무료(수치 한도 없음)</td><td>새 빌드를 올리면 폰에 알림. 출시 직전에 Google Play 내부 테스트(등록비 US$25 한 번)</td></tr><tr><td>그림·데이터를 재설치 없이 갱신</td><td><strong>Addressables 2.10.3 + Unity Cloud Content Delivery(CCD)</strong></td><td>대역폭 월 50 GB, 저장 무료</td><td>버킷(개발/출시) → 릴리스 → 배지(<code>latest</code>)</td></tr><tr><td>수치만 가볍게 바꾸기</td><td><strong>Unity Remote Config</strong></td><td>전부 무료</td><td><code>Data/*.json</code> 을 원격 값으로 덮어쓴다</td></tr><tr><td>계정</td><td><strong>Unity Authentication</strong> 익명 로그인</td><td>전부 무료</td><td>출시 전 Google Play Games 연결(기기 변경 대비)</td></tr><tr><td>유저 정보 저장</td><td><strong>Unity Cloud Save</strong></td><td>저장 5 GiB, 읽기·쓰기 각 100만 회</td><td>플레이어당 키 2,000개·5 MiB</td></tr><tr><td>서버에서 뽑기·재화 처리</td><td><strong>Unity Cloud Code</strong> (출시 전)</td><td>호출 100만 회</td><td>★ 최신 패키지 3.0 은 Unity 6.7 이상. <strong>6.3 에서 쓸 수 있는 버전이 있는지 먼저 확인해야 한다</strong></td></tr><tr><td>협동 중계</td><td>Unity Relay (M4)</td><td>월평균 동시접속 50명</td><td>결정 0003</td></tr></tbody></table></div>\n<ul>\n<li><strong>Unity Economy 는 쓸 수 없다.</strong> 2026-09-08 부터 새 프로젝트 가입을 받지 않는다. 재화·상자는 Cloud Save 에 직접 저장한다.\n</li>\n<li>한 곳(Unity Gaming Services)으로 모은 이유: 협동(Relay)에 어차피 Unity 계정과 인증이 필요하고, 대시보드와 명령 도구가 하나다. 빌드 배포만 Firebase 를 쓴다.\n</li>\n<li>위험: Unity 는 서비스를 접은 적이 있다(Multiplay 2026-03, Economy 신규 중단). 그래서 저장·뽑기 코드는 <strong>인터페이스 뒤에 숨겨</strong> 다른 서버로 바꿀 수 있게 만든다.\n</li>\n<li><strong>Firebase App Distribution 은 테스트 기간용이다.</strong> 실서비스 앱 배포는 Google Play 가 맡는다(M7). CCD·UGS·서명 키는 실서비스까지 그대로 간다.\n</li></ul>\n<h3>1-1. 계정과 연결 (2026-11-16 구축, 대표 직접)</h3>\n<div class=tw><table><thead><tr><th>무엇</th><th>값</th><th>확인</th></tr></thead><tbody><tr><td>Unity Cloud 프로젝트</td><td><code>CoopDefense</code> · id <code>f4c4460b-2b57-4c46-9485-ab701b3cfd7b</code> · 조직 <code>dbc594f4-…</code>(genesis 14568767606770) · COPPA «아동 대상 아님»</td><td><code>unity projects link cloud</code> 로 만들고 대시보드에서 이름을 바꿨다. <code>ProjectSettings</code> 의 <code>projectName</code> 은 아직 <code>UnityProject</code>(에디터가 열 때 맞추는지 확인 안 함)</td></tr><tr><td>CCD</td><td>가입(주문 OC-00151164, $0, 월 50 GB 넘으면 GB당 $0.08) · 환경 <code>production</code> · 버킷 <strong><code>android-dev</code></strong> id <code>40859a40-fb29-4e36-8ab8-bebde29d24f3</code> · 공개 · Regular</td><td>CD-0014 에서 사용. 버킷 안 경로 <code>Android/</code>(폰)·<code>StandaloneWindows64/</code>(PC 시험): 기본 빌드별 카탈로그 <code>catalog_&lt;버전&gt;-&lt;기본 빌드 식별자&gt;.bin/.hash</code>(식별자 전의 0.5.0 APK 는 <code>catalog_0.5.0</code>), 바뀐 그림 묶음, 새 빌드 알림 파일 <code>app_version.json</code>. 배지 <code>latest</code> 는 CCD 가 가장 새 릴리스에 스스로 붙인다(직접 붙이면 400)</td></tr><tr><td>Firebase</td><td>프로젝트 <code>coopdefense</code>(번호 320478939297, Spark 무료, Analytics·Gemini 끔) · 안드로이드 앱 <code>1:320478939297:android:e026ed3e001988bf86c8e0</code>(<code>com.local.coopdefense</code>) · 테스터 그룹 <code>testers</code>(<strong>1명</strong>, 사용자 본인 메일, 11-16 등록)</td><td>0.4.0(4) 첫 업로드는 등록 전이라 폰에 가지 않았다. <strong>같은 날 두 번째 0.4.0(4)를 보내 초대 메일 → 설치까지 사용자 폰에서 됐다</strong>(사용자 확인)</td></tr><tr><td>서명 키</td><td><code>%USERPROFILE%\\.coopdefense\\signing\\</code> 의 <code>coopdefense-release.keystore</code>(PKCS12, 별칭 <code>coopdefense</code>, SHA-256 <code>DB:94:3E:…:F4:1B</code>) + <code>signing.json</code>(비밀번호). <strong>저장소 밖, 커밋 금지</strong></td><td><code>apksigner</code> 로 APK 인증서가 이 키인 것을 확인. <strong>이 폴더를 잃으면 테스터 폰에 업데이트를 깔 수 없다 → 따로 백업</strong></td></tr></tbody></table></div>\n<h3>1-2. 새 빌드를 테스터 폰에 보내기</h3>\n<pre><code>powershell -ExecutionPolicy Bypass -File tools\\distribute_android.ps1 -Notes &quot;바뀐 것&quot;   # 빌드(고정 키 필수) → Firebase → 그룹 testers\npowershell -ExecutionPolicy Bypass -File tools\\distribute_android.ps1 -SkipBuild        # 이미 만든 APK 를 다시 보낸다\nfirebase.cmd appdistribution:testers:add --project coopdefense --group-alias testers a@x.com b@y.com   # 테스터 추가</code></pre>\n<ul>\n<li>테스터 폰: 초대 메일 → 수락 → 메일 링크나 App Tester 앱으로 설치. «출처를 알 수 없는 앱 설치» 허용이 필요하다.\n</li>\n<li><strong>업데이트로 깔리려면 <code>versionCode</code> 가 폰에 있는 것보다 커야 하고 서명 키가 같아야 한다.</strong> 키는 <code>build_android.ps1</code> 가 <code>signing.json</code> 에서 읽어 이 빌드에만 넣는다(<code>AndroidSigning.cs</code>, ProjectSettings 에 남기지 않음). 파일이 없으면 디버그 키로 빌드하고 경고, <code>-RequireSigning</code>(배포 스크립트가 붙인다)이면 실패.\n</li>\n<li>이 PC 의 PowerShell 은 스크립트 실행 정책 때문에 <code>firebase</code> 대신 <strong><code>firebase.cmd</code></strong> 로 부른다. CLI 로그인은 이 PC 의 Google 계정(Firebase 프로젝트 만든 계정)으로 돼 있다.\n</li>\n<li><code>distribute_android.ps1</code> 은 Firebase 업로드 뒤 그 릴리스의 테스터 링크로 <strong><code>Android/app_version.json</code></strong> 도 CCD 에 올린다(CD-0014). 그래서 이 명령으로 보낸 빌드보다 낮은 versionCode 의 앱은 켤 때 막힌다(아래 §1-3). <strong>코드가 바뀐 빌드는 versionCode 를 꼭 올린다</strong>(<code>ProjectSetup.AndroidVersionCode</code>).\n</li></ul>\n<h3>1-3. 앱이 켜질 때: 패치 화면 → 로딩 화면 → 로비 (CD-0014, 사용자 결정 11-17)</h3>\n<pre><code>① 패치 화면  새 빌드 확인: app_version.json 의 versionCode &gt; 폰 → «새 버전이 나왔어요» [받으러 가기] 하나, 닫기 없음(항상 필수)\n             원격 카탈로그 확인(8초 제한) → 받을 크기 &gt; 0 → «받을 데이터가 있어요 N MB» [확인] 하나(거절 없음)\n             → 다운로드 진행 막대(받은 MB / 전체 MB · %) → 완료 → 받다 실패하면 [다시 시도]\n             오프라인·버전 파일 못 읽음·받을 것 없음 → 창 없이 지나감(앱 안 그림 또는 전에 받은 그림)\n② 로딩 화면  단계 목록(데이터 → 그림 카탈로그 → 저장 → 화면). 서버 연결·로그인은 나중에 `App/LoadingSteps` 에 한 단계로 더한다\n③ 로비      패치→로딩 Fade 0.35초, 로딩→로비 Dissolve 0.5초(`UI/ScreenTransition`)</code></pre>\n<div class=tw><table><thead><tr><th>할 일</th><th>명령</th></tr></thead><tbody><tr><td>그림만 바뀜 → 폰이 재설치 없이 받게</td><td><code>powershell -ExecutionPolicy Bypass -File tools\\cdn_update.ps1 -Gui</code> (Addressables 콘텐츠 업데이트 → CCD 동기화 → 새 릴리스)</td></tr><tr><td>코드 바뀜 → 새 APK</td><td>versionCode 올림 → <code>tools\\distribute_android.ps1 -Notes \"…\"</code> (APK + 버전 파일)</td></tr><tr><td>버전 파일만 다시</td><td><code>tools\\app_version_upload.ps1 -Gui -VersionCode &lt;n&gt; -Url &lt;링크&gt;</code></td></tr></tbody></table></div>\n<ul>\n<li><strong>그림은 앱 안에 기본본이 들어 있다</strong>(Addressables 그룹 <code>Art</code>, 로컬 빌드). 원격은 바뀐 것만 받는다.\n</li>\n<li><strong>원격 카탈로그 이름 = 앱 버전 + 기본 빌드 식별자</strong>(CD-0014 7차, 예 <code>catalog_0.5.0-e6d892c9</code>). 식별자(16진 8자)는 기본 빌드(<code>build_android.ps1</code>·<code>build_windows.ps1</code>)마다 새로 뽑아 <code>UnityProject/ContentState/&lt;버전&gt;/&lt;대상&gt;/base_id.txt</code> 에 content state 와 나란히 남긴다(Android 는 둘 다 커밋). 콘텐츠 업데이트(<code>cdn_update.ps1</code>)는 content state 에 적힌 이름을 그대로 쓰고, <code>base_id.txt</code> 와 다르면 멈춘다. 그래서 같은 앱 버전이라도 <strong>다른 기본 빌드는 서로의 카탈로그를 읽지 않는다</strong> — 새 기본 빌드는 CDN 에 제 카탈로그가 없으면 확인이 404 로 끝나고 앱 안 그림으로 창 없이 지나간다. (11-17 결함: 이름이 <code>catalog_0.5.0</code> 뿐이라 다른 기본 빌드의 카탈로그를 받아 이 빌드에 없는 로컬 묶음을 찾다가 그림이 전부 빠졌다.) 편집기 설정 파일의 «Player Version Override» 는 쉬는 동안 앱 버전 그대로이고 기본 빌드 중에만 식별자가 붙는다 — 편집기 메뉴로 직접 Addressables 를 빌드하면 식별자가 붙지 않으니 빌드는 스크립트로만 한다.\n</li>\n<li>콘텐츠 업데이트는 <strong>폰에 깔린 APK 를 만든 그 기본 빌드의 content state</strong> 로 올린다(중간에 다시 빌드했으면 새 APK 를 먼저 깔거나, 새 APK 와 짝인 업데이트를 올린다). 식별자 전의 0.5.0 APK 는 <code>ContentState/0.5.0/Android</code>(식별자 파일 없음 → 이름 <code>catalog_0.5.0</code>)와 짝이다 — 그 상태 파일로 업데이트를 만들면 옛 이름으로 나간다.\n</li>\n<li><strong>안전망</strong>: 받은 원격 카탈로그로 그림 카탈로그를 못 읽으면(로컬 묶음 없음·받기 실패·30초 시간 초과) 그 카탈로그를 버리고(받은 <code>catalog_*</code> 캐시 지움, 해시를 기억해 같은 파일은 다음 실행에 다시 쓰지 않음) 앱 안 카탈로그로 다시 읽는다. 기기 로그: <code>[cdn] 원격 카탈로그 불일치 → 앱 안 그림</code>. 그림 없이 로비로 가는 길은 앱 안 카탈로그까지 깨졌을 때뿐이다.\n</li>\n<li>개발용 시험(안드로이드에서는 무시): <code>CoopDefense.exe -cdnRemoteRoot http://127.0.0.1:8765</code> — CCD 주소를 다른 서버(<code>&lt;루트&gt;/&lt;대상&gt;/&lt;파일&gt;</code>)로 돌린다. 버킷을 건드리지 않고 카탈로그 불일치를 재현할 때 쓴다.\n</li>\n<li>업로드는 <strong>유니티 편집기 창이 잠깐 뜨는 방식(<code>-Gui</code>)</strong> 이다 — 배치 모드에서는 편집기 로그인 토큰이 비어 인증이 안 된다. Unity Hub 에 로그인돼 있어야 하고 그 프로젝트를 편집기로 열어 두면 안 된다. 화면 없이 돌리려면 UGS 서비스 계정 키(대시보드 → Service Accounts, CCD 관리 권한만, 저장소 밖 환경 변수 <code>CD_CCD_SERVICE_ACCOUNT</code>)가 필요하다 — 아직 만들지 않았다.\n</li>\n<li><strong>CCD 는 올린 뒤 공개 주소에 반영되기까지 몇 분 걸릴 수 있다</strong>(11-17 실측: 대시보드는 즉시 <code>latest</code> 이동, 공개 주소는 수 분 뒤). 올리자마자 폰을 켜면 이전 그림이 보일 수 있다.\n</li>\n<li>같은 버킷이라 PC 시험 업로드도 <code>latest</code> 릴리스를 새로 만든다. 동기화는 경로별(<code>Android/</code>, <code>StandaloneWindows64/</code>)이라 서로의 파일은 그대로다.\n</li>\n<li>동기화는 그 경로에서 <strong>이번에 올리는 파일과 <code>app_version.json</code> 말고는 지운다</strong> — 새 이름 카탈로그를 올리면 같은 경로의 옛 이름 카탈로그(옛 기본 빌드 짝)와 그 묶음도 지워진다. 옛 APK 는 그 뒤 확인이 404 → 전에 받아 둔 카탈로그나 앱 안 그림으로 돈다. 새 APK 를 낼 때 순서: <code>build_android.ps1 -RequireSigning</code>(새 식별자, <code>ContentState/&lt;버전&gt;/Android/</code> 의 상태 파일·<code>base_id.txt</code> 커밋) → <code>cdn_update.ps1 -Gui</code>(그 짝 카탈로그) → <code>distribute_android.ps1 -SkipBuild</code>(<strong>다시 빌드하면 식별자가 바뀐다</strong>).\n</li></ul>\n<h3>2. 단계</h3>\n<div class=tw><table><thead><tr><th>단계</th><th>하는 것</th><th>언제</th></tr></thead><tbody><tr><td>1</td><td>안드로이드 빌드 → USB 로 폰에 설치(<code>unity build</code> → <code>adb install -r</code>)</td><td>첫 목표</td></tr><tr><td>2</td><td>유저 정보를 <strong>기기에 저장</strong>(저장 인터페이스 + 로컬 구현, 버전 번호 포함)</td><td>첫 목표</td></tr><tr><td>3</td><td>Unity 프로젝트를 클라우드에 연결, 익명 로그인, Cloud Save 로 동기화</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>4</td><td>Firebase App Distribution 으로 빌드 올리기 한 줄 명령</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>5</td><td>Addressables 로 그림을 묶고 CCD 에서 받기. 임시 그림 → 본 그림 교체가 재설치 없이 된다</td><td><strong>됨(CD-0014, 11-17)</strong> — 폰에서 바뀐 그림 받기·되돌리기 확인, §1-3</td></tr><tr><td>6</td><td>Remote Config 로 수치 덮어쓰기</td><td>보상·육성 단계</td></tr><tr><td>7</td><td>뽑기·재화 계산을 서버(Cloud Code)로 옮김, Google Play Games 연결</td><td>출시 전</td></tr></tbody></table></div>\n<h3>3. 저장 구조</h3>\n<ul>\n<li><strong>저장 인터페이스</strong> 하나(<code>IPlayerStore</code>: 불러오기, 저장하기)에 구현 둘: 기기 파일, Cloud Save. 게임 코드는 인터페이스만 안다.\n</li>\n<li><strong>기기 먼저, 서버는 동기화.</strong> 판이 끝나거나 쿠지를 뽑을 때 기기에 쓰고 곧바로 서버에 올린다. 오프라인이면 다음에 올린다.\n</li>\n<li>데이터에 <strong>버전 번호</strong>를 넣는다. 구조가 바뀌면 옛 저장을 새 구조로 옮기는 코드를 같이 쓴다(저장이 깨지면 유저가 떠난다).\n</li>\n<li>충돌: 서버와 기기가 다르면 «더 나중에 저장된 쪽» 을 쓰되, 재화는 줄어드는 방향의 덮어쓰기를 기록으로 남긴다(초안).\n</li>\n<li>내용: <code>13-보상-육성-꾸밈.md</code> §7 의 여섯 묶음.\n</li>\n<li>개발 단계의 한계: 기기에서 계산하므로 조작할 수 있다. 출시 전 7단계에서 막는다. 지금은 혼자 쓰는 빌드라 문제가 아니다.\n</li>\n<li><strong>지금 구현은 기기 파일 하나뿐이다</strong>(<code>IPlayerStore</code> 의 구현은 <code>FilePlayerStore</code>, <code>player.json</code>). Cloud Save 구현은 아직 없다(코드로 확인).\n</li></ul>\n<h4>3-1. 판 이어 하기 (결정 0040 — 대표 초안 · 사용자 확인 대기)</h4>\n<ul>\n<li>싱글 판 중 <strong>웨이브가 시작될 때마다 · 앱이 뒤로 갈 때 · 앱이 종료될 때</strong> <code>match-resume.json</code> 을 저장 옆에 원자 저장(임시 파일 + 바꿔 넣기)한다. 판이 끝나거나(승리·패배·메뉴 포기) «다시 하기» 로 버리거나 카드에서 포기하면 지운다.\n</li>\n<li>내용: 파일 형식(1) · <strong>앱 버전</strong> · 시각 · 이유 · 단계 id · 시드 · 웨이브 · 깬 웨이브 · 처치 · 틱 · 상태 해시 · Core 스냅샷 문자열(머리 <code>CDSNAP4</code>(CD-0010 부터 · 옛 <code>CDSNAP3</code> 은 <code>SnapshotVersionException</code>), 시드·loadout·미션·현상금·강화·특성 상태 포함. 최대 약 2.5 KB).\n</li>\n<li>다시 켜서 로비에 오면 <strong>복원해 해시가 쓴 때와 같은지</strong> 확인한다. 같으면 «이어 하기» 카드(단계 · 웨이브)에서 [이어 하기](일시정지 메뉴가 열린 채 시작) / [포기](한 번 확인 뒤 정산). 이어 할 판이 있으면 [출전] 은 막힌다.\n</li>\n<li><strong>앱 버전이 다르거나 · 형식이 다르거나 · 스냅샷을 못 읽거나 · 해시가 다르면</strong> «지난 판을 이어 할 수 없어요» 토스트 한 번과 <strong>포기 정산</strong>(그 판의 깬 웨이브만큼 판 보상 — 은화·연합의 결정, 난이도 배율 반영 · 결정 0049) 뒤 파일을 지운다.\n</li>\n<li>협동은 이어 하기가 없다. 실기기 확인은 못 했다(에디터에서 «앱 뒤로 감 → 다시 켬» 흉내만).\n</li></ul>\n<h4>3-2. 저장 백업</h4>\n<ul>\n<li>저장할 때마다 이전 파일을 <code>player.json.bak</code> 한 개로 남긴다. 읽기에 실패하면 깨진 파일은 <code>player.json.broken-&lt;시각&gt;</code> 으로 옆에 보관하고 <code>.bak</code> 로 복구한다(로그만, 화면 알림 없음). <code>.bak</code> 도 깨졌으면 새 저장으로 시작한다.\n</li></ul>\n<h4>3-3. 기기 설정 (PlayerPrefs — 저장 파일 밖)</h4>\n<div class=tw><table><thead><tr><th>키</th><th>뜻</th><th>기본</th></tr></thead><tbody><tr><td><code>cd.gfx</code></td><td>그래픽 품질 1 높음 · 0 낮음(다음 판부터)</td><td>1</td></tr><tr><td><code>cd.fps</code></td><td>프레임 60 · 30</td><td>60</td></tr><tr><td><code>settings.sound</code> · <code>settings.music</code> · <code>settings.vibration</code></td><td>소리·음악·진동 켬/끔</td><td>1</td></tr><tr><td><code>settings.soundVolume</code> · <code>settings.musicVolume</code></td><td>음량 0~100</td><td>100</td></tr></tbody></table></div>\n<ul>\n<li>저장 초기화(설정 → 두 번 확인)는 <code>player.json</code>·<code>.bak</code>·<code>match-resume.json</code> 만 지우고 위 설정은 남긴다. 낮음에서 꺼지는 것은 결정 0041.\n</li></ul>\n<h4>3-4. 저장 구조 버전 — 지금 <strong>8</strong>, CD-0015 에서 <strong>9</strong> (<code>PlayerData.CurrentVersion</code>)</h4>\n<div class=tw><table><thead><tr><th>버전</th><th>주문</th><th>더한 것</th></tr></thead><tbody><tr><td>2</td><td>CD-0006</td><td>대표 캐릭터 · 종족 조각 선택권 · 박스 판</td></tr><tr><td>3</td><td>CD-0007</td><td>첫 판 길잡이 완료 · 최근 판</td></tr><tr><td>4</td><td>CD-0007</td><td>난이도 단계(이긴 단계가 다음을 연다). 이긴 판이 있는 옛 저장은 첫 단계를 이긴 것으로 옮긴다</td></tr><tr><td>5</td><td>CD-0009</td><td>이름을 정했는가(<code>profile.nameChosen</code>) — 옛 저장은 «아직» 으로 옮겨 한 번 묻는다</td></tr><tr><td>6</td><td>CD-0009</td><td>일일 목표 진행(<code>daily</code>) — 옛 저장은 빈 진행</td></tr><tr><td>7</td><td>CD-0009</td><td>로비에서 마지막에 고른 맵(<code>lastMap</code>, 결정 0043) — 옛 저장은 첫 맵</td></tr><tr><td>8</td><td>CD-0011</td><td>보석(<code>currency.gems</code>)·상점(30일 보급·끝난 구매)·우편함(결정 0046·0047) — 옛 저장은 모두 빈 값</td></tr><tr><td>9</td><td>CD-0015</td><td>결정 0049: 은화·연합의 결정·쿠지 티켓·젬스톤·행동력(기준 시각)·계정 레벨·영웅(보유·레벨·강화·중복)·쿠지 판·업적 받은 횟수·일일/주간 미션·은화 상점. 뽑기 코인·경험 결정·종족 조각·조각 선택권·각성·박스 판을 지운다. 옛 저장은 <code>Data/convert_v9.json</code> 비율로 한 번 바꾸고 바꾸기 전 v8 파일을 <code>player.v8.bak</code> 으로 남긴다(<code>13-보상-육성-꾸밈.md</code> §7)</td></tr></tbody></table></div>\n<ul>\n<li>옛 저장은 한 단계씩 옮기는 코드(<code>PlayerDataMigrations</code>)로 읽는다. 버전 1 → 2 이후 각 단계의 옮김이 코드에 있다.\n</li></ul>\n<h4>3-5. 앱 이름·버전 (CD-0009)</h4>\n<ul>\n<li>버전 <strong>0.3.0</strong>, 안드로이드 <code>versionCode</code> 3(<code>ProjectSetup.AppVersion</code>·<code>AndroidVersionCode</code>). 이어 하기는 앱 버전이 다르면 포기 정산이므로(§3-1) 버전을 올린 빌드를 깔면 진행 중이던 판은 정산된다.\n</li>\n<li>폰 홈 화면 글자는 «포트메이츠»(게임 이름 «포트메이츠: 같이 지킬래?» 의 본체, 결정 0052 · 안드로이드 빌드 동안만 <code>productName</code> 을 바꾼다), 유니티 제품명·폴더는 <code>CoopDefense</code> 그대로. 앱 아이콘·스플래시는 결정 0041. 실제 홈 화면 글자·아이콘·스플래시는 빌드로 확인하지 못했다.\n</li></ul>\n<h3>4. 임시 그림 → 본 그림 교체</h3>\n<ul>\n<li>모든 그림은 <strong>이름표(주소)</strong> 로 부른다. 예: <code>unit/human/1</code>, <code>monster/goblin_grunt</code>, <code>ui/button_summon</code>.\n</li>\n<li>임시 그림과 본 그림은 같은 이름표를 쓴다. 본 그림이 나오면 <strong>그 파일만 바꿔</strong> CCD 에 올린다. 코드와 앱은 그대로다.\n</li>\n<li><code>Data/assets.json</code> 에 이름표마다 상태(임시/본)를 적고, 개발 현황 사이트에 교체 진행률을 싣는다.\n</li></ul>\n<h3>5. 사용자가 해야 하는 일</h3>\n<ol>\n<li>~~Unity 계정 로그인·클라우드 연결~~ — 2026-11-16 됨(§1-1).\n</li>\n<li>~~Firebase 프로젝트~~ — 2026-11-16 됨. 테스터 1명 등록(늘리면 그룹 <code>testers</code> 에 넣는다). 폰에서 초대 메일을 연다.\n</li>\n<li>핸드폰에서 <strong>개발자 옵션 → USB 디버깅</strong> 켜기(USB 설치용) — 아직.\n</li>\n<li>서명 키 폴더(<code>%USERPROFILE%\\.coopdefense\\signing\\</code>) 백업 — 아직.\n</li></ol>\n<p>이메일·기기·백업은 사용자만 할 수 있다.</p>\n<h3>6. 확인하지 못한 것</h3>\n<ul>\n<li>Cloud Code 가 Unity 6.3 에서 돌아가는 패키지 버전(7단계 전에 확인)\n</li>\n<li>Firebase 테스터 앱이 폰에 필요한지(검색으로는 «선택, 권장». 실기기로는 확인 안 함)\n</li>\n<li>~~테스터 폰에 실제로 설치되는지~~ — 11-16 사용자 폰에 설치됨. 다음 빌드가 «업데이트» 로 깔리는지(같은 키·더 큰 versionCode)는 아직\n</li>\n<li>Google Play Games 로 기기를 바꿨을 때의 정확한 흐름\n</li>\n<li>박스 뽑기(비복원 추첨)가 확률 공개 규정에서 어느 유형인지, 해설서 원문\n</li>\n<li>GitHub Releases 를 Addressables 원격 경로로 쓰는 방식(쓰지 않기로 했으므로 조사하지 않음)\n</li>\n<li>~~폰에서 «새 버전이 나왔어요» 창과 Firebase 링크~~ — <strong>11-17 사용자 폰 확인</strong>: 0.5.0 앱에 필수 업데이트 창 → [받으러 가기] 가 Firebase 페이지를 열고 → 거기서 받아 0.5.1(6) 이 업데이트로 설치됨. 아직 폰에서 못 본 것: «받을 데이터 N MB» 창·진행 막대(받을 데이터가 생길 때), 원격 카탈로그 불일치 때 앱 안 그림으로 되돌리는 안전망\n</li>\n<li>그래픽 «낮음» 에서 패치·전환 연출의 실제 모습\n</li></ul>\n<h3>출처</h3>\n<ul>\n<li><a href=\"https://firebase.google.com/docs/app-distribution\" rel=\"noopener\" target=\"_blank\">Firebase App Distribution</a> · <a href=\"https://firebase.google.com/docs/app-distribution/android/distribute-cli\" rel=\"noopener\" target=\"_blank\">CLI 배포</a> · <a href=\"https://firebase.google.com/pricing\" rel=\"noopener\" target=\"_blank\">Firebase 요금</a>\n</li>\n<li><a href=\"https://unity.com/products/gaming-services/pricing\" rel=\"noopener\" target=\"_blank\">Unity Gaming Services 요금</a> · <a href=\"https://docs.unity.com/ugs/manual/ccd/manual/UnityCCD\" rel=\"noopener\" target=\"_blank\">CCD 개념</a> · <a href=\"https://docs.unity.com/en-us/ccd/cli\" rel=\"noopener\" target=\"_blank\">CCD 명령 도구</a>\n</li>\n<li><a href=\"https://docs.unity.com/en-us/engine/6000.3/manual/packages-list/packages-all/pack-safe/com-unity-addressables\" rel=\"noopener\" target=\"_blank\">Addressables (6000.3)</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-save/manual/concepts/player-data\" rel=\"noopener\" target=\"_blank\">Cloud Save 플레이어 데이터</a> · <a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-code/manual\" rel=\"noopener\" target=\"_blank\">Cloud Code</a> · <a href=\"https://docs.unity.com/en-us/economy/index\" rel=\"noopener\" target=\"_blank\">Economy 신규 중단</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/authentication/manual/platform-signin-google-play-games\" rel=\"noopener\" target=\"_blank\">Google Play Games 로그인 연결</a> · <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465\" rel=\"noopener\" target=\"_blank\">Play 테스트 요건</a>\n</li>\n<li><a href=\"https://www.mcst.go.kr/kor/s_notice/notice/noticeView.jsp?pSeq=17856\" rel=\"noopener\" target=\"_blank\">확률형 아이템 해설서 공지(문체부)</a> · <a href=\"https://zdnet.co.kr/view/?no=20240222164405\" rel=\"noopener\" target=\"_blank\">유·무료 구분 보도(ZDNet)</a>\n</li></ul>",
-"at": "2026-11-17 13:54",
-"branch": "main",
+"at": "2026-11-17 16:08",
+"branch": "cd24",
 "dirty": false
 },
 {
@@ -9777,7 +9810,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 14:22",
-"generatedAt": "2026-11-17 15:47",
-"digest": "375c87f24ccfe5db"
+"sourceAt": "2026-11-17 16:15",
+"generatedAt": "2026-11-17 16:17",
+"digest": "df28d61621e1b317"
 }
