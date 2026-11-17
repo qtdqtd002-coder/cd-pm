@@ -1051,9 +1051,9 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-17 22:53",
-"branch": "cd26",
-"dirty": true
+"at": "2026-11-17 23:43",
+"branch": "main",
+"dirty": false
 },
 "pm": {
 "headline": [
@@ -1117,8 +1117,20 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0024",
-"head": "2e18687",
+"head": "2f61c6b",
 "commits": [
+{
+"sha": "2f61c6b",
+"at": "2026-11-17 23:43",
+"ts": 1794926631,
+"msg": "Merge branch 'cd26' (CD-0026 로딩 인트로·타이틀 로고·업데이트 창)"
+},
+{
+"sha": "e145fe8",
+"at": "2026-11-17 23:43",
+"ts": 1794926595,
+"msg": "CD-0026 로딩 인트로(균열 → 그림자 무리 → 줌아웃 → 타이틀)·타이틀 로고 «포트메이츠»·업데이트 창 개편 (결정 0056)"
+},
 {
 "sha": "2e18687",
 "at": "2026-11-17 18:39",
@@ -1142,21 +1154,9 @@
 "at": "2026-11-17 18:32",
 "ts": 1794907961,
 "msg": "CD-0025 마감: 90-close, 게이트 close, 마일스톤 M3-14, 개발일지 (main ff7b6d2 받은 뒤 check --unity: Core 403/403·EditMode 142/142, PlayMode 영웅·쿠지 11/11)"
-},
-{
-"sha": "e9b8c3c",
-"at": "2026-11-17 18:25",
-"ts": 1794907543,
-"msg": "개발일지: 앱 0.5.2 폰 배포(Firebase 0.5.2(7), CCD app_version 7)"
-},
-{
-"sha": "9fee430",
-"at": "2026-11-17 18:24",
-"ts": 1794907467,
-"msg": "앱 0.5.2 · versionCode 7 (CD-0024 UI 틀 폰 배포): AppUpdateCheck.BuiltInVersionCode 7, 0.5.2 Android 기본 빌드 content state·base_id c486f0b2"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 3,
 "dirty": [
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
@@ -1169,18 +1169,14 @@
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
 "at": "2026-11-17 18:39"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-17 18:39"
 }
 ],
 "lastEdit": "2026-11-17 18:39",
 "lastEditTs": 1794908385.2307837,
-"lastCommitTs": 1794908395,
-"unpushed": 0,
+"lastCommitTs": 1794926631,
+"unpushed": 2,
 "notInMain": 0,
-"today": 133
+"today": 135
 },
 {
 "branch": "rel-052",
@@ -1255,8 +1251,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0025",
-"head": "2e18687",
+"head": "e145fe8",
 "commits": [
+{
+"sha": "e145fe8",
+"at": "2026-11-17 23:43",
+"ts": 1794926595,
+"msg": "CD-0026 로딩 인트로(균열 → 그림자 무리 → 줌아웃 → 타이틀)·타이틀 로고 «포트메이츠»·업데이트 창 개편 (결정 0056)"
+},
 {
 "sha": "2e18687",
 "at": "2026-11-17 18:39",
@@ -1286,55 +1288,41 @@
 "at": "2026-11-17 18:25",
 "ts": 1794907543,
 "msg": "개발일지: 앱 0.5.2 폰 배포(Firebase 0.5.2(7), CCD app_version 7)"
-},
-{
-"sha": "9fee430",
-"at": "2026-11-17 18:24",
-"ts": 1794907467,
-"msg": "앱 0.5.2 · versionCode 7 (CD-0024 UI 틀 폰 배포): AppUpdateCheck.BuiltInVersionCode 7, 0.5.2 Android 기본 빌드 content state·base_id c486f0b2"
 }
 ],
-"dirtyCount": 97,
+"dirtyCount": 6,
 "dirty": [
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/30-qa.md",
-"at": "2026-11-17 22:55"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-17 22:47"
 },
 {
-"file": "studio/checks.json",
-"at": "2026-11-17 22:54"
+"file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
+"at": "2026-11-17 22:07"
 },
 {
-"file": "studio/milestones.json",
-"at": "2026-11-17 22:53"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Bold SDF.asset",
+"at": "2026-11-17 22:07"
 },
 {
-"file": "studio/site/index.html",
-"at": "2026-11-17 22:53"
+"file": "UnityProject/Assets/_Game/Scenes/Main.unity",
+"at": "2026-11-17 22:05"
 },
 {
-"file": "studio/site/files.json",
-"at": "2026-11-17 22:53"
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-17 22:05"
 },
 {
-"file": "studio/site/res/fx_shade_down.webp",
-"at": "2026-11-17 22:53"
-},
-{
-"file": "studio/site/res/fx_shade_up.webp",
-"at": "2026-11-17 22:53"
-},
-{
-"file": "studio/site/res/fx_rift.webp",
-"at": "2026-11-17 22:53"
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-17 22:05"
 }
 ],
-"lastEdit": "2026-11-17 22:55",
-"lastEditTs": 1794923723.6725776,
-"lastCommitTs": 1794908395,
-"unpushed": 0,
+"lastEdit": "2026-11-17 22:47",
+"lastEditTs": 1794923233.9407272,
+"lastCommitTs": 1794926595,
+"unpushed": 1,
 "notInMain": 0,
-"today": 133
+"today": 134
 },
 {
 "branch": "cd27",
@@ -1381,43 +1369,43 @@
 "msg": "앱 0.5.2 · versionCode 7 (CD-0024 UI 틀 폰 배포): AppUpdateCheck.BuiltInVersionCode 7, 0.5.2 Android 기본 빌드 content state·base_id c486f0b2"
 }
 ],
-"dirtyCount": 95,
+"dirtyCount": 119,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScenee6b8448b-64de-45ab-9e18-9cbdf11285af.unity.meta",
-"at": "2026-11-17 23:09"
-},
-{
-"file": "UnityProject/Assets/InitTestScenee6b8448b-64de-45ab-9e18-9cbdf11285af.unity",
-"at": "2026-11-17 23:09"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 23:08"
+"at": "2026-11-17 23:47"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd27LobbyTests.cs",
-"at": "2026-11-17 23:08"
+"file": "test-results.xml",
+"at": "2026-11-17 23:37"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/after/cd27_daily_1080x2400.png",
-"at": "2026-11-17 23:08"
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-17 23:37"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/after/cd27_mail_1080x2400.png",
-"at": "2026-11-17 23:08"
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-17 23:37"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/after/cd27_shop_1080x2400.png",
-"at": "2026-11-17 23:08"
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/00-order.md",
+"at": "2026-11-17 23:36"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/after/cd27_hero_detail_1080x2400.png",
-"at": "2026-11-17 23:08"
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/21-client.md",
+"at": "2026-11-17 23:36"
+},
+{
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/cd27_craft_audit.md",
+"at": "2026-11-17 23:27"
+},
+{
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/cd27_zoom300.png",
+"at": "2026-11-17 23:26"
 }
 ],
-"lastEdit": "2026-11-17 23:09",
-"lastEditTs": 1794924545.0309525,
+"lastEdit": "2026-11-17 23:47",
+"lastEditTs": 1794926847.7119067,
 "lastCommitTs": 1794908395,
 "unpushed": 0,
 "notInMain": 0,
@@ -1426,7 +1414,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 116,
+"commits": 115,
 "byOrder": [
 [
 "CD-0014",
@@ -1465,16 +1453,20 @@
 6
 ],
 [
-"CD-0013",
-6
-],
-[
 "CD-0017",
 5
 ],
 [
+"CD-0013",
+4
+],
+[
 "CD-0019",
 2
+],
+[
+"CD-0026",
+1
 ],
 [
 "CD-0022",
@@ -1486,6 +1478,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "e145fe8",
+"at": "2026-11-17 23:43",
+"msg": "CD-0026 로딩 인트로(균열 → 그림자 무리 → 줌아웃 → 타이틀)·타이틀 로고 «포트메이츠»·업데이트 창 개편 (결정 0056)"
+},
 {
 "sha": "2533c64",
 "at": "2026-11-17 21:45",
@@ -1530,11 +1527,6 @@
 "sha": "6d254e5",
 "at": "2026-11-17 18:06",
 "msg": "CD-0025 균형: gate_02_hard 6웨이브부터 ×101%(×105% 되돌림), Map2Tests 40판·범위 ×2, 정예 L10/+0 상한 9(10배 전부터 8/40), HeroView.DamagePct* 삭제, 1만 판 48칸 ±3%p 이내"
-},
-{
-"sha": "ce7acd0",
-"at": "2026-11-17 18:03",
-"msg": "CD-0024 마감: 90-close, 게이트 qa·close, 마일스톤 M6-18, docs/03 §10 UI 틀 CodeSkin 기본, 개발일지 (대표 PlayMode 단독 재실행 실패 0)"
 }
 ]
 },
@@ -3700,8 +3692,8 @@
 {
 "id": "CD-0026",
 "title": "로딩 인트로 균열 침공 줌아웃 타이틀 로고와 업데이트 창 개편",
-"branch": "cd26",
-"updated": "2026-11-17 22:55",
+"branch": "main",
+"updated": "2026-11-17 23:43",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3799,17 +3791,18 @@
 "id": "CD-0027",
 "title": "로비 상단 재화 아이콘 글자 외곽선 깜빡임 제거와 UI 제작 공정 스킬 안",
 "branch": "cd27",
-"updated": "2026-11-17 23:05",
+"updated": "2026-11-17 23:36",
 "files": [
 "00-order.md",
 "10-spec.md",
+"21-client.md",
 "22-art.md",
 "40-ui-skill-plan.md",
 "_qa",
 "_research"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "검수",
 "route": "full",
 "risk": "mid",
 "teams": "art, client",
@@ -3825,7 +3818,7 @@
 "title": "글꼴 후보 비교판. 한글·숫자·라틴을 다 가진 OFL(또는 상업 게임 임베드가 명시적으로 허용된) 굵은 글꼴 후보 3개를 공식 배포처에서 받는다(지금 쓰는 Noto Sans KR 계열의 Black/ExtraBold 하나 + 둥근 게임체 둘 정도. 라이선스는 공식 페이지로 확인해 링크를 적는다). 각 후보로 실제 로비 문구(«모험가», «Lv.1», «60/60», «0», «500», «1,250», «숲길 관문», «보통 · 어려움 · 정예», «출전», «보통 · 보상 ×1», «오늘 목표», «0/5», «우편», «영웅 쿠지 로비 업적 상점»)를 밝은 채움 + 어두운 바깥 선 + 아래 그림자로 PIL 렌더해, 실제 로비 캡처의 같은 자리 크기로 한 장에 나란히 놓는다(지금 글꼴도 한 줄 포함). 1080 폭 실크기와 숫자 300% 확대를 같이.",
 "output": "_qa/cd27_font_compare.png, 후보별 라이선스 링크·글리프 수·파일 크기를 22-art.md 에",
 "status": "done",
-"why": "보고서 있음: 22-art.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "A2",
@@ -3833,8 +3826,8 @@
 "team": "art",
 "title": "A1 에서 대표가 고른 글꼴 반입: TTF 를 UnityProject/Assets/_Game/Fonts/ 에, 라이선스 전문을 Resources/Credits/font-license.txt 에 덧붙이고, studio/assets-ledger.csv 에 적는다. (SDF 에셋 생성은 client C1)",
 "output": "글꼴 파일·장부",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "A3",
@@ -3842,8 +3835,8 @@
 "team": "art",
 "title": "Codex 아이콘 5종(스킬 cd-art 절차): icon_stamina(번개), icon_silver(은화 여러 닢을 쌓아 올린 더미), icon_gemstone(젬스톤), icon_mission(오늘 목표), icon_mail(우편 — 지금은 코드 봉투 ThemeArt.Envelope). 그림체 기준은 지금 하단 탭 아이콘(Art/Temp/ui/tab_.png)과 영웅 그림 — 다섯 장이 하단 탭 다섯 장 옆에 놓였을 때 한 벌로 보여야 한다. 512×512 RGBA, 글자·숫자 없음, 속성 표현 금지 규칙은 «번개 = 행동력 기호» 로만 쓰고 공격 속성처럼 보이지 않게(전기 불꽃·번쩍임 효과 없이 단단한 노란 번개 모양 물건). 같은 세션에서 차례로 뽑아(gen.py --key a,b,…) 결을 맞춘다. 48px·72px 로 줄여서도 보고, 탭 아이콘과의 대조판을 만든다. 5장 + 재시도 항목당 1번까지(최대 10장).",
 "output": "art/final/ui/.png → Art/Final/ui/, _qa/cd27_icons_sheet.png, 장부·art-manifest.json 상태 draft",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C1",
@@ -3851,8 +3844,8 @@
 "team": "client",
 "title": "글자 체계 하나로(TextStyle·TmpSetup): ① A2 의 글꼴로 SDF 에셋을 만들고 기본 글꼴로. ② 머티리얼 프리셋을 «누끼 글자» 결로 다시 정한다 — rim(밝은 글자 일반: 어두운 바깥 선 + 아래 그림자, 지금보다 확실히 굵게), number(숫자: 더 굵은 선), plain(종이·양피지 같은 밝은 면 위 본문만 어두운 잉크). ③ 지금 어두운 글자를 쓰는 색 바탕 버튼·칩(금색 [출전]·선택된 난이도 칸·«Lv.1» 칩 등)도 밝은 채움 + 어두운 선으로 바꾼다. 선 색은 순검정이 아니라 짙은 남색/짙은 갈색(Theme 의 잉크 색)에서 고른다. ④ 숫자 칸(재화·행동력·0/5·레벨)은 number 프리셋. 규칙을 TextStyle 머리 주석과 docs/03 §10 에 넣을 문장으로 보고서에 적는다.",
 "output": "코드, 전·후 캡처",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C2",
@@ -3860,8 +3853,8 @@
 "team": "client",
 "title": "재화 줄 3칸: PurseBar 에서 연합의 결정 칸을 뺀다(행동력·은화·젬스톤). 남는 폭은 세 칸에 고르게. 아이콘은 이름표(ui/icon_stamina 등) 그대로 — A3 파일이 들어오면 파일만 바뀐다(L13). 영웅 탭(CharacterScreen)에 연합의 결정 칩이 보이는지 확인(이미 있으면 그대로, 글자 체계만 C1). 관련 시험이 4칸을 가정하면 3칸으로 고친다(통과시키려고 지우지 않는다).",
 "output": "코드·시험",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C3",
@@ -3869,8 +3862,8 @@
 "team": "client",
 "title": "반짝임 제거·배지로 대신: 버튼에 붙는 Gleam.Shine·Gleam.ShineWhile 호출을 모두 없앤다(로딩 로고 LoadingScreen·패치 막대 PatchScreen 은 남김 — 단 이 두 파일은 CD-0026 이 고치는 중이니 손대지 않는다). 받을 게 있는 곳(오늘 목표 받기, 우편 미수령, 업적 받기, 영웅 레벨 업·강화 가능, 쿠지 10회 가능 등 지금 반짝이던 곳)에는 공용 빨간 점 배지(움직이지 않음, 한 번 나타날 때만 짧은 팝 하나는 허용)를 붙인다. 배지가 이미 있는 곳은 그것을 쓴다. Gleam 의 흑백(잠김) 기능은 그대로.",
 "output": "코드·시험",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C4",
@@ -3878,8 +3871,8 @@
 "team": "client",
 "title": "오늘 목표·우편 입구: 새 아이콘(ui/icon_mission, 새 이름표 ui/icon_mail; 파일 없을 때는 지금 그림으로 물러남)을 키 안에 크게, 진행 수 0/5 는 키 아래쪽 배지(숫자 프리셋), 이름표 글자는 C1 결. 우편은 안 받은 수를 빨간 점/숫자 배지로.",
 "output": "코드",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C5",
@@ -3887,8 +3880,8 @@
 "team": "client",
 "title": "하단 탭: 탭 이름 글자를 C1 결로, 선택 탭과 안 선택 탭의 대비(글자 밝기·아이콘 크기)를 또렷하게. 탭 아이콘 그림은 그대로. 영웅 탭 배지(레벨 업 가능 등)도 C3 배지로.",
 "output": "코드",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C6",
@@ -3896,8 +3889,8 @@
 "team": "client",
 "title": "감사·캡처: 1080×2400 로비·영웅 탭·상점·우편·오늘 목표 전/후 캡처와 300% 확대 비교판, 공식 스킬 unity:craft-game-floors 로 로비·하단 탭 감사(_qa/cd27_craft_audit.md).",
 "output": "_qa/cd27_compare.png 등",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 }
 ]
 }
@@ -4361,8 +4354,8 @@
 "kind": "confirmed",
 "date": "2026-11-17",
 "by": "사용자",
-"html": "<div class=tw><table><thead><tr><th>쓰는 곳</th><th>한국어</th><th>영어(해외판)</th></tr></thead><tbody><tr><td><strong>게임 이름(정식)</strong></td><td><strong>포트메이츠: 같이 지킬래?</strong></td><td><strong>Fortmates: Guard With Me?</strong></td></tr><tr><td>이름 본체(짧게 부를 때, 로고 큰 글자)</td><td>포트메이츠</td><td>Fortmates</td></tr><tr><td>부제(친구에게 건네는 말, 로고 작은 글자)</td><td>같이 지킬래?</td><td>Guard With Me?</td></tr><tr><td>폰 홈 화면 글자(안드로이드)</td><td><strong>포트메이츠</strong> — 런처 글자 칸이 짧아 부제는 넣지 않는다</td><td>Fortmates</td></tr><tr><td>로딩 화면 타이틀 로고 <code>ui/logo_text</code></td><td>두 줄: 큰 «포트메이츠» + 아래 작은 «같이 지킬래?»</td><td>(현지화 때 같은 틀로 따로 만든다)</td></tr></tbody></table></div>\n<ul>\n<li>띄어쓰기·문장부호는 위 표 그대로다. «포트 메이츠»(띄움)·«포트메이트»(단수)·«같이 지킬래»(물음표 없음)로 쓰지 않는다.\n</li>\n<li>뜻: fort(요새) + mates(동료) = «요새를 같이 지키는 동료들». 부제는 친구에게 같이 하자고 권하는 말이다.\n</li>\n<li><strong>폴더·저장소·유니티 제품명은 <code>CoopDefense</code> 그대로 둔다.</strong> 결정 0030 은 «이름이 정해질 때 한 번에 바꾼다» 고 적었지만, 그때 적은 이유(절대 경로가 여러 곳에 걸림, 제품명을 바꾸면 PC 저장 폴더 <code>LocalLow/local/CoopDefense</code> 와 창 제목이 바뀜 — 0041)가 지금도 그대로이고, 지금 worktree 8곳에서 다른 주문이 돌고 있다. 바꿀지는 출시 준비(M7) 때 사용자에게 따로 묻는다.\n</li>\n<li>코드 네임스페이스 <code>Game.*</code>, 문서 안의 주문 번호 접두사 <code>CD-</code>, 스킬 이름 <code>cd-art</code>·<code>cd-canon</code> 은 그대로 둔다(이름과 무관한 식별자다).\n</li></ul>",
-"branch": "cd27",
+"html": "<div class=tw><table><thead><tr><th>쓰는 곳</th><th>한국어</th><th>영어(해외판)</th></tr></thead><tbody><tr><td><strong>게임 이름(정식)</strong></td><td><strong>포트메이츠: 같이 지킬래?</strong></td><td><strong>Fortmates: Guard With Me?</strong></td></tr><tr><td>이름 본체(짧게 부를 때, 로고 큰 글자)</td><td>포트메이츠</td><td>Fortmates</td></tr><tr><td>부제(친구에게 건네는 말, 로고 작은 글자)</td><td>같이 지킬래?</td><td>Guard With Me?</td></tr><tr><td>폰 홈 화면 글자(안드로이드)</td><td><strong>포트메이츠</strong> — 런처 글자 칸이 짧아 부제는 넣지 않는다</td><td>Fortmates</td></tr><tr><td>로딩 화면 타이틀 로고 <code>ui/logo_text</code></td><td>두 줄: 큰 «포트메이츠» + 아래 작은 «같이 지킬래?» — <strong>결정 0056 이 대체: «포트메이츠» 한 줄 디자인 로고 <code>ui/logo_title</code></strong></td><td>(현지화 때 같은 틀로 따로 만든다)</td></tr></tbody></table></div>\n<ul>\n<li>띄어쓰기·문장부호는 위 표 그대로다. «포트 메이츠»(띄움)·«포트메이트»(단수)·«같이 지킬래»(물음표 없음)로 쓰지 않는다.\n</li>\n<li>뜻: fort(요새) + mates(동료) = «요새를 같이 지키는 동료들». 부제는 친구에게 같이 하자고 권하는 말이다.\n</li>\n<li><strong>폴더·저장소·유니티 제품명은 <code>CoopDefense</code> 그대로 둔다.</strong> 결정 0030 은 «이름이 정해질 때 한 번에 바꾼다» 고 적었지만, 그때 적은 이유(절대 경로가 여러 곳에 걸림, 제품명을 바꾸면 PC 저장 폴더 <code>LocalLow/local/CoopDefense</code> 와 창 제목이 바뀜 — 0041)가 지금도 그대로이고, 지금 worktree 8곳에서 다른 주문이 돌고 있다. 바꿀지는 출시 준비(M7) 때 사용자에게 따로 묻는다.\n</li>\n<li>코드 네임스페이스 <code>Game.*</code>, 문서 안의 주문 번호 접두사 <code>CD-</code>, 스킬 이름 <code>cd-art</code>·<code>cd-canon</code> 은 그대로 둔다(이름과 무관한 식별자다).\n</li></ul>",
+"branch": "main",
 "dirty": false
 },
 {
@@ -4406,7 +4399,18 @@
 "date": "2026-11-17",
 "by": "사용자",
 "html": "<ol>\n<li><strong>로딩 화면 타이틀은 «포트메이츠» 한 줄</strong>이다. 부제 «같이 지킬래?» 는 로딩 화면에 쓰지 않는다. 게임의 정식 이름(«포트메이츠: 같이 지킬래?»)·영어 이름·홈 화면 글자는 0052 그대로다.\n</li>\n<li>타이틀은 <strong>Codex 가 그린 디자인 로고</strong>(<code>ui/logo_title</code>: 금빛 글자 + 성벽 받침 + 검·활 + 파란 깃발)다. 코드로 구운 글자 로고 <code>ui/logo_text</code> 는 로딩 화면에서 쓰지 않는다(파일은 남는다).\n</li>\n<li><strong>로딩 화면은 인트로 연출로 시작한다</strong>: 평온한 하늘 → 금 → 찢어짐 → 그림자 무리가 카메라 쪽으로 → 줌아웃으로 원화 전체 → 타이틀 등장 → 켄 번스. 말·글이 없는 그림 연출이라 결정 0009(스토리 없음 — 대사·컷신·설정 글 없음, 그림·배경으로만 전한다)와 맞는다. 인트로 중 탭은 건너뛰기.\n</li>\n<li>인트로의 그림자 무리는 결정 0053 의 그림자 무리 모양(검은 남색 실루엣·청록 발광선·검은 연기, 보라·빨강 없음)을 따른다. 균열 자체의 보라 테두리는 확정 원화(<code>key/loading</code>)의 균열 색을 따른다.\n</li>\n<li><strong>패치 화면은 확인하는 동안 글을 보이지 않는다.</strong> 새 빌드·받을 데이터가 있을 때만 창이 뜨고, 받는 중에만 막대와 «데이터 받는 중» 이 보인다. 패치 화면의 뒤판은 인트로의 첫 장면(평온한 하늘)이다.\n</li></ol>",
-"branch": "cd26",
+"branch": "main",
+"dirty": false
+},
+{
+"id": "0057",
+"title": "행동력 기호는 번개 모양(속성 표현 아님) · 글꼴은 Noto Sans KR Black 한 벌 · 재화·입구·탭 아이콘은 Codex 세트",
+"status": "사용자 결정(1·3번 앞부분) · 나머지는 대표 결정. 사용자가 결과 화면을 보고 확정하기 전까지 그림은 `draft`.",
+"kind": "confirmed",
+"date": "2026-11-17 (CD-0027)",
+"by": "사용자가 이렇게 말했다. «행동력은 번개 모양으로 바꾸고, 은화는 1개가 아니라 쌓아올리는 디자인으로하고 … 행동력, 은화, 젬스톤 모두 코덱스를 써서 디자인 퀄리티를 크게 올려줘». 글꼴은 사용자 답 «후보 비교판 보고 진행» 에 따라 대표가 골랐다.",
+"html": "<ol>\n<li><strong>행동력 기호는 번개 모양이다.</strong> 이것은 판을 시작할 때 쓰는 재화의 *기호*이고, 결정 0012 의 «속성(불·얼음·번개)» 이 아니다. 그래서 다음을 지킨다.\n<ul>\n<li>그림은 노란 번개 모양 <em>물건</em> 하나다. 전기 불꽃, 번쩍임, 빛 번짐 같은 효과를 붙이지 않는다.\n</li>\n<li>영웅·몬스터·공격 효과에는 번개를 쓰지 않는다. 0012 는 그대로다.\n</li>\n<li><code>tools/canon_lint.py</code> 는 바꾸지 않는다. 지시문에는 «lightning» 이라는 낱말 대신 «zigzag bolt-shaped object» 처럼 쓴다.\n</li></ul>\n</li>\n<li><strong>글꼴은 Noto Sans KR Black(wght 900 정적 인스턴스) 한 벌이다</strong>(OFL). 비교판 <code>studio/orders/CD-0027-…/_qa/cd27_font_compare.png</code> 에서 후보 셋(Noto Black·Jua·Black Han Sans)을 견줬다. Jua 는 한글이 2,367자뿐이고 <code>·</code> <code>×</code> 가 없어서 대체 글꼴이 섞인다. Black Han Sans 는 숫자가 넓어 칩 폭을 많이 먹는다. 그래서 둘 다 뺐다.\n</li>\n<li><strong>재화·입구·하단 탭 아이콘은 Codex 세트로 그린다.</strong> 같은 세션에서 이어 그리고, 판정은 세트 대조판으로 한다. 이번에 그린 것: 행동력·은화 더미·젬스톤·오늘 목표·우편, 하단 탭 5개. UI 틀·게이지는 지금처럼 코드(CodeSkin, CD-0024)로 만든다.\n</li>\n<li><strong>연합의 결정은 로비 재화 줄에서 빼고 영웅 탭에서만 보인다.</strong> 재화 종류는 그대로다(L11).\n</li>\n<li><strong>버튼에서 반복해서 쓸고 지나가는 빛(Gleam 쓸림)을 쓰지 않는다.</strong> 받을 게 있다는 알림은 움직이지 않는 빨간 점·숫자 배지로 한다. 로딩 로고와 패치 진행 막대는 버튼이 아니라서 예외다.\n</li></ol>",
+"branch": "cd27",
 "dirty": true
 }
 ],
@@ -8053,6 +8057,11 @@
 "note": "세로 9:16 한 장짜리 그림"
 },
 {
+"id": "intro",
+"title": "로딩 인트로·타이틀",
+"note": "CD-0026: 균열 → 그림자 무리 → 줌아웃 → 타이틀. 원화 key/loading_calm 은 원화 묶음에"
+},
+{
 "id": "ui",
 "title": "화면용 그림(제비·아이콘)",
 "note": "512×512 투명"
@@ -8088,6 +8097,14 @@
 "title": "로딩 화면 원화",
 "brief": "세로 9:16. 관문 앞의 여섯 종족과 하늘의 그림자 균열. 로고 자리 비움",
 "status": "confirmed",
+"hasFile": true
+},
+{
+"id": "key/loading_calm",
+"group": "key",
+"title": "로딩 원화 — 평온한 하늘(인트로 첫 장면)",
+"brief": "key/loading 과 같은 그림에서 균열·그림자 무리만 지운 판. 인트로가 이 하늘을 당겨 보다가 찢는다(CD-0026)",
+"status": "draft",
 "hasFile": true
 },
 {
@@ -8833,99 +8850,54 @@
 "hasFile": true
 },
 {
-"id": "ui/icon_stamina",
+"id": "ui/update_art",
 "group": "ui",
-"title": "아이콘: 행동력(번개)",
-"brief": "",
+"title": "업데이트 창 그림(두루마리를 든 전령 새)",
+"brief": "업데이트 창 그림: 두루마리를 든 전령 새(글자 없음)",
 "status": "draft",
-"address": "ui/icon_stamina",
+"address": "ui/update_art",
 "hasFile": true
 },
 {
-"id": "ui/icon_silver",
-"group": "ui",
-"title": "아이콘: 은화 더미",
-"brief": "",
+"id": "ui/logo_title",
+"group": "intro",
+"title": "타이틀 로고 «포트메이츠»",
+"brief": "로딩 타이틀 «포트메이츠» 한 줄 디자인 로고: 금빛 글자, 성벽 받침, 검·활, 파란 깃발(결정 0056)",
 "status": "draft",
-"address": "ui/icon_silver",
+"address": "ui/logo_title",
 "hasFile": true
 },
 {
-"id": "ui/icon_gemstone",
-"group": "ui",
-"title": "아이콘: 젬스톤",
-"brief": "",
+"id": "fx/rift",
+"group": "intro",
+"title": "인트로: 하늘이 찢어지는 균열",
+"brief": "인트로: 하늘이 유리처럼 찢어지는 균열(보라 테두리 — 원화의 균열 색)",
 "status": "draft",
-"address": "ui/icon_gemstone",
+"address": "fx/rift",
 "hasFile": true
 },
 {
-"id": "ui/icon_mission",
-"group": "ui",
-"title": "아이콘: 오늘 목표",
-"brief": "",
+"id": "fx/shade_up",
+"group": "intro",
+"title": "인트로: 그림자 무리 정면 비행(날개 위)",
+"brief": "인트로: 카메라 쪽으로 날아오는 그림자 무리(정면), 날개 위 — 결정 0053 색",
 "status": "draft",
-"address": "ui/icon_mission",
+"address": "fx/shade_up",
 "hasFile": true
 },
 {
-"id": "ui/icon_mail",
-"group": "ui",
-"title": "아이콘: 우편",
-"brief": "",
+"id": "fx/shade_down",
+"group": "intro",
+"title": "인트로: 그림자 무리 정면 비행(날개 아래)",
+"brief": "인트로: 같은 개체 날개 아래(날갯짓 2프레임, 같은 캔버스)",
 "status": "draft",
-"address": "ui/icon_mail",
-"hasFile": true
-},
-{
-"id": "ui/tab_lobby",
-"group": "ui",
-"title": "탭: 로비(성문)",
-"brief": "",
-"status": "draft",
-"address": "ui/tab_lobby",
-"hasFile": true
-},
-{
-"id": "ui/tab_characters",
-"group": "ui",
-"title": "탭: 영웅(투구)",
-"brief": "",
-"status": "draft",
-"address": "ui/tab_characters",
-"hasFile": true
-},
-{
-"id": "ui/tab_box",
-"group": "ui",
-"title": "탭: 쿠지(상자)",
-"brief": "",
-"status": "draft",
-"address": "ui/tab_box",
-"hasFile": true
-},
-{
-"id": "ui/tab_achievements",
-"group": "ui",
-"title": "탭: 업적(트로피)",
-"brief": "",
-"status": "draft",
-"address": "ui/tab_achievements",
-"hasFile": true
-},
-{
-"id": "ui/tab_shop",
-"group": "ui",
-"title": "탭: 상점(가판대)",
-"brief": "",
-"status": "draft",
-"address": "ui/tab_shop",
+"address": "fx/shade_down",
 "hasFile": true
 }
 ],
-"at": "2026-11-17 23:02",
-"branch": "cd27",
-"dirty": true
+"at": "2026-11-17 23:43",
+"branch": "main",
+"dirty": false
 },
 "gallery": {
 "v": 1,
@@ -8942,6 +8914,11 @@
 },
 "key/loading": {
 "f": "data/art/391565b960eda2ac005c.bin",
+"w": 720,
+"h": 1280
+},
+"key/loading_calm": {
+"f": "data/art/f2e51049b11617f1ace9.bin",
 "w": 720,
 "h": 1280
 },
@@ -9305,53 +9282,28 @@
 "w": 512,
 "h": 512
 },
-"ui/icon_stamina": {
-"f": "data/art/883e8ce9037f6e0ee367.bin",
+"ui/update_art": {
+"f": "data/art/216835f1be84d0583b8c.bin",
 "w": 512,
 "h": 512
 },
-"ui/icon_silver": {
-"f": "data/art/b68e52807d633d851856.bin",
+"ui/logo_title": {
+"f": "data/art/22c8b275fb5a45f1c6f0.bin",
+"w": 1200,
+"h": 762
+},
+"fx/rift": {
+"f": "data/art/4a5e19cf3fefb3d85b58.bin",
+"w": 1200,
+"h": 397
+},
+"fx/shade_up": {
+"f": "data/art/49721690f32cbef341ed.bin",
 "w": 512,
 "h": 512
 },
-"ui/icon_gemstone": {
-"f": "data/art/aae6e891918563446add.bin",
-"w": 512,
-"h": 512
-},
-"ui/icon_mission": {
-"f": "data/art/8e6ec936f38026fe7308.bin",
-"w": 512,
-"h": 512
-},
-"ui/icon_mail": {
-"f": "data/art/d8d747572953b445a71b.bin",
-"w": 512,
-"h": 512
-},
-"ui/tab_lobby": {
-"f": "data/art/5477de4cc7dbe3234f3c.bin",
-"w": 512,
-"h": 512
-},
-"ui/tab_characters": {
-"f": "data/art/82d5f3e6367b6c32ce77.bin",
-"w": 512,
-"h": 512
-},
-"ui/tab_box": {
-"f": "data/art/ea89f9a8eb8700a86c38.bin",
-"w": 512,
-"h": 512
-},
-"ui/tab_achievements": {
-"f": "data/art/4abdda794e3ce5e3c9c4.bin",
-"w": 512,
-"h": 512
-},
-"ui/tab_shop": {
-"f": "data/art/f3820b5e45f069c0bfce.bin",
+"fx/shade_down": {
+"f": "data/art/188eccd060a59e0047e6.bin",
 "w": 512,
 "h": 512
 }
@@ -10304,9 +10256,9 @@
 {
 "file": "2026-11-17.md",
 "title": "2026-11-17",
-"html": "<h3>한 일 — 앱 아이콘 새 그림(결정 0051)</h3>\n<ul>\n<li>사용자: «앱 아이콘도 새롭게 리소스 제작이 필요할 것 같아» → 콘셉트 «캐릭터 + 소환 모티프, 여캐» → 시안 A(엘프 4단계 이실리아)·B(용족 4단계 아즈가리아)를 본 뒤 «리엘로 해줘».\n</li>\n<li>Codex 3장(<code>gen.py --key app_icon_elf | app_icon_dragon | app_icon_liel --force</code>). 도구 상한(7일 150장)을 이미 넘어 있어(11-15 하루 168장) 사용자가 사용량 페이지를 확인하고 <strong>이번 아이콘에 한해 최대 4장</strong> 허락했다. 상한이 저절로 풀리는 시각은 11-22 21:36(도구 기록 기준).\n</li>\n<li>고른 그림을 <code>accept.py --icon liel</code> 로 <code>art/final/icon/app.png</code>(시안)에 넣고, <code>app_icon.py --art</code> 로 유니티 아이콘 4장(<code>Art/AppIcon/</code>, 파일 이름 그대로)을 다시 만들었다.\n</li>\n<li>도구: <code>app_icon.py --art</code>(전용 그림 → 둥근 사각·원·적응형 배경/전경) · <code>--preview-only</code>, <code>check.py</code> 에 그림 종류 <code>icon</code>(1024×1024 RGB), <code>accept.py --icon</code>, <code>import_art.py</code> 는 <code>art/final/icon/</code> 을 복사하지 않음. 목록에 묶음 «앱 아이콘»·항목 <code>icon/app</code>, 장부 5줄(새 그림 1 + 아이콘 4줄 고침). 스킬 <code>cd-art</code> 규격표에 한 줄. 결정 0041 §2 에 «0051 로 대체» 표시.\n</li>\n<li>사용자 «코인이 너무 밋밋한데» → 같은 Codex 세션을 이어 코인만 금화(구슬 테·잎 고리·반짝임)로 다시 그렸다(<code>gen.py --key app_icon_liel_gold --force</code>, 허락분 4장째 — 다 씀). 코인 밖 픽셀 변화 0.4%. 금화로 한 이유: 은빛 코인이 하늘색에 묻혔고, 결정 0049 로 은색 코인은 판 밖 «은화», 판 안 소환은 골드다. <code>art/final/icon/app.png</code> 와 아이콘 4장을 이 그림으로 다시 만들었다.\n</li>\n<li>번호: 0050 은 worktree <code>fin-meta</code>(cd19, 커밋 전)가 쓰고 있어서 0051 로 했다.\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li><code>app_icon.py</code> 의 옛 방식(<code>--face elf/1</code>)이 지금 아이콘 4장을 바이트 그대로 만든다(되돌리기 경로).\n</li>\n<li>눈 검수: 확정 일러스트 <code>elf/1</code> 과 나란히 — 같은 인물(단발·긴 귀·초록 튜닉·밧줄 허리띠·장난감 활), 같은 선·채색. 크기 시트 512~36px·적응형·홈 화면 흉내에서 48px 에 얼굴과 코인이 구분된다. 시트: <code>art/raw/appicon_preview_final.png</code>(git 제외).\n</li>\n<li><code>python tools/studio.py check</code> 통과: Core 301/301 · 데이터 · 그림 58장 오류 0 경고 0 · 설정 오류 0. <code>import_art.py --check</code> 0 differ.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>유니티 재가져오기·빌드·폰 홈 화면: 이 시각 다른 세션이 같은 체크아웃으로 유니티를 열어 두고 있었다(잠금 파일, <code>InitTestScene…</code> 생김). 다음 APK 빌드에서 본다. PlayerSettings 는 같은 파일 이름이라 바꿀 것이 없다.\n</li>\n<li>사용자 «확정»(그림 상태는 <code>draft</code>).\n</li></ul>\n<h3>CD-0021 게임 이름 확정 — «포트메이츠: 같이 지킬래?» (줄기 <code>cd21</code>)</h3>\n<ul>\n<li>사용자와 이름 후보를 여러 번 좁혔다(기준: 디펜스·협동이 보일 것, 안 겹칠 것, 입에 감길 것, 해외 번역 문제 없을 것). 확정: <strong>포트메이츠: 같이 지킬래? / Fortmates: Guard With Me?</strong> → 결정 0052. 옛 작업명 «프로젝트CD» 는 금지어(<code>canon_lint.py</code>).\n</li>\n<li>반영: CLAUDE.md, 스킬 cd-canon·cd-art·studio, 에이전트 studio-art, docs/10(«게임 이름» 절)·docs/14, 결정 0030·0041 에 «0052 로 대체», milestones 이름, 프로젝트 메모리, <code>Desktop\\Claude\\README.md</code>.\n</li>\n<li>게임: 로딩 화면 로고를 두 줄 글자 로고로 다시 구움(<code>ui_marks.py --only logo_text</code>, 1000×390), 로고 상자 920×359@-85(«?» 가 구름에 닿지 않게 25 올림). 안드로이드 홈 화면 글자 «포트메이츠».\n</li>\n<li>검증: <code>studio.py check</code> 통과, EditMode 101/102(기존 날짜 의존 결함 1), 로딩 화면 캡처, QA PASS. 안드로이드 실기기 확인은 안 함.\n</li>\n<li>남은 일: 상표 검색과 폴더·제품명 변경 여부(M7-9). main 합치기는 main 의 다른 세션 변경이 커밋된 뒤, 사용자 승인 뒤.\n</li></ul>\n<h3>새벽 — 그림자 무리 그림 새 방향 (주문 CD-0022 · 줄기 cd19 · worktree fin-meta)</h3>\n<p>사용자: «몬스터 리소스 작업이 안된 것 같은데 임시 내용 확인하고 몬스터 리소스 작업 진행하자».</p>\n<h4>확인한 «임시» 상태</h4>\n<ul>\n<li>몬스터 그림은 CD-0005·0008 의 Codex 시안 13장(귀여운 남보라 치비)이 유니티 <code>Art/Temp</code> 에만 있었다(확정 전). 판에서는 셰이더가 검게 칠해 썼다(결정 0045).\n</li>\n<li>떼·날개·응어리는 다른 몬스터 그림을 크기만 바꿔 빌려 썼다. 날개는 날개 없는 추적자가 공중에 떠 있었다.\n</li>\n<li><code>art-manifest.json</code> 은 «옛 임시 그림 1종(고블린)» 으로 낡아 있었다.\n</li>\n<li>Codex 그림은 도구 상한(7일 174/150)으로 11-22 까지 막혀 있었다.\n</li></ul>\n<h4>한 일</h4>\n<ul>\n<li>사용자 지시로 <code>tools/codex.py</code> 의 그림 상한을 없앴다(결정 0050). 실제 한도에 걸리면 그 창을 막고 보고한다. 리뷰·질문 상한은 그대로.\n</li>\n<li>떼·날개·응어리 고유 그림 3장(1차, 귀여운 쪽)을 넣었다.\n</li>\n<li>사용자가 참고 이미지로 «검은 실루엣·청록 발광선·검은 연기» 느낌을 지정했다. 그 이미지는 다른 작품의 그림자 군단이라 인물 생김새는 가져오지 않고 장르 공통 느낌만 쓰기로 했다(규칙 5).\n<ul>\n<li>«SD 비율 + 위협적», «시안 2장 먼저» → 보병·방패병 시안 → «컨셉 괜찮다, 정식 진행».\n</li>\n<li>16장 전부를 새 Codex 세션(영웅 SD 참고)으로 다시 그렸다(결정 0053). 보병 4종, 사냥개, 방패병, 뿔 짐승 거수, 기는 떼, 막 날개 마물, 꿰맨 사슬 거한, 현상금 6.\n</li></ul>\n</li>\n<li>셰이더 <code>CD_SHADE</code> 가 새 그림의 청록선을 잿빛으로 뭉개서 그림 색을 그대로 쓰게 고쳤다. 떼 크기 70 → 90.\n</li>\n<li>장부 16줄, 목록 16항목, <code>docs/03</code>·<code>12</code>, 결정 0050·0053.\n</li>\n<li>Codex 그림 20회(재시도 1), 한도 걸림 0.\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>Core 301/301. 데이터·그림·설정 검사 통과. <code>test_codex.py</code> 통과.\n</li>\n<li>PlayMode 의 새·고친 테스트 통과. 판 캡처(웨이브 2·4·13)에서 생김새와 청록선이 읽힌다.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>EditMode 85/86, PlayMode 실패 4. 전부 일일 목표가 날짜(11-17)로 뽑혀 코인이 +11·+9 되는 기존 테스트이고, 이번 변경과 무관하다고 본다. main 에서 오늘 같은 테스트를 돌려 보지는 않았다.\n</li>\n<li>움직이는 모습, PC·안드로이드 빌드, 폰, 사람 플레이. 그림 사용자 확정(전부 temp).\n</li>\n<li>main 반영·커밋·푸시는 사용자 확인 대기. 현황 사이트 갱신은 main 반영 뒤.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자: 판에서 새 몬스터 보기 → 확정이면 <code>art/final</code> 로.\n</li>\n<li>날짜 실패 테스트가 날짜를 고정하게 고치기(후속).\n</li></ul>\n<h3>CD-0019 독립 시뮬레이터와 봇 3종 · 1만 판 밸런스 배치 (M2-3·M2-4)</h3>\n<p>메인 세션(대표)이 맡긴 일. 줄기 <code>claude/relaxed-sinoussi-a73046</code>(main 6b07a50 위), main 병합·푸시는 사용자 확인 대기.</p>\n<h4>한 일</h4>\n<ul>\n<li><code>tools/sim/</code>: 유니티 없이 진짜 Core·<code>Data/</code> 로 판을 끝까지 돌리는 net10.0 콘솔. <code>play</code>(시드·맵·난이도·봇·인원 → 결과 한 줄 JSON) · <code>batch</code> · <code>summarize</code> · <code>tables</code>(판 밖 확률표 대량 추첨). 한 줄 재실행 <code>powershell -ExecutionPolicy Bypass -File tools\\sim\\run_batch.ps1</code>.\n</li>\n<li>봇 3종: simple(SimpleBot) · focus(FocusBot, 시험 폴더 파일을 링크) · 새 OneRaceBot(지정 종족만 강화·나머지 판매). 배치 변형 8개(simple, focus, onerace×6).\n</li>\n<li>1만 판: 6세트 × 8변형 × 시드 1..210 = 10,080판, 예외·시간 초과 0, 약 31초(병렬 20).\n</li>\n<li>요약 <code>tools/sim/results/summary.md</code>·<code>summary.json</code>, 기획 해석 <code>studio/orders/CD-0019-…/22-planning.md</code>.\n</li></ul>\n<h4>결과(결정 0049 이전 규칙 — CD-0016 뒤 다시 돌린다)</h4>\n<ul>\n<li>승률(8변형 합): gate_01 std 68.3% · hard 3.0% · elite 0% / gate_02 std 74.0% · hard 2.7% · elite 0%. SimpleBot 은 육성 없음 목표(std 승 6~14/20, hard ≤3/20, 결정 0037·0042) 안. elite 는 육성이 있어야 이기는 단계라 이번 배치로는 못 잰다.\n</li>\n<li>뽑기 코인: reward.json 독립 재계산과 불일치 0, 막은 웨이브가 늘수록 단계 값(1/2/3/4)대로 늘어남 — 결정 0048 차등이 의도대로.\n</li>\n<li>확률표 24개(소환 종족·단계, 판 미션, 박스, shard_random, 일일 목표, beast 치명) 모두 허용치 안.\n</li>\n<li>한 종족·한 전략 지배: 0/6. 다만 elite 는 전원 0승이라 판정 불능 → M2 통과 조건은 열어 둔다.\n</li>\n<li>elf 피해 점유가 모든 봇에서 1위(27~31%), spirit 꼴찌(5~9%). 수치 제안만 했다(Data 변경 없음).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li><code>python tools/studio.py check</code> 통과(Core 322/322, 새 시뮬레이터 시험 21개 포함 · 데이터 · 그림 · 설정), canon_lint 통과, Data·Core/package 변경 0, 결정성(병렬도 달라도 바이트 동일), QA PASS.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>유니티 EditMode/PlayMode(유니티가 컴파일하는 파일은 바꾸지 않음). 사람 플레이(해당 없음).\n</li>\n<li>수치 제안(elf·spirit)이 승률에 주는 영향은 시뮬로 돌려 보지 않았다.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자 결정 B1(코인 «막은 웨이브» 정의 · 어려움·정예 목표 · M2 조건 열어 두기).\n</li>\n<li>CD-0016 뒤 재배치 + 육성 배치(M2-10), 연속 불운 지표(M2-6). 사이트 게시(M2-8)는 main 병합 뒤.\n</li></ul>\n<h3>CD-0015·CD-0016 — 사용자 피드백 22항목 중 판 밖·판 안 개편(결정 0049), 통합 줄기 <code>cd-int</code></h3>\n<ul>\n<li>사용자 피드백(안드로이드 플레이 22항목)을 결정 0049 로 기록하고 주문 4개로 나눔: CD-0015 판 밖 · CD-0016 판 안 · CD-0017 이름 입력·로딩(11-17 main 84b3800) · CD-0018 로비(별도 세션 cd18-lobby, 줄기 <code>cd18</code>, 통합 관리 세션이 합침).\n</li>\n<li>CD-0015: 영웅·은화·연합의 결정·쿠지 티켓·젬스톤·행동력·계정 레벨·업적 1회/반복·일일/주간 미션·은화 상점·판 보상·저장 v9. QA FAIL 1회(화면 3건) → 재검수 PASS.\n</li>\n<li>CD-0016: 소환 90/10·비용 고정·자유 배치(상한 20)·현상금 목숨·몬스터 이동 끊김(원인: 사건 있는 틱에만 위치 갱신). QA PASS.\n</li>\n<li>통합(<code>.worktrees/fin-plan</code> 의 <code>cd-int</code>): cd15 + cd16 + main 60c80b4. 이어 하기 형식 CDSNAP6, 균형 다시 잼(목표 충족), 시뮬레이터 새 규칙 이식, §10 도구 적용(LitMotion·Art/Fx·ScreenTransition).\n</li>\n<li>확인: <code>studio.py check --unity</code> 통과(Core 362/362 · EditMode 123/123), PlayMode 실패 1(판 시작 프레임 101.9ms — 단독 75ms 두 번 통과, 흔들림), PC 빌드 오류 0.\n</li>\n<li>확인 못 함: 안드로이드 실기·사람 플레이.\n</li></ul>\n<h3>CD-0014 앱 배포·CDN 환경 — Addressables + CCD, 패치 화면 → 로딩 → 로비 (줄기 <code>cd14</code>)</h3>\n<h4>한 일</h4>\n<ul>\n<li>(11-16, 주문 전) Unity Cloud 연결·CCD 가입·버킷 <code>android-dev</code>·Firebase 프로젝트·테스터 그룹, 저장소 밖 고정 서명 키, <code>tools/distribute_android.ps1</code> 한 줄 — <code>docs/14</code> §1-1·1-2.\n</li>\n<li>그림 카탈로그를 Addressables(그룹 <code>Art</code>, 앱 안 기본본 + 원격 갱신, 카탈로그 앱 버전별)로 옮기고 <code>tools/cdn_update.ps1</code> 로 CCD 에 바뀐 그림만 올린다.\n</li>\n<li>부팅: 패치 화면(새 빌드 «항상 필수» 창 — <code>app_version.json</code>, «받을 데이터 N MB» [확인], 다운로드 진행 막대) → 로딩 화면(단계 목록, 서버 연결 자리) → 로비. 사용자 결정 11-17.\n</li>\n<li>C9 다듬기(§10): 막대 빛 쓸림, TMP 문구 등장, 완료 빛 알갱이, 패치→로딩 Fade·로딩→로비 Dissolve(cd20 <code>ScreenTransition</code>), <code>craft-game-floors</code> 감사.\n</li>\n<li>첫 실행 이름 창의 블러가 전환 사본을 뜨던 결함 수정(<code>UI/Backdrop.cs</code>).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>사용자 폰(0.4.0 시험 빌드): Firebase 설치, 재설치 없이 로비 배경이 바뀌고 되돌아옴. CCD 공개 주소 반영이 몇 분 늦는 것 실측.\n</li>\n<li>PC(Win64): 필수 창·용량 창·막대·전환·오프라인 두 경우·되돌림 캡처. QA PASS(+변경분 재확인 PASS).\n</li>\n<li>main(62cae6a) 합친 뒤: Core 362/362 · EditMode 132/132 · PlayMode 실패 0 · <code>studio.py check</code> 통과.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>0.5.0 폰에서 패치 화면·필수 창·용량 창(사람 확인 남음 — C9 이후 코드로 다시 빌드·배포 필요). 그래픽 «낮음» 실제 모습.\n</li>\n<li>화면 없는 CCD 업로드(서비스 계정 키 없음 — 지금은 편집기 창 <code>-Gui</code>).\n</li></ul>\n<h3>통합 — 여러 줄기를 main 으로 (통합 관리 세션)</h3>\n<ul>\n<li>main 순서: 앱 아이콘(b07d03c) → cd20 CD-0020(05f3684) → icon 주소 수정(876cac4) → cd21 CD-0021(7bbde00) → cd19 CD-0022(bf097d7) → CD-0019 시뮬레이터(60c80b4) → cd-int CD-0015·0016(62cae6a) → cd14 CD-0014(3a2a53c) → cd18 CD-0018(c806bbe). 지금 이 줄기들은 모두 main 에 들어 있다.\n</li>\n<li>번호 충돌 정리: 결정 0051 은 앱 아이콘, 그림자 무리는 0053 · 주문 CD-0019 는 시뮬레이터, 그림자 무리는 CD-0022.\n</li>\n<li>통합 수정: <code>ArtAddresses.FromArtFinal</code> 이 <code>art/final/icon/</code> 을 건너뜀(import_art.py 와 같게) — 앱 아이콘 그림 때문에 FinalArtTests 가 «없음 icon/app» 으로 실패하던 것.\n</li>\n<li>확인: main c806bbe 에서 <code>studio.py check --unity</code> 통과 — Core 362/362 · 데이터·그림 58·설정 · EditMode 132/132.\n</li></ul>\n<h4>확인 못 한 것·남은 일</h4>\n<ul>\n<li><strong>PC·APK 새 빌드 배포 금지(고칠 때까지)</strong>: 원격 카탈로그 이름이 앱 버전뿐이라, 그림이 바뀐 같은 0.5.0 빌드가 CCD 의 옛 카탈로그를 받아 그림이 전부 빠진다. CD-0014 세션이 줄기 <code>cd14-fix</code> 에서 고치는 중. CCD 업로드·버전 파일은 사용자 승인 전 안 건드림.\n</li>\n<li><code>MonsterVariantShotTests.CaptureGruntCrowd</code>(캡처 전용, <code>CD_SHOTS_DIR</code> 있을 때만): main 에서 «시간 초과: 졸개 여럿» 120초 실패. CD-0016 웨이브 개편 뒤 2웨이브에 <code>shadow_grunt</code> 6마리가 동시에 안 모이는 것으로 보임(확인 필요). 평소 실행에서는 건너뛴다.\n</li>\n<li>PlayMode 전체는 main 최종본에서 다시 돌리지 않았다(각 줄기·cd-int·cd18 통합에서 돌린 결과만 있음).\n</li>\n<li>CD-0023(판 안 강화 단계 4갈래, 결정 0054)은 진행 중이라 이 통합에 없다.\n</li>\n<li>사람 플레이·안드로이드 실기: 안 함(CD-0014 폰 시험 1~4 사람 확인 남음).\n</li></ul>\n<h3>CD-0023 — 판 안 강화를 단계 단위로(결정 0054)</h3>\n<ul>\n<li>사용자: «종족을 키우는게아니라 등급 단위로묶는걸로 변경해줘». 판 안 골드 강화를 종족 6갈래 → 단계 4갈래(«단계 강화», ◆·단계 색, 등급 글자 없음). 이어 하기 형식 CDSNAP7.\n</li>\n<li>수치: 단계마다 +10%/회·최대 10, 비용 60+40n / 90+60n / 120+80n / 180+120n. 균형 목표 충족. 한 종족 몰아 하기(보통 100%)는 강화 단위와 무관 — 고정 비용 팔고 다시 뽑기 + 합성이 원인, M2-12.\n</li>\n<li>덤: <code>CaptureGruntCrowd</code> 시험 조건(졸개 계열 전부 세기).\n</li>\n<li>확인: Core 382/382, EditMode 132/132, PlayMode 실패 0, PC 빌드 오류 0, QA PASS. 사람 플레이 안 함.\n</li></ul>\n<h3>CD-0024 — UI 틀 품질 올림(코드로 굽는 나무·금·양피지 틀을 기본으로)</h3>\n<ul>\n<li>사용자: «ui사용할리소스 제작 퀄리티가 너무낮아서 … 퀄리티를 올리는방향으로 고민해서 폴리싱해서 푸시까지해놔».\n</li>\n<li>바로잡음: 지금 틀은 Codex 그림이 아니라 CD-0010 코드 토큰 틀이었다(Codex 틀 8장은 미사용). 판단 — 틀은 코드, Codex 는 한 번 쓰는 장식만.\n</li>\n<li><code>CodeSkin</code> 기본: 나무결·금 모서리 덮개·굵은 잉크선·광택 키·양피지 결, 작은 카드는 줄 등급. 로비 batches 62→49. 위험 버튼 글자 대비·슬라이더 손잡이(main 부터 있던 결함 2건)도 고침.\n</li>\n<li>확인: EditMode 141/141, PlayMode 실패 0(QA 1회차 동시 실행 중 1건 흔들림), check 통과, QA PASS. 사람 플레이·안드로이드 실기 선명도 안 봄.\n</li></ul>\n<h3>앱 0.5.2 폰 배포 (CD-0024 UI 틀)</h3>\n<ul>\n<li>사용자: «빌드에반영까지 다 진행해». main ff7b6d2 위에서 0.5.2 · versionCode 7(9fee430), 안드로이드 기본 빌드 base_id c486f0b2, EditMode 141/141.\n</li>\n<li>Firebase App Distribution 릴리스 0.5.2 (7) → 그룹 testers. CCD <code>Android/app_version.json</code> versionCode 7(릴리스 21), 공개 주소에서 7 확인. 0.5.1 앱은 켜면 필수 업데이트 창이 뜬다.\n</li>\n<li>사람 확인 남음: 폰에서 업데이트 창 → 설치 → 새 UI 틀 선명도.\n</li></ul>\n<h3>CD-0025 — 영웅 팝업 스탯과 공격력·체력 10배(결정 0055)</h3>\n<ul>\n<li>사용자: 영웅 팝업에 스탯, 레벨·강화는 «피해 %» 가 아니라 스탯 증가로. 답: «둘 다 공격력(숫자)», 버림 문제는 «공격력·체력 10배».\n</li>\n<li>팝업 스탯 판(공격력·공격 속도·사거리·초당 피해·종족 특기), 버튼 «공격력 a → b», 단계 강화·도움말 낱말. 피해 단위 10배·<code>minHitDamage</code> 10, <code>HeroView</code> 스탯, <code>CDSNAP8</code>.\n</li>\n<li>균형: 1만 판 48칸 ±3%p 이내, <code>gate_02_hard</code> ×101%, 맵 2 시험 40판(정예 L10/+0 상한 9 — M2-12).\n</li>\n<li>확인: main ff7b6d2 합친 뒤 Core 403/403 · EditMode 142/142 · PlayMode 영웅·쿠지 11/11 · QA PASS. 사람 플레이 안 함.\n</li></ul>",
-"at": "2026-11-17 22:42",
-"branch": "cd27"
+"html": "<h3>한 일 — 앱 아이콘 새 그림(결정 0051)</h3>\n<ul>\n<li>사용자: «앱 아이콘도 새롭게 리소스 제작이 필요할 것 같아» → 콘셉트 «캐릭터 + 소환 모티프, 여캐» → 시안 A(엘프 4단계 이실리아)·B(용족 4단계 아즈가리아)를 본 뒤 «리엘로 해줘».\n</li>\n<li>Codex 3장(<code>gen.py --key app_icon_elf | app_icon_dragon | app_icon_liel --force</code>). 도구 상한(7일 150장)을 이미 넘어 있어(11-15 하루 168장) 사용자가 사용량 페이지를 확인하고 <strong>이번 아이콘에 한해 최대 4장</strong> 허락했다. 상한이 저절로 풀리는 시각은 11-22 21:36(도구 기록 기준).\n</li>\n<li>고른 그림을 <code>accept.py --icon liel</code> 로 <code>art/final/icon/app.png</code>(시안)에 넣고, <code>app_icon.py --art</code> 로 유니티 아이콘 4장(<code>Art/AppIcon/</code>, 파일 이름 그대로)을 다시 만들었다.\n</li>\n<li>도구: <code>app_icon.py --art</code>(전용 그림 → 둥근 사각·원·적응형 배경/전경) · <code>--preview-only</code>, <code>check.py</code> 에 그림 종류 <code>icon</code>(1024×1024 RGB), <code>accept.py --icon</code>, <code>import_art.py</code> 는 <code>art/final/icon/</code> 을 복사하지 않음. 목록에 묶음 «앱 아이콘»·항목 <code>icon/app</code>, 장부 5줄(새 그림 1 + 아이콘 4줄 고침). 스킬 <code>cd-art</code> 규격표에 한 줄. 결정 0041 §2 에 «0051 로 대체» 표시.\n</li>\n<li>사용자 «코인이 너무 밋밋한데» → 같은 Codex 세션을 이어 코인만 금화(구슬 테·잎 고리·반짝임)로 다시 그렸다(<code>gen.py --key app_icon_liel_gold --force</code>, 허락분 4장째 — 다 씀). 코인 밖 픽셀 변화 0.4%. 금화로 한 이유: 은빛 코인이 하늘색에 묻혔고, 결정 0049 로 은색 코인은 판 밖 «은화», 판 안 소환은 골드다. <code>art/final/icon/app.png</code> 와 아이콘 4장을 이 그림으로 다시 만들었다.\n</li>\n<li>번호: 0050 은 worktree <code>fin-meta</code>(cd19, 커밋 전)가 쓰고 있어서 0051 로 했다.\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li><code>app_icon.py</code> 의 옛 방식(<code>--face elf/1</code>)이 지금 아이콘 4장을 바이트 그대로 만든다(되돌리기 경로).\n</li>\n<li>눈 검수: 확정 일러스트 <code>elf/1</code> 과 나란히 — 같은 인물(단발·긴 귀·초록 튜닉·밧줄 허리띠·장난감 활), 같은 선·채색. 크기 시트 512~36px·적응형·홈 화면 흉내에서 48px 에 얼굴과 코인이 구분된다. 시트: <code>art/raw/appicon_preview_final.png</code>(git 제외).\n</li>\n<li><code>python tools/studio.py check</code> 통과: Core 301/301 · 데이터 · 그림 58장 오류 0 경고 0 · 설정 오류 0. <code>import_art.py --check</code> 0 differ.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>유니티 재가져오기·빌드·폰 홈 화면: 이 시각 다른 세션이 같은 체크아웃으로 유니티를 열어 두고 있었다(잠금 파일, <code>InitTestScene…</code> 생김). 다음 APK 빌드에서 본다. PlayerSettings 는 같은 파일 이름이라 바꿀 것이 없다.\n</li>\n<li>사용자 «확정»(그림 상태는 <code>draft</code>).\n</li></ul>\n<h3>CD-0021 게임 이름 확정 — «포트메이츠: 같이 지킬래?» (줄기 <code>cd21</code>)</h3>\n<ul>\n<li>사용자와 이름 후보를 여러 번 좁혔다(기준: 디펜스·협동이 보일 것, 안 겹칠 것, 입에 감길 것, 해외 번역 문제 없을 것). 확정: <strong>포트메이츠: 같이 지킬래? / Fortmates: Guard With Me?</strong> → 결정 0052. 옛 작업명 «프로젝트CD» 는 금지어(<code>canon_lint.py</code>).\n</li>\n<li>반영: CLAUDE.md, 스킬 cd-canon·cd-art·studio, 에이전트 studio-art, docs/10(«게임 이름» 절)·docs/14, 결정 0030·0041 에 «0052 로 대체», milestones 이름, 프로젝트 메모리, <code>Desktop\\Claude\\README.md</code>.\n</li>\n<li>게임: 로딩 화면 로고를 두 줄 글자 로고로 다시 구움(<code>ui_marks.py --only logo_text</code>, 1000×390), 로고 상자 920×359@-85(«?» 가 구름에 닿지 않게 25 올림). 안드로이드 홈 화면 글자 «포트메이츠».\n</li>\n<li>검증: <code>studio.py check</code> 통과, EditMode 101/102(기존 날짜 의존 결함 1), 로딩 화면 캡처, QA PASS. 안드로이드 실기기 확인은 안 함.\n</li>\n<li>남은 일: 상표 검색과 폴더·제품명 변경 여부(M7-9). main 합치기는 main 의 다른 세션 변경이 커밋된 뒤, 사용자 승인 뒤.\n</li></ul>\n<h3>새벽 — 그림자 무리 그림 새 방향 (주문 CD-0022 · 줄기 cd19 · worktree fin-meta)</h3>\n<p>사용자: «몬스터 리소스 작업이 안된 것 같은데 임시 내용 확인하고 몬스터 리소스 작업 진행하자».</p>\n<h4>확인한 «임시» 상태</h4>\n<ul>\n<li>몬스터 그림은 CD-0005·0008 의 Codex 시안 13장(귀여운 남보라 치비)이 유니티 <code>Art/Temp</code> 에만 있었다(확정 전). 판에서는 셰이더가 검게 칠해 썼다(결정 0045).\n</li>\n<li>떼·날개·응어리는 다른 몬스터 그림을 크기만 바꿔 빌려 썼다. 날개는 날개 없는 추적자가 공중에 떠 있었다.\n</li>\n<li><code>art-manifest.json</code> 은 «옛 임시 그림 1종(고블린)» 으로 낡아 있었다.\n</li>\n<li>Codex 그림은 도구 상한(7일 174/150)으로 11-22 까지 막혀 있었다.\n</li></ul>\n<h4>한 일</h4>\n<ul>\n<li>사용자 지시로 <code>tools/codex.py</code> 의 그림 상한을 없앴다(결정 0050). 실제 한도에 걸리면 그 창을 막고 보고한다. 리뷰·질문 상한은 그대로.\n</li>\n<li>떼·날개·응어리 고유 그림 3장(1차, 귀여운 쪽)을 넣었다.\n</li>\n<li>사용자가 참고 이미지로 «검은 실루엣·청록 발광선·검은 연기» 느낌을 지정했다. 그 이미지는 다른 작품의 그림자 군단이라 인물 생김새는 가져오지 않고 장르 공통 느낌만 쓰기로 했다(규칙 5).\n<ul>\n<li>«SD 비율 + 위협적», «시안 2장 먼저» → 보병·방패병 시안 → «컨셉 괜찮다, 정식 진행».\n</li>\n<li>16장 전부를 새 Codex 세션(영웅 SD 참고)으로 다시 그렸다(결정 0053). 보병 4종, 사냥개, 방패병, 뿔 짐승 거수, 기는 떼, 막 날개 마물, 꿰맨 사슬 거한, 현상금 6.\n</li></ul>\n</li>\n<li>셰이더 <code>CD_SHADE</code> 가 새 그림의 청록선을 잿빛으로 뭉개서 그림 색을 그대로 쓰게 고쳤다. 떼 크기 70 → 90.\n</li>\n<li>장부 16줄, 목록 16항목, <code>docs/03</code>·<code>12</code>, 결정 0050·0053.\n</li>\n<li>Codex 그림 20회(재시도 1), 한도 걸림 0.\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>Core 301/301. 데이터·그림·설정 검사 통과. <code>test_codex.py</code> 통과.\n</li>\n<li>PlayMode 의 새·고친 테스트 통과. 판 캡처(웨이브 2·4·13)에서 생김새와 청록선이 읽힌다.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>EditMode 85/86, PlayMode 실패 4. 전부 일일 목표가 날짜(11-17)로 뽑혀 코인이 +11·+9 되는 기존 테스트이고, 이번 변경과 무관하다고 본다. main 에서 오늘 같은 테스트를 돌려 보지는 않았다.\n</li>\n<li>움직이는 모습, PC·안드로이드 빌드, 폰, 사람 플레이. 그림 사용자 확정(전부 temp).\n</li>\n<li>main 반영·커밋·푸시는 사용자 확인 대기. 현황 사이트 갱신은 main 반영 뒤.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자: 판에서 새 몬스터 보기 → 확정이면 <code>art/final</code> 로.\n</li>\n<li>날짜 실패 테스트가 날짜를 고정하게 고치기(후속).\n</li></ul>\n<h3>CD-0019 독립 시뮬레이터와 봇 3종 · 1만 판 밸런스 배치 (M2-3·M2-4)</h3>\n<p>메인 세션(대표)이 맡긴 일. 줄기 <code>claude/relaxed-sinoussi-a73046</code>(main 6b07a50 위), main 병합·푸시는 사용자 확인 대기.</p>\n<h4>한 일</h4>\n<ul>\n<li><code>tools/sim/</code>: 유니티 없이 진짜 Core·<code>Data/</code> 로 판을 끝까지 돌리는 net10.0 콘솔. <code>play</code>(시드·맵·난이도·봇·인원 → 결과 한 줄 JSON) · <code>batch</code> · <code>summarize</code> · <code>tables</code>(판 밖 확률표 대량 추첨). 한 줄 재실행 <code>powershell -ExecutionPolicy Bypass -File tools\\sim\\run_batch.ps1</code>.\n</li>\n<li>봇 3종: simple(SimpleBot) · focus(FocusBot, 시험 폴더 파일을 링크) · 새 OneRaceBot(지정 종족만 강화·나머지 판매). 배치 변형 8개(simple, focus, onerace×6).\n</li>\n<li>1만 판: 6세트 × 8변형 × 시드 1..210 = 10,080판, 예외·시간 초과 0, 약 31초(병렬 20).\n</li>\n<li>요약 <code>tools/sim/results/summary.md</code>·<code>summary.json</code>, 기획 해석 <code>studio/orders/CD-0019-…/22-planning.md</code>.\n</li></ul>\n<h4>결과(결정 0049 이전 규칙 — CD-0016 뒤 다시 돌린다)</h4>\n<ul>\n<li>승률(8변형 합): gate_01 std 68.3% · hard 3.0% · elite 0% / gate_02 std 74.0% · hard 2.7% · elite 0%. SimpleBot 은 육성 없음 목표(std 승 6~14/20, hard ≤3/20, 결정 0037·0042) 안. elite 는 육성이 있어야 이기는 단계라 이번 배치로는 못 잰다.\n</li>\n<li>뽑기 코인: reward.json 독립 재계산과 불일치 0, 막은 웨이브가 늘수록 단계 값(1/2/3/4)대로 늘어남 — 결정 0048 차등이 의도대로.\n</li>\n<li>확률표 24개(소환 종족·단계, 판 미션, 박스, shard_random, 일일 목표, beast 치명) 모두 허용치 안.\n</li>\n<li>한 종족·한 전략 지배: 0/6. 다만 elite 는 전원 0승이라 판정 불능 → M2 통과 조건은 열어 둔다.\n</li>\n<li>elf 피해 점유가 모든 봇에서 1위(27~31%), spirit 꼴찌(5~9%). 수치 제안만 했다(Data 변경 없음).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li><code>python tools/studio.py check</code> 통과(Core 322/322, 새 시뮬레이터 시험 21개 포함 · 데이터 · 그림 · 설정), canon_lint 통과, Data·Core/package 변경 0, 결정성(병렬도 달라도 바이트 동일), QA PASS.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>유니티 EditMode/PlayMode(유니티가 컴파일하는 파일은 바꾸지 않음). 사람 플레이(해당 없음).\n</li>\n<li>수치 제안(elf·spirit)이 승률에 주는 영향은 시뮬로 돌려 보지 않았다.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자 결정 B1(코인 «막은 웨이브» 정의 · 어려움·정예 목표 · M2 조건 열어 두기).\n</li>\n<li>CD-0016 뒤 재배치 + 육성 배치(M2-10), 연속 불운 지표(M2-6). 사이트 게시(M2-8)는 main 병합 뒤.\n</li></ul>\n<h3>CD-0015·CD-0016 — 사용자 피드백 22항목 중 판 밖·판 안 개편(결정 0049), 통합 줄기 <code>cd-int</code></h3>\n<ul>\n<li>사용자 피드백(안드로이드 플레이 22항목)을 결정 0049 로 기록하고 주문 4개로 나눔: CD-0015 판 밖 · CD-0016 판 안 · CD-0017 이름 입력·로딩(11-17 main 84b3800) · CD-0018 로비(별도 세션 cd18-lobby, 줄기 <code>cd18</code>, 통합 관리 세션이 합침).\n</li>\n<li>CD-0015: 영웅·은화·연합의 결정·쿠지 티켓·젬스톤·행동력·계정 레벨·업적 1회/반복·일일/주간 미션·은화 상점·판 보상·저장 v9. QA FAIL 1회(화면 3건) → 재검수 PASS.\n</li>\n<li>CD-0016: 소환 90/10·비용 고정·자유 배치(상한 20)·현상금 목숨·몬스터 이동 끊김(원인: 사건 있는 틱에만 위치 갱신). QA PASS.\n</li>\n<li>통합(<code>.worktrees/fin-plan</code> 의 <code>cd-int</code>): cd15 + cd16 + main 60c80b4. 이어 하기 형식 CDSNAP6, 균형 다시 잼(목표 충족), 시뮬레이터 새 규칙 이식, §10 도구 적용(LitMotion·Art/Fx·ScreenTransition).\n</li>\n<li>확인: <code>studio.py check --unity</code> 통과(Core 362/362 · EditMode 123/123), PlayMode 실패 1(판 시작 프레임 101.9ms — 단독 75ms 두 번 통과, 흔들림), PC 빌드 오류 0.\n</li>\n<li>확인 못 함: 안드로이드 실기·사람 플레이.\n</li></ul>\n<h3>CD-0014 앱 배포·CDN 환경 — Addressables + CCD, 패치 화면 → 로딩 → 로비 (줄기 <code>cd14</code>)</h3>\n<h4>한 일</h4>\n<ul>\n<li>(11-16, 주문 전) Unity Cloud 연결·CCD 가입·버킷 <code>android-dev</code>·Firebase 프로젝트·테스터 그룹, 저장소 밖 고정 서명 키, <code>tools/distribute_android.ps1</code> 한 줄 — <code>docs/14</code> §1-1·1-2.\n</li>\n<li>그림 카탈로그를 Addressables(그룹 <code>Art</code>, 앱 안 기본본 + 원격 갱신, 카탈로그 앱 버전별)로 옮기고 <code>tools/cdn_update.ps1</code> 로 CCD 에 바뀐 그림만 올린다.\n</li>\n<li>부팅: 패치 화면(새 빌드 «항상 필수» 창 — <code>app_version.json</code>, «받을 데이터 N MB» [확인], 다운로드 진행 막대) → 로딩 화면(단계 목록, 서버 연결 자리) → 로비. 사용자 결정 11-17.\n</li>\n<li>C9 다듬기(§10): 막대 빛 쓸림, TMP 문구 등장, 완료 빛 알갱이, 패치→로딩 Fade·로딩→로비 Dissolve(cd20 <code>ScreenTransition</code>), <code>craft-game-floors</code> 감사.\n</li>\n<li>첫 실행 이름 창의 블러가 전환 사본을 뜨던 결함 수정(<code>UI/Backdrop.cs</code>).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>사용자 폰(0.4.0 시험 빌드): Firebase 설치, 재설치 없이 로비 배경이 바뀌고 되돌아옴. CCD 공개 주소 반영이 몇 분 늦는 것 실측.\n</li>\n<li>PC(Win64): 필수 창·용량 창·막대·전환·오프라인 두 경우·되돌림 캡처. QA PASS(+변경분 재확인 PASS).\n</li>\n<li>main(62cae6a) 합친 뒤: Core 362/362 · EditMode 132/132 · PlayMode 실패 0 · <code>studio.py check</code> 통과.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>0.5.0 폰에서 패치 화면·필수 창·용량 창(사람 확인 남음 — C9 이후 코드로 다시 빌드·배포 필요). 그래픽 «낮음» 실제 모습.\n</li>\n<li>화면 없는 CCD 업로드(서비스 계정 키 없음 — 지금은 편집기 창 <code>-Gui</code>).\n</li></ul>\n<h3>통합 — 여러 줄기를 main 으로 (통합 관리 세션)</h3>\n<ul>\n<li>main 순서: 앱 아이콘(b07d03c) → cd20 CD-0020(05f3684) → icon 주소 수정(876cac4) → cd21 CD-0021(7bbde00) → cd19 CD-0022(bf097d7) → CD-0019 시뮬레이터(60c80b4) → cd-int CD-0015·0016(62cae6a) → cd14 CD-0014(3a2a53c) → cd18 CD-0018(c806bbe). 지금 이 줄기들은 모두 main 에 들어 있다.\n</li>\n<li>번호 충돌 정리: 결정 0051 은 앱 아이콘, 그림자 무리는 0053 · 주문 CD-0019 는 시뮬레이터, 그림자 무리는 CD-0022.\n</li>\n<li>통합 수정: <code>ArtAddresses.FromArtFinal</code> 이 <code>art/final/icon/</code> 을 건너뜀(import_art.py 와 같게) — 앱 아이콘 그림 때문에 FinalArtTests 가 «없음 icon/app» 으로 실패하던 것.\n</li>\n<li>확인: main c806bbe 에서 <code>studio.py check --unity</code> 통과 — Core 362/362 · 데이터·그림 58·설정 · EditMode 132/132.\n</li></ul>\n<h4>확인 못 한 것·남은 일</h4>\n<ul>\n<li><strong>PC·APK 새 빌드 배포 금지(고칠 때까지)</strong>: 원격 카탈로그 이름이 앱 버전뿐이라, 그림이 바뀐 같은 0.5.0 빌드가 CCD 의 옛 카탈로그를 받아 그림이 전부 빠진다. CD-0014 세션이 줄기 <code>cd14-fix</code> 에서 고치는 중. CCD 업로드·버전 파일은 사용자 승인 전 안 건드림.\n</li>\n<li><code>MonsterVariantShotTests.CaptureGruntCrowd</code>(캡처 전용, <code>CD_SHOTS_DIR</code> 있을 때만): main 에서 «시간 초과: 졸개 여럿» 120초 실패. CD-0016 웨이브 개편 뒤 2웨이브에 <code>shadow_grunt</code> 6마리가 동시에 안 모이는 것으로 보임(확인 필요). 평소 실행에서는 건너뛴다.\n</li>\n<li>PlayMode 전체는 main 최종본에서 다시 돌리지 않았다(각 줄기·cd-int·cd18 통합에서 돌린 결과만 있음).\n</li>\n<li>CD-0023(판 안 강화 단계 4갈래, 결정 0054)은 진행 중이라 이 통합에 없다.\n</li>\n<li>사람 플레이·안드로이드 실기: 안 함(CD-0014 폰 시험 1~4 사람 확인 남음).\n</li></ul>\n<h3>CD-0023 — 판 안 강화를 단계 단위로(결정 0054)</h3>\n<ul>\n<li>사용자: «종족을 키우는게아니라 등급 단위로묶는걸로 변경해줘». 판 안 골드 강화를 종족 6갈래 → 단계 4갈래(«단계 강화», ◆·단계 색, 등급 글자 없음). 이어 하기 형식 CDSNAP7.\n</li>\n<li>수치: 단계마다 +10%/회·최대 10, 비용 60+40n / 90+60n / 120+80n / 180+120n. 균형 목표 충족. 한 종족 몰아 하기(보통 100%)는 강화 단위와 무관 — 고정 비용 팔고 다시 뽑기 + 합성이 원인, M2-12.\n</li>\n<li>덤: <code>CaptureGruntCrowd</code> 시험 조건(졸개 계열 전부 세기).\n</li>\n<li>확인: Core 382/382, EditMode 132/132, PlayMode 실패 0, PC 빌드 오류 0, QA PASS. 사람 플레이 안 함.\n</li></ul>\n<h3>CD-0024 — UI 틀 품질 올림(코드로 굽는 나무·금·양피지 틀을 기본으로)</h3>\n<ul>\n<li>사용자: «ui사용할리소스 제작 퀄리티가 너무낮아서 … 퀄리티를 올리는방향으로 고민해서 폴리싱해서 푸시까지해놔».\n</li>\n<li>바로잡음: 지금 틀은 Codex 그림이 아니라 CD-0010 코드 토큰 틀이었다(Codex 틀 8장은 미사용). 판단 — 틀은 코드, Codex 는 한 번 쓰는 장식만.\n</li>\n<li><code>CodeSkin</code> 기본: 나무결·금 모서리 덮개·굵은 잉크선·광택 키·양피지 결, 작은 카드는 줄 등급. 로비 batches 62→49. 위험 버튼 글자 대비·슬라이더 손잡이(main 부터 있던 결함 2건)도 고침.\n</li>\n<li>확인: EditMode 141/141, PlayMode 실패 0(QA 1회차 동시 실행 중 1건 흔들림), check 통과, QA PASS. 사람 플레이·안드로이드 실기 선명도 안 봄.\n</li></ul>\n<h3>앱 0.5.2 폰 배포 (CD-0024 UI 틀)</h3>\n<ul>\n<li>사용자: «빌드에반영까지 다 진행해». main ff7b6d2 위에서 0.5.2 · versionCode 7(9fee430), 안드로이드 기본 빌드 base_id c486f0b2, EditMode 141/141.\n</li>\n<li>Firebase App Distribution 릴리스 0.5.2 (7) → 그룹 testers. CCD <code>Android/app_version.json</code> versionCode 7(릴리스 21), 공개 주소에서 7 확인. 0.5.1 앱은 켜면 필수 업데이트 창이 뜬다.\n</li>\n<li>사람 확인 남음: 폰에서 업데이트 창 → 설치 → 새 UI 틀 선명도.\n</li></ul>\n<h3>CD-0025 — 영웅 팝업 스탯과 공격력·체력 10배(결정 0055)</h3>\n<ul>\n<li>사용자: 영웅 팝업에 스탯, 레벨·강화는 «피해 %» 가 아니라 스탯 증가로. 답: «둘 다 공격력(숫자)», 버림 문제는 «공격력·체력 10배».\n</li>\n<li>팝업 스탯 판(공격력·공격 속도·사거리·초당 피해·종족 특기), 버튼 «공격력 a → b», 단계 강화·도움말 낱말. 피해 단위 10배·<code>minHitDamage</code> 10, <code>HeroView</code> 스탯, <code>CDSNAP8</code>.\n</li>\n<li>균형: 1만 판 48칸 ±3%p 이내, <code>gate_02_hard</code> ×101%, 맵 2 시험 40판(정예 L10/+0 상한 9 — M2-12).\n</li>\n<li>확인: main ff7b6d2 합친 뒤 Core 403/403 · EditMode 142/142 · PlayMode 영웅·쿠지 11/11 · QA PASS. 사람 플레이 안 함.\n</li></ul>\n<h3>CD-0026 — 로딩 인트로(균열 → 그림자 무리 → 줌아웃 → 타이틀)·타이틀 로고 «포트메이츠»·업데이트 창 개편(결정 0056)</h3>\n<ul>\n<li>사용자: «업데이트 확인중은 없었으면 … 업데이트 창 퀄리티 … 균열이 갈라지고 몬스터가 침공하고 줌 아웃 … 타이틀은 포트메이츠만, 게임타이틀처럼, 리소스는 코덱스에서».\n</li>\n<li>Codex 그림 6장(draft): 평온한 하늘 원화 <code>key/loading_calm</code>, 균열 <code>fx/rift</code>, 무리 정면 비행 2프레임 <code>fx/shade_up·down</code>, 타이틀 로고 <code>ui/logo_title</code>(철자 확인), 업데이트 창 그림 <code>ui/update_art</code>. 무리 첫 판(보라 박쥐)은 결정 0053 위반이라 버리고 인게임 비행 마물을 참고로 다시 뽑음 → Codex 그림 8회.\n</li>\n<li>패치 화면: 확인 중 글 없음, 뒤판 = 인트로 첫 장면. 창: 그림이 걸쳐 서는 카드, «v지금 › v새» 칩, 바뀐 내용 우물 칸, 용량 칩, 빛 쓸림 버튼.\n</li>\n<li>로딩: <code>LoadingIntro</code> 5초(탭 = 건너뛰기) 뒤 켄 번스. 카메라를 <code>IntroCamera</code>(IRelayout)로 — 캡처에서 화면 크기가 바뀌면 원화 가장자리가 드러나던 결함을 찾아 고침. 덤: 로딩 «화면» 단계 뒤 한 프레임 동안 로비·결과 화면이 로딩 위에 그려지던 기존 결함 고침.\n</li></ul>",
+"at": "2026-11-17 23:43",
+"branch": "main"
 },
 {
 "file": "2026-11-16.md",
@@ -10571,7 +10523,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 23:09",
-"generatedAt": "2026-11-17 23:17",
-"digest": "1950b9dd79d1be07"
+"sourceAt": "2026-11-17 23:47",
+"generatedAt": "2026-11-17 23:47",
+"digest": "763b2fc11fa97269"
 }
