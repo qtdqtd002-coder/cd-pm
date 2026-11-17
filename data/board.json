@@ -1201,7 +1201,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 128,
+"commits": 125,
 "byOrder": [
 [
 "CD-0014",
@@ -1216,11 +1216,11 @@
 16
 ],
 [
-"CD-0010",
-12
+"CD-0016",
+10
 ],
 [
-"CD-0016",
+"CD-0010",
 10
 ],
 [
@@ -1240,11 +1240,11 @@
 6
 ],
 [
-"CD-0011",
-6
+"CD-0017",
+5
 ],
 [
-"CD-0017",
+"CD-0011",
 5
 ],
 [
@@ -9778,6 +9778,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-17 14:22",
-"generatedAt": "2026-11-17 14:47",
-"digest": "fe6cd5496c447d57"
+"generatedAt": "2026-11-17 15:47",
+"digest": "375c87f24ccfe5db"
 }
