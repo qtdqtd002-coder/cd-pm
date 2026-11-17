@@ -1023,8 +1023,8 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-17 10:16",
-"branch": "cd14",
+"at": "2026-11-17 10:36",
+"branch": "cd18",
 "dirty": false
 },
 "pm": {
@@ -1088,54 +1088,54 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0015",
-"head": "62cae6a",
+"order": "CD-0014",
+"head": "3a2a53c",
 "commits": [
 {
-"sha": "62cae6a",
-"at": "2026-11-17 10:11",
-"ts": 1794877909,
-"msg": "CD-0015·CD-0016 마감: 90-close, 게이트 close, 마일스톤 M2-11·M2-12·M3-13, 개발일지"
+"sha": "3a2a53c",
+"at": "2026-11-17 10:33",
+"ts": 1794879236,
+"msg": "CD-0014 마감: 90-close, 게이트 close, 개발일지"
 },
 {
-"sha": "4499fdd",
-"at": "2026-11-17 09:55",
-"ts": 1794876937,
-"msg": "통합 2차(client): 영웅 절차 애니메이션 LitMotion · 보상 입자 Art/Fx CC0 · 로비↔판 화면 전환"
+"sha": "cbe7821",
+"at": "2026-11-17 10:31",
+"ts": 1794879110,
+"msg": "CD-0014 main 합친 뒤 테스트 맞춤: 카탈로그 새 경로(ProjectSetup.CatalogPath), 기대 그림 수에 Art/Fx 포함"
 },
 {
-"sha": "58b191d",
-"at": "2026-11-17 09:17",
-"ts": 1794874643,
-"msg": "통합: 시뮬레이터(tools/sim)를 새 규칙으로 — 판 보상 은화·결정·쿠지 티켓, 박스→쿠지·일일 미션 표, 봇 길 칸 제외, 결과 재생성"
+"sha": "1122d16",
+"at": "2026-11-17 10:27",
+"ts": 1794878846,
+"msg": "CD-0014 main 합친 뒤 Addressables 그룹 Art 에 새 그림 20장(Art/Fx 등) 반영 — ProjectSetup.Run 으로 다시 만듦"
 },
 {
-"sha": "33b695e",
-"at": "2026-11-17 09:08",
-"ts": 1794874082,
-"msg": "Merge main(60c80b4) into cd-int: 앱 아이콘·cd20(LitMotion·Art/Fx·ScreenTransition)·cd21 포트메이츠·CD-0022 그림자 무리·CD-0019 시뮬레이터"
+"sha": "822b85c",
+"at": "2026-11-17 10:16",
+"ts": 1794878182,
+"msg": "Merge main(62cae6a, CD-0015·0016) into cd14"
 },
 {
-"sha": "b63ac1f",
-"at": "2026-11-17 09:07",
-"ts": 1794874037,
-"msg": "CD-0016 통합 검증 보고서(client)·캡처"
+"sha": "213dc04",
+"at": "2026-11-17 10:16",
+"ts": 1794878182,
+"msg": "CD-0014 게이트 qa 통과, docs/14 §1-3(패치·로딩 순서·CDN 명령·반영 지연), 마일스톤 M1-12·14·15 완료"
 },
 {
-"sha": "e03db56",
-"at": "2026-11-17 09:00",
-"ts": 1794873640,
-"msg": "CD-0015+0016 통합: 컴파일 오류(IsStopped) 제거 · 새 시험 클래스 FixedClock · 포기 시험은 웨이브 하나 막은 뒤 · 자동 한 바퀴 지급 검사에 레벨 업 보상 포함"
+"sha": "3d7e122",
+"at": "2026-11-17 10:16",
+"ts": 1794878169,
+"msg": "CD-0014 QA 재확인(d854435): 6차 변경분 PASS"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1794877909,
-"unpushed": 65,
+"lastCommitTs": 1794879236,
+"unpushed": 87,
 "notInMain": 0,
-"today": 67
+"today": 86
 },
 {
 "branch": "cd20-art",
@@ -1197,8 +1197,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0014",
-"head": "822b85c",
+"head": "3a2a53c",
 "commits": [
+{
+"sha": "3a2a53c",
+"at": "2026-11-17 10:33",
+"ts": 1794879236,
+"msg": "CD-0014 마감: 90-close, 게이트 close, 개발일지"
+},
+{
+"sha": "cbe7821",
+"at": "2026-11-17 10:31",
+"ts": 1794879110,
+"msg": "CD-0014 main 합친 뒤 테스트 맞춤: 카탈로그 새 경로(ProjectSetup.CatalogPath), 기대 그림 수에 Art/Fx 포함"
+},
+{
+"sha": "1122d16",
+"at": "2026-11-17 10:27",
+"ts": 1794878846,
+"msg": "CD-0014 main 합친 뒤 Addressables 그룹 Art 에 새 그림 20장(Art/Fx 등) 반영 — ProjectSetup.Run 으로 다시 만듦"
+},
 {
 "sha": "822b85c",
 "at": "2026-11-17 10:16",
@@ -1216,63 +1234,16 @@
 "at": "2026-11-17 10:16",
 "ts": 1794878169,
 "msg": "CD-0014 QA 재확인(d854435): 6차 변경분 PASS"
-},
-{
-"sha": "d854435",
-"at": "2026-11-17 10:14",
-"ts": 1794878068,
-"msg": "CD-0014 6차: 로딩→로비 절반 원화는 AutoTour 캡처 도구 문제(진단·근거), 전환 중 열린 창의 블러가 전환 사본을 뜨던 결함 수정(Backdrop), LoadingSteps.Label 주석"
-},
-{
-"sha": "62cae6a",
-"at": "2026-11-17 10:11",
-"ts": 1794877909,
-"msg": "CD-0015·CD-0016 마감: 90-close, 게이트 close, 마일스톤 M2-11·M2-12·M3-13, 개발일지"
-},
-{
-"sha": "4499fdd",
-"at": "2026-11-17 09:55",
-"ts": 1794876937,
-"msg": "통합 2차(client): 영웅 절차 애니메이션 LitMotion · 보상 입자 Art/Fx CC0 · 로비↔판 화면 전환"
 }
 ],
-"dirtyCount": 7,
-"dirty": [
-{
-"file": "UnityProject/Assets/InitTestScene9175a497-516d-4cd8-8bf3-5b05090ea66d.unity.meta",
-"at": "2026-11-17 10:17"
-},
-{
-"file": "UnityProject/Assets/InitTestScene9175a497-516d-4cd8-8bf3-5b05090ea66d.unity",
-"at": "2026-11-17 10:17"
-},
-{
-"file": "studio/orders/CD-0014-Addressables-CCD-원격-그림-갱신/90-close.md",
-"at": "2026-11-17 10:17"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 10:16"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-17 10:16"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-17 10:16"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-17 10:16"
-}
-],
-"lastEdit": "2026-11-17 10:17",
-"lastEditTs": 1794878227.1311238,
-"lastCommitTs": 1794878182,
-"unpushed": 84,
-"notInMain": 19,
-"today": 83
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1794879236,
+"unpushed": 87,
+"notInMain": 0,
+"today": 86
 },
 {
 "branch": "cd21",
@@ -1442,8 +1413,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0023",
-"head": "f2dca46",
+"head": "5f7c367",
 "commits": [
+{
+"sha": "5f7c367",
+"at": "2026-11-17 10:45",
+"ts": 1794879922,
+"msg": "결정 0054: 단계 강화 수치·몰아 하기 측정(강화 단위와 무관)"
+},
+{
+"sha": "a086cf4",
+"at": "2026-11-17 10:44",
+"ts": 1794879891,
+"msg": "CD-0023 기획: 판 안 강화를 단계 4갈래로(결정 0054) — upgrade.json stages, 검사, 규칙 문서, 시제품 측정, 기획서"
+},
 {
 "sha": "f2dca46",
 "at": "2026-11-17 10:16",
@@ -1467,61 +1450,49 @@
 "at": "2026-11-17 09:17",
 "ts": 1794874643,
 "msg": "통합: 시뮬레이터(tools/sim)를 새 규칙으로 — 판 보상 은화·결정·쿠지 티켓, 박스→쿠지·일일 미션 표, 봇 길 칸 제외, 결과 재생성"
-},
-{
-"sha": "33b695e",
-"at": "2026-11-17 09:08",
-"ts": 1794874082,
-"msg": "Merge main(60c80b4) into cd-int: 앱 아이콘·cd20(LitMotion·Art/Fx·ScreenTransition)·cd21 포트메이츠·CD-0022 그림자 무리·CD-0019 시뮬레이터"
-},
-{
-"sha": "b63ac1f",
-"at": "2026-11-17 09:07",
-"ts": 1794874037,
-"msg": "CD-0016 통합 검증 보고서(client)·캡처"
 }
 ],
-"dirtyCount": 694,
+"dirtyCount": 705,
 "dirty": [
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/logs2/autoplay.log",
-"at": "2026-11-16 12:06"
+"file": "Core/package/Runtime/Match/GameMatch.Snapshot.cs",
+"at": "2026-11-17 10:47"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/63_match2_wave5.png",
-"at": "2026-11-16 12:06"
+"file": "Core/package/Runtime/Match/GameMatch.Growth.cs",
+"at": "2026-11-17 10:47"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/save/match-resume.json",
-"at": "2026-11-16 12:06"
+"file": "Core/package/Runtime/Match/GameMatch.Queries.cs",
+"at": "2026-11-17 10:47"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/62_match2_t080s.png",
-"at": "2026-11-16 12:06"
+"file": "Core/package/Runtime/Match/GameMatch.cs",
+"at": "2026-11-17 10:47"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/61_match2_t060s.png",
-"at": "2026-11-16 12:06"
+"file": "Core/package/Runtime/Match/Growth.cs",
+"at": "2026-11-17 10:47"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/60_match2_t040s.png",
-"at": "2026-11-16 12:06"
+"file": "Core/package/Runtime/Match/Entities.cs",
+"at": "2026-11-17 10:47"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/59_match2_t020s.png",
-"at": "2026-11-16 12:05"
+"file": "Core/package/Runtime/Match/MatchTypes.cs",
+"at": "2026-11-17 10:46"
 },
 {
-"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/58_match2_t000s.png",
-"at": "2026-11-16 12:05"
+"file": "Core/package/Runtime/Config/GrowthUpgradeConfig.cs",
+"at": "2026-11-17 10:46"
 }
 ],
-"lastEdit": "2026-11-16 12:06",
-"lastEditTs": 1794798391.2868795,
-"lastCommitTs": 1794878186,
-"unpushed": 66,
-"notInMain": 1,
-"today": 68
+"lastEdit": "2026-11-17 10:47",
+"lastEditTs": 1794880052.5531828,
+"lastCommitTs": 1794879922,
+"unpushed": 68,
+"notInMain": 3,
+"today": 70
 },
 {
 "branch": "cd19",
@@ -1588,86 +1559,86 @@
 "session": "",
 "owns": "",
 "order": "CD-0018",
-"head": "5c5257a",
+"head": "7d96101",
 "commits": [
 {
-"sha": "5c5257a",
-"at": "2026-11-17 08:49",
-"ts": 1794872952,
-"msg": "CD-0018 QA PASS·마감: 30-qa·90-close, 기획서 임시 값 정정(60/60)"
+"sha": "7d96101",
+"at": "2026-11-17 10:36",
+"ts": 1794879393,
+"msg": "Merge main(3a2a53c) into cd18 — CD-0014(Addressables·그림 목록 Catalog/ 로 옮김·Backdrop 수정) 위로"
 },
 {
-"sha": "26b8291",
-"at": "2026-11-17 08:46",
-"ts": 1794872760,
-"msg": "CD-0018 클라 보고서·gate impl 통과"
+"sha": "ffcbb7a",
+"at": "2026-11-17 10:36",
+"ts": 1794879382,
+"msg": "Merge main(62cae6a) into cd18 — CD-0015·0016 위로: LobbyData 계약 연결·보상 이름·행동력 부족 알림·ToastMute 대체·탭 전환"
 },
 {
-"sha": "74c43ba",
-"at": "2026-11-17 08:44",
-"ts": 1794872696,
-"msg": "CD-0018 일일 목표 알림은 로비 탭·창 없음일 때만(CD-0015 검수) · 레벨 배지 6px 올림 · 화면 감사 · PC 자동 한 바퀴"
+"sha": "3a2a53c",
+"at": "2026-11-17 10:33",
+"ts": 1794879236,
+"msg": "CD-0014 마감: 90-close, 게이트 close, 개발일지"
 },
 {
-"sha": "97b5c10",
-"at": "2026-11-17 08:29",
-"ts": 1794871796,
-"msg": "CD-0018 로비 재구성(와이어프레임 A «관문 지도형»): 대표 영웅 제거·재화 줄·프로필 칩·큰 맵 카드·탭 영웅/쿠지/로비/업적/상점"
+"sha": "cbe7821",
+"at": "2026-11-17 10:31",
+"ts": 1794879110,
+"msg": "CD-0014 main 합친 뒤 테스트 맞춤: 카탈로그 새 경로(ProjectSetup.CatalogPath), 기대 그림 수에 Art/Fx 포함"
 },
 {
-"sha": "6b07a50",
-"at": "2026-11-17 00:01",
-"ts": 1794841270,
-"msg": "결정 0049(영웅·은화·연합의 결정·쿠지·행동력·계정 레벨·소환 90/10 고정 비용·자유 배치) · L10·L11 갱신 · 주문 CD-0015~0018 접수"
+"sha": "1122d16",
+"at": "2026-11-17 10:27",
+"ts": 1794878846,
+"msg": "CD-0014 main 합친 뒤 Addressables 그룹 Art 에 새 그림 20장(Art/Fx 등) 반영 — ProjectSetup.Run 으로 다시 만듦"
 },
 {
-"sha": "53c98cc",
-"at": "2026-11-17 00:01",
-"ts": 1794841262,
-"msg": "현황 사이트 갱신: CD-0013 · v0.5.0"
+"sha": "822b85c",
+"at": "2026-11-17 10:16",
+"ts": 1794878182,
+"msg": "Merge main(62cae6a, CD-0015·0016) into cd14"
 }
 ],
-"dirtyCount": 2355,
+"dirtyCount": 1027,
 "dirty": [
 {
+"file": "UnityProject/Assets/InitTestScene3c4b388d-3db7-46a1-8b47-2fd34f206dcd.unity.meta",
+"at": "2026-11-17 10:39"
+},
+{
+"file": "UnityProject/Assets/InitTestScene3c4b388d-3db7-46a1-8b47-2fd34f206dcd.unity",
+"at": "2026-11-17 10:39"
+},
+{
 "file": "studio/checks.json",
-"at": "2026-11-17 10:17"
+"at": "2026-11-17 10:39"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 10:17"
+"at": "2026-11-17 10:39"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/SpriteCatalog.asset",
-"at": "2026-11-17 10:15"
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
+"at": "2026-11-17 10:37"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-17 10:15"
+"file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
+"at": "2026-11-17 10:37"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-17 10:15"
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Schemas/Art_BundledAssetGroupSchema.asset",
+"at": "2026-11-17 10:37"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ShopScreen.cs",
-"at": "2026-11-17 10:14"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/DailyScreen.cs",
-"at": "2026-11-17 10:14"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/AchievementScreen.cs",
-"at": "2026-11-17 10:14"
+"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
+"at": "2026-11-17 10:37"
 }
 ],
-"lastEdit": "2026-11-17 10:17",
-"lastEditTs": 1794878248.9461186,
-"lastCommitTs": 1794872952,
-"unpushed": 5,
-"notInMain": 4,
-"today": 7
+"lastEdit": "2026-11-17 10:39",
+"lastEditTs": 1794879560.4806616,
+"lastCommitTs": 1794879393,
+"unpushed": 93,
+"notInMain": 6,
+"today": 92
 },
 {
 "branch": "cd-int",
@@ -1726,19 +1697,19 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 127,
+"commits": 128,
 "byOrder": [
 [
 "CD-0014",
-18
+21
+],
+[
+"기타",
+16
 ],
 [
 "CD-0015",
 16
-],
-[
-"기타",
-15
 ],
 [
 "CD-0009",
@@ -1765,10 +1736,6 @@
 6
 ],
 [
-"CD-0008",
-6
-],
-[
 "CD-0017",
 5
 ],
@@ -1777,12 +1744,16 @@
 4
 ],
 [
+"CD-0023",
+2
+],
+[
 "CD-0019",
 2
 ],
 [
-"CD-0023",
-1
+"CD-0008",
+2
 ],
 [
 "CD-0022",
@@ -1798,6 +1769,31 @@
 ]
 ],
 "latest": [
+{
+"sha": "5f7c367",
+"at": "2026-11-17 10:45",
+"msg": "결정 0054: 단계 강화 수치·몰아 하기 측정(강화 단위와 무관)"
+},
+{
+"sha": "a086cf4",
+"at": "2026-11-17 10:44",
+"msg": "CD-0023 기획: 판 안 강화를 단계 4갈래로(결정 0054) — upgrade.json stages, 검사, 규칙 문서, 시제품 측정, 기획서"
+},
+{
+"sha": "3a2a53c",
+"at": "2026-11-17 10:33",
+"msg": "CD-0014 마감: 90-close, 게이트 close, 개발일지"
+},
+{
+"sha": "cbe7821",
+"at": "2026-11-17 10:31",
+"msg": "CD-0014 main 합친 뒤 테스트 맞춤: 카탈로그 새 경로(ProjectSetup.CatalogPath), 기대 그림 수에 Art/Fx 포함"
+},
+{
+"sha": "1122d16",
+"at": "2026-11-17 10:27",
+"msg": "CD-0014 main 합친 뒤 Addressables 그룹 Art 에 새 그림 20장(Art/Fx 등) 반영 — ProjectSetup.Run 으로 다시 만듦"
+},
 {
 "sha": "f2dca46",
 "at": "2026-11-17 10:16",
@@ -1822,31 +1818,6 @@
 "sha": "62cae6a",
 "at": "2026-11-17 10:11",
 "msg": "CD-0015·CD-0016 마감: 90-close, 게이트 close, 마일스톤 M2-11·M2-12·M3-13, 개발일지"
-},
-{
-"sha": "4499fdd",
-"at": "2026-11-17 09:55",
-"msg": "통합 2차(client): 영웅 절차 애니메이션 LitMotion · 보상 입자 Art/Fx CC0 · 로비↔판 화면 전환"
-},
-{
-"sha": "dad1e01",
-"at": "2026-11-17 09:39",
-"msg": "CD-0014 QA: 30-qa.md 와 Win64 재캡처"
-},
-{
-"sha": "e008fe9",
-"at": "2026-11-17 09:26",
-"msg": "CD-0014 게이트 impl 통과 → 검수"
-},
-{
-"sha": "afeb040",
-"at": "2026-11-17 09:25",
-"msg": "CD-0014 C9: 패치 막대 빛 쓸림·문구 등장(TextRise)·완료 빛 알갱이, 패치→로딩 Fade·로딩→로비 Dissolve, 막대 부드럽게 차기(craft-game-floors 감사)"
-},
-{
-"sha": "58b191d",
-"at": "2026-11-17 09:17",
-"msg": "통합: 시뮬레이터(tools/sim)를 새 규칙으로 — 판 보상 은화·결정·쿠지 티켓, 박스→쿠지·일일 미션 표, 봇 길 칸 제외, 결과 재생성"
 }
 ]
 },
@@ -2923,8 +2894,8 @@
 {
 "id": "CD-0014",
 "title": "Addressables CCD 원격 그림 갱신",
-"branch": "cd14",
-"updated": "2026-11-17 10:17",
+"branch": "cd18",
+"updated": "2026-11-17 10:36",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -2934,12 +2905,12 @@
 "_qa"
 ],
 "milestone": "M1",
-"stage": "마감",
+"stage": "완료",
 "route": "fast",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-16",
-"closed": "",
+"closed": "2026-11-17",
 "goal": "<p>테스터 폰(2~3대)에 깔린 앱이 <strong>재설치 없이</strong> CCD 에서 바뀐 그림을 받아 쓴다. 코드가 바뀐 빌드는 지금처럼 Firebase 로 보낸다(<code>docs/14</code> §1-2). 실서비스까지 이 구조를 그대로 쓴다(버킷만 prod 를 더한다).</p>\n<p>배경 (대표 조사, 11-16):</p>\n<ul>\n<li>그림은 지금 <code>GameApp.Start</code> 한 곳(<code>GameApp.cs:137</code>)에서 <code>SpriteCatalog.LoadFromResources()</code> 로 읽는다. <code>Resources/SpriteCatalog.asset</code>(이름표 133개)이 <code>Art/Final</code>·<code>Art/Temp</code> 의 그림을 가리킨다. <code>ProjectSetup.Run</code> 이 이 자산을 만든다. 나머지 화면은 <code>ISpriteCatalog</code> 만 안다.\n</li>\n<li>CCD: Unity 프로젝트 <code>f4c4460b-2b57-4c46-9485-ab701b3cfd7b</code>, 환경 <code>production</code>(id <code>53ff3ffc-2540-458f-8c40-78b61773fd13</code>), 버킷 <code>android-dev</code>(id <code>40859a40-fb29-4e36-8ab8-bebde29d24f3</code>, 공개). 아직 릴리스 0.\n</li>\n<li>Addressables 는 <code>docs/14</code> §1 에 2.10.3 으로 적혀 있다(Unity 6000.3 에서 쓸 수 있는지 C1 에서 확인).\n</li></ul>",
 "goalShort": "테스터 폰(2~3대)에 깔린 앱이 재설치 없이 CCD 에서 바뀐 그림을 받아 쓴다.",
 "tasks": [
@@ -3607,21 +3578,141 @@
 "id": "CD-0023",
 "title": "판 안 강화를 종족이 아니라 단계 단위로",
 "branch": "cd23",
-"updated": "2026-11-17 10:16",
+"updated": "2026-11-17 10:44",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"20-planning.md",
+"_sim"
 ],
 "milestone": "M2",
-"stage": "접수",
+"stage": "제작",
 "route": "full",
 "risk": "mid",
 "teams": "planning, core, client",
 "opened": "2026-11-17",
 "closed": "",
-"goal": "",
-"goalShort": "",
-"tasks": []
+"goal": "<ol>\n<li>판 안 골드 강화를 <strong>종족 6갈래 → 영웅 단계 4갈래</strong>(1 일반 · 2 고급 · 3 희귀 · 4 영웅)로 바꾼다. 한 단계를 올리면 그 플레이어의 <strong>그 단계 영웅 전부</strong>(종족 무관)의 피해가 오른다(결정 0054, 사용자 원문 «종족을 키우는게아니라 등급 단위로묶는걸로 변경해줘»).\n</li>\n<li>이름을 정리한다: 판 안 = <strong>«단계 강화»</strong>, 판 밖 = «강화 +N»(그대로). 옛 «종족 강화»(CD-0015 확인 대기 Q3)는 쓰지 않는다. 화면에 등급 글자(일반·고급·희귀·영웅)를 쓰지 않고 ◆ 개수·단계 색으로 가른다(결정 0049).\n</li>\n<li>기존 균형 목표(아래 §0 T1~T5)를 지킨다. 한 종족 봇·몰아 하는 봇의 승률이 얼마나 바뀌는지 표로 남긴다.\n</li></ol>",
+"goalShort": "1.",
+"tasks": [
+{
+"id": "P1",
+"key": "CD-0023/P1",
+"team": "planning",
+"title": "수치 4갈래(Data/upgrade.json stages, 옮기는 중인 옛 키 유지) · units.json 여파 설명 이름 · tools/validate_data.py(단계 줄 수·칸·순서·높은 단계가 싸지 않음·옛 키는 _legacyNote 와 함께만) · docs/11 §12-1·§12-2·§13, docs/10·13 이름 · 시제품 측정 · 이 기획서",
+"output": "이 커밋, 20-planning.md, _sim/ (끝남)",
+"status": "done",
+"why": "보고서 있음: 20-planning.md"
+},
+{
+"id": "C1",
+"key": "CD-0023/C1",
+"team": "core",
+"title": "규칙: UpgradeConfig 단계 표 읽기·검사(줄 수 = 단계 수, 음수 금지) · 플레이어 강화 수 4칸 · 피해·여파·스탯 카드 값 · 명령(글 왕복 포함)·거절 순서 · 사건 StageUpgraded · GetUpgradeStatus 단계 4줄 · 스냅샷 CDSNAP7 · §2 표의 API",
+"output": "Core/package/Runtime/, 21-core.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "C2",
+"key": "CD-0023/C2",
+"team": "core",
+"title": "봇 3종(§1-6) · 시뮬레이터 기록·요약(upgradesByStage, 요약 «강화» 줄을 단계 4칸) · tools/sim/README.md 의 봇 설명 · 전체 배치 다시 돌려 tools/sim/results/summary. 갱신",
+"output": "SimpleBot.cs, Core/tests/FocusBot.cs, tools/sim/",
+"status": "todo",
+"why": ""
+},
+{
+"id": "C3",
+"key": "CD-0023/C3",
+"team": "core",
+"title": "시험: «수용 기준» 1~9 의 시험을 넣고 «종족 강화 뜻» 시험을 단계로 고친다(GrowthUpgradeTests — 기대값은 데이터에서 읽는다) · 기준 재생 파일을 baseline_cd0023_seed.txt 로 다시 쓰고 옛 파일 삭제(옛 파일에 upgrade 0 <종족> 명령이 들어 있다 — 다시 쓰는 이유를 21-core.md 에) · SimulatorTests.OneRaceBotUpgradesOnlyItsRaceAndNeverSellsIt → «한 종족 봇은 그 종족을 팔지 않고, 강화는 단계로 산다» · Cd0016BalanceTests 표에 같은 줄 + 출력만 줄 «onerace 보통·어려움·정예 맵 1·2»(시드 1~20)",
+"output": "Core/tests/, 21-core.md 에 표",
+"status": "todo",
+"why": ""
+},
+{
+"id": "U1",
+"key": "CD-0023/U1",
+"team": "client",
+"title": "강화 창 UI/Match/UpgradeSheet.cs: 단계 4줄(얼굴 대신 HeroTierStyle.Pips(…, stage, …) ◆ 개수 + Skin.StageColor(stage) 테두리·줄 색, 강화 수 «n/10», «+N%», 사기 버튼에 비용), 창 제목 «단계 강화», 사기 = MatchCommand.Upgrade(LocalPlayer, stage) · SystemBar.cs 배지 새 API(버튼 글자 «강화» 그대로) · StatCard.cs 육성 줄 «단계 강화 n» · MatchScreen.cs 사기·거절 글(«없는 단계예요» 등) · BoardView.cs 강화 반짝임을 그 단계 영웅에게 · MatchAudio.cs 사건 이름 · HelpScreen.cs 한 줄(«단계 강화는 같은 단계 영웅 전부의 피해를 올려요») · InGamePrewarm.cs 는 새 글자가 있으면만",
+"output": "UnityProject/Assets/_Game/{UI,View}/…, 23-client.md, _qa/upgrade_sheet.png",
+"status": "todo",
+"why": ""
+},
+{
+"id": "U2",
+"key": "CD-0023/U2",
+"team": "client",
+"title": "Unity 시험을 새 API 로: Tests/PlayMode/InGameTwoTests.cs·ScreenshotTests.cs·AudioFxTests.cs(1단계 첫 비용 60 그대로)·MatchControlTests.cs·UiUnifyShotTests.cs · EditMode·PlayMode 실행",
+"output": "UnityProject/Assets/Tests/",
+"status": "todo",
+"why": ""
+},
+{
+"id": "P2",
+"key": "CD-0023/P2",
+"team": "planning",
+"title": "통합 때(C1 이 main 쪽에 들어간 뒤): upgrade.json 의 옛 네 키와 _legacyNote 삭제 → sync_data.py → validate_data.py 경고 0 · 실제 Core 숫자가 §0 과 다르면 docs/11 §12-1 표와 이 기획서 §0 을 고침",
+"output": "Data/upgrade.json, docs/11",
+"status": "todo",
+"why": ""
+},
+{
+"id": "Q1",
+"key": "CD-0023/Q1",
+"team": "qa",
+"title": "«수용 기준» 전부 · 방향 잠금 L6·L10(등급 글자)",
+"output": "30-qa.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "무엇",
+"key": "CD-0023/무엇",
+"team": "판단",
+"title": "이유",
+"output": "",
+"status": "todo",
+"why": ""
+},
+{
+"id": "`HeroTierStyle.Pips`(◆)·`Skin.StageColor`",
+"key": "CD-0023/`HeroTierStyle.Pips`(◆)·`Skin.StageColor`",
+"team": "**쓴다**",
+"title": "단계 표식·색이 이미 있다(영웅 화면·쿠지). 새로 만들지 않는다",
+"output": "",
+"status": "todo",
+"why": ""
+},
+{
+"id": "기존 `Bump`·`Appear`(강화 창 줄 튀기·버튼 흔들기)",
+"key": "CD-0023/기존 `Bump`·`Appear`(강화 창 줄 튀기·버튼 흔들기)",
+"team": "**쓴다**",
+"title": "강화 창이 이미 쓰는 연출 그대로",
+"output": "",
+"status": "todo",
+"why": ""
+},
+{
+"id": "UIParticle·UIEffect·LitMotion·SoftMask·`CD/UiHolo`·`ScreenTransition`",
+"key": "CD-0023/UIParticle·UIEffect·LitMotion·SoftMask·`CD/UiHolo`·`ScreenTransition`",
+"team": "안 쓴다",
+"title": "표시를 종족 → 단계로 바꾸는 일이고 새 연출은 범위 밖. 4단계 줄에 홀로 셰이더를 쓰면 «4단계 강화가 특별하다» 는 신호가 되어 몰아 하기를 부추긴다",
+"output": "",
+"status": "todo",
+"why": ""
+},
+{
+"id": "`unity:craft-game-floors` 감사",
+"key": "CD-0023/`unity:craft-game-floors` 감사",
+"team": "안 한다",
+"title": "화면을 크게 바꾸지 않는다(창 하나의 줄 내용). 대신 강화 창 스크린샷 1장(_qa/upgrade_sheet.png)을 검수 근거로",
+"output": "",
+"status": "todo",
+"why": ""
+}
+]
 }
 ],
 "decisions": [
@@ -4115,27 +4206,27 @@
 "tab": "system",
 "file": "docs/10-한장기획서.md",
 "title": "10. 한 장 기획서",
-"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: <strong>2026-11-17(CD-0015 · 결정 0049: 판 밖 전면 개편 — 영웅·은화·연합의 결정·쿠지·행동력·계정 레벨·업적·미션·상점. «판 밖»·«재화» 절을 새로 썼다. 판 안 소환·배치·현상금 개편은 CD-0016)</strong> · 2026-11-16(CD-0007: 강화·육성 반영·업적·꾸밈·보상 단계 — 결정 0033~0036 · CD-0009: 닉네임·일일 목표·이어 하기·설정 — 결정 0039~0041 · 모두 <strong>사용자 확인 대기</strong>) · 상태: <strong>사용자 요구 12항 + 선택 4건 반영</strong>. 수치는 전부 초안(사람 플레이 전).\n</li>\n<li>정본 관계: 규칙은 <code>11-규칙.md</code>, 등장 목록은 <code>12-콘텐츠목록.md</code>, 보상·육성은 <code>13-보상-육성-꾸밈.md</code>, 배포·저장은 <code>14-배포-저장.md</code>, 숫자는 <code>Data/*.json</code>.\n</li></ul>\n<h3>게임 이름</h3>\n<p><strong>포트메이츠: 같이 지킬래?</strong> — 영어 <strong>Fortmates: Guard With Me?</strong> (결정 0052, 2026-11-17 사용자 확정). fort(요새) + mates(동료), 부제는 친구에게 같이 하자고 건네는 말. 짧게 부를 때와 폰 홈 화면 글자는 «포트메이츠». 로딩 화면 로고는 큰 «포트메이츠» + 작은 «같이 지킬래?» 두 줄. 상표 검색은 스토어 등록(M7) 전에 한다.</p>\n<h3>약속 한 문장</h3>\n<p><strong>여섯 종족을 무작위로 소환하고, 같은 것 셋을 합쳐 진화시켜, 혼자 또는 여럿이 한 목숨으로 관문을 지킨다.</strong></p>\n<h3>스토리</h3>\n<p>없다. 대사·컷신·설정 글을 만들지 않는다. 배경 구도 하나만 쓴다(결정 0011):</p>\n<p><strong>그림자 균열에 맞서는 여섯 종족 연합.</strong> 적은 균열에서 쏟아지는 무리다. 균열이 닫힐 때까지(마지막 웨이브) 관문을 지키면 이긴다. 목숨은 관문의 내구도다.</p>\n<h3>한 판</h3>\n<ol>\n<li>로비에서 싱글 또는 협동을 고르고 입장한다.\n</li>\n<li>내 영역(맵마다 정한 그리드)의 <strong>길이 아닌 빈칸 어디든 골라</strong> 골드로 <strong>소환</strong>한다(CD-0016 · 결정 0049). 여섯 종족 중 하나가 무작위로 그 칸에 선다 — 1단계 90%·2단계 10%, 3·4단계는 합성으로만. <strong>소환 비용은 고정</strong>(소환할수록 오르지 않는다). 한 사람이 동시에 둘 수 있는 영웅 수에는 상한이 있다(초안 20).\n</li>\n<li>같은 종족·같은 단계 <strong>셋을 합치면</strong> 그 종족의 다음 단계 하나가 된다(4단계까지). 마음에 안 드는 캐릭터는 팔아서(들인 골드의 80%) 칸을 비운다.\n</li>\n<li>몬스터(그림자 무리)가 웨이브마다 길을 따라 온다. <strong>웨이브는 시간으로 이어진다</strong> — 앞 웨이브를 다 잡지 못해도 다음 웨이브가 나온다. 캐릭터는 알아서 싸운다. 잡으면 골드를 얻는다.\n</li>\n<li>판 안에서 <strong>미션</strong>(판마다 8개, 채우면 바로 골드)을 노리고, <strong>현상금</strong>(쿨타임마다 센 몬스터 하나를 불러 잡으면 큰 골드, <strong>놓치면 목숨이 준다</strong>)을 부른다.\n</li>\n<li>골드로 <strong>강화</strong>를 산다(초안 · 사용자 확인 대기, 결정 0033). 종족마다 단계가 있고, 그 종족 캐릭터 전부의 피해가 단계마다 12% 오른다(최대 10단계). 소환할까 강화할까가 골드를 쓰는 선택이 된다.\n</li>\n<li>몬스터가 끝까지 가면 <strong>목숨</strong>(10)이 깎인다. 목숨이 0이면 패배, 20웨이브를 넘기면 승리.\n</li>\n<li>결과에 따라 <strong>은화·연합의 결정</strong>을 받고, 끝까지 막으면 <strong>쿠지 티켓</strong>까지 받는다. 일찍 지는 판은 적고, 끝까지 이기면 시간당 가장 많다(결정 0048·0049). 계정 경험치도 받는다.\n</li></ol>\n<h3>판 밖 (결정 0049 — 규칙은 <code>13-보상-육성-꾸밈.md</code>)</h3>\n<ul>\n<li>판을 시작할 때 <strong>행동력</strong>을 쓴다(싱글·협동 모두). 행동력은 몇 분마다 1씩 찬다.\n</li>\n<li>판이 끝나면 <strong>계정 경험치</strong>를 받는다 — 싱글은 단계를 끝까지 막으면 많이, 협동은 막은 웨이브마다 조금씩. 계정 레벨이 오르면 재화와 행동력을 받는다.\n</li>\n<li>쿠지 티켓으로 <strong>쿠지</strong>를 뽑는다(티켓 1장 = 1장, 정해진 수의 제비에서 꺼내는 방식). 상위상을 모두 뽑으면 새 판이 열린다. 나오는 것은 은화·연합의 결정·영웅·쿠지 티켓·젬스톤.\n</li>\n<li><strong>영웅</strong>(옛 이름 «캐릭터»)을 키운다: 같은 영웅을 겹쳐 모으면 <strong>레벨 업</strong>, 연합의 결정으로 <strong>강화 +N</strong>. 판에는 24종이 모두 나오고 내가 가진 영웅의 레벨·강화가 그 영웅의 피해에 곱해진다(<code>11-규칙.md</code> §12-2). 처음에는 일반(1단계) 6종을 가진다. 단계 이름은 일반·고급·희귀·영웅이지만 화면에 등급 글자는 쓰지 않는다.\n</li>\n<li><strong>업적</strong>: 1회성(꾸밈 + 재화)과 반복(재화)으로 나누고 «받기» 로 받는다. 꾸밈(프로필 이미지·프레임·네임플레이트 22개)은 1회성 업적과 이벤트로만 얻는다.\n</li>\n<li><strong>미션</strong>: 일일 미션(하루 5개)과 주간 미션(매주 7개), «받기» 로 받는다.\n</li>\n<li><strong>상점</strong>: 은화 상점(매일 바뀌는 진열 — 은화로 영웅·쿠지 티켓) · 패키지 · 젬스톤 · 교환. 지금 결제는 테스트 결제다.\n</li>\n<li><strong>프로필</strong>에서 꾸밈을 고르고 기록을 본다. <strong>닉네임</strong>은 처음 켤 때 한 번 정하고 프로필에서 바꾼다.\n</li>\n<li><strong>판 이어 하기</strong>(결정 0040), <strong>설정</strong>(결정 0041), <strong>우편함</strong>(결정 0047)은 그대로다.\n</li></ul>\n<h3>재화 (결정 0049 · L11)</h3>\n<div class=tw><table><thead><tr><th>어디서</th><th>이름</th><th>얻는 곳</th><th>쓰는 곳</th></tr></thead><tbody><tr><td>판 안</td><td>골드</td><td>처치, 웨이브 통과, 미션, 현상금</td><td>소환, 종족 강화(판 안)</td></tr><tr><td>판 밖</td><td>은화</td><td>판 결과, 쿠지, 미션, 업적, 계정 레벨 업</td><td>은화 상점</td></tr><tr><td>판 밖</td><td>연합의 결정</td><td>판 결과, 쿠지, 미션, 업적</td><td>영웅 강화 +N</td></tr><tr><td>판 밖</td><td>쿠지 티켓</td><td>승리, 쿠지, 미션, 업적, 계정 레벨 업, 상점</td><td>쿠지 1장</td></tr><tr><td>판 밖</td><td>젬스톤(유료)</td><td>돈, 30일 보급, 쿠지 상위상</td><td>상점 «교환»</td></tr><tr><td>판 밖</td><td>행동력</td><td>시간, 계정 레벨 업</td><td>판 시작</td></tr></tbody></table></div>\n<ul>\n<li>판 밖 무료 화폐는 «은화» 다(판 안 «골드» 와 다르다 — 사용자 결정 2026-11-16). 옛 뽑기 코인·경험 결정·종족 조각·조각 선택권·보석은 없어졌다(옛 저장은 한 번 바꿔 준다, <code>13-보상-육성-꾸밈.md</code> §7).\n</li>\n<li>쿠지에서 젬스톤이 나오고 젬스톤으로 쿠지 티켓을 사므로 쿠지 화면은 남은 수·지금 확률을 계속 보인다.\n</li></ul>\n<h3>협동</h3>\n<ul>\n<li>각자 자기 영역에서 소환한다. 몬스터는 모두가 같이 상대한다.\n</li>\n<li>n명이면 <strong>스폰 지점이 n곳</strong>이고 몬스터 수도 <strong>n배</strong>다.\n</li>\n<li><strong>목숨은 하나를 같이 쓴다.</strong>\n</li></ul>\n<h3>넣는 것 / 빼는 것</h3>\n<div class=tw><table><thead><tr><th>넣는다</th><th>뺀다</th></tr></thead><tbody><tr><td>6종족 × 4단계 진화</td><td>스토리, 대사</td></tr><tr><td>3개 합성</td><td>합성 실패, 무작위 결과 합성</td></tr><tr><td>고른 빈칸에 소환, 판매 환급 80%</td><td>소환 버튼·빈칸 수 표시, 종족별 보유 수 줄</td></tr><tr><td>시간으로 이어지는 웨이브 20개(보스 10·20)</td><td>다음 웨이브 예고·«지금 시작»</td></tr><tr><td>판 안 미션(8개)·현상금(6종)</td><td>판 안의 둘째 재화, 판 안 미션 «받기» 버튼</td></tr><tr><td>종족별 판 안 강화(골드, 10단계 · 초안 · 끌 수 있다)</td><td>강화용 새 재화, 캐릭터 하나만 강화</td></tr><tr><td>영웅별(24) 레벨 업(같은 영웅 중복) + 강화 +N(연합의 결정)</td><td>장비, 스킬 트리, 각성·특성(결정 0049 로 폐지)</td></tr><tr><td>쿠지(은화·연합의 결정·영웅·쿠지 티켓·젬스톤, 상위상을 다 뽑으면 새 판) · 행동력 · 계정 레벨</td><td>쿠지에서 꾸밈</td></tr><tr><td>업적 1회성 19(꾸밈 22 + 재화) · 반복 7(재화), «받기»</td><td>영웅 스킨(나중에 검토), 꾸밈 구매·쿠지에서 나오기</td></tr><tr><td>로비, 싱글, 2~4인 협동</td><td>대전(PvP), 길드, 자유 입력 채팅(빠른 대화만)</td></tr><tr><td>소리(효과음·배경음)·연출·설정(음량·진동·그래픽·프레임)</td><td>클라우드 저장(남은 일)</td></tr><tr><td>닉네임(처음 한 번 + 프로필에서 바꾸기), 일일 미션 5개 · 주간 미션 7개, 판 이어 하기, 게임 방법 화면, <strong>우편함</strong>(결정 0047), <strong>상점</strong>(은화 상점 · 30일 보급 · 쿠지 티켓 묶음 · 젬스톤 — 결정 0049)</td><td>서버 우편·서버 공지(서버가 없다 — 운영 우편은 데이터 갱신으로), 연속 출석, 협동 이어 하기</td></tr></tbody></table></div>\n<h3>첫 번째 목표</h3>\n<p>로비 → 싱글 한 판 → 결과. <strong>맵 1개(<code>gate_01</code>, 9×13칸 캔버스), 그림자 무리 몬스터 4종 + 현상금 6종, 캐릭터 6종족</strong>(각 4단계)으로 한 판이 처음부터 끝까지 돈다: 빈칸 소환 → 합성·판매·이동 → 20웨이브 자동 진행 → 미션·현상금 → 결과. 그림은 임시 그림. 협동은 자리만 두고 «개발 중» 표시만.</p>\n<p><strong>완성 묶음(CD-0007)에서 싱글 한 바퀴가 닫혔다.</strong> CD-0015(결정 0049)에서 그 고리가 바뀐다: 행동력 → 판 → 은화·연합의 결정·쿠지 티켓 → 쿠지·은화 상점 → 영웅 레벨 업·강화 → 다음 판에서 더 강함. 판 안에는 강화가, 판 밖에는 업적·꾸밈·프로필·설정이 더해졌다. 협동·클라우드 저장·상위 성장·무한 모드는 아직이다. 동시에 핸드폰 설치·새 빌드 받기·유저 정보 저장의 뼈대를 만든다.</p>",
-"at": "2026-11-17 10:16",
-"branch": "cd14",
+"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-17(CD-0023 · 결정 0054: 판 안 강화를 종족에서 단계 단위로 — «단계 강화») · <strong>2026-11-17(CD-0015 · 결정 0049: 판 밖 전면 개편 — 영웅·은화·연합의 결정·쿠지·행동력·계정 레벨·업적·미션·상점. «판 밖»·«재화» 절을 새로 썼다. 판 안 소환·배치·현상금 개편은 CD-0016)</strong> · 2026-11-16(CD-0007: 강화·육성 반영·업적·꾸밈·보상 단계 — 결정 0033~0036 · CD-0009: 닉네임·일일 목표·이어 하기·설정 — 결정 0039~0041 · 모두 <strong>사용자 확인 대기</strong>) · 상태: <strong>사용자 요구 12항 + 선택 4건 반영</strong>. 수치는 전부 초안(사람 플레이 전).\n</li>\n<li>정본 관계: 규칙은 <code>11-규칙.md</code>, 등장 목록은 <code>12-콘텐츠목록.md</code>, 보상·육성은 <code>13-보상-육성-꾸밈.md</code>, 배포·저장은 <code>14-배포-저장.md</code>, 숫자는 <code>Data/*.json</code>.\n</li></ul>\n<h3>게임 이름</h3>\n<p><strong>포트메이츠: 같이 지킬래?</strong> — 영어 <strong>Fortmates: Guard With Me?</strong> (결정 0052, 2026-11-17 사용자 확정). fort(요새) + mates(동료), 부제는 친구에게 같이 하자고 건네는 말. 짧게 부를 때와 폰 홈 화면 글자는 «포트메이츠». 로딩 화면 로고는 큰 «포트메이츠» + 작은 «같이 지킬래?» 두 줄. 상표 검색은 스토어 등록(M7) 전에 한다.</p>\n<h3>약속 한 문장</h3>\n<p><strong>여섯 종족을 무작위로 소환하고, 같은 것 셋을 합쳐 진화시켜, 혼자 또는 여럿이 한 목숨으로 관문을 지킨다.</strong></p>\n<h3>스토리</h3>\n<p>없다. 대사·컷신·설정 글을 만들지 않는다. 배경 구도 하나만 쓴다(결정 0011):</p>\n<p><strong>그림자 균열에 맞서는 여섯 종족 연합.</strong> 적은 균열에서 쏟아지는 무리다. 균열이 닫힐 때까지(마지막 웨이브) 관문을 지키면 이긴다. 목숨은 관문의 내구도다.</p>\n<h3>한 판</h3>\n<ol>\n<li>로비에서 싱글 또는 협동을 고르고 입장한다.\n</li>\n<li>내 영역(맵마다 정한 그리드)의 <strong>길이 아닌 빈칸 어디든 골라</strong> 골드로 <strong>소환</strong>한다(CD-0016 · 결정 0049). 여섯 종족 중 하나가 무작위로 그 칸에 선다 — 1단계 90%·2단계 10%, 3·4단계는 합성으로만. <strong>소환 비용은 고정</strong>(소환할수록 오르지 않는다). 한 사람이 동시에 둘 수 있는 영웅 수에는 상한이 있다(초안 20).\n</li>\n<li>같은 종족·같은 단계 <strong>셋을 합치면</strong> 그 종족의 다음 단계 하나가 된다(4단계까지). 마음에 안 드는 캐릭터는 팔아서(들인 골드의 80%) 칸을 비운다.\n</li>\n<li>몬스터(그림자 무리)가 웨이브마다 길을 따라 온다. <strong>웨이브는 시간으로 이어진다</strong> — 앞 웨이브를 다 잡지 못해도 다음 웨이브가 나온다. 캐릭터는 알아서 싸운다. 잡으면 골드를 얻는다.\n</li>\n<li>판 안에서 <strong>미션</strong>(판마다 8개, 채우면 바로 골드)을 노리고, <strong>현상금</strong>(쿨타임마다 센 몬스터 하나를 불러 잡으면 큰 골드, <strong>놓치면 목숨이 준다</strong>)을 부른다.\n</li>\n<li>골드로 <strong>단계 강화</strong>를 산다(결정 0054 — 묶는 단위는 사용자 결정, 수치는 초안 · 사용자 확인 대기). 영웅 단계(1~4)마다 강화 수가 있고, 한 단계를 올리면 그 단계 영웅 전부(종족 무관)의 피해가 오른다. 높은 단계일수록 비싸다. 소환할까 강화할까, 어느 단계를 키울까가 골드를 쓰는 선택이 된다(<code>11-규칙.md</code> §12-1).\n</li>\n<li>몬스터가 끝까지 가면 <strong>목숨</strong>(10)이 깎인다. 목숨이 0이면 패배, 20웨이브를 넘기면 승리.\n</li>\n<li>결과에 따라 <strong>은화·연합의 결정</strong>을 받고, 끝까지 막으면 <strong>쿠지 티켓</strong>까지 받는다. 일찍 지는 판은 적고, 끝까지 이기면 시간당 가장 많다(결정 0048·0049). 계정 경험치도 받는다.\n</li></ol>\n<h3>판 밖 (결정 0049 — 규칙은 <code>13-보상-육성-꾸밈.md</code>)</h3>\n<ul>\n<li>판을 시작할 때 <strong>행동력</strong>을 쓴다(싱글·협동 모두). 행동력은 몇 분마다 1씩 찬다.\n</li>\n<li>판이 끝나면 <strong>계정 경험치</strong>를 받는다 — 싱글은 단계를 끝까지 막으면 많이, 협동은 막은 웨이브마다 조금씩. 계정 레벨이 오르면 재화와 행동력을 받는다.\n</li>\n<li>쿠지 티켓으로 <strong>쿠지</strong>를 뽑는다(티켓 1장 = 1장, 정해진 수의 제비에서 꺼내는 방식). 상위상을 모두 뽑으면 새 판이 열린다. 나오는 것은 은화·연합의 결정·영웅·쿠지 티켓·젬스톤.\n</li>\n<li><strong>영웅</strong>(옛 이름 «캐릭터»)을 키운다: 같은 영웅을 겹쳐 모으면 <strong>레벨 업</strong>, 연합의 결정으로 <strong>강화 +N</strong>. 판에는 24종이 모두 나오고 내가 가진 영웅의 레벨·강화가 그 영웅의 피해에 곱해진다(<code>11-규칙.md</code> §12-2). 처음에는 일반(1단계) 6종을 가진다. 단계 이름은 일반·고급·희귀·영웅이지만 화면에 등급 글자는 쓰지 않는다.\n</li>\n<li><strong>업적</strong>: 1회성(꾸밈 + 재화)과 반복(재화)으로 나누고 «받기» 로 받는다. 꾸밈(프로필 이미지·프레임·네임플레이트 22개)은 1회성 업적과 이벤트로만 얻는다.\n</li>\n<li><strong>미션</strong>: 일일 미션(하루 5개)과 주간 미션(매주 7개), «받기» 로 받는다.\n</li>\n<li><strong>상점</strong>: 은화 상점(매일 바뀌는 진열 — 은화로 영웅·쿠지 티켓) · 패키지 · 젬스톤 · 교환. 지금 결제는 테스트 결제다.\n</li>\n<li><strong>프로필</strong>에서 꾸밈을 고르고 기록을 본다. <strong>닉네임</strong>은 처음 켤 때 한 번 정하고 프로필에서 바꾼다.\n</li>\n<li><strong>판 이어 하기</strong>(결정 0040), <strong>설정</strong>(결정 0041), <strong>우편함</strong>(결정 0047)은 그대로다.\n</li></ul>\n<h3>재화 (결정 0049 · L11)</h3>\n<div class=tw><table><thead><tr><th>어디서</th><th>이름</th><th>얻는 곳</th><th>쓰는 곳</th></tr></thead><tbody><tr><td>판 안</td><td>골드</td><td>처치, 웨이브 통과, 미션, 현상금</td><td>소환, 단계 강화(판 안)</td></tr><tr><td>판 밖</td><td>은화</td><td>판 결과, 쿠지, 미션, 업적, 계정 레벨 업</td><td>은화 상점</td></tr><tr><td>판 밖</td><td>연합의 결정</td><td>판 결과, 쿠지, 미션, 업적</td><td>영웅 강화 +N</td></tr><tr><td>판 밖</td><td>쿠지 티켓</td><td>승리, 쿠지, 미션, 업적, 계정 레벨 업, 상점</td><td>쿠지 1장</td></tr><tr><td>판 밖</td><td>젬스톤(유료)</td><td>돈, 30일 보급, 쿠지 상위상</td><td>상점 «교환»</td></tr><tr><td>판 밖</td><td>행동력</td><td>시간, 계정 레벨 업</td><td>판 시작</td></tr></tbody></table></div>\n<ul>\n<li>판 밖 무료 화폐는 «은화» 다(판 안 «골드» 와 다르다 — 사용자 결정 2026-11-16). 옛 뽑기 코인·경험 결정·종족 조각·조각 선택권·보석은 없어졌다(옛 저장은 한 번 바꿔 준다, <code>13-보상-육성-꾸밈.md</code> §7).\n</li>\n<li>쿠지에서 젬스톤이 나오고 젬스톤으로 쿠지 티켓을 사므로 쿠지 화면은 남은 수·지금 확률을 계속 보인다.\n</li></ul>\n<h3>협동</h3>\n<ul>\n<li>각자 자기 영역에서 소환한다. 몬스터는 모두가 같이 상대한다.\n</li>\n<li>n명이면 <strong>스폰 지점이 n곳</strong>이고 몬스터 수도 <strong>n배</strong>다.\n</li>\n<li><strong>목숨은 하나를 같이 쓴다.</strong>\n</li></ul>\n<h3>넣는 것 / 빼는 것</h3>\n<div class=tw><table><thead><tr><th>넣는다</th><th>뺀다</th></tr></thead><tbody><tr><td>6종족 × 4단계 진화</td><td>스토리, 대사</td></tr><tr><td>3개 합성</td><td>합성 실패, 무작위 결과 합성</td></tr><tr><td>고른 빈칸에 소환, 판매 환급 80%</td><td>소환 버튼·빈칸 수 표시, 종족별 보유 수 줄</td></tr><tr><td>시간으로 이어지는 웨이브 20개(보스 10·20)</td><td>다음 웨이브 예고·«지금 시작»</td></tr><tr><td>판 안 미션(8개)·현상금(6종)</td><td>판 안의 둘째 재화, 판 안 미션 «받기» 버튼</td></tr><tr><td>영웅 단계별(1~4) 판 안 단계 강화(골드 · 결정 0054 · 초안 · 끌 수 있다)</td><td>강화용 새 재화, 영웅 하나만 강화, 종족별 판 안 강화(결정 0033 → 0054 로 대체)</td></tr><tr><td>영웅별(24) 레벨 업(같은 영웅 중복) + 강화 +N(연합의 결정)</td><td>장비, 스킬 트리, 각성·특성(결정 0049 로 폐지)</td></tr><tr><td>쿠지(은화·연합의 결정·영웅·쿠지 티켓·젬스톤, 상위상을 다 뽑으면 새 판) · 행동력 · 계정 레벨</td><td>쿠지에서 꾸밈</td></tr><tr><td>업적 1회성 19(꾸밈 22 + 재화) · 반복 7(재화), «받기»</td><td>영웅 스킨(나중에 검토), 꾸밈 구매·쿠지에서 나오기</td></tr><tr><td>로비, 싱글, 2~4인 협동</td><td>대전(PvP), 길드, 자유 입력 채팅(빠른 대화만)</td></tr><tr><td>소리(효과음·배경음)·연출·설정(음량·진동·그래픽·프레임)</td><td>클라우드 저장(남은 일)</td></tr><tr><td>닉네임(처음 한 번 + 프로필에서 바꾸기), 일일 미션 5개 · 주간 미션 7개, 판 이어 하기, 게임 방법 화면, <strong>우편함</strong>(결정 0047), <strong>상점</strong>(은화 상점 · 30일 보급 · 쿠지 티켓 묶음 · 젬스톤 — 결정 0049)</td><td>서버 우편·서버 공지(서버가 없다 — 운영 우편은 데이터 갱신으로), 연속 출석, 협동 이어 하기</td></tr></tbody></table></div>\n<h3>첫 번째 목표</h3>\n<p>로비 → 싱글 한 판 → 결과. <strong>맵 1개(<code>gate_01</code>, 9×13칸 캔버스), 그림자 무리 몬스터 4종 + 현상금 6종, 캐릭터 6종족</strong>(각 4단계)으로 한 판이 처음부터 끝까지 돈다: 빈칸 소환 → 합성·판매·이동 → 20웨이브 자동 진행 → 미션·현상금 → 결과. 그림은 임시 그림. 협동은 자리만 두고 «개발 중» 표시만.</p>\n<p><strong>완성 묶음(CD-0007)에서 싱글 한 바퀴가 닫혔다.</strong> CD-0015(결정 0049)에서 그 고리가 바뀐다: 행동력 → 판 → 은화·연합의 결정·쿠지 티켓 → 쿠지·은화 상점 → 영웅 레벨 업·강화 → 다음 판에서 더 강함. 판 안에는 강화가, 판 밖에는 업적·꾸밈·프로필·설정이 더해졌다. 협동·클라우드 저장·상위 성장·무한 모드는 아직이다. 동시에 핸드폰 설치·새 빌드 받기·유저 정보 저장의 뼈대를 만든다.</p>",
+"at": "2026-11-17 10:36",
+"branch": "cd23",
 "dirty": false
 },
 {
 "tab": "system",
 "file": "docs/11-규칙.md",
 "title": "11. 규칙 (판 안)",
-"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-17(CD-0015 · 결정 0049: §12-2 영웅 레벨·강화 반영, §12-3 각성·특성 폐지) · 2026-11-16(CD-0007: §12 강화·육성 반영·특성, 웨이브 곡선 재조정) · 상태: 구조 확정, <strong>수치는 초안</strong>. «초안 · 사용자 확인 대기» 표시는 대표가 사용자 확인 없이 정한 것(결정 0033~0036). 숫자의 정본은 <code>Data/*.json</code> 이고 여기에는 뜻만 적는다.\n</li>\n<li>규칙마다 «왜» 와 «망가지는 길» 을 한 줄씩 적었다.\n</li></ul>\n<h3>1. 영역과 맵 규격 — 자유 배치 (CD-0016 · 결정 0049 15)</h3>\n<ul>\n<li><strong>맵은 캔버스 위에 그린다.</strong> 캔버스는 9×13칸이다(<code>Data/maps.json</code> 의 <code>canvas</code>). 좌표는 캔버스 왼쪽 위가 (0,0)이고 칸의 1/100 단위다. 그리드·길·비행 길은 모두 캔버스 안에 있다.\n</li>\n<li>플레이어마다 자기 <strong>영역</strong>이 있다(L12). 영역은 <strong>맵을 만들 때 정한 그리드</strong>다 — <code>maps.json</code> 배치(<code>layouts</code>)의 <code>fields[]</code> 하나가 한 사람 몫이고 왼쪽 위 <code>origin</code> 과 크기 <code>cols</code>×<code>rows</code> 로 정한다. 칸 번호는 «행 × cols + 열».\n</li>\n<li><strong>길 칸에는 놓을 수 없고, 그리드의 나머지 칸에는 어디든 놓을 수 있다.</strong> 길 칸 = 그 배치의 땅 길(<code>paths</code>, 모든 사람의 길)의 토막이 칸 중심을 지나는 칸. Core 가 길에서 계산한다(칸 표를 따로 두지 않는다 — 길을 고치면 막힌 칸이 저절로 따라온다). 비행 길은 칸을 막지 않는다. 땅 길은 칸 중심(…50)을 잇는 가로·세로 토막이다.\n</li>\n<li>한 사람이 <strong>동시에 둘 수 있는 영웅 수에 상한</strong>이 있다(<code>economy.json</code> <code>maxUnits</code>, 초안 20 — 기획팀 초안 · 사용자 확인 대기). 상한이면 소환할 수 없고, 합성·판매로 수가 줄면 다시 할 수 있다. 이동(빈칸으로·자리 바꾸기)은 수를 바꾸지 않으니 막지 않는다.\n</li>\n<li>영웅은 칸 하나에 하나 선다. 끌어서 그리드 안의 놓을 수 있는 빈칸으로 옮기거나 다른 영웅과 자리를 바꿀 수 있다.\n</li>\n<li>지금 두 맵(1인 배치) 모두 <strong>그리드 = 캔버스 전체(9×13 = 117칸)</strong>: <code>gate_01</code> 은 길 칸 29 · 놓는 칸 88, <code>gate_02</code> 는 길 칸 30 · 놓는 칸 87(그중 길 바로 옆 49). 숫자는 <code>tools/validate_data.py</code> 가 센다.\n</li>\n<li><code>gate_01</code> «숲길 관문»: 균열(위 오른쪽)에서 위쪽·왼쪽을 돌아 가운데를 가로지르고 오른쪽으로 내려가 관문(아래 왼쪽)에서 끝난다(약 28칸). 비행 길은 같은 시작·끝을 잇는 짧은 길이다.\n</li>\n<li><code>gate_02</code> «바윗골 관문»(결정 0043 초안 · 사용자 확인 대기): 균열(왼쪽 위)에서 위쪽을 ㄹ자로 꺾어 내려와 왼쪽·아래·오른쪽을 돌아 관문(오른쪽 위)에서 끝난다(29칸). 맵 2 의 보통은 맵 1 보통을 한 번 이기면 열린다(<code>Data/stages.json</code> 의 <code>map</code>·<code>after</code>).\n</li>\n<li><strong>검사</strong>(<code>tools/validate_data.py</code>, 맵·배치마다): 그리드가 캔버스 안 · 한 배치의 그리드끼리 겹치지 않음 · 그리드 안에 길 칸이 있음 · 놓는 칸 ≥ <code>maxUnits</code> · 길 칸 바로 옆(상하좌우)의 놓는 칸 ≥ <code>maxUnits</code> · 협동 배치에서 사람마다 놓는 칸 수 차이 10% 이하 · 땅 길은 칸 중심을 잇는 가로·세로 토막 · 비행 길은 같은 시작·끝으로 더 짧게 · 둘째 맵의 길 길이는 첫 맵의 ±15%.\n</li>\n<li>옛 규칙(지움): «영역 4×5 = 20칸, 세 면이 길에 닿고 길은 영역을 가로지르지 않는다»(CD-0005 ~ CD-0010).\n</li>\n<li>왜: 사용자 결정 «특정 영역이 아니라 맵을 만들 때 그리드를 정해 두고, 몬스터가 다니는 길 말고는 어디든 놓게». 길 양쪽·모퉁이·비행 지름길 옆이 모두 자리가 되어 «어디에 세울까» 가 커진다. 그리드를 맵 데이터로 두면 맵마다 모양을 바꿀 수 있고, 협동 배치는 그리드를 겹치지 않게 나눠 L12(각자 영역)를 지킨다.\n</li>\n<li>왜 영웅 수 상한인가: 칸이 88 이 되자 봇 판에서 판의 힘과 누르는 횟수가 칸 수를 따라 폭주했다 — 고정 비용 10 에서 상한 없이 32칸이면 봇 20/20 승·한 판 소환 258번, 그리드 전체면 소환 476번(옛 판 42~52번). 상한 20 이면 옛 20칸 판과 같은 힘(봇 승 10·12 / 20)을 지키면서 어디에 세울지는 자유다. 상한은 그리드 크기와 따로라서 맵·협동 배치를 바꿔도 판의 힘이 같다.\n</li>\n<li>망가지는 길: ① 길에서 먼 칸은 «죽은 칸» 이다 — 칸이 넉넉하니 죽은 칸이 있어도 된다. 대신 길 바로 옆 칸이 상한 이상 있게 검사한다. ② 상한을 올리면 합성이 연쇄로 이어져 판이 갑자기 쉬워진다(상한 24 에서 봇 20/20) — 상한은 시뮬레이터로만 바꾼다. ③ 협동에서 캔버스 하나에 그리드를 나누면 사람당 칸이 줄어든다(2인이면 어림으로 사람당 40 안팎 — 배치를 그려 봐야 안다) — 상한 20 보다 넉넉하면 힘은 같다. 4인은 M5 에서 캔버스를 키우거나 상한을 다시 본다.\n</li></ul>\n<h3>2. 소환</h3>\n<ul>\n<li>골드를 내고 <strong>소환</strong>한다. <strong>소환할 칸을 고른다</strong>: 명령은 칸을 지정하고, 그 칸이 놓을 수 있는 빈칸이어야 한다(길 칸·찬 칸·그리드 밖은 거절). 영웅 수가 상한(<code>maxUnits</code>)이면 거절한다. 골드가 모자라면 거절한다.\n</li>\n<li>소환되는 종족은 여섯 종족 중 무작위다. 종족 확률은 같다(<strong>여섯 종족 모두</strong>가 처음부터 나온다).\n</li>\n<li><strong>단계는 1단계(일반) 90% · 2단계(고급) 10% 로 고정</strong>이다(결정 0049 3 — 사용자 결정, <code>summon.json</code> <code>stageWeights</code>). 웨이브에 따라 오르지 않는다. <strong>3·4단계(희귀·영웅)는 같은 것 3개 합성으로만</strong> 나온다. 화면에는 등급 글자를 쓰지 않는다(단계 색으로만 — 발밑 빛 고리).\n<ul>\n<li>대체: 결정 0038 의 «웨이브별 단계 확률»(0~5 웨이브 90/9.5/0.5% → 16~20 웨이브 30/43/27%)은 지웠다. 되돌리는 법은 <code>summon.json</code> 의 <code>_note</code>.\n</li></ul>\n</li>\n<li><strong>소환 비용은 고정</strong>이다(결정 0049 4 — 사용자 결정). 소환할 때마다 오르지 않는다. 값은 <code>economy.json</code> <code>summonCostBase</code>(초안 10, 옛 첫 소환 값 그대로), <code>summonCostStep</code> 은 0 이어야 한다(검사).\n</li>\n<li>뽑는 횟수·순서(종족 → 단계)는 그대로다.\n</li>\n<li>왜: 무엇이 나올지 본 뒤에 판단하는 «결정 전 랜덤» 이다. 자리를 고르는 판단은 사람 몫이고, 운은 «무엇이 나오나» 에만 둔다. 사용자는 «소환할수록 비싸지는» 압박을 원하지 않았다.\n</li>\n<li>망가지는 길: ① 한 종족만 계속 안 나오는 불운 → 연속 불운 보정은 M2 에서 정한다. ② <strong>고정 비용이면 «팔고 다시 뽑기»(몰아 하기)가 싸다</strong> — 늦은 판에는 골드가 넉넉해(봇 한 판 약 4,000~7,000) 판 사람이 원하는 종족만 남길 수 있다. 몰아 하는 도구 봇(<code>FocusBot</code>)은 보통 18/20 승, 어려움 15~17/20 승(육성 없음) — 숙련 플레이에는 판이 쉽다(§4, §13). ③ 화면에서 칸을 잘못 눌러 엉뚱한 곳에 서는 사고는 «칸 선택 → 한 번 더 눌러 확정» 으로 막는다(화면의 몫).\n</li></ul>\n<h3>3. 합성(진화)</h3>\n<ul>\n<li><strong>같은 종족 · 같은 단계 셋</strong>이 영역에 있으면 합칠 수 있다. 위치는 상관없다.\n</li>\n<li>합치면 <strong>그 종족의 다음 단계 하나</strong>가 된다. 결과는 정해져 있다(실패 없음, 무작위 없음).\n</li>\n<li>새 캐릭터는 고른 캐릭터의 칸에 서고 나머지 두 칸은 빈다.\n</li>\n<li>4단계가 끝이다. 4단계는 합칠 수 없다.\n</li>\n<li>왜: 결과가 정해져 있어야 계획을 세울 수 있고, 운은 소환에만 둔다.\n</li>\n<li>망가지는 길: 4단계 하나에 1단계 27개가 든다. 너무 멀면 아무도 못 본다. → 소환에서 2·3단계가 나오는 확률과 판 길이로 맞춘다.\n<ul>\n<li>CD-0016 측정(결정 0049 — 90/10 고정 · 비용 고정 · 그리드 전체 · 상한 20, 봇 20판 시드 1~20): 4단계는 <code>SimpleBot</code>(팔지 않는 봇) <strong>0판</strong>, <code>FocusBot</code>(몰아 하는 봇) 맵 1 <strong>18판</strong>·맵 2 <strong>17판</strong>, 처음 만드는 웨이브 중앙값 7(가장 이른 것 5~6). 4단계는 «몰아 하면 판 중반에 보는 보상» 이 됐다. 0038 의 목표 «웨이브 8 전에는 안 나온다» 는 고정 비용에서 맞출 수 없어 «몰아 하는 봇이 20판 중 12판 이상 · 중앙값 6~12» 로 바꿨다(기획팀 초안 · 사용자 확인 대기).\n</li>\n<li>CD-0007 C4 측정(옛): 한 확률표(90/9.5/0.5%)일 때 봇 20판에서 4단계가 <code>SimpleBot</code> 0판·<code>FocusBot</code>(몰아 합성하는 도구 봇) 3판이었다 — 죽은 콘텐츠. 웨이브별 확률(위 표)로 바꿔 4단계가 판 중후반(처음 만드는 웨이브 8 이상, 몰아 하면 중앙값 13)에 나오게 했다. 합성 재료 수(셋)·칸 수(20)는 사용자 확정 규칙이라 건드리지 않았다. 숫자는 <code>docs/decisions/0038</code>.\n</li></ul>\n</li></ul>\n<h3>4. 판매</h3>\n<ul>\n<li>캐릭터를 팔면 <strong>들인 골드의 80%</strong> 를 돌려받고 칸이 빈다(환급 비율은 <code>Data/economy.json</code> 의 <code>sellRefundPct</code>).\n</li>\n<li>왜: 막힌 판을 풀 출구. 80% 는 «잘못 뽑아도 크게 손해 보지 않는다» 는 느낌을 위해서다.\n</li>\n<li>망가지는 길: 환급이 높으면 «마음에 안 드는 종족을 팔고 다시 뽑기» 가 최선이 된다(결정 0015 가 알고 가는 위험). 옛 제동이던 «소환할 때마다 오르는 비용» 은 결정 0049 로 없어졌다. CD-0016 측정: 상한 20 · 비용 10 에서 환급을 80% → 50% → 30% 로 내려도 몰아 하는 봇의 승(18/20)·소환 수(한 판 약 270번)·4단계 시점이 <strong>바뀌지 않았다</strong> — 늦은 판 골드가 넉넉해 환급이 제동이 못 된다. 그래서 환급은 사용자 결정(80%)대로 두고, 숙련 플레이의 난이도는 «어려움·정예» 쪽에서 다시 맞춘다(§13, 확인 대기).\n</li></ul>\n<h3>5. 싸움</h3>\n<ul>\n<li>캐릭터는 사거리 안의 몬스터를 스스로 공격한다(결정 0044). 캐릭터는 <strong>고정 대상</strong> 하나를 갖고, 공격할 차례에 고정 대상이 살아 있고 사거리 안이면 그대로 친다. 고정 대상이 죽었거나 도착했거나 사거리 밖으로 나갔거나 아직 없으면 <strong>사거리 안의 살아 있는 몬스터 중 캐릭터에서 거리(제곱 정수)가 가장 먼 것</strong>을 새로 골라 고정한다(같으면 id 가 작은 것). 쿨다운 중에는 대상을 다시 확인하지 않는다. <code>double_shot</code> 의 둘째 대상은 고정 대상을 뺀 사거리 안에서 가장 먼 것(없으면 같은 대상)이고 고정하지 않는다. 관통·범위·여파는 첫 대상 기준 그대로다.\n</li>\n<li>종족마다 싸우는 방식이 다르다(§7).\n</li>\n<li>몬스터는 <strong>방어</strong>를 가질 수 있다. 방어는 한 번 맞을 때마다 피해를 일정량 깎는다(최소 1).\n</li>\n<li>시간은 고정 틱(초안 초당 20틱)으로 흐르고 계산은 정수다.\n</li></ul>\n<h3>6. 웨이브·목숨·승패</h3>\n<ul>\n<li><strong>웨이브는 시간으로 이어진다.</strong> 판이 시작되고 <code>firstWaveDelayTicks</code> 뒤에 웨이브 1이 나온다. 한 웨이브의 <strong>마지막 몬스터가 나온 뒤</strong> <code>waveGapTicks</code> 가 지나면 다음 웨이브가 나온다. 앞 웨이브를 다 잡았는지와 무관하고, 웨이브끼리 나오는 시간은 겹치지 않는다.\n</li>\n<li><strong>다음 웨이브 예고는 없다</strong>(결정 0015). 새 종류가 나와도 미리 보여 주지 않는다. 화면은 다음 웨이브 5초 전부터 균열 위에 남은 초만 보여 준다.\n</li>\n<li>몬스터는 자기 웨이브 번호를 안다. <strong>웨이브 통과 보상은 그 웨이브의 몬스터가 모두 사라졌을 때</strong>(처치 또는 누출) 준다.\n</li>\n<li>몬스터가 길 끝에 닿으면 <strong>목숨</strong>이 깎인다(보통 1, 보스는 더 많이). <strong>목숨은 10</strong> 이다.\n</li>\n<li>목숨이 0이 되면 <strong>패배</strong>. 그 판의 웨이브 세트의 <strong>마지막 웨이브</strong>(웨이브 수는 세트마다 <code>Data/waves.json</code>, 지금은 모두 20)가 다 나왔고 웨이브 몬스터가 0이면 <strong>승리</strong>. 웨이브를 다 막아야 승리다(결정 0048 — 사용자 결정).\n</li>\n<li>지거나 중간에 끝나도 <strong>막은 웨이브만큼</strong> 뽑기 코인을 받는다(진행 단계별 차등, 승리 보너스는 다 막았을 때만 — <code>13-보상-육성-꾸밈.md</code> §3, 결정 0036·0048).\n</li>\n<li>10·20 웨이브에 보스가 나온다(보스 1마리 + 졸개). 첫 세트 <code>gate_01_std</code> 는 20웨이브, 몬스터는 그림자 무리 4종이다(<code>12-콘텐츠목록.md</code> §2).\n</li>\n<li>골드: 처치 보상 + 웨이브 통과 보상 + 미션 보상(§10) + 현상금 보상(§11). 놓친 몬스터는 처치 보상을 주지 않는다. 골드는 소환과 강화(§12)에 쓴다. 현상금 몬스터를 놓쳐도 목숨이 준다(§11).\n</li>\n<li><strong>웨이브 곡선</strong>(<code>Data/waves.json</code> <code>gate_01_std</code> 의 <code>hpPct</code>, 결정 0036·0037 · 초안 · 사용자 확인 대기): <strong>웨이브마다 내려가지 않는다.</strong> 초반 완만(1~5: 100→175, 웨이브당 약 +15%) → 중반 꾸준(6~15: 392→1387, 웨이브당 약 +110, 10 보스 웨이브 850 이 첫 고비) → 끝 평탄(16~20: 1412→1517, 웨이브당 +26). CD-0007 C4 에서 소환 단계 확률이 웨이브와 함께 오르게 되어(§2) 6웨이브부터 약 1.38배로 올렸다. 20웨이브는 보스 1 + 졸개 4(옛 18) 로 보스에 집중시켰다.\n<ul>\n<li>왜 끝을 가파르게 하지 않았나: 웨이브가 시간으로 이어져 16~19 를 가파르게 올리면 못 잡은 몬스터가 쌓인 채 20 이 시작되고, 봇 판 패배가 거의 다 «20» 에 몰렸다(시험: 16~19 를 웨이브당 +120~140 → 패배 10 중 9 가 20). 중반을 꾸준히 올려 압력을 중반에 두고, 끝은 평탄하게 했다. 20웨이브 졸개를 줄인 것은 보스(목숨 5)가 마지막 한 마리로 두드러지게 하면서 그 웨이브가 혼자 판을 가르지 않게 하려는 것이다.\n</li>\n<li>봇 20판(강화를 사는 봇, 시드 1~20, 육성 없음): <strong>승 10 / 20</strong>, 패배 웨이브 8·12·14·15×2·17×2·18×2·20(한 웨이브에 패배의 절반을 넘지 않음 — 테스트가 고정). C1 의 곡선(16 에서 한 번 내려가던 것)은 CD-0007 C3 에서 이것으로 바꿨다.\n</li>\n<li><strong>난이도 단계</strong>(결정 0037): 같은 맵·같은 구성에 <code>hpPct</code> 만 키운 세트 둘 — <code>gate_01_hard</code>(«어려움», 보통의 약 1.58배)·<code>gate_01_elite</code>(«정예», 약 2.53배). 목록과 열림 규칙은 §13 아래 줄과 <code>Data/stages.json</code>.\n</li>\n<li><strong>CD-0016 재측정</strong>(결정 0049 3·4·14·15: 90/10 고정 · 비용 10 고정 · 그리드 전체 + 상한 20 · 현상금 놓치면 목숨 1·1·2·2·3·3, 봇 20판 시드 1~20, 육성 없음, 기획팀 시제품으로 잼): <code>gate_01_std</code> 곡선은 그대로 <strong>승 10/20</strong>(패배 웨이브 13·14×2·15·16×2·17×2·19·20), <code>gate_02_std</code> 는 6웨이브부터 ×118% 로 올려 <strong>승 12/20</strong>(그대로면 13). 이긴 판 길이 약 10.1분(그대로). 정예 <code>gate_01_elite</code> 6웨이브부터 ×86%, <code>gate_02_elite</code> ×104% — 표는 <code>studio/orders/CD-0016-…/10-spec.md</code> «측정».\n</li>\n<li><strong>«사람 플레이 뒤 재조정»</strong>: 이 곡선은 봇 판으로만 맞췄다.\n</li></ul>\n</li>\n<li>왜: 시간이 흐르면 «지금 합칠까, 한 번 더 뽑을까» 를 서둘러 정해야 한다. 한 번 막히면 쉬어 가는 칸이 없는 대신 «못 잡은 것이 쌓인다» 는 압박이 판단 지점을 만든다.\n</li>\n<li>망가지는 길: ① 일부러 놓치는 게 이득이면 안 된다. 놓치면 목숨과 골드를 둘 다 잃는다. ② 못 잡은 몬스터가 눈덩이로 쌓이면 한 번 밀린 판은 되돌릴 수 없다 → <code>waveGapTicks</code> 와 웨이브 체력은 봇 판으로 맞춘다(승률 30~70% 목표). ③ 통과 보상이 «다 사라진 뒤» 라서 밀린 웨이브의 보상은 늦게 온다 — 의도다.\n</li></ul>\n<h3>7. 종족의 역할 (진화 계열은 종족당 하나)</h3>\n<div class=tw><table><thead><tr><th>종족</th><th>싸우는 방식</th><th>잘하는 상대</th><th>약한 점</th></tr></thead><tbody><tr><td>인간</td><td>짧은 사거리, 묵직한 한 방(단일)</td><td>중장, 보스</td><td>무리</td></tr><tr><td>엘프</td><td>긴 사거리, 빠른 연사(단일)</td><td>질주, 비행</td><td>중장(방어에 깎임)</td></tr><tr><td>드워프</td><td>느린 포격, 범위 피해</td><td>무리</td><td>질주(느려서 놓침)</td></tr><tr><td>수인</td><td>아주 짧은 사거리, 매우 빠른 연타와 치명타</td><td>일반, 재생</td><td>사거리</td></tr><tr><td>정령</td><td>약한 피해, 맞은 몬스터를 느리게 함</td><td>전부(아군을 돕는다)</td><td>혼자서는 못 막음</td></tr><tr><td>용족</td><td>일직선 관통, 여파(맞은 뒤 잠시 이어지는 방어 무시 피해)</td><td>중장, 줄지어 오는 적</td><td>흩어진 적</td></tr></tbody></table></div>\n<ul>\n<li>특정 종족이 없으면 못 깨는 «절대 상성» 은 두지 않는다. 운으로 그 종족이 안 나온 판이 억울해지기 때문이다. 상성은 «더 잘 듣는다» 정도다.\n</li></ul>\n<h3>8. 몬스터 유형</h3>\n<div class=tw><table><thead><tr><th>유형</th><th>특징</th><th>규칙 (<code>Data/monsters.json</code> <code>types</code>)</th></tr></thead><tbody><tr><td>일반</td><td>기준</td><td>체력·속도 100%</td></tr><tr><td>질주</td><td>빠르고 약하다</td><td>체력 50% · 속도 180%</td></tr><tr><td>중장</td><td>느리고 단단하며 방어가 있다</td><td>체력 220% · 속도 70% · 방어 4</td></tr><tr><td>무리</td><td>작고 약한 것이 많이 온다</td><td>체력 35% · 속도 110% · <strong>4마리씩 묶여 4틱 간격으로 나오고 묶음 사이는 웨이브 칸의 <code>spacingTicks</code></strong>(<code>burst</code>·<code>burstGapTicks</code>) · 처치 골드 50%(<code>bountyPct</code>, 2 → 1)</td></tr><tr><td>비행</td><td>길의 굽이를 건너뛰어 더 짧은 길로 온다</td><td>체력 70% · 속도 110% · 맵의 <code>flyPaths</code>(길마다 하나, 지름길)를 걷는다. 공격 사거리 규칙은 같다(몬스터 중심이 사거리 안) — 그래서 지름길에 가까운 칸이 비행을 잘 잡는다</td></tr><tr><td>재생</td><td>체력이 조금씩 찬다</td><td>체력 120% · 속도 90% · 초당 최대 체력의 2% · <strong>피해를 받으면 20틱(1초) 쉬고 다시 찬다</strong>(<code>regenDelayTicks</code>) · 멈춤 동안에도 차지 않는다</td></tr><tr><td>보스</td><td>체력이 매우 많고 느리며, 놓치면 목숨이 많이 깎인다</td><td>체력 1200% · 속도 60% · 방어 2 · 목숨 5</td></tr></tbody></table></div>\n<ul>\n<li>CD-0009 2차(결정 0042 초안 · 사용자 확인 대기): 무리·비행·재생이 그림자 무리에 생겼다(<code>12-콘텐츠목록.md</code> §2-1). 세 난이도 세트 모두 7유형이 다 나온다 — 무리 4웨이브~(어려움·정예는 6웨이브~), 비행 12웨이브~, 재생 13웨이브~. 보통 세트는 9웨이브부터 hpPct ×108%. 어려움·정예는 1~5웨이브를 낮춰(×80%·×72%) 막 열린 단계가 4웨이브의 «벽» 이 되지 않게 했다 — 두 세트도 «한 웨이브 패배 ≤ 절반» 을 테스트가 고정한다.\n</li>\n<li>화면 표시(그림 이름표·크기·색조·떠 있는 높이)는 몬스터의 <code>view</code> 칸이다. 규칙은 읽지 않는다.\n</li></ul>\n<h3>9. 협동 (n = 2~4)</h3>\n<ul>\n<li>영역: 플레이어마다 따로(맵 배치의 <code>fields[]</code> 하나씩, 겹치지 않는다 — §1). 남의 영역에는 소환·이동·합성할 수 없다. 영웅 수 상한(<code>maxUnits</code>)은 사람마다 따로 센다.\n</li>\n<li>몬스터: 모두가 공유한다. 누구의 캐릭터든 사거리에 들어온 몬스터를 친다.\n</li>\n<li>스폰: <strong>n곳</strong>에서 나오고, 웨이브의 몬스터 수는 <strong>n배</strong>다(각 스폰 지점이 한 사람 몫을 내보낸다).\n</li>\n<li>길: 스폰 지점마다 길이 다르지만 모든 길은 같은 끝(관문)으로 모인다. 각 길은 모든 플레이어의 영역 곁을 지난다.\n</li>\n<li>목숨: <strong>하나를 같이 쓴다.</strong>\n</li>\n<li>골드: 각자 따로 가진다. 처치 보상과 웨이브 보상은 <strong>전원이 똑같이</strong> 받는다(막타 경쟁을 없앤다).\n</li>\n<li>육성: 각자의 캐릭터 레벨·각성은 자기 캐릭터에만 적용된다.\n</li>\n<li>싱글은 n = 1 인 협동이다(같은 규칙, 같은 코드).\n</li>\n<li>판 보상: 마지막 웨이브까지 못 가도 <strong>팀이 막은 웨이브만큼 전원이 똑같이</strong> 받는다(결정 0048 — 사용자 결정). 판이 어떻게 끝나든(패배·방장 이탈·끊김) 그때까지 막은 웨이브로 정산하고 0 으로 끝내지 않는다. 한 사람만 나가면 그 사람은 나간 시점까지로 정산하고, 남은 사람은 이어 한다(대표 초안 · 사용자 확인 대기).\n</li>\n<li>망가지는 길: 한 사람이 끊기면 몬스터는 n배인데 손이 모자란다. → 끊긴 사람의 캐릭터는 그대로 싸우게 두고, 다음 웨이브부터 몬스터 배수를 남은 인원으로 줄인다(M5 에서 확정).\n</li></ul>\n<h3>10. 미션</h3>\n<ul>\n<li>판이 시작될 때 미션 풀(<code>Data/missions.json</code>, 24개)에서 <strong>8개</strong>를 뽑아 건다. 뽑는 난수는 전용 스트림이고, <strong>같은 종류는 하나만</strong> 뽑는다. 처음부터 전부 보인다.\n</li>\n<li>종류는 12가지이고 종류마다 난이도가 둘이다(풀 24개). 같은 종류의 쉬운 것과 어려운 것은 같이 뽑히지 않는다.\n</li>\n<li>조건을 채우면 <strong>그 틱에 보상 골드가 바로 들어오고</strong> «미션 달성» 이벤트가 난다. 한 번만 준다(받기 버튼은 없다).\n</li>\n<li>협동에서도 목록은 같고 <strong>진행은 플레이어마다 따로</strong> 센다. 보상은 그 사람이 받는다.\n</li>\n<li>보상은 30~120골드(초안). 판이 끝나면 사라진다. 판 밖 보상은 없다.\n</li></ul>\n<div class=tw><table><thead><tr><th>종류</th><th>뜻</th></tr></thead><tbody><tr><td>처치</td><td>몬스터 N마리를 내 캐릭터로 처치</td></tr><tr><td>합성</td><td>합성 N번</td></tr><tr><td>단계 도달</td><td>S단계 캐릭터 만들기</td></tr><tr><td>종족 모으기</td><td>서로 다른 종족 N종을 동시에</td></tr><tr><td>한 종족 모으기</td><td>같은 종족 N기를 동시에</td></tr><tr><td>소환</td><td>소환 N번</td></tr><tr><td>판매</td><td>판매 N번</td></tr><tr><td>완벽 방어</td><td>하나도 안 놓친 웨이브 N번</td></tr><tr><td>웨이브 도달</td><td>웨이브 N 시작</td></tr><tr><td>현상금 사냥</td><td>현상금 N번 잡기</td></tr><tr><td>골드 보유</td><td>골드 N 이상 보유</td></tr><tr><td>캐릭터 수</td><td>캐릭터 N기를 동시에</td></tr></tbody></table></div>\n<ul>\n<li>왜: 소환·합성 말고도 «이번 판에는 무엇을 노릴까» 를 고를 거리를 준다. 종류가 다양해서 한 가지 플레이만으로는 8개를 다 못 채운다.\n</li>\n<li>망가지는 길: ① 미션 골드가 소환을 앞당겨 웨이브 체력을 밀어 올린다 → 웨이브 수치는 미션 보상을 넣은 봇 판으로 맞춘다. ② 서로 부딪히는 미션(판매 5번 ↔ 캐릭터 18기 동시에)이 한 판에 같이 걸리면 억울하다 → 종류가 달라도 같이 뽑힐 수 있으니, 전부 채우는 것을 목표로 두지 않고 «채울수록 이득» 으로만 둔다. ③ 「골드 보유」 「캐릭터 수」 처럼 쌓아 두면 채우는 미션이 소환을 미루게 하지 않도록 보상은 작게 둔다.\n</li></ul>\n<h3>11. 현상금</h3>\n<ul>\n<li><strong>현상금 몬스터</strong>는 6종이다(<code>Data/bounty.json</code>: 이름, 체력, 속도 배율, 방어, 보상 골드, 열리는 웨이브, 그림 이름표, 특징 한 줄). 센 것은 늦은 웨이브부터 열린다.\n</li>\n<li>부르기 명령은 «몇 번째 현상금» 을 지정한다. 아래 경우에는 <strong>거절</strong>한다: 아직 열리지 않았다 / 쿨타임 중이다 / 이미 현상금 몬스터가 있다 / 판이 끝났다.\n</li>\n<li>부르면 균열(길 0번의 시작)에서 현상금 몬스터 하나가 나오고 <strong>전체 쿨타임</strong>(<code>bountyCooldownTicks</code>)이 돈다. 비용은 없다. 쿨타임은 6종이 같이 쓴다.\n</li>\n<li>현상금 몬스터를 잡으면 <strong>보상 골드를 전원 똑같이</strong> 받는다.\n</li>\n<li><strong>관문에 닿으면 사라지고 목숨이 준다</strong>(결정 0049 14 — 사용자 결정). 줄어드는 양은 현상금마다 <code>bounty.json</code> 의 <code>leakLife</code>(기획팀 초안 · 사용자 확인 대기: 약한 둘 1 · 가운데 둘 2 · 센 둘 3 — 보스 5 보다 작게). 보상은 없다. 목숨이 0 이 되면 패배다. 웨이브의 통과 판정(«그 웨이브 몬스터가 다 사라짐»)에는 들어가지 않는다. 놓친 것은 웨이브의 «누출» 수에 세지 않고 «달아난 현상금» 으로 센다(결과·미션 «완벽 방어» 에 영향 없음).\n</li>\n<li>현상금 몬스터의 체력은 웨이브 배율을 받지 않는다(<code>bounty.json</code> 의 값 그대로).\n</li>\n<li>왜: 판 안에서 «지금 센 것을 불러 큰 골드를 노릴까, 화력을 아낄까» 를 고르게 한다. 길 끝까지가 곧 제한 시간이다.\n</li>\n<li>망가지는 길: ① 현상금 몬스터가 맨 앞에 서면 아군의 화력을 끌어가 웨이브를 놓칠 수 있다 — 이것이 대가다. 대가가 약하면 «열리자마자 계속 부르기» 가 최선이 된다 → 쿨타임과 보상으로 맞춘다. ② 놓치면 목숨이 주니 «못 잡을 것을 부르기» 가 진짜 위험이 됐다 — 대신 판이 어려워진다(CD-0016 측정: 다른 것은 같고 목숨만 깎게 하면 봇 승 10 → 8 / 20, 맵 2 9 → 8). 봇은 «예상 피해 ≥ 체력 150%» 일 때만 불러 20판에 10~14번 놓쳤다(맵 1 221번 중 14, 맵 2 222번 중 10). ③ 판 후반의 큰 보상이 승부를 한 번에 뒤집지 않게 보상은 소환 비용의 수 배 선에 둔다 — 비용이 10 으로 고정돼 늦은 현상금(240~500)은 소환 24~50번 값이다.\n</li></ul>\n<h3>12. 강화 · 영웅 육성 반영</h3>\n<h4>12-1. 강화 (결정 0033 — 대표 초안 · 사용자 확인 대기, 끌 수 있다)</h4>\n<ul>\n<li><strong>종족마다 강화 단계</strong>(0~10)가 있다. 골드를 내고 한 종족을 한 단계 올리면 <strong>그 플레이어의 그 종족 캐릭터 전부</strong>의 피해가 단계마다 <strong>12%</strong> 오른다(더하기, 곱하기 아님. 새로 나오는 캐릭터도 받는다). 새 재화는 없다.\n</li>\n<li>비용: n 단계 → n+1 단계 = <strong>60 + 40 × n 골드</strong>(60·100·140 … 420). 한 종족을 10단계까지 올리면 2,400 골드다. 숫자의 정본은 <code>Data/upgrade.json</code>(<code>maxLevel</code>·<code>costBase</code>·<code>costStep</code>·<code>damagePctPerLevel</code>).\n</li>\n<li>명령은 «어느 종족을 강화하나» 를 지정한다. <strong>거절</strong>은 아래 순서로 하나만 돌려준다: 판이 끝났다 → 없는 플레이어 → <strong>없는 종족</strong>(이 판의 소환 풀에 없는 종족) → <strong>꺼져 있다</strong>(<code>enabled</code> false) → <strong>끝 단계</strong>다 → <strong>골드가 모자라다</strong>.\n</li>\n<li>강화는 종족에 붙는다. 캐릭터를 팔거나 합쳐도 강화는 남는다. 협동에서는 각자 자기 골드로 자기 캐릭터만 강화한다.\n</li>\n<li>화면은 «종족 6줄: 단계 · 지금 +N% · 다음 비용» 을 보여 주고, 살 수 있는 강화가 있으면 버튼에 배지가 붙는다. <code>enabled</code> 가 false 면 버튼이 사라진다.\n</li>\n<li><strong>끄는 법</strong>: <code>Data/upgrade.json</code> 의 <code>enabled</code> 를 false 로 하면 강화 명령이 전부 거절되고 화면은 버튼을 숨긴다(결정 0033 «되돌리는 법»).\n</li>\n<li>왜: 골드를 «소환을 더 할까, 이미 있는 것을 키울까» 로 나눠 쓰게 한다. 결정 0019 가 보류했던 «종족별 강화» 를 사람 확인 없이 대표가 초안으로 켰다.\n</li>\n<li>망가지는 길: ① 강화만 사고 소환을 안 하면 칸이 비어 막힌다 — 비용이 단계마다 40씩 올라 뒤로 갈수록 소환이 낫다. ② 한 종족에 몰아 사는 판에서 그 종족이 안 나오는 불운 — 강화는 그 종족이 나오는 판에만 쓸모가 있다(소환은 여섯 종족 무작위). ③ 강화가 너무 세서 판이 쉬워진다 — 강화를 넣었더니 봇 승률이 19/20 이 되어 웨이브 곡선을 올렸다(§6). ④ 레벨당 3% 인 육성보다 강화(단계당 12%)가 크다 — 판 안의 선택이 판 밖 육성보다 크게 느껴지게 한 것이고, 협동에서 육성 차이가 벌어지지 않게 하는 장치이기도 하다.\n</li></ul>\n<h4>12-2. 영웅 육성이 판에 반영되는 방식 (결정 0049 — CD-0015 · 수치는 초안)</h4>\n<ul>\n<li>판을 시작할 때 <strong>플레이어마다 «영웅 → 레벨·강화» 목록</strong>(loadout)을 넘긴다. 목록에는 그 사람이 <strong>가진</strong> 영웅만 들어간다. 목록에 없는 영웅(가지지 않았거나 레벨 1·+0)은 레벨 1·강화 +0 이다. <strong>판에는 보유와 무관하게 24종이 모두 나온다</strong>(소환·합성 규칙은 §2·§3).\n</li>\n<li>목록이 없는 판(또는 모두 레벨 1·+0)은 육성이 없던 때와 <strong>한 틱도 다르지 않다</strong>(재생 해시가 같다).\n</li>\n<li>소환·합성으로 영웅이 <strong>놓일 때</strong> 주인의 그 영웅 값을 받는다. 레벨이 <code>Data/heroes.json</code> <code>maxLevel</code> 을 넘거나 강화가 <code>maxEnhance</code> 를 넘는 목록은 거절한다.\n</li>\n<li><strong>피해를 곱하는 순서</strong>(매 단계 정수, 내림, 최소 1 — 테스트로 고정):\n</li></ul>\n<div class=tw><table><thead><tr><th>순서</th><th>단계</th></tr></thead><tbody><tr><td>1</td><td>그 단계의 기본 피해(<code>units.json</code>)</td></tr><tr><td>2</td><td>× (100 + <code>levelDamagePct</code> × (레벨 − 1)) / 100 — 영웅 레벨(판 밖)</td></tr><tr><td>3</td><td>× (100 + <code>enhanceDamagePct</code> × 강화) / 100 — 영웅 강화 +N(판 밖)</td></tr><tr><td>4</td><td>× (100 + 12 × 종족 강화 단계) / 100 — 판 안 종족 강화(§12-1, 골드). 스탯 카드의 피해는 여기까지</td></tr><tr><td>5</td><td>× 치명타 배율 / 100 — 공격마다 한 번(수인의 기본 치명타)</td></tr><tr><td>6</td><td>− 방어(몬스터), 최소 1</td></tr></tbody></table></div>\n<ul>\n<li>여파(용족) 초당 피해 = 기본 × 단계별 피해 %(<code>units.json</code> <code>stageDamagePct</code>) / 100 → 2·3·4 단계를 적용.\n</li>\n<li>레벨·강화는 <strong>피해에만</strong> 곱한다(사거리·공격 간격·감속·관통은 단계 값 그대로). 협동에서는 각자 자기 목록으로 자기 영웅만 강해진다.\n</li>\n<li>왜: 사용자가 정한 두 축(중복 → 레벨 업, 연합의 결정 → 강화)을 판 안에서 가장 단순하게 보인다. 곱하는 순서를 정해 두지 않으면 같은 영웅이 화면마다 다른 피해를 보여 준다.\n</li>\n<li>망가지는 길: ① 최대 육성(레벨 10·+10)이면 피해 약 2배(145% × 140%) — 육성 없는 기본 판의 승률(§6)은 그대로이고, 육성한 판이 쉬워지는 정도는 봇으로 참고 측정한다. ② 판 안 종족 강화(12%/단계)가 판 밖 육성(5%·4%)보다 크다 — 협동에서 육성 차이가 벌어지지 않게 하는 장치다.\n</li></ul>\n<h4>12-3. 각성·특성 — 폐지 (결정 0049 5)</h4>\n<ul>\n<li>옛 결정 0034 의 각성과 특성 24개(멈춤·여진·튕김·두 번 벰·곁의 아군·가속 등)는 <strong>없앴다</strong>. 판 안에 특성 규칙이 남지 않는다(CD-0015 core 가 코드와 함께 지운다). 용족의 기본 «여파»·정령의 기본 «감속»·드워프의 기본 «범위»·수인의 기본 «치명타»·용족의 «관통» 은 특성이 아니라 종족의 기본 공격이라 그대로다(<code>units.json</code>).\n</li>\n<li>옛 내용이 필요하면 git 기록(이 파일의 2026-11-16 판)과 결정 0034 를 본다.\n</li></ul>\n<h3>13. 아직 정하지 않은 것</h3>\n<ul>\n<li><strong>숙련 플레이(몰아 하기)의 난이도</strong>(CD-0016): 고정 비용에서 «팔고 다시 뽑기» 로 몰아 하는 봇은 육성 없이 보통 18/20, 어려움 15~17/20, 정예 11~15/20 승이다(팔지 않는 봇은 보통 10·12, 어려움 0·3). 어려움·정예를 숙련 기준으로 다시 맞출지는 CD-0015 의 육성(레벨·강화)이 판에 들어온 뒤 정한다.\n</li>\n<li><strong>영웅 수 상한 20</strong>과 <strong>현상금 놓치면 목숨 1·1·2·2·3·3</strong>(CD-0016 기획팀 초안 · 사용자 확인 대기).\n</li>\n<li>협동 배치(2~4인)의 그리드 나누기 — 사람당 놓는 칸이 상한보다 넉넉해야 판의 힘이 1인과 같다(§1). 4인은 캔버스 9×13 에 다 안 들어갈 수 있다(M5).\n</li></ul>\n<ul>\n<li>연속 불운 보정의 방식과 수치(M2)\n</li>\n<li>웨이브 간격(<code>waveGapTicks</code>)·미션 보상·현상금 수치 — 초안이고 봇 판으로 맞췄다(웨이브 체력은 §6 에 현재 곡선), 사람 플레이로 다시 본다\n</li>\n<li>보스 주기 — <code>gate_01_std</code> 는 20웨이브·10웨이브마다 보스. 웨이브 수는 세트마다 데이터로 정하고, 승리는 그 세트를 다 막는 것이다(결정 0048). 20보다 긴 세트를 만들지는 정하지 않았다\n</li>\n<li>강화(§12-1)의 단계 수·비용·효과 — 대표 초안(결정 0033)이고 사람 플레이로 다시 본다. 협동에서 강화를 어떻게 나눌지(지금은 각자)\n</li>\n<li>특성 24개의 수치와 체감(§12-3, 결정 0034) — 봇으로 종족별 승률을 재지 않았고 사람 플레이도 아직\n</li>\n<li>육성이 충분할 때(전 캐릭터 레벨 30·각성 4) 봇이 20/20 승 — 성장 상한의 난이도를 판 밖 비용과 함께 정해야 한다\n</li>\n<li>웨이브 곡선(§6, 결정 0036·0037 — 끝이 평탄)과 보상 단계 수치(<code>13</code> §3) — 사람 플레이 뒤 재조정\n</li>\n<li><strong>난이도 단계</strong>(결정 0037 — 대표 초안 · 사용자 확인 대기): «보통»(<code>gate_01_std</code>) → «어려움»(<code>gate_01_hard</code>) → «정예»(<code>gate_01_elite</code>). 앞 단계를 한 번 이기면 다음 단계가 열린다(<code>Data/stages.json</code>). 코인은 그 판의 코인 × 100% / 150% / 200%(<code>reward.json</code> <code>setCoinPct</code>, 내림). 봇 20판(C4 뒤): 어려움 = 육성 없음 0승 · 전 캐릭터 레벨 10·각성 1 에서 10승, 정예 = 레벨 10·각성 1 에서 1승 · 레벨 20·각성 2 에서 11승. 단계 수와 배율은 사람 플레이로 다시 본다\n</li>\n<li>종족 시너지(같은 종족을 여럿 두면 보너스)를 넣을지 — 지금은 넣지 않는다\n</li>\n<li>협동에서 미션을 «전원 공통 달성» 으로 바꿀지 — 지금은 각자 진행\n</li>\n<li>무한 모드\n</li></ul>",
-"at": "2026-11-17 10:16",
-"branch": "cd14",
+"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-17(CD-0023 · 결정 0054: §12-1 판 안 강화를 종족에서 단계로 — «단계 강화», §12-2 넷째 줄) · 2026-11-17(CD-0015 · 결정 0049: §12-2 영웅 레벨·강화 반영, §12-3 각성·특성 폐지) · 2026-11-16(CD-0007: §12 강화·육성 반영·특성, 웨이브 곡선 재조정) · 상태: 구조 확정, <strong>수치는 초안</strong>. «초안 · 사용자 확인 대기» 표시는 대표가 사용자 확인 없이 정한 것(결정 0033~0036). 숫자의 정본은 <code>Data/*.json</code> 이고 여기에는 뜻만 적는다.\n</li>\n<li>규칙마다 «왜» 와 «망가지는 길» 을 한 줄씩 적었다.\n</li></ul>\n<h3>1. 영역과 맵 규격 — 자유 배치 (CD-0016 · 결정 0049 15)</h3>\n<ul>\n<li><strong>맵은 캔버스 위에 그린다.</strong> 캔버스는 9×13칸이다(<code>Data/maps.json</code> 의 <code>canvas</code>). 좌표는 캔버스 왼쪽 위가 (0,0)이고 칸의 1/100 단위다. 그리드·길·비행 길은 모두 캔버스 안에 있다.\n</li>\n<li>플레이어마다 자기 <strong>영역</strong>이 있다(L12). 영역은 <strong>맵을 만들 때 정한 그리드</strong>다 — <code>maps.json</code> 배치(<code>layouts</code>)의 <code>fields[]</code> 하나가 한 사람 몫이고 왼쪽 위 <code>origin</code> 과 크기 <code>cols</code>×<code>rows</code> 로 정한다. 칸 번호는 «행 × cols + 열».\n</li>\n<li><strong>길 칸에는 놓을 수 없고, 그리드의 나머지 칸에는 어디든 놓을 수 있다.</strong> 길 칸 = 그 배치의 땅 길(<code>paths</code>, 모든 사람의 길)의 토막이 칸 중심을 지나는 칸. Core 가 길에서 계산한다(칸 표를 따로 두지 않는다 — 길을 고치면 막힌 칸이 저절로 따라온다). 비행 길은 칸을 막지 않는다. 땅 길은 칸 중심(…50)을 잇는 가로·세로 토막이다.\n</li>\n<li>한 사람이 <strong>동시에 둘 수 있는 영웅 수에 상한</strong>이 있다(<code>economy.json</code> <code>maxUnits</code>, 초안 20 — 기획팀 초안 · 사용자 확인 대기). 상한이면 소환할 수 없고, 합성·판매로 수가 줄면 다시 할 수 있다. 이동(빈칸으로·자리 바꾸기)은 수를 바꾸지 않으니 막지 않는다.\n</li>\n<li>영웅은 칸 하나에 하나 선다. 끌어서 그리드 안의 놓을 수 있는 빈칸으로 옮기거나 다른 영웅과 자리를 바꿀 수 있다.\n</li>\n<li>지금 두 맵(1인 배치) 모두 <strong>그리드 = 캔버스 전체(9×13 = 117칸)</strong>: <code>gate_01</code> 은 길 칸 29 · 놓는 칸 88, <code>gate_02</code> 는 길 칸 30 · 놓는 칸 87(그중 길 바로 옆 49). 숫자는 <code>tools/validate_data.py</code> 가 센다.\n</li>\n<li><code>gate_01</code> «숲길 관문»: 균열(위 오른쪽)에서 위쪽·왼쪽을 돌아 가운데를 가로지르고 오른쪽으로 내려가 관문(아래 왼쪽)에서 끝난다(약 28칸). 비행 길은 같은 시작·끝을 잇는 짧은 길이다.\n</li>\n<li><code>gate_02</code> «바윗골 관문»(결정 0043 초안 · 사용자 확인 대기): 균열(왼쪽 위)에서 위쪽을 ㄹ자로 꺾어 내려와 왼쪽·아래·오른쪽을 돌아 관문(오른쪽 위)에서 끝난다(29칸). 맵 2 의 보통은 맵 1 보통을 한 번 이기면 열린다(<code>Data/stages.json</code> 의 <code>map</code>·<code>after</code>).\n</li>\n<li><strong>검사</strong>(<code>tools/validate_data.py</code>, 맵·배치마다): 그리드가 캔버스 안 · 한 배치의 그리드끼리 겹치지 않음 · 그리드 안에 길 칸이 있음 · 놓는 칸 ≥ <code>maxUnits</code> · 길 칸 바로 옆(상하좌우)의 놓는 칸 ≥ <code>maxUnits</code> · 협동 배치에서 사람마다 놓는 칸 수 차이 10% 이하 · 땅 길은 칸 중심을 잇는 가로·세로 토막 · 비행 길은 같은 시작·끝으로 더 짧게 · 둘째 맵의 길 길이는 첫 맵의 ±15%.\n</li>\n<li>옛 규칙(지움): «영역 4×5 = 20칸, 세 면이 길에 닿고 길은 영역을 가로지르지 않는다»(CD-0005 ~ CD-0010).\n</li>\n<li>왜: 사용자 결정 «특정 영역이 아니라 맵을 만들 때 그리드를 정해 두고, 몬스터가 다니는 길 말고는 어디든 놓게». 길 양쪽·모퉁이·비행 지름길 옆이 모두 자리가 되어 «어디에 세울까» 가 커진다. 그리드를 맵 데이터로 두면 맵마다 모양을 바꿀 수 있고, 협동 배치는 그리드를 겹치지 않게 나눠 L12(각자 영역)를 지킨다.\n</li>\n<li>왜 영웅 수 상한인가: 칸이 88 이 되자 봇 판에서 판의 힘과 누르는 횟수가 칸 수를 따라 폭주했다 — 고정 비용 10 에서 상한 없이 32칸이면 봇 20/20 승·한 판 소환 258번, 그리드 전체면 소환 476번(옛 판 42~52번). 상한 20 이면 옛 20칸 판과 같은 힘(봇 승 10·12 / 20)을 지키면서 어디에 세울지는 자유다. 상한은 그리드 크기와 따로라서 맵·협동 배치를 바꿔도 판의 힘이 같다.\n</li>\n<li>망가지는 길: ① 길에서 먼 칸은 «죽은 칸» 이다 — 칸이 넉넉하니 죽은 칸이 있어도 된다. 대신 길 바로 옆 칸이 상한 이상 있게 검사한다. ② 상한을 올리면 합성이 연쇄로 이어져 판이 갑자기 쉬워진다(상한 24 에서 봇 20/20) — 상한은 시뮬레이터로만 바꾼다. ③ 협동에서 캔버스 하나에 그리드를 나누면 사람당 칸이 줄어든다(2인이면 어림으로 사람당 40 안팎 — 배치를 그려 봐야 안다) — 상한 20 보다 넉넉하면 힘은 같다. 4인은 M5 에서 캔버스를 키우거나 상한을 다시 본다.\n</li></ul>\n<h3>2. 소환</h3>\n<ul>\n<li>골드를 내고 <strong>소환</strong>한다. <strong>소환할 칸을 고른다</strong>: 명령은 칸을 지정하고, 그 칸이 놓을 수 있는 빈칸이어야 한다(길 칸·찬 칸·그리드 밖은 거절). 영웅 수가 상한(<code>maxUnits</code>)이면 거절한다. 골드가 모자라면 거절한다.\n</li>\n<li>소환되는 종족은 여섯 종족 중 무작위다. 종족 확률은 같다(<strong>여섯 종족 모두</strong>가 처음부터 나온다).\n</li>\n<li><strong>단계는 1단계(일반) 90% · 2단계(고급) 10% 로 고정</strong>이다(결정 0049 3 — 사용자 결정, <code>summon.json</code> <code>stageWeights</code>). 웨이브에 따라 오르지 않는다. <strong>3·4단계(희귀·영웅)는 같은 것 3개 합성으로만</strong> 나온다. 화면에는 등급 글자를 쓰지 않는다(단계 색으로만 — 발밑 빛 고리).\n<ul>\n<li>대체: 결정 0038 의 «웨이브별 단계 확률»(0~5 웨이브 90/9.5/0.5% → 16~20 웨이브 30/43/27%)은 지웠다. 되돌리는 법은 <code>summon.json</code> 의 <code>_note</code>.\n</li></ul>\n</li>\n<li><strong>소환 비용은 고정</strong>이다(결정 0049 4 — 사용자 결정). 소환할 때마다 오르지 않는다. 값은 <code>economy.json</code> <code>summonCostBase</code>(초안 10, 옛 첫 소환 값 그대로), <code>summonCostStep</code> 은 0 이어야 한다(검사).\n</li>\n<li>뽑는 횟수·순서(종족 → 단계)는 그대로다.\n</li>\n<li>왜: 무엇이 나올지 본 뒤에 판단하는 «결정 전 랜덤» 이다. 자리를 고르는 판단은 사람 몫이고, 운은 «무엇이 나오나» 에만 둔다. 사용자는 «소환할수록 비싸지는» 압박을 원하지 않았다.\n</li>\n<li>망가지는 길: ① 한 종족만 계속 안 나오는 불운 → 연속 불운 보정은 M2 에서 정한다. ② <strong>고정 비용이면 «팔고 다시 뽑기»(몰아 하기)가 싸다</strong> — 늦은 판에는 골드가 넉넉해(봇 한 판 약 4,000~7,000) 판 사람이 원하는 종족만 남길 수 있다. 몰아 하는 도구 봇(<code>FocusBot</code>)은 보통 18/20 승, 어려움 15~17/20 승(육성 없음) — 숙련 플레이에는 판이 쉽다(§4, §13). ③ 화면에서 칸을 잘못 눌러 엉뚱한 곳에 서는 사고는 «칸 선택 → 한 번 더 눌러 확정» 으로 막는다(화면의 몫).\n</li></ul>\n<h3>3. 합성(진화)</h3>\n<ul>\n<li><strong>같은 종족 · 같은 단계 셋</strong>이 영역에 있으면 합칠 수 있다. 위치는 상관없다.\n</li>\n<li>합치면 <strong>그 종족의 다음 단계 하나</strong>가 된다. 결과는 정해져 있다(실패 없음, 무작위 없음).\n</li>\n<li>새 캐릭터는 고른 캐릭터의 칸에 서고 나머지 두 칸은 빈다.\n</li>\n<li>4단계가 끝이다. 4단계는 합칠 수 없다.\n</li>\n<li>왜: 결과가 정해져 있어야 계획을 세울 수 있고, 운은 소환에만 둔다.\n</li>\n<li>망가지는 길: 4단계 하나에 1단계 27개가 든다. 너무 멀면 아무도 못 본다. → 소환에서 2·3단계가 나오는 확률과 판 길이로 맞춘다.\n<ul>\n<li>CD-0016 측정(결정 0049 — 90/10 고정 · 비용 고정 · 그리드 전체 · 상한 20, 봇 20판 시드 1~20): 4단계는 <code>SimpleBot</code>(팔지 않는 봇) <strong>0판</strong>, <code>FocusBot</code>(몰아 하는 봇) 맵 1 <strong>18판</strong>·맵 2 <strong>17판</strong>, 처음 만드는 웨이브 중앙값 7(가장 이른 것 5~6). 4단계는 «몰아 하면 판 중반에 보는 보상» 이 됐다. 0038 의 목표 «웨이브 8 전에는 안 나온다» 는 고정 비용에서 맞출 수 없어 «몰아 하는 봇이 20판 중 12판 이상 · 중앙값 6~12» 로 바꿨다(기획팀 초안 · 사용자 확인 대기).\n</li>\n<li>CD-0007 C4 측정(옛): 한 확률표(90/9.5/0.5%)일 때 봇 20판에서 4단계가 <code>SimpleBot</code> 0판·<code>FocusBot</code>(몰아 합성하는 도구 봇) 3판이었다 — 죽은 콘텐츠. 웨이브별 확률(위 표)로 바꿔 4단계가 판 중후반(처음 만드는 웨이브 8 이상, 몰아 하면 중앙값 13)에 나오게 했다. 합성 재료 수(셋)·칸 수(20)는 사용자 확정 규칙이라 건드리지 않았다. 숫자는 <code>docs/decisions/0038</code>.\n</li></ul>\n</li></ul>\n<h3>4. 판매</h3>\n<ul>\n<li>캐릭터를 팔면 <strong>들인 골드의 80%</strong> 를 돌려받고 칸이 빈다(환급 비율은 <code>Data/economy.json</code> 의 <code>sellRefundPct</code>).\n</li>\n<li>왜: 막힌 판을 풀 출구. 80% 는 «잘못 뽑아도 크게 손해 보지 않는다» 는 느낌을 위해서다.\n</li>\n<li>망가지는 길: 환급이 높으면 «마음에 안 드는 종족을 팔고 다시 뽑기» 가 최선이 된다(결정 0015 가 알고 가는 위험). 옛 제동이던 «소환할 때마다 오르는 비용» 은 결정 0049 로 없어졌다. CD-0016 측정: 상한 20 · 비용 10 에서 환급을 80% → 50% → 30% 로 내려도 몰아 하는 봇의 승(18/20)·소환 수(한 판 약 270번)·4단계 시점이 <strong>바뀌지 않았다</strong> — 늦은 판 골드가 넉넉해 환급이 제동이 못 된다. 그래서 환급은 사용자 결정(80%)대로 두고, 숙련 플레이의 난이도는 «어려움·정예» 쪽에서 다시 맞춘다(§13, 확인 대기).\n</li></ul>\n<h3>5. 싸움</h3>\n<ul>\n<li>캐릭터는 사거리 안의 몬스터를 스스로 공격한다(결정 0044). 캐릭터는 <strong>고정 대상</strong> 하나를 갖고, 공격할 차례에 고정 대상이 살아 있고 사거리 안이면 그대로 친다. 고정 대상이 죽었거나 도착했거나 사거리 밖으로 나갔거나 아직 없으면 <strong>사거리 안의 살아 있는 몬스터 중 캐릭터에서 거리(제곱 정수)가 가장 먼 것</strong>을 새로 골라 고정한다(같으면 id 가 작은 것). 쿨다운 중에는 대상을 다시 확인하지 않는다. <code>double_shot</code> 의 둘째 대상은 고정 대상을 뺀 사거리 안에서 가장 먼 것(없으면 같은 대상)이고 고정하지 않는다. 관통·범위·여파는 첫 대상 기준 그대로다.\n</li>\n<li>종족마다 싸우는 방식이 다르다(§7).\n</li>\n<li>몬스터는 <strong>방어</strong>를 가질 수 있다. 방어는 한 번 맞을 때마다 피해를 일정량 깎는다(최소 1).\n</li>\n<li>시간은 고정 틱(초안 초당 20틱)으로 흐르고 계산은 정수다.\n</li></ul>\n<h3>6. 웨이브·목숨·승패</h3>\n<ul>\n<li><strong>웨이브는 시간으로 이어진다.</strong> 판이 시작되고 <code>firstWaveDelayTicks</code> 뒤에 웨이브 1이 나온다. 한 웨이브의 <strong>마지막 몬스터가 나온 뒤</strong> <code>waveGapTicks</code> 가 지나면 다음 웨이브가 나온다. 앞 웨이브를 다 잡았는지와 무관하고, 웨이브끼리 나오는 시간은 겹치지 않는다.\n</li>\n<li><strong>다음 웨이브 예고는 없다</strong>(결정 0015). 새 종류가 나와도 미리 보여 주지 않는다. 화면은 다음 웨이브 5초 전부터 균열 위에 남은 초만 보여 준다.\n</li>\n<li>몬스터는 자기 웨이브 번호를 안다. <strong>웨이브 통과 보상은 그 웨이브의 몬스터가 모두 사라졌을 때</strong>(처치 또는 누출) 준다.\n</li>\n<li>몬스터가 길 끝에 닿으면 <strong>목숨</strong>이 깎인다(보통 1, 보스는 더 많이). <strong>목숨은 10</strong> 이다.\n</li>\n<li>목숨이 0이 되면 <strong>패배</strong>. 그 판의 웨이브 세트의 <strong>마지막 웨이브</strong>(웨이브 수는 세트마다 <code>Data/waves.json</code>, 지금은 모두 20)가 다 나왔고 웨이브 몬스터가 0이면 <strong>승리</strong>. 웨이브를 다 막아야 승리다(결정 0048 — 사용자 결정).\n</li>\n<li>지거나 중간에 끝나도 <strong>막은 웨이브만큼</strong> 뽑기 코인을 받는다(진행 단계별 차등, 승리 보너스는 다 막았을 때만 — <code>13-보상-육성-꾸밈.md</code> §3, 결정 0036·0048).\n</li>\n<li>10·20 웨이브에 보스가 나온다(보스 1마리 + 졸개). 첫 세트 <code>gate_01_std</code> 는 20웨이브, 몬스터는 그림자 무리 4종이다(<code>12-콘텐츠목록.md</code> §2).\n</li>\n<li>골드: 처치 보상 + 웨이브 통과 보상 + 미션 보상(§10) + 현상금 보상(§11). 놓친 몬스터는 처치 보상을 주지 않는다. 골드는 소환과 강화(§12)에 쓴다. 현상금 몬스터를 놓쳐도 목숨이 준다(§11).\n</li>\n<li><strong>웨이브 곡선</strong>(<code>Data/waves.json</code> <code>gate_01_std</code> 의 <code>hpPct</code>, 결정 0036·0037 · 초안 · 사용자 확인 대기): <strong>웨이브마다 내려가지 않는다.</strong> 초반 완만(1~5: 100→175, 웨이브당 약 +15%) → 중반 꾸준(6~15: 392→1387, 웨이브당 약 +110, 10 보스 웨이브 850 이 첫 고비) → 끝 평탄(16~20: 1412→1517, 웨이브당 +26). CD-0007 C4 에서 소환 단계 확률이 웨이브와 함께 오르게 되어(§2) 6웨이브부터 약 1.38배로 올렸다. 20웨이브는 보스 1 + 졸개 4(옛 18) 로 보스에 집중시켰다.\n<ul>\n<li>왜 끝을 가파르게 하지 않았나: 웨이브가 시간으로 이어져 16~19 를 가파르게 올리면 못 잡은 몬스터가 쌓인 채 20 이 시작되고, 봇 판 패배가 거의 다 «20» 에 몰렸다(시험: 16~19 를 웨이브당 +120~140 → 패배 10 중 9 가 20). 중반을 꾸준히 올려 압력을 중반에 두고, 끝은 평탄하게 했다. 20웨이브 졸개를 줄인 것은 보스(목숨 5)가 마지막 한 마리로 두드러지게 하면서 그 웨이브가 혼자 판을 가르지 않게 하려는 것이다.\n</li>\n<li>봇 20판(강화를 사는 봇, 시드 1~20, 육성 없음): <strong>승 10 / 20</strong>, 패배 웨이브 8·12·14·15×2·17×2·18×2·20(한 웨이브에 패배의 절반을 넘지 않음 — 테스트가 고정). C1 의 곡선(16 에서 한 번 내려가던 것)은 CD-0007 C3 에서 이것으로 바꿨다.\n</li>\n<li><strong>난이도 단계</strong>(결정 0037): 같은 맵·같은 구성에 <code>hpPct</code> 만 키운 세트 둘 — <code>gate_01_hard</code>(«어려움», 보통의 약 1.58배)·<code>gate_01_elite</code>(«정예», 약 2.53배). 목록과 열림 규칙은 §13 아래 줄과 <code>Data/stages.json</code>.\n</li>\n<li><strong>CD-0016 재측정</strong>(결정 0049 3·4·14·15: 90/10 고정 · 비용 10 고정 · 그리드 전체 + 상한 20 · 현상금 놓치면 목숨 1·1·2·2·3·3, 봇 20판 시드 1~20, 육성 없음, 기획팀 시제품으로 잼): <code>gate_01_std</code> 곡선은 그대로 <strong>승 10/20</strong>(패배 웨이브 13·14×2·15·16×2·17×2·19·20), <code>gate_02_std</code> 는 6웨이브부터 ×118% 로 올려 <strong>승 12/20</strong>(그대로면 13). 이긴 판 길이 약 10.1분(그대로). 정예 <code>gate_01_elite</code> 6웨이브부터 ×86%, <code>gate_02_elite</code> ×104% — 표는 <code>studio/orders/CD-0016-…/10-spec.md</code> «측정».\n</li>\n<li><strong>«사람 플레이 뒤 재조정»</strong>: 이 곡선은 봇 판으로만 맞췄다.\n</li></ul>\n</li>\n<li>왜: 시간이 흐르면 «지금 합칠까, 한 번 더 뽑을까» 를 서둘러 정해야 한다. 한 번 막히면 쉬어 가는 칸이 없는 대신 «못 잡은 것이 쌓인다» 는 압박이 판단 지점을 만든다.\n</li>\n<li>망가지는 길: ① 일부러 놓치는 게 이득이면 안 된다. 놓치면 목숨과 골드를 둘 다 잃는다. ② 못 잡은 몬스터가 눈덩이로 쌓이면 한 번 밀린 판은 되돌릴 수 없다 → <code>waveGapTicks</code> 와 웨이브 체력은 봇 판으로 맞춘다(승률 30~70% 목표). ③ 통과 보상이 «다 사라진 뒤» 라서 밀린 웨이브의 보상은 늦게 온다 — 의도다.\n</li></ul>\n<h3>7. 종족의 역할 (진화 계열은 종족당 하나)</h3>\n<div class=tw><table><thead><tr><th>종족</th><th>싸우는 방식</th><th>잘하는 상대</th><th>약한 점</th></tr></thead><tbody><tr><td>인간</td><td>짧은 사거리, 묵직한 한 방(단일)</td><td>중장, 보스</td><td>무리</td></tr><tr><td>엘프</td><td>긴 사거리, 빠른 연사(단일)</td><td>질주, 비행</td><td>중장(방어에 깎임)</td></tr><tr><td>드워프</td><td>느린 포격, 범위 피해</td><td>무리</td><td>질주(느려서 놓침)</td></tr><tr><td>수인</td><td>아주 짧은 사거리, 매우 빠른 연타와 치명타</td><td>일반, 재생</td><td>사거리</td></tr><tr><td>정령</td><td>약한 피해, 맞은 몬스터를 느리게 함</td><td>전부(아군을 돕는다)</td><td>혼자서는 못 막음</td></tr><tr><td>용족</td><td>일직선 관통, 여파(맞은 뒤 잠시 이어지는 방어 무시 피해)</td><td>중장, 줄지어 오는 적</td><td>흩어진 적</td></tr></tbody></table></div>\n<ul>\n<li>특정 종족이 없으면 못 깨는 «절대 상성» 은 두지 않는다. 운으로 그 종족이 안 나온 판이 억울해지기 때문이다. 상성은 «더 잘 듣는다» 정도다.\n</li></ul>\n<h3>8. 몬스터 유형</h3>\n<div class=tw><table><thead><tr><th>유형</th><th>특징</th><th>규칙 (<code>Data/monsters.json</code> <code>types</code>)</th></tr></thead><tbody><tr><td>일반</td><td>기준</td><td>체력·속도 100%</td></tr><tr><td>질주</td><td>빠르고 약하다</td><td>체력 50% · 속도 180%</td></tr><tr><td>중장</td><td>느리고 단단하며 방어가 있다</td><td>체력 220% · 속도 70% · 방어 4</td></tr><tr><td>무리</td><td>작고 약한 것이 많이 온다</td><td>체력 35% · 속도 110% · <strong>4마리씩 묶여 4틱 간격으로 나오고 묶음 사이는 웨이브 칸의 <code>spacingTicks</code></strong>(<code>burst</code>·<code>burstGapTicks</code>) · 처치 골드 50%(<code>bountyPct</code>, 2 → 1)</td></tr><tr><td>비행</td><td>길의 굽이를 건너뛰어 더 짧은 길로 온다</td><td>체력 70% · 속도 110% · 맵의 <code>flyPaths</code>(길마다 하나, 지름길)를 걷는다. 공격 사거리 규칙은 같다(몬스터 중심이 사거리 안) — 그래서 지름길에 가까운 칸이 비행을 잘 잡는다</td></tr><tr><td>재생</td><td>체력이 조금씩 찬다</td><td>체력 120% · 속도 90% · 초당 최대 체력의 2% · <strong>피해를 받으면 20틱(1초) 쉬고 다시 찬다</strong>(<code>regenDelayTicks</code>) · 멈춤 동안에도 차지 않는다</td></tr><tr><td>보스</td><td>체력이 매우 많고 느리며, 놓치면 목숨이 많이 깎인다</td><td>체력 1200% · 속도 60% · 방어 2 · 목숨 5</td></tr></tbody></table></div>\n<ul>\n<li>CD-0009 2차(결정 0042 초안 · 사용자 확인 대기): 무리·비행·재생이 그림자 무리에 생겼다(<code>12-콘텐츠목록.md</code> §2-1). 세 난이도 세트 모두 7유형이 다 나온다 — 무리 4웨이브~(어려움·정예는 6웨이브~), 비행 12웨이브~, 재생 13웨이브~. 보통 세트는 9웨이브부터 hpPct ×108%. 어려움·정예는 1~5웨이브를 낮춰(×80%·×72%) 막 열린 단계가 4웨이브의 «벽» 이 되지 않게 했다 — 두 세트도 «한 웨이브 패배 ≤ 절반» 을 테스트가 고정한다.\n</li>\n<li>화면 표시(그림 이름표·크기·색조·떠 있는 높이)는 몬스터의 <code>view</code> 칸이다. 규칙은 읽지 않는다.\n</li></ul>\n<h3>9. 협동 (n = 2~4)</h3>\n<ul>\n<li>영역: 플레이어마다 따로(맵 배치의 <code>fields[]</code> 하나씩, 겹치지 않는다 — §1). 남의 영역에는 소환·이동·합성할 수 없다. 영웅 수 상한(<code>maxUnits</code>)은 사람마다 따로 센다.\n</li>\n<li>몬스터: 모두가 공유한다. 누구의 캐릭터든 사거리에 들어온 몬스터를 친다.\n</li>\n<li>스폰: <strong>n곳</strong>에서 나오고, 웨이브의 몬스터 수는 <strong>n배</strong>다(각 스폰 지점이 한 사람 몫을 내보낸다).\n</li>\n<li>길: 스폰 지점마다 길이 다르지만 모든 길은 같은 끝(관문)으로 모인다. 각 길은 모든 플레이어의 영역 곁을 지난다.\n</li>\n<li>목숨: <strong>하나를 같이 쓴다.</strong>\n</li>\n<li>골드: 각자 따로 가진다. 처치 보상과 웨이브 보상은 <strong>전원이 똑같이</strong> 받는다(막타 경쟁을 없앤다).\n</li>\n<li>육성: 각자의 캐릭터 레벨·각성은 자기 캐릭터에만 적용된다.\n</li>\n<li>싱글은 n = 1 인 협동이다(같은 규칙, 같은 코드).\n</li>\n<li>판 보상: 마지막 웨이브까지 못 가도 <strong>팀이 막은 웨이브만큼 전원이 똑같이</strong> 받는다(결정 0048 — 사용자 결정). 판이 어떻게 끝나든(패배·방장 이탈·끊김) 그때까지 막은 웨이브로 정산하고 0 으로 끝내지 않는다. 한 사람만 나가면 그 사람은 나간 시점까지로 정산하고, 남은 사람은 이어 한다(대표 초안 · 사용자 확인 대기).\n</li>\n<li>망가지는 길: 한 사람이 끊기면 몬스터는 n배인데 손이 모자란다. → 끊긴 사람의 캐릭터는 그대로 싸우게 두고, 다음 웨이브부터 몬스터 배수를 남은 인원으로 줄인다(M5 에서 확정).\n</li></ul>\n<h3>10. 미션</h3>\n<ul>\n<li>판이 시작될 때 미션 풀(<code>Data/missions.json</code>, 24개)에서 <strong>8개</strong>를 뽑아 건다. 뽑는 난수는 전용 스트림이고, <strong>같은 종류는 하나만</strong> 뽑는다. 처음부터 전부 보인다.\n</li>\n<li>종류는 12가지이고 종류마다 난이도가 둘이다(풀 24개). 같은 종류의 쉬운 것과 어려운 것은 같이 뽑히지 않는다.\n</li>\n<li>조건을 채우면 <strong>그 틱에 보상 골드가 바로 들어오고</strong> «미션 달성» 이벤트가 난다. 한 번만 준다(받기 버튼은 없다).\n</li>\n<li>협동에서도 목록은 같고 <strong>진행은 플레이어마다 따로</strong> 센다. 보상은 그 사람이 받는다.\n</li>\n<li>보상은 30~120골드(초안). 판이 끝나면 사라진다. 판 밖 보상은 없다.\n</li></ul>\n<div class=tw><table><thead><tr><th>종류</th><th>뜻</th></tr></thead><tbody><tr><td>처치</td><td>몬스터 N마리를 내 캐릭터로 처치</td></tr><tr><td>합성</td><td>합성 N번</td></tr><tr><td>단계 도달</td><td>S단계 캐릭터 만들기</td></tr><tr><td>종족 모으기</td><td>서로 다른 종족 N종을 동시에</td></tr><tr><td>한 종족 모으기</td><td>같은 종족 N기를 동시에</td></tr><tr><td>소환</td><td>소환 N번</td></tr><tr><td>판매</td><td>판매 N번</td></tr><tr><td>완벽 방어</td><td>하나도 안 놓친 웨이브 N번</td></tr><tr><td>웨이브 도달</td><td>웨이브 N 시작</td></tr><tr><td>현상금 사냥</td><td>현상금 N번 잡기</td></tr><tr><td>골드 보유</td><td>골드 N 이상 보유</td></tr><tr><td>캐릭터 수</td><td>캐릭터 N기를 동시에</td></tr></tbody></table></div>\n<ul>\n<li>왜: 소환·합성 말고도 «이번 판에는 무엇을 노릴까» 를 고를 거리를 준다. 종류가 다양해서 한 가지 플레이만으로는 8개를 다 못 채운다.\n</li>\n<li>망가지는 길: ① 미션 골드가 소환을 앞당겨 웨이브 체력을 밀어 올린다 → 웨이브 수치는 미션 보상을 넣은 봇 판으로 맞춘다. ② 서로 부딪히는 미션(판매 5번 ↔ 캐릭터 18기 동시에)이 한 판에 같이 걸리면 억울하다 → 종류가 달라도 같이 뽑힐 수 있으니, 전부 채우는 것을 목표로 두지 않고 «채울수록 이득» 으로만 둔다. ③ 「골드 보유」 「캐릭터 수」 처럼 쌓아 두면 채우는 미션이 소환을 미루게 하지 않도록 보상은 작게 둔다.\n</li></ul>\n<h3>11. 현상금</h3>\n<ul>\n<li><strong>현상금 몬스터</strong>는 6종이다(<code>Data/bounty.json</code>: 이름, 체력, 속도 배율, 방어, 보상 골드, 열리는 웨이브, 그림 이름표, 특징 한 줄). 센 것은 늦은 웨이브부터 열린다.\n</li>\n<li>부르기 명령은 «몇 번째 현상금» 을 지정한다. 아래 경우에는 <strong>거절</strong>한다: 아직 열리지 않았다 / 쿨타임 중이다 / 이미 현상금 몬스터가 있다 / 판이 끝났다.\n</li>\n<li>부르면 균열(길 0번의 시작)에서 현상금 몬스터 하나가 나오고 <strong>전체 쿨타임</strong>(<code>bountyCooldownTicks</code>)이 돈다. 비용은 없다. 쿨타임은 6종이 같이 쓴다.\n</li>\n<li>현상금 몬스터를 잡으면 <strong>보상 골드를 전원 똑같이</strong> 받는다.\n</li>\n<li><strong>관문에 닿으면 사라지고 목숨이 준다</strong>(결정 0049 14 — 사용자 결정). 줄어드는 양은 현상금마다 <code>bounty.json</code> 의 <code>leakLife</code>(기획팀 초안 · 사용자 확인 대기: 약한 둘 1 · 가운데 둘 2 · 센 둘 3 — 보스 5 보다 작게). 보상은 없다. 목숨이 0 이 되면 패배다. 웨이브의 통과 판정(«그 웨이브 몬스터가 다 사라짐»)에는 들어가지 않는다. 놓친 것은 웨이브의 «누출» 수에 세지 않고 «달아난 현상금» 으로 센다(결과·미션 «완벽 방어» 에 영향 없음).\n</li>\n<li>현상금 몬스터의 체력은 웨이브 배율을 받지 않는다(<code>bounty.json</code> 의 값 그대로).\n</li>\n<li>왜: 판 안에서 «지금 센 것을 불러 큰 골드를 노릴까, 화력을 아낄까» 를 고르게 한다. 길 끝까지가 곧 제한 시간이다.\n</li>\n<li>망가지는 길: ① 현상금 몬스터가 맨 앞에 서면 아군의 화력을 끌어가 웨이브를 놓칠 수 있다 — 이것이 대가다. 대가가 약하면 «열리자마자 계속 부르기» 가 최선이 된다 → 쿨타임과 보상으로 맞춘다. ② 놓치면 목숨이 주니 «못 잡을 것을 부르기» 가 진짜 위험이 됐다 — 대신 판이 어려워진다(CD-0016 측정: 다른 것은 같고 목숨만 깎게 하면 봇 승 10 → 8 / 20, 맵 2 9 → 8). 봇은 «예상 피해 ≥ 체력 150%» 일 때만 불러 20판에 10~14번 놓쳤다(맵 1 221번 중 14, 맵 2 222번 중 10). ③ 판 후반의 큰 보상이 승부를 한 번에 뒤집지 않게 보상은 소환 비용의 수 배 선에 둔다 — 비용이 10 으로 고정돼 늦은 현상금(240~500)은 소환 24~50번 값이다.\n</li></ul>\n<h3>12. 단계 강화 · 영웅 육성 반영</h3>\n<h4>12-1. 단계 강화 (결정 0054 — 묶는 단위는 사용자 결정 · 수치는 기획팀 초안 · 사용자 확인 대기, 끌 수 있다)</h4>\n<ul>\n<li><strong>영웅 단계마다 강화 수</strong>(0 ~ 그 단계의 <code>maxLevel</code>)가 있다: 1단계(일반)·2단계(고급)·3단계(희귀)·4단계(영웅) 네 갈래. 골드를 내고 한 단계를 한 번 올리면 <strong>그 플레이어의 그 단계 영웅 전부</strong>(종족 무관, 나중에 놓이는 영웅도)의 피해가 강화 수마다 그 단계의 <code>damagePctPerLevel</code> % 오른다(더하기, 곱하기 아님). 새 재화는 없다.\n</li>\n<li>비용: 그 단계의 강화 수 n → n+1 = 그 단계 줄의 <code>costBase</code> + <code>costStep</code> × n 골드. <strong>높은 단계일수록 비싸다</strong>(첫 값도 오르는 폭도 — <code>tools/validate_data.py</code> 가 막는다). 숫자의 정본은 <code>Data/upgrade.json</code> 의 <code>stages</code>(단계마다 한 줄).\n</li>\n<li>이름: 판 안 것은 <strong>«단계 강화»</strong>, 판 밖 연합의 결정으로 올리는 것은 <strong>«강화 +N»</strong>(영웅 강화). 단계 강화의 횟수는 «강화 수» 라고 부른다(«단계» 와 «레벨» 은 영웅 단계·영웅 레벨이라 쓰지 않는다). 옛 이름 «종족 강화»(결정 0033 · CD-0015 확인 대기 Q3)는 더 쓰지 않는다.\n</li>\n<li>명령은 «어느 단계를 올리나»(1 ~ <code>units.json</code> 의 단계 수)를 지정한다: <code>upgrade &lt;플레이어&gt; &lt;단계&gt;</code>. <strong>거절</strong>은 아래 순서로 하나만 돌려준다: 판이 끝났다 → 없는 플레이어 → <strong>없는 단계</strong>(1 ~ 단계 수 밖) → <strong>꺼져 있다</strong>(<code>enabled</code> false) → <strong>끝</strong>(강화 수가 그 단계의 <code>maxLevel</code>) → <strong>골드가 모자라다</strong>. 아직 그 단계 영웅이 하나도 없어도 살 수 있다(미리 올려 두기).\n</li>\n<li>강화는 단계에 붙는다. 영웅을 팔거나 합쳐도 강화는 남는다. <strong>합치면 새 영웅은 새 단계의 강화를 받는다</strong> — 2단계를 많이 올려 둔 채 3단계로 합치면 그 몫은 그 영웅에게서 빠진다. 협동에서는 각자 자기 골드로 자기 영웅만 강화한다.\n</li>\n<li>화면은 «단계 4줄: 단계 표식(◆ 개수)·단계 색 · 강화 수 n/최대 · 지금 +N% · 다음 비용» 을 보여 주고 <strong>등급 글자(일반·고급·희귀·영웅)를 쓰지 않는다</strong>(결정 0049). 살 수 있는 강화가 있으면 버튼에 배지가 붙는다. <code>enabled</code> 가 false 면 버튼이 사라진다.\n</li>\n<li><strong>끄는 법</strong>: <code>Data/upgrade.json</code> 의 <code>enabled</code> 를 false 로 하면 강화 명령이 전부 거절되고 화면은 버튼을 숨긴다. 종족 단위로 되돌리는 법은 결정 0054.\n</li>\n<li>왜: 사용자 결정 «종족을 키우는 게 아니라 등급 단위로 묶는다». 강화가 종족 선택과 떨어지고, 합성으로 높은 단계를 만드는 것과 «어느 단계를 키울까» 가 맞물린다. 높은 단계를 비싸게 둔 것은, 4단계 영웅은 수가 적어도 한 명의 피해가 커서(단계 피해 1 : 3.4 : 11.5 : 40) 값이 같으면 4단계 강화가 늘 가장 이득이고 그 이득이 몰아 하는 판에만 쏠리기 때문이다.\n</li>\n<li>망가지는 길: ① 강화만 사고 소환을 안 하면 칸이 비어 막힌다 — 비용이 강화 수마다 올라 뒤로 갈수록 소환이 낫다. ② 한 번에 많은 영웅이 오르니 종족 강화보다 셀 수 있다 — 종족 강화 값을 네 단계에 그대로 옮기면(같은 표 ×4) 팔지 않는 봇이 보통 12·16/20, 어려움(육성 없음) 3·10/20 으로 목표를 넘었다. 그래서 단계당 % 를 낮추고 높은 단계를 비싸게 했다(아래 측정). ③ <strong>몰아 하기는 이것으로 막히지 않는다</strong>: 강화를 아예 꺼도 한 종족 봇은 보통 100% 이긴다(아래 측정) — 몰아 하기의 힘은 «팔고 다시 뽑기·합성» 에서 나온다(§2 ②·§4·§13). ④ 판 안 단계 강화(단계당 +10%)가 판 밖 육성(레벨 5%·강화 4%)보다 크다 — 협동에서 육성 차이가 벌어지지 않게 하는 장치다.\n</li>\n<li><strong>CD-0023 측정</strong>(기획팀 Core 사본 시제품 — 봇의 강화 고르기는 «그 단계 영웅들의 초당 피해 합 × % ÷ 비용» 이 가장 큰 단계, 육성 없음, 시드 1~210 · 1인. 원자료 <code>studio/orders/CD-0023-…/_sim/</code>):\n</li></ul>\n<div class=tw><table><thead><tr><th>세트</th><th>봇</th><th>종족 강화(지금)</th><th>단계 강화(이 초안)</th><th>강화 끔</th></tr></thead><tbody><tr><td>보통 맵 1 · 맵 2</td><td>팔지 않는 봇</td><td>63.3% · 70.5%</td><td>60.5% · 67.1%</td><td>2.4% · 6.7%</td></tr><tr><td>보통 맵 1 · 맵 2</td><td>몰아 하는 봇(FocusBot)</td><td>96.2% · 96.2%</td><td>93.8% · 96.2%</td><td>90.5% · 91.9%</td></tr><tr><td>보통 맵 1 · 맵 2</td><td>한 종족 봇(6종족 합)</td><td>100% · 100%</td><td>100% · 100%</td><td>100% · 100%</td></tr><tr><td>어려움 맵 1 · 맵 2</td><td>몰아 하는 봇</td><td>79.5% · 91.4%</td><td>71.9% · 91.4%</td><td>47.1% · 79.5%</td></tr><tr><td>어려움 맵 1 · 맵 2</td><td>한 종족 봇</td><td>96.5% · 100%</td><td>97.0% · 99.9%</td><td>95.8% · 99.0%</td></tr><tr><td>정예 맵 1 · 맵 2</td><td>몰아 하는 봇</td><td>46.2% · 76.7%</td><td>39.0% · 71.4%</td><td>18.6% · 34.3%</td></tr><tr><td>정예 맵 1 · 맵 2</td><td>한 종족 봇</td><td>73.8% · 92.5%</td><td>73.8% · 90.2%</td><td>72.6% · 87.5%</td></tr></tbody></table></div>\n<h4>12-2. 영웅 육성이 판에 반영되는 방식 (결정 0049 — CD-0015 · 수치는 초안)</h4>\n<ul>\n<li>판을 시작할 때 <strong>플레이어마다 «영웅 → 레벨·강화» 목록</strong>(loadout)을 넘긴다. 목록에는 그 사람이 <strong>가진</strong> 영웅만 들어간다. 목록에 없는 영웅(가지지 않았거나 레벨 1·+0)은 레벨 1·강화 +0 이다. <strong>판에는 보유와 무관하게 24종이 모두 나온다</strong>(소환·합성 규칙은 §2·§3).\n</li>\n<li>목록이 없는 판(또는 모두 레벨 1·+0)은 육성이 없던 때와 <strong>한 틱도 다르지 않다</strong>(재생 해시가 같다).\n</li>\n<li>소환·합성으로 영웅이 <strong>놓일 때</strong> 주인의 그 영웅 값을 받는다. 레벨이 <code>Data/heroes.json</code> <code>maxLevel</code> 을 넘거나 강화가 <code>maxEnhance</code> 를 넘는 목록은 거절한다.\n</li>\n<li><strong>피해를 곱하는 순서</strong>(매 단계 정수, 내림, 최소 1 — 테스트로 고정):\n</li></ul>\n<div class=tw><table><thead><tr><th>순서</th><th>단계</th></tr></thead><tbody><tr><td>1</td><td>그 단계의 기본 피해(<code>units.json</code>)</td></tr><tr><td>2</td><td>× (100 + <code>levelDamagePct</code> × (레벨 − 1)) / 100 — 영웅 레벨(판 밖)</td></tr><tr><td>3</td><td>× (100 + <code>enhanceDamagePct</code> × 강화) / 100 — 영웅 강화 +N(판 밖)</td></tr><tr><td>4</td><td>× (100 + 그 영웅 단계의 <code>damagePctPerLevel</code> × 그 단계의 강화 수) / 100 — 판 안 <strong>단계 강화</strong>(§12-1, 골드). 스탯 카드의 피해는 여기까지</td></tr><tr><td>5</td><td>× 치명타 배율 / 100 — 공격마다 한 번(수인의 기본 치명타)</td></tr><tr><td>6</td><td>− 방어(몬스터), 최소 1</td></tr></tbody></table></div>\n<ul>\n<li>여파(용족) 초당 피해 = 기본 × 단계별 피해 %(<code>units.json</code> <code>stageDamagePct</code>) / 100 → 2·3·4 단계를 적용.\n</li>\n<li>레벨·강화는 <strong>피해에만</strong> 곱한다(사거리·공격 간격·감속·관통은 단계 값 그대로). 협동에서는 각자 자기 목록으로 자기 영웅만 강해진다.\n</li>\n<li>왜: 사용자가 정한 두 축(중복 → 레벨 업, 연합의 결정 → 강화)을 판 안에서 가장 단순하게 보인다. 곱하는 순서를 정해 두지 않으면 같은 영웅이 화면마다 다른 피해를 보여 준다.\n</li>\n<li>망가지는 길: ① 최대 육성(레벨 10·+10)이면 피해 약 2배(145% × 140%) — 육성 없는 기본 판의 승률(§6)은 그대로이고, 육성한 판이 쉬워지는 정도는 봇으로 참고 측정한다. ② 판 안 단계 강화(강화 수마다 +10%, 결정 0054 초안)가 판 밖 육성(5%·4%)보다 크다 — 협동에서 육성 차이가 벌어지지 않게 하는 장치다.\n</li></ul>\n<h4>12-3. 각성·특성 — 폐지 (결정 0049 5)</h4>\n<ul>\n<li>옛 결정 0034 의 각성과 특성 24개(멈춤·여진·튕김·두 번 벰·곁의 아군·가속 등)는 <strong>없앴다</strong>. 판 안에 특성 규칙이 남지 않는다(CD-0015 core 가 코드와 함께 지운다). 용족의 기본 «여파»·정령의 기본 «감속»·드워프의 기본 «범위»·수인의 기본 «치명타»·용족의 «관통» 은 특성이 아니라 종족의 기본 공격이라 그대로다(<code>units.json</code>).\n</li>\n<li>옛 내용이 필요하면 git 기록(이 파일의 2026-11-16 판)과 결정 0034 를 본다.\n</li></ul>\n<h3>13. 아직 정하지 않은 것</h3>\n<ul>\n<li><strong>숙련 플레이(몰아 하기)의 난이도</strong>(CD-0016): 고정 비용에서 «팔고 다시 뽑기» 로 몰아 하는 봇은 육성 없이 보통 18/20, 어려움 15~17/20, 정예 11~15/20 승이다(팔지 않는 봇은 보통 10·12, 어려움 0·3). 어려움·정예를 숙련 기준으로 다시 맞출지는 CD-0015 의 육성(레벨·강화)이 판에 들어온 뒤 정한다.\n</li>\n<li><strong>영웅 수 상한 20</strong>과 <strong>현상금 놓치면 목숨 1·1·2·2·3·3</strong>(CD-0016 기획팀 초안 · 사용자 확인 대기).\n</li>\n<li>협동 배치(2~4인)의 그리드 나누기 — 사람당 놓는 칸이 상한보다 넉넉해야 판의 힘이 1인과 같다(§1). 4인은 캔버스 9×13 에 다 안 들어갈 수 있다(M5).\n</li></ul>\n<ul>\n<li>연속 불운 보정의 방식과 수치(M2)\n</li>\n<li>웨이브 간격(<code>waveGapTicks</code>)·미션 보상·현상금 수치 — 초안이고 봇 판으로 맞췄다(웨이브 체력은 §6 에 현재 곡선), 사람 플레이로 다시 본다\n</li>\n<li>보스 주기 — <code>gate_01_std</code> 는 20웨이브·10웨이브마다 보스. 웨이브 수는 세트마다 데이터로 정하고, 승리는 그 세트를 다 막는 것이다(결정 0048). 20보다 긴 세트를 만들지는 정하지 않았다\n</li>\n<li>단계 강화(§12-1)의 최대 강화 수·비용·효과 — 기획팀 초안(결정 0054, CD-0023 봇 판으로 맞춤)이고 사람 플레이로 다시 본다. 협동에서 강화를 어떻게 나눌지(지금은 각자)\n</li>\n<li><strong>몰아 하기(한 종족 봇 보통 100%)</strong> — 강화를 종족에서 단계로 바꿔도, 강화를 꺼도 그대로다(§12-1 측정). 대책(팔기·다시 뽑기·숙련 난이도)은 따로 정한다(CD-0023 확인 대기)\n</li>\n<li>특성 24개의 수치와 체감(§12-3, 결정 0034) — 봇으로 종족별 승률을 재지 않았고 사람 플레이도 아직\n</li>\n<li>육성이 충분할 때(전 캐릭터 레벨 30·각성 4) 봇이 20/20 승 — 성장 상한의 난이도를 판 밖 비용과 함께 정해야 한다\n</li>\n<li>웨이브 곡선(§6, 결정 0036·0037 — 끝이 평탄)과 보상 단계 수치(<code>13</code> §3) — 사람 플레이 뒤 재조정\n</li>\n<li><strong>난이도 단계</strong>(결정 0037 — 대표 초안 · 사용자 확인 대기): «보통»(<code>gate_01_std</code>) → «어려움»(<code>gate_01_hard</code>) → «정예»(<code>gate_01_elite</code>). 앞 단계를 한 번 이기면 다음 단계가 열린다(<code>Data/stages.json</code>). 코인은 그 판의 코인 × 100% / 150% / 200%(<code>reward.json</code> <code>setCoinPct</code>, 내림). 봇 20판(C4 뒤): 어려움 = 육성 없음 0승 · 전 캐릭터 레벨 10·각성 1 에서 10승, 정예 = 레벨 10·각성 1 에서 1승 · 레벨 20·각성 2 에서 11승. 단계 수와 배율은 사람 플레이로 다시 본다\n</li>\n<li>종족 시너지(같은 종족을 여럿 두면 보너스)를 넣을지 — 지금은 넣지 않는다\n</li>\n<li>협동에서 미션을 «전원 공통 달성» 으로 바꿀지 — 지금은 각자 진행\n</li>\n<li>무한 모드\n</li></ul>",
+"at": "2026-11-17 10:36",
+"branch": "cd23",
 "dirty": false
 },
 {
 "tab": "system",
 "file": "docs/13-보상-육성-꾸밈.md",
 "title": "13. 판 밖: 흐름 · 재화 · 보상 · 쿠지 · 영웅 육성 · 업적 · 미션 · 상점 · 행동력 · 계정 레벨",
-"html": "<ul>\n<li>작성: 2026-11-15 · <strong>전면 개편: 2026-11-17(CD-0015 · 결정 0049)</strong> · 상태: 구조는 사용자 결정(결정 0049 1~13), <strong>세부 수치는 기획팀장 초안 · 사용자 확인 대기</strong>.\n</li>\n<li><strong>옛 규칙은 지웠다.</strong> 뽑기 코인·박스 뽑기·경험 결정·종족 조각·조각 선택권·각성·특성 24·업적 자동 지급(결정 0031·0034·0035·0036·0039, 0046 의 «보석» 이름)은 결정 0049 로 대체됐다. 옛 내용이 필요하면 git 기록(이 파일의 2026-11-16 판)을 본다.\n</li>\n<li>숫자의 정본은 데이터다: <code>Data/reward.json</code> · <code>kuji.json</code> · <code>heroes.json</code> · <code>stamina.json</code> · <code>account.json</code> · <code>daily.json</code> · <code>weekly.json</code> · <code>achievements.json</code> · <code>cosmetics.json</code> · <code>shop.json</code> · <code>mail.json</code> · <code>convert_v9.json</code>. 아래 표는 그것을 옮긴 것이다(다르면 데이터가 맞다). <code>python -I -X utf8 tools/validate_data.py</code> 가 구조와 «시간당 보상» 의 거친 조건을 검사한다.\n</li></ul>\n<h3>1. 전체 흐름</h3>\n<pre><code>앱 실행 → 로비\n로비 ─ [싱글 시작] ─ 행동력 소모 ─▶ 디펜스 → 결과(은화·연합의 결정·쿠지 티켓·계정 경험치) → 로비\n     ─ [협동] (M4) ─ 행동력 소모 ─▶ …\n     ─ [영웅] 영웅 24 — 단계별 구역, 레벨 업(같은 영웅 중복) · 강화(연합의 결정)\n     ─ [쿠지] 쿠지 티켓 1장 = 1장 뽑기\n     ─ [업적] 1회성 · 반복, «받기»\n     ─ [미션] 일일 · 주간, «받기»\n     ─ [상점] 은화 상점(매일 바뀜) · 패키지 · 젬스톤 · 교환\n     ─ [우편함] [프로필] [설정]</code></pre>\n<ul>\n<li>로비 화면의 배치는 CD-0018 이 정한다. 로비에 보이는 값(행동력·은화·연합의 결정·젬스톤·쿠지 티켓·계정 레벨)과 읽는 곳은 <code>studio/orders/CD-0015-…/contract-lobby.md</code>.\n</li>\n<li>부르는 이름: 판 밖 수비 유닛은 <strong>영웅</strong>(코드 식별자는 <code>Character</code> 그대로 둬도 된다). 단계 이름은 <strong>일반·고급·희귀·영웅</strong>(1~4단계) — 문서·데이터의 이름이고 <strong>화면에 등급 글자를 쓰지 않는다</strong>(§5-3).\n</li></ul>\n<h3>2. 재화 (L11 · 결정 0049)</h3>\n<div class=tw><table><thead><tr><th>재화</th><th>판 안/밖</th><th>얻는 곳</th><th>쓰는 곳</th></tr></thead><tbody><tr><td>골드</td><td>판 안</td><td>처치·웨이브·미션·현상금</td><td>소환·종족 강화(판 안)</td></tr><tr><td><strong>은화</strong></td><td>판 밖(무료)</td><td>판 보상, 쿠지, 미션, 업적, 계정 레벨 업</td><td>은화 상점(영웅·쿠지 티켓)</td></tr><tr><td><strong>연합의 결정</strong></td><td>판 밖</td><td>판 보상(뒤 웨이브·승리), 쿠지, 미션, 업적, 레벨 업 5마다, 넘친 영웅 중복</td><td>영웅 강화(+N)</td></tr><tr><td><strong>쿠지 티켓</strong></td><td>판 밖</td><td>승리, 쿠지(되돌아오는 상), 미션, 업적, 계정 레벨 업, 은화 상점, 패키지·교환</td><td>쿠지 1장</td></tr><tr><td><strong>젬스톤</strong>(유료)</td><td>판 밖</td><td>돈(젬스톤 묶음·30일 보급), <strong>쿠지 상위상</strong></td><td>교환(→ 쿠지 티켓)</td></tr><tr><td><strong>행동력</strong></td><td>판 밖</td><td>시간(§10), 계정 레벨 업</td><td>판 시작(싱글·협동)</td></tr></tbody></table></div>\n<ul>\n<li>«은화» 는 판 안 «골드» 와 다른 것이다. 화면 글에서 판 밖 재화를 «골드» 라고 부르지 않는다.\n</li>\n<li>이 밖의 새 재화는 늘리지 않는다(L11). 영웅 «중복» 은 재화가 아니라 그 영웅의 보유 수다.\n</li>\n<li><strong>젬스톤이 무료로도 생긴다</strong>(쿠지 상위상 — 결정 0049 7). 옛 결정 0046 의 «돈으로만» 은 이 점에서 바뀌었다. 무료·유료 젬스톤을 나눠 셀지는 실제 결제를 붙일 때 정한다(§9).\n</li></ul>\n<h3>3. 판 보상 (결정 0048 · 0049 10)</h3>\n<ul>\n<li>막은 웨이브마다 <code>waveTiers</code> 의 <strong>은화·연합의 결정</strong>, 끝까지 막으면(승리) <code>victory</code> 의 <strong>은화·연합의 결정·쿠지 티켓</strong>을 더 받는다. 난이도 단계마다 <code>setPct</code> % 를 곱한다(종류마다 따로 내림). 싱글·협동 같은 표이고 협동은 전원 같게 받는다(지거나 끊겨도 막은 웨이브만큼).\n</li></ul>\n<div class=tw><table><thead><tr><th>웨이브</th><th>웨이브마다 은화</th><th>웨이브마다 연합의 결정</th></tr></thead><tbody><tr><td>1~5</td><td>10</td><td>0</td></tr><tr><td>6~10</td><td>20</td><td>1</td></tr><tr><td>11~15</td><td>30</td><td>2</td></tr><tr><td>16~20</td><td>40</td><td>3</td></tr><tr><td>승리</td><td>+300</td><td>+30 · 쿠지 티켓 +6</td></tr></tbody></table></div>\n<ul>\n<li>보통 20웨이브 승리 = 은화 800 · 연합의 결정 60 · 쿠지 티켓 6. 어려움 ×150%, 정예 ×200%.\n</li>\n<li><strong>시간당 보상은 승리가 가장 높다</strong>(옛 테스트 <code>WinningPaysMoreCoinsPerTickThanGivingUpEarly</code> 의 뜻을 새 재화로). 측정: 봇 판, <code>gate_01_std</code>, 시드 1~20, 육성 없음, 지금 규칙(CD-0016 이전)으로 2026-11-17 에 잰 판 길이(틱)에 새 표를 곱했다. «웨이브 N 을 막은 그 틱에 포기» 가 포기하는 사람에게 가장 유리한 경우다.\n</li></ul>\n<div class=tw><table><thead><tr><th>경우</th><th>판 수</th><th>한 판 평균 틱</th><th>한 판 보상(은화·결정·티켓)</th><th>1만 틱당 은화</th><th>1만 틱당 결정</th><th>1만 틱당 티켓</th><th>행동력 1당 은화</th></tr></thead><tbody><tr><td><strong>승리</strong></td><td>10</td><td>12,453</td><td>800 · 60 · 6</td><td><strong>642</strong></td><td><strong>48.2</strong></td><td><strong>4.8</strong></td><td><strong>160</strong></td></tr><tr><td>웨이브 5 막고 포기</td><td>20</td><td>2,182</td><td>50 · 0 · 0</td><td>229</td><td>0</td><td>0</td><td>10</td></tr><tr><td>웨이브 10 막고 포기</td><td>15</td><td>5,174</td><td>150 · 5 · 0</td><td>289</td><td>9.7</td><td>0</td><td>30</td></tr><tr><td>웨이브 15 막고 포기</td><td>14</td><td>8,428</td><td>300 · 15 · 0</td><td>355</td><td>17.8</td><td>0</td><td>60</td></tr></tbody></table></div>\n<ul>\n<li>행동력은 판마다 같은 양을 쓰므로(§10) 일찍 포기하는 판은 행동력 1당 보상이 승리의 1/16~3/8 이다 — 시간과 행동력 둘 다에서 승리가 앞선다.\n</li>\n<li>CD-0016 이 소환·배치를 바꾸면 판 길이가 바뀐다. core 의 테스트가 바뀐 규칙으로 다시 재서 이 관계(모든 재화에서 승리 &gt; 포기)를 정수 곱으로 고정한다.\n</li>\n<li>망가지는 길: ① 끝까지 가서 진 판(웨이브 16 패배: 은화 340 · 결정 18)이 승리에 너무 가까우면 승리의 값이 없다 → 승리 보너스가 은화·결정을 두 배 넘게 만든다. ② 쿠지 티켓을 승리에서만 주면 협동의 «진행 단계별 보상» 에 티켓이 빠진다 — 협동이 들어올 때(M4) 협동 판에서 티켓이 너무 적은지 다시 본다.\n</li>\n<li><strong>계정 경험치</strong>는 §11.\n</li></ul>\n<h3>4. 쿠지 (결정 0049 7)</h3>\n<p>정해진 수의 제비가 든 판에서 <strong>쿠지 티켓 1장으로 1장</strong>을 꺼낸다(비복원). 뽑은 제비는 판에서 빠진다.</p>\n<ul>\n<li>화면에 상마다 <strong>남은 수와 지금 확률</strong>(남은 수 ÷ 남은 전체, 소수 둘째 자리 %)이 늘 보인다. 젬스톤으로 쿠지 티켓을 살 수 있고 쿠지에서 젬스톤이 나오므로 확률 공개 대상으로 다룬다.\n</li>\n<li>쿠지 화면에 들어가면 <strong>가진 쿠지 티켓 수</strong>가 맨 위에 보인다.\n</li>\n<li><strong>상위상</strong>(<code>top</code>)을 따로 표시한다. <strong>상위상을 모두 뽑는 순간 그 판은 끝나고 남은 제비는 버리며 다음 판이 열린다</strong>(연출: «새 판»). 마지막 상은 없다.\n</li>\n<li>상품은 은화 · 연합의 결정 · 영웅 · 쿠지 티켓 · 젬스톤뿐이다. 영웅 상은 그 단계(tier)에서 <strong>종족을 무작위로</strong> 정한다(판 씨앗 + 칸 번호의 <code>Pcg32</code>, 같은 판의 같은 칸은 늘 같은 영웅).\n</li>\n<li>여러 장 연속 뽑기(10장 등)를 할 수 있다. 연속 뽑기 중 상위상이 모두 나오면 그 자리에서 멈추고 새 판을 연다(남은 장 수는 쓰지 않는다).\n</li>\n<li>목적: <strong>많이 주고 많이 뽑게.</strong> 티켓은 판·미션·레벨 업·상점에서 넉넉히 나오고, 쿠지 안에서도 티켓이 되돌아온다.\n</li></ul>\n<p>초안 판(<code>kuji_01</code>, 50장, 마지막 판 뒤에는 마지막 판을 되풀이):</p>\n<div class=tw><table><thead><tr><th>상</th><th>상위</th><th>수</th><th>상품</th></tr></thead><tbody><tr><td>A</td><td>●</td><td>1</td><td>4단계(영웅) 영웅 1</td></tr><tr><td>B</td><td>●</td><td>2</td><td>3단계(희귀) 영웅 1</td></tr><tr><td>C</td><td>●</td><td>2</td><td>젬스톤 50</td></tr><tr><td>D</td><td></td><td>6</td><td>2단계(고급) 영웅 1</td></tr><tr><td>E</td><td></td><td>10</td><td>1단계(일반) 영웅 1</td></tr><tr><td>F</td><td></td><td>10</td><td>연합의 결정 10</td></tr><tr><td>G</td><td></td><td>6</td><td>쿠지 티켓 2</td></tr><tr><td>H</td><td></td><td>13</td><td>은화 200</td></tr></tbody></table></div>\n<ul>\n<li>상위상 5장이 다 나올 때까지 평균 약 42.5장을 뽑는다(= 5 × 51 / 6). 판의 약 85% 를 쓰고 넘어간다.\n</li>\n<li>판정 위치: 지금은 기기에서 계산하고 저장한다. 출시 전에 서버로 옮긴다(<code>14-배포-저장.md</code>).\n</li>\n<li>망가지는 길: ① 상위상이 처음 몇 장에 몰리면 판이 빨리 끝나 «좋은 판» 이 된다 — 비복원 추첨이라 평균은 위와 같다. ② 되돌아오는 티켓(판당 12장)이 판 크기 이상이면 끝없이 뽑는다 — 검사기가 막는다. ③ 고르는 칸(어느 제비를 뽑을지 손으로 고름)을 남길지는 화면 일이다 — 결과는 칸의 비공개 내용이라 확률이 바뀌지 않는다.\n</li></ul>\n<h3>5. 영웅 육성 (결정 0049 5 · <code>Data/heroes.json</code>)</h3>\n<h4>5-1. 보유</h4>\n<ul>\n<li>영웅은 24명(6종족 × 4단계)이다. <strong>판에는 보유와 무관하게 24종이 모두 나온다.</strong> 내가 <strong>가진</strong> 영웅의 레벨·강화만 판 안 그 영웅의 피해에 곱해진다(규칙은 <code>11-규칙.md</code> §12-2). 가지지 않은 영웅은 레벨 1·+0 과 같다.\n</li>\n<li>처음에는 <code>startOwned</code>(일반 6종 — 종족마다 1단계)를 가진다. 영웅은 쿠지·은화 상점에서 얻는다. <strong>처음 얻는 한 장이 보유(레벨 1)</strong> 가 되고, 그 뒤로 얻는 같은 영웅은 <strong>중복</strong>으로 쌓인다.\n</li></ul>\n<h4>5-2. 두 축</h4>\n<div class=tw><table><thead><tr><th>축</th><th>재료</th><th>효과 (<code>heroes.json</code>)</th></tr></thead><tbody><tr><td><strong>레벨 업</strong></td><td>같은 영웅의 중복 <code>copiesPerLevel[tier][레벨−1]</code> 장</td><td>레벨마다 피해 +<code>levelDamagePct</code>%(더하기, 레벨 1 = 0), 최대 <code>maxLevel</code></td></tr><tr><td><strong>강화 +N</strong></td><td>연합의 결정 <code>enhanceCostBase + enhanceCostStep × n</code> (+n → +n+1)</td><td>강화마다 피해 +<code>enhanceDamagePct</code>%(더하기), 최대 <code>+maxEnhance</code></td></tr></tbody></table></div>\n<div class=tw><table><thead><tr><th>단계</th><th>레벨 1→10 에 드는 중복(합)</th></tr></thead><tbody><tr><td>1 일반</td><td>1·1·2·2·3·3·4·4·5 (25)</td></tr><tr><td>2 고급</td><td>1·1·1·2·2·2·3·3·3 (18)</td></tr><tr><td>3 희귀</td><td>1·1·1·1·2·2·2·2·3 (15)</td></tr><tr><td>4 영웅</td><td>1·1·1·1·1·2·2·2·2 (13)</td></tr></tbody></table></div>\n<ul>\n<li>강화 +0 → +10 = 10·20·…·100 = 연합의 결정 550. 최대 레벨·최대 강화 영웅의 피해 = 기본 × 145% × 140% ≈ 203%.\n</li>\n<li>최대 레벨에서 더 얻은 중복은 장마다 <code>overflowCrystals[tier]</code>(5·10·20·40) 연합의 결정으로 바뀐다(버려지는 영웅이 없다).\n</li>\n<li>강화는 레벨과 따로 올린다(레벨 상한에 묶지 않는다). 둘 다 <strong>가진 영웅에게만</strong> 할 수 있다.\n</li>\n<li>왜: 사용자가 정한 두 축 — «겹쳐 모으기» 와 «재료로 +N» — 을 그대로 쓴다. 높은 단계일수록 덜 나오므로 중복을 적게 받는다.\n</li>\n<li>망가지는 길: ① 4단계 영웅을 최대로 올리려면 종족마다 중복 13장 — 쿠지 판당 4단계 약 0.85장이라 6종족 전부는 수십 판이 든다(일부러 먼 목표). ② 육성 차이가 크면 협동에서 한 사람이 다 한다 → 레벨 5%·강화 4% 로 작게 두고, 판 안 종족 강화(골드, 12%)가 더 크다. ③ 1단계 영웅은 판마다 많이 나오지만 합성되면 사라진다 — 어느 단계를 키울지가 선택이 된다.\n</li></ul>\n<h4>5-3. 영웅 창 (화면 규칙)</h4>\n<ul>\n<li><strong>단계별 세로 구역</strong>: 위에서 아래로 1 → 4단계. 구역마다 배경 색과 꾸밈(테두리·무늬)이 다르다(<code>heroes.json</code> <code>tiers[].art</code>, 그림은 art). <strong>«일반·고급·희귀·영웅» 글자를 화면에 쓰지 않는다</strong>(사용자 결정 2026-11-16).\n</li>\n<li>한 구역 안은 종족 6명(같은 종족 순서 — <code>units.json</code>). 가지지 않은 영웅은 어둡게(그림은 보이고 «미보유» 표시 없이 자물쇠 한 개).\n</li>\n<li>일러스트 크롭은 <strong>24장이 같은 규칙</strong>(얼굴 중심·머리 위 여백·얼굴 크기 비율이 같게)으로 보인다.\n</li>\n<li>카드에 레벨 «Lv.n», 강화 «+n», 다음 레벨까지 중복 «n/m» 막대. 상세에서 [레벨 업] [강화].\n</li></ul>\n<h3>6. 업적과 꾸밈 (결정 0049 13 · <code>Data/achievements.json</code> · <code>cosmetics.json</code>)</h3>\n<ul>\n<li>업적은 두 가지다.\n<ul>\n<li><strong>1회성</strong>(<code>once</code>, 19개): 목표에 한 번 닿으면 끝. 보상 = <strong>꾸밈 하나 + 재화</strong>.\n</li>\n<li><strong>반복</strong>(<code>repeat</code>, 7개): 누적 값이 <code>step</code> 의 배수에 닿을 때마다 <strong>재화</strong>를 다시 받는다. 꾸밈은 없다.\n</li></ul>\n</li>\n<li>달성하면 <strong>«받기»</strong> 로 받는다(옛 자동 지급을 바꿈 — 확인 대기 질문 Q4). 받을 것이 있으면 업적 탭에 배지.\n</li>\n<li><strong>화면은 두 영역을 분명히 나눈다</strong>: 줄마다 왼쪽 = <strong>미션(무엇을·진행 막대·n/m)</strong>, 오른쪽 = <strong>보상(꾸밈·재화 아이콘과 수 + 받기 버튼)</strong>, 사이에 세로 구분. 위 탭: [1회성] [반복]. «받을 수 있음» 줄이 맨 위.\n</li>\n<li>꾸밈 22개(이미지·프레임·네임플레이트)는 그대로이고 얻는 길은 1회성 업적(과 나중의 이벤트)뿐이다. «상자 명패» 는 «쿠지 명패» 로 이름만 바꿨다. 목록은 <code>12-콘텐츠목록.md</code> §4.\n</li>\n<li>옛 «종족 각성 4» 6개는 «그 종족 영웅 하나를 레벨 10» 으로, «상자 비우기» 는 «쿠지 판 새로 열기»(상위상 모두 뽑기)로 바뀌었다(id 도 <code>level10_&lt;종족&gt;</code>·<code>kuji_reset</code>; 옛 저장은 <code>convert_v9.json</code> 으로 옮긴다).\n</li></ul>\n<div class=tw><table><thead><tr><th>반복 업적</th><th>조건</th><th>보상</th></tr></thead><tbody><tr><td><code>rep_wins</code></td><td>승리 5번마다</td><td>쿠지 티켓 3</td></tr><tr><td><code>rep_matches</code></td><td>판 10번마다</td><td>은화 500</td></tr><tr><td><code>rep_kills</code></td><td>적 1,000 처치마다</td><td>은화 300</td></tr><tr><td><code>rep_kuji</code></td><td>쿠지 50장마다</td><td>연합의 결정 20</td></tr><tr><td><code>rep_hero_level</code></td><td>영웅 레벨 업 10번마다</td><td>쿠지 티켓 3</td></tr><tr><td><code>rep_enhance</code></td><td>강화 10번마다</td><td>은화 500</td></tr><tr><td><code>rep_daily</code></td><td>일일 미션 10개 받을 때마다</td><td>쿠지 티켓 5</td></tr></tbody></table></div>\n<h3>7. 저장하는 것 (v9)</h3>\n<div class=tw><table><thead><tr><th>묶음</th><th>내용</th></tr></thead><tbody><tr><td>프로필</td><td>이름, 고른 꾸밈</td></tr><tr><td>재화</td><td>은화, 연합의 결정, 쿠지 티켓, 젬스톤</td></tr><tr><td>행동력</td><td>지금 값, 기준 시각(유닉스 초)</td></tr><tr><td>계정</td><td>레벨, 경험치</td></tr><tr><td>영웅</td><td>24명마다 보유 여부·레벨·강화·쌓인 중복</td></tr><tr><td>쿠지</td><td>지금 판 번호·씨앗·뽑은 칸</td></tr><tr><td>수집</td><td>가진 꾸밈, 업적마다 진행·받은 횟수</td></tr><tr><td>기록</td><td>판 수, 승리, 최고 웨이브, 누적 처치, 쿠지 장 수, 영웅 레벨 업 수, 강화 수, 받은 일일 미션 수, 쿠지 판 새로 연 수</td></tr><tr><td>미션</td><td>일일(일 번호·목표별 진행·받음·보너스), 주간(주 번호·진행·받음·보너스)</td></tr><tr><td>은화 상점</td><td>일 번호, 칸마다 산 횟수</td></tr><tr><td>상점·우편</td><td>30일 보급 끝 날, 처리한 거래 id, 우편</td></tr></tbody></table></div>\n<ul>\n<li>옛 저장(v8)은 한 번 바꾼다: <code>convert_v9.json</code> — 뽑기 코인 5 → 쿠지 티켓 1(올림), 보석 → 젬스톤 1:1, 경험 결정 → 은화 70%, 종족 조각·조각 선택권 → 연합의 결정 ×5, 옛 레벨·각성에 쓴 것도 같은 비율로 돌려줌, 24 영웅 모두 보유(레벨 1·+0), 쿠지 1번 판, 행동력 가득, 계정 레벨 1. 바꾸기 전 v8 파일을 백업으로 남긴다. 구조 버전 표는 <code>14-배포-저장.md</code> §3-4.\n</li></ul>\n<h3>8. 일일 미션 · 주간 미션 (결정 0049 12)</h3>\n<ul>\n<li><strong>일일 미션</strong>(<code>daily.json</code>): 하루 5개. UTC+9 일 번호를 시드로 풀 16개에서 뽑는다(같은 날 같은 목록, 같은 종류는 하루에 하나). 5개를 모두 받으면 쿠지 티켓 5.\n</li>\n<li><strong>주간 미션</strong>(<code>weekly.json</code>): 7개 고정 목록, 월요일 0시(UTC+9)에 바뀐다. 모두 받으면 쿠지 티켓 15.\n</li>\n<li>둘 다 달성하면 <strong>«받기»</strong> 로 받는다. 날·주가 바뀌면 진행은 0 부터, 받지 않은 보상은 사라진다.\n</li>\n<li>«판 N번 하기» 는 웨이브 3 이상까지 간 판(또는 이긴 판)만 센다. 협동 판도 센다.\n</li>\n<li>화면: [미션] 창 위 탭 [일일] [주간], 탭마다 남은 시간 «n시간 m분». 줄 모양은 업적과 같다(왼쪽 미션 · 오른쪽 보상).\n</li>\n<li>망가지는 길: ① 시계를 되돌리면 같은 날을 다시 받는다(서버 판정은 M7-1). ② 하루에 할 수 없는 미션(재료가 없으면 못 하는 «영웅 레벨 업»)은 일일에 넣지 않았다 — 주간에만.\n</li></ul>\n<h3>9. 상점 · 우편함 · 젬스톤 (<code>Data/shop.json</code> · <code>mail.json</code>)</h3>\n<ul>\n<li>탭 넷: <strong>은화 상점</strong> · 패키지 · 젬스톤 · 교환.\n</li>\n<li><strong>은화 상점</strong>(일일 상점): 매일(UTC+9) 진열이 바뀐다. 고정 칸 = 쿠지 티켓 1(은화 200, 하루 10번) · 쿠지 티켓 10(은화 1,800, 하루 1번). 영웅 칸 4개 = 그날 일 번호를 시드로 단계(가중치 60·30·9·1)와 종족을 골라 채운다(같은 날 같은 영웅 없음), 칸마다 1번. 가격 400·1,200·4,000·12,000 은화. 다음 진열까지 남은 시간을 보인다.\n</li>\n<li>패키지: 30일 보급(4,900원: 즉시 젬스톤 300, 접속한 날마다 젬스톤 100 · 쿠지 티켓 4) · 쿠지 티켓 20/66/220. 젬스톤: 60~6,800 여섯 단계. 교환: 젬스톤 15 → 쿠지 티켓 1, 140 → 10.\n</li>\n<li>결제는 테스트 결제 그대로(<code>IStore</code> 뒤의 <code>TestStore</code>, 릴리스 빌드는 잠김). 같은 거래 id 는 두 번 지급하지 않는다.\n</li>\n<li>우편: 보관 30일, 받기·모두 받기, 운영 우편은 데이터로 내려보낸다(결정 0047 그대로). 주는 것의 종류는 새 재화 넷.\n</li>\n<li>젬스톤이 쿠지로도 생기므로 «돈으로만» 이 아니다. 실제 스토어를 붙일 때 무료·유료 젬스톤을 나눌지 정한다(환불·청약철회 처리).\n</li></ul>\n<h3>10. 행동력 (결정 0049 8 · <code>Data/stamina.json</code>)</h3>\n<ul>\n<li>최대치 = <code>maxBase</code>(60) + <code>maxPerLevel</code>(1) × (계정 레벨 − 1). 최대치 아래에서 <code>regenSeconds</code>(300초 = 5분)마다 1 찬다.\n</li>\n<li><strong>판을 시작할 때</strong> 쓴다: 싱글 <code>cost.single</code>(5), 협동 <code>cost.coop</code>(5). 모자라면 시작 버튼이 잠기고 «다음 1 까지 m:ss» 가 보인다. 판을 일찍 끝내도 돌려주지 않는다. 앱이 꺼져 «이어 하기» 로 같은 판을 다시 열 때는 쓰지 않는다.\n</li>\n<li><strong>앱이 꺼져 있던 동안도 찬다</strong>: 저장된 기준 시각(유닉스 초)과 지금 기기 시계의 차이로 계산한다. 시계가 거꾸로 가면(지금 &lt; 기준) 차지 않고 잃지도 않으며 기준을 지금으로 당긴다.\n</li>\n<li><strong>계정 레벨이 오르면</strong> 그때 최대치만큼(<code>levelUpGrantPct</code> 100%) 더한다. 최대치를 넘어 <code>hardCap</code>(999)까지 쌓일 수 있고, 최대치 이상인 동안은 차지 않는다.\n</li>\n<li>숫자 감각: 가득(60) = 12판, 다 차는 데 5시간, 보통 승리 한 판(약 10분, ×1 속도)에 2 가 찬다.\n</li>\n<li>망가지는 길: ① 기기 시계를 앞으로 돌리면 찬다(서버 시간은 M7-1). ② 너무 빡빡하면 «많이 주고 많이 뽑게» 와 부딪힌다 — 레벨 업 보충과 넉넉한 최대치로 하루 수십 판이 가능하게 두었다.\n</li></ul>\n<h3>11. 계정 레벨 (결정 0049 9 · <code>Data/account.json</code>)</h3>\n<ul>\n<li>레벨 L → L+1 경험치 = <code>expBase</code>(100) + <code>expStep</code>(50) × (L − 1). 최대 레벨 50(합 63,700).\n</li>\n<li>판이 끝날 때 한 번 받는다:\n<ul>\n<li><strong>싱글</strong>: 그 단계를 끝까지 막으면 <code>singleClearExp[단계]</code>(보통 100 · 어려움 150 · 정예 200 · 맵 2 는 120·180·240). 못 막으면 막은 웨이브 × 2(작게).\n</li>\n<li><strong>협동</strong>: 이기든 지든 팀이 막은 웨이브 × 4, 전원 같게(20웨이브 = 80 — 싱글 클리어보다 적게).\n</li></ul>\n</li>\n<li><strong>레벨 업 보상</strong>: 오른 레벨 L 마다 은화 300 + 20 × L · 쿠지 티켓 3. L 이 5의 배수면 연합의 결정 30 · 쿠지 티켓 10 을 더. 그리고 행동력 보충(§10). 결과 화면에서 레벨 업 연출과 받은 것을 보인다.\n</li>\n<li>왜: 사용자가 정한 «싱글 클리어는 많이, 협동은 진행 단계마다 조금씩». 레벨은 행동력 최대치를 늘리고 보충해 주어 «오래 한 사람이 더 많이 뽑는» 고리를 만든다.\n</li>\n<li>망가지는 길: 싱글 보통 단계만 반복하는 것이 가장 빠른 레벨 업이 되면 어려움을 할 이유가 없다 → 어려움·정예의 경험치를 1.5·2배로 두었다(판 보상 배율과 같다).\n</li></ul>",
-"at": "2026-11-17 10:16",
-"branch": "cd14",
+"html": "<ul>\n<li>작성: 2026-11-15 · <strong>전면 개편: 2026-11-17(CD-0015 · 결정 0049)</strong> · 갱신 2026-11-17(CD-0023 · 결정 0054: 판 안 «종족 강화» → «단계 강화» 이름 두 곳) · 상태: 구조는 사용자 결정(결정 0049 1~13), <strong>세부 수치는 기획팀장 초안 · 사용자 확인 대기</strong>.\n</li>\n<li><strong>옛 규칙은 지웠다.</strong> 뽑기 코인·박스 뽑기·경험 결정·종족 조각·조각 선택권·각성·특성 24·업적 자동 지급(결정 0031·0034·0035·0036·0039, 0046 의 «보석» 이름)은 결정 0049 로 대체됐다. 옛 내용이 필요하면 git 기록(이 파일의 2026-11-16 판)을 본다.\n</li>\n<li>숫자의 정본은 데이터다: <code>Data/reward.json</code> · <code>kuji.json</code> · <code>heroes.json</code> · <code>stamina.json</code> · <code>account.json</code> · <code>daily.json</code> · <code>weekly.json</code> · <code>achievements.json</code> · <code>cosmetics.json</code> · <code>shop.json</code> · <code>mail.json</code> · <code>convert_v9.json</code>. 아래 표는 그것을 옮긴 것이다(다르면 데이터가 맞다). <code>python -I -X utf8 tools/validate_data.py</code> 가 구조와 «시간당 보상» 의 거친 조건을 검사한다.\n</li></ul>\n<h3>1. 전체 흐름</h3>\n<pre><code>앱 실행 → 로비\n로비 ─ [싱글 시작] ─ 행동력 소모 ─▶ 디펜스 → 결과(은화·연합의 결정·쿠지 티켓·계정 경험치) → 로비\n     ─ [협동] (M4) ─ 행동력 소모 ─▶ …\n     ─ [영웅] 영웅 24 — 단계별 구역, 레벨 업(같은 영웅 중복) · 강화(연합의 결정)\n     ─ [쿠지] 쿠지 티켓 1장 = 1장 뽑기\n     ─ [업적] 1회성 · 반복, «받기»\n     ─ [미션] 일일 · 주간, «받기»\n     ─ [상점] 은화 상점(매일 바뀜) · 패키지 · 젬스톤 · 교환\n     ─ [우편함] [프로필] [설정]</code></pre>\n<ul>\n<li>로비 화면의 배치는 CD-0018 이 정한다. 로비에 보이는 값(행동력·은화·연합의 결정·젬스톤·쿠지 티켓·계정 레벨)과 읽는 곳은 <code>studio/orders/CD-0015-…/contract-lobby.md</code>.\n</li>\n<li>부르는 이름: 판 밖 수비 유닛은 <strong>영웅</strong>(코드 식별자는 <code>Character</code> 그대로 둬도 된다). 단계 이름은 <strong>일반·고급·희귀·영웅</strong>(1~4단계) — 문서·데이터의 이름이고 <strong>화면에 등급 글자를 쓰지 않는다</strong>(§5-3).\n</li></ul>\n<h3>2. 재화 (L11 · 결정 0049)</h3>\n<div class=tw><table><thead><tr><th>재화</th><th>판 안/밖</th><th>얻는 곳</th><th>쓰는 곳</th></tr></thead><tbody><tr><td>골드</td><td>판 안</td><td>처치·웨이브·미션·현상금</td><td>소환·단계 강화(판 안, 결정 0054)</td></tr><tr><td><strong>은화</strong></td><td>판 밖(무료)</td><td>판 보상, 쿠지, 미션, 업적, 계정 레벨 업</td><td>은화 상점(영웅·쿠지 티켓)</td></tr><tr><td><strong>연합의 결정</strong></td><td>판 밖</td><td>판 보상(뒤 웨이브·승리), 쿠지, 미션, 업적, 레벨 업 5마다, 넘친 영웅 중복</td><td>영웅 강화(+N)</td></tr><tr><td><strong>쿠지 티켓</strong></td><td>판 밖</td><td>승리, 쿠지(되돌아오는 상), 미션, 업적, 계정 레벨 업, 은화 상점, 패키지·교환</td><td>쿠지 1장</td></tr><tr><td><strong>젬스톤</strong>(유료)</td><td>판 밖</td><td>돈(젬스톤 묶음·30일 보급), <strong>쿠지 상위상</strong></td><td>교환(→ 쿠지 티켓)</td></tr><tr><td><strong>행동력</strong></td><td>판 밖</td><td>시간(§10), 계정 레벨 업</td><td>판 시작(싱글·협동)</td></tr></tbody></table></div>\n<ul>\n<li>«은화» 는 판 안 «골드» 와 다른 것이다. 화면 글에서 판 밖 재화를 «골드» 라고 부르지 않는다.\n</li>\n<li>이 밖의 새 재화는 늘리지 않는다(L11). 영웅 «중복» 은 재화가 아니라 그 영웅의 보유 수다.\n</li>\n<li><strong>젬스톤이 무료로도 생긴다</strong>(쿠지 상위상 — 결정 0049 7). 옛 결정 0046 의 «돈으로만» 은 이 점에서 바뀌었다. 무료·유료 젬스톤을 나눠 셀지는 실제 결제를 붙일 때 정한다(§9).\n</li></ul>\n<h3>3. 판 보상 (결정 0048 · 0049 10)</h3>\n<ul>\n<li>막은 웨이브마다 <code>waveTiers</code> 의 <strong>은화·연합의 결정</strong>, 끝까지 막으면(승리) <code>victory</code> 의 <strong>은화·연합의 결정·쿠지 티켓</strong>을 더 받는다. 난이도 단계마다 <code>setPct</code> % 를 곱한다(종류마다 따로 내림). 싱글·협동 같은 표이고 협동은 전원 같게 받는다(지거나 끊겨도 막은 웨이브만큼).\n</li></ul>\n<div class=tw><table><thead><tr><th>웨이브</th><th>웨이브마다 은화</th><th>웨이브마다 연합의 결정</th></tr></thead><tbody><tr><td>1~5</td><td>10</td><td>0</td></tr><tr><td>6~10</td><td>20</td><td>1</td></tr><tr><td>11~15</td><td>30</td><td>2</td></tr><tr><td>16~20</td><td>40</td><td>3</td></tr><tr><td>승리</td><td>+300</td><td>+30 · 쿠지 티켓 +6</td></tr></tbody></table></div>\n<ul>\n<li>보통 20웨이브 승리 = 은화 800 · 연합의 결정 60 · 쿠지 티켓 6. 어려움 ×150%, 정예 ×200%.\n</li>\n<li><strong>시간당 보상은 승리가 가장 높다</strong>(옛 테스트 <code>WinningPaysMoreCoinsPerTickThanGivingUpEarly</code> 의 뜻을 새 재화로). 측정: 봇 판, <code>gate_01_std</code>, 시드 1~20, 육성 없음, 지금 규칙(CD-0016 이전)으로 2026-11-17 에 잰 판 길이(틱)에 새 표를 곱했다. «웨이브 N 을 막은 그 틱에 포기» 가 포기하는 사람에게 가장 유리한 경우다.\n</li></ul>\n<div class=tw><table><thead><tr><th>경우</th><th>판 수</th><th>한 판 평균 틱</th><th>한 판 보상(은화·결정·티켓)</th><th>1만 틱당 은화</th><th>1만 틱당 결정</th><th>1만 틱당 티켓</th><th>행동력 1당 은화</th></tr></thead><tbody><tr><td><strong>승리</strong></td><td>10</td><td>12,453</td><td>800 · 60 · 6</td><td><strong>642</strong></td><td><strong>48.2</strong></td><td><strong>4.8</strong></td><td><strong>160</strong></td></tr><tr><td>웨이브 5 막고 포기</td><td>20</td><td>2,182</td><td>50 · 0 · 0</td><td>229</td><td>0</td><td>0</td><td>10</td></tr><tr><td>웨이브 10 막고 포기</td><td>15</td><td>5,174</td><td>150 · 5 · 0</td><td>289</td><td>9.7</td><td>0</td><td>30</td></tr><tr><td>웨이브 15 막고 포기</td><td>14</td><td>8,428</td><td>300 · 15 · 0</td><td>355</td><td>17.8</td><td>0</td><td>60</td></tr></tbody></table></div>\n<ul>\n<li>행동력은 판마다 같은 양을 쓰므로(§10) 일찍 포기하는 판은 행동력 1당 보상이 승리의 1/16~3/8 이다 — 시간과 행동력 둘 다에서 승리가 앞선다.\n</li>\n<li>CD-0016 이 소환·배치를 바꾸면 판 길이가 바뀐다. core 의 테스트가 바뀐 규칙으로 다시 재서 이 관계(모든 재화에서 승리 &gt; 포기)를 정수 곱으로 고정한다.\n</li>\n<li>망가지는 길: ① 끝까지 가서 진 판(웨이브 16 패배: 은화 340 · 결정 18)이 승리에 너무 가까우면 승리의 값이 없다 → 승리 보너스가 은화·결정을 두 배 넘게 만든다. ② 쿠지 티켓을 승리에서만 주면 협동의 «진행 단계별 보상» 에 티켓이 빠진다 — 협동이 들어올 때(M4) 협동 판에서 티켓이 너무 적은지 다시 본다.\n</li>\n<li><strong>계정 경험치</strong>는 §11.\n</li></ul>\n<h3>4. 쿠지 (결정 0049 7)</h3>\n<p>정해진 수의 제비가 든 판에서 <strong>쿠지 티켓 1장으로 1장</strong>을 꺼낸다(비복원). 뽑은 제비는 판에서 빠진다.</p>\n<ul>\n<li>화면에 상마다 <strong>남은 수와 지금 확률</strong>(남은 수 ÷ 남은 전체, 소수 둘째 자리 %)이 늘 보인다. 젬스톤으로 쿠지 티켓을 살 수 있고 쿠지에서 젬스톤이 나오므로 확률 공개 대상으로 다룬다.\n</li>\n<li>쿠지 화면에 들어가면 <strong>가진 쿠지 티켓 수</strong>가 맨 위에 보인다.\n</li>\n<li><strong>상위상</strong>(<code>top</code>)을 따로 표시한다. <strong>상위상을 모두 뽑는 순간 그 판은 끝나고 남은 제비는 버리며 다음 판이 열린다</strong>(연출: «새 판»). 마지막 상은 없다.\n</li>\n<li>상품은 은화 · 연합의 결정 · 영웅 · 쿠지 티켓 · 젬스톤뿐이다. 영웅 상은 그 단계(tier)에서 <strong>종족을 무작위로</strong> 정한다(판 씨앗 + 칸 번호의 <code>Pcg32</code>, 같은 판의 같은 칸은 늘 같은 영웅).\n</li>\n<li>여러 장 연속 뽑기(10장 등)를 할 수 있다. 연속 뽑기 중 상위상이 모두 나오면 그 자리에서 멈추고 새 판을 연다(남은 장 수는 쓰지 않는다).\n</li>\n<li>목적: <strong>많이 주고 많이 뽑게.</strong> 티켓은 판·미션·레벨 업·상점에서 넉넉히 나오고, 쿠지 안에서도 티켓이 되돌아온다.\n</li></ul>\n<p>초안 판(<code>kuji_01</code>, 50장, 마지막 판 뒤에는 마지막 판을 되풀이):</p>\n<div class=tw><table><thead><tr><th>상</th><th>상위</th><th>수</th><th>상품</th></tr></thead><tbody><tr><td>A</td><td>●</td><td>1</td><td>4단계(영웅) 영웅 1</td></tr><tr><td>B</td><td>●</td><td>2</td><td>3단계(희귀) 영웅 1</td></tr><tr><td>C</td><td>●</td><td>2</td><td>젬스톤 50</td></tr><tr><td>D</td><td></td><td>6</td><td>2단계(고급) 영웅 1</td></tr><tr><td>E</td><td></td><td>10</td><td>1단계(일반) 영웅 1</td></tr><tr><td>F</td><td></td><td>10</td><td>연합의 결정 10</td></tr><tr><td>G</td><td></td><td>6</td><td>쿠지 티켓 2</td></tr><tr><td>H</td><td></td><td>13</td><td>은화 200</td></tr></tbody></table></div>\n<ul>\n<li>상위상 5장이 다 나올 때까지 평균 약 42.5장을 뽑는다(= 5 × 51 / 6). 판의 약 85% 를 쓰고 넘어간다.\n</li>\n<li>판정 위치: 지금은 기기에서 계산하고 저장한다. 출시 전에 서버로 옮긴다(<code>14-배포-저장.md</code>).\n</li>\n<li>망가지는 길: ① 상위상이 처음 몇 장에 몰리면 판이 빨리 끝나 «좋은 판» 이 된다 — 비복원 추첨이라 평균은 위와 같다. ② 되돌아오는 티켓(판당 12장)이 판 크기 이상이면 끝없이 뽑는다 — 검사기가 막는다. ③ 고르는 칸(어느 제비를 뽑을지 손으로 고름)을 남길지는 화면 일이다 — 결과는 칸의 비공개 내용이라 확률이 바뀌지 않는다.\n</li></ul>\n<h3>5. 영웅 육성 (결정 0049 5 · <code>Data/heroes.json</code>)</h3>\n<h4>5-1. 보유</h4>\n<ul>\n<li>영웅은 24명(6종족 × 4단계)이다. <strong>판에는 보유와 무관하게 24종이 모두 나온다.</strong> 내가 <strong>가진</strong> 영웅의 레벨·강화만 판 안 그 영웅의 피해에 곱해진다(규칙은 <code>11-규칙.md</code> §12-2). 가지지 않은 영웅은 레벨 1·+0 과 같다.\n</li>\n<li>처음에는 <code>startOwned</code>(일반 6종 — 종족마다 1단계)를 가진다. 영웅은 쿠지·은화 상점에서 얻는다. <strong>처음 얻는 한 장이 보유(레벨 1)</strong> 가 되고, 그 뒤로 얻는 같은 영웅은 <strong>중복</strong>으로 쌓인다.\n</li></ul>\n<h4>5-2. 두 축</h4>\n<div class=tw><table><thead><tr><th>축</th><th>재료</th><th>효과 (<code>heroes.json</code>)</th></tr></thead><tbody><tr><td><strong>레벨 업</strong></td><td>같은 영웅의 중복 <code>copiesPerLevel[tier][레벨−1]</code> 장</td><td>레벨마다 피해 +<code>levelDamagePct</code>%(더하기, 레벨 1 = 0), 최대 <code>maxLevel</code></td></tr><tr><td><strong>강화 +N</strong></td><td>연합의 결정 <code>enhanceCostBase + enhanceCostStep × n</code> (+n → +n+1)</td><td>강화마다 피해 +<code>enhanceDamagePct</code>%(더하기), 최대 <code>+maxEnhance</code></td></tr></tbody></table></div>\n<div class=tw><table><thead><tr><th>단계</th><th>레벨 1→10 에 드는 중복(합)</th></tr></thead><tbody><tr><td>1 일반</td><td>1·1·2·2·3·3·4·4·5 (25)</td></tr><tr><td>2 고급</td><td>1·1·1·2·2·2·3·3·3 (18)</td></tr><tr><td>3 희귀</td><td>1·1·1·1·2·2·2·2·3 (15)</td></tr><tr><td>4 영웅</td><td>1·1·1·1·1·2·2·2·2 (13)</td></tr></tbody></table></div>\n<ul>\n<li>강화 +0 → +10 = 10·20·…·100 = 연합의 결정 550. 최대 레벨·최대 강화 영웅의 피해 = 기본 × 145% × 140% ≈ 203%.\n</li>\n<li>최대 레벨에서 더 얻은 중복은 장마다 <code>overflowCrystals[tier]</code>(5·10·20·40) 연합의 결정으로 바뀐다(버려지는 영웅이 없다).\n</li>\n<li>강화는 레벨과 따로 올린다(레벨 상한에 묶지 않는다). 둘 다 <strong>가진 영웅에게만</strong> 할 수 있다.\n</li>\n<li>왜: 사용자가 정한 두 축 — «겹쳐 모으기» 와 «재료로 +N» — 을 그대로 쓴다. 높은 단계일수록 덜 나오므로 중복을 적게 받는다.\n</li>\n<li>망가지는 길: ① 4단계 영웅을 최대로 올리려면 종족마다 중복 13장 — 쿠지 판당 4단계 약 0.85장이라 6종족 전부는 수십 판이 든다(일부러 먼 목표). ② 육성 차이가 크면 협동에서 한 사람이 다 한다 → 레벨 5%·강화 4% 로 작게 두고, 판 안 단계 강화(골드, 강화 수마다 10% — 결정 0054 초안)가 더 크다. ③ 1단계 영웅은 판마다 많이 나오지만 합성되면 사라진다 — 어느 단계를 키울지가 선택이 된다.\n</li></ul>\n<h4>5-3. 영웅 창 (화면 규칙)</h4>\n<ul>\n<li><strong>단계별 세로 구역</strong>: 위에서 아래로 1 → 4단계. 구역마다 배경 색과 꾸밈(테두리·무늬)이 다르다(<code>heroes.json</code> <code>tiers[].art</code>, 그림은 art). <strong>«일반·고급·희귀·영웅» 글자를 화면에 쓰지 않는다</strong>(사용자 결정 2026-11-16).\n</li>\n<li>한 구역 안은 종족 6명(같은 종족 순서 — <code>units.json</code>). 가지지 않은 영웅은 어둡게(그림은 보이고 «미보유» 표시 없이 자물쇠 한 개).\n</li>\n<li>일러스트 크롭은 <strong>24장이 같은 규칙</strong>(얼굴 중심·머리 위 여백·얼굴 크기 비율이 같게)으로 보인다.\n</li>\n<li>카드에 레벨 «Lv.n», 강화 «+n», 다음 레벨까지 중복 «n/m» 막대. 상세에서 [레벨 업] [강화].\n</li></ul>\n<h3>6. 업적과 꾸밈 (결정 0049 13 · <code>Data/achievements.json</code> · <code>cosmetics.json</code>)</h3>\n<ul>\n<li>업적은 두 가지다.\n<ul>\n<li><strong>1회성</strong>(<code>once</code>, 19개): 목표에 한 번 닿으면 끝. 보상 = <strong>꾸밈 하나 + 재화</strong>.\n</li>\n<li><strong>반복</strong>(<code>repeat</code>, 7개): 누적 값이 <code>step</code> 의 배수에 닿을 때마다 <strong>재화</strong>를 다시 받는다. 꾸밈은 없다.\n</li></ul>\n</li>\n<li>달성하면 <strong>«받기»</strong> 로 받는다(옛 자동 지급을 바꿈 — 확인 대기 질문 Q4). 받을 것이 있으면 업적 탭에 배지.\n</li>\n<li><strong>화면은 두 영역을 분명히 나눈다</strong>: 줄마다 왼쪽 = <strong>미션(무엇을·진행 막대·n/m)</strong>, 오른쪽 = <strong>보상(꾸밈·재화 아이콘과 수 + 받기 버튼)</strong>, 사이에 세로 구분. 위 탭: [1회성] [반복]. «받을 수 있음» 줄이 맨 위.\n</li>\n<li>꾸밈 22개(이미지·프레임·네임플레이트)는 그대로이고 얻는 길은 1회성 업적(과 나중의 이벤트)뿐이다. «상자 명패» 는 «쿠지 명패» 로 이름만 바꿨다. 목록은 <code>12-콘텐츠목록.md</code> §4.\n</li>\n<li>옛 «종족 각성 4» 6개는 «그 종족 영웅 하나를 레벨 10» 으로, «상자 비우기» 는 «쿠지 판 새로 열기»(상위상 모두 뽑기)로 바뀌었다(id 도 <code>level10_&lt;종족&gt;</code>·<code>kuji_reset</code>; 옛 저장은 <code>convert_v9.json</code> 으로 옮긴다).\n</li></ul>\n<div class=tw><table><thead><tr><th>반복 업적</th><th>조건</th><th>보상</th></tr></thead><tbody><tr><td><code>rep_wins</code></td><td>승리 5번마다</td><td>쿠지 티켓 3</td></tr><tr><td><code>rep_matches</code></td><td>판 10번마다</td><td>은화 500</td></tr><tr><td><code>rep_kills</code></td><td>적 1,000 처치마다</td><td>은화 300</td></tr><tr><td><code>rep_kuji</code></td><td>쿠지 50장마다</td><td>연합의 결정 20</td></tr><tr><td><code>rep_hero_level</code></td><td>영웅 레벨 업 10번마다</td><td>쿠지 티켓 3</td></tr><tr><td><code>rep_enhance</code></td><td>강화 10번마다</td><td>은화 500</td></tr><tr><td><code>rep_daily</code></td><td>일일 미션 10개 받을 때마다</td><td>쿠지 티켓 5</td></tr></tbody></table></div>\n<h3>7. 저장하는 것 (v9)</h3>\n<div class=tw><table><thead><tr><th>묶음</th><th>내용</th></tr></thead><tbody><tr><td>프로필</td><td>이름, 고른 꾸밈</td></tr><tr><td>재화</td><td>은화, 연합의 결정, 쿠지 티켓, 젬스톤</td></tr><tr><td>행동력</td><td>지금 값, 기준 시각(유닉스 초)</td></tr><tr><td>계정</td><td>레벨, 경험치</td></tr><tr><td>영웅</td><td>24명마다 보유 여부·레벨·강화·쌓인 중복</td></tr><tr><td>쿠지</td><td>지금 판 번호·씨앗·뽑은 칸</td></tr><tr><td>수집</td><td>가진 꾸밈, 업적마다 진행·받은 횟수</td></tr><tr><td>기록</td><td>판 수, 승리, 최고 웨이브, 누적 처치, 쿠지 장 수, 영웅 레벨 업 수, 강화 수, 받은 일일 미션 수, 쿠지 판 새로 연 수</td></tr><tr><td>미션</td><td>일일(일 번호·목표별 진행·받음·보너스), 주간(주 번호·진행·받음·보너스)</td></tr><tr><td>은화 상점</td><td>일 번호, 칸마다 산 횟수</td></tr><tr><td>상점·우편</td><td>30일 보급 끝 날, 처리한 거래 id, 우편</td></tr></tbody></table></div>\n<ul>\n<li>옛 저장(v8)은 한 번 바꾼다: <code>convert_v9.json</code> — 뽑기 코인 5 → 쿠지 티켓 1(올림), 보석 → 젬스톤 1:1, 경험 결정 → 은화 70%, 종족 조각·조각 선택권 → 연합의 결정 ×5, 옛 레벨·각성에 쓴 것도 같은 비율로 돌려줌, 24 영웅 모두 보유(레벨 1·+0), 쿠지 1번 판, 행동력 가득, 계정 레벨 1. 바꾸기 전 v8 파일을 백업으로 남긴다. 구조 버전 표는 <code>14-배포-저장.md</code> §3-4.\n</li></ul>\n<h3>8. 일일 미션 · 주간 미션 (결정 0049 12)</h3>\n<ul>\n<li><strong>일일 미션</strong>(<code>daily.json</code>): 하루 5개. UTC+9 일 번호를 시드로 풀 16개에서 뽑는다(같은 날 같은 목록, 같은 종류는 하루에 하나). 5개를 모두 받으면 쿠지 티켓 5.\n</li>\n<li><strong>주간 미션</strong>(<code>weekly.json</code>): 7개 고정 목록, 월요일 0시(UTC+9)에 바뀐다. 모두 받으면 쿠지 티켓 15.\n</li>\n<li>둘 다 달성하면 <strong>«받기»</strong> 로 받는다. 날·주가 바뀌면 진행은 0 부터, 받지 않은 보상은 사라진다.\n</li>\n<li>«판 N번 하기» 는 웨이브 3 이상까지 간 판(또는 이긴 판)만 센다. 협동 판도 센다.\n</li>\n<li>화면: [미션] 창 위 탭 [일일] [주간], 탭마다 남은 시간 «n시간 m분». 줄 모양은 업적과 같다(왼쪽 미션 · 오른쪽 보상).\n</li>\n<li>망가지는 길: ① 시계를 되돌리면 같은 날을 다시 받는다(서버 판정은 M7-1). ② 하루에 할 수 없는 미션(재료가 없으면 못 하는 «영웅 레벨 업»)은 일일에 넣지 않았다 — 주간에만.\n</li></ul>\n<h3>9. 상점 · 우편함 · 젬스톤 (<code>Data/shop.json</code> · <code>mail.json</code>)</h3>\n<ul>\n<li>탭 넷: <strong>은화 상점</strong> · 패키지 · 젬스톤 · 교환.\n</li>\n<li><strong>은화 상점</strong>(일일 상점): 매일(UTC+9) 진열이 바뀐다. 고정 칸 = 쿠지 티켓 1(은화 200, 하루 10번) · 쿠지 티켓 10(은화 1,800, 하루 1번). 영웅 칸 4개 = 그날 일 번호를 시드로 단계(가중치 60·30·9·1)와 종족을 골라 채운다(같은 날 같은 영웅 없음), 칸마다 1번. 가격 400·1,200·4,000·12,000 은화. 다음 진열까지 남은 시간을 보인다.\n</li>\n<li>패키지: 30일 보급(4,900원: 즉시 젬스톤 300, 접속한 날마다 젬스톤 100 · 쿠지 티켓 4) · 쿠지 티켓 20/66/220. 젬스톤: 60~6,800 여섯 단계. 교환: 젬스톤 15 → 쿠지 티켓 1, 140 → 10.\n</li>\n<li>결제는 테스트 결제 그대로(<code>IStore</code> 뒤의 <code>TestStore</code>, 릴리스 빌드는 잠김). 같은 거래 id 는 두 번 지급하지 않는다.\n</li>\n<li>우편: 보관 30일, 받기·모두 받기, 운영 우편은 데이터로 내려보낸다(결정 0047 그대로). 주는 것의 종류는 새 재화 넷.\n</li>\n<li>젬스톤이 쿠지로도 생기므로 «돈으로만» 이 아니다. 실제 스토어를 붙일 때 무료·유료 젬스톤을 나눌지 정한다(환불·청약철회 처리).\n</li></ul>\n<h3>10. 행동력 (결정 0049 8 · <code>Data/stamina.json</code>)</h3>\n<ul>\n<li>최대치 = <code>maxBase</code>(60) + <code>maxPerLevel</code>(1) × (계정 레벨 − 1). 최대치 아래에서 <code>regenSeconds</code>(300초 = 5분)마다 1 찬다.\n</li>\n<li><strong>판을 시작할 때</strong> 쓴다: 싱글 <code>cost.single</code>(5), 협동 <code>cost.coop</code>(5). 모자라면 시작 버튼이 잠기고 «다음 1 까지 m:ss» 가 보인다. 판을 일찍 끝내도 돌려주지 않는다. 앱이 꺼져 «이어 하기» 로 같은 판을 다시 열 때는 쓰지 않는다.\n</li>\n<li><strong>앱이 꺼져 있던 동안도 찬다</strong>: 저장된 기준 시각(유닉스 초)과 지금 기기 시계의 차이로 계산한다. 시계가 거꾸로 가면(지금 &lt; 기준) 차지 않고 잃지도 않으며 기준을 지금으로 당긴다.\n</li>\n<li><strong>계정 레벨이 오르면</strong> 그때 최대치만큼(<code>levelUpGrantPct</code> 100%) 더한다. 최대치를 넘어 <code>hardCap</code>(999)까지 쌓일 수 있고, 최대치 이상인 동안은 차지 않는다.\n</li>\n<li>숫자 감각: 가득(60) = 12판, 다 차는 데 5시간, 보통 승리 한 판(약 10분, ×1 속도)에 2 가 찬다.\n</li>\n<li>망가지는 길: ① 기기 시계를 앞으로 돌리면 찬다(서버 시간은 M7-1). ② 너무 빡빡하면 «많이 주고 많이 뽑게» 와 부딪힌다 — 레벨 업 보충과 넉넉한 최대치로 하루 수십 판이 가능하게 두었다.\n</li></ul>\n<h3>11. 계정 레벨 (결정 0049 9 · <code>Data/account.json</code>)</h3>\n<ul>\n<li>레벨 L → L+1 경험치 = <code>expBase</code>(100) + <code>expStep</code>(50) × (L − 1). 최대 레벨 50(합 63,700).\n</li>\n<li>판이 끝날 때 한 번 받는다:\n<ul>\n<li><strong>싱글</strong>: 그 단계를 끝까지 막으면 <code>singleClearExp[단계]</code>(보통 100 · 어려움 150 · 정예 200 · 맵 2 는 120·180·240). 못 막으면 막은 웨이브 × 2(작게).\n</li>\n<li><strong>협동</strong>: 이기든 지든 팀이 막은 웨이브 × 4, 전원 같게(20웨이브 = 80 — 싱글 클리어보다 적게).\n</li></ul>\n</li>\n<li><strong>레벨 업 보상</strong>: 오른 레벨 L 마다 은화 300 + 20 × L · 쿠지 티켓 3. L 이 5의 배수면 연합의 결정 30 · 쿠지 티켓 10 을 더. 그리고 행동력 보충(§10). 결과 화면에서 레벨 업 연출과 받은 것을 보인다.\n</li>\n<li>왜: 사용자가 정한 «싱글 클리어는 많이, 협동은 진행 단계마다 조금씩». 레벨은 행동력 최대치를 늘리고 보충해 주어 «오래 한 사람이 더 많이 뽑는» 고리를 만든다.\n</li>\n<li>망가지는 길: 싱글 보통 단계만 반복하는 것이 가장 빠른 레벨 업이 되면 어려움을 할 이유가 없다 → 어려움·정예의 경험치를 1.5·2배로 두었다(판 보상 배율과 같다).\n</li></ul>",
+"at": "2026-11-17 10:36",
+"branch": "cd23",
 "dirty": false
 },
 {
@@ -4143,8 +4234,8 @@
 "file": "docs/14-배포-저장.md",
 "title": "14. 핸드폰 설치 · 새 빌드 · 콘텐츠 갱신 · 유저 정보 저장",
 "html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0009: §3-1~3-5 이어 하기·백업·기기 설정·버전 0.3.0 — 결정 0040·0041 사용자 확인 대기) · 2026-11-16(§3-4 저장 구조 버전 8 까지: 맵 고르기 CD-0009 · 상점·우편함 CD-0011) · 2026-11-16(§1-1·1-2 구축: Unity Cloud·CCD 버킷·Firebase·고정 서명 키·배포 한 줄 명령) · 상태: 구성 추천안(공식 문서·요금 페이지 확인, 2026-11-15). <strong>계정 연결은 사용자가 해야 한다.</strong>\n</li>\n<li>목표: 개발하는 동안 핸드폰에 설치해서 해 보고, 새 빌드를 받고, 그림·수치를 앱 재설치 없이 바꾸고, 유저 정보를 서버에 저장한다. 비용은 0에 가깝게.\n</li></ul>\n<h3>1. 고른 구성</h3>\n<div class=tw><table><thead><tr><th>필요</th><th>고른 것</th><th>무료 범위(공식)</th><th>비고</th></tr></thead><tbody><tr><td>핸드폰에 새 빌드 받기</td><td><strong>Firebase App Distribution</strong> + 평소엔 USB <code>adb install -r</code></td><td>무료(수치 한도 없음)</td><td>새 빌드를 올리면 폰에 알림. 출시 직전에 Google Play 내부 테스트(등록비 US$25 한 번)</td></tr><tr><td>그림·데이터를 재설치 없이 갱신</td><td><strong>Addressables 2.10.3 + Unity Cloud Content Delivery(CCD)</strong></td><td>대역폭 월 50 GB, 저장 무료</td><td>버킷(개발/출시) → 릴리스 → 배지(<code>latest</code>)</td></tr><tr><td>수치만 가볍게 바꾸기</td><td><strong>Unity Remote Config</strong></td><td>전부 무료</td><td><code>Data/*.json</code> 을 원격 값으로 덮어쓴다</td></tr><tr><td>계정</td><td><strong>Unity Authentication</strong> 익명 로그인</td><td>전부 무료</td><td>출시 전 Google Play Games 연결(기기 변경 대비)</td></tr><tr><td>유저 정보 저장</td><td><strong>Unity Cloud Save</strong></td><td>저장 5 GiB, 읽기·쓰기 각 100만 회</td><td>플레이어당 키 2,000개·5 MiB</td></tr><tr><td>서버에서 뽑기·재화 처리</td><td><strong>Unity Cloud Code</strong> (출시 전)</td><td>호출 100만 회</td><td>★ 최신 패키지 3.0 은 Unity 6.7 이상. <strong>6.3 에서 쓸 수 있는 버전이 있는지 먼저 확인해야 한다</strong></td></tr><tr><td>협동 중계</td><td>Unity Relay (M4)</td><td>월평균 동시접속 50명</td><td>결정 0003</td></tr></tbody></table></div>\n<ul>\n<li><strong>Unity Economy 는 쓸 수 없다.</strong> 2026-09-08 부터 새 프로젝트 가입을 받지 않는다. 재화·상자는 Cloud Save 에 직접 저장한다.\n</li>\n<li>한 곳(Unity Gaming Services)으로 모은 이유: 협동(Relay)에 어차피 Unity 계정과 인증이 필요하고, 대시보드와 명령 도구가 하나다. 빌드 배포만 Firebase 를 쓴다.\n</li>\n<li>위험: Unity 는 서비스를 접은 적이 있다(Multiplay 2026-03, Economy 신규 중단). 그래서 저장·뽑기 코드는 <strong>인터페이스 뒤에 숨겨</strong> 다른 서버로 바꿀 수 있게 만든다.\n</li>\n<li><strong>Firebase App Distribution 은 테스트 기간용이다.</strong> 실서비스 앱 배포는 Google Play 가 맡는다(M7). CCD·UGS·서명 키는 실서비스까지 그대로 간다.\n</li></ul>\n<h3>1-1. 계정과 연결 (2026-11-16 구축, 대표 직접)</h3>\n<div class=tw><table><thead><tr><th>무엇</th><th>값</th><th>확인</th></tr></thead><tbody><tr><td>Unity Cloud 프로젝트</td><td><code>CoopDefense</code> · id <code>f4c4460b-2b57-4c46-9485-ab701b3cfd7b</code> · 조직 <code>dbc594f4-…</code>(genesis 14568767606770) · COPPA «아동 대상 아님»</td><td><code>unity projects link cloud</code> 로 만들고 대시보드에서 이름을 바꿨다. <code>ProjectSettings</code> 의 <code>projectName</code> 은 아직 <code>UnityProject</code>(에디터가 열 때 맞추는지 확인 안 함)</td></tr><tr><td>CCD</td><td>가입(주문 OC-00151164, $0, 월 50 GB 넘으면 GB당 $0.08) · 환경 <code>production</code> · 버킷 <strong><code>android-dev</code></strong> id <code>40859a40-fb29-4e36-8ab8-bebde29d24f3</code> · 공개 · Regular</td><td>CD-0014 에서 사용. 버킷 안 경로 <code>Android/</code>(폰)·<code>StandaloneWindows64/</code>(PC 시험): 앱 버전별 카탈로그 <code>catalog_&lt;버전&gt;.bin/.hash</code>, 바뀐 그림 묶음, 새 빌드 알림 파일 <code>app_version.json</code>. 배지 <code>latest</code> 는 CCD 가 가장 새 릴리스에 스스로 붙인다(직접 붙이면 400)</td></tr><tr><td>Firebase</td><td>프로젝트 <code>coopdefense</code>(번호 320478939297, Spark 무료, Analytics·Gemini 끔) · 안드로이드 앱 <code>1:320478939297:android:e026ed3e001988bf86c8e0</code>(<code>com.local.coopdefense</code>) · 테스터 그룹 <code>testers</code>(<strong>1명</strong>, 사용자 본인 메일, 11-16 등록)</td><td>0.4.0(4) 첫 업로드는 등록 전이라 폰에 가지 않았다. <strong>같은 날 두 번째 0.4.0(4)를 보내 초대 메일 → 설치까지 사용자 폰에서 됐다</strong>(사용자 확인)</td></tr><tr><td>서명 키</td><td><code>%USERPROFILE%\\.coopdefense\\signing\\</code> 의 <code>coopdefense-release.keystore</code>(PKCS12, 별칭 <code>coopdefense</code>, SHA-256 <code>DB:94:3E:…:F4:1B</code>) + <code>signing.json</code>(비밀번호). <strong>저장소 밖, 커밋 금지</strong></td><td><code>apksigner</code> 로 APK 인증서가 이 키인 것을 확인. <strong>이 폴더를 잃으면 테스터 폰에 업데이트를 깔 수 없다 → 따로 백업</strong></td></tr></tbody></table></div>\n<h3>1-2. 새 빌드를 테스터 폰에 보내기</h3>\n<pre><code>powershell -ExecutionPolicy Bypass -File tools\\distribute_android.ps1 -Notes &quot;바뀐 것&quot;   # 빌드(고정 키 필수) → Firebase → 그룹 testers\npowershell -ExecutionPolicy Bypass -File tools\\distribute_android.ps1 -SkipBuild        # 이미 만든 APK 를 다시 보낸다\nfirebase.cmd appdistribution:testers:add --project coopdefense --group-alias testers a@x.com b@y.com   # 테스터 추가</code></pre>\n<ul>\n<li>테스터 폰: 초대 메일 → 수락 → 메일 링크나 App Tester 앱으로 설치. «출처를 알 수 없는 앱 설치» 허용이 필요하다.\n</li>\n<li><strong>업데이트로 깔리려면 <code>versionCode</code> 가 폰에 있는 것보다 커야 하고 서명 키가 같아야 한다.</strong> 키는 <code>build_android.ps1</code> 가 <code>signing.json</code> 에서 읽어 이 빌드에만 넣는다(<code>AndroidSigning.cs</code>, ProjectSettings 에 남기지 않음). 파일이 없으면 디버그 키로 빌드하고 경고, <code>-RequireSigning</code>(배포 스크립트가 붙인다)이면 실패.\n</li>\n<li>이 PC 의 PowerShell 은 스크립트 실행 정책 때문에 <code>firebase</code> 대신 <strong><code>firebase.cmd</code></strong> 로 부른다. CLI 로그인은 이 PC 의 Google 계정(Firebase 프로젝트 만든 계정)으로 돼 있다.\n</li>\n<li><code>distribute_android.ps1</code> 은 Firebase 업로드 뒤 그 릴리스의 테스터 링크로 <strong><code>Android/app_version.json</code></strong> 도 CCD 에 올린다(CD-0014). 그래서 이 명령으로 보낸 빌드보다 낮은 versionCode 의 앱은 켤 때 막힌다(아래 §1-3). <strong>코드가 바뀐 빌드는 versionCode 를 꼭 올린다</strong>(<code>ProjectSetup.AndroidVersionCode</code>).\n</li></ul>\n<h3>1-3. 앱이 켜질 때: 패치 화면 → 로딩 화면 → 로비 (CD-0014, 사용자 결정 11-17)</h3>\n<pre><code>① 패치 화면  새 빌드 확인: app_version.json 의 versionCode &gt; 폰 → «새 버전이 나왔어요» [받으러 가기] 하나, 닫기 없음(항상 필수)\n             원격 카탈로그 확인(8초 제한) → 받을 크기 &gt; 0 → «받을 데이터가 있어요 N MB» [확인] 하나(거절 없음)\n             → 다운로드 진행 막대(받은 MB / 전체 MB · %) → 완료 → 받다 실패하면 [다시 시도]\n             오프라인·버전 파일 못 읽음·받을 것 없음 → 창 없이 지나감(앱 안 그림 또는 전에 받은 그림)\n② 로딩 화면  단계 목록(데이터 → 그림 카탈로그 → 저장 → 화면). 서버 연결·로그인은 나중에 `App/LoadingSteps` 에 한 단계로 더한다\n③ 로비      패치→로딩 Fade 0.35초, 로딩→로비 Dissolve 0.5초(`UI/ScreenTransition`)</code></pre>\n<div class=tw><table><thead><tr><th>할 일</th><th>명령</th></tr></thead><tbody><tr><td>그림만 바뀜 → 폰이 재설치 없이 받게</td><td><code>powershell -ExecutionPolicy Bypass -File tools\\cdn_update.ps1 -Gui</code> (Addressables 콘텐츠 업데이트 → CCD 동기화 → 새 릴리스)</td></tr><tr><td>코드 바뀜 → 새 APK</td><td>versionCode 올림 → <code>tools\\distribute_android.ps1 -Notes \"…\"</code> (APK + 버전 파일)</td></tr><tr><td>버전 파일만 다시</td><td><code>tools\\app_version_upload.ps1 -Gui -VersionCode &lt;n&gt; -Url &lt;링크&gt;</code></td></tr></tbody></table></div>\n<ul>\n<li><strong>그림은 앱 안에 기본본이 들어 있다</strong>(Addressables 그룹 <code>Art</code>, 로컬 빌드). 원격은 바뀐 것만 받는다. 카탈로그는 앱 버전별(<code>catalog_0.5.0</code>) — 옛 버전 앱은 새 버전 카탈로그를 읽지 않는다. 콘텐츠 업데이트는 그 버전의 기본 빌드가 남긴 <code>UnityProject/ContentState/&lt;버전&gt;/Android/addressables_content_state.bin</code>(커밋함)을 기준으로 한다. 그래서 <strong>폰에 깔린 APK 와 같은 기본 빌드의 content state 로 올려야 한다</strong>(중간에 다시 빌드했으면 그 APK 를 다시 깐다).\n</li>\n<li>업로드는 <strong>유니티 편집기 창이 잠깐 뜨는 방식(<code>-Gui</code>)</strong> 이다 — 배치 모드에서는 편집기 로그인 토큰이 비어 인증이 안 된다. Unity Hub 에 로그인돼 있어야 하고 그 프로젝트를 편집기로 열어 두면 안 된다. 화면 없이 돌리려면 UGS 서비스 계정 키(대시보드 → Service Accounts, CCD 관리 권한만, 저장소 밖 환경 변수 <code>CD_CCD_SERVICE_ACCOUNT</code>)가 필요하다 — 아직 만들지 않았다.\n</li>\n<li><strong>CCD 는 올린 뒤 공개 주소에 반영되기까지 몇 분 걸릴 수 있다</strong>(11-17 실측: 대시보드는 즉시 <code>latest</code> 이동, 공개 주소는 수 분 뒤). 올리자마자 폰을 켜면 이전 그림이 보일 수 있다.\n</li>\n<li>같은 버킷이라 PC 시험 업로드도 <code>latest</code> 릴리스를 새로 만든다. 동기화는 경로별(<code>Android/</code>, <code>StandaloneWindows64/</code>)이라 서로의 파일은 그대로다.\n</li></ul>\n<h3>2. 단계</h3>\n<div class=tw><table><thead><tr><th>단계</th><th>하는 것</th><th>언제</th></tr></thead><tbody><tr><td>1</td><td>안드로이드 빌드 → USB 로 폰에 설치(<code>unity build</code> → <code>adb install -r</code>)</td><td>첫 목표</td></tr><tr><td>2</td><td>유저 정보를 <strong>기기에 저장</strong>(저장 인터페이스 + 로컬 구현, 버전 번호 포함)</td><td>첫 목표</td></tr><tr><td>3</td><td>Unity 프로젝트를 클라우드에 연결, 익명 로그인, Cloud Save 로 동기화</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>4</td><td>Firebase App Distribution 으로 빌드 올리기 한 줄 명령</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>5</td><td>Addressables 로 그림을 묶고 CCD 에서 받기. 임시 그림 → 본 그림 교체가 재설치 없이 된다</td><td><strong>됨(CD-0014, 11-17)</strong> — 폰에서 바뀐 그림 받기·되돌리기 확인, §1-3</td></tr><tr><td>6</td><td>Remote Config 로 수치 덮어쓰기</td><td>보상·육성 단계</td></tr><tr><td>7</td><td>뽑기·재화 계산을 서버(Cloud Code)로 옮김, Google Play Games 연결</td><td>출시 전</td></tr></tbody></table></div>\n<h3>3. 저장 구조</h3>\n<ul>\n<li><strong>저장 인터페이스</strong> 하나(<code>IPlayerStore</code>: 불러오기, 저장하기)에 구현 둘: 기기 파일, Cloud Save. 게임 코드는 인터페이스만 안다.\n</li>\n<li><strong>기기 먼저, 서버는 동기화.</strong> 판이 끝나거나 쿠지를 뽑을 때 기기에 쓰고 곧바로 서버에 올린다. 오프라인이면 다음에 올린다.\n</li>\n<li>데이터에 <strong>버전 번호</strong>를 넣는다. 구조가 바뀌면 옛 저장을 새 구조로 옮기는 코드를 같이 쓴다(저장이 깨지면 유저가 떠난다).\n</li>\n<li>충돌: 서버와 기기가 다르면 «더 나중에 저장된 쪽» 을 쓰되, 재화는 줄어드는 방향의 덮어쓰기를 기록으로 남긴다(초안).\n</li>\n<li>내용: <code>13-보상-육성-꾸밈.md</code> §7 의 여섯 묶음.\n</li>\n<li>개발 단계의 한계: 기기에서 계산하므로 조작할 수 있다. 출시 전 7단계에서 막는다. 지금은 혼자 쓰는 빌드라 문제가 아니다.\n</li>\n<li><strong>지금 구현은 기기 파일 하나뿐이다</strong>(<code>IPlayerStore</code> 의 구현은 <code>FilePlayerStore</code>, <code>player.json</code>). Cloud Save 구현은 아직 없다(코드로 확인).\n</li></ul>\n<h4>3-1. 판 이어 하기 (결정 0040 — 대표 초안 · 사용자 확인 대기)</h4>\n<ul>\n<li>싱글 판 중 <strong>웨이브가 시작될 때마다 · 앱이 뒤로 갈 때 · 앱이 종료될 때</strong> <code>match-resume.json</code> 을 저장 옆에 원자 저장(임시 파일 + 바꿔 넣기)한다. 판이 끝나거나(승리·패배·메뉴 포기) «다시 하기» 로 버리거나 카드에서 포기하면 지운다.\n</li>\n<li>내용: 파일 형식(1) · <strong>앱 버전</strong> · 시각 · 이유 · 단계 id · 시드 · 웨이브 · 깬 웨이브 · 처치 · 틱 · 상태 해시 · Core 스냅샷 문자열(머리 <code>CDSNAP4</code>(CD-0010 부터 · 옛 <code>CDSNAP3</code> 은 <code>SnapshotVersionException</code>), 시드·loadout·미션·현상금·강화·특성 상태 포함. 최대 약 2.5 KB).\n</li>\n<li>다시 켜서 로비에 오면 <strong>복원해 해시가 쓴 때와 같은지</strong> 확인한다. 같으면 «이어 하기» 카드(단계 · 웨이브)에서 [이어 하기](일시정지 메뉴가 열린 채 시작) / [포기](한 번 확인 뒤 정산). 이어 할 판이 있으면 [출전] 은 막힌다.\n</li>\n<li><strong>앱 버전이 다르거나 · 형식이 다르거나 · 스냅샷을 못 읽거나 · 해시가 다르면</strong> «지난 판을 이어 할 수 없어요» 토스트 한 번과 <strong>포기 정산</strong>(그 판의 깬 웨이브만큼 판 보상 — 은화·연합의 결정, 난이도 배율 반영 · 결정 0049) 뒤 파일을 지운다.\n</li>\n<li>협동은 이어 하기가 없다. 실기기 확인은 못 했다(에디터에서 «앱 뒤로 감 → 다시 켬» 흉내만).\n</li></ul>\n<h4>3-2. 저장 백업</h4>\n<ul>\n<li>저장할 때마다 이전 파일을 <code>player.json.bak</code> 한 개로 남긴다. 읽기에 실패하면 깨진 파일은 <code>player.json.broken-&lt;시각&gt;</code> 으로 옆에 보관하고 <code>.bak</code> 로 복구한다(로그만, 화면 알림 없음). <code>.bak</code> 도 깨졌으면 새 저장으로 시작한다.\n</li></ul>\n<h4>3-3. 기기 설정 (PlayerPrefs — 저장 파일 밖)</h4>\n<div class=tw><table><thead><tr><th>키</th><th>뜻</th><th>기본</th></tr></thead><tbody><tr><td><code>cd.gfx</code></td><td>그래픽 품질 1 높음 · 0 낮음(다음 판부터)</td><td>1</td></tr><tr><td><code>cd.fps</code></td><td>프레임 60 · 30</td><td>60</td></tr><tr><td><code>settings.sound</code> · <code>settings.music</code> · <code>settings.vibration</code></td><td>소리·음악·진동 켬/끔</td><td>1</td></tr><tr><td><code>settings.soundVolume</code> · <code>settings.musicVolume</code></td><td>음량 0~100</td><td>100</td></tr></tbody></table></div>\n<ul>\n<li>저장 초기화(설정 → 두 번 확인)는 <code>player.json</code>·<code>.bak</code>·<code>match-resume.json</code> 만 지우고 위 설정은 남긴다. 낮음에서 꺼지는 것은 결정 0041.\n</li></ul>\n<h4>3-4. 저장 구조 버전 — 지금 <strong>8</strong>, CD-0015 에서 <strong>9</strong> (<code>PlayerData.CurrentVersion</code>)</h4>\n<div class=tw><table><thead><tr><th>버전</th><th>주문</th><th>더한 것</th></tr></thead><tbody><tr><td>2</td><td>CD-0006</td><td>대표 캐릭터 · 종족 조각 선택권 · 박스 판</td></tr><tr><td>3</td><td>CD-0007</td><td>첫 판 길잡이 완료 · 최근 판</td></tr><tr><td>4</td><td>CD-0007</td><td>난이도 단계(이긴 단계가 다음을 연다). 이긴 판이 있는 옛 저장은 첫 단계를 이긴 것으로 옮긴다</td></tr><tr><td>5</td><td>CD-0009</td><td>이름을 정했는가(<code>profile.nameChosen</code>) — 옛 저장은 «아직» 으로 옮겨 한 번 묻는다</td></tr><tr><td>6</td><td>CD-0009</td><td>일일 목표 진행(<code>daily</code>) — 옛 저장은 빈 진행</td></tr><tr><td>7</td><td>CD-0009</td><td>로비에서 마지막에 고른 맵(<code>lastMap</code>, 결정 0043) — 옛 저장은 첫 맵</td></tr><tr><td>8</td><td>CD-0011</td><td>보석(<code>currency.gems</code>)·상점(30일 보급·끝난 구매)·우편함(결정 0046·0047) — 옛 저장은 모두 빈 값</td></tr><tr><td>9</td><td>CD-0015</td><td>결정 0049: 은화·연합의 결정·쿠지 티켓·젬스톤·행동력(기준 시각)·계정 레벨·영웅(보유·레벨·강화·중복)·쿠지 판·업적 받은 횟수·일일/주간 미션·은화 상점. 뽑기 코인·경험 결정·종족 조각·조각 선택권·각성·박스 판을 지운다. 옛 저장은 <code>Data/convert_v9.json</code> 비율로 한 번 바꾸고 바꾸기 전 v8 파일을 <code>player.v8.bak</code> 으로 남긴다(<code>13-보상-육성-꾸밈.md</code> §7)</td></tr></tbody></table></div>\n<ul>\n<li>옛 저장은 한 단계씩 옮기는 코드(<code>PlayerDataMigrations</code>)로 읽는다. 버전 1 → 2 이후 각 단계의 옮김이 코드에 있다.\n</li></ul>\n<h4>3-5. 앱 이름·버전 (CD-0009)</h4>\n<ul>\n<li>버전 <strong>0.3.0</strong>, 안드로이드 <code>versionCode</code> 3(<code>ProjectSetup.AppVersion</code>·<code>AndroidVersionCode</code>). 이어 하기는 앱 버전이 다르면 포기 정산이므로(§3-1) 버전을 올린 빌드를 깔면 진행 중이던 판은 정산된다.\n</li>\n<li>폰 홈 화면 글자는 «포트메이츠»(게임 이름 «포트메이츠: 같이 지킬래?» 의 본체, 결정 0052 · 안드로이드 빌드 동안만 <code>productName</code> 을 바꾼다), 유니티 제품명·폴더는 <code>CoopDefense</code> 그대로. 앱 아이콘·스플래시는 결정 0041. 실제 홈 화면 글자·아이콘·스플래시는 빌드로 확인하지 못했다.\n</li></ul>\n<h3>4. 임시 그림 → 본 그림 교체</h3>\n<ul>\n<li>모든 그림은 <strong>이름표(주소)</strong> 로 부른다. 예: <code>unit/human/1</code>, <code>monster/goblin_grunt</code>, <code>ui/button_summon</code>.\n</li>\n<li>임시 그림과 본 그림은 같은 이름표를 쓴다. 본 그림이 나오면 <strong>그 파일만 바꿔</strong> CCD 에 올린다. 코드와 앱은 그대로다.\n</li>\n<li><code>Data/assets.json</code> 에 이름표마다 상태(임시/본)를 적고, 개발 현황 사이트에 교체 진행률을 싣는다.\n</li></ul>\n<h3>5. 사용자가 해야 하는 일</h3>\n<ol>\n<li>~~Unity 계정 로그인·클라우드 연결~~ — 2026-11-16 됨(§1-1).\n</li>\n<li>~~Firebase 프로젝트~~ — 2026-11-16 됨. 테스터 1명 등록(늘리면 그룹 <code>testers</code> 에 넣는다). 폰에서 초대 메일을 연다.\n</li>\n<li>핸드폰에서 <strong>개발자 옵션 → USB 디버깅</strong> 켜기(USB 설치용) — 아직.\n</li>\n<li>서명 키 폴더(<code>%USERPROFILE%\\.coopdefense\\signing\\</code>) 백업 — 아직.\n</li></ol>\n<p>이메일·기기·백업은 사용자만 할 수 있다.</p>\n<h3>6. 확인하지 못한 것</h3>\n<ul>\n<li>Cloud Code 가 Unity 6.3 에서 돌아가는 패키지 버전(7단계 전에 확인)\n</li>\n<li>Firebase 테스터 앱이 폰에 필요한지(검색으로는 «선택, 권장». 실기기로는 확인 안 함)\n</li>\n<li>~~테스터 폰에 실제로 설치되는지~~ — 11-16 사용자 폰에 설치됨. 다음 빌드가 «업데이트» 로 깔리는지(같은 키·더 큰 versionCode)는 아직\n</li>\n<li>Google Play Games 로 기기를 바꿨을 때의 정확한 흐름\n</li>\n<li>박스 뽑기(비복원 추첨)가 확률 공개 규정에서 어느 유형인지, 해설서 원문\n</li>\n<li>GitHub Releases 를 Addressables 원격 경로로 쓰는 방식(쓰지 않기로 했으므로 조사하지 않음)\n</li>\n<li>폰(0.5.0)에서 패치 화면·«받을 데이터 N MB» 창·진행 막대·«새 버전이 나왔어요» 창과 Firebase 링크 열림(PC 에서만 확인, CD-0014 사람 확인 남음). 0.4.0 → 0.5.0 이 «업데이트» 로 깔리는지\n</li>\n<li>그래픽 «낮음» 에서 패치·전환 연출의 실제 모습\n</li></ul>\n<h3>출처</h3>\n<ul>\n<li><a href=\"https://firebase.google.com/docs/app-distribution\" rel=\"noopener\" target=\"_blank\">Firebase App Distribution</a> · <a href=\"https://firebase.google.com/docs/app-distribution/android/distribute-cli\" rel=\"noopener\" target=\"_blank\">CLI 배포</a> · <a href=\"https://firebase.google.com/pricing\" rel=\"noopener\" target=\"_blank\">Firebase 요금</a>\n</li>\n<li><a href=\"https://unity.com/products/gaming-services/pricing\" rel=\"noopener\" target=\"_blank\">Unity Gaming Services 요금</a> · <a href=\"https://docs.unity.com/ugs/manual/ccd/manual/UnityCCD\" rel=\"noopener\" target=\"_blank\">CCD 개념</a> · <a href=\"https://docs.unity.com/en-us/ccd/cli\" rel=\"noopener\" target=\"_blank\">CCD 명령 도구</a>\n</li>\n<li><a href=\"https://docs.unity.com/en-us/engine/6000.3/manual/packages-list/packages-all/pack-safe/com-unity-addressables\" rel=\"noopener\" target=\"_blank\">Addressables (6000.3)</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-save/manual/concepts/player-data\" rel=\"noopener\" target=\"_blank\">Cloud Save 플레이어 데이터</a> · <a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-code/manual\" rel=\"noopener\" target=\"_blank\">Cloud Code</a> · <a href=\"https://docs.unity.com/en-us/economy/index\" rel=\"noopener\" target=\"_blank\">Economy 신규 중단</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/authentication/manual/platform-signin-google-play-games\" rel=\"noopener\" target=\"_blank\">Google Play Games 로그인 연결</a> · <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465\" rel=\"noopener\" target=\"_blank\">Play 테스트 요건</a>\n</li>\n<li><a href=\"https://www.mcst.go.kr/kor/s_notice/notice/noticeView.jsp?pSeq=17856\" rel=\"noopener\" target=\"_blank\">확률형 아이템 해설서 공지(문체부)</a> · <a href=\"https://zdnet.co.kr/view/?no=20240222164405\" rel=\"noopener\" target=\"_blank\">유·무료 구분 보도(ZDNet)</a>\n</li></ul>",
-"at": "2026-11-17 10:16",
-"branch": "cd14",
+"at": "2026-11-17 10:36",
+"branch": "cd18",
 "dirty": false
 },
 {
@@ -4176,7 +4267,7 @@
 1150,
 4000
 ],
-"_aftermathNote": "여파 초당 피해 = burnDamagePerSecond × stageDamagePct[단계] / 100 (영웅 레벨·강화·종족 강화를 같은 순서로 곱한다, docs/11 §12-2).",
+"_aftermathNote": "여파 초당 피해 = burnDamagePerSecond × stageDamagePct[단계] / 100 (영웅 레벨·강화·판 안 단계 강화를 같은 순서로 곱한다, docs/11 §12-2).",
 "races": [
 {
 "id": "human",
@@ -4380,8 +4471,8 @@
 }
 ]
 },
-"at": "2026-11-17 10:16",
-"branch": "cd14",
+"at": "2026-11-17 10:35",
+"branch": "cd23",
 "dirty": false
 },
 "economy": {
@@ -10169,9 +10260,9 @@
 {
 "file": "2026-11-17.md",
 "title": "2026-11-17",
-"html": "<h3>한 일 — 앱 아이콘 새 그림(결정 0051)</h3>\n<ul>\n<li>사용자: «앱 아이콘도 새롭게 리소스 제작이 필요할 것 같아» → 콘셉트 «캐릭터 + 소환 모티프, 여캐» → 시안 A(엘프 4단계 이실리아)·B(용족 4단계 아즈가리아)를 본 뒤 «리엘로 해줘».\n</li>\n<li>Codex 3장(<code>gen.py --key app_icon_elf | app_icon_dragon | app_icon_liel --force</code>). 도구 상한(7일 150장)을 이미 넘어 있어(11-15 하루 168장) 사용자가 사용량 페이지를 확인하고 <strong>이번 아이콘에 한해 최대 4장</strong> 허락했다. 상한이 저절로 풀리는 시각은 11-22 21:36(도구 기록 기준).\n</li>\n<li>고른 그림을 <code>accept.py --icon liel</code> 로 <code>art/final/icon/app.png</code>(시안)에 넣고, <code>app_icon.py --art</code> 로 유니티 아이콘 4장(<code>Art/AppIcon/</code>, 파일 이름 그대로)을 다시 만들었다.\n</li>\n<li>도구: <code>app_icon.py --art</code>(전용 그림 → 둥근 사각·원·적응형 배경/전경) · <code>--preview-only</code>, <code>check.py</code> 에 그림 종류 <code>icon</code>(1024×1024 RGB), <code>accept.py --icon</code>, <code>import_art.py</code> 는 <code>art/final/icon/</code> 을 복사하지 않음. 목록에 묶음 «앱 아이콘»·항목 <code>icon/app</code>, 장부 5줄(새 그림 1 + 아이콘 4줄 고침). 스킬 <code>cd-art</code> 규격표에 한 줄. 결정 0041 §2 에 «0051 로 대체» 표시.\n</li>\n<li>사용자 «코인이 너무 밋밋한데» → 같은 Codex 세션을 이어 코인만 금화(구슬 테·잎 고리·반짝임)로 다시 그렸다(<code>gen.py --key app_icon_liel_gold --force</code>, 허락분 4장째 — 다 씀). 코인 밖 픽셀 변화 0.4%. 금화로 한 이유: 은빛 코인이 하늘색에 묻혔고, 결정 0049 로 은색 코인은 판 밖 «은화», 판 안 소환은 골드다. <code>art/final/icon/app.png</code> 와 아이콘 4장을 이 그림으로 다시 만들었다.\n</li>\n<li>번호: 0050 은 worktree <code>fin-meta</code>(cd19, 커밋 전)가 쓰고 있어서 0051 로 했다.\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li><code>app_icon.py</code> 의 옛 방식(<code>--face elf/1</code>)이 지금 아이콘 4장을 바이트 그대로 만든다(되돌리기 경로).\n</li>\n<li>눈 검수: 확정 일러스트 <code>elf/1</code> 과 나란히 — 같은 인물(단발·긴 귀·초록 튜닉·밧줄 허리띠·장난감 활), 같은 선·채색. 크기 시트 512~36px·적응형·홈 화면 흉내에서 48px 에 얼굴과 코인이 구분된다. 시트: <code>art/raw/appicon_preview_final.png</code>(git 제외).\n</li>\n<li><code>python tools/studio.py check</code> 통과: Core 301/301 · 데이터 · 그림 58장 오류 0 경고 0 · 설정 오류 0. <code>import_art.py --check</code> 0 differ.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>유니티 재가져오기·빌드·폰 홈 화면: 이 시각 다른 세션이 같은 체크아웃으로 유니티를 열어 두고 있었다(잠금 파일, <code>InitTestScene…</code> 생김). 다음 APK 빌드에서 본다. PlayerSettings 는 같은 파일 이름이라 바꿀 것이 없다.\n</li>\n<li>사용자 «확정»(그림 상태는 <code>draft</code>).\n</li></ul>\n<h3>CD-0021 게임 이름 확정 — «포트메이츠: 같이 지킬래?» (줄기 <code>cd21</code>)</h3>\n<ul>\n<li>사용자와 이름 후보를 여러 번 좁혔다(기준: 디펜스·협동이 보일 것, 안 겹칠 것, 입에 감길 것, 해외 번역 문제 없을 것). 확정: <strong>포트메이츠: 같이 지킬래? / Fortmates: Guard With Me?</strong> → 결정 0052. 옛 작업명 «프로젝트CD» 는 금지어(<code>canon_lint.py</code>).\n</li>\n<li>반영: CLAUDE.md, 스킬 cd-canon·cd-art·studio, 에이전트 studio-art, docs/10(«게임 이름» 절)·docs/14, 결정 0030·0041 에 «0052 로 대체», milestones 이름, 프로젝트 메모리, <code>Desktop\\Claude\\README.md</code>.\n</li>\n<li>게임: 로딩 화면 로고를 두 줄 글자 로고로 다시 구움(<code>ui_marks.py --only logo_text</code>, 1000×390), 로고 상자 920×359@-85(«?» 가 구름에 닿지 않게 25 올림). 안드로이드 홈 화면 글자 «포트메이츠».\n</li>\n<li>검증: <code>studio.py check</code> 통과, EditMode 101/102(기존 날짜 의존 결함 1), 로딩 화면 캡처, QA PASS. 안드로이드 실기기 확인은 안 함.\n</li>\n<li>남은 일: 상표 검색과 폴더·제품명 변경 여부(M7-9). main 합치기는 main 의 다른 세션 변경이 커밋된 뒤, 사용자 승인 뒤.\n</li></ul>\n<h3>새벽 — 그림자 무리 그림 새 방향 (주문 CD-0022 · 줄기 cd19 · worktree fin-meta)</h3>\n<p>사용자: «몬스터 리소스 작업이 안된 것 같은데 임시 내용 확인하고 몬스터 리소스 작업 진행하자».</p>\n<h4>확인한 «임시» 상태</h4>\n<ul>\n<li>몬스터 그림은 CD-0005·0008 의 Codex 시안 13장(귀여운 남보라 치비)이 유니티 <code>Art/Temp</code> 에만 있었다(확정 전). 판에서는 셰이더가 검게 칠해 썼다(결정 0045).\n</li>\n<li>떼·날개·응어리는 다른 몬스터 그림을 크기만 바꿔 빌려 썼다. 날개는 날개 없는 추적자가 공중에 떠 있었다.\n</li>\n<li><code>art-manifest.json</code> 은 «옛 임시 그림 1종(고블린)» 으로 낡아 있었다.\n</li>\n<li>Codex 그림은 도구 상한(7일 174/150)으로 11-22 까지 막혀 있었다.\n</li></ul>\n<h4>한 일</h4>\n<ul>\n<li>사용자 지시로 <code>tools/codex.py</code> 의 그림 상한을 없앴다(결정 0050). 실제 한도에 걸리면 그 창을 막고 보고한다. 리뷰·질문 상한은 그대로.\n</li>\n<li>떼·날개·응어리 고유 그림 3장(1차, 귀여운 쪽)을 넣었다.\n</li>\n<li>사용자가 참고 이미지로 «검은 실루엣·청록 발광선·검은 연기» 느낌을 지정했다. 그 이미지는 다른 작품의 그림자 군단이라 인물 생김새는 가져오지 않고 장르 공통 느낌만 쓰기로 했다(규칙 5).\n<ul>\n<li>«SD 비율 + 위협적», «시안 2장 먼저» → 보병·방패병 시안 → «컨셉 괜찮다, 정식 진행».\n</li>\n<li>16장 전부를 새 Codex 세션(영웅 SD 참고)으로 다시 그렸다(결정 0053). 보병 4종, 사냥개, 방패병, 뿔 짐승 거수, 기는 떼, 막 날개 마물, 꿰맨 사슬 거한, 현상금 6.\n</li></ul>\n</li>\n<li>셰이더 <code>CD_SHADE</code> 가 새 그림의 청록선을 잿빛으로 뭉개서 그림 색을 그대로 쓰게 고쳤다. 떼 크기 70 → 90.\n</li>\n<li>장부 16줄, 목록 16항목, <code>docs/03</code>·<code>12</code>, 결정 0050·0053.\n</li>\n<li>Codex 그림 20회(재시도 1), 한도 걸림 0.\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>Core 301/301. 데이터·그림·설정 검사 통과. <code>test_codex.py</code> 통과.\n</li>\n<li>PlayMode 의 새·고친 테스트 통과. 판 캡처(웨이브 2·4·13)에서 생김새와 청록선이 읽힌다.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>EditMode 85/86, PlayMode 실패 4. 전부 일일 목표가 날짜(11-17)로 뽑혀 코인이 +11·+9 되는 기존 테스트이고, 이번 변경과 무관하다고 본다. main 에서 오늘 같은 테스트를 돌려 보지는 않았다.\n</li>\n<li>움직이는 모습, PC·안드로이드 빌드, 폰, 사람 플레이. 그림 사용자 확정(전부 temp).\n</li>\n<li>main 반영·커밋·푸시는 사용자 확인 대기. 현황 사이트 갱신은 main 반영 뒤.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자: 판에서 새 몬스터 보기 → 확정이면 <code>art/final</code> 로.\n</li>\n<li>날짜 실패 테스트가 날짜를 고정하게 고치기(후속).\n</li></ul>\n<h3>CD-0019 독립 시뮬레이터와 봇 3종 · 1만 판 밸런스 배치 (M2-3·M2-4)</h3>\n<p>메인 세션(대표)이 맡긴 일. 줄기 <code>claude/relaxed-sinoussi-a73046</code>(main 6b07a50 위), main 병합·푸시는 사용자 확인 대기.</p>\n<h4>한 일</h4>\n<ul>\n<li><code>tools/sim/</code>: 유니티 없이 진짜 Core·<code>Data/</code> 로 판을 끝까지 돌리는 net10.0 콘솔. <code>play</code>(시드·맵·난이도·봇·인원 → 결과 한 줄 JSON) · <code>batch</code> · <code>summarize</code> · <code>tables</code>(판 밖 확률표 대량 추첨). 한 줄 재실행 <code>powershell -ExecutionPolicy Bypass -File tools\\sim\\run_batch.ps1</code>.\n</li>\n<li>봇 3종: simple(SimpleBot) · focus(FocusBot, 시험 폴더 파일을 링크) · 새 OneRaceBot(지정 종족만 강화·나머지 판매). 배치 변형 8개(simple, focus, onerace×6).\n</li>\n<li>1만 판: 6세트 × 8변형 × 시드 1..210 = 10,080판, 예외·시간 초과 0, 약 31초(병렬 20).\n</li>\n<li>요약 <code>tools/sim/results/summary.md</code>·<code>summary.json</code>, 기획 해석 <code>studio/orders/CD-0019-…/22-planning.md</code>.\n</li></ul>\n<h4>결과(결정 0049 이전 규칙 — CD-0016 뒤 다시 돌린다)</h4>\n<ul>\n<li>승률(8변형 합): gate_01 std 68.3% · hard 3.0% · elite 0% / gate_02 std 74.0% · hard 2.7% · elite 0%. SimpleBot 은 육성 없음 목표(std 승 6~14/20, hard ≤3/20, 결정 0037·0042) 안. elite 는 육성이 있어야 이기는 단계라 이번 배치로는 못 잰다.\n</li>\n<li>뽑기 코인: reward.json 독립 재계산과 불일치 0, 막은 웨이브가 늘수록 단계 값(1/2/3/4)대로 늘어남 — 결정 0048 차등이 의도대로.\n</li>\n<li>확률표 24개(소환 종족·단계, 판 미션, 박스, shard_random, 일일 목표, beast 치명) 모두 허용치 안.\n</li>\n<li>한 종족·한 전략 지배: 0/6. 다만 elite 는 전원 0승이라 판정 불능 → M2 통과 조건은 열어 둔다.\n</li>\n<li>elf 피해 점유가 모든 봇에서 1위(27~31%), spirit 꼴찌(5~9%). 수치 제안만 했다(Data 변경 없음).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li><code>python tools/studio.py check</code> 통과(Core 322/322, 새 시뮬레이터 시험 21개 포함 · 데이터 · 그림 · 설정), canon_lint 통과, Data·Core/package 변경 0, 결정성(병렬도 달라도 바이트 동일), QA PASS.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>유니티 EditMode/PlayMode(유니티가 컴파일하는 파일은 바꾸지 않음). 사람 플레이(해당 없음).\n</li>\n<li>수치 제안(elf·spirit)이 승률에 주는 영향은 시뮬로 돌려 보지 않았다.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자 결정 B1(코인 «막은 웨이브» 정의 · 어려움·정예 목표 · M2 조건 열어 두기).\n</li>\n<li>CD-0016 뒤 재배치 + 육성 배치(M2-10), 연속 불운 지표(M2-6). 사이트 게시(M2-8)는 main 병합 뒤.\n</li></ul>\n<h3>CD-0015·CD-0016 — 사용자 피드백 22항목 중 판 밖·판 안 개편(결정 0049), 통합 줄기 <code>cd-int</code></h3>\n<ul>\n<li>사용자 피드백(안드로이드 플레이 22항목)을 결정 0049 로 기록하고 주문 4개로 나눔: CD-0015 판 밖 · CD-0016 판 안 · CD-0017 이름 입력·로딩(11-17 main 84b3800) · CD-0018 로비(별도 세션 cd18-lobby, 줄기 <code>cd18</code>, 통합 관리 세션이 합침).\n</li>\n<li>CD-0015: 영웅·은화·연합의 결정·쿠지 티켓·젬스톤·행동력·계정 레벨·업적 1회/반복·일일/주간 미션·은화 상점·판 보상·저장 v9. QA FAIL 1회(화면 3건) → 재검수 PASS.\n</li>\n<li>CD-0016: 소환 90/10·비용 고정·자유 배치(상한 20)·현상금 목숨·몬스터 이동 끊김(원인: 사건 있는 틱에만 위치 갱신). QA PASS.\n</li>\n<li>통합(<code>.worktrees/fin-plan</code> 의 <code>cd-int</code>): cd15 + cd16 + main 60c80b4. 이어 하기 형식 CDSNAP6, 균형 다시 잼(목표 충족), 시뮬레이터 새 규칙 이식, §10 도구 적용(LitMotion·Art/Fx·ScreenTransition).\n</li>\n<li>확인: <code>studio.py check --unity</code> 통과(Core 362/362 · EditMode 123/123), PlayMode 실패 1(판 시작 프레임 101.9ms — 단독 75ms 두 번 통과, 흔들림), PC 빌드 오류 0.\n</li>\n<li>확인 못 함: 안드로이드 실기·사람 플레이.\n</li></ul>",
-"at": "2026-11-17 10:16",
-"branch": "cd14"
+"html": "<h3>한 일 — 앱 아이콘 새 그림(결정 0051)</h3>\n<ul>\n<li>사용자: «앱 아이콘도 새롭게 리소스 제작이 필요할 것 같아» → 콘셉트 «캐릭터 + 소환 모티프, 여캐» → 시안 A(엘프 4단계 이실리아)·B(용족 4단계 아즈가리아)를 본 뒤 «리엘로 해줘».\n</li>\n<li>Codex 3장(<code>gen.py --key app_icon_elf | app_icon_dragon | app_icon_liel --force</code>). 도구 상한(7일 150장)을 이미 넘어 있어(11-15 하루 168장) 사용자가 사용량 페이지를 확인하고 <strong>이번 아이콘에 한해 최대 4장</strong> 허락했다. 상한이 저절로 풀리는 시각은 11-22 21:36(도구 기록 기준).\n</li>\n<li>고른 그림을 <code>accept.py --icon liel</code> 로 <code>art/final/icon/app.png</code>(시안)에 넣고, <code>app_icon.py --art</code> 로 유니티 아이콘 4장(<code>Art/AppIcon/</code>, 파일 이름 그대로)을 다시 만들었다.\n</li>\n<li>도구: <code>app_icon.py --art</code>(전용 그림 → 둥근 사각·원·적응형 배경/전경) · <code>--preview-only</code>, <code>check.py</code> 에 그림 종류 <code>icon</code>(1024×1024 RGB), <code>accept.py --icon</code>, <code>import_art.py</code> 는 <code>art/final/icon/</code> 을 복사하지 않음. 목록에 묶음 «앱 아이콘»·항목 <code>icon/app</code>, 장부 5줄(새 그림 1 + 아이콘 4줄 고침). 스킬 <code>cd-art</code> 규격표에 한 줄. 결정 0041 §2 에 «0051 로 대체» 표시.\n</li>\n<li>사용자 «코인이 너무 밋밋한데» → 같은 Codex 세션을 이어 코인만 금화(구슬 테·잎 고리·반짝임)로 다시 그렸다(<code>gen.py --key app_icon_liel_gold --force</code>, 허락분 4장째 — 다 씀). 코인 밖 픽셀 변화 0.4%. 금화로 한 이유: 은빛 코인이 하늘색에 묻혔고, 결정 0049 로 은색 코인은 판 밖 «은화», 판 안 소환은 골드다. <code>art/final/icon/app.png</code> 와 아이콘 4장을 이 그림으로 다시 만들었다.\n</li>\n<li>번호: 0050 은 worktree <code>fin-meta</code>(cd19, 커밋 전)가 쓰고 있어서 0051 로 했다.\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li><code>app_icon.py</code> 의 옛 방식(<code>--face elf/1</code>)이 지금 아이콘 4장을 바이트 그대로 만든다(되돌리기 경로).\n</li>\n<li>눈 검수: 확정 일러스트 <code>elf/1</code> 과 나란히 — 같은 인물(단발·긴 귀·초록 튜닉·밧줄 허리띠·장난감 활), 같은 선·채색. 크기 시트 512~36px·적응형·홈 화면 흉내에서 48px 에 얼굴과 코인이 구분된다. 시트: <code>art/raw/appicon_preview_final.png</code>(git 제외).\n</li>\n<li><code>python tools/studio.py check</code> 통과: Core 301/301 · 데이터 · 그림 58장 오류 0 경고 0 · 설정 오류 0. <code>import_art.py --check</code> 0 differ.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>유니티 재가져오기·빌드·폰 홈 화면: 이 시각 다른 세션이 같은 체크아웃으로 유니티를 열어 두고 있었다(잠금 파일, <code>InitTestScene…</code> 생김). 다음 APK 빌드에서 본다. PlayerSettings 는 같은 파일 이름이라 바꿀 것이 없다.\n</li>\n<li>사용자 «확정»(그림 상태는 <code>draft</code>).\n</li></ul>\n<h3>CD-0021 게임 이름 확정 — «포트메이츠: 같이 지킬래?» (줄기 <code>cd21</code>)</h3>\n<ul>\n<li>사용자와 이름 후보를 여러 번 좁혔다(기준: 디펜스·협동이 보일 것, 안 겹칠 것, 입에 감길 것, 해외 번역 문제 없을 것). 확정: <strong>포트메이츠: 같이 지킬래? / Fortmates: Guard With Me?</strong> → 결정 0052. 옛 작업명 «프로젝트CD» 는 금지어(<code>canon_lint.py</code>).\n</li>\n<li>반영: CLAUDE.md, 스킬 cd-canon·cd-art·studio, 에이전트 studio-art, docs/10(«게임 이름» 절)·docs/14, 결정 0030·0041 에 «0052 로 대체», milestones 이름, 프로젝트 메모리, <code>Desktop\\Claude\\README.md</code>.\n</li>\n<li>게임: 로딩 화면 로고를 두 줄 글자 로고로 다시 구움(<code>ui_marks.py --only logo_text</code>, 1000×390), 로고 상자 920×359@-85(«?» 가 구름에 닿지 않게 25 올림). 안드로이드 홈 화면 글자 «포트메이츠».\n</li>\n<li>검증: <code>studio.py check</code> 통과, EditMode 101/102(기존 날짜 의존 결함 1), 로딩 화면 캡처, QA PASS. 안드로이드 실기기 확인은 안 함.\n</li>\n<li>남은 일: 상표 검색과 폴더·제품명 변경 여부(M7-9). main 합치기는 main 의 다른 세션 변경이 커밋된 뒤, 사용자 승인 뒤.\n</li></ul>\n<h3>새벽 — 그림자 무리 그림 새 방향 (주문 CD-0022 · 줄기 cd19 · worktree fin-meta)</h3>\n<p>사용자: «몬스터 리소스 작업이 안된 것 같은데 임시 내용 확인하고 몬스터 리소스 작업 진행하자».</p>\n<h4>확인한 «임시» 상태</h4>\n<ul>\n<li>몬스터 그림은 CD-0005·0008 의 Codex 시안 13장(귀여운 남보라 치비)이 유니티 <code>Art/Temp</code> 에만 있었다(확정 전). 판에서는 셰이더가 검게 칠해 썼다(결정 0045).\n</li>\n<li>떼·날개·응어리는 다른 몬스터 그림을 크기만 바꿔 빌려 썼다. 날개는 날개 없는 추적자가 공중에 떠 있었다.\n</li>\n<li><code>art-manifest.json</code> 은 «옛 임시 그림 1종(고블린)» 으로 낡아 있었다.\n</li>\n<li>Codex 그림은 도구 상한(7일 174/150)으로 11-22 까지 막혀 있었다.\n</li></ul>\n<h4>한 일</h4>\n<ul>\n<li>사용자 지시로 <code>tools/codex.py</code> 의 그림 상한을 없앴다(결정 0050). 실제 한도에 걸리면 그 창을 막고 보고한다. 리뷰·질문 상한은 그대로.\n</li>\n<li>떼·날개·응어리 고유 그림 3장(1차, 귀여운 쪽)을 넣었다.\n</li>\n<li>사용자가 참고 이미지로 «검은 실루엣·청록 발광선·검은 연기» 느낌을 지정했다. 그 이미지는 다른 작품의 그림자 군단이라 인물 생김새는 가져오지 않고 장르 공통 느낌만 쓰기로 했다(규칙 5).\n<ul>\n<li>«SD 비율 + 위협적», «시안 2장 먼저» → 보병·방패병 시안 → «컨셉 괜찮다, 정식 진행».\n</li>\n<li>16장 전부를 새 Codex 세션(영웅 SD 참고)으로 다시 그렸다(결정 0053). 보병 4종, 사냥개, 방패병, 뿔 짐승 거수, 기는 떼, 막 날개 마물, 꿰맨 사슬 거한, 현상금 6.\n</li></ul>\n</li>\n<li>셰이더 <code>CD_SHADE</code> 가 새 그림의 청록선을 잿빛으로 뭉개서 그림 색을 그대로 쓰게 고쳤다. 떼 크기 70 → 90.\n</li>\n<li>장부 16줄, 목록 16항목, <code>docs/03</code>·<code>12</code>, 결정 0050·0053.\n</li>\n<li>Codex 그림 20회(재시도 1), 한도 걸림 0.\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>Core 301/301. 데이터·그림·설정 검사 통과. <code>test_codex.py</code> 통과.\n</li>\n<li>PlayMode 의 새·고친 테스트 통과. 판 캡처(웨이브 2·4·13)에서 생김새와 청록선이 읽힌다.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>EditMode 85/86, PlayMode 실패 4. 전부 일일 목표가 날짜(11-17)로 뽑혀 코인이 +11·+9 되는 기존 테스트이고, 이번 변경과 무관하다고 본다. main 에서 오늘 같은 테스트를 돌려 보지는 않았다.\n</li>\n<li>움직이는 모습, PC·안드로이드 빌드, 폰, 사람 플레이. 그림 사용자 확정(전부 temp).\n</li>\n<li>main 반영·커밋·푸시는 사용자 확인 대기. 현황 사이트 갱신은 main 반영 뒤.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자: 판에서 새 몬스터 보기 → 확정이면 <code>art/final</code> 로.\n</li>\n<li>날짜 실패 테스트가 날짜를 고정하게 고치기(후속).\n</li></ul>\n<h3>CD-0019 독립 시뮬레이터와 봇 3종 · 1만 판 밸런스 배치 (M2-3·M2-4)</h3>\n<p>메인 세션(대표)이 맡긴 일. 줄기 <code>claude/relaxed-sinoussi-a73046</code>(main 6b07a50 위), main 병합·푸시는 사용자 확인 대기.</p>\n<h4>한 일</h4>\n<ul>\n<li><code>tools/sim/</code>: 유니티 없이 진짜 Core·<code>Data/</code> 로 판을 끝까지 돌리는 net10.0 콘솔. <code>play</code>(시드·맵·난이도·봇·인원 → 결과 한 줄 JSON) · <code>batch</code> · <code>summarize</code> · <code>tables</code>(판 밖 확률표 대량 추첨). 한 줄 재실행 <code>powershell -ExecutionPolicy Bypass -File tools\\sim\\run_batch.ps1</code>.\n</li>\n<li>봇 3종: simple(SimpleBot) · focus(FocusBot, 시험 폴더 파일을 링크) · 새 OneRaceBot(지정 종족만 강화·나머지 판매). 배치 변형 8개(simple, focus, onerace×6).\n</li>\n<li>1만 판: 6세트 × 8변형 × 시드 1..210 = 10,080판, 예외·시간 초과 0, 약 31초(병렬 20).\n</li>\n<li>요약 <code>tools/sim/results/summary.md</code>·<code>summary.json</code>, 기획 해석 <code>studio/orders/CD-0019-…/22-planning.md</code>.\n</li></ul>\n<h4>결과(결정 0049 이전 규칙 — CD-0016 뒤 다시 돌린다)</h4>\n<ul>\n<li>승률(8변형 합): gate_01 std 68.3% · hard 3.0% · elite 0% / gate_02 std 74.0% · hard 2.7% · elite 0%. SimpleBot 은 육성 없음 목표(std 승 6~14/20, hard ≤3/20, 결정 0037·0042) 안. elite 는 육성이 있어야 이기는 단계라 이번 배치로는 못 잰다.\n</li>\n<li>뽑기 코인: reward.json 독립 재계산과 불일치 0, 막은 웨이브가 늘수록 단계 값(1/2/3/4)대로 늘어남 — 결정 0048 차등이 의도대로.\n</li>\n<li>확률표 24개(소환 종족·단계, 판 미션, 박스, shard_random, 일일 목표, beast 치명) 모두 허용치 안.\n</li>\n<li>한 종족·한 전략 지배: 0/6. 다만 elite 는 전원 0승이라 판정 불능 → M2 통과 조건은 열어 둔다.\n</li>\n<li>elf 피해 점유가 모든 봇에서 1위(27~31%), spirit 꼴찌(5~9%). 수치 제안만 했다(Data 변경 없음).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li><code>python tools/studio.py check</code> 통과(Core 322/322, 새 시뮬레이터 시험 21개 포함 · 데이터 · 그림 · 설정), canon_lint 통과, Data·Core/package 변경 0, 결정성(병렬도 달라도 바이트 동일), QA PASS.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>유니티 EditMode/PlayMode(유니티가 컴파일하는 파일은 바꾸지 않음). 사람 플레이(해당 없음).\n</li>\n<li>수치 제안(elf·spirit)이 승률에 주는 영향은 시뮬로 돌려 보지 않았다.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자 결정 B1(코인 «막은 웨이브» 정의 · 어려움·정예 목표 · M2 조건 열어 두기).\n</li>\n<li>CD-0016 뒤 재배치 + 육성 배치(M2-10), 연속 불운 지표(M2-6). 사이트 게시(M2-8)는 main 병합 뒤.\n</li></ul>\n<h3>CD-0015·CD-0016 — 사용자 피드백 22항목 중 판 밖·판 안 개편(결정 0049), 통합 줄기 <code>cd-int</code></h3>\n<ul>\n<li>사용자 피드백(안드로이드 플레이 22항목)을 결정 0049 로 기록하고 주문 4개로 나눔: CD-0015 판 밖 · CD-0016 판 안 · CD-0017 이름 입력·로딩(11-17 main 84b3800) · CD-0018 로비(별도 세션 cd18-lobby, 줄기 <code>cd18</code>, 통합 관리 세션이 합침).\n</li>\n<li>CD-0015: 영웅·은화·연합의 결정·쿠지 티켓·젬스톤·행동력·계정 레벨·업적 1회/반복·일일/주간 미션·은화 상점·판 보상·저장 v9. QA FAIL 1회(화면 3건) → 재검수 PASS.\n</li>\n<li>CD-0016: 소환 90/10·비용 고정·자유 배치(상한 20)·현상금 목숨·몬스터 이동 끊김(원인: 사건 있는 틱에만 위치 갱신). QA PASS.\n</li>\n<li>통합(<code>.worktrees/fin-plan</code> 의 <code>cd-int</code>): cd15 + cd16 + main 60c80b4. 이어 하기 형식 CDSNAP6, 균형 다시 잼(목표 충족), 시뮬레이터 새 규칙 이식, §10 도구 적용(LitMotion·Art/Fx·ScreenTransition).\n</li>\n<li>확인: <code>studio.py check --unity</code> 통과(Core 362/362 · EditMode 123/123), PlayMode 실패 1(판 시작 프레임 101.9ms — 단독 75ms 두 번 통과, 흔들림), PC 빌드 오류 0.\n</li>\n<li>확인 못 함: 안드로이드 실기·사람 플레이.\n</li></ul>\n<h3>CD-0014 앱 배포·CDN 환경 — Addressables + CCD, 패치 화면 → 로딩 → 로비 (줄기 <code>cd14</code>)</h3>\n<h4>한 일</h4>\n<ul>\n<li>(11-16, 주문 전) Unity Cloud 연결·CCD 가입·버킷 <code>android-dev</code>·Firebase 프로젝트·테스터 그룹, 저장소 밖 고정 서명 키, <code>tools/distribute_android.ps1</code> 한 줄 — <code>docs/14</code> §1-1·1-2.\n</li>\n<li>그림 카탈로그를 Addressables(그룹 <code>Art</code>, 앱 안 기본본 + 원격 갱신, 카탈로그 앱 버전별)로 옮기고 <code>tools/cdn_update.ps1</code> 로 CCD 에 바뀐 그림만 올린다.\n</li>\n<li>부팅: 패치 화면(새 빌드 «항상 필수» 창 — <code>app_version.json</code>, «받을 데이터 N MB» [확인], 다운로드 진행 막대) → 로딩 화면(단계 목록, 서버 연결 자리) → 로비. 사용자 결정 11-17.\n</li>\n<li>C9 다듬기(§10): 막대 빛 쓸림, TMP 문구 등장, 완료 빛 알갱이, 패치→로딩 Fade·로딩→로비 Dissolve(cd20 <code>ScreenTransition</code>), <code>craft-game-floors</code> 감사.\n</li>\n<li>첫 실행 이름 창의 블러가 전환 사본을 뜨던 결함 수정(<code>UI/Backdrop.cs</code>).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>사용자 폰(0.4.0 시험 빌드): Firebase 설치, 재설치 없이 로비 배경이 바뀌고 되돌아옴. CCD 공개 주소 반영이 몇 분 늦는 것 실측.\n</li>\n<li>PC(Win64): 필수 창·용량 창·막대·전환·오프라인 두 경우·되돌림 캡처. QA PASS(+변경분 재확인 PASS).\n</li>\n<li>main(62cae6a) 합친 뒤: Core 362/362 · EditMode 132/132 · PlayMode 실패 0 · <code>studio.py check</code> 통과.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>0.5.0 폰에서 패치 화면·필수 창·용량 창(사람 확인 남음 — C9 이후 코드로 다시 빌드·배포 필요). 그래픽 «낮음» 실제 모습.\n</li>\n<li>화면 없는 CCD 업로드(서비스 계정 키 없음 — 지금은 편집기 창 <code>-Gui</code>).\n</li></ul>",
+"at": "2026-11-17 10:36",
+"branch": "cd18"
 },
 {
 "file": "2026-11-16.md",
@@ -10191,7 +10282,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 10:15",
+"at": "2026-11-17 10:41",
 "passed": 362,
 "failed": 0,
 "total": 362,
@@ -10199,16 +10290,16 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-17 10:17",
-"passed": 123,
-"failed": 0,
-"total": 123,
-"ok": true,
-"fresh": true
+"at": "2026-11-17 00:03",
+"passed": 85,
+"failed": 1,
+"total": 86,
+"ok": false,
+"fresh": false
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 10:15",
+"at": "2026-11-17 10:41",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10216,7 +10307,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 10:15",
+"at": "2026-11-17 10:41",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10224,7 +10315,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 10:15",
+"at": "2026-11-17 10:41",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10506,7 +10597,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 10:17",
-"generatedAt": "2026-11-17 10:17",
-"digest": "5a520ec4d21d461a"
+"sourceAt": "2026-11-17 10:47",
+"generatedAt": "2026-11-17 10:47",
+"digest": "68aee68cc2bdabbf"
 }
