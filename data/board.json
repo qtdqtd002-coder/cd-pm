@@ -1452,43 +1452,43 @@
 "msg": "통합: 시뮬레이터(tools/sim)를 새 규칙으로 — 판 보상 은화·결정·쿠지 티켓, 박스→쿠지·일일 미션 표, 봇 길 칸 제외, 결과 재생성"
 }
 ],
-"dirtyCount": 705,
+"dirtyCount": 729,
 "dirty": [
 {
-"file": "Core/package/Runtime/Match/GameMatch.Snapshot.cs",
-"at": "2026-11-17 10:47"
+"file": "studio/orders/CD-0023-판-안-강화를-종족이-아니라-단계-단위로/21-core.md",
+"at": "2026-11-17 11:15"
 },
 {
-"file": "Core/package/Runtime/Match/GameMatch.Growth.cs",
-"at": "2026-11-17 10:47"
+"file": "tools/sim/results/run-meta.json",
+"at": "2026-11-17 11:11"
 },
 {
-"file": "Core/package/Runtime/Match/GameMatch.Queries.cs",
-"at": "2026-11-17 10:47"
+"file": "tools/sim/results/summary.md",
+"at": "2026-11-17 11:11"
 },
 {
-"file": "Core/package/Runtime/Match/GameMatch.cs",
-"at": "2026-11-17 10:47"
+"file": "tools/sim/results/summary.json",
+"at": "2026-11-17 11:11"
 },
 {
-"file": "Core/package/Runtime/Match/Growth.cs",
-"at": "2026-11-17 10:47"
+"file": "Core/tests/GrowthUpgradeTests.cs",
+"at": "2026-11-17 10:56"
 },
 {
-"file": "Core/package/Runtime/Match/Entities.cs",
-"at": "2026-11-17 10:47"
+"file": "Core/tests/Cd0016BalanceTests.cs",
+"at": "2026-11-17 10:54"
 },
 {
-"file": "Core/package/Runtime/Match/MatchTypes.cs",
-"at": "2026-11-17 10:46"
+"file": "Core/tests/Fixtures/baseline_cd0023_seed7.txt",
+"at": "2026-11-17 10:53"
 },
 {
-"file": "Core/package/Runtime/Config/GrowthUpgradeConfig.cs",
-"at": "2026-11-17 10:46"
+"file": "Core/tests/Fixtures/baseline_cd0023_seed1.txt",
+"at": "2026-11-17 10:53"
 }
 ],
-"lastEdit": "2026-11-17 10:47",
-"lastEditTs": 1794880052.5531828,
+"lastEdit": "2026-11-17 11:15",
+"lastEditTs": 1794881753.5242667,
 "lastCommitTs": 1794879922,
 "unpushed": 68,
 "notInMain": 3,
@@ -1559,8 +1559,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0018",
-"head": "7d96101",
+"head": "61d34f2",
 "commits": [
+{
+"sha": "61d34f2",
+"at": "2026-11-17 11:13",
+"ts": 1794881594,
+"msg": "CD-0018 통합: Addressables 그룹 Art 에 tab_shop · 로비 테스트가 CD-0015 실제 값을 확인"
+},
 {
 "sha": "7d96101",
 "at": "2026-11-17 10:36",
@@ -1590,62 +1596,56 @@
 "at": "2026-11-17 10:27",
 "ts": 1794878846,
 "msg": "CD-0014 main 합친 뒤 Addressables 그룹 Art 에 새 그림 20장(Art/Fx 등) 반영 — ProjectSetup.Run 으로 다시 만듦"
-},
-{
-"sha": "822b85c",
-"at": "2026-11-17 10:16",
-"ts": 1794878182,
-"msg": "Merge main(62cae6a, CD-0015·0016) into cd14"
 }
 ],
-"dirtyCount": 1027,
+"dirtyCount": 1052,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene3c4b388d-3db7-46a1-8b47-2fd34f206dcd.unity.meta",
-"at": "2026-11-17 10:39"
+"file": "studio/orders/CD-0018-로비-화면-재구성-고정-로비-와이어프레임-하단-탭-재화/_qa/build-pc-int/autoplay.log",
+"at": "2026-11-17 11:17"
 },
 {
-"file": "UnityProject/Assets/InitTestScene3c4b388d-3db7-46a1-8b47-2fd34f206dcd.unity",
-"at": "2026-11-17 10:39"
+"file": "studio/orders/CD-0018-로비-화면-재구성-고정-로비-와이어프레임-하단-탭-재화/_qa/build-pc-int/27_match1_t380s.png",
+"at": "2026-11-17 11:17"
 },
 {
-"file": "studio/checks.json",
-"at": "2026-11-17 10:39"
+"file": "studio/orders/CD-0018-로비-화면-재구성-고정-로비-와이어프레임-하단-탭-재화/_qa/build-pc-int/save/match-resume.json",
+"at": "2026-11-17 11:17"
 },
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 10:39"
+"file": "studio/orders/CD-0018-로비-화면-재구성-고정-로비-와이어프레임-하단-탭-재화/_qa/build-pc-int/26_match1_t360s.png",
+"at": "2026-11-17 11:17"
 },
 {
-"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
-"at": "2026-11-17 10:37"
+"file": "studio/orders/CD-0018-로비-화면-재구성-고정-로비-와이어프레임-하단-탭-재화/_qa/build-pc-int/25_match1_t340s.png",
+"at": "2026-11-17 11:17"
 },
 {
-"file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
-"at": "2026-11-17 10:37"
+"file": "studio/orders/CD-0018-로비-화면-재구성-고정-로비-와이어프레임-하단-탭-재화/_qa/build-pc-int/24_match1_t320s.png",
+"at": "2026-11-17 11:17"
 },
 {
-"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Schemas/Art_BundledAssetGroupSchema.asset",
-"at": "2026-11-17 10:37"
+"file": "studio/orders/CD-0018-로비-화면-재구성-고정-로비-와이어프레임-하단-탭-재화/_qa/build-pc-int/23_match1_t300s.png",
+"at": "2026-11-17 11:16"
 },
 {
-"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
-"at": "2026-11-17 10:37"
+"file": "studio/orders/CD-0018-로비-화면-재구성-고정-로비-와이어프레임-하단-탭-재화/_qa/build-pc-int/22_match1_t280s.png",
+"at": "2026-11-17 11:16"
 }
 ],
-"lastEdit": "2026-11-17 10:39",
-"lastEditTs": 1794879560.4806616,
-"lastCommitTs": 1794879393,
-"unpushed": 93,
-"notInMain": 6,
-"today": 92
+"lastEdit": "2026-11-17 11:17",
+"lastEditTs": 1794881858.2730932,
+"lastCommitTs": 1794881594,
+"unpushed": 94,
+"notInMain": 7,
+"today": 93
 },
 {
 "branch": "cd-int",
 "lane": "cd-int",
 "session": "",
 "owns": "",
-"order": "CD-0022",
+"order": "CD-0016",
 "head": "62cae6a",
 "commits": [
 {
@@ -1697,7 +1697,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 128,
+"commits": 124,
 "byOrder": [
 [
 "CD-0014",
@@ -1712,15 +1712,15 @@
 16
 ],
 [
-"CD-0009",
-13
-],
-[
 "CD-0010",
 12
 ],
 [
 "CD-0016",
+10
+],
+[
+"CD-0009",
 10
 ],
 [
@@ -1736,12 +1736,12 @@
 6
 ],
 [
-"CD-0017",
+"CD-0018",
 5
 ],
 [
-"CD-0018",
-4
+"CD-0017",
+5
 ],
 [
 "CD-0023",
@@ -1749,10 +1749,6 @@
 ],
 [
 "CD-0019",
-2
-],
-[
-"CD-0008",
 2
 ],
 [
@@ -1769,6 +1765,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "61d34f2",
+"at": "2026-11-17 11:13",
+"msg": "CD-0018 통합: Addressables 그룹 Art 에 tab_shop · 로비 테스트가 CD-0015 실제 값을 확인"
+},
 {
 "sha": "5f7c367",
 "at": "2026-11-17 10:45",
@@ -1813,11 +1814,6 @@
 "sha": "d854435",
 "at": "2026-11-17 10:14",
 "msg": "CD-0014 6차: 로딩→로비 절반 원화는 AutoTour 캡처 도구 문제(진단·근거), 전환 중 열린 창의 블러가 전환 사본을 뜨던 결함 수정(Backdrop), LoadingSteps.Label 주석"
-},
-{
-"sha": "62cae6a",
-"at": "2026-11-17 10:11",
-"msg": "CD-0015·CD-0016 마감: 90-close, 게이트 close, 마일스톤 M2-11·M2-12·M3-13, 개발일지"
 }
 ]
 },
@@ -3261,13 +3257,14 @@
 "id": "CD-0018",
 "title": "로비 화면 재구성 고정 로비 와이어프레임 하단 탭 재화 네임플레이트",
 "branch": "cd18",
-"updated": "2026-11-17 10:17",
+"updated": "2026-11-17 11:14",
 "files": [
 "00-order.md",
 "10-spec.md",
 "21-client.md",
 "22-art.md",
 "30-qa.md",
+"31-qa-integration.md",
 "90-close.md",
 "_qa"
 ],
@@ -3578,11 +3575,12 @@
 "id": "CD-0023",
 "title": "판 안 강화를 종족이 아니라 단계 단위로",
 "branch": "cd23",
-"updated": "2026-11-17 10:44",
+"updated": "2026-11-17 11:15",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-planning.md",
+"21-core.md",
 "_sim"
 ],
 "milestone": "M2",
@@ -3610,8 +3608,8 @@
 "team": "core",
 "title": "규칙: UpgradeConfig 단계 표 읽기·검사(줄 수 = 단계 수, 음수 금지) · 플레이어 강화 수 4칸 · 피해·여파·스탯 카드 값 · 명령(글 왕복 포함)·거절 순서 · 사건 StageUpgraded · GetUpgradeStatus 단계 4줄 · 스냅샷 CDSNAP7 · §2 표의 API",
 "output": "Core/package/Runtime/, 21-core.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-core.md"
 },
 {
 "id": "C2",
@@ -3628,8 +3626,8 @@
 "team": "core",
 "title": "시험: «수용 기준» 1~9 의 시험을 넣고 «종족 강화 뜻» 시험을 단계로 고친다(GrowthUpgradeTests — 기대값은 데이터에서 읽는다) · 기준 재생 파일을 baseline_cd0023_seed.txt 로 다시 쓰고 옛 파일 삭제(옛 파일에 upgrade 0 <종족> 명령이 들어 있다 — 다시 쓰는 이유를 21-core.md 에) · SimulatorTests.OneRaceBotUpgradesOnlyItsRaceAndNeverSellsIt → «한 종족 봇은 그 종족을 팔지 않고, 강화는 단계로 산다» · Cd0016BalanceTests 표에 같은 줄 + 출력만 줄 «onerace 보통·어려움·정예 맵 1·2»(시드 1~20)",
 "output": "Core/tests/, 21-core.md 에 표",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-core.md"
 },
 {
 "id": "U1",
@@ -10326,6 +10324,16 @@
 {
 "kind": "windows",
 "name": "CoopDefense (Windows)",
+"at": "2026-11-17 11:13",
+"sizeMB": 125.7,
+"branch": "cd18",
+"local": "Builds\\Windows\\CoopDefense.exe",
+"release": "",
+"tag": ""
+},
+{
+"kind": "windows",
+"name": "CoopDefense (Windows)",
 "at": "2026-11-17 10:08",
 "sizeMB": 157.8,
 "branch": "cd-int",
@@ -10412,16 +10420,6 @@
 "local": "Builds\\Windows\\CoopDefense.exe",
 "release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261116-1209",
 "tag": "build-windows-20261116-1209"
-},
-{
-"kind": "windows",
-"name": "CoopDefense (Windows)",
-"at": "2026-11-16 11:02",
-"sizeMB": 152.5,
-"branch": "cd18",
-"local": "Builds\\Windows\\CoopDefense.exe",
-"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261116-1102",
-"tag": "build-windows-20261116-1102"
 },
 {
 "kind": "windows",
@@ -10597,7 +10595,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 10:47",
-"generatedAt": "2026-11-17 10:47",
-"digest": "68aee68cc2bdabbf"
+"sourceAt": "2026-11-17 11:17",
+"generatedAt": "2026-11-17 11:17",
+"digest": "290540fa7aa5c94b"
 }
