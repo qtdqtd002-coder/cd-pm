@@ -544,6 +544,13 @@
 "title": "숙련 플레이 균형: 팔고 다시 뽑기·한 종족 몰기가 보통에서 거의 다 이김(비용 고정의 결과)",
 "status": "todo",
 "note": "CD-0016 마감 남은 일"
+},
+{
+"id": "M2-13",
+"team": "core",
+"title": "판 안 강화를 종족 6갈래 → 단계 4갈래(«단계 강화», 결정 0054)",
+"status": "done",
+"note": "CD-0023, 사람 플레이 전"
 }
 ]
 },
@@ -1023,9 +1030,9 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-17 11:57",
+"at": "2026-11-17 12:45",
 "branch": "cd23",
-"dirty": false
+"dirty": true
 },
 "pm": {
 "headline": [
@@ -1089,8 +1096,26 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0014",
-"head": "5d37342",
+"head": "d2fc6c5",
 "commits": [
+{
+"sha": "d2fc6c5",
+"at": "2026-11-17 12:23",
+"ts": 1794885786,
+"msg": "Merge cd14-fix: CD-0014 7차 — 원격 카탈로그 이름에 기본 빌드 식별자, 그림 로드 실패 시 앱 안 카탈로그로 되돌림, 자동 한 바퀴 부팅 훅"
+},
+{
+"sha": "d336572",
+"at": "2026-11-17 12:20",
+"ts": 1794885626,
+"msg": "CD-0014 cd14-fix QA: 7차 후속 수정 검증 PASS (안드로이드 폴백은 사람 확인 남음)"
+},
+{
+"sha": "436d09c",
+"at": "2026-11-17 12:06",
+"ts": 1794884764,
+"msg": "CD-0014 7차: 원격 카탈로그 불일치 — 카탈로그 이름에 기본 빌드 식별자, 앱 안 카탈로그로 되돌리는 안전망, 투어 부팅 훅"
+},
 {
 "sha": "5d37342",
 "at": "2026-11-17 11:35",
@@ -1108,34 +1133,16 @@
 "at": "2026-11-17 11:13",
 "ts": 1794881594,
 "msg": "CD-0018 통합: Addressables 그룹 Art 에 tab_shop · 로비 테스트가 CD-0015 실제 값을 확인"
-},
-{
-"sha": "7d96101",
-"at": "2026-11-17 10:36",
-"ts": 1794879393,
-"msg": "Merge main(3a2a53c) into cd18 — CD-0014(Addressables·그림 목록 Catalog/ 로 옮김·Backdrop 수정) 위로"
-},
-{
-"sha": "ffcbb7a",
-"at": "2026-11-17 10:36",
-"ts": 1794879382,
-"msg": "Merge main(62cae6a) into cd18 — CD-0015·0016 위로: LobbyData 계약 연결·보상 이름·행동력 부족 알림·ToastMute 대체·탭 전환"
-},
-{
-"sha": "3a2a53c",
-"at": "2026-11-17 10:33",
-"ts": 1794879236,
-"msg": "CD-0014 마감: 90-close, 게이트 close, 개발일지"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1794882910,
+"lastCommitTs": 1794885786,
 "unpushed": 0,
 "notInMain": 0,
-"today": 95
+"today": 98
 },
 {
 "branch": "cd20-art",
@@ -1197,8 +1204,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0014",
-"head": "436d09c",
+"head": "d336572",
 "commits": [
+{
+"sha": "d336572",
+"at": "2026-11-17 12:20",
+"ts": 1794885626,
+"msg": "CD-0014 cd14-fix QA: 7차 후속 수정 검증 PASS (안드로이드 폴백은 사람 확인 남음)"
+},
 {
 "sha": "436d09c",
 "at": "2026-11-17 12:06",
@@ -1228,47 +1241,16 @@
 "at": "2026-11-17 10:36",
 "ts": 1794879382,
 "msg": "Merge main(62cae6a) into cd18 — CD-0015·0016 위로: LobbyData 계약 연결·보상 이름·행동력 부족 알림·ToastMute 대체·탭 전환"
-},
-{
-"sha": "3a2a53c",
-"at": "2026-11-17 10:33",
-"ts": 1794879236,
-"msg": "CD-0014 마감: 90-close, 게이트 close, 개발일지"
 }
 ],
-"dirtyCount": 6,
-"dirty": [
-{
-"file": "UnityProject/Assets/InitTestScene4f4cb883-1851-4ece-8c94-3f7a5b9d2dd0.unity.meta",
-"at": "2026-11-17 12:08"
-},
-{
-"file": "UnityProject/Assets/InitTestScene4f4cb883-1851-4ece-8c94-3f7a5b9d2dd0.unity",
-"at": "2026-11-17 12:08"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 12:08"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-17 12:08"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-17 12:08"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-17 12:08"
-}
-],
-"lastEdit": "2026-11-17 12:08",
-"lastEditTs": 1794884939.932457,
-"lastCommitTs": 1794884764,
-"unpushed": 1,
-"notInMain": 1,
-"today": 95
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1794885626,
+"unpushed": 0,
+"notInMain": 0,
+"today": 96
 },
 {
 "branch": "cd21",
@@ -1438,66 +1420,58 @@
 "session": "",
 "owns": "",
 "order": "CD-0023",
-"head": "0e523ff",
+"head": "d5a4f3d",
 "commits": [
 {
-"sha": "0e523ff",
-"at": "2026-11-17 11:57",
-"ts": 1794884231,
-"msg": "Merge main(5d37342) into cd23: cd14 Addressables·cd18 로비 (충돌: checks.json — main)"
+"sha": "d5a4f3d",
+"at": "2026-11-17 12:38",
+"ts": 1794886728,
+"msg": "Merge main(d2fc6c5) into cd23: CD-0014 원격 카탈로그 수정"
 },
 {
-"sha": "51b7824",
-"at": "2026-11-17 11:56",
-"ts": 1794884207,
-"msg": "CD-0023 client: 강화 창 단계 4줄(◆·단계 색)·스탯 카드 단계 강화·그 단계 영웅만 반짝임·도움말·거절 글·시험 새 API·CDSNAP6 포기 정산 시험·졸개 캡처 조건"
+"sha": "13f8abc",
+"at": "2026-11-17 12:38",
+"ts": 1794886728,
+"msg": "CD-0023 게이트 qa 통과"
 },
 {
-"sha": "5d37342",
-"at": "2026-11-17 11:35",
-"ts": 1794882910,
-"msg": "통합 기록: main 최종 검사(check --unity: Core 362/362 · EditMode 132/132)·현황 사이트 다시 만듦·devlog 통합 절(남은 일: 원격 카탈로그 결함, CaptureGruntCrowd)"
+"sha": "abd3b91",
+"at": "2026-11-17 12:38",
+"ts": 1794886712,
+"msg": "CD-0023 QA: 수용 기준 1~14 통과 · 15 사람 플레이 검증 못 함 · 판정 PASS"
 },
 {
-"sha": "c806bbe",
-"at": "2026-11-17 11:27",
-"ts": 1794882479,
-"msg": "CD-0018 통합 검증 기록: check --unity·PlayMode·통합 QA PASS·PC 자동 한 바퀴, PC 빌드 그림 빠짐(CD-0014 원격 카탈로그) 기록"
+"sha": "d2fc6c5",
+"at": "2026-11-17 12:23",
+"ts": 1794885786,
+"msg": "Merge cd14-fix: CD-0014 7차 — 원격 카탈로그 이름에 기본 빌드 식별자, 그림 로드 실패 시 앱 안 카탈로그로 되돌림, 자동 한 바퀴 부팅 훅"
 },
 {
-"sha": "939f1ed",
-"at": "2026-11-17 11:26",
-"ts": 1794882383,
-"msg": "CD-0023 P2: upgrade.json 옛 종족 강화 키 삭제(Core 가 더 안 읽음), 데이터 사본 동기화 — Core 382/382"
+"sha": "d336572",
+"at": "2026-11-17 12:20",
+"ts": 1794885626,
+"msg": "CD-0014 cd14-fix QA: 7차 후속 수정 검증 PASS (안드로이드 폴백은 사람 확인 남음)"
 },
 {
-"sha": "8cea247",
-"at": "2026-11-17 11:19",
-"ts": 1794881947,
-"msg": "CD-0023 core: 판 안 강화를 단계 4갈래로(결정 0054) — 단계 표·명령·사건·CDSNAP7, 봇 3종·시뮬레이터, 시험·기준 재생 다시 쓰기"
+"sha": "436d09c",
+"at": "2026-11-17 12:06",
+"ts": 1794884764,
+"msg": "CD-0014 7차: 원격 카탈로그 불일치 — 카탈로그 이름에 기본 빌드 식별자, 앱 안 카탈로그로 되돌리는 안전망, 투어 부팅 훅"
 }
 ],
-"dirtyCount": 699,
+"dirtyCount": 697,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 12:14"
+"file": "devlog/2026-11-17.md",
+"at": "2026-11-17 12:45"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-17 12:14"
+"file": "studio/milestones.json",
+"at": "2026-11-17 12:45"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-17 12:14"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-17 12:14"
-},
-{
-"file": "studio/orders/CD-0023-판-안-강화를-종족이-아니라-단계-단위로/00-order.md",
-"at": "2026-11-17 11:57"
+"file": "studio/orders/CD-0023-판-안-강화를-종족이-아니라-단계-단위로/90-close.md",
+"at": "2026-11-17 12:45"
 },
 {
 "file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/logs2/autoplay.log",
@@ -1510,14 +1484,22 @@
 {
 "file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/save/match-resume.json",
 "at": "2026-11-16 12:06"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/62_match2_t080s.png",
+"at": "2026-11-16 12:06"
+},
+{
+"file": "studio/orders/CD-0009-서비스-마감-다듬기-TA-그래픽-UX-수정-이어하기/_qa/autoplay2/61_match2_t060s.png",
+"at": "2026-11-16 12:06"
 }
 ],
-"lastEdit": "2026-11-17 12:14",
-"lastEditTs": 1794885264.1826222,
-"lastCommitTs": 1794884231,
-"unpushed": 7,
-"notInMain": 7,
-"today": 102
+"lastEdit": "2026-11-17 12:45",
+"lastEditTs": 1794887139.1257656,
+"lastCommitTs": 1794886728,
+"unpushed": 10,
+"notInMain": 10,
+"today": 108
 },
 {
 "branch": "cd19",
@@ -1722,11 +1704,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 125,
+"commits": 126,
 "byOrder": [
 [
 "CD-0014",
-22
+23
 ],
 [
 "기타",
@@ -1749,6 +1731,10 @@
 9
 ],
 [
+"CD-0023",
+7
+],
+[
 "CD-0020",
 7
 ],
@@ -1761,16 +1747,12 @@
 6
 ],
 [
-"CD-0023",
-5
-],
-[
 "CD-0017",
 5
 ],
 [
 "CD-0009",
-5
+3
 ],
 [
 "CD-0019",
@@ -1790,6 +1772,21 @@
 ]
 ],
 "latest": [
+{
+"sha": "13f8abc",
+"at": "2026-11-17 12:38",
+"msg": "CD-0023 게이트 qa 통과"
+},
+{
+"sha": "abd3b91",
+"at": "2026-11-17 12:38",
+"msg": "CD-0023 QA: 수용 기준 1~14 통과 · 15 사람 플레이 검증 못 함 · 판정 PASS"
+},
+{
+"sha": "d336572",
+"at": "2026-11-17 12:20",
+"msg": "CD-0014 cd14-fix QA: 7차 후속 수정 검증 PASS (안드로이드 폴백은 사람 확인 남음)"
+},
 {
 "sha": "436d09c",
 "at": "2026-11-17 12:06",
@@ -1824,21 +1821,6 @@
 "sha": "61d34f2",
 "at": "2026-11-17 11:13",
 "msg": "CD-0018 통합: Addressables 그룹 Art 에 tab_shop · 로비 테스트가 CD-0015 실제 값을 확인"
-},
-{
-"sha": "5f7c367",
-"at": "2026-11-17 10:45",
-"msg": "결정 0054: 단계 강화 수치·몰아 하기 측정(강화 단위와 무관)"
-},
-{
-"sha": "a086cf4",
-"at": "2026-11-17 10:44",
-"msg": "CD-0023 기획: 판 안 강화를 단계 4갈래로(결정 0054) — upgrade.json stages, 검사, 규칙 문서, 시제품 측정, 기획서"
-},
-{
-"sha": "3a2a53c",
-"at": "2026-11-17 10:33",
-"msg": "CD-0014 마감: 90-close, 게이트 close, 개발일지"
 }
 ]
 },
@@ -2915,8 +2897,8 @@
 {
 "id": "CD-0014",
 "title": "Addressables CCD 원격 그림 갱신",
-"branch": "cd14-fix",
-"updated": "2026-11-17 12:05",
+"branch": "cd23",
+"updated": "2026-11-17 12:38",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3600,18 +3582,20 @@
 "id": "CD-0023",
 "title": "판 안 강화를 종족이 아니라 단계 단위로",
 "branch": "cd23",
-"updated": "2026-11-17 11:57",
+"updated": "2026-11-17 12:45",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-planning.md",
 "21-core.md",
 "22-client.md",
+"30-qa.md",
+"90-close.md",
 "_qa",
 "_sim"
 ],
 "milestone": "M2",
-"stage": "검수",
+"stage": "마감",
 "route": "full",
 "risk": "mid",
 "teams": "planning, core, client",
@@ -3627,7 +3611,7 @@
 "title": "수치 4갈래(Data/upgrade.json stages, 옮기는 중인 옛 키 유지) · units.json 여파 설명 이름 · tools/validate_data.py(단계 줄 수·칸·순서·높은 단계가 싸지 않음·옛 키는 _legacyNote 와 함께만) · docs/11 §12-1·§12-2·§13, docs/10·13 이름 · 시제품 측정 · 이 기획서",
 "output": "이 커밋, 20-planning.md, _sim/ (끝남)",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -3636,7 +3620,7 @@
 "title": "규칙: UpgradeConfig 단계 표 읽기·검사(줄 수 = 단계 수, 음수 금지) · 플레이어 강화 수 4칸 · 피해·여파·스탯 카드 값 · 명령(글 왕복 포함)·거절 순서 · 사건 StageUpgraded · GetUpgradeStatus 단계 4줄 · 스냅샷 CDSNAP7 · §2 표의 API",
 "output": "Core/package/Runtime/, 21-core.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -3645,7 +3629,7 @@
 "title": "봇 3종(§1-6) · 시뮬레이터 기록·요약(upgradesByStage, 요약 «강화» 줄을 단계 4칸) · tools/sim/README.md 의 봇 설명 · 전체 배치 다시 돌려 tools/sim/results/summary. 갱신",
 "output": "SimpleBot.cs, Core/tests/FocusBot.cs, tools/sim/",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C3",
@@ -3654,7 +3638,7 @@
 "title": "시험: «수용 기준» 1~9 의 시험을 넣고 «종족 강화 뜻» 시험을 단계로 고친다(GrowthUpgradeTests — 기대값은 데이터에서 읽는다) · 기준 재생 파일을 baseline_cd0023_seed.txt 로 다시 쓰고 옛 파일 삭제(옛 파일에 upgrade 0 <종족> 명령이 들어 있다 — 다시 쓰는 이유를 21-core.md 에) · SimulatorTests.OneRaceBotUpgradesOnlyItsRaceAndNeverSellsIt → «한 종족 봇은 그 종족을 팔지 않고, 강화는 단계로 산다» · Cd0016BalanceTests 표에 같은 줄 + 출력만 줄 «onerace 보통·어려움·정예 맵 1·2»(시드 1~20)",
 "output": "Core/tests/, 21-core.md 에 표",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "U1",
@@ -3663,7 +3647,7 @@
 "title": "강화 창 UI/Match/UpgradeSheet.cs: 단계 4줄(얼굴 대신 HeroTierStyle.Pips(…, stage, …) ◆ 개수 + Skin.StageColor(stage) 테두리·줄 색, 강화 수 «n/10», «+N%», 사기 버튼에 비용), 창 제목 «단계 강화», 사기 = MatchCommand.Upgrade(LocalPlayer, stage) · SystemBar.cs 배지 새 API(버튼 글자 «강화» 그대로) · StatCard.cs 육성 줄 «단계 강화 n» · MatchScreen.cs 사기·거절 글(«없는 단계예요» 등) · BoardView.cs 강화 반짝임을 그 단계 영웅에게 · MatchAudio.cs 사건 이름 · HelpScreen.cs 한 줄(«단계 강화는 같은 단계 영웅 전부의 피해를 올려요») · InGamePrewarm.cs 는 새 글자가 있으면만",
 "output": "UnityProject/Assets/_Game/{UI,View}/…, 23-client.md, _qa/upgrade_sheet.png",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "U2",
@@ -3672,7 +3656,7 @@
 "title": "Unity 시험을 새 API 로: Tests/PlayMode/InGameTwoTests.cs·ScreenshotTests.cs·AudioFxTests.cs(1단계 첫 비용 60 그대로)·MatchControlTests.cs·UiUnifyShotTests.cs · EditMode·PlayMode 실행",
 "output": "UnityProject/Assets/Tests/",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "P2",
@@ -3681,7 +3665,7 @@
 "title": "통합 때(C1 이 main 쪽에 들어간 뒤): upgrade.json 의 옛 네 키와 _legacyNote 삭제 → sync_data.py → validate_data.py 경고 0 · 실제 Core 숫자가 §0 과 다르면 docs/11 §12-1 표와 이 기획서 §0 을 고침",
 "output": "Data/upgrade.json, docs/11",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "Q1",
@@ -3689,8 +3673,8 @@
 "team": "qa",
 "title": "«수용 기준» 전부 · 방향 잠금 L6·L10(등급 글자)",
 "output": "30-qa.md",
-"status": "doing",
-"why": "주문이 검수 단계"
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "무엇",
@@ -3699,7 +3683,7 @@
 "title": "이유",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "`HeroTierStyle.Pips`(◆)·`Skin.StageColor`",
@@ -3708,7 +3692,7 @@
 "title": "단계 표식·색이 이미 있다(영웅 화면·쿠지). 새로 만들지 않는다",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "기존 `Bump`·`Appear`(강화 창 줄 튀기·버튼 흔들기)",
@@ -3717,7 +3701,7 @@
 "title": "강화 창이 이미 쓰는 연출 그대로",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "UIParticle·UIEffect·LitMotion·SoftMask·`CD/UiHolo`·`ScreenTransition`",
@@ -3726,7 +3710,7 @@
 "title": "표시를 종족 → 단계로 바꾸는 일이고 새 연출은 범위 밖. 4단계 줄에 홀로 셰이더를 쓰면 «4단계 강화가 특별하다» 는 신호가 되어 몰아 하기를 부추긴다",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "`unity:craft-game-floors` 감사",
@@ -3735,7 +3719,7 @@
 "title": "화면을 크게 바꾸지 않는다(창 하나의 줄 내용). 대신 강화 창 스크린샷 1장(_qa/upgrade_sheet.png)을 검수 근거로",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 }
 ]
 }
@@ -4259,8 +4243,8 @@
 "file": "docs/14-배포-저장.md",
 "title": "14. 핸드폰 설치 · 새 빌드 · 콘텐츠 갱신 · 유저 정보 저장",
 "html": "<ul>\n<li>작성: 2026-11-15 · 갱신: 2026-11-16(CD-0009: §3-1~3-5 이어 하기·백업·기기 설정·버전 0.3.0 — 결정 0040·0041 사용자 확인 대기) · 2026-11-16(§3-4 저장 구조 버전 8 까지: 맵 고르기 CD-0009 · 상점·우편함 CD-0011) · 2026-11-16(§1-1·1-2 구축: Unity Cloud·CCD 버킷·Firebase·고정 서명 키·배포 한 줄 명령) · 상태: 구성 추천안(공식 문서·요금 페이지 확인, 2026-11-15). <strong>계정 연결은 사용자가 해야 한다.</strong>\n</li>\n<li>목표: 개발하는 동안 핸드폰에 설치해서 해 보고, 새 빌드를 받고, 그림·수치를 앱 재설치 없이 바꾸고, 유저 정보를 서버에 저장한다. 비용은 0에 가깝게.\n</li></ul>\n<h3>1. 고른 구성</h3>\n<div class=tw><table><thead><tr><th>필요</th><th>고른 것</th><th>무료 범위(공식)</th><th>비고</th></tr></thead><tbody><tr><td>핸드폰에 새 빌드 받기</td><td><strong>Firebase App Distribution</strong> + 평소엔 USB <code>adb install -r</code></td><td>무료(수치 한도 없음)</td><td>새 빌드를 올리면 폰에 알림. 출시 직전에 Google Play 내부 테스트(등록비 US$25 한 번)</td></tr><tr><td>그림·데이터를 재설치 없이 갱신</td><td><strong>Addressables 2.10.3 + Unity Cloud Content Delivery(CCD)</strong></td><td>대역폭 월 50 GB, 저장 무료</td><td>버킷(개발/출시) → 릴리스 → 배지(<code>latest</code>)</td></tr><tr><td>수치만 가볍게 바꾸기</td><td><strong>Unity Remote Config</strong></td><td>전부 무료</td><td><code>Data/*.json</code> 을 원격 값으로 덮어쓴다</td></tr><tr><td>계정</td><td><strong>Unity Authentication</strong> 익명 로그인</td><td>전부 무료</td><td>출시 전 Google Play Games 연결(기기 변경 대비)</td></tr><tr><td>유저 정보 저장</td><td><strong>Unity Cloud Save</strong></td><td>저장 5 GiB, 읽기·쓰기 각 100만 회</td><td>플레이어당 키 2,000개·5 MiB</td></tr><tr><td>서버에서 뽑기·재화 처리</td><td><strong>Unity Cloud Code</strong> (출시 전)</td><td>호출 100만 회</td><td>★ 최신 패키지 3.0 은 Unity 6.7 이상. <strong>6.3 에서 쓸 수 있는 버전이 있는지 먼저 확인해야 한다</strong></td></tr><tr><td>협동 중계</td><td>Unity Relay (M4)</td><td>월평균 동시접속 50명</td><td>결정 0003</td></tr></tbody></table></div>\n<ul>\n<li><strong>Unity Economy 는 쓸 수 없다.</strong> 2026-09-08 부터 새 프로젝트 가입을 받지 않는다. 재화·상자는 Cloud Save 에 직접 저장한다.\n</li>\n<li>한 곳(Unity Gaming Services)으로 모은 이유: 협동(Relay)에 어차피 Unity 계정과 인증이 필요하고, 대시보드와 명령 도구가 하나다. 빌드 배포만 Firebase 를 쓴다.\n</li>\n<li>위험: Unity 는 서비스를 접은 적이 있다(Multiplay 2026-03, Economy 신규 중단). 그래서 저장·뽑기 코드는 <strong>인터페이스 뒤에 숨겨</strong> 다른 서버로 바꿀 수 있게 만든다.\n</li>\n<li><strong>Firebase App Distribution 은 테스트 기간용이다.</strong> 실서비스 앱 배포는 Google Play 가 맡는다(M7). CCD·UGS·서명 키는 실서비스까지 그대로 간다.\n</li></ul>\n<h3>1-1. 계정과 연결 (2026-11-16 구축, 대표 직접)</h3>\n<div class=tw><table><thead><tr><th>무엇</th><th>값</th><th>확인</th></tr></thead><tbody><tr><td>Unity Cloud 프로젝트</td><td><code>CoopDefense</code> · id <code>f4c4460b-2b57-4c46-9485-ab701b3cfd7b</code> · 조직 <code>dbc594f4-…</code>(genesis 14568767606770) · COPPA «아동 대상 아님»</td><td><code>unity projects link cloud</code> 로 만들고 대시보드에서 이름을 바꿨다. <code>ProjectSettings</code> 의 <code>projectName</code> 은 아직 <code>UnityProject</code>(에디터가 열 때 맞추는지 확인 안 함)</td></tr><tr><td>CCD</td><td>가입(주문 OC-00151164, $0, 월 50 GB 넘으면 GB당 $0.08) · 환경 <code>production</code> · 버킷 <strong><code>android-dev</code></strong> id <code>40859a40-fb29-4e36-8ab8-bebde29d24f3</code> · 공개 · Regular</td><td>CD-0014 에서 사용. 버킷 안 경로 <code>Android/</code>(폰)·<code>StandaloneWindows64/</code>(PC 시험): 기본 빌드별 카탈로그 <code>catalog_&lt;버전&gt;-&lt;기본 빌드 식별자&gt;.bin/.hash</code>(식별자 전의 0.5.0 APK 는 <code>catalog_0.5.0</code>), 바뀐 그림 묶음, 새 빌드 알림 파일 <code>app_version.json</code>. 배지 <code>latest</code> 는 CCD 가 가장 새 릴리스에 스스로 붙인다(직접 붙이면 400)</td></tr><tr><td>Firebase</td><td>프로젝트 <code>coopdefense</code>(번호 320478939297, Spark 무료, Analytics·Gemini 끔) · 안드로이드 앱 <code>1:320478939297:android:e026ed3e001988bf86c8e0</code>(<code>com.local.coopdefense</code>) · 테스터 그룹 <code>testers</code>(<strong>1명</strong>, 사용자 본인 메일, 11-16 등록)</td><td>0.4.0(4) 첫 업로드는 등록 전이라 폰에 가지 않았다. <strong>같은 날 두 번째 0.4.0(4)를 보내 초대 메일 → 설치까지 사용자 폰에서 됐다</strong>(사용자 확인)</td></tr><tr><td>서명 키</td><td><code>%USERPROFILE%\\.coopdefense\\signing\\</code> 의 <code>coopdefense-release.keystore</code>(PKCS12, 별칭 <code>coopdefense</code>, SHA-256 <code>DB:94:3E:…:F4:1B</code>) + <code>signing.json</code>(비밀번호). <strong>저장소 밖, 커밋 금지</strong></td><td><code>apksigner</code> 로 APK 인증서가 이 키인 것을 확인. <strong>이 폴더를 잃으면 테스터 폰에 업데이트를 깔 수 없다 → 따로 백업</strong></td></tr></tbody></table></div>\n<h3>1-2. 새 빌드를 테스터 폰에 보내기</h3>\n<pre><code>powershell -ExecutionPolicy Bypass -File tools\\distribute_android.ps1 -Notes &quot;바뀐 것&quot;   # 빌드(고정 키 필수) → Firebase → 그룹 testers\npowershell -ExecutionPolicy Bypass -File tools\\distribute_android.ps1 -SkipBuild        # 이미 만든 APK 를 다시 보낸다\nfirebase.cmd appdistribution:testers:add --project coopdefense --group-alias testers a@x.com b@y.com   # 테스터 추가</code></pre>\n<ul>\n<li>테스터 폰: 초대 메일 → 수락 → 메일 링크나 App Tester 앱으로 설치. «출처를 알 수 없는 앱 설치» 허용이 필요하다.\n</li>\n<li><strong>업데이트로 깔리려면 <code>versionCode</code> 가 폰에 있는 것보다 커야 하고 서명 키가 같아야 한다.</strong> 키는 <code>build_android.ps1</code> 가 <code>signing.json</code> 에서 읽어 이 빌드에만 넣는다(<code>AndroidSigning.cs</code>, ProjectSettings 에 남기지 않음). 파일이 없으면 디버그 키로 빌드하고 경고, <code>-RequireSigning</code>(배포 스크립트가 붙인다)이면 실패.\n</li>\n<li>이 PC 의 PowerShell 은 스크립트 실행 정책 때문에 <code>firebase</code> 대신 <strong><code>firebase.cmd</code></strong> 로 부른다. CLI 로그인은 이 PC 의 Google 계정(Firebase 프로젝트 만든 계정)으로 돼 있다.\n</li>\n<li><code>distribute_android.ps1</code> 은 Firebase 업로드 뒤 그 릴리스의 테스터 링크로 <strong><code>Android/app_version.json</code></strong> 도 CCD 에 올린다(CD-0014). 그래서 이 명령으로 보낸 빌드보다 낮은 versionCode 의 앱은 켤 때 막힌다(아래 §1-3). <strong>코드가 바뀐 빌드는 versionCode 를 꼭 올린다</strong>(<code>ProjectSetup.AndroidVersionCode</code>).\n</li></ul>\n<h3>1-3. 앱이 켜질 때: 패치 화면 → 로딩 화면 → 로비 (CD-0014, 사용자 결정 11-17)</h3>\n<pre><code>① 패치 화면  새 빌드 확인: app_version.json 의 versionCode &gt; 폰 → «새 버전이 나왔어요» [받으러 가기] 하나, 닫기 없음(항상 필수)\n             원격 카탈로그 확인(8초 제한) → 받을 크기 &gt; 0 → «받을 데이터가 있어요 N MB» [확인] 하나(거절 없음)\n             → 다운로드 진행 막대(받은 MB / 전체 MB · %) → 완료 → 받다 실패하면 [다시 시도]\n             오프라인·버전 파일 못 읽음·받을 것 없음 → 창 없이 지나감(앱 안 그림 또는 전에 받은 그림)\n② 로딩 화면  단계 목록(데이터 → 그림 카탈로그 → 저장 → 화면). 서버 연결·로그인은 나중에 `App/LoadingSteps` 에 한 단계로 더한다\n③ 로비      패치→로딩 Fade 0.35초, 로딩→로비 Dissolve 0.5초(`UI/ScreenTransition`)</code></pre>\n<div class=tw><table><thead><tr><th>할 일</th><th>명령</th></tr></thead><tbody><tr><td>그림만 바뀜 → 폰이 재설치 없이 받게</td><td><code>powershell -ExecutionPolicy Bypass -File tools\\cdn_update.ps1 -Gui</code> (Addressables 콘텐츠 업데이트 → CCD 동기화 → 새 릴리스)</td></tr><tr><td>코드 바뀜 → 새 APK</td><td>versionCode 올림 → <code>tools\\distribute_android.ps1 -Notes \"…\"</code> (APK + 버전 파일)</td></tr><tr><td>버전 파일만 다시</td><td><code>tools\\app_version_upload.ps1 -Gui -VersionCode &lt;n&gt; -Url &lt;링크&gt;</code></td></tr></tbody></table></div>\n<ul>\n<li><strong>그림은 앱 안에 기본본이 들어 있다</strong>(Addressables 그룹 <code>Art</code>, 로컬 빌드). 원격은 바뀐 것만 받는다.\n</li>\n<li><strong>원격 카탈로그 이름 = 앱 버전 + 기본 빌드 식별자</strong>(CD-0014 7차, 예 <code>catalog_0.5.0-e6d892c9</code>). 식별자(16진 8자)는 기본 빌드(<code>build_android.ps1</code>·<code>build_windows.ps1</code>)마다 새로 뽑아 <code>UnityProject/ContentState/&lt;버전&gt;/&lt;대상&gt;/base_id.txt</code> 에 content state 와 나란히 남긴다(Android 는 둘 다 커밋). 콘텐츠 업데이트(<code>cdn_update.ps1</code>)는 content state 에 적힌 이름을 그대로 쓰고, <code>base_id.txt</code> 와 다르면 멈춘다. 그래서 같은 앱 버전이라도 <strong>다른 기본 빌드는 서로의 카탈로그를 읽지 않는다</strong> — 새 기본 빌드는 CDN 에 제 카탈로그가 없으면 확인이 404 로 끝나고 앱 안 그림으로 창 없이 지나간다. (11-17 결함: 이름이 <code>catalog_0.5.0</code> 뿐이라 다른 기본 빌드의 카탈로그를 받아 이 빌드에 없는 로컬 묶음을 찾다가 그림이 전부 빠졌다.) 편집기 설정 파일의 «Player Version Override» 는 쉬는 동안 앱 버전 그대로이고 기본 빌드 중에만 식별자가 붙는다 — 편집기 메뉴로 직접 Addressables 를 빌드하면 식별자가 붙지 않으니 빌드는 스크립트로만 한다.\n</li>\n<li>콘텐츠 업데이트는 <strong>폰에 깔린 APK 를 만든 그 기본 빌드의 content state</strong> 로 올린다(중간에 다시 빌드했으면 새 APK 를 먼저 깔거나, 새 APK 와 짝인 업데이트를 올린다). 식별자 전의 0.5.0 APK 는 <code>ContentState/0.5.0/Android</code>(식별자 파일 없음 → 이름 <code>catalog_0.5.0</code>)와 짝이다 — 그 상태 파일로 업데이트를 만들면 옛 이름으로 나간다.\n</li>\n<li><strong>안전망</strong>: 받은 원격 카탈로그로 그림 카탈로그를 못 읽으면(로컬 묶음 없음·받기 실패·30초 시간 초과) 그 카탈로그를 버리고(받은 <code>catalog_*</code> 캐시 지움, 해시를 기억해 같은 파일은 다음 실행에 다시 쓰지 않음) 앱 안 카탈로그로 다시 읽는다. 기기 로그: <code>[cdn] 원격 카탈로그 불일치 → 앱 안 그림</code>. 그림 없이 로비로 가는 길은 앱 안 카탈로그까지 깨졌을 때뿐이다.\n</li>\n<li>개발용 시험(안드로이드에서는 무시): <code>CoopDefense.exe -cdnRemoteRoot http://127.0.0.1:8765</code> — CCD 주소를 다른 서버(<code>&lt;루트&gt;/&lt;대상&gt;/&lt;파일&gt;</code>)로 돌린다. 버킷을 건드리지 않고 카탈로그 불일치를 재현할 때 쓴다.\n</li>\n<li>업로드는 <strong>유니티 편집기 창이 잠깐 뜨는 방식(<code>-Gui</code>)</strong> 이다 — 배치 모드에서는 편집기 로그인 토큰이 비어 인증이 안 된다. Unity Hub 에 로그인돼 있어야 하고 그 프로젝트를 편집기로 열어 두면 안 된다. 화면 없이 돌리려면 UGS 서비스 계정 키(대시보드 → Service Accounts, CCD 관리 권한만, 저장소 밖 환경 변수 <code>CD_CCD_SERVICE_ACCOUNT</code>)가 필요하다 — 아직 만들지 않았다.\n</li>\n<li><strong>CCD 는 올린 뒤 공개 주소에 반영되기까지 몇 분 걸릴 수 있다</strong>(11-17 실측: 대시보드는 즉시 <code>latest</code> 이동, 공개 주소는 수 분 뒤). 올리자마자 폰을 켜면 이전 그림이 보일 수 있다.\n</li>\n<li>같은 버킷이라 PC 시험 업로드도 <code>latest</code> 릴리스를 새로 만든다. 동기화는 경로별(<code>Android/</code>, <code>StandaloneWindows64/</code>)이라 서로의 파일은 그대로다.\n</li>\n<li>동기화는 그 경로에서 <strong>이번에 올리는 파일과 <code>app_version.json</code> 말고는 지운다</strong> — 새 이름 카탈로그를 올리면 같은 경로의 옛 이름 카탈로그(옛 기본 빌드 짝)와 그 묶음도 지워진다. 옛 APK 는 그 뒤 확인이 404 → 전에 받아 둔 카탈로그나 앱 안 그림으로 돈다. 새 APK 를 낼 때 순서: <code>build_android.ps1 -RequireSigning</code>(새 식별자, <code>ContentState/&lt;버전&gt;/Android/</code> 의 상태 파일·<code>base_id.txt</code> 커밋) → <code>cdn_update.ps1 -Gui</code>(그 짝 카탈로그) → <code>distribute_android.ps1 -SkipBuild</code>(<strong>다시 빌드하면 식별자가 바뀐다</strong>).\n</li></ul>\n<h3>2. 단계</h3>\n<div class=tw><table><thead><tr><th>단계</th><th>하는 것</th><th>언제</th></tr></thead><tbody><tr><td>1</td><td>안드로이드 빌드 → USB 로 폰에 설치(<code>unity build</code> → <code>adb install -r</code>)</td><td>첫 목표</td></tr><tr><td>2</td><td>유저 정보를 <strong>기기에 저장</strong>(저장 인터페이스 + 로컬 구현, 버전 번호 포함)</td><td>첫 목표</td></tr><tr><td>3</td><td>Unity 프로젝트를 클라우드에 연결, 익명 로그인, Cloud Save 로 동기화</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>4</td><td>Firebase App Distribution 으로 빌드 올리기 한 줄 명령</td><td>첫 목표(사용자 계정 연결 뒤)</td></tr><tr><td>5</td><td>Addressables 로 그림을 묶고 CCD 에서 받기. 임시 그림 → 본 그림 교체가 재설치 없이 된다</td><td><strong>됨(CD-0014, 11-17)</strong> — 폰에서 바뀐 그림 받기·되돌리기 확인, §1-3</td></tr><tr><td>6</td><td>Remote Config 로 수치 덮어쓰기</td><td>보상·육성 단계</td></tr><tr><td>7</td><td>뽑기·재화 계산을 서버(Cloud Code)로 옮김, Google Play Games 연결</td><td>출시 전</td></tr></tbody></table></div>\n<h3>3. 저장 구조</h3>\n<ul>\n<li><strong>저장 인터페이스</strong> 하나(<code>IPlayerStore</code>: 불러오기, 저장하기)에 구현 둘: 기기 파일, Cloud Save. 게임 코드는 인터페이스만 안다.\n</li>\n<li><strong>기기 먼저, 서버는 동기화.</strong> 판이 끝나거나 쿠지를 뽑을 때 기기에 쓰고 곧바로 서버에 올린다. 오프라인이면 다음에 올린다.\n</li>\n<li>데이터에 <strong>버전 번호</strong>를 넣는다. 구조가 바뀌면 옛 저장을 새 구조로 옮기는 코드를 같이 쓴다(저장이 깨지면 유저가 떠난다).\n</li>\n<li>충돌: 서버와 기기가 다르면 «더 나중에 저장된 쪽» 을 쓰되, 재화는 줄어드는 방향의 덮어쓰기를 기록으로 남긴다(초안).\n</li>\n<li>내용: <code>13-보상-육성-꾸밈.md</code> §7 의 여섯 묶음.\n</li>\n<li>개발 단계의 한계: 기기에서 계산하므로 조작할 수 있다. 출시 전 7단계에서 막는다. 지금은 혼자 쓰는 빌드라 문제가 아니다.\n</li>\n<li><strong>지금 구현은 기기 파일 하나뿐이다</strong>(<code>IPlayerStore</code> 의 구현은 <code>FilePlayerStore</code>, <code>player.json</code>). Cloud Save 구현은 아직 없다(코드로 확인).\n</li></ul>\n<h4>3-1. 판 이어 하기 (결정 0040 — 대표 초안 · 사용자 확인 대기)</h4>\n<ul>\n<li>싱글 판 중 <strong>웨이브가 시작될 때마다 · 앱이 뒤로 갈 때 · 앱이 종료될 때</strong> <code>match-resume.json</code> 을 저장 옆에 원자 저장(임시 파일 + 바꿔 넣기)한다. 판이 끝나거나(승리·패배·메뉴 포기) «다시 하기» 로 버리거나 카드에서 포기하면 지운다.\n</li>\n<li>내용: 파일 형식(1) · <strong>앱 버전</strong> · 시각 · 이유 · 단계 id · 시드 · 웨이브 · 깬 웨이브 · 처치 · 틱 · 상태 해시 · Core 스냅샷 문자열(머리 <code>CDSNAP4</code>(CD-0010 부터 · 옛 <code>CDSNAP3</code> 은 <code>SnapshotVersionException</code>), 시드·loadout·미션·현상금·강화·특성 상태 포함. 최대 약 2.5 KB).\n</li>\n<li>다시 켜서 로비에 오면 <strong>복원해 해시가 쓴 때와 같은지</strong> 확인한다. 같으면 «이어 하기» 카드(단계 · 웨이브)에서 [이어 하기](일시정지 메뉴가 열린 채 시작) / [포기](한 번 확인 뒤 정산). 이어 할 판이 있으면 [출전] 은 막힌다.\n</li>\n<li><strong>앱 버전이 다르거나 · 형식이 다르거나 · 스냅샷을 못 읽거나 · 해시가 다르면</strong> «지난 판을 이어 할 수 없어요» 토스트 한 번과 <strong>포기 정산</strong>(그 판의 깬 웨이브만큼 판 보상 — 은화·연합의 결정, 난이도 배율 반영 · 결정 0049) 뒤 파일을 지운다.\n</li>\n<li>협동은 이어 하기가 없다. 실기기 확인은 못 했다(에디터에서 «앱 뒤로 감 → 다시 켬» 흉내만).\n</li></ul>\n<h4>3-2. 저장 백업</h4>\n<ul>\n<li>저장할 때마다 이전 파일을 <code>player.json.bak</code> 한 개로 남긴다. 읽기에 실패하면 깨진 파일은 <code>player.json.broken-&lt;시각&gt;</code> 으로 옆에 보관하고 <code>.bak</code> 로 복구한다(로그만, 화면 알림 없음). <code>.bak</code> 도 깨졌으면 새 저장으로 시작한다.\n</li></ul>\n<h4>3-3. 기기 설정 (PlayerPrefs — 저장 파일 밖)</h4>\n<div class=tw><table><thead><tr><th>키</th><th>뜻</th><th>기본</th></tr></thead><tbody><tr><td><code>cd.gfx</code></td><td>그래픽 품질 1 높음 · 0 낮음(다음 판부터)</td><td>1</td></tr><tr><td><code>cd.fps</code></td><td>프레임 60 · 30</td><td>60</td></tr><tr><td><code>settings.sound</code> · <code>settings.music</code> · <code>settings.vibration</code></td><td>소리·음악·진동 켬/끔</td><td>1</td></tr><tr><td><code>settings.soundVolume</code> · <code>settings.musicVolume</code></td><td>음량 0~100</td><td>100</td></tr></tbody></table></div>\n<ul>\n<li>저장 초기화(설정 → 두 번 확인)는 <code>player.json</code>·<code>.bak</code>·<code>match-resume.json</code> 만 지우고 위 설정은 남긴다. 낮음에서 꺼지는 것은 결정 0041.\n</li></ul>\n<h4>3-4. 저장 구조 버전 — 지금 <strong>8</strong>, CD-0015 에서 <strong>9</strong> (<code>PlayerData.CurrentVersion</code>)</h4>\n<div class=tw><table><thead><tr><th>버전</th><th>주문</th><th>더한 것</th></tr></thead><tbody><tr><td>2</td><td>CD-0006</td><td>대표 캐릭터 · 종족 조각 선택권 · 박스 판</td></tr><tr><td>3</td><td>CD-0007</td><td>첫 판 길잡이 완료 · 최근 판</td></tr><tr><td>4</td><td>CD-0007</td><td>난이도 단계(이긴 단계가 다음을 연다). 이긴 판이 있는 옛 저장은 첫 단계를 이긴 것으로 옮긴다</td></tr><tr><td>5</td><td>CD-0009</td><td>이름을 정했는가(<code>profile.nameChosen</code>) — 옛 저장은 «아직» 으로 옮겨 한 번 묻는다</td></tr><tr><td>6</td><td>CD-0009</td><td>일일 목표 진행(<code>daily</code>) — 옛 저장은 빈 진행</td></tr><tr><td>7</td><td>CD-0009</td><td>로비에서 마지막에 고른 맵(<code>lastMap</code>, 결정 0043) — 옛 저장은 첫 맵</td></tr><tr><td>8</td><td>CD-0011</td><td>보석(<code>currency.gems</code>)·상점(30일 보급·끝난 구매)·우편함(결정 0046·0047) — 옛 저장은 모두 빈 값</td></tr><tr><td>9</td><td>CD-0015</td><td>결정 0049: 은화·연합의 결정·쿠지 티켓·젬스톤·행동력(기준 시각)·계정 레벨·영웅(보유·레벨·강화·중복)·쿠지 판·업적 받은 횟수·일일/주간 미션·은화 상점. 뽑기 코인·경험 결정·종족 조각·조각 선택권·각성·박스 판을 지운다. 옛 저장은 <code>Data/convert_v9.json</code> 비율로 한 번 바꾸고 바꾸기 전 v8 파일을 <code>player.v8.bak</code> 으로 남긴다(<code>13-보상-육성-꾸밈.md</code> §7)</td></tr></tbody></table></div>\n<ul>\n<li>옛 저장은 한 단계씩 옮기는 코드(<code>PlayerDataMigrations</code>)로 읽는다. 버전 1 → 2 이후 각 단계의 옮김이 코드에 있다.\n</li></ul>\n<h4>3-5. 앱 이름·버전 (CD-0009)</h4>\n<ul>\n<li>버전 <strong>0.3.0</strong>, 안드로이드 <code>versionCode</code> 3(<code>ProjectSetup.AppVersion</code>·<code>AndroidVersionCode</code>). 이어 하기는 앱 버전이 다르면 포기 정산이므로(§3-1) 버전을 올린 빌드를 깔면 진행 중이던 판은 정산된다.\n</li>\n<li>폰 홈 화면 글자는 «포트메이츠»(게임 이름 «포트메이츠: 같이 지킬래?» 의 본체, 결정 0052 · 안드로이드 빌드 동안만 <code>productName</code> 을 바꾼다), 유니티 제품명·폴더는 <code>CoopDefense</code> 그대로. 앱 아이콘·스플래시는 결정 0041. 실제 홈 화면 글자·아이콘·스플래시는 빌드로 확인하지 못했다.\n</li></ul>\n<h3>4. 임시 그림 → 본 그림 교체</h3>\n<ul>\n<li>모든 그림은 <strong>이름표(주소)</strong> 로 부른다. 예: <code>unit/human/1</code>, <code>monster/goblin_grunt</code>, <code>ui/button_summon</code>.\n</li>\n<li>임시 그림과 본 그림은 같은 이름표를 쓴다. 본 그림이 나오면 <strong>그 파일만 바꿔</strong> CCD 에 올린다. 코드와 앱은 그대로다.\n</li>\n<li><code>Data/assets.json</code> 에 이름표마다 상태(임시/본)를 적고, 개발 현황 사이트에 교체 진행률을 싣는다.\n</li></ul>\n<h3>5. 사용자가 해야 하는 일</h3>\n<ol>\n<li>~~Unity 계정 로그인·클라우드 연결~~ — 2026-11-16 됨(§1-1).\n</li>\n<li>~~Firebase 프로젝트~~ — 2026-11-16 됨. 테스터 1명 등록(늘리면 그룹 <code>testers</code> 에 넣는다). 폰에서 초대 메일을 연다.\n</li>\n<li>핸드폰에서 <strong>개발자 옵션 → USB 디버깅</strong> 켜기(USB 설치용) — 아직.\n</li>\n<li>서명 키 폴더(<code>%USERPROFILE%\\.coopdefense\\signing\\</code>) 백업 — 아직.\n</li></ol>\n<p>이메일·기기·백업은 사용자만 할 수 있다.</p>\n<h3>6. 확인하지 못한 것</h3>\n<ul>\n<li>Cloud Code 가 Unity 6.3 에서 돌아가는 패키지 버전(7단계 전에 확인)\n</li>\n<li>Firebase 테스터 앱이 폰에 필요한지(검색으로는 «선택, 권장». 실기기로는 확인 안 함)\n</li>\n<li>~~테스터 폰에 실제로 설치되는지~~ — 11-16 사용자 폰에 설치됨. 다음 빌드가 «업데이트» 로 깔리는지(같은 키·더 큰 versionCode)는 아직\n</li>\n<li>Google Play Games 로 기기를 바꿨을 때의 정확한 흐름\n</li>\n<li>박스 뽑기(비복원 추첨)가 확률 공개 규정에서 어느 유형인지, 해설서 원문\n</li>\n<li>GitHub Releases 를 Addressables 원격 경로로 쓰는 방식(쓰지 않기로 했으므로 조사하지 않음)\n</li>\n<li>폰(0.5.0)에서 패치 화면·«받을 데이터 N MB» 창·진행 막대·«새 버전이 나왔어요» 창과 Firebase 링크 열림(PC 에서만 확인, CD-0014 사람 확인 남음). 0.4.0 → 0.5.0 이 «업데이트» 로 깔리는지\n</li>\n<li>그래픽 «낮음» 에서 패치·전환 연출의 실제 모습\n</li></ul>\n<h3>출처</h3>\n<ul>\n<li><a href=\"https://firebase.google.com/docs/app-distribution\" rel=\"noopener\" target=\"_blank\">Firebase App Distribution</a> · <a href=\"https://firebase.google.com/docs/app-distribution/android/distribute-cli\" rel=\"noopener\" target=\"_blank\">CLI 배포</a> · <a href=\"https://firebase.google.com/pricing\" rel=\"noopener\" target=\"_blank\">Firebase 요금</a>\n</li>\n<li><a href=\"https://unity.com/products/gaming-services/pricing\" rel=\"noopener\" target=\"_blank\">Unity Gaming Services 요금</a> · <a href=\"https://docs.unity.com/ugs/manual/ccd/manual/UnityCCD\" rel=\"noopener\" target=\"_blank\">CCD 개념</a> · <a href=\"https://docs.unity.com/en-us/ccd/cli\" rel=\"noopener\" target=\"_blank\">CCD 명령 도구</a>\n</li>\n<li><a href=\"https://docs.unity.com/en-us/engine/6000.3/manual/packages-list/packages-all/pack-safe/com-unity-addressables\" rel=\"noopener\" target=\"_blank\">Addressables (6000.3)</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-save/manual/concepts/player-data\" rel=\"noopener\" target=\"_blank\">Cloud Save 플레이어 데이터</a> · <a href=\"https://docs.unity.com/ugs/en-us/manual/cloud-code/manual\" rel=\"noopener\" target=\"_blank\">Cloud Code</a> · <a href=\"https://docs.unity.com/en-us/economy/index\" rel=\"noopener\" target=\"_blank\">Economy 신규 중단</a>\n</li>\n<li><a href=\"https://docs.unity.com/ugs/en-us/manual/authentication/manual/platform-signin-google-play-games\" rel=\"noopener\" target=\"_blank\">Google Play Games 로그인 연결</a> · <a href=\"https://support.google.com/googleplay/android-developer/answer/14151465\" rel=\"noopener\" target=\"_blank\">Play 테스트 요건</a>\n</li>\n<li><a href=\"https://www.mcst.go.kr/kor/s_notice/notice/noticeView.jsp?pSeq=17856\" rel=\"noopener\" target=\"_blank\">확률형 아이템 해설서 공지(문체부)</a> · <a href=\"https://zdnet.co.kr/view/?no=20240222164405\" rel=\"noopener\" target=\"_blank\">유·무료 구분 보도(ZDNet)</a>\n</li></ul>",
-"at": "2026-11-17 12:02",
-"branch": "cd14-fix",
+"at": "2026-11-17 12:38",
+"branch": "cd23",
 "dirty": false
 },
 {
@@ -10290,8 +10274,8 @@
 {
 "file": "2026-11-17.md",
 "title": "2026-11-17",
-"html": "<h3>한 일 — 앱 아이콘 새 그림(결정 0051)</h3>\n<ul>\n<li>사용자: «앱 아이콘도 새롭게 리소스 제작이 필요할 것 같아» → 콘셉트 «캐릭터 + 소환 모티프, 여캐» → 시안 A(엘프 4단계 이실리아)·B(용족 4단계 아즈가리아)를 본 뒤 «리엘로 해줘».\n</li>\n<li>Codex 3장(<code>gen.py --key app_icon_elf | app_icon_dragon | app_icon_liel --force</code>). 도구 상한(7일 150장)을 이미 넘어 있어(11-15 하루 168장) 사용자가 사용량 페이지를 확인하고 <strong>이번 아이콘에 한해 최대 4장</strong> 허락했다. 상한이 저절로 풀리는 시각은 11-22 21:36(도구 기록 기준).\n</li>\n<li>고른 그림을 <code>accept.py --icon liel</code> 로 <code>art/final/icon/app.png</code>(시안)에 넣고, <code>app_icon.py --art</code> 로 유니티 아이콘 4장(<code>Art/AppIcon/</code>, 파일 이름 그대로)을 다시 만들었다.\n</li>\n<li>도구: <code>app_icon.py --art</code>(전용 그림 → 둥근 사각·원·적응형 배경/전경) · <code>--preview-only</code>, <code>check.py</code> 에 그림 종류 <code>icon</code>(1024×1024 RGB), <code>accept.py --icon</code>, <code>import_art.py</code> 는 <code>art/final/icon/</code> 을 복사하지 않음. 목록에 묶음 «앱 아이콘»·항목 <code>icon/app</code>, 장부 5줄(새 그림 1 + 아이콘 4줄 고침). 스킬 <code>cd-art</code> 규격표에 한 줄. 결정 0041 §2 에 «0051 로 대체» 표시.\n</li>\n<li>사용자 «코인이 너무 밋밋한데» → 같은 Codex 세션을 이어 코인만 금화(구슬 테·잎 고리·반짝임)로 다시 그렸다(<code>gen.py --key app_icon_liel_gold --force</code>, 허락분 4장째 — 다 씀). 코인 밖 픽셀 변화 0.4%. 금화로 한 이유: 은빛 코인이 하늘색에 묻혔고, 결정 0049 로 은색 코인은 판 밖 «은화», 판 안 소환은 골드다. <code>art/final/icon/app.png</code> 와 아이콘 4장을 이 그림으로 다시 만들었다.\n</li>\n<li>번호: 0050 은 worktree <code>fin-meta</code>(cd19, 커밋 전)가 쓰고 있어서 0051 로 했다.\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li><code>app_icon.py</code> 의 옛 방식(<code>--face elf/1</code>)이 지금 아이콘 4장을 바이트 그대로 만든다(되돌리기 경로).\n</li>\n<li>눈 검수: 확정 일러스트 <code>elf/1</code> 과 나란히 — 같은 인물(단발·긴 귀·초록 튜닉·밧줄 허리띠·장난감 활), 같은 선·채색. 크기 시트 512~36px·적응형·홈 화면 흉내에서 48px 에 얼굴과 코인이 구분된다. 시트: <code>art/raw/appicon_preview_final.png</code>(git 제외).\n</li>\n<li><code>python tools/studio.py check</code> 통과: Core 301/301 · 데이터 · 그림 58장 오류 0 경고 0 · 설정 오류 0. <code>import_art.py --check</code> 0 differ.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>유니티 재가져오기·빌드·폰 홈 화면: 이 시각 다른 세션이 같은 체크아웃으로 유니티를 열어 두고 있었다(잠금 파일, <code>InitTestScene…</code> 생김). 다음 APK 빌드에서 본다. PlayerSettings 는 같은 파일 이름이라 바꿀 것이 없다.\n</li>\n<li>사용자 «확정»(그림 상태는 <code>draft</code>).\n</li></ul>\n<h3>CD-0021 게임 이름 확정 — «포트메이츠: 같이 지킬래?» (줄기 <code>cd21</code>)</h3>\n<ul>\n<li>사용자와 이름 후보를 여러 번 좁혔다(기준: 디펜스·협동이 보일 것, 안 겹칠 것, 입에 감길 것, 해외 번역 문제 없을 것). 확정: <strong>포트메이츠: 같이 지킬래? / Fortmates: Guard With Me?</strong> → 결정 0052. 옛 작업명 «프로젝트CD» 는 금지어(<code>canon_lint.py</code>).\n</li>\n<li>반영: CLAUDE.md, 스킬 cd-canon·cd-art·studio, 에이전트 studio-art, docs/10(«게임 이름» 절)·docs/14, 결정 0030·0041 에 «0052 로 대체», milestones 이름, 프로젝트 메모리, <code>Desktop\\Claude\\README.md</code>.\n</li>\n<li>게임: 로딩 화면 로고를 두 줄 글자 로고로 다시 구움(<code>ui_marks.py --only logo_text</code>, 1000×390), 로고 상자 920×359@-85(«?» 가 구름에 닿지 않게 25 올림). 안드로이드 홈 화면 글자 «포트메이츠».\n</li>\n<li>검증: <code>studio.py check</code> 통과, EditMode 101/102(기존 날짜 의존 결함 1), 로딩 화면 캡처, QA PASS. 안드로이드 실기기 확인은 안 함.\n</li>\n<li>남은 일: 상표 검색과 폴더·제품명 변경 여부(M7-9). main 합치기는 main 의 다른 세션 변경이 커밋된 뒤, 사용자 승인 뒤.\n</li></ul>\n<h3>새벽 — 그림자 무리 그림 새 방향 (주문 CD-0022 · 줄기 cd19 · worktree fin-meta)</h3>\n<p>사용자: «몬스터 리소스 작업이 안된 것 같은데 임시 내용 확인하고 몬스터 리소스 작업 진행하자».</p>\n<h4>확인한 «임시» 상태</h4>\n<ul>\n<li>몬스터 그림은 CD-0005·0008 의 Codex 시안 13장(귀여운 남보라 치비)이 유니티 <code>Art/Temp</code> 에만 있었다(확정 전). 판에서는 셰이더가 검게 칠해 썼다(결정 0045).\n</li>\n<li>떼·날개·응어리는 다른 몬스터 그림을 크기만 바꿔 빌려 썼다. 날개는 날개 없는 추적자가 공중에 떠 있었다.\n</li>\n<li><code>art-manifest.json</code> 은 «옛 임시 그림 1종(고블린)» 으로 낡아 있었다.\n</li>\n<li>Codex 그림은 도구 상한(7일 174/150)으로 11-22 까지 막혀 있었다.\n</li></ul>\n<h4>한 일</h4>\n<ul>\n<li>사용자 지시로 <code>tools/codex.py</code> 의 그림 상한을 없앴다(결정 0050). 실제 한도에 걸리면 그 창을 막고 보고한다. 리뷰·질문 상한은 그대로.\n</li>\n<li>떼·날개·응어리 고유 그림 3장(1차, 귀여운 쪽)을 넣었다.\n</li>\n<li>사용자가 참고 이미지로 «검은 실루엣·청록 발광선·검은 연기» 느낌을 지정했다. 그 이미지는 다른 작품의 그림자 군단이라 인물 생김새는 가져오지 않고 장르 공통 느낌만 쓰기로 했다(규칙 5).\n<ul>\n<li>«SD 비율 + 위협적», «시안 2장 먼저» → 보병·방패병 시안 → «컨셉 괜찮다, 정식 진행».\n</li>\n<li>16장 전부를 새 Codex 세션(영웅 SD 참고)으로 다시 그렸다(결정 0053). 보병 4종, 사냥개, 방패병, 뿔 짐승 거수, 기는 떼, 막 날개 마물, 꿰맨 사슬 거한, 현상금 6.\n</li></ul>\n</li>\n<li>셰이더 <code>CD_SHADE</code> 가 새 그림의 청록선을 잿빛으로 뭉개서 그림 색을 그대로 쓰게 고쳤다. 떼 크기 70 → 90.\n</li>\n<li>장부 16줄, 목록 16항목, <code>docs/03</code>·<code>12</code>, 결정 0050·0053.\n</li>\n<li>Codex 그림 20회(재시도 1), 한도 걸림 0.\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>Core 301/301. 데이터·그림·설정 검사 통과. <code>test_codex.py</code> 통과.\n</li>\n<li>PlayMode 의 새·고친 테스트 통과. 판 캡처(웨이브 2·4·13)에서 생김새와 청록선이 읽힌다.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>EditMode 85/86, PlayMode 실패 4. 전부 일일 목표가 날짜(11-17)로 뽑혀 코인이 +11·+9 되는 기존 테스트이고, 이번 변경과 무관하다고 본다. main 에서 오늘 같은 테스트를 돌려 보지는 않았다.\n</li>\n<li>움직이는 모습, PC·안드로이드 빌드, 폰, 사람 플레이. 그림 사용자 확정(전부 temp).\n</li>\n<li>main 반영·커밋·푸시는 사용자 확인 대기. 현황 사이트 갱신은 main 반영 뒤.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자: 판에서 새 몬스터 보기 → 확정이면 <code>art/final</code> 로.\n</li>\n<li>날짜 실패 테스트가 날짜를 고정하게 고치기(후속).\n</li></ul>\n<h3>CD-0019 독립 시뮬레이터와 봇 3종 · 1만 판 밸런스 배치 (M2-3·M2-4)</h3>\n<p>메인 세션(대표)이 맡긴 일. 줄기 <code>claude/relaxed-sinoussi-a73046</code>(main 6b07a50 위), main 병합·푸시는 사용자 확인 대기.</p>\n<h4>한 일</h4>\n<ul>\n<li><code>tools/sim/</code>: 유니티 없이 진짜 Core·<code>Data/</code> 로 판을 끝까지 돌리는 net10.0 콘솔. <code>play</code>(시드·맵·난이도·봇·인원 → 결과 한 줄 JSON) · <code>batch</code> · <code>summarize</code> · <code>tables</code>(판 밖 확률표 대량 추첨). 한 줄 재실행 <code>powershell -ExecutionPolicy Bypass -File tools\\sim\\run_batch.ps1</code>.\n</li>\n<li>봇 3종: simple(SimpleBot) · focus(FocusBot, 시험 폴더 파일을 링크) · 새 OneRaceBot(지정 종족만 강화·나머지 판매). 배치 변형 8개(simple, focus, onerace×6).\n</li>\n<li>1만 판: 6세트 × 8변형 × 시드 1..210 = 10,080판, 예외·시간 초과 0, 약 31초(병렬 20).\n</li>\n<li>요약 <code>tools/sim/results/summary.md</code>·<code>summary.json</code>, 기획 해석 <code>studio/orders/CD-0019-…/22-planning.md</code>.\n</li></ul>\n<h4>결과(결정 0049 이전 규칙 — CD-0016 뒤 다시 돌린다)</h4>\n<ul>\n<li>승률(8변형 합): gate_01 std 68.3% · hard 3.0% · elite 0% / gate_02 std 74.0% · hard 2.7% · elite 0%. SimpleBot 은 육성 없음 목표(std 승 6~14/20, hard ≤3/20, 결정 0037·0042) 안. elite 는 육성이 있어야 이기는 단계라 이번 배치로는 못 잰다.\n</li>\n<li>뽑기 코인: reward.json 독립 재계산과 불일치 0, 막은 웨이브가 늘수록 단계 값(1/2/3/4)대로 늘어남 — 결정 0048 차등이 의도대로.\n</li>\n<li>확률표 24개(소환 종족·단계, 판 미션, 박스, shard_random, 일일 목표, beast 치명) 모두 허용치 안.\n</li>\n<li>한 종족·한 전략 지배: 0/6. 다만 elite 는 전원 0승이라 판정 불능 → M2 통과 조건은 열어 둔다.\n</li>\n<li>elf 피해 점유가 모든 봇에서 1위(27~31%), spirit 꼴찌(5~9%). 수치 제안만 했다(Data 변경 없음).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li><code>python tools/studio.py check</code> 통과(Core 322/322, 새 시뮬레이터 시험 21개 포함 · 데이터 · 그림 · 설정), canon_lint 통과, Data·Core/package 변경 0, 결정성(병렬도 달라도 바이트 동일), QA PASS.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>유니티 EditMode/PlayMode(유니티가 컴파일하는 파일은 바꾸지 않음). 사람 플레이(해당 없음).\n</li>\n<li>수치 제안(elf·spirit)이 승률에 주는 영향은 시뮬로 돌려 보지 않았다.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자 결정 B1(코인 «막은 웨이브» 정의 · 어려움·정예 목표 · M2 조건 열어 두기).\n</li>\n<li>CD-0016 뒤 재배치 + 육성 배치(M2-10), 연속 불운 지표(M2-6). 사이트 게시(M2-8)는 main 병합 뒤.\n</li></ul>\n<h3>CD-0015·CD-0016 — 사용자 피드백 22항목 중 판 밖·판 안 개편(결정 0049), 통합 줄기 <code>cd-int</code></h3>\n<ul>\n<li>사용자 피드백(안드로이드 플레이 22항목)을 결정 0049 로 기록하고 주문 4개로 나눔: CD-0015 판 밖 · CD-0016 판 안 · CD-0017 이름 입력·로딩(11-17 main 84b3800) · CD-0018 로비(별도 세션 cd18-lobby, 줄기 <code>cd18</code>, 통합 관리 세션이 합침).\n</li>\n<li>CD-0015: 영웅·은화·연합의 결정·쿠지 티켓·젬스톤·행동력·계정 레벨·업적 1회/반복·일일/주간 미션·은화 상점·판 보상·저장 v9. QA FAIL 1회(화면 3건) → 재검수 PASS.\n</li>\n<li>CD-0016: 소환 90/10·비용 고정·자유 배치(상한 20)·현상금 목숨·몬스터 이동 끊김(원인: 사건 있는 틱에만 위치 갱신). QA PASS.\n</li>\n<li>통합(<code>.worktrees/fin-plan</code> 의 <code>cd-int</code>): cd15 + cd16 + main 60c80b4. 이어 하기 형식 CDSNAP6, 균형 다시 잼(목표 충족), 시뮬레이터 새 규칙 이식, §10 도구 적용(LitMotion·Art/Fx·ScreenTransition).\n</li>\n<li>확인: <code>studio.py check --unity</code> 통과(Core 362/362 · EditMode 123/123), PlayMode 실패 1(판 시작 프레임 101.9ms — 단독 75ms 두 번 통과, 흔들림), PC 빌드 오류 0.\n</li>\n<li>확인 못 함: 안드로이드 실기·사람 플레이.\n</li></ul>\n<h3>CD-0014 앱 배포·CDN 환경 — Addressables + CCD, 패치 화면 → 로딩 → 로비 (줄기 <code>cd14</code>)</h3>\n<h4>한 일</h4>\n<ul>\n<li>(11-16, 주문 전) Unity Cloud 연결·CCD 가입·버킷 <code>android-dev</code>·Firebase 프로젝트·테스터 그룹, 저장소 밖 고정 서명 키, <code>tools/distribute_android.ps1</code> 한 줄 — <code>docs/14</code> §1-1·1-2.\n</li>\n<li>그림 카탈로그를 Addressables(그룹 <code>Art</code>, 앱 안 기본본 + 원격 갱신, 카탈로그 앱 버전별)로 옮기고 <code>tools/cdn_update.ps1</code> 로 CCD 에 바뀐 그림만 올린다.\n</li>\n<li>부팅: 패치 화면(새 빌드 «항상 필수» 창 — <code>app_version.json</code>, «받을 데이터 N MB» [확인], 다운로드 진행 막대) → 로딩 화면(단계 목록, 서버 연결 자리) → 로비. 사용자 결정 11-17.\n</li>\n<li>C9 다듬기(§10): 막대 빛 쓸림, TMP 문구 등장, 완료 빛 알갱이, 패치→로딩 Fade·로딩→로비 Dissolve(cd20 <code>ScreenTransition</code>), <code>craft-game-floors</code> 감사.\n</li>\n<li>첫 실행 이름 창의 블러가 전환 사본을 뜨던 결함 수정(<code>UI/Backdrop.cs</code>).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>사용자 폰(0.4.0 시험 빌드): Firebase 설치, 재설치 없이 로비 배경이 바뀌고 되돌아옴. CCD 공개 주소 반영이 몇 분 늦는 것 실측.\n</li>\n<li>PC(Win64): 필수 창·용량 창·막대·전환·오프라인 두 경우·되돌림 캡처. QA PASS(+변경분 재확인 PASS).\n</li>\n<li>main(62cae6a) 합친 뒤: Core 362/362 · EditMode 132/132 · PlayMode 실패 0 · <code>studio.py check</code> 통과.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>0.5.0 폰에서 패치 화면·필수 창·용량 창(사람 확인 남음 — C9 이후 코드로 다시 빌드·배포 필요). 그래픽 «낮음» 실제 모습.\n</li>\n<li>화면 없는 CCD 업로드(서비스 계정 키 없음 — 지금은 편집기 창 <code>-Gui</code>).\n</li></ul>\n<h3>통합 — 여러 줄기를 main 으로 (통합 관리 세션)</h3>\n<ul>\n<li>main 순서: 앱 아이콘(b07d03c) → cd20 CD-0020(05f3684) → icon 주소 수정(876cac4) → cd21 CD-0021(7bbde00) → cd19 CD-0022(bf097d7) → CD-0019 시뮬레이터(60c80b4) → cd-int CD-0015·0016(62cae6a) → cd14 CD-0014(3a2a53c) → cd18 CD-0018(c806bbe). 지금 이 줄기들은 모두 main 에 들어 있다.\n</li>\n<li>번호 충돌 정리: 결정 0051 은 앱 아이콘, 그림자 무리는 0053 · 주문 CD-0019 는 시뮬레이터, 그림자 무리는 CD-0022.\n</li>\n<li>통합 수정: <code>ArtAddresses.FromArtFinal</code> 이 <code>art/final/icon/</code> 을 건너뜀(import_art.py 와 같게) — 앱 아이콘 그림 때문에 FinalArtTests 가 «없음 icon/app» 으로 실패하던 것.\n</li>\n<li>확인: main c806bbe 에서 <code>studio.py check --unity</code> 통과 — Core 362/362 · 데이터·그림 58·설정 · EditMode 132/132.\n</li></ul>\n<h4>확인 못 한 것·남은 일</h4>\n<ul>\n<li><strong>PC·APK 새 빌드 배포 금지(고칠 때까지)</strong>: 원격 카탈로그 이름이 앱 버전뿐이라, 그림이 바뀐 같은 0.5.0 빌드가 CCD 의 옛 카탈로그를 받아 그림이 전부 빠진다. CD-0014 세션이 줄기 <code>cd14-fix</code> 에서 고치는 중. CCD 업로드·버전 파일은 사용자 승인 전 안 건드림.\n</li>\n<li><code>MonsterVariantShotTests.CaptureGruntCrowd</code>(캡처 전용, <code>CD_SHOTS_DIR</code> 있을 때만): main 에서 «시간 초과: 졸개 여럿» 120초 실패. CD-0016 웨이브 개편 뒤 2웨이브에 <code>shadow_grunt</code> 6마리가 동시에 안 모이는 것으로 보임(확인 필요). 평소 실행에서는 건너뛴다.\n</li>\n<li>PlayMode 전체는 main 최종본에서 다시 돌리지 않았다(각 줄기·cd-int·cd18 통합에서 돌린 결과만 있음).\n</li>\n<li>CD-0023(판 안 강화 단계 4갈래, 결정 0054)은 진행 중이라 이 통합에 없다.\n</li>\n<li>사람 플레이·안드로이드 실기: 안 함(CD-0014 폰 시험 1~4 사람 확인 남음).\n</li></ul>",
-"at": "2026-11-17 11:57",
+"html": "<h3>한 일 — 앱 아이콘 새 그림(결정 0051)</h3>\n<ul>\n<li>사용자: «앱 아이콘도 새롭게 리소스 제작이 필요할 것 같아» → 콘셉트 «캐릭터 + 소환 모티프, 여캐» → 시안 A(엘프 4단계 이실리아)·B(용족 4단계 아즈가리아)를 본 뒤 «리엘로 해줘».\n</li>\n<li>Codex 3장(<code>gen.py --key app_icon_elf | app_icon_dragon | app_icon_liel --force</code>). 도구 상한(7일 150장)을 이미 넘어 있어(11-15 하루 168장) 사용자가 사용량 페이지를 확인하고 <strong>이번 아이콘에 한해 최대 4장</strong> 허락했다. 상한이 저절로 풀리는 시각은 11-22 21:36(도구 기록 기준).\n</li>\n<li>고른 그림을 <code>accept.py --icon liel</code> 로 <code>art/final/icon/app.png</code>(시안)에 넣고, <code>app_icon.py --art</code> 로 유니티 아이콘 4장(<code>Art/AppIcon/</code>, 파일 이름 그대로)을 다시 만들었다.\n</li>\n<li>도구: <code>app_icon.py --art</code>(전용 그림 → 둥근 사각·원·적응형 배경/전경) · <code>--preview-only</code>, <code>check.py</code> 에 그림 종류 <code>icon</code>(1024×1024 RGB), <code>accept.py --icon</code>, <code>import_art.py</code> 는 <code>art/final/icon/</code> 을 복사하지 않음. 목록에 묶음 «앱 아이콘»·항목 <code>icon/app</code>, 장부 5줄(새 그림 1 + 아이콘 4줄 고침). 스킬 <code>cd-art</code> 규격표에 한 줄. 결정 0041 §2 에 «0051 로 대체» 표시.\n</li>\n<li>사용자 «코인이 너무 밋밋한데» → 같은 Codex 세션을 이어 코인만 금화(구슬 테·잎 고리·반짝임)로 다시 그렸다(<code>gen.py --key app_icon_liel_gold --force</code>, 허락분 4장째 — 다 씀). 코인 밖 픽셀 변화 0.4%. 금화로 한 이유: 은빛 코인이 하늘색에 묻혔고, 결정 0049 로 은색 코인은 판 밖 «은화», 판 안 소환은 골드다. <code>art/final/icon/app.png</code> 와 아이콘 4장을 이 그림으로 다시 만들었다.\n</li>\n<li>번호: 0050 은 worktree <code>fin-meta</code>(cd19, 커밋 전)가 쓰고 있어서 0051 로 했다.\n</li></ul>\n<h3>확인한 것</h3>\n<ul>\n<li><code>app_icon.py</code> 의 옛 방식(<code>--face elf/1</code>)이 지금 아이콘 4장을 바이트 그대로 만든다(되돌리기 경로).\n</li>\n<li>눈 검수: 확정 일러스트 <code>elf/1</code> 과 나란히 — 같은 인물(단발·긴 귀·초록 튜닉·밧줄 허리띠·장난감 활), 같은 선·채색. 크기 시트 512~36px·적응형·홈 화면 흉내에서 48px 에 얼굴과 코인이 구분된다. 시트: <code>art/raw/appicon_preview_final.png</code>(git 제외).\n</li>\n<li><code>python tools/studio.py check</code> 통과: Core 301/301 · 데이터 · 그림 58장 오류 0 경고 0 · 설정 오류 0. <code>import_art.py --check</code> 0 differ.\n</li></ul>\n<h3>확인 못 한 것</h3>\n<ul>\n<li>유니티 재가져오기·빌드·폰 홈 화면: 이 시각 다른 세션이 같은 체크아웃으로 유니티를 열어 두고 있었다(잠금 파일, <code>InitTestScene…</code> 생김). 다음 APK 빌드에서 본다. PlayerSettings 는 같은 파일 이름이라 바꿀 것이 없다.\n</li>\n<li>사용자 «확정»(그림 상태는 <code>draft</code>).\n</li></ul>\n<h3>CD-0021 게임 이름 확정 — «포트메이츠: 같이 지킬래?» (줄기 <code>cd21</code>)</h3>\n<ul>\n<li>사용자와 이름 후보를 여러 번 좁혔다(기준: 디펜스·협동이 보일 것, 안 겹칠 것, 입에 감길 것, 해외 번역 문제 없을 것). 확정: <strong>포트메이츠: 같이 지킬래? / Fortmates: Guard With Me?</strong> → 결정 0052. 옛 작업명 «프로젝트CD» 는 금지어(<code>canon_lint.py</code>).\n</li>\n<li>반영: CLAUDE.md, 스킬 cd-canon·cd-art·studio, 에이전트 studio-art, docs/10(«게임 이름» 절)·docs/14, 결정 0030·0041 에 «0052 로 대체», milestones 이름, 프로젝트 메모리, <code>Desktop\\Claude\\README.md</code>.\n</li>\n<li>게임: 로딩 화면 로고를 두 줄 글자 로고로 다시 구움(<code>ui_marks.py --only logo_text</code>, 1000×390), 로고 상자 920×359@-85(«?» 가 구름에 닿지 않게 25 올림). 안드로이드 홈 화면 글자 «포트메이츠».\n</li>\n<li>검증: <code>studio.py check</code> 통과, EditMode 101/102(기존 날짜 의존 결함 1), 로딩 화면 캡처, QA PASS. 안드로이드 실기기 확인은 안 함.\n</li>\n<li>남은 일: 상표 검색과 폴더·제품명 변경 여부(M7-9). main 합치기는 main 의 다른 세션 변경이 커밋된 뒤, 사용자 승인 뒤.\n</li></ul>\n<h3>새벽 — 그림자 무리 그림 새 방향 (주문 CD-0022 · 줄기 cd19 · worktree fin-meta)</h3>\n<p>사용자: «몬스터 리소스 작업이 안된 것 같은데 임시 내용 확인하고 몬스터 리소스 작업 진행하자».</p>\n<h4>확인한 «임시» 상태</h4>\n<ul>\n<li>몬스터 그림은 CD-0005·0008 의 Codex 시안 13장(귀여운 남보라 치비)이 유니티 <code>Art/Temp</code> 에만 있었다(확정 전). 판에서는 셰이더가 검게 칠해 썼다(결정 0045).\n</li>\n<li>떼·날개·응어리는 다른 몬스터 그림을 크기만 바꿔 빌려 썼다. 날개는 날개 없는 추적자가 공중에 떠 있었다.\n</li>\n<li><code>art-manifest.json</code> 은 «옛 임시 그림 1종(고블린)» 으로 낡아 있었다.\n</li>\n<li>Codex 그림은 도구 상한(7일 174/150)으로 11-22 까지 막혀 있었다.\n</li></ul>\n<h4>한 일</h4>\n<ul>\n<li>사용자 지시로 <code>tools/codex.py</code> 의 그림 상한을 없앴다(결정 0050). 실제 한도에 걸리면 그 창을 막고 보고한다. 리뷰·질문 상한은 그대로.\n</li>\n<li>떼·날개·응어리 고유 그림 3장(1차, 귀여운 쪽)을 넣었다.\n</li>\n<li>사용자가 참고 이미지로 «검은 실루엣·청록 발광선·검은 연기» 느낌을 지정했다. 그 이미지는 다른 작품의 그림자 군단이라 인물 생김새는 가져오지 않고 장르 공통 느낌만 쓰기로 했다(규칙 5).\n<ul>\n<li>«SD 비율 + 위협적», «시안 2장 먼저» → 보병·방패병 시안 → «컨셉 괜찮다, 정식 진행».\n</li>\n<li>16장 전부를 새 Codex 세션(영웅 SD 참고)으로 다시 그렸다(결정 0053). 보병 4종, 사냥개, 방패병, 뿔 짐승 거수, 기는 떼, 막 날개 마물, 꿰맨 사슬 거한, 현상금 6.\n</li></ul>\n</li>\n<li>셰이더 <code>CD_SHADE</code> 가 새 그림의 청록선을 잿빛으로 뭉개서 그림 색을 그대로 쓰게 고쳤다. 떼 크기 70 → 90.\n</li>\n<li>장부 16줄, 목록 16항목, <code>docs/03</code>·<code>12</code>, 결정 0050·0053.\n</li>\n<li>Codex 그림 20회(재시도 1), 한도 걸림 0.\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>Core 301/301. 데이터·그림·설정 검사 통과. <code>test_codex.py</code> 통과.\n</li>\n<li>PlayMode 의 새·고친 테스트 통과. 판 캡처(웨이브 2·4·13)에서 생김새와 청록선이 읽힌다.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>EditMode 85/86, PlayMode 실패 4. 전부 일일 목표가 날짜(11-17)로 뽑혀 코인이 +11·+9 되는 기존 테스트이고, 이번 변경과 무관하다고 본다. main 에서 오늘 같은 테스트를 돌려 보지는 않았다.\n</li>\n<li>움직이는 모습, PC·안드로이드 빌드, 폰, 사람 플레이. 그림 사용자 확정(전부 temp).\n</li>\n<li>main 반영·커밋·푸시는 사용자 확인 대기. 현황 사이트 갱신은 main 반영 뒤.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자: 판에서 새 몬스터 보기 → 확정이면 <code>art/final</code> 로.\n</li>\n<li>날짜 실패 테스트가 날짜를 고정하게 고치기(후속).\n</li></ul>\n<h3>CD-0019 독립 시뮬레이터와 봇 3종 · 1만 판 밸런스 배치 (M2-3·M2-4)</h3>\n<p>메인 세션(대표)이 맡긴 일. 줄기 <code>claude/relaxed-sinoussi-a73046</code>(main 6b07a50 위), main 병합·푸시는 사용자 확인 대기.</p>\n<h4>한 일</h4>\n<ul>\n<li><code>tools/sim/</code>: 유니티 없이 진짜 Core·<code>Data/</code> 로 판을 끝까지 돌리는 net10.0 콘솔. <code>play</code>(시드·맵·난이도·봇·인원 → 결과 한 줄 JSON) · <code>batch</code> · <code>summarize</code> · <code>tables</code>(판 밖 확률표 대량 추첨). 한 줄 재실행 <code>powershell -ExecutionPolicy Bypass -File tools\\sim\\run_batch.ps1</code>.\n</li>\n<li>봇 3종: simple(SimpleBot) · focus(FocusBot, 시험 폴더 파일을 링크) · 새 OneRaceBot(지정 종족만 강화·나머지 판매). 배치 변형 8개(simple, focus, onerace×6).\n</li>\n<li>1만 판: 6세트 × 8변형 × 시드 1..210 = 10,080판, 예외·시간 초과 0, 약 31초(병렬 20).\n</li>\n<li>요약 <code>tools/sim/results/summary.md</code>·<code>summary.json</code>, 기획 해석 <code>studio/orders/CD-0019-…/22-planning.md</code>.\n</li></ul>\n<h4>결과(결정 0049 이전 규칙 — CD-0016 뒤 다시 돌린다)</h4>\n<ul>\n<li>승률(8변형 합): gate_01 std 68.3% · hard 3.0% · elite 0% / gate_02 std 74.0% · hard 2.7% · elite 0%. SimpleBot 은 육성 없음 목표(std 승 6~14/20, hard ≤3/20, 결정 0037·0042) 안. elite 는 육성이 있어야 이기는 단계라 이번 배치로는 못 잰다.\n</li>\n<li>뽑기 코인: reward.json 독립 재계산과 불일치 0, 막은 웨이브가 늘수록 단계 값(1/2/3/4)대로 늘어남 — 결정 0048 차등이 의도대로.\n</li>\n<li>확률표 24개(소환 종족·단계, 판 미션, 박스, shard_random, 일일 목표, beast 치명) 모두 허용치 안.\n</li>\n<li>한 종족·한 전략 지배: 0/6. 다만 elite 는 전원 0승이라 판정 불능 → M2 통과 조건은 열어 둔다.\n</li>\n<li>elf 피해 점유가 모든 봇에서 1위(27~31%), spirit 꼴찌(5~9%). 수치 제안만 했다(Data 변경 없음).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li><code>python tools/studio.py check</code> 통과(Core 322/322, 새 시뮬레이터 시험 21개 포함 · 데이터 · 그림 · 설정), canon_lint 통과, Data·Core/package 변경 0, 결정성(병렬도 달라도 바이트 동일), QA PASS.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>유니티 EditMode/PlayMode(유니티가 컴파일하는 파일은 바꾸지 않음). 사람 플레이(해당 없음).\n</li>\n<li>수치 제안(elf·spirit)이 승률에 주는 영향은 시뮬로 돌려 보지 않았다.\n</li></ul>\n<h4>다음</h4>\n<ul>\n<li>사용자 결정 B1(코인 «막은 웨이브» 정의 · 어려움·정예 목표 · M2 조건 열어 두기).\n</li>\n<li>CD-0016 뒤 재배치 + 육성 배치(M2-10), 연속 불운 지표(M2-6). 사이트 게시(M2-8)는 main 병합 뒤.\n</li></ul>\n<h3>CD-0015·CD-0016 — 사용자 피드백 22항목 중 판 밖·판 안 개편(결정 0049), 통합 줄기 <code>cd-int</code></h3>\n<ul>\n<li>사용자 피드백(안드로이드 플레이 22항목)을 결정 0049 로 기록하고 주문 4개로 나눔: CD-0015 판 밖 · CD-0016 판 안 · CD-0017 이름 입력·로딩(11-17 main 84b3800) · CD-0018 로비(별도 세션 cd18-lobby, 줄기 <code>cd18</code>, 통합 관리 세션이 합침).\n</li>\n<li>CD-0015: 영웅·은화·연합의 결정·쿠지 티켓·젬스톤·행동력·계정 레벨·업적 1회/반복·일일/주간 미션·은화 상점·판 보상·저장 v9. QA FAIL 1회(화면 3건) → 재검수 PASS.\n</li>\n<li>CD-0016: 소환 90/10·비용 고정·자유 배치(상한 20)·현상금 목숨·몬스터 이동 끊김(원인: 사건 있는 틱에만 위치 갱신). QA PASS.\n</li>\n<li>통합(<code>.worktrees/fin-plan</code> 의 <code>cd-int</code>): cd15 + cd16 + main 60c80b4. 이어 하기 형식 CDSNAP6, 균형 다시 잼(목표 충족), 시뮬레이터 새 규칙 이식, §10 도구 적용(LitMotion·Art/Fx·ScreenTransition).\n</li>\n<li>확인: <code>studio.py check --unity</code> 통과(Core 362/362 · EditMode 123/123), PlayMode 실패 1(판 시작 프레임 101.9ms — 단독 75ms 두 번 통과, 흔들림), PC 빌드 오류 0.\n</li>\n<li>확인 못 함: 안드로이드 실기·사람 플레이.\n</li></ul>\n<h3>CD-0014 앱 배포·CDN 환경 — Addressables + CCD, 패치 화면 → 로딩 → 로비 (줄기 <code>cd14</code>)</h3>\n<h4>한 일</h4>\n<ul>\n<li>(11-16, 주문 전) Unity Cloud 연결·CCD 가입·버킷 <code>android-dev</code>·Firebase 프로젝트·테스터 그룹, 저장소 밖 고정 서명 키, <code>tools/distribute_android.ps1</code> 한 줄 — <code>docs/14</code> §1-1·1-2.\n</li>\n<li>그림 카탈로그를 Addressables(그룹 <code>Art</code>, 앱 안 기본본 + 원격 갱신, 카탈로그 앱 버전별)로 옮기고 <code>tools/cdn_update.ps1</code> 로 CCD 에 바뀐 그림만 올린다.\n</li>\n<li>부팅: 패치 화면(새 빌드 «항상 필수» 창 — <code>app_version.json</code>, «받을 데이터 N MB» [확인], 다운로드 진행 막대) → 로딩 화면(단계 목록, 서버 연결 자리) → 로비. 사용자 결정 11-17.\n</li>\n<li>C9 다듬기(§10): 막대 빛 쓸림, TMP 문구 등장, 완료 빛 알갱이, 패치→로딩 Fade·로딩→로비 Dissolve(cd20 <code>ScreenTransition</code>), <code>craft-game-floors</code> 감사.\n</li>\n<li>첫 실행 이름 창의 블러가 전환 사본을 뜨던 결함 수정(<code>UI/Backdrop.cs</code>).\n</li></ul>\n<h4>확인한 것</h4>\n<ul>\n<li>사용자 폰(0.4.0 시험 빌드): Firebase 설치, 재설치 없이 로비 배경이 바뀌고 되돌아옴. CCD 공개 주소 반영이 몇 분 늦는 것 실측.\n</li>\n<li>PC(Win64): 필수 창·용량 창·막대·전환·오프라인 두 경우·되돌림 캡처. QA PASS(+변경분 재확인 PASS).\n</li>\n<li>main(62cae6a) 합친 뒤: Core 362/362 · EditMode 132/132 · PlayMode 실패 0 · <code>studio.py check</code> 통과.\n</li></ul>\n<h4>확인 못 한 것</h4>\n<ul>\n<li>0.5.0 폰에서 패치 화면·필수 창·용량 창(사람 확인 남음 — C9 이후 코드로 다시 빌드·배포 필요). 그래픽 «낮음» 실제 모습.\n</li>\n<li>화면 없는 CCD 업로드(서비스 계정 키 없음 — 지금은 편집기 창 <code>-Gui</code>).\n</li></ul>\n<h3>통합 — 여러 줄기를 main 으로 (통합 관리 세션)</h3>\n<ul>\n<li>main 순서: 앱 아이콘(b07d03c) → cd20 CD-0020(05f3684) → icon 주소 수정(876cac4) → cd21 CD-0021(7bbde00) → cd19 CD-0022(bf097d7) → CD-0019 시뮬레이터(60c80b4) → cd-int CD-0015·0016(62cae6a) → cd14 CD-0014(3a2a53c) → cd18 CD-0018(c806bbe). 지금 이 줄기들은 모두 main 에 들어 있다.\n</li>\n<li>번호 충돌 정리: 결정 0051 은 앱 아이콘, 그림자 무리는 0053 · 주문 CD-0019 는 시뮬레이터, 그림자 무리는 CD-0022.\n</li>\n<li>통합 수정: <code>ArtAddresses.FromArtFinal</code> 이 <code>art/final/icon/</code> 을 건너뜀(import_art.py 와 같게) — 앱 아이콘 그림 때문에 FinalArtTests 가 «없음 icon/app» 으로 실패하던 것.\n</li>\n<li>확인: main c806bbe 에서 <code>studio.py check --unity</code> 통과 — Core 362/362 · 데이터·그림 58·설정 · EditMode 132/132.\n</li></ul>\n<h4>확인 못 한 것·남은 일</h4>\n<ul>\n<li><strong>PC·APK 새 빌드 배포 금지(고칠 때까지)</strong>: 원격 카탈로그 이름이 앱 버전뿐이라, 그림이 바뀐 같은 0.5.0 빌드가 CCD 의 옛 카탈로그를 받아 그림이 전부 빠진다. CD-0014 세션이 줄기 <code>cd14-fix</code> 에서 고치는 중. CCD 업로드·버전 파일은 사용자 승인 전 안 건드림.\n</li>\n<li><code>MonsterVariantShotTests.CaptureGruntCrowd</code>(캡처 전용, <code>CD_SHOTS_DIR</code> 있을 때만): main 에서 «시간 초과: 졸개 여럿» 120초 실패. CD-0016 웨이브 개편 뒤 2웨이브에 <code>shadow_grunt</code> 6마리가 동시에 안 모이는 것으로 보임(확인 필요). 평소 실행에서는 건너뛴다.\n</li>\n<li>PlayMode 전체는 main 최종본에서 다시 돌리지 않았다(각 줄기·cd-int·cd18 통합에서 돌린 결과만 있음).\n</li>\n<li>CD-0023(판 안 강화 단계 4갈래, 결정 0054)은 진행 중이라 이 통합에 없다.\n</li>\n<li>사람 플레이·안드로이드 실기: 안 함(CD-0014 폰 시험 1~4 사람 확인 남음).\n</li></ul>\n<h3>CD-0023 — 판 안 강화를 단계 단위로(결정 0054)</h3>\n<ul>\n<li>사용자: «종족을 키우는게아니라 등급 단위로묶는걸로 변경해줘». 판 안 골드 강화를 종족 6갈래 → 단계 4갈래(«단계 강화», ◆·단계 색, 등급 글자 없음). 이어 하기 형식 CDSNAP7.\n</li>\n<li>수치: 단계마다 +10%/회·최대 10, 비용 60+40n / 90+60n / 120+80n / 180+120n. 균형 목표 충족. 한 종족 몰아 하기(보통 100%)는 강화 단위와 무관 — 고정 비용 팔고 다시 뽑기 + 합성이 원인, M2-12.\n</li>\n<li>덤: <code>CaptureGruntCrowd</code> 시험 조건(졸개 계열 전부 세기).\n</li>\n<li>확인: Core 382/382, EditMode 132/132, PlayMode 실패 0, PC 빌드 오류 0, QA PASS. 사람 플레이 안 함.\n</li></ul>",
+"at": "2026-11-17 12:45",
 "branch": "cd23"
 },
 {
@@ -10312,7 +10296,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 09:14",
+"at": "2026-11-17 12:20",
 "passed": 362,
 "failed": 0,
 "total": 362,
@@ -10320,16 +10304,16 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-16 21:51",
-"passed": 82,
+"at": "2026-11-17 12:22",
+"passed": 134,
 "failed": 0,
-"total": 82,
+"total": 134,
 "ok": true,
-"fresh": false
+"fresh": true
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 09:14",
+"at": "2026-11-17 12:20",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10337,7 +10321,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 09:14",
+"at": "2026-11-17 12:20",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10345,7 +10329,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 09:14",
+"at": "2026-11-17 12:20",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10627,7 +10611,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 12:14",
-"generatedAt": "2026-11-17 12:17",
-"digest": "0c49c68b6a0a8b05"
+"sourceAt": "2026-11-17 12:45",
+"generatedAt": "2026-11-17 12:47",
+"digest": "1ab31bd85afc8964"
 }
