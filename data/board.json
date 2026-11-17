@@ -951,6 +951,13 @@
 "title": "UI 틀 품질 올림: 코드로 굽는 나무·금·양피지 틀(CodeSkin)을 기본으로 — 나무결·금 모서리 덮개·굵은 잉크선·광택 키",
 "status": "done",
 "note": "CD-0024. Codex 틀 그림 대신 코드(공유 아틀라스 한 장, 로비 batches 62→49). 게이지·진행 막대 재질과 안드로이드 실기기 선명도는 남음"
+},
+{
+"id": "M6-19",
+"team": "client",
+"title": "로딩 인트로(균열 → 그림자 무리 → 줌아웃 → 타이틀 «포트메이츠» 디자인 로고)와 업데이트 창 개편, 업데이트 확인 글 없앰",
+"status": "done",
+"note": "CD-0026, 결정 0056. Codex 그림 6장(draft). 사람 플레이(연출 길이·느낌)·안드로이드 실기기 확인 대기"
 }
 ]
 },
@@ -1044,9 +1051,9 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-17 22:42",
-"branch": "cd27",
-"dirty": false
+"at": "2026-11-17 22:53",
+"branch": "cd26",
+"dirty": true
 },
 "pm": {
 "headline": [
@@ -1287,43 +1294,43 @@
 "msg": "앱 0.5.2 · versionCode 7 (CD-0024 UI 틀 폰 배포): AppUpdateCheck.BuiltInVersionCode 7, 0.5.2 Android 기본 빌드 content state·base_id c486f0b2"
 }
 ],
-"dirtyCount": 88,
+"dirtyCount": 97,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-17 22:47"
+"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/30-qa.md",
+"at": "2026-11-17 22:55"
 },
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/_qa/playmode.xml",
-"at": "2026-11-17 22:47"
+"file": "studio/checks.json",
+"at": "2026-11-17 22:54"
 },
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/_qa/cd26_win_5_retry.png",
-"at": "2026-11-17 22:29"
+"file": "studio/milestones.json",
+"at": "2026-11-17 22:53"
 },
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/_qa/cd26_win_4_downloading.png",
-"at": "2026-11-17 22:29"
+"file": "studio/site/index.html",
+"at": "2026-11-17 22:53"
 },
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/_qa/cd26_win_3_download.png",
-"at": "2026-11-17 22:29"
+"file": "studio/site/files.json",
+"at": "2026-11-17 22:53"
 },
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/_qa/cd26_win_2_newbuild_nonotes.png",
-"at": "2026-11-17 22:29"
+"file": "studio/site/res/fx_shade_down.webp",
+"at": "2026-11-17 22:53"
 },
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/_qa/cd26_win_1_newbuild.png",
-"at": "2026-11-17 22:29"
+"file": "studio/site/res/fx_shade_up.webp",
+"at": "2026-11-17 22:53"
 },
 {
-"file": "studio/orders/CD-0026-로딩-인트로-균열-침공-줌아웃-타이틀-로고와-업데이트-/_qa/cd26_intro_9_ready.png",
-"at": "2026-11-17 22:29"
+"file": "studio/site/res/fx_rift.webp",
+"at": "2026-11-17 22:53"
 }
 ],
-"lastEdit": "2026-11-17 22:47",
-"lastEditTs": 1794923233.9407272,
+"lastEdit": "2026-11-17 22:55",
+"lastEditTs": 1794923723.6725776,
 "lastCommitTs": 1794908395,
 "unpushed": 0,
 "notInMain": 0,
@@ -1374,27 +1381,43 @@
 "msg": "앱 0.5.2 · versionCode 7 (CD-0024 UI 틀 폰 배포): AppUpdateCheck.BuiltInVersionCode 7, 0.5.2 Android 기본 빌드 content state·base_id c486f0b2"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 95,
 "dirty": [
 {
-"file": "art/tools/gen.py",
-"at": "2026-11-17 22:47"
+"file": "UnityProject/Assets/InitTestScenee6b8448b-64de-45ab-9e18-9cbdf11285af.unity.meta",
+"at": "2026-11-17 23:09"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_research/ui-skill-research.md",
-"at": "2026-11-17 22:46"
+"file": "UnityProject/Assets/InitTestScenee6b8448b-64de-45ab-9e18-9cbdf11285af.unity",
+"at": "2026-11-17 23:09"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/00-order.md",
-"at": "2026-11-17 22:46"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-17 23:08"
 },
 {
-"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/10-spec.md",
-"at": "2026-11-17 22:46"
+"file": "UnityProject/Assets/Tests/PlayMode/Cd27LobbyTests.cs",
+"at": "2026-11-17 23:08"
+},
+{
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/after/cd27_daily_1080x2400.png",
+"at": "2026-11-17 23:08"
+},
+{
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/after/cd27_mail_1080x2400.png",
+"at": "2026-11-17 23:08"
+},
+{
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/after/cd27_shop_1080x2400.png",
+"at": "2026-11-17 23:08"
+},
+{
+"file": "studio/orders/CD-0027-로비-상단-재화-아이콘-글자-외곽선-깜빡임-제거와-UI/_qa/after/cd27_hero_detail_1080x2400.png",
+"at": "2026-11-17 23:08"
 }
 ],
-"lastEdit": "2026-11-17 22:47",
-"lastEditTs": 1794923253.000897,
+"lastEdit": "2026-11-17 23:09",
+"lastEditTs": 1794924545.0309525,
 "lastCommitTs": 1794908395,
 "unpushed": 0,
 "notInMain": 0,
@@ -1403,11 +1426,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 119,
+"commits": 116,
 "byOrder": [
 [
 "CD-0014",
-24
+22
 ],
 [
 "CD-0015",
@@ -1438,11 +1461,11 @@
 7
 ],
 [
-"CD-0013",
-7
+"CD-0018",
+6
 ],
 [
-"CD-0018",
+"CD-0013",
 6
 ],
 [
@@ -3678,21 +3701,23 @@
 "id": "CD-0026",
 "title": "로딩 인트로 균열 침공 줌아웃 타이틀 로고와 업데이트 창 개편",
 "branch": "cd26",
-"updated": "2026-11-17 22:47",
+"updated": "2026-11-17 22:55",
 "files": [
 "00-order.md",
 "10-spec.md",
 "21-art.md",
 "22-client.md",
+"30-qa.md",
+"90-close.md",
 "_qa"
 ],
 "milestone": "M6",
-"stage": "검수",
+"stage": "완료",
 "route": "full",
 "risk": "mid",
 "teams": "art, client",
 "opened": "2026-11-17",
-"closed": "",
+"closed": "2026-11-17",
 "goal": "<ol>\n<li><strong>앱을 켤 때 «업데이트 확인 중» 글이 없다.</strong> 확인하는 동안 화면에는 그림만 있다. 새 빌드가 있거나 받을 데이터가 있을 때만 창이 뜬다. 받는 중에는 지금처럼 막대와 «데이터 받는 중».\n</li>\n<li><strong>업데이트 창의 품질을 올린다.</strong> 그림(Codex: 두루마리를 든 전령 새)이 창 위로 걸쳐 나오고, 빛 무리가 그 뒤에서 돈다. 새 빌드 창은 «지금 버전 → 새 버전» 칩, 바뀐 내용(버전 파일의 <code>notes</code>)은 우물 칸에 왼쪽 정렬, 버튼은 큰 강조 키에 빛 쓸림. 받을 데이터 창은 용량 칩. 실패 창은 그림 없이 같은 틀.\n</li>\n<li><strong>로딩 화면을 인트로 연출로 바꾼다.</strong> 평온한 하늘(같은 원화에서 균열만 지운 그림)을 크게 당겨 보다가 → 하늘에 금이 가고 → 찢어지며 번쩍 → 그림자 무리가 카메라 쪽으로 쏟아져 나오고 → 카메라가 빠지며 지금 원화 전체(영웅 여섯이 성벽 위에서 균열을 봄)가 드러나고 → 타이틀 로고가 내려 박힌다 → 그 뒤는 지금처럼 천천히 움직이는 카메라(켄 번스)와 빛 알갱이.\n</li>\n<li><strong>타이틀은 «포트메이츠» 만</strong>, 글자 로고가 아니라 게임 타이틀 디자인(Codex: 금빛 글자 + 성벽 받침 + 검·활 + 파란 깃발)으로.\n</li></ol>",
 "goalShort": "1.",
 "tasks": [
@@ -3703,7 +3728,7 @@
 "title": "Codex 6장: 평온한 하늘 원화 key/loading_calm, 하늘 균열 fx/rift, 그림자 무리 정면 비행 2프레임 fx/shade_up·fx/shade_down(결정 0053 색: 검은 남색 실루엣·청록 발광선, 보라 금지), 타이틀 로고 ui/logo_title(«포트메이츠» 철자 확인), 업데이트 창 그림 ui/update_art. 지시문 정본은 art/tools/gen.py",
 "output": "art/raw/ → 눈 검수",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A2",
@@ -3712,7 +3737,7 @@
 "title": "받아들이기: 원화는 --key, 나머지는 규격 맞춤(투명 여백 잘라 가로 ≤ 1200, 무리 두 장은 같은 캔버스 그대로 512×512 — 몸 위치가 프레임 사이에 같아야 날갯짓이 튀지 않는다). 목록·장부 기록, check.py 오류 0",
 "output": "art/final/{key,fx,ui}/…, studio/art-manifest.json, studio/assets-ledger.csv, art/tools/accept.py",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A3",
@@ -3721,7 +3746,7 @@
 "title": "tools/import_art.py 로 유니티에 복사(Art/Final/<이름표>.png)",
 "output": "UnityProject/Assets/_Game/Art/Final/",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "L1",
@@ -3730,7 +3755,7 @@
 "title": "UiResources 에 인트로 그림 6장 참조를 더하고 ProjectSetup.BuildUiResources 가 이름표로 채운다(앱 안 그림 — CDN 을 읽기 전 첫 화면에 필요). 로고도 앱 안에서 읽는다(원격 카탈로그가 옛것이어도 나오게)",
 "output": "View/UiResources.cs, Editor/ProjectSetup.cs, Resources/UiResources.asset(배치 실행으로)",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "L2",
@@ -3739,7 +3764,7 @@
 "title": "PatchBoot·PatchScreen: 확인 중 글 없음, 뒤판 = 인트로 첫 장면, 띠는 받는 중에만. 창 개편(목표 2). 기존 Ask 는 남기고 AskNewBuild·AskDownload·AskRetry 를 더한다",
 "output": "App/PatchBoot.cs, UI/PatchScreen.cs",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "L3",
@@ -3748,7 +3773,7 @@
 "title": "인트로(목표 3·4): 새 UI/LoadingIntro.cs 가 시간표를 돌리고 LoadingScreen 이 그것을 붙인다. 막대·글·버전은 한 묶음(투명도)으로 인트로 끝에 나타난다. CanContinue = 불러오기 끝 ∧ 인트로 끝. 로고는 ui/logo_title(앱 안), OutgameBoot.FinishLoading 이 옛 ui/logo_text 를 덮지 않게",
 "output": "UI/LoadingScreen.cs, UI/LoadingIntro.cs, Outgame/OutgameBoot.cs",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "L4",
@@ -3757,7 +3782,7 @@
 "title": "테스트: EditMode — 인트로 시간표(배율이 2.2 → 1, 끝에서 켄 번스와 이어짐, 건너뛰기, 그림 없으면 인트로 없음), 패치 화면 확인 중 글 없음·창 세 종류. 기존 테스트 중 «확인 중 글» 을 보던 줄은 새 동작으로 고친다(지우지 않는다)",
 "output": "Assets/Tests/EditMode/Cd26EditModeTests.cs, PlayMode/PatchBootTests.cs",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "L5",
@@ -3766,7 +3791,7 @@
 "title": "캡처: 인트로 6장면(평온 · 금 · 찢어짐 · 무리 · 줌아웃 중 · 타이틀 뒤) + 업데이트 창 3종 + 받는 중 막대, 1080×1920. _qa/ 에",
 "output": "studio/orders/CD-0026-…/_qa/.png",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 }
 ]
 },
@@ -3774,10 +3799,13 @@
 "id": "CD-0027",
 "title": "로비 상단 재화 아이콘 글자 외곽선 깜빡임 제거와 UI 제작 공정 스킬 안",
 "branch": "cd27",
-"updated": "2026-11-17 22:46",
+"updated": "2026-11-17 23:05",
 "files": [
 "00-order.md",
 "10-spec.md",
+"22-art.md",
+"40-ui-skill-plan.md",
+"_qa",
 "_research"
 ],
 "milestone": "M6",
@@ -3796,8 +3824,8 @@
 "team": "art",
 "title": "글꼴 후보 비교판. 한글·숫자·라틴을 다 가진 OFL(또는 상업 게임 임베드가 명시적으로 허용된) 굵은 글꼴 후보 3개를 공식 배포처에서 받는다(지금 쓰는 Noto Sans KR 계열의 Black/ExtraBold 하나 + 둥근 게임체 둘 정도. 라이선스는 공식 페이지로 확인해 링크를 적는다). 각 후보로 실제 로비 문구(«모험가», «Lv.1», «60/60», «0», «500», «1,250», «숲길 관문», «보통 · 어려움 · 정예», «출전», «보통 · 보상 ×1», «오늘 목표», «0/5», «우편», «영웅 쿠지 로비 업적 상점»)를 밝은 채움 + 어두운 바깥 선 + 아래 그림자로 PIL 렌더해, 실제 로비 캡처의 같은 자리 크기로 한 장에 나란히 놓는다(지금 글꼴도 한 줄 포함). 1080 폭 실크기와 숫자 300% 확대를 같이.",
 "output": "_qa/cd27_font_compare.png, 후보별 라이선스 링크·글리프 수·파일 크기를 22-art.md 에",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 22-art.md"
 },
 {
 "id": "A2",
@@ -8803,11 +8831,101 @@
 "status": "confirmed",
 "address": "ui/icon_coin",
 "hasFile": true
+},
+{
+"id": "ui/icon_stamina",
+"group": "ui",
+"title": "아이콘: 행동력(번개)",
+"brief": "",
+"status": "draft",
+"address": "ui/icon_stamina",
+"hasFile": true
+},
+{
+"id": "ui/icon_silver",
+"group": "ui",
+"title": "아이콘: 은화 더미",
+"brief": "",
+"status": "draft",
+"address": "ui/icon_silver",
+"hasFile": true
+},
+{
+"id": "ui/icon_gemstone",
+"group": "ui",
+"title": "아이콘: 젬스톤",
+"brief": "",
+"status": "draft",
+"address": "ui/icon_gemstone",
+"hasFile": true
+},
+{
+"id": "ui/icon_mission",
+"group": "ui",
+"title": "아이콘: 오늘 목표",
+"brief": "",
+"status": "draft",
+"address": "ui/icon_mission",
+"hasFile": true
+},
+{
+"id": "ui/icon_mail",
+"group": "ui",
+"title": "아이콘: 우편",
+"brief": "",
+"status": "draft",
+"address": "ui/icon_mail",
+"hasFile": true
+},
+{
+"id": "ui/tab_lobby",
+"group": "ui",
+"title": "탭: 로비(성문)",
+"brief": "",
+"status": "draft",
+"address": "ui/tab_lobby",
+"hasFile": true
+},
+{
+"id": "ui/tab_characters",
+"group": "ui",
+"title": "탭: 영웅(투구)",
+"brief": "",
+"status": "draft",
+"address": "ui/tab_characters",
+"hasFile": true
+},
+{
+"id": "ui/tab_box",
+"group": "ui",
+"title": "탭: 쿠지(상자)",
+"brief": "",
+"status": "draft",
+"address": "ui/tab_box",
+"hasFile": true
+},
+{
+"id": "ui/tab_achievements",
+"group": "ui",
+"title": "탭: 업적(트로피)",
+"brief": "",
+"status": "draft",
+"address": "ui/tab_achievements",
+"hasFile": true
+},
+{
+"id": "ui/tab_shop",
+"group": "ui",
+"title": "탭: 상점(가판대)",
+"brief": "",
+"status": "draft",
+"address": "ui/tab_shop",
+"hasFile": true
 }
 ],
-"at": "2026-11-17 22:42",
+"at": "2026-11-17 23:02",
 "branch": "cd27",
-"dirty": false
+"dirty": true
 },
 "gallery": {
 "v": 1,
@@ -9184,6 +9302,56 @@
 },
 "ui/icon_coin": {
 "f": "data/art/27c6e9979b5e35081b6a.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_stamina": {
+"f": "data/art/883e8ce9037f6e0ee367.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_silver": {
+"f": "data/art/b68e52807d633d851856.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_gemstone": {
+"f": "data/art/aae6e891918563446add.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_mission": {
+"f": "data/art/8e6ec936f38026fe7308.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_mail": {
+"f": "data/art/d8d747572953b445a71b.bin",
+"w": 512,
+"h": 512
+},
+"ui/tab_lobby": {
+"f": "data/art/5477de4cc7dbe3234f3c.bin",
+"w": 512,
+"h": 512
+},
+"ui/tab_characters": {
+"f": "data/art/82d5f3e6367b6c32ce77.bin",
+"w": 512,
+"h": 512
+},
+"ui/tab_box": {
+"f": "data/art/ea89f9a8eb8700a86c38.bin",
+"w": 512,
+"h": 512
+},
+"ui/tab_achievements": {
+"f": "data/art/4abdda794e3ce5e3c9c4.bin",
+"w": 512,
+"h": 512
+},
+"ui/tab_shop": {
+"f": "data/art/f3820b5e45f069c0bfce.bin",
 "w": 512,
 "h": 512
 }
@@ -10158,7 +10326,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 18:32",
+"at": "2026-11-17 22:48",
 "passed": 403,
 "failed": 0,
 "total": 403,
@@ -10166,16 +10334,16 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-17 18:39",
+"at": "2026-11-17 18:30",
 "passed": 142,
 "failed": 0,
 "total": 142,
 "ok": true,
-"fresh": true
+"fresh": false
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 18:32",
+"at": "2026-11-17 22:48",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10183,7 +10351,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 18:32",
+"at": "2026-11-17 22:48",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10191,7 +10359,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 18:32",
+"at": "2026-11-17 22:48",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10403,7 +10571,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 22:47",
-"generatedAt": "2026-11-17 22:47",
-"digest": "cc5bc10fd7399403"
+"sourceAt": "2026-11-17 23:09",
+"generatedAt": "2026-11-17 23:17",
+"digest": "1950b9dd79d1be07"
 }
