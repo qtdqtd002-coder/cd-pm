@@ -1150,8 +1150,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0024",
-"head": "96fd720",
+"head": "6d970f1",
 "commits": [
+{
+"sha": "6d970f1",
+"at": "2026-11-17 17:31",
+"ts": 1794904295,
+"msg": "CD-0024 client 2차 대표 검수 반영: 위험 버튼 글자·닫기 모서리 덮개·남색 키·원형 슬라이더 손잡이"
+},
 {
 "sha": "96fd720",
 "at": "2026-11-17 17:10",
@@ -1181,55 +1187,49 @@
 "at": "2026-11-17 13:54",
 "ts": 1794891262,
 "msg": "CD-0024 주문서·기획서: UI 틀 코드 제작 시안 비교"
-},
-{
-"sha": "35fb47c",
-"at": "2026-11-17 13:53",
-"ts": 1794891223,
-"msg": "CD-0014 폰 확인 기록: 0.5.0 → 필수 업데이트 창 → Firebase → 0.5.1 설치(사용자 11-17)"
 }
 ],
-"dirtyCount": 24,
+"dirtyCount": 11,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene91aa50ca-9191-487c-b7cf-89d3730d466a.unity.meta",
-"at": "2026-11-17 17:15"
+"file": "UnityProject/Assets/InitTestScenea3595dff-fa17-4362-8627-0de47ee97368.unity.meta",
+"at": "2026-11-17 17:43"
 },
 {
-"file": "UnityProject/Assets/InitTestScene91aa50ca-9191-487c-b7cf-89d3730d466a.unity",
-"at": "2026-11-17 17:15"
+"file": "UnityProject/Assets/InitTestScenea3595dff-fa17-4362-8627-0de47ee97368.unity",
+"at": "2026-11-17 17:43"
 },
 {
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/21-client.md",
-"at": "2026-11-17 17:15"
+"file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
+"at": "2026-11-17 17:42"
 },
 {
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_match_pause.png",
-"at": "2026-11-17 17:14"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Bold SDF.asset",
+"at": "2026-11-17 17:42"
 },
 {
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_match.png",
-"at": "2026-11-17 17:14"
+"file": "test-results.xml",
+"at": "2026-11-17 17:41"
 },
 {
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_shop.png",
-"at": "2026-11-17 17:14"
+"file": "studio/checks.json",
+"at": "2026-11-17 17:41"
 },
 {
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_shop_confirm.png",
-"at": "2026-11-17 17:14"
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-17 17:32"
 },
 {
-"file": "studio/orders/CD-0024-UI-틀-코드-제작-시안-비교/_qa/cd24_final_settings.png",
-"at": "2026-11-17 17:14"
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-17 17:32"
 }
 ],
-"lastEdit": "2026-11-17 17:15",
-"lastEditTs": 1794903318.084486,
-"lastCommitTs": 1794903052,
-"unpushed": 5,
-"notInMain": 5,
-"today": 116
+"lastEdit": "2026-11-17 17:43",
+"lastEditTs": 1794905001.2641098,
+"lastCommitTs": 1794904295,
+"unpushed": 6,
+"notInMain": 6,
+"today": 117
 },
 {
 "branch": "cd25",
@@ -1237,8 +1237,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0025",
-"head": "0bd7ee9",
+"head": "12f5e43",
 "commits": [
+{
+"sha": "12f5e43",
+"at": "2026-11-17 17:30",
+"ts": 1794904242,
+"msg": "CD-0025 기획: gate_02_hard·elite 6웨이브부터 hpPct ×105% (Map2 균형 시험 범위 안으로)"
+},
+{
+"sha": "a4e3b97",
+"at": "2026-11-17 17:29",
+"ts": 1794904193,
+"msg": "CD-0025 client: 영웅 팝업 스탯 판(공격력·공격 속도·사거리·초당 피해·종족 특기), 버튼 «공격력 a → b», 단계 강화·도움말 낱말, 시험·캡처"
+},
+{
+"sha": "8393484",
+"at": "2026-11-17 17:19",
+"ts": 1794903545,
+"msg": "CD-0025 core: minHitDamage, HeroView 스탯 필드, HeroStatsTests, 10배 맞춘 테스트·기준 재생, CDSNAP8, 시뮬 전후 비교(48칸 ±3%p 이내) — Map2Tests 2칸 한 판 초과는 기획 판단 대기"
+},
 {
 "sha": "0bd7ee9",
 "at": "2026-11-17 16:45",
@@ -1256,72 +1274,50 @@
 "at": "2026-11-17 13:25",
 "ts": 1794889501,
 "msg": "앱 0.5.1 · versionCode 6 (CD-0014 폰 배포): AppUpdateCheck.BuiltInVersionCode 6, 0.5.1 Android 기본 빌드 content state·base_id 3beb8451"
-},
-{
-"sha": "94706e2",
-"at": "2026-11-17 12:52",
-"ts": 1794887521,
-"msg": "CD-0023 마감: 90-close, 게이트 close, 마일스톤 M2-13, 개발일지 (main d2fc6c5 받은 뒤 check --unity: Core 382/382·EditMode 134/134)"
-},
-{
-"sha": "d5a4f3d",
-"at": "2026-11-17 12:38",
-"ts": 1794886728,
-"msg": "Merge main(d2fc6c5) into cd23: CD-0014 원격 카탈로그 수정"
-},
-{
-"sha": "13f8abc",
-"at": "2026-11-17 12:38",
-"ts": 1794886728,
-"msg": "CD-0023 게이트 qa 통과"
 }
 ],
-"dirtyCount": 31,
+"dirtyCount": 7,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/Resources/Data/economy.json",
-"at": "2026-11-17 17:15"
+"file": "Data/waves.json",
+"at": "2026-11-17 17:47"
 },
 {
-"file": "studio/orders/CD-0025-영웅-팝업-스탯-표시와-공격력-체력-10배/_sim/compare-before-after.md",
-"at": "2026-11-17 17:13"
+"file": "studio/orders/CD-0025-영웅-팝업-스탯-표시와-공격력-체력-10배/21-core.md",
+"at": "2026-11-17 17:44"
 },
 {
-"file": "tools/sim/results/run-meta.json",
-"at": "2026-11-17 17:13"
+"file": "Core/tests/Map2Tests.cs",
+"at": "2026-11-17 17:35"
 },
 {
-"file": "tools/sim/results/summary.md",
-"at": "2026-11-17 17:13"
+"file": "studio/orders/CD-0025-영웅-팝업-스탯-표시와-공격력-체력-10배/20-planning.md",
+"at": "2026-11-17 17:35"
 },
 {
-"file": "tools/sim/results/summary.json",
-"at": "2026-11-17 17:13"
+"file": "UnityProject/Assets/_Game/Resources/Data/waves.json",
+"at": "2026-11-17 17:35"
 },
 {
-"file": "studio/orders/CD-0025-영웅-팝업-스탯-표시와-공격력-체력-10배/_sim/baseline-5f7c367-summary.json",
-"at": "2026-11-17 17:11"
+"file": "Core/tests/HeroesTests.cs",
+"at": "2026-11-17 17:31"
 },
 {
-"file": "studio/orders/CD-0025-영웅-팝업-스탯-표시와-공격력-체력-10배/_sim/baseline-5f7c367-summary.md",
-"at": "2026-11-17 17:11"
-},
-{
-"file": "Core/tests/Fixtures/baseline_cd0023_seed7.txt",
-"at": "2026-11-17 17:04"
+"file": "Core/package/Runtime/Meta/Heroes.cs",
+"at": "2026-11-17 17:31"
 }
 ],
-"lastEdit": "2026-11-17 17:15",
-"lastEditTs": 1794903315.335371,
-"lastCommitTs": 1794901509,
-"unpushed": 1,
-"notInMain": 1,
-"today": 112
+"lastEdit": "2026-11-17 17:47",
+"lastEditTs": 1794905226.1903262,
+"lastCommitTs": 1794904242,
+"unpushed": 4,
+"notInMain": 4,
+"today": 115
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 119,
+"commits": 121,
 "byOrder": [
 [
 "CD-0014",
@@ -1356,24 +1352,24 @@
 6
 ],
 [
-"CD-0010",
-6
+"CD-0024",
+5
 ],
 [
 "CD-0017",
 5
 ],
 [
-"CD-0024",
+"CD-0010",
+5
+],
+[
+"CD-0025",
 4
 ],
 [
 "CD-0019",
 2
-],
-[
-"CD-0025",
-1
 ],
 [
 "CD-0022",
@@ -1386,13 +1382,29 @@
 [
 "CD-0012",
 1
-],
-[
-"CD-0011",
-1
 ]
 ],
 "latest": [
+{
+"sha": "6d970f1",
+"at": "2026-11-17 17:31",
+"msg": "CD-0024 client 2차 대표 검수 반영: 위험 버튼 글자·닫기 모서리 덮개·남색 키·원형 슬라이더 손잡이"
+},
+{
+"sha": "12f5e43",
+"at": "2026-11-17 17:30",
+"msg": "CD-0025 기획: gate_02_hard·elite 6웨이브부터 hpPct ×105% (Map2 균형 시험 범위 안으로)"
+},
+{
+"sha": "a4e3b97",
+"at": "2026-11-17 17:29",
+"msg": "CD-0025 client: 영웅 팝업 스탯 판(공격력·공격 속도·사거리·초당 피해·종족 특기), 버튼 «공격력 a → b», 단계 강화·도움말 낱말, 시험·캡처"
+},
+{
+"sha": "8393484",
+"at": "2026-11-17 17:19",
+"msg": "CD-0025 core: minHitDamage, HeroView 스탯 필드, HeroStatsTests, 10배 맞춘 테스트·기준 재생, CDSNAP8, 시뮬 전후 비교(48칸 ±3%p 이내) — Map2Tests 2칸 한 판 초과는 기획 판단 대기"
+},
 {
 "sha": "96fd720",
 "at": "2026-11-17 17:10",
@@ -1422,26 +1434,6 @@
 "sha": "35fb47c",
 "at": "2026-11-17 13:53",
 "msg": "CD-0014 폰 확인 기록: 0.5.0 → 필수 업데이트 창 → Firebase → 0.5.1 설치(사용자 11-17)"
-},
-{
-"sha": "f189c4a",
-"at": "2026-11-17 13:25",
-"msg": "앱 0.5.1 · versionCode 6 (CD-0014 폰 배포): AppUpdateCheck.BuiltInVersionCode 6, 0.5.1 Android 기본 빌드 content state·base_id 3beb8451"
-},
-{
-"sha": "94706e2",
-"at": "2026-11-17 12:52",
-"msg": "CD-0023 마감: 90-close, 게이트 close, 마일스톤 M2-13, 개발일지 (main d2fc6c5 받은 뒤 check --unity: Core 382/382·EditMode 134/134)"
-},
-{
-"sha": "13f8abc",
-"at": "2026-11-17 12:38",
-"msg": "CD-0023 게이트 qa 통과"
-},
-{
-"sha": "abd3b91",
-"at": "2026-11-17 12:38",
-"msg": "CD-0023 QA: 수용 기준 1~14 통과 · 15 사람 플레이 검증 못 함 · 판정 PASS"
 }
 ]
 },
@@ -3348,7 +3340,7 @@
 "id": "CD-0024",
 "title": "UI 틀 코드 제작 시안 비교",
 "branch": "cd24",
-"updated": "2026-11-17 17:15",
+"updated": "2026-11-17 17:31",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -3356,7 +3348,7 @@
 "_qa"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "검수",
 "route": "fast",
 "risk": "low",
 "teams": "client",
@@ -3371,8 +3363,8 @@
 "team": "client",
 "title": "지금 판 밖 화면(로비·팝업·상점 또는 영웅·쿠지 중 틀이 많은 화면 2~3개)에서 각 틀 요소가 Codex 그림 / 코드(SDF) / CC0 중 무엇인지 표로 정리",
 "output": "보고서 표",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "U2",
@@ -3380,8 +3372,8 @@
 "team": "client",
 "title": "코드 틀 시안: Codex 9-slice 틀(패널·팝업·버튼 주/보조·칩·상단 바 등)을 같은 색감·위계로 코드(Skin.RoundRectSdf 확장, UIEffect 그라디언트·그림자·외곽선, SoftMask 등 §10 도구)로 다시 만든다. 개발용 스위치(예: 실행 인자 -uiSkin code, 에디터에서는 메뉴)로만 켜진다. 기본값은 지금 그대로",
 "output": "코드",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "U3",
@@ -3389,8 +3381,8 @@
 "team": "client",
 "title": "비교 캡처: PC 빌드(1080×2400 세로)로 같은 화면·같은 상태를 지금 / 코드 시안 두 장씩, 그리고 버튼·팝업 모서리 확대(200~300%) 비교. 한 장에 모은 비교판(왼쪽 지금, 오른쪽 시안, 화면 이름·요소 표시)",
 "output": "_qa/cd24_.png, 비교판 _qa/cd24_compare.png",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 }
 ]
 },
@@ -3398,11 +3390,14 @@
 "id": "CD-0025",
 "title": "영웅 팝업 스탯 표시와 공격력 체력 10배",
 "branch": "cd25",
-"updated": "2026-11-17 17:13",
+"updated": "2026-11-17 17:44",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-planning.md",
+"21-core.md",
+"22-client.md",
+"_qa",
 "_sim"
 ],
 "milestone": "M3",
@@ -3430,8 +3425,8 @@
 "team": "core",
 "title": "최소 피해 읽기: EconomyConfig 에 MinHitDamage(키 없으면 1, 있으면 ≥ 1 검사)를 읽고 GameMatch.Hit 의 Math.Max(1, damage - m.Armor) 를 Math.Max(MinHitDamage, damage - m.Armor) 로. 이 값이 «판 밖 영웅 조회 DPS» 에는 영향이 없음을 확인(DPS 는 방어 0 기준)",
 "output": "Core/package/Runtime/Config/GameConfig.cs, Match/GameMatch.cs, 21-core.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-core.md"
 },
 {
 "id": "C2",
@@ -3466,8 +3461,8 @@
 "team": "client",
 "title": "영웅 팝업 스탯 판(UI/CharacterScreen.cs 상세 카드): 공격력 · 공격 속도(초당 n회, 소수 둘째) · 사거리(n칸, 소수 첫째) · 초당 피해 · 종족 특기 한 줄을 HeroView 에서 읽어 보인다(계산하지 않는다 — 규칙 2). 지금 «레벨/강화/피해» 상자 중 «피해» 상자를 «공격력»(숫자)으로. [레벨 업]·[강화] 버튼 글을 «공격력 200 → 210» 으로(EnhanceCost·CopiesNeeded 표시는 그대로). 최대 레벨/강화에서는 «최대» 처리 그대로. 미보유 영웅도 레벨 1·+0 스탯을 보인다",
 "output": "UnityProject/Assets/_Game/UI/CharacterScreen.cs(필요하면 같은 폴더 안 새 파일), 22-client.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 22-client.md"
 },
 {
 "id": "L2",
@@ -6500,7 +6495,7 @@
 },
 {
 "wave": 6,
-"hpPct": 585,
+"hpPct": 590,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -6521,7 +6516,7 @@
 },
 {
 "wave": 7,
-"hpPct": 682,
+"hpPct": 688,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -6537,7 +6532,7 @@
 },
 {
 "wave": 8,
-"hpPct": 780,
+"hpPct": 787,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -6558,7 +6553,7 @@
 },
 {
 "wave": 9,
-"hpPct": 897,
+"hpPct": 905,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -6579,7 +6574,7 @@
 },
 {
 "wave": 10,
-"hpPct": 1267,
+"hpPct": 1279,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -6595,7 +6590,7 @@
 },
 {
 "wave": 11,
-"hpPct": 1443,
+"hpPct": 1457,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -6611,7 +6606,7 @@
 },
 {
 "wave": 12,
-"hpPct": 1599,
+"hpPct": 1614,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -6632,7 +6627,7 @@
 },
 {
 "wave": 13,
-"hpPct": 1755,
+"hpPct": 1772,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -6658,7 +6653,7 @@
 },
 {
 "wave": 14,
-"hpPct": 1911,
+"hpPct": 1930,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -6684,7 +6679,7 @@
 },
 {
 "wave": 15,
-"hpPct": 2067,
+"hpPct": 2087,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -6710,7 +6705,7 @@
 },
 {
 "wave": 16,
-"hpPct": 2106,
+"hpPct": 2127,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -6736,7 +6731,7 @@
 },
 {
 "wave": 17,
-"hpPct": 2145,
+"hpPct": 2166,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -6762,7 +6757,7 @@
 },
 {
 "wave": 18,
-"hpPct": 2184,
+"hpPct": 2205,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -6788,7 +6783,7 @@
 },
 {
 "wave": 19,
-"hpPct": 2223,
+"hpPct": 2245,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -6819,7 +6814,7 @@
 },
 {
 "wave": 20,
-"hpPct": 2262,
+"hpPct": 2284,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -7232,9 +7227,9 @@
 }
 }
 },
-"at": "2026-11-17 16:40",
+"at": "2026-11-17 17:47",
 "branch": "cd25",
-"dirty": false
+"dirty": true
 },
 "maps": {
 "data": {
@@ -9871,7 +9866,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-17 16:50",
+"at": "2026-11-17 17:34",
 "passed": 382,
 "failed": 0,
 "total": 382,
@@ -9888,7 +9883,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-17 16:50",
+"at": "2026-11-17 17:34",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9896,7 +9891,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-17 16:50",
+"at": "2026-11-17 17:34",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9904,7 +9899,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-17 16:50",
+"at": "2026-11-17 17:34",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10116,7 +10111,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-17 17:15",
-"generatedAt": "2026-11-17 17:17",
-"digest": "17ede3f9dd0e5da8"
+"sourceAt": "2026-11-17 17:47",
+"generatedAt": "2026-11-17 17:47",
+"digest": "eb0cc8a322237a6c"
 }
