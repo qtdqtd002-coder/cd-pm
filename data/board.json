@@ -1225,43 +1225,43 @@
 "msg": "CD-0031: 마일스톤 M6-22 → M6-23 (다른 세션의 CD-0029 가 M6-22 를 씀)"
 }
 ],
-"dirtyCount": 487,
+"dirtyCount": 773,
 "dirty": [
 {
-"file": "studio/checks.json",
-"at": "2026-11-19 02:17"
+"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/qa-shots/shop_refresh_cap_1080x1920.png",
+"at": "2026-11-19 02:39"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ClaimRow.cs",
-"at": "2026-11-19 02:13"
+"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/qa-shots/shop_refresh_cap_1080x2400.png",
+"at": "2026-11-19 02:39"
 },
 {
-"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/floors.md",
-"at": "2026-11-19 01:56"
+"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/qa-shots/gemstore_plus_1080x1920.png",
+"at": "2026-11-19 02:39"
 },
 {
-"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/shots-final/sheet_gem_1920.png",
-"at": "2026-11-19 01:56"
+"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/qa-shots/gemstore_plus_1080x2400.png",
+"at": "2026-11-19 02:39"
 },
 {
-"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/shots-final/sheet_shop_1920.png",
-"at": "2026-11-19 01:56"
+"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/qa-shots/gemstore_short_1080x1920.png",
+"at": "2026-11-19 02:39"
 },
 {
-"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/shots-final/sheet_kuji_1920.png",
-"at": "2026-11-19 01:56"
+"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/qa-shots/gemstore_short_1080x2400.png",
+"at": "2026-11-19 02:39"
 },
 {
-"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/shots-final/sheet_mission_1920.png",
-"at": "2026-11-19 01:56"
+"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/qa-shots/shop_gemshop_1080x1920.png",
+"at": "2026-11-19 02:39"
 },
 {
-"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/shots-final/sheet_ach_1920.png",
-"at": "2026-11-19 01:56"
+"file": "studio/orders/CD-0035-판-밖-피드백-13건-로비-정리-레드닷-뽑기-노점-쿠지/_qa/qa-shots/shop_gemshop_1080x2400.png",
+"at": "2026-11-19 02:39"
 }
 ],
-"lastEdit": "2026-11-19 02:17",
-"lastEditTs": 1795022230.868233,
+"lastEdit": "2026-11-19 02:39",
+"lastEditTs": 1795023592.102568,
 "lastCommitTs": 1795017519,
 "unpushed": 2,
 "notInMain": 0,
@@ -4900,7 +4900,7 @@
 "id": "CD-0035",
 "title": "판 밖 피드백 13건: 로비 정리·레드닷·뽑기 노점 쿠지·업적 한 목록·상점 한 장·젬스톤 구매 창",
 "branch": "main",
-"updated": "2026-11-19 01:47",
+"updated": "2026-11-19 02:22",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -4910,10 +4910,11 @@
 "24-client-a.md",
 "25-art.md",
 "26-client-final.md",
+"27-client.md",
 "_qa"
 ],
 "milestone": "M3",
-"stage": "제작",
+"stage": "검수",
 "route": "full",
 "risk": "mid",
 "teams": "planning, core, client, art",
@@ -4929,7 +4930,7 @@
 "title": "수치·규칙·결정 초안(이번 커밋, 끝남): 일일 상점·가치 환산·젬스톤 상점·화면 글, 검사기, 문서 · 사용자 답 Q1~Q8 반영(끝남)",
 "output": "21-planning.md",
 "status": "done",
-"why": "보고서 있음: 21-planning.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "P2",
@@ -4938,7 +4939,7 @@
 "title": "core C1 뒤: validate_data.py 의 옛 칸 분기(tabs·silverShop) 삭제 · 경고 0 확인 · 사람 플레이 뒤 은화 흐름·새로고침 값 다시 보기 · 결정 0062 상태 갱신",
 "output": "21-planning.md 에 절 추가",
 "status": "done",
-"why": "보고서 있음: 21-planning.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "C1",
@@ -4947,7 +4948,7 @@
 "title": "일일 상점·젬스톤 상점·업적 한 목록 규칙과 테스트(§1, §3 의 Core API) · 미션 탭 단위 일괄 받기: 이미 있는 Missions 의 일괄 받기(일일·주간 각각)를 확인하고 시험으로 고정(K7). SilverShop 은 지우고 DailyShop 으로. 같은 커밋에서 Data/shop.json 의 옛 칸(tabs·_silverShopNote·silverShop·kuji_20·kuji_66·kuji_220·ex_kuji_1·ex_kuji_10)과 _cd35Note 의 «옛 칸» 문장을 지운다(CD-0015 선례 — planning 허락). Shop._note 의 탭 설명도 맞춘다",
 "output": "코드·테스트, 22-core.md",
 "status": "done",
-"why": "보고서 있음: 22-core.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "CB1",
@@ -4956,7 +4957,7 @@
 "title": "맨 먼저 데이터 사본 sync(python -I -X utf8 tools/sync_data.py — P1 커밋 뒤 5개가 다르다, 대표 결정) · 상태·저장: OutgameState 의 일일 상점·젬스톤 상점 연결(§3 Unity API), 저장 v10 → v11(아래), AutoTour 글·흐름. _Game/Save·Outgame·App 은 B 소유(대표 확인)",
 "output": "코드, 23-client-b.md",
 "status": "done",
-"why": "보고서 있음: 23-client-b.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "CB2",
@@ -4964,8 +4965,8 @@
 "team": "client",
 "title": "화면: 뽑기(§2), 상점 페이지(§2), 젬스톤 구매 창(새 파일), 품절·특가 카드",
 "output": "코드, 캡처 _qa/b/",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "CB3",
@@ -4973,8 +4974,8 @@
 "team": "client",
 "title": "시험: 새 Assets/Tests/EditMode/Cd35ShopKujiEditModeTests.cs·PlayMode/Cd35ShopKujiTests.cs, 아래 배정된 옛 시험 고침",
 "output": "시험 결과 숫자",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "CA0",
@@ -4982,8 +4983,8 @@
 "team": "client",
 "title": "먼저(B 가 쓰는 공용 위젯, 반나절 안에 커밋): OutgameWidgets.CompleteStamp/SetComplete/IconRim, PageHeaderBar(§3)",
 "output": "코드",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "CA1",
@@ -4991,8 +4992,8 @@
 "team": "client",
 "title": "로비(§2 로비 전부)·탭 이름·레드닷·[+] 연결·상점 탭을 페이지로·로딩 반짝임 제거·영웅·업적·프로필 머리·도움말 글",
 "output": "코드, 캡처 _qa/a/",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "CA2",
@@ -5000,8 +5001,8 @@
 "team": "client",
 "title": "업적 한 목록·줄 디자인(§2 업적) · 미션 창 «모두 받기» 삭제·받기 하나 = 그 탭 전부·같은 줄 모양(§2 미션 창)",
 "output": "코드, 캡처",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "CA3",
@@ -5010,7 +5011,7 @@
 "title": "docs/03 §10 문단(아래 «문서») · 시험: 새 PlayMode/Cd35LobbyAchievementTests.cs, 배정된 옛 시험 고침 · craft-game-floors 감사 한 번(A·B 화면 모두, 결과 _qa/floors.md)",
 "output": "24-client-a.md",
 "status": "done",
-"why": "보고서 있음: 24-client-a.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "A1",
@@ -5019,7 +5020,7 @@
 "title": "아이콘 외곽선 판정: CA1 캡처(1080×2400, 100% 확대)로 색·굵기 판정, 값 제안. 들쭉날쭉하면 대안 = 가공본(docs/03 §9 «확정 그림 가공본 규칙», art/tools/ui_marks.py 방식, 새 이름표 ui/icon__rim, 상태 temp, 장부 줄) — 그때 client-A 가 이름표만 바꾼다",
 "output": "25-art.md, 판정표",
 "status": "done",
-"why": "보고서 있음: 25-art.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "A2",
@@ -5027,8 +5028,8 @@
 "team": "art",
 "title": "뽑기 노점 점검: key/box_bg 를 1080×2400·1080×1920 cover fit 했을 때 선반 2단·계산대 윗면의 위치(화면 높이 비율 0~1)를 재서 client-B 에 넘김. box/ticket·ticket_open 이 92×120 에서 읽히는지, 뽑은 칸 상 글자 자리",
 "output": "_qa/art-box-anchors.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "A4",
@@ -5037,7 +5038,7 @@
 "title": "Codex 그림 2장(사용자 답 Q6): 쿠지 티켓·연합의 결정 아이콘을 결정 0057 세트(행동력·은화 더미·젬스톤)와 같은 결로 다시 그린다(같은 세션 이어 그리기 --resume). 이름표 ui/icon_kuji_ticket·ui/icon_crystal 은 그대로 두고 파일만 바꿈(L13). cd-art 절차·규격 검사·세트 대조판·장부, 재시도 항목당 1번",
 "output": "그림 2장, 대조판, 25-art.md",
 "status": "done",
-"why": "보고서 있음: 25-art.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "A3",
@@ -5046,7 +5047,7 @@
 "title": "COMPLETE·품절 딱지 색값(녹색·빨강) 결정 — 딤드 위·밝은 카드 위 둘 다 읽히게(명도 대비를 재서 적음), 로비 아이콘·탭 아이콘 세트가 외곽선 뒤에도 한 세트로 보이는지 대조판",
 "output": "25-art.md",
 "status": "done",
-"why": "보고서 있음: 25-art.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "Q1",
@@ -5054,8 +5055,8 @@
 "team": "qa",
 "title": "독립 검수: 아래 수용 기준·검증 방법, 캡처 대조, craft-game-floors 결과 인용",
 "output": "판정",
-"status": "todo",
-"why": ""
+"status": "doing",
+"why": "주문이 검수 단계"
 }
 ]
 },
@@ -10734,7 +10735,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-19 02:13",
+"at": "2026-11-19 02:30",
 "passed": 425,
 "failed": 0,
 "total": 425,
@@ -10742,16 +10743,16 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-19 02:16",
+"at": "2026-11-19 02:26",
 "passed": 167,
 "failed": 1,
 "total": 168,
 "ok": false,
-"fresh": true
+"fresh": false
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-19 02:13",
+"at": "2026-11-19 02:30",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10759,7 +10760,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-19 02:13",
+"at": "2026-11-19 02:30",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10767,7 +10768,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-19 02:13",
+"at": "2026-11-19 02:30",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -10989,7 +10990,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-19 02:17",
-"generatedAt": "2026-11-19 02:17",
-"digest": "c3de53c0f1ac0d95"
+"sourceAt": "2026-11-19 02:39",
+"generatedAt": "2026-11-19 02:47",
+"digest": "663ae86997b83af3"
 }
