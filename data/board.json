@@ -1165,8 +1165,14 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0028",
-"head": "4846887",
+"head": "0f0f9bd",
 "commits": [
+{
+"sha": "0f0f9bd",
+"at": "2026-11-18 15:09",
+"ts": 1794982176,
+"msg": "앱 0.6.2 · versionCode 10 (CD-0029 + CD-0031 + CD-0028 K3): ProjectSetup·AppUpdateCheck.BuiltInVersionCode 10, 0.6.2 Android 기본 빌드 content state·base_id 72b5ae84, 개발일지·현황 사이트"
+},
 {
 "sha": "4846887",
 "at": "2026-11-18 14:46",
@@ -1196,22 +1202,16 @@
 "at": "2026-11-18 10:27",
 "ts": 1794965228,
 "msg": "Merge origin/main (CD-0028 K3 · 앱 0.6.1) into cd29 (CD-0031 로딩 인트로)"
-},
-{
-"sha": "d135aa1",
-"at": "2026-11-18 10:26",
-"ts": 1794965188,
-"msg": "CD-0031: 로딩 인트로 주문 번호 CD-0029 → CD-0031 (다른 세션의 CD-0029 와 겹침)"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1794980781,
-"unpushed": 2,
+"lastCommitTs": 1794982176,
+"unpushed": 0,
 "notInMain": 0,
-"today": 18
+"today": 19
 },
 {
 "branch": "rel-052",
@@ -1516,7 +1516,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 34,
+"commits": 35,
 "byOrder": [
 [
 "CD-0025",
@@ -1535,12 +1535,12 @@
 5
 ],
 [
-"CD-0031",
+"CD-0029",
 3
 ],
 [
-"CD-0029",
-2
+"CD-0031",
+3
 ],
 [
 "CD-0026",
@@ -1552,6 +1552,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "0f0f9bd",
+"at": "2026-11-18 15:09",
+"msg": "앱 0.6.2 · versionCode 10 (CD-0029 + CD-0031 + CD-0028 K3): ProjectSetup·AppUpdateCheck.BuiltInVersionCode 10, 0.6.2 Android 기본 빌드 content state·base_id 72b5ae84, 개발일지·현황 사이트"
+},
 {
 "sha": "8fc48b1",
 "at": "2026-11-18 14:45",
@@ -1596,11 +1601,6 @@
 "sha": "983c16e",
 "at": "2026-11-18 09:13",
 "msg": "CD-0028 K3: 단계 ◆ 를 영웅 위 층(Pips)으로 · 판 좌우 여백 0.15칸(가장자리 4단계 영웅 잘림) · 싱글 한 판 끝까지 PlayMode 테스트(Cd28FullRunTests: 로비→판→결과→로비, gate_03_std 20/20 승, 에러 0) · 앱 0.6.1 / versionCode 9"
-},
-{
-"sha": "dfdf690",
-"at": "2026-11-18 03:58",
-"msg": "현황 사이트 다시 만들기: CD-0028 병합·앱 0.6.0 배포 뒤 board, check --unity (Core 412/412 · EditMode 155/155)"
 }
 ]
 },
@@ -9572,8 +9572,8 @@
 {
 "file": "2026-11-18.md",
 "title": "2026-11-18",
-"html": "<h3>CD-0027 — 로비 재화 3칸·글꼴 Black 누끼 글자·버튼 반짝임 제거·Codex 아이콘 10장(결정 0057)</h3>\n<ul>\n<li>사용자(11-17): «폰트 디자인을 통일하고 … 누끼처럼 겉은 어두운색이고 안은 밝은색 … 행동력은 번개 모양, 은화는 쌓아올리는 디자인, 연합의 결정은 영웅탭에서 … 코덱스를 써서 디자인 퀄리티를 크게 … 버튼 깜빡이는거는 제거 … 오늘목표·우편 폴리싱 … UI 제작 공정을 설계하고 스킬화». 답: 글꼴 «후보 비교판 보고 진행», 반짝임 «게임 전체 버튼에서».\n</li>\n<li>글꼴: 후보 비교판(Noto Sans KR Black · Jua · Black Han Sans)에서 <strong>Noto Sans KR Black</strong>(OFL, wght 900 정적 인스턴스). Jua 는 한글 2,367자·<code>·×</code> 없음, Black Han Sans 는 숫자 폭이 넓어 뺐다. 밝은 글자는 밝은 채움 + 짙은 남색 선 + 아래 그림자, 숫자는 더 굵은 선, 캡션(≤28)은 얇은 선. 옛 Bold SDF·머티리얼은 지웠고 TTF 는 그림 도구용으로 남김.\n</li>\n<li>재화 줄: 행동력(번개)·은화(쌓은 더미)·젬스톤 세 칸. 연합의 결정은 영웅 탭에서만. 결정 0057 — 행동력 번개는 재화 *기호*이고 속성(0012)이 아니다, 지시문은 «zigzag bolt-shaped object».\n</li>\n<li>Codex 그림 10장(draft, 같은 세션 이어 그림, 재시도 0): 재화 3, 오늘 목표, 우편, 하단 탭 5(새 아이콘 옆에서 코드 탭 그림이 평평해 보여 대표 판단으로 함께 다시 그림).\n</li>\n<li>반짝임: 버튼 빛 쓸림 14곳 제거, 받을 것은 움직이지 않는 빨간 점·숫자 배지. main 병합 때 CD-0026 업데이트 창 키의 빛 쓸림도 없앰(로딩 로고·패치 막대만 남음).\n</li>\n<li>UI 제작 스킬 <code>cd-ui</code> 설계안(<code>40-ui-skill-plan.md</code>, 외부 조사 <code>_research/</code>) — 사용자 승인 대기.\n</li>\n<li>병합: main(CD-0026) 과 겹친 8곳(아트 도구 2, 목록·장부·사용 기록, Addressables·스프라이트 목록·크레딧) 양쪽을 모두 살려 풀었다.\n</li>\n<li>확인: QA PASS(병합 전). main(CD-0026) 합친 뒤 Core 403/403 · EditMode 151/151 · PlayMode 실패 0(통과 114·건너뜀 30) · check 통과. 사람 플레이·안드로이드 실기기·판 안 Black 캡처 안 함.\n</li>\n<li>남은 것: 연합의 결정·쿠지 티켓 아이콘이 옛 그림, 은화 더미가 48px 보상 칩에서 작게 뭉개짐, 감사 권고(안 고른 탭 어두움·그림자 짧음·붉은 경고 글자 선 없음).\n</li></ul>\n<h3>CD-0028 — 소환 칸 규격 재정의 · 새 맵 하나 · 폭 7칸 · 영웅 크기 · 판 품질(결정 0058)</h3>\n<ul>\n<li>사용자: «초록색 영역에만 소환 … 우리 맵은 소환할 공간이 너무 많다 … 맵 둘 다 지우고 새로 1개, 레벨 디자인 규격 … 2인은 \"나\" 가 무조건 아래 … 타일 크기에 맞춰 영웅 크기, 등급별로 살짝». 답: 모양은 새로(참고 이미지는 L7), 24칸 + 웨이브 재조정(«6종족에 20칸이면 충분?» → 측정으로 답), 1인 맵은 2인 규격 바탕으로 따로, 폭 7칸. 뒤이어 «게임 전반을 훑고 같은 장르 라이브 게임 수준으로, 권장안대로 완성·푸시·빌드».\n</li>\n<li>다른 세션이 CD-0027(결정 0057)을 하던 중이라 주문 CD-0028 · 결정 0058 · 줄기 <code>cd28</code>(worktree <code>.worktrees/cd28</code>).\n</li>\n<li>새 맵 <code>gate_03</code> «돌다리 관문»: 사람당 영역 7×5 = 소환 칸 24(직사각형 덩어리 4개) + 길 11. 2인 7×11 세로 거울, 1인 7×8(위에서 와서 아래 왼쪽 관문, 길 19칸). 참고 화면과 다른 점은 기획서 §3-3.\n</li>\n<li>측정: 20칸 simple 31/60 · 24칸 60/60(옛 웨이브) → 6~20웨이브 hpPct 보통 ×1.95 · 어려움 ×2.08 · 정예 ×2.00 → 1인 보통 simple 53.3% · focus 97.1% · 어려움 0.5/71.0% · 정예 0/45.2%. 2인 보통 simple 86.7%(M4 로).\n</li>\n<li>판 품질 9가지(감사 <code>15-audit.md</code>) — 다시 하기 확인창, 뒤로 가기, 웨이브 통과·보스 띠, 웨이브 N/총수, 고단계 판매 확인, 레벨 칩, 배속 유지, 첫 판 강화·현상금 안내.\n</li>\n<li>확인: QA PASS(수용 9 주석 한 줄 FAIL → 고쳐 재검수). Core 412/412 · EditMode 155/155 · PlayMode 실패 0(124·건너뜀 31). main(CD-0027) 합친 뒤 다시 돎 — 아래 배포 줄.\n</li>\n<li>사람 플레이 안 함. 남은 것은 주문 <code>90-close.md</code>.\n</li></ul>\n<h3>앱 0.6.0 폰 배포 (CD-0028 + CD-0026·0027 포함)</h3>\n<ul>\n<li>사용자: «완성 후에 푸시하고 빌드까지». cd28(main 975a911 합침) 위에서 0.6.0 · versionCode 8, 안드로이드 기본 빌드 base_id af1914db(61ea49b), APK 50.8 MB, 합친 뒤 Core 412/412 · EditMode 155/155 · PlayMode 실패 0(127 · 건너뜀 32) · check 통과.\n</li>\n<li>CCD <code>android-dev</code> 릴리스 22(catalog_0.6.0-af1914db, 옛 0.5.1 카탈로그 지움), Firebase App Distribution 0.6.0 (8) → 그룹 testers, <code>Android/app_version.json</code> versionCode 8(릴리스 23). 0.5.x 앱은 켜면 필수 업데이트 창이 뜬다.\n</li>\n<li>실기기 설치·사람 플레이는 안 함(사용자가 11-18 에 해 본다).\n</li></ul>\n<h3>앱 0.6.1 폰 배포 (CD-0028 K3)</h3>\n<ul>\n<li>0.6.0 뒤 남은 것: 단계 ◆ 를 영웅 위 층(Pips)으로, 판 좌우 여백 0.15칸(가장자리 4단계 영웅이 화면 끝에서 잘리던 것, 칸 154 → 148px), 싱글 한 판 끝까지 PlayMode 테스트 <code>Cd28FullRunTests</code>(로비 → 판 → 결과 → 로비, gate_03_std 20/20 승, 실시간 79초, Error·Exception 0, 시드 하나).\n</li>\n<li>확인: PlayMode 161 중 128 통과·실패 0·건너뜀 33, EditMode 155/155, check --unity 통과(Core 412/412).\n</li>\n<li>0.6.1 · versionCode 9, base_id 93dec09b. CCD 릴리스 24(catalog_0.6.1-93dec09b)·25(app_version 9), Firebase 0.6.1 (9) → testers.\n</li>\n<li>실기기 설치·사람 플레이는 안 함.\n</li></ul>\n<h3>CD-0031 — 로딩 인트로 품질 개선 · 원화와 한 장으로 이어지게</h3>\n<ul>\n<li>사용자: «로딩화면 인트로 퀄리티가 너무 안좋은데 검토하고 개선진행해», 이어서 «연출과 원화연결이 자연스럽게이어지고 다른화면 처럼안느껴지게처리가필요해».\n</li>\n<li>다른 세션이 <code>.worktrees/cd28</code> 에서 시험을 돌리던 중이라 줄기 <code>cd29</code> 를 <code>.worktrees/cd27</code> 자리에 팠다.\n</li>\n<li>검토(CD-0026 캡처): 균열이 납작한 막대, 찢어질 때 화면이 하얗게 사라짐(번쩍 0.9), 균열 그림과 원화 띠가 겹쳐 두 개, 무리가 영웅 위에서 제자리 소멸, 원근 없음, 타이틀이 들어올 때 좌우 잘림, 처음 0.5초 정지, 틀 없음.\n</li>\n<li>고침(연출 코드만, Codex 0회): 뾰족한 끝으로 자라는 금 + 불똥·불씨, 번쩍 0.5 상한 + 균열에서 퍼지는 빛, 균열은 줌아웃 전에 원화 띠로 번져 사라짐, 무리는 깊이 곡선으로 렌즈를 스쳐 화면 밖으로, 타이틀 1.22 배에서 박힘, 카메라 천천히 다가감, 비녜트.\n</li>\n<li>2차 원인: 평온한 하늘 그림은 원화를 다시 그린 것이라 영웅 선까지 다르다(화소 차이로 확인) — 화면 전체 크로스페이드가 «다른 그림으로 바뀌는» 느낌. <code>IntroVeil</code>: 원화 한 장 위에 평온한 하늘을 균열 띠 자리에만 덧대고(차이에 맞춘 모양), 찢어질 때 구멍이 균열에서 열려 원화 띠가 번져 나옴. 색보정은 원화·덧댐 똑같이. 패치 화면 = 인트로 첫 장면 그대로.\n</li>\n<li>확인: QA PASS(2차 반영 뒤 재검수). EditMode 163/163 · PlayMode 걸러서 10/10 · <code>check --unity</code> 통과. 전후 비교 <code>studio/orders/CD-0031-…/_qa/cd31_before_after.png</code>.\n</li>\n<li>사람 플레이·실기기 안 함. 그림으로 더 올리려면 «원화에서 균열만 지운» 평온한 하늘을 다시 뽑는 길(Codex 1장)이 남음.\n</li></ul>\n<h3>CD-0029 빈 소환 칸 «+» 없앰 — 홈·받침돌로 구분 (fast)</h3>\n<ul>\n<li>사용자: «인게임에서 타일에 + 버튼박혀잇는 느낌이아니라 디자인적인 구분으로 했으면좋겠어».\n</li>\n<li>빈 칸 = 판에 파인 홈(<code>FieldFloor.Socket</code>: 위 안쪽 그늘·아래 안쪽 빛, 턱·흰 윗변 없음), 찬 칸 = 밝은 받침돌(기존 <code>Tile</code>). 동료 칸 24도 칸별로 같은 규칙. main 에서 직접(작은 일).\n</li>\n<li>확인: <code>Cd29FloorTests</code> 2 · EditMode 155/155 · PlayMode 2회차 실패 0(129 · 건너뜀 32; 1회차 <code>ScreenTransitionTests</code> 1개 흔들림, 단독 9/9) · check --unity 통과 · QA PASS. 캡처 대조표 <code>CD-0029…/_qa/cd29_compare.png</code>. 사람 플레이 안 함.\n</li></ul>\n<h3>CD-0030 열림 — 판 8×12(2인)·8×9(1인) · 목책 진지 소환 지형 · 영웅 칸의 85% (결정 0059)</h3>\n<ul>\n<li>사용자: «그리드 가로를 8칸 세로12칸… 그에 맞는 레벨디자인도 필요해. 소환하는곳이 시스템 같이느껴지는데 레벨디자인요소로 구분… 케릭터는 좀더 작은게». 답: 2인 8×12 기준, 1인 8×9 · 목책 진지 · 1단계 몸 = 칸의 약 85% · 지형은 Codex 본 그림.\n</li>\n<li>기획팀장(opus)이 기획서 작성 중. 다른 세션의 cd28 미커밋 작업(K3: 판 좌우 여백·단계 표시 층)과 <code>BoardView</code> 가 겹친다 — 주문서에 적어 둠.\n</li></ul>",
-"at": "2026-11-18 14:45",
+"html": "<h3>CD-0027 — 로비 재화 3칸·글꼴 Black 누끼 글자·버튼 반짝임 제거·Codex 아이콘 10장(결정 0057)</h3>\n<ul>\n<li>사용자(11-17): «폰트 디자인을 통일하고 … 누끼처럼 겉은 어두운색이고 안은 밝은색 … 행동력은 번개 모양, 은화는 쌓아올리는 디자인, 연합의 결정은 영웅탭에서 … 코덱스를 써서 디자인 퀄리티를 크게 … 버튼 깜빡이는거는 제거 … 오늘목표·우편 폴리싱 … UI 제작 공정을 설계하고 스킬화». 답: 글꼴 «후보 비교판 보고 진행», 반짝임 «게임 전체 버튼에서».\n</li>\n<li>글꼴: 후보 비교판(Noto Sans KR Black · Jua · Black Han Sans)에서 <strong>Noto Sans KR Black</strong>(OFL, wght 900 정적 인스턴스). Jua 는 한글 2,367자·<code>·×</code> 없음, Black Han Sans 는 숫자 폭이 넓어 뺐다. 밝은 글자는 밝은 채움 + 짙은 남색 선 + 아래 그림자, 숫자는 더 굵은 선, 캡션(≤28)은 얇은 선. 옛 Bold SDF·머티리얼은 지웠고 TTF 는 그림 도구용으로 남김.\n</li>\n<li>재화 줄: 행동력(번개)·은화(쌓은 더미)·젬스톤 세 칸. 연합의 결정은 영웅 탭에서만. 결정 0057 — 행동력 번개는 재화 *기호*이고 속성(0012)이 아니다, 지시문은 «zigzag bolt-shaped object».\n</li>\n<li>Codex 그림 10장(draft, 같은 세션 이어 그림, 재시도 0): 재화 3, 오늘 목표, 우편, 하단 탭 5(새 아이콘 옆에서 코드 탭 그림이 평평해 보여 대표 판단으로 함께 다시 그림).\n</li>\n<li>반짝임: 버튼 빛 쓸림 14곳 제거, 받을 것은 움직이지 않는 빨간 점·숫자 배지. main 병합 때 CD-0026 업데이트 창 키의 빛 쓸림도 없앰(로딩 로고·패치 막대만 남음).\n</li>\n<li>UI 제작 스킬 <code>cd-ui</code> 설계안(<code>40-ui-skill-plan.md</code>, 외부 조사 <code>_research/</code>) — 사용자 승인 대기.\n</li>\n<li>병합: main(CD-0026) 과 겹친 8곳(아트 도구 2, 목록·장부·사용 기록, Addressables·스프라이트 목록·크레딧) 양쪽을 모두 살려 풀었다.\n</li>\n<li>확인: QA PASS(병합 전). main(CD-0026) 합친 뒤 Core 403/403 · EditMode 151/151 · PlayMode 실패 0(통과 114·건너뜀 30) · check 통과. 사람 플레이·안드로이드 실기기·판 안 Black 캡처 안 함.\n</li>\n<li>남은 것: 연합의 결정·쿠지 티켓 아이콘이 옛 그림, 은화 더미가 48px 보상 칩에서 작게 뭉개짐, 감사 권고(안 고른 탭 어두움·그림자 짧음·붉은 경고 글자 선 없음).\n</li></ul>\n<h3>CD-0028 — 소환 칸 규격 재정의 · 새 맵 하나 · 폭 7칸 · 영웅 크기 · 판 품질(결정 0058)</h3>\n<ul>\n<li>사용자: «초록색 영역에만 소환 … 우리 맵은 소환할 공간이 너무 많다 … 맵 둘 다 지우고 새로 1개, 레벨 디자인 규격 … 2인은 \"나\" 가 무조건 아래 … 타일 크기에 맞춰 영웅 크기, 등급별로 살짝». 답: 모양은 새로(참고 이미지는 L7), 24칸 + 웨이브 재조정(«6종족에 20칸이면 충분?» → 측정으로 답), 1인 맵은 2인 규격 바탕으로 따로, 폭 7칸. 뒤이어 «게임 전반을 훑고 같은 장르 라이브 게임 수준으로, 권장안대로 완성·푸시·빌드».\n</li>\n<li>다른 세션이 CD-0027(결정 0057)을 하던 중이라 주문 CD-0028 · 결정 0058 · 줄기 <code>cd28</code>(worktree <code>.worktrees/cd28</code>).\n</li>\n<li>새 맵 <code>gate_03</code> «돌다리 관문»: 사람당 영역 7×5 = 소환 칸 24(직사각형 덩어리 4개) + 길 11. 2인 7×11 세로 거울, 1인 7×8(위에서 와서 아래 왼쪽 관문, 길 19칸). 참고 화면과 다른 점은 기획서 §3-3.\n</li>\n<li>측정: 20칸 simple 31/60 · 24칸 60/60(옛 웨이브) → 6~20웨이브 hpPct 보통 ×1.95 · 어려움 ×2.08 · 정예 ×2.00 → 1인 보통 simple 53.3% · focus 97.1% · 어려움 0.5/71.0% · 정예 0/45.2%. 2인 보통 simple 86.7%(M4 로).\n</li>\n<li>판 품질 9가지(감사 <code>15-audit.md</code>) — 다시 하기 확인창, 뒤로 가기, 웨이브 통과·보스 띠, 웨이브 N/총수, 고단계 판매 확인, 레벨 칩, 배속 유지, 첫 판 강화·현상금 안내.\n</li>\n<li>확인: QA PASS(수용 9 주석 한 줄 FAIL → 고쳐 재검수). Core 412/412 · EditMode 155/155 · PlayMode 실패 0(124·건너뜀 31). main(CD-0027) 합친 뒤 다시 돎 — 아래 배포 줄.\n</li>\n<li>사람 플레이 안 함. 남은 것은 주문 <code>90-close.md</code>.\n</li></ul>\n<h3>앱 0.6.0 폰 배포 (CD-0028 + CD-0026·0027 포함)</h3>\n<ul>\n<li>사용자: «완성 후에 푸시하고 빌드까지». cd28(main 975a911 합침) 위에서 0.6.0 · versionCode 8, 안드로이드 기본 빌드 base_id af1914db(61ea49b), APK 50.8 MB, 합친 뒤 Core 412/412 · EditMode 155/155 · PlayMode 실패 0(127 · 건너뜀 32) · check 통과.\n</li>\n<li>CCD <code>android-dev</code> 릴리스 22(catalog_0.6.0-af1914db, 옛 0.5.1 카탈로그 지움), Firebase App Distribution 0.6.0 (8) → 그룹 testers, <code>Android/app_version.json</code> versionCode 8(릴리스 23). 0.5.x 앱은 켜면 필수 업데이트 창이 뜬다.\n</li>\n<li>실기기 설치·사람 플레이는 안 함(사용자가 11-18 에 해 본다).\n</li></ul>\n<h3>앱 0.6.1 폰 배포 (CD-0028 K3)</h3>\n<ul>\n<li>0.6.0 뒤 남은 것: 단계 ◆ 를 영웅 위 층(Pips)으로, 판 좌우 여백 0.15칸(가장자리 4단계 영웅이 화면 끝에서 잘리던 것, 칸 154 → 148px), 싱글 한 판 끝까지 PlayMode 테스트 <code>Cd28FullRunTests</code>(로비 → 판 → 결과 → 로비, gate_03_std 20/20 승, 실시간 79초, Error·Exception 0, 시드 하나).\n</li>\n<li>확인: PlayMode 161 중 128 통과·실패 0·건너뜀 33, EditMode 155/155, check --unity 통과(Core 412/412).\n</li>\n<li>0.6.1 · versionCode 9, base_id 93dec09b. CCD 릴리스 24(catalog_0.6.1-93dec09b)·25(app_version 9), Firebase 0.6.1 (9) → testers.\n</li>\n<li>실기기 설치·사람 플레이는 안 함.\n</li></ul>\n<h3>CD-0031 — 로딩 인트로 품질 개선 · 원화와 한 장으로 이어지게</h3>\n<ul>\n<li>사용자: «로딩화면 인트로 퀄리티가 너무 안좋은데 검토하고 개선진행해», 이어서 «연출과 원화연결이 자연스럽게이어지고 다른화면 처럼안느껴지게처리가필요해».\n</li>\n<li>다른 세션이 <code>.worktrees/cd28</code> 에서 시험을 돌리던 중이라 줄기 <code>cd29</code> 를 <code>.worktrees/cd27</code> 자리에 팠다.\n</li>\n<li>검토(CD-0026 캡처): 균열이 납작한 막대, 찢어질 때 화면이 하얗게 사라짐(번쩍 0.9), 균열 그림과 원화 띠가 겹쳐 두 개, 무리가 영웅 위에서 제자리 소멸, 원근 없음, 타이틀이 들어올 때 좌우 잘림, 처음 0.5초 정지, 틀 없음.\n</li>\n<li>고침(연출 코드만, Codex 0회): 뾰족한 끝으로 자라는 금 + 불똥·불씨, 번쩍 0.5 상한 + 균열에서 퍼지는 빛, 균열은 줌아웃 전에 원화 띠로 번져 사라짐, 무리는 깊이 곡선으로 렌즈를 스쳐 화면 밖으로, 타이틀 1.22 배에서 박힘, 카메라 천천히 다가감, 비녜트.\n</li>\n<li>2차 원인: 평온한 하늘 그림은 원화를 다시 그린 것이라 영웅 선까지 다르다(화소 차이로 확인) — 화면 전체 크로스페이드가 «다른 그림으로 바뀌는» 느낌. <code>IntroVeil</code>: 원화 한 장 위에 평온한 하늘을 균열 띠 자리에만 덧대고(차이에 맞춘 모양), 찢어질 때 구멍이 균열에서 열려 원화 띠가 번져 나옴. 색보정은 원화·덧댐 똑같이. 패치 화면 = 인트로 첫 장면 그대로.\n</li>\n<li>확인: QA PASS(2차 반영 뒤 재검수). EditMode 163/163 · PlayMode 걸러서 10/10 · <code>check --unity</code> 통과. 전후 비교 <code>studio/orders/CD-0031-…/_qa/cd31_before_after.png</code>.\n</li>\n<li>사람 플레이·실기기 안 함. 그림으로 더 올리려면 «원화에서 균열만 지운» 평온한 하늘을 다시 뽑는 길(Codex 1장)이 남음.\n</li></ul>\n<h3>CD-0029 빈 소환 칸 «+» 없앰 — 홈·받침돌로 구분 (fast)</h3>\n<ul>\n<li>사용자: «인게임에서 타일에 + 버튼박혀잇는 느낌이아니라 디자인적인 구분으로 했으면좋겠어».\n</li>\n<li>빈 칸 = 판에 파인 홈(<code>FieldFloor.Socket</code>: 위 안쪽 그늘·아래 안쪽 빛, 턱·흰 윗변 없음), 찬 칸 = 밝은 받침돌(기존 <code>Tile</code>). 동료 칸 24도 칸별로 같은 규칙. main 에서 직접(작은 일).\n</li>\n<li>확인: <code>Cd29FloorTests</code> 2 · EditMode 155/155 · PlayMode 2회차 실패 0(129 · 건너뜀 32; 1회차 <code>ScreenTransitionTests</code> 1개 흔들림, 단독 9/9) · check --unity 통과 · QA PASS. 캡처 대조표 <code>CD-0029…/_qa/cd29_compare.png</code>. 사람 플레이 안 함.\n</li></ul>\n<h3>CD-0030 열림 — 판 8×12(2인)·8×9(1인) · 목책 진지 소환 지형 · 영웅 칸의 85% (결정 0059)</h3>\n<ul>\n<li>사용자: «그리드 가로를 8칸 세로12칸… 그에 맞는 레벨디자인도 필요해. 소환하는곳이 시스템 같이느껴지는데 레벨디자인요소로 구분… 케릭터는 좀더 작은게». 답: 2인 8×12 기준, 1인 8×9 · 목책 진지 · 1단계 몸 = 칸의 약 85% · 지형은 Codex 본 그림.\n</li>\n<li>기획팀장(opus)이 기획서 작성 중. 다른 세션의 cd28 미커밋 작업(K3: 판 좌우 여백·단계 표시 층)과 <code>BoardView</code> 가 겹친다 — 주문서에 적어 둠.\n</li></ul>\n<h3>앱 0.6.2 폰 배포 (CD-0029 + CD-0031 + CD-0028 K3)</h3>\n<ul>\n<li>사용자: «다른세션들다포함해서 작업 다된것들 전체 푸시하고 빌드해서배포까지진행해». 다른 세션 줄기(cd26·cd27·cd28·cd29·rel-052)에 origin/main 에 없는 커밋 0 — 끝난 일은 모두 원격에 있었다(worktree 의 남은 변경은 시험·빌드가 다시 쓴 글꼴 아틀라스·장면뿐이라 두었다).\n</li>\n<li>main: CD-0029 커밋(8fc48b1) → origin/main(CD-0031 · CD-0028 K3 · 0.6.1) 합침(4846887, 기록 파일 충돌은 양쪽 살림, <code>BoardView</code> 는 자동 병합).\n</li>\n<li>합친 뒤 확인: Core 412/412 · EditMode 163/163 · PlayMode 실패 0(130 통과 · 건너뜀 34) · check --unity 통과.\n</li>\n<li>0.6.2 · versionCode 10, 기본 빌드 base_id 72b5ae84, APK 50.8 MB(고정 서명 키). CCD <code>android-dev</code> 릴리스 26(catalog_0.6.2-72b5ae84, 0.6.1 카탈로그 지움)·27(app_version 10), Firebase App Distribution 0.6.2 (10) → 그룹 testers. 0.6.1 이하 앱은 켜면 필수 업데이트 창.\n</li>\n<li>실기기 설치·사람 플레이는 안 함.\n</li></ul>",
+"at": "2026-11-18 15:09",
 "branch": "main"
 },
 {
@@ -9601,7 +9601,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-18 10:27",
+"at": "2026-11-18 14:46",
 "passed": 412,
 "failed": 0,
 "total": 412,
@@ -9609,7 +9609,7 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-18 10:29",
+"at": "2026-11-18 14:48",
 "passed": 163,
 "failed": 0,
 "total": 163,
@@ -9618,7 +9618,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-18 10:27",
+"at": "2026-11-18 14:46",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9626,7 +9626,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-18 10:27",
+"at": "2026-11-18 14:46",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9634,7 +9634,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-18 10:27",
+"at": "2026-11-18 14:46",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9642,6 +9642,16 @@
 }
 },
 "builds": [
+{
+"kind": "android",
+"name": "coopdefense-dev-arm64.apk",
+"at": "2026-11-18 15:07",
+"sizeMB": 50.8,
+"branch": "main",
+"local": "Builds\\Android\\coopdefense-dev-arm64.apk",
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261118-1507",
+"tag": "build-android-20261118-1507"
+},
 {
 "kind": "android",
 "name": "coopdefense-dev-arm64.apk",
@@ -9673,16 +9683,6 @@
 "tag": "build-windows-20261117-1403"
 },
 {
-"kind": "android",
-"name": "coopdefense-dev-arm64.apk",
-"at": "2026-11-16 21:47",
-"sizeMB": 42.0,
-"branch": "main",
-"local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-2147",
-"tag": "build-android-20261116-2147"
-},
-{
 "kind": "windows",
 "name": "CoopDefense (Windows)",
 "at": "2026-11-16 12:09",
@@ -9694,6 +9694,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261118-1507",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261118-1507",
+"kind": "android",
+"at": "2026-11-18 15:07",
+"branch": "main",
+"sizeMB": 50.8
+},
 {
 "tag": "build-android-20261118-0915",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261118-0915",
@@ -9845,18 +9853,10 @@
 "at": "2026-11-16 22:42",
 "branch": "cd13-ui2",
 "sizeMB": 44.4
-},
-{
-"tag": "build-android-20261116-2242",
-"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-2242",
-"kind": "android",
-"at": "2026-11-16 22:42",
-"branch": "cd18",
-"sizeMB": 44.4
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-18 14:46",
-"generatedAt": "2026-11-18 14:47",
-"digest": "3ac4dccb3d5052c3"
+"sourceAt": "2026-11-18 15:09",
+"generatedAt": "2026-11-18 15:17",
+"digest": "eac59407695e82cf"
 }
