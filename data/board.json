@@ -992,6 +992,13 @@
 "title": "새 맵 gate_03 바닥 본 그림(지금은 코드 임시 바닥 FieldFloor)",
 "status": "todo",
 "note": "CD-0028 L13"
+},
+{
+"id": "M6-22",
+"team": "client",
+"title": "로딩 인트로 품질 개선: 균열·찢어짐 번쩍·무리 원근·타이틀 잘림 고침, 평온한 하늘을 원화 위 덧댐으로(다른 화면처럼 안 느껴지게), 패치 화면 = 인트로 첫 장면",
+"status": "done",
+"note": "CD-0029. 연출 코드만(Codex 0회). 사람 플레이(움직임·번쩍 세기)·안드로이드 실기기 프레임 확인 대기"
 }
 ]
 },
@@ -1085,9 +1092,9 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-18 08:42",
+"at": "2026-11-18 09:16",
 "branch": "cd29",
-"dirty": false
+"dirty": true
 },
 "pm": {
 "headline": [
@@ -1190,43 +1197,43 @@
 "msg": "Merge branch 'main' into cd27 (CD-0026 위에 CD-0027 마감)"
 }
 ],
-"dirtyCount": 17,
+"dirtyCount": 22,
 "dirty": [
 {
-"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/_qa/cd29_compare.png",
-"at": "2026-11-18 08:47"
+"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/00-order.md",
+"at": "2026-11-18 09:17"
+},
+{
+"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/23-client.md",
+"at": "2026-11-18 09:17"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-18 08:46"
+"at": "2026-11-18 09:16"
 },
 {
-"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/_qa/shots/k1_duo_p1_safe_1080x2400.png",
-"at": "2026-11-18 08:46"
+"file": "docs/decisions/0059-판-폭-8칸-2인-8x12-1인-8x9-소환-지형은-목책-진지-영웅-칸의-85퍼센트.md",
+"at": "2026-11-18 09:04"
 },
 {
-"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/_qa/shots/k1_duo_p1_1080x1920.png",
-"at": "2026-11-18 08:46"
+"file": "studio/orders/CD-0030-판-8x12-2인-기준-1인-8x9-목책-진지-소환-지/00-order.md",
+"at": "2026-11-18 09:04"
 },
 {
-"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/_qa/shots/k1_duo_p0_safe_1080x2400.png",
-"at": "2026-11-18 08:46"
+"file": "studio/orders/CD-0030-판-8x12-2인-기준-1인-8x9-목책-진지-소환-지/10-spec.md",
+"at": "2026-11-18 09:03"
 },
 {
-"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/_qa/shots/k1_duo_p0_1080x1920.png",
-"at": "2026-11-18 08:46"
+"file": "studio/checks.json",
+"at": "2026-11-18 08:49"
 },
 {
-"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/_qa/shots/k1_solo_safe_1080x2400.png",
-"at": "2026-11-18 08:46"
-},
-{
-"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/_qa/shots/k1_solo_1080x1920.png",
-"at": "2026-11-18 08:46"
+"file": "studio/orders/CD-0029-소환-칸-바닥-디자인-표시-없애고-빈-칸-홈-찬-칸-받/_qa/cd29_compare.png",
+"at": "2026-11-18 08:47"
 }
 ],
-"lastEdit": "2026-11-18 08:47",
-"lastEditTs": 1794959238.913866,
+"lastEdit": "2026-11-18 09:17",
+"lastEditTs": 1794961026.7001922,
 "lastCommitTs": 1794941917,
 "unpushed": 0,
 "notInMain": 0,
@@ -1304,7 +1311,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0025",
+"order": "CD-0024",
 "head": "e145fe8",
 "commits": [
 {
@@ -1423,19 +1430,43 @@
 "msg": "Merge branch 'main' into cd27 (CD-0026 위에 CD-0027 마감)"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 47,
 "dirty": [
 {
-"file": "studio/orders/CD-0029-로딩-인트로-연출-품질-개선/00-order.md",
-"at": "2026-11-18 08:44"
+"file": "studio/site/index.html",
+"at": "2026-11-18 09:16"
 },
 {
-"file": "studio/orders/CD-0029-로딩-인트로-연출-품질-개선/10-spec.md",
-"at": "2026-11-18 08:44"
+"file": "devlog/2026-11-18.md",
+"at": "2026-11-18 09:16"
+},
+{
+"file": "studio/milestones.json",
+"at": "2026-11-18 09:16"
+},
+{
+"file": "studio/orders/CD-0029-로딩-인트로-연출-품질-개선/00-order.md",
+"at": "2026-11-18 09:16"
+},
+{
+"file": "studio/orders/CD-0029-로딩-인트로-연출-품질-개선/90-close.md",
+"at": "2026-11-18 09:16"
+},
+{
+"file": "studio/checks.json",
+"at": "2026-11-18 09:15"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-18 09:15"
+},
+{
+"file": "studio/orders/CD-0029-로딩-인트로-연출-품질-개선/_qa/editmode-all.xml",
+"at": "2026-11-18 09:12"
 }
 ],
-"lastEdit": "2026-11-18 08:44",
-"lastEditTs": 1794959073.356949,
+"lastEdit": "2026-11-18 09:16",
+"lastEditTs": 1794960993.571264,
 "lastCommitTs": 1794941917,
 "unpushed": 0,
 "notInMain": 0,
@@ -1446,9 +1477,21 @@
 "lane": "cd28",
 "session": "",
 "owns": "",
-"order": "CD-0026",
-"head": "dfdf690",
+"order": "CD-0028",
+"head": "eae2092",
 "commits": [
+{
+"sha": "eae2092",
+"at": "2026-11-18 09:15",
+"ts": 1794960954,
+"msg": "앱 0.6.1 · versionCode 9: 0.6.1 Android 기본 빌드 content state·base_id 93dec09b"
+},
+{
+"sha": "983c16e",
+"at": "2026-11-18 09:13",
+"ts": 1794960798,
+"msg": "CD-0028 K3: 단계 ◆ 를 영웅 위 층(Pips)으로 · 판 좌우 여백 0.15칸(가장자리 4단계 영웅 잘림) · 싱글 한 판 끝까지 PlayMode 테스트(Cd28FullRunTests: 로비→판→결과→로비, gate_03_std 20/20 승, 에러 0) · 앱 0.6.1 / versionCode 9"
+},
 {
 "sha": "dfdf690",
 "at": "2026-11-18 03:58",
@@ -1472,66 +1515,21 @@
 "at": "2026-11-18 03:31",
 "ts": 1794940312,
 "msg": "Merge branch 'main' into cd28"
-},
-{
-"sha": "5b8599d",
-"at": "2026-11-18 03:31",
-"ts": 1794940311,
-"msg": "CD-0028 소환 칸 규격 재정의: 정해진 소환 칸만 · 사람당 24칸 · 새 맵 gate_03 «돌다리 관문»(1인 7×8 · 2인 7×11 세로 거울) · 폭 7칸 · 단계별 영웅 크기 · 웨이브 재조정 · 판 품질 (결정 0058)"
-},
-{
-"sha": "975a911",
-"at": "2026-11-18 01:38",
-"ts": 1794933487,
-"msg": "Merge branch 'main' into cd27 (CD-0026 위에 CD-0027 마감)"
 }
 ],
-"dirtyCount": 15,
-"dirty": [
-{
-"file": "studio/orders/CD-0028-소환-칸-규격-재정의-새-맵-하나-2인-기준-영웅-크기/23-client.md",
-"at": "2026-11-18 08:40"
-},
-{
-"file": "UnityProject/Assets/InitTestSceneaed47a70-7f21-4395-8b33-20576e82d8d8.unity.meta",
-"at": "2026-11-18 08:40"
-},
-{
-"file": "UnityProject/Assets/InitTestSceneaed47a70-7f21-4395-8b33-20576e82d8d8.unity",
-"at": "2026-11-18 08:40"
-},
-{
-"file": "studio/orders/CD-0028-소환-칸-규격-재정의-새-맵-하나-2인-기준-영웅-크기/_qa/k3_solo_safe_1080x2400.png",
-"at": "2026-11-18 04:19"
-},
-{
-"file": "studio/orders/CD-0028-소환-칸-규격-재정의-새-맵-하나-2인-기준-영웅-크기/_qa/k3_solo_1080x1920.png",
-"at": "2026-11-18 04:19"
-},
-{
-"file": "studio/orders/CD-0028-소환-칸-규격-재정의-새-맵-하나-2인-기준-영웅-크기/_qa/shots/k3_solo_safe_1080x2400.png",
-"at": "2026-11-18 04:03"
-},
-{
-"file": "studio/orders/CD-0028-소환-칸-규격-재정의-새-맵-하나-2인-기준-영웅-크기/_qa/shots/k3_solo_1080x1920.png",
-"at": "2026-11-18 04:03"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd28ShotTests.cs",
-"at": "2026-11-18 04:03"
-}
-],
-"lastEdit": "2026-11-18 08:40",
-"lastEditTs": 1794958838.1232855,
-"lastCommitTs": 1794941917,
-"unpushed": 0,
-"notInMain": 0,
-"today": 7
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1794960954,
+"unpushed": 2,
+"notInMain": 2,
+"today": 9
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 62,
+"commits": 57,
 "byOrder": [
 [
 "CD-0014",
@@ -1555,22 +1553,14 @@
 ],
 [
 "CD-0028",
-3
-],
-[
-"CD-0018",
-3
+4
 ],
 [
 "CD-0026",
 2
 ],
 [
-"CD-0015",
-2
-],
-[
-"CD-0016",
+"CD-0018",
 2
 ],
 [
@@ -1578,15 +1568,21 @@
 1
 ],
 [
-"CD-0020",
-1
-],
-[
-"CD-0022",
+"CD-0015",
 1
 ]
 ],
 "latest": [
+{
+"sha": "eae2092",
+"at": "2026-11-18 09:15",
+"msg": "앱 0.6.1 · versionCode 9: 0.6.1 Android 기본 빌드 content state·base_id 93dec09b"
+},
+{
+"sha": "983c16e",
+"at": "2026-11-18 09:13",
+"msg": "CD-0028 K3: 단계 ◆ 를 영웅 위 층(Pips)으로 · 판 좌우 여백 0.15칸(가장자리 4단계 영웅 잘림) · 싱글 한 판 끝까지 PlayMode 테스트(Cd28FullRunTests: 로비→판→결과→로비, gate_03_std 20/20 승, 에러 0) · 앱 0.6.1 / versionCode 9"
+},
 {
 "sha": "dfdf690",
 "at": "2026-11-18 03:58",
@@ -1626,16 +1622,6 @@
 "sha": "2533c64",
 "at": "2026-11-17 21:45",
 "msg": "index on cd25: 8ac0da4 CD-0025 마감: 90-close, 게이트 close, 마일스톤 M3-14, 개발일지 (main ff7b6d2 받은 뒤 check --unity: Core 403/403·EditMode 142/142, PlayMode 영웅·쿠지 11/11)"
-},
-{
-"sha": "2e18687",
-"at": "2026-11-17 18:39",
-"msg": "현황 사이트 다시 만들기: CD-0025 병합 뒤 board, check --unity (Core 403/403 · EditMode 142/142)"
-},
-{
-"sha": "6f300cb",
-"at": "2026-11-17 18:33",
-"msg": "현황 사이트 다시 만들기: 앱 0.5.2 병합 뒤 board, check --unity (Core 382/382 · EditMode 142/142)"
 }
 ]
 },
@@ -4008,8 +3994,8 @@
 {
 "id": "CD-0028",
 "title": "소환 칸 규격 재정의 새 맵 하나 2인 기준 영웅 크기",
-"branch": "cd29",
-"updated": "2026-11-18 08:42",
+"branch": "cd28",
+"updated": "2026-11-18 08:58",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -4102,19 +4088,23 @@
 "id": "CD-0029",
 "title": "로딩 인트로 연출 품질 개선",
 "branch": "cd29",
-"updated": "2026-11-18 08:44",
+"updated": "2026-11-18 09:16",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"21-client.md",
+"30-qa.md",
+"90-close.md",
+"_qa"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "완료",
 "route": "fast",
 "risk": "low",
 "teams": "client",
 "opened": "2026-11-18",
-"closed": "",
-"goal": "<p>시간표 골격·길이 5초·건너뛰기·켄 번스 이음은 CD-0026 그대로.</p>\n<ol>\n<li><strong>평온 → 불길함</strong>: 0~2.1초 카메라가 2.2 → 2.42 배로 천천히 다가간다(첫 장면은 2.2 그대로 — 패치 화면 뒤판과 이어짐). 금이 번지는 동안 하늘이 차가운 남보라로 조금 가라앉는다.\n</li>\n<li><strong>금</strong>: 균열을 덜 눌러(0.26 → 0.42) 갈라진 모양이 보이게, 균열 축을 따라 <strong>빛이 새는 밝은 선</strong>, 번지는 두 끝에 <strong>불똥 머리</strong>(Twinkle + 빛)가 달려 «금이 달려 나간다».\n</li>\n<li><strong>찢어짐</strong>: 화면 번쩍은 최대 0.5·0.3초로 줄이고, 대신 <strong>균열에서 퍼지는 빛 덩이와 충격 고리</strong>(ThinRing)로 방향이 있는 빛을 준다. 그림이 하얗게 사라지지 않는다.\n</li>\n<li><strong>균열 하나만</strong>: 균열 그림은 2.0~2.7초에 옆으로 퍼지며(가로 1 → 1.25) 사라져 원화의 검은 띠로 «번져 들어간다». 줌아웃이 시작될 때 화면에 균열은 원화 것 하나.\n</li>\n<li><strong>무리 원근</strong>: 깊이 곡선 s = 1/(1−0.92k) 로 멀리서 작게 나와 끝에 확 커지며 <strong>화면 밖으로 빠져나간다</strong>(제자리 투명화 없음). 멀리 있을 땐 하늘색 안개에 묻힌 실루엣, 가까울수록 진하다. 다섯에 하나는 렌즈 바로 옆을 스친다. 발사 창 1.3 → 1.1초.\n</li>\n<li><strong>알갱이</strong>: 금빛 알갱이는 무리가 다 빠진 뒤(3.9초)부터.\n</li>\n<li><strong>타이틀</strong>: 1.22 배(1049px, 화면 안)에서 위에서 떨어지듯 들어와 0.96 으로 박히고 1.0 으로 튕겨 자리 잡는다. 착지 번쩍 0.38 → 0.25.\n</li>\n<li><strong>비녜트</strong>: 인트로 동안 가장자리 어둠(최대 0.5), 줌아웃이 끝나며 걷힌다(켄 번스 화면에는 없음).\n</li></ol>",
+"closed": "2026-11-18",
+"goal": "<p>시간표 골격·길이 5초·건너뛰기·켄 번스 이음은 CD-0026 그대로.</p>\n<ol>\n<li><strong>평온 → 불길함</strong>: 0~2.1초 카메라가 2.2 → 2.42 배로 천천히 다가간다(첫 장면은 2.2 그대로 — 패치 화면 뒤판과 이어짐). 금이 번지는 동안 하늘이 차가운 남보라로 조금 가라앉는다.\n</li>\n<li><strong>금</strong>: 균열을 덜 눌러(0.26 → 0.42) 갈라진 모양이 보이게, 균열 축을 따라 <strong>빛이 새는 밝은 선</strong>, 번지는 두 끝에 <strong>불똥 머리</strong>(Twinkle + 빛)가 달려 «금이 달려 나간다».\n</li>\n<li><strong>찢어짐</strong>: 화면 번쩍은 최대 0.5·0.3초로 줄이고, 대신 <strong>균열에서 퍼지는 빛 덩이와 충격 고리</strong>(ThinRing)로 방향이 있는 빛을 준다. 그림이 하얗게 사라지지 않는다.\n</li>\n<li><strong>균열 하나만</strong>: 균열 그림은 2.0~2.7초에 옆으로 퍼지며(가로 1 → 1.25) 사라져 원화의 검은 띠로 «번져 들어간다». 줌아웃이 시작될 때 화면에 균열은 원화 것 하나.\n</li>\n<li><strong>무리 원근</strong>: 깊이 곡선 s = 1/(1−0.92k) 로 멀리서 작게 나와 끝에 확 커지며 <strong>화면 밖으로 빠져나간다</strong>(제자리 투명화 없음). 멀리 있을 땐 하늘색 안개에 묻힌 실루엣, 가까울수록 진하다. 다섯에 하나는 렌즈 바로 옆을 스친다. 발사 창 1.3 → 1.1초.\n</li>\n<li><strong>알갱이</strong>: 금빛 알갱이는 무리가 다 빠진 뒤(3.9초)부터.\n</li>\n<li><strong>타이틀</strong>: 1.22 배(1049px, 화면 안)에서 위에서 떨어지듯 들어와 0.96 으로 박히고 1.0 으로 튕겨 자리 잡는다. 착지 번쩍 0.38 → 0.25.\n</li>\n<li><strong>비녜트</strong>: 인트로 동안 가장자리 어둠(최대 0.5), 줌아웃이 끝나며 걷힌다(켄 번스 화면에는 없음).\n</li></ol>\n<h4>추가 목표 (2026-11-18 사용자 2차 지시 «연출과 원화 연결이 자연스럽게 이어지고 다른 화면처럼 안 느껴지게»)</h4>\n<p>원인(대표가 두 그림의 화소 차이로 확인): 평온한 하늘 <code>key/loading_calm</code> 은 원화에서 균열만 지운 그림이 아니라 <strong>다시 그린 그림</strong>이라 영웅·구름·산의 선이 전부 조금씩 다르다(균열 띠 밖도 평균 차이 20~27). 그것을 화면 전체에 덮었다가 1.55~2.2초에 통째로 걷어 내니 영웅까지 겹쳐 보이며 «다른 그림으로 바뀌는» 느낌이 났다. 하늘 어둡게 하기도 평온한 그림에만 걸려 원화로 넘어갈 때 밝기가 튀었다.</p>\n<ol>\n<li><strong>처음부터 원화 한 장</strong>: 평온한 하늘은 두 그림이 실제로 다른 곳(균열 띠와 무리)에만 부드러운 가장자리의 덧댐으로 얹는다(<code>IntroVeil</code> — 그물 메시의 꼭짓점 투명도, 마스크·렌더 텍스처 없음). 덧댐 모양은 화소 차이에 맞춰 정했다(중심 0.66·0.742, 기울기 11°, 반길이 0.38·반폭 0.13 원화 높이 단위 — 크게 다른 하늘 화소의 98 % 를 덮고 영웅은 덮지 않음).\n</li>\n<li><strong>균열에서 번져 나옴</strong>: 찢어지는 순간(1.5~2.2초) 덧댐에 구멍이 균열 자리에서 바깥으로 열려 원화의 검은 띠가 균열에서 번져 나온다. 나머지 그림은 바뀌지 않는다.\n</li>\n<li><strong>한 색보정</strong>: 저녁빛 어둡게 하기를 원화와 덧댐에 똑같이 걸고 줌아웃 동안 걷는다. 무리는 멀리 있을 때 원화 띠 속 박쥐 색(어두운 남보라)에서 시작한다.\n</li>\n<li><strong>패치 화면 = 인트로 첫 장면</strong>: 패치 화면도 원화 + 같은 덧댐으로 그린다(<code>PatchBoot</code>·<code>PatchScreen</code>).\n</li></ol>",
 "goalShort": "시간표 골격·길이 5초·건너뛰기·켄 번스 이음은 CD-0026 그대로.",
 "tasks": [
 {
@@ -4123,8 +4113,8 @@
 "team": "client",
 "title": "목표 1~8",
 "output": "UI/LoadingIntro.cs (LoadingScreen.cs 는 필요할 때만)",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "L2",
@@ -4132,8 +4122,8 @@
 "team": "client",
 "title": "테스트: 기존 Cd26EditModeTests 는 약하게 바꾸지 않는다. 더함 — 로고가 들어올 때 화면 폭을 넘지 않음, 균열 그림이 줌아웃 시작 전에 사라짐, 무리가 끝날 때 화면 밖, 번쩍 최대 ≤ 0.5, 알갱이는 무리 뒤, 비녜트는 끝에 0",
 "output": "Tests/EditMode/Cd29EditModeTests.cs",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "L3",
@@ -4141,8 +4131,8 @@
 "team": "client",
 "title": "캡처: Cd26ShotTests 를 그대로 다시 돌려 같은 시각의 9장을 _qa/ 에(전후 비교 가능), 추가 시각 몇 장",
 "output": "studio/orders/CD-0029-…/_qa/.png",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 }
 ]
 },
@@ -4150,14 +4140,15 @@
 "id": "CD-0029",
 "title": "소환 칸 바닥 디자인: + 표시 없애고 빈 칸 홈·찬 칸 받침돌로 구분",
 "branch": "main",
-"updated": "2026-11-18 08:47",
+"updated": "2026-11-18 09:17",
 "files": [
 "00-order.md",
 "10-spec.md",
+"23-client.md",
 "_qa"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "검수",
 "route": "fast",
 "risk": "low",
 "teams": "client",
@@ -4172,10 +4163,30 @@
 "team": "client",
 "title": "FieldFloor.Socket 추가. BoardView: (1) 빈 소환 칸 «+»(CellView.Plus, PlusColor, RefreshMarks 의 «+» 켜고 끄기) 삭제. (2) 내 소환 칸 바닥(cv.Floor)을 RefreshMarks 에서 «빈 칸 → Socket(MineSocket) / 찬 칸 → Tile(MineTile)» 로 바꿔 끼움(스프라이트가 다를 때만 대입). (3) 동료 칸: BuildBlocks 가 블록마다 깔던 동료 타일 대신, 동료 플레이어마다 소환 칸(IsSummonCell)마다 하나씩 CellLocal(p, i) 자리에 깔고 (플레이어, 칸, Image) 로 들고 있다가 같은 규칙(빈 칸 Socket(PartnerSocket) / 찬 칸 Tile(PartnerTile))으로 바꿈. 동료 칸 수(PartnerTiles)는 그대로 24. 그리는 층·순서는 지금과 같게(동료 타일은 _cellLayer). (4) 시험용 공개 값 SocketCells(내 칸 중 지금 홈으로 그린 수)·PartnerSockets(동료 칸 중 홈 수). (5) 주석의 «faint plus» 설명 고치기. PlusMarksShown 은 0 그대로(CD-0010 A1 시험값).",
 "output": "View/FieldFloor.cs, View/BoardView.cs, Tests/PlayMode/Cd29FloorTests.cs, 23-client.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 }
 ]
+},
+{
+"id": "CD-0030",
+"title": "판 8×12(2인 기준)·1인 8×9 · 목책 진지 소환 지형(Codex 본 그림) · 영웅 칸의 85%",
+"branch": "main",
+"updated": "2026-11-18 09:04",
+"files": [
+"00-order.md",
+"10-spec.md"
+],
+"milestone": "M6",
+"stage": "접수",
+"route": "full",
+"risk": "high",
+"teams": "planning, core, client, art",
+"opened": "2026-11-18",
+"closed": "",
+"goal": "",
+"goalShort": "",
+"tasks": []
 }
 ],
 "decisions": [
@@ -4706,6 +4717,17 @@
 "html": "<ol>\n<li><strong>소환·이동은 맵에 정해 둔 «소환 칸» 에만</strong> 한다. 길이 아닌 칸이라도 소환 칸이 아니면 놓을 수 없다(바닥·장식).\n</li>\n<li><strong>사람당 소환 칸 24개</strong>, 칸 하나에 영웅 하나. 동시에 둘 수 있는 영웅 수 상한 = 24(<code>maxUnits</code>).\n</li>\n<li><strong>웨이브를 새 맵·24칸에 맞춰 다시 맞춘다</strong> — 목표는 지금과 같은 봇 승률 띠(팔지 않는 봇 보통 30~70%).\n</li>\n<li><strong>맵 <code>gate_01</code>·<code>gate_02</code> 를 지우고 새 맵 하나</strong>를 만든다. 레벨 디자인 규격(칸 크기·영역 크기·길·소환 칸 덩어리 규칙)을 <strong>2인 기준</strong>으로 잡고, 그 규격으로 1인 배치를 따로 만든다.\n</li>\n<li><strong>2인에서는 «나» 가 늘 화면 아래 영역</strong>을 쓴다. 동료 화면에서는 동료가 아래, 내가 위로 보인다(화면만 뒤집는다 — 판정 좌표는 하나).\n</li>\n<li><strong>영웅 크기를 새 칸 크기에 맞추고, 단계(등급)에 따라 조금씩 키운다.</strong> 화면 전용 값이다.\n</li></ol>",
 "branch": "cd29",
 "dirty": false
+},
+{
+"id": "0059",
+"title": "판 폭 8칸 · 2인 8×12 · 1인 8×9 · 소환 자리는 목책 진지(지형) · 영웅 1단계 몸 = 칸의 약 85%",
+"status": "사용자 결정 · 세부(맵 배치·길·덩어리·크기 실측)는 CD-0030 `10-spec.md` 에서 정하고 사용자 확인",
+"kind": "confirmed",
+"date": "2026-11-18",
+"by": "사용자 — 원문과 질문 답은 CD-0030 `00-order.md`",
+"html": "<ol>\n<li><strong>판 폭 8칸.</strong> 2인 판 캔버스 <strong>8×12</strong>, 1인 판 <strong>8×9</strong>. 2인 규격을 기준으로 잡고 1인 배치를 따로 만든다(0058 3 과 같은 방식).\n</li>\n<li><strong>소환 자리는 레벨 디자인 요소로 보인다 — «목책 진지»</strong>: 나무 데크 바닥, 둘레에 목책과 망루 기둥. 길(흙)·풀밭과 재질로 갈린다. 남색 판·금색 테두리·칸마다 볼록 타일 같은 «시스템 UI» 모양은 쓰지 않는다. 칸은 데크 판자 이음새 정도로만 보인다.\n</li>\n<li><strong>영웅 1단계 몸 = 칸의 약 85%</strong>, 단계별로 조금씩 키우는 규칙은 유지.\n</li>\n<li><strong>지형 그림은 Codex 본 그림</strong>(cd-art 절차·장부, L9·L13 안에서). 임시 그림으로 먼저 맞추지 않는다.\n</li></ol>",
+"branch": "main",
+"dirty": true
 }
 ],
 "docs": [
@@ -9493,8 +9515,8 @@
 {
 "file": "2026-11-18.md",
 "title": "2026-11-18",
-"html": "<h3>CD-0027 — 로비 재화 3칸·글꼴 Black 누끼 글자·버튼 반짝임 제거·Codex 아이콘 10장(결정 0057)</h3>\n<ul>\n<li>사용자(11-17): «폰트 디자인을 통일하고 … 누끼처럼 겉은 어두운색이고 안은 밝은색 … 행동력은 번개 모양, 은화는 쌓아올리는 디자인, 연합의 결정은 영웅탭에서 … 코덱스를 써서 디자인 퀄리티를 크게 … 버튼 깜빡이는거는 제거 … 오늘목표·우편 폴리싱 … UI 제작 공정을 설계하고 스킬화». 답: 글꼴 «후보 비교판 보고 진행», 반짝임 «게임 전체 버튼에서».\n</li>\n<li>글꼴: 후보 비교판(Noto Sans KR Black · Jua · Black Han Sans)에서 <strong>Noto Sans KR Black</strong>(OFL, wght 900 정적 인스턴스). Jua 는 한글 2,367자·<code>·×</code> 없음, Black Han Sans 는 숫자 폭이 넓어 뺐다. 밝은 글자는 밝은 채움 + 짙은 남색 선 + 아래 그림자, 숫자는 더 굵은 선, 캡션(≤28)은 얇은 선. 옛 Bold SDF·머티리얼은 지웠고 TTF 는 그림 도구용으로 남김.\n</li>\n<li>재화 줄: 행동력(번개)·은화(쌓은 더미)·젬스톤 세 칸. 연합의 결정은 영웅 탭에서만. 결정 0057 — 행동력 번개는 재화 *기호*이고 속성(0012)이 아니다, 지시문은 «zigzag bolt-shaped object».\n</li>\n<li>Codex 그림 10장(draft, 같은 세션 이어 그림, 재시도 0): 재화 3, 오늘 목표, 우편, 하단 탭 5(새 아이콘 옆에서 코드 탭 그림이 평평해 보여 대표 판단으로 함께 다시 그림).\n</li>\n<li>반짝임: 버튼 빛 쓸림 14곳 제거, 받을 것은 움직이지 않는 빨간 점·숫자 배지. main 병합 때 CD-0026 업데이트 창 키의 빛 쓸림도 없앰(로딩 로고·패치 막대만 남음).\n</li>\n<li>UI 제작 스킬 <code>cd-ui</code> 설계안(<code>40-ui-skill-plan.md</code>, 외부 조사 <code>_research/</code>) — 사용자 승인 대기.\n</li>\n<li>병합: main(CD-0026) 과 겹친 8곳(아트 도구 2, 목록·장부·사용 기록, Addressables·스프라이트 목록·크레딧) 양쪽을 모두 살려 풀었다.\n</li>\n<li>확인: QA PASS(병합 전). main(CD-0026) 합친 뒤 Core 403/403 · EditMode 151/151 · PlayMode 실패 0(통과 114·건너뜀 30) · check 통과. 사람 플레이·안드로이드 실기기·판 안 Black 캡처 안 함.\n</li>\n<li>남은 것: 연합의 결정·쿠지 티켓 아이콘이 옛 그림, 은화 더미가 48px 보상 칩에서 작게 뭉개짐, 감사 권고(안 고른 탭 어두움·그림자 짧음·붉은 경고 글자 선 없음).\n</li></ul>\n<h3>CD-0028 — 소환 칸 규격 재정의 · 새 맵 하나 · 폭 7칸 · 영웅 크기 · 판 품질(결정 0058)</h3>\n<ul>\n<li>사용자: «초록색 영역에만 소환 … 우리 맵은 소환할 공간이 너무 많다 … 맵 둘 다 지우고 새로 1개, 레벨 디자인 규격 … 2인은 \"나\" 가 무조건 아래 … 타일 크기에 맞춰 영웅 크기, 등급별로 살짝». 답: 모양은 새로(참고 이미지는 L7), 24칸 + 웨이브 재조정(«6종족에 20칸이면 충분?» → 측정으로 답), 1인 맵은 2인 규격 바탕으로 따로, 폭 7칸. 뒤이어 «게임 전반을 훑고 같은 장르 라이브 게임 수준으로, 권장안대로 완성·푸시·빌드».\n</li>\n<li>다른 세션이 CD-0027(결정 0057)을 하던 중이라 주문 CD-0028 · 결정 0058 · 줄기 <code>cd28</code>(worktree <code>.worktrees/cd28</code>).\n</li>\n<li>새 맵 <code>gate_03</code> «돌다리 관문»: 사람당 영역 7×5 = 소환 칸 24(직사각형 덩어리 4개) + 길 11. 2인 7×11 세로 거울, 1인 7×8(위에서 와서 아래 왼쪽 관문, 길 19칸). 참고 화면과 다른 점은 기획서 §3-3.\n</li>\n<li>측정: 20칸 simple 31/60 · 24칸 60/60(옛 웨이브) → 6~20웨이브 hpPct 보통 ×1.95 · 어려움 ×2.08 · 정예 ×2.00 → 1인 보통 simple 53.3% · focus 97.1% · 어려움 0.5/71.0% · 정예 0/45.2%. 2인 보통 simple 86.7%(M4 로).\n</li>\n<li>판 품질 9가지(감사 <code>15-audit.md</code>) — 다시 하기 확인창, 뒤로 가기, 웨이브 통과·보스 띠, 웨이브 N/총수, 고단계 판매 확인, 레벨 칩, 배속 유지, 첫 판 강화·현상금 안내.\n</li>\n<li>확인: QA PASS(수용 9 주석 한 줄 FAIL → 고쳐 재검수). Core 412/412 · EditMode 155/155 · PlayMode 실패 0(124·건너뜀 31). main(CD-0027) 합친 뒤 다시 돎 — 아래 배포 줄.\n</li>\n<li>사람 플레이 안 함. 남은 것은 주문 <code>90-close.md</code>.\n</li></ul>\n<h3>앱 0.6.0 폰 배포 (CD-0028 + CD-0026·0027 포함)</h3>\n<ul>\n<li>사용자: «완성 후에 푸시하고 빌드까지». cd28(main 975a911 합침) 위에서 0.6.0 · versionCode 8, 안드로이드 기본 빌드 base_id af1914db(61ea49b), APK 50.8 MB, 합친 뒤 Core 412/412 · EditMode 155/155 · PlayMode 실패 0(127 · 건너뜀 32) · check 통과.\n</li>\n<li>CCD <code>android-dev</code> 릴리스 22(catalog_0.6.0-af1914db, 옛 0.5.1 카탈로그 지움), Firebase App Distribution 0.6.0 (8) → 그룹 testers, <code>Android/app_version.json</code> versionCode 8(릴리스 23). 0.5.x 앱은 켜면 필수 업데이트 창이 뜬다.\n</li>\n<li>실기기 설치·사람 플레이는 안 함(사용자가 11-18 에 해 본다).\n</li></ul>",
-"at": "2026-11-18 08:42",
+"html": "<h3>CD-0027 — 로비 재화 3칸·글꼴 Black 누끼 글자·버튼 반짝임 제거·Codex 아이콘 10장(결정 0057)</h3>\n<ul>\n<li>사용자(11-17): «폰트 디자인을 통일하고 … 누끼처럼 겉은 어두운색이고 안은 밝은색 … 행동력은 번개 모양, 은화는 쌓아올리는 디자인, 연합의 결정은 영웅탭에서 … 코덱스를 써서 디자인 퀄리티를 크게 … 버튼 깜빡이는거는 제거 … 오늘목표·우편 폴리싱 … UI 제작 공정을 설계하고 스킬화». 답: 글꼴 «후보 비교판 보고 진행», 반짝임 «게임 전체 버튼에서».\n</li>\n<li>글꼴: 후보 비교판(Noto Sans KR Black · Jua · Black Han Sans)에서 <strong>Noto Sans KR Black</strong>(OFL, wght 900 정적 인스턴스). Jua 는 한글 2,367자·<code>·×</code> 없음, Black Han Sans 는 숫자 폭이 넓어 뺐다. 밝은 글자는 밝은 채움 + 짙은 남색 선 + 아래 그림자, 숫자는 더 굵은 선, 캡션(≤28)은 얇은 선. 옛 Bold SDF·머티리얼은 지웠고 TTF 는 그림 도구용으로 남김.\n</li>\n<li>재화 줄: 행동력(번개)·은화(쌓은 더미)·젬스톤 세 칸. 연합의 결정은 영웅 탭에서만. 결정 0057 — 행동력 번개는 재화 *기호*이고 속성(0012)이 아니다, 지시문은 «zigzag bolt-shaped object».\n</li>\n<li>Codex 그림 10장(draft, 같은 세션 이어 그림, 재시도 0): 재화 3, 오늘 목표, 우편, 하단 탭 5(새 아이콘 옆에서 코드 탭 그림이 평평해 보여 대표 판단으로 함께 다시 그림).\n</li>\n<li>반짝임: 버튼 빛 쓸림 14곳 제거, 받을 것은 움직이지 않는 빨간 점·숫자 배지. main 병합 때 CD-0026 업데이트 창 키의 빛 쓸림도 없앰(로딩 로고·패치 막대만 남음).\n</li>\n<li>UI 제작 스킬 <code>cd-ui</code> 설계안(<code>40-ui-skill-plan.md</code>, 외부 조사 <code>_research/</code>) — 사용자 승인 대기.\n</li>\n<li>병합: main(CD-0026) 과 겹친 8곳(아트 도구 2, 목록·장부·사용 기록, Addressables·스프라이트 목록·크레딧) 양쪽을 모두 살려 풀었다.\n</li>\n<li>확인: QA PASS(병합 전). main(CD-0026) 합친 뒤 Core 403/403 · EditMode 151/151 · PlayMode 실패 0(통과 114·건너뜀 30) · check 통과. 사람 플레이·안드로이드 실기기·판 안 Black 캡처 안 함.\n</li>\n<li>남은 것: 연합의 결정·쿠지 티켓 아이콘이 옛 그림, 은화 더미가 48px 보상 칩에서 작게 뭉개짐, 감사 권고(안 고른 탭 어두움·그림자 짧음·붉은 경고 글자 선 없음).\n</li></ul>\n<h3>CD-0028 — 소환 칸 규격 재정의 · 새 맵 하나 · 폭 7칸 · 영웅 크기 · 판 품질(결정 0058)</h3>\n<ul>\n<li>사용자: «초록색 영역에만 소환 … 우리 맵은 소환할 공간이 너무 많다 … 맵 둘 다 지우고 새로 1개, 레벨 디자인 규격 … 2인은 \"나\" 가 무조건 아래 … 타일 크기에 맞춰 영웅 크기, 등급별로 살짝». 답: 모양은 새로(참고 이미지는 L7), 24칸 + 웨이브 재조정(«6종족에 20칸이면 충분?» → 측정으로 답), 1인 맵은 2인 규격 바탕으로 따로, 폭 7칸. 뒤이어 «게임 전반을 훑고 같은 장르 라이브 게임 수준으로, 권장안대로 완성·푸시·빌드».\n</li>\n<li>다른 세션이 CD-0027(결정 0057)을 하던 중이라 주문 CD-0028 · 결정 0058 · 줄기 <code>cd28</code>(worktree <code>.worktrees/cd28</code>).\n</li>\n<li>새 맵 <code>gate_03</code> «돌다리 관문»: 사람당 영역 7×5 = 소환 칸 24(직사각형 덩어리 4개) + 길 11. 2인 7×11 세로 거울, 1인 7×8(위에서 와서 아래 왼쪽 관문, 길 19칸). 참고 화면과 다른 점은 기획서 §3-3.\n</li>\n<li>측정: 20칸 simple 31/60 · 24칸 60/60(옛 웨이브) → 6~20웨이브 hpPct 보통 ×1.95 · 어려움 ×2.08 · 정예 ×2.00 → 1인 보통 simple 53.3% · focus 97.1% · 어려움 0.5/71.0% · 정예 0/45.2%. 2인 보통 simple 86.7%(M4 로).\n</li>\n<li>판 품질 9가지(감사 <code>15-audit.md</code>) — 다시 하기 확인창, 뒤로 가기, 웨이브 통과·보스 띠, 웨이브 N/총수, 고단계 판매 확인, 레벨 칩, 배속 유지, 첫 판 강화·현상금 안내.\n</li>\n<li>확인: QA PASS(수용 9 주석 한 줄 FAIL → 고쳐 재검수). Core 412/412 · EditMode 155/155 · PlayMode 실패 0(124·건너뜀 31). main(CD-0027) 합친 뒤 다시 돎 — 아래 배포 줄.\n</li>\n<li>사람 플레이 안 함. 남은 것은 주문 <code>90-close.md</code>.\n</li></ul>\n<h3>앱 0.6.0 폰 배포 (CD-0028 + CD-0026·0027 포함)</h3>\n<ul>\n<li>사용자: «완성 후에 푸시하고 빌드까지». cd28(main 975a911 합침) 위에서 0.6.0 · versionCode 8, 안드로이드 기본 빌드 base_id af1914db(61ea49b), APK 50.8 MB, 합친 뒤 Core 412/412 · EditMode 155/155 · PlayMode 실패 0(127 · 건너뜀 32) · check 통과.\n</li>\n<li>CCD <code>android-dev</code> 릴리스 22(catalog_0.6.0-af1914db, 옛 0.5.1 카탈로그 지움), Firebase App Distribution 0.6.0 (8) → 그룹 testers, <code>Android/app_version.json</code> versionCode 8(릴리스 23). 0.5.x 앱은 켜면 필수 업데이트 창이 뜬다.\n</li>\n<li>실기기 설치·사람 플레이는 안 함(사용자가 11-18 에 해 본다).\n</li></ul>\n<h3>CD-0029 — 로딩 인트로 품질 개선 · 원화와 한 장으로 이어지게</h3>\n<ul>\n<li>사용자: «로딩화면 인트로 퀄리티가 너무 안좋은데 검토하고 개선진행해», 이어서 «연출과 원화연결이 자연스럽게이어지고 다른화면 처럼안느껴지게처리가필요해».\n</li>\n<li>다른 세션이 <code>.worktrees/cd28</code> 에서 시험을 돌리던 중이라 줄기 <code>cd29</code> 를 <code>.worktrees/cd27</code> 자리에 팠다.\n</li>\n<li>검토(CD-0026 캡처): 균열이 납작한 막대, 찢어질 때 화면이 하얗게 사라짐(번쩍 0.9), 균열 그림과 원화 띠가 겹쳐 두 개, 무리가 영웅 위에서 제자리 소멸, 원근 없음, 타이틀이 들어올 때 좌우 잘림, 처음 0.5초 정지, 틀 없음.\n</li>\n<li>고침(연출 코드만, Codex 0회): 뾰족한 끝으로 자라는 금 + 불똥·불씨, 번쩍 0.5 상한 + 균열에서 퍼지는 빛, 균열은 줌아웃 전에 원화 띠로 번져 사라짐, 무리는 깊이 곡선으로 렌즈를 스쳐 화면 밖으로, 타이틀 1.22 배에서 박힘, 카메라 천천히 다가감, 비녜트.\n</li>\n<li>2차 원인: 평온한 하늘 그림은 원화를 다시 그린 것이라 영웅 선까지 다르다(화소 차이로 확인) — 화면 전체 크로스페이드가 «다른 그림으로 바뀌는» 느낌. <code>IntroVeil</code>: 원화 한 장 위에 평온한 하늘을 균열 띠 자리에만 덧대고(차이에 맞춘 모양), 찢어질 때 구멍이 균열에서 열려 원화 띠가 번져 나옴. 색보정은 원화·덧댐 똑같이. 패치 화면 = 인트로 첫 장면 그대로.\n</li>\n<li>확인: QA PASS(2차 반영 뒤 재검수). EditMode 163/163 · PlayMode 걸러서 10/10 · <code>check --unity</code> 통과. 전후 비교 <code>studio/orders/CD-0029-…/_qa/cd29_before_after.png</code>.\n</li>\n<li>사람 플레이·실기기 안 함. 그림으로 더 올리려면 «원화에서 균열만 지운» 평온한 하늘을 다시 뽑는 길(Codex 1장)이 남음.\n</li></ul>",
+"at": "2026-11-18 09:16",
 "branch": "cd29"
 },
 {
@@ -9522,7 +9544,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-18 03:32",
+"at": "2026-11-18 09:12",
 "passed": 412,
 "failed": 0,
 "total": 412,
@@ -9530,16 +9552,16 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-18 03:34",
-"passed": 153,
-"failed": 2,
-"total": 155,
-"ok": false,
+"at": "2026-11-18 09:15",
+"passed": 163,
+"failed": 0,
+"total": 163,
+"ok": true,
 "fresh": true
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-18 03:32",
+"at": "2026-11-18 09:12",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9547,7 +9569,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-18 03:32",
+"at": "2026-11-18 09:12",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9555,7 +9577,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-18 03:32",
+"at": "2026-11-18 09:12",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -9566,12 +9588,12 @@
 {
 "kind": "android",
 "name": "coopdefense-dev-arm64.apk",
-"at": "2026-11-18 03:52",
+"at": "2026-11-18 09:15",
 "sizeMB": 50.8,
 "branch": "cd28",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261118-0352",
-"tag": "build-android-20261118-0352"
+"release": "",
+"tag": ""
 },
 {
 "kind": "android",
@@ -9777,7 +9799,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-18 08:47",
-"generatedAt": "2026-11-18 08:47",
-"digest": "3048e49384d8bf4e"
+"sourceAt": "2026-11-18 09:17",
+"generatedAt": "2026-11-18 09:17",
+"digest": "43e268aeeed64185"
 }
