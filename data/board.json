@@ -1311,7 +1311,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0025",
+"order": "CD-0024",
 "head": "e145fe8",
 "commits": [
 {
@@ -1390,9 +1390,15 @@
 "lane": "cd29",
 "session": "",
 "owns": "",
-"order": "CD-0028",
-"head": "dfdf690",
+"order": "CD-0029",
+"head": "6cbe9b6",
 "commits": [
+{
+"sha": "6cbe9b6",
+"at": "2026-11-18 10:13",
+"ts": 1794964417,
+"msg": "CD-0029 로딩 인트로 품질 개선 · 원화와 한 장으로 이어지게"
+},
 {
 "sha": "dfdf690",
 "at": "2026-11-18 03:58",
@@ -1422,55 +1428,29 @@
 "at": "2026-11-18 03:31",
 "ts": 1794940311,
 "msg": "CD-0028 소환 칸 규격 재정의: 정해진 소환 칸만 · 사람당 24칸 · 새 맵 gate_03 «돌다리 관문»(1인 7×8 · 2인 7×11 세로 거울) · 폭 7칸 · 단계별 영웅 크기 · 웨이브 재조정 · 판 품질 (결정 0058)"
-},
-{
-"sha": "975a911",
-"at": "2026-11-18 01:38",
-"ts": 1794933487,
-"msg": "Merge branch 'main' into cd27 (CD-0026 위에 CD-0027 마감)"
 }
 ],
-"dirtyCount": 47,
+"dirtyCount": 3,
 "dirty": [
-{
-"file": "studio/site/index.html",
-"at": "2026-11-18 09:16"
-},
-{
-"file": "devlog/2026-11-18.md",
-"at": "2026-11-18 09:16"
-},
-{
-"file": "studio/milestones.json",
-"at": "2026-11-18 09:16"
-},
-{
-"file": "studio/orders/CD-0029-로딩-인트로-연출-품질-개선/00-order.md",
-"at": "2026-11-18 09:16"
-},
-{
-"file": "studio/orders/CD-0029-로딩-인트로-연출-품질-개선/90-close.md",
-"at": "2026-11-18 09:16"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-18 09:15"
-},
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
 "at": "2026-11-18 09:15"
 },
 {
-"file": "studio/orders/CD-0029-로딩-인트로-연출-품질-개선/_qa/editmode-all.xml",
-"at": "2026-11-18 09:12"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-18 09:08"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-18 08:49"
 }
 ],
-"lastEdit": "2026-11-18 09:16",
-"lastEditTs": 1794960993.571264,
-"lastCommitTs": 1794941917,
-"unpushed": 0,
-"notInMain": 0,
-"today": 7
+"lastEdit": "2026-11-18 09:15",
+"lastEditTs": 1794960941.0767536,
+"lastCommitTs": 1794964417,
+"unpushed": 1,
+"notInMain": 1,
+"today": 8
 },
 {
 "branch": "cd28",
@@ -1562,12 +1542,8 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 55,
+"commits": 50,
 "byOrder": [
-[
-"CD-0014",
-10
-],
 [
 "CD-0025",
 9
@@ -1578,11 +1554,15 @@
 ],
 [
 "기타",
-8
+7
+],
+[
+"CD-0014",
+7
 ],
 [
 "CD-0023",
-8
+7
 ],
 [
 "CD-0028",
@@ -1597,15 +1577,20 @@
 2
 ],
 [
-"CD-0027",
+"CD-0029",
 1
 ],
 [
-"CD-0015",
+"CD-0027",
 1
 ]
 ],
 "latest": [
+{
+"sha": "6cbe9b6",
+"at": "2026-11-18 10:13",
+"msg": "CD-0029 로딩 인트로 품질 개선 · 원화와 한 장으로 이어지게"
+},
 {
 "sha": "421647e",
 "at": "2026-11-18 09:23",
@@ -1650,11 +1635,6 @@
 "sha": "fb26501",
 "at": "2026-11-18 01:17",
 "msg": "CD-0027 로비 재화 3칸·글꼴 Noto Sans KR Black 누끼 글자·버튼 반짝임 제거·Codex 아이콘 10장 (결정 0057)"
-},
-{
-"sha": "5fc739f",
-"at": "2026-11-17 23:51",
-"msg": "현황 사이트 다시 만들기: CD-0026 병합 뒤 board, check --unity (Core 403/403 · EditMode 151/151)"
 }
 ]
 },
@@ -4122,7 +4102,7 @@
 "id": "CD-0029",
 "title": "로딩 인트로 연출 품질 개선",
 "branch": "cd29",
-"updated": "2026-11-18 09:16",
+"updated": "2026-11-18 10:13",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -9910,7 +9890,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-18 09:24",
-"generatedAt": "2026-11-18 09:47",
-"digest": "1c33c5bb7cc272b3"
+"sourceAt": "2026-11-18 10:13",
+"generatedAt": "2026-11-18 10:17",
+"digest": "e7c869308f1bc108"
 }
