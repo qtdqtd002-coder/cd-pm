@@ -1334,7 +1334,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0024",
+"order": "CD-0025",
 "head": "e145fe8",
 "commits": [
 {
@@ -1860,19 +1860,11 @@
 "msg": "CD-0036 진행 기록: 사용자 취침 중 권장안 진행 · 신호 전 미리 하는 일 범위"
 }
 ],
-"dirtyCount": 12,
+"dirtyCount": 10,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScenede759f2a-05a4-4767-bb67-1b51fcd66eb8.unity.meta",
-"at": "2026-11-20 04:14"
-},
-{
-"file": "UnityProject/Assets/InitTestScenede759f2a-05a4-4767-bb67-1b51fcd66eb8.unity",
-"at": "2026-11-20 04:14"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-20 04:13"
+"at": "2026-11-20 04:34"
 },
 {
 "file": "test-results.xml",
@@ -1893,10 +1885,18 @@
 {
 "file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
 "at": "2026-11-20 00:02"
+},
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Schemas/Art_BundledAssetGroupSchema.asset",
+"at": "2026-11-20 00:02"
+},
+{
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-19 07:52"
 }
 ],
-"lastEdit": "2026-11-20 04:14",
-"lastEditTs": 1795115663.8771641,
+"lastEdit": "2026-11-20 04:34",
+"lastEditTs": 1795116865.795945,
 "lastCommitTs": 1795114072,
 "unpushed": 31,
 "notInMain": 8,
@@ -11450,7 +11450,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 04:14",
-"generatedAt": "2026-11-20 04:17",
-"digest": "27d38aa258da4659"
+"sourceAt": "2026-11-20 04:34",
+"generatedAt": "2026-11-20 04:47",
+"digest": "00ae3e2a22317d08"
 }
