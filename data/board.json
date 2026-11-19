@@ -1658,7 +1658,7 @@
 "lane": "cd32",
 "session": "",
 "owns": "",
-"order": "CD-0029",
+"order": "CD-0031",
 "head": "3dd41bf",
 "commits": [
 {
@@ -1821,8 +1821,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0034",
-"head": "1f408b9",
+"head": "74ccdbc",
 "commits": [
+{
+"sha": "74ccdbc",
+"at": "2026-11-20 03:47",
+"ts": 1795114072,
+"msg": "CD-0034 U1·U4 인게임 화면: 차원석 칩(StoneTenths·+n/s) · 광산 버튼(웨이브 2 전 자물쇠, 고용 가능 고정 ▲) · 광산 시트(8칸 광부 곡괭이질, 고용 버튼) · 교체(차원석 값·6종족 각 16.7%·실루엣 연출) · 진화 시트 차원석 값·잠긴 갈래 · 2인 동료 처치 골드가 내 칩으로 날아가던 화면 버그 고침"
+},
 {
 "sha": "1f408b9",
 "at": "2026-11-20 02:41",
@@ -1852,55 +1858,49 @@
 "at": "2026-11-20 01:34",
 "ts": 1795106084,
 "msg": "CD-0036 진행 기록: 사용자 취침 중 권장안 진행 · 신호 전 미리 하는 일 범위"
-},
-{
-"sha": "4310c7d",
-"at": "2026-11-20 01:13",
-"ts": 1795104796,
-"msg": "CD-0036: cd36 worktree 미리 만듦(main 8e1f304 · 유니티 가져오기 · EditMode 172/172) 기록"
 }
 ],
-"dirtyCount": 56,
+"dirtyCount": 12,
 "dirty": [
 {
-"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/22-client.md",
-"at": "2026-11-20 03:47"
+"file": "UnityProject/Assets/InitTestScenede759f2a-05a4-4767-bb67-1b51fcd66eb8.unity.meta",
+"at": "2026-11-20 04:14"
+},
+{
+"file": "UnityProject/Assets/InitTestScenede759f2a-05a4-4767-bb67-1b51fcd66eb8.unity",
+"at": "2026-11-20 04:14"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-20 03:46"
+"at": "2026-11-20 04:13"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd30K3ShotTests.cs",
-"at": "2026-11-20 03:25"
+"file": "test-results.xml",
+"at": "2026-11-20 04:13"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd30BoardTests.cs",
-"at": "2026-11-20 03:25"
+"file": "studio/checks.json",
+"at": "2026-11-20 03:50"
 },
 {
-"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_qa/craft-game-floors-U1.md",
-"at": "2026-11-20 03:08"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/00-order.md",
+"at": "2026-11-20 03:47"
 },
 {
-"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_ingame_evolve_locked_safe_1080x2400.png",
-"at": "2026-11-20 03:03"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-20 02:57"
 },
 {
-"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_ingame_evolve_locked_1080x1920.png",
-"at": "2026-11-20 03:03"
-},
-{
-"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_ingame_evolve_locked_popup_safe_1080x2400.png",
-"at": "2026-11-20 03:03"
+"file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
+"at": "2026-11-20 00:02"
 }
 ],
-"lastEdit": "2026-11-20 03:47",
-"lastEditTs": 1795114022.1076689,
-"lastCommitTs": 1795110074,
-"unpushed": 30,
-"notInMain": 7,
-"today": 9
+"lastEdit": "2026-11-20 04:14",
+"lastEditTs": 1795115663.8771641,
+"lastCommitTs": 1795114072,
+"unpushed": 31,
+"notInMain": 8,
+"today": 10
 },
 {
 "branch": "cd36",
@@ -1976,11 +1976,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 19,
+"commits": 20,
 "byOrder": [
 [
 "CD-0034",
-7
+8
 ],
 [
 "CD-0036",
@@ -2000,6 +2000,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "74ccdbc",
+"at": "2026-11-20 03:47",
+"msg": "CD-0034 U1·U4 인게임 화면: 차원석 칩(StoneTenths·+n/s) · 광산 버튼(웨이브 2 전 자물쇠, 고용 가능 고정 ▲) · 광산 시트(8칸 광부 곡괭이질, 고용 버튼) · 교체(차원석 값·6종족 각 16.7%·실루엣 연출) · 진화 시트 차원석 값·잠긴 갈래 · 2인 동료 처치 골드가 내 칩으로 날아가던 화면 버그 고침"
+},
 {
 "sha": "eaa92b5",
 "at": "2026-11-20 02:41",
@@ -2044,11 +2049,6 @@
 "sha": "12d58a6",
 "at": "2026-11-20 00:06",
 "msg": "CD-0036 구현 시작 절차(신호 → cd36 worktree → 팀장 순서)"
-},
-{
-"sha": "f89ccf8",
-"at": "2026-11-19 23:59",
-"msg": "CD-0034 C3 Core(아웃게임): 레벨 1~50(중복+은화, 공격력 합) · 강화 제거 · 균열석 rift · 전설 초월 +10(만분율 가중치, Pcg32 trsc 씨앗+시도 번호, 실패 = 균열석만) · 전설 특성 · 보유 = HasCleared(unlockStage) · LegendLocked · stageClearRift · Unlocks.IsOpen · 저장 v12(옛 저장 초기화)"
 }
 ]
 },
@@ -4936,7 +4936,7 @@
 "_sim"
 ],
 "milestone": "M3",
-"stage": "제작",
+"stage": "검수",
 "route": "full",
 "risk": "high",
 "teams": "planning, core, client, art",
@@ -4952,7 +4952,7 @@
 "title": "관제 신호(0032·0033·0030·0035 병합) 뒤: 결정 0063 반영, Data/(새 stones.json, economy·legends·heroes·reward·account·kuji·shop·daily·weekly·achievements), docs/10·11·13·14, CHARTER L10~12, cd-canon, validate_data.py(이 문서의 검사 문장). 이음새 기본값은 §4-1",
 "output": "20-planning.md",
 "status": "done",
-"why": "보고서 있음: 20-planning.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "P2",
@@ -4961,7 +4961,7 @@
 "title": "C2 의 cd30 판 측정으로 광산·골드·차원석·진화·교체 수치 확정(띠 A, 상대 기준), 사용자 답 반영",
 "output": "20-planning.md",
 "status": "done",
-"why": "보고서 있음: 20-planning.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "P3",
@@ -4970,7 +4970,7 @@
 "title": "§6 표와 §1-5 띠 B·§2-4 판 보상 목표(제비 약 80 · 은화 약 12,000)를 CD-0036 기획서에 넘김(그 주문 00-order.md 진행 기록에 대표가 붙임)",
 "output": "20-planning.md",
 "status": "done",
-"why": "보고서 있음: 20-planning.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "C1",
@@ -4979,7 +4979,7 @@
 "title": "인게임: 처치 골드 귀속 테스트, StonesConfig, 차원석 1/1000, hire·reroll·거절·이벤트, 진화 차원석·LegendLocked, loadout 전설 보유·초월·특성(간격·대기), rrol, 질의, 스냅샷 꼬리표, MatchResult",
 "output": "21-core.md",
 "status": "done",
-"why": "보고서 있음: 21-core.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "C2",
@@ -4988,7 +4988,7 @@
 "title": "시뮬 +mine:<n>·+reroll·전설 전부 보유 loadout·최대 육성 loadout, cd30 이 들어간 판의 세트 3 × 시드 1~210 · 1인·2인(띠 A), 처치 골드 귀속 전후 협동 1인 수입도 다시 잼",
 "output": "21-core.md",
 "status": "done",
-"why": "보고서 있음: 21-core.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "C3",
@@ -4997,7 +4997,7 @@
 "title": "아웃게임: 레벨 50(중복 + 은화), 강화 제거, rift, 초월(가중치·trsc·씨앗·시도 수), 보유 계산·HasCleared·stageClearRift, Unlocks.IsOpen(늘 true), DescribeHero·DescribeLegend, 미션 kind, 저장 12(질문 3 에 따라 초기화 또는 변환)",
 "output": "21-core.md",
 "status": "done",
-"why": "보고서 있음: 21-core.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "U1",
@@ -5006,7 +5006,7 @@
 "title": "차원석 칩·광산 버튼·시트, 교체 버튼·연출·확률 줄, 진화 시트 값·잠긴 갈래, Unlocks.IsOpen 을 읽어 숨김",
 "output": "22-client.md",
 "status": "done",
-"why": "보고서 있음: 22-client.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "U2",
@@ -5015,7 +5015,7 @@
 "title": "영웅 창(§2-8): 상단·Lv·강화 제거·스탯 패널·특성 금색·레벨 업 ▲·탭 ▲, 전설 구역·잠김 카드·새 전설 레드닷·전설 상세·초월 창·연출, 머리 칩 은화·균열석",
 "output": "22-client.md",
 "status": "done",
-"why": "보고서 있음: 22-client.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "U3",
@@ -5024,7 +5024,7 @@
 "title": "화면 글자 «연합의 결정» 0개, 결과·우편·상점·뽑기 아이콘",
 "output": "22-client.md",
 "status": "done",
-"why": "보고서 있음: 22-client.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "U4",
@@ -5033,7 +5033,7 @@
 "title": "EditMode·PlayMode·캡처·craft-game-floors 감사",
 "output": "22-client.md",
 "status": "done",
-"why": "보고서 있음: 22-client.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "A1",
@@ -5042,7 +5042,7 @@
 "title": "차원석·균열석(뚜렷이 다르게)·스탯 3종·광산 버튼·교체 아이콘 · 드워프 광부 SD(곡괭이질 2포즈), 장부",
 "output": "23-art.md",
 "status": "done",
-"why": "보고서 있음: 23-art.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "Q1",
@@ -5050,8 +5050,8 @@
 "team": "qa",
 "title": "수용 기준·L6·L10~12 대조, 화면 글자, §6 표가 CD-0036 에 넘어갔는지",
 "output": "30-qa.md",
-"status": "todo",
-"why": ""
+"status": "doing",
+"why": "주문이 검수 단계"
 }
 ]
 },
@@ -11195,24 +11195,24 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-19 23:56",
-"passed": 459,
+"at": "2026-11-20 03:48",
+"passed": 501,
 "failed": 0,
-"total": 459,
+"total": 501,
 "ok": true
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-19 23:59",
-"passed": 172,
+"at": "2026-11-20 03:50",
+"passed": 174,
 "failed": 0,
-"total": 172,
+"total": 174,
 "ok": true,
 "fresh": true
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-19 23:56",
+"at": "2026-11-20 03:48",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -11220,7 +11220,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-19 23:56",
+"at": "2026-11-20 03:48",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -11228,7 +11228,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-19 23:56",
+"at": "2026-11-20 03:48",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -11450,7 +11450,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 03:47",
-"generatedAt": "2026-11-20 03:47",
-"digest": "3f1293a29efa6239"
+"sourceAt": "2026-11-20 04:14",
+"generatedAt": "2026-11-20 04:17",
+"digest": "27d38aa258da4659"
 }
