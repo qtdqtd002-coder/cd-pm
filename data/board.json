@@ -1334,7 +1334,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0025",
+"order": "CD-0024",
 "head": "e145fe8",
 "commits": [
 {
@@ -1864,43 +1864,43 @@
 "msg": "CD-0034 주문 열림·기획서: 재화 개편 (인게임 차원석·광산·교체·처치 골드 본인 · 아웃게임 레벨 50 중복+은화·전설 초월 균열석·영웅 창) · 결정 0063 초안 · 측정 _sim"
 }
 ],
-"dirtyCount": 284,
+"dirtyCount": 286,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd34SaveEditModeTests.cs",
-"at": "2026-11-19 23:34"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/21-core.md",
+"at": "2026-11-19 23:38"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-19 23:38"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/OutgameRound2EditModeTests.cs",
+"at": "2026-11-19 23:37"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/OutgameServiceEditModeTests.cs",
+"at": "2026-11-19 23:37"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/OutgameContractEditModeTests.cs",
+"at": "2026-11-19 23:36"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/OutgameStage2EditModeTests.cs",
+"at": "2026-11-19 23:36"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/OutgameShopEditModeTests.cs",
+"at": "2026-11-19 23:36"
 },
 {
 "file": "UnityProject/Assets/Tests/EditMode/OutgameMetaEditModeTests.cs",
-"at": "2026-11-19 23:33"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameMetaFlowTests.cs",
-"at": "2026-11-19 23:33"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameStage2FlowTests.cs",
-"at": "2026-11-19 23:33"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameServiceFlowTests.cs",
-"at": "2026-11-19 23:33"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameAudit2FlowTests.cs",
-"at": "2026-11-19 23:33"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/FlowTests.cs",
-"at": "2026-11-19 23:33"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/MatchControlTests.cs",
-"at": "2026-11-19 23:33"
+"at": "2026-11-19 23:36"
 }
 ],
-"lastEdit": "2026-11-19 23:34",
-"lastEditTs": 1795098855.8354485,
+"lastEdit": "2026-11-19 23:38",
+"lastEditTs": 1795099099.1881888,
 "lastCommitTs": 1795041668,
 "unpushed": 13,
 "notInMain": 0,
@@ -4859,11 +4859,12 @@
 "id": "CD-0034",
 "title": "재화 개편: 인게임 차원석·광산·리롤·처치 골드 본인 · 아웃게임 레벨 50 은화·초월 균열석 · 영웅 창 스탯",
 "branch": "cd34",
-"updated": "2026-11-19 23:09",
+"updated": "2026-11-19 23:38",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-planning.md",
+"21-core.md",
 "23-art-icons.png",
 "23-art-stone-vs-rift.png",
 "23-art.md",
@@ -4913,8 +4914,8 @@
 "team": "core",
 "title": "인게임: 처치 골드 귀속 테스트, StonesConfig, 차원석 1/1000, hire·reroll·거절·이벤트, 진화 차원석·LegendLocked, loadout 전설 보유·초월·특성(간격·대기), rrol, 질의, 스냅샷 꼬리표, MatchResult",
 "output": "21-core.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-core.md"
 },
 {
 "id": "C2",
@@ -4922,8 +4923,8 @@
 "team": "core",
 "title": "시뮬 +mine:<n>·+reroll·전설 전부 보유 loadout·최대 육성 loadout, cd30 이 들어간 판의 세트 3 × 시드 1~210 · 1인·2인(띠 A), 처치 골드 귀속 전후 협동 1인 수입도 다시 잼",
 "output": "21-core.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-core.md"
 },
 {
 "id": "C3",
@@ -4931,8 +4932,8 @@
 "team": "core",
 "title": "아웃게임: 레벨 50(중복 + 은화), 강화 제거, rift, 초월(가중치·trsc·씨앗·시도 수), 보유 계산·HasCleared·stageClearRift, Unlocks.IsOpen(늘 true), DescribeHero·DescribeLegend, 미션 kind, 저장 12(질문 3 에 따라 초기화 또는 변환)",
 "output": "21-core.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-core.md"
 },
 {
 "id": "U1",
@@ -11253,7 +11254,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-19 23:34",
-"generatedAt": "2026-11-19 23:33",
-"digest": "c3bb3b0c435a28d0"
+"sourceAt": "2026-11-19 23:38",
+"generatedAt": "2026-11-19 23:47",
+"digest": "6fa597d694c5e330"
 }
