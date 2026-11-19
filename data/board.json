@@ -1334,7 +1334,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0024",
+"order": "CD-0025",
 "head": "e145fe8",
 "commits": [
 {
@@ -1658,7 +1658,7 @@
 "lane": "cd32",
 "session": "",
 "owns": "",
-"order": "CD-0029",
+"order": "CD-0031",
 "head": "3dd41bf",
 "commits": [
 {
@@ -1860,43 +1860,43 @@
 "msg": "CD-0036: cd36 worktree 미리 만듦(main 8e1f304 · 유니티 가져오기 · EditMode 172/172) 기록"
 }
 ],
-"dirtyCount": 12,
+"dirtyCount": 55,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/Match/CellPopup.cs",
-"at": "2026-11-20 02:47"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_qa/craft-game-floors-U1.md",
+"at": "2026-11-20 03:08"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/Match/MineSheet.cs",
-"at": "2026-11-20 02:45"
+"file": "UnityProject/Assets/InitTestScenec5dd0c80-6e3a-4456-bfbc-1e000cc0f6c9.unity.meta",
+"at": "2026-11-20 03:04"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/Match/MatchAudio.cs",
-"at": "2026-11-20 02:44"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/HeroMarks.cs",
-"at": "2026-11-20 02:43"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/SystemBar.cs",
-"at": "2026-11-20 02:43"
+"file": "UnityProject/Assets/InitTestScenec5dd0c80-6e3a-4456-bfbc-1e000cc0f6c9.unity",
+"at": "2026-11-20 03:04"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-20 02:28"
+"at": "2026-11-20 03:04"
 },
 {
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-20 00:45"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_ingame_evolve_locked_safe_1080x2400.png",
+"at": "2026-11-20 03:03"
 },
 {
-"file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
-"at": "2026-11-20 00:02"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_ingame_evolve_locked_1080x1920.png",
+"at": "2026-11-20 03:03"
+},
+{
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_ingame_evolve_locked_popup_safe_1080x2400.png",
+"at": "2026-11-20 03:03"
+},
+{
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_ingame_evolve_locked_popup_1080x1920.png",
+"at": "2026-11-20 03:03"
 }
 ],
-"lastEdit": "2026-11-20 02:47",
-"lastEditTs": 1795110455.73315,
+"lastEdit": "2026-11-20 03:08",
+"lastEditTs": 1795111726.0989997,
 "lastCommitTs": 1795110074,
 "unpushed": 30,
 "notInMain": 7,
@@ -4920,7 +4920,7 @@
 "id": "CD-0034",
 "title": "재화 개편: 인게임 차원석·광산·리롤·처치 골드 본인 · 아웃게임 레벨 50 은화·초월 균열석 · 영웅 창 스탯",
 "branch": "cd34",
-"updated": "2026-11-20 02:40",
+"updated": "2026-11-20 03:08",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11450,7 +11450,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 02:47",
-"generatedAt": "2026-11-20 02:47",
-"digest": "97ec93bf244e9131"
+"sourceAt": "2026-11-20 03:08",
+"generatedAt": "2026-11-20 03:17",
+"digest": "087032e005cd7f9e"
 }
