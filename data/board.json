@@ -1011,8 +1011,8 @@
 "id": "M6-21",
 "team": "art",
 "title": "새 맵 gate_03 바닥 본 그림(지금은 코드 임시 바닥 FieldFloor)",
-"status": "todo",
-"note": "CD-0028 L13 → CD-0030(결정 0059: 목책 진지 데크·목책·망루, Codex 본 그림, 판 8×12/8×9)에서 함께 함"
+"status": "done",
+"note": "CD-0030(결정 0059): 판 8×12/8×9 «목책 관문», 목책 진지 데크·테두리·목책·기둥·망루 Codex 본 그림 5장, 영웅 1단계 = 칸 85%(5단계 전설 127%), 웨이브 재조정. QA PASS. 사람 플레이·실기기 대기"
 },
 {
 "id": "M6-22",
@@ -1127,7 +1127,7 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-19 23:53",
+"at": "2026-11-20 00:22",
 "branch": "cd30",
 "dirty": false
 },
@@ -1576,8 +1576,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0030",
-"head": "bcb4fcb",
+"head": "96e8a79",
 "commits": [
+{
+"sha": "96e8a79",
+"at": "2026-11-20 00:23",
+"ts": 1795101801,
+"msg": "CD-0030 마감: QA PASS · 게이트 qa·close · 병합 뒤 시뮬 재측정(값 같음) · 개발일지 · 마일스톤 M6-21 done · checks.json"
+},
 {
 "sha": "bcb4fcb",
 "at": "2026-11-19 23:56",
@@ -1607,31 +1613,13 @@
 "at": "2026-11-19 07:40",
 "ts": 1795041607,
 "msg": "Merge rel-070 (cd32 전설 · cd33 일괄 합성) into cd30 (CD-0030)"
-},
-{
-"sha": "5eb8881",
-"at": "2026-11-19 07:37",
-"ts": 1795041433,
-"msg": "Merge cd32 (전설 그림 8장 확정 기록) into rel-070"
 }
 ],
-"dirtyCount": 16,
+"dirtyCount": 13,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene4fb2e5ae-4cf5-4a3c-b343-658e00174062.unity.meta",
-"at": "2026-11-19 23:59"
-},
-{
-"file": "UnityProject/Assets/InitTestScene4fb2e5ae-4cf5-4a3c-b343-658e00174062.unity",
-"at": "2026-11-19 23:59"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-19 23:59"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-19 23:59"
+"at": "2026-11-20 00:18"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
@@ -1648,14 +1636,26 @@
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
 "at": "2026-11-19 08:05"
+},
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
+"at": "2026-11-19 01:28"
+},
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Schemas/Art_BundledAssetGroupSchema.asset",
+"at": "2026-11-19 01:28"
+},
+{
+"file": "studio/orders/CD-0030-판-8x12-2인-기준-1인-8x9-목책-진지-소환-지/_sim/c1_coop2_focus/runs.jsonl",
+"at": "2026-11-19 01:03"
 }
 ],
-"lastEdit": "2026-11-19 23:59",
-"lastEditTs": 1795100376.714467,
-"lastCommitTs": 1795100175,
-"unpushed": 18,
-"notInMain": 4,
-"today": 0
+"lastEdit": "2026-11-20 00:18",
+"lastEditTs": 1795101535.5189886,
+"lastCommitTs": 1795101801,
+"unpushed": 19,
+"notInMain": 5,
+"today": 1
 },
 {
 "branch": "cd32",
@@ -1864,43 +1864,43 @@
 "msg": "CD-0035 현황 사이트 다시 만들기(커밋 뒤 board, 게시 버전 32)"
 }
 ],
-"dirtyCount": 37,
+"dirtyCount": 87,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/App/AutoTour.cs",
-"at": "2026-11-20 00:17"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-20 00:47"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/LobbyWidgets.cs",
-"at": "2026-11-20 00:17"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_legend_zone_open_1080x2400.png",
+"at": "2026-11-20 00:47"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
-"at": "2026-11-20 00:17"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_legend_zone_open.png",
+"at": "2026-11-20 00:47"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/LobbyData.cs",
-"at": "2026-11-20 00:17"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_legend_detail_waldemar_max_1080x2400.png",
+"at": "2026-11-20 00:47"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/AchievementScreen.cs",
-"at": "2026-11-20 00:17"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_legend_detail_waldemar_max.png",
+"at": "2026-11-20 00:47"
 },
 {
-"file": "UnityProject/Assets/_Game/App/GameApp.cs",
-"at": "2026-11-20 00:17"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_legend_detail_gerhard_3_1080x2400.png",
+"at": "2026-11-20 00:47"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/CurrencyChip.cs",
-"at": "2026-11-20 00:17"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_legend_detail_gerhard_3.png",
+"at": "2026-11-20 00:47"
 },
 {
-"file": "tools/canon_lint.py",
-"at": "2026-11-20 00:17"
+"file": "studio/orders/CD-0034-재화-개편-인게임-차원석-광산-리롤-처치-골드-본인-아/_shots/cd34_legend_detail_waldemar_after_1080x2400.png",
+"at": "2026-11-20 00:47"
 }
 ],
-"lastEdit": "2026-11-20 00:17",
-"lastEditTs": 1795101441.6289437,
+"lastEdit": "2026-11-20 00:47",
+"lastEditTs": 1795103250.006458,
 "lastCommitTs": 1795100351,
 "unpushed": 16,
 "notInMain": 3,
@@ -1909,19 +1909,19 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 15,
+"commits": 16,
 "byOrder": [
 [
 "CD-0034",
 4
 ],
 [
-"CD-0036",
+"CD-0030",
 3
 ],
 [
-"CD-0030",
-2
+"CD-0036",
+3
 ],
 [
 "CD-0035",
@@ -1941,6 +1941,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "96e8a79",
+"at": "2026-11-20 00:23",
+"msg": "CD-0030 마감: QA PASS · 게이트 qa·close · 병합 뒤 시뮬 재측정(값 같음) · 개발일지 · 마일스톤 M6-21 done · checks.json"
+},
 {
 "sha": "12d58a6",
 "at": "2026-11-20 00:06",
@@ -1985,11 +1990,6 @@
 "sha": "1795a5e",
 "at": "2026-11-19 07:35",
 "msg": "CD-0035 판 밖 피드백 13건: 로비 정리·화면 머리 원칙·뽑기 노점·업적/미션 받기 하나 = 전부·상점 한 페이지·젬스톤 구매 창 (결정 0062)"
-},
-{
-"sha": "68a80c5",
-"at": "2026-11-19 07:35",
-"msg": "CD-0030 판 8×12(2인)·8×9(1인) · 목책 진지 소환 지형 · 영웅 칸의 85% (결정 0059)"
 }
 ]
 },
@@ -4491,7 +4491,7 @@
 "id": "CD-0030",
 "title": "판 8×12(2인 기준)·1인 8×9 · 목책 진지 소환 지형(Codex 본 그림) · 영웅 칸의 85%",
 "branch": "cd30",
-"updated": "2026-11-19 23:53",
+"updated": "2026-11-20 00:23",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -4499,17 +4499,19 @@
 "21-core.md",
 "22-art.md",
 "23-client.md",
+"30-qa.md",
+"90-close.md",
 "_plan",
 "_qa",
 "_sim"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "완료",
 "route": "full",
 "risk": "high",
 "teams": "planning, core, client, art",
 "opened": "2026-11-18",
-"closed": "",
+"closed": "2026-11-20",
 "goal": "<ol>\n<li><strong>판 폭 8칸.</strong> 2인 판 8×12, 1인 판 8×9. 사람당 소환 칸 24(<code>maxUnits</code> 24)는 그대로.\n</li>\n<li>8칸에 맞는 <strong>새 배치</strong>를 만든다: 소환 칸 덩어리 넷이 길 사이에 놓인 «진지» 다. 2인에서 «나» 는 늘 아래다(위아래 거울).\n</li>\n<li>소환 자리를 <strong>«목책 진지»</strong> 지형으로 보이게 한다: 나무 데크 바닥, 목책, 망루 기둥, 망루. 칸마다 붙던 판·테두리·홈·받침돌(CD-0028 §8, CD-0029)은 없앤다. 칸은 데크 판자 이음새 정도로만 보인다.\n</li>\n<li>영웅 1단계 몸을 <strong>칸의 85%</strong> 로 줄이고, 단계마다 조금씩 키운다(4단계도 칸을 크게 넘지 않음).\n</li>\n<li>지형 그림은 <strong>Codex 본 그림 5장</strong>이다(cd-art 절차·장부). 임시 그림으로 먼저 맞추지 않는다.\n</li>\n<li>웨이브를 새 길 길이에 다시 맞춘다(CD-0028 과 같은 봇 승률 띠).\n</li></ol>",
 "goalShort": "1.",
 "tasks": [
@@ -4520,7 +4522,7 @@
 "title": "이 기획서, 근거",
 "output": "10-spec.md, 20-planning.md",
 "status": "done",
-"why": "보고서 있음: 20-planning.md"
+"why": "주문 마감"
 },
 {
 "id": "P2",
@@ -4529,7 +4531,7 @@
 "title": "maps.json(§3-1 그대로, 이름 «목책 관문» 대표 초안 표시, viewFort, _note), assets.json 다섯 줄(state none), validate_data.py(§3-2), test_validate_maps.py(깨뜨린 사본 셋 추가), docs/11-규칙.md §1·§9(8칸·큰길·장식 칸)·docs/10·12 의 맵 이름과 규격, sync_data.py",
 "output": "Data·도구·docs, 20-planning.md 에 «P2» 절",
 "status": "done",
-"why": "보고서 있음: 20-planning.md"
+"why": "주문 마감"
 },
 {
 "id": "A1",
@@ -4538,7 +4540,7 @@
 "title": "§7 다섯 장: 지시문을 art/ingame/gen.py 키로 넣고 map 세션을 이어 그림(부르기 전 budget), 맞춤(build.py), check.py·accept.py 에 map 종류, art/final/map/fort/, 유니티 반입, 장부 5줄·manifest·assets.json 상태 draft, 대조 그림, Lab 측정(§6-4)",
 "output": "art/, Assets/_Game/Art/Final/map/fort/, studio/assets-ledger.csv, studio/art-manifest.json, _qa/fort_sheet.png, 22-art.md",
 "status": "done",
-"why": "보고서 있음: 22-art.md"
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -4547,7 +4549,7 @@
 "title": "(P2 뒤) 8칸 배치를 읽는 Core 시험으로 고침: Cd0028MapTests(7×8·7×11·7×5·35칸 → 8×9·8×12·8×5·40칸, 거울), BountyQueryTests(cols 7), 그 밖에 7칸을 가정한 시험. 큰길 시험 새로: 2인에서 몬스터가 (750,600)→(50,600) 을 지나 관문에서 목숨을 깎는다, 앞줄 칸(영역 행 0)의 PathLengthInRange 가 인간(170) > 0·수인(130) 의 큰길 몫 = 0. 재생 기준값(BaselineReplayTests 등)은 다시 기록하고 줄마다 이유를 보고서에. 시뮬레이터 1인·2인 210판이 끝까지 돎. Core 설정 검사에 «큰길 두 줄 칸에 소환 칸 없음» 을 더할지는 core 가 정함(validator 가 막음)",
 "output": "Core/, tools/sim/, 21-core.md",
 "status": "done",
-"why": "보고서 있음: 21-core.md"
+"why": "주문 마감"
 },
 {
 "id": "K1",
@@ -4556,7 +4558,7 @@
 "title": "(§9 뒤, 줄기 cd30) 판 크기와 영웅: MaxCellPx 1080/8, MinCellPx 112, SideMarginCells 0, 설명 주석. UnitBase 95.5(§5). BuildPaths 큰길 폭 2배(y 가 100 의 배수인 가로 토막). 영역 안 장식 칸 = 망루 자리(IsDecorationCell 은 영역 밖만 봄 — 영역 안 «소환도 길도 아닌 칸» 을 따로 셈). 바뀐 규칙의 시험 기대값: Cd28BoardTests K1_10(§4 표의 값), MatchControlTests.LayoutFollowsTheWireframeBands(8칸·여백 0), 영웅 상자 시험",
 "output": "UnityProject/Assets/_Game/View/, Assets/Tests/, 23-client.md",
 "status": "done",
-"why": "보고서 있음: 23-client.md"
+"why": "주문 마감"
 },
 {
 "id": "K2",
@@ -4565,7 +4567,7 @@
 "title": "(A1 뒤) 목책 진지 바닥 §6: CD-0028 판·테두리(BuildBlocks)·CD-0029 홈·받침돌(Socket/Tile, 동료 칸 바닥) 지우고 데크·테두리·목책·기둥·망루를 viewFort 이름표로. 동료 색조. 그림 가져오기 설정(Editor/TempArtPostprocessor.cs: map/fort/deck wrap Repeat, rim 9-slice 테두리). 그림이 없으면 데크 없이 그리고 오류 없음. Cd29FloorTests 를 새 시험(Cd30FortTests)으로 대신. 캡처 6장·대조표·craft-game-floors 감사",
 "output": "_Game/View/, _Game/Editor/, Assets/Tests/, _qa/, 23-client.md",
 "status": "done",
-"why": "보고서 있음: 23-client.md"
+"why": "주문 마감"
 },
 {
 "id": "P3",
@@ -4574,7 +4576,7 @@
 "title": "(C1 뒤) §8 웨이브 재조정",
 "output": "Data/waves.json, docs/11 §6, _sim/, 20-planning.md",
 "status": "done",
-"why": "보고서 있음: 20-planning.md"
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -4583,7 +4585,7 @@
 "title": "(P3 뒤) 균형 고정 시험(Cd0016BalanceTests·BalanceTests·StageTests)을 P3 숫자 표와 대조. 숫자를 바꾸면 옛 값·새 값·근거",
 "output": "Core/tests/, 21-core.md",
 "status": "done",
-"why": "보고서 있음: 21-core.md"
+"why": "주문 마감"
 }
 ]
 },
@@ -4859,7 +4861,7 @@
 "id": "CD-0034",
 "title": "재화 개편: 인게임 차원석·광산·리롤·처치 골드 본인 · 아웃게임 레벨 50 은화·초월 균열석 · 영웅 창 스탯",
 "branch": "cd34",
-"updated": "2026-11-20 00:06",
+"updated": "2026-11-20 00:47",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -4869,6 +4871,7 @@
 "23-art-stone-vs-rift.png",
 "23-art.md",
 "_draft",
+"_shots",
 "_sim"
 ],
 "milestone": "M3",
@@ -10960,6 +10963,13 @@
 },
 "devlog": [
 {
+"file": "2026-11-20.md",
+"title": "2026-11-20",
+"html": "<h3>CD-0030 — 판 8×12(2인)·8×9(1인) · 목책 진지 소환 지형 · 영웅 칸의 85%(결정 0059)</h3>\n<ul>\n<li>11-18 에 주문·기획서·spec 게이트까지만 하고 멈춰 있던 것을 이어서 했다(11-19~20). 구현 줄기 <code>cd30</code>(<code>.worktrees/cd30</code>) — main 체크아웃에 CD-0035 가 커밋 전이라 따로 뗐다.\n</li>\n<li>맵 <code>gate_03</code> «목책 관문»(id 그대로, 저장 이전 없음): 3×2 진지 넷 + 망루 자리 넷, 2인 가운데 2칸 폭 큰길(12줄 거울의 축이 칸 경계라서). 검사기에 큰길·장식 칸 규칙.\n</li>\n<li>바닥: 판·«+»·홈·받침돌을 지우고 Codex 본 그림 5장(데크·테두리·목책·기둥·망루, 7회 호출)으로 진지를 그린다. 빈 칸 = 맨 데크, 표시 없음.\n</li>\n<li>칸 135px(16:9 2인 115px), 영웅 1단계 = 칸 85%. 병합으로 들어온 전설은 5단계 127%(4단계 × 112% 는 새 칸에서 0.2칸 넘쳐서).\n</li>\n<li>웨이브: 길이 길어졌는데 오히려 어려워져(보통 simple 53.3 → 36.7%) 6~20웨이브 배율을 내림(보통 ×1.90 · 어려움 ×2.00 · 정예 ×1.75) → 보통 simple 50.0% · focus 96.7%.\n</li>\n<li>정예 육성 시험: 20판 표본 잡음(15/20) → 결정 0055 방식 60판(39/60 = 65%). 같은 줄의 «한 웨이브 ≤ 절반» 이 19웨이브 57% 로 걸려 사용자 결정으로 이 줄만 60%(CD-0036 에서 다시 봄).\n</li>\n<li>배포 관제 지시로 rel-070(cd32 전설 · cd33 일괄 합성)과 main 8e9f1df(CD-0035)를 cd30 에 합침. 충돌 6개(그림 검사 규칙·목록·장부·Codex 기록·효과음 시험·칸 번호). 병합 뒤 시뮬 재측정 — 값 같음.\n</li></ul>\n<h4>CD-0030 검사</h4>\n<ul>\n<li>HEAD bcb4fcb: <code>check --unity</code> Core 459/459 · 데이터·그림 89장·설정 오류 0 · EditMode 172/172. PlayMode 200 중 158 통과 · 실패 0 · 건너뜀 42. QA PASS.\n</li>\n<li>사람 플레이·실기기 안 함. main 병합·버전·배포는 배포 관제(0.7.0 에 묶음).\n</li>\n<li>남은 일: 2인 보통 84.3%(인원별 배수), 정예 19웨이브 몰림, 망루 기둥이 작음, 16:9 2인에서 [일괄 합성] 버튼이 맨 아랫줄 오른쪽 칸을 덮음(결정 0061 — 사용자 확인 필요). 주문 <code>90-close.md</code>.\n</li></ul>",
+"at": "2026-11-20 00:23",
+"branch": "cd30"
+},
+{
 "file": "2026-11-19.md",
 "title": "2026-11-19",
 "html": "<h3>CD-0032 — 전설(5단계): 4단계 하나 + 골드로 갈래 진화 · 액티브 스킬 · 등장 연출 · 인간 2명 먼저(결정 0060)</h3>\n<ul>\n<li>사용자(11-18): «5단계 추가 … 전설등급은 액티브 스킬 1개 … 레오폴드에서 2~3개 종류로 진화 … 선택해서 인게임 재화를 소모 … 동일한 종류의 전설은 2개 이상 존재할 수 없어 … 소환에 성공할 때 일러스트와 함께 알림 … 공격 모션이나 FX 고퀄리티로». 답 넷 다 대표 추천안: 4단계 1명 + 골드 · 내 영역 기준 · 인간 2종 먼저 고퀄 · 조건 채우면 자동. 이름 «발데마르 · 게르하르트».\n</li>\n<li>대표가 짚은 것(반대 없음): 속성 금지(0012) 그대로 → 전설 FX 는 검기·충격파·문양 진·흔들림·멈칫. 화면에 «전설» 글자 없음(0049).\n</li>\n<li>다른 세션의 CD-0030(판 8×12)이 같은 화면 파일을 고칠 예정이라 worktree <code>.worktrees/cd32</code>(줄기 <code>cd32</code>). <code>BoardView</code> 는 partial 로 나누고 본 파일엔 훅 몇 줄만 넣었다(병합 충돌을 줄이려고).\n</li>\n<li>Core: <code>legends.json</code>, <code>evolve</code> 명령·거절 10가지, 스킬(조건 attacks·crowd / 효과 line·nova), 멈춤, 스냅샷 꼬리표. 전설 없는 판의 해시는 그대로.\n</li>\n<li>밸런스: 처음 짠 봇(진화 비용을 모을 때까지 소환·강화를 멈춤)은 오히려 어려움 71→53%·정예 45→17% 로 떨어졌다 — 모아 두기가 손해. 모아 두지 않는 봇으로 다섯 안을 재서 비용 300·발데마르 16000/500%·게르하르트 14000/300% → 어려움 77.1%·정예 50.0%, 첫 진화 웨이브 12. 진화 안 쓰는 봇은 그대로.\n</li>\n<li>그림: 원래 Codex 세션(본 체크아웃 폴더 — <code>resume --last</code> 가 폴더별)에서 일러스트 2 + 포즈 6, 재시도 0. Codex 가 포즈마다 캔버스를 꽉 채워 몸 크기가 달라서, 포즈 셋을 640×640·발 620 에 «몸 크기 표»로 함께 맞췄다(게르하르트가 방패를 머리 위로 드는 포즈가 512 에 안 들어감). draft.\n</li>\n<li>화면: 4단계 칸 팝업의 «진화» 키 → 진화 시트(갈래 카드 → 고르고 한 번 더) → 판 위 금 기둥·충격파 → 등장 연출(어두움·도는 금빛 방사선·금 이중 틀 일러스트·이름판·스킬 이름·금 알갱이, 누르면 넘김) → 판 위 전설(도는 왕실 문양·이중 금 고리·왕관 표식·스킬 게이지·포즈 3장). 스킬: 발데마르 초승달 검기 4겹 잔상 + 땅 자국, 게르하르트 충격파 3겹 + 흙먼지 + 균열 + 멈춤 표식. 스킬 피해 숫자·처치는 준비 동작(0.2초) 뒤 타격에 맞춰 뜬다.\n</li>\n<li>확인·남은 것: 아래 «CD-0032 검사» 와 주문 <code>90-close.md</code>.\n</li></ul>\n<h4>CD-0032 검사</h4>\n<ul>\n<li>Core 429/429 · 데이터 · 그림 82장(오류·경고 0) · 설정 · EditMode 163/163(<code>check --unity</code> 통과) · PlayMode 전설 2/2 · QA FAIL(정예 +4.8%p &lt; 띠 5, 문서 규격 1) → 다시 재 보니 피해를 올려도 오차 안(49.0%) → 이 주문 기준을 «+3%p 이상» 으로 적고 재검수 PASS(다음 주문에서 원래 띠로 다시 잰다는 조건).\n</li>\n<li>PlayMode 전체 166: 통과 130 · 건너뜀 34 · 실패 2(그래픽 «낮음» 설정이 앞 테스트에서 새는 순서 문제 — 단독·전설 테스트와 함께는 통과, 원인 테스트 못 찾음, main 대조 안 함).\n</li>\n<li>함께 고친 것: EditMode 버전 테스트가 0.6.1 을 기대(앱 0.6.2 커밋이 안 고침, main 에서도 실패하던 것).\n</li>\n<li>사람 플레이 안 함. 그림 draft(사용자 확정 전). 전용 효과음 없음. 병합·푸시·버전·배포는 배포 관제 세션이 한다(사용자 지시, CD-0032~0036 묶어 0.7.0).\n</li></ul>\n<ul>\n<li>CD-0032 그림 8장(전설 일러스트 2 + 포즈 6) 사용자 확정(«확정해») → 목록 상태 confirmed, docs/12 §1-1 · docs/15 · 결정 0060 10번.\n</li></ul>\n<h3>CD-0035 판 밖 피드백 13건 (결정 0062)</h3>\n<ul>\n<li>사용자 피드백 13건(행동력 MAX·아이콘 테두리·미션 레드닷/COMPLETE·우편 레드닷·타이틀 반짝임·입구 글자·[출전]·화면 머리·쿠지 → 뽑기 노점·업적·상점 한 장·젬스톤 구매 창·«구매»). 사용자 답 8개(쿠지 티켓 이름 유지 · A상 글자 · 마지막 상 없음 · 일일 상점 젬스톤 새로고침 계단 10·10·10·80·80·80 하루 6번 · 상품 은화/젬스톤 값 · 원화 티켓 묶음·교환 삭제 · 미션 창도 받기 하나 = 전부 · 티켓 값 상승 받아들임).\n</li>\n<li>번호: 처음 CD-0032/결정 0060 으로 열었으나 다른 세션(cd32 «전설 5단계»)과 겹쳐 CD-0035/0062 로 옮김.\n</li>\n<li>판 밖 화면 원칙(좌상단 메뉴명 없음 · 우상단엔 그 탭 재화만 · 아이콘이면 글자 빼기 · 레드닷 · 딤드 + COMPLETE · 같은 정보 두 번 금지)을 결정 0062 · <code>docs/03</code> §10 · <code>cd-canon</code> 에 남김.\n</li>\n<li>Core <code>DailyShop</code> 신설·<code>SilverShop</code> 삭제, 저장 v10 → v11(<code>dailyShop</code>), Codex 아이콘 2장(쿠지 티켓·연합의 결정).\n</li>\n<li>확인: check --unity(Core 425/425 · 데이터·그림 76장·설정 오류 0 · EditMode 167/168), PlayMode 전체 170/175(관련 묶음 전부 통과), 감사 6축 3 이상, QA PASS. 무관 실패 3건(앱 버전 시험 0.6.1 기대, 효과음 = 이 PC PlayerPrefs 소리 꺼짐, <code>Cd16FieldTests</code> 캡처 = CD-0033 방향)은 <code>90-close.md</code> 에.\n</li>\n<li>사람 플레이·실기기 안 함. 배포는 배포 관제 세션이 CD-0032~0036 을 모아 0.7.0 으로.\n</li></ul>",
@@ -11253,7 +11263,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 00:17",
-"generatedAt": "2026-11-20 00:17",
-"digest": "adccab947a7e752b"
+"sourceAt": "2026-11-20 00:47",
+"generatedAt": "2026-11-20 00:47",
+"digest": "efc89fc006239324"
 }
