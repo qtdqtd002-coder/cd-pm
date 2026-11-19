@@ -1193,8 +1193,14 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0028",
-"head": "8e9f1df",
+"head": "7204540",
 "commits": [
+{
+"sha": "7204540",
+"at": "2026-11-19 23:10",
+"ts": 1795097457,
+"msg": "CD-0036 기획서 확정: 사용자 답 4개 반영(행동력 모든 스테이지 5·1-1 0 · 환영 선물 티켓30/젬300/은화5천 · 보스 웨이브 보스만 · 1-1 말풍선 한 줄씩·건너뛰기 없음) · gate spec 통과 → 제작(구현은 CD-0034 병합 뒤)"
+},
 {
 "sha": "8e9f1df",
 "at": "2026-11-19 07:41",
@@ -1224,16 +1230,14 @@
 "at": "2026-11-19 07:35",
 "ts": 1795041354,
 "msg": "CD-0035 판 밖 피드백 13건: 로비 정리·화면 머리 원칙·뽑기 노점·업적/미션 받기 하나 = 전부·상점 한 페이지·젬스톤 구매 창 (결정 0062)"
-},
-{
-"sha": "0d81d0c",
-"at": "2026-11-19 07:34",
-"ts": 1795041293,
-"msg": "CD-0034 주문 열림·기획서: 재화 개편 (인게임 차원석·광산·교체·처치 골드 본인 · 아웃게임 레벨 50 중복+은화·전설 초월 균열석·영웅 창) · 결정 0063 초안 · 측정 _sim"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 5,
 "dirty": [
+{
+"file": "StageTests.bak",
+"at": "2026-11-19 08:23"
+},
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
 "at": "2026-11-19 03:00"
@@ -1251,12 +1255,12 @@
 "at": "2026-11-19 00:31"
 }
 ],
-"lastEdit": "2026-11-19 03:00",
-"lastEditTs": 1795024806.7811253,
-"lastCommitTs": 1795041668,
-"unpushed": 13,
+"lastEdit": "2026-11-19 08:23",
+"lastEditTs": 1795044187.906919,
+"lastCommitTs": 1795097457,
+"unpushed": 14,
 "notInMain": 0,
-"today": 12
+"today": 13
 },
 {
 "branch": "rel-052",
@@ -1330,7 +1334,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0024",
+"order": "CD-0025",
 "head": "e145fe8",
 "commits": [
 {
@@ -1611,8 +1615,28 @@
 "msg": "Merge cd32 (CD-0032 전설 5단계) into rel-070"
 }
 ],
-"dirtyCount": 25,
+"dirtyCount": 29,
 "dirty": [
+{
+"file": "UnityProject/Assets/InitTestScenedb4306e0-0c68-4b7d-88ff-8c37f18575a9.unity.meta",
+"at": "2026-11-19 23:33"
+},
+{
+"file": "UnityProject/Assets/InitTestScenedb4306e0-0c68-4b7d-88ff-8c37f18575a9.unity",
+"at": "2026-11-19 23:33"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-19 23:32"
+},
+{
+"file": "studio/orders/CD-0030-판-8x12-2인-기준-1인-8x9-목책-진지-소환-지/21-core.md",
+"at": "2026-11-19 23:13"
+},
+{
+"file": "Core/tests/StageTests.cs",
+"at": "2026-11-19 23:11"
+},
 {
 "file": "UnityProject/Assets/InitTestScenee621b06c-a100-47c2-8a27-a219283b6d67.unity.meta",
 "at": "2026-11-19 08:11"
@@ -1624,30 +1648,10 @@
 {
 "file": "studio/orders/CD-0030-판-8x12-2인-기준-1인-8x9-목책-진지-소환-지/_qa/k3_sheet.png",
 "at": "2026-11-19 08:11"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-19 08:11"
-},
-{
-"file": "studio/orders/CD-0030-판-8x12-2인-기준-1인-8x9-목책-진지-소환-지/_qa/shots/k3_marks_duo_p0_safe_1080x2400.png",
-"at": "2026-11-19 08:10"
-},
-{
-"file": "studio/orders/CD-0030-판-8x12-2인-기준-1인-8x9-목책-진지-소환-지/_qa/shots/k3_marks_duo_p0_1080x1920.png",
-"at": "2026-11-19 08:10"
-},
-{
-"file": "studio/orders/CD-0030-판-8x12-2인-기준-1인-8x9-목책-진지-소환-지/_qa/shots/k3_legend_duo_p0_safe_1080x2400.png",
-"at": "2026-11-19 08:10"
-},
-{
-"file": "studio/orders/CD-0030-판-8x12-2인-기준-1인-8x9-목책-진지-소환-지/_qa/shots/k3_legend_duo_p0_1080x1920.png",
-"at": "2026-11-19 08:10"
 }
 ],
-"lastEdit": "2026-11-19 08:11",
-"lastEditTs": 1795043489.0295005,
+"lastEdit": "2026-11-19 23:33",
+"lastEditTs": 1795098807.1043692,
 "lastCommitTs": 1795041607,
 "unpushed": 9,
 "notInMain": 2,
@@ -1860,43 +1864,43 @@
 "msg": "CD-0034 주문 열림·기획서: 재화 개편 (인게임 차원석·광산·교체·처치 골드 본인 · 아웃게임 레벨 50 중복+은화·전설 초월 균열석·영웅 창) · 결정 0063 초안 · 측정 _sim"
 }
 ],
-"dirtyCount": 136,
+"dirtyCount": 284,
 "dirty": [
 {
-"file": "Core/tests/GridTests.cs",
-"at": "2026-11-19 08:17"
+"file": "UnityProject/Assets/Tests/EditMode/Cd34SaveEditModeTests.cs",
+"at": "2026-11-19 23:34"
 },
 {
-"file": "Core/tests/StageTests.cs",
-"at": "2026-11-19 08:17"
+"file": "UnityProject/Assets/Tests/EditMode/OutgameMetaEditModeTests.cs",
+"at": "2026-11-19 23:33"
 },
 {
-"file": "Core/tests/ResumeSnapshotTests.cs",
-"at": "2026-11-19 08:17"
+"file": "UnityProject/Assets/Tests/PlayMode/OutgameMetaFlowTests.cs",
+"at": "2026-11-19 23:33"
 },
 {
-"file": "Core/tests/GrowthUpgradeTests.cs",
-"at": "2026-11-19 08:17"
+"file": "UnityProject/Assets/Tests/PlayMode/OutgameStage2FlowTests.cs",
+"at": "2026-11-19 23:33"
 },
 {
-"file": "Core/tests/Cd0016BalanceTests.cs",
-"at": "2026-11-19 08:16"
+"file": "UnityProject/Assets/Tests/PlayMode/OutgameServiceFlowTests.cs",
+"at": "2026-11-19 23:33"
 },
 {
-"file": "Core/tests/BalanceTests.cs",
-"at": "2026-11-19 08:16"
+"file": "UnityProject/Assets/Tests/PlayMode/OutgameAudit2FlowTests.cs",
+"at": "2026-11-19 23:33"
 },
 {
-"file": "Core/tests/WeightedTableTests.cs",
-"at": "2026-11-19 08:16"
+"file": "UnityProject/Assets/Tests/PlayMode/FlowTests.cs",
+"at": "2026-11-19 23:33"
 },
 {
-"file": "Core/tests/WaveEconomyTests.cs",
-"at": "2026-11-19 08:16"
+"file": "UnityProject/Assets/Tests/PlayMode/MatchControlTests.cs",
+"at": "2026-11-19 23:33"
 }
 ],
-"lastEdit": "2026-11-19 08:17",
-"lastEditTs": 1795043850.7626643,
+"lastEdit": "2026-11-19 23:34",
+"lastEditTs": 1795098855.8354485,
 "lastCommitTs": 1795041668,
 "unpushed": 13,
 "notInMain": 0,
@@ -1905,19 +1909,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 20,
+"commits": 11,
 "byOrder": [
 [
-"기타",
-3
-],
-[
-"CD-0029",
-3
-],
-[
-"CD-0031",
-3
+"CD-0036",
+2
 ],
 [
 "CD-0035",
@@ -1932,10 +1928,6 @@
 2
 ],
 [
-"CD-0028",
-2
-],
-[
 "CD-0030",
 1
 ],
@@ -1944,11 +1936,16 @@
 1
 ],
 [
-"CD-0036",
+"기타",
 1
 ]
 ],
 "latest": [
+{
+"sha": "7204540",
+"at": "2026-11-19 23:10",
+"msg": "CD-0036 기획서 확정: 사용자 답 4개 반영(행동력 모든 스테이지 5·1-1 0 · 환영 선물 티켓30/젬300/은화5천 · 보스 웨이브 보스만 · 1-1 말풍선 한 줄씩·건너뛰기 없음) · gate spec 통과 → 제작(구현은 CD-0034 병합 뒤)"
+},
 {
 "sha": "46ccb32",
 "at": "2026-11-19 07:37",
@@ -1993,11 +1990,6 @@
 "sha": "2954822",
 "at": "2026-11-19 00:58",
 "msg": "CD-0036 주문 열림·기획서: 튜토리얼과 초반 동선 (튜토리얼 맵 10스테이지·맵 2·해금 표·환영 선물·계정 초기화) · 결정 0064 초안 · 측정 _sim · 테스터 공지 초안"
-},
-{
-"sha": "faf91b9",
-"at": "2026-11-18 23:53",
-"msg": "CD-0033 주문 열림: 판 안 소환 팝업 없애기 · 합성 가능 표식 · 일괄 합성 버튼 (사용자 답 4문항)"
 }
 ]
 },
@@ -4499,7 +4491,7 @@
 "id": "CD-0030",
 "title": "판 8×12(2인 기준)·1인 8×9 · 목책 진지 소환 지형(Codex 본 그림) · 영웅 칸의 85%",
 "branch": "cd30",
-"updated": "2026-11-19 08:07",
+"updated": "2026-11-19 23:13",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -4867,7 +4859,7 @@
 "id": "CD-0034",
 "title": "재화 개편: 인게임 차원석·광산·리롤·처치 골드 본인 · 아웃게임 레벨 50 은화·초월 균열석 · 영웅 창 스탯",
 "branch": "cd34",
-"updated": "2026-11-19 08:07",
+"updated": "2026-11-19 23:09",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -5167,8 +5159,8 @@
 {
 "id": "CD-0036",
 "title": "튜토리얼과 초반 동선: 튜토리얼 맵 10스테이지·다음 맵·해금·환영 선물·계정 초기화",
-"branch": "cd34",
-"updated": "2026-11-19 07:46",
+"branch": "main",
+"updated": "2026-11-19 23:10",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -5178,7 +5170,7 @@
 "_sim"
 ],
 "milestone": "M2",
-"stage": "접수",
+"stage": "제작",
 "route": "full",
 "risk": "high",
 "teams": "planning, core, client, art",
@@ -9343,7 +9335,7 @@
 "group": "ui",
 "title": "아이콘: 연합의 결정",
 "brief": "CD-0034: 균열석(짙은 자주 틈 난 마름모). 이름표 그대로 파일만 교체",
-"status": "draft",
+"status": "confirmed",
 "address": "ui/icon_crystal",
 "hasFile": true
 },
@@ -9361,7 +9353,7 @@
 "group": "miner",
 "title": "광부 swing",
 "brief": "곡괭이 들기(대기). 짙은 갈색 머리·수염, 겨자색 모자+놋쇠 등, 석청 작업복, 등 광주리",
-"status": "draft",
+"status": "confirmed",
 "address": "unit/miner/swing",
 "hasFile": true
 },
@@ -9370,7 +9362,7 @@
 "group": "miner",
 "title": "광부 strike",
 "brief": "곡괭이 내리치기",
-"status": "draft",
+"status": "confirmed",
 "address": "unit/miner/strike",
 "hasFile": true
 },
@@ -9379,7 +9371,7 @@
 "group": "ui",
 "title": "아이콘: 차원석",
 "brief": "CD-0034: 차원석(청록 육각 기둥)",
-"status": "draft",
+"status": "confirmed",
 "address": "ui/icon_stone",
 "hasFile": true
 },
@@ -9388,7 +9380,7 @@
 "group": "ui",
 "title": "아이콘: 공격력(검)",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "ui/icon_stat_atk",
 "hasFile": true
 },
@@ -9397,7 +9389,7 @@
 "group": "ui",
 "title": "아이콘: 공격속도(겹친 화살촉)",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "ui/icon_stat_spd",
 "hasFile": true
 },
@@ -9406,7 +9398,7 @@
 "group": "ui",
 "title": "아이콘: 사거리(과녁)",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "ui/icon_stat_range",
 "hasFile": true
 },
@@ -9415,7 +9407,7 @@
 "group": "ui",
 "title": "아이콘: 광산 버튼",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "ui/icon_mine",
 "hasFile": true
 },
@@ -9424,12 +9416,12 @@
 "group": "ui",
 "title": "아이콘: 교체 버튼",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "ui/icon_reroll",
 "hasFile": true
 }
 ],
-"at": "2026-11-19 08:06",
+"at": "2026-11-19 23:08",
 "branch": "cd34",
 "dirty": true
 },
@@ -11261,7 +11253,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-19 08:17",
-"generatedAt": "2026-11-19 08:17",
-"digest": "56672c58f766cc93"
+"sourceAt": "2026-11-19 23:34",
+"generatedAt": "2026-11-19 23:33",
+"digest": "c3bb3b0c435a28d0"
 }
