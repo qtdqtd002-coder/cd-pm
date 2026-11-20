@@ -1374,7 +1374,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0025",
+"order": "CD-0024",
 "head": "e145fe8",
 "commits": [
 {
@@ -1681,7 +1681,7 @@
 "lane": "cd32",
 "session": "",
 "owns": "",
-"order": "CD-0031",
+"order": "CD-0029",
 "head": "3dd41bf",
 "commits": [
 {
@@ -1769,8 +1769,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0042",
-"head": "7be4f3b",
+"head": "0fb617a",
 "commits": [
+{
+"sha": "0fb617a",
+"at": "2026-11-21 02:20",
+"ts": 1795195227,
+"msg": "CD-0042 디자인 검수 2차 고침: 친구 삭제 확인 버튼 순서·이름, «가려진 말» 시스템 줄, 귓속말 대화 캡처, [초대] 개발 중 모양, 랭킹 다듬기 · Lv.200 세 자리 확인"
+},
 {
 "sha": "7be4f3b",
 "at": "2026-11-21 01:54",
@@ -1800,55 +1806,49 @@
 "at": "2026-11-20 23:57",
 "ts": 1795186656,
 "msg": "CD-0042 기획: 친구·채팅·랭킹 기획서(gate spec 통과) · 디자인 문서 · Data/social.json · 해금 줄 · 결정 0069 랭킹 보충"
-},
-{
-"sha": "8fe4cf1",
-"at": "2026-11-20 23:24",
-"ts": 1795184666,
-"msg": "결정 0069: 온라인 기능은 Unity 서비스로(친구·채팅·같이 하기·매칭) · Vivox·Safe Text 출시 전 대체 필수 · 현황 사이트 «출시 전 주의» 칸"
 }
 ],
-"dirtyCount": 105,
+"dirtyCount": 9,
 "dirty": [
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/21-client.md",
-"at": "2026-11-21 02:15"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-21 02:15"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-21 02:46"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 02:15"
+"at": "2026-11-21 02:46"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c2-10-settings_safe_1080x2400.png",
-"at": "2026-11-21 02:10"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_qa/craft-game-floors.md",
+"at": "2026-11-21 02:31"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c2-10-settings_1080x1920.png",
-"at": "2026-11-21 02:10"
+"file": "studio/checks.json",
+"at": "2026-11-21 02:25"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c3-11-ranking-offline_safe_1080x2400.png",
-"at": "2026-11-21 02:10"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/00-order.md",
+"at": "2026-11-21 01:54"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c3-11-ranking-offline_1080x1920.png",
-"at": "2026-11-21 02:10"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-21 00:40"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c3-09-ranking-as-of_safe_1080x2400.png",
-"at": "2026-11-21 02:10"
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-21 00:22"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-21 00:22"
 }
 ],
-"lastEdit": "2026-11-21 02:15",
-"lastEditTs": 1795194916.7478783,
-"lastCommitTs": 1795193643,
-"unpushed": 6,
-"notInMain": 6,
-"today": 4
+"lastEdit": "2026-11-21 02:46",
+"lastEditTs": 1795196781.2549675,
+"lastCommitTs": 1795195227,
+"unpushed": 7,
+"notInMain": 7,
+"today": 5
 },
 {
 "branch": "cd38",
@@ -1997,8 +1997,32 @@
 "session": "",
 "owns": "",
 "order": "CD-0039",
-"head": "7235603",
+"head": "a5d7114",
 "commits": [
+{
+"sha": "a5d7114",
+"at": "2026-11-21 02:43",
+"ts": 1795196605,
+"msg": "CD-0039 6차 보고서: PlayMode 전체(캡처 끔) 261건 실패 0"
+},
+{
+"sha": "d6027bc",
+"at": "2026-11-21 02:41",
+"ts": 1795196479,
+"msg": "CD-0039 6차 client 보고서(상태·측정표·수용 대조)"
+},
+{
+"sha": "8597bd8",
+"at": "2026-11-21 02:37",
+"ts": 1795196269,
+"msg": "CD-0039 6차 B: 타격 FX 가독성 — 남색 테두리·명중/처치 번쩍·꼬리 머리 점 · 켠/끈 차이 시험 · 맵 2 캡처"
+},
+{
+"sha": "755113f",
+"at": "2026-11-21 02:37",
+"ts": 1795196269,
+"msg": "CD-0039 6차 A: 맵 그림 묶음별 밝기·채도 표(Cd39Look.Table) — 맵 1 상한 · 묶음 캡처·사다리 시험 · 표 시험"
+},
 {
 "sha": "7235603",
 "at": "2026-11-21 02:04",
@@ -2010,73 +2034,49 @@
 "at": "2026-11-21 02:04",
 "ts": 1795194251,
 "msg": "CD-0039 R2 보완: CC0 효과 5장 assets.json 줄"
-},
-{
-"sha": "09dbaa7",
-"at": "2026-11-21 02:03",
-"ts": 1795194232,
-"msg": "CD-0040 원화 2차: 대각선 구도 · 종족 연합 대 그림자 무리 · 어두워지는 하늘 — 완성 장면 먼저, 같은 세션에서 거꾸로 덜어 낸 판으로 층 구성 (draft)"
-},
-{
-"sha": "726b6b1",
-"at": "2026-11-21 02:01",
-"ts": 1795194069,
-"msg": "CD-0039 목표선 조정 3(대표, 권장안): 모든 맵 밝기·채도 상한 · FX 가독성(밝은 심+짙은 테두리)·켠/끈 차이 측정 · 층 규칙 완화"
-},
-{
-"sha": "4c273af",
-"at": "2026-11-21 02:00",
-"ts": 1795194010,
-"msg": "CD-0039 5차 client 보고 + 캡처 c39_* 5장 · c10_* 4장 갱신"
-},
-{
-"sha": "a8c6730",
-"at": "2026-11-21 01:58",
-"ts": 1795193882,
-"msg": "CD-0039 5차: 보스 배너 — 밝은 글자·단색 남색 판·양 끝 붉은 띠"
 }
 ],
-"dirtyCount": 168,
+"dirtyCount": 158,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScenef9d63d2b-0d54-4e96-93c5-01e10f2737ad.unity.meta",
-"at": "2026-11-21 02:16"
+"file": "UnityProject/Assets/InitTestScene13c47dde-7fec-484e-b455-1e5573cec383.unity.meta",
+"at": "2026-11-21 02:43"
 },
 {
-"file": "UnityProject/Assets/InitTestScenef9d63d2b-0d54-4e96-93c5-01e10f2737ad.unity",
-"at": "2026-11-21 02:16"
-},
-{
-"file": "UnityProject/Assets/_Game/View/Cd39Fx.cs",
-"at": "2026-11-21 02:16"
+"file": "UnityProject/Assets/InitTestScene13c47dde-7fec-484e-b455-1e5573cec383.unity",
+"at": "2026-11-21 02:43"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 02:16"
+"at": "2026-11-21 02:43"
 },
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd39LookEditModeTests.cs.meta",
-"at": "2026-11-21 02:08"
+"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_qa/after/lk_gate_01_4.png",
+"at": "2026-11-21 02:41"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd39FxDiffShotTests.cs.meta",
-"at": "2026-11-21 02:08"
+"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_qa/after/lk_gate_01_3.png",
+"at": "2026-11-21 02:41"
 },
 {
-"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_research/measure_fxdiff.py",
-"at": "2026-11-21 02:08"
+"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_qa/after/lk_gate_01_0.png",
+"at": "2026-11-21 02:41"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd39FxDiffShotTests.cs",
-"at": "2026-11-21 02:08"
+"file": "UnityProject/Assets/_Game/Art/Final/fx/intro_map_dark.png.meta",
+"at": "2026-11-21 02:04"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/key/intro_dark.png.meta",
+"at": "2026-11-21 02:04"
 }
 ],
-"lastEdit": "2026-11-21 02:16",
-"lastEditTs": 1795195016.416767,
-"lastCommitTs": 1795194286,
-"unpushed": 48,
-"notInMain": 48,
-"today": 24
+"lastEdit": "2026-11-21 02:43",
+"lastEditTs": 1795196592.9135253,
+"lastCommitTs": 1795196605,
+"unpushed": 52,
+"notInMain": 52,
+"today": 28
 },
 {
 "branch": "workbench",
@@ -2168,11 +2168,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 85,
+"commits": 87,
 "byOrder": [
 [
 "CD-0039",
-29
+33
 ],
 [
 "CD-0040",
@@ -2180,7 +2180,7 @@
 ],
 [
 "CD-0036",
-11
+10
 ],
 [
 "CD-0041",
@@ -2191,16 +2191,16 @@
 7
 ],
 [
+"CD-0042",
+6
+],
+[
 "CD-0038",
 6
 ],
 [
-"CD-0042",
-5
-],
-[
 "CD-0034",
-5
+3
 ],
 [
 "CD-0035",
@@ -2216,6 +2216,31 @@
 ]
 ],
 "latest": [
+{
+"sha": "a5d7114",
+"at": "2026-11-21 02:43",
+"msg": "CD-0039 6차 보고서: PlayMode 전체(캡처 끔) 261건 실패 0"
+},
+{
+"sha": "d6027bc",
+"at": "2026-11-21 02:41",
+"msg": "CD-0039 6차 client 보고서(상태·측정표·수용 대조)"
+},
+{
+"sha": "8597bd8",
+"at": "2026-11-21 02:37",
+"msg": "CD-0039 6차 B: 타격 FX 가독성 — 남색 테두리·명중/처치 번쩍·꼬리 머리 점 · 켠/끈 차이 시험 · 맵 2 캡처"
+},
+{
+"sha": "755113f",
+"at": "2026-11-21 02:37",
+"msg": "CD-0039 6차 A: 맵 그림 묶음별 밝기·채도 표(Cd39Look.Table) — 맵 1 상한 · 묶음 캡처·사다리 시험 · 표 시험"
+},
+{
+"sha": "0fb617a",
+"at": "2026-11-21 02:20",
+"msg": "CD-0042 디자인 검수 2차 고침: 친구 삭제 확인 버튼 순서·이름, «가려진 말» 시스템 줄, 귓속말 대화 캡처, [초대] 개발 중 모양, 랭킹 다듬기 · Lv.200 세 자리 확인"
+},
 {
 "sha": "7235603",
 "at": "2026-11-21 02:04",
@@ -2240,31 +2265,6 @@
 "sha": "4c273af",
 "at": "2026-11-21 02:00",
 "msg": "CD-0039 5차 client 보고 + 캡처 c39_* 5장 · c10_* 4장 갱신"
-},
-{
-"sha": "a8c6730",
-"at": "2026-11-21 01:58",
-"msg": "CD-0039 5차: 보스 배너 — 밝은 글자·단색 남색 판·양 끝 붉은 띠"
-},
-{
-"sha": "edcadc2",
-"at": "2026-11-21 01:58",
-"msg": "CD-0039 5차 C3: 타격 FX 5종(공격 꼬리·명중 고리·처치 터짐·합성·소환) — 풀·낮음 분기·상한·시험"
-},
-{
-"sha": "7be4f3b",
-"at": "2026-11-21 01:54",
-"msg": "CD-0042 디자인 검수 1차 고침 · 검수용 캡처 d1-* · 안드로이드 빌드 확인"
-},
-{
-"sha": "9d54fcc",
-"at": "2026-11-21 01:29",
-"msg": "CD-0039 진행 기록: 4차 결과·눈 검수(겹침·아이콘 통과, 보스 배너 글자 남음)"
-},
-{
-"sha": "0802faa",
-"at": "2026-11-21 01:28",
-"msg": "CD-0039 client 4차 보고"
 }
 ]
 },
@@ -5752,7 +5752,7 @@
 "id": "CD-0039",
 "title": "인게임 비주얼 1순위: 색·가독성·타격 FX·겹침·터치 크기·HUD 아이콘 통일",
 "branch": "cd39",
-"updated": "2026-11-21 02:08",
+"updated": "2026-11-21 02:43",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -6166,13 +6166,14 @@
 "id": "CD-0042",
 "title": "친구와 채팅 Unity Friends Vivox 텍스트 월드 귓속말 방 채널 신고 차단",
 "branch": "cd42",
-"updated": "2026-11-21 02:15",
+"updated": "2026-11-21 02:31",
 "files": [
 "00-order.md",
 "10-spec.md",
 "15-design.md",
 "20-planning.md",
 "21-client.md",
+"_qa",
 "_shots"
 ],
 "milestone": "M4",
@@ -16268,7 +16269,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-21 02:10",
+"at": "2026-11-21 02:20",
 "passed": 511,
 "failed": 0,
 "total": 511,
@@ -16276,7 +16277,7 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-21 02:15",
+"at": "2026-11-21 02:25",
 "passed": 277,
 "failed": 0,
 "total": 277,
@@ -16285,7 +16286,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-21 02:10",
+"at": "2026-11-21 02:20",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16293,7 +16294,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-21 02:10",
+"at": "2026-11-21 02:20",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16301,7 +16302,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-21 02:10",
+"at": "2026-11-21 02:20",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16543,7 +16544,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-21 02:16",
-"generatedAt": "2026-11-21 02:17",
-"digest": "5d3cb9d0fc77f451"
+"sourceAt": "2026-11-21 02:46",
+"generatedAt": "2026-11-21 02:47",
+"digest": "13fca21035e72102"
 }
