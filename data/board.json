@@ -1935,43 +1935,43 @@
 "msg": "Merge cd37 (CD-0037 인게임 영웅 정보 카드를 영웅 창과 맞춤) into main"
 }
 ],
-"dirtyCount": 446,
+"dirtyCount": 455,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/ResultScreen.cs",
-"at": "2026-11-20 12:46"
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/22-client.md",
+"at": "2026-11-20 13:11"
 },
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd36TutorialOverlayEditModeTests.cs",
-"at": "2026-11-20 12:46"
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/audit-cd36.md",
+"at": "2026-11-20 13:00"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/Tutorial/TutorialGuide.cs",
-"at": "2026-11-20 12:46"
+"file": "UnityProject/Assets/InitTestScene3afeca14-cc8d-4d50-ae0f-3eb1c55e3e02.unity.meta",
+"at": "2026-11-20 13:00"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/Tutorial/TutorialLayout.cs",
-"at": "2026-11-20 12:46"
+"file": "UnityProject/Assets/InitTestScene3afeca14-cc8d-4d50-ae0f-3eb1c55e3e02.unity",
+"at": "2026-11-20 13:00"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/Tutorial/TutorialOverlay.cs",
-"at": "2026-11-20 12:46"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-20 13:00"
 },
 {
-"file": "studio/checks.json",
-"at": "2026-11-20 12:45"
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u4-t8a-bubble-waits_1080x2400.png",
+"at": "2026-11-20 12:59"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd13UiPolishTests.cs",
-"at": "2026-11-20 12:44"
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u4-o2-hand-below_1080x2400.png",
+"at": "2026-11-20 12:59"
 },
 {
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-20 12:43"
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u4-t8a-bubble-waits_1080x1920.png",
+"at": "2026-11-20 12:59"
 }
 ],
-"lastEdit": "2026-11-20 12:46",
-"lastEditTs": 1795146405.859655,
+"lastEdit": "2026-11-20 13:11",
+"lastEditTs": 1795147918.3916533,
 "lastCommitTs": 1795146076,
 "unpushed": 11,
 "notInMain": 11,
@@ -5226,7 +5226,7 @@
 "id": "CD-0036",
 "title": "튜토리얼과 초반 동선: 튜토리얼 맵 10스테이지·다음 맵·해금·환영 선물·계정 초기화",
 "branch": "cd36",
-"updated": "2026-11-20 12:42",
+"updated": "2026-11-20 13:11",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -14879,7 +14879,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 12:46",
-"generatedAt": "2026-11-20 12:47",
-"digest": "df2fef29f196f40f"
+"sourceAt": "2026-11-20 13:11",
+"generatedAt": "2026-11-20 13:17",
+"digest": "f304f94ff1616cd9"
 }
