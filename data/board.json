@@ -1330,7 +1330,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0024",
+"order": "CD-0025",
 "head": "e145fe8",
 "commits": [
 {
@@ -1896,8 +1896,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0036",
-"head": "9c6759e",
+"head": "ad6ced4",
 "commits": [
+{
+"sha": "ad6ced4",
+"at": "2026-11-20 12:41",
+"ts": 1795146076,
+"msg": "CD-0036 화면 U0~U4: Core API 맞춤 · 첫 접속(이름 → 1-1, 로비 없음) · 판 안 안내 TutorialGuide(Guide.cs 지움) · 판 밖 안내 O2~O6 · 잠긴 탭·자물쇠·해금 연출 · 퀘스트 띠 · 상점 레드닷 · 지도 카드 단계 줄 · 저장 v13(pre13.bak)·계정 초기화 · 맵 2 그림 반입 · assets.json gate_04 final"
+},
 {
 "sha": "9c6759e",
 "at": "2026-11-20 11:20",
@@ -1927,64 +1933,58 @@
 "at": "2026-11-20 10:04",
 "ts": 1795136663,
 "msg": "Merge cd37 (CD-0037 인게임 영웅 정보 카드를 영웅 창과 맞춤) into main"
-},
-{
-"sha": "ce8f023",
-"at": "2026-11-20 10:04",
-"ts": 1795136642,
-"msg": "CD-0037 인게임 영웅 정보 카드를 영웅 창과 맞춤: 초당 피해·종족·단계·공격 종류 글자 삭제 · 스탯 3칸(공격력·공격속도 0.00/s·사거리 정수) 같은 이름·아이콘 · 공격속도는 Core Heroes.AttackSpeedText 공용"
 }
 ],
-"dirtyCount": 586,
+"dirtyCount": 446,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-20 12:17"
+"file": "UnityProject/Assets/_Game/UI/ResultScreen.cs",
+"at": "2026-11-20 12:46"
 },
 {
-"file": "UnityProject/Assets/_Game/App/GameApp.cs",
-"at": "2026-11-20 12:08"
+"file": "UnityProject/Assets/Tests/EditMode/Cd36TutorialOverlayEditModeTests.cs",
+"at": "2026-11-20 12:46"
 },
 {
-"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t8c-pop_1080x2400.png",
-"at": "2026-11-20 12:00"
+"file": "UnityProject/Assets/_Game/UI/Tutorial/TutorialGuide.cs",
+"at": "2026-11-20 12:46"
 },
 {
-"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t8c-pop_1080x1920.png",
-"at": "2026-11-20 12:00"
+"file": "UnityProject/Assets/_Game/UI/Tutorial/TutorialLayout.cs",
+"at": "2026-11-20 12:46"
 },
 {
-"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t8a_1080x2400.png",
-"at": "2026-11-20 12:00"
+"file": "UnityProject/Assets/_Game/UI/Tutorial/TutorialOverlay.cs",
+"at": "2026-11-20 12:46"
 },
 {
-"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t8a_1080x1920.png",
-"at": "2026-11-20 12:00"
+"file": "studio/checks.json",
+"at": "2026-11-20 12:45"
 },
 {
-"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t7-sheet_1080x2400.png",
-"at": "2026-11-20 12:00"
+"file": "UnityProject/Assets/Tests/PlayMode/Cd13UiPolishTests.cs",
+"at": "2026-11-20 12:44"
 },
 {
-"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t7-sheet_1080x1920.png",
-"at": "2026-11-20 12:00"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-20 12:43"
 }
 ],
-"lastEdit": "2026-11-20 12:17",
-"lastEditTs": 1795144656.7603822,
-"lastCommitTs": 1795141249,
-"unpushed": 10,
-"notInMain": 10,
-"today": 26
+"lastEdit": "2026-11-20 12:46",
+"lastEditTs": 1795146405.859655,
+"lastCommitTs": 1795146076,
+"unpushed": 11,
+"notInMain": 11,
+"today": 27
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 22,
+"commits": 23,
 "byOrder": [
 [
 "CD-0036",
-10
+11
 ],
 [
 "CD-0034",
@@ -2000,6 +2000,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "ad6ced4",
+"at": "2026-11-20 12:41",
+"msg": "CD-0036 화면 U0~U4: Core API 맞춤 · 첫 접속(이름 → 1-1, 로비 없음) · 판 안 안내 TutorialGuide(Guide.cs 지움) · 판 밖 안내 O2~O6 · 잠긴 탭·자물쇠·해금 연출 · 퀘스트 띠 · 상점 레드닷 · 지도 카드 단계 줄 · 저장 v13(pre13.bak)·계정 초기화 · 맵 2 그림 반입 · assets.json gate_04 final"
+},
 {
 "sha": "9c6759e",
 "at": "2026-11-20 11:20",
@@ -2044,11 +2049,6 @@
 "sha": "eaa92b5",
 "at": "2026-11-20 02:41",
 "msg": "CD-0036: CD-0034 넘김 메모 기록(진화 차원석 45 · 레벨 구간별 곡선 · 협동 2인 보정 여지) · O6 글 자리표"
-},
-{
-"sha": "1f408b9",
-"at": "2026-11-20 02:41",
-"msg": "CD-0034 P2 수치 확정·문서: 진화 차원석 45 · 광산 30+10k·8명·웨이브 2·0.1/s · 교체 1·3·8·20 확정(새 판 C2) · «구현 대기» 정리 · docs/11 처치 골드 본인 규칙·§3-2 광산·교체 · 협동 2인 정예 33.3% 기록 · 최대 육성 위험 · sim 요약 새 판"
 }
 ]
 },
@@ -5226,7 +5226,7 @@
 "id": "CD-0036",
 "title": "튜토리얼과 초반 동선: 튜토리얼 맵 10스테이지·다음 맵·해금·환영 선물·계정 초기화",
 "branch": "cd36",
-"updated": "2026-11-20 11:54",
+"updated": "2026-11-20 12:42",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -13923,6 +13923,26 @@
 "state": "temp"
 },
 {
+"address": "map/gate_04/ground",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/gate_04/path",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/gate_04/prop_1",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/gate_04/prop_2",
+"kind": "map",
+"state": "final"
+},
+{
 "address": "map/fort/deck",
 "kind": "map",
 "state": "final"
@@ -14553,8 +14573,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-20 09:28",
-"branch": "rel-070"
+"at": "2026-11-20 12:27",
+"branch": "cd36"
 }
 },
 "devlog": [
@@ -14604,10 +14624,10 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-20 09:55",
-"passed": 501,
+"at": "2026-11-20 12:42",
+"passed": 511,
 "failed": 0,
-"total": 501,
+"total": 511,
 "ok": true
 },
 "unity": {
@@ -14621,7 +14641,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-20 09:55",
+"at": "2026-11-20 12:42",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -14629,7 +14649,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-20 09:55",
+"at": "2026-11-20 12:42",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -14637,7 +14657,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-20 09:55",
+"at": "2026-11-20 12:42",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -14859,7 +14879,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 12:17",
-"generatedAt": "2026-11-20 12:17",
-"digest": "78e99bcc5ba9ab1c"
+"sourceAt": "2026-11-20 12:46",
+"generatedAt": "2026-11-20 12:47",
+"digest": "df2fef29f196f40f"
 }
