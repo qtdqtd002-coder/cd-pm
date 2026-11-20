@@ -792,7 +792,7 @@
 "team": "client",
 "title": "친구(Friends)·채팅(Vivox 텍스트: 월드·귓속말·협동 방, Safe Text)·랭킹(Leaderboards: 계정 레벨·싱글 진행도·영웅 레벨 합, 100위 + 하단 내 순위) — 신고·차단 포함, 세 창 모두 로비 입구(하단 탭 고정), 인터페이스 뒤에",
 "status": "doing",
-"note": "CD-0042(줄기 cd42), 결정 0069. 친구와 같이 하기(Sessions·매칭)는 M4-3"
+"note": "CD-0042 구현·QA PASS(2026-11-21, 줄기 cd42): 가짜 백엔드로 확인. 실서비스(대시보드 U1~U8)·두 기기·실기기 확인 대기. 친구와 같이 하기(Sessions·매칭)는 M4-3"
 }
 ]
 },
@@ -1155,7 +1155,7 @@
 }
 ],
 "milestonesSrc": {
-"at": "2026-11-20 23:57",
+"at": "2026-11-21 03:43",
 "branch": "cd42",
 "dirty": false
 },
@@ -1769,8 +1769,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0042",
-"head": "0fb617a",
+"head": "d4c2191",
 "commits": [
+{
+"sha": "d4c2191",
+"at": "2026-11-21 03:44",
+"ts": 1795200253,
+"msg": "CD-0042 검사 기록(studio/checks.json)"
+},
+{
+"sha": "1978c05",
+"at": "2026-11-21 03:44",
+"ts": 1795200250,
+"msg": "CD-0042 마감: 친구·채팅·랭킹 QA PASS(재검수) · gate qa·close · 개발일지 · M4-9 메모"
+},
+{
+"sha": "b5db179",
+"at": "2026-11-21 03:18",
+"ts": 1795198689,
+"msg": "CD-0042 QA 1차(FAIL: 1-2 해금으로 결과 화면이 [로비로] 하나 — 결정 0064 규칙대로) → Cd36FirstEntryTests 두 시험을 새 해금에 맞춤 · 출시 전 주의 C18"
+},
 {
 "sha": "0fb617a",
 "at": "2026-11-21 02:20",
@@ -1788,67 +1806,41 @@
 "at": "2026-11-21 01:16",
 "ts": 1795191402,
 "msg": "CD-0042 C3: 랭킹(계정 레벨·진행도·영웅 레벨 합, 1~100위 + 하단 내 순위, 동점 = 먼저 이룬 사람) · 채팅 이름 빠짐 고침 · 디자인 검수 1차"
-},
-{
-"sha": "d1b10e0",
-"at": "2026-11-21 00:51",
-"ts": 1795189902,
-"msg": "CD-0042 C2: 채팅(월드·귓속말, 방 채널 API)·신고·차단·필터 + C1 마무리(A30 그림 없을 때·로비 입구 터치 126·친구 흐름 캡처)"
-},
-{
-"sha": "b96adf1",
-"at": "2026-11-21 00:22",
-"ts": 1795188171,
-"msg": "CD-0042 C1: 소셜 로그인·친구·로비 입구(랭킹·친구·채팅) — 인터페이스 + Unity/가짜/오프라인 구현"
-},
-{
-"sha": "4aece0d",
-"at": "2026-11-20 23:57",
-"ts": 1795186656,
-"msg": "CD-0042 기획: 친구·채팅·랭킹 기획서(gate spec 통과) · 디자인 문서 · Data/social.json · 해금 줄 · 결정 0069 랭킹 보충"
 }
 ],
-"dirtyCount": 12,
+"dirtyCount": 6,
 "dirty": [
 {
-"file": "studio/checks.json",
-"at": "2026-11-21 03:17"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 03:17"
+"at": "2026-11-21 03:42"
 },
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
 "at": "2026-11-21 02:52"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd36FirstEntryTests.cs",
-"at": "2026-11-21 02:49"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-21 00:40"
 },
 {
-"file": "studio/launch-cautions.json",
-"at": "2026-11-21 02:48"
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-21 00:22"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/30-qa.md",
-"at": "2026-11-21 02:48"
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-21 00:22"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_qa/craft-game-floors.md",
-"at": "2026-11-21 02:31"
-},
-{
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/00-order.md",
-"at": "2026-11-21 01:54"
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-21 00:22"
 }
 ],
-"lastEdit": "2026-11-21 03:17",
-"lastEditTs": 1795198653.7131493,
-"lastCommitTs": 1795195227,
-"unpushed": 7,
-"notInMain": 7,
-"today": 5
+"lastEdit": "2026-11-21 03:42",
+"lastEditTs": 1795200179.8766253,
+"lastCommitTs": 1795200253,
+"unpushed": 10,
+"notInMain": 10,
+"today": 8
 },
 {
 "branch": "cd38",
@@ -1997,8 +1989,32 @@
 "session": "",
 "owns": "",
 "order": "CD-0039",
-"head": "a5d7114",
+"head": "418f232",
 "commits": [
+{
+"sha": "418f232",
+"at": "2026-11-21 03:37",
+"ts": 1795199853,
+"msg": "CD-0039 QA 1차 FAIL(30-qa): 맵 2 명중 FX·캡처 시험 불확정 1건 → client 로 되돌림 · 진행 기록"
+},
+{
+"sha": "323cfbc",
+"at": "2026-11-21 03:37",
+"ts": 1795199843,
+"msg": "CD-0039 SystemBar.cs 줄바꿈을 원래(CRLF)로 되돌림 — 내용 변경 없음, main 대비 diff 733줄 → 3줄(CD-0038 병합 충돌 방지 · QA 지적 5)"
+},
+{
+"sha": "9e7ce93",
+"at": "2026-11-21 03:28",
+"ts": 1795199327,
+"msg": "CD-0039 planning 보고서 · gate impl 통과 → 검수"
+},
+{
+"sha": "7f69b37",
+"at": "2026-11-21 03:28",
+"ts": 1795199309,
+"msg": "CD-0039 통합: 최신 캡처 19장·시험 결과 파일·재측정 기록 · check --unity 통과(Core 511 · EditMode 225 · PlayMode 캡처 켬 256/0)"
+},
 {
 "sha": "a5d7114",
 "at": "2026-11-21 02:43",
@@ -2010,73 +2026,49 @@
 "at": "2026-11-21 02:41",
 "ts": 1795196479,
 "msg": "CD-0039 6차 client 보고서(상태·측정표·수용 대조)"
-},
-{
-"sha": "8597bd8",
-"at": "2026-11-21 02:37",
-"ts": 1795196269,
-"msg": "CD-0039 6차 B: 타격 FX 가독성 — 남색 테두리·명중/처치 번쩍·꼬리 머리 점 · 켠/끈 차이 시험 · 맵 2 캡처"
-},
-{
-"sha": "755113f",
-"at": "2026-11-21 02:37",
-"ts": 1795196269,
-"msg": "CD-0039 6차 A: 맵 그림 묶음별 밝기·채도 표(Cd39Look.Table) — 맵 1 상한 · 묶음 캡처·사다리 시험 · 표 시험"
-},
-{
-"sha": "7235603",
-"at": "2026-11-21 02:04",
-"ts": 1795194286,
-"msg": "CD-0040 진행 기록: 원화 2차 결과·대표 눈 검수 통과(draft) · 균열 각도·줌 상한 결정(권장안) · Codex 호출 기록"
-},
-{
-"sha": "530f35c",
-"at": "2026-11-21 02:04",
-"ts": 1795194251,
-"msg": "CD-0039 R2 보완: CC0 효과 5장 assets.json 줄"
 }
 ],
-"dirtyCount": 158,
+"dirtyCount": 224,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene13c47dde-7fec-484e-b455-1e5573cec383.unity.meta",
-"at": "2026-11-21 02:43"
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_skip_0_80.png",
+"at": "2026-11-21 03:47"
 },
 {
-"file": "UnityProject/Assets/InitTestScene13c47dde-7fec-484e-b455-1e5573cec383.unity",
-"at": "2026-11-21 02:43"
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_low_3_00.png",
+"at": "2026-11-21 03:47"
 },
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 02:43"
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_ready_w2400.png",
+"at": "2026-11-21 03:47"
 },
 {
-"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_qa/after/lk_gate_01_4.png",
-"at": "2026-11-21 02:41"
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_ready.png",
+"at": "2026-11-21 03:47"
 },
 {
-"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_qa/after/lk_gate_01_3.png",
-"at": "2026-11-21 02:41"
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_x_5_40.png",
+"at": "2026-11-21 03:47"
 },
 {
-"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_qa/after/lk_gate_01_0.png",
-"at": "2026-11-21 02:41"
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_x_5_00.png",
+"at": "2026-11-21 03:47"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Final/fx/intro_map_dark.png.meta",
-"at": "2026-11-21 02:04"
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_x_3_60.png",
+"at": "2026-11-21 03:47"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Final/key/intro_dark.png.meta",
-"at": "2026-11-21 02:04"
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_x_2_40.png",
+"at": "2026-11-21 03:47"
 }
 ],
-"lastEdit": "2026-11-21 02:43",
-"lastEditTs": 1795196592.9135253,
-"lastCommitTs": 1795196605,
-"unpushed": 52,
-"notInMain": 52,
-"today": 28
+"lastEdit": "2026-11-21 03:47",
+"lastEditTs": 1795200470.1837716,
+"lastCommitTs": 1795199853,
+"unpushed": 56,
+"notInMain": 56,
+"today": 32
 },
 {
 "branch": "workbench",
@@ -2168,11 +2160,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 87,
+"commits": 94,
 "byOrder": [
 [
 "CD-0039",
-33
+37
 ],
 [
 "CD-0040",
@@ -2183,16 +2175,16 @@
 10
 ],
 [
+"CD-0042",
+9
+],
+[
 "CD-0041",
 7
 ],
 [
 "기타",
 7
-],
-[
-"CD-0042",
-6
 ],
 [
 "CD-0038",
@@ -2217,6 +2209,41 @@
 ],
 "latest": [
 {
+"sha": "d4c2191",
+"at": "2026-11-21 03:44",
+"msg": "CD-0042 검사 기록(studio/checks.json)"
+},
+{
+"sha": "1978c05",
+"at": "2026-11-21 03:44",
+"msg": "CD-0042 마감: 친구·채팅·랭킹 QA PASS(재검수) · gate qa·close · 개발일지 · M4-9 메모"
+},
+{
+"sha": "418f232",
+"at": "2026-11-21 03:37",
+"msg": "CD-0039 QA 1차 FAIL(30-qa): 맵 2 명중 FX·캡처 시험 불확정 1건 → client 로 되돌림 · 진행 기록"
+},
+{
+"sha": "323cfbc",
+"at": "2026-11-21 03:37",
+"msg": "CD-0039 SystemBar.cs 줄바꿈을 원래(CRLF)로 되돌림 — 내용 변경 없음, main 대비 diff 733줄 → 3줄(CD-0038 병합 충돌 방지 · QA 지적 5)"
+},
+{
+"sha": "9e7ce93",
+"at": "2026-11-21 03:28",
+"msg": "CD-0039 planning 보고서 · gate impl 통과 → 검수"
+},
+{
+"sha": "7f69b37",
+"at": "2026-11-21 03:28",
+"msg": "CD-0039 통합: 최신 캡처 19장·시험 결과 파일·재측정 기록 · check --unity 통과(Core 511 · EditMode 225 · PlayMode 캡처 켬 256/0)"
+},
+{
+"sha": "b5db179",
+"at": "2026-11-21 03:18",
+"msg": "CD-0042 QA 1차(FAIL: 1-2 해금으로 결과 화면이 [로비로] 하나 — 결정 0064 규칙대로) → Cd36FirstEntryTests 두 시험을 새 해금에 맞춤 · 출시 전 주의 C18"
+},
+{
 "sha": "a5d7114",
 "at": "2026-11-21 02:43",
 "msg": "CD-0039 6차 보고서: PlayMode 전체(캡처 끔) 261건 실패 0"
@@ -2230,41 +2257,6 @@
 "sha": "8597bd8",
 "at": "2026-11-21 02:37",
 "msg": "CD-0039 6차 B: 타격 FX 가독성 — 남색 테두리·명중/처치 번쩍·꼬리 머리 점 · 켠/끈 차이 시험 · 맵 2 캡처"
-},
-{
-"sha": "755113f",
-"at": "2026-11-21 02:37",
-"msg": "CD-0039 6차 A: 맵 그림 묶음별 밝기·채도 표(Cd39Look.Table) — 맵 1 상한 · 묶음 캡처·사다리 시험 · 표 시험"
-},
-{
-"sha": "0fb617a",
-"at": "2026-11-21 02:20",
-"msg": "CD-0042 디자인 검수 2차 고침: 친구 삭제 확인 버튼 순서·이름, «가려진 말» 시스템 줄, 귓속말 대화 캡처, [초대] 개발 중 모양, 랭킹 다듬기 · Lv.200 세 자리 확인"
-},
-{
-"sha": "7235603",
-"at": "2026-11-21 02:04",
-"msg": "CD-0040 진행 기록: 원화 2차 결과·대표 눈 검수 통과(draft) · 균열 각도·줌 상한 결정(권장안) · Codex 호출 기록"
-},
-{
-"sha": "530f35c",
-"at": "2026-11-21 02:04",
-"msg": "CD-0039 R2 보완: CC0 효과 5장 assets.json 줄"
-},
-{
-"sha": "09dbaa7",
-"at": "2026-11-21 02:03",
-"msg": "CD-0040 원화 2차: 대각선 구도 · 종족 연합 대 그림자 무리 · 어두워지는 하늘 — 완성 장면 먼저, 같은 세션에서 거꾸로 덜어 낸 판으로 층 구성 (draft)"
-},
-{
-"sha": "726b6b1",
-"at": "2026-11-21 02:01",
-"msg": "CD-0039 목표선 조정 3(대표, 권장안): 모든 맵 밝기·채도 상한 · FX 가독성(밝은 심+짙은 테두리)·켠/끈 차이 측정 · 층 규칙 완화"
-},
-{
-"sha": "4c273af",
-"at": "2026-11-21 02:00",
-"msg": "CD-0039 5차 client 보고 + 캡처 c39_* 5장 · c10_* 4장 갱신"
 }
 ]
 },
@@ -5752,17 +5744,19 @@
 "id": "CD-0039",
 "title": "인게임 비주얼 1순위: 색·가독성·타격 FX·겹침·터치 크기·HUD 아이콘 통일",
 "branch": "cd39",
-"updated": "2026-11-21 02:43",
+"updated": "2026-11-21 03:37",
 "files": [
 "00-order.md",
 "10-spec.md",
+"21-planning.md",
 "22-client.md",
 "23-art.md",
+"30-qa.md",
 "_qa",
 "_research"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "검수",
 "route": "full",
 "risk": "mid",
 "teams": "planning, client, art",
@@ -5778,7 +5772,7 @@
 "title": "결정 0066 작성, docs/03 §9 «한 단계 낮춤» 줄 고침, 이 기획서. (이미 했다) · 목표선 충돌 요청이 오면 표를 고친다",
 "output": "docs/decisions/0066-…md, docs/03-리소스계획.md, 10-spec.md",
 "status": "done",
-"why": "기획서 있음"
+"why": "주문이 검수 단계"
 },
 {
 "id": "C1",
@@ -5787,7 +5781,7 @@
 "title": "색 올림(항목 1): 어느 값이 colorfulness·밝기·대비를 움직이는지 단계별로 재서(아래 «사다리») 가장 적게 건드리는 값 조합으로 목표선에 넣는다. 바꾼 값 표를 보고서에",
 "output": "코드·셰이더 값, 22-client.md 표",
 "status": "done",
-"why": "보고서 있음: 22-client.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "C2",
@@ -5795,8 +5789,8 @@
 "team": "client",
 "title": "영웅 바닥 선 줄임(항목 2): 판자 선·목책·칸 선의 대비를 낮춰 영웅 칸 edge ≤ 20. 영웅 외곽선·몸은 안 건드림",
 "output": "같음",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C3",
@@ -5804,8 +5798,8 @@
 "team": "client",
 "title": "타격 FX(항목 3): 공격·명중·처치·합성·소환 5종 연출 강화 + «낮음» 분기 + 상한(아래 §타격 FX)",
 "output": "같음 + 캡처",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C4",
@@ -5813,8 +5807,8 @@
 "team": "client",
 "title": "겹침 0(항목 4): 보스 배너·알림·영웅 팝업·정보 카드의 자리·순서 규칙 + 시험",
 "output": "같음",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C5",
@@ -5822,8 +5816,8 @@
 "team": "client",
 "title": "터치 영역(항목 5): 판 안 모든 버튼의 터치 영역 ≥ 126px. 공용 헬퍼 하나(HitPad) + 버튼 목록 시험",
 "output": "같음",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C6",
@@ -5831,8 +5825,8 @@
 "team": "client",
 "title": "표시만: 상단 바 정리(항목 6) · 단계 표시 중복 정리(항목 8) · 차원석 «0.0» 표기(항목 9)",
 "output": "같음",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C7",
@@ -5840,8 +5834,8 @@
 "team": "client",
 "title": "캡처 켠 PlayMode 실패 2건 원인 조사·수정(항목 별도 — 아래 §캡처 시험)",
 "output": "같음 «원인» 절",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C8",
@@ -5849,8 +5843,8 @@
 "team": "client",
 "title": "개선 전·후 캡처와 재측정 표(같은 이름·같은 영역), c39_ 새 캡처",
 "output": "_qa/after/, 보고서 표",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "R1",
@@ -5858,8 +5852,8 @@
 "team": "art",
 "title": "HUD 아이콘 한 벌 통일(항목 7): 골드·현상금·모루(icon_upgrade)·하트·메뉴·배속(+ 판 안 채팅 icon_chat)을 512px Codex 세트 그림체로 새로 뽑아 반입. Codex 그림 첫 7장, 재시도 포함 상한 14장(아래)",
 "output": "art/final/ui/.png, 반입",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "R2",
@@ -5868,7 +5862,7 @@
 "title": "장부 studio/assets-ledger.csv·studio/art-manifest.json·Data/assets.json 상태 칸 갱신(새 7개 final, 옛 코드 제작본 unused/«미사용» 표시, 하트 꺼짐은 가공본 temp)",
 "output": "장부, 23-art.md",
 "status": "done",
-"why": "보고서 있음: 23-art.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "R3",
@@ -5877,7 +5871,7 @@
 "title": "FX 소재: art/source/vfx-cc0 에서 쓸 것을 골라 장부에 줄(출처·CC0)을 적고 UnityProject 에 반입. 금지 이름·모양 점검",
 "output": "장부, 23-art.md",
 "status": "done",
-"why": "보고서 있음: 23-art.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "Q1",
@@ -5885,8 +5879,8 @@
 "team": "qa",
 "title": "아래 수용 기준 대조 + 재측정(같은 영역·같은 명령, 값을 보고서에 그대로)",
 "output": "30-qa.md",
-"status": "todo",
-"why": ""
+"status": "doing",
+"why": "주문이 검수 단계"
 }
 ]
 },
@@ -5894,7 +5888,7 @@
 "id": "CD-0040",
 "title": "로딩 인트로 재구성: 한 장면처럼 이어지는 균열 침공 → 줌아웃 → 영웅 등장 → 타이틀",
 "branch": "cd39",
-"updated": "2026-11-21 02:04",
+"updated": "2026-11-21 03:46",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -6166,7 +6160,7 @@
 "id": "CD-0042",
 "title": "친구와 채팅 Unity Friends Vivox 텍스트 월드 귓속말 방 채널 신고 차단",
 "branch": "cd42",
-"updated": "2026-11-21 03:17",
+"updated": "2026-11-21 03:43",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -6174,16 +6168,17 @@
 "20-planning.md",
 "21-client.md",
 "30-qa.md",
+"90-close.md",
 "_qa",
 "_shots"
 ],
 "milestone": "M4",
-"stage": "검수",
+"stage": "완료",
 "route": "full",
 "risk": "high",
 "teams": "planning, client, qa",
 "opened": "2026-11-20",
-"closed": "",
+"closed": "2026-11-21",
 "goal": "<ol>\n<li>Unity 익명 로그인을 로딩 단계 한 줄로 붙이고, 실패해도 싱글 게임은 그대로 돈다(소셜만 오프라인).\n</li>\n<li>친구(친구 코드로 신청 · 수락/거절/취소 · 삭제 · 차단 · 접속 상태), 채팅(월드 · 귓속말, 협동 방은 API 만), 신고, 차단 시 숨김, 욕설 필터, 도배 제한.\n</li>\n<li>랭킹 3탭(계정 레벨 · 진행도 · 영웅 레벨 합) — 1~100위 + 화면 아래 고정 내 순위, <strong>같은 기록이면 먼저 이룬 사람이 위</strong>(사용자 지시, 확정).\n</li>\n<li>세 창은 <strong>로비 입구</strong>에서 연다. <strong>하단 탭 다섯 그대로.</strong>\n</li>\n<li>게임 코드는 인터페이스만 안다. 구현(Unity / 가짜 / 나중에 자체 서버)은 한 곳에서 고른다.\n</li>\n<li><strong>저장 구조 버전을 올리지 않는다</strong>(cd38 이 v14 예정).\n</li></ol>",
 "goalShort": "1.",
 "tasks": [
@@ -6194,7 +6189,7 @@
 "title": "Data/social.json 새로(수치·한도 사본·신고 사유·랭킹 정의·화면 글 93)",
 "output": "Data/social.json",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "P2",
@@ -6203,7 +6198,7 @@
 "title": "tools/validate_data.py social 검사(공식 한도·320바이트·도배 통·사유 값·texts 열쇠·자리표·한도 숫자·2^53·id 글자) + 로비 입구 셋",
 "output": "tools/validate_data.py",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "P3",
@@ -6212,7 +6207,7 @@
 "title": "Data/tutorial.json 해금 셋·자리 다섯·안내 o3_social",
 "output": "Data/tutorial.json",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "P4",
@@ -6221,7 +6216,7 @@
 "title": "docs/14 §1 표(Friends·Vivox·Safe Text·Moderation·Leaderboards) · §3-3 settings.worldChat · §3-6 online.json · docs/10 판 밖 줄 · docs/13 §12",
 "output": "docs/10·13·14",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -6230,7 +6225,7 @@
 "title": "1단계 패키지 6개(multiplayer 없음) · sync_data.py · asmdef 둘 · 인터페이스·모델·공통 층·SocialConfig · fake·offline · SocialBackends·에디터 토글·-socialProfile · 로딩 «온라인» · Unity Session·Friends · 친구 창·친구 추가 창·미니 프로필(신고·차단 버튼 자리) · 로비 입구 셋(안 1)·레드닷·소식 띠 · TutorialTargetIds 다섯 · 시험 T1~T6",
 "output": "Packages/ · Assets/_Game/Net/Social/ · App/GameApp.cs · UI/Friends.cs·MiniProfile.cs·LobbyScreen.cs(입구 줄만) · Assets/Tests/EditMode/Cd42",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -6239,7 +6234,7 @@
 "title": "2단계 Unity Chat(Vivox)·Report(Moderation) · ChatRoom·SendThrottle·필터 · 차단 연결 · 채팅 창·신고 창·차단 확인 · 방 채널 API · 설정 «월드 채팅 보기» · 시험 T7~T13",
 "output": "Net/Social/ · UI/Chat.cs·Report.cs · UI/SettingsScreen.cs(한 줄) · 시험",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C3",
@@ -6248,7 +6243,7 @@
 "title": "3단계 RankingRecords·RankingScore·RankingSync·online.json · Unity Ranking · .lb 셋 · 랭킹 창(줄 풀) · 계정 초기화가 online.json 도 지움 · 시험 T14~T18",
 "output": "Net/Social/ · Outgame/RankingRecords.cs · UI/Ranking.cs · .lb · 시험",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C4",
@@ -6257,7 +6252,7 @@
 "title": "15-design §14 체크리스트 캡처(CD_SHOTS_DIR, 1080×1920·1080×2400) → 디자인 세션 검수 · 두 기기 확인용 PC 빌드 · 구현 때 확인 항목 결과",
 "output": "캡처 · 21-client.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "Q1",
@@ -6265,8 +6260,8 @@
 "team": "qa",
 "title": "A1~A30 대조(명령 출력·시험 이름·캡처) · 두 기기 절차 실행 가능성 점검 · 방향 잠금(L1·L5·L7·L11)·0062·0064 11",
 "output": "30-qa.md",
-"status": "doing",
-"why": "주문이 검수 단계"
+"status": "done",
+"why": "주문 마감"
 }
 ]
 }
@@ -16225,6 +16220,13 @@
 },
 "devlog": [
 {
+"file": "2026-11-21.md",
+"title": "2026-11-21",
+"html": "<h3>CD-0042 친구·채팅·랭킹 (결정 0069) — 마감, QA PASS · 줄기 cd42</h3>\n<ul>\n<li>사용자 요청 «친구랑 채팅 기능 만들기 시작 · 랭킹도(계정 레벨·싱글 진행도·영웅 레벨 합, 동점은 먼저 달성, 100위 + 하단 내 순위) · 세 창 모두 로비, 하단 탭 고정». 디자인은 비주얼/UI 평가 세션(15-design.md, 검수 2번), 시스템·구현은 이 주문.\n</li>\n<li>구조: 인터페이스 + SocialBackends 한 곳(Unity·가짜·오프라인), Unity.Services 는 Net/Social/Unity 안에서만 — Vivox·Safe Text 출시 전 대체 대비. 패키지 services core 1.19.0 · authentication 3.9.0 · friends 1.4.1 · vivox 16.13.0 · leaderboards 2.4.0 · moderation 1.1.0.\n</li>\n<li>로그인 실패·오프라인이어도 로딩·싱글 그대로. 저장 버전 13 그대로(online.json). 1-2 승리에 해금(사용자 «전부 추천안») → 1-2 결과 화면은 [로비로] 하나(결정 0064 규칙).\n</li>\n<li>검사: Core 511/511 · EditMode 277/277 · PlayMode 전체 205 통과·실패 0 · 수용 기준 30/30. QA 1차 FAIL(Cd36 시험 2개) → 시험 고쳐 PASS.\n</li>\n<li>안드로이드 빌드 OK, APK 86,017,211 바이트(0.7.0 대비 약 +18~21 MB) — 원인 측정은 사용자 판단 대기.\n</li>\n<li>사람 플레이·실서비스·두 기기: 아직 안 함(대시보드 U1~U8 이 사용자 몫).\n</li></ul>",
+"at": "2026-11-21 03:44",
+"branch": "cd42"
+},
+{
 "file": "2026-11-20.md",
 "title": "2026-11-20",
 "html": "<h3>CD-0030 — 판 8×12(2인)·8×9(1인) · 목책 진지 소환 지형 · 영웅 칸의 85%(결정 0059)</h3>\n<ul>\n<li>11-18 에 주문·기획서·spec 게이트까지만 하고 멈춰 있던 것을 이어서 했다(11-19~20). 구현 줄기 <code>cd30</code>(<code>.worktrees/cd30</code>) — main 체크아웃에 CD-0035 가 커밋 전이라 따로 뗐다.\n</li>\n<li>맵 <code>gate_03</code> «목책 관문»(id 그대로, 저장 이전 없음): 3×2 진지 넷 + 망루 자리 넷, 2인 가운데 2칸 폭 큰길(12줄 거울의 축이 칸 경계라서). 검사기에 큰길·장식 칸 규칙.\n</li>\n<li>바닥: 판·«+»·홈·받침돌을 지우고 Codex 본 그림 5장(데크·테두리·목책·기둥·망루, 7회 호출)으로 진지를 그린다. 빈 칸 = 맨 데크, 표시 없음.\n</li>\n<li>칸 135px(16:9 2인 115px), 영웅 1단계 = 칸 85%. 병합으로 들어온 전설은 5단계 127%(4단계 × 112% 는 새 칸에서 0.2칸 넘쳐서).\n</li>\n<li>웨이브: 길이 길어졌는데 오히려 어려워져(보통 simple 53.3 → 36.7%) 6~20웨이브 배율을 내림(보통 ×1.90 · 어려움 ×2.00 · 정예 ×1.75) → 보통 simple 50.0% · focus 96.7%.\n</li>\n<li>정예 육성 시험: 20판 표본 잡음(15/20) → 결정 0055 방식 60판(39/60 = 65%). 같은 줄의 «한 웨이브 ≤ 절반» 이 19웨이브 57% 로 걸려 사용자 결정으로 이 줄만 60%(CD-0036 에서 다시 봄).\n</li>\n<li>배포 관제 지시로 rel-070(cd32 전설 · cd33 일괄 합성)과 main 8e9f1df(CD-0035)를 cd30 에 합침. 충돌 6개(그림 검사 규칙·목록·장부·Codex 기록·효과음 시험·칸 번호). 병합 뒤 시뮬 재측정 — 값 같음.\n</li></ul>\n<h4>CD-0030 검사</h4>\n<ul>\n<li>HEAD bcb4fcb: <code>check --unity</code> Core 459/459 · 데이터·그림 89장·설정 오류 0 · EditMode 172/172. PlayMode 200 중 158 통과 · 실패 0 · 건너뜀 42. QA PASS.\n</li>\n<li>사람 플레이·실기기 안 함. main 병합·버전·배포는 배포 관제(0.7.0 에 묶음).\n</li>\n<li>남은 일: 2인 보통 84.3%(인원별 배수), 정예 19웨이브 몰림, 망루 기둥이 작음, 16:9 2인에서 [일괄 합성] 버튼이 맨 아랫줄 오른쪽 칸을 덮음(결정 0061 — 사용자 확인 필요). 주문 <code>90-close.md</code>.\n</li></ul>\n<h3>앱 0.7.0 폰 배포 (CD-0030 · CD-0032 · CD-0033 · CD-0034 · CD-0035 · CD-0036 · CD-0037)</h3>\n<ul>\n<li>사용자(11-19~20): 배포 관제 세션이 작업 세션들의 병합 순서를 정하고 main 에 올린 뒤 «다 된 거 확인하면 푸시 정리해서 확인하고 빌드 진행해서 배포까지». 사용자 취침 동안 선택은 권장안(각 주문 00-order 기록).\n</li>\n<li>병합 순서: cd32(전설) → cd33(일괄 합성) → CD-0035(main 체크아웃에서 커밋) → cd30(판 8×12) → cd34(재화) → cd37(영웅 카드) → cd36(튜토리얼). 통합 줄기 <code>rel-070</code>(<code>.worktrees/cd27</code>)에 먼저 쌓다가 CD-0035 커밋 뒤 main 으로. 충돌은 기록 파일(art-manifest·assets-ledger·codex-usage·devlog·checks)뿐이라 양쪽 살림, enum(CommandKind Evolve 8 · MergeAll 9)은 cd33 쪽에서 풂.\n</li>\n<li>0.7.0 · versionCode 11(cd85670, 태그 v0.7.0): ProjectSetup·AppUpdateCheck.BuiltInVersionCode·ProjectSettings·버전 시험 기대값. 기본 빌드 base_id 4d5e11bd, content state 커밋. APK 64.5 MB(고정 서명 키, dev = CD_TEST_STORE), 빌드 3분 27초.\n</li>\n<li>확인: <code>check --unity</code> Core 511/511 · 데이터·그림 101장(경고 6, 확인함)·설정 오류 0 · EditMode 218/218. PlayMode 는 cd36 마감 때 242 중 194 통과 · 실패 0 · 건너뜀 48(그 뒤 바뀐 것은 버전 줄뿐이라 다시 돌리지 않음).\n</li>\n<li>Firebase App Distribution 0.7.0 (11) 릴리스 736r03022pnkg → 그룹 testers. 릴리스 노트 첫 줄 = 저장 전부 초기화 안내(CD-0036 <code>95-tester-notice.md</code>, 저장 v13: 12 이하는 알림 없이 새 계정 + player.pre13.bak).\n</li>\n<li>CCD: 처음 <code>cdn_update.ps1 -Gui</code> 는 «[cdn-upload] 인증 없음 — 편집기 Unity 계정 토큰이 비어 있음»으로 멈춰 Firebase 만 <code>-SkipVersionFile</code> 로 먼저 냈다. 사용자가 Unity 에 로그인한 뒤 다시 돌림: 원격 카탈로그 <code>catalog_0.7.0-4d5e11bd</code>(바뀐 항목 0, .bin 45573B·.hash 32B) 올림, 0.6.2 카탈로그 지움 → CCD 릴리스 28. 이어 <code>app_version_upload.ps1 -Gui -VersionCode 11</code> → <code>Android/app_version.json</code>(versionCode 11 · 0.7.0 · Firebase 릴리스 주소) → 릴리스 29. 공개 주소(배지 latest)에서 app_version.json·0.7.0 hash 200, 0.6.2 hash 404 확인. 0.6.2 이하 앱은 이제 켤 때 «새 버전» 창이 뜬다(카탈로그는 404 → 앱 안 그림, 정상 경로).\n</li>\n<li>PlayMode <code>ScreenTransitionTests.LobbyAndMatchChangeThroughATransition</code> 이 합친 직후 전체 실행에서 한 번 «낮음» 기대에 실패(따로 돌리면 통과, 이후 cd30·cd34·cd36 전체 실행에서는 0 실패). 원인 못 찾음 — 시험 사이 상태 누수로 추정.\n</li>\n<li>실기기 설치·사람 플레이는 안 함. 주문 마감(90-close·gate close)은 사람 플레이 뒤.\n</li>\n<li>사용자 확인할 것: [일괄 합성] 버튼이 16:9 2인 맨 아랫줄 오른쪽 칸을 덮음(결정 0061 그대로) · 2인 보통 84.3% · 2인 정예 33.3% &lt; 1인 42.9%(보정 없음 = 사용자 답) · CD-0034 gate qa 는 사용자 지시로 통과 처리(독립 QA 미완, <code>30-qa.md</code>) · 1-1 5웨이브 광부 고용 골드 30 이 모이는지 · 하루 쿠지 티켓 72~134장(목표 약 80) · 망루 기둥이 작음·데크 가로 경계 약함.\n</li></ul>",
@@ -16270,7 +16272,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-21 03:13",
+"at": "2026-11-21 03:38",
 "passed": 511,
 "failed": 0,
 "total": 511,
@@ -16278,7 +16280,7 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-21 03:17",
+"at": "2026-11-21 03:42",
 "passed": 277,
 "failed": 0,
 "total": 277,
@@ -16287,7 +16289,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-21 03:13",
+"at": "2026-11-21 03:38",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16295,7 +16297,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-21 03:13",
+"at": "2026-11-21 03:38",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16303,7 +16305,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-21 03:13",
+"at": "2026-11-21 03:38",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16545,7 +16547,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-21 03:17",
-"generatedAt": "2026-11-21 03:17",
-"digest": "b673cdde2df5ec14"
+"sourceAt": "2026-11-21 03:47",
+"generatedAt": "2026-11-21 03:47",
+"digest": "96a4f1a5d52a9c97"
 }
