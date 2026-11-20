@@ -1330,7 +1330,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0024",
+"order": "CD-0025",
 "head": "e145fe8",
 "commits": [
 {
@@ -1637,7 +1637,7 @@
 "lane": "cd32",
 "session": "",
 "owns": "",
-"order": "CD-0029",
+"order": "CD-0031",
 "head": "3dd41bf",
 "commits": [
 {
@@ -1839,43 +1839,43 @@
 "msg": "CD-0036 화면 4차: 판 밖 안내가 로비 탭이 아니어도 첫 단계가 하단 탭이면 지금 탭에서 시작(o4_legend → o5_mail_shop 사슬이 끊기던 것) · 뽑기 결과 [확인] 손가락은 제비 펼침 뒤 · 전설 구역 단계에서 스크롤 · 지도 카드 자물쇠를 어두운 판 위 작은 자물쇠로 · 결과 화면 캡처·감사 점수(사용자 취침 중 권장안)"
 }
 ],
-"dirtyCount": 25,
+"dirtyCount": 43,
 "dirty": [
 {
 "file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_draft/0065-인게임-단계-강화는-차원석-골드는-소환과-고용만-광부-상한은-계정-레벨-5-15-계정-레벨-200.md",
-"at": "2026-11-20 16:59"
+"at": "2026-11-20 19:36"
 },
 {
 "file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/10-spec.md",
-"at": "2026-11-20 16:59"
+"at": "2026-11-20 19:35"
 },
 {
-"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/curve38.py",
-"at": "2026-11-20 16:55"
+"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/results/kM.tsv",
+"at": "2026-11-20 19:30"
 },
 {
-"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/setup.py",
-"at": "2026-11-20 16:55"
+"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/results/kH.tsv",
+"at": "2026-11-20 19:30"
 },
 {
-"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/run.sh",
-"at": "2026-11-20 16:55"
+"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/results/kG.tsv",
+"at": "2026-11-20 19:30"
 },
 {
-"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/results/g5x.tsv",
-"at": "2026-11-20 16:55"
+"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/results/kF.tsv",
+"at": "2026-11-20 19:30"
 },
 {
-"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/results/b2p.tsv",
-"at": "2026-11-20 16:55"
+"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/results/kE.tsv",
+"at": "2026-11-20 19:30"
 },
 {
-"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/results/f2p.tsv",
-"at": "2026-11-20 16:55"
+"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/_sim/results/kD.tsv",
+"at": "2026-11-20 19:30"
 }
 ],
-"lastEdit": "2026-11-20 16:59",
-"lastEditTs": 1795161594.8897264,
+"lastEdit": "2026-11-20 19:36",
+"lastEditTs": 1795170968.608274,
 "lastCommitTs": 1795153801,
 "unpushed": 0,
 "notInMain": 0,
@@ -5403,7 +5403,7 @@
 "id": "CD-0038",
 "title": "인게임 단계 강화를 차원석으로 · 골드 수급 줄임 · 광부 상한 5→15(계정 레벨) · 계정 레벨 최대 200 긴 곡선(10명 3달·15명 1년)",
 "branch": "cd38",
-"updated": "2026-11-20 16:59",
+"updated": "2026-11-20 19:36",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -5417,14 +5417,14 @@
 "teams": "planning, core, client",
 "opened": "2026-11-20",
 "closed": "",
-"goal": "<ol>\n<li>인게임 <strong>단계 강화를 차원석으로</strong> 산다. 차원석 쓰는 곳 = 단계 강화 · 전설 진화(45) · 영웅 교체(1·3·8·20). 셋 중 하나가 나머지를 누르지 않는다.\n</li>\n<li>골드 쓰는 곳이 소환·광부 고용 둘이 되므로 <strong>골드 수급을 줄인다</strong>: 맵 2 약 −30%, 맵 1 약 −7%. 판 난이도(CD-0036 띠 B)는 그대로.\n</li>\n<li>광부: <strong>고용 값은 소환보다 비싸고 고용마다 오른다</strong>(지금 30 + 10k 그대로). <strong>상한 = 계정 레벨</strong>: 처음 5, 최대 15.\n</li>\n<li><strong>계정 레벨 최대 200</strong>. 광부 10명 = 보통 플레이 3달 안, 15명 = 열심 플레이로도 1년 넘게. 레벨 업 보상은 <strong>한 번에 더 많이</strong>, 하루 평균은 지금과 비슷하게.\n</li>\n<li>튜토리얼 글·화면 값을 새 규칙에 맞춘다(새 시스템 = 해금·안내 줄도 — 결정 0064 11).\n</li></ol>",
+"goal": "<ol>\n<li>인게임 <strong>단계 강화를 차원석으로</strong> 산다. 차원석 쓰는 곳 = 단계 강화 · 전설 진화(45) · 영웅 교체(1·3·8·20). 셋 중 하나가 나머지를 누르지 않는다.\n</li>\n<li>골드 쓰는 곳이 소환·광부 고용 둘이 되므로 골드가 남아돌지 않게 한다: <strong>처치 골드는 몬스터 한 마리당 한 값</strong>(사용자 답), 모자란 몫은 늦은 현상금으로. 맵 1 이 무너지지 않고 소환이 막히지 않으며 판 난이도(CD-0036 띠 B)는 그대로.\n</li>\n<li>광부: <strong>첫 값은 소환보다 비싸고, 5명 단위로 오름 폭이 커진다</strong>(사용자 답). <strong>상한 = 계정 레벨</strong>: 처음 5, 최대 15.\n</li>\n<li><strong>계정 레벨 최대 200</strong>. 광부 10명 = 보통 플레이 3달 안, 15명 = 열심 플레이 1년. 레벨 업 보상은 <strong>한 번에 더 많이</strong>, 하루 평균은 지금과 비슷하게. 0.7.0 저장은 누적 경험치로 새 레벨을 다시 계산.\n</li>\n<li>튜토리얼 글·화면 값을 새 규칙에 맞춘다(새 시스템 = 해금·안내 줄도 — 결정 0064 11).\n</li></ol>",
 "goalShort": "1.",
 "tasks": [
 {
 "id": "P1",
 "key": "CD-0038/P1",
 "team": "planning",
-"title": "사용자 답 반영 · 결정 0065 를 docs/decisions/ 로 · §5 의 Data/ 7개 · validate_data.py 새 검사 ①~⑧ · docs/10·11·13·14 · 0054·0063 표시 · 대표에게 CHARTER L11·cd-canon 표 고침 요청",
+"title": "결정 0065 를 docs/decisions/ 로 · §5 의 Data/ 9개 · validate_data.py 새 검사 ①~⑩ · docs/10·11·13·14 · 0054·0063 표시 · 대표에게 CHARTER L11·cd-canon 표 고침 요청",
 "output": "20-planning.md",
 "status": "todo",
 "why": ""
@@ -5433,7 +5433,7 @@
 "id": "P2",
 "key": "CD-0038/P2",
 "team": "planning",
-"title": "C4 표로 띠 B′(§1-5)·§1-2 골드·§1-4 균형을 진짜 Core 로 확인, 벗어나면 upgrade·bounty 숫자만 고침",
+"title": "C4 표로 띠 B′(§1-5)·§1-2 골드·§1-3 고용·§1-4 균형을 진짜 Core 로 확인, 벗어나면 upgrade·bounty·hireCostSteps 숫자만 고침",
 "output": "20-planning.md",
 "status": "todo",
 "why": ""
@@ -5442,7 +5442,7 @@
 "id": "C1",
 "key": "CD-0038/C1",
 "team": "core",
-"title": "단계 강화 차원석: UpgradeConfig.Currency, CheckUpgrade(… → UpgradeMaxed → NotEnoughStones)·DoUpgrade(StoneMilli), StageUpgraded.CellB = 낸 양, GetUpgradeStatus 값 단위, 봇(SimpleBot·FocusBot·OneRaceBot)의 차원석 강화 정책(§1-6 ③ 꼴), 기준 재생 해시 갱신(이유 적음)",
+"title": "단계 강화 차원석: UpgradeConfig.Currency, CheckUpgrade(… → UpgradeMaxed → NotEnoughStones)·DoUpgrade(StoneMilli), StageUpgraded.CellB = 낸 양, GetUpgradeStatus 값 단위, 봇(SimpleBot·FocusBot·OneRaceBot) 차원석 강화 정책(§1-6 ③ 꼴), 처치 골드 MonstersConfig.KillGold 한 값(유형 % 지움), 기준 재생 해시 갱신(이유 적음)",
 "output": "21-core.md",
 "status": "todo",
 "why": ""
@@ -5451,7 +5451,7 @@
 "id": "C2",
 "key": "CD-0038/C2",
 "team": "core",
-"title": "광부 상한 = 계정 레벨: PlayerLoadout.AccountLevel(없으면 1), StonesConfig.CapFor(level), CheckHire 의 MineFull·NextHireCost 가 사람마다 상한, 스냅샷·이어 하기에 상한 보존, 협동은 사람마다",
+"title": "광부: StonesConfig.HireCost 를 hireCostSteps 구간 표로, PlayerLoadout.AccountLevel(없으면 1), StonesConfig.CapFor(level), CheckHire 의 MineFull·NextHireCost 가 사람마다 상한, 스냅샷·이어 하기에 상한 보존, 협동은 사람마다",
 "output": "21-core.md",
 "status": "todo",
 "why": ""
@@ -5460,7 +5460,7 @@
 "id": "C3",
 "key": "CD-0038/C3",
 "team": "core",
-"title": "Meta: account.json 200 · 보상 줄 {base, perLevel, div}(레벨·마일스톤) · 레벨 업 결과에 광부 상한 전·후 · stamina.maxLimit · Tutorial 조건 accountLevel · v13 저장의 레벨·경험치 그대로 열림 시험",
+"title": "Meta: account.json 200 · 보상 줄 {base, perLevel, div} · 레벨 업 결과에 광부 상한 전·후 · stamina.maxLimit · Tutorial 조건 accountLevel · Account.FromOldCurve(level, exp, convert_v14) 순수 함수와 §2-6 표 시험",
 "output": "21-core.md",
 "status": "todo",
 "why": ""
@@ -5487,7 +5487,7 @@
 "id": "U2",
 "key": "CD-0038/U2",
 "team": "client",
-"title": "광산 시트 15칸 5×3 · 상한 밖 자물쇠 · 다음 칸 «Lv.n» · 판 시작 loadout 에 계정 레벨",
+"title": "광산 시트 15칸 5×3 · 상한 밖 자물쇠 · 다음 칸 «Lv.n» · [고용] 값 구간 표 · 판 시작 loadout 에 계정 레벨",
 "output": "22-client.md",
 "status": "todo",
 "why": ""
@@ -5502,10 +5502,19 @@
 "why": ""
 },
 {
+"id": "U4",
+"key": "CD-0038/U4",
+"team": "client",
+"title": "저장 v14: PlayerData.CurrentVersion 14, v13 → v14 변환(Account.FromOldCurve)·player.v13.bak 한 번·DeleteAll 목록에 더함, 레벨이 내려간 계정 알림 한 번, EditMode 변환 시험",
+"output": "22-client.md",
+"status": "todo",
+"why": ""
+},
+{
 "id": "Q1",
 "key": "CD-0038/Q1",
 "team": "qa",
-"title": "수용 기준 대조 · 새 계정 1-1 → 2-1 손으로 한 번 · 방향 잠금(L6·L10·L11) · 화면 글자",
+"title": "수용 기준 대조 · 새 계정 1-1 → 2-1 손으로 한 번 · v13 저장 파일 하나를 열어 변환 확인 · 방향 잠금(L6·L10·L11) · 화면 글자",
 "output": "30-qa.md",
 "status": "todo",
 "why": ""
@@ -15314,7 +15323,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 16:59",
-"generatedAt": "2026-11-20 18:47",
-"digest": "419e7deeca994f27"
+"sourceAt": "2026-11-20 19:36",
+"generatedAt": "2026-11-20 19:47",
+"digest": "5a974239b1e3439a"
 }
