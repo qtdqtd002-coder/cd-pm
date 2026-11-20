@@ -1330,7 +1330,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0024",
+"order": "CD-0025",
 "head": "e145fe8",
 "commits": [
 {
@@ -1896,8 +1896,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0036",
-"head": "06b5a20",
+"head": "8f2306d",
 "commits": [
+{
+"sha": "8f2306d",
+"at": "2026-11-20 11:00",
+"ts": 1795140058,
+"msg": "CD-0036 Core 2차: Core 511/511 · 기준 재생 해시 그대로(사본 데이터) · 새 시험 15(수용 기준 1-1~1-4·1-6·1-7·1-9·퀘스트·상점 레드닷) · 시뮬레이터 +lv/+plus/+script · 레벨 구간별 측정 _sim/c4"
+},
 {
 "sha": "06b5a20",
 "at": "2026-11-20 10:16",
@@ -1927,68 +1933,62 @@
 "at": "2026-11-20 09:57",
 "ts": 1795136269,
 "msg": "CD-0036 P1: 스테이지 20줄(1-1 행동력 0·나머지 5) · 옛 난이도 세트 삭제 · 이음새(unlockStage·stageClearRift·setPct·waveTiers 30·ticketEveryWaves 4·singleClearExp·환영 선물 우편·미션 feature) · validate_data 새 검사 · docs/10~14 · 결정 0037 대체"
-},
-{
-"sha": "6736dc6",
-"at": "2026-11-20 09:30",
-"ts": 1795134632,
-"msg": "Merge branch 'main' into cd36"
 }
 ],
-"dirtyCount": 19,
+"dirtyCount": 101,
 "dirty": [
 {
-"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_sim/c4/table.py",
-"at": "2026-11-20 10:45"
+"file": "UnityProject/Assets/_Game/UI/LockMark.cs",
+"at": "2026-11-20 11:16"
 },
 {
-"file": "Core/tests/SimulatorTests.cs",
-"at": "2026-11-20 10:39"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-20 11:15"
 },
 {
-"file": "tools/sim/src/Program.cs",
-"at": "2026-11-20 10:38"
+"file": "UnityProject/Assets/Tests/EditMode/Cd36Wins.cs.meta",
+"at": "2026-11-20 11:15"
 },
 {
-"file": "tools/sim/src/Batch.cs",
-"at": "2026-11-20 10:38"
+"file": "UnityProject/Assets/Tests/PlayMode/Cd36Wins.cs.meta",
+"at": "2026-11-20 11:15"
 },
 {
-"file": "tools/sim/src/MatchRunner.cs",
-"at": "2026-11-20 10:38"
+"file": "UnityProject/Assets/Tests/EditMode/OutgameContractEditModeTests.cs",
+"at": "2026-11-20 11:15"
 },
 {
-"file": "tools/sim/src/SimContext.cs",
-"at": "2026-11-20 10:37"
+"file": "UnityProject/Assets/Tests/EditMode/OutgameRound2EditModeTests.cs",
+"at": "2026-11-20 11:15"
 },
 {
-"file": "tools/sim/src/Bots.cs",
-"at": "2026-11-20 10:37"
+"file": "UnityProject/Assets/Tests/EditMode/OutgameMetaEditModeTests.cs",
+"at": "2026-11-20 11:15"
 },
 {
-"file": "Core/package/Runtime/Match/SimpleBot.cs",
-"at": "2026-11-20 10:36"
+"file": "UnityProject/Assets/Tests/EditMode/OutgameMapsEditModeTests.cs",
+"at": "2026-11-20 11:15"
 }
 ],
-"lastEdit": "2026-11-20 10:45",
-"lastEditTs": 1795139147.369579,
-"lastCommitTs": 1795137390,
-"unpushed": 8,
-"notInMain": 8,
-"today": 24
+"lastEdit": "2026-11-20 11:16",
+"lastEditTs": 1795140981.7763815,
+"lastCommitTs": 1795140058,
+"unpushed": 9,
+"notInMain": 9,
+"today": 25
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 20,
+"commits": 21,
 "byOrder": [
 [
-"CD-0034",
+"CD-0036",
 9
 ],
 [
-"CD-0036",
-8
+"CD-0034",
+9
 ],
 [
 "CD-0030",
@@ -2000,6 +2000,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "8f2306d",
+"at": "2026-11-20 11:00",
+"msg": "CD-0036 Core 2차: Core 511/511 · 기준 재생 해시 그대로(사본 데이터) · 새 시험 15(수용 기준 1-1~1-4·1-6·1-7·1-9·퀘스트·상점 레드닷) · 시뮬레이터 +lv/+plus/+script · 레벨 구간별 측정 _sim/c4"
+},
 {
 "sha": "dcd04ca",
 "at": "2026-11-20 10:16",
@@ -2044,11 +2049,6 @@
 "sha": "3fe8e7b",
 "at": "2026-11-20 02:34",
 "msg": "CD-0034 C1·C2 인게임 Core·측정: 처치 골드 본인 귀속 · 차원석(StoneMilli 1/1000) · 광산 hire(30+10k, 8명, 웨이브 2부터) · 교체 reroll(1·3·8·20, rrol 줄) · 진화 비용 차원석 45(NotEnoughStones) · 스냅샷 n · 미션 miners_hired·evolves"
-},
-{
-"sha": "b6eb304",
-"at": "2026-11-20 02:11",
-"msg": "CD-0036 신호 전 작업(cd36): 결정 0064 · Data/tutorial.json(자리 56·해금 25·안내 22·퀘스트 2) · 맵 2 gate_04 «갈대 관문» 배치 · 새 웨이브 세트 20(더하기만) · 맵 2 바닥 그림 4장 draft · 공용 안내 막(말풍선·손가락·구멍 막·자리 등록부, 미연결)"
 }
 ]
 },
@@ -5226,7 +5226,7 @@
 "id": "CD-0036",
 "title": "튜토리얼과 초반 동선: 튜토리얼 맵 10스테이지·다음 맵·해금·환영 선물·계정 초기화",
 "branch": "cd36",
-"updated": "2026-11-20 10:41",
+"updated": "2026-11-20 11:09",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -6638,7 +6638,7 @@
 },
 "waves": {
 "data": {
-"_note": "CD-0036(결정 0064, 사용자 결정 2026-11-19). 웨이브 세트 하나 = 스테이지 하나(stages.json 의 id 와 같다). gate_03_01~gate_03_10 = 맵 1 «목책 관문»(튜토리얼 맵), 10웨이브, 보스는 웨이브 10 · gate_04_01~gate_04_10 = 맵 2 «갈대 관문», 30웨이브, 보스는 15·30. 규칙(사용자 답 2·10): 비행 유형 없음 · 웨이브 하나 = groups 한 줄(몬스터 1종) · 보스 웨이브 = 보스 1마리만 · 그림자 무리 몬스터만. 맵 1 은 스테이지마다 종이 하나씩 는다(1-1 졸개 → 1-2 추적자 → 1-3 떼 → 1-4 방패병 → 1-5 응어리, 1-6 부터 다섯 종이 돈다), 맵 2 는 졸개·추적자·떼·방패병·응어리 차례. 1-1 의 \"script\": \"intro\" = 튜토리얼 판 깃발(정해진 소환 차례·웨이브 대기, Data/tutorial.json matchScripts.intro — 1인 판만). hpPct 는 보스 웨이브를 빼면 웨이브마다 내려가지 않는다(맵 1 보스 = 웨이브 9 × 0.85 라 앞 웨이브보다 낮을 수 있다). 숫자는 CD-0036 기획 측정(_sim/gen_waves.py · final.json, CD-0034 전 Core · 맵 2 는 gate_03 배치를 빌린 대리 측정)의 초안이고 P2 에서 CD-0034 Core·자기 배치로 다시 맞춘다(10-spec §8-2 띠 B · 레벨 구간별). 웨이브 안의 groups 는 위에서 아래 차례로 나온다. 옛 세트 셋(gate_03_std·hard·elite — 20웨이브·여러 종·비행, CD-0030 P3 값: 보통 simple 50.0%·focus 96.7%, 어려움 1.4%·64.8%, 정예 0.5%·42.9%)은 CD-0036 P1 에서 지웠다. 되돌리는 법 = 커밋 5ee7f23 의 Data/waves.json 에서 그 셋을 다시 넣고 stages·reward·account·legends 도 같은 커밋으로(결정 0064 «되돌리는 법»). 그 전 조정 기록(CD-0005~CD-0030)은 그 커밋의 _note.",
+"_note": "CD-0036(결정 0064, 사용자 결정 2026-11-19). 웨이브 세트 하나 = 스테이지 하나(stages.json 의 id 와 같다). gate_03_01~gate_03_10 = 맵 1 «목책 관문»(튜토리얼 맵), 10웨이브, 보스는 웨이브 10 · gate_04_01~gate_04_10 = 맵 2 «갈대 관문», 30웨이브, 보스는 15·30. 규칙(사용자 답 2·10): 비행 유형 없음 · 웨이브 하나 = groups 한 줄(몬스터 1종) · 보스 웨이브 = 보스 1마리만 · 그림자 무리 몬스터만. 맵 1 은 스테이지마다 종이 하나씩 는다(1-1 졸개 → 1-2 추적자 → 1-3 떼 → 1-4 방패병 → 1-5 응어리, 1-6 부터 다섯 종이 돈다), 맵 2 는 졸개·추적자·떼·방패병·응어리 차례. 1-1 의 \"script\": \"intro\" = 튜토리얼 판 깃발(정해진 소환 차례·웨이브 대기, Data/tutorial.json matchScripts.intro — 1인 판만). hpPct 는 보스 웨이브를 빼면 웨이브마다 내려가지 않는다(맵 1 보스 = 웨이브 9 × 0.85 라 앞 웨이브보다 낮을 수 있다). 숫자 = CD-0036 P2(2026-11-20) 다시 맞춤: 식은 10-spec §8-2(_sim/gen_waves.py m1_hp·m2_hp), 손잡이는 _sim/p2/params.json — 초안(final.json)에서 1-10 보정 0.95 → 0.90 · 맵 2 시작 170 → 155 · 맵 2 스테이지 증가 1.14 → 1.115 만 바꿈, CD-0034 Core·gate_04 자기 배치·시뮬레이터(1인 시드 1~210)로 잼: 1-10 simple 67.1% · 2-1 focus 93.3% · 2-10 focus 49.0%(띠 B 전부 맞음, _sim/p2/summary.md). 레벨 구간(Lv.30 이상 2-10 90% 넘음)은 그대로 둠 — 사용자 취침 중 권장안, 이유는 주문 20-planning.md «P2». 웨이브 안의 groups 는 위에서 아래 차례로 나온다. 옛 세트 셋(gate_03_std·hard·elite — 20웨이브·여러 종·비행, CD-0030 P3 값: 보통 simple 50.0%·focus 96.7%, 어려움 1.4%·64.8%, 정예 0.5%·42.9%)은 CD-0036 P1 에서 지웠다. 되돌리는 법 = 커밋 5ee7f23 의 Data/waves.json 에서 그 셋을 다시 넣고 stages·reward·account·legends 도 같은 커밋으로(결정 0064 «되돌리는 법»). 그 전 조정 기록(CD-0005~CD-0030)은 그 커밋의 _note.",
 "sets": {
 "gate_03_01": {
 "map": "gate_03",
@@ -7681,7 +7681,7 @@
 "waves": [
 {
 "wave": 1,
-"hpPct": 111,
+"hpPct": 106,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -7692,7 +7692,7 @@
 },
 {
 "wave": 2,
-"hpPct": 171,
+"hpPct": 162,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -7703,7 +7703,7 @@
 },
 {
 "wave": 3,
-"hpPct": 262,
+"hpPct": 248,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -7714,7 +7714,7 @@
 },
 {
 "wave": 4,
-"hpPct": 402,
+"hpPct": 381,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -7725,7 +7725,7 @@
 },
 {
 "wave": 5,
-"hpPct": 616,
+"hpPct": 583,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -7736,7 +7736,7 @@
 },
 {
 "wave": 6,
-"hpPct": 944,
+"hpPct": 894,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -7747,7 +7747,7 @@
 },
 {
 "wave": 7,
-"hpPct": 1446,
+"hpPct": 1370,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -7758,7 +7758,7 @@
 },
 {
 "wave": 8,
-"hpPct": 2215,
+"hpPct": 2098,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -7769,7 +7769,7 @@
 },
 {
 "wave": 9,
-"hpPct": 3393,
+"hpPct": 3214,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -7780,7 +7780,7 @@
 },
 {
 "wave": 10,
-"hpPct": 2884,
+"hpPct": 2731,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -7796,7 +7796,7 @@
 "waves": [
 {
 "wave": 1,
-"hpPct": 170,
+"hpPct": 155,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -7807,7 +7807,7 @@
 },
 {
 "wave": 2,
-"hpPct": 197,
+"hpPct": 179,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -7818,7 +7818,1012 @@
 },
 {
 "wave": 3,
-"hpPct": 228,
+"hpPct": 208,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 13,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 241,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 280,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 325,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 377,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 7,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 438,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 508,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 4,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 589,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 683,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 793,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 848,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 19,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 908,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 1044,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 1039,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 11,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 1112,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 9,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 1190,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 21,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 1273,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 1362,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 21,
+"hpPct": 1458,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 22,
+"hpPct": 1560,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 23,
+"hpPct": 1669,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 24,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 24,
+"hpPct": 1786,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 25,
+"hpPct": 1911,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 26,
+"hpPct": 2045,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 13,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 27,
+"hpPct": 2188,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 11,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 28,
+"hpPct": 2341,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 27,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 29,
+"hpPct": 2505,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 7,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 30,
+"hpPct": 2880,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+}
+]
+},
+"gate_04_02": {
+"map": "gate_04",
+"waves": [
+{
+"wave": 1,
+"hpPct": 158,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 184,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 214,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 13,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 249,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 290,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 337,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 392,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 7,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 457,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 531,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 4,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 618,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 720,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 837,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 899,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 19,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 965,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 1109,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 1111,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 11,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 1192,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 9,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 1280,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 21,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 1373,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 1474,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 21,
+"hpPct": 1582,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 22,
+"hpPct": 1698,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 23,
+"hpPct": 1822,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 24,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 24,
+"hpPct": 1956,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 25,
+"hpPct": 2099,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 26,
+"hpPct": 2253,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 13,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 27,
+"hpPct": 2418,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 11,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 28,
+"hpPct": 2595,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 27,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 29,
+"hpPct": 2785,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 7,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 30,
+"hpPct": 3202,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+}
+]
+},
+"gate_04_03": {
+"map": "gate_04",
+"waves": [
+{
+"wave": 1,
+"hpPct": 161,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 188,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 220,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 13,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 257,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 300,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 350,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 408,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 7,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 477,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 556,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 4,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 649,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 758,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 885,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 952,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 19,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 1025,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 1178,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 1188,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 11,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 1279,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 9,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 1376,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 21,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 1482,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 1595,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 21,
+"hpPct": 1717,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 22,
+"hpPct": 1848,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 23,
+"hpPct": 1990,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 24,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 24,
+"hpPct": 2142,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 25,
+"hpPct": 2306,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 26,
+"hpPct": 2482,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 13,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 27,
+"hpPct": 2672,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 11,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 28,
+"hpPct": 2876,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 27,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 29,
+"hpPct": 3096,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 7,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 30,
+"hpPct": 3560,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+}
+]
+},
+"gate_04_04": {
+"map": "gate_04",
+"waves": [
+{
+"wave": 1,
+"hpPct": 165,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 193,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 226,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -7840,7 +8845,7 @@
 },
 {
 "wave": 5,
-"hpPct": 307,
+"hpPct": 310,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -7851,7 +8856,7 @@
 },
 {
 "wave": 6,
-"hpPct": 357,
+"hpPct": 363,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -7862,7 +8867,7 @@
 },
 {
 "wave": 7,
-"hpPct": 414,
+"hpPct": 425,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -7873,7 +8878,7 @@
 },
 {
 "wave": 8,
-"hpPct": 480,
+"hpPct": 498,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -7884,7 +8889,7 @@
 },
 {
 "wave": 9,
-"hpPct": 557,
+"hpPct": 582,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -7895,342 +8900,7 @@
 },
 {
 "wave": 10,
-"hpPct": 646,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 749,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 869,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 930,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 995,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1144,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1140,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1220,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1305,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1396,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 1494,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 1599,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 1711,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 1831,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 1959,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 2096,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 2243,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 2400,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 2568,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 2747,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 3159,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_02": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 174,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 203,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 236,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 275,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 320,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 373,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 434,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 505,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 588,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 685,
+"hpPct": 682,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -8252,7 +8922,7 @@
 },
 {
 "wave": 12,
-"hpPct": 929,
+"hpPct": 934,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8263,7 +8933,7 @@
 },
 {
 "wave": 13,
-"hpPct": 997,
+"hpPct": 1009,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -8274,7 +8944,7 @@
 },
 {
 "wave": 14,
-"hpPct": 1071,
+"hpPct": 1089,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8285,7 +8955,7 @@
 },
 {
 "wave": 15,
-"hpPct": 1231,
+"hpPct": 1252,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -8296,7 +8966,7 @@
 },
 {
 "wave": 16,
-"hpPct": 1235,
+"hpPct": 1270,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -8307,7 +8977,7 @@
 },
 {
 "wave": 17,
-"hpPct": 1327,
+"hpPct": 1371,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8318,7 +8988,7 @@
 },
 {
 "wave": 18,
-"hpPct": 1425,
+"hpPct": 1480,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -8329,7 +8999,7 @@
 },
 {
 "wave": 19,
-"hpPct": 1530,
+"hpPct": 1598,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8340,7 +9010,7 @@
 },
 {
 "wave": 20,
-"hpPct": 1643,
+"hpPct": 1726,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -8351,7 +9021,7 @@
 },
 {
 "wave": 21,
-"hpPct": 1764,
+"hpPct": 1863,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -8362,7 +9032,7 @@
 },
 {
 "wave": 22,
-"hpPct": 1895,
+"hpPct": 2012,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8373,7 +9043,7 @@
 },
 {
 "wave": 23,
-"hpPct": 2035,
+"hpPct": 2172,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -8384,7 +9054,7 @@
 },
 {
 "wave": 24,
-"hpPct": 2185,
+"hpPct": 2345,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8395,7 +9065,7 @@
 },
 {
 "wave": 25,
-"hpPct": 2347,
+"hpPct": 2532,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -8406,7 +9076,7 @@
 },
 {
 "wave": 26,
-"hpPct": 2520,
+"hpPct": 2734,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -8417,7 +9087,7 @@
 },
 {
 "wave": 27,
-"hpPct": 2706,
+"hpPct": 2952,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8428,7 +9098,7 @@
 },
 {
 "wave": 28,
-"hpPct": 2906,
+"hpPct": 3187,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -8439,7 +9109,7 @@
 },
 {
 "wave": 29,
-"hpPct": 3121,
+"hpPct": 3441,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8450,7 +9120,7 @@
 },
 {
 "wave": 30,
-"hpPct": 3589,
+"hpPct": 3957,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -8461,12 +9131,12 @@
 }
 ]
 },
-"gate_04_03": {
+"gate_04_05": {
 "map": "gate_04",
 "waves": [
 {
 "wave": 1,
-"hpPct": 179,
+"hpPct": 169,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -8477,7 +9147,7 @@
 },
 {
 "wave": 2,
-"hpPct": 209,
+"hpPct": 198,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8488,7 +9158,7 @@
 },
 {
 "wave": 3,
-"hpPct": 244,
+"hpPct": 233,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -8499,7 +9169,7 @@
 },
 {
 "wave": 4,
-"hpPct": 285,
+"hpPct": 273,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8510,7 +9180,7 @@
 },
 {
 "wave": 5,
-"hpPct": 333,
+"hpPct": 321,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -8521,7 +9191,7 @@
 },
 {
 "wave": 6,
-"hpPct": 390,
+"hpPct": 377,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -8532,7 +9202,7 @@
 },
 {
 "wave": 7,
-"hpPct": 455,
+"hpPct": 442,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8543,7 +9213,7 @@
 },
 {
 "wave": 8,
-"hpPct": 532,
+"hpPct": 519,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -8554,7 +9224,7 @@
 },
 {
 "wave": 9,
-"hpPct": 622,
+"hpPct": 610,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8565,7 +9235,7 @@
 },
 {
 "wave": 10,
-"hpPct": 727,
+"hpPct": 716,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -8576,7 +9246,7 @@
 },
 {
 "wave": 11,
-"hpPct": 849,
+"hpPct": 841,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -8587,7 +9257,7 @@
 },
 {
 "wave": 12,
-"hpPct": 992,
+"hpPct": 987,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8609,7 +9279,7 @@
 },
 {
 "wave": 14,
-"hpPct": 1153,
+"hpPct": 1158,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8620,7 +9290,7 @@
 },
 {
 "wave": 15,
-"hpPct": 1325,
+"hpPct": 1331,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -8631,7 +9301,7 @@
 },
 {
 "wave": 16,
-"hpPct": 1339,
+"hpPct": 1358,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -8642,7 +9312,7 @@
 },
 {
 "wave": 17,
-"hpPct": 1443,
+"hpPct": 1470,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8653,7 +9323,7 @@
 },
 {
 "wave": 18,
-"hpPct": 1555,
+"hpPct": 1592,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -8664,7 +9334,7 @@
 },
 {
 "wave": 19,
-"hpPct": 1676,
+"hpPct": 1724,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8675,7 +9345,7 @@
 },
 {
 "wave": 20,
-"hpPct": 1807,
+"hpPct": 1867,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -8686,7 +9356,7 @@
 },
 {
 "wave": 21,
-"hpPct": 1947,
+"hpPct": 2022,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -8697,7 +9367,7 @@
 },
 {
 "wave": 22,
-"hpPct": 2099,
+"hpPct": 2190,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8708,7 +9378,7 @@
 },
 {
 "wave": 23,
-"hpPct": 2262,
+"hpPct": 2372,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -8719,7 +9389,7 @@
 },
 {
 "wave": 24,
-"hpPct": 2438,
+"hpPct": 2569,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8730,7 +9400,7 @@
 },
 {
 "wave": 25,
-"hpPct": 2627,
+"hpPct": 2782,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -8741,7 +9411,7 @@
 },
 {
 "wave": 26,
-"hpPct": 2832,
+"hpPct": 3012,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -8752,7 +9422,7 @@
 },
 {
 "wave": 27,
-"hpPct": 3052,
+"hpPct": 3262,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -8763,7 +9433,7 @@
 },
 {
 "wave": 28,
-"hpPct": 3289,
+"hpPct": 3533,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -8774,7 +9444,7 @@
 },
 {
 "wave": 29,
-"hpPct": 3545,
+"hpPct": 3826,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -8785,677 +9455,7 @@
 },
 {
 "wave": 30,
-"hpPct": 4076,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_04": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 183,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 215,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 252,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 296,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 347,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 407,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 478,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 560,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 657,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 771,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 904,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 1060,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 1146,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1240,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1426,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1451,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1569,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1698,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1836,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 1986,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 2149,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 2324,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 2514,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 2719,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 2942,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 3182,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 3442,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 3723,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 4027,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 4631,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_05": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 188,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 222,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 261,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 307,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 362,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 426,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 501,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 590,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 694,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 817,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 962,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 1132,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 1229,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1334,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1534,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1573,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1707,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1853,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 2012,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 2184,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 2371,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 2574,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 2794,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 3034,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 3293,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 3575,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 3881,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 4213,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 4574,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 5260,
+"hpPct": 4399,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -9471,7 +9471,7 @@
 "waves": [
 {
 "wave": 1,
-"hpPct": 193,
+"hpPct": 172,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -9482,7 +9482,7 @@
 },
 {
 "wave": 2,
-"hpPct": 228,
+"hpPct": 203,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -9493,7 +9493,1347 @@
 },
 {
 "wave": 3,
-"hpPct": 270,
+"hpPct": 239,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 13,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 282,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 332,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 391,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 460,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 7,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 542,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 638,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 4,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 752,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 885,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 1043,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 1133,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 19,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 1230,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 1414,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 1452,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 11,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 1577,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 9,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 1713,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 21,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 1860,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 2021,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 21,
+"hpPct": 2195,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 22,
+"hpPct": 2384,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 23,
+"hpPct": 2590,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 24,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 24,
+"hpPct": 2813,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 25,
+"hpPct": 3055,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 26,
+"hpPct": 3319,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 13,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 27,
+"hpPct": 3605,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 11,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 28,
+"hpPct": 3916,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 27,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 29,
+"hpPct": 4253,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 7,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 30,
+"hpPct": 4890,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+}
+]
+},
+"gate_04_07": {
+"map": "gate_04",
+"waves": [
+{
+"wave": 1,
+"hpPct": 176,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 208,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 246,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 13,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 291,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 343,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 405,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 479,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 7,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 566,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 668,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 4,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 789,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 933,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 1101,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 1200,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 19,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 1307,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 1503,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 1552,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 11,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 1691,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 9,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 1842,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 21,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 2007,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 2186,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 21,
+"hpPct": 2382,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 22,
+"hpPct": 2595,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 23,
+"hpPct": 2827,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 24,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 24,
+"hpPct": 3080,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 25,
+"hpPct": 3356,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 26,
+"hpPct": 3656,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 13,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 27,
+"hpPct": 3983,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 11,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 28,
+"hpPct": 4340,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 27,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 29,
+"hpPct": 4728,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 7,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 30,
+"hpPct": 5437,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+}
+]
+},
+"gate_04_08": {
+"map": "gate_04",
+"waves": [
+{
+"wave": 1,
+"hpPct": 180,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 213,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 253,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 13,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 300,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 355,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 421,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 498,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 7,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 591,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 700,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 4,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 829,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 982,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 1164,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 1271,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 19,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 1389,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 1597,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 1659,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 11,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 1813,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 9,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 1981,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 21,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 2165,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 2366,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 21,
+"hpPct": 2585,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 22,
+"hpPct": 2825,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 23,
+"hpPct": 3087,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 24,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 24,
+"hpPct": 3373,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 25,
+"hpPct": 3686,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 26,
+"hpPct": 4028,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 13,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 27,
+"hpPct": 4402,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 11,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 28,
+"hpPct": 4810,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 27,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 29,
+"hpPct": 5256,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 7,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 30,
+"hpPct": 6044,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+}
+]
+},
+"gate_04_09": {
+"map": "gate_04",
+"waves": [
+{
+"wave": 1,
+"hpPct": 184,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 219,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 260,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 13,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 4,
+"hpPct": 309,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 3,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 5,
+"hpPct": 367,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 6,
+"hpPct": 436,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 8,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 7,
+"hpPct": 519,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 7,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 8,
+"hpPct": 616,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 16,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 9,
+"hpPct": 732,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 4,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 10,
+"hpPct": 870,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 5,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 11,
+"hpPct": 1034,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 9,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 12,
+"hpPct": 1229,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 8,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 13,
+"hpPct": 1347,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 19,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 14,
+"hpPct": 1477,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 15,
+"hpPct": 1698,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+},
+{
+"wave": 16,
+"hpPct": 1774,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 11,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 17,
+"hpPct": 1944,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 9,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 18,
+"hpPct": 2131,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 21,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 19,
+"hpPct": 2336,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 5,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 20,
+"hpPct": 2560,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 21,
+"hpPct": 2806,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 12,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 22,
+"hpPct": 3075,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 10,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 23,
+"hpPct": 3370,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 24,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 24,
+"hpPct": 3694,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 6,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 25,
+"hpPct": 4049,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 7,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 26,
+"hpPct": 4438,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 13,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 27,
+"hpPct": 4864,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 11,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 28,
+"hpPct": 5331,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 27,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 29,
+"hpPct": 5843,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 7,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 30,
+"hpPct": 6719,
+"groups": [
+{
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
+}
+]
+}
+]
+},
+"gate_04_10": {
+"map": "gate_04",
+"waves": [
+{
+"wave": 1,
+"hpPct": 188,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 7,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 2,
+"hpPct": 224,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 6,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 3,
+"hpPct": 267,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -9515,7 +10855,7 @@
 },
 {
 "wave": 5,
-"hpPct": 377,
+"hpPct": 380,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -9526,7 +10866,7 @@
 },
 {
 "wave": 6,
-"hpPct": 445,
+"hpPct": 453,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -9537,7 +10877,7 @@
 },
 {
 "wave": 7,
-"hpPct": 526,
+"hpPct": 540,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -9548,7 +10888,7 @@
 },
 {
 "wave": 8,
-"hpPct": 621,
+"hpPct": 643,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -9559,7 +10899,7 @@
 },
 {
 "wave": 9,
-"hpPct": 734,
+"hpPct": 767,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -9570,7 +10910,7 @@
 },
 {
 "wave": 10,
-"hpPct": 867,
+"hpPct": 914,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -9581,7 +10921,7 @@
 },
 {
 "wave": 11,
-"hpPct": 1024,
+"hpPct": 1089,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -9592,7 +10932,7 @@
 },
 {
 "wave": 12,
-"hpPct": 1209,
+"hpPct": 1298,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -9603,7 +10943,7 @@
 },
 {
 "wave": 13,
-"hpPct": 1318,
+"hpPct": 1427,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -9614,7 +10954,7 @@
 },
 {
 "wave": 14,
-"hpPct": 1436,
+"hpPct": 1569,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -9625,7 +10965,7 @@
 },
 {
 "wave": 15,
-"hpPct": 1651,
+"hpPct": 1804,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -9636,7 +10976,7 @@
 },
 {
 "wave": 16,
-"hpPct": 1704,
+"hpPct": 1896,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -9647,7 +10987,7 @@
 },
 {
 "wave": 17,
-"hpPct": 1857,
+"hpPct": 2085,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -9658,7 +10998,7 @@
 },
 {
 "wave": 18,
-"hpPct": 2023,
+"hpPct": 2292,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -9669,7 +11009,7 @@
 },
 {
 "wave": 19,
-"hpPct": 2204,
+"hpPct": 2520,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -9680,7 +11020,7 @@
 },
 {
 "wave": 20,
-"hpPct": 2402,
+"hpPct": 2770,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -9691,7 +11031,7 @@
 },
 {
 "wave": 21,
-"hpPct": 2617,
+"hpPct": 3045,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -9702,7 +11042,7 @@
 },
 {
 "wave": 22,
-"hpPct": 2851,
+"hpPct": 3347,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -9713,7 +11053,7 @@
 },
 {
 "wave": 23,
-"hpPct": 3106,
+"hpPct": 3680,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -9724,7 +11064,7 @@
 },
 {
 "wave": 24,
-"hpPct": 3384,
+"hpPct": 4045,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -9735,7 +11075,7 @@
 },
 {
 "wave": 25,
-"hpPct": 3687,
+"hpPct": 4447,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -9746,7 +11086,7 @@
 },
 {
 "wave": 26,
-"hpPct": 4017,
+"hpPct": 4889,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -9757,7 +11097,7 @@
 },
 {
 "wave": 27,
-"hpPct": 4377,
+"hpPct": 5375,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -9768,7 +11108,7 @@
 },
 {
 "wave": 28,
-"hpPct": 4769,
+"hpPct": 5908,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -9779,7 +11119,7 @@
 },
 {
 "wave": 29,
-"hpPct": 5196,
+"hpPct": 6495,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -9790,7 +11130,7 @@
 },
 {
 "wave": 30,
-"hpPct": 5975,
+"hpPct": 7469,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -9800,1352 +11140,12 @@
 ]
 }
 ]
-},
-"gate_04_07": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 198,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 235,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 279,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 331,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 392,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 465,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 552,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 654,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 775,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 919,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 1090,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 1292,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 1413,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1545,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1776,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1847,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 2020,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 2208,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 2415,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 2641,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 2888,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 3157,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 3453,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 3775,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 4128,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 4514,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 4936,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 5397,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 5902,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 6787,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_08": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 204,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 242,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 289,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 343,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 409,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 486,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 579,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 689,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 819,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 975,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 1160,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 1380,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 1514,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1662,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1911,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 2002,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 2197,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 2411,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 2646,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 2904,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 3186,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 3497,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 3838,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 4212,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 4622,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 5072,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 5566,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 6109,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 6704,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 7709,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_09": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 209,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 250,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 298,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 356,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 426,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 508,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 607,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 725,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 866,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 1034,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 1234,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 1474,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 1624,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1788,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 2056,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 2169,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 2389,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 2632,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 2899,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 3193,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 3516,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 3873,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 4266,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 4698,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 5175,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 5699,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 6277,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 6914,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 7615,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 8757,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_10": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 215,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 257,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 309,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 370,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 443,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 531,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 637,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 763,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 915,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 1096,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 1314,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 1575,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 1741,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1924,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 2212,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 2351,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 2599,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 2873,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 3176,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 3510,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 3880,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 4289,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 4741,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 5241,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 5794,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 6404,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 7079,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 7825,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 8650,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 9947,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
 }
 }
 },
-"at": "2026-11-20 09:38",
+"at": "2026-11-20 11:10",
 "branch": "cd36",
-"dirty": false
+"dirty": true
 },
 "maps": {
 "data": {
@@ -14859,7 +14859,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 10:45",
-"generatedAt": "2026-11-20 10:47",
-"digest": "3376e0bf6d855542"
+"sourceAt": "2026-11-20 11:16",
+"generatedAt": "2026-11-20 11:17",
+"digest": "2f1b469c0c6178b1"
 }
