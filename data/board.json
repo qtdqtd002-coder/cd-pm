@@ -1989,86 +1989,86 @@
 "session": "",
 "owns": "",
 "order": "CD-0039",
-"head": "418f232",
+"head": "2b9e771",
 "commits": [
+{
+"sha": "2b9e771",
+"at": "2026-11-21 04:17",
+"ts": 1795202232,
+"msg": "CD-0040 진행 기록: client 1차 결과·대표 눈 검수(번쩍·유령 등장 등 5건 재작업)"
+},
+{
+"sha": "b57eb00",
+"at": "2026-11-21 04:16",
+"ts": 1795202168,
+"msg": "CD-0040 client 보고서·캡처 대조판(9:16·9:20 각 14장)·측정 스크립트"
+},
+{
+"sha": "86f73cb",
+"at": "2026-11-21 03:54",
+"ts": 1795200896,
+"msg": "CD-0040 시험: 새 인트로 구조에 맞춘 Cd26/Cd31/Cd17 기대값 + Cd40 시험(박자·건너뛰기·낮음·메모리·프레임·해제·캡처)"
+},
+{
+"sha": "c14bb8d",
+"at": "2026-11-21 03:54",
+"ts": 1795200896,
+"msg": "CD-0040 인트로 재구성: 한 장의 그림이 재생되는 7초 연출(드러남 지도 셰이더 CD/UiReveal · IntroStage · 박자별 소리 · 건너뛰기 2단 · 하단 CodeSkin 틀)"
+},
+{
+"sha": "7fb6609",
+"at": "2026-11-21 03:52",
+"ts": 1795200740,
+"msg": "CD-0040 반입: 인트로 원화 2차 층과 .meta"
+},
 {
 "sha": "418f232",
 "at": "2026-11-21 03:37",
 "ts": 1795199853,
 "msg": "CD-0039 QA 1차 FAIL(30-qa): 맵 2 명중 FX·캡처 시험 불확정 1건 → client 로 되돌림 · 진행 기록"
-},
-{
-"sha": "323cfbc",
-"at": "2026-11-21 03:37",
-"ts": 1795199843,
-"msg": "CD-0039 SystemBar.cs 줄바꿈을 원래(CRLF)로 되돌림 — 내용 변경 없음, main 대비 diff 733줄 → 3줄(CD-0038 병합 충돌 방지 · QA 지적 5)"
-},
-{
-"sha": "9e7ce93",
-"at": "2026-11-21 03:28",
-"ts": 1795199327,
-"msg": "CD-0039 planning 보고서 · gate impl 통과 → 검수"
-},
-{
-"sha": "7f69b37",
-"at": "2026-11-21 03:28",
-"ts": 1795199309,
-"msg": "CD-0039 통합: 최신 캡처 19장·시험 결과 파일·재측정 기록 · check --unity 통과(Core 511 · EditMode 225 · PlayMode 캡처 켬 256/0)"
-},
-{
-"sha": "a5d7114",
-"at": "2026-11-21 02:43",
-"ts": 1795196605,
-"msg": "CD-0039 6차 보고서: PlayMode 전체(캡처 끔) 261건 실패 0"
-},
-{
-"sha": "d6027bc",
-"at": "2026-11-21 02:41",
-"ts": 1795196479,
-"msg": "CD-0039 6차 client 보고서(상태·측정표·수용 대조)"
 }
 ],
-"dirtyCount": 224,
+"dirtyCount": 125,
 "dirty": [
 {
-"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_skip_0_80.png",
-"at": "2026-11-21 03:47"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-21 04:15"
 },
 {
-"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_low_3_00.png",
-"at": "2026-11-21 03:47"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-21 03:21"
 },
 {
-"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_ready_w2400.png",
-"at": "2026-11-21 03:47"
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-21 02:04"
 },
 {
-"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_ready.png",
-"at": "2026-11-21 03:47"
+"file": "art-lab/intro2/_build.log",
+"at": "2026-11-21 01:57"
 },
 {
-"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_x_5_40.png",
-"at": "2026-11-21 03:47"
+"file": "art-lab/intro2/out/report.json",
+"at": "2026-11-21 01:57"
 },
 {
-"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_x_5_00.png",
-"at": "2026-11-21 03:47"
+"file": "art-lab/intro2/out/intro_layout.json",
+"at": "2026-11-21 01:57"
 },
 {
-"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_x_3_60.png",
-"at": "2026-11-21 03:47"
+"file": "art-lab/intro2/out/intro_map_horde.png",
+"at": "2026-11-21 01:57"
 },
 {
-"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/after/c40_x_2_40.png",
-"at": "2026-11-21 03:47"
+"file": "art-lab/intro2/out/intro_map_open.png",
+"at": "2026-11-21 01:57"
 }
 ],
-"lastEdit": "2026-11-21 03:47",
-"lastEditTs": 1795200470.1837716,
-"lastCommitTs": 1795199853,
-"unpushed": 56,
-"notInMain": 56,
-"today": 32
+"lastEdit": "2026-11-21 04:15",
+"lastEditTs": 1795202154.1548166,
+"lastCommitTs": 1795202232,
+"unpushed": 61,
+"notInMain": 61,
+"today": 37
 },
 {
 "branch": "workbench",
@@ -2160,7 +2160,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 94,
+"commits": 98,
 "byOrder": [
 [
 "CD-0039",
@@ -2168,7 +2168,7 @@
 ],
 [
 "CD-0040",
-12
+17
 ],
 [
 "CD-0036",
@@ -2192,7 +2192,7 @@
 ],
 [
 "CD-0034",
-3
+2
 ],
 [
 "CD-0035",
@@ -2208,6 +2208,31 @@
 ]
 ],
 "latest": [
+{
+"sha": "2b9e771",
+"at": "2026-11-21 04:17",
+"msg": "CD-0040 진행 기록: client 1차 결과·대표 눈 검수(번쩍·유령 등장 등 5건 재작업)"
+},
+{
+"sha": "b57eb00",
+"at": "2026-11-21 04:16",
+"msg": "CD-0040 client 보고서·캡처 대조판(9:16·9:20 각 14장)·측정 스크립트"
+},
+{
+"sha": "86f73cb",
+"at": "2026-11-21 03:54",
+"msg": "CD-0040 시험: 새 인트로 구조에 맞춘 Cd26/Cd31/Cd17 기대값 + Cd40 시험(박자·건너뛰기·낮음·메모리·프레임·해제·캡처)"
+},
+{
+"sha": "c14bb8d",
+"at": "2026-11-21 03:54",
+"msg": "CD-0040 인트로 재구성: 한 장의 그림이 재생되는 7초 연출(드러남 지도 셰이더 CD/UiReveal · IntroStage · 박자별 소리 · 건너뛰기 2단 · 하단 CodeSkin 틀)"
+},
+{
+"sha": "7fb6609",
+"at": "2026-11-21 03:52",
+"msg": "CD-0040 반입: 인트로 원화 2차 층과 .meta"
+},
 {
 "sha": "d4c2191",
 "at": "2026-11-21 03:44",
@@ -2232,31 +2257,6 @@
 "sha": "9e7ce93",
 "at": "2026-11-21 03:28",
 "msg": "CD-0039 planning 보고서 · gate impl 통과 → 검수"
-},
-{
-"sha": "7f69b37",
-"at": "2026-11-21 03:28",
-"msg": "CD-0039 통합: 최신 캡처 19장·시험 결과 파일·재측정 기록 · check --unity 통과(Core 511 · EditMode 225 · PlayMode 캡처 켬 256/0)"
-},
-{
-"sha": "b5db179",
-"at": "2026-11-21 03:18",
-"msg": "CD-0042 QA 1차(FAIL: 1-2 해금으로 결과 화면이 [로비로] 하나 — 결정 0064 규칙대로) → Cd36FirstEntryTests 두 시험을 새 해금에 맞춤 · 출시 전 주의 C18"
-},
-{
-"sha": "a5d7114",
-"at": "2026-11-21 02:43",
-"msg": "CD-0039 6차 보고서: PlayMode 전체(캡처 끔) 261건 실패 0"
-},
-{
-"sha": "d6027bc",
-"at": "2026-11-21 02:41",
-"msg": "CD-0039 6차 client 보고서(상태·측정표·수용 대조)"
-},
-{
-"sha": "8597bd8",
-"at": "2026-11-21 02:37",
-"msg": "CD-0039 6차 B: 타격 FX 가독성 — 남색 테두리·명중/처치 번쩍·꼬리 머리 점 · 켠/끈 차이 시험 · 맵 2 캡처"
 }
 ]
 },
@@ -5888,10 +5888,11 @@
 "id": "CD-0040",
 "title": "로딩 인트로 재구성: 한 장면처럼 이어지는 균열 침공 → 줌아웃 → 영웅 등장 → 타이틀",
 "branch": "cd39",
-"updated": "2026-11-21 03:46",
+"updated": "2026-11-21 04:17",
 "files": [
 "00-order.md",
 "10-spec.md",
+"22-client.md",
 "23-art.md",
 "_qa"
 ],
@@ -6001,8 +6002,8 @@
 "team": "client",
 "title": "시험: 새 Cd40EditModeTests(A1~A6·A10·A11·A14~A20) · Cd40ShotTests(캡처). 옛 Cd26·Cd31 중 옛 연출을 보던 단언은 지우지 말고 표로 옮긴다(옛 단언 → 새 시험의 어느 단언이 같은 보장을 하나, 없어진 보장과 이유). 보장이 약해지지 않게",
 "output": "Assets/Tests/, 22-client.md 옮김 표",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 22-client.md"
 },
 {
 "id": "L7",
@@ -16547,7 +16548,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-21 03:47",
-"generatedAt": "2026-11-21 03:47",
-"digest": "96a4f1a5d52a9c97"
+"sourceAt": "2026-11-21 04:17",
+"generatedAt": "2026-11-21 04:17",
+"digest": "2b457203691b1384"
 }
