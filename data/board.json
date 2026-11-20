@@ -1330,7 +1330,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0025",
+"order": "CD-0024",
 "head": "e145fe8",
 "commits": [
 {
@@ -1935,43 +1935,43 @@
 "msg": "CD-0037 인게임 영웅 정보 카드를 영웅 창과 맞춤: 초당 피해·종족·단계·공격 종류 글자 삭제 · 스탯 3칸(공격력·공격속도 0.00/s·사거리 정수) 같은 이름·아이콘 · 공격속도는 Core Heroes.AttackSpeedText 공용"
 }
 ],
-"dirtyCount": 571,
+"dirtyCount": 586,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd36OutgameFlowTests.cs",
-"at": "2026-11-20 11:47"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameMapsFlowTests.cs",
-"at": "2026-11-20 11:47"
-},
-{
-"file": "UnityProject/Assets/InitTestScene78d7156a-1f35-4840-8893-2765a5f2429d.unity.meta",
-"at": "2026-11-20 11:46"
-},
-{
-"file": "UnityProject/Assets/InitTestScene78d7156a-1f35-4840-8893-2765a5f2429d.unity",
-"at": "2026-11-20 11:46"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd32LegendTests.cs",
-"at": "2026-11-20 11:46"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd15OutgameScreensTests.cs",
-"at": "2026-11-20 11:46"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd36FirstEntryTests.cs",
-"at": "2026-11-20 11:46"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-20 11:46"
+"at": "2026-11-20 12:17"
+},
+{
+"file": "UnityProject/Assets/_Game/App/GameApp.cs",
+"at": "2026-11-20 12:08"
+},
+{
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t8c-pop_1080x2400.png",
+"at": "2026-11-20 12:00"
+},
+{
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t8c-pop_1080x1920.png",
+"at": "2026-11-20 12:00"
+},
+{
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t8a_1080x2400.png",
+"at": "2026-11-20 12:00"
+},
+{
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t8a_1080x1920.png",
+"at": "2026-11-20 12:00"
+},
+{
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t7-sheet_1080x2400.png",
+"at": "2026-11-20 12:00"
+},
+{
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_qa/u2-t7-sheet_1080x1920.png",
+"at": "2026-11-20 12:00"
 }
 ],
-"lastEdit": "2026-11-20 11:47",
-"lastEditTs": 1795142857.865596,
+"lastEdit": "2026-11-20 12:17",
+"lastEditTs": 1795144656.7603822,
 "lastCommitTs": 1795141249,
 "unpushed": 10,
 "notInMain": 10,
@@ -5226,7 +5226,7 @@
 "id": "CD-0036",
 "title": "튜토리얼과 초반 동선: 튜토리얼 맵 10스테이지·다음 맵·해금·환영 선물·계정 초기화",
 "branch": "cd36",
-"updated": "2026-11-20 11:45",
+"updated": "2026-11-20 11:54",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -14859,7 +14859,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 11:47",
-"generatedAt": "2026-11-20 11:47",
-"digest": "b646f3f36b901f72"
+"sourceAt": "2026-11-20 12:17",
+"generatedAt": "2026-11-20 12:17",
+"digest": "78e99bcc5ba9ab1c"
 }
