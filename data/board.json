@@ -1681,7 +1681,7 @@
 "lane": "cd32",
 "session": "",
 "owns": "",
-"order": "CD-0029",
+"order": "CD-0031",
 "head": "3dd41bf",
 "commits": [
 {
@@ -1769,8 +1769,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0042",
-"head": "e8adc16",
+"head": "7be4f3b",
 "commits": [
+{
+"sha": "7be4f3b",
+"at": "2026-11-21 01:54",
+"ts": 1795193643,
+"msg": "CD-0042 디자인 검수 1차 고침 · 검수용 캡처 d1-* · 안드로이드 빌드 확인"
+},
 {
 "sha": "e8adc16",
 "at": "2026-11-21 01:16",
@@ -1800,55 +1806,49 @@
 "at": "2026-11-20 23:24",
 "ts": 1795184666,
 "msg": "결정 0069: 온라인 기능은 Unity 서비스로(친구·채팅·같이 하기·매칭) · Vivox·Safe Text 출시 전 대체 필수 · 현황 사이트 «출시 전 주의» 칸"
-},
-{
-"sha": "36c6493",
-"at": "2026-11-20 23:03",
-"ts": 1795183420,
-"msg": "작업실 서버: DNS 리바인딩 막기 — Host 가 127.0.0.1·localhost:<포트> 일 때만 받는다"
 }
 ],
-"dirtyCount": 90,
+"dirtyCount": 105,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 01:43"
-},
-{
 "file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/21-client.md",
-"at": "2026-11-21 01:38"
+"at": "2026-11-21 02:15"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-611-ranking-offline_safe_1080x2400.png",
-"at": "2026-11-21 01:34"
+"file": "studio/checks.json",
+"at": "2026-11-21 02:15"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-611-ranking-offline_1080x1920.png",
-"at": "2026-11-21 01:34"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-21 02:15"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-609-ranking-as-of_safe_1080x2400.png",
-"at": "2026-11-21 01:34"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c2-10-settings_safe_1080x2400.png",
+"at": "2026-11-21 02:10"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-608-ranking-heroes-no-record_safe_1080x2400.png",
-"at": "2026-11-21 01:34"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c2-10-settings_1080x1920.png",
+"at": "2026-11-21 02:10"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-609-ranking-as-of_1080x1920.png",
-"at": "2026-11-21 01:34"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c3-11-ranking-offline_safe_1080x2400.png",
+"at": "2026-11-21 02:10"
 },
 {
-"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-608-ranking-heroes-no-record_1080x1920.png",
-"at": "2026-11-21 01:34"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c3-11-ranking-offline_1080x1920.png",
+"at": "2026-11-21 02:10"
+},
+{
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/c3-09-ranking-as-of_safe_1080x2400.png",
+"at": "2026-11-21 02:10"
 }
 ],
-"lastEdit": "2026-11-21 01:43",
-"lastEditTs": 1795193004.9429162,
-"lastCommitTs": 1795191402,
-"unpushed": 5,
-"notInMain": 5,
-"today": 3
+"lastEdit": "2026-11-21 02:15",
+"lastEditTs": 1795194916.7478783,
+"lastCommitTs": 1795193643,
+"unpushed": 6,
+"notInMain": 6,
+"today": 4
 },
 {
 "branch": "cd38",
@@ -1997,86 +1997,86 @@
 "session": "",
 "owns": "",
 "order": "CD-0039",
-"head": "9d54fcc",
+"head": "7235603",
 "commits": [
 {
-"sha": "9d54fcc",
-"at": "2026-11-21 01:29",
-"ts": 1795192166,
-"msg": "CD-0039 진행 기록: 4차 결과·눈 검수(겹침·아이콘 통과, 보스 배너 글자 남음)"
+"sha": "7235603",
+"at": "2026-11-21 02:04",
+"ts": 1795194286,
+"msg": "CD-0040 진행 기록: 원화 2차 결과·대표 눈 검수 통과(draft) · 균열 각도·줌 상한 결정(권장안) · Codex 호출 기록"
 },
 {
-"sha": "0802faa",
-"at": "2026-11-21 01:28",
-"ts": 1795192128,
-"msg": "CD-0039 client 4차 보고"
+"sha": "530f35c",
+"at": "2026-11-21 02:04",
+"ts": 1795194251,
+"msg": "CD-0039 R2 보완: CC0 효과 5장 assets.json 줄"
 },
 {
-"sha": "6694990",
-"at": "2026-11-21 01:03",
-"ts": 1795190593,
-"msg": "CD-0039 4차: 시험 기대값 갱신(소리 77·intro_ 제외) · ScreenTransition 의 cd.gfx 경쟁 완화 · 캡처 3장"
+"sha": "09dbaa7",
+"at": "2026-11-21 02:03",
+"ts": 1795194232,
+"msg": "CD-0040 원화 2차: 대각선 구도 · 종족 연합 대 그림자 무리 · 어두워지는 하늘 — 완성 장면 먼저, 같은 세션에서 거꾸로 덜어 낸 판으로 층 구성 (draft)"
 },
 {
-"sha": "6ead2d2",
-"at": "2026-11-21 01:02",
-"ts": 1795190547,
-"msg": "CD-0040 원화 2차: 사용자 피드백 반영 — 대각선 구도 · 종족 연합 대 그림자 군단 · 비장한 동작 · 균열 뒤 어두워지는 하늘 (10-spec «원화 2차» 절)"
+"sha": "726b6b1",
+"at": "2026-11-21 02:01",
+"ts": 1795194069,
+"msg": "CD-0039 목표선 조정 3(대표, 권장안): 모든 맵 밝기·채도 상한 · FX 가독성(밝은 심+짙은 테두리)·켠/끈 차이 측정 · 층 규칙 완화"
 },
 {
-"sha": "d489575",
-"at": "2026-11-21 01:00",
-"ts": 1795190432,
-"msg": "CD-0039 카탈로그 재생성: HUD 아이콘 7장 Final 반영 (+ 친구·랭킹 아이콘 2장, CC0 효과 그림 5장, 낡은 Temp 7개 제거, intro_ 제외)"
+"sha": "4c273af",
+"at": "2026-11-21 02:00",
+"ts": 1795194010,
+"msg": "CD-0039 5차 client 보고 + 캡처 c39_* 5장 · c10_* 4장 갱신"
 },
 {
-"sha": "48df326",
-"at": "2026-11-21 01:00",
-"ts": 1795190432,
-"msg": "CD-0039 C4: 정보 카드 한 줄 띠의 글자 칸 조정(이름·Lv·이번 판이 테두리에 안 걸리게, 높이 150)"
+"sha": "a8c6730",
+"at": "2026-11-21 01:58",
+"ts": 1795193882,
+"msg": "CD-0039 5차: 보스 배너 — 밝은 글자·단색 남색 판·양 끝 붉은 띠"
 }
 ],
 "dirtyCount": 168,
 "dirty": [
 {
-"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/art/intro2_codex_sheet.png",
-"at": "2026-11-21 01:48"
+"file": "UnityProject/Assets/InitTestScenef9d63d2b-0d54-4e96-93c5-01e10f2737ad.unity.meta",
+"at": "2026-11-21 02:16"
 },
 {
-"file": "art-lab/intro2/_build.log",
-"at": "2026-11-21 01:48"
+"file": "UnityProject/Assets/InitTestScenef9d63d2b-0d54-4e96-93c5-01e10f2737ad.unity",
+"at": "2026-11-21 02:16"
 },
 {
-"file": "art-lab/intro2/out/report.json",
-"at": "2026-11-21 01:48"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd39FxShotTests.cs",
-"at": "2026-11-21 01:48"
+"file": "UnityProject/Assets/_Game/View/Cd39Fx.cs",
+"at": "2026-11-21 02:16"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 01:47"
+"at": "2026-11-21 02:16"
 },
 {
-"file": "art-lab/intro2/out/intro_layout.json",
-"at": "2026-11-21 01:47"
+"file": "UnityProject/Assets/Tests/EditMode/Cd39LookEditModeTests.cs.meta",
+"at": "2026-11-21 02:08"
 },
 {
-"file": "art-lab/intro2/out/intro_map_horde.png",
-"at": "2026-11-21 01:47"
+"file": "UnityProject/Assets/Tests/PlayMode/Cd39FxDiffShotTests.cs.meta",
+"at": "2026-11-21 02:08"
 },
 {
-"file": "art-lab/intro2/out/intro_map_open.png",
-"at": "2026-11-21 01:47"
+"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_research/measure_fxdiff.py",
+"at": "2026-11-21 02:08"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd39FxDiffShotTests.cs",
+"at": "2026-11-21 02:08"
 }
 ],
-"lastEdit": "2026-11-21 01:48",
-"lastEditTs": 1795193289.28311,
-"lastCommitTs": 1795192166,
-"unpushed": 41,
-"notInMain": 41,
-"today": 17
+"lastEdit": "2026-11-21 02:16",
+"lastEditTs": 1795195016.416767,
+"lastCommitTs": 1795194286,
+"unpushed": 48,
+"notInMain": 48,
+"today": 24
 },
 {
 "branch": "workbench",
@@ -2168,19 +2168,19 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 79,
+"commits": 85,
 "byOrder": [
 [
 "CD-0039",
-24
-],
-[
-"CD-0036",
-12
+29
 ],
 [
 "CD-0040",
-10
+12
+],
+[
+"CD-0036",
+11
 ],
 [
 "CD-0041",
@@ -2195,12 +2195,12 @@
 6
 ],
 [
-"CD-0034",
-6
+"CD-0042",
+5
 ],
 [
-"CD-0042",
-4
+"CD-0034",
+5
 ],
 [
 "CD-0035",
@@ -2217,6 +2217,46 @@
 ],
 "latest": [
 {
+"sha": "7235603",
+"at": "2026-11-21 02:04",
+"msg": "CD-0040 진행 기록: 원화 2차 결과·대표 눈 검수 통과(draft) · 균열 각도·줌 상한 결정(권장안) · Codex 호출 기록"
+},
+{
+"sha": "530f35c",
+"at": "2026-11-21 02:04",
+"msg": "CD-0039 R2 보완: CC0 효과 5장 assets.json 줄"
+},
+{
+"sha": "09dbaa7",
+"at": "2026-11-21 02:03",
+"msg": "CD-0040 원화 2차: 대각선 구도 · 종족 연합 대 그림자 무리 · 어두워지는 하늘 — 완성 장면 먼저, 같은 세션에서 거꾸로 덜어 낸 판으로 층 구성 (draft)"
+},
+{
+"sha": "726b6b1",
+"at": "2026-11-21 02:01",
+"msg": "CD-0039 목표선 조정 3(대표, 권장안): 모든 맵 밝기·채도 상한 · FX 가독성(밝은 심+짙은 테두리)·켠/끈 차이 측정 · 층 규칙 완화"
+},
+{
+"sha": "4c273af",
+"at": "2026-11-21 02:00",
+"msg": "CD-0039 5차 client 보고 + 캡처 c39_* 5장 · c10_* 4장 갱신"
+},
+{
+"sha": "a8c6730",
+"at": "2026-11-21 01:58",
+"msg": "CD-0039 5차: 보스 배너 — 밝은 글자·단색 남색 판·양 끝 붉은 띠"
+},
+{
+"sha": "edcadc2",
+"at": "2026-11-21 01:58",
+"msg": "CD-0039 5차 C3: 타격 FX 5종(공격 꼬리·명중 고리·처치 터짐·합성·소환) — 풀·낮음 분기·상한·시험"
+},
+{
+"sha": "7be4f3b",
+"at": "2026-11-21 01:54",
+"msg": "CD-0042 디자인 검수 1차 고침 · 검수용 캡처 d1-* · 안드로이드 빌드 확인"
+},
+{
 "sha": "9d54fcc",
 "at": "2026-11-21 01:29",
 "msg": "CD-0039 진행 기록: 4차 결과·눈 검수(겹침·아이콘 통과, 보스 배너 글자 남음)"
@@ -2225,46 +2265,6 @@
 "sha": "0802faa",
 "at": "2026-11-21 01:28",
 "msg": "CD-0039 client 4차 보고"
-},
-{
-"sha": "e8af365",
-"at": "2026-11-21 01:18",
-"msg": "CD-0038 검수 통과: check --unity(Core 567/567 · EditMode 225/225 · 데이터·그림·설정 오류 0) · 독립 QA PASS(PlayMode 203 통과 0 실패) · 30-qa.md · gate qa → 마감 단계"
-},
-{
-"sha": "e8adc16",
-"at": "2026-11-21 01:16",
-"msg": "CD-0042 C3: 랭킹(계정 레벨·진행도·영웅 레벨 합, 1~100위 + 하단 내 순위, 동점 = 먼저 이룬 사람) · 채팅 이름 빠짐 고침 · 디자인 검수 1차"
-},
-{
-"sha": "6694990",
-"at": "2026-11-21 01:03",
-"msg": "CD-0039 4차: 시험 기대값 갱신(소리 77·intro_ 제외) · ScreenTransition 의 cd.gfx 경쟁 완화 · 캡처 3장"
-},
-{
-"sha": "6ead2d2",
-"at": "2026-11-21 01:02",
-"msg": "CD-0040 원화 2차: 사용자 피드백 반영 — 대각선 구도 · 종족 연합 대 그림자 군단 · 비장한 동작 · 균열 뒤 어두워지는 하늘 (10-spec «원화 2차» 절)"
-},
-{
-"sha": "d489575",
-"at": "2026-11-21 01:00",
-"msg": "CD-0039 카탈로그 재생성: HUD 아이콘 7장 Final 반영 (+ 친구·랭킹 아이콘 2장, CC0 효과 그림 5장, 낡은 Temp 7개 제거, intro_ 제외)"
-},
-{
-"sha": "48df326",
-"at": "2026-11-21 01:00",
-"msg": "CD-0039 C4: 정보 카드 한 줄 띠의 글자 칸 조정(이름·Lv·이번 판이 테두리에 안 걸리게, 높이 150)"
-},
-{
-"sha": "ce89fb9",
-"at": "2026-11-21 00:58",
-"msg": "CD-0040 준비: 스프라이트 카탈로그에서 key·fx 의 intro_ 그림 제외(인트로가 텍스처로 직접 읽음)"
-},
-{
-"sha": "d1b10e0",
-"at": "2026-11-21 00:51",
-"msg": "CD-0042 C2: 채팅(월드·귓속말, 방 채널 API)·신고·차단·필터 + C1 마무리(A30 그림 없을 때·로비 입구 터치 126·친구 흐름 캡처)"
 }
 ]
 },
@@ -5752,7 +5752,7 @@
 "id": "CD-0039",
 "title": "인게임 비주얼 1순위: 색·가독성·타격 FX·겹침·터치 크기·HUD 아이콘 통일",
 "branch": "cd39",
-"updated": "2026-11-21 01:29",
+"updated": "2026-11-21 02:08",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -5768,7 +5768,7 @@
 "teams": "planning, client, art",
 "opened": "2026-11-20",
 "closed": "",
-"goal": "<p>실서비스 4종과 같은 방법(스토어 스크린샷 픽셀 실측)으로 쟀을 때 뒤처진 인게임 화면의 <strong>눈에 보이는 9항목</strong>을 숫자로 끌어올린다. 규칙·밸런스·Core 는 건드리지 않는다. 비교작의 그림·배치는 가져오지 않고(L7) 채도·밝기·대비·잡음 수치와 안드로이드 터치 기준(48dp)만 목표로 쓴다.</p>\n<h4>목표선 (측정 판정 기준)</h4>\n<p>같은 캡처 이름 · 같은 자른 영역 · <code>_research/measure.py</code> 로 다시 잰다(<code>python -I -X utf8 studio/orders/CD-0039-…/_research/measure.py stats &lt;라벨&gt; &lt;png&gt; x0 y0 x1 y1</code>). 자른 영역은 benchmark.md 표 그대로: 플레이 영역 맵 2 <code>(0,230,1080,1360)</code>, 맵 1 <code>(0,230,1080,1500)</code>, 영웅 바닥 <code>(670,850,950,1130)</code>(<code>c10_07_late</code>).</p>\n<div class=tw><table><thead><tr><th>지표</th><th>지금</th><th>목표선</th><th>이유</th></tr></thead><tbody><tr><td>플레이 영역 colorfulness(맵 2 <code>c10_07_late</code>·<code>c10_01_base</code>, 맵 1)</td><td>59.6 · 55.4 · 61.4</td><td><strong>72 이상 110 이하</strong></td><td>하한 = 비교작 중 가장 낮은 운빨존많겜 03 의 76.8 에서 «그림자 무리를 어둡게 두는 우리 방향» 만큼 조금 낮춘 값(대표 제안 72 채택). 상한은 만화풍 비교작(115)까지 가면 셀화풍·어두운 적과 어긋나서 둔 안전선</td></tr><tr><td>맵 2 밝기 평균</td><td>108.2 · 108.1</td><td><strong>125 이상 150 이하</strong></td><td>비교작 131.8~144.3. 하한 125 는 대표 제안. 상한은 씻긴 화면 방지</td></tr><tr><td>맵 1 밝기 평균</td><td>137.6</td><td><strong>135 이상</strong>(낮아지지 않음)</td><td>이미 비교작 수준 — 후퇴 금지만 건다</td></tr><tr><td>RMS 대비(맵 2)</td><td>41.1 · 34.0</td><td><strong>46 이상</strong></td><td>비교작 46.5~56.3 의 하단. 대표 제안 채택</td></tr><tr><td>영웅 바닥 edge 평균</td><td>26.96</td><td><strong>20 이하</strong></td><td>비교작 16.5~18.3 보다는 느슨 — 우리 목책·판자 질감이 그림의 일부라 대표 제안 20 채택</td></tr><tr><td>영웅 바닥 강한 윤곽(&gt;60)</td><td>13.83%</td><td><strong>11% 이하</strong></td><td>비교작 7.5~10.2%</td></tr><tr><td>판 안 버튼 터치 영역</td><td>약 27~35dp</td><td><strong>전부 126px 이상</strong>(1080 폭 = 48dp)</td><td>안드로이드 접근성 기준. 보이는 크기를 못 키우면 보이지 않는 터치 영역으로 키운다</td></tr><tr><td>겹침</td><td>있음(<code>c10_06_boss</code>)</td><td><strong>0</strong></td><td>보스 배너·알림·영웅 팝업·정보 카드가 서로를 가리지 않는다</td></tr></tbody></table></div>\n<p><strong>목표선 조정 1 (2026-11-20 대표 — client 중간 보고 «요청 1» 에 답함).</strong> 사다리 측정으로 «빛 이득 하나로는 RMS ≥ 46 · 밝기 ≤ 150 · 영웅 바닥 edge ≤ 20 을 동시에 못 맞춘다» 가 확인됐다(이득 2.0·채도 +0.3 에서 colorful 92.8/95.2 · 밝기 144.4/142.2 · RMS 43.1/48.3 · 바닥 edge 34.63). 그래서:</p>\n<ul>\n<li><strong>RMS 대비</strong>: 후반 장면 <code>c10_07_late</code> <strong>46 이상 그대로</strong>, 시작 장면 <code>c10_01_base</code> 는 <strong>42 이상</strong>으로 낮춘다. 이유: RMS 는 화면에 놓인 것의 양에 달렸고 비교작 값(46.5~56.3)은 전부 유닛·효과가 찬 장면이다. 시작 장면은 영웅 6·몬스터 0 이라 같은 선을 걸 근거가 없다.\n</li>\n<li><strong>영웅 바닥</strong>: edge 평균 <strong>22 이하</strong>, 강한 윤곽 <strong>12% 이하</strong>로 낮춘다. 이유: 이 영역에는 영웅 그림·마름모·목책이 들어 있어 평평한 색 칸인 비교작(16.5~18.3)과 같은 값이 되려면 그림 자체를 흐려야 한다(하지 않는다). 개선 전 26.96 / 13.83% 보다는 분명히 낮아야 한다.\n</li>\n<li><strong>방법 고정(C2)</strong>: 목책 진지 판자를 <strong>희게 띄워서</strong>(밝기 가산) 평탄하게 만들지 않는다 — 그 방식은 밝기 159 로 넘치고 판이 씻겨 보였다(<code>_tmp_shots/l7</code>). 대신 ① 판자·틀의 <strong>대비만</strong> 그 평균 밝기를 축으로 줄이고(밝기 평균 유지, 따뜻한 중간 갈색) ② 칸 선·판자 이음 선을 옅게 하고 ③ 단계 고리 색 빼기(항목 8)를 같이 넣은 뒤 잰다. 이득 2.0·채도 +0.3 은 그대로 둔다(밝기 상한 150 유지).\n</li>\n<li>밝기·colorfulness 목표선은 그대로다.\n</li></ul>\n<p><strong>목표선 조정 2 (2026-11-21 대표 — client 2차 «요청 1» 에 답함, 권장안(사용자 부재)).</strong> 2차 값(판자 대비 줄임 + 고리 색 뺌): colorful 79.8/84.1 · 밝기 150.0/147.7 · RMS 35.9/43.3 · 영웅 바닥 edge 26.63 / 13.98%. 대표가 <code>_qa/after/c10_07_late.png</code> 를 눈으로 봤다: 풀·길은 좋아졌지만 <strong>진지 판자가 옅은 회분홍으로 씻겨</strong> 나무로 안 읽히고, 밝은 영웅(정령·엘프)이 밝은 판자 위에서 덜 떠 보인다. 그리고 영웅 바닥 영역의 edge 는 대부분 영웅 몸·외곽선이 만든다(client 측정) — <strong>지표가 잘못 잡혔다.</strong> 그래서:</p>\n<ul>\n<li><strong>재는 곳을 바꾼다</strong>: «영웅이 서는 바닥» 은 영웅이 <strong>없는 빈 진지 칸</strong>에서 잰다. client 가 <code>c10_01_base</code>(시작 장면)에서 영웅·목책 말뚝·망루가 들어가지 않는 판자 영역 하나(200×150px 이상)를 골라 좌표를 보고서에 적고, 같은 좌표를 개선 전 캡처(<code>_qa/before/c10_01_base.png</code>)에도 재서 전·후를 나란히 적는다. 목표: <strong>빈 칸 edge 평균이 개선 전의 70% 이하</strong>, 강한 윤곽(&gt;60) <strong>5% 이하</strong>.\n</li>\n<li><strong>판자는 «따뜻한 중간~어두운 갈색, 안쪽 대비 낮게»</strong> 로 간다: 빈 칸 영역 밝기 평균 <strong>85 이상 120 이하</strong>(지금은 씻겨서 그보다 밝다), 채도 평균 <strong>25% 이상</strong>(회색이 아니라 나무색). 밝은 풀(밝기 ~170)과 어두운 판자의 차이가 화면 대비를 만들고, 밝은 영웅이 어두운 판자 위에서 뜬다. 방법은 <code>FortTone</code> 을 «평균을 축으로 대비를 줄이되 평균 자체를 낮춤» — 희게 띄우지 않는다.\n</li>\n<li><strong>영웅 대 바닥 분리 지표(새로)</strong>: <code>c10_07_late</code> 에서 정령(흰 몸) 한 명의 몸 영역 밝기 평균 − 바로 옆 빈 판자 밝기 평균 ≥ <strong>60</strong>(client 가 두 영역 좌표를 적는다).\n</li>\n<li>옛 «영웅 바닥 <code>(670,850,950,1130)</code> edge» 는 <strong>참고값</strong>으로만 적는다(합격선 없음, 개선 전 26.96 을 넘지 않을 것).\n</li>\n<li><strong>RMS</strong>: 후반 46 이상 · 시작 42 이상 그대로(판자가 어두워지면 올라온다). 밝기 125~150, colorfulness 72~110 그대로.\n</li>\n<li>발밑 고리의 단계 색 빼기는 그대로 둔다(눈 검수 통과 — 흰 고리 + 마름모로 읽힌다).\n</li>\n<li>상단 바 «하트 1개 + 숫자» 는 눈 검수 통과.\n</li>\n<li>날개 몬스터(<code>shadow_flier</code>)가 지금 어느 웨이브 세트에도 없는 것은 <strong>콘텐츠 사정</strong>이라 이 주문에서 고치지 않는다(밸런스·콘텐츠는 범위 밖). 시험에서 날개 조건을 뺀 것은 받아들인다(옛·새 단언은 보고서에 있음). 사용자 보고 «남은 일» 에 올린다.\n</li></ul>\n<p>목표선은 <strong>조정해도 된다.</strong> client 가 측정해 한 지표가 다른 지표와 부딪치면(예: 대비를 올리면 edge 가 오른다) 보고서 «요청» 에 숫자와 함께 적는다. 기획팀장·대표가 목표선을 고치고 이 표를 갱신한다(client 가 목표선을 몰래 낮추지 않는다).</p>",
+"goal": "<p>실서비스 4종과 같은 방법(스토어 스크린샷 픽셀 실측)으로 쟀을 때 뒤처진 인게임 화면의 <strong>눈에 보이는 9항목</strong>을 숫자로 끌어올린다. 규칙·밸런스·Core 는 건드리지 않는다. 비교작의 그림·배치는 가져오지 않고(L7) 채도·밝기·대비·잡음 수치와 안드로이드 터치 기준(48dp)만 목표로 쓴다.</p>\n<h4>목표선 (측정 판정 기준)</h4>\n<p>같은 캡처 이름 · 같은 자른 영역 · <code>_research/measure.py</code> 로 다시 잰다(<code>python -I -X utf8 studio/orders/CD-0039-…/_research/measure.py stats &lt;라벨&gt; &lt;png&gt; x0 y0 x1 y1</code>). 자른 영역은 benchmark.md 표 그대로: 플레이 영역 맵 2 <code>(0,230,1080,1360)</code>, 맵 1 <code>(0,230,1080,1500)</code>, 영웅 바닥 <code>(670,850,950,1130)</code>(<code>c10_07_late</code>).</p>\n<div class=tw><table><thead><tr><th>지표</th><th>지금</th><th>목표선</th><th>이유</th></tr></thead><tbody><tr><td>플레이 영역 colorfulness(맵 2 <code>c10_07_late</code>·<code>c10_01_base</code>, 맵 1)</td><td>59.6 · 55.4 · 61.4</td><td><strong>72 이상 110 이하</strong></td><td>하한 = 비교작 중 가장 낮은 운빨존많겜 03 의 76.8 에서 «그림자 무리를 어둡게 두는 우리 방향» 만큼 조금 낮춘 값(대표 제안 72 채택). 상한은 만화풍 비교작(115)까지 가면 셀화풍·어두운 적과 어긋나서 둔 안전선</td></tr><tr><td>맵 2 밝기 평균</td><td>108.2 · 108.1</td><td><strong>125 이상 150 이하</strong></td><td>비교작 131.8~144.3. 하한 125 는 대표 제안. 상한은 씻긴 화면 방지</td></tr><tr><td>맵 1 밝기 평균</td><td>137.6</td><td><strong>135 이상</strong>(낮아지지 않음)</td><td>이미 비교작 수준 — 후퇴 금지만 건다</td></tr><tr><td>RMS 대비(맵 2)</td><td>41.1 · 34.0</td><td><strong>46 이상</strong></td><td>비교작 46.5~56.3 의 하단. 대표 제안 채택</td></tr><tr><td>영웅 바닥 edge 평균</td><td>26.96</td><td><strong>20 이하</strong></td><td>비교작 16.5~18.3 보다는 느슨 — 우리 목책·판자 질감이 그림의 일부라 대표 제안 20 채택</td></tr><tr><td>영웅 바닥 강한 윤곽(&gt;60)</td><td>13.83%</td><td><strong>11% 이하</strong></td><td>비교작 7.5~10.2%</td></tr><tr><td>판 안 버튼 터치 영역</td><td>약 27~35dp</td><td><strong>전부 126px 이상</strong>(1080 폭 = 48dp)</td><td>안드로이드 접근성 기준. 보이는 크기를 못 키우면 보이지 않는 터치 영역으로 키운다</td></tr><tr><td>겹침</td><td>있음(<code>c10_06_boss</code>)</td><td><strong>0</strong></td><td>보스 배너·알림·영웅 팝업·정보 카드가 서로를 가리지 않는다</td></tr></tbody></table></div>\n<p><strong>목표선 조정 1 (2026-11-20 대표 — client 중간 보고 «요청 1» 에 답함).</strong> 사다리 측정으로 «빛 이득 하나로는 RMS ≥ 46 · 밝기 ≤ 150 · 영웅 바닥 edge ≤ 20 을 동시에 못 맞춘다» 가 확인됐다(이득 2.0·채도 +0.3 에서 colorful 92.8/95.2 · 밝기 144.4/142.2 · RMS 43.1/48.3 · 바닥 edge 34.63). 그래서:</p>\n<ul>\n<li><strong>RMS 대비</strong>: 후반 장면 <code>c10_07_late</code> <strong>46 이상 그대로</strong>, 시작 장면 <code>c10_01_base</code> 는 <strong>42 이상</strong>으로 낮춘다. 이유: RMS 는 화면에 놓인 것의 양에 달렸고 비교작 값(46.5~56.3)은 전부 유닛·효과가 찬 장면이다. 시작 장면은 영웅 6·몬스터 0 이라 같은 선을 걸 근거가 없다.\n</li>\n<li><strong>영웅 바닥</strong>: edge 평균 <strong>22 이하</strong>, 강한 윤곽 <strong>12% 이하</strong>로 낮춘다. 이유: 이 영역에는 영웅 그림·마름모·목책이 들어 있어 평평한 색 칸인 비교작(16.5~18.3)과 같은 값이 되려면 그림 자체를 흐려야 한다(하지 않는다). 개선 전 26.96 / 13.83% 보다는 분명히 낮아야 한다.\n</li>\n<li><strong>방법 고정(C2)</strong>: 목책 진지 판자를 <strong>희게 띄워서</strong>(밝기 가산) 평탄하게 만들지 않는다 — 그 방식은 밝기 159 로 넘치고 판이 씻겨 보였다(<code>_tmp_shots/l7</code>). 대신 ① 판자·틀의 <strong>대비만</strong> 그 평균 밝기를 축으로 줄이고(밝기 평균 유지, 따뜻한 중간 갈색) ② 칸 선·판자 이음 선을 옅게 하고 ③ 단계 고리 색 빼기(항목 8)를 같이 넣은 뒤 잰다. 이득 2.0·채도 +0.3 은 그대로 둔다(밝기 상한 150 유지).\n</li>\n<li>밝기·colorfulness 목표선은 그대로다.\n</li></ul>\n<p><strong>목표선 조정 2 (2026-11-21 대표 — client 2차 «요청 1» 에 답함, 권장안(사용자 부재)).</strong> 2차 값(판자 대비 줄임 + 고리 색 뺌): colorful 79.8/84.1 · 밝기 150.0/147.7 · RMS 35.9/43.3 · 영웅 바닥 edge 26.63 / 13.98%. 대표가 <code>_qa/after/c10_07_late.png</code> 를 눈으로 봤다: 풀·길은 좋아졌지만 <strong>진지 판자가 옅은 회분홍으로 씻겨</strong> 나무로 안 읽히고, 밝은 영웅(정령·엘프)이 밝은 판자 위에서 덜 떠 보인다. 그리고 영웅 바닥 영역의 edge 는 대부분 영웅 몸·외곽선이 만든다(client 측정) — <strong>지표가 잘못 잡혔다.</strong> 그래서:</p>\n<ul>\n<li><strong>재는 곳을 바꾼다</strong>: «영웅이 서는 바닥» 은 영웅이 <strong>없는 빈 진지 칸</strong>에서 잰다. client 가 <code>c10_01_base</code>(시작 장면)에서 영웅·목책 말뚝·망루가 들어가지 않는 판자 영역 하나(200×150px 이상)를 골라 좌표를 보고서에 적고, 같은 좌표를 개선 전 캡처(<code>_qa/before/c10_01_base.png</code>)에도 재서 전·후를 나란히 적는다. 목표: <strong>빈 칸 edge 평균이 개선 전의 70% 이하</strong>, 강한 윤곽(&gt;60) <strong>5% 이하</strong>.\n</li>\n<li><strong>판자는 «따뜻한 중간~어두운 갈색, 안쪽 대비 낮게»</strong> 로 간다: 빈 칸 영역 밝기 평균 <strong>85 이상 120 이하</strong>(지금은 씻겨서 그보다 밝다), 채도 평균 <strong>25% 이상</strong>(회색이 아니라 나무색). 밝은 풀(밝기 ~170)과 어두운 판자의 차이가 화면 대비를 만들고, 밝은 영웅이 어두운 판자 위에서 뜬다. 방법은 <code>FortTone</code> 을 «평균을 축으로 대비를 줄이되 평균 자체를 낮춤» — 희게 띄우지 않는다.\n</li>\n<li><strong>영웅 대 바닥 분리 지표(새로)</strong>: <code>c10_07_late</code> 에서 정령(흰 몸) 한 명의 몸 영역 밝기 평균 − 바로 옆 빈 판자 밝기 평균 ≥ <strong>60</strong>(client 가 두 영역 좌표를 적는다).\n</li>\n<li>옛 «영웅 바닥 <code>(670,850,950,1130)</code> edge» 는 <strong>참고값</strong>으로만 적는다(합격선 없음, 개선 전 26.96 을 넘지 않을 것).\n</li>\n<li><strong>RMS</strong>: 후반 46 이상 · 시작 42 이상 그대로(판자가 어두워지면 올라온다). 밝기 125~150, colorfulness 72~110 그대로.\n</li>\n<li>발밑 고리의 단계 색 빼기는 그대로 둔다(눈 검수 통과 — 흰 고리 + 마름모로 읽힌다).\n</li>\n<li>상단 바 «하트 1개 + 숫자» 는 눈 검수 통과.\n</li>\n<li>날개 몬스터(<code>shadow_flier</code>)가 지금 어느 웨이브 세트에도 없는 것은 <strong>콘텐츠 사정</strong>이라 이 주문에서 고치지 않는다(밸런스·콘텐츠는 범위 밖). 시험에서 날개 조건을 뺀 것은 받아들인다(옛·새 단언은 보고서에 있음). 사용자 보고 «남은 일» 에 올린다.\n</li></ul>\n<p><strong>목표선 조정 3 (2026-11-21 대표 — client 5차 «요청» 과 FX 캡처 눈 검수, 권장안(사용자 부재)).</strong> <code>_qa/after/c39_*.png</code>(맵 1)를 눈으로 봤다.</p>\n<ul>\n<li><strong>맵 1 이 과하게 밝고 노랗다.</strong> 길이 레몬색에 가깝고 풀이 형광 연두다(밝기 160.6 · 수용 2 에 상한이 없었다). 맵 2 에 맞춘 이득 2.0·채도 +0.3 을 원래 밝던 맵 1 에 그대로 건 탓이다. → <strong>모든 맵에 같은 상한을 건다</strong>: 판에 쓰이는 맵 그림 묶음(<code>gate_01</code>·<code>gate_03</code>·<code>gate_04</code>·튜토리얼 맵 등 <code>Data/</code> 의 스테이지가 실제로 쓰는 것 전부)마다 시작 장면을 캡처해 플레이 영역 <strong>밝기 125~150 · colorfulness 72~105 · 선명 픽셀(S&gt;0.6) 비율 ≤ 45%</strong>. 방법은 맵 묶음별 값(이득·채도·길 톤)을 <code>Cd39Look</code> 에 표로 두거나, 그림의 원래 밝기를 재서 이득을 맞추는 자동 보정 — client 가 고른다. 길은 «마른 흙·모래» 로 읽혀야지 노란 면으로 읽히면 안 된다(길 영역 채도 평균 ≤ 55%). 수용 2 를 이 문장으로 바꾼다.\n</li>\n<li><strong>수용 7(FX 가 2.5배)의 재는 법을 바꾼다</strong>: 땅이 밝아져 <code>yellow</code> 가 모래를 센다. → <strong>같은 순간의 FX 켠 프레임과 끈 프레임의 차이</strong>로 잰다(같은 시드·같은 틱에서 FX 층만 끄고 캡처, 또는 FX 층만 따로 그린 것). 대상 중심 300×300 에서 밝기 차 |Δ| &gt; 40 인 픽셀 수: <strong>공격 ≥ 1,500 · 명중 ≥ 3,000 · 처치 ≥ 4,000 · 소환 ≥ 5,000 · 합성 ≥ 12,000</strong>(대표가 캡처를 보고 잡은 «한눈에 보이는» 선 — 못 넘으면 실측과 함께 요청).\n</li>\n<li><strong>FX 가 아직 약하다(눈 검수)</strong>: 공격 꼬리가 밝은 길 위에서 가는 황토색 선으로 묻히고, 명중 고리는 옅은 흰 선, 처치·소환은 작다. → 꼬리·고리·터짐에 <strong>밝은 심(흰·금) + 그 바깥의 짙은 남색 가는 테두리 또는 그림자</strong>를 둬 밝은 땅·어두운 판자 어디서나 읽히게(글자의 «누끼» 와 같은 원리). 꼬리 최대 폭 28 유지·머리 쪽에 밝은 점, 명중은 고리 + 짧은 흰 번쩍(0.06초, 지름 ≥ 60), 처치는 터짐 반경 ≥ 80, 소환은 솟는 빛 기둥 높이 ≥ 160 + 고리 지름 ≥ 140. 속성 표현 금지·색 규칙은 그대로.\n</li>\n<li><strong>층 규칙을 푼다</strong>: 영웅과 몬스터가 한 층(<code>Actors</code>)이라 «영웅 아래·몬스터 위» 가 안 된다. → 작은 FX(꼬리·명중·처치)는 <code>Actors</code> <strong>위</strong>에 둔다(수명이 짧고 작아 영웅을 가리지 않음), 큰 FX(합성 고리·소환 고리·빛 기둥의 바닥 부분)는 <code>Actors</code> <strong>아래</strong>. 층 분리 주문은 열지 않는다.\n</li>\n<li>그리기 호출 증가(≤ +6)는 배치 모드에서 못 재므로 «층·재질 구성으로 최대 +5» 라는 코드 근거로 갈음한다(검증 못 함으로 적음).\n</li></ul>\n<p>목표선은 <strong>조정해도 된다.</strong> client 가 측정해 한 지표가 다른 지표와 부딪치면(예: 대비를 올리면 edge 가 오른다) 보고서 «요청» 에 숫자와 함께 적는다. 기획팀장·대표가 목표선을 고치고 이 표를 갱신한다(client 가 목표선을 몰래 낮추지 않는다).</p>",
 "goalShort": "실서비스 4종과 같은 방법(스토어 스크린샷 픽셀 실측)으로 쟀을 때 뒤처진 인게임 화면의 눈에 보이는 9항목을 숫자로 끌어올린다.",
 "tasks": [
 {
@@ -5804,8 +5804,8 @@
 "team": "client",
 "title": "타격 FX(항목 3): 공격·명중·처치·합성·소환 5종 연출 강화 + «낮음» 분기 + 상한(아래 §타격 FX)",
 "output": "같음 + 캡처",
-"status": "todo",
-"why": ""
+"status": "doing",
+"why": "커밋에 언급됨"
 },
 {
 "id": "C4",
@@ -5894,7 +5894,7 @@
 "id": "CD-0040",
 "title": "로딩 인트로 재구성: 한 장면처럼 이어지는 균열 침공 → 줌아웃 → 영웅 등장 → 타이틀",
 "branch": "cd39",
-"updated": "2026-11-21 01:02",
+"updated": "2026-11-21 02:04",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -6166,7 +6166,7 @@
 "id": "CD-0042",
 "title": "친구와 채팅 Unity Friends Vivox 텍스트 월드 귓속말 방 채널 신고 차단",
 "branch": "cd42",
-"updated": "2026-11-21 01:38",
+"updated": "2026-11-21 02:15",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -6176,7 +6176,7 @@
 "_shots"
 ],
 "milestone": "M4",
-"stage": "제작",
+"stage": "검수",
 "route": "full",
 "risk": "high",
 "teams": "planning, client, qa",
@@ -6191,8 +6191,8 @@
 "team": "planning",
 "title": "Data/social.json 새로(수치·한도 사본·신고 사유·랭킹 정의·화면 글 93)",
 "output": "Data/social.json",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "P2",
@@ -6200,8 +6200,8 @@
 "team": "planning",
 "title": "tools/validate_data.py social 검사(공식 한도·320바이트·도배 통·사유 값·texts 열쇠·자리표·한도 숫자·2^53·id 글자) + 로비 입구 셋",
 "output": "tools/validate_data.py",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "P3",
@@ -6209,8 +6209,8 @@
 "team": "planning",
 "title": "Data/tutorial.json 해금 셋·자리 다섯·안내 o3_social",
 "output": "Data/tutorial.json",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "P4",
@@ -6218,8 +6218,8 @@
 "team": "planning",
 "title": "docs/14 §1 표(Friends·Vivox·Safe Text·Moderation·Leaderboards) · §3-3 settings.worldChat · §3-6 online.json · docs/10 판 밖 줄 · docs/13 §12",
 "output": "docs/10·13·14",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C1",
@@ -6227,8 +6227,8 @@
 "team": "client",
 "title": "1단계 패키지 6개(multiplayer 없음) · sync_data.py · asmdef 둘 · 인터페이스·모델·공통 층·SocialConfig · fake·offline · SocialBackends·에디터 토글·-socialProfile · 로딩 «온라인» · Unity Session·Friends · 친구 창·친구 추가 창·미니 프로필(신고·차단 버튼 자리) · 로비 입구 셋(안 1)·레드닷·소식 띠 · TutorialTargetIds 다섯 · 시험 T1~T6",
 "output": "Packages/ · Assets/_Game/Net/Social/ · App/GameApp.cs · UI/Friends.cs·MiniProfile.cs·LobbyScreen.cs(입구 줄만) · Assets/Tests/EditMode/Cd42",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C2",
@@ -6236,8 +6236,8 @@
 "team": "client",
 "title": "2단계 Unity Chat(Vivox)·Report(Moderation) · ChatRoom·SendThrottle·필터 · 차단 연결 · 채팅 창·신고 창·차단 확인 · 방 채널 API · 설정 «월드 채팅 보기» · 시험 T7~T13",
 "output": "Net/Social/ · UI/Chat.cs·Report.cs · UI/SettingsScreen.cs(한 줄) · 시험",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C3",
@@ -6245,8 +6245,8 @@
 "team": "client",
 "title": "3단계 RankingRecords·RankingScore·RankingSync·online.json · Unity Ranking · .lb 셋 · 랭킹 창(줄 풀) · 계정 초기화가 online.json 도 지움 · 시험 T14~T18",
 "output": "Net/Social/ · Outgame/RankingRecords.cs · UI/Ranking.cs · .lb · 시험",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문이 검수 단계"
 },
 {
 "id": "C4",
@@ -6255,7 +6255,7 @@
 "title": "15-design §14 체크리스트 캡처(CD_SHOTS_DIR, 1080×1920·1080×2400) → 디자인 세션 검수 · 두 기기 확인용 PC 빌드 · 구현 때 확인 항목 결과",
 "output": "캡처 · 21-client.md",
 "status": "done",
-"why": "보고서 있음: 21-client.md"
+"why": "주문이 검수 단계"
 },
 {
 "id": "Q1",
@@ -6263,8 +6263,8 @@
 "team": "qa",
 "title": "A1~A30 대조(명령 출력·시험 이름·캡처) · 두 기기 절차 실행 가능성 점검 · 방향 잠금(L1·L5·L7·L11)·0062·0064 11",
 "output": "30-qa.md",
-"status": "todo",
-"why": ""
+"status": "doing",
+"why": "주문이 검수 단계"
 }
 ]
 }
@@ -13905,8 +13905,8 @@
 {
 "id": "key/intro_base",
 "group": "intro",
-"title": "로딩 인트로 바탕 원화(영웅·균열·무리 없는 새벽 하늘·골짜기·빈 성벽)",
-"brief": "2562x4096 RGB. 인트로가 재생되는 한 장. Codex 한 세션의 1번 그림을 Real-ESRGAN 으로 2.58배 키운 것(층 전부가 같은 격자)",
+"title": "로딩 인트로 2차 바탕: 평화로운 새벽(균열·무리·연합 없음, 사선 성벽)",
+"brief": "2048x4096 RGB. 1:2. Codex 2차 세션의 평화 판(i2_peace)을 Real-ESRGAN 으로 키운 것. 어두운 판과 성벽·땅 윤곽이 같다",
 "status": "draft",
 "address": "key/intro_base",
 "hasFile": true
@@ -13914,8 +13914,8 @@
 {
 "id": "fx/intro_crack",
 "group": "intro",
-"title": "인트로 판: 하늘의 가는 금(청록 빛이 샘) — 벌어진 균열과 같은 선",
-"brief": "벌어진 균열(intro_open)의 가운데 선을 코드로 뽑아 가는 금(가운데 굵고 끝은 머리카락 굵기, 청록 번짐) + 그 그림의 하늘로 뻗는 가는 금 가지 그대로. 금 → 열림이 같은 선에서 벌어진다",
+"title": "인트로 2차 판: 하늘의 가는 금(균열 축, 코드로 그림) + 그림의 가는 금 가지",
+"brief": "벌어진 균열의 가운데 선을 코드로 뽑아 가는 금(가운데 굵고 끝은 머리카락 굵기, 청록 번짐)",
 "status": "draft",
 "address": "fx/intro_crack",
 "hasFile": true
@@ -13923,8 +13923,8 @@
 {
 "id": "fx/intro_open",
 "group": "intro",
-"title": "인트로 판: 유리가 깨지듯 찢어진 균열(검정 안·청록 테두리·가는 금 가지·들린 하늘 조각)",
-"brief": "Codex 재시도 그림(intro_open_r2)에서 바뀐 자리만 오린 RGBA 상자. 들쭉날쭉한 가장자리, 양 끝·위아래로 뻗는 가는 금, 가운데 폭 원화 높이의 약 9%. 어두운 남보라 → 남청, 흰 테두리 → 청록 보정",
+"title": "인트로 2차 판: 유리처럼 깨진 균열(검정 안·청록 테두리·가는 금·안쪽 눈빛)",
+"brief": "어두운 판의 균열 자리 화소를 좁은 알파로 오린 것 — 평화로운 하늘 위에서 먼저 벌어진다",
 "status": "draft",
 "address": "fx/intro_open",
 "hasFile": true
@@ -13932,8 +13932,8 @@
 {
 "id": "fx/intro_horde_far",
 "group": "intro",
-"title": "인트로 판: 그림자 무리 — 먼 층",
-"brief": "4번 그림과 3번의 차이에서 오린 RGBA 상자(작은 무리 + 연기). 균열 몸통은 3번 것을 그대로 둠",
+"title": "인트로 2차 판: 그림자 무리 — 하늘의 날것 떼(먼 층)",
+"brief": "i2_noally2 의 하늘(y < 0.50)에서 어두운 판에 없는 검은 실루엣·청록 선",
 "status": "draft",
 "address": "fx/intro_horde_far",
 "hasFile": true
@@ -13941,35 +13941,17 @@
 {
 "id": "fx/intro_horde_near",
 "group": "intro",
-"title": "인트로 판: 그림자 무리 — 가까운 층(큰 몇 마리)",
-"brief": "같은 4번 그림에서 왼쪽 아래 큰 무리만 따로(시차 이동용)",
+"title": "인트로 2차 판: 그림자 무리 — 하늘의 큰 날것(시차 이동용)",
+"brief": "같은 그림의 하늘에서 큰 덩어리만",
 "status": "draft",
 "address": "fx/intro_horde_near",
 "hasFile": true
 },
 {
-"id": "key/intro_heroes",
-"group": "intro",
-"title": "인트로 판: 성벽 위 영웅 여섯(뒤에서 본 모습) + 발밑 그림자",
-"brief": "5번 그림에서 ToonOut 누끼 + 마커 워터셰드로 오린 RGBA 상자. 영웅 번호 지도와 짝",
-"status": "draft",
-"address": "key/intro_heroes",
-"hasFile": true
-},
-{
-"id": "key/intro_hero_ids",
-"group": "intro",
-"title": "인트로 영웅 번호 지도(8비트, 1 드워프·2 수인·3 엘프·4 용족·5 기사·6 정령, 0 없음)",
-"brief": "641x1024 L. 원화 격자의 1/4. 영웅 판의 화소가 어느 영웅인지(앞줄 → 뒷줄 순서로 드러내기용)",
-"status": "draft",
-"address": "key/intro_hero_ids",
-"hasFile": true
-},
-{
 "id": "fx/intro_map_crack",
 "group": "intro",
-"title": "인트로 드러남 지도: 금(가운데 0 → 양 끝 255)",
-"brief": "641x1024 L. 금이 가운데에서 두 끝으로 달려 나가며 드러나는 순서",
+"title": "인트로 2차 드러남 지도: 금(가운데 0 → 양 끝 255)",
+"brief": "512x1024 L",
 "status": "draft",
 "address": "fx/intro_map_crack",
 "hasFile": true
@@ -13977,8 +13959,8 @@
 {
 "id": "fx/intro_map_open",
 "group": "intro",
-"title": "인트로 드러남 지도: 열림(균열 축 0 → 바깥 테두리 255)",
-"brief": "641x1024 L. 균열 축에서 바깥으로 벌어지며 드러나는 순서",
+"title": "인트로 2차 드러남 지도: 열림(균열 축 0 → 바깥 255)",
+"brief": "512x1024 L",
 "status": "draft",
 "address": "fx/intro_map_open",
 "hasFile": true
@@ -13986,10 +13968,55 @@
 {
 "id": "fx/intro_map_horde",
 "group": "intro",
-"title": "인트로 드러남 지도: 무리(균열 0 → 먼 끝 255)",
-"brief": "641x1024 L. 균열에서 바깥으로 흘러나오는 순서",
+"title": "인트로 2차 드러남 지도: 무리(균열 0 → 먼 끝 255)",
+"brief": "512x1024 L",
 "status": "draft",
 "address": "fx/intro_map_horde",
+"hasFile": true
+},
+{
+"id": "key/intro_dark",
+"group": "intro",
+"title": "로딩 인트로 2차 어두운 하늘 판(먹구름·그늘·깨진 균열, 빈 성벽)",
+"brief": "2048x4096 RGB. 균열에서 번지는 어둠으로 바탕과 교차하는 전체 판. 땅은 i2_nohorde, 균열 자리는 i2_noally2, 감마 들어올림",
+"status": "draft",
+"address": "key/intro_dark",
+"hasFile": true
+},
+{
+"id": "fx/intro_horde_ground",
+"group": "intro",
+"title": "인트로 2차 판: 그림자 무리 — 골짜기를 행진하는 대열(땅, 시차 없음)",
+"brief": "i2_noally2 의 골짜기(y >= 0.50)에서 청록 선을 가진 검은 실루엣만(골짜기 자체는 다시 그려져 차이로 못 씀)",
+"status": "draft",
+"address": "fx/intro_horde_ground",
+"hasFile": true
+},
+{
+"id": "key/intro_ally",
+"group": "intro",
+"title": "인트로 2차 판: 종족 연합(깃발 여섯·대열·선봉 셋)",
+"brief": "완성 장면(i2_scene2)에서 연합만 오린 RGBA 상자. 번호 지도와 짝",
+"status": "draft",
+"address": "key/intro_ally",
+"hasFile": true
+},
+{
+"id": "key/intro_ally_ids",
+"group": "intro",
+"title": "인트로 2차 연합 번호 지도(8비트: 1 깃발 · 2 대열 · 3 엘프 · 4 드워프 · 5 기사, 0 없음)",
+"brief": "512x1024 L. 원화 격자의 1/4. 깃발 → 대열 → 엘프·드워프 → 기사 순서로 드러내기용",
+"status": "draft",
+"address": "key/intro_ally_ids",
+"hasFile": true
+},
+{
+"id": "fx/intro_map_dark",
+"group": "intro",
+"title": "인트로 2차 드러남 지도: 어둠(균열 0 → 먼 곳 255)",
+"brief": "512x1024 L. 균열에서 어둠이 번지는 순서",
+"status": "draft",
+"address": "fx/intro_map_dark",
 "hasFile": true
 },
 {
@@ -14317,7 +14344,7 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-21 00:47",
+"at": "2026-11-21 01:58",
 "branch": "cd39",
 "dirty": false
 },
@@ -14778,6 +14805,71 @@
 "f": "data/art/188eccd060a59e0047e6.bin",
 "w": 512,
 "h": 512
+},
+"key/intro_base": {
+"f": "data/art/b5c25b3cfa5e56eff496.bin",
+"w": 640,
+"h": 1280
+},
+"fx/intro_crack": {
+"f": "data/art/2eb6398a69cb6579233d.bin",
+"w": 1036,
+"h": 493
+},
+"fx/intro_open": {
+"f": "data/art/df941c8203edd6759669.bin",
+"w": 1280,
+"h": 752
+},
+"fx/intro_horde_far": {
+"f": "data/art/1300f1c0b372a8f253e5.bin",
+"w": 1280,
+"h": 643
+},
+"fx/intro_horde_near": {
+"f": "data/art/05b7496e47269c6f57d6.bin",
+"w": 949,
+"h": 576
+},
+"fx/intro_map_crack": {
+"f": "data/art/594068fa7d91878837e9.bin",
+"w": 512,
+"h": 1024
+},
+"fx/intro_map_open": {
+"f": "data/art/513933e03c828f86de1f.bin",
+"w": 512,
+"h": 1024
+},
+"fx/intro_map_horde": {
+"f": "data/art/0b7842b605954e56cbda.bin",
+"w": 512,
+"h": 1024
+},
+"key/intro_dark": {
+"f": "data/art/a4dd4c65c90ccb325d93.bin",
+"w": 640,
+"h": 1280
+},
+"fx/intro_horde_ground": {
+"f": "data/art/6cac47b8c4408ecc11bc.bin",
+"w": 1280,
+"h": 452
+},
+"key/intro_ally": {
+"f": "data/art/2c095e297412f41ad10a.bin",
+"w": 999,
+"h": 1280
+},
+"key/intro_ally_ids": {
+"f": "data/art/f80112d71861cba1f49f.bin",
+"w": 512,
+"h": 1024
+},
+"fx/intro_map_dark": {
+"f": "data/art/4e0ed207e7f75a928261.bin",
+"w": 512,
+"h": 1024
 },
 "map/fort/deck": {
 "f": "data/art/dcbb7790cb418b4b42c9.bin",
@@ -15775,6 +15867,31 @@
 "state": "final"
 },
 {
+"address": "key/intro_dark",
+"kind": "key",
+"state": "final"
+},
+{
+"address": "fx/intro_horde_ground",
+"kind": "fx",
+"state": "final"
+},
+{
+"address": "key/intro_ally",
+"kind": "key",
+"state": "final"
+},
+{
+"address": "key/intro_ally_ids",
+"kind": "key",
+"state": "final"
+},
+{
+"address": "fx/intro_map_dark",
+"kind": "fx",
+"state": "final"
+},
+{
 "address": "key/intro_base",
 "kind": "key",
 "state": "final"
@@ -15797,16 +15914,6 @@
 {
 "address": "fx/intro_horde_near",
 "kind": "fx",
-"state": "final"
-},
-{
-"address": "key/intro_heroes",
-"kind": "key",
-"state": "final"
-},
-{
-"address": "key/intro_hero_ids",
-"kind": "key",
 "state": "final"
 },
 {
@@ -16035,6 +16142,31 @@
 "state": "final"
 },
 {
+"address": "fx/cc0/arc_01",
+"kind": "fx",
+"state": "final"
+},
+{
+"address": "fx/cc0/cross_01",
+"kind": "fx",
+"state": "final"
+},
+{
+"address": "fx/cc0/rayring_01",
+"kind": "fx",
+"state": "final"
+},
+{
+"address": "fx/cc0/rayring_02",
+"kind": "fx",
+"state": "final"
+},
+{
+"address": "fx/cc0/star_04",
+"kind": "fx",
+"state": "final"
+},
+{
 "address": "illust/legend/human_waldemar",
 "kind": "illust",
 "state": "final"
@@ -16085,7 +16217,7 @@
 "state": "final"
 }
 ],
-"at": "2026-11-21 00:14",
+"at": "2026-11-21 02:04",
 "branch": "cd39"
 }
 },
@@ -16136,7 +16268,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-21 01:11",
+"at": "2026-11-21 02:10",
 "passed": 511,
 "failed": 0,
 "total": 511,
@@ -16144,16 +16276,16 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-21 01:16",
-"passed": 276,
+"at": "2026-11-21 02:15",
+"passed": 277,
 "failed": 0,
-"total": 276,
+"total": 277,
 "ok": true,
 "fresh": true
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-21 01:11",
+"at": "2026-11-21 02:10",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16161,7 +16293,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-21 01:11",
+"at": "2026-11-21 02:10",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16169,7 +16301,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-21 01:11",
+"at": "2026-11-21 02:10",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16184,8 +16316,8 @@
 "sizeMB": 82.0,
 "branch": "cd42",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "",
-"tag": ""
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261121-0143",
+"tag": "build-android-20261121-0143"
 },
 {
 "kind": "android",
@@ -16249,6 +16381,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261121-0143",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261121-0143",
+"kind": "android",
+"at": "2026-11-21 01:43",
+"branch": "cd42",
+"sizeMB": 82.0
+},
 {
 "tag": "build-android-20261120-1440",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261120-1440",
@@ -16400,18 +16540,10 @@
 "at": "2026-11-17 00:21",
 "branch": "cd14",
 "sizeMB": 46.2
-},
-{
-"tag": "build-android-20261116-2350",
-"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261116-2350",
-"kind": "android",
-"at": "2026-11-16 23:50",
-"branch": "cd13",
-"sizeMB": 44.4
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-21 01:48",
-"generatedAt": "2026-11-21 01:47",
-"digest": "81246298577e0a3e"
+"sourceAt": "2026-11-21 02:16",
+"generatedAt": "2026-11-21 02:17",
+"digest": "5d3cb9d0fc77f451"
 }
