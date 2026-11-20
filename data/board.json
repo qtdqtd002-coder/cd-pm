@@ -1808,35 +1808,43 @@
 "msg": "작업실 서버: DNS 리바인딩 막기 — Host 가 127.0.0.1·localhost:<포트> 일 때만 받는다"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 90,
 "dirty": [
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 01:16"
+"at": "2026-11-21 01:43"
 },
 {
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-21 00:40"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/21-client.md",
+"at": "2026-11-21 01:38"
 },
 {
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-21 00:40"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-611-ranking-offline_safe_1080x2400.png",
+"at": "2026-11-21 01:34"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-21 00:22"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-611-ranking-offline_1080x1920.png",
+"at": "2026-11-21 01:34"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-21 00:22"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-609-ranking-as-of_safe_1080x2400.png",
+"at": "2026-11-21 01:34"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-21 00:22"
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-608-ranking-heroes-no-record_safe_1080x2400.png",
+"at": "2026-11-21 01:34"
+},
+{
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-609-ranking-as-of_1080x1920.png",
+"at": "2026-11-21 01:34"
+},
+{
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_shots/d1-608-ranking-heroes-no-record_1080x1920.png",
+"at": "2026-11-21 01:34"
 }
 ],
-"lastEdit": "2026-11-21 01:16",
-"lastEditTs": 1795191377.7976713,
+"lastEdit": "2026-11-21 01:43",
+"lastEditTs": 1795193004.9429162,
 "lastCommitTs": 1795191402,
 "unpushed": 5,
 "notInMain": 5,
@@ -1848,8 +1856,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0038",
-"head": "83bcae7",
+"head": "e8af365",
 "commits": [
+{
+"sha": "e8af365",
+"at": "2026-11-21 01:18",
+"ts": 1795191500,
+"msg": "CD-0038 검수 통과: check --unity(Core 567/567 · EditMode 225/225 · 데이터·그림·설정 오류 0) · 독립 QA PASS(PlayMode 203 통과 0 실패) · 30-qa.md · gate qa → 마감 단계"
+},
 {
 "sha": "83bcae7",
 "at": "2026-11-21 00:50",
@@ -1879,55 +1893,16 @@
 "at": "2026-11-20 22:45",
 "ts": 1795182303,
 "msg": "CD-0038 주문·기획서(4차): 인게임 단계 강화 차원석 · 골드 규격(처치 2·웨이브 10+2w·현상금 40~800) · 광부 고용 5명 단위 +10/+20/+30 · 광부 상한 5→15(계정 레벨) · 계정 레벨 200(열심 1년 = Lv.120) · 레벨 보상 · 저장 v14 · 결정 0065 초안 · 측정 _sim"
-},
-{
-"sha": "c5e89c8",
-"at": "2026-11-20 14:50",
-"ts": 1795153801,
-"msg": "개발일지: 앱 0.7.0 폰 배포(Firebase 0.7.0 (11) 릴리스 736r03022pnkg · CCD 는 Unity 로그인 없어 못 올림) · 현황 사이트 다시 만들기"
 }
 ],
-"dirtyCount": 8,
-"dirty": [
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-21 01:15"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 01:15"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-21 00:53"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-21 00:53"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-21 00:53"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-21 00:53"
-},
-{
-"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/00-order.md",
-"at": "2026-11-21 00:50"
-},
-{
-"file": "studio/orders/CD-0038-인게임-단계-강화를-차원석으로-골드-수급-줄임-광부-상/20-planning.md",
-"at": "2026-11-21 00:50"
-}
-],
-"lastEdit": "2026-11-21 01:15",
-"lastEditTs": 1795191338.6032634,
-"lastCommitTs": 1795189823,
-"unpushed": 5,
-"notInMain": 5,
-"today": 1
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795191500,
+"unpushed": 6,
+"notInMain": 6,
+"today": 2
 },
 {
 "branch": "cd36",
@@ -2022,8 +1997,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0039",
-"head": "6694990",
+"head": "9d54fcc",
 "commits": [
+{
+"sha": "9d54fcc",
+"at": "2026-11-21 01:29",
+"ts": 1795192166,
+"msg": "CD-0039 진행 기록: 4차 결과·눈 검수(겹침·아이콘 통과, 보스 배너 글자 남음)"
+},
+{
+"sha": "0802faa",
+"at": "2026-11-21 01:28",
+"ts": 1795192128,
+"msg": "CD-0039 client 4차 보고"
+},
 {
 "sha": "6694990",
 "at": "2026-11-21 01:03",
@@ -2047,61 +2034,49 @@
 "at": "2026-11-21 01:00",
 "ts": 1795190432,
 "msg": "CD-0039 C4: 정보 카드 한 줄 띠의 글자 칸 조정(이름·Lv·이번 판이 테두리에 안 걸리게, 높이 150)"
-},
-{
-"sha": "ce89fb9",
-"at": "2026-11-21 00:58",
-"ts": 1795190317,
-"msg": "CD-0040 준비: 스프라이트 카탈로그에서 key·fx 의 intro_ 그림 제외(인트로가 텍스처로 직접 읽음)"
-},
-{
-"sha": "8ea001e",
-"at": "2026-11-21 00:51",
-"ts": 1795189891,
-"msg": "CD-0039 C4: 겹침 0 — 보스 배너·알림은 상단 띠 아래 한 자리에서 줄 서기, 정보 카드는 낮은 한 줄 띠, 팝업은 카드가 남긴 자리(시험 3 해상도)"
 }
 ],
-"dirtyCount": 135,
+"dirtyCount": 168,
 "dirty": [
 {
-"file": "art-lab/intro2/_noally_warp.png",
-"at": "2026-11-21 01:17"
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/art/intro2_codex_sheet.png",
+"at": "2026-11-21 01:48"
 },
 {
-"file": "art-lab/intro2/_flow_noally.npy",
-"at": "2026-11-21 01:17"
+"file": "art-lab/intro2/_build.log",
+"at": "2026-11-21 01:48"
 },
 {
-"file": "art-lab/intro2/_edges_ally.png",
-"at": "2026-11-21 01:15"
+"file": "art-lab/intro2/out/report.json",
+"at": "2026-11-21 01:48"
 },
 {
-"file": "art-lab/intro2/_v_noally.png",
-"at": "2026-11-21 01:14"
+"file": "UnityProject/Assets/Tests/PlayMode/Cd39FxShotTests.cs",
+"at": "2026-11-21 01:48"
 },
 {
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-21 01:14"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-21 01:47"
 },
 {
-"file": "art-lab/intro2/_c2_vanguard.png",
-"at": "2026-11-21 01:13"
+"file": "art-lab/intro2/out/intro_layout.json",
+"at": "2026-11-21 01:47"
 },
 {
-"file": "art-lab/intro2/_c2_mid.png",
-"at": "2026-11-21 01:13"
+"file": "art-lab/intro2/out/intro_map_horde.png",
+"at": "2026-11-21 01:47"
 },
 {
-"file": "art-lab/intro2/_riftmeasure.py",
-"at": "2026-11-21 01:13"
+"file": "art-lab/intro2/out/intro_map_open.png",
+"at": "2026-11-21 01:47"
 }
 ],
-"lastEdit": "2026-11-21 01:17",
-"lastEditTs": 1795191466.0483992,
-"lastCommitTs": 1795190593,
-"unpushed": 39,
-"notInMain": 39,
-"today": 15
+"lastEdit": "2026-11-21 01:48",
+"lastEditTs": 1795193289.28311,
+"lastCommitTs": 1795192166,
+"unpushed": 41,
+"notInMain": 41,
+"today": 17
 },
 {
 "branch": "workbench",
@@ -2193,15 +2168,15 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 77,
+"commits": 79,
 "byOrder": [
 [
 "CD-0039",
-22
+24
 ],
 [
 "CD-0036",
-13
+12
 ],
 [
 "CD-0040",
@@ -2216,12 +2191,12 @@
 7
 ],
 [
-"CD-0034",
+"CD-0038",
 6
 ],
 [
-"CD-0038",
-5
+"CD-0034",
+6
 ],
 [
 "CD-0042",
@@ -2241,6 +2216,21 @@
 ]
 ],
 "latest": [
+{
+"sha": "9d54fcc",
+"at": "2026-11-21 01:29",
+"msg": "CD-0039 진행 기록: 4차 결과·눈 검수(겹침·아이콘 통과, 보스 배너 글자 남음)"
+},
+{
+"sha": "0802faa",
+"at": "2026-11-21 01:28",
+"msg": "CD-0039 client 4차 보고"
+},
+{
+"sha": "e8af365",
+"at": "2026-11-21 01:18",
+"msg": "CD-0038 검수 통과: check --unity(Core 567/567 · EditMode 225/225 · 데이터·그림·설정 오류 0) · 독립 QA PASS(PlayMode 203 통과 0 실패) · 30-qa.md · gate qa → 마감 단계"
+},
 {
 "sha": "e8adc16",
 "at": "2026-11-21 01:16",
@@ -2275,21 +2265,6 @@
 "sha": "d1b10e0",
 "at": "2026-11-21 00:51",
 "msg": "CD-0042 C2: 채팅(월드·귓속말, 방 채널 API)·신고·차단·필터 + C1 마무리(A30 그림 없을 때·로비 입구 터치 126·친구 흐름 캡처)"
-},
-{
-"sha": "8ea001e",
-"at": "2026-11-21 00:51",
-"msg": "CD-0039 C4: 겹침 0 — 보스 배너·알림은 상단 띠 아래 한 자리에서 줄 서기, 정보 카드는 낮은 한 줄 띠, 팝업은 카드가 남긴 자리(시험 3 해상도)"
-},
-{
-"sha": "83bcae7",
-"at": "2026-11-21 00:50",
-"msg": "CD-0038 U1~U4 화면·저장: 단계 강화 시트 차원석(값·빨강·칩 흔들림, «골드» 0, 줄 간격 127) · 광산 시트 15칸 5×3(상한 밖 자물쇠·다음 칸 Lv.n·고용 구간 값·키 높이 126) · 결과 화면 «광부 최대 n명»·큰 보상 겹침 고침·MAX · Lv.200 세 자리 · 저장 v14(누적 경험치 재계산·player.v13.bak·레벨 내려간 계정 알림 카드)"
-},
-{
-"sha": "fab34c0",
-"at": "2026-11-21 00:48",
-"msg": "CD-0040 진행 기록: 인트로 원화 재시도 결과·대표 눈 검수 통과(draft) · Codex 호출 기록"
 }
 ]
 },
@@ -5649,20 +5624,21 @@
 "id": "CD-0038",
 "title": "인게임 단계 강화를 차원석으로 · 골드 수급 줄임 · 광부 상한 5→15(계정 레벨) · 계정 레벨 최대 200 긴 곡선(10명 3달·15명 1년)",
 "branch": "cd38",
-"updated": "2026-11-21 00:50",
+"updated": "2026-11-21 01:18",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-planning.md",
 "21-core.md",
 "22-client.md",
+"30-qa.md",
 "_core_sim",
 "_draft",
 "_qa",
 "_sim"
 ],
 "milestone": "M3",
-"stage": "검수",
+"stage": "마감",
 "route": "full",
 "risk": "high",
 "teams": "planning, core, client",
@@ -5678,7 +5654,7 @@
 "title": "결정 0065 를 docs/decisions/ 로 · §5 의 Data/ 9개 · validate_data.py 새 검사 ①~⑩ · docs/10·11·13·14 · 0054·0063 표시 · 대표에게 CHARTER L11·cd-canon 표 고침 요청",
 "output": "20-planning.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "P2",
@@ -5687,7 +5663,7 @@
 "title": "C4 표로 띠 B′(§1-4)·§1-2 골드 규격·§1-1 고용·§1-3 균형을 진짜 Core 로 확인, 벗어나면 upgrade·hireCostSteps·맵마다 현상금 배율만 고침",
 "output": "20-planning.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -5696,7 +5672,7 @@
 "title": "단계 강화 차원석: UpgradeConfig.Currency, CheckUpgrade(… → UpgradeMaxed → NotEnoughStones)·DoUpgrade(StoneMilli), StageUpgraded.CellB = 낸 양, GetUpgradeStatus 값 단위, 봇(SimpleBot·FocusBot·OneRaceBot) 차원석 강화 정책(§1-5 ③ 꼴), 처치 골드 MonstersConfig.KillGold 한 값(유형 % 지움), 기준 재생 해시 갱신(이유 적음)",
 "output": "21-core.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -5705,7 +5681,7 @@
 "title": "광부: StonesConfig.HireCost 를 hireCostSteps 구간 표로, PlayerLoadout.AccountLevel(없으면 1), StonesConfig.CapFor(level), CheckHire 의 MineFull·NextHireCost 가 사람마다 상한, 스냅샷·이어 하기에 상한 보존, 협동은 사람마다",
 "output": "21-core.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C3",
@@ -5714,7 +5690,7 @@
 "title": "Meta: account.json 200 · 보상 줄 {base, perLevel, div} · 레벨 업 결과에 광부 상한 전·후 · stamina.maxLimit · Tutorial 조건 accountLevel · Account.FromOldCurve(level, exp, convert_v14) 순수 함수와 §2-6 표 시험",
 "output": "21-core.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C4",
@@ -5723,7 +5699,7 @@
 "title": "시뮬레이터: 봇 정책 +acct:<L>(loadout 계정 레벨 → 상한), 요약에 골드 출처·쓴 곳·남은 골드·차원석 쓴 곳 열, 1인 20스테이지 × 기준 봇 넷 + 2인 맵 2 다섯 스테이지, 시드 1~210",
 "output": "21-core.md, 결과",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "U1",
@@ -5732,7 +5708,7 @@
 "title": "단계 강화 시트 차원석(아이콘·값·빨강·칩 흔들림·배지), «골드» 글자 0",
 "output": "22-client.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "U2",
@@ -5741,7 +5717,7 @@
 "title": "광산 시트 15칸 5×3 · 상한 밖 자물쇠 · 다음 칸 «Lv.n» · [고용] 값 구간 표 · 판 시작 loadout 에 계정 레벨",
 "output": "22-client.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "U3",
@@ -5750,7 +5726,7 @@
 "title": "결과 화면 레벨 업 보상 줄·«광부 최대 n명» 줄 · «Lv.200» 세 자리(로비·결과·프로필) · o7_minerCap 자리 · 튜토리얼 새 글 · 캡처 · craft-game-floors 감사(두 시트)",
 "output": "22-client.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "U4",
@@ -5759,7 +5735,7 @@
 "title": "저장 v14: PlayerData.CurrentVersion 14, v13 → v14 변환(Account.FromOldCurve)·player.v13.bak 한 번·DeleteAll 목록에 더함, 레벨이 내려간 계정 알림 한 번, EditMode 변환 시험",
 "output": "22-client.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "Q1",
@@ -5767,8 +5743,8 @@
 "team": "qa",
 "title": "수용 기준 대조 · 새 계정 1-1 → 2-1 손으로 한 번 · v13 저장 파일 하나를 열어 변환 확인 · 방향 잠금(L6·L10·L11) · 화면 글자",
 "output": "30-qa.md",
-"status": "doing",
-"why": "주문이 검수 단계"
+"status": "done",
+"why": "주문 마감"
 }
 ]
 },
@@ -5776,7 +5752,7 @@
 "id": "CD-0039",
 "title": "인게임 비주얼 1순위: 색·가독성·타격 FX·겹침·터치 크기·HUD 아이콘 통일",
 "branch": "cd39",
-"updated": "2026-11-21 00:35",
+"updated": "2026-11-21 01:29",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -6190,7 +6166,7 @@
 "id": "CD-0042",
 "title": "친구와 채팅 Unity Friends Vivox 텍스트 월드 귓속말 방 채널 신고 차단",
 "branch": "cd42",
-"updated": "2026-11-21 01:11",
+"updated": "2026-11-21 01:38",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -16204,6 +16180,16 @@
 {
 "kind": "android",
 "name": "coopdefense-dev-arm64.apk",
+"at": "2026-11-21 01:43",
+"sizeMB": 82.0,
+"branch": "cd42",
+"local": "Builds\\Android\\coopdefense-dev-arm64.apk",
+"release": "",
+"tag": ""
+},
+{
+"kind": "android",
+"name": "coopdefense-dev-arm64.apk",
 "at": "2026-11-20 14:40",
 "sizeMB": 64.5,
 "branch": "rel-070",
@@ -16425,7 +16411,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-21 01:17",
-"generatedAt": "2026-11-21 01:17",
-"digest": "33f3e76f10b9f5fd"
+"sourceAt": "2026-11-21 01:48",
+"generatedAt": "2026-11-21 01:47",
+"digest": "81246298577e0a3e"
 }
