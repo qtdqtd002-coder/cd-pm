@@ -1650,7 +1650,7 @@
 "lane": "cd32",
 "session": "",
 "owns": "",
-"order": "CD-0029",
+"order": "CD-0031",
 "head": "3dd41bf",
 "commits": [
 {
@@ -1935,10 +1935,43 @@
 "msg": "Merge branch 'main' into cd36"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 19,
+"dirty": [
+{
+"file": "studio/orders/CD-0036-튜토리얼과-초반-동선-튜토리얼-맵-10스테이지-다음-맵/_sim/c4/table.py",
+"at": "2026-11-20 10:45"
+},
+{
+"file": "Core/tests/SimulatorTests.cs",
+"at": "2026-11-20 10:39"
+},
+{
+"file": "tools/sim/src/Program.cs",
+"at": "2026-11-20 10:38"
+},
+{
+"file": "tools/sim/src/Batch.cs",
+"at": "2026-11-20 10:38"
+},
+{
+"file": "tools/sim/src/MatchRunner.cs",
+"at": "2026-11-20 10:38"
+},
+{
+"file": "tools/sim/src/SimContext.cs",
+"at": "2026-11-20 10:37"
+},
+{
+"file": "tools/sim/src/Bots.cs",
+"at": "2026-11-20 10:37"
+},
+{
+"file": "Core/package/Runtime/Match/SimpleBot.cs",
+"at": "2026-11-20 10:36"
+}
+],
+"lastEdit": "2026-11-20 10:45",
+"lastEditTs": 1795139147.369579,
 "lastCommitTs": 1795137390,
 "unpushed": 8,
 "notInMain": 8,
@@ -5193,7 +5226,7 @@
 "id": "CD-0036",
 "title": "튜토리얼과 초반 동선: 튜토리얼 맵 10스테이지·다음 맵·해금·환영 선물·계정 초기화",
 "branch": "cd36",
-"updated": "2026-11-20 10:16",
+"updated": "2026-11-20 10:41",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -14826,7 +14859,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-20 10:16",
-"generatedAt": "2026-11-20 10:17",
-"digest": "e3aca21b51c02015"
+"sourceAt": "2026-11-20 10:45",
+"generatedAt": "2026-11-20 10:47",
+"digest": "3376e0bf6d855542"
 }
