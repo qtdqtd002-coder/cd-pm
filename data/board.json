@@ -1330,7 +1330,7 @@
 "lane": "cd26",
 "session": "",
 "owns": "",
-"order": "CD-0025",
+"order": "CD-0024",
 "head": "e145fe8",
 "commits": [
 {
@@ -15315,6 +15315,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-20 16:59",
-"generatedAt": "2026-11-20 17:17",
-"digest": "27f7f7f984cbfa4e"
+"generatedAt": "2026-11-20 18:17",
+"digest": "afceafad601c9150"
 }
