@@ -1808,43 +1808,43 @@
 "msg": "CD-0042 기획: 친구·채팅·랭킹 기획서(gate spec 통과) · 디자인 문서 · Data/social.json · 해금 줄 · 결정 0069 랭킹 보충"
 }
 ],
-"dirtyCount": 9,
+"dirtyCount": 12,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-21 02:46"
+"file": "studio/checks.json",
+"at": "2026-11-21 03:17"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 02:46"
+"at": "2026-11-21 03:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-21 02:52"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd36FirstEntryTests.cs",
+"at": "2026-11-21 02:49"
+},
+{
+"file": "studio/launch-cautions.json",
+"at": "2026-11-21 02:48"
+},
+{
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/30-qa.md",
+"at": "2026-11-21 02:48"
 },
 {
 "file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/_qa/craft-game-floors.md",
 "at": "2026-11-21 02:31"
 },
 {
-"file": "studio/checks.json",
-"at": "2026-11-21 02:25"
-},
-{
 "file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/00-order.md",
 "at": "2026-11-21 01:54"
-},
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-21 00:40"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-21 00:22"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-21 00:22"
 }
 ],
-"lastEdit": "2026-11-21 02:46",
-"lastEditTs": 1795196781.2549675,
+"lastEdit": "2026-11-21 03:17",
+"lastEditTs": 1795198653.7131493,
 "lastCommitTs": 1795195227,
 "unpushed": 7,
 "notInMain": 7,
@@ -6166,13 +6166,14 @@
 "id": "CD-0042",
 "title": "친구와 채팅 Unity Friends Vivox 텍스트 월드 귓속말 방 채널 신고 차단",
 "branch": "cd42",
-"updated": "2026-11-21 02:31",
+"updated": "2026-11-21 03:17",
 "files": [
 "00-order.md",
 "10-spec.md",
 "15-design.md",
 "20-planning.md",
 "21-client.md",
+"30-qa.md",
 "_qa",
 "_shots"
 ],
@@ -16269,7 +16270,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-21 02:20",
+"at": "2026-11-21 03:13",
 "passed": 511,
 "failed": 0,
 "total": 511,
@@ -16277,7 +16278,7 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-21 02:25",
+"at": "2026-11-21 03:17",
 "passed": 277,
 "failed": 0,
 "total": 277,
@@ -16286,7 +16287,7 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-21 02:20",
+"at": "2026-11-21 03:13",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16294,7 +16295,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-21 02:20",
+"at": "2026-11-21 03:13",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16302,7 +16303,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-21 02:20",
+"at": "2026-11-21 03:13",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16544,7 +16545,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-21 02:46",
-"generatedAt": "2026-11-21 02:47",
-"digest": "13fca21035e72102"
+"sourceAt": "2026-11-21 03:17",
+"generatedAt": "2026-11-21 03:17",
+"digest": "b673cdde2df5ec14"
 }
