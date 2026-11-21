@@ -1391,7 +1391,7 @@
 "lane": "cd-53",
 "session": "",
 "owns": "",
-"order": "CD-0064",
+"order": "CD-0053",
 "head": "d1560eb",
 "commits": [
 {
@@ -1724,12 +1724,12 @@
 "dirtyCount": 6,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene29ab6c73-5c2b-4c49-98b9-6e487634fd74.unity.meta",
-"at": "2026-11-22 04:11"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-22 04:20"
 },
 {
-"file": "UnityProject/Assets/InitTestScene29ab6c73-5c2b-4c49-98b9-6e487634fd74.unity",
-"at": "2026-11-22 04:11"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 04:20"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
@@ -1748,8 +1748,8 @@
 "at": "2026-11-22 04:06"
 }
 ],
-"lastEdit": "2026-11-22 04:11",
-"lastEditTs": 1795288286.9362638,
+"lastEdit": "2026-11-22 04:20",
+"lastEditTs": 1795288802.4917328,
 "lastCommitTs": 1795288264,
 "unpushed": 6,
 "notInMain": 6,
@@ -1871,7 +1871,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 387,
+"commits": 386,
 "byOrder": [
 [
 "CD-0041",
@@ -1899,7 +1899,7 @@
 ],
 [
 "CD-0040",
-21
+20
 ],
 [
 "CD-0045",
@@ -20060,7 +20060,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 04:11",
-"generatedAt": "2026-11-22 04:17",
-"digest": "8579ccf4ebf18e7a"
+"sourceAt": "2026-11-22 04:20",
+"generatedAt": "2026-11-22 04:47",
+"digest": "e998dc695745a066"
 }
