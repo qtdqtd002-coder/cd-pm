@@ -144,15 +144,20 @@ button.btn.ghost{background:none;color:var(--ink2);border:1px solid var(--line2)
 .oform label .hint{font-weight:400;color:var(--ink3)}
 .oform input[type=text],.oform textarea,.oform select{font:inherit;font-size:13.5px;font-weight:400;padding:8px 10px;border:1px solid var(--line2);border-radius:8px;background:var(--panel);color:var(--ink);width:100%}
 .oform textarea{resize:vertical;min-height:76px;line-height:1.55}
-.oform .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.oform .chk{display:flex;gap:8px;align-items:center;font-weight:500;color:var(--ink)}
+.imp{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.imp label{display:flex;flex-direction:column;gap:1px;padding:8px 12px;border:1px solid var(--line2);border-radius:8px;cursor:pointer;font-weight:400;position:relative}
+.imp input{position:absolute;opacity:0;pointer-events:none}
+.imp b{font-size:13.5px;color:var(--ink)}.imp span{font-size:11.5px;color:var(--ink3);line-height:1.4}
+.imp label:has(input:checked){border-color:var(--acc);background:var(--acc-soft);box-shadow:inset 0 0 0 1px var(--acc)}
+.imp label.high:has(input:checked){border-color:var(--bad);background:var(--bad-soft);box-shadow:inset 0 0 0 1px var(--bad)}
+.imp label:has(input:focus-visible){outline:2px solid var(--acc);outline-offset:2px}
 .oform .acts{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .oform .msg{font-size:12.5px;color:var(--ink3)}.oform .msg.bad{color:var(--bad)}.oform .msg.ok{color:var(--ok)}
 .req{display:grid;grid-template-columns:56px 1fr auto;gap:10px;align-items:center;padding:9px 14px;border-bottom:1px solid var(--line)}
 .req:last-child{border-bottom:0}
 @media (max-width:760px){
   .flow{grid-template-columns:1fr 1fr}.flow a:nth-child(2){border-right:0}.flow a:nth-child(-n+2){border-bottom:1px solid var(--line)}
-  .oform .row2{grid-template-columns:1fr}
+  .imp{grid-template-columns:1fr}
   .req{grid-template-columns:44px 1fr}.req>:nth-child(3){grid-column:2}
 }
 @media (max-width:760px){
@@ -295,46 +300,46 @@ function orderRow(o){var d=o.tasks.filter(function(t){return t.status==="done"})
 function reqRow(r,withPhase){
   var st=r.orders&&r.orders.length?'<span class="small muted">'+esc(r.orders.join(" · "))+'</span>':(r.seen?'<span class="small muted">PM 확인함</span>':'<span class="chip c-wait">PM 확인 전</span>');
   if(withPhase)st+=' '+phChip(r.phase);
-  return'<div class="req"><b class="small"><a href="'+esc(r.url)+'" target="_blank" rel="noopener" title="비공개 저장소 — 로그인 필요">#'+r.no+'</a></b><span>'+esc(r.title)+'<div class="small muted">접수 '+esc(r.createdAt)+(r.state==="closed"?' · 닫힘':'')+'</div></span><span>'+st+'</span></div>'}
+  return'<div class="req"><b class="small"><a href="'+esc(r.url)+'" target="_blank" rel="noopener" title="비공개 저장소 — 로그인 필요">#'+r.no+'</a></b><span>'+esc(r.title)+'<div class="small muted">'+(r.imp==="high"?'<span class="chip c-bad">중요도 높음</span> ':'중요도 '+esc((IMP.filter(function(x){return x[0]===(r.imp||"mid")})[0]||["","보통"])[1])+' · ')+'접수 '+esc(r.createdAt)+(r.state==="closed"?' · 닫힘':'')+'</div></span><span>'+st+'</span></div>'}
 function list(rows,empty){return rows.length?'<div class="card flush">'+rows.join("")+'</div>':'<div class="card empty">'+(empty||"없음")+'</div>'}
 
 var OF={open:false,msg:"",cls:"",last:""};
-var OF_KEYS=["title","what","why","accept","prio","build","ref"];
+var OF_KEYS=["what","point","imp"];
+var IMP=[["high","높음","핵심·출시에 영향 — 깊게 분석, 상위 모델"],["mid","보통","일반 기능·수정"],["low","낮음","작은 수정·값·글자 — 빠르게"]];
 function ofDraft(){var d={};try{d=JSON.parse(localStorage.getItem("cdpm-order-draft")||"{}")||{}}catch(e){}return d}
-function ofSave(){var d={};OF_KEYS.forEach(function(k){var el=$("#of-"+k);if(el)d[k]=el.type==="checkbox"?el.checked:el.value});try{localStorage.setItem("cdpm-order-draft",JSON.stringify(d))}catch(e){}}
+function ofImp(){var c=document.querySelector('input[name="of-imp"]:checked');return c?c.value:"mid"}
+function ofSave(){var d={what:($("#of-what")||{}).value||"",point:($("#of-point")||{}).value||"",imp:ofImp()};try{localStorage.setItem("cdpm-order-draft",JSON.stringify(d))}catch(e){}}
+function ofTitle(what){var l=String(what||"").split("\n").map(function(x){return x.replace(/^[\s\-*#>\d.]+/,"").trim()}).filter(Boolean)[0]||"";return l.length>60?l.slice(0,59)+"…":l}
 function ofForm(){
-  var d=ofDraft(),it=intake();
+  var d=ofDraft(),it=intake(),imp=d.imp||"mid";
   return'<div class="card" style="margin-top:14px"><form class="oform" id="oform" autocomplete="off">'+
-  '<label>제목 <span class="hint">한 줄 — 주문 탭과 칸반에 이대로 보여요(공개)</span><input type="text" id="of-title" maxlength="120" required value="'+esc(d.title||"")+'" placeholder="예: 로비 상점 탭에 할인 표시 붙이기"></label>'+
-  '<label>무엇을 <span class="hint">하고 싶은 것 · 고칠 곳 · 지금 문제</span><textarea id="of-what" rows="4" required placeholder="무엇을 바꾸거나 만들지 적어 주세요">'+esc(d.what||"")+'</textarea></label>'+
-  '<div class="row2"><label>왜 · 배경 <span class="hint">선택</span><textarea id="of-why" rows="3">'+esc(d.why||"")+'</textarea></label>'+
-  '<label>완료 기준 <span class="hint">이렇게 되면 끝 — 선택</span><textarea id="of-accept" rows="3" placeholder="- 폰에서 …가 보인다">'+esc(d.accept||"")+'</textarea></label></div>'+
-  '<div class="row2"><label>우선순위<select id="of-prio">'+["보통","급함","여유"].map(function(x){return'<option'+((d.prio||"보통")===x?" selected":"")+'>'+x+'</option>'}).join("")+'</select></label>'+
-  '<label>참고 <span class="hint">관련 주문·결정 번호, 캡처는 GitHub 창에서 붙이기</span><input type="text" id="of-ref" value="'+esc(d.ref||"")+'" placeholder="CD-0041, 결정 0072"></label></div>'+
-  '<label class="chk"><input type="checkbox" id="of-build"'+(d.build?" checked":"")+'> 다음 빌드에 꼭 넣고 싶어요</label>'+
+  '<label>어떤 작업을 해야 하나요 <span class="hint">편하게 적어도 돼요 — 첫 줄이 제목(공개)이 되고, 나머지는 PM 이 분석해서 쪼갭니다</span><textarea id="of-what" rows="5" required placeholder="예: 로비 상점 탭에 할인 표시 붙이기. 할인 중인 상품만, 원래 가격에 줄 긋기">'+esc(d.what||"")+'</textarea></label>'+
+  '<label>가장 중요한 포인트 <span class="hint">이것만은 꼭 — 한 줄</span><input type="text" id="of-point" maxlength="200" value="'+esc(d.point||"")+'" placeholder="예: 폰 세로 화면에서 한눈에 보여야 함"></label>'+
+  '<div><div class="small" style="font-weight:600;color:var(--ink2);margin-bottom:6px">업무 중요도 <span class="hint" style="font-weight:400;color:var(--ink3)">— 분석 깊이와 작업 모델이 정해져요</span></div><div class="imp">'+
+  IMP.map(function(x){return'<label class="'+x[0]+'"><input type="radio" name="of-imp" value="'+x[0]+'"'+(imp===x[0]?" checked":"")+'><b>'+x[1]+'</b><span>'+x[2]+'</span></label>'}).join("")+'</div></div>'+
   '<div class="acts"><button type="submit" class="btn">GitHub 에서 접수하기</button><button type="button" class="btn ghost" id="of-cancel">닫기</button>'+
-  '<span class="msg '+OF.cls+'" id="of-msg">'+(OF.msg||'비공개 저장소 '+esc(it.repo||"")+' 의 이슈 작성 창이 채워진 채 열려요. 그 창에서 «Create» 를 누르면 접수 끝.')+'</span>'+
+  '<span class="msg '+OF.cls+'" id="of-msg">'+(OF.msg||'비공개 저장소 이슈 창이 채워진 채 열려요. 거기서 «Create» 를 누르면 접수 끝.')+'</span>'+
   (OF.last?'<a class="small" href="'+esc(OF.last)+'" target="_blank" rel="noopener">창 다시 열기</a>':'')+'</div>'+
-  '<p class="small muted" style="margin:0">제목·단계만 이 사이트에 보이고 내용은 비공개 저장소에만 남아요. PM 세션이 읽고 주문 번호를 붙이면 «작업 중» 으로 넘어갑니다(사이트 갱신 30분 간격).</p>'+
   '</form></div>'}
 function ofUrl(){
-  var it=intake(),g=function(k){var el=$("#of-"+k);return el?(el.type==="checkbox"?el.checked:el.value.trim()):""};
+  var it=intake(),what=$("#of-what").value.trim(),point=$("#of-point").value.trim(),imp=ofImp();
+  var lab=IMP.filter(function(x){return x[0]===imp})[0][1];
   var now=new Date(),pad=function(n){return(n<10?"0":"")+n},stamp=now.getFullYear()+"-"+pad(now.getMonth()+1)+"-"+pad(now.getDate())+" "+pad(now.getHours())+":"+pad(now.getMinutes());
-  var body="## 무엇을\n"+g("what")+"\n\n## 왜 · 배경\n"+(g("why")||"-")+"\n\n## 완료 기준\n"+(g("accept")||"- (PM 이 정해서 확인받기)")+"\n\n## 우선순위\n"+g("prio")+"\n\n## 빌드\n"+(g("build")?"다음 빌드에 꼭 넣기":"상관없음")+"\n\n## 참고\n"+(g("ref")||"-")+"\n\n---\nPM 사이트 «신규 주문 추가» 로 접수 ("+stamp+")";
-  return"https://github.com/"+(it.repo||"")+"/issues/new?title="+encodeURIComponent((it.prefix||"[주문]")+" "+g("title"))+"&body="+encodeURIComponent(body);
+  var body="## 할 일\n"+what+"\n\n## 가장 중요한 포인트\n"+(point||"-")+"\n\n## 중요도\n"+lab+"\n\n---\nPM 사이트 «신규 주문 추가» 로 접수 ("+stamp+")";
+  return"https://github.com/"+(it.repo||"")+"/issues/new?title="+encodeURIComponent((it.prefix||"[주문]")+" "+ofTitle(what))+"&body="+encodeURIComponent(body);
 }
 function bindOrders(){
   document.querySelectorAll("[data-of]").forEach(function(a){a.onclick=function(e){e.preventDefault();V.of=a.getAttribute("data-of");render()}});
-  var nb=$("#ordNew");if(nb)nb.onclick=function(){OF.open=!OF.open;OF.msg="";OF.cls="";render();var t=$("#of-title");if(t)t.focus()};
+  var nb=$("#ordNew");if(nb)nb.onclick=function(){OF.open=!OF.open;OF.msg="";OF.cls="";render();var t=$("#of-what");if(t)t.focus()};
   var f=$("#oform");if(!f)return;
   f.oninput=ofSave;f.onchange=ofSave;
   $("#of-cancel").onclick=function(){OF.open=false;render()};
   f.onsubmit=function(e){
     e.preventDefault();
-    if(!$("#of-title").value.trim()||!$("#of-what").value.trim()){OF.msg="제목과 «무엇을» 은 꼭 적어 주세요.";OF.cls="bad";render();return}
+    if(!$("#of-what").value.trim()){OF.msg="어떤 작업인지 한 줄은 적어 주세요.";OF.cls="bad";render();return}
     if(!intake().repo){OF.msg="접수 저장소 정보가 없어요(수집기 갱신 전). 잠시 뒤 다시 해 주세요.";OF.cls="bad";render();return}
     var u=ofUrl();
-    if(u.length>7800){OF.msg="내용이 길어 주소에 다 안 들어가요. «무엇을» 을 줄이고 자세한 건 GitHub 창에서 덧붙여 주세요.";OF.cls="bad";render();return}
+    if(u.length>7800){OF.msg="내용이 길어 주소에 다 안 들어가요. 줄이고 자세한 건 GitHub 창에서 덧붙여 주세요.";OF.cls="bad";render();return}
     OF.last=u;var w=window.open(u,"_blank","noopener");
     OF.msg=w===null?"창이 막혔어요 — 옆의 «창 다시 열기» 를 눌러 주세요.":"GitHub 창에서 «Create» 를 누르면 접수 끝. 적은 내용은 이 브라우저에 남아 있어요(접수 뒤 지우기).";OF.cls=w===null?"bad":"ok";
     render();
