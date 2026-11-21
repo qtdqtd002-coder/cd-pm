@@ -1255,7 +1255,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0040",
+"order": "CD-0044",
 "head": "a455a73",
 "commits": [
 {
@@ -1416,15 +1416,19 @@
 "msg": "CD-0041 C: 로딩 화면 만들기를 여러 프레임에 (FrameBudget 12ms, 순서·진행 몫·Ready 조건 그대로)"
 }
 ],
-"dirtyCount": 176,
+"dirtyCount": 177,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 15:30"
+"file": "UnityProject/Assets/InitTestScenef43cf662-9204-4028-8412-926a051a6e84.unity.meta",
+"at": "2026-11-21 16:16"
 },
 {
-"file": "test-results.xml",
-"at": "2026-11-21 15:30"
+"file": "UnityProject/Assets/InitTestScenef43cf662-9204-4028-8412-926a051a6e84.unity",
+"at": "2026-11-21 16:16"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-21 16:16"
 },
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
@@ -1445,14 +1449,10 @@
 {
 "file": "art-lab/intro3/out/build_meta.json",
 "at": "2026-11-21 10:43"
-},
-{
-"file": "art-lab/intro3/out/intro_ally_ids.png",
-"at": "2026-11-21 10:43"
 }
 ],
-"lastEdit": "2026-11-21 15:30",
-"lastEditTs": 1795242626.493054,
+"lastEdit": "2026-11-21 16:16",
+"lastEditTs": 1795245414.2395372,
 "lastCommitTs": 1795242641,
 "unpushed": 21,
 "notInMain": 21,
@@ -1464,8 +1464,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0045",
-"head": "2016356",
+"head": "b2d5768",
 "commits": [
+{
+"sha": "b2d5768",
+"at": "2026-11-21 16:03",
+"ts": 1795244616,
+"msg": "CD-0045 QA 1차: 30-qa.md (PlayMode 재실행 대기, 밸런스 보류)"
+},
+{
+"sha": "e89897e",
+"at": "2026-11-21 15:55",
+"ts": 1795244137,
+"msg": "CD-0045 병합 뒤 PlayMode 실패 고침(코드·시험 시드) · 22-client.md 갱신 · EditMode 320/320"
+},
 {
 "sha": "2016356",
 "at": "2026-11-21 15:16",
@@ -1489,61 +1501,21 @@
 "at": "2026-11-21 14:50",
 "ts": 1795240212,
 "msg": "관제 마감 기록: cd39 병합(CD-0039·0040) devlog 11-21 · checks.json 310e5c3 기준"
-},
-{
-"sha": "310e5c3",
-"at": "2026-11-21 14:47",
-"ts": 1795240045,
-"msg": "병합: cd39 8aa866d(CD-0039 인게임 비주얼 1순위 + CD-0040 로딩 인트로 · 시험 공용 GfxPrefScope · 결정 0066·0067)"
-},
-{
-"sha": "8aa866d",
-"at": "2026-11-21 14:46",
-"ts": 1795240014,
-"msg": "CD-0040 진행 기록: 병합 뒤 전체 실행·로딩 → 로비 시험 원인(cd.gfx 공유 설정)"
 }
 ],
-"dirtyCount": 833,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "studio/orders/CD-0045-튜토리얼-해금-표-개편-사용자-기획표-반영/_shots/out_match_start_1080x2400.png",
-"at": "2026-11-21 15:47"
-},
-{
-"file": "studio/orders/CD-0045-튜토리얼-해금-표-개편-사용자-기획표-반영/_shots/out_match_start.png",
-"at": "2026-11-21 15:47"
-},
-{
-"file": "studio/orders/CD-0045-튜토리얼-해금-표-개편-사용자-기획표-반영/_shots/out_no_tickets_1080x2400.png",
-"at": "2026-11-21 15:47"
-},
-{
-"file": "studio/orders/CD-0045-튜토리얼-해금-표-개편-사용자-기획표-반영/_shots/out_no_tickets.png",
-"at": "2026-11-21 15:47"
-},
-{
-"file": "studio/orders/CD-0045-튜토리얼-해금-표-개편-사용자-기획표-반영/_shots/out_new_board_1080x2400.png",
-"at": "2026-11-21 15:47"
-},
-{
-"file": "studio/orders/CD-0045-튜토리얼-해금-표-개편-사용자-기획표-반영/_shots/out_new_board.png",
-"at": "2026-11-21 15:47"
-},
-{
-"file": "studio/orders/CD-0045-튜토리얼-해금-표-개편-사용자-기획표-반영/_shots/out_last_top_left_1080x2400.png",
-"at": "2026-11-21 15:47"
-},
-{
-"file": "studio/orders/CD-0045-튜토리얼-해금-표-개편-사용자-기획표-반영/_shots/out_last_top_left.png",
-"at": "2026-11-21 15:47"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-21 13:32"
 }
 ],
-"lastEdit": "2026-11-21 15:47",
-"lastEditTs": 1795243656.8578458,
-"lastCommitTs": 1795241786,
-"unpushed": 12,
-"notInMain": 12,
-"today": 129
+"lastEdit": "2026-11-21 13:32",
+"lastEditTs": 1795235544.967062,
+"lastCommitTs": 1795244616,
+"unpushed": 14,
+"notInMain": 14,
+"today": 131
 },
 {
 "branch": "workbench",
@@ -1602,7 +1574,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 168,
+"commits": 170,
 "byOrder": [
 [
 "CD-0039",
@@ -1626,7 +1598,7 @@
 ],
 [
 "CD-0045",
-9
+11
 ],
 [
 "CD-0044",
@@ -1650,6 +1622,16 @@
 ]
 ],
 "latest": [
+{
+"sha": "b2d5768",
+"at": "2026-11-21 16:03",
+"msg": "CD-0045 QA 1차: 30-qa.md (PlayMode 재실행 대기, 밸런스 보류)"
+},
+{
+"sha": "e89897e",
+"at": "2026-11-21 15:55",
+"msg": "CD-0045 병합 뒤 PlayMode 실패 고침(코드·시험 시드) · 22-client.md 갱신 · EditMode 320/320"
+},
 {
 "sha": "cc94f10",
 "at": "2026-11-21 15:30",
@@ -1689,16 +1671,6 @@
 "sha": "a7fd8b6",
 "at": "2026-11-21 15:20",
 "msg": "CD-0041 C4: BGM 이음(옛 곡 0.4초 내림·새 곡 0.6초 올림)과 결과 화면 로비곡을 스팅어 뒤에 낮게"
-},
-{
-"sha": "c4b1ebb",
-"at": "2026-11-21 15:18",
-"msg": "CD-0041 C5: 소스의 모든 소리 id 에 파일이 있는지 시험(없는 id 0) + 음량·상수 시험"
-},
-{
-"sha": "e3700d9",
-"at": "2026-11-21 15:16",
-"msg": "CD-0041 C3: 새 소리 배선(ui_confirm·transition_whoosh·buy_done·miner_hire·boss_down)과 코드 음량, Bgm.Volume 0.37"
 }
 ]
 },
@@ -5936,13 +5908,14 @@
 "id": "CD-0045",
 "title": "튜토리얼·해금 표 개편 — 사용자 기획표 반영",
 "branch": "cd45",
-"updated": "2026-11-21 15:47",
+"updated": "2026-11-21 16:03",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-planning.md",
 "21-core.md",
 "22-client.md",
+"30-qa.md",
 "_qa",
 "_shots",
 "user-answers.json"
@@ -16449,7 +16422,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-21 15:47",
-"generatedAt": "2026-11-21 15:47",
-"digest": "892dcddc15da3d00"
+"sourceAt": "2026-11-21 16:16",
+"generatedAt": "2026-11-21 16:17",
+"digest": "84c65e47a6a38ed6"
 }
