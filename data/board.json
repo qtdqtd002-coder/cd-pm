@@ -1304,9 +1304,33 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0062",
-"head": "f32fd25",
+"order": "CD-0067",
+"head": "54c1ca1",
 "commits": [
+{
+"sha": "54c1ca1b",
+"at": "2026-11-22 03:55",
+"ts": 1795287321,
+"msg": "병합: cd-53 d1560eb8(빌드 QA — 랭킹·강화 창 시험 2개)"
+},
+{
+"sha": "d1560eb8",
+"at": "2026-11-22 03:55",
+"ts": 1795287304,
+"msg": "CD-0053 빌드 QA 수정 확인 — PlayMode 필터 2/2 통과 · 90-close 기록 · stage 마감"
+},
+{
+"sha": "643200fb",
+"at": "2026-11-22 03:49",
+"ts": 1795286965,
+"msg": "병합: main f32fd254 → cd-53 (빌드 QA 수정 확인 전)"
+},
+{
+"sha": "22f94bd4",
+"at": "2026-11-22 03:49",
+"ts": 1795286960,
+"msg": "CD-0053 빌드 QA 수정 — 랭킹 시험 시드·기대값을 데이터 판 수로 · 강화 시험은 1-2 막는 안내(t7_sell·t7_bounty)를 본 것으로"
+},
 {
 "sha": "f32fd254",
 "at": "2026-11-22 03:46",
@@ -1318,37 +1342,13 @@
 "at": "2026-11-22 03:46",
 "ts": 1795286770,
 "msg": "CD-0064 빌드 QA 수정 기록 — PlayMode 4/4 · EditMode 56/56"
-},
-{
-"sha": "122b46a7",
-"at": "2026-11-22 03:40",
-"ts": 1795286448,
-"msg": "Merge branch 'main' into cd-64"
-},
-{
-"sha": "be6d6cd2",
-"at": "2026-11-22 03:40",
-"ts": 1795286447,
-"msg": "CD-0064 빌드 QA 수정: 뽑는 순간 티켓 칩 갱신 · F 칸 «1/1» 잘림 · 안내가 A상 등장 단계에서 멈추지 않게"
-},
-{
-"sha": "336856af",
-"at": "2026-11-22 03:37",
-"ts": 1795286274,
-"msg": "병합: cd-67 cba4d050(빌드 QA — 낡은 로비 시험 4개 고침)"
-},
-{
-"sha": "cba4d050",
-"at": "2026-11-22 03:37",
-"ts": 1795286259,
-"msg": "CD-0067 90-close: 빌드 QA 에서 돌아온 4개 — 넷 다 낡은 시험, PlayMode 네 묶음 19/19 통과"
 }
 ],
 "dirtyCount": 14,
 "dirty": [
 {
 "file": "studio/checks.json",
-"at": "2026-11-22 03:48"
+"at": "2026-11-22 03:58"
 },
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
@@ -1379,12 +1379,12 @@
 "at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-22 03:48",
-"lastEditTs": 1795286936.8431935,
-"lastCommitTs": 1795286785,
+"lastEdit": "2026-11-22 03:58",
+"lastEditTs": 1795287495.6983893,
+"lastCommitTs": 1795287321,
 "unpushed": 0,
 "notInMain": 0,
-"today": 162
+"today": 166
 },
 {
 "branch": "cd-53",
@@ -1392,8 +1392,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0053",
-"head": "643200f",
+"head": "d1560eb",
 "commits": [
+{
+"sha": "d1560eb8",
+"at": "2026-11-22 03:55",
+"ts": 1795287304,
+"msg": "CD-0053 빌드 QA 수정 확인 — PlayMode 필터 2/2 통과 · 90-close 기록 · stage 마감"
+},
 {
 "sha": "643200fb",
 "at": "2026-11-22 03:49",
@@ -1423,22 +1429,21 @@
 "at": "2026-11-22 03:40",
 "ts": 1795286448,
 "msg": "Merge branch 'main' into cd-64"
-},
-{
-"sha": "be6d6cd2",
-"at": "2026-11-22 03:40",
-"ts": 1795286447,
-"msg": "CD-0064 빌드 QA 수정: 뽑는 순간 티켓 칩 갱신 · F 칸 «1/1» 잘림 · 안내가 A상 등장 단계에서 멈추지 않게"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795286965,
-"unpushed": 2,
-"notInMain": 2,
-"today": 164
+"dirtyCount": 1,
+"dirty": [
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 03:51"
+}
+],
+"lastEdit": "2026-11-22 03:51",
+"lastEditTs": 1795287106.9463801,
+"lastCommitTs": 1795287304,
+"unpushed": 0,
+"notInMain": 0,
+"today": 165
 },
 {
 "branch": "cd-67",
@@ -1677,53 +1682,82 @@
 "session": "",
 "owns": "",
 "order": "CD-0073",
-"head": "b52ee6b",
+"head": "6e2782b",
 "commits": [
 {
-"sha": "b52ee6bf",
-"at": "2026-11-22 03:27",
-"ts": 1795285679,
-"msg": "CD-0073 빌드 QA: 시험을 새 gate_03 배치에 맞춤 + 타일 굽기 캐시(판 시작 프레임)"
+"sha": "6e2782b3",
+"at": "2026-11-22 03:52",
+"ts": 1795287139,
+"msg": "Merge remote-tracking branch 'origin/main' into cd-73"
 },
 {
-"sha": "2cf9c6f0",
-"at": "2026-11-22 03:22",
-"ts": 1795285335,
-"msg": "CD-0073 빌드 QA 되돌림: stage 제작(PlayMode 실패 6개)"
+"sha": "f32fd254",
+"at": "2026-11-22 03:46",
+"ts": 1795286785,
+"msg": "병합: cd-64 aaeb9eb7(빌드 QA — 뽑기 시험 4개·티켓 칩·F칸 잘림·안내 멈춤)"
 },
 {
-"sha": "99d7cfaf",
-"at": "2026-11-22 03:20",
-"ts": 1795285256,
-"msg": "병합: cd-62 900cd2bb(빌드 QA — 새 그림 13장 assets.json state final)"
+"sha": "aaeb9eb7",
+"at": "2026-11-22 03:46",
+"ts": 1795286770,
+"msg": "CD-0064 빌드 QA 수정 기록 — PlayMode 4/4 · EditMode 56/56"
 },
 {
-"sha": "6496231e",
-"at": "2026-11-22 03:20",
-"ts": 1795285255,
-"msg": "병합: cd-63 f05c51db(빌드 QA — 낡은 Cd63 시험 고침)"
+"sha": "122b46a7",
+"at": "2026-11-22 03:40",
+"ts": 1795286448,
+"msg": "Merge branch 'main' into cd-64"
 },
 {
-"sha": "900cd2bb",
-"at": "2026-11-22 03:14",
-"ts": 1795284845,
-"msg": "CD-0062 빌드 QA 고침: 새 그림 13장의 assets.json 상태 temp → final(파일이 Art/Final 에 있다 — CatalogHasEveryTempAddressOfTheFirstGoal 가 Art/Temp 에서 못 찾음)"
+"sha": "be6d6cd2",
+"at": "2026-11-22 03:40",
+"ts": 1795286447,
+"msg": "CD-0064 빌드 QA 수정: 뽑는 순간 티켓 칩 갱신 · F 칸 «1/1» 잘림 · 안내가 A상 등장 단계에서 멈추지 않게"
 },
 {
-"sha": "f05c51db",
-"at": "2026-11-22 03:11",
-"ts": 1795284676,
-"msg": "CD-0063 시험 수정: «영웅 탭만 SoftText» 단언 제거 — 결정 0087 은 아웃게임 공통(뽑기 CD-0064 가 옮겨서 낡음)"
+"sha": "336856af",
+"at": "2026-11-22 03:37",
+"ts": 1795286274,
+"msg": "병합: cd-67 cba4d050(빌드 QA — 낡은 로비 시험 4개 고침)"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795285679,
-"unpushed": 2,
-"notInMain": 2,
-"today": 152
+"dirtyCount": 7,
+"dirty": [
+{
+"file": "UnityProject/Assets/InitTestSceneb13f697a-74bd-4eb0-83fb-020b578a2564.unity.meta",
+"at": "2026-11-22 03:55"
+},
+{
+"file": "UnityProject/Assets/InitTestSceneb13f697a-74bd-4eb0-83fb-020b578a2564.unity",
+"at": "2026-11-22 03:55"
+},
+{
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-22 03:54"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 03:54"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-22 03:54"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 03:54"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/OutgameMapsFlowTests.cs",
+"at": "2026-11-22 03:54"
+}
+],
+"lastEdit": "2026-11-22 03:55",
+"lastEditTs": 1795287301.4618118,
+"lastCommitTs": 1795287139,
+"unpushed": 3,
+"notInMain": 3,
+"today": 165
 },
 {
 "branch": "rel-080",
@@ -1841,7 +1875,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 388,
+"commits": 386,
 "byOrder": [
 [
 "CD-0041",
@@ -1849,14 +1883,10 @@
 ],
 [
 "CD-0053",
-25
+26
 ],
 [
 "CD-0060",
-25
-],
-[
-"CD-0040",
 25
 ],
 [
@@ -1870,6 +1900,10 @@
 [
 "기타",
 23
+],
+[
+"CD-0040",
+22
 ],
 [
 "CD-0045",
@@ -1990,6 +2024,11 @@
 ],
 "latest": [
 {
+"sha": "d1560eb8",
+"at": "2026-11-22 03:55",
+"msg": "CD-0053 빌드 QA 수정 확인 — PlayMode 필터 2/2 통과 · 90-close 기록 · stage 마감"
+},
+{
 "sha": "22f94bd4",
 "at": "2026-11-22 03:49",
 "msg": "CD-0053 빌드 QA 수정 — 랭킹 시험 시드·기대값을 데이터 판 수로 · 강화 시험은 1-2 막는 안내(t7_sell·t7_bounty)를 본 것으로"
@@ -2033,11 +2072,6 @@
 "sha": "2cf9c6f0",
 "at": "2026-11-22 03:22",
 "msg": "CD-0073 빌드 QA 되돌림: stage 제작(PlayMode 실패 6개)"
-},
-{
-"sha": "900cd2bb",
-"at": "2026-11-22 03:14",
-"msg": "CD-0062 빌드 QA 고침: 새 그림 13장의 assets.json 상태 temp → final(파일이 Art/Final 에 있다 — CatalogHasEveryTempAddressOfTheFirstGoal 가 Art/Temp 에서 못 찾음)"
 }
 ]
 },
@@ -7034,8 +7068,8 @@
 {
 "id": "CD-0053",
 "title": "챕터 1 축소 6판 해금 안내 재배치",
-"branch": "cd-53",
-"updated": "2026-11-22 03:24",
+"branch": "main",
+"updated": "2026-11-22 03:55",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -7045,13 +7079,13 @@
 "90-close.md"
 ],
 "milestone": "M2",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "mid",
 "teams": "planning, core, client",
 "opened": "2026-11-21",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<ol>\n<li>챕터 1 을 10판 × 10웨이브 → <strong>6판</strong>(1-1 6 · 1-2~1-5 8 · 1-6 10웨이브)으로 줄여 첫 플레이 시간을 줄인다.\n</li>\n<li>판마다 새 것 하나씩: 판 안 안내·해금을 승인 표대로 옮긴다(판매 1-2 · 배속·뽑기 1-3 · 광산·교체·미션·업적 1-4 · 단계 강화·우편·상점·이름 1-5 · 진화·발데마르·초월·맵 2·친구·채팅·랭킹 1-6).\n</li>\n<li>옛 저장(v15)을 변환표로 v16 에 옮긴다(보상을 두 번 주지 않는다).\n</li></ol>",
 "goalShort": "1.",
@@ -7063,7 +7097,7 @@
 "title": "§1~§4 데이터: stages.json · waves.json(6세트 다시 · 4세트 지움 · script 깃발) · tutorial.json(features·guides·matchScripts·_note) · legends.json · reward.json · account.json · mapindex.json plan · python -I tools/sync_data.py. tools/validate_data.py: MAP_RULES gate_03 을 스테이지별 웨이브 표(6·8·8·8·8·10, 보스 = 마지막)로 · 판마다 새 몬스터 하나(1-1~1-5 차례, 1-6 다섯 종) · SCRIPT_KEYS 에 sellLesson(sellRefund 필수), intro 에서 sellRefund 뺌 · 깃발 = 01 intro · t7_sell 의 stage = sellLesson 세트 · 발데마르 unlockStage = legendTrial 세트 · 보스 hpPct = round(앞 × 0.85) · FIRST_STAGE_HIDDEN 그대로. tools/test_validate_mapindex.py 가 깨지면 맞춤. docs 10·11·12·13 의 스테이지 수·웨이브·해금 표 · 결정 docs/decisions/0080-챕터-1-6판-해금-안내-재배치-저장-v16.md · canon_lint",
 "output": "Data · 검사기 · docs · 0080 · 20-planning.md",
 "status": "done",
-"why": "보고서 있음: 20-planning.md"
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -7071,8 +7105,8 @@
 "team": "core",
 "title": "Core/package/Runtime/Meta/StageLineV16.cs(새, §5 함수) — 먼저 커밋(U1 이 부른다) · Cd0053CoreTests.cs(새): 변환표 6경우 + 한 번만(§5-4) · sellLesson 판 첫 판매 전액·두 번째 80% · intro 판 판매는 80% · 2인 판 gate_03_02 는 환급 없음 · 1-6 1인 판 w5 선물. 옛 id 쓰는 Core 시험 고침(Cd0028·Cd0034·Cd0036·Cd0038·Cd0045·Simulator·Stage·StaminaAccount — grep gate_03_(0[6-9]\\",
 "output": "10)) · Runtime 주석의 «1-10»·«1-6» · tools/sim 의 옛 id",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "U1",
@@ -7081,7 +7115,7 @@
 "title": "Save/PlayerData.cs(v16 · PlayerDataV16 · 버전 상수) · Save/PlayerStore.cs(bak·로그) · Outgame/MatchResume.cs(§5 이어하기 버림) · EditMode: 새 Cd53EditModeTests.cs(v15 → v16 4경우 · resume 버림 · 1-3 판 배속 보임/1-2 판 안 보임 · 1-6 클리어 전 채팅 버튼 없음) + 옛 id 쓰는 EditMode 시험(Cd34Save·Cd36MatchGuide·Cd36Outgame·Cd36Wins·Cd48TowerProp) · 화면 하드코딩 grep 결과(§6) 확인",
 "output": "코드 · 시험 · 22-client.md",
 "status": "done",
-"why": "보고서 있음: 22-client.md"
+"why": "주문 마감"
 },
 {
 "id": "U2",
@@ -7090,10 +7124,10 @@
 "title": "PlayMode 시험 맞춤(Cd10Shot·Cd36OutgameFlow·Cd36Wins·Cd39Fx·Cd39Shot·Cd43Decos·Cd45Flow·OutgameMapsFlow·TaShot — grep 같은 식) · 캡처 3장(1-2 판매 안내 · 1-3 배속 막는 안내 · 1-6 클리어 뒤 o3_social)",
 "output": "시험 · 캡처 · 22-client.md 덧붙임",
 "status": "done",
-"why": "보고서 있음: 22-client.md"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -7880,7 +7914,7 @@
 "no": 2,
 "title": "로비 화면 개편 — 안 A «성벽 무대»(출전 패널 · 채팅 띠 · [맵] 창)",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "high",
 "orders": [
 "CD-0039",
@@ -19781,8 +19815,8 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 03:46",
-"commit": "f32fd254+수정",
+"at": "2026-11-22 03:55",
+"commit": "54c1ca1b+수정",
 "passed": 710,
 "failed": 2,
 "total": 713,
@@ -19800,8 +19834,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 03:46",
-"commit": "f32fd254+수정",
+"at": "2026-11-22 03:55",
+"commit": "54c1ca1b+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19809,8 +19843,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 03:46",
-"commit": "f32fd254+수정",
+"at": "2026-11-22 03:55",
+"commit": "54c1ca1b+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19818,8 +19852,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 03:46",
-"commit": "f32fd254+수정",
+"at": "2026-11-22 03:55",
+"commit": "54c1ca1b+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19827,8 +19861,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 03:46",
-"commit": "f32fd254+수정",
+"at": "2026-11-22 03:55",
+"commit": "54c1ca1b+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20030,7 +20064,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 03:49",
-"generatedAt": "2026-11-22 03:49",
-"digest": "0d1588c0a4386d0d"
+"sourceAt": "2026-11-22 03:58",
+"generatedAt": "2026-11-22 03:58",
+"digest": "2d818a04460e3c8c"
 }
