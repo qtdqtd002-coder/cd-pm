@@ -1305,8 +1305,20 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0064",
-"head": "82908a6",
+"head": "a4d3077",
 "commits": [
+{
+"sha": "a4d30776",
+"at": "2026-11-22 02:13",
+"ts": 1795281209,
+"msg": "병합: cd-68 9a45b2a7(CD-0068 공통 보상 획득 창 RewardPopup.Show)"
+},
+{
+"sha": "9a45b2a7",
+"at": "2026-11-22 02:13",
+"ts": 1795281198,
+"msg": "CD-0068 공통 보상 획득 창: RewardPopup.Show 한 줄 · 미션·업적·상점·보석 상점·우편 연결 · 많으면 보상 영역만 스크롤 · 마감 초안(빌드 대기)"
+},
 {
 "sha": "82908a65",
 "at": "2026-11-22 02:07",
@@ -1330,25 +1342,13 @@
 "at": "2026-11-22 01:59",
 "ts": 1795280358,
 "msg": "병합: cd-64 44817665(CD-0064 뽑기 경품판 · 뽑기 연출 · Codex 소품 그림 8장 · 결정 0088)"
-},
-{
-"sha": "44817665",
-"at": "2026-11-22 01:56",
-"ts": 1795280217,
-"msg": "CD-0064 90-close 초안(빌드 대기) · gate impl — check 통과 · EditMode 60/60 · 캡처 직접 확인"
-},
-{
-"sha": "8aaa49b9",
-"at": "2026-11-22 01:53",
-"ts": 1795280035,
-"msg": "CD-0064 재확인 수정: A상 등장 단계 오류 · 상 글자 잘림 · 시험 글자 맞춤 — EditMode 60/60, 캡처 1·2차 보관"
 }
 ],
 "dirtyCount": 8,
 "dirty": [
 {
 "file": "studio/checks.json",
-"at": "2026-11-22 02:10"
+"at": "2026-11-22 02:15"
 },
 {
 "file": "_qa/cd54-shots-v2/cd54_propfx_low.png",
@@ -1379,12 +1379,12 @@
 "at": "2026-11-19 08:23"
 }
 ],
-"lastEdit": "2026-11-22 02:10",
-"lastEditTs": 1795281006.7111447,
-"lastCommitTs": 1795280847,
+"lastEdit": "2026-11-22 02:15",
+"lastEditTs": 1795281357.7941873,
+"lastCommitTs": 1795281209,
 "unpushed": 0,
 "notInMain": 0,
-"today": 108
+"today": 110
 },
 {
 "branch": "cd-67",
@@ -1392,8 +1392,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0067",
-"head": "ea5e691",
+"head": "e32ea99",
 "commits": [
+{
+"sha": "e32ea99f",
+"at": "2026-11-22 02:12",
+"ts": 1795281174,
+"msg": "CD-0067 C1: 로비 무대 영웅 자동 5명(고르기·몸 상자 표·그림자·숨쉬기·누르면 영웅 탭) + EditMode/PlayMode 시험 — 컴파일 대기"
+},
 {
 "sha": "ea5e6917",
 "at": "2026-11-22 02:05",
@@ -1423,55 +1429,29 @@
 "at": "2026-11-22 01:42",
 "ts": 1795279325,
 "msg": "병합: cd-60 57652286(CD-0060 로비 안 A 뼈대 — 상단 줄·레일·출전 패널·[맵] 창·하단 탭 띠·표식 15장 · 결정 0091)"
-},
-{
-"sha": "57652286",
-"at": "2026-11-22 01:40",
-"ts": 1795279249,
-"msg": "CD-0060 마감 초안(90-close): 결과·검증·비용·남은 일·해 볼 것·관제에 넘길 요약 · gate impl 통과 · 캡처 대조표"
 }
 ],
-"dirtyCount": 8,
+"dirtyCount": 3,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd67LobbyTests.cs",
-"at": "2026-11-22 02:09"
+"file": "UnityProject/Assets/_Game/Net/Social/ChatRoom.cs",
+"at": "2026-11-22 02:14"
 },
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd67LobbyEditModeTests.cs",
-"at": "2026-11-22 02:07"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
-"at": "2026-11-22 02:06"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.Stage.cs",
-"at": "2026-11-22 02:06"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/LobbyStage.cs",
-"at": "2026-11-22 02:06"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/StageHeroBounds.cs",
-"at": "2026-11-22 02:04"
-},
-{
-"file": "studio/orders/CD-0067-로비-무대-영웅-자동-5명과-채팅-띠/_qa/gen_stage_bounds.py",
-"at": "2026-11-22 02:04"
+"file": "UnityProject/Assets/_Game/UI/ChatScreen.cs",
+"at": "2026-11-22 02:14"
 },
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-22 01:10"
 }
 ],
-"lastEdit": "2026-11-22 02:09",
-"lastEditTs": 1795280999.3870265,
-"lastCommitTs": 1795280742,
-"unpushed": 3,
-"notInMain": 3,
-"today": 81
+"lastEdit": "2026-11-22 02:14",
+"lastEditTs": 1795281283.4386406,
+"lastCommitTs": 1795281174,
+"unpushed": 4,
+"notInMain": 4,
+"today": 82
 },
 {
 "branch": "cd-61",
@@ -1533,8 +1513,32 @@
 "session": "",
 "owns": "",
 "order": "CD-0062",
-"head": "1235c3d",
+"head": "f9e4886",
 "commits": [
+{
+"sha": "f9e4886b",
+"at": "2026-11-22 02:14",
+"ts": 1795281259,
+"msg": "main 합침(CD-0068 보상 창 · CD-0074)"
+},
+{
+"sha": "3d6c1870",
+"at": "2026-11-22 02:14",
+"ts": 1795281248,
+"msg": "CD-0062: main 합친 뒤 카탈로그 다시(새 그림 13) · 90-close 갱신 — EditMode 필터 44/44"
+},
+{
+"sha": "a4d30776",
+"at": "2026-11-22 02:13",
+"ts": 1795281209,
+"msg": "병합: cd-68 9a45b2a7(CD-0068 공통 보상 획득 창 RewardPopup.Show)"
+},
+{
+"sha": "9a45b2a7",
+"at": "2026-11-22 02:13",
+"ts": 1795281198,
+"msg": "CD-0068 공통 보상 획득 창: RewardPopup.Show 한 줄 · 미션·업적·상점·보석 상점·우편 연결 · 많으면 보상 영역만 스크롤 · 마감 초안(빌드 대기)"
+},
 {
 "sha": "1235c3d7",
 "at": "2026-11-22 02:10",
@@ -1542,34 +1546,10 @@
 "msg": "main 합침(CD-0060 로비 · CD-0064 뽑기 등) — 로비 프로필 칩은 CD-0060 모양(명패 안 그림) + CD-0062 새 꾸밈 레드닷·테두리 그림 자리 · 도구·기록 양쪽 살림 · 카탈로그는 main 것(다음 커밋에서 다시 만듦)"
 },
 {
-"sha": "eb6498c4",
-"at": "2026-11-22 02:05",
-"ts": 1795280728,
-"msg": "CD-0062 impl 게이트 통과 기록"
-},
-{
-"sha": "fa3755bc",
-"at": "2026-11-22 02:05",
-"ts": 1795280718,
-"msg": "CD-0062 마감 초안(빌드 대기): 90-close — 검사·EditMode 21/21·관제에 넘길 요약·해 볼 것"
-},
-{
-"sha": "e2ea5190",
-"at": "2026-11-22 02:04",
-"ts": 1795280667,
-"msg": "CD-0062: Unity import(.meta 14 · 스프라이트 카탈로그·Art 그룹에 새 그림 13) · 초상화 수 29 로 바로잡음 — EditMode 필터 21/21"
-},
-{
-"sha": "5598093f",
-"at": "2026-11-22 01:59",
-"ts": 1795280358,
-"msg": "관제 기록: CD-0064 stage → 마감(빌드 대기)"
-},
-{
-"sha": "33e406d6",
-"at": "2026-11-22 01:59",
-"ts": 1795280358,
-"msg": "병합: cd-64 44817665(CD-0064 뽑기 경품판 · 뽑기 연출 · Codex 소품 그림 8장 · 결정 0088)"
+"sha": "82908a65",
+"at": "2026-11-22 02:07",
+"ts": 1795280847,
+"msg": "병합: cd-74 8dfd474e(CD-0074 1차 — 화면의 «전설» 글자 3곳 · 결정 0060)"
 }
 ],
 "dirtyCount": 51,
@@ -1609,10 +1589,10 @@
 ],
 "lastEdit": "2026-11-22 01:07",
 "lastEditTs": 1795277279.2551243,
-"lastCommitTs": 1795281007,
-"unpushed": 14,
-"notInMain": 14,
-"today": 120
+"lastCommitTs": 1795281259,
+"unpushed": 16,
+"notInMain": 16,
+"today": 126
 },
 {
 "branch": "cd-63",
@@ -1673,7 +1653,7 @@
 "lane": "cd-64",
 "session": "",
 "owns": "",
-"order": "CD-0064",
+"order": "CD-0063",
 "head": "4481766",
 "commits": [
 {
@@ -1733,8 +1713,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0063",
-"head": "9d2edd6",
+"head": "9a45b2a",
 "commits": [
+{
+"sha": "9a45b2a7",
+"at": "2026-11-22 02:13",
+"ts": 1795281198,
+"msg": "CD-0068 공통 보상 획득 창: RewardPopup.Show 한 줄 · 미션·업적·상점·보석 상점·우편 연결 · 많으면 보상 영역만 스크롤 · 마감 초안(빌드 대기)"
+},
 {
 "sha": "9d2edd65",
 "at": "2026-11-22 01:27",
@@ -1764,26 +1750,16 @@
 "at": "2026-11-22 01:24",
 "ts": 1795278261,
 "msg": "CD-0072 pm.py: stage 를 첫 단어로 읽음(«마감 대기» → 마감) · 모르는 말은 신규 대신 작업 중 + status 맨 아래 경고 · 시험 test_pm(사이트 수집기와 같은 규칙 비교 포함)"
-},
-{
-"sha": "0ff194f7",
-"at": "2026-11-22 01:19",
-"ts": 1795277941,
-"msg": "관제: CD-0061 stage 줄 바로잡음(«마감 대기» → «마감», 관제 정규식 실수) · CLAUDE.md «진행 방식» 6 — stage 는 표준 단어만(사이트가 신규로 보이던 원인)"
 }
 ],
-"dirtyCount": 30,
+"dirtyCount": 8,
 "dirty": [
 {
+"file": "_qa/cost.txt",
+"at": "2026-11-22 02:13"
+},
+{
 "file": "_qa/cd68-play-Cd35LobbyAchievementTests.log",
-"at": "2026-11-22 02:10"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-22 02:10"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
 "at": "2026-11-22 02:10"
 },
 {
@@ -1805,14 +1781,18 @@
 {
 "file": "_qa/cd68-edit.log",
 "at": "2026-11-22 02:08"
+},
+{
+"file": "_qa/cd68-edit.xml",
+"at": "2026-11-22 02:08"
 }
 ],
-"lastEdit": "2026-11-22 02:10",
-"lastEditTs": 1795281007.7021058,
-"lastCommitTs": 1795278447,
+"lastEdit": "2026-11-22 02:13",
+"lastEditTs": 1795281198.2854447,
+"lastCommitTs": 1795281198,
 "unpushed": 0,
 "notInMain": 0,
-"today": 50
+"today": 51
 },
 {
 "branch": "cd-72",
@@ -1874,8 +1854,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0073",
-"head": "7632905",
+"head": "7ad2b5c",
 "commits": [
+{
+"sha": "7ad2b5cb",
+"at": "2026-11-22 02:12",
+"ts": 1795281134,
+"msg": "CD-0073 주문 기록: stage 제작 · 대표 판단 · 90-close 초안(아침 보고·밸런스 숫자)"
+},
+{
+"sha": "cbfa970d",
+"at": "2026-11-22 02:11",
+"ts": 1795281062,
+"msg": "CD-0073 Client 시험: 새 gate_03 1인 배치(소품 fx [] · 큰길 없음)에 맞춤 — Cd54 전쟁 소품은 시험 안에서 끼움, decos 정규식 중첩 허용(Cd43·Cd48), 큰길 시험은 협동 2인으로"
+},
 {
 "sha": "76329054",
 "at": "2026-11-22 02:09",
@@ -1899,49 +1891,16 @@
 "at": "2026-11-22 01:44",
 "ts": 1795279455,
 "msg": "CD-0061 후속 마감 기록: 90-close(흰 장갑 6방향 결과·검사·해 볼 것·관제 요약) · stage 마감"
-},
-{
-"sha": "5ad58738",
-"at": "2026-11-22 01:43",
-"ts": 1795279410,
-"msg": "CD-0061 후속 반입: 6방향 장갑 .meta(유니티가 만든 것) · 카탈로그·Addressables 에서 옛 ui/tutorial_hand 빠지고 6줄 더함 — EditMode 필터 31/31"
-},
-{
-"sha": "faf0f5ea",
-"at": "2026-11-22 01:42",
-"ts": 1795279325,
-"msg": "관제 기록: CD-0060 stage → 마감(빌드 대기)"
 }
 ],
-"dirtyCount": 5,
-"dirty": [
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd54PropFxBoardTests.cs",
-"at": "2026-11-22 02:10"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd48TowerPropEditModeTests.cs",
-"at": "2026-11-22 02:10"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd43DecosTests.cs",
-"at": "2026-11-22 02:10"
-},
-{
-"file": "studio/orders/CD-0073-사용자-맵툴-배치-gate-03-1인-반영-시험-규칙을/00-order.md",
-"at": "2026-11-22 02:01"
-},
-{
-"file": "studio/orders/CD-0073-사용자-맵툴-배치-gate-03-1인-반영-시험-규칙을/10-spec.md",
-"at": "2026-11-22 01:58"
-}
-],
-"lastEdit": "2026-11-22 02:10",
-"lastEditTs": 1795281015.2859251,
-"lastCommitTs": 1795280941,
-"unpushed": 2,
-"notInMain": 2,
-"today": 85
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795281134,
+"unpushed": 4,
+"notInMain": 4,
+"today": 87
 },
 {
 "branch": "cd-74",
@@ -2113,7 +2072,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 377,
+"commits": 382,
 "byOrder": [
 [
 "CD-0041",
@@ -2161,7 +2120,7 @@
 ],
 [
 "CD-0062",
-11
+12
 ],
 [
 "CD-0052",
@@ -2200,6 +2159,10 @@
 5
 ],
 [
+"CD-0067",
+4
+],
+[
 "CD-0058",
 4
 ],
@@ -2208,7 +2171,7 @@
 4
 ],
 [
-"CD-0067",
+"CD-0073",
 3
 ],
 [
@@ -2232,7 +2195,7 @@
 2
 ],
 [
-"CD-0073",
+"CD-0068",
 1
 ],
 [
@@ -2258,6 +2221,31 @@
 ],
 "latest": [
 {
+"sha": "3d6c1870",
+"at": "2026-11-22 02:14",
+"msg": "CD-0062: main 합친 뒤 카탈로그 다시(새 그림 13) · 90-close 갱신 — EditMode 필터 44/44"
+},
+{
+"sha": "9a45b2a7",
+"at": "2026-11-22 02:13",
+"msg": "CD-0068 공통 보상 획득 창: RewardPopup.Show 한 줄 · 미션·업적·상점·보석 상점·우편 연결 · 많으면 보상 영역만 스크롤 · 마감 초안(빌드 대기)"
+},
+{
+"sha": "e32ea99f",
+"at": "2026-11-22 02:12",
+"msg": "CD-0067 C1: 로비 무대 영웅 자동 5명(고르기·몸 상자 표·그림자·숨쉬기·누르면 영웅 탭) + EditMode/PlayMode 시험 — 컴파일 대기"
+},
+{
+"sha": "7ad2b5cb",
+"at": "2026-11-22 02:12",
+"msg": "CD-0073 주문 기록: stage 제작 · 대표 판단 · 90-close 초안(아침 보고·밸런스 숫자)"
+},
+{
+"sha": "cbfa970d",
+"at": "2026-11-22 02:11",
+"msg": "CD-0073 Client 시험: 새 gate_03 1인 배치(소품 fx [] · 큰길 없음)에 맞춤 — Cd54 전쟁 소품은 시험 안에서 끼움, decos 정규식 중첩 허용(Cd43·Cd48), 큰길 시험은 협동 2인으로"
+},
+{
 "sha": "76329054",
 "at": "2026-11-22 02:09",
 "msg": "CD-0073 Core: 사용자 맵툴 gate_03 1인 배치에 시험·기록 맞춤 — 비행 길 없음 시험(gate_04 로 이동·새 시험), 길 y350, 망루 발 칸 16, 도달·스냅샷 골든·기록 해시 다시 굽기(원인=맵만 확인), 밸런스 2개는 맵 때문(19/20) 기록만"
@@ -2281,31 +2269,6 @@
 "sha": "fa3755bc",
 "at": "2026-11-22 02:05",
 "msg": "CD-0062 마감 초안(빌드 대기): 90-close — 검사·EditMode 21/21·관제에 넘길 요약·해 볼 것"
-},
-{
-"sha": "e2ea5190",
-"at": "2026-11-22 02:04",
-"msg": "CD-0062: Unity import(.meta 14 · 스프라이트 카탈로그·Art 그룹에 새 그림 13) · 초상화 수 29 로 바로잡음 — EditMode 필터 21/21"
-},
-{
-"sha": "bb13e839",
-"at": "2026-11-22 02:03",
-"msg": "CD-0067 기획서(spec 통과): 무대 영웅 C1 · 채팅 띠 C2 · P1(결정 0085·문서·social texts) — 질문 8개 추천 답으로"
-},
-{
-"sha": "5598093f",
-"at": "2026-11-22 01:59",
-"msg": "관제 기록: CD-0064 stage → 마감(빌드 대기)"
-},
-{
-"sha": "37c37cde",
-"at": "2026-11-22 01:57",
-"msg": "작업실 적용 20261122-014844-5f88(사용자 맵툴): gate_03 1인 배치 — 땅 길 가로줄 y 300→350 · 비행 길 제거 · tiles 7줄 · decos 21개(prop_1·prop_3, fx 없음)"
-},
-{
-"sha": "44817665",
-"at": "2026-11-22 01:56",
-"msg": "CD-0064 90-close 초안(빌드 대기) · gate impl — check 통과 · EditMode 60/60 · 캡처 직접 확인"
 }
 ]
 },
@@ -7749,7 +7712,7 @@
 "id": "CD-0062",
 "title": "프로필 꾸밈(초상·테두리·명패) 퀄리티업 + 프로필 창 디자인 개편",
 "branch": "cd-62",
-"updated": "2026-11-22 02:05",
+"updated": "2026-11-22 02:14",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -7940,12 +7903,13 @@
 "id": "CD-0067",
 "title": "로비 무대 영웅 자동 5명과 채팅 띠",
 "branch": "cd-67",
-"updated": "2026-11-22 02:05",
+"updated": "2026-11-22 02:12",
 "files": [
 "00-order.md",
 "10-spec.md",
 "15-design.md",
 "20-planning.md",
+"21-client.md",
 "_qa"
 ],
 "milestone": "M6",
@@ -7975,8 +7939,8 @@
 "team": "client",
 "title": "무대 영웅: UI/LobbyStage.cs(읽기 모델 Pick · 배치 · 숨쉬기) · 생성 표 UI/StageHeroBounds.cs + _qa/gen_stage_bounds.py · LobbyScreen.Stage.cs(짓기·Changed 에 다시 고르기·누름 = TapTab(Characters)) · 중첩 Canvas(+GraphicRaycaster) 하나에 그림자 5 → 몸 5 차례 · 계층 = 자리(Button·PressBounce·누르는 상자) › 그림자 · 몸(숨쉬기는 몸에만, 발 피벗) · 새 EditMode Cd67LobbyEditModeTests(고르기·표·자리 숫자) · PlayMode Cd67LobbyTests 의 무대 부분",
 "output": "코드 · 시험 · 21-client.md",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "보고서 있음: 21-client.md"
 },
 {
 "id": "C2",
@@ -7994,24 +7958,25 @@
 {
 "id": "CD-0068",
 "title": "공통 보상 획득 팝업 미션 업적 상점 우편 많으면 스크롤",
-"branch": "cd-68",
-"updated": "2026-11-22 01:33",
+"branch": "main",
+"updated": "2026-11-22 02:13",
 "files": [
-"00-order.md"
+"00-order.md",
+"90-close.md"
 ],
 "milestone": "M3",
-"stage": "제작",
+"stage": "마감",
 "route": "direct",
 "risk": "low",
 "teams": "client",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -8087,25 +8052,27 @@
 "id": "CD-0073",
 "title": "사용자 맵툴 배치(gate_03 1인) 반영 — 시험·규칙을 새 배치에 맞춤",
 "branch": "cd-73",
-"updated": "2026-11-22 02:09",
+"updated": "2026-11-22 02:12",
 "files": [
 "00-order.md",
 "10-spec.md",
-"21-core.md"
+"21-core.md",
+"22-client.md",
+"90-close.md"
 ],
 "milestone": "M2",
-"stage": "접수",
+"stage": "제작",
 "route": "fast",
 "risk": "mid",
 "teams": "core, planning",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "new",
+"phase": "doing",
 "builtIn": ""
 },
 {
@@ -8212,7 +8179,7 @@
 "no": 7,
 "title": "보상 획득 팝업 (미션·업적·상점 등 공통, 많으면 스크롤)",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0065",
@@ -20041,11 +20008,11 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
-"passed": 620,
+"at": "2026-11-22 02:13",
+"commit": "a4d30776+수정",
+"passed": 692,
 "failed": 0,
-"total": 621,
+"total": 693,
 "ok": true
 },
 "unity": {
@@ -20055,13 +20022,13 @@
 "failed": 0,
 "total": 371,
 "ok": true,
-"fresh": true,
+"fresh": false,
 "commit": "467adaeb+수정"
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
+"at": "2026-11-22 02:13",
+"commit": "a4d30776+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20069,8 +20036,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
+"at": "2026-11-22 02:13",
+"commit": "a4d30776+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20078,8 +20045,17 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
+"at": "2026-11-22 02:13",
+"commit": "a4d30776+수정",
+"passed": 1,
+"failed": 0,
+"total": 1,
+"ok": true
+},
+"notices": {
+"name": "공지 파일 검사 (tools/notices_check.py)",
+"at": "2026-11-22 02:13",
+"commit": "a4d30776+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20281,7 +20257,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 02:10",
-"generatedAt": "2026-11-22 02:10",
-"digest": "8672045aca58e428"
+"sourceAt": "2026-11-22 02:15",
+"generatedAt": "2026-11-22 02:16",
+"digest": "dffd287a5cd4396d"
 }
