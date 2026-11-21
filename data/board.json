@@ -1348,7 +1348,7 @@
 "dirty": [
 {
 "file": "studio/checks.json",
-"at": "2026-11-22 03:40"
+"at": "2026-11-22 03:48"
 },
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
@@ -1379,10 +1379,10 @@
 "at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-22 03:40",
-"lastEditTs": 1795286425.1247244,
+"lastEdit": "2026-11-22 03:48",
+"lastEditTs": 1795286936.8431935,
 "lastCommitTs": 1795286785,
-"unpushed": 4,
+"unpushed": 0,
 "notInMain": 0,
 "today": 162
 },
@@ -1391,67 +1391,54 @@
 "lane": "cd-53",
 "session": "",
 "owns": "",
-"order": "CD-0067",
-"head": "99d7cfa",
+"order": "CD-0053",
+"head": "643200f",
 "commits": [
 {
-"sha": "99d7cfaf",
-"at": "2026-11-22 03:20",
-"ts": 1795285256,
-"msg": "병합: cd-62 900cd2bb(빌드 QA — 새 그림 13장 assets.json state final)"
+"sha": "643200fb",
+"at": "2026-11-22 03:49",
+"ts": 1795286965,
+"msg": "병합: main f32fd254 → cd-53 (빌드 QA 수정 확인 전)"
 },
 {
-"sha": "6496231e",
-"at": "2026-11-22 03:20",
-"ts": 1795285255,
-"msg": "병합: cd-63 f05c51db(빌드 QA — 낡은 Cd63 시험 고침)"
+"sha": "22f94bd4",
+"at": "2026-11-22 03:49",
+"ts": 1795286960,
+"msg": "CD-0053 빌드 QA 수정 — 랭킹 시험 시드·기대값을 데이터 판 수로 · 강화 시험은 1-2 막는 안내(t7_sell·t7_bounty)를 본 것으로"
 },
 {
-"sha": "900cd2bb",
-"at": "2026-11-22 03:14",
-"ts": 1795284845,
-"msg": "CD-0062 빌드 QA 고침: 새 그림 13장의 assets.json 상태 temp → final(파일이 Art/Final 에 있다 — CatalogHasEveryTempAddressOfTheFirstGoal 가 Art/Temp 에서 못 찾음)"
+"sha": "f32fd254",
+"at": "2026-11-22 03:46",
+"ts": 1795286785,
+"msg": "병합: cd-64 aaeb9eb7(빌드 QA — 뽑기 시험 4개·티켓 칩·F칸 잘림·안내 멈춤)"
 },
 {
-"sha": "f05c51db",
-"at": "2026-11-22 03:11",
-"ts": 1795284676,
-"msg": "CD-0063 시험 수정: «영웅 탭만 SoftText» 단언 제거 — 결정 0087 은 아웃게임 공통(뽑기 CD-0064 가 옮겨서 낡음)"
+"sha": "aaeb9eb7",
+"at": "2026-11-22 03:46",
+"ts": 1795286770,
+"msg": "CD-0064 빌드 QA 수정 기록 — PlayMode 4/4 · EditMode 56/56"
 },
 {
-"sha": "06461eb7",
-"at": "2026-11-22 02:45",
-"ts": 1795283100,
-"msg": "관제 기록: CD-0067 stage → 마감(빌드 대기)"
+"sha": "122b46a7",
+"at": "2026-11-22 03:40",
+"ts": 1795286448,
+"msg": "Merge branch 'main' into cd-64"
 },
 {
-"sha": "17569d4a",
-"at": "2026-11-22 02:44",
-"ts": 1795283093,
-"msg": "병합: cd-67 db8440cd(CD-0067 로비 무대 영웅 자동 5명 + 채팅 띠 · 결정 0085)"
+"sha": "be6d6cd2",
+"at": "2026-11-22 03:40",
+"ts": 1795286447,
+"msg": "CD-0064 빌드 QA 수정: 뽑는 순간 티켓 칩 갱신 · F 칸 «1/1» 잘림 · 안내가 A상 등장 단계에서 멈추지 않게"
 }
 ],
-"dirtyCount": 3,
-"dirty": [
-{
-"file": "studio/orders/CD-0053-챕터-1-축소-6판-해금-안내-재배치/00-order.md",
-"at": "2026-11-22 03:24"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/InGameTwoTests.cs",
-"at": "2026-11-22 03:24"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd42SocialPlayModeTests.cs",
-"at": "2026-11-22 03:22"
-}
-],
-"lastEdit": "2026-11-22 03:24",
-"lastEditTs": 1795285487.7114983,
-"lastCommitTs": 1795285256,
-"unpushed": 0,
-"notInMain": 0,
-"today": 150
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795286965,
+"unpushed": 2,
+"notInMain": 2,
+"today": 164
 },
 {
 "branch": "cd-67",
@@ -1680,7 +1667,7 @@
 "lastEdit": "2026-11-22 03:43",
 "lastEditTs": 1795286581.2611372,
 "lastCommitTs": 1795286770,
-"unpushed": 3,
+"unpushed": 0,
 "notInMain": 0,
 "today": 161
 },
@@ -1854,11 +1841,15 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 387,
+"commits": 388,
 "byOrder": [
 [
 "CD-0041",
 56
+],
+[
+"CD-0053",
+25
 ],
 [
 "CD-0060",
@@ -1867,10 +1858,6 @@
 [
 "CD-0040",
 25
-],
-[
-"CD-0053",
-24
 ],
 [
 "CD-0064",
@@ -2003,6 +1990,11 @@
 ],
 "latest": [
 {
+"sha": "22f94bd4",
+"at": "2026-11-22 03:49",
+"msg": "CD-0053 빌드 QA 수정 — 랭킹 시험 시드·기대값을 데이터 판 수로 · 강화 시험은 1-2 막는 안내(t7_sell·t7_bounty)를 본 것으로"
+},
+{
 "sha": "aaeb9eb7",
 "at": "2026-11-22 03:46",
 "msg": "CD-0064 빌드 QA 수정 기록 — PlayMode 4/4 · EditMode 56/56"
@@ -2046,11 +2038,6 @@
 "sha": "900cd2bb",
 "at": "2026-11-22 03:14",
 "msg": "CD-0062 빌드 QA 고침: 새 그림 13장의 assets.json 상태 temp → final(파일이 Art/Final 에 있다 — CatalogHasEveryTempAddressOfTheFirstGoal 가 Art/Temp 에서 못 찾음)"
-},
-{
-"sha": "f05c51db",
-"at": "2026-11-22 03:11",
-"msg": "CD-0063 시험 수정: «영웅 탭만 SoftText» 단언 제거 — 결정 0087 은 아웃게임 공통(뽑기 CD-0064 가 옮겨서 낡음)"
 }
 ]
 },
@@ -19794,27 +19781,27 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
-"passed": 620,
-"failed": 0,
-"total": 621,
-"ok": true
+"at": "2026-11-22 03:46",
+"commit": "f32fd254+수정",
+"passed": 710,
+"failed": 2,
+"total": 713,
+"ok": false
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-21 21:48",
-"passed": 371,
-"failed": 0,
-"total": 371,
-"ok": true,
-"fresh": true,
-"commit": "467adaeb+수정"
+"at": "2026-11-22 02:51",
+"passed": 627,
+"failed": 2,
+"total": 629,
+"ok": false,
+"fresh": false,
+"commit": "06461eb7+수정"
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
+"at": "2026-11-22 03:46",
+"commit": "f32fd254+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19822,8 +19809,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
+"at": "2026-11-22 03:46",
+"commit": "f32fd254+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19831,8 +19818,17 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
+"at": "2026-11-22 03:46",
+"commit": "f32fd254+수정",
+"passed": 1,
+"failed": 0,
+"total": 1,
+"ok": true
+},
+"notices": {
+"name": "공지 파일 검사 (tools/notices_check.py)",
+"at": "2026-11-22 03:46",
+"commit": "f32fd254+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20034,7 +20030,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 03:46",
-"generatedAt": "2026-11-22 03:47",
-"digest": "83169ca4ba45cb8f"
+"sourceAt": "2026-11-22 03:49",
+"generatedAt": "2026-11-22 03:49",
+"digest": "0d1588c0a4386d0d"
 }
