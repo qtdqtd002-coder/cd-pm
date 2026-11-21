@@ -1304,9 +1304,33 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0062",
-"head": "2d959dc",
+"order": "CD-0067",
+"head": "336856a",
 "commits": [
+{
+"sha": "336856af",
+"at": "2026-11-22 03:37",
+"ts": 1795286274,
+"msg": "병합: cd-67 cba4d050(빌드 QA — 낡은 로비 시험 4개 고침)"
+},
+{
+"sha": "cba4d050",
+"at": "2026-11-22 03:37",
+"ts": 1795286259,
+"msg": "CD-0067 90-close: 빌드 QA 에서 돌아온 4개 — 넷 다 낡은 시험, PlayMode 네 묶음 19/19 통과"
+},
+{
+"sha": "850c9fe0",
+"at": "2026-11-22 03:35",
+"ts": 1795286111,
+"msg": "Merge branch 'main' into cd-67"
+},
+{
+"sha": "1f1ecda1",
+"at": "2026-11-22 03:35",
+"ts": 1795286111,
+"msg": "CD-0060·0067 빌드 QA 수정(확인 전): 낡은 시험 4개 — o1_stage 대상 stageBar · 무대 영웅이 서는 것이 의도 · 1-1 이 6웨이브라 이어 할 판 시험은 4웨이브에서 멈춤"
+},
 {
 "sha": "2d959dc8",
 "at": "2026-11-22 03:29",
@@ -1318,37 +1342,13 @@
 "at": "2026-11-22 03:27",
 "ts": 1795285654,
 "msg": "CD-0063 빌드 QA 수정: 전설 카드도 «+0» 을 보인다(정보창과 같게) — Cd34HeroScreenTests PlayMode 6/6"
-},
-{
-"sha": "db13171f",
-"at": "2026-11-22 03:25",
-"ts": 1795285501,
-"msg": "병합: cd-62 6412bdf8(빌드 QA — Cd15 업적 꾸밈 미리보기 기대값)"
-},
-{
-"sha": "6412bdf8",
-"at": "2026-11-22 03:24",
-"ts": 1795285484,
-"msg": "CD-0062 빌드 QA 고침: Cd15 업적 목록 시험 — 1회성 업적에 꾸밈 미리 보기 없음(결정 0086) — PlayMode 필터 1/1"
-},
-{
-"sha": "99d7cfaf",
-"at": "2026-11-22 03:20",
-"ts": 1795285256,
-"msg": "병합: cd-62 900cd2bb(빌드 QA — 새 그림 13장 assets.json state final)"
-},
-{
-"sha": "6496231e",
-"at": "2026-11-22 03:20",
-"ts": 1795285255,
-"msg": "병합: cd-63 f05c51db(빌드 QA — 낡은 Cd63 시험 고침)"
 }
 ],
 "dirtyCount": 14,
 "dirty": [
 {
 "file": "studio/checks.json",
-"at": "2026-11-22 03:34"
+"at": "2026-11-22 03:40"
 },
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
@@ -1379,12 +1379,12 @@
 "at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-22 03:34",
-"lastEditTs": 1795286082.1448276,
-"lastCommitTs": 1795285777,
+"lastEdit": "2026-11-22 03:40",
+"lastEditTs": 1795286425.1247244,
+"lastCommitTs": 1795286274,
 "unpushed": 0,
 "notInMain": 0,
-"today": 154
+"today": 158
 },
 {
 "branch": "cd-53",
@@ -1459,74 +1459,58 @@
 "session": "",
 "owns": "",
 "order": "CD-0067",
-"head": "99d7cfa",
+"head": "cba4d05",
 "commits": [
 {
-"sha": "99d7cfaf",
-"at": "2026-11-22 03:20",
-"ts": 1795285256,
-"msg": "병합: cd-62 900cd2bb(빌드 QA — 새 그림 13장 assets.json state final)"
+"sha": "cba4d050",
+"at": "2026-11-22 03:37",
+"ts": 1795286259,
+"msg": "CD-0067 90-close: 빌드 QA 에서 돌아온 4개 — 넷 다 낡은 시험, PlayMode 네 묶음 19/19 통과"
 },
 {
-"sha": "6496231e",
-"at": "2026-11-22 03:20",
-"ts": 1795285255,
-"msg": "병합: cd-63 f05c51db(빌드 QA — 낡은 Cd63 시험 고침)"
+"sha": "850c9fe0",
+"at": "2026-11-22 03:35",
+"ts": 1795286111,
+"msg": "Merge branch 'main' into cd-67"
 },
 {
-"sha": "900cd2bb",
-"at": "2026-11-22 03:14",
-"ts": 1795284845,
-"msg": "CD-0062 빌드 QA 고침: 새 그림 13장의 assets.json 상태 temp → final(파일이 Art/Final 에 있다 — CatalogHasEveryTempAddressOfTheFirstGoal 가 Art/Temp 에서 못 찾음)"
+"sha": "1f1ecda1",
+"at": "2026-11-22 03:35",
+"ts": 1795286111,
+"msg": "CD-0060·0067 빌드 QA 수정(확인 전): 낡은 시험 4개 — o1_stage 대상 stageBar · 무대 영웅이 서는 것이 의도 · 1-1 이 6웨이브라 이어 할 판 시험은 4웨이브에서 멈춤"
 },
 {
-"sha": "f05c51db",
-"at": "2026-11-22 03:11",
-"ts": 1795284676,
-"msg": "CD-0063 시험 수정: «영웅 탭만 SoftText» 단언 제거 — 결정 0087 은 아웃게임 공통(뽑기 CD-0064 가 옮겨서 낡음)"
+"sha": "2d959dc8",
+"at": "2026-11-22 03:29",
+"ts": 1795285777,
+"msg": "병합: cd-63 ee0830ab(빌드 QA — 전설 카드 «+0» 정보창과 같게)"
 },
 {
-"sha": "06461eb7",
-"at": "2026-11-22 02:45",
-"ts": 1795283100,
-"msg": "관제 기록: CD-0067 stage → 마감(빌드 대기)"
+"sha": "ee0830ab",
+"at": "2026-11-22 03:27",
+"ts": 1795285654,
+"msg": "CD-0063 빌드 QA 수정: 전설 카드도 «+0» 을 보인다(정보창과 같게) — Cd34HeroScreenTests PlayMode 6/6"
 },
 {
-"sha": "17569d4a",
-"at": "2026-11-22 02:44",
-"ts": 1795283093,
-"msg": "병합: cd-67 db8440cd(CD-0067 로비 무대 영웅 자동 5명 + 채팅 띠 · 결정 0085)"
+"sha": "db13171f",
+"at": "2026-11-22 03:25",
+"ts": 1795285501,
+"msg": "병합: cd-62 6412bdf8(빌드 QA — Cd15 업적 꾸밈 미리보기 기대값)"
 }
 ],
-"dirtyCount": 5,
+"dirtyCount": 1,
 "dirty": [
-{
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameServiceFlowTests.cs",
-"at": "2026-11-22 03:23"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameAudit2FlowTests.cs",
-"at": "2026-11-22 03:23"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameFlowTests.cs",
-"at": "2026-11-22 03:22"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd36OutgameFlowTests.cs",
-"at": "2026-11-22 03:22"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-22 01:10"
 }
 ],
-"lastEdit": "2026-11-22 03:23",
-"lastEditTs": 1795285407.8156207,
-"lastCommitTs": 1795285256,
+"lastEdit": "2026-11-22 01:10",
+"lastEditTs": 1795277430.3254535,
+"lastCommitTs": 1795286259,
 "unpushed": 0,
 "notInMain": 0,
-"today": 150
+"today": 157
 },
 {
 "branch": "cd-62",
@@ -1646,63 +1630,54 @@
 "lane": "cd-64",
 "session": "",
 "owns": "",
-"order": "CD-0067",
-"head": "99d7cfa",
+"order": "CD-0064",
+"head": "122b46a",
 "commits": [
 {
-"sha": "99d7cfaf",
-"at": "2026-11-22 03:20",
-"ts": 1795285256,
-"msg": "병합: cd-62 900cd2bb(빌드 QA — 새 그림 13장 assets.json state final)"
+"sha": "122b46a7",
+"at": "2026-11-22 03:40",
+"ts": 1795286448,
+"msg": "Merge branch 'main' into cd-64"
 },
 {
-"sha": "6496231e",
-"at": "2026-11-22 03:20",
-"ts": 1795285255,
-"msg": "병합: cd-63 f05c51db(빌드 QA — 낡은 Cd63 시험 고침)"
+"sha": "be6d6cd2",
+"at": "2026-11-22 03:40",
+"ts": 1795286447,
+"msg": "CD-0064 빌드 QA 수정: 뽑는 순간 티켓 칩 갱신 · F 칸 «1/1» 잘림 · 안내가 A상 등장 단계에서 멈추지 않게"
 },
 {
-"sha": "900cd2bb",
-"at": "2026-11-22 03:14",
-"ts": 1795284845,
-"msg": "CD-0062 빌드 QA 고침: 새 그림 13장의 assets.json 상태 temp → final(파일이 Art/Final 에 있다 — CatalogHasEveryTempAddressOfTheFirstGoal 가 Art/Temp 에서 못 찾음)"
+"sha": "336856af",
+"at": "2026-11-22 03:37",
+"ts": 1795286274,
+"msg": "병합: cd-67 cba4d050(빌드 QA — 낡은 로비 시험 4개 고침)"
 },
 {
-"sha": "f05c51db",
-"at": "2026-11-22 03:11",
-"ts": 1795284676,
-"msg": "CD-0063 시험 수정: «영웅 탭만 SoftText» 단언 제거 — 결정 0087 은 아웃게임 공통(뽑기 CD-0064 가 옮겨서 낡음)"
+"sha": "cba4d050",
+"at": "2026-11-22 03:37",
+"ts": 1795286259,
+"msg": "CD-0067 90-close: 빌드 QA 에서 돌아온 4개 — 넷 다 낡은 시험, PlayMode 네 묶음 19/19 통과"
 },
 {
-"sha": "06461eb7",
-"at": "2026-11-22 02:45",
-"ts": 1795283100,
-"msg": "관제 기록: CD-0067 stage → 마감(빌드 대기)"
+"sha": "850c9fe0",
+"at": "2026-11-22 03:35",
+"ts": 1795286111,
+"msg": "Merge branch 'main' into cd-67"
 },
 {
-"sha": "17569d4a",
-"at": "2026-11-22 02:44",
-"ts": 1795283093,
-"msg": "병합: cd-67 db8440cd(CD-0067 로비 무대 영웅 자동 5명 + 채팅 띠 · 결정 0085)"
+"sha": "1f1ecda1",
+"at": "2026-11-22 03:35",
+"ts": 1795286111,
+"msg": "CD-0060·0067 빌드 QA 수정(확인 전): 낡은 시험 4개 — o1_stage 대상 stageBar · 무대 영웅이 서는 것이 의도 · 1-1 이 6웨이브라 이어 할 판 시험은 4웨이브에서 멈춤"
 }
 ],
-"dirtyCount": 2,
-"dirty": [
-{
-"file": "UnityProject/Assets/_Game/UI/Tutorial/OutgameGuide.cs",
-"at": "2026-11-22 03:24"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
-"at": "2026-11-22 03:24"
-}
-],
-"lastEdit": "2026-11-22 03:24",
-"lastEditTs": 1795285462.2714577,
-"lastCommitTs": 1795285256,
-"unpushed": 0,
-"notInMain": 0,
-"today": 150
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795286448,
+"unpushed": 2,
+"notInMain": 2,
+"today": 160
 },
 {
 "branch": "cd-73",
@@ -1902,7 +1877,7 @@
 ],
 [
 "CD-0064",
-21
+22
 ],
 [
 "CD-0045",
@@ -1922,7 +1897,7 @@
 ],
 [
 "CD-0039",
-14
+12
 ],
 [
 "CD-0052",
@@ -1937,16 +1912,16 @@
 10
 ],
 [
+"CD-0067",
+9
+],
+[
 "CD-0047",
 9
 ],
 [
 "CD-0044",
 9
-],
-[
-"CD-0067",
-8
 ],
 [
 "CD-0061",
@@ -2023,6 +1998,16 @@
 ],
 "latest": [
 {
+"sha": "be6d6cd2",
+"at": "2026-11-22 03:40",
+"msg": "CD-0064 빌드 QA 수정: 뽑는 순간 티켓 칩 갱신 · F 칸 «1/1» 잘림 · 안내가 A상 등장 단계에서 멈추지 않게"
+},
+{
+"sha": "cba4d050",
+"at": "2026-11-22 03:37",
+"msg": "CD-0067 90-close: 빌드 QA 에서 돌아온 4개 — 넷 다 낡은 시험, PlayMode 네 묶음 19/19 통과"
+},
+{
 "sha": "1f1ecda1",
 "at": "2026-11-22 03:35",
 "msg": "CD-0060·0067 빌드 QA 수정(확인 전): 낡은 시험 4개 — o1_stage 대상 stageBar · 무대 영웅이 서는 것이 의도 · 1-1 이 6웨이브라 이어 할 판 시험은 4웨이브에서 멈춤"
@@ -2061,16 +2046,6 @@
 "sha": "06461eb7",
 "at": "2026-11-22 02:45",
 "msg": "관제 기록: CD-0067 stage → 마감(빌드 대기)"
-},
-{
-"sha": "db8440cd",
-"at": "2026-11-22 02:44",
-"msg": "CD-0067 마감 초안(90-close): 결과·검증·비용·남은 일·해 볼 것·관제에 넘길 요약"
-},
-{
-"sha": "178cd8f9",
-"at": "2026-11-22 02:43",
-"msg": "CD-0067 Unity 확인: 컴파일(ChatBand using 1줄) · EditMode 필터 88/88 · PlayMode 로비 36/36 · 캡처 11장 · gate impl"
 }
 ]
 },
@@ -7706,7 +7681,7 @@
 "id": "CD-0067",
 "title": "로비 무대 영웅 자동 5명과 채팅 띠",
 "branch": "main",
-"updated": "2026-11-22 02:45",
+"updated": "2026-11-22 03:37",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -19814,8 +19789,8 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 03:32",
-"commit": "2d959dc8+수정",
+"at": "2026-11-22 03:37",
+"commit": "336856af+수정",
 "passed": 710,
 "failed": 2,
 "total": 713,
@@ -19833,8 +19808,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 03:32",
-"commit": "2d959dc8+수정",
+"at": "2026-11-22 03:37",
+"commit": "336856af+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19842,8 +19817,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 03:32",
-"commit": "2d959dc8+수정",
+"at": "2026-11-22 03:37",
+"commit": "336856af+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19851,8 +19826,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 03:32",
-"commit": "2d959dc8+수정",
+"at": "2026-11-22 03:37",
+"commit": "336856af+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19860,8 +19835,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 03:32",
-"commit": "2d959dc8+수정",
+"at": "2026-11-22 03:37",
+"commit": "336856af+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20063,7 +20038,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 03:34",
-"generatedAt": "2026-11-22 03:35",
-"digest": "de586a727d3680d2"
+"sourceAt": "2026-11-22 03:40",
+"generatedAt": "2026-11-22 03:40",
+"digest": "4b9e498824f4df1f"
 }
