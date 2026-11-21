@@ -1305,8 +1305,20 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0062",
-"head": "268cc46",
+"head": "bee89e3",
 "commits": [
+{
+"sha": "bee89e31",
+"at": "2026-11-22 02:22",
+"ts": 1795281725,
+"msg": "병합: cd-73 358587d8(CD-0073 사용자 맵툴 gate_03 1인 배치 + 시험·규칙 새 배치에 맞춤)"
+},
+{
+"sha": "358587d8",
+"at": "2026-11-22 02:21",
+"ts": 1795281713,
+"msg": "CD-0073 유니티 시험 2개 새 배치에 맞춤(들판 꾸밈 칸 21 · 큰길 토막 수는 배치에서 계산) · 마감 초안(EditMode 7/7 · PlayMode 16 통과 0 실패) · stage 마감"
+},
 {
 "sha": "268cc466",
 "at": "2026-11-22 02:18",
@@ -1330,25 +1342,13 @@
 "at": "2026-11-22 02:14",
 "ts": 1795281248,
 "msg": "CD-0062: main 합친 뒤 카탈로그 다시(새 그림 13) · 90-close 갱신 — EditMode 필터 44/44"
-},
-{
-"sha": "a4d30776",
-"at": "2026-11-22 02:13",
-"ts": 1795281209,
-"msg": "병합: cd-68 9a45b2a7(CD-0068 공통 보상 획득 창 RewardPopup.Show)"
-},
-{
-"sha": "9a45b2a7",
-"at": "2026-11-22 02:13",
-"ts": 1795281198,
-"msg": "CD-0068 공통 보상 획득 창: RewardPopup.Show 한 줄 · 미션·업적·상점·보석 상점·우편 연결 · 많으면 보상 영역만 스크롤 · 마감 초안(빌드 대기)"
 }
 ],
 "dirtyCount": 8,
 "dirty": [
 {
 "file": "studio/checks.json",
-"at": "2026-11-22 02:20"
+"at": "2026-11-22 02:24"
 },
 {
 "file": "_qa/cd54-shots-v2/cd54_propfx_low.png",
@@ -1379,12 +1379,12 @@
 "at": "2026-11-19 08:23"
 }
 ],
-"lastEdit": "2026-11-22 02:20",
-"lastEditTs": 1795281645.3914557,
-"lastCommitTs": 1795281480,
+"lastEdit": "2026-11-22 02:24",
+"lastEditTs": 1795281882.6307685,
+"lastCommitTs": 1795281725,
 "unpushed": 0,
 "notInMain": 0,
-"today": 128
+"today": 134
 },
 {
 "branch": "cd-67",
@@ -1392,8 +1392,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0067",
-"head": "e32ea99",
+"head": "02ab0b4",
 "commits": [
+{
+"sha": "02ab0b44",
+"at": "2026-11-22 02:23",
+"ts": 1795281839,
+"msg": "CD-0067 C2: 로비 채팅 띠(ChatBand·ChatHub.Recent·레일 채팅 키 제거·창 올라오기) + 시험·캡처 시험 — 컴파일 대기"
+},
 {
 "sha": "e32ea99f",
 "at": "2026-11-22 02:12",
@@ -1423,55 +1429,21 @@
 "at": "2026-11-22 01:42",
 "ts": 1795279325,
 "msg": "관제 기록: CD-0060 stage → 마감(빌드 대기)"
-},
-{
-"sha": "c286e7fb",
-"at": "2026-11-22 01:42",
-"ts": 1795279325,
-"msg": "병합: cd-60 57652286(CD-0060 로비 안 A 뼈대 — 상단 줄·레일·출전 패널·[맵] 창·하단 탭 띠·표식 15장 · 결정 0091)"
 }
 ],
-"dirtyCount": 10,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd67LobbyTests.cs",
-"at": "2026-11-22 02:20"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd67LobbyEditModeTests.cs",
-"at": "2026-11-22 02:19"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd42SocialPlayModeTests.cs",
-"at": "2026-11-22 02:18"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd60LobbyTests.cs",
-"at": "2026-11-22 02:18"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
-"at": "2026-11-22 02:18"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.Social.cs",
-"at": "2026-11-22 02:18"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/ChatBand.cs",
-"at": "2026-11-22 02:18"
-},
-{
-"file": "UnityProject/Assets/_Game/Net/Social/ChatRoom.cs",
-"at": "2026-11-22 02:14"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 01:10"
 }
 ],
-"lastEdit": "2026-11-22 02:20",
-"lastEditTs": 1795281651.9700837,
-"lastCommitTs": 1795281174,
-"unpushed": 4,
-"notInMain": 4,
-"today": 82
+"lastEdit": "2026-11-22 01:10",
+"lastEditTs": 1795277430.3254535,
+"lastCommitTs": 1795281839,
+"unpushed": 5,
+"notInMain": 5,
+"today": 83
 },
 {
 "branch": "cd-61",
@@ -1533,8 +1505,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0062",
-"head": "f9e4886",
+"head": "b22e724",
 "commits": [
+{
+"sha": "b22e7240",
+"at": "2026-11-22 02:24",
+"ts": 1795281842,
+"msg": "CD-0062: PlayMode 시험의 옛 꾸밈 id 기대값을 새 규칙으로(OutgameMetaFlow·OutgameMetaShot·OutgameRound3Flow) — Unity 밖 컴파일만, 실행 미확인"
+},
+{
+"sha": "268cc466",
+"at": "2026-11-22 02:18",
+"ts": 1795281480,
+"msg": "관제 기록: CD-0062 stage → 마감(빌드 대기)"
+},
+{
+"sha": "4c1b4921",
+"at": "2026-11-22 02:17",
+"ts": 1795281478,
+"msg": "병합: cd-62 f9e4886b(CD-0062 프로필 꾸밈 퀄리티업 · 프로필 창 개편 · Codex 그림 13장 · 결정 0086)"
+},
 {
 "sha": "f9e4886b",
 "at": "2026-11-22 02:14",
@@ -1552,24 +1542,6 @@
 "at": "2026-11-22 02:13",
 "ts": 1795281209,
 "msg": "병합: cd-68 9a45b2a7(CD-0068 공통 보상 획득 창 RewardPopup.Show)"
-},
-{
-"sha": "9a45b2a7",
-"at": "2026-11-22 02:13",
-"ts": 1795281198,
-"msg": "CD-0068 공통 보상 획득 창: RewardPopup.Show 한 줄 · 미션·업적·상점·보석 상점·우편 연결 · 많으면 보상 영역만 스크롤 · 마감 초안(빌드 대기)"
-},
-{
-"sha": "1235c3d7",
-"at": "2026-11-22 02:10",
-"ts": 1795281007,
-"msg": "main 합침(CD-0060 로비 · CD-0064 뽑기 등) — 로비 프로필 칩은 CD-0060 모양(명패 안 그림) + CD-0062 새 꾸밈 레드닷·테두리 그림 자리 · 도구·기록 양쪽 살림 · 카탈로그는 main 것(다음 커밋에서 다시 만듦)"
-},
-{
-"sha": "82908a65",
-"at": "2026-11-22 02:07",
-"ts": 1795280847,
-"msg": "병합: cd-74 8dfd474e(CD-0074 1차 — 화면의 «전설» 글자 3곳 · 결정 0060)"
 }
 ],
 "dirtyCount": 51,
@@ -1609,10 +1581,10 @@
 ],
 "lastEdit": "2026-11-22 01:07",
 "lastEditTs": 1795277279.2551243,
-"lastCommitTs": 1795281259,
-"unpushed": 0,
-"notInMain": 0,
-"today": 126
+"lastCommitTs": 1795281842,
+"unpushed": 1,
+"notInMain": 1,
+"today": 129
 },
 {
 "branch": "cd-63",
@@ -1673,7 +1645,7 @@
 "lane": "cd-64",
 "session": "",
 "owns": "",
-"order": "CD-0063",
+"order": "CD-0064",
 "head": "4481766",
 "commits": [
 {
@@ -1873,9 +1845,15 @@
 "lane": "cd-73",
 "session": "",
 "owns": "",
-"order": "CD-0073",
-"head": "7ad2b5c",
+"order": "CD-0060",
+"head": "358587d",
 "commits": [
+{
+"sha": "358587d8",
+"at": "2026-11-22 02:21",
+"ts": 1795281713,
+"msg": "CD-0073 유니티 시험 2개 새 배치에 맞춤(들판 꾸밈 칸 21 · 큰길 토막 수는 배치에서 계산) · 마감 초안(EditMode 7/7 · PlayMode 16 통과 0 실패) · stage 마감"
+},
 {
 "sha": "7ad2b5cb",
 "at": "2026-11-22 02:12",
@@ -1905,27 +1883,13 @@
 "at": "2026-11-22 01:46",
 "ts": 1795279604,
 "msg": "병합: cd-61 a097d8de(CD-0061 후속 — 흰 장갑 Codex 6방향 · 방향별 손끝 피벗)"
-},
-{
-"sha": "a097d8de",
-"at": "2026-11-22 01:44",
-"ts": 1795279455,
-"msg": "CD-0061 후속 마감 기록: 90-close(흰 장갑 6방향 결과·검사·해 볼 것·관제 요약) · stage 마감"
 }
 ],
-"dirtyCount": 8,
+"dirtyCount": 5,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd51TilesBoardTests.cs",
-"at": "2026-11-22 02:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-22 02:20"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-22 02:20"
+"at": "2026-11-22 02:21"
 },
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
@@ -1942,18 +1906,14 @@
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
 "at": "2026-11-22 02:19"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 02:19"
 }
 ],
-"lastEdit": "2026-11-22 02:20",
-"lastEditTs": 1795281658.864277,
-"lastCommitTs": 1795281134,
-"unpushed": 4,
-"notInMain": 4,
-"today": 87
+"lastEdit": "2026-11-22 02:21",
+"lastEditTs": 1795281696.582093,
+"lastCommitTs": 1795281713,
+"unpushed": 0,
+"notInMain": 0,
+"today": 88
 },
 {
 "branch": "cd-74",
@@ -2125,7 +2085,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 383,
+"commits": 385,
 "byOrder": [
 [
 "CD-0041",
@@ -2173,7 +2133,7 @@
 ],
 [
 "CD-0062",
-13
+14
 ],
 [
 "CD-0052",
@@ -2201,18 +2161,22 @@
 ],
 [
 "CD-0042",
-7
+6
 ],
 [
 "CD-0043",
 6
 ],
 [
+"CD-0067",
+5
+],
+[
 "CD-0049",
 5
 ],
 [
-"CD-0067",
+"CD-0073",
 4
 ],
 [
@@ -2222,10 +2186,6 @@
 [
 "CD-0059",
 4
-],
-[
-"CD-0073",
-3
 ],
 [
 "CD-0056",
@@ -2274,6 +2234,21 @@
 ],
 "latest": [
 {
+"sha": "b22e7240",
+"at": "2026-11-22 02:24",
+"msg": "CD-0062: PlayMode 시험의 옛 꾸밈 id 기대값을 새 규칙으로(OutgameMetaFlow·OutgameMetaShot·OutgameRound3Flow) — Unity 밖 컴파일만, 실행 미확인"
+},
+{
+"sha": "02ab0b44",
+"at": "2026-11-22 02:23",
+"msg": "CD-0067 C2: 로비 채팅 띠(ChatBand·ChatHub.Recent·레일 채팅 키 제거·창 올라오기) + 시험·캡처 시험 — 컴파일 대기"
+},
+{
+"sha": "358587d8",
+"at": "2026-11-22 02:21",
+"msg": "CD-0073 유니티 시험 2개 새 배치에 맞춤(들판 꾸밈 칸 21 · 큰길 토막 수는 배치에서 계산) · 마감 초안(EditMode 7/7 · PlayMode 16 통과 0 실패) · stage 마감"
+},
+{
 "sha": "268cc466",
 "at": "2026-11-22 02:18",
 "msg": "관제 기록: CD-0062 stage → 마감(빌드 대기)"
@@ -2307,21 +2282,6 @@
 "sha": "76329054",
 "at": "2026-11-22 02:09",
 "msg": "CD-0073 Core: 사용자 맵툴 gate_03 1인 배치에 시험·기록 맞춤 — 비행 길 없음 시험(gate_04 로 이동·새 시험), 길 y350, 망루 발 칸 16, 도달·스냅샷 골든·기록 해시 다시 굽기(원인=맵만 확인), 밸런스 2개는 맵 때문(19/20) 기록만"
-},
-{
-"sha": "8dfd474e",
-"at": "2026-11-22 02:07",
-"msg": "CD-0074 1차: 화면의 «전설» 글자 3곳 고침(결정 0060) — 주간 미션·반복 업적·인게임 교체 거절 알림 · 문구 조사 메모 · stage 마감"
-},
-{
-"sha": "ea5e6917",
-"at": "2026-11-22 02:05",
-"msg": "CD-0067 P1: 결정 0085(로비 채팅 띠) · docs/10·13 로비 서술 · social.json lobby.chat* 4개 · validate_data(전설 차례) · 보고서"
-},
-{
-"sha": "eb6498c4",
-"at": "2026-11-22 02:05",
-"msg": "CD-0062 impl 게이트 통과 기록"
 }
 ]
 },
@@ -7956,13 +7916,14 @@
 "id": "CD-0067",
 "title": "로비 무대 영웅 자동 5명과 채팅 띠",
 "branch": "cd-67",
-"updated": "2026-11-22 02:12",
+"updated": "2026-11-22 02:23",
 "files": [
 "00-order.md",
 "10-spec.md",
 "15-design.md",
 "20-planning.md",
 "21-client.md",
+"22-client.md",
 "_qa"
 ],
 "milestone": "M6",
@@ -8001,8 +7962,8 @@
 "team": "client",
 "title": "채팅 띠: 새 UI/ChatBand.cs(면·표식·두 줄·꺾쇠·상태 6·1초 갱신·흐림) · ChatHub.Recent · LobbyScreen.Social.cs(채팅 키 제거·ChatButton=띠·레드닷·lobby.chat·EntranceOf·OpenChatWindow 탭 고르기) · RailBottom 2키 · ChatScreen.Open 올라오기 · 시험 고침 Cd42SocialPlayModeTests(키 배열·위치) · Cd60LobbyTests(왼쪽 레일 2키) · Cd67LobbyTests 띠 부분 · 새 Cd67LobbyShotTests · EditMode Cd67LobbyEditModeTests 에 Recent 시험(가짜 네트워크)",
 "output": "코드 · 시험 · 캡처 · 22-client.md",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "보고서 있음: 22-client.md"
 }
 ],
 "phase": "doing",
@@ -8104,8 +8065,8 @@
 {
 "id": "CD-0073",
 "title": "사용자 맵툴 배치(gate_03 1인) 반영 — 시험·규칙을 새 배치에 맞춤",
-"branch": "cd-73",
-"updated": "2026-11-22 02:12",
+"branch": "main",
+"updated": "2026-11-22 02:22",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -8114,18 +8075,18 @@
 "90-close.md"
 ],
 "milestone": "M2",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "core, planning",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -14661,8 +14622,8 @@
 }
 ]
 },
-"at": "2026-11-22 02:08",
-"branch": "cd-73",
+"at": "2026-11-22 02:22",
+"branch": "main",
 "dirty": false
 },
 "missions": {
@@ -20061,12 +20022,12 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 02:18",
-"commit": "268cc466+수정",
-"passed": 711,
-"failed": 0,
-"total": 712,
-"ok": true
+"at": "2026-11-22 02:22",
+"commit": "bee89e31+수정",
+"passed": 710,
+"failed": 2,
+"total": 713,
+"ok": false
 },
 "unity": {
 "name": "Unity EditMode",
@@ -20080,8 +20041,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 02:18",
-"commit": "268cc466+수정",
+"at": "2026-11-22 02:22",
+"commit": "bee89e31+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20089,8 +20050,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 02:18",
-"commit": "268cc466+수정",
+"at": "2026-11-22 02:22",
+"commit": "bee89e31+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20098,8 +20059,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 02:18",
-"commit": "268cc466+수정",
+"at": "2026-11-22 02:22",
+"commit": "bee89e31+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20107,8 +20068,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 02:18",
-"commit": "268cc466+수정",
+"at": "2026-11-22 02:22",
+"commit": "bee89e31+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20310,7 +20271,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 02:20",
-"generatedAt": "2026-11-22 02:20",
-"digest": "937024e0a0095257"
+"sourceAt": "2026-11-22 02:24",
+"generatedAt": "2026-11-22 02:26",
+"digest": "faf3f43c2f22fed7"
 }
