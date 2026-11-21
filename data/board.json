@@ -1391,7 +1391,7 @@
 "lane": "cd-53",
 "session": "",
 "owns": "",
-"order": "CD-0053",
+"order": "CD-0064",
 "head": "d1560eb",
 "commits": [
 {
@@ -1682,82 +1682,78 @@
 "session": "",
 "owns": "",
 "order": "CD-0073",
-"head": "6e2782b",
+"head": "8e65759",
 "commits": [
+{
+"sha": "8e657594",
+"at": "2026-11-22 04:11",
+"ts": 1795288264,
+"msg": "Merge remote-tracking branch 'origin/main' into cd-73"
+},
+{
+"sha": "13730490",
+"at": "2026-11-22 04:10",
+"ts": 1795288249,
+"msg": "CD-0073 빌드 QA 2차: 타일 굽기를 판 시작 프레임에서 뺌 · 손 소환 시험이 첫 판 안내에 멈추던 것 · 전설 시험 · 맵 시험 대기"
+},
+{
+"sha": "3255813e",
+"at": "2026-11-22 04:06",
+"ts": 1795288001,
+"msg": "CD-0073 빌드 QA: OutgameMapsFlowTests 컴파일 고침(using Game.Client.View)"
+},
+{
+"sha": "54c1ca1b",
+"at": "2026-11-22 03:55",
+"ts": 1795287321,
+"msg": "병합: cd-53 d1560eb8(빌드 QA — 랭킹·강화 창 시험 2개)"
+},
+{
+"sha": "d1560eb8",
+"at": "2026-11-22 03:55",
+"ts": 1795287304,
+"msg": "CD-0053 빌드 QA 수정 확인 — PlayMode 필터 2/2 통과 · 90-close 기록 · stage 마감"
+},
 {
 "sha": "6e2782b3",
 "at": "2026-11-22 03:52",
 "ts": 1795287139,
 "msg": "Merge remote-tracking branch 'origin/main' into cd-73"
-},
-{
-"sha": "f32fd254",
-"at": "2026-11-22 03:46",
-"ts": 1795286785,
-"msg": "병합: cd-64 aaeb9eb7(빌드 QA — 뽑기 시험 4개·티켓 칩·F칸 잘림·안내 멈춤)"
-},
-{
-"sha": "aaeb9eb7",
-"at": "2026-11-22 03:46",
-"ts": 1795286770,
-"msg": "CD-0064 빌드 QA 수정 기록 — PlayMode 4/4 · EditMode 56/56"
-},
-{
-"sha": "122b46a7",
-"at": "2026-11-22 03:40",
-"ts": 1795286448,
-"msg": "Merge branch 'main' into cd-64"
-},
-{
-"sha": "be6d6cd2",
-"at": "2026-11-22 03:40",
-"ts": 1795286447,
-"msg": "CD-0064 빌드 QA 수정: 뽑는 순간 티켓 칩 갱신 · F 칸 «1/1» 잘림 · 안내가 A상 등장 단계에서 멈추지 않게"
-},
-{
-"sha": "336856af",
-"at": "2026-11-22 03:37",
-"ts": 1795286274,
-"msg": "병합: cd-67 cba4d050(빌드 QA — 낡은 로비 시험 4개 고침)"
 }
 ],
-"dirtyCount": 7,
+"dirtyCount": 6,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestSceneb13f697a-74bd-4eb0-83fb-020b578a2564.unity.meta",
-"at": "2026-11-22 03:55"
+"file": "UnityProject/Assets/InitTestScene29ab6c73-5c2b-4c49-98b9-6e487634fd74.unity.meta",
+"at": "2026-11-22 04:11"
 },
 {
-"file": "UnityProject/Assets/InitTestSceneb13f697a-74bd-4eb0-83fb-020b578a2564.unity",
-"at": "2026-11-22 03:55"
-},
-{
-"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
-"at": "2026-11-22 03:54"
+"file": "UnityProject/Assets/InitTestScene29ab6c73-5c2b-4c49-98b9-6e487634fd74.unity",
+"at": "2026-11-22 04:11"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 03:54"
+"at": "2026-11-22 04:11"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-22 03:54"
+"at": "2026-11-22 04:11"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 03:54"
+"at": "2026-11-22 04:11"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/OutgameMapsFlowTests.cs",
-"at": "2026-11-22 03:54"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 04:06"
 }
 ],
-"lastEdit": "2026-11-22 03:55",
-"lastEditTs": 1795287301.4618118,
-"lastCommitTs": 1795287139,
-"unpushed": 3,
-"notInMain": 3,
-"today": 165
+"lastEdit": "2026-11-22 04:11",
+"lastEditTs": 1795288286.9362638,
+"lastCommitTs": 1795288264,
+"unpushed": 6,
+"notInMain": 6,
+"today": 172
 },
 {
 "branch": "rel-080",
@@ -1875,7 +1871,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 386,
+"commits": 387,
 "byOrder": [
 [
 "CD-0041",
@@ -1903,7 +1899,7 @@
 ],
 [
 "CD-0040",
-22
+21
 ],
 [
 "CD-0045",
@@ -1950,12 +1946,12 @@
 9
 ],
 [
-"CD-0061",
-7
+"CD-0073",
+8
 ],
 [
-"CD-0073",
-6
+"CD-0061",
+7
 ],
 [
 "CD-0043",
@@ -2024,6 +2020,16 @@
 ],
 "latest": [
 {
+"sha": "13730490",
+"at": "2026-11-22 04:10",
+"msg": "CD-0073 빌드 QA 2차: 타일 굽기를 판 시작 프레임에서 뺌 · 손 소환 시험이 첫 판 안내에 멈추던 것 · 전설 시험 · 맵 시험 대기"
+},
+{
+"sha": "3255813e",
+"at": "2026-11-22 04:06",
+"msg": "CD-0073 빌드 QA: OutgameMapsFlowTests 컴파일 고침(using Game.Client.View)"
+},
+{
 "sha": "d1560eb8",
 "at": "2026-11-22 03:55",
 "msg": "CD-0053 빌드 QA 수정 확인 — PlayMode 필터 2/2 통과 · 90-close 기록 · stage 마감"
@@ -2062,16 +2068,6 @@
 "sha": "ee0830ab",
 "at": "2026-11-22 03:27",
 "msg": "CD-0063 빌드 QA 수정: 전설 카드도 «+0» 을 보인다(정보창과 같게) — Cd34HeroScreenTests PlayMode 6/6"
-},
-{
-"sha": "6412bdf8",
-"at": "2026-11-22 03:24",
-"msg": "CD-0062 빌드 QA 고침: Cd15 업적 목록 시험 — 1회성 업적에 꾸밈 미리 보기 없음(결정 0086) — PlayMode 필터 1/1"
-},
-{
-"sha": "2cf9c6f0",
-"at": "2026-11-22 03:22",
-"msg": "CD-0073 빌드 QA 되돌림: stage 제작(PlayMode 실패 6개)"
 }
 ]
 },
@@ -7858,7 +7854,7 @@
 "id": "CD-0073",
 "title": "사용자 맵툴 배치(gate_03 1인) 반영 — 시험·규칙을 새 배치에 맞춤",
 "branch": "cd-73",
-"updated": "2026-11-22 03:27",
+"updated": "2026-11-22 04:10",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -20064,7 +20060,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 03:58",
-"generatedAt": "2026-11-22 03:58",
-"digest": "2d818a04460e3c8c"
+"sourceAt": "2026-11-22 04:11",
+"generatedAt": "2026-11-22 04:17",
+"digest": "8579ccf4ebf18e7a"
 }
