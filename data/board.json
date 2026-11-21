@@ -1304,9 +1304,27 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0054",
-"head": "67e5de8",
+"order": "CD-0063",
+"head": "9d2edd6",
 "commits": [
+{
+"sha": "9d2edd65",
+"at": "2026-11-22 01:27",
+"ts": 1795278447,
+"msg": "관제 기록: CD-0063 stage → 마감(빌드 대기)"
+},
+{
+"sha": "add7802a",
+"at": "2026-11-22 01:27",
+"ts": 1795278446,
+"msg": "병합: cd-63 4b9b324f(CD-0063 영웅 탭 A 밤 유리 · Codex UI 표식 15장 · §8-1 UI 고정 문구 · 결정 0087 TextStyle.SoftText)"
+},
+{
+"sha": "4b9b324f",
+"at": "2026-11-22 01:26",
+"ts": 1795278411,
+"msg": "CD-0063 마감 초안(빌드 대기): EditMode 필터 73/73 · 캡처 시험 1/1 · check 통과"
+},
 {
 "sha": "67e5de8d",
 "at": "2026-11-22 01:24",
@@ -1324,31 +1342,13 @@
 "at": "2026-11-22 01:19",
 "ts": 1795277941,
 "msg": "관제: CD-0061 stage 줄 바로잡음(«마감 대기» → «마감», 관제 정규식 실수) · CLAUDE.md «진행 방식» 6 — stage 는 표준 단어만(사이트가 신규로 보이던 원인)"
-},
-{
-"sha": "f36a2b32",
-"at": "2026-11-22 01:12",
-"ts": 1795277569,
-"msg": "관제 흐름: 디스크 정리 규칙 — main 에 들어간 worktree 는 관제가 지움(브랜치 남김) · 다시 고칠 땐 worktree add (사용자 지시 2026-11-22)"
-},
-{
-"sha": "d03b0874",
-"at": "2026-11-22 01:03",
-"ts": 1795277037,
-"msg": "병합: cd-71 6b27dc9c(CD-0071 codex.py budget 이 모든 worktree 기록 합산)"
-},
-{
-"sha": "6b27dc9c",
-"at": "2026-11-22 01:03",
-"ts": 1795277010,
-"msg": "CD-0071 codex budget·usage·막기 판단이 모든 worktree 기록을 합쳐 본다(같은 줄은 한 번) · 줄기별 새 호출 표 · 시험 1"
 }
 ],
 "dirtyCount": 8,
 "dirty": [
 {
 "file": "studio/checks.json",
-"at": "2026-11-22 01:00"
+"at": "2026-11-22 01:29"
 },
 {
 "file": "_qa/cd54-shots-v2/cd54_propfx_low.png",
@@ -1379,12 +1379,12 @@
 "at": "2026-11-19 08:23"
 }
 ],
-"lastEdit": "2026-11-22 01:00",
-"lastEditTs": 1795276846.0789354,
-"lastCommitTs": 1795278278,
+"lastEdit": "2026-11-22 01:29",
+"lastEditTs": 1795278590.227511,
+"lastCommitTs": 1795278447,
 "unpushed": 0,
 "notInMain": 0,
-"today": 24
+"today": 50
 },
 {
 "branch": "cd-60",
@@ -1431,15 +1431,43 @@
 "msg": "CD-0060: 레일 7키·하단 탭 5개 아이콘을 표식 이름표 길로(LobbyKit.SetGlyph/PaintGlyph) — 그림 없으면 채색 대체 · 시험 고침 1·새 4 (Unity 컴파일 대기)"
 }
 ],
-"dirtyCount": 1,
+"dirtyCount": 18,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-22 01:10"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-22 01:29"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 01:29"
+},
+{
+"file": "studio/orders/CD-0060-로비-화면-개편-안-A-성벽-무대-출전-패널-채팅-띠-/_qa/shots/cd60_herotab_bar.png",
+"at": "2026-11-22 01:29"
+},
+{
+"file": "studio/orders/CD-0060-로비-화면-개편-안-A-성벽-무대-출전-패널-채팅-띠-/_qa/shots/cd60_coop_toast.png",
+"at": "2026-11-22 01:29"
+},
+{
+"file": "studio/orders/CD-0060-로비-화면-개편-안-A-성벽-무대-출전-패널-채팅-띠-/_qa/shots/cd60_short.png",
+"at": "2026-11-22 01:29"
+},
+{
+"file": "studio/orders/CD-0060-로비-화면-개편-안-A-성벽-무대-출전-패널-채팅-띠-/_qa/shots/cd60_resume.png",
+"at": "2026-11-22 01:29"
+},
+{
+"file": "studio/orders/CD-0060-로비-화면-개편-안-A-성벽-무대-출전-패널-채팅-띠-/_qa/shots/cd60_map_window_locked.png",
+"at": "2026-11-22 01:29"
+},
+{
+"file": "studio/orders/CD-0060-로비-화면-개편-안-A-성벽-무대-출전-패널-채팅-띠-/_qa/shots/cd60_map_window.png",
+"at": "2026-11-22 01:29"
 }
 ],
-"lastEdit": "2026-11-22 01:10",
-"lastEditTs": 1795277430.3254535,
+"lastEdit": "2026-11-22 01:29",
+"lastEditTs": 1795278577.7823951,
 "lastCommitTs": 1795278055,
 "unpushed": 21,
 "notInMain": 21,
@@ -1450,87 +1478,54 @@
 "lane": "cd-61",
 "session": "",
 "owns": "",
-"order": "CD-0055",
-"head": "08bf355",
+"order": "CD-0061",
+"head": "06668a3",
 "commits": [
 {
-"sha": "08bf355e",
-"at": "2026-11-21 23:04",
-"ts": 1795269864,
-"msg": "CD-0061 반입: tutorial_hand .meta(유니티가 만든 것)·카탈로그 한 줄 · 90-close 초안(빌드 대기) — EditMode 필터 24/24"
+"sha": "06668a39",
+"at": "2026-11-22 01:28",
+"ts": 1795278521,
+"msg": "병합: main 67e5de8d 을 cd-61 로(CD-0061 후속 전) · 충돌 4곳 — 그림 목록·장부는 main 기준에 옛 tutorial_hand 빼고 6방향 더함, Codex 기록은 main 순서 + 새 6줄, stage 제작"
 },
 {
-"sha": "82e24b1d",
-"at": "2026-11-21 22:56",
-"ts": 1795269414,
-"msg": "CD-0061 튜토리얼 손가락: Codex 그림 ui/tutorial_hand(HUD 아이콘 세트 화풍) · 손끝 고정 정규화 · 등장·손목 꺾임 · 시험 2건"
+"sha": "4fbb4126",
+"at": "2026-11-22 01:25",
+"ts": 1795278341,
+"msg": "CD-0061 후속: 튜토리얼 손을 흰 장갑 6방향 Codex 그림으로(위·아래·대각 4) · 대상 위치로 방향 고르기 · 손끝 피벗 정규화 · 시험 3건 · stage 제작"
 },
 {
-"sha": "867a0cd1",
-"at": "2026-11-21 22:44",
-"ts": 1795268681,
-"msg": "병합: cd-52 ac07775d(CD-0052 운영툴 게임 쪽 — Remote Config 운영 우편·로비 공지 · 10자리 uid · 제재 안내 · Cloud Save·Remote Config 패키지) · 빌드 대기"
+"sha": "67e5de8d",
+"at": "2026-11-22 01:24",
+"ts": 1795278278,
+"msg": "병합: cd-72 d347c64e(CD-0072 pm.py stage 읽기 — 꼬리말 허용·모르는 단계 경고)"
 },
 {
-"sha": "ac07775d",
-"at": "2026-11-21 22:42",
-"ts": 1795268563,
-"msg": "CD-0052 90-close: 합친 뒤 EditMode Cd0052 24/24"
+"sha": "d347c64e",
+"at": "2026-11-22 01:24",
+"ts": 1795278261,
+"msg": "CD-0072 pm.py: stage 를 첫 단어로 읽음(«마감 대기» → 마감) · 모르는 말은 신규 대신 작업 중 + status 맨 아래 경고 · 시험 test_pm(사이트 수집기와 같은 규칙 비교 포함)"
 },
 {
-"sha": "8fcd2500",
-"at": "2026-11-21 22:41",
-"ts": 1795268491,
-"msg": "병합: cd-56 04b09b14(CD-0056 잠금 자물쇠 한 그림 통일 · 잠금 안내 위치) · 빌드 대기"
+"sha": "0ff194f7",
+"at": "2026-11-22 01:19",
+"ts": 1795277941,
+"msg": "관제: CD-0061 stage 줄 바로잡음(«마감 대기» → «마감», 관제 정규식 실수) · CLAUDE.md «진행 방식» 6 — stage 는 표준 단어만(사이트가 신규로 보이던 원인)"
 },
 {
-"sha": "04b09b14",
-"at": "2026-11-21 22:39",
-"ts": 1795268343,
-"msg": "CD-0056 기록: PlayMode 필터 재실행 통과 · 탭 자물쇠 새 위치 캡처"
+"sha": "f36a2b32",
+"at": "2026-11-22 01:12",
+"ts": 1795277569,
+"msg": "관제 흐름: 디스크 정리 규칙 — main 에 들어간 worktree 는 관제가 지움(브랜치 남김) · 다시 고칠 땐 worktree add (사용자 지시 2026-11-22)"
 }
 ],
-"dirtyCount": 37,
-"dirty": [
-{
-"file": "studio/orders/CD-0061-튜토리얼-손가락-아이콘-폴리싱/00-order.md",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/tutorial_hand_upright.png",
-"at": "2026-11-22 01:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/tutorial_hand_upleft.png",
-"at": "2026-11-22 01:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/tutorial_hand_downright.png",
-"at": "2026-11-22 01:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/tutorial_hand_up.png",
-"at": "2026-11-22 01:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/tutorial_hand_downleft.png",
-"at": "2026-11-22 01:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/tutorial_hand_down.png",
-"at": "2026-11-22 01:20"
-}
-],
-"lastEdit": "2026-11-22 01:23",
-"lastEditTs": 1795278218.7896318,
-"lastCommitTs": 1795269864,
-"unpushed": 0,
-"notInMain": 0,
-"today": 0
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795278521,
+"unpushed": 2,
+"notInMain": 2,
+"today": 26
 },
 {
 "branch": "cd-62",
@@ -1577,8 +1572,32 @@
 "msg": "CD-0062 그림 지시문: 테두리 동·은·금·플래티넘 · 환영 명패(gen.py) · 전설 +10 초상(series.py legend10) · 창 면 시험 1장 · 프로필 시안 · Codex 사용 기록"
 }
 ],
-"dirtyCount": 76,
+"dirtyCount": 82,
 "dirty": [
+{
+"file": "UnityProject/Assets/_Game/UI/SocialUi.cs",
+"at": "2026-11-22 01:25"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Match/ProfileBadge.cs",
+"at": "2026-11-22 01:25"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
+"at": "2026-11-22 01:25"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/CosmeticLook.cs",
+"at": "2026-11-22 01:25"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/LobbyWidgets.cs",
+"at": "2026-11-22 01:25"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Match/Skin.cs",
+"at": "2026-11-22 01:24"
+},
 {
 "file": "UnityProject/Assets/_Game/UI/Portraits.cs",
 "at": "2026-11-22 01:23"
@@ -1586,34 +1605,10 @@
 {
 "file": "UnityProject/Assets/_Game/Outgame/OutgameState.Meta.cs",
 "at": "2026-11-22 01:23"
-},
-{
-"file": "UnityProject/Assets/_Game/Save/PlayerData.cs",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "studio/orders/CD-0062-프로필-꾸밈-초상-테두리-명패-퀄리티업-프로필-창-디자/22-art.md",
-"at": "2026-11-22 01:16"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/mail.json",
-"at": "2026-11-22 01:15"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/cosmetics.json",
-"at": "2026-11-22 01:15"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/achievements.json",
-"at": "2026-11-22 01:15"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/assets.json",
-"at": "2026-11-22 01:15"
 }
 ],
-"lastEdit": "2026-11-22 01:23",
-"lastEditTs": 1795278225.0992181,
+"lastEdit": "2026-11-22 01:25",
+"lastEditTs": 1795278332.3084557,
 "lastCommitTs": 1795277677,
 "unpushed": 6,
 "notInMain": 6,
@@ -1625,8 +1620,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0063",
-"head": "8692822",
+"head": "4b9b324",
 "commits": [
+{
+"sha": "4b9b324f",
+"at": "2026-11-22 01:26",
+"ts": 1795278411,
+"msg": "CD-0063 마감 초안(빌드 대기): EditMode 필터 73/73 · 캡처 시험 1/1 · check 통과"
+},
 {
 "sha": "8692822d",
 "at": "2026-11-22 01:16",
@@ -1656,51 +1657,16 @@
 "at": "2026-11-22 01:05",
 "ts": 1795277138,
 "msg": "CD-0063 C3 후속: 정보창 그림 어두운 막 제거·전신 contain · «‹» 판 없이 글리프만 · 능력치 아이콘+이름 위/값 아래 · 전설 정보창 캡처 2장"
-},
-{
-"sha": "e3a3d825",
-"at": "2026-11-22 01:02",
-"ts": 1795276973,
-"msg": "CD-0063 반입: Codex UI 그림 15장 .meta(유니티가 만든 것) · 카탈로그 15줄(BuildCatalog)"
 }
 ],
-"dirtyCount": 7,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-22 01:24"
-},
-{
-"file": "studio/orders/CD-0063-영웅-탭-현대화-A-밤-유리-목록-등급-표식-정보창/90-close.md",
-"at": "2026-11-22 01:17"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-22 01:15"
-},
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-22 01:04"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 01:03"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-22 01:03"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 01:03"
-}
-],
-"lastEdit": "2026-11-22 01:24",
-"lastEditTs": 1795278254.3847501,
-"lastCommitTs": 1795277803,
-"unpushed": 23,
-"notInMain": 23,
-"today": 37
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795278411,
+"unpushed": 0,
+"notInMain": 0,
+"today": 38
 },
 {
 "branch": "cd-64",
@@ -1747,8 +1713,20 @@
 "msg": "CD-0064 클라이언트 2번 줄: 뽑기 연출(제비 뜯기 · A상 등장 · 10장 묶음 · 건너뛰기)"
 }
 ],
-"dirtyCount": 8,
+"dirtyCount": 11,
 "dirty": [
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd35ShopKujiTests.cs",
+"at": "2026-11-22 01:27"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd41ShotBTests.cs",
+"at": "2026-11-22 01:27"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
+"at": "2026-11-22 01:26"
+},
 {
 "file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji_top_fx.png",
 "at": "2026-11-22 01:23"
@@ -1768,22 +1746,10 @@
 {
 "file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji_result.png",
 "at": "2026-11-22 01:23"
-},
-{
-"file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji_1080x2400.png",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji.png",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-22 01:22"
 }
 ],
-"lastEdit": "2026-11-22 01:23",
-"lastEditTs": 1795278182.2153037,
+"lastEdit": "2026-11-22 01:27",
+"lastEditTs": 1795278451.5249338,
 "lastCommitTs": 1795278167,
 "unpushed": 17,
 "notInMain": 17,
@@ -1959,7 +1925,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 360,
+"commits": 361,
 "byOrder": [
 [
 "CD-0041",
@@ -1971,7 +1937,7 @@
 ],
 [
 "CD-0039",
-27
+25
 ],
 [
 "CD-0053",
@@ -1982,12 +1948,12 @@
 22
 ],
 [
-"CD-0060",
+"CD-0063",
 20
 ],
 [
-"CD-0063",
-18
+"CD-0060",
+20
 ],
 [
 "CD-0045",
@@ -2034,16 +2000,16 @@
 6
 ],
 [
+"CD-0061",
+5
+],
+[
 "CD-0062",
 5
 ],
 [
 "CD-0049",
 5
-],
-[
-"CD-0061",
-4
 ],
 [
 "CD-0058",
@@ -2092,6 +2058,21 @@
 ],
 "latest": [
 {
+"sha": "9d2edd65",
+"at": "2026-11-22 01:27",
+"msg": "관제 기록: CD-0063 stage → 마감(빌드 대기)"
+},
+{
+"sha": "4b9b324f",
+"at": "2026-11-22 01:26",
+"msg": "CD-0063 마감 초안(빌드 대기): EditMode 필터 73/73 · 캡처 시험 1/1 · check 통과"
+},
+{
+"sha": "4fbb4126",
+"at": "2026-11-22 01:25",
+"msg": "CD-0061 후속: 튜토리얼 손을 흰 장갑 6방향 Codex 그림으로(위·아래·대각 4) · 대상 위치로 방향 고르기 · 손끝 피벗 정규화 · 시험 3건 · stage 제작"
+},
+{
 "sha": "d347c64e",
 "at": "2026-11-22 01:24",
 "msg": "CD-0072 pm.py: stage 를 첫 단어로 읽음(«마감 대기» → 마감) · 모르는 말은 신규 대신 작업 중 + status 맨 아래 경고 · 시험 test_pm(사이트 수집기와 같은 규칙 비교 포함)"
@@ -2125,21 +2106,6 @@
 "sha": "1915732c",
 "at": "2026-11-22 01:14",
 "msg": "CD-0062 기획서: 시안 3 확정 절 · A2 표식 반입"
-},
-{
-"sha": "f36a2b32",
-"at": "2026-11-22 01:12",
-"msg": "관제 흐름: 디스크 정리 규칙 — main 에 들어간 worktree 는 관제가 지움(브랜치 남김) · 다시 고칠 땐 worktree add (사용자 지시 2026-11-22)"
-},
-{
-"sha": "779a1543",
-"at": "2026-11-22 01:11",
-"msg": "CD-0060 Unity 첫 확인: 컴파일 통과(시험 반복기 return 2곳 고침) · EditMode 필터 80/80 · .meta · 카탈로그에 표식 15장 · 실제 화면 캡처 v1"
-},
-{
-"sha": "b65fd6d3",
-"at": "2026-11-22 01:09",
-"msg": "CD-0063 사용자 수정: 카드 바닥색 = 등급 색(종족 색 없음) · 정보창 뒤 빛도 등급 색 · 카드 오른쪽 위 등급 표식 제거 + 시험"
 }
 ]
 },
@@ -7558,21 +7524,21 @@
 "id": "CD-0061",
 "title": "튜토리얼 손가락 아이콘 폴리싱",
 "branch": "cd-61",
-"updated": "2026-11-22 01:23",
+"updated": "2026-11-22 01:26",
 "files": [
 "00-order.md",
 "90-close.md",
 "후속-6방향-손끝.png"
 ],
 "milestone": "M1",
-"stage": "빌드 대기",
+"stage": "제작",
 "route": "direct",
 "risk": "low",
 "teams": "art",
 "opened": "2026-11-21",
 "closed": "",
-"stageRaw": "빌드 대기",
-"stageBad": true,
+"stageRaw": "제작",
+"stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
@@ -7646,8 +7612,8 @@
 {
 "id": "CD-0063",
 "title": "영웅 탭 현대화 — A 밤 유리: 목록·등급 표식·정보창",
-"branch": "cd-63",
-"updated": "2026-11-22 01:17",
+"branch": "main",
+"updated": "2026-11-22 01:27",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -7659,13 +7625,13 @@
 "_design"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "mid",
 "teams": "client,art",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>영웅 탭(<code>UI/CharacterScreen.cs</code>)의 목록·등급 표식·정보창을 사용자가 고른 시안 <strong>A «밤 유리»</strong> 로 바꾼다. 보는 기준은 <code>_design/mock.jpg</code>(왼쪽부터 목록 · 영웅 정보창 · 전설 정보창)와 <code>_design/mock.html</code>(수치·색의 원본, 폰 폭 320px = 설계 1080px 이므로 ×3.375). 규칙·수치·저장은 바꾸지 않는다 — 화면만.</p>\n<p>결정 0087(이 주문이 쓴다): ① 영웅 탭은 글자 규칙(결정 0057 «밝은 글자는 모두 누끼»)의 예외 — 테두리 없는 밝은 글자 + 짧은 그림자 ② 등급 색·표식 변경 ③ 결정 0012 «종족의 상징 없음» 을 «속성이 아니라 생김새·도구로 만든 구분 표식은 허용» 으로 갱신(종족 표식 6개).</p>",
 "goalShort": "영웅 탭(UI/CharacterScreen.cs)의 목록·등급 표식·정보창을 사용자가 고른 시안 A «밤 유리» 로 바꾼다.",
@@ -7676,8 +7642,8 @@
 "team": "client",
 "title": "목록: 위 1~9(바탕·섹션 머리·등급 색·표식·카드·전설 카드·순서·종족 고르기·종족 표식·재화 칩) + 13 글자. 관련 시험 고침",
 "output": "22a-client.md",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -7685,8 +7651,8 @@
 "team": "client",
 "title": "정보창: 위 10~12(영웅 정보창·능력치 칸·전설 정보창의 레벨 업 + 초월 한 화면) + 13 글자. 관련 시험 고침",
 "output": "22b-client.md",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "A1",
@@ -7695,7 +7661,7 @@
 "title": "Codex 그림(결정 0092): docs/03 §8-1 문구로 한 묶음(같은 세션 --resume) — 등급 표식 5(겹 꺾쇠 1~4줄 = 표식 4장, 꺾쇠 왕관 = 문양 1장) · 종족 표식 6(검·잎·망치·발바닥·방울·날개 = 표식) · 능력치 아이콘 3(검·겹 화살괄호·과녁 십자 = 표식) · 전설 카드 금빛 틀 1(틀·면, 가운데 투명) = 15장(재시도 포함 25회 안). 모양 기준은 _design/mock.html 의 markA·LEG[1]·RI·SI. 대조표로 검수 → art/final/ui/ · 목록 · 장부 · art/tools/check.py",
 "output": "23-art.md",
 "status": "done",
-"why": "보고서 있음: 23-art.md"
+"why": "주문 마감"
 },
 {
 "id": "C3",
@@ -7703,11 +7669,11 @@
 "team": "client",
 "title": "A1 그림을 주소(이름표)로 불러 코드 그림을 바꿔 끼운다(그림이 없으면 코드 그림이 임시로 나오게 유지 — L13). C2 를 한 에이전트에 이어 맡긴다",
 "output": "22b-client.md 에 덧붙임",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -7886,7 +7852,7 @@
 "no": 5,
 "title": "영웅 탭 UI 현대화 R&D · 시안 여러 개 → 골라서 폴리싱·적용",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0063"
@@ -8808,7 +8774,7 @@
 "date": "2026-11-22",
 "by": "사용자(시안 A·B·C 중 A 선택, 폴리싱 의견 다섯 차례 — 원문은 `studio/orders/CD-0063-…/00-order.md`) · 번호는 관제",
 "html": "<div class=tw><table><thead><tr><th>무엇</th><th>결정</th></tr></thead><tbody><tr><td>방향</td><td>영웅 탭은 어두운 남색 바탕 한 장에 그림이 카드를 가득 채우는 구성. 등급별 큰 색 판을 없앤다. 정보창은 가운데 작은 창이 아니라 탭 영역 전체.</td></tr><tr><td>등급 색</td><td>일반 회색 #9AA1AD · 고급 녹색 #5FC46E · 희귀 파랑 #5B9BFF · 영웅 보라 #A879F2 · 전설 노랑 #FFD04A. (옛: 4단계 = 금색, 전설 = 보라 + 금) 화면에 등급 글자를 쓰지 않는 규칙(결정 0049)은 그대로.</td></tr><tr><td>등급 표식</td><td>1~4단계 = «겹 꺾쇠» 1~4줄(등급 색). 전설 = «꺾쇠 왕관»(금빛 꺾쇠 두 줄 위에 왕관). 마름모 핍은 영웅 탭에서 쓰지 않는다. 코드로 그린다.</td></tr><tr><td>연출</td><td><strong>1~4단계는 좋아 보이게 꾸미지 않는다</strong> — 1px 색 테두리뿐, 빛·포일·움직임 없음(4단계 카드의 <code>CD/UiHolo</code> 를 끈다). <strong>전설부터</strong> 금빛 테두리·은은한 빛·빛 줄기·정보창 뒤 광선.</td></tr><tr><td>카드 글자</td><td>레벨은 «Lv.n» 글자만(알약·판 없음). 수량 «n/m» 글자는 카드에서 빼고 3px 선으로. 초월 «+n» 은 레벨 옆이 아니라 이름 오른쪽에 균열석 색 기울인 숫자.</td></tr><tr><td>종족 구분 표식</td><td><strong>결정 0012 «종족의 상징 없음» 을 갱신한다</strong>: 불·얼음·번개 같은 속성 상징과 원소색으로 종족을 가르는 것은 계속 금지. 종족의 <strong>생김새·도구로 만든 한 가지 색 구분 표식</strong>은 허용 — 인간 = 검 · 엘프 = 잎 · 드워프 = 망치 · 수인 = 발바닥 · 정령 = 방울 · 용족 = 날개. 쓰는 곳은 영웅 탭의 종족 고르기와 정보창의 종족 줄. 상성·속성 규칙은 여전히 없다.</td></tr><tr><td>능력치 아이콘</td><td>영웅 탭의 공격력·공격속도·사거리 아이콘은 한 가지 색 선 아이콘(코드 그림). 채색 그림 <code>ui/icon_stat_*</code> 은 인게임 카드에만 남는다.</td></tr><tr><td>전설 정보창</td><td>레벨 업과 초월을 한 화면에 나란히. 전설의 레벨은 그 종족 4단계 영웅의 레벨(Core 규칙 그대로)이므로, 전설 화면의 [레벨 업] 은 4단계 영웅을 레벨 업한다(재료 = 그 영웅의 중복 + 은화).</td></tr><tr><td>글자 규칙</td><td>결정 0057(밝은 글자는 모두 «누끼», 글꼴 한 벌 Black)을 <strong>아웃게임 화면 공통으로 갱신</strong>(사용자 답 2026-11-22 «아웃게임 공통»): 아웃게임의 밝은 글자는 테두리 없이 짧은 그림자만. 글꼴은 Black 한 벌 그대로(자산 추가 없음). CD-0063 은 공용 프리셋을 만들고 영웅 탭에 적용한다 — 로비·뽑기·업적·상점 등 다른 화면은 각 주문(CD-0060·0064·0065 등)이 관제 안내에 따라 옮긴다. 인게임 글자는 결정 0057 그대로.</td></tr></tbody></table></div>",
-"branch": "cd-63",
+"branch": "main",
 "dirty": false
 },
 {
@@ -16031,6 +15997,78 @@
 "hasFile": true
 },
 {
+"id": "map/props/prop_13",
+"group": "map",
+"title": "공용 꾸밈 소품(전쟁): 불타는 수레",
+"brief": "512x512 RGBA, 발 y504, 모든 맵 공용(CD-0054 · 그을음·불씨 자국만, 불꽃·연기는 화면 연출)",
+"status": "draft",
+"address": "map/props/prop_13",
+"hasFile": true
+},
+{
+"id": "map/props/prop_14",
+"group": "map",
+"title": "공용 꾸밈 소품(전쟁): 연기 나는 무너진 오두막",
+"brief": "512x512 RGBA, 발 y504, 모든 맵 공용(CD-0054 · 그을음·불씨 자국만, 불꽃·연기는 화면 연출)",
+"status": "draft",
+"address": "map/props/prop_14",
+"hasFile": true
+},
+{
+"id": "map/props/prop_15",
+"group": "map",
+"title": "공용 꾸밈 소품(전쟁): 부서진 목책",
+"brief": "512x512 RGBA, 발 y504, 모든 맵 공용(CD-0054 · 그을음·불씨 자국만, 불꽃·연기는 화면 연출)",
+"status": "draft",
+"address": "map/props/prop_15",
+"hasFile": true
+},
+{
+"id": "map/props/prop_16",
+"group": "map",
+"title": "공용 꾸밈 소품(전쟁): 포탄 구덩이",
+"brief": "512x512 RGBA, 발 y504, 모든 맵 공용(CD-0054 · 그을음·불씨 자국만, 불꽃·연기는 화면 연출)",
+"status": "draft",
+"address": "map/props/prop_16",
+"hasFile": true
+},
+{
+"id": "map/props/prop_17",
+"group": "map",
+"title": "공용 꾸밈 소품(전쟁): 부러진 창·방패 더미",
+"brief": "512x512 RGBA, 발 y504, 모든 맵 공용(CD-0054 · 그을음·불씨 자국만, 불꽃·연기는 화면 연출)",
+"status": "draft",
+"address": "map/props/prop_17",
+"hasFile": true
+},
+{
+"id": "map/props/prop_18",
+"group": "map",
+"title": "공용 꾸밈 소품(전쟁): 불탄 나무",
+"brief": "512x512 RGBA, 발 y504, 모든 맵 공용(CD-0054 · 그을음·불씨 자국만, 불꽃·연기는 화면 연출)",
+"status": "draft",
+"address": "map/props/prop_18",
+"hasFile": true
+},
+{
+"id": "map/props/prop_19",
+"group": "map",
+"title": "공용 꾸밈 소품(전쟁): 쓰러진 깃발",
+"brief": "512x512 RGBA, 발 y504, 모든 맵 공용(CD-0054 · 그을음·불씨 자국만, 불꽃·연기는 화면 연출)",
+"status": "draft",
+"address": "map/props/prop_19",
+"hasFile": true
+},
+{
+"id": "map/props/prop_20",
+"group": "map",
+"title": "공용 꾸밈 소품(전쟁): 부서진 투석기 잔해",
+"brief": "512x512 RGBA, 발 y504, 모든 맵 공용(CD-0054 · 그을음·불씨 자국만, 불꽃·연기는 화면 연출)",
+"status": "draft",
+"address": "map/props/prop_20",
+"hasFile": true
+},
+{
 "id": "sprite/miner/swing",
 "group": "miner",
 "title": "광부 swing",
@@ -16184,63 +16222,279 @@
 "hasFile": true
 },
 {
-"id": "ui/tutorial_hand_up",
+"id": "ui/tutorial_hand",
 "group": "ui",
-"title": "튜토리얼 손가락(흰 장갑, 위)",
+"title": "튜토리얼 손가락(가리키는 손)",
 "brief": "",
 "status": "draft",
-"address": "ui/tutorial_hand_up",
+"address": "ui/tutorial_hand",
 "hasFile": true
 },
 {
-"id": "ui/tutorial_hand_down",
-"group": "ui",
-"title": "튜토리얼 손가락(흰 장갑, 아래)",
-"brief": "",
+"id": "map/tiles/grass",
+"group": "map",
+"title": "맵 타일 풀 [g]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
 "status": "draft",
-"address": "ui/tutorial_hand_down",
+"address": "map/tiles/grass",
 "hasFile": true
 },
 {
-"id": "ui/tutorial_hand_upleft",
-"group": "ui",
-"title": "튜토리얼 손가락(흰 장갑, 왼쪽 위)",
-"brief": "",
+"id": "map/tiles/thick",
+"group": "map",
+"title": "맵 타일 짙은 풀 [k]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
 "status": "draft",
-"address": "ui/tutorial_hand_upleft",
+"address": "map/tiles/thick",
 "hasFile": true
 },
 {
-"id": "ui/tutorial_hand_upright",
-"group": "ui",
-"title": "튜토리얼 손가락(흰 장갑, 오른쪽 위)",
-"brief": "",
+"id": "map/tiles/flower",
+"group": "map",
+"title": "맵 타일 꽃밭 [f]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
 "status": "draft",
-"address": "ui/tutorial_hand_upright",
+"address": "map/tiles/flower",
 "hasFile": true
 },
 {
-"id": "ui/tutorial_hand_downleft",
-"group": "ui",
-"title": "튜토리얼 손가락(흰 장갑, 왼쪽 아래)",
-"brief": "",
+"id": "map/tiles/dry",
+"group": "map",
+"title": "맵 타일 마른 땅 [e]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
 "status": "draft",
-"address": "ui/tutorial_hand_downleft",
+"address": "map/tiles/dry",
 "hasFile": true
 },
 {
-"id": "ui/tutorial_hand_downright",
-"group": "ui",
-"title": "튜토리얼 손가락(흰 장갑, 오른쪽 아래)",
-"brief": "",
+"id": "map/tiles/sand",
+"group": "map",
+"title": "맵 타일 모래 [s]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
 "status": "draft",
-"address": "ui/tutorial_hand_downright",
+"address": "map/tiles/sand",
+"hasFile": true
+},
+{
+"id": "map/tiles/shore",
+"group": "map",
+"title": "맵 타일 물가(젖은 모래·물결·거품 그림) [b]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
+"status": "draft",
+"address": "map/tiles/shore",
+"hasFile": true
+},
+{
+"id": "map/tiles/water",
+"group": "map",
+"title": "맵 타일 얕은 물 [w]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
+"status": "draft",
+"address": "map/tiles/water",
+"hasFile": true
+},
+{
+"id": "map/tiles/dirt",
+"group": "map",
+"title": "맵 타일 흙길 [d]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
+"status": "draft",
+"address": "map/tiles/dirt",
+"hasFile": true
+},
+{
+"id": "map/tiles/stone",
+"group": "map",
+"title": "맵 타일 돌길(큰길) [r]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
+"status": "draft",
+"address": "map/tiles/stone",
+"hasFile": true
+},
+{
+"id": "map/tiles/scorch",
+"group": "map",
+"title": "맵 타일 그을린 땅(불탄 풀 · 둥근 잔불 알갱이) [c]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
+"status": "draft",
+"address": "map/tiles/scorch",
+"hasFile": true
+},
+{
+"id": "map/tiles/rubble",
+"group": "map",
+"title": "맵 타일 잔해 바닥(부서진 돌·나무 조각) [x]",
+"brief": "512x512 RGB, 사방 이음, 월드 좌표로 2x2 칸에 한 번 반복(CD-0051)",
+"status": "draft",
+"address": "map/tiles/rubble",
+"hasFile": true
+},
+{
+"id": "map/tiles/mask",
+"group": "map",
+"title": "맵 타일 경계 출렁임 마스크(공용, 흑백 잡음)",
+"brief": "256x256 RGB 흑백, 사방 이음. 흐린 칸 지도에 더해 경계를 구불구불하게(0.5+wob, 규칙은 CD-0051 21-art.md)",
+"status": "draft",
+"address": "map/tiles/mask",
+"hasFile": true
+},
+{
+"id": "ui/icon_notice",
+"group": "ui",
+"title": "타이틀 표식: 공지(확성기)",
+"brief": "CD-0059 폴리싱: docs/03 §8-1 공통+표식 문구, 흰 실루엣+투명(타이틀에서 금색으로 칠함)",
+"status": "draft",
+"address": "ui/icon_notice",
+"hasFile": true
+},
+{
+"id": "ui/icon_account_link",
+"group": "ui",
+"title": "타이틀 표식: 계정 연동(사람 + 고리)",
+"brief": "CD-0059 폴리싱: docs/03 §8-1 공통+표식 문구, 흰 실루엣+투명(타이틀에서 금색으로 칠함)",
+"status": "draft",
+"address": "ui/icon_account_link",
+"hasFile": true
+},
+{
+"id": "ui/mark_tier_1",
+"group": "ui",
+"title": "등급 표식: 겹 꺾쇠 1줄",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_tier_1",
+"hasFile": true
+},
+{
+"id": "ui/mark_tier_2",
+"group": "ui",
+"title": "등급 표식: 겹 꺾쇠 2줄",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_tier_2",
+"hasFile": true
+},
+{
+"id": "ui/mark_tier_3",
+"group": "ui",
+"title": "등급 표식: 겹 꺾쇠 3줄",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_tier_3",
+"hasFile": true
+},
+{
+"id": "ui/frame_card_legend",
+"group": "ui",
+"title": "전설 카드 금빛 틀(가운데 비움, 9-slice)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 배경 → 투명",
+"status": "draft",
+"address": "ui/frame_card_legend",
+"hasFile": true
+},
+{
+"id": "ui/mark_tier_4",
+"group": "ui",
+"title": "등급 표식: 겹 꺾쇠 4줄",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_tier_4",
+"hasFile": true
+},
+{
+"id": "ui/mark_tier_legend",
+"group": "ui",
+"title": "등급 문양: 전설(꺾쇠 두 줄 + 왕관, 금빛)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 배경 → 투명",
+"status": "draft",
+"address": "ui/mark_tier_legend",
+"hasFile": true
+},
+{
+"id": "ui/mark_race_human",
+"group": "ui",
+"title": "종족 표식: 인간(검)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_race_human",
+"hasFile": true
+},
+{
+"id": "ui/mark_race_elf",
+"group": "ui",
+"title": "종족 표식: 엘프(잎)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_race_elf",
+"hasFile": true
+},
+{
+"id": "ui/mark_race_dwarf",
+"group": "ui",
+"title": "종족 표식: 드워프(망치)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_race_dwarf",
+"hasFile": true
+},
+{
+"id": "ui/mark_race_beast",
+"group": "ui",
+"title": "종족 표식: 수인(발바닥)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_race_beast",
+"hasFile": true
+},
+{
+"id": "ui/mark_race_spirit",
+"group": "ui",
+"title": "종족 표식: 정령(물방울)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_race_spirit",
+"hasFile": true
+},
+{
+"id": "ui/mark_race_dragon",
+"group": "ui",
+"title": "종족 표식: 용족(날개)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_race_dragon",
+"hasFile": true
+},
+{
+"id": "ui/mark_stat_atk",
+"group": "ui",
+"title": "능력치 표식: 공격력(검, 선)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_stat_atk",
+"hasFile": true
+},
+{
+"id": "ui/mark_stat_spd",
+"group": "ui",
+"title": "능력치 표식: 공격속도(겹 화살괄호, 선)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_stat_spd",
+"hasFile": true
+},
+{
+"id": "ui/mark_stat_range",
+"group": "ui",
+"title": "능력치 표식: 사거리(과녁 십자, 선)",
+"brief": "CD-0063 A1: docs/03 §8-1 문구, 흰 실루엣+투명(색은 게임이 입힘)",
+"status": "draft",
+"address": "ui/mark_stat_range",
 "hasFile": true
 }
 ],
-"at": "2026-11-22 01:16",
-"branch": "cd-61",
-"dirty": true
+"at": "2026-11-22 01:27",
+"branch": "main",
+"dirty": false
 },
 "gallery": {
 "v": 1,
@@ -16930,6 +17184,46 @@
 "w": 512,
 "h": 512
 },
+"map/props/prop_13": {
+"f": "data/art/59eaeaad7bb034e673c6.bin",
+"w": 512,
+"h": 512
+},
+"map/props/prop_14": {
+"f": "data/art/9038e2e051268acd8c97.bin",
+"w": 512,
+"h": 512
+},
+"map/props/prop_15": {
+"f": "data/art/87e968c71a6acfe2bbc4.bin",
+"w": 512,
+"h": 512
+},
+"map/props/prop_16": {
+"f": "data/art/ea55166affb968144e69.bin",
+"w": 512,
+"h": 512
+},
+"map/props/prop_17": {
+"f": "data/art/37002fbb28100f8efe1a.bin",
+"w": 512,
+"h": 512
+},
+"map/props/prop_18": {
+"f": "data/art/1244f55809bfc8b2d938.bin",
+"w": 512,
+"h": 512
+},
+"map/props/prop_19": {
+"f": "data/art/6f4e9dcdcf8aace9a030.bin",
+"w": 512,
+"h": 512
+},
+"map/props/prop_20": {
+"f": "data/art/544b94bf0d12077c3496.bin",
+"w": 512,
+"h": 512
+},
 "sprite/miner/swing": {
 "f": "data/art/d7a1d2913c064863e7e2.bin",
 "w": 640,
@@ -17015,33 +17309,153 @@
 "w": 512,
 "h": 512
 },
-"ui/tutorial_hand_up": {
-"f": "data/art/1b9c3cd0811a38a2bc46.bin",
+"ui/tutorial_hand": {
+"f": "data/art/432c8b755ca8eecbbeae.bin",
 "w": 512,
 "h": 512
 },
-"ui/tutorial_hand_down": {
-"f": "data/art/dec4f7dfb06174e37aa5.bin",
+"map/tiles/grass": {
+"f": "data/art/1427441c32d4aec5f860.bin",
 "w": 512,
 "h": 512
 },
-"ui/tutorial_hand_upleft": {
-"f": "data/art/cb0275ea2c9f2534dd91.bin",
+"map/tiles/thick": {
+"f": "data/art/5fbb53c5f0c8b71daf4d.bin",
 "w": 512,
 "h": 512
 },
-"ui/tutorial_hand_upright": {
-"f": "data/art/78de7be2d64c552986b2.bin",
+"map/tiles/flower": {
+"f": "data/art/35031ea2ed6e08de1950.bin",
 "w": 512,
 "h": 512
 },
-"ui/tutorial_hand_downleft": {
-"f": "data/art/81072f12daca45dd2de8.bin",
+"map/tiles/dry": {
+"f": "data/art/6c7a94e7902b27d7a964.bin",
 "w": 512,
 "h": 512
 },
-"ui/tutorial_hand_downright": {
-"f": "data/art/cafffddfca5c6dd7dd27.bin",
+"map/tiles/sand": {
+"f": "data/art/1c1248f2578dca26cd6d.bin",
+"w": 512,
+"h": 512
+},
+"map/tiles/shore": {
+"f": "data/art/2ba27a3cc91e34d02c86.bin",
+"w": 512,
+"h": 512
+},
+"map/tiles/water": {
+"f": "data/art/8c4a45efdc6f2ba1cea9.bin",
+"w": 512,
+"h": 512
+},
+"map/tiles/dirt": {
+"f": "data/art/ad203a58d31cbb4bc4b0.bin",
+"w": 512,
+"h": 512
+},
+"map/tiles/stone": {
+"f": "data/art/59b1642b92eb09369944.bin",
+"w": 512,
+"h": 512
+},
+"map/tiles/scorch": {
+"f": "data/art/41080da48b9eb878614e.bin",
+"w": 512,
+"h": 512
+},
+"map/tiles/rubble": {
+"f": "data/art/621bdc62dd736d7b186b.bin",
+"w": 512,
+"h": 512
+},
+"map/tiles/mask": {
+"f": "data/art/c49ef939eb5fa7cd334b.bin",
+"w": 256,
+"h": 256
+},
+"ui/icon_notice": {
+"f": "data/art/4e1b974188dd786f6fa4.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_account_link": {
+"f": "data/art/c0a3c533229e42b990b4.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_tier_1": {
+"f": "data/art/ff8e668b33285ee2792b.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_tier_2": {
+"f": "data/art/d4fb6737cff01f5301e8.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_tier_3": {
+"f": "data/art/3c8081e79cc39cb0766d.bin",
+"w": 512,
+"h": 512
+},
+"ui/frame_card_legend": {
+"f": "data/art/6dd50b7d91bd42369757.bin",
+"w": 500,
+"h": 640
+},
+"ui/mark_tier_4": {
+"f": "data/art/213769084b96402ed1b9.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_tier_legend": {
+"f": "data/art/ae10495b2253800364fa.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_race_human": {
+"f": "data/art/1a4c5b7614db35b34181.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_race_elf": {
+"f": "data/art/e0903e14539fcdd24833.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_race_dwarf": {
+"f": "data/art/ba60748e313215766a40.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_race_beast": {
+"f": "data/art/b0c2effff65e6c748018.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_race_spirit": {
+"f": "data/art/bdd969cdc9827043692b.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_race_dragon": {
+"f": "data/art/5b210682898d03e90fb7.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_stat_atk": {
+"f": "data/art/92b530aca63c315ddaf8.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_stat_spd": {
+"f": "data/art/a511047592f6b421e3af.bin",
+"w": 512,
+"h": 512
+},
+"ui/mark_stat_range": {
+"f": "data/art/bb0b664b272d1d556223.bin",
 "w": 512,
 "h": 512
 }
@@ -17541,6 +17955,46 @@
 "state": "final"
 },
 {
+"address": "map/props/prop_13",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/props/prop_14",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/props/prop_15",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/props/prop_16",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/props/prop_17",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/props/prop_18",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/props/prop_19",
+"kind": "map",
+"state": "final"
+},
+{
+"address": "map/props/prop_20",
+"kind": "map",
+"state": "final"
+},
+{
 "address": "map/fort/deck",
 "kind": "map",
 "state": "final"
@@ -17736,32 +18190,82 @@
 "state": "final"
 },
 {
-"address": "ui/tutorial_hand_up",
+"address": "ui/tutorial_hand",
 "kind": "ui",
 "state": "final"
 },
 {
-"address": "ui/tutorial_hand_down",
+"address": "ui/mark_tier_1",
 "kind": "ui",
 "state": "final"
 },
 {
-"address": "ui/tutorial_hand_upleft",
+"address": "ui/mark_tier_2",
 "kind": "ui",
 "state": "final"
 },
 {
-"address": "ui/tutorial_hand_upright",
+"address": "ui/mark_tier_3",
 "kind": "ui",
 "state": "final"
 },
 {
-"address": "ui/tutorial_hand_downleft",
+"address": "ui/mark_tier_4",
 "kind": "ui",
 "state": "final"
 },
 {
-"address": "ui/tutorial_hand_downright",
+"address": "ui/mark_tier_legend",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/mark_race_human",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/mark_race_elf",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/mark_race_dwarf",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/mark_race_beast",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/mark_race_spirit",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/mark_race_dragon",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/mark_stat_atk",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/mark_stat_spd",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/mark_stat_range",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/frame_card_legend",
 "kind": "ui",
 "state": "final"
 },
@@ -18311,8 +18815,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-22 01:16",
-"branch": "cd-61"
+"at": "2026-11-22 01:27",
+"branch": "main"
 }
 },
 "devlog": [
@@ -18609,7 +19113,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 01:24",
-"generatedAt": "2026-11-22 01:24",
-"digest": "6932017e9917f1c4"
+"sourceAt": "2026-11-22 01:29",
+"generatedAt": "2026-11-22 01:30",
+"digest": "0d134c374612ec95"
 }
