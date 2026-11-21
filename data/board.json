@@ -1393,9 +1393,15 @@
 "lane": "cd-pm",
 "session": "",
 "owns": "",
-"order": "CD-0045",
-"head": "d841875",
+"order": "",
+"head": "9f79ec0",
 "commits": [
+{
+"sha": "9f79ec0b",
+"at": "2026-11-21 20:43",
+"ts": 1795261436,
+"msg": "PM 도구·절차: 접수 중요도(높음/보통/낮음) → 분석 깊이·세션 모델 배정 · inbox 중요도순 · link 댓글에 PM 이해 내용 · 스킬 §2 분석 절차 강화"
+},
 {
 "sha": "d841875d",
 "at": "2026-11-21 19:02",
@@ -1425,31 +1431,16 @@
 "at": "2026-11-21 17:50",
 "ts": 1795251031,
 "msg": "관제 마감 기록: CD-0045 병합(devlog 11-21 · milestones · checks.json ec863f5 기준)"
-},
-{
-"sha": "ec863f56",
-"at": "2026-11-21 17:47",
-"ts": 1795250846,
-"msg": "CD-0045 마감: PlayMode 2차(294/301 → 고친 뒤 11/11) · 30-qa 판정 PASS · 90-close(남은 일·관제에 넘길 요약) · gate qa·close → 완료"
 }
 ],
-"dirtyCount": 2,
-"dirty": [
-{
-"file": ".claude/skills/cd-pm/SKILL.md",
-"at": "2026-11-21 19:18"
-},
-{
-"file": "tools/pm.py",
-"at": "2026-11-21 19:17"
-}
-],
-"lastEdit": "2026-11-21 19:18",
-"lastEditTs": 1795256301.6332777,
-"lastCommitTs": 1795255369,
-"unpushed": 0,
-"notInMain": 0,
-"today": 138
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795261436,
+"unpushed": 1,
+"notInMain": 1,
+"today": 139
 },
 {
 "branch": "rel-080",
@@ -1516,66 +1507,66 @@
 "session": "",
 "owns": "",
 "order": "CD-0041",
-"head": "d7b8f1d",
+"head": "e407137",
 "commits": [
 {
-"sha": "d7b8f1dc",
-"at": "2026-11-21 19:44",
-"ts": 1795257845,
-"msg": "Merge origin/main(c36ddc1: CD-0049 공용 꾸밈 소품) into cd39"
+"sha": "e4071372",
+"at": "2026-11-21 20:38",
+"ts": 1795261094,
+"msg": "Merge origin/main(5d909e0: CD-0048 + K2) into cd39"
 },
 {
-"sha": "c36ddc1a",
-"at": "2026-11-21 19:43",
-"ts": 1795257828,
-"msg": "관제 마감 기록: CD-0049 병합(devlog · milestones · checks.json ad9a199 기준)"
+"sha": "e12a3c7f",
+"at": "2026-11-21 20:38",
+"ts": 1795261081,
+"msg": "CD-0041 마감: 90-close · 게이트 qa·close(QA 재검수 PASS 조건부)"
 },
 {
-"sha": "ca64a198",
-"at": "2026-11-21 19:42",
-"ts": 1795257774,
-"msg": "CD-0040 후속: 인트로 그림 두 장의 .meta 를 새 가져오기와 같은 값으로(Single·FullRect — 유니티가 다시 씀) · IntroSetup 이 그 칸을 고정"
+"sha": "1d0252ab",
+"at": "2026-11-21 20:37",
+"ts": 1795261034,
+"msg": "CD-0041 QA 재검수: 1차 FAIL 4건 해소 확인 · PASS(조건 3)"
 },
 {
-"sha": "deface7d",
-"at": "2026-11-21 19:40",
-"ts": 1795257657,
-"msg": "Merge origin/main(d52df0c: 0.8.0 배포 기록) into cd39"
+"sha": "9821861e",
+"at": "2026-11-21 20:29",
+"ts": 1795260569,
+"msg": "CD-0041: QA 수정 뒤 캡처 7장 · PlayMode 전체 결과(d7b8f1d, 실패 3 = 시험 쪽)"
 },
 {
-"sha": "ad9a199a",
-"at": "2026-11-21 19:40",
-"ts": 1795257642,
-"msg": "CD-0049 마감: 90-close · gate close"
+"sha": "d1ad4e53",
+"at": "2026-11-21 20:29",
+"ts": 1795260549,
+"msg": "CD-0041 22e: PlayMode 실패 3건 — 시험이 소리를 켜지 않았고 잠긴 전설 단언이 옛 모양이었다"
 },
 {
-"sha": "5cb68c34",
-"at": "2026-11-21 19:40",
-"ts": 1795257628,
-"msg": "CD-0041 22e 보고서 · 새 시험 파일 meta"
+"sha": "5d909e08",
+"at": "2026-11-21 19:56",
+"ts": 1795258573,
+"msg": "관제 마감 기록: CD-0048 + K2 병합(devlog · milestones · checks.json bedb80b 기준)"
 }
 ],
 "dirtyCount": 173,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene27bbe631-51c9-473b-b51e-e8afe2aaed54.unity.meta",
-"at": "2026-11-21 19:44"
+"file": "UnityProject/Assets/InitTestScene83524ec6-2fb1-4c0c-97b8-0ab3e1ff864c.unity.meta",
+"at": "2026-11-21 20:42"
 },
 {
-"file": "UnityProject/Assets/InitTestScene27bbe631-51c9-473b-b51e-e8afe2aaed54.unity",
-"at": "2026-11-21 19:44"
+"file": "UnityProject/Assets/InitTestScene83524ec6-2fb1-4c0c-97b8-0ab3e1ff864c.unity",
+"at": "2026-11-21 20:42"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-21 19:44"
+"at": "2026-11-21 20:42"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-21 19:44"
+"at": "2026-11-21 20:42"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-21 19:44"
+"at": "2026-11-21 20:42"
 },
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
@@ -1590,19 +1581,19 @@
 "at": "2026-11-21 10:43"
 }
 ],
-"lastEdit": "2026-11-21 19:44",
-"lastEditTs": 1795257895.300749,
-"lastCommitTs": 1795257845,
-"unpushed": 11,
-"notInMain": 11,
-"today": 206
+"lastEdit": "2026-11-21 20:42",
+"lastEditTs": 1795261329.7492516,
+"lastCommitTs": 1795261094,
+"unpushed": 16,
+"notInMain": 16,
+"today": 225
 },
 {
 "branch": "workbench",
 "lane": "workbench",
 "session": "",
 "owns": "",
-"order": "CD-0048",
+"order": "CD-0041",
 "head": "9eeb543",
 "commits": [
 {
@@ -1654,11 +1645,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 227,
+"commits": 232,
 "byOrder": [
 [
 "CD-0041",
-54
+58
 ],
 [
 "CD-0039",
@@ -1670,7 +1661,7 @@
 ],
 [
 "기타",
-17
+18
 ],
 [
 "CD-0045",
@@ -1711,6 +1702,31 @@
 ],
 "latest": [
 {
+"sha": "9f79ec0b",
+"at": "2026-11-21 20:43",
+"msg": "PM 도구·절차: 접수 중요도(높음/보통/낮음) → 분석 깊이·세션 모델 배정 · inbox 중요도순 · link 댓글에 PM 이해 내용 · 스킬 §2 분석 절차 강화"
+},
+{
+"sha": "e12a3c7f",
+"at": "2026-11-21 20:38",
+"msg": "CD-0041 마감: 90-close · 게이트 qa·close(QA 재검수 PASS 조건부)"
+},
+{
+"sha": "1d0252ab",
+"at": "2026-11-21 20:37",
+"msg": "CD-0041 QA 재검수: 1차 FAIL 4건 해소 확인 · PASS(조건 3)"
+},
+{
+"sha": "9821861e",
+"at": "2026-11-21 20:29",
+"msg": "CD-0041: QA 수정 뒤 캡처 7장 · PlayMode 전체 결과(d7b8f1d, 실패 3 = 시험 쪽)"
+},
+{
+"sha": "d1ad4e53",
+"at": "2026-11-21 20:29",
+"msg": "CD-0041 22e: PlayMode 실패 3건 — 시험이 소리를 켜지 않았고 잠긴 전설 단언이 옛 모양이었다"
+},
+{
 "sha": "5d909e08",
 "at": "2026-11-21 19:56",
 "msg": "관제 마감 기록: CD-0048 + K2 병합(devlog · milestones · checks.json bedb80b 기준)"
@@ -1734,31 +1750,6 @@
 "sha": "ebc4644f",
 "at": "2026-11-21 19:43",
 "msg": "CD-0048 K1 컴파일 고침(using Game.Client.UI) · 새 .cs·mapindex 사본 .meta(유니티 생성) — EditMode 365/365"
-},
-{
-"sha": "ca64a198",
-"at": "2026-11-21 19:42",
-"msg": "CD-0040 후속: 인트로 그림 두 장의 .meta 를 새 가져오기와 같은 값으로(Single·FullRect — 유니티가 다시 씀) · IntroSetup 이 그 칸을 고정"
-},
-{
-"sha": "9eeb5432",
-"at": "2026-11-21 19:42",
-"msg": "CD-0048 K2 작업실 맵툴: 인덱스 14칸·만들기 · 기획서 칸(plan) · 망루 배치 T(towers, R1) · 공용 소품·dy·size 30~240·영역 안 소품(R2) · 검사는 문제만 · 분석·맵 속성 접기"
-},
-{
-"sha": "ad9a199a",
-"at": "2026-11-21 19:40",
-"msg": "CD-0049 마감: 90-close · gate close"
-},
-{
-"sha": "5cb68c34",
-"at": "2026-11-21 19:40",
-"msg": "CD-0041 22e 보고서 · 새 시험 파일 meta"
-},
-{
-"sha": "3c6cbfcf",
-"at": "2026-11-21 19:40",
-"msg": "CD-0049 유니티 가져오기: map/props .meta 13 · 스프라이트 카탈로그·Addressables Art 12줄 · 크레딧 맵 그림 30 (ProjectSetup.Run) — EditMode 358/358"
 }
 ]
 },
@@ -5626,7 +5617,7 @@
 "id": "CD-0041",
 "title": "판 밖 화면·리소스 일관성·사운드 폴리싱: 로비 맵 미리보기·영웅 목록·탭·뽑기·결과·창 통일·균열 색·소리",
 "branch": "cd39",
-"updated": "2026-11-21 19:40",
+"updated": "2026-11-21 20:38",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -5638,16 +5629,17 @@
 "22e-client.md",
 "23-art.md",
 "30-qa.md",
+"90-close.md",
 "_qa",
 "_research"
 ],
 "milestone": "M6",
-"stage": "검수",
+"stage": "완료",
 "route": "full",
 "risk": "mid",
 "teams": "planning, art, client",
 "opened": "2026-11-20",
-"closed": "",
+"closed": "2026-11-21",
 "goal": "<p>실서비스와 같은 방법(스토어 스크린샷 픽셀 실측, 도구 <code>studio/orders/CD-0039-*/_research/measure.py</code>)으로 뒤처진 <strong>판 밖 화면 10항목</strong>의 색·읽힘·일관성을 숫자로 끌어올리고, 리소스 장부·상태를 화면과 맞추고, <strong>들리는 것</strong>(소리 현황 조사에서 나온 빠진 소리 8종, 음량 들쭉날쭉, BGM 끊김)을 고른다. 규칙·수치·메뉴 구성은 바꾸지 않는다. 비교작의 그림·배치는 가져오지 않고(L7) 수치만 목표로 쓴다.</p>\n<h4>소리 조사 핵심(상세 <code>_research/audio-audit.md</code>)</h4>\n<ul>\n<li>사건 약 40종 중 <strong>소리가 아예 없는 곳</strong>: 패치 버튼(<code>ui_confirm</code> 파일이 없는 깨진 호출 — 기본 탭 소리도 같이 사라짐) · 화면 전환 전부 · 로딩 인트로 «몬스터 쏟아짐»·«영웅 등장» · 보스 처치 · 광부 고용(재사용)·구매 완료(재사용). <strong>새 소리 8종</strong>: <code>ui_confirm</code>·<code>transition_whoosh</code>·<code>rift_crack</code>·<code>monster_pour</code>·<code>title_sting</code>·<code>buy_done</code>·<code>miner_hire</code>·<code>boss_down</code>.\n</li>\n<li><strong>음량</strong>: 모든 파일이 피크 정규화(−6/−3 dBFS)지만 RMS 는 −13.8~−31.9 dBFS 로 <strong>18 dB 벌어짐</strong>. 제안 띠(결정 0068)에서 벗어난 파일 <strong>25/61</strong>. BGM(실효 −26.7)이 용·요정 공격음(−34~−37)을 묻고 소환·합성(−14)은 BGM 보다 12 dB 큼, <code>ui_tap</code> 은 BGM 보다 7 dB 작음.\n</li>\n<li>반복 억제는 <strong>이미 충분</strong>(같은 id 50ms·전투 초당 7·목소리 12·피치 ±4%) — 이 주문은 그 상수를 안 바꾼다.\n</li>\n<li>BGM: 곡 2개(로비·전투)뿐, 패치·로딩에는 없음, 곡 바뀔 때·결과 화면에서 <strong>뚝 끊김</strong>.\n</li>\n<li><strong>검증 못 하는 것: 귀로 듣는 평가</strong>(음질·어울림). 수치와 코드 호출만 재고, 듣기는 대표 몫.\n</li></ul>",
 "goalShort": "실서비스와 같은 방법(스토어 스크린샷 픽셀 실측, 도구 studio/orders/CD-0039-/_research/measure.py)으로 뒤처진 판 밖 화면 10항목의 색·읽힘·일관성을 숫자로 끌어올리고, 리소스 장부·상태를 화면과 맞추고, 들리는 것(소리 현황 조사에서 나온 빠진 소",
 "tasks": [
@@ -5658,7 +5650,7 @@
 "title": "소리 조사 · 결정 0068 · 이 기획서. (이미 했다) · 목표선 충돌 요청이 오면 표를 고친다",
 "output": "10-spec.md, _research/audio-audit.md, docs/decisions/0068-…md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "P2",
@@ -5667,7 +5659,7 @@
 "title": "구현 뒤 docs/03 §10-1 의 «ScreenTransition 아직 붙인 화면 없음»·UIParticle «아직 안 쓴 쓸모» 칸을 사실대로 고침(CD-0041 이 쓴 곳 반영)",
 "output": "docs/03-리소스계획.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "R1",
@@ -5676,7 +5668,7 @@
 "title": "새 소리 8종 조달(CC0, _research/audio-audit.md §⑤ 의 후보 팩에서, 이미 쓴 팩부터) → 길이·피크 맞춤 → UnityProject/Assets/_Game/Resources/Audio/Sfx/<id>.wav(44.1kHz 모노 wav, 피크 −3~−1 dBFS) 반입 → Audio/LICENSES/SOURCES.txt·studio/assets-ledger.csv 줄. CD-0040 이 소리 박자(하늘 갈라짐·몬스터 쏟아짐·영웅 등장·타이틀)를 넘기면 이름·길이를 맞춘다",
 "output": "wav 8개, 장부·SOURCES, 23-art.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "R2",
@@ -5685,7 +5677,7 @@
 "title": "음량 맞춤: audio_levels.py 가 «띠 밖» 으로 표시한 기존 25개(+새 8개)를 파일 이득(gain)만 바꿔 띠 안으로. 원본은 art/source/audio-pre-cd41/ 에 보관, 장부에 «가공본» 줄(이득 dB). 파일 내용·길이·변형 _a/_b 짝의 상대 음량 유지. audio_levels.py 의 TABLE 에 새 id 줄만 더한다(BAND 는 기획이 고침). 이득만으로 안 맞는 것(예: hit 가 −18.7 vs hit_a −26.4 의 같은 묶음 차이)은 변형별 이득으로",
 "output": "고친 wav, art/source/audio-pre-cd41/, 장부, 보고서에 전·후 표(audio_levels.py 출력)",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "R3",
@@ -5694,7 +5686,7 @@
 "title": "Data/assets.json 상태 칸 정리: Art/Final 에 파일이 있는 주소(ui 19개: icon_silver·icon_gemstone·icon_stamina·icon_kuji_ticket·icon_mission·icon_crystal·icon_coin·tab_ 5개 등 — 조사 방법 아래)의 state 를 final 로. 한 줄 단위(합칠 때 CD-0038 과 줄이 겹치면 대표가 손으로). Resources/Data/assets.json 사본이 있으면 같은 줄만 같이",
 "output": "Data/assets.json(+사본), 장부",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "R4",
@@ -5703,7 +5695,7 @@
 "title": "옛 그림 «미사용» 표시: Art/Temp 의 Final 과 겹치는 43개를 장부 줄에 «미사용(Final 이 대신함, 되돌리려면 Final 삭제)» 로 적고(삭제하지 않음), 카탈로그·Addressables 에 안 들어가는지(= 빌드에 안 실리는지) 확인해 «들어감» 이면 빌드 제외 방법을 보고(결정 필요 시 «요청»)",
 "output": "장부, 23-art.md 확인 절",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "R5",
@@ -5712,7 +5704,7 @@
 "title": "Codex 그림은 기본 0장. 판 밖 틀·자물쇠·COMPLETE·쿠지 카드는 UI/CodeSkin(코드 제작). 로비 맵 미리보기는 실제 판 맵 그림을 줄여 그린다(Art 의 맵 소재 재사용 — 새 그림 없음). 예외: 맵 소재만으로 «진지·관문» 이 안 되면 최대 4장(소재 1장씩), 10장을 넘기게 되면 멈추고 대표에게 알린다(CHARTER §4)",
 "output": "23-art.md 에 «Codex n장»",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A",
@@ -5721,7 +5713,7 @@
 "title": "묶음 A: 탭·영웅 목록·창 통일·완료 표시 — 아래 «client 묶음»",
 "output": "코드, 22a-client.md, 캡처",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "B",
@@ -5730,7 +5722,7 @@
 "title": "묶음 B: 로비 맵 미리보기·결과 화면·쿠지",
 "output": "코드, 22b-client.md, 캡처",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C",
@@ -5739,7 +5731,7 @@
 "title": "묶음 C: 화면 전환(탭)·보상 연출·소리 연결·BGM 이음",
 "output": "코드, 22c-client.md, 캡처",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "Q1",
@@ -5747,11 +5739,11 @@
 "team": "qa",
 "title": "수용 기준 대조 + 재측정(같은 영역·같은 명령, 값을 그대로) + 눈 검수 목록 정리",
 "output": "30-qa.md",
-"status": "doing",
-"why": "주문이 검수 단계"
+"status": "done",
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -16753,8 +16745,8 @@
 "file": "2026-11-21.md",
 "title": "2026-11-21",
 "html": "<h3>재화 정리 세션 — CD-0034 · CD-0037 · CD-0038 마감 (11-18 ~ 11-21)</h3>\n<p>사용자가 «포트메이츠 재화 정리» 로 시작한 세션. 재화 목록을 뽑은 뒤 «판 안 = 인게임, 판 밖 = 아웃게임» 으로 부르기로 했고(기억), 재화 개편 세 주문을 끝냈다. 병합·푸시·버전·배포는 배포 관제 세션이 맡았다.</p>\n<h4>CD-0034 재화 개편(결정 0063)</h4>\n<ul>\n<li>인게임: 골드 + <strong>차원석</strong>(광산에서만 — 골드로 광부 고용, 초당 0.1, 웨이브 2부터). 처치 골드는 처치한 사람만. 차원석 = 전설 진화(45) · 영웅 교체(1·3·8·20, 6종족 중 1). 해금한 전설만 진화.\n</li>\n<li>아웃게임: 영웅 레벨 1~50(중복 + 은화) · 1~4단계 강화 없앰 · 연합의 결정 → <strong>균열석</strong> · 전설만 <strong>초월</strong> +10(확률 공개, 실패 = 재료만, 전설마다 특성) · 영웅 창(이름·일러스트만, Lv, 스탯 3칸 아이콘, 금 ▲, 빛 효과 없음).\n</li>\n<li>그림 9장(아이콘 7 · 광부 2포즈) 사용자 확정. 저장 v12(옛 저장 초기화).\n</li>\n<li>사용자 답: 협동 2인이 1인보다 어려워진 것(새 판 2인 정예 33.3% &lt; 1인 42.9%) = «그대로 두기».\n</li>\n<li>검사: Core 501/501 · EditMode 174/174 · PlayMode 173 통과 0 실패. gate qa 는 사용자 지시(«통과한걸로 하고 준비완료보내»)로 — 독립 QA 가 세션 끊김으로 코드 대조 전에 멈춤.\n</li></ul>\n<h4>CD-0037 인게임 영웅 정보 카드 = 영웅 창 표기</h4>\n<ul>\n<li>초당 피해·종족·단계·공격 종류 글자와 넷째 칸 삭제, 스탯 3칸(공격력 · 0.00/s · 사거리 정수) 같은 아이콘. 공격속도 글자는 Core 공용 함수. QA PASS.\n</li></ul>\n<h4>CD-0038 단계 강화 차원석 · 골드 규격 · 광부 상한 · 계정 레벨 200(결정 0065)</h4>\n<ul>\n<li>단계 강화를 차원석으로. 골드는 «줄이기» 가 아니라 <strong>규격</strong>(사용자 재정의): 처치 한 마리 2 · 웨이브 보너스 10+2w · 현상금 40·80·200·350·500·800 · 스테이지별 한 판 총량 표 · 웨이브당 표.\n</li>\n<li>광부 고용 5명 단위 +10/+20/+30(15명 합 2,200), 광부 상한 = 계정 레벨(Lv.1 5 · Lv.30 10 · Lv.120 15), 계정 레벨 최대 200, 레벨 보상 «한 번에 더 많이», 행동력 최대치 120.\n</li>\n<li>저장 v14: 0.7.0 테스터 레벨을 누적 경험치로 다시 계산(Lv.10 → Lv.6), 내려간 계정 알림.\n</li>\n<li>측정 21,000판: 골드 규격 오차 0, 2-10 봇 56%(띠 위 끝, 잡음 안 — 사용자 부재 권장안으로 그대로). 실제 Data 광산 봇 시험 추가.\n</li>\n<li>검사: Core 567/567 · EditMode 225/225 · PlayMode 203 통과 0 실패 · 독립 QA PASS.\n</li></ul>\n<h4>다른 세션과 맞춘 것</h4>\n<ul>\n<li>주문·결정 번호가 세션끼리 겹침(CD-0032·CD-0038·0060) → 관제 규칙: 새 번호는 관제에 요청(기억).\n</li>\n<li>CD-0036(튜토리얼)에 이음새 4곳(unlockStage · stageClearRift · HasCleared · Unlocks.IsOpen)과 차원석 45·협동 답을 넘김. CD-0039·0041(비주얼)과 시트·로비 화면 몫을 나눔.\n</li></ul>\n<h4>사람 플레이 · 남은 일</h4>\n<ul>\n<li><strong>세 주문 모두 사람 플레이·실기기 확인 안 함.</strong> 0.7.0 에는 CD-0034·0037 이 들어가 폰에 배포됨. CD-0038 은 main 7f50c40(원격 푸시 전, 관제 몫).\n</li>\n<li>남은 일: 최대 육성 시 판이 무너짐(98~100%) → 다음 맵 곡선, 맵 2 후반 골드 남음, cd39 병합 뒤 [구매] 키 터치 시험, 2-10 승률. 각 주문 <code>90-close.md</code>.\n</li></ul>\n<h3>CD-0043 맵 꾸밈 소품 칸별 직접 배치 (줄기 cd-decos · worktree .worktrees/cd28)</h3>\n<ul>\n<li>사용자 요청(«꾸밈 오브젝트를 골라 그리드별로 넣고 싶다»)을 «포트메이츠 작업 사이트» 세션이 넘김. 관제가 번호 CD-0043 · 조건(BoardView 는 partial · tools/workbench 는 그 세션 몫 · 비용 드는 일 금지).\n</li>\n<li>데이터: <code>Data/maps.json</code> 배치마다 선택 키 <code>decos</code> = [{art \"prop_N\", col, row, size 40~160(80), dx −45~45(0), flip}]. 키가 있으면([] 포함) 그것만, 없으면 해시 자동. 꾸밈 칸(영역 밖·땅 길에서 100 이상)에만, 한 칸 하나. 화면 전용 — 재생 해시 무관(Core 시험).\n</li>\n<li>기획: validate_data 검사 + 시험 14(24 통과) · gate_03 1인 시범 decos 12(자동 10 옮겨 적음 + 나무 prop_1 (2,1) · 울타리 prop_4 (6,0)).\n</li>\n<li>Core: <code>LayoutConfig.Decos</code>·<code>DecoPlacement</code> 읽기·Validate(정수 거리) · 시험 11 → 578/578.\n</li>\n<li>화면: <code>View/BoardView.Decos.cs</code>(BoardView.cs 는 훅 2곳) · PlayMode <code>Cd43DecosTests</code> 4 통과 · 캡처 <code>studio/orders/CD-0043-…/_shots/cd43_gate03_1p.png</code>(대표·QA 눈으로 대조).\n</li>\n<li><strong>옛 버그 고침</strong>: 자동 소품 가로 흔들림 <code>jx</code> 가 uint 넘침으로 음수 자리에서 약 42.9억 → 자동 소품 약 절반이 화면 밖에 있었다(맵툴 미리보기는 보여 줌). <code>(int)</code> 한 칸 — gate_04 1·2인에 전에 안 보이던 소품이 보이게 됨(대표 결정, 10-spec «대표 결정»).\n</li>\n<li>검사: <code>studio.py check --unity</code> 통과(Core 578/578 · 데이터 · 그림 · 설정 · EditMode 225/225) · QA PASS(PlayMode 12 통과 0 실패 1 건너뜀=캡처용).\n</li>\n<li>맵툴 «꾸밈 배치» 편집은 작업 사이트 세션이 workbench 49253de 로 커밋.\n</li>\n<li>안 한 것: 맵툴에서 놓고 [적용](헤드리스 claude 비용 — 관제 지시로 안 함, main 병합 뒤 사용자 몫) · PC/폰 빌드 · 사람 플레이 · flip 실제 모습 · gate_04 새로 보이는 소품 눈 확인.\n</li></ul>\n<h3>CD-0042 친구·채팅·랭킹 (결정 0069) — 마감, QA PASS · 줄기 cd42</h3>\n<ul>\n<li>사용자 요청 «친구랑 채팅 기능 만들기 시작 · 랭킹도(계정 레벨·싱글 진행도·영웅 레벨 합, 동점은 먼저 달성, 100위 + 하단 내 순위) · 세 창 모두 로비, 하단 탭 고정». 디자인은 비주얼/UI 평가 세션(15-design.md, 검수 2번), 시스템·구현은 이 주문.\n</li>\n<li>구조: 인터페이스 + SocialBackends 한 곳(Unity·가짜·오프라인), Unity.Services 는 Net/Social/Unity 안에서만 — Vivox·Safe Text 출시 전 대체 대비. 패키지 services core 1.19.0 · authentication 3.9.0 · friends 1.4.1 · vivox 16.13.0 · leaderboards 2.4.0 · moderation 1.1.0.\n</li>\n<li>로그인 실패·오프라인이어도 로딩·싱글 그대로. 저장 버전 13 그대로(online.json). 1-2 승리에 해금(사용자 «전부 추천안») → 1-2 결과 화면은 [로비로] 하나(결정 0064 규칙).\n</li>\n<li>검사: Core 511/511 · EditMode 277/277 · PlayMode 전체 205 통과·실패 0 · 수용 기준 30/30. QA 1차 FAIL(Cd36 시험 2개) → 시험 고쳐 PASS.\n</li>\n<li>안드로이드 빌드 OK, APK 86,017,211 바이트(0.7.0 대비 약 +18~21 MB) — 원인 측정은 사용자 판단 대기.\n</li>\n<li>사람 플레이·실서비스·두 기기: 아직 안 함(대시보드 U1~U8 이 사용자 몫).\n</li></ul>\n<h3>CD-0046 절차 개선 (결정 0073) — 직행·병합 묶음 마감</h3>\n<ul>\n<li>사용자 승인 «절차 개선 7가지 전부 반영» → 줄기 cd-46(직행 경로). 주문 경로 direct 추가 · 기획서 상한 15,000자 · <code>new-order --id</code>(번호는 관제가 줌) · 게이트 시:분과 걸린 시간 · checks.json <code>commit</code> · <code>tools/order_cost.py</code>(주문당 시간·호출 집계).\n</li>\n<li>마감 기록(devlog·milestones·checks.json·board·사이트)은 이제 관제가 병합 묶음마다 main 에서 한 번. 작업 줄기는 주문 폴더 안 기록과 «관제에 넘길 요약» 까지, checks.json 은 커밋하지 않음.\n</li>\n<li>검사: Core 578/578 · 데이터·그림·설정 통과 · 도구 시험 통과(유니티 안 돌림 — 문서·도구만). 진행 중 주문(CD-0039~0041·0044·0045)은 옛 절차로 끝내고, 새로 연 세션부터 적용.\n</li></ul>\n<h3>CD-0044 사용자 작업실 값 재적용 (결정 0071) — 줄기 cd44</h3>\n<ul>\n<li>사용자 «둘 다 살리기»(00:37 작업실 [적용] 값 + CD-0038 차원석 강화): 단계 강화 최대 20 · 회당 5% · 차원석 값 1+1n·2+1n·2+3n·3+5n, 웨이브 클리어 보너스 0(동전 소리·«+골드» 없음), 현상금 재사용 1200틱(60초), 처치 골드 2 그대로(사용자 «메우지마»), 웨이브 체력 배율 맵 1 ×0.48~0.66 · 맵 2 ×0.79(사용자 «웨이브 체력을 낮춰 맞춤»). 강화 시트 막대 20칸(10×2), [구매] 4개·줄 간격 127 그대로.\n</li>\n<li>밸런스: 사용자 지시 «밸런스는 맨 마지막에» — 구현 뒤 재측정 안 함, 승률 띠 시험 1개 Skip. 숫자는 기획 단계 사본 측정값(결정 0071 보충).\n</li>\n<li>검사: Core 584/585(1 건너뜀 = 밸런스 띠) · 데이터·그림·설정 오류 0 · EditMode 225/225 · PlayMode 252 중 204 통과·0 실패 · QA 재검수 PASS. 병합 때 tutorial.json _note 충돌(CD-0042 줄과 CD-0044 줄) — 양쪽 살림.\n</li>\n<li>확인 못 한 것: 사람 플레이·실기기, 강화 20회까지 가는 재생 해시 시험(밸런스 때 보강).\n</li></ul>\n<h3>CD-0039 인게임 비주얼 1순위 + CD-0040 로딩 인트로 (결정 0066·0067) — 줄기 cd39 8aa866d 까지</h3>\n<ul>\n<li>사용자 «실제 서비스 게임과 비교해 실측으로 비주얼 평가 → 1순위부터»: 인게임 색·가독성·타격 FX·겹침·터치 크기(판 안 활성 버튼 터치 ≥126px·이웃 교차 0, 공용 HitPad)·HUD 아이콘 7장 통일·하트 1개+숫자·차원석 «정수면 점 뗌». CD-0040: 로딩 인트로 재구성(원화·연합 층·등장 순서, «첫인상» — 반쯤 된 상태로 넣지 않으려 0039 와 묶어 병합).\n</li>\n<li>시험 공용 GfxPrefScope: 공유 PlayerPrefs cd.gfx(그래픽 품질)를 시험마다 고정·복원 — PlayMode 17파일. 0.7.0 때부터 원인 못 찾던 «낮음» 간헐 실패(ScreenTransitionTests·OutgameFlowTests)의 원인이 이 공유 설정이었다. 여러 worktree 가 PlayMode 를 동시에 돌리면 여전히 섞이므로 관제가 순번을 쥔다.\n</li>\n<li>검사: Core 578/578 · EditMode 305/305 · PlayMode 전체(881aae7) 캡처 끔 236·켬 288 통과, 실패 1(위 cd.gfx 원인 → 5377500 에서 고정, 관련 필터 59건 0 실패; 고친 뒤 전체 재실행은 순번 대기). 병합 뒤 main: Core 584/585 · 데이터·그림 125장·설정 오류 0.\n</li>\n<li>draft(사용자 확정 전): 인트로 원화 2차·연합 층, HUD 아이콘 7장, 친구·랭킹 아이콘 2장. 사람 플레이·실기기 안 함. 시작 직후 226·746ms 끊김은 GameApp.BuildScreens 에서 남 — CD-0041 에서 나눔. 마감(90-close·gate close)은 CD-0041 까지 끝난 최종 통합 때.\n</li></ul>\n<h3>CD-0045 튜토리얼·해금 표 개편 (결정 0072) — 줄기 cd45</h3>\n<ul>\n<li>사용자 기획표(studio/tutorial-plan/tutorial-plan.html) 반영: 해금 1-2(현상금)·1-4(미션·업적)·1-5(광산·차원석·교체·단계 강화)·1-6(뽑기, 티켓 10)·1-10(전설 진화 체험 — 웨이브 5 에 4단계 인간 + 차원석 45)·2-1(배속)·2-5(친구·채팅·랭킹, cd42 의 1-2 에서 옮김). 튜토리얼 퀘스트 띠 삭제, 1-1 판매 안내(그 판매는 10골드 전액 환급)·목숨 말풍선.\n</li>\n<li>닉네임: 처음엔 «FORT» + 6자리 난수 자동, 1-5 클리어 뒤 프로필에서 바꾸기 안내, 첫 변경 무료·이후 젬스톤 100·7일 쿨타임(account.json nickname). 저장 v15(profile.lastRenameAt·freeRenameUsed, tutorial.questsClaimed 삭제, player.v14.bak).\n</li>\n<li>다른 줄기에 영향: TopBand.cs LivesRect(+4) · ProfileBadge.cs 이름 한 줄 자동 줄임(+6).\n</li>\n<li>검사: Core 601/602(건너뜀 1 = 밸런스 띠) · EditMode 320/320 · PlayMode 294/301 → 고친 뒤 필터 11/11(전체 재실행은 안 함) · 데이터·설정 통과. 밸런스는 사용자 지시대로 맨 마지막.\n</li>\n<li>CD-0045 후속(Q12 사용자 답 «2-5 전엔 숨기기»): 판 안 채팅 버튼도 2-5 승리에 열림(동료가 있는 판에서만 보임) — Core Unlocks.Chat · tutorial.json chat open = clear gate_04_05 · SystemBar.ApplyChatShown. 검사: Core 601/602 · EditMode 320/320 · PlayMode 필터 10/10(Cd39TouchTests.A15 · Cd34InGameTests).\n</li></ul>\n<h3>앱 0.8.0 폰 배포 (CD-0038 · 0039 · 0040 · 0041 · 0042 · 0043 · 0044 · 0045 · 0046)</h3>\n<ul>\n<li>사용자 «빌드 묶어서 빨리 보고 싶다» → cd39(CD-0041) 준비 완료 즉시 묶음. 병합은 본 체크아웃이 다른 세션 미커밋 파일로 막혀 빌드 자리(.worktrees/cd27, 줄기 rel-080)에서 하고 origin/main 으로 올림(e66cf83 병합 · f074d1d).\n</li>\n<li>0.8.0 · versionCode 12(bd81f93, 태그 v0.8.0): ProjectSetup·AppUpdateCheck.BuiltInVersionCode·ProjectSettings·버전 시험 기대값. 기본 빌드 base_id c374f877, content state 커밋. APK 79.2 MB(고정 서명 키, dev = CD_TEST_STORE), Library 새로 가져오기 포함 약 8분.\n</li>\n<li>확인: <code>check --unity</code> Core 601/602(1 건너뜀 = 밸런스 띠) · EditMode 358/358 · 데이터·그림 125장·설정 오류 0. PlayMode 는 cd39 병합 뒤 전체(캡처 켬) 318 중 313 통과·실패 0·불확정 1(Cd16FieldTests.CaptureFreePlacementOnBothMaps — 캡처 전에 판이 끝남, 원인 미확인).\n</li>\n<li>CCD: 원격 카탈로그 catalog_0.8.0-c374f877(릴리스 30, 0.7.0 카탈로그 지움) · app_version.json versionCode 12(릴리스 31). 공개 주소에서 app_version 200·0.8.0 hash 200·0.7.0 hash 404 확인. 0.7.0 이하 앱은 켤 때 «새 버전» 창이 뜬다.\n</li>\n<li>Firebase App Distribution 0.8.0 (12) 릴리스 192n68ck9tdqo → 그룹 testers. 저장: v13→v14→v15 변환(지우지 않음, 계정 레벨 다시 계산 알림), 닉네임 FORT+6자리.\n</li>\n<li>알려진 것(배포 메모): 밸런스 미조정 · 시안 그림(인트로 원화·HUD 아이콘 7·친구/랭킹 아이콘) · 소리 사람 귀 확인 전 · 실기기 첫 확인 · CD-0041 독립 QA FAIL 3건(영웅 목록 초상 자름·잠금 배지 가림·결과 화면 빈 공간 — 다음 빌드). 빌드가 다시 가져오며 intro_ally_shadow/spirits .meta 의 spriteMode 2→1 로 바뀜(커밋 안 함, cd39 에 확인 요청).\n</li>\n<li>사람 플레이·실기기 안 함. 다음: cd39 QA 수정 · CD-0048·0049(맵툴) · 운영툴(CD-0047, 이 빌드 뒤 시작).\n</li></ul>\n<h3>CD-0049 공용 꾸밈 소품 12종 (직행 · art) — 줄기 cd-49</h3>\n<ul>\n<li>CD-0048(맵툴 자유도)의 짝: 맵툴 꾸밈 배치에 쓸 공용 소품 그림 12장(map/props/prop_1~12, Codex) + 유니티 .meta · assets.json 12줄 · 그림 검사(art/tools/check.py) map/props 규격 · 스프라이트 카탈로그·Addressables. 검사: Core 601/602 · 데이터·그림 137장·설정 오류 0 · EditMode 358/358. 맵툴 썸네일 확인은 CD-0048·K2 뒤.\n</li></ul>\n<h3>CD-0048 맵툴 자유도·인덱스·기획서 칸·망루 직접 배치 (결정 0075) — 줄기 cd-48 + 작업실 K2(workbench)</h3>\n<ul>\n<li>새 <code>Data/mapindex.json</code>(챕터 1~5 · 협동 Normal·Nightmare·Hell × 2·3·4인 = 14칸 + 기획서 plan 칸), <code>maps.json</code> 규칙 넓힘(layouts 의 towers 키 — 망루 직접 배치, decos 에 공용 소품 props/prop_N·dy·크기 30~240·영역 안 남는 칸), Core 읽기·검사(길 칸 판정은 validate cells_of 와 같은 PathCellSet — 큰길 위아래 두 줄 포함), BoardView 망루 직접 배치·공용 소품, <code>tools/gen_stages.py</code>(곡선 임시).\n</li>\n<li>작업실 맵툴(K2, «툴 관리» 세션): 인덱스 14칸(맵 이름 대신 요약) · 빈 칸 [만들기](maps.json + mapindex.json 한 묶음) · 기획서 칸 · 망루 도구 T · 공용 소품 썸네일 · 검사는 문제만·분석 접힘. 맵 규칙 JS(web/maprules.js)를 21-planning 시험 벡터로 묶음(test_workbench 66).\n</li>\n<li>검사: Core 620/621 · EditMode 365/365 · 데이터·그림 137장·설정 오류 0 · 작업실 시험·칸 설명 통과 · QA PASS. 남은 일: gate_04 그림 세트에 prop_3 없음(게임은 조용히 건너뜀) · 협동 플레이는 M4/M5.\n</li></ul>",
-"at": "2026-11-21 19:56",
-"branch": "main"
+"at": "2026-11-21 20:38",
+"branch": "cd39"
 },
 {
 "file": "2026-11-20.md",
@@ -17042,7 +17034,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-21 19:56",
-"generatedAt": "2026-11-21 20:17",
-"digest": "c7b337c3008137cf"
+"sourceAt": "2026-11-21 20:43",
+"generatedAt": "2026-11-21 20:47",
+"digest": "66dcfbf95fc4656f"
 }
