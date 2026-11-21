@@ -1304,9 +1304,33 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0067",
-"head": "336856a",
+"order": "CD-0062",
+"head": "f32fd25",
 "commits": [
+{
+"sha": "f32fd254",
+"at": "2026-11-22 03:46",
+"ts": 1795286785,
+"msg": "병합: cd-64 aaeb9eb7(빌드 QA — 뽑기 시험 4개·티켓 칩·F칸 잘림·안내 멈춤)"
+},
+{
+"sha": "aaeb9eb7",
+"at": "2026-11-22 03:46",
+"ts": 1795286770,
+"msg": "CD-0064 빌드 QA 수정 기록 — PlayMode 4/4 · EditMode 56/56"
+},
+{
+"sha": "122b46a7",
+"at": "2026-11-22 03:40",
+"ts": 1795286448,
+"msg": "Merge branch 'main' into cd-64"
+},
+{
+"sha": "be6d6cd2",
+"at": "2026-11-22 03:40",
+"ts": 1795286447,
+"msg": "CD-0064 빌드 QA 수정: 뽑는 순간 티켓 칩 갱신 · F 칸 «1/1» 잘림 · 안내가 A상 등장 단계에서 멈추지 않게"
+},
 {
 "sha": "336856af",
 "at": "2026-11-22 03:37",
@@ -1318,30 +1342,6 @@
 "at": "2026-11-22 03:37",
 "ts": 1795286259,
 "msg": "CD-0067 90-close: 빌드 QA 에서 돌아온 4개 — 넷 다 낡은 시험, PlayMode 네 묶음 19/19 통과"
-},
-{
-"sha": "850c9fe0",
-"at": "2026-11-22 03:35",
-"ts": 1795286111,
-"msg": "Merge branch 'main' into cd-67"
-},
-{
-"sha": "1f1ecda1",
-"at": "2026-11-22 03:35",
-"ts": 1795286111,
-"msg": "CD-0060·0067 빌드 QA 수정(확인 전): 낡은 시험 4개 — o1_stage 대상 stageBar · 무대 영웅이 서는 것이 의도 · 1-1 이 6웨이브라 이어 할 판 시험은 4웨이브에서 멈춤"
-},
-{
-"sha": "2d959dc8",
-"at": "2026-11-22 03:29",
-"ts": 1795285777,
-"msg": "병합: cd-63 ee0830ab(빌드 QA — 전설 카드 «+0» 정보창과 같게)"
-},
-{
-"sha": "ee0830ab",
-"at": "2026-11-22 03:27",
-"ts": 1795285654,
-"msg": "CD-0063 빌드 QA 수정: 전설 카드도 «+0» 을 보인다(정보창과 같게) — Cd34HeroScreenTests PlayMode 6/6"
 }
 ],
 "dirtyCount": 14,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 03:40",
 "lastEditTs": 1795286425.1247244,
-"lastCommitTs": 1795286274,
-"unpushed": 0,
+"lastCommitTs": 1795286785,
+"unpushed": 4,
 "notInMain": 0,
-"today": 158
+"today": 162
 },
 {
 "branch": "cd-53",
@@ -1631,8 +1631,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0064",
-"head": "122b46a",
+"head": "aaeb9eb",
 "commits": [
+{
+"sha": "aaeb9eb7",
+"at": "2026-11-22 03:46",
+"ts": 1795286770,
+"msg": "CD-0064 빌드 QA 수정 기록 — PlayMode 4/4 · EditMode 56/56"
+},
 {
 "sha": "122b46a7",
 "at": "2026-11-22 03:40",
@@ -1662,22 +1668,21 @@
 "at": "2026-11-22 03:35",
 "ts": 1795286111,
 "msg": "Merge branch 'main' into cd-67"
-},
-{
-"sha": "1f1ecda1",
-"at": "2026-11-22 03:35",
-"ts": 1795286111,
-"msg": "CD-0060·0067 빌드 QA 수정(확인 전): 낡은 시험 4개 — o1_stage 대상 stageBar · 무대 영웅이 서는 것이 의도 · 1-1 이 6웨이브라 이어 할 판 시험은 4웨이브에서 멈춤"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795286448,
-"unpushed": 2,
-"notInMain": 2,
-"today": 160
+"dirtyCount": 1,
+"dirty": [
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 03:43"
+}
+],
+"lastEdit": "2026-11-22 03:43",
+"lastEditTs": 1795286581.2611372,
+"lastCommitTs": 1795286770,
+"unpushed": 3,
+"notInMain": 0,
+"today": 161
 },
 {
 "branch": "cd-73",
@@ -1849,7 +1854,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 388,
+"commits": 387,
 "byOrder": [
 [
 "CD-0041",
@@ -1868,16 +1873,16 @@
 24
 ],
 [
+"CD-0064",
+23
+],
+[
 "CD-0063",
 23
 ],
 [
 "기타",
 23
-],
-[
-"CD-0064",
-22
 ],
 [
 "CD-0045",
@@ -1940,10 +1945,6 @@
 5
 ],
 [
-"CD-0042",
-5
-],
-[
 "CD-0058",
 4
 ],
@@ -1965,6 +1966,10 @@
 ],
 [
 "CD-0046",
+3
+],
+[
+"CD-0042",
 3
 ],
 [
@@ -1997,6 +2002,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "aaeb9eb7",
+"at": "2026-11-22 03:46",
+"msg": "CD-0064 빌드 QA 수정 기록 — PlayMode 4/4 · EditMode 56/56"
+},
 {
 "sha": "be6d6cd2",
 "at": "2026-11-22 03:40",
@@ -2041,11 +2051,6 @@
 "sha": "f05c51db",
 "at": "2026-11-22 03:11",
 "msg": "CD-0063 시험 수정: «영웅 탭만 SoftText» 단언 제거 — 결정 0087 은 아웃게임 공통(뽑기 CD-0064 가 옮겨서 낡음)"
-},
-{
-"sha": "06461eb7",
-"at": "2026-11-22 02:45",
-"msg": "관제 기록: CD-0067 stage → 마감(빌드 대기)"
 }
 ]
 },
@@ -7624,7 +7629,7 @@
 "id": "CD-0064",
 "title": "뽑기 쿠지 화면 폴리싱 경품판 배너 제비 뽑기 연출",
 "branch": "main",
-"updated": "2026-11-22 01:59",
+"updated": "2026-11-22 03:46",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -19789,27 +19794,27 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 03:37",
-"commit": "336856af+수정",
-"passed": 710,
-"failed": 2,
-"total": 713,
-"ok": false
+"at": "2026-11-21 21:28",
+"commit": "467adaeb+수정",
+"passed": 620,
+"failed": 0,
+"total": 621,
+"ok": true
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-22 02:51",
-"passed": 627,
-"failed": 2,
-"total": 629,
-"ok": false,
-"fresh": false,
-"commit": "06461eb7+수정"
+"at": "2026-11-21 21:48",
+"passed": 371,
+"failed": 0,
+"total": 371,
+"ok": true,
+"fresh": true,
+"commit": "467adaeb+수정"
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 03:37",
-"commit": "336856af+수정",
+"at": "2026-11-21 21:28",
+"commit": "467adaeb+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19817,8 +19822,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 03:37",
-"commit": "336856af+수정",
+"at": "2026-11-21 21:28",
+"commit": "467adaeb+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19826,17 +19831,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 03:37",
-"commit": "336856af+수정",
-"passed": 1,
-"failed": 0,
-"total": 1,
-"ok": true
-},
-"notices": {
-"name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 03:37",
-"commit": "336856af+수정",
+"at": "2026-11-21 21:28",
+"commit": "467adaeb+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20038,7 +20034,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 03:40",
-"generatedAt": "2026-11-22 03:40",
-"digest": "4b9e498824f4df1f"
+"sourceAt": "2026-11-22 03:46",
+"generatedAt": "2026-11-22 03:47",
+"digest": "83169ca4ba45cb8f"
 }
