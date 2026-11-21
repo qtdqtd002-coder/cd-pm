@@ -1304,9 +1304,33 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0064",
-"head": "a4d3077",
+"order": "CD-0062",
+"head": "268cc46",
 "commits": [
+{
+"sha": "268cc466",
+"at": "2026-11-22 02:18",
+"ts": 1795281480,
+"msg": "관제 기록: CD-0062 stage → 마감(빌드 대기)"
+},
+{
+"sha": "4c1b4921",
+"at": "2026-11-22 02:17",
+"ts": 1795281478,
+"msg": "병합: cd-62 f9e4886b(CD-0062 프로필 꾸밈 퀄리티업 · 프로필 창 개편 · Codex 그림 13장 · 결정 0086)"
+},
+{
+"sha": "f9e4886b",
+"at": "2026-11-22 02:14",
+"ts": 1795281259,
+"msg": "main 합침(CD-0068 보상 창 · CD-0074)"
+},
+{
+"sha": "3d6c1870",
+"at": "2026-11-22 02:14",
+"ts": 1795281248,
+"msg": "CD-0062: main 합친 뒤 카탈로그 다시(새 그림 13) · 90-close 갱신 — EditMode 필터 44/44"
+},
 {
 "sha": "a4d30776",
 "at": "2026-11-22 02:13",
@@ -1318,37 +1342,13 @@
 "at": "2026-11-22 02:13",
 "ts": 1795281198,
 "msg": "CD-0068 공통 보상 획득 창: RewardPopup.Show 한 줄 · 미션·업적·상점·보석 상점·우편 연결 · 많으면 보상 영역만 스크롤 · 마감 초안(빌드 대기)"
-},
-{
-"sha": "82908a65",
-"at": "2026-11-22 02:07",
-"ts": 1795280847,
-"msg": "병합: cd-74 8dfd474e(CD-0074 1차 — 화면의 «전설» 글자 3곳 · 결정 0060)"
-},
-{
-"sha": "8dfd474e",
-"at": "2026-11-22 02:07",
-"ts": 1795280832,
-"msg": "CD-0074 1차: 화면의 «전설» 글자 3곳 고침(결정 0060) — 주간 미션·반복 업적·인게임 교체 거절 알림 · 문구 조사 메모 · stage 마감"
-},
-{
-"sha": "5598093f",
-"at": "2026-11-22 01:59",
-"ts": 1795280358,
-"msg": "관제 기록: CD-0064 stage → 마감(빌드 대기)"
-},
-{
-"sha": "33e406d6",
-"at": "2026-11-22 01:59",
-"ts": 1795280358,
-"msg": "병합: cd-64 44817665(CD-0064 뽑기 경품판 · 뽑기 연출 · Codex 소품 그림 8장 · 결정 0088)"
 }
 ],
 "dirtyCount": 8,
 "dirty": [
 {
 "file": "studio/checks.json",
-"at": "2026-11-22 02:15"
+"at": "2026-11-22 02:20"
 },
 {
 "file": "_qa/cd54-shots-v2/cd54_propfx_low.png",
@@ -1379,12 +1379,12 @@
 "at": "2026-11-19 08:23"
 }
 ],
-"lastEdit": "2026-11-22 02:15",
-"lastEditTs": 1795281357.7941873,
-"lastCommitTs": 1795281209,
+"lastEdit": "2026-11-22 02:20",
+"lastEditTs": 1795281645.3914557,
+"lastCommitTs": 1795281480,
 "unpushed": 0,
 "notInMain": 0,
-"today": 110
+"today": 128
 },
 {
 "branch": "cd-67",
@@ -1431,23 +1431,43 @@
 "msg": "병합: cd-60 57652286(CD-0060 로비 안 A 뼈대 — 상단 줄·레일·출전 패널·[맵] 창·하단 탭 띠·표식 15장 · 결정 0091)"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 10,
 "dirty": [
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd67LobbyTests.cs",
+"at": "2026-11-22 02:20"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd67LobbyEditModeTests.cs",
+"at": "2026-11-22 02:19"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd42SocialPlayModeTests.cs",
+"at": "2026-11-22 02:18"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd60LobbyTests.cs",
+"at": "2026-11-22 02:18"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
+"at": "2026-11-22 02:18"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/LobbyScreen.Social.cs",
+"at": "2026-11-22 02:18"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/ChatBand.cs",
+"at": "2026-11-22 02:18"
+},
 {
 "file": "UnityProject/Assets/_Game/Net/Social/ChatRoom.cs",
 "at": "2026-11-22 02:14"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/ChatScreen.cs",
-"at": "2026-11-22 02:14"
-},
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-22 01:10"
 }
 ],
-"lastEdit": "2026-11-22 02:14",
-"lastEditTs": 1795281283.4386406,
+"lastEdit": "2026-11-22 02:20",
+"lastEditTs": 1795281651.9700837,
 "lastCommitTs": 1795281174,
 "unpushed": 4,
 "notInMain": 4,
@@ -1552,20 +1572,8 @@
 "msg": "병합: cd-74 8dfd474e(CD-0074 1차 — 화면의 «전설» 글자 3곳 · 결정 0060)"
 }
 ],
-"dirtyCount": 54,
+"dirtyCount": 51,
 "dirty": [
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 02:17"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-22 02:17"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 02:17"
-},
 {
 "file": "studio/orders/CD-0062-프로필-꾸밈-초상-테두리-명패-퀄리티업-프로필-창-디자/_design/img/stat_kills.png",
 "at": "2026-11-22 01:07"
@@ -1585,13 +1593,25 @@
 {
 "file": "studio/orders/CD-0062-프로필-꾸밈-초상-테두리-명패-퀄리티업-프로필-창-디자/_design/img/plate_welcome.png",
 "at": "2026-11-22 01:05"
+},
+{
+"file": "studio/orders/CD-0062-프로필-꾸밈-초상-테두리-명패-퀄리티업-프로필-창-디자/_design/img/frame_default.png",
+"at": "2026-11-22 01:05"
+},
+{
+"file": "studio/orders/CD-0062-프로필-꾸밈-초상-테두리-명패-퀄리티업-프로필-창-디자/_design/img/human_gerhard_t10.png",
+"at": "2026-11-22 00:36"
+},
+{
+"file": "studio/orders/CD-0062-프로필-꾸밈-초상-테두리-명패-퀄리티업-프로필-창-디자/_design/img/human_waldemar_t10.png",
+"at": "2026-11-22 00:36"
 }
 ],
-"lastEdit": "2026-11-22 02:17",
-"lastEditTs": 1795281447.7357295,
+"lastEdit": "2026-11-22 01:07",
+"lastEditTs": 1795277279.2551243,
 "lastCommitTs": 1795281259,
-"unpushed": 16,
-"notInMain": 16,
+"unpushed": 0,
+"notInMain": 0,
 "today": 126
 },
 {
@@ -1653,7 +1673,7 @@
 "lane": "cd-64",
 "session": "",
 "owns": "",
-"order": "CD-0064",
+"order": "CD-0063",
 "head": "4481766",
 "commits": [
 {
@@ -1893,10 +1913,43 @@
 "msg": "CD-0061 후속 마감 기록: 90-close(흰 장갑 6방향 결과·검사·해 볼 것·관제 요약) · stage 마감"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 8,
+"dirty": [
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd51TilesBoardTests.cs",
+"at": "2026-11-22 02:20"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-22 02:20"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 02:20"
+},
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 02:20"
+},
+{
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-22 02:19"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 02:19"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-22 02:19"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 02:19"
+}
+],
+"lastEdit": "2026-11-22 02:20",
+"lastEditTs": 1795281658.864277,
 "lastCommitTs": 1795281134,
 "unpushed": 4,
 "notInMain": 4,
@@ -7711,8 +7764,8 @@
 {
 "id": "CD-0062",
 "title": "프로필 꾸밈(초상·테두리·명패) 퀄리티업 + 프로필 창 디자인 개편",
-"branch": "cd-62",
-"updated": "2026-11-22 02:14",
+"branch": "main",
+"updated": "2026-11-22 02:17",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -7724,13 +7777,13 @@
 "_design"
 ],
 "milestone": "M3",
-"stage": "검수",
+"stage": "마감",
 "route": "full",
 "risk": "mid",
 "teams": "planning, core, client, art",
 "opened": "2026-11-21",
 "closed": "",
-"stageRaw": "검수",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>프로필의 꾸밈(초상·테두리·명패)을 «적지만 질 좋은» 기준 세트로 바꾸고, 해금 길을 영웅 레벨·전설·계정 레벨·우편으로 옮기고, 프로필 창을 시안(<code>_design/mockup2.png</code>) 구조로 다시 짠다.</p>",
 "goalShort": "프로필의 꾸밈(초상·테두리·명패)을 «적지만 질 좋은» 기준 세트로 바꾸고, 해금 길을 영웅 레벨·전설·계정 레벨·우편으로 옮기고, 프로필 창을 시안(_design/mockup2.png) 구조로 다시 짠다.",
@@ -7742,7 +7795,7 @@
 "title": "기획서(대표가 씀)",
 "output": "10-spec.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -7751,7 +7804,7 @@
 "title": "데이터·Core·검사·Core 시험·docs 12/13·결정 0086",
 "output": "21-core.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "A1",
@@ -7760,7 +7813,7 @@
 "title": "그림 7장 반입(draft)·목록·장부",
 "output": "22-art.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "U1",
@@ -7769,7 +7822,7 @@
 "title": "프로필 창·칩·배지·꾸밈 그리기·EditMode 시험",
 "output": "23-client.md",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 }
 ],
 "phase": "done",
@@ -20008,11 +20061,11 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
-"passed": 620,
+"at": "2026-11-22 02:18",
+"commit": "268cc466+수정",
+"passed": 711,
 "failed": 0,
-"total": 621,
+"total": 712,
 "ok": true
 },
 "unity": {
@@ -20022,13 +20075,13 @@
 "failed": 0,
 "total": 371,
 "ok": true,
-"fresh": true,
+"fresh": false,
 "commit": "467adaeb+수정"
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
+"at": "2026-11-22 02:18",
+"commit": "268cc466+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20036,8 +20089,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
+"at": "2026-11-22 02:18",
+"commit": "268cc466+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20045,8 +20098,17 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-21 21:28",
-"commit": "467adaeb+수정",
+"at": "2026-11-22 02:18",
+"commit": "268cc466+수정",
+"passed": 1,
+"failed": 0,
+"total": 1,
+"ok": true
+},
+"notices": {
+"name": "공지 파일 검사 (tools/notices_check.py)",
+"at": "2026-11-22 02:18",
+"commit": "268cc466+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20248,7 +20310,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 02:17",
-"generatedAt": "2026-11-22 02:17",
-"digest": "724b9b9555f93ed8"
+"sourceAt": "2026-11-22 02:20",
+"generatedAt": "2026-11-22 02:20",
+"digest": "937024e0a0095257"
 }
