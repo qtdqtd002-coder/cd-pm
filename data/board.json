@@ -1381,19 +1381,27 @@
 "msg": "CD-0034 · CD-0037 · CD-0038 마감: 90-close · gate close → 완료 · 마일스톤 M3-16~18 · 개발일지 2026-11-21 · 현황 사이트 다시 만들어 게시(버전 36)"
 }
 ],
-"dirtyCount": 9,
+"dirtyCount": 11,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestSceneb252cd37-1a57-4fa1-a2ad-3b8f585b060a.unity.meta",
-"at": "2026-11-21 11:46"
+"file": "UnityProject/Assets/InitTestScene887f3925-e452-41fe-99a9-0cecc4936133.unity.meta",
+"at": "2026-11-21 12:15"
 },
 {
-"file": "UnityProject/Assets/InitTestSceneb252cd37-1a57-4fa1-a2ad-3b8f585b060a.unity",
-"at": "2026-11-21 11:46"
+"file": "UnityProject/Assets/InitTestScene887f3925-e452-41fe-99a9-0cecc4936133.unity",
+"at": "2026-11-21 12:15"
+},
+{
+"file": "studio/orders/CD-0042-친구와-채팅-Unity-Friends-Vivox-텍스트/21-client.md",
+"at": "2026-11-21 12:14"
+},
+{
+"file": "studio/checks.json",
+"at": "2026-11-21 12:13"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 11:45"
+"at": "2026-11-21 12:13"
 },
 {
 "file": "UnityProject/Assets/Tests/PlayMode/Cd36FirstEntryTests.cs",
@@ -1406,18 +1414,10 @@
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-21 00:40"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-21 00:22"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-21 00:22"
 }
 ],
-"lastEdit": "2026-11-21 11:46",
-"lastEditTs": 1795229169.8409083,
+"lastEdit": "2026-11-21 12:15",
+"lastEditTs": 1795230927.8021438,
 "lastCommitTs": 1795225794,
 "unpushed": 13,
 "notInMain": 13,
@@ -1516,8 +1516,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0039",
-"head": "840ab9e",
+"head": "bfe0e6c",
 "commits": [
+{
+"sha": "bfe0e6c",
+"at": "2026-11-21 12:07",
+"ts": 1795230478,
+"msg": "CD-0039 7차 보고(22-client.md «## 7차») · 결과 xml · c10 캡처 · checks.json"
+},
+{
+"sha": "94fde25",
+"at": "2026-11-21 12:04",
+"ts": 1795230254,
+"msg": "CD-0039 7차: Cd34InGameShotTests 광부 8명 — 계정 레벨이 광부 상한(CD-0038)이라 레벨 16 으로"
+},
 {
 "sha": "840ab9e",
 "at": "2026-11-21 10:53",
@@ -1541,61 +1553,49 @@
 "at": "2026-11-21 10:49",
 "ts": 1795225745,
 "msg": "CD-0040 진행 기록: 2차 연출·연합 층 보완 결과 · 등장 순서 결정(구멍 없는 순서, 권장안)"
-},
-{
-"sha": "ad4385c",
-"at": "2026-11-21 10:48",
-"ts": 1795225711,
-"msg": "CD-0040 연합 층 보완: 무리별 투명 오림(깃발 6·대열·엘프·드워프·기사) 아틀라스 + 정령 빛·그림자 층 + 레이아웃 v3"
-},
-{
-"sha": "898dd6d",
-"at": "2026-11-21 10:48",
-"ts": 1795225710,
-"msg": "CD-0039 7차 수용 24: CaptureEffectMoments 불확정 원인 = 수인이 한 번도 안 쏨(크리티컬 0) → 수인만 세워 몬스터가 닿게 · Assume 메시지에 단계·상태 · measure_fxdiff 창을 화면 안으로 밀기"
 }
 ],
-"dirtyCount": 183,
+"dirtyCount": 184,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestSceneee83a05e-6073-4d56-a5f6-a80158cb3da5.unity.meta",
-"at": "2026-11-21 11:23"
+"file": "UnityProject/Assets/_Game/Editor/IntroSetup.cs",
+"at": "2026-11-21 12:17"
 },
 {
-"file": "UnityProject/Assets/InitTestSceneee83a05e-6073-4d56-a5f6-a80158cb3da5.unity",
-"at": "2026-11-21 11:23"
+"file": "UnityProject/Assets/_Game/UI/IntroPictures.cs",
+"at": "2026-11-21 12:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Shaders/Resources/CdFx/UiReveal.shader",
+"at": "2026-11-21 12:16"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/IntroAlly.cs",
+"at": "2026-11-21 12:15"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/IntroAllyLayout.cs",
+"at": "2026-11-21 12:14"
+},
+{
+"file": "studio/orders/CD-0040-로딩-인트로-재구성-한-장면처럼-이어지는-균열-침공-줌/_qa/gen_ally_layout.py",
+"at": "2026-11-21 12:14"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-21 11:23"
-},
-{
-"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_qa/results/playoff.xml",
-"at": "2026-11-21 11:18"
-},
-{
-"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_qa/results/edit.xml",
-"at": "2026-11-21 10:56"
-},
-{
-"file": "studio/orders/CD-0039-인게임-비주얼-1순위-색-가독성-타격-FX-겹침-터치-/_qa/results/dotnet.txt",
-"at": "2026-11-21 10:55"
+"at": "2026-11-21 12:07"
 },
 {
 "file": "UnityProject/Assets/_Game/Art/Final/key/intro_ally_shadow.png.meta",
 "at": "2026-11-21 10:47"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/key/intro_ally_spirits.png.meta",
-"at": "2026-11-21 10:47"
 }
 ],
-"lastEdit": "2026-11-21 11:23",
-"lastEditTs": 1795227811.471727,
-"lastCommitTs": 1795225990,
-"unpushed": 72,
-"notInMain": 72,
-"today": 56
+"lastEdit": "2026-11-21 12:17",
+"lastEditTs": 1795231023.3074574,
+"lastCommitTs": 1795230478,
+"unpushed": 74,
+"notInMain": 74,
+"today": 58
 },
 {
 "branch": "cd45",
@@ -1708,11 +1708,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 114,
+"commits": 116,
 "byOrder": [
 [
 "CD-0039",
-42
+44
 ],
 [
 "CD-0040",
@@ -1757,6 +1757,16 @@
 ],
 "latest": [
 {
+"sha": "bfe0e6c",
+"at": "2026-11-21 12:07",
+"msg": "CD-0039 7차 보고(22-client.md «## 7차») · 결과 xml · c10 캡처 · checks.json"
+},
+{
+"sha": "94fde25",
+"at": "2026-11-21 12:04",
+"msg": "CD-0039 7차: Cd34InGameShotTests 광부 8명 — 계정 레벨이 광부 상한(CD-0038)이라 레벨 16 으로"
+},
+{
 "sha": "ce080ea",
 "at": "2026-11-21 11:12",
 "msg": "CD-0045 기획: 튜토리얼·해금 표 개편 — 사용자 기획표 반영 · 결정 0072 초안 · gate spec"
@@ -1795,16 +1805,6 @@
 "sha": "ad4385c",
 "at": "2026-11-21 10:48",
 "msg": "CD-0040 연합 층 보완: 무리별 투명 오림(깃발 6·대열·엘프·드워프·기사) 아틀라스 + 정령 빛·그림자 층 + 레이아웃 v3"
-},
-{
-"sha": "898dd6d",
-"at": "2026-11-21 10:48",
-"msg": "CD-0039 7차 수용 24: CaptureEffectMoments 불확정 원인 = 수인이 한 번도 안 쏨(크리티컬 0) → 수인만 세워 몬스터가 닿게 · Assume 메시지에 단계·상태 · measure_fxdiff 창을 화면 안으로 밀기"
-},
-{
-"sha": "228e5a4",
-"at": "2026-11-21 10:41",
-"msg": "CD-0043 gate close → 완료"
 }
 ]
 },
@@ -5294,7 +5294,7 @@
 "id": "CD-0039",
 "title": "인게임 비주얼 1순위: 색·가독성·타격 FX·겹침·터치 크기·HUD 아이콘 통일",
 "branch": "cd39",
-"updated": "2026-11-21 10:50",
+"updated": "2026-11-21 12:07",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -5438,7 +5438,7 @@
 "id": "CD-0040",
 "title": "로딩 인트로 재구성: 한 장면처럼 이어지는 균열 침공 → 줌아웃 → 영웅 등장 → 타이틀",
 "branch": "cd39",
-"updated": "2026-11-21 10:49",
+"updated": "2026-11-21 12:14",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -5711,7 +5711,7 @@
 "id": "CD-0042",
 "title": "친구와 채팅 Unity Friends Vivox 텍스트 월드 귓속말 방 채널 신고 차단",
 "branch": "cd42",
-"updated": "2026-11-21 10:31",
+"updated": "2026-11-21 12:14",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -15814,7 +15814,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-21 09:46",
+"at": "2026-11-21 12:10",
 "passed": 567,
 "failed": 0,
 "total": 567,
@@ -15822,16 +15822,16 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-21 00:53",
-"passed": 225,
+"at": "2026-11-21 12:13",
+"passed": 284,
 "failed": 0,
-"total": 225,
+"total": 284,
 "ok": true,
-"fresh": false
+"fresh": true
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-21 09:46",
+"at": "2026-11-21 12:10",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -15839,7 +15839,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-21 09:46",
+"at": "2026-11-21 12:10",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -15847,7 +15847,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-21 09:46",
+"at": "2026-11-21 12:10",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -16059,7 +16059,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-21 11:46",
-"generatedAt": "2026-11-21 11:47",
-"digest": "563688fb29a72979"
+"sourceAt": "2026-11-21 12:17",
+"generatedAt": "2026-11-21 12:17",
+"digest": "3adac7f9606d0c16"
 }
