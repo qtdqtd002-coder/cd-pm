@@ -1304,9 +1304,27 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0060",
-"head": "faf0f5e",
+"order": "CD-0063",
+"head": "d306e86",
 "commits": [
+{
+"sha": "d306e86d",
+"at": "2026-11-22 01:46",
+"ts": 1795279604,
+"msg": "병합: cd-61 a097d8de(CD-0061 후속 — 흰 장갑 Codex 6방향 · 방향별 손끝 피벗)"
+},
+{
+"sha": "a097d8de",
+"at": "2026-11-22 01:44",
+"ts": 1795279455,
+"msg": "CD-0061 후속 마감 기록: 90-close(흰 장갑 6방향 결과·검사·해 볼 것·관제 요약) · stage 마감"
+},
+{
+"sha": "5ad58738",
+"at": "2026-11-22 01:43",
+"ts": 1795279410,
+"msg": "CD-0061 후속 반입: 6방향 장갑 .meta(유니티가 만든 것) · 카탈로그·Addressables 에서 옛 ui/tutorial_hand 빠지고 6줄 더함 — EditMode 필터 31/31"
+},
 {
 "sha": "faf0f5ea",
 "at": "2026-11-22 01:42",
@@ -1324,24 +1342,6 @@
 "at": "2026-11-22 01:40",
 "ts": 1795279249,
 "msg": "CD-0060 마감 초안(90-close): 결과·검증·비용·남은 일·해 볼 것·관제에 넘길 요약 · gate impl 통과 · 캡처 대조표"
-},
-{
-"sha": "1a5e1a14",
-"at": "2026-11-22 01:39",
-"ts": 1795279171,
-"msg": "CD-0060 _qa: 로비와 무관한 캡처 빼기(다른 시험이 같은 폴더에 찍은 것)"
-},
-{
-"sha": "fc2d97ad",
-"at": "2026-11-22 01:39",
-"ts": 1795279156,
-"msg": "CD-0060 Unity 확인 2차: 컴파일 · EditMode 필터 80/80 · PlayMode 로비 21/21 · 캡처 12장"
-},
-{
-"sha": "00c08de9",
-"at": "2026-11-22 01:35",
-"ts": 1795278924,
-"msg": "병합: cd-63 7f2ea3d0(CD-0063 Codex 표식 14장 사용자 확정 draft → ingame)"
 }
 ],
 "dirtyCount": 8,
@@ -1381,19 +1381,37 @@
 ],
 "lastEdit": "2026-11-22 01:44",
 "lastEditTs": 1795279465.1791809,
-"lastCommitTs": 1795279325,
-"unpushed": 0,
+"lastCommitTs": 1795279604,
+"unpushed": 5,
 "notInMain": 0,
-"today": 78
+"today": 83
 },
 {
-"branch": "cd-60",
-"lane": "cd-60",
+"branch": "cd-67",
+"lane": "cd-67",
 "session": "",
 "owns": "",
-"order": "CD-0060",
-"head": "5765228",
+"order": "CD-0067",
+"head": "10f6780",
 "commits": [
+{
+"sha": "10f6780f",
+"at": "2026-11-22 01:49",
+"ts": 1795279762,
+"msg": "CD-0067 접수·디자인: 로비 무대 영웅(자동 5명) · 채팅 띠 — 15-design"
+},
+{
+"sha": "faf0f5ea",
+"at": "2026-11-22 01:42",
+"ts": 1795279325,
+"msg": "관제 기록: CD-0060 stage → 마감(빌드 대기)"
+},
+{
+"sha": "c286e7fb",
+"at": "2026-11-22 01:42",
+"ts": 1795279325,
+"msg": "병합: cd-60 57652286(CD-0060 로비 안 A 뼈대 — 상단 줄·레일·출전 패널·[맵] 창·하단 탭 띠·표식 15장 · 결정 0091)"
+},
 {
 "sha": "57652286",
 "at": "2026-11-22 01:40",
@@ -1411,24 +1429,6 @@
 "at": "2026-11-22 01:39",
 "ts": 1795279156,
 "msg": "CD-0060 Unity 확인 2차: 컴파일 · EditMode 필터 80/80 · PlayMode 로비 21/21 · 캡처 12장"
-},
-{
-"sha": "d7f613e6",
-"at": "2026-11-22 01:20",
-"ts": 1795278055,
-"msg": "CD-0060 캡처 시험 Cd60LobbyShotTests: 로비 2종·맵 창 2종·이어 하기·행동력 부족·협동 알림·영웅 탭 (컴파일 대기)"
-},
-{
-"sha": "ca206e8d",
-"at": "2026-11-22 01:17",
-"ts": 1795277833,
-"msg": "CD-0060 캡처 1차 수정: 막 줄무늬(그라데이션 한 장) · 프로필 이름 · [출전] 글자 그림자 · 탭 금색 줄 제거 · 패널 위치 시험 (컴파일 대기)"
-},
-{
-"sha": "779a1543",
-"at": "2026-11-22 01:11",
-"ts": 1795277495,
-"msg": "CD-0060 Unity 첫 확인: 컴파일 통과(시험 반복기 return 2곳 고침) · EditMode 필터 80/80 · .meta · 카탈로그에 표식 15장 · 실제 화면 캡처 v1"
 }
 ],
 "dirtyCount": 1,
@@ -1440,10 +1440,10 @@
 ],
 "lastEdit": "2026-11-22 01:10",
 "lastEditTs": 1795277430.3254535,
-"lastCommitTs": 1795279249,
-"unpushed": 0,
-"notInMain": 0,
-"today": 38
+"lastCommitTs": 1795279762,
+"unpushed": 1,
+"notInMain": 1,
+"today": 79
 },
 {
 "branch": "cd-61",
@@ -1496,7 +1496,7 @@
 "lastEditTs": 0,
 "lastCommitTs": 1795279455,
 "unpushed": 4,
-"notInMain": 4,
+"notInMain": 0,
 "today": 28
 },
 {
@@ -1544,8 +1544,12 @@
 "msg": "관제 기록: CD-0063 stage → 마감(빌드 대기)"
 }
 ],
-"dirtyCount": 66,
+"dirtyCount": 67,
 "dirty": [
+{
+"file": "studio/orders/CD-0062-프로필-꾸밈-초상-테두리-명패-퀄리티업-프로필-창-디자/23-client.md",
+"at": "2026-11-22 01:46"
+},
 {
 "file": "UnityProject/Assets/Tests/EditMode/Cd62ProfileEditModeTests.cs",
 "at": "2026-11-22 01:44"
@@ -1573,14 +1577,10 @@
 {
 "file": "studio/art-manifest.json",
 "at": "2026-11-22 01:41"
-},
-{
-"file": "art/final/ui/_master/stat_copy.png",
-"at": "2026-11-22 01:41"
 }
 ],
-"lastEdit": "2026-11-22 01:44",
-"lastEditTs": 1795279472.018495,
+"lastEdit": "2026-11-22 01:46",
+"lastEditTs": 1795279567.3131785,
 "lastCommitTs": 1795279120,
 "unpushed": 9,
 "notInMain": 9,
@@ -1685,8 +1685,32 @@
 "msg": "CD-0063 마감 초안(빌드 대기): EditMode 필터 73/73 · 캡처 시험 1/1 · check 통과"
 }
 ],
-"dirtyCount": 8,
+"dirtyCount": 14,
 "dirty": [
+{
+"file": "UnityProject/Assets/InitTestScene9e9f50d2-f7d2-4f02-b59f-05855fc29e86.unity.meta",
+"at": "2026-11-22 01:49"
+},
+{
+"file": "UnityProject/Assets/InitTestScene9e9f50d2-f7d2-4f02-b59f-05855fc29e86.unity",
+"at": "2026-11-22 01:49"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-22 01:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 01:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-22 01:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 01:46"
+},
 {
 "file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji_top_fx.png",
 "at": "2026-11-22 01:23"
@@ -1694,34 +1718,10 @@
 {
 "file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji_top.png",
 "at": "2026-11-22 01:23"
-},
-{
-"file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji_ten.png",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji_result_fx.png",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji_result.png",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji_1080x2400.png",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "studio/orders/CD-0064-뽑기-쿠지-화면-폴리싱-경품판-배너-제비-뽑기-연출/_shots/1차/c41_kuji.png",
-"at": "2026-11-22 01:23"
-},
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-22 01:22"
 }
 ],
-"lastEdit": "2026-11-22 01:23",
-"lastEditTs": 1795278182.2153037,
+"lastEdit": "2026-11-22 01:49",
+"lastEditTs": 1795279772.6741292,
 "lastCommitTs": 1795278888,
 "unpushed": 20,
 "notInMain": 20,
@@ -1772,8 +1772,24 @@
 "msg": "관제: CD-0061 stage 줄 바로잡음(«마감 대기» → «마감», 관제 정규식 실수) · CLAUDE.md «진행 방식» 6 — stage 는 표준 단어만(사이트가 신규로 보이던 원인)"
 }
 ],
-"dirtyCount": 14,
+"dirtyCount": 15,
 "dirty": [
+{
+"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
+"at": "2026-11-22 01:46"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/ShopScreen.cs",
+"at": "2026-11-22 01:46"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/RewardPopup.cs",
+"at": "2026-11-22 01:45"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd68RewardPopupEditModeTests.cs",
+"at": "2026-11-22 01:45"
+},
 {
 "file": "UnityProject/Assets/Tests/PlayMode/OutgameMetaFlowTests.cs",
 "at": "2026-11-22 01:43"
@@ -1789,26 +1805,10 @@
 {
 "file": "UnityProject/Assets/Tests/PlayMode/OutgameRound2FlowTests.cs",
 "at": "2026-11-22 01:43"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd15OutgameScreensTests.cs",
-"at": "2026-11-22 01:43"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd35LobbyAchievementTests.cs",
-"at": "2026-11-22 01:43"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
-"at": "2026-11-22 01:42"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/DailyScreen.cs",
-"at": "2026-11-22 01:42"
 }
 ],
-"lastEdit": "2026-11-22 01:43",
-"lastEditTs": 1795279429.647693,
+"lastEdit": "2026-11-22 01:46",
+"lastEditTs": 1795279598.4953623,
 "lastCommitTs": 1795278447,
 "unpushed": 0,
 "notInMain": 0,
@@ -1984,7 +1984,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 372,
+"commits": 374,
 "byOrder": [
 [
 "CD-0041",
@@ -2051,15 +2051,15 @@
 9
 ],
 [
+"CD-0062",
+8
+],
+[
 "CD-0042",
 8
 ],
 [
 "CD-0061",
-7
-],
-[
-"CD-0062",
 7
 ],
 [
@@ -2099,6 +2099,10 @@
 2
 ],
 [
+"CD-0067",
+1
+],
+[
 "CD-0072",
 1
 ],
@@ -2116,6 +2120,16 @@
 ]
 ],
 "latest": [
+{
+"sha": "86adc5d8",
+"at": "2026-11-22 01:50",
+"msg": "CD-0062 U1 마무리: 연필·복사 표식(Codex 2장 반입) · +10 칸 금빛 살 · 잠긴 +10 어둡게 · 카드 배경 값싼 흐림 · 시험 9개 — Unity 실행 미확인"
+},
+{
+"sha": "10f6780f",
+"at": "2026-11-22 01:49",
+"msg": "CD-0067 접수·디자인: 로비 무대 영웅(자동 5명) · 채팅 띠 — 15-design"
+},
 {
 "sha": "a097d8de",
 "at": "2026-11-22 01:44",
@@ -2155,16 +2169,6 @@
 "sha": "aed8e278",
 "at": "2026-11-22 01:35",
 "msg": "CD-0062 U1·A2: 프로필 창 시안 3 구현(카드·탭·격자·미리보기·장착 시트) · 새 테두리·명패 그림 그리기 · 얼굴만 크롭 · 새 꾸밈 레드닷 · 기록 표식 4장 반입 — Unity 컴파일·시험 미확인"
-},
-{
-"sha": "7f2ea3d0",
-"at": "2026-11-22 01:35",
-"msg": "CD-0063: Codex UI 표식·아이콘 14장 사용자 확정(draft → ingame) — 전설 금 틀은 미사용 draft 유지"
-},
-{
-"sha": "62b6755d",
-"at": "2026-11-22 01:34",
-"msg": "CD-0064: 뽑기 화면 밝은 글자를 공용 프리셋 TextStyle.SoftText 로(cd-63 병합 뒤)"
 }
 ]
 },
@@ -7583,12 +7587,11 @@
 {
 "id": "CD-0061",
 "title": "튜토리얼 손가락 아이콘 폴리싱",
-"branch": "cd-61",
-"updated": "2026-11-22 01:44",
+"branch": "cd-67",
+"updated": "2026-11-22 01:46",
 "files": [
 "00-order.md",
-"90-close.md",
-"후속-6방향-손끝.png"
+"90-close.md"
 ],
 "milestone": "M1",
 "stage": "마감",
@@ -7609,7 +7612,7 @@
 "id": "CD-0062",
 "title": "프로필 꾸밈(초상·테두리·명패) 퀄리티업 + 프로필 창 디자인 개편",
 "branch": "cd-62",
-"updated": "2026-11-22 01:34",
+"updated": "2026-11-22 01:46",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -7791,6 +7794,31 @@
 }
 ],
 "phase": "doing",
+"builtIn": ""
+},
+{
+"id": "CD-0067",
+"title": "로비 무대 영웅 자동 5명과 채팅 띠",
+"branch": "cd-67",
+"updated": "2026-11-22 01:48",
+"files": [
+"00-order.md",
+"10-spec.md",
+"15-design.md"
+],
+"milestone": "M6",
+"stage": "접수",
+"route": "full",
+"risk": "mid",
+"teams": "planning, client",
+"opened": "2026-11-22",
+"closed": "",
+"stageRaw": "접수",
+"stageBad": false,
+"goal": "",
+"goalShort": "",
+"tasks": [],
+"phase": "new",
 "builtIn": ""
 },
 {
@@ -13490,11 +13518,11 @@
 ],
 [
 50,
-300
+350
 ],
 [
 750,
-300
+350
 ],
 [
 750,
@@ -13510,124 +13538,144 @@
 ]
 ]
 ],
-"flyPaths": [
-[
-[
-50,
-50
-],
-[
-50,
-850
-]
-]
-],
+"flyPaths": [],
 "tiles": [
-"dggggggk",
-"dfggggfk",
-"rrrrrrrr",
-"rrrrrrrr",
-"kgggfggd",
-"kggggfgd",
+"dgffffff",
+"dgffffff",
+"dggggggg",
 "dddddddd",
-"dgfggggk",
-"dggkgggk"
+"kggkfggd",
+"kggkgfgd",
+"dddddddd",
+"dgfgkggk",
+"dggkkggk"
 ],
 "decos": [
 {
-"art": "prop_2",
-"col": 2,
+"art": "prop_1",
+"col": 1,
 "row": 0,
-"size": 70,
-"dx": -15
+"fx": []
 },
 {
-"art": "prop_2",
+"art": "prop_1",
+"col": 1,
+"row": 1,
+"fx": []
+},
+{
+"art": "prop_1",
+"col": 1,
+"row": 2,
+"fx": []
+},
+{
+"art": "prop_1",
+"col": 2,
+"row": 2,
+"fx": []
+},
+{
+"art": "prop_1",
+"col": 3,
+"row": 2,
+"fx": []
+},
+{
+"art": "prop_1",
 "col": 4,
+"row": 2,
+"fx": []
+},
+{
+"art": "prop_1",
+"col": 5,
+"row": 2,
+"fx": []
+},
+{
+"art": "prop_1",
+"col": 6,
+"row": 2,
+"fx": []
+},
+{
+"art": "prop_1",
+"col": 7,
+"row": 2,
+"fx": []
+},
+{
+"art": "prop_3",
+"col": 2,
 "row": 0,
-"size": 70,
-"dx": 3
+"fx": []
+},
+{
+"art": "prop_3",
+"col": 2,
+"row": 1,
+"fx": []
+},
+{
+"art": "prop_3",
+"col": 3,
+"row": 1,
+"fx": []
+},
+{
+"art": "prop_3",
+"col": 3,
+"row": 0,
+"fx": []
 },
 {
 "art": "prop_3",
 "col": 5,
 "row": 0,
-"size": 92,
-"dx": -7
-},
-{
-"art": "prop_3",
-"col": 7,
-"row": 0,
-"size": 92,
-"dx": 11
-},
-{
-"art": "props/prop_14",
-"col": 1,
-"row": 1,
-"size": 110
-},
-{
-"art": "prop_2",
-"col": 3,
-"row": 1,
-"size": 70,
-"dx": -13
-},
-{
-"art": "prop_2",
-"col": 4,
-"row": 1,
-"size": 70,
-"dx": 7
+"fx": []
 },
 {
 "art": "prop_3",
 "col": 5,
 "row": 1,
-"size": 92,
-"dx": -11
+"fx": []
+},
+{
+"art": "prop_3",
+"col": 4,
+"row": 0,
+"fx": []
+},
+{
+"art": "prop_3",
+"col": 4,
+"row": 1,
+"fx": []
 },
 {
 "art": "prop_3",
 "col": 6,
 "row": 1,
-"size": 92,
-"dx": -3
+"fx": []
 },
 {
-"art": "props/prop_19",
-"col": 7,
-"row": 1,
-"size": 70
-},
-{
-"art": "props/prop_18",
-"col": 2,
-"row": 1,
-"size": 110
-},
-{
-"art": "prop_4",
+"art": "prop_3",
 "col": 6,
 "row": 0,
-"size": 90
+"fx": []
 },
 {
-"art": "props/prop_13",
-"col": 3,
+"art": "prop_3",
+"col": 7,
 "row": 0,
-"size": 90
+"fx": []
 },
 {
-"art": "props/prop_16",
-"col": 1,
-"row": 0,
-"size": 70,
-"fx": [
-"smoke"
-]
+"art": "prop_3",
+"col": 7,
+"row": 1,
+"fx": []
 }
 ]
 }
@@ -14349,9 +14397,9 @@
 }
 ]
 },
-"at": "2026-11-22 00:06",
+"at": "2026-11-22 01:49",
 "branch": "main",
-"dirty": false
+"dirty": true
 },
 "missions": {
 "data": {
@@ -16306,15 +16354,6 @@
 "hasFile": true
 },
 {
-"id": "ui/tutorial_hand",
-"group": "ui",
-"title": "튜토리얼 손가락(가리키는 손)",
-"brief": "",
-"status": "draft",
-"address": "ui/tutorial_hand",
-"hasFile": true
-},
-{
 "id": "map/tiles/grass",
 "group": "map",
 "title": "맵 타일 풀 [g]",
@@ -16709,9 +16748,63 @@
 "status": "ingame",
 "address": "ui/glyph_tab_shop",
 "hasFile": true
+},
+{
+"id": "ui/tutorial_hand_up",
+"group": "ui",
+"title": "튜토리얼 손가락(흰 장갑, 위)",
+"brief": "",
+"status": "draft",
+"address": "ui/tutorial_hand_up",
+"hasFile": true
+},
+{
+"id": "ui/tutorial_hand_down",
+"group": "ui",
+"title": "튜토리얼 손가락(흰 장갑, 아래)",
+"brief": "",
+"status": "draft",
+"address": "ui/tutorial_hand_down",
+"hasFile": true
+},
+{
+"id": "ui/tutorial_hand_upleft",
+"group": "ui",
+"title": "튜토리얼 손가락(흰 장갑, 왼쪽 위)",
+"brief": "",
+"status": "draft",
+"address": "ui/tutorial_hand_upleft",
+"hasFile": true
+},
+{
+"id": "ui/tutorial_hand_upright",
+"group": "ui",
+"title": "튜토리얼 손가락(흰 장갑, 오른쪽 위)",
+"brief": "",
+"status": "draft",
+"address": "ui/tutorial_hand_upright",
+"hasFile": true
+},
+{
+"id": "ui/tutorial_hand_downleft",
+"group": "ui",
+"title": "튜토리얼 손가락(흰 장갑, 왼쪽 아래)",
+"brief": "",
+"status": "draft",
+"address": "ui/tutorial_hand_downleft",
+"hasFile": true
+},
+{
+"id": "ui/tutorial_hand_downright",
+"group": "ui",
+"title": "튜토리얼 손가락(흰 장갑, 오른쪽 아래)",
+"brief": "",
+"status": "draft",
+"address": "ui/tutorial_hand_downright",
+"hasFile": true
 }
 ],
-"at": "2026-11-22 01:41",
+"at": "2026-11-22 01:46",
 "branch": "main",
 "dirty": false
 },
@@ -17528,11 +17621,6 @@
 "w": 512,
 "h": 512
 },
-"ui/tutorial_hand": {
-"f": "data/art/432c8b755ca8eecbbeae.bin",
-"w": 512,
-"h": 512
-},
 "map/tiles/grass": {
 "f": "data/art/1427441c32d4aec5f860.bin",
 "w": 512,
@@ -17750,6 +17838,36 @@
 },
 "ui/glyph_tab_shop": {
 "f": "data/art/a3c855ce91fc732adb57.bin",
+"w": 512,
+"h": 512
+},
+"ui/tutorial_hand_up": {
+"f": "data/art/1b9c3cd0811a38a2bc46.bin",
+"w": 512,
+"h": 512
+},
+"ui/tutorial_hand_down": {
+"f": "data/art/dec4f7dfb06174e37aa5.bin",
+"w": 512,
+"h": 512
+},
+"ui/tutorial_hand_upleft": {
+"f": "data/art/cb0275ea2c9f2534dd91.bin",
+"w": 512,
+"h": 512
+},
+"ui/tutorial_hand_upright": {
+"f": "data/art/78de7be2d64c552986b2.bin",
+"w": 512,
+"h": 512
+},
+"ui/tutorial_hand_downleft": {
+"f": "data/art/81072f12daca45dd2de8.bin",
+"w": 512,
+"h": 512
+},
+"ui/tutorial_hand_downright": {
+"f": "data/art/cafffddfca5c6dd7dd27.bin",
 "w": 512,
 "h": 512
 }
@@ -18484,7 +18602,107 @@
 "state": "final"
 },
 {
-"address": "ui/tutorial_hand",
+"address": "ui/tutorial_hand_up",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/tutorial_hand_down",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/tutorial_hand_upleft",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/tutorial_hand_upright",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/tutorial_hand_downleft",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/tutorial_hand_downright",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_ranking",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_friends",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_chat",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_mission",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_mail",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_notice",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_settings",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_tab_heroes",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_tab_kuji",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_tab_lobby",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_tab_achievements",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/glyph_tab_shop",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/icon_map",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/icon_mode_single",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/icon_mode_coop",
 "kind": "ui",
 "state": "final"
 },
@@ -18595,61 +18813,6 @@
 },
 {
 "address": "ui/nameplate_default",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/frame_bronze",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/frame_silver",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/frame_gold",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/frame_plat",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/plate_welcome",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/stat_battles",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/stat_wins",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/stat_wave",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/stat_kills",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/stat_pen",
-"kind": "ui",
-"state": "temp"
-},
-{
-"address": "ui/stat_copy",
 "kind": "ui",
 "state": "temp"
 },
@@ -19149,16 +19312,6 @@
 "state": "final"
 },
 {
-"address": "illust/legend/human_waldemar_t10",
-"kind": "illust",
-"state": "temp"
-},
-{
-"address": "illust/legend/human_gerhard_t10",
-"kind": "illust",
-"state": "temp"
-},
-{
 "address": "unit/legend/human_gerhard/idle",
 "kind": "unit",
 "state": "final"
@@ -19174,8 +19327,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-22 01:41",
-"branch": "cd-62"
+"at": "2026-11-22 01:46",
+"branch": "main"
 }
 },
 "devlog": [
@@ -19232,11 +19385,11 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 01:42",
-"commit": "faf0f5ea+수정",
-"passed": 692,
+"at": "2026-11-21 21:28",
+"commit": "467adaeb+수정",
+"passed": 620,
 "failed": 0,
-"total": 693,
+"total": 621,
 "ok": true
 },
 "unity": {
@@ -19246,13 +19399,13 @@
 "failed": 0,
 "total": 371,
 "ok": true,
-"fresh": false,
+"fresh": true,
 "commit": "467adaeb+수정"
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 01:42",
-"commit": "faf0f5ea+수정",
+"at": "2026-11-21 21:28",
+"commit": "467adaeb+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19260,8 +19413,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 01:42",
-"commit": "faf0f5ea+수정",
+"at": "2026-11-21 21:28",
+"commit": "467adaeb+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19269,17 +19422,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 01:42",
-"commit": "faf0f5ea+수정",
-"passed": 1,
-"failed": 0,
-"total": 1,
-"ok": true
-},
-"notices": {
-"name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 01:42",
-"commit": "faf0f5ea+수정",
+"at": "2026-11-21 21:28",
+"commit": "467adaeb+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19481,7 +19625,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 01:44",
-"generatedAt": "2026-11-22 01:44",
-"digest": "87aa6a2984505c87"
+"sourceAt": "2026-11-22 01:49",
+"generatedAt": "2026-11-22 01:49",
+"digest": "1aec8ce93823e61e"
 }
