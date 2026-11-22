@@ -155,6 +155,114 @@ button.btn.ghost{background:none;color:var(--ink2);border:1px solid var(--line2)
 .oform .msg{font-size:12.5px;color:var(--ink3)}.oform .msg.bad{color:var(--bad)}.oform .msg.ok{color:var(--ok)}
 .req{display:grid;grid-template-columns:56px 1fr auto;gap:10px;align-items:center;padding:9px 14px;border-bottom:1px solid var(--line)}
 .req:last-child{border-bottom:0}
+/* 도식: 서비스 구조 · 작업 프로세스 (2026-11-22) */
+:root{--who-user:#b8457a;--who-user-soft:#f8e3ec}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--who-user:#e98bb5;--who-user-soft:#3a2230}}
+:root[data-theme="dark"]{--who-user:#e98bb5;--who-user-soft:#3a2230}
+.w-user{--a:var(--who-user);--as:var(--who-user-soft)}.w-pm{--a:var(--acc);--as:var(--acc-soft)}.w-work{--a:var(--doing);--as:var(--doing-soft)}.w-tool{--a:var(--ink3);--as:var(--sunk)}
+.arw{display:grid;place-items:center;color:var(--ink3);min-width:0}
+.arw svg{width:18px;height:18px;display:block}
+.dg-legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--ink2);margin:10px 2px 0}
+.dg-legend span{display:inline-flex;align-items:center;gap:6px}
+.dg-legend i{width:10px;height:10px;border-radius:3px;display:inline-block;background:var(--a)}
+.dg-legend .chip{margin-right:-2px}
+/* 작업 프로세스: 네 단계 열 */
+.phases{display:grid;grid-template-columns:minmax(0,1fr) 22px minmax(0,1fr) 22px minmax(0,1fr) 22px minmax(0,1fr);align-items:stretch}
+.ph{background:var(--sunk);border-radius:var(--r);padding:8px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.ph h3{margin:2px 4px 2px;font-size:13px;display:flex;align-items:baseline;gap:6px}
+.ph h3 .kk{font-size:11px;color:var(--ink3);font-weight:600}
+.ph h3 a{margin-left:auto;font-size:12px;font-weight:600}
+.step{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--a);border-radius:8px;padding:7px 9px;font-size:12.5px;line-height:1.5}
+.step .who{display:inline-block;font-size:11px;font-weight:700;color:var(--a);background:var(--as);border-radius:5px;padding:0 5px;margin-right:5px;line-height:1.6}
+.step .no{font-size:11px;color:var(--ink3);font-variant-numeric:tabular-nums;margin-right:3px}
+.step code,.dbox code,.fs code,.sub code,.svc code{word-break:normal;overflow-wrap:break-word}
+.step.back{border-color:var(--bad);border-style:dashed;border-left-style:solid;border-left-color:var(--bad)}
+.step.back .who{color:var(--bad);background:var(--bad-soft)}
+.loopbk{grid-column:3/6;grid-row:2;margin:0 18% 0;height:26px;border:1.5px dashed var(--bad);border-top:0;border-radius:0 0 12px 12px;position:relative}
+.loopbk::before{content:"";position:absolute;left:-6.5px;top:-6px;border-left:5.5px solid transparent;border-right:5.5px solid transparent;border-bottom:8px solid var(--bad)}
+.loopbk span{position:absolute;left:50%;bottom:-10px;transform:translateX(-50%);background:var(--bg);padding:0 8px;font-size:11.5px;color:var(--bad);white-space:nowrap;font-weight:600}
+.stg{display:flex;align-items:center;flex-wrap:wrap;gap:4px 2px}
+.stg .s{padding:3px 10px;border-radius:99px;font-weight:650;font-size:12.5px;background:var(--sunk);color:var(--ink)}
+.stg .g{font-size:11px;color:var(--ink3);display:inline-flex;align-items:center;gap:1px;padding:0 2px}
+.stg .g svg{width:14px;height:14px}
+.stg .ph-l{font-size:11px;color:var(--ink3);width:100%;margin-top:2px}
+.routes{display:grid;gap:8px}
+.route{display:grid;grid-template-columns:70px minmax(0,1fr);gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.route:first-child{border-top:0;padding-top:0}
+.route .rn{font-weight:700;font-size:13px}.route .rn span{display:block;font-size:11px;color:var(--ink3);font-weight:500}
+.gate{display:inline-flex;align-items:center;font-size:11.5px;font-weight:650;padding:1px 8px;border-radius:6px;border:1px solid var(--line2);background:var(--panel);white-space:nowrap}
+.msgs{display:grid;gap:0}
+.msg-r{display:grid;grid-template-columns:minmax(0,250px) minmax(0,170px) minmax(0,1fr);gap:10px;align-items:center;padding:8px 14px;border-bottom:1px solid var(--line);font-size:12.5px}
+.msg-r:last-child{border-bottom:0}
+.msg-r code{font-size:12px;word-break:normal;overflow-wrap:break-word;justify-self:start}
+.fromto{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+span.who{font-size:11px;font-weight:700;color:var(--a);background:var(--as);border-radius:5px;padding:0 6px;line-height:1.7}
+.fromto svg{width:14px;height:14px;color:var(--ink3)}
+/* 조직 */
+.org{display:grid;gap:8px;justify-items:center}
+.org .nd{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--a);border-radius:8px;padding:6px 12px;text-align:center;font-size:12.5px;min-width:0}
+.org .nd b{display:block;font-size:13px}.org .nd span{color:var(--ink3);font-size:11.5px}
+.org .row{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.org .vl{width:2px;height:12px;background:var(--line2)}
+/* 서비스 구조 */
+.rt{display:grid;grid-template-columns:minmax(0,1fr) 26px minmax(0,1.35fr);align-items:center}
+.rt-l{display:grid;gap:10px}
+.dbox{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:10px;min-width:0}
+.dbox .bh{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:0 2px 8px}
+.dbox .bh b{font-size:13.5px}.dbox .bh span{font-size:11.5px;color:var(--ink3)}
+.dbox.plan{border-style:dashed;background:transparent}
+.lyr{display:grid;grid-template-columns:118px minmax(0,1fr);gap:8px;padding:6px 9px;border-radius:7px;background:var(--sunk);margin-top:4px;font-size:12.5px;align-items:baseline}
+.lyr b{font-size:12.5px}.lyr span{color:var(--ink2)}
+.lyr.core{background:var(--acc-soft);box-shadow:inset 3px 0 0 var(--acc)}
+.dbox .note{font-size:11.5px;color:var(--ink3);margin:8px 2px 0}
+.mini{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr) minmax(0,1fr);gap:6px;align-items:center}
+.mini .mn{border:1px solid var(--line2);border-radius:7px;padding:6px;text-align:center;font-size:12px}
+.mini .mn b{display:block;font-size:12.5px}.mini .mn span{color:var(--ink3)}
+.mini .mx{display:grid;gap:1px;text-align:center;font-size:11.5px;color:var(--ink2)}
+.mini .mx i{font-style:normal;color:var(--ink3);font-size:11px;border-top:1.5px dashed var(--line2);padding-top:2px;margin-top:2px}
+.grps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.grp{background:var(--sunk);border-radius:var(--r);padding:8px;display:grid;gap:5px;align-content:start;min-width:0}
+.grp .gh{font-size:12px;font-weight:700;color:var(--ink2);margin:1px 3px 1px}
+.svc{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:6px 9px;min-width:0}
+.svc .nm{display:flex;align-items:center;gap:6px;font-weight:650;font-size:12.5px}
+.svc .nm .chip{margin-left:auto}
+.svc .wt{font-size:11.5px;color:var(--ink2);line-height:1.5;margin-top:1px}
+.svc.p{border-style:dashed}
+.flowx{display:flex;align-items:stretch;gap:0;flex-wrap:nowrap}
+.flowx .fs{flex:1 1 0;min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font-size:12.5px}
+.flowx .fs b{display:block;font-size:12.5px;margin-bottom:1px}.flowx .fs span{color:var(--ink2);font-size:12px}
+.flowx .arw{flex:none;width:22px}
+.pipes{display:grid;gap:12px}
+.pipe .pt{font-size:12px;font-weight:700;color:var(--ink2);margin:0 2px 5px}
+.env{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:14px;align-items:start}
+.env .pc{display:grid;gap:6px}
+.env .sub{border:1px solid var(--line);border-radius:8px;padding:7px 10px;background:var(--sunk);font-size:12.5px}
+.env .sub b{font-size:12.5px}.env .sub .d{color:var(--ink2);font-size:12px;margin-top:1px}
+.env .sub ul{margin:3px 0 0;padding-left:16px;color:var(--ink2);font-size:12px}.env .sub li{margin:1px 0}
+.links{display:grid;gap:10px}
+.lk{display:grid;grid-template-columns:96px minmax(0,1fr);gap:8px;align-items:center}
+.lk .la{display:grid;justify-items:center;gap:1px;text-align:center;font-size:11px;color:var(--ink3);line-height:1.35}
+.lk .la svg{width:22px;height:18px}
+.gitg{position:relative;padding:2px 0 2px 26px}
+.gitg::before{content:"";position:absolute;left:9px;top:12px;bottom:14px;width:3px;border-radius:2px;background:var(--acc)}
+.gitg .br{position:relative;display:grid;grid-template-columns:minmax(90px,120px) minmax(0,1fr) auto;gap:10px;align-items:center;padding:6px 10px;margin:4px 0;background:var(--panel);border:1px solid var(--line);border-radius:8px;font-size:12.5px}
+.gitg .br::before{content:"";position:absolute;left:-17px;top:50%;width:16px;height:2px;background:var(--line2)}
+.gitg .br.main{border-color:var(--acc);background:var(--acc-soft)}
+.gitg .br.main::before{display:none}
+.gitg .br.main::after{content:"";position:absolute;left:-22px;top:50%;width:11px;height:11px;margin-top:-5.5px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 3px var(--bg)}
+.gitg .bn{font-weight:700;font-family:ui-monospace,Consolas,monospace;font-size:12px}
+@media (max-width:760px){
+  .phases{grid-template-columns:minmax(0,1fr)}.phases .arw{height:24px}.phases .arw svg{transform:rotate(90deg)}.loopbk{display:none}
+  .rt{grid-template-columns:minmax(0,1fr)}.rt>.arw{height:28px}.rt>.arw svg{transform:rotate(90deg)}
+  .grps{grid-template-columns:minmax(0,1fr)}
+  .env{grid-template-columns:minmax(0,1fr)}
+  .lk{grid-template-columns:minmax(0,1fr)}.lk .la{grid-auto-flow:column;justify-content:start;gap:6px}.lk .la svg{transform:rotate(90deg)}
+  .flowx{flex-direction:column}.flowx .arw{width:auto;height:22px}.flowx .arw svg{transform:rotate(90deg)}
+  .msg-r{grid-template-columns:minmax(0,1fr);gap:4px}
+  .lyr{grid-template-columns:minmax(0,1fr);gap:0}
+  .gitg .br{grid-template-columns:minmax(0,1fr) auto}.gitg .br>:nth-child(2){grid-column:1/-1;grid-row:2}
+  .route{grid-template-columns:minmax(0,1fr);gap:4px}
+}
 @media (max-width:760px){
   .flow{grid-template-columns:1fr 1fr}.flow a:nth-child(2){border-right:0}.flow a:nth-child(-n+2){border-bottom:1px solid var(--line)}
   .imp{grid-template-columns:1fr}
@@ -186,7 +294,7 @@ button.btn.ghost{background:none;color:var(--ink2);border:1px solid var(--line2)
 (function(){
 "use strict";
 var B=null,V={};
-var TABS=[["overview","현황 보고"],["kanban","칸반"],["milestones","마일스톤"],["orders","주문"],["decisions","결정"],["resources","리소스"],["system","시스템"],["balance","밸런스"],["content","콘텐츠"],["builds","빌드"],["log","기록"]];
+var TABS=[["overview","현황 보고"],["kanban","칸반"],["milestones","마일스톤"],["orders","주문"],["decisions","결정"],["resources","리소스"],["system","시스템"],["balance","밸런스"],["content","콘텐츠"],["builds","빌드"],["log","기록"],["service","서비스 구조"],["process","작업 프로세스"]];
 var ST={todo:"할 일",doing:"진행 중",wait:"사용자 대기",done:"완료",active:"진행 중"};
 var TEAM={"대표":"대표","사용자":"사용자",planning:"기획",core:"Core",client:"클라이언트",art:"아트",qa:"QA",member:"팀원"};
 var RACE={human:"인간",elf:"엘프",dwarf:"드워프",beast:"수인",spirit:"정령",dragon:"용족"};
@@ -535,7 +643,178 @@ function vLog(){
   return'<h1>개발 기록</h1>'+sec("",d.length+"일",'<div class="card flush">'+d.map(function(x,i){var t=document.createElement("div");t.innerHTML=x.html;var lis=t.querySelectorAll("h2,h3");return'<details class="row"'+(i===0?" open":"")+'><summary class="g-gr"><span class="caret">▸</span><span><b>'+esc(x.title)+'</b></span><span class="src">'+esc(x.file.slice(0,10))+'</span></summary><div class="body prose">'+x.html+'</div></details>'}).join("")+'</div>');
 }
 
-var VIEWS={overview:vOverview,kanban:vKanban,milestones:vMilestones,orders:vOrders,decisions:vDecisions,resources:vResources,system:vSystem,balance:vBalance,content:vContent,builds:vBuilds,log:vLog};
+/* ===== 도식 공통 (서비스 구조 · 작업 프로세스, 2026-11-22) =====
+   내용은 손으로 적은 정본 요약이다(CLAUDE.md «진행 방식» · studio/CHARTER.md · docs/02 · docs/14 · 패키지 목록).
+   숫자(주문 단계별 건수 · 작업 줄기)만 board.json 에서 읽는다. 규칙이 바뀌면 이 절을 같이 고친다. */
+var ASVG='<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 8h10M9 4.5 12.5 8 9 11.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+var ARW='<div class="arw" aria-hidden="true">'+ASVG+'</div>';
+var WHO={user:"사용자",pm:"관제",work:"작업 세션",tool:"도구·자동",intake:"접수 세션"};
+function whoCls(w){return w==="intake"?"w-tool":"w-"+w}
+function step(no,w,html,back){return'<div class="step '+whoCls(w)+(back?" back":"")+'"><span class="no">'+no+'</span><span class="who">'+(back?"되돌림":WHO[w])+'</span>'+html+'</div>'}
+function whoTag(w){return'<span class="who '+whoCls(w)+'">'+WHO[w]+'</span>'}
+function legend(ws){return'<div class="dg-legend">'+ws.map(function(w){return'<span class="'+whoCls(w)+'"><i></i>'+WHO[w]+'</span>'}).join("")+'</div>'}
+var SVS={on:["연결됨","c-done"],part:["일부","c-wait"],plan:["예정",""],study:["조사 중","c-doing"]};
+function svc(name,what,st){var s=SVS[st]||SVS.plan;return'<div class="svc'+(st==="plan"?" p":"")+'"><div class="nm">'+esc(name)+'<span class="chip '+s[1]+'">'+s[0]+'</span></div><div class="wt">'+what+'</div></div>'}
+function grp(title,items){return'<div class="grp"><div class="gh">'+esc(title)+'</div>'+items.join("")+'</div>'}
+function dbox(cls,title,sub,body){return'<div class="dbox '+(cls||"")+'"><div class="bh"><b>'+esc(title)+'</b>'+(sub?'<span>'+esc(sub)+'</span>':'')+'</div>'+body+'</div>'}
+function lyr(t,d,cls){return'<div class="lyr '+(cls||"")+'"><b>'+esc(t)+'</b><span>'+d+'</span></div>'}
+function flowx(items){return'<div class="flowx">'+items.map(function(x){return'<div class="fs"><b>'+x[0]+'</b><span>'+x[1]+'</span></div>'}).join(ARW)+'</div>'}
+function phaseCount(){var c={new:0,doing:0,done:0,built:0};(B.orders||[]).forEach(function(o){var p=phaseOf(o);if(c[p]!=null)c[p]++});c.new+=((B.intake||{}).requests||[]).filter(function(q){return q.state==="open"&&!(q.orders&&q.orders.length)}).length;return c}
+
+/* ===== 서비스 구조 ===== */
+function vService(){
+  var h='<h1>서비스 구조</h1><div class="eyebrow" style="margin-top:2px">게임이 도는 구조 · 개발 환경 · 빌드와 배포 길. «연결됨/일부/예정» 은 2026-11-22 에 패키지 목록과 실제 호출 코드로 확인한 것이다.</div>';
+  /* 1. 게임이 도는 구조 */
+  var app=dbox("","폰 앱","Unity 6000.3 · 안드로이드 세로 먼저",
+    lyr("화면 View · UI","Core 상태를 그리기만 한다. 규칙을 계산하지 않는다")+
+    lyr("연결 Net","로그인·친구·채팅·랭킹·공지·운영 이벤트를 서비스에 붙인다")+
+    lyr("규칙 엔진 Core","순수 C# · 정수 값 · 고정 틱 · <code>Pcg32</code> 난수 · 상태는 «명령» 으로만 바뀜 · 판정은 호스트만","core")+
+    lyr("수치 Data","<code>Data/*.json</code> 이 앱 안에 들어감 — 숫자를 코드에 박지 않는다")+
+    lyr("기기 저장","<code>player.json</code>(+백업) · <code>online.json</code> · 판 이어 하기 <code>match-resume.json</code>")+
+    '<div class="note">싱글 = 혼자 방을 연 호스트. 싱글 전용 코드 길은 없다.</div>');
+  var coop=dbox("plan","협동 2~4명","M4·M5 예정 · 네트워크 패키지 아직 설치 안 함",
+    '<div class="mini"><div class="mn"><b>호스트 폰</b><span>Core 로 판정</span></div><div class="mx"><span>상태 복제 →</span><span>← 명령</span><i>Relay 중계</i></div><div class="mn"><b>다른 폰</b><span>그리기만</span></div></div>'+
+    '<div class="note">NGO 2.14 + Sessions·Relay. 각자 영역 · 웨이브·보스 공유 · 목숨 공유. 호스트가 나가면 스냅샷으로 이어 하기 또는 정산(M4 에서 정함).</div>');
+  var cloud='<div class="grps">'+
+    grp("계정·소셜 — Unity Gaming Services",[
+      svc("Authentication","익명 로그인 — 온라인 기능의 입구","on"),
+      svc("Friends","친구 추가·목록·접속 상태","on"),
+      svc("Vivox 텍스트","월드·귓속말·방 채팅. 무료 범위 때문에 출시 전 대체 방식이 필요하다","on"),
+      svc("Moderation","채팅 신고 → 대시보드·작업실에서 제재","on"),
+      svc("Leaderboards","랭킹. 지금은 기기가 점수를 올린다(서버 판정은 M7)","on")])+
+    grp("운영·데이터",[
+      svc("Remote Config","운영 이벤트 우편 <code>ops_events</code> — 새 빌드 없이 이벤트","on"),
+      svc("Cloud Save","지금은 계정 번호(uid)만. 진행 저장은 기기 파일 하나","part"),
+      svc("판정 서버","뽑기·재화를 서버에서 계산 — Cloud Code 대 자체 서버(CD-0080 조사·설계)","study")])+
+    grp("내려받기·배포",[
+      svc("CCD + Addressables","바뀐 그림 묶음·카탈로그 · 새 버전 알림 <code>app_version.json</code> · 공지 <code>notices_v2.json</code>","on"),
+      svc("Firebase App Distribution","테스터 폰에 새 APK(테스트 기간용)","on"),
+      svc("Google Play","실서비스 배포(M7)","plan")])+
+    grp("협동 — M4",[
+      svc("Sessions · Relay · Matchmaker","방 만들기 · 친구와 같이 · 자동 매칭 · 중계","plan")])+
+  '</div>';
+  h+=sec("1","게임이 도는 구조",'<div class="rt"><div class="rt-l">'+app+coop+'</div>'+ARW+cloud+'</div>'+
+    '<div class="dg-legend">'+["on","part","study","plan"].map(function(k){return'<span><span class="chip '+SVS[k][1]+'">'+SVS[k][0]+'</span>'+({on:"코드에서 호출함",part:"일부 기능만",study:"방식을 정하는 중",plan:"아직 안 붙임"}[k])+'</span>'}).join("")+'</div>',"화살표 = 앱이 부르는 서비스");
+  /* 2. 앱이 켜질 때 */
+  h+=sec("2","앱이 켜질 때",'<div class="card">'+flowx([
+    ["① 패치 화면","새 빌드가 있으면 [받으러 가기](필수) · 바뀐 그림이 있으면 크기를 보여 주고 받기 · 오프라인이면 창 없이 지나감"],
+    ["② 로딩 화면","데이터 → 그림 카탈로그 → 저장 → 화면"],
+    ["③ 로비","원격 카탈로그가 안 맞으면 앱 안 그림으로 돈다(안전망)"]])+'</div>');
+  /* 3. 개발 환경 */
+  var pc=dbox("","개발 PC 한 대","Windows 11 · RAM 16GB",'<div class="pc">'+
+    '<div class="sub"><b>Claude Code 앱</b><ul><li><b>관제 세션</b> «포트메이츠 PM» — main 체크아웃. 접수·번호·병합·빌드·기록</li><li><b>작업 세션</b> — 주문마다 하나, 자기 worktree <code>.worktrees/cd-NN</code></li><li><b>접수 세션</b> — 새로 연 세션은 이슈만 올리고 차례를 기다림</li><li>세션 안의 팀장·팀원 에이전트(기획·Core·클라이언트·아트·QA)</li></ul></div>'+
+    '<div class="sub"><b>Codex</b> <span class="muted small">Plus 요금제 — 한도가 작다</span><div class="d">그림 생성(디자인 그림 전부) · 주문당 코드 리뷰 1회 · 막혔을 때 읽기 전용 질문. 구현은 맡기지 않는다</div></div>'+
+    '<div class="sub"><b>Unity 에디터 6000.3.28f1</b><div class="d">PC 전체에서 한 번에 하나(EditMode·PlayMode·import·빌드 모두) — 관제에 «Unity 시작/끝» 을 알리고 차례를 받는다</div></div>'+
+    '<div class="sub"><b>검사 도구</b> <span class="muted small">Unity 없이 언제든</span><div class="d"><code>dotnet test</code>(Core 규칙) · <code>studio.py check</code>(Core·데이터·그림 규격·설정 한 번에) · <code>validate_data</code> · <code>canon_lint</code> · 그림 하네스</div></div>'+
+    '<div class="sub"><b>작업실</b> <span class="muted small">이 PC 에서만 열림</span><div class="d">데이터 표 · 맵툴 · 운영(이벤트·유저 찾기·제재·공지). [적용] 하면 Claude 가 <code>Data/</code> 에 반영</div></div>'+
+    '<div class="sub"><b>예약 작업 «cd-pm-sync»</b> <span class="muted small">30분마다</span><div class="d">모든 작업 줄기를 읽기만 해서 이 사이트 데이터를 만들고, 새 빌드 파일을 비공개 Release 에 올린다</div></div>'+
+  '</div>');
+  function lk(label,body){return'<div class="lk"><div class="la">'+ASVG+'<span>'+label+'</span></div>'+body+'</div>'}
+  var links='<div class="links">'+
+    lk("푸시<br>(사용자 승인 뒤)",dbox("","GitHub 비공개 · coop-defense","",'<div class="small">코드·데이터·문서·주문 기록 정본. <b>main</b> 하나가 통합 줄기, 주문마다 <code>cd-NN</code> 작업 줄기. <b>이슈 = 접수</b>, <b>Release = 빌드 파일</b>, 버전 커밋엔 태그 <code>vX.Y.Z</code>.</div>'))+
+    lk("board.json<br>30분마다 푸시",dbox("","GitHub 공개 · cd-pm = 이 사이트","GitHub Pages",'<div class="small">제목·번호·단계·수치만 싣는다. 접수 본문·그림 원본·로컬 경로·비밀은 싣지 않는다(원화는 암호화). «신규 주문 추가» 는 비공개 저장소의 이슈 창을 채워 열 뿐이다.</div>'))+
+    lk("빌드·업로드<br>스크립트",dbox("","Firebase · CCD","",'<div class="small">새 APK → 테스터 폰, 그림 묶음·버전 알림·공지 → 앱이 켤 때 받음.</div>'))+
+    lk("작업실 운영<br>(서비스 계정)",dbox("","Unity 대시보드 관리 API","",'<div class="small">Remote Config 이벤트 올리기 · 유저 찾기 · 제재. 키는 PC 환경 변수에만 있다.</div>'))+
+  '</div>';
+  h+=sec("3","개발 환경",'<div class="env">'+pc+links+'</div>');
+  /* 4. 작업 줄기 (실시간) */
+  var trees=(B.trees||[]).slice().sort(function(a,b){if(a.branch==="main")return-1;if(b.branch==="main")return 1;return Math.max(b.lastEditTs||0,b.lastCommitTs||0)-Math.max(a.lastEditTs||0,a.lastCommitTs||0)});
+  var now=Date.parse(String(B.generatedAt||"").replace(" ","T"))/1000;
+  h+=sec("4","작업 줄기 지금",trees.length?'<div class="card"><div class="gitg">'+trees.map(function(t){
+    var last=Math.max(t.lastEditTs||0,t.lastCommitTs||0),live=last&&(now-last)<1800,isM=t.branch==="main";
+    var st=isM?'<span class="chip c-acc">통합</span>':(live?'<span class="chip c-done">작업 중</span>':(t.notInMain===0&&!t.dirtyCount?'<span class="chip">병합 끝 · 정리 가능</span>':'<span class="chip">조용함</span>'));
+    var info=isM?'모든 주문이 여기로 병합된다 · 원격 미반영 '+esc(t.unpushed||0)+' 커밋':esc(t.order||"-")+' · main 에 없는 커밋 '+esc(t.notInMain)+' · 미커밋 '+esc(t.dirtyCount)+' · '+esc(age(last));
+    return'<div class="br'+(isM?" main":"")+'"><span class="bn">'+esc(t.branch)+'</span><span class="small muted">'+info+'</span>'+st+'</div>'}).join("")+'</div></div>':'<div class="card empty">없음</div>',"30분 안에 고친 줄기 = 작업 중");
+  /* 5. 빌드·배포 길 */
+  h+=sec("5","빌드와 배포 길",'<div class="card pipes">'+
+    '<div class="pipe"><div class="pt">코드가 바뀜 → 새 APK</div>'+flowx([["버전 올림","앱 버전·versionCode 다섯 값"],["<code>build_android.ps1</code>","고정 서명 키 · 새 기본 빌드 식별자"],["<code>cdn_update.ps1</code>","짝이 맞는 그림 카탈로그"],["<code>distribute_android.ps1</code>","Firebase → 테스터 폰 · 버전 알림 파일"]])+'</div>'+
+    '<div class="pipe"><div class="pt">그림만 바뀜 → 재설치 없이</div>'+flowx([["<code>cdn_update.ps1</code>","Addressables 콘텐츠 업데이트"],["CCD 새 릴리스","몇 분 뒤 공개 주소에 반영"],["폰 패치 화면","받을 크기를 보여 주고 받음"]])+'</div>'+
+    '<div class="pipe"><div class="pt">공지 · 운영 이벤트</div>'+flowx([["작업실 «운영»","공지 글 / 이벤트 우편 편집 → 검사"],["CCD · Remote Config","<code>notices_v2.json</code> / <code>ops_events</code>"],["게임","켤 때·로그인 뒤 받아 보여 줌"]])+'</div>'+
+    '<div class="small muted">빌드 스크립트는 Unity 를 띄우므로 관제의 차례를 받은 뒤에만 돌린다. 코드가 바뀐 빌드는 versionCode 를 꼭 올린다(낮으면 폰이 업데이트로 깔지 않는다).</div>'+
+  '</div>');
+  /* 6. 기술 스택 */
+  var stk=B.stack||[];
+  if(stk.length)h+=sec("6","기술 스택",'<div class="card flush">'+tbl(["항목","무엇"],stk.map(function(s){return[H("<b>"+esc(s.k)+"</b>"),s.v]}))+'</div>','<span class="src">studio/milestones.json</span>');
+  return h;
+}
+
+/* ===== 작업 프로세스 ===== */
+function vProcess(){
+  var c=phaseCount();
+  var h='<h1>작업 프로세스</h1><div class="eyebrow" style="margin-top:2px">주문 한 건이 접수에서 빌드까지 가는 길 · 누가 무엇을 하나. 정본은 CLAUDE.md «진행 방식» · studio/CHARTER.md · 스킬 cd-pm.</div>';
+  function col(k,title,n,steps){return'<div class="ph"><h3><span class="kk">'+k+'</span>'+esc(title)+'<a href="#orders">'+n+'건</a></h3>'+steps.join("")+'</div>'}
+  var p1=col("1","신규 주문",c.new,[
+    step(1,"user","PM 사이트 <b>«신규 주문 추가»</b> 또는 새 Claude 세션에 할 일 · 가장 중요한 포인트 · 중요도를 적는다"),
+    step(2,"intake","새 세션은 <b>접수만</b>: 비공개 저장소에 이슈 <code>[주문] …</code> → 관제에 «접수 #N»"),
+    step(3,"pm","<code>pm.py inbox</code> 로 읽고 다시 쓴다 — 지금 상태를 직접 확인 · 겹치는 주문·결정 · 포인트를 수용 기준 1번으로"),
+    step(4,"user","이해한 내용·질문 확인(중요도 높음은 답을 받은 뒤 연다)"),
+    step(5,"pm","번호 <b>CD-NNNN</b> · <code>new-order</code> · <code>pm.py link</code> · 마일스톤 줄 · stage <code>접수</code>")]);
+  var p2=col("2","작업 중",c.doing,[
+    step(6,"pm","차례가 오면 그 세션에 <b>«차례 CD-NNNN»</b>. 모델은 중요도대로(높음 Opus · 보통·낮음 Sonnet)"),
+    step(7,"work","worktree <code>.worktrees/cd-NN</code> · 줄기 <code>cd-NN</code> · stage <code>제작</code> · 경로 direct/fast/full 로 스킬 studio 절차"),
+    step(8,"work","팀장·팀원 에이전트가 만든다. 그림은 Codex. Unity 는 «Unity 시작/끝» 으로 차례를 받아 하나만"),
+    step(9,"work","짧은 확인: <code>studio.py check</code> + 바꾼 곳 EditMode 필터 → 커밋 + 90-close 초안 → stage <code>마감</code> → «빌드 대기 &lt;줄기&gt; &lt;해시&gt;»")]);
+  var p3=col("3","작업 완료 · 빌드 대기",c.done,[
+    step(10,"pm","90-close·diff 를 직접 보고 main 에 병합 → <code>check --unity</code> → 마감 기록(devlog·마일스톤·검사·사이트)"),
+    step(11,"user","«빌드해 줘»"),
+    step(12,"pm","<code>pm.py build-check</code> — 막힘이 하나라도 있으면 묶지 않는다"),
+    step(13,"pm","묶음 전체 QA 한 번: PlayMode 전체 · 캡처 · 해 볼 것"),
+    step("↺","work","QA 에서 나온 문제는 그 세션으로 — stage <code>제작</code> 으로 고치고 다시 <code>마감</code>",true)]);
+  var p4=col("4","빌드 완료",c.built,[
+    step(14,"pm","버전 다섯 값 올림 → 빌드·배포 → 커밋 <code>앱 X.Y.Z · versionCode N (CD-…)</code> + 태그"),
+    step(15,"tool","Firebase 가 테스터 폰에 새 빌드 · <code>close-built</code> 로 접수 닫기 · 푸시는 승인 뒤"),
+    step(16,"user","폰에서 해 본다 → 고칠 것은 새 접수로"),
+    step(17,"pm","정리: main 에 들어간 worktree 삭제(브랜치는 남김) · 배포 뒤 세션 삭제")]);
+  h+=sec("1","주문 한 건이 가는 길",'<div class="phases">'+p1+ARW+p2+ARW+p3+ARW+p4+'<div class="loopbk"><span>빌드 QA 문제 → 되돌림</span></div></div>'+legend(["user","pm","work","intake","tool"]),"숫자 = 지금 그 단계의 주문");
+  /* 2. stage 와 게이트 */
+  var G=function(g){return'<span class="g">'+ASVG+(g?'<span>'+g+'</span>':'')+'</span>'};
+  h+=sec("2","주문 단계(stage)와 게이트",'<div class="grid2"><div class="card">'+
+    '<div class="small muted" style="margin-bottom:8px"><code>00-order.md</code> 의 <code>- stage:</code> 줄엔 이 다섯 단어만 쓴다. 다른 말을 쓰면 사이트가 «신규 주문» 으로 읽는다.</div>'+
+    '<div class="stg"><span class="s">접수</span>'+G("spec")+'<span class="s">제작</span>'+G("impl")+'<span class="s">검수</span>'+G("qa")+'<span class="s">마감</span>'+G("close")+'<span class="s">완료</span></div>'+
+    '<div class="tw" style="margin-top:12px"><table><thead><tr><th>사이트 단계</th><th>stage</th></tr></thead><tbody>'+
+    '<tr><td>'+phChip("new")+'</td><td>접수 · 또는 이어진 주문이 없는 접수</td></tr>'+
+    '<tr><td>'+phChip("doing")+'</td><td>제작 · 검수</td></tr>'+
+    '<tr><td>'+phChip("done")+'</td><td>마감 · 완료 — 아직 버전 커밋에 안 들어감</td></tr>'+
+    '<tr><td>'+phChip("built")+'</td><td>버전 커밋 <code>앱 X.Y.Z · versionCode N (CD-…)</code> 에 들어감</td></tr>'+
+    '</tbody></table></div></div>'+
+    '<div class="card"><div class="small muted" style="margin-bottom:8px">경로는 일의 크기로 고른다. 게이트는 <code>studio.py gate CD-NNNN spec|impl|qa|close</code> 가 파일을 검사한다.</div><div class="routes">'+
+    '<div class="route"><div class="rn">direct<span>직행</span></div><div><div class="stg"><span class="gate">00-order.md 한 장</span>'+G("")+'<span class="gate">close</span></div><div class="small muted" style="margin-top:3px">한 팀 파일만 · 규칙·데이터 구조·저장·네트워크 안 바뀜 · 방향 잠금 밖 · 에이전트 한 번</div></div></div>'+
+    '<div class="route"><div class="rn">fast<span>한 팀</span></div><div><div class="stg"><span class="gate">spec</span>'+G("")+'<span class="gate">impl</span>'+G("")+'<span class="gate">qa</span>'+G("")+'<span class="gate">close</span></div><div class="small muted" style="margin-top:3px">짧은 기획서 → 팀장 하나 → QA팀장</div></div></div>'+
+    '<div class="route"><div class="rn">full<span>여러 팀</span></div><div><div class="stg"><span class="gate">spec</span>'+G("")+'<span class="gate">impl</span>'+G("")+'<span class="gate">qa</span>'+G("")+'<span class="gate">close</span></div><div class="small muted" style="margin-top:3px">기획팀장 → 팀장들 → QA팀장 · 규칙이 바뀌는 일</div></div></div>'+
+    '</div><div class="small muted" style="margin-top:8px">크기: «팀별 작업» 한 줄 = 에이전트 한 번(60턴) · 한 주문에 한 팀 줄은 2개까지 · 기획서 15,000자 — 넘으면 주문을 나눈다.</div></div></div>');
+  /* 3. 세션끼리 주고받는 말 */
+  var M=[["접수 #N &lt;제목&gt;","intake","pm","새 일이 들어왔다 — 관제가 분석·번호"],
+    ["차례 CD-NNNN","pm","work","이 세션이 그 주문의 작업 세션이 된다"],
+    ["Unity 시작 &lt;줄기&gt; / Unity 끝 &lt;줄기&gt;","work","pm","Unity 는 PC 전체에서 하나 — 관제가 차례를 준다"],
+    ["빌드 대기 &lt;줄기&gt; &lt;해시&gt;","work","pm","개발 끝 · 병합과 빌드 QA 를 기다림"],
+    ["되돌림 (QA 문제)","pm","work","빌드 QA 에서 나온 것을 고친다"]];
+  h+=sec("3","세션끼리 주고받는 말",'<div class="card flush">'+M.map(function(m){return'<div class="msg-r"><code>'+m[0]+'</code><span class="fromto">'+whoTag(m[1])+ASVG+whoTag(m[2])+'</span><span class="muted">'+m[3]+'</span></div>'}).join("")+'</div>','세션 이름 앞 [CD-NNNN][대기]·[작업 중]·[선택 필요]·[작업 완료] 는 관제가 붙인다');
+  /* 4. 검사는 누가 언제 */
+  h+=sec("4","검사는 누가 언제",'<div class="card flush">'+tbl(["언제","누가","무엇을"],[
+    [H('<b>개발 중</b>'),H(whoTag("work")),H('바꾼 곳 시험만 — <code>dotnet test --filter</code> · <code>unity test … --filter</code>')],
+    [H('<b>빌드 대기로 넘길 때</b>'),H(whoTag("work")),H('<code>studio.py check</code>(Unity 없이) + 바꾼 곳 EditMode 필터 한 번. PlayMode 는 꼭 필요할 때 한두 개만')],
+    [H('<b>병합 뒤</b>'),H(whoTag("pm")),H('main 에서 <code>check --unity</code> 전체 한 번')],
+    [H('<b>빌드 때</b>'),H(whoTag("pm")),H('빌드 대기 묶음 전체: PlayMode 전체 · QA · 캡처 검수 · 해 볼 것 목록 → 문제는 그 세션으로')],
+    [H('<b>빌드 뒤</b>'),H(whoTag("user")),H('폰에서 사람 플레이')]])+'</div>');
+  /* 5. 조직 */
+  h+=sec("5","작업 세션 안의 팀",'<div class="card"><div class="org">'+
+    '<div class="nd w-user"><b>사용자</b><span>방향·확인·승인</span></div><div class="vl"></div>'+
+    '<div class="row"><div class="nd w-pm"><b>관제</b><span>접수·번호·병합·빌드·기록</span></div><div class="nd w-work"><b>작업 세션 = 대표</b><span>주문을 팀에 나눔 · 직접 구현 안 함</span></div></div><div class="vl"></div>'+
+    '<div class="row">'+[["기획팀장","규칙·수치·기획서"],["Core팀장","규칙 엔진·판정"],["클라팀장","화면·UI·빌드"],["아트팀장","그림·소리·장부"],["QA팀장","독립 검증"]].map(function(x){return'<div class="nd w-work"><b>'+x[0]+'</b><span>'+x[1]+'</span></div>'}).join("")+'</div><div class="vl"></div>'+
+    '<div class="row"><div class="nd w-tool"><b>팀원</b><span>팀장이 역할을 적어 주고 부름</span></div><div class="nd w-tool"><b>Codex</b><span>그림 · 리뷰 1회 · 질문</span></div></div>'+
+    '</div><div class="small muted" style="margin-top:10px;text-align:center">한 파일은 한 팀만 고친다 · 모델은 일의 성격으로(기본 Sonnet, 설계·원인 모를 버그는 Opus) · 에이전트 한 번 60턴 안</div></div>');
+  /* 6. 지킬 것 */
+  h+=sec("6","지킬 것",'<div class="card"><ul class="dots">'+
+    '<li><b>Unity 는 PC 전체에서 한 번에 하나</b> — RAM 16GB 에서 여럿이 겹쳐 PC 가 멈춘 적이 있다. 빌드·업로드 스크립트도 Unity 를 띄운다.</li>'+
+    '<li><b>기록 분담</b> — 작업 세션은 주문 폴더 안(진행·보고서·<code>90-close.md</code>)까지. devlog · 마일스톤 · <code>checks.json</code> · 사이트는 관제가 main 에서 묶음마다.</li>'+
+    '<li><b>번호·병합 순서는 관제가 준다</b> — 세션이 «다음 빈 번호» 를 스스로 잡지 않는다.</li>'+
+    '<li><b>커밋은 경로를 지정해서, 푸시는 사용자 승인 뒤.</b> 비용 드는 일(크레딧·유료 API)은 하지 않고 알린다.</li>'+
+    '<li><b>디스크</b> — main 에 들어간 worktree 는 관제가 지운다(브랜치는 남김). 다시 고칠 일이 오면 같은 이름으로 다시 만들고 main 을 합친다.</li>'+
+  '</ul></div>');
+  return h;
+}
+
+var VIEWS={overview:vOverview,kanban:vKanban,milestones:vMilestones,orders:vOrders,decisions:vDecisions,resources:vResources,system:vSystem,balance:vBalance,content:vContent,builds:vBuilds,log:vLog,service:vService,process:vProcess};
 function route(){var r=(location.hash||"#overview").slice(1);return VIEWS[r]?r:"overview"}
 function render(){
   var r=route(),cnt={kanban:cards().filter(function(c){return c.status!=="done"&&(c.src==="ms"||c.open)}).length,orders:(B.orders||[]).filter(function(o){return phaseOf(o)!=="built"}).length+((B.intake||{}).requests||[]).filter(function(q){return q.state==="open"&&!(q.orders&&q.orders.length)}).length,decisions:(B.decisions||[]).filter(function(d){return d.kind!=="confirmed"}).length};
