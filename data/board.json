@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0098",
+"order": "CD-0097",
 "head": "3bb8094",
 "commits": [
 {
@@ -1344,8 +1344,20 @@
 "msg": "CD-0098 C-3 작업 중: 접속 셋·판 둘을 서버 길로(Unity 확인 전)"
 }
 ],
-"dirtyCount": 12,
+"dirtyCount": 15,
 "dirty": [
+{
+"file": "_qa/hud-sian/hud_sian_bar_states.png",
+"at": "2026-11-22 22:01"
+},
+{
+"file": "_qa/hud-sian/hud_sian_compare_full.png",
+"at": "2026-11-22 22:01"
+},
+{
+"file": "_qa/hud-sian/hud_sian_full_1080x1920.png",
+"at": "2026-11-22 22:01"
+},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.core/Settings.json",
 "at": "2026-11-22 10:28"
@@ -1365,22 +1377,10 @@
 {
 "file": "UnityProject/.vscode/settings.json",
 "at": "2026-11-22 10:27"
-},
-{
-"file": "_qa/cd54-shots-v2/cd54_propfx_low.png",
-"at": "2026-11-22 00:05"
-},
-{
-"file": "_qa/cd54-shots-v2/cd54_propfx_high_crop200.png",
-"at": "2026-11-22 00:05"
-},
-{
-"file": "_qa/cd54-shots-v2/cd54_propfx_high.png",
-"at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-22 10:28",
-"lastEditTs": 1795310895.2319162,
+"lastEdit": "2026-11-22 22:01",
+"lastEditTs": 1795352468.8435822,
 "lastCommitTs": 1795351385,
 "unpushed": 0,
 "notInMain": 0,
@@ -1391,7 +1391,7 @@
 "lane": "cd-101",
 "session": "",
 "owns": "",
-"order": "CD-0098",
+"order": "CD-0097",
 "head": "3bb8094",
 "commits": [
 {
@@ -1518,43 +1518,43 @@
 "msg": "CD-0098 C-3: 접속 셋·판 둘을 서버 길로 — 계정을 바꾸는 판정이 전부 서버 라이브러리를 지난다(보이는 동작 그대로)"
 }
 ],
-"dirtyCount": 17,
+"dirtyCount": 37,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene887f2f5e-2c0e-4357-aecb-55bb21d02345.unity.meta",
-"at": "2026-11-22 21:56"
+"file": "UnityProject/Assets/_Game/UI/Match/CellPopup.cs",
+"at": "2026-11-22 22:01"
 },
 {
-"file": "UnityProject/Assets/InitTestScene887f2f5e-2c0e-4357-aecb-55bb21d02345.unity",
-"at": "2026-11-22 21:56"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 22:01"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 21:55"
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_popup_corner_safe_1080x2400.png",
+"at": "2026-11-22 22:00"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-22 21:55"
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_popup_corner_1080x1920.png",
+"at": "2026-11-22 22:00"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 21:55"
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_safe_1080x2400.png",
+"at": "2026-11-22 22:00"
 },
 {
-"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
-"at": "2026-11-22 21:55"
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_1080x1920.png",
+"at": "2026-11-22 22:00"
 },
 {
-"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
-"at": "2026-11-22 21:55"
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_safe_1080x2400.png",
+"at": "2026-11-22 22:00"
 },
 {
-"file": "UnityProject/Assets/_Game/Art/Final/ui/hero_key_teal.png.meta",
-"at": "2026-11-22 21:54"
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_1080x1920.png",
+"at": "2026-11-22 22:00"
 }
 ],
-"lastEdit": "2026-11-22 21:56",
-"lastEditTs": 1795352214.8255458,
+"lastEdit": "2026-11-22 22:01",
+"lastEditTs": 1795352486.0064518,
 "lastCommitTs": 1795351950,
 "unpushed": 3,
 "notInMain": 3,
@@ -9032,14 +9032,15 @@
 "id": "CD-0102",
 "title": "인게임 영웅 팝업 합성·교체·판매 버튼 퀄리티 다시 만들기(시안 먼저)",
 "branch": "cd-102",
-"updated": "2026-11-22 21:52",
+"updated": "2026-11-22 22:00",
 "files": [
 "00-order.md",
 "10-spec.md",
 "11-sian-sheet.png",
 "11-sian.md",
 "12-states-preview.png",
-"90-close.md"
+"90-close.md",
+"_shots"
 ],
 "milestone": "M1",
 "stage": "제작",
@@ -9539,6 +9540,20 @@
 "createdAt": "2026-11-22 12:58",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/27"
+},
+{
+"no": 28,
+"title": "일반~영웅 등급 이름 통일(칭호 방식) + 영웅 엘프 일러스트 한쪽 스타킹 포인트",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [
+"CD-0108",
+"CD-0109"
+],
+"createdAt": "2026-11-22 13:01",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/28"
 }
 ],
 "versions": [
@@ -22181,7 +22196,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 21:57",
-"generatedAt": "2026-11-22 21:58",
-"digest": "b030497433bafda5"
+"sourceAt": "2026-11-22 22:01",
+"generatedAt": "2026-11-22 22:01",
+"digest": "ab6ac4761c085198"
 }
