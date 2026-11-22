@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0085",
+"order": "CD-0089",
 "head": "b00ecd1",
 "commits": [
 {
@@ -1499,7 +1499,7 @@
 "lane": "cd-92",
 "session": "",
 "owns": "",
-"order": "CD-0085",
+"order": "CD-0089",
 "head": "ff46ec6",
 "commits": [
 {
@@ -1553,7 +1553,7 @@
 "lane": "cd-96",
 "session": "",
 "owns": "",
-"order": "CD-0085",
+"order": "CD-0089",
 "head": "d3e2e11",
 "commits": [
 {
@@ -21337,6 +21337,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-22 17:43",
-"generatedAt": "2026-11-22 17:46",
-"digest": "2c0a32dda8cd7947"
+"generatedAt": "2026-11-22 17:47",
+"digest": "0c751d1fb43bc8e9"
 }
