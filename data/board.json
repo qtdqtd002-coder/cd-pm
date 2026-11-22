@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0098",
+"order": "CD-0097",
 "head": "3bb8094",
 "commits": [
 {
@@ -1455,8 +1455,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0102",
-"head": "cf5759f",
+"head": "ef98a1f",
 "commits": [
+{
+"sha": "ef98a1f6",
+"at": "2026-11-22 22:11",
+"ts": 1795353103,
+"msg": "CD-0102: 카탈로그 반입(ui 10개 .meta·SpriteCatalog·Art) · 버튼 면 가장자리 티끌 정리·2px 여백 · 표식 50 · 영웅 둘레 배치 시안 13-cross-sheet — EditMode 104/105(UiSkin 순서 문제, 단독 7/7) · PlayMode 26/26"
+},
 {
 "sha": "cf5759f6",
 "at": "2026-11-22 21:52",
@@ -1486,28 +1492,10 @@
 "at": "2026-11-22 21:38",
 "ts": 1795351132,
 "msg": "병합: cd-104 312e6fa4(CD-0104 SD 크기 규격화 — 결정 0099, 체형 표 art/sd-size.json, EditMode 35/35)"
-},
-{
-"sha": "1a2d1391",
-"at": "2026-11-22 21:38",
-"ts": 1795351121,
-"msg": "CD-0098 C-3: 접속 셋·판 둘을 서버 길로 — 계정을 바꾸는 판정이 전부 서버 라이브러리를 지난다(보이는 동작 그대로)"
 }
 ],
-"dirtyCount": 46,
+"dirtyCount": 19,
 "dirty": [
-{
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/00-order.md",
-"at": "2026-11-22 22:11"
-},
-{
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/13-cross-sheet-a100.png",
-"at": "2026-11-22 22:10"
-},
-{
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/13-cross-sheet.png",
-"at": "2026-11-22 22:10"
-},
 {
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_popup_corner_safe_1080x2400.png",
 "at": "2026-11-22 22:06"
@@ -1527,14 +1515,26 @@
 {
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_safe_1080x2400.png",
 "at": "2026-11-22 22:06"
+},
+{
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_1080x1920.png",
+"at": "2026-11-22 22:06"
+},
+{
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_popup_safe_1080x2400.png",
+"at": "2026-11-22 22:06"
+},
+{
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_popup_1080x1920.png",
+"at": "2026-11-22 22:06"
 }
 ],
-"lastEdit": "2026-11-22 22:11",
-"lastEditTs": 1795353062.0508294,
-"lastCommitTs": 1795351950,
-"unpushed": 3,
-"notInMain": 3,
-"today": 330
+"lastEdit": "2026-11-22 22:06",
+"lastEditTs": 1795352774.1280732,
+"lastCommitTs": 1795353103,
+"unpushed": 4,
+"notInMain": 4,
+"today": 331
 },
 {
 "branch": "cd-103",
@@ -1863,7 +1863,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 304,
+"commits": 303,
 "byOrder": [
 [
 "CD-0063",
@@ -1907,7 +1907,7 @@
 ],
 [
 "CD-0053",
-12
+11
 ],
 [
 "CD-0073",
@@ -9572,6 +9572,21 @@
 "createdAt": "2026-11-22 13:11",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/29"
+},
+{
+"no": 30,
+"title": "2-1 튜토리얼(월드 채팅·친구 등) 안내·켜기·닫기 단계 꼬임 실측과 개선",
+"state": "open",
+"phase": "built",
+"imp": "mid",
+"orders": [
+"CD-0075",
+"CD-0110",
+"CD-0111"
+],
+"createdAt": "2026-11-22 13:12",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/30"
 }
 ],
 "versions": [
@@ -22089,6 +22104,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-22 22:11",
-"generatedAt": "2026-11-22 22:11",
-"digest": "c78e30968ce59336"
+"generatedAt": "2026-11-22 22:12",
+"digest": "a0244f01c80fd3bb"
 }
