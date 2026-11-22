@@ -1382,7 +1382,7 @@
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
 "lastCommitTs": 1795322712,
-"unpushed": 4,
+"unpushed": 0,
 "notInMain": 0,
 "today": 259
 },
@@ -1567,7 +1567,7 @@
 "lastEdit": "2026-11-22 13:39",
 "lastEditTs": 1795322342.4183056,
 "lastCommitTs": 1795322694,
-"unpushed": 3,
+"unpushed": 0,
 "notInMain": 0,
 "today": 258
 },
@@ -1710,7 +1710,7 @@
 "session": "",
 "owns": "",
 "order": "CD-0080",
-"head": "0754556",
+"head": "4494b72",
 "commits": [
 {
 "sha": "4494b723",
@@ -20909,6 +20909,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-22 13:47",
-"generatedAt": "2026-11-22 13:47",
-"digest": "96afaee34a8f5abf"
+"generatedAt": "2026-11-22 13:48",
+"digest": "30fab5048ad7f5e1"
 }
