@@ -1305,8 +1305,20 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0076",
-"head": "ce11c63",
+"head": "5f63d29",
 "commits": [
+{
+"sha": "5f63d294",
+"at": "2026-11-22 15:23",
+"ts": 1795328585,
+"msg": "병합: cd-89 65bfdb31(CD-0089 영웅 탭 카드 정렬·정보창 백판 8장 — EditMode 86/86)"
+},
+{
+"sha": "65bfdb31",
+"at": "2026-11-22 15:22",
+"ts": 1795328553,
+"msg": "CD-0089 카탈로그 반입(백판 8장 · 319개) · 낮은 화면 백판 배치 · 23-art · 90-close · stage 마감 — EditMode 필터 Cd89|Cd41Client|Cd62|Cd63 86/86"
+},
 {
 "sha": "ce11c639",
 "at": "2026-11-22 15:18",
@@ -1320,28 +1332,16 @@
 "msg": "CD-0090 반영 실측: EditMode Cd78 2/2 · PlayMode Cd90MapReflectTests 3/3(12×16 배치·진짜 맵 전부가 판에 그대로) · 시험 .meta · 90-close · stage 마감"
 },
 {
+"sha": "51c1a660",
+"at": "2026-11-22 15:15",
+"ts": 1795328107,
+"msg": "Merge branch 'main' into cd-89"
+},
+{
 "sha": "be88d994",
 "at": "2026-11-22 15:15",
 "ts": 1795328104,
 "msg": "Merge branch 'main' into cd-90"
-},
-{
-"sha": "8395907a",
-"at": "2026-11-22 15:12",
-"ts": 1795327924,
-"msg": "병합: cd-80 8b0fea16(CD-0080 판정 서버 설계 — 결정 0098)"
-},
-{
-"sha": "ec04ee0a",
-"at": "2026-11-22 15:12",
-"ts": 1795327924,
-"msg": "병합: cd-79 0b7dc41b(CD-0079 보안 빠른 조치 — 결정 0097)"
-},
-{
-"sha": "43b4c53f",
-"at": "2026-11-22 15:11",
-"ts": 1795327915,
-"msg": "개발일지 11-22: 앱 0.10.0 폰 배포(Firebase 1gqvoqamgcreo · base_id 96f7eca1 · CCD 릴리스 35~37)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795328338,
+"lastCommitTs": 1795328585,
 "unpushed": 0,
 "notInMain": 0,
-"today": 291
+"today": 295
 },
 {
 "branch": "cd-76",
@@ -1652,11 +1652,15 @@
 "msg": "CD-0074 빌드 QA 되돌림: 문구가 바뀌어 낡은 PlayMode 시험 3곳 맞춤(광부 고용 알림 · 젬스톤 부족 한 문장 · 뽑기 판 교체 뒤 티켓 부족 알림) — PlayMode 확인 전"
 }
 ],
-"dirtyCount": 30,
+"dirtyCount": 31,
 "dirty": [
 {
+"file": "studio/orders/CD-0084-서버-뼈대-Game-Server-라이브러리-IGameS/21-client.md",
+"at": "2026-11-22 15:23"
+},
+{
 "file": "UnityProject/Assets/Tests/EditMode/Cd84GameServerTests.cs",
-"at": "2026-11-22 15:22"
+"at": "2026-11-22 15:23"
 },
 {
 "file": "UnityProject/Assets/Tests/EditMode/Game.Tests.EditMode.asmdef",
@@ -1681,14 +1685,10 @@
 {
 "file": "UnityProject/Assets/_Game/Net/Server/CloudCodeGameServer.cs",
 "at": "2026-11-22 15:21"
-},
-{
-"file": "UnityProject/Assets/_Game/Net/Server/LocalGameServer.cs",
-"at": "2026-11-22 15:20"
 }
 ],
-"lastEdit": "2026-11-22 15:22",
-"lastEditTs": 1795328534.0773482,
+"lastEdit": "2026-11-22 15:23",
+"lastEditTs": 1795328615.7048874,
 "lastCommitTs": 1795326738,
 "unpushed": 0,
 "notInMain": 0,
@@ -1699,9 +1699,15 @@
 "lane": "cd-89",
 "session": "",
 "owns": "",
-"order": "CD-0089",
-"head": "51c1a66",
+"order": "CD-0076",
+"head": "65bfdb3",
 "commits": [
+{
+"sha": "65bfdb31",
+"at": "2026-11-22 15:22",
+"ts": 1795328553,
+"msg": "CD-0089 카탈로그 반입(백판 8장 · 319개) · 낮은 화면 백판 배치 · 23-art · 90-close · stage 마감 — EditMode 필터 Cd89|Cd41Client|Cd62|Cd63 86/86"
+},
 {
 "sha": "51c1a660",
 "at": "2026-11-22 15:15",
@@ -1731,55 +1737,16 @@
 "at": "2026-11-22 15:11",
 "ts": 1795327874,
 "msg": "병합: rel-0100(앱 0.10.0 · versionCode 14 — 버전·content state·공지 v2)"
-},
-{
-"sha": "5a56165d",
-"at": "2026-11-22 15:07",
-"ts": 1795327626,
-"msg": "공지: 0.10.0 업데이트 안내(app_0_10_0, code 14 — notices_v2) — notices_check 통과"
 }
 ],
-"dirtyCount": 14,
-"dirty": [
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 15:21"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-22 15:21"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 15:21"
-},
-{
-"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
-"at": "2026-11-22 15:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
-"at": "2026-11-22 15:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/key/hero_bg_dragon.png.meta",
-"at": "2026-11-22 15:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/key/hero_bg_dwarf.png.meta",
-"at": "2026-11-22 15:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/key/hero_bg_human.png.meta",
-"at": "2026-11-22 15:20"
-}
-],
-"lastEdit": "2026-11-22 15:21",
-"lastEditTs": 1795328493.4191394,
-"lastCommitTs": 1795328107,
-"unpushed": 2,
-"notInMain": 2,
-"today": 289
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795328553,
+"unpushed": 0,
+"notInMain": 0,
+"today": 290
 },
 {
 "branch": "cd-90",
@@ -1984,11 +1951,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 394,
+"commits": 390,
 "byOrder": [
 [
 "CD-0041",
-44
+40
 ],
 [
 "CD-0053",
@@ -2095,8 +2062,8 @@
 4
 ],
 [
-"CD-0040",
-4
+"CD-0089",
+3
 ],
 [
 "CD-0080",
@@ -2115,11 +2082,11 @@
 3
 ],
 [
-"CD-0090",
-2
+"CD-0040",
+3
 ],
 [
-"CD-0089",
+"CD-0090",
 2
 ],
 [
@@ -2156,6 +2123,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "65bfdb31",
+"at": "2026-11-22 15:22",
+"msg": "CD-0089 카탈로그 반입(백판 8장 · 319개) · 낮은 화면 백판 배치 · 23-art · 90-close · stage 마감 — EditMode 필터 Cd89|Cd41Client|Cd62|Cd63 86/86"
+},
 {
 "sha": "46585bfb",
 "at": "2026-11-22 15:18",
@@ -2200,11 +2172,6 @@
 "sha": "406951dc",
 "at": "2026-11-22 14:52",
 "msg": "CD-0076: 최종 QA 되돌림 2건 — 상점 구매 반짝임 시험은 보상 띠가 펼쳐진 뒤를 기다림 · 토스트 자리 시험을 40% 지점 가로 띠에 맞춤 — Unity 확인 전"
-},
-{
-"sha": "1bf3f20b",
-"at": "2026-11-22 14:52",
-"msg": "Codex 기록: CD-0089 영웅 백판 시안 5 · 본 5(main 체크아웃에 적힌 것)"
 }
 ]
 },
@@ -8573,11 +8540,12 @@
 "id": "CD-0084",
 "title": "서버 뼈대 — Game.Server 라이브러리 · IGameServer · 로컬 가짜 서버",
 "branch": "cd-84",
-"updated": "2026-11-22 15:18",
+"updated": "2026-11-22 15:23",
 "files": [
 "00-order.md",
 "10-spec.md",
-"20-core.md"
+"20-core.md",
+"21-client.md"
 ],
 "milestone": "M7",
 "stage": "제작",
@@ -8606,8 +8574,8 @@
 "team": "client",
 "title": "D3 — 패키지 연결 · Net/Server/ · EditMode 시험 Cd84GameServerTests(로컬 서버로 두 명령과 같은 요청 두 번 · BuildUrl/BuildBody · ParseReply 의 상태 코드 표 · off 구현)",
 "output": "코드 · 시험 · 21-client.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-client.md"
 },
 {
 "id": "C3",
@@ -8625,22 +8593,24 @@
 {
 "id": "CD-0089",
 "title": "영웅 탭 카드 정렬과 정보창 백판(종족 공용·전설 전용)",
-"branch": "cd-89",
-"updated": "2026-11-22 14:45",
+"branch": "main",
+"updated": "2026-11-22 15:23",
 "files": [
 "00-order.md",
 "10-spec.md",
 "22-client.md",
+"23-art.md",
+"90-close.md",
 "_design"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "low",
 "teams": "art, client",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>영웅 탭 목록의 영웅 카드가 같은 눈 높이·비슷한 얼굴 크기로 한 세트처럼 보이게 하고, 상세 정보창의 영웅 뒤에 종족 풍경 백판(전설은 전용)을 깐다.</p>",
 "goalShort": "영웅 탭 목록의 영웅 카드가 같은 눈 높이·비슷한 얼굴 크기로 한 세트처럼 보이게 하고, 상세 정보창의 영웅 뒤에 종족 풍경 백판(전설은 전용)을 깐다.",
@@ -8651,8 +8621,8 @@
 "team": "art",
 "title": "Codex 백판 8장(종족 6 + 전설 2, 같은 세션 --resume) 눈 검수 → art/final/key/hero_bg_.png 810×1080 RGBA(가장자리 알파 굽기) · check.py 에 key/hero_bg_ 규격 · 목록 · 장부 · Data/assets.json · 카탈로그",
 "output": "23-art.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -8661,10 +8631,10 @@
 "title": "§2 카드 정렬(새 표·SetHeroCard) · §3 정보창 백판·덩치 맞춤 · 시험",
 "output": "22-client.md",
 "status": "done",
-"why": "보고서 있음: 22-client.md"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -8941,7 +8911,7 @@
 "no": 17,
 "title": "영웅 탭 — 리스트 영웅 카드 크기·비율 통일(다시 그리기/조정) + 상세 정보창 백판(종족 공용·전설 전용) · 시안 먼저",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0063",
@@ -18160,8 +18130,8 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-22 14:46",
-"branch": "cd-89",
+"at": "2026-11-22 15:23",
+"branch": "main",
 "dirty": false
 },
 "gallery": {
@@ -21103,8 +21073,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-22 14:46",
-"branch": "cd-89"
+"at": "2026-11-22 15:23",
+"branch": "main"
 }
 },
 "devlog": [
@@ -21417,7 +21387,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 15:22",
-"generatedAt": "2026-11-22 15:22",
-"digest": "23e2ff87c0538ec7"
+"sourceAt": "2026-11-22 15:23",
+"generatedAt": "2026-11-22 15:26",
+"digest": "47a122852541ed66"
 }
