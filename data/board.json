@@ -1387,237 +1387,6 @@
 "today": 38
 },
 {
-"branch": "cd-108",
-"lane": "cd-108",
-"session": "",
-"owns": "",
-"order": "CD-0107",
-"head": "d8609a3",
-"commits": [
-{
-"sha": "d8609a34",
-"at": "2026-11-23 00:52",
-"ts": 1795362763,
-"msg": "CD-0108·0109: Unity 확인 기록 — EditMode 필터 63/63 · PlayMode Cd67LobbyShot 3/3 (main fd66b889 합친 뒤)"
-},
-{
-"sha": "7832de6f",
-"at": "2026-11-23 00:31",
-"ts": 1795361506,
-"msg": "Merge branch 'main' into cd-108"
-},
-{
-"sha": "04f4c6ee",
-"at": "2026-11-23 00:31",
-"ts": 1795361481,
-"msg": "CD-0108·0109: 일반~영웅은 한 이름 + 단계별 칭호(결정 0103) · 영웅 엘프 일러스트·SD 한쪽 검은 스타킹"
-},
-{
-"sha": "fd66b889",
-"at": "2026-11-23 00:19",
-"ts": 1795360780,
-"msg": "병합: cd-119 91d17a47(CD-0119 맵툴 폰 화면에 게임 바닥 색 보정 — maprules.js · test_workbench 통과, Unity 없음)"
-},
-{
-"sha": "91d17a47",
-"at": "2026-11-23 00:19",
-"ts": 1795360767,
-"msg": "CD-0119: 맵툴 폰 화면에 게임 바닥 색 보정(Cd39Look — UiTone·UiAmbient·UiGrade) · 값 일치 시험 · 실측 대조(6곳 ±4)"
-},
-{
-"sha": "733af2a2",
-"at": "2026-11-23 00:17",
-"ts": 1795360631,
-"msg": "병합: cd-107b 1347a0f7(CD-0107 후속 — A상 종은 연출 하나에 최대 한 번 · KujiShow.TryRingBell · EditMode 필터 42/42)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-23 00:52"
-}
-],
-"lastEdit": "2026-11-23 00:52",
-"lastEditTs": 1795362720.6972013,
-"lastCommitTs": 1795362763,
-"unpushed": 0,
-"notInMain": 0,
-"today": 19
-},
-{
-"branch": "cd-112",
-"lane": "cd-112",
-"session": "",
-"owns": "",
-"order": "CD-0112",
-"head": "2f0afdf",
-"commits": [
-{
-"sha": "2f0afdf6",
-"at": "2026-11-23 00:51",
-"ts": 1795362695,
-"msg": "CD-0112: 90-close 초안(관제 요약·해 볼 것) · stage 마감"
-},
-{
-"sha": "5c70cd60",
-"at": "2026-11-23 00:48",
-"ts": 1795362486,
-"msg": "병합: main fd66b889 를 cd-112 에 합침(빌드 대기 전)"
-},
-{
-"sha": "3b175fa1",
-"at": "2026-11-23 00:47",
-"ts": 1795362459,
-"msg": "CD-0112: 그림 반입·터치 겹침 정리·튜토리얼 시험·캡처 (EditMode 87/87 · PlayMode 필터 통과)"
-},
-{
-"sha": "dea08c56",
-"at": "2026-11-23 00:23",
-"ts": 1795361033,
-"msg": "CD-0112: 하단 바 윗줄 개편 — 랜덤 소환 구슬·좌우 날개·채팅 키 이동·튜토리얼 자리 match.summon (Unity 전, 컴파일·시험 안 돌림)"
-},
-{
-"sha": "fd66b889",
-"at": "2026-11-23 00:19",
-"ts": 1795360780,
-"msg": "병합: cd-119 91d17a47(CD-0119 맵툴 폰 화면에 게임 바닥 색 보정 — maprules.js · test_workbench 통과, Unity 없음)"
-},
-{
-"sha": "91d17a47",
-"at": "2026-11-23 00:19",
-"ts": 1795360767,
-"msg": "CD-0119: 맵툴 폰 화면에 게임 바닥 색 보정(Cd39Look — UiTone·UiAmbient·UiGrade) · 값 일치 시험 · 실측 대조(6곳 ±4)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "studio/checks.json",
-"at": "2026-11-23 00:51"
-}
-],
-"lastEdit": "2026-11-23 00:51",
-"lastEditTs": 1795362681.5378075,
-"lastCommitTs": 1795362695,
-"unpushed": 0,
-"notInMain": 0,
-"today": 26
-},
-{
-"branch": "cd-112b",
-"lane": "cd-112b",
-"session": "",
-"owns": "",
-"order": "CD-0112",
-"head": "df1525c",
-"commits": [
-{
-"sha": "df1525c4",
-"at": "2026-11-23 01:05",
-"ts": 1795363531,
-"msg": "CD-0112: 낡은 시험 기대값 71 → 72(match.summon 자리 추가)"
-},
-{
-"sha": "14cddf49",
-"at": "2026-11-23 00:58",
-"ts": 1795363130,
-"msg": "병합: cd-108 d8609a34(CD-0108 네 단계 한 이름 + 칭호 결정 0103 · CD-0109 영웅 엘프 일러스트·SD — EditMode 필터 63/63 · PlayMode Cd67LobbyShot 3/3)"
-},
-{
-"sha": "d8609a34",
-"at": "2026-11-23 00:52",
-"ts": 1795362763,
-"msg": "CD-0108·0109: Unity 확인 기록 — EditMode 필터 63/63 · PlayMode Cd67LobbyShot 3/3 (main fd66b889 합친 뒤)"
-},
-{
-"sha": "292aa229",
-"at": "2026-11-23 00:51",
-"ts": 1795362713,
-"msg": "병합: cd-112 2f0afdf6(CD-0112 인게임 하단 바 개편 — 랜덤 소환 구슬 + 골드·차원석 날개 결정 0104 · Core 필터 87/0 · Server 272 · EditMode 필터 87/0 · PlayMode 필터 38/0 실패 후 단독 1/1)"
-},
-{
-"sha": "2f0afdf6",
-"at": "2026-11-23 00:51",
-"ts": 1795362695,
-"msg": "CD-0112: 90-close 초안(관제 요약·해 볼 것) · stage 마감"
-},
-{
-"sha": "5c70cd60",
-"at": "2026-11-23 00:48",
-"ts": 1795362486,
-"msg": "병합: main fd66b889 를 cd-112 에 합침(빌드 대기 전)"
-}
-],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795363531,
-"unpushed": 0,
-"notInMain": 0,
-"today": 32
-},
-{
-"branch": "cd-113",
-"lane": "cd-113",
-"session": "",
-"owns": "",
-"order": "CD-0112",
-"head": "e72140b",
-"commits": [
-{
-"sha": "e72140be",
-"at": "2026-11-23 01:22",
-"ts": 1795364559,
-"msg": "CD-0113: 마감 기록 — main 0d1a087e 합침(EditMode 실패 1건은 CD-0112 탓, main 에서 고쳐짐)"
-},
-{
-"sha": "72ebea16",
-"at": "2026-11-23 01:19",
-"ts": 1795364368,
-"msg": "병합: cd-113 82095607(CD-0113 D-2a — 여섯 화면 14곳을 ServerGate 기다림 창구로 · EditMode 989/990(실패 1 = 이미 고친 71→72) · PlayMode 필터 77/77, 0.12.0 몫)"
-},
-{
-"sha": "82095607",
-"at": "2026-11-23 01:19",
-"ts": 1795364347,
-"msg": "CD-0113 D-2a: 상점·젬 가게·우편함·미션·업적·프로필 화면 14곳을 기다림 창구로(보이는 동작 그대로)"
-},
-{
-"sha": "5ac4a76b",
-"at": "2026-11-23 01:07",
-"ts": 1795363631,
-"msg": "CD-0113 작업 중: 여섯 화면 14곳을 ServerGate.Do + …Async 로(Unity 확인 전)"
-},
-{
-"sha": "0d1a087e",
-"at": "2026-11-23 01:06",
-"ts": 1795363561,
-"msg": "크레딧 갱신: 효과음 98→99(CD-0107 종) · 대표 그림 18→26 · 화면 그림 125→142 · 직접 제작 1(0.11.0 QA 내보내기)"
-},
-{
-"sha": "5787e22f",
-"at": "2026-11-23 01:05",
-"ts": 1795363546,
-"msg": "병합: cd-112b df1525c4(CD-0112 후속 — 튜토리얼 자리 수 시험 71→72, match.summon)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-23 01:14"
-}
-],
-"lastEdit": "2026-11-23 01:14",
-"lastEditTs": 1795364077.8387914,
-"lastCommitTs": 1795364559,
-"unpushed": 0,
-"notInMain": 0,
-"today": 38
-},
-{
 "branch": "cd-114",
 "lane": "cd-114",
 "session": "",
@@ -1726,70 +1495,11 @@
 "today": 0
 },
 {
-"branch": "cd-94",
-"lane": "cd-94",
-"session": "",
-"owns": "",
-"order": "CD-0094",
-"head": "dcdf8a7",
-"commits": [
-{
-"sha": "dcdf8a73",
-"at": "2026-11-23 00:01",
-"ts": 1795359681,
-"msg": "CD-0094 D-1: 비동기 뼈대 — 27개 메서드의 기다리는 판 · 공통 기다림 창구 ServerGate · 뽑기 시범(보이는 동작 그대로)"
-},
-{
-"sha": "4dd6b5ae",
-"at": "2026-11-22 23:51",
-"ts": 1795359107,
-"msg": "병합: main 을 cd-94 로(마감 전에 맞춤)"
-},
-{
-"sha": "cd1e5fcd",
-"at": "2026-11-22 23:46",
-"ts": 1795358766,
-"msg": "CD-0094: 나누는 안에 뒤 주문 메모(CD-0114 는 main 0f22843a 이후에서)"
-},
-{
-"sha": "0f22843a",
-"at": "2026-11-22 23:42",
-"ts": 1795358535,
-"msg": "병합: cd-111 15463a20(CD-0111 2-1 판 밖 안내 — 창 입구·닫기는 실제 열림·닫힘으로 끝남, 설명 단계 누름 통과 안 함 · EditMode 17/17 · PlayMode 32/0 실패)"
-},
-{
-"sha": "15463a20",
-"at": "2026-11-22 23:41",
-"ts": 1795358481,
-"msg": "CD-0111: 빈 기획서 틀 지움(direct 경로 — 할 일·수용 기준은 00-order.md)"
-},
-{
-"sha": "32e7655f",
-"at": "2026-11-22 23:41",
-"ts": 1795358474,
-"msg": "병합: cd-101 854cd407(CD-0101 영웅 카드 «레벨업 가능» 금색 모서리 메달 — EditMode 925/925 · PlayMode 필터 22/22)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-22 23:32"
-}
-],
-"lastEdit": "2026-11-22 23:32",
-"lastEditTs": 1795357926.745898,
-"lastCommitTs": 1795359681,
-"unpushed": 0,
-"notInMain": 0,
-"today": 1
-},
-{
 "branch": "rel-0110",
 "lane": "rel-0110",
 "session": "",
 "owns": "",
-"order": "CD-0107",
+"order": "CD-0112",
 "head": "0735aa4",
 "commits": [
 {
@@ -1829,8 +1539,28 @@
 "msg": "병합: cd-112 2f0afdf6(CD-0112 인게임 하단 바 개편 — 랜덤 소환 구슬 + 골드·차원석 날개 결정 0104 · Core 필터 87/0 · Server 272 · EditMode 필터 87/0 · PlayMode 필터 38/0 실패 후 단독 1/1)"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 7,
 "dirty": [
+{
+"file": "UnityProject/Assets/InitTestScene44b2394a-1cb9-4cf1-bf17-e889cebc3445.unity",
+"at": "2026-11-23 01:33"
+},
+{
+"file": "UnityProject/Assets/InitTestScene44b2394a-1cb9-4cf1-bf17-e889cebc3445.unity.meta",
+"at": "2026-11-23 01:33"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-23 01:33"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-23 01:33"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-23 01:33"
+},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-22 10:27"
@@ -1840,8 +1570,8 @@
 "at": "2026-11-22 10:26"
 }
 ],
-"lastEdit": "2026-11-22 10:27",
-"lastEditTs": 1795310821.8104656,
+"lastEdit": "2026-11-23 01:33",
+"lastEditTs": 1795365234.0012035,
 "lastCommitTs": 1795363561,
 "unpushed": 2,
 "notInMain": 2,
@@ -1904,7 +1634,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 208,
+"commits": 198,
 "byOrder": [
 [
 "CD-0075",
@@ -1923,10 +1653,6 @@
 11
 ],
 [
-"CD-0062",
-11
-],
-[
 "CD-0073",
 10
 ],
@@ -1940,6 +1666,10 @@
 ],
 [
 "CD-0067",
+9
+],
+[
+"CD-0062",
 9
 ],
 [
@@ -1963,10 +1693,6 @@
 6
 ],
 [
-"CD-0064",
-6
-],
-[
 "CD-0094",
 5
 ],
@@ -1975,15 +1701,15 @@
 5
 ],
 [
-"CD-0063",
-5
-],
-[
-"CD-0060",
+"CD-0064",
 5
 ],
 [
 "CD-0089",
+4
+],
+[
+"CD-0063",
 4
 ],
 [
@@ -2051,10 +1777,6 @@
 2
 ],
 [
-"CD-0061",
-2
-],
-[
 "CD-0114",
 1
 ],
@@ -2092,6 +1814,10 @@
 ],
 [
 "CD-0041",
+1
+],
+[
+"CD-0060",
 1
 ],
 [
@@ -22836,7 +22562,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-23 01:30",
-"generatedAt": "2026-11-23 01:31",
-"digest": "bdba9e50d9e243b5"
+"sourceAt": "2026-11-23 01:33",
+"generatedAt": "2026-11-23 01:47",
+"digest": "9615a2e1d85f2201"
 }
