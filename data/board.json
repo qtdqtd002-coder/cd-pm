@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0089",
+"order": "CD-0085",
 "head": "cb3fae4",
 "commits": [
 {
@@ -1539,43 +1539,43 @@
 "msg": "CD-0092 B: 접속 명령 · 서버 계정 문서 · 판 밖 명령 20개 등록(동작 변화 없음)"
 }
 ],
-"dirtyCount": 43,
+"dirtyCount": 44,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene057acfef-7cbf-487c-849e-63d0d8d4b022.unity.meta",
-"at": "2026-11-22 19:43"
+"file": "UnityProject/Assets/Tests/EditMode/Cd97ServerPathTests.cs",
+"at": "2026-11-22 20:08"
 },
 {
-"file": "UnityProject/Assets/InitTestScene057acfef-7cbf-487c-849e-63d0d8d4b022.unity",
-"at": "2026-11-22 19:43"
+"file": "UnityProject/Assets/InitTestScenedc23de41-5cdc-4885-9041-4411dc122304.unity.meta",
+"at": "2026-11-22 20:08"
+},
+{
+"file": "UnityProject/Assets/InitTestScenedc23de41-5cdc-4885-9041-4411dc122304.unity",
+"at": "2026-11-22 20:08"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-22 19:42"
+"at": "2026-11-22 20:08"
 },
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityTestsB.cs",
-"at": "2026-11-22 19:41"
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Tutorial.cs",
+"at": "2026-11-22 20:07"
 },
 {
 "file": "UnityProject/Assets/_Game/Outgame/OutgameState.cs",
-"at": "2026-11-22 19:41"
+"at": "2026-11-22 20:07"
 },
 {
-"file": "UnityProject/Assets/_Game/Outgame/OutgameState.DailyShop.cs",
-"at": "2026-11-22 19:41"
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Shop.cs",
+"at": "2026-11-22 20:07"
 },
 {
-"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Meta.cs",
-"at": "2026-11-22 19:41"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd97ServerPathClaimTests.cs.meta",
-"at": "2026-11-22 19:39"
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Service.cs",
+"at": "2026-11-22 20:07"
 }
 ],
-"lastEdit": "2026-11-22 19:43",
-"lastEditTs": 1795344180.3861096,
+"lastEdit": "2026-11-22 20:08",
+"lastEditTs": 1795345724.088655,
 "lastCommitTs": 1795341634,
 "unpushed": 0,
 "notInMain": 0,
@@ -1725,7 +1725,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 340,
+"commits": 338,
 "byOrder": [
 [
 "CD-0053",
@@ -1861,10 +1861,6 @@
 ],
 [
 "CD-0069",
-2
-],
-[
-"CD-0048",
 2
 ],
 [
@@ -21414,7 +21410,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 19:43",
-"generatedAt": "2026-11-22 19:47",
-"digest": "d1594b0fa1f529f3"
+"sourceAt": "2026-11-22 20:08",
+"generatedAt": "2026-11-22 20:17",
+"digest": "d0fcde216e500b66"
 }
