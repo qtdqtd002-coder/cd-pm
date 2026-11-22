@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0076",
+"order": "CD-0089",
 "head": "8780551",
 "commits": [
 {
@@ -1446,13 +1446,25 @@
 "session": "",
 "owns": "",
 "order": "CD-0085",
-"head": "2f62c9a",
+"head": "fd20826",
 "commits": [
+{
+"sha": "fd20826c",
+"at": "2026-11-22 15:45",
+"ts": 1795329909,
+"msg": "Merge branch 'main' into cd-85"
+},
 {
 "sha": "2f62c9a4",
 "at": "2026-11-22 15:44",
 "ts": 1795329841,
 "msg": "CD-0085 정본 이전: 설계안(코드 없음 — 사용자 결정 3개와 주문 나누기 대기)"
+},
+{
+"sha": "87805510",
+"at": "2026-11-22 15:39",
+"ts": 1795329549,
+"msg": "Data 사본 동기화: assets.json(CD-0089 백판 8장 항목 — sync_data 빠짐, EditMode DataCopyTests 실패 해소)"
 },
 {
 "sha": "b69fd103",
@@ -1471,28 +1483,25 @@
 "at": "2026-11-22 15:31",
 "ts": 1795329077,
 "msg": "CD-0084 서버 뼈대 1차: Game.Server 라이브러리 · 기기 IGameServer(로컬·Cloud Code REST·꺼짐) — 게임 흐름 연결 없음"
-},
-{
-"sha": "e2fef771",
-"at": "2026-11-22 15:30",
-"ts": 1795329014,
-"msg": "CD-0083 main 합친 뒤 다시 확인: 충돌 0 · check 통과(Core 756/759) · EditMode 필터 30/30"
-},
-{
-"sha": "5f63d294",
-"at": "2026-11-22 15:23",
-"ts": 1795328585,
-"msg": "병합: cd-89 65bfdb31(CD-0089 영웅 탭 카드 정렬·정보창 백판 8장 — EditMode 86/86)"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795329841,
-"unpushed": 1,
-"notInMain": 1,
-"today": 302
+"dirtyCount": 2,
+"dirty": [
+{
+"file": "studio/orders/CD-0085-정본-이전-판-밖-판정을-서버로-온라인-필수/00-order.md",
+"at": "2026-11-22 15:47"
+},
+{
+"file": "studio/orders/CD-0085-정본-이전-판-밖-판정을-서버로-온라인-필수/10-spec.md",
+"at": "2026-11-22 15:46"
+}
+],
+"lastEdit": "2026-11-22 15:47",
+"lastEditTs": 1795330021.676638,
+"lastCommitTs": 1795329909,
+"unpushed": 2,
+"notInMain": 2,
+"today": 304
 },
 {
 "branch": "rel-0100",
@@ -8290,25 +8299,44 @@
 "id": "CD-0085",
 "title": "정본 이전 — 판 밖 판정을 서버로 · 온라인 필수",
 "branch": "cd-85",
-"updated": "2026-11-22 15:44",
+"updated": "2026-11-22 15:47",
 "files": [
 "00-order.md",
 "10-design.md",
 "10-spec.md"
 ],
 "milestone": "M7",
-"stage": "접수",
-"route": "full",
+"stage": "제작",
+"route": "fast",
 "risk": "high",
-"teams": "core, client",
+"teams": "core",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
-"phase": "new",
+"goal": "<p>서버와 기기의 로컬 서버가 같이 쓸 <strong>Core 쪽 재료</strong>를 만든다. 서버도, 기기 흐름도 건드리지 않는다 — <strong>동작 변화 없음</strong>.</p>\n<ol>\n<li>판 밖 상태 전체를 한 객체로 묶은 <code>AccountBundle</code> 과 그 글 형식(읽기·쓰기).\n</li>\n<li>기기가 보는 모양 <code>AccountView</code>(묶음에서 비밀을 뺀 것).\n</li>\n<li>판 밖 명령의 한 입구 <code>MetaCommands</code> — 지금 클라이언트 <code>OutgameState.*</code> 가 하는 «Core 호출 + 미션·업적 갱신» 을 <strong>순서 그대로</strong> Core 로(CD-0083 <code>MatchSettlement</code> 와 같은 방식).\n</li></ol>",
+"goalShort": "서버와 기기의 로컬 서버가 같이 쓸 Core 쪽 재료를 만든다.",
+"tasks": [
+{
+"id": "C1",
+"key": "CD-0085/C1",
+"team": "core",
+"title": "D1 — AccountBundle · JsonWriter 옮기기 · AccountCodec(+AccountView) + 시험 Cd0085BundleTests(왕복 = 값이 같음 · 같은 묶음 = 같은 글 · 비밀 빼기 · 깨진 글/상한 초과 20가지 이상 · 쿠지 보는 모양이 시드 없이 뽑힌 칸의 상품과 남은 수를 맞게 냄 · ToSettlementState 로 정산한 결과가 묶음에 남음)",
+"output": "코드 · 시험 · 20-core.md «C1»",
+"status": "todo",
+"why": ""
+},
+{
+"id": "C2",
+"key": "CD-0085/C2",
+"team": "core",
+"title": "D2 — MetaCommands + 시험 Cd0085CommandTests(명령마다: 성공 · 재화 부족 등 거절(묶음 안 바뀜) · 틀린 인자 · 모르는 명령 · 같은 입력과 같은 엔트로피 = 같은 결과 · 원본 순서를 손으로 따라 한 것과 비교하는 시험을 뽑기·레벨업·일일 상점에 하나씩)",
+"output": "코드 · 시험 · 20-core.md «C2»",
+"status": "todo",
+"why": ""
+}
+],
+"phase": "doing",
 "builtIn": ""
 },
 {
@@ -8603,7 +8631,7 @@
 "no": 15,
 "title": "판정 서버 — 재화·뽑기·시간·랭킹·uid 를 서버가 정하게(조사·설계 → 이전 → 판 결과 검증)",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "high",
 "orders": [
 "CD-0080",
@@ -8622,7 +8650,7 @@
 "no": 16,
 "title": "계정 연결(Google Play Games) · 유저 정보 서버 저장 · 계정 삭제",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "high",
 "orders": [
 "CD-0080",
@@ -21113,7 +21141,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 15:44",
-"generatedAt": "2026-11-22 15:44",
-"digest": "f8f99cef618d505b"
+"sourceAt": "2026-11-22 15:47",
+"generatedAt": "2026-11-22 15:47",
+"digest": "11ae46a55feb1143"
 }
