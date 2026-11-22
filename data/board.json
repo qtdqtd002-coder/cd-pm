@@ -1305,8 +1305,20 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0085",
-"head": "b00ecd1",
+"head": "cb3fae4",
 "commits": [
+{
+"sha": "cb3fae48",
+"at": "2026-11-22 19:00",
+"ts": 1795341634,
+"msg": "병합: cd-93 3afd7e17(CD-0093 C-1 — 다리와 대조 시험, Core 1010/1013 · Server 226/226 · EditMode 131/131)"
+},
+{
+"sha": "3afd7e17",
+"at": "2026-11-22 19:00",
+"ts": 1795341607,
+"msg": "CD-0093 C-1: 다리와 대조 시험 — 영수증 되읽기 · 저장↔계정 묶음 다리 · PlayerData 저장소 로컬 서버(OutgameState 동작 변화 없음)"
+},
 {
 "sha": "b00ecd1d",
 "at": "2026-11-22 17:43",
@@ -1330,18 +1342,6 @@
 "at": "2026-11-22 17:08",
 "ts": 1795334928,
 "msg": "CD-0092 B: 접속 명령 · 서버 계정 문서 · 판 밖 명령 20개 등록(동작 변화 없음)"
-},
-{
-"sha": "c6f4e5d9",
-"at": "2026-11-22 16:25",
-"ts": 1795332323,
-"msg": "병합: cd-85 26bd7e90(CD-0085 A — Core 계정 묶음·판 밖 명령 20개, Core 885/888 · EditMode 46/46)"
-},
-{
-"sha": "26bd7e90",
-"at": "2026-11-22 16:25",
-"ts": 1795332303,
-"msg": "CD-0085 A: Core 의 계정 묶음 · 글 형식 · 판 밖 명령 20개 한 입구(동작 변화 없음)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795337029,
+"lastCommitTs": 1795341634,
 "unpushed": 0,
 "notInMain": 0,
-"today": 310
+"today": 312
 },
 {
 "branch": "cd-84",
@@ -1446,8 +1446,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0085",
-"head": "b00ecd1",
+"head": "3afd7e1",
 "commits": [
+{
+"sha": "3afd7e17",
+"at": "2026-11-22 19:00",
+"ts": 1795341607,
+"msg": "CD-0093 C-1: 다리와 대조 시험 — 영수증 되읽기 · 저장↔계정 묶음 다리 · PlayerData 저장소 로컬 서버(OutgameState 동작 변화 없음)"
+},
 {
 "sha": "b00ecd1d",
 "at": "2026-11-22 17:43",
@@ -1477,55 +1483,16 @@
 "at": "2026-11-22 16:25",
 "ts": 1795332323,
 "msg": "병합: cd-85 26bd7e90(CD-0085 A — Core 계정 묶음·판 밖 명령 20개, Core 885/888 · EditMode 46/46)"
-},
-{
-"sha": "26bd7e90",
-"at": "2026-11-22 16:25",
-"ts": 1795332303,
-"msg": "CD-0085 A: Core 의 계정 묶음 · 글 형식 · 판 밖 명령 20개 한 입구(동작 변화 없음)"
 }
 ],
-"dirtyCount": 37,
-"dirty": [
-{
-"file": "studio/orders/CD-0093-기기-1-판-밖-상태를-서버-인터페이스-로컬-위로/21-client.md",
-"at": "2026-11-22 18:47"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityKit.cs",
-"at": "2026-11-22 18:47"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityTestsB.cs",
-"at": "2026-11-22 18:47"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityTestsB.cs.meta",
-"at": "2026-11-22 18:46"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd93BridgeTests.cs",
-"at": "2026-11-22 18:31"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityTests.cs",
-"at": "2026-11-22 18:31"
-},
-{
-"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
-"at": "2026-11-22 18:30"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 18:29"
-}
-],
-"lastEdit": "2026-11-22 18:47",
-"lastEditTs": 1795340851.5981157,
-"lastCommitTs": 1795337029,
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795341607,
 "unpushed": 0,
 "notInMain": 0,
-"today": 310
+"today": 311
 },
 {
 "branch": "rel-0100",
@@ -1687,7 +1654,7 @@
 ],
 [
 "기타",
-24
+23
 ],
 [
 "CD-0064",
@@ -1818,6 +1785,10 @@
 2
 ],
 [
+"CD-0093",
+1
+],
+[
 "CD-0096",
 1
 ],
@@ -1851,6 +1822,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "3afd7e17",
+"at": "2026-11-22 19:00",
+"msg": "CD-0093 C-1: 다리와 대조 시험 — 영수증 되읽기 · 저장↔계정 묶음 다리 · PlayerData 저장소 로컬 서버(OutgameState 동작 변화 없음)"
+},
 {
 "sha": "d3e2e117",
 "at": "2026-11-22 17:43",
@@ -1895,11 +1871,6 @@
 "sha": "65bfdb31",
 "at": "2026-11-22 15:22",
 "msg": "CD-0089 카탈로그 반입(백판 8장 · 319개) · 낮은 화면 백판 배치 · 23-art · 90-close · stage 마감 — EditMode 필터 Cd89|Cd41Client|Cd62|Cd63 86/86"
-},
-{
-"sha": "46585bfb",
-"at": "2026-11-22 15:18",
-"msg": "CD-0090 반영 실측: EditMode Cd78 2/2 · PlayMode Cd90MapReflectTests 3/3(12×16 배치·진짜 맵 전부가 판에 그대로) · 시험 .meta · 90-close · stage 마감"
 }
 ]
 },
@@ -8513,22 +8484,23 @@
 {
 "id": "CD-0093",
 "title": "기기 1 — 판 밖 상태를 서버 인터페이스(로컬) 위로",
-"branch": "cd-93",
-"updated": "2026-11-22 18:47",
+"branch": "main",
+"updated": "2026-11-22 19:00",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-core.md",
-"21-client.md"
+"21-client.md",
+"90-close.md"
 ],
 "milestone": "M7",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "high",
 "teams": "core, client",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p><code>OutgameState</code> 는 <strong>아직 바꾸지 않는다</strong> — 보이는 변화 없음. 바꾸기 전에 필요한 다리를 놓고, «서버 길이 지금 길과 같은 결과를 내는가» 를 시험으로 증명한다.</p>\n<ol>\n<li><strong>영수증 되읽기</strong>(Core): 서버 답의 영수증 글을, 화면이 지금 쓰는 Core 영수증 형으로 되돌린다.\n</li>\n<li><strong><code>PlayerData ↔ AccountBundle</code> 변환</strong>(기기)과 <strong><code>PlayerData</code> 를 저장소로 쓰는 로컬 서버</strong>.\n</li>\n<li><strong>대조 시험</strong>: 바꾸는 메서드마다 같은 저장에서 «지금 길»(<code>OutgameState</code> 의 메서드)과 «서버 길»(로컬 서버에 명령)을 둘 다 돌려, 저장 글과 영수증이 같은지 본다.\n</li></ol>",
 "goalShort": "OutgameState 는 아직 바꾸지 않는다",
@@ -8540,7 +8512,7 @@
 "title": "D1 — MetaReceipts + 필요한 ResultJson 칸 추가 + Cd0093ReceiptTests",
 "output": "코드 · 시험 · 20-core.md",
 "status": "done",
-"why": "보고서 있음: 20-core.md"
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -8549,7 +8521,7 @@
 "title": "D2 — AccountBridge · PlayerDataAccountStore · LocalGameServer 새 생성 길 + EditMode Cd93BridgeTests(왕복 · 기기 전용 칸 보존 · 저장소 왕복 · 시계/시드)",
 "output": "코드 · 시험 · 21-client.md «C2»",
 "status": "done",
-"why": "보고서 있음: 21-client.md"
+"why": "주문 마감"
 },
 {
 "id": "C3",
@@ -8558,10 +8530,10 @@
 "title": "D3 — 대조 시험 Cd93ParityTests 와 차이 목록",
 "output": "시험 · 21-client.md «C3»",
 "status": "done",
-"why": "보고서 있음: 21-client.md"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -8801,7 +8773,7 @@
 "no": 15,
 "title": "판정 서버 — 재화·뽑기·시간·랭킹·uid 를 서버가 정하게(조사·설계 → 이전 → 판 결과 검증)",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "high",
 "orders": [
 "CD-0080",
@@ -21311,7 +21283,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 18:47",
-"generatedAt": "2026-11-22 18:47",
-"digest": "775ec2da1e580c96"
+"sourceAt": "2026-11-22 19:00",
+"generatedAt": "2026-11-22 19:03",
+"digest": "878a0ddc6dc2dcce"
 }
