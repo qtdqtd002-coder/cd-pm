@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0100",
+"order": "CD-0097",
 "head": "bfc28cd",
 "commits": [
 {
@@ -1434,6 +1434,10 @@
 "dirtyCount": 5,
 "dirty": [
 {
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-22 21:31"
+},
+{
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/00-order.md",
 "at": "2026-11-22 20:40"
 },
@@ -1446,16 +1450,12 @@
 "at": "2026-11-22 20:40"
 },
 {
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-22 20:37"
-},
-{
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/10-spec.md",
 "at": "2026-11-22 20:32"
 }
 ],
-"lastEdit": "2026-11-22 20:40",
-"lastEditTs": 1795347630.6388783,
+"lastEdit": "2026-11-22 21:31",
+"lastEditTs": 1795350704.6755006,
 "lastCommitTs": 1795341634,
 "unpushed": 0,
 "notInMain": 0,
@@ -1467,8 +1467,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0103",
-"head": "717dfc8",
+"head": "c40f90c",
 "commits": [
+{
+"sha": "c40f90c6",
+"at": "2026-11-22 21:28",
+"ts": 1795350507,
+"msg": "CD-0103 기획서: 결과창 안 B «영웅 무대»(사용자 선택) — gate spec 통과"
+},
 {
 "sha": "717dfc87",
 "at": "2026-11-22 20:56",
@@ -1498,15 +1504,9 @@
 "at": "2026-11-22 20:38",
 "ts": 1795347536,
 "msg": "CD-0097 C-2: 판 밖 상태를 바꾸는 메서드 22개를 서버 길로 — 기기 안 로컬 서버가 판정(보이는 동작 그대로)"
-},
-{
-"sha": "cb3fae48",
-"at": "2026-11-22 19:00",
-"ts": 1795341634,
-"msg": "병합: cd-93 3afd7e17(CD-0093 C-1 — 다리와 대조 시험, Core 1010/1013 · Server 226/226 · EditMode 131/131)"
 }
 ],
-"dirtyCount": 5,
+"dirtyCount": 4,
 "dirty": [
 {
 "file": "studio/orders/CD-0103-결과창-디자인-폴리싱-아웃게임-톤-일관-트렌디/_design/preview.html",
@@ -1523,25 +1523,21 @@
 {
 "file": "studio/orders/CD-0103-결과창-디자인-폴리싱-아웃게임-톤-일관-트렌디/_design/chars.txt",
 "at": "2026-11-22 20:55"
-},
-{
-"file": "studio/orders/CD-0103-결과창-디자인-폴리싱-아웃게임-톤-일관-트렌디/10-spec.md",
-"at": "2026-11-22 20:47"
 }
 ],
 "lastEdit": "2026-11-22 20:55",
 "lastEditTs": 1795348543.8769538,
-"lastCommitTs": 1795348562,
-"unpushed": 1,
-"notInMain": 1,
-"today": 317
+"lastCommitTs": 1795350507,
+"unpushed": 2,
+"notInMain": 2,
+"today": 318
 },
 {
 "branch": "cd-104",
 "lane": "cd-104",
 "session": "",
 "owns": "",
-"order": "CD-0100",
+"order": "CD-0097",
 "head": "bfc28cd",
 "commits": [
 {
@@ -1581,27 +1577,43 @@
 "msg": "CD-0100: 1-3 배속 안내에서 누르면 2배속 — 저장 배속 복원이 안내의 ×1 을 덮지 않게"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 25,
 "dirty": [
 {
-"file": "studio/orders/CD-0104-SD-캐릭터-크기-규격화-종족별-기준-키-등급과-크기-/00-order.md",
-"at": "2026-11-22 20:59"
+"file": "studio/orders/CD-0104-SD-캐릭터-크기-규격화-종족별-기준-키-등급과-크기-/21-client.md",
+"at": "2026-11-22 21:28"
 },
 {
-"file": "studio/orders/CD-0104-SD-캐릭터-크기-규격화-종족별-기준-키-등급과-크기-/_design/lineup-v1.png",
-"at": "2026-11-22 20:58"
+"file": "studio/checks.json",
+"at": "2026-11-22 21:28"
 },
 {
-"file": "studio/orders/CD-0104-SD-캐릭터-크기-규격화-종족별-기준-키-등급과-크기-/_design/lineup.py",
-"at": "2026-11-22 20:58"
+"file": "art/sd-size.json",
+"at": "2026-11-22 21:25"
 },
 {
-"file": "studio/orders/CD-0104-SD-캐릭터-크기-규격화-종족별-기준-키-등급과-크기-/10-spec.md",
-"at": "2026-11-22 20:58"
+"file": "art/tools/check.py",
+"at": "2026-11-22 21:25"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd67LobbyTests.cs",
+"at": "2026-11-22 21:24"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd32LegendTests.cs",
+"at": "2026-11-22 21:24"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd30K3ShotTests.cs",
+"at": "2026-11-22 21:24"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd28BoardTests.cs",
+"at": "2026-11-22 21:24"
 }
 ],
-"lastEdit": "2026-11-22 20:59",
-"lastEditTs": 1795348747.6129718,
+"lastEdit": "2026-11-22 21:28",
+"lastEditTs": 1795350539.2212138,
 "lastCommitTs": 1795348402,
 "unpushed": 0,
 "notInMain": 0,
@@ -1892,14 +1904,10 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 326,
+"commits": 314,
 "byOrder": [
 [
 "CD-0063",
-25
-],
-[
-"CD-0053",
 25
 ],
 [
@@ -1909,6 +1917,10 @@
 [
 "CD-0064",
 23
+],
+[
+"CD-0053",
+20
 ],
 [
 "기타",
@@ -1947,10 +1959,6 @@
 9
 ],
 [
-"CD-0050",
-9
-],
-[
 "CD-0074",
 7
 ],
@@ -1963,19 +1971,19 @@
 7
 ],
 [
+"CD-0050",
+7
+],
+[
 "CD-0078",
 6
 ],
 [
-"CD-0041",
-6
-],
-[
-"CD-0047",
-6
-],
-[
 "CD-0077",
+5
+],
+[
+"CD-0041",
 5
 ],
 [
@@ -2011,6 +2019,10 @@
 3
 ],
 [
+"CD-0103",
+2
+],
+[
 "CD-0100",
 2
 ],
@@ -2036,10 +2048,6 @@
 ],
 [
 "CD-0098",
-1
-],
-[
-"CD-0103",
 1
 ],
 [
@@ -2077,9 +2085,18 @@
 [
 "CD-0071",
 1
+],
+[
+"CD-0047",
+1
 ]
 ],
 "latest": [
+{
+"sha": "c40f90c6",
+"at": "2026-11-22 21:28",
+"msg": "CD-0103 기획서: 결과창 안 B «영웅 무대»(사용자 선택) — gate spec 통과"
+},
 {
 "sha": "1d916062",
 "at": "2026-11-22 21:04",
@@ -2124,11 +2141,6 @@
 "sha": "ff46ec6c",
 "at": "2026-11-22 17:08",
 "msg": "CD-0092 B: 접속 명령 · 서버 계정 문서 · 판 밖 명령 20개 등록(동작 변화 없음)"
-},
-{
-"sha": "26bd7e90",
-"at": "2026-11-22 16:25",
-"msg": "CD-0085 A: Core 의 계정 묶음 · 글 형식 · 판 밖 명령 20개 한 입구(동작 변화 없음)"
 }
 ]
 },
@@ -9030,7 +9042,7 @@
 "id": "CD-0103",
 "title": "결과창 디자인 폴리싱 아웃게임 톤 일관 트렌디",
 "branch": "cd-103",
-"updated": "2026-11-22 20:55",
+"updated": "2026-11-22 21:28",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -9040,14 +9052,24 @@
 "stage": "제작",
 "route": "fast",
 "risk": "low",
-"teams": "client, art",
+"teams": "client",
 "opened": "2026-11-22",
 "closed": "",
 "stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
+"goal": "<p>결과창(<code>UnityProject/Assets/_Game/UI/ResultScreen.cs</code>)을 판 밖 화면(로비 출전 패널 · «보상 획득» 띠 · 영웅 탭 배경)과 같은 부품으로 다시 짠다.</p>\n<ul>\n<li>위: 이 판의 «가장 잘 싸운 영웅» 일러스트가 영웅 탭과 같은 종족 배경 위에 크게. 승리 때만 금빛 햇살.\n</li>\n<li>아래: 로비 출전 패널 같은 네이비 판(화면 아래에 붙음)에 기록 · 보상 · 경험치 · 레벨 업 · 기여 · 버튼.\n</li></ul>",
+"goalShort": "결과창(UnityProject/Assets/_Game/UI/ResultScreen.cs)을 판 밖 화면(로비 출전 패널 · «보상 획득» 띠 · 영웅 탭 배경)과 같은 부품으로 다시 짠다.",
+"tasks": [
+{
+"id": "C1",
+"key": "CD-0103/C1",
+"team": "client",
+"title": "위 «화면» 대로 ResultScreen.cs 의 Build·BuildPayout·Bar·Arrange·FitPanel·Show(그림·글자 넣는 부분)·BuildBand(면·글자색)·TryFreeSpan(업적 띠가 쉴 곳 = 무대의 스테이지 알약 아래 ~ 이름판 위) 를 다시 짜고, 결과창을 보는 시험(EditMode Cd41ClientBEditTests 결과 부분 · Cd41ClientCEditTests · Cd36MatchGuideEditModeTests · Cd60LobbyEditModeTests 의 결과 부분, PlayMode Cd38ClientTests · Cd41ShotBTests · Cd15OutgameScreensTests · Cd36FirstEntryTests 의 결과 부분)을 새 구조의 같은 뜻으로 고친다",
+"output": "21-client.md",
+"status": "todo",
+"why": ""
+}
+],
 "phase": "doing",
 "builtIn": ""
 },
@@ -9055,24 +9077,44 @@
 "id": "CD-0104",
 "title": "SD 캐릭터 크기 규격화 - 종족별 기준 키, 등급과 크기 분리",
 "branch": "cd-104",
-"updated": "2026-11-22 20:59",
+"updated": "2026-11-22 21:28",
 "files": [
 "00-order.md",
 "10-spec.md",
+"21-client.md",
 "_design"
 ],
 "milestone": "M6",
 "stage": "제작",
 "route": "fast",
 "risk": "mid",
-"teams": "client, art",
+"teams": "client",
 "opened": "2026-11-22",
 "closed": "",
 "stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
+"goal": "<p>SD 캐릭터의 보이는 크기를 <strong>등급이 아니라 체형(종족 컨셉 + 설정상의 나이·모습)</strong> 으로 정한다. 표 하나를 판 안 · 로비 · 영웅 정보창이 같이 읽는다. 그림은 다시 뽑지 않는다(Codex 0장) — 그림 파일은 지금처럼 캔버스에 꽉 찬 채로 두고, 표시할 때 «몸 높이» 를 표의 값에 맞춘다.</p>",
+"goalShort": "SD 캐릭터의 보이는 크기를 등급이 아니라 체형(종족 컨셉 + 설정상의 나이·모습) 으로 정한다.",
+"tasks": [
+{
+"id": "1",
+"key": "CD-0104/1",
+"team": "client",
+"title": "크기 표 정본 art/sd-size.json(id → 몸 높이 %) + 생성 도구가 StageHeroBounds.cs 를 «주소 · 그림 크기 · 불투명 상자 · 몸 높이 %» 로 다시 만든다. 판 안(BoardView 의 영웅·전설 그림 상자) · 로비(LobbyStage.Place) · 정보창(Portraits.DetailScale)이 그 표를 읽는다. 등급 배율(StageScalePct) · 순위별 SlotHeight · DetailScales 를 걷어낸다. art/tools/check.py 에 «SD 그림마다 크기 표 줄이 있다 · 생성 파일이 표·그림과 같다» 검사. 옛 크기를 못 박은 시험(Cd28 · Cd30K3 · Cd32 · Cd67 · Cd89)을 새 규격으로 고치고, 새 EditMode 시험 Cd104 를 더한다",
+"output": "21-client.md",
+"status": "done",
+"why": "보고서 있음: 21-client.md"
+},
+{
+"id": "2",
+"key": "CD-0104/2",
+"team": "대표",
+"title": "docs/03 §8 · docs/15 · 스킬 cd-art §2 에 규격 적기, 결정 기록 초안(번호는 관제)",
+"output": "문서",
+"status": "todo",
+"why": ""
+}
+],
 "phase": "doing",
 "builtIn": ""
 }
@@ -9427,6 +9469,20 @@
 "createdAt": "2026-11-22 11:36",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/25"
+},
+{
+"no": 26,
+"title": "영웅 공격 범위를 칸 단위(걸침)로 판정하고 칸을 반짝여 표시",
+"state": "open",
+"phase": "done",
+"imp": "mid",
+"orders": [
+"CD-0083",
+"CD-0106"
+],
+"createdAt": "2026-11-22 12:31",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/26"
 }
 ],
 "versions": [
@@ -10403,10 +10459,10 @@
 "tab": "content",
 "file": "docs/15-캐릭터-단계-설정과-그림-제작계획.md",
 "title": "15. 캐릭터 단계 설정과 그림 제작 계획",
-"html": "<ul>\n<li>작성: 2026-11-15 · 상태: 단계별 방향은 사용자 지시(결정 0014). 세부 생김새는 대표 초안 — 그림을 뽑아 보고 고친다.\n</li>\n<li>정본 관계: 이름·성별은 <code>12-콘텐츠목록.md</code> §1, 화풍 규칙과 고정 문구는 <code>03-리소스계획.md</code> §8, 제작 목록과 상태는 <code>studio/art-manifest.json</code>(개발 현황 사이트의 «리소스» 탭이 이 파일을 읽는다).\n</li></ul>\n<h3>1. 단계가 오를 때의 느낌 (사용자 지시)</h3>\n<div class=tw><table><thead><tr><th>종족</th><th>1 → 4단계의 축</th></tr></thead><tbody><tr><td>인간</td><td><strong>신분이 오른다:</strong> 모험가 → 견습 기사 → 기사 → 정예 기사</td></tr><tr><td>엘프</td><td><strong>자란다:</strong> 어린아이 → 소녀 → 젊은 사냥꾼 → 어른 궁수</td></tr><tr><td>드워프</td><td><strong>자란다:</strong> 꼬마 → 소년 → 청년 → 어른</td></tr><tr><td>수인</td><td><strong>동물에서 수인으로:</strong> 새끼 맹수 → 어린 맹수 → 반쯤 일어선 반수인 → 수인</td></tr><tr><td>정령</td><td><strong>형체 없는 것에서 사람 모양으로:</strong> 빛 방울 → 윤곽이 생긴 빛 → 반쯤 사람 모양 → 사람 모양</td></tr><tr><td>용족</td><td><strong>알에서 폴리모프까지:</strong> 알을 깨고 나온 해츨링 → 어린 용 → 젊은 용 → 사람 모양으로 변한 용</td></tr></tbody></table></div>\n<ul>\n<li>4단계 여섯 장은 이미 확정했고(결정 0013) 위 축의 끝과 맞는다.\n</li>\n<li>장식 사다리: 1단계는 장식 없음 → 2단계 소품 하나 → 3단계 장비가 갖춰짐 → 4단계 절제된 정예(금테 한 줄 수준) → 상위 성장(기획 전)에서 가장 화려하게.\n</li>\n<li>종족 배색은 네 단계에서 같다: 인간 은색·파랑 / 엘프 초록·흰색·금발 / 드워프 청동·검붉은 색·주황 수염 / 수인 황갈색 털·청록 천 / 정령 연하늘·흰색·연금색 / 용족 진홍·검정.\n</li>\n<li>속성 표현(불·얼음·번개)은 넣지 않는다. 정령의 1단계는 «자연 현상» 이 아니라 <strong>빛 방울</strong>로 그린다. 용족은 불을 뿜지 않는다.\n</li></ul>\n<h3>2. 24명 설정표</h3>\n<p>무기는 지금 역할 초안을 따른다. 역할이 바뀌면 무기만 다시 그린다.</p>\n<h4>인간 (남성) — 신분이 오른다</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>테오</td><td>10대 후반의 풋내기 모험가. 가죽 조끼, 낡은 짧은 검, 등에 배낭, 목에 파란 스카프. 방패 없음</td></tr><tr><td>2</td><td>에단</td><td>견습 기사. 누비 갑옷 위에 사슬 조끼, 훈련용 검, 둥근 나무 방패, 짧은 파란 어깨 망토</td></tr><tr><td>3</td><td>세드릭</td><td>기사. 판금 흉갑과 팔다리 보호대, 장검, 무늬 없는 연 모양 방패, 허리까지 오는 파란 망토</td></tr><tr><td>4</td><td>레오폴드</td><td>정예 기사(확정본). 전신 판금에 금테 한 줄, 긴 파란 망토, 장검, 파란 갈매기 무늬 방패</td></tr></tbody></table></div>\n<h4>엘프 (여성) — 자란다</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>리엘</td><td>예닐곱 살 아이. 큰 귀, 짧은 금발, 헐렁한 초록 겉옷, 장난감 같은 작은 활</td></tr><tr><td>2</td><td>세린</td><td>열두세 살 소녀. 어깨 길이 머리, 연습용 짧은 활, 흰 겉옷과 초록 조끼, 작은 화살통</td></tr><tr><td>3</td><td>시레아</td><td>열일곱쯤의 젊은 사냥꾼. 긴 머리를 하나로 묶음, 사냥 활, 초록 두건 망토, 가죽 팔 보호대</td></tr><tr><td>4</td><td>이실리아</td><td>어른 궁수(확정본). 긴 금발, 잎 머리핀, 흰색·초록 겉옷, 긴 활</td></tr></tbody></table></div>\n<h4>드워프 (남성) — 자란다</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>그론</td><td>수염 없는 꼬마. 머리에 냄비를 투구처럼 씀, 주황 더벅머리, 멜빵 바지, 새총</td></tr><tr><td>2</td><td>보르딘</td><td>소년. 턱에 짧은 주황 수염, 가죽 앞치마, 작은 무쇠 투구, 손에 드는 작은 화약통 발사기</td></tr><tr><td>3</td><td>할드레크</td><td>청년. 한 갈래로 땋기 시작한 수염, 뿔 없는 무쇠 투구, 청동 흉갑, 어깨에 메는 짧은 포</td></tr><tr><td>4</td><td>달그룬드</td><td>어른(확정본). 크게 땋은 수염, 뿔 달린 투구, 무쇠·청동 갑옷, 검붉은 망토, 큰 손대포</td></tr></tbody></table></div>\n<h4>수인 (여성) — 동물에서 수인으로</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>카자</td><td>새끼 맹수. 네 발로 걷는 황갈색 새끼(큰 귀, 큰 발), 사람 요소 없음, 목에 청록 끈 하나</td></tr><tr><td>2</td><td>자야</td><td>어린 맹수. 네 발, 몸이 늘씬해짐, 줄무늬가 또렷, 목에 청록 스카프, 발톱이 드러남</td></tr><tr><td>3</td><td>바리카</td><td>반수인. 두 발로 서지만 얼굴과 다리는 아직 동물, 사람처럼 쓰는 앞발, 청록 천 조끼, 머리털이 자라기 시작</td></tr><tr><td>4</td><td>라자카</td><td>수인(확정본). 사람 체형, 크림색 머리, 청록 옷, 청동 발톱 장갑</td></tr></tbody></table></div>\n<h4>정령 (여성) — 형체 없는 것에서 사람 모양으로</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>펠리</td><td>빛 방울. 주먹만 한 연하늘색 빛 덩어리, 둥근 눈 둘, 꼬리처럼 흐르는 빛줄기, 팔다리 없음</td></tr><tr><td>2</td><td>벨리사</td><td>윤곽이 생긴 빛. 머리와 몸통이 나뉨, 작은 손 모양이 돋음, 머리 위에 희미한 고리, 하체는 흐르는 꼬리</td></tr><tr><td>3</td><td>멜리안테</td><td>반쯤 사람 모양. 얼굴·어깨·팔이 또렷, 긴 빛 머리카락, 작은 빛 날개 한 쌍, 허리 아래는 흐르는 빛, 짧은 지팡이</td></tr><tr><td>4</td><td>오베리아</td><td>사람 모양(확정본). 흰 옷, 금색 띠, 빛 날개, 흰 구슬 지팡이</td></tr></tbody></table></div>\n<h4>용족 (여성) — 알에서 폴리모프까지</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>라카</td><td>해츨링. 깨진 알껍데기에 반쯤 들어앉은 진홍색 새끼 용, 큰 눈, 뿔 자리에 작은 혹</td></tr><tr><td>2</td><td>드레나</td><td>어린 용. 네 발로 걷는 강아지 크기, 작은 날개, 짧은 뿔, 통통한 꼬리</td></tr><tr><td>3</td><td>타르기아</td><td>젊은 용. 날개를 편 늘씬한 용, 뿔이 길게 자람, 사람 요소 없음</td></tr><tr><td>4</td><td>아즈가리아</td><td>폴리모프한 모습(확정본). 뿔·비늘·꼬리·작은 날개가 남은 사람 모양, 검정·진홍 갑옷, 긴 자루 창</td></tr></tbody></table></div>\n<h4>전설 (5단계, 결정 0060 — CD-0032) · 인간 먼저</h4>\n<div class=tw><table><thead><tr><th>갈래</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>검의 길</td><td>발데마르</td><td>20대 후반. 길러서 목덜미에서 묶은 갈색 머리, 파란 눈, 이마에 가는 은관. 금 테두리·새김 문양의 은색 판금, 높은 깃, 파란 망토 두 겹(안감 흰색), 금 손잡이·파란 보석의 양손 대검</td></tr><tr><td>군주의 길</td><td>게르하르트</td><td>30대 초반. 짧은 짙은 갈색 머리와 짧은 수염, 파란 보석 금 왕관. 은색 판금 위 진한 파랑 왕의 예복(흰 털 테두리·금 자수), 금 갈매기 문양의 큰 탑 방패, 왕홀 모양 전투 망치</td></tr></tbody></table></div>\n<ul>\n<li>장식 사다리의 끝: 왕관·예복·빽빽한 새김·보석은 전설에서만 쓴다. 인간 배색(은색·파랑)과 갈색 머리·파란 눈은 그대로.\n</li>\n<li>인게임은 <strong>포즈 셋</strong>: 대기·준비·타격 세 장(<code>art/final/sprite/legend/&lt;id&gt;/idle|windup|strike.png</code>, 발 위치·가로 위치를 셋이 같게 맞춘다 — <code>accept.py --legend</code>). 일러스트 <code>art/final/illust/legend/&lt;id&gt;.png</code>.\n</li>\n<li>원래 세션(<code>series.py legend:&lt;id&gt;</code>, <code>sd:legend:&lt;id&gt;:&lt;pose&gt;</code>)에서 그린다. 첫 시안 2026-11-18, 사용자 확정 2026-11-19.\n</li></ul>\n<h4>확인이 필요한 점</h4>\n<ul>\n<li><strong>이름:</strong> 결정 0012 는 «네 단계는 서로 다른 인물» 이었다. 이번 방향(자란다·변한다)은 한 인물의 성장으로 읽힌다. 지금은 이름 24개를 그대로 두었다(종족의 성장 단계를 대표하는 네 인물로 읽는다). 한 인물로 가려면 종족당 이름 하나로 줄이면 된다 → 사용자 확인.\n</li>\n<li>수인 1~2단계와 용족 1~3단계는 무기를 들지 못한다. 공격 연출은 몸(발톱·꼬리·박치기)으로 한다.\n</li></ul>\n<h3>3. 그림 제작 목록</h3>\n<div class=tw><table><thead><tr><th>묶음</th><th>장수</th><th>상태</th><th>비고</th></tr></thead><tbody><tr><td>로딩 화면 원화</td><td>1</td><td>계획</td><td>세로 9:16. 관문 앞에 선 여섯 종족과 하늘의 그림자 균열. 게임 이름 로고 자리를 비운다(이름 미정)</td></tr><tr><td>로비 뒤판</td><td>1</td><td>계획</td><td>세로 9:16. 로비 와이어프레임 확정 뒤</td></tr><tr><td>박스 뽑기 원화</td><td>1~2</td><td>계획</td><td>컨셉 확정 뒤</td></tr><tr><td>일러스트 4단계</td><td>6</td><td><strong>확정</strong></td><td><code>art/final/illust/&lt;종족&gt;/4.png</code></td></tr><tr><td>일러스트 1~3단계</td><td>18</td><td>계획</td><td>종족마다 같은 Codex 세션에서 1→2→3 을 잇는다</td></tr><tr><td>인게임 SD 그림</td><td>24</td><td>계획(16은 임시 그림 있음)</td><td>SD 2.5~3등신, 셀화풍, 오른쪽을 보는 옆모습, 512×512 투명</td></tr><tr><td>몬스터(그림자 무리)</td><td>20</td><td>군단 재기획 뒤</td><td></td></tr></tbody></table></div>\n<p>합계 약 51~52장(몬스터 제외), 재시도 20% 를 잡으면 약 62장.</p>\n<h3>4. Codex 한도와 순서</h3>\n<ul>\n<li>이 도구의 상한: 5시간 20장, 7일 150장(추정값). 2026-11-15 21:05~21:39 에 20장을 써서 <strong>11-16 02:05 부터</strong> 다시 열린다. 7일 합계는 29/150.\n</li>\n<li>62장이면 5시간 창 네 번(약 15시간)이 필요하다. 사용자가 실제 사용률을 확인해 상한을 올려 주면 줄어든다.\n</li>\n<li>순서: ① 로딩 원화 1 + 4단계 SD 6(일러스트와 짝) → ② 1~3단계 일러스트 18(종족 단위) → ③ 1~3단계 SD 18 → ④ 로비 뒤판·박스 원화(시안 확정 뒤).\n</li>\n<li>한 장마다 대표가 눈으로 검수하고, 통과한 것만 <code>art/final/</code> 로 옮긴 뒤 장부와 매니페스트를 고친다.\n</li></ul>",
-"at": "2026-11-19 07:44",
-"branch": "main",
-"dirty": false
+"html": "<ul>\n<li>작성: 2026-11-15 · 상태: 단계별 방향은 사용자 지시(결정 0014). 세부 생김새는 대표 초안 — 그림을 뽑아 보고 고친다.\n</li>\n<li>정본 관계: 이름·성별은 <code>12-콘텐츠목록.md</code> §1, 화풍 규칙과 고정 문구는 <code>03-리소스계획.md</code> §8, 제작 목록과 상태는 <code>studio/art-manifest.json</code>(개발 현황 사이트의 «리소스» 탭이 이 파일을 읽는다).\n</li></ul>\n<h3>1. 단계가 오를 때의 느낌 (사용자 지시)</h3>\n<div class=tw><table><thead><tr><th>종족</th><th>1 → 4단계의 축</th></tr></thead><tbody><tr><td>인간</td><td><strong>신분이 오른다:</strong> 모험가 → 견습 기사 → 기사 → 정예 기사</td></tr><tr><td>엘프</td><td><strong>자란다:</strong> 어린아이 → 소녀 → 젊은 사냥꾼 → 어른 궁수</td></tr><tr><td>드워프</td><td><strong>자란다:</strong> 꼬마 → 소년 → 청년 → 어른</td></tr><tr><td>수인</td><td><strong>동물에서 수인으로:</strong> 새끼 맹수 → 어린 맹수 → 반쯤 일어선 반수인 → 수인</td></tr><tr><td>정령</td><td><strong>형체 없는 것에서 사람 모양으로:</strong> 빛 방울 → 윤곽이 생긴 빛 → 반쯤 사람 모양 → 사람 모양</td></tr><tr><td>용족</td><td><strong>알에서 폴리모프까지:</strong> 알을 깨고 나온 해츨링 → 어린 용 → 젊은 용 → 사람 모양으로 변한 용</td></tr></tbody></table></div>\n<ul>\n<li>4단계 여섯 장은 이미 확정했고(결정 0013) 위 축의 끝과 맞는다.\n</li>\n<li>장식 사다리: 1단계는 장식 없음 → 2단계 소품 하나 → 3단계 장비가 갖춰짐 → 4단계 절제된 정예(금테 한 줄 수준) → 상위 성장(기획 전)에서 가장 화려하게.\n</li>\n<li>종족 배색은 네 단계에서 같다: 인간 은색·파랑 / 엘프 초록·흰색·금발 / 드워프 청동·검붉은 색·주황 수염 / 수인 황갈색 털·청록 천 / 정령 연하늘·흰색·연금색 / 용족 진홍·검정.\n</li>\n<li>속성 표현(불·얼음·번개)은 넣지 않는다. 정령의 1단계는 «자연 현상» 이 아니라 <strong>빛 방울</strong>로 그린다. 용족은 불을 뿜지 않는다.\n</li></ul>\n<h4>1-1. SD 의 보이는 크기 — 등급이 아니라 체형 (CD-0104, 사용자 지시 2026-11-22)</h4>\n<p>사용자: «크기를 정확하게 규격화 … 종족별 특징이나 컨셉을 명확하게 … 등급이 높아진다고 커질 이유도 없어.» 판 안 · 로비 · 영웅 정보창은 아래 표 하나로 크기를 정한다. 값은 <strong>몸 높이</strong>(그림의 불투명 상자 높이), 인간 어른 = 100. 정본은 <code>art/sd-size.json</code>, 화면이 읽는 생성 파일은 <code>StageHeroBounds.cs</code>(<code>python -I -X utf8 art/tools/gen_sd_size.py</code>).</p>\n<div class=tw><table><thead><tr><th>종족</th><th>체형 컨셉</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td>인간</td><td>기준 체형. 신분만 오르고 키는 같다</td><td>100</td><td>100</td><td>100</td><td>100</td></tr><tr><td>엘프</td><td>가늘고 길쭉하다. 아이에서 어른으로 자란다</td><td>72</td><td>86</td><td>100</td><td>100</td></tr><tr><td>드워프</td><td>작고 다부지다. 어른도 인간의 0.8</td><td>62</td><td>70</td><td>80</td><td>82</td></tr><tr><td>수인</td><td>네 발 새끼에서 큼직한 수인으로. 다 자라면 가장 크다</td><td>60</td><td>66</td><td>96</td><td>108</td></tr><tr><td>정령</td><td>빛 방울에서 사람 모양으로. 떠 있다</td><td>60</td><td>68</td><td>88</td><td>96</td></tr><tr><td>용족</td><td>해츨링에서 사람 모양으로</td><td>60</td><td>66</td><td>86</td><td>100</td></tr></tbody></table></div>\n<ul>\n<li>전설은 인간 어른과 같다(발데마르 100 · 게르하르트 106 — 왕관이 몸 높이에 들어가서).\n</li>\n<li><strong>등급(단계) 자체로는 커지지 않는다.</strong> 작은 것은 «낮은 등급이라서» 가 아니라 설정이 아이·새끼·빛 방울이라서다. 등급 차이는 옷·장비·발판 고리·효과로 낸다.\n</li>\n<li>최소 60: 판 위에서 못 알아볼 만큼 작아지지 않게.\n</li>\n<li>100 의 크기: 판 안 = 칸의 0.95, 로비 = 270(1080 폭 기준). 그림 파일은 지금처럼 캔버스에 꽉 채워 받고(<code>accept.py</code>), 화면이 표 값으로 맞춘다 — 새 SD 를 받을 때 표에 줄을 넣지 않으면 <code>check.py</code> 가 막는다.\n</li>\n<li>새 영웅·새 종족은 그림을 뽑기 전에 이 표의 값부터 정한다.\n</li></ul>\n<h3>2. 24명 설정표</h3>\n<p>무기는 지금 역할 초안을 따른다. 역할이 바뀌면 무기만 다시 그린다.</p>\n<h4>인간 (남성) — 신분이 오른다</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>테오</td><td>10대 후반의 풋내기 모험가. 가죽 조끼, 낡은 짧은 검, 등에 배낭, 목에 파란 스카프. 방패 없음</td></tr><tr><td>2</td><td>에단</td><td>견습 기사. 누비 갑옷 위에 사슬 조끼, 훈련용 검, 둥근 나무 방패, 짧은 파란 어깨 망토</td></tr><tr><td>3</td><td>세드릭</td><td>기사. 판금 흉갑과 팔다리 보호대, 장검, 무늬 없는 연 모양 방패, 허리까지 오는 파란 망토</td></tr><tr><td>4</td><td>레오폴드</td><td>정예 기사(확정본). 전신 판금에 금테 한 줄, 긴 파란 망토, 장검, 파란 갈매기 무늬 방패</td></tr></tbody></table></div>\n<h4>엘프 (여성) — 자란다</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>리엘</td><td>예닐곱 살 아이. 큰 귀, 짧은 금발, 헐렁한 초록 겉옷, 장난감 같은 작은 활</td></tr><tr><td>2</td><td>세린</td><td>열두세 살 소녀. 어깨 길이 머리, 연습용 짧은 활, 흰 겉옷과 초록 조끼, 작은 화살통</td></tr><tr><td>3</td><td>시레아</td><td>열일곱쯤의 젊은 사냥꾼. 긴 머리를 하나로 묶음, 사냥 활, 초록 두건 망토, 가죽 팔 보호대</td></tr><tr><td>4</td><td>이실리아</td><td>어른 궁수(확정본). 긴 금발, 잎 머리핀, 흰색·초록 겉옷, 긴 활</td></tr></tbody></table></div>\n<h4>드워프 (남성) — 자란다</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>그론</td><td>수염 없는 꼬마. 머리에 냄비를 투구처럼 씀, 주황 더벅머리, 멜빵 바지, 새총</td></tr><tr><td>2</td><td>보르딘</td><td>소년. 턱에 짧은 주황 수염, 가죽 앞치마, 작은 무쇠 투구, 손에 드는 작은 화약통 발사기</td></tr><tr><td>3</td><td>할드레크</td><td>청년. 한 갈래로 땋기 시작한 수염, 뿔 없는 무쇠 투구, 청동 흉갑, 어깨에 메는 짧은 포</td></tr><tr><td>4</td><td>달그룬드</td><td>어른(확정본). 크게 땋은 수염, 뿔 달린 투구, 무쇠·청동 갑옷, 검붉은 망토, 큰 손대포</td></tr></tbody></table></div>\n<h4>수인 (여성) — 동물에서 수인으로</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>카자</td><td>새끼 맹수. 네 발로 걷는 황갈색 새끼(큰 귀, 큰 발), 사람 요소 없음, 목에 청록 끈 하나</td></tr><tr><td>2</td><td>자야</td><td>어린 맹수. 네 발, 몸이 늘씬해짐, 줄무늬가 또렷, 목에 청록 스카프, 발톱이 드러남</td></tr><tr><td>3</td><td>바리카</td><td>반수인. 두 발로 서지만 얼굴과 다리는 아직 동물, 사람처럼 쓰는 앞발, 청록 천 조끼, 머리털이 자라기 시작</td></tr><tr><td>4</td><td>라자카</td><td>수인(확정본). 사람 체형, 크림색 머리, 청록 옷, 청동 발톱 장갑</td></tr></tbody></table></div>\n<h4>정령 (여성) — 형체 없는 것에서 사람 모양으로</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>펠리</td><td>빛 방울. 주먹만 한 연하늘색 빛 덩어리, 둥근 눈 둘, 꼬리처럼 흐르는 빛줄기, 팔다리 없음</td></tr><tr><td>2</td><td>벨리사</td><td>윤곽이 생긴 빛. 머리와 몸통이 나뉨, 작은 손 모양이 돋음, 머리 위에 희미한 고리, 하체는 흐르는 꼬리</td></tr><tr><td>3</td><td>멜리안테</td><td>반쯤 사람 모양. 얼굴·어깨·팔이 또렷, 긴 빛 머리카락, 작은 빛 날개 한 쌍, 허리 아래는 흐르는 빛, 짧은 지팡이</td></tr><tr><td>4</td><td>오베리아</td><td>사람 모양(확정본). 흰 옷, 금색 띠, 빛 날개, 흰 구슬 지팡이</td></tr></tbody></table></div>\n<h4>용족 (여성) — 알에서 폴리모프까지</h4>\n<div class=tw><table><thead><tr><th>단계</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>1</td><td>라카</td><td>해츨링. 깨진 알껍데기에 반쯤 들어앉은 진홍색 새끼 용, 큰 눈, 뿔 자리에 작은 혹</td></tr><tr><td>2</td><td>드레나</td><td>어린 용. 네 발로 걷는 강아지 크기, 작은 날개, 짧은 뿔, 통통한 꼬리</td></tr><tr><td>3</td><td>타르기아</td><td>젊은 용. 날개를 편 늘씬한 용, 뿔이 길게 자람, 사람 요소 없음</td></tr><tr><td>4</td><td>아즈가리아</td><td>폴리모프한 모습(확정본). 뿔·비늘·꼬리·작은 날개가 남은 사람 모양, 검정·진홍 갑옷, 긴 자루 창</td></tr></tbody></table></div>\n<h4>전설 (5단계, 결정 0060 — CD-0032) · 인간 먼저</h4>\n<div class=tw><table><thead><tr><th>갈래</th><th>이름</th><th>모습</th></tr></thead><tbody><tr><td>검의 길</td><td>발데마르</td><td>20대 후반. 길러서 목덜미에서 묶은 갈색 머리, 파란 눈, 이마에 가는 은관. 금 테두리·새김 문양의 은색 판금, 높은 깃, 파란 망토 두 겹(안감 흰색), 금 손잡이·파란 보석의 양손 대검</td></tr><tr><td>군주의 길</td><td>게르하르트</td><td>30대 초반. 짧은 짙은 갈색 머리와 짧은 수염, 파란 보석 금 왕관. 은색 판금 위 진한 파랑 왕의 예복(흰 털 테두리·금 자수), 금 갈매기 문양의 큰 탑 방패, 왕홀 모양 전투 망치</td></tr></tbody></table></div>\n<ul>\n<li>장식 사다리의 끝: 왕관·예복·빽빽한 새김·보석은 전설에서만 쓴다. 인간 배색(은색·파랑)과 갈색 머리·파란 눈은 그대로.\n</li>\n<li>인게임은 <strong>포즈 셋</strong>: 대기·준비·타격 세 장(<code>art/final/sprite/legend/&lt;id&gt;/idle|windup|strike.png</code>, 발 위치·가로 위치를 셋이 같게 맞춘다 — <code>accept.py --legend</code>). 일러스트 <code>art/final/illust/legend/&lt;id&gt;.png</code>.\n</li>\n<li>원래 세션(<code>series.py legend:&lt;id&gt;</code>, <code>sd:legend:&lt;id&gt;:&lt;pose&gt;</code>)에서 그린다. 첫 시안 2026-11-18, 사용자 확정 2026-11-19.\n</li></ul>\n<h4>확인이 필요한 점</h4>\n<ul>\n<li><strong>이름:</strong> 결정 0012 는 «네 단계는 서로 다른 인물» 이었다. 이번 방향(자란다·변한다)은 한 인물의 성장으로 읽힌다. 지금은 이름 24개를 그대로 두었다(종족의 성장 단계를 대표하는 네 인물로 읽는다). 한 인물로 가려면 종족당 이름 하나로 줄이면 된다 → 사용자 확인.\n</li>\n<li>수인 1~2단계와 용족 1~3단계는 무기를 들지 못한다. 공격 연출은 몸(발톱·꼬리·박치기)으로 한다.\n</li></ul>\n<h3>3. 그림 제작 목록</h3>\n<div class=tw><table><thead><tr><th>묶음</th><th>장수</th><th>상태</th><th>비고</th></tr></thead><tbody><tr><td>로딩 화면 원화</td><td>1</td><td>계획</td><td>세로 9:16. 관문 앞에 선 여섯 종족과 하늘의 그림자 균열. 게임 이름 로고 자리를 비운다(이름 미정)</td></tr><tr><td>로비 뒤판</td><td>1</td><td>계획</td><td>세로 9:16. 로비 와이어프레임 확정 뒤</td></tr><tr><td>박스 뽑기 원화</td><td>1~2</td><td>계획</td><td>컨셉 확정 뒤</td></tr><tr><td>일러스트 4단계</td><td>6</td><td><strong>확정</strong></td><td><code>art/final/illust/&lt;종족&gt;/4.png</code></td></tr><tr><td>일러스트 1~3단계</td><td>18</td><td>계획</td><td>종족마다 같은 Codex 세션에서 1→2→3 을 잇는다</td></tr><tr><td>인게임 SD 그림</td><td>24</td><td>계획(16은 임시 그림 있음)</td><td>SD 2.5~3등신, 셀화풍, 오른쪽을 보는 옆모습, 512×512 투명</td></tr><tr><td>몬스터(그림자 무리)</td><td>20</td><td>군단 재기획 뒤</td><td></td></tr></tbody></table></div>\n<p>합계 약 51~52장(몬스터 제외), 재시도 20% 를 잡으면 약 62장.</p>\n<h3>4. Codex 한도와 순서</h3>\n<ul>\n<li>이 도구의 상한: 5시간 20장, 7일 150장(추정값). 2026-11-15 21:05~21:39 에 20장을 써서 <strong>11-16 02:05 부터</strong> 다시 열린다. 7일 합계는 29/150.\n</li>\n<li>62장이면 5시간 창 네 번(약 15시간)이 필요하다. 사용자가 실제 사용률을 확인해 상한을 올려 주면 줄어든다.\n</li>\n<li>순서: ① 로딩 원화 1 + 4단계 SD 6(일러스트와 짝) → ② 1~3단계 일러스트 18(종족 단위) → ③ 1~3단계 SD 18 → ④ 로비 뒤판·박스 원화(시안 확정 뒤).\n</li>\n<li>한 장마다 대표가 눈으로 검수하고, 통과한 것만 <code>art/final/</code> 로 옮긴 뒤 장부와 매니페스트를 고친다.\n</li></ul>",
+"at": "2026-11-22 21:21",
+"branch": "cd-104",
+"dirty": true
 }
 ],
 "data": {
@@ -21630,11 +21686,11 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
-"passed": 710,
+"at": "2026-11-22 21:26",
+"commit": "bfc28cd3+수정",
+"passed": 1064,
 "failed": 2,
-"total": 713,
+"total": 1067,
 "ok": false
 },
 "unity": {
@@ -21649,8 +21705,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 21:26",
+"commit": "bfc28cd3+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21658,8 +21714,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 21:26",
+"commit": "bfc28cd3+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21667,8 +21723,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 21:26",
+"commit": "bfc28cd3+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21676,8 +21732,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 21:26",
+"commit": "bfc28cd3+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21879,7 +21935,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 21:10",
-"generatedAt": "2026-11-22 21:17",
-"digest": "afef51c7271cd175"
+"sourceAt": "2026-11-22 21:31",
+"generatedAt": "2026-11-22 21:31",
+"digest": "f7a3cc391f12c2a0"
 }
