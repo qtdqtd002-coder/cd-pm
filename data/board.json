@@ -1304,9 +1304,21 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0089",
-"head": "c5d9614",
+"order": "CD-0085",
+"head": "b00ecd1",
 "commits": [
+{
+"sha": "b00ecd1d",
+"at": "2026-11-22 17:43",
+"ts": 1795337029,
+"msg": "병합: cd-96 d3e2e117(CD-0096 B-2 — 판 명령·저장 가져오기·운영 우편 서버 읽기, Core 975/978 · Server 219/219)"
+},
+{
+"sha": "d3e2e117",
+"at": "2026-11-22 17:43",
+"ts": 1795337008,
+"msg": "CD-0096 B-2: 판 명령 · 테스터 저장 가져오기 · 운영 우편 서버 읽기(동작 변화 없음)"
+},
 {
 "sha": "c5d9614f",
 "at": "2026-11-22 17:09",
@@ -1330,18 +1342,6 @@
 "at": "2026-11-22 16:25",
 "ts": 1795332303,
 "msg": "CD-0085 A: Core 의 계정 묶음 · 글 형식 · 판 밖 명령 20개 한 입구(동작 변화 없음)"
-},
-{
-"sha": "fd20826c",
-"at": "2026-11-22 15:45",
-"ts": 1795329909,
-"msg": "Merge branch 'main' into cd-85"
-},
-{
-"sha": "2f62c9a4",
-"at": "2026-11-22 15:44",
-"ts": 1795329841,
-"msg": "CD-0085 정본 이전: 설계안(코드 없음 — 사용자 결정 3개와 주문 나누기 대기)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795334948,
+"lastCommitTs": 1795337029,
 "unpushed": 0,
 "notInMain": 0,
-"today": 308
+"today": 310
 },
 {
 "branch": "cd-84",
@@ -1499,7 +1499,7 @@
 "lane": "cd-92",
 "session": "",
 "owns": "",
-"order": "CD-0089",
+"order": "CD-0085",
 "head": "ff46ec6",
 "commits": [
 {
@@ -1553,9 +1553,15 @@
 "lane": "cd-96",
 "session": "",
 "owns": "",
-"order": "CD-0089",
-"head": "c5d9614",
+"order": "CD-0085",
+"head": "d3e2e11",
 "commits": [
+{
+"sha": "d3e2e117",
+"at": "2026-11-22 17:43",
+"ts": 1795337008,
+"msg": "CD-0096 B-2: 판 명령 · 테스터 저장 가져오기 · 운영 우편 서버 읽기(동작 변화 없음)"
+},
 {
 "sha": "c5d9614f",
 "at": "2026-11-22 17:09",
@@ -1585,43 +1591,16 @@
 "at": "2026-11-22 15:45",
 "ts": 1795329909,
 "msg": "Merge branch 'main' into cd-85"
-},
-{
-"sha": "2f62c9a4",
-"at": "2026-11-22 15:44",
-"ts": 1795329841,
-"msg": "CD-0085 정본 이전: 설계안(코드 없음 — 사용자 결정 3개와 주문 나누기 대기)"
 }
 ],
-"dirtyCount": 5,
-"dirty": [
-{
-"file": "Server/package/Runtime/AccountDoc.cs",
-"at": "2026-11-22 17:17"
-},
-{
-"file": "Server/package/Runtime/GameServer.cs",
-"at": "2026-11-22 17:17"
-},
-{
-"file": "Core/package/Runtime/Meta/MatchFactsCodec.cs",
-"at": "2026-11-22 17:17"
-},
-{
-"file": "studio/orders/CD-0096-서버-B-2-판-명령-테스터-저장-가져오기-운영-우편-/00-order.md",
-"at": "2026-11-22 17:14"
-},
-{
-"file": "studio/orders/CD-0096-서버-B-2-판-명령-테스터-저장-가져오기-운영-우편-/10-spec.md",
-"at": "2026-11-22 17:14"
-}
-],
-"lastEdit": "2026-11-22 17:17",
-"lastEditTs": 1795335453.1952026,
-"lastCommitTs": 1795334948,
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795337008,
 "unpushed": 0,
 "notInMain": 0,
-"today": 308
+"today": 309
 },
 {
 "branch": "rel-0100",
@@ -1858,15 +1837,15 @@
 6
 ],
 [
-"CD-0045",
-6
-],
-[
 "CD-0077",
 5
 ],
 [
 "CD-0049",
+5
+],
+[
+"CD-0045",
 5
 ],
 [
@@ -1918,6 +1897,10 @@
 2
 ],
 [
+"CD-0096",
+1
+],
+[
 "CD-0092",
 1
 ],
@@ -1947,6 +1930,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "d3e2e117",
+"at": "2026-11-22 17:43",
+"msg": "CD-0096 B-2: 판 명령 · 테스터 저장 가져오기 · 운영 우편 서버 읽기(동작 변화 없음)"
+},
 {
 "sha": "ff46ec6c",
 "at": "2026-11-22 17:08",
@@ -1991,11 +1979,6 @@
 "sha": "46585bfb",
 "at": "2026-11-22 15:18",
 "msg": "CD-0090 반영 실측: EditMode Cd78 2/2 · PlayMode Cd90MapReflectTests 3/3(12×16 배치·진짜 맵 전부가 판에 그대로) · 시험 .meta · 90-close · stage 마감"
-},
-{
-"sha": "43b4c53f",
-"at": "2026-11-22 15:11",
-"msg": "개발일지 11-22: 앱 0.10.0 폰 배포(Firebase 1gqvoqamgcreo · base_id 96f7eca1 · CCD 릴리스 35~37)"
 }
 ]
 },
@@ -8609,20 +8592,22 @@
 {
 "id": "CD-0096",
 "title": "서버 B-2 — 판 명령 · 테스터 저장 가져오기 · 운영 우편 서버 읽기",
-"branch": "cd-96",
-"updated": "2026-11-22 17:14",
+"branch": "main",
+"updated": "2026-11-22 17:43",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"20-core.md",
+"90-close.md"
 ],
 "milestone": "M7",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "core",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>기기 흐름은 건드리지 않는다 — <strong>동작 변화 없음</strong>. 서버 라이브러리에 남은 세 가지를 더한다(시험은 메모리 저장소로).</p>\n<ol>\n<li><strong>판 명령</strong>: <code>match.spend</code>(판 시작 — 행동력 차감과 판 표) · <code>match.settle</code>(판 끝 — 보상을 서버가 다시 계산해 정산).\n</li>\n<li><strong>테스터 저장 가져오기</strong> <code>account.import</code>(개발용 서버 설정에서만, 계정당 한 번).\n</li>\n<li><strong>운영 우편을 서버가 읽기</strong> — <code>session.open</code> 이 <code>ops_events</code> 를 받아 서버가 배달한다.\n</li></ol>",
 "goalShort": "기기 흐름은 건드리지 않는다",
@@ -8633,8 +8618,8 @@
 "team": "core",
 "title": "D1 — MatchFactsCodec(Core) · match.spend · match.settle + 시험(시작 → 정산의 흐름 · 표 없이 정산 = no_match · 같은 표로 두 번 정산 불가 · 다른 스테이지의 facts 거절 · 잠긴 스테이지 = stage_locked · 행동력 부족 · 범위를 어긴 facts 15가지 이상 · 기기가 보낸 보상을 무시(요청에 큰 reward 를 넣어도 서버 계산값) · 승리/패배/포기의 보상이 Reward.For 와 같음 · 첫 클리어의 균열석과 해금 · 같은 요청 id 두 번 = 정산 한 번 · 저장소 호출 읽기 1·쓰기 1 · 답에 시드 숫자 없음)",
 "output": "코드 · 시험 · 20-core.md «C1»",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -8642,11 +8627,11 @@
 "team": "core",
 "title": "D2 — account.import · flags.rekeyKuji · IOpsSource 와 session.open 연결 + 시험(기본은 not_allowed · 켜면 새 계정에만 · 두 번째는 already_started · 깨진 글 거절 · uid 이어받기와 겹칠 때 새 발급 · 초월 시드가 바뀜 · 쿠지 판 유지/새 판 두 설정 · 가져온 뒤 판을 닫으면 다음 판 시드가 NextSeed(가져온 시드) 가 아님 · 답에 시드 숫자 없음 · 운영 우편이 접속 때 배달되고 두 번 배달되지 않음 · 소스 실패에도 접속됨 · 캐시)",
 "output": "코드 · 시험 · 20-core.md «C2»",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 }
 ],
@@ -21351,7 +21336,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 17:17",
-"generatedAt": "2026-11-22 17:17",
-"digest": "7e87a637b7f3b539"
+"sourceAt": "2026-11-22 17:43",
+"generatedAt": "2026-11-22 17:46",
+"digest": "2c0a32dda8cd7947"
 }
