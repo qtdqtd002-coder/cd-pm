@@ -1450,9 +1450,15 @@
 "lane": "cd-116",
 "session": "",
 "owns": "",
-"order": "CD-0115",
-"head": "a130b0b",
+"order": "CD-0116",
+"head": "7443d1f",
 "commits": [
+{
+"sha": "7443d1f8",
+"at": "2026-11-23 03:36",
+"ts": 1795372616,
+"msg": "CD-0116 작업 중: view 를 계정 묶음에 합치기(Core) · 서버 거울 시험 · 답으로만 맞추는 길 · 기기 전용 칸 파일(Unity 확인 전)"
+},
 {
 "sha": "a130b0be",
 "at": "2026-11-23 03:14",
@@ -1482,55 +1488,49 @@
 "at": "2026-11-23 02:37",
 "ts": 1795369023,
 "msg": "Merge branch 'main' into cd-115"
-},
-{
-"sha": "1767c626",
-"at": "2026-11-23 02:30",
-"ts": 1795368654,
-"msg": "개발일지: 0.11.0 배포(묶음 QA 두 번 · 수정 둘 · CCD 38~40 · Firebase 03tq22991rr90) + 폰 확인 목록"
 }
 ],
-"dirtyCount": 13,
+"dirtyCount": 8,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/Net/Server/TestGameServer.cs",
-"at": "2026-11-23 03:33"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-23 03:44"
 },
 {
-"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Legends.cs",
-"at": "2026-11-23 03:33"
-},
-{
-"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Kuji.cs",
-"at": "2026-11-23 03:33"
-},
-{
-"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Server.cs",
-"at": "2026-11-23 03:33"
-},
-{
-"file": "studio/orders/CD-0116-기기-D-4-원격-준비-답의-view-로-상태-맞추기/20-report-core.md",
-"at": "2026-11-23 03:29"
-},
-{
-"file": "studio/orders/CD-0116-기기-D-4-원격-준비-답의-view-로-상태-맞추기/21-report-client.md",
-"at": "2026-11-23 03:27"
-},
-{
-"file": "Core/tests/Cd0116ViewMergeTests.cs",
-"at": "2026-11-23 03:27"
+"file": "studio/orders/CD-0116-기기-D-4-원격-준비-답의-view-로-상태-맞추기/90-close.md",
+"at": "2026-11-23 03:43"
 },
 {
 "file": "UnityProject/Assets/Tests/EditMode/Cd116LocalMarksTests.cs",
-"at": "2026-11-23 03:27"
+"at": "2026-11-23 03:41"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd116ViewDrivenTests.cs",
+"at": "2026-11-23 03:41"
+},
+{
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Server.cs",
+"at": "2026-11-23 03:41"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd116LocalMarksTests.cs.meta",
+"at": "2026-11-23 03:38"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd116ViewDrivenTests.cs.meta",
+"at": "2026-11-23 03:38"
+},
+{
+"file": "UnityProject/Assets/_Game/Save/LocalMarks.cs.meta",
+"at": "2026-11-23 03:38"
 }
 ],
-"lastEdit": "2026-11-23 03:33",
-"lastEditTs": 1795372403.110914,
-"lastCommitTs": 1795371271,
-"unpushed": 0,
-"notInMain": 0,
-"today": 63
+"lastEdit": "2026-11-23 03:44",
+"lastEditTs": 1795373099.5392423,
+"lastCommitTs": 1795372616,
+"unpushed": 1,
+"notInMain": 1,
+"today": 64
 },
 {
 "branch": "cd-84",
@@ -1706,7 +1706,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 180,
+"commits": 177,
 "byOrder": [
 [
 "CD-0075",
@@ -1849,8 +1849,8 @@
 2
 ],
 [
-"CD-0064",
-2
+"CD-0116",
+1
 ],
 [
 "CD-0119",
@@ -1883,17 +1883,14 @@
 [
 "CD-0041",
 1
-],
-[
-"CD-0067",
-1
-],
-[
-"CD-0060",
-1
 ]
 ],
 "latest": [
+{
+"sha": "7443d1f8",
+"at": "2026-11-23 03:36",
+"msg": "CD-0116 작업 중: view 를 계정 묶음에 합치기(Core) · 서버 거울 시험 · 답으로만 맞추는 길 · 기기 전용 칸 파일(Unity 확인 전)"
+},
 {
 "sha": "e6e6676a",
 "at": "2026-11-23 03:14",
@@ -1938,11 +1935,6 @@
 "sha": "2212e073",
 "at": "2026-11-23 02:14",
 "msg": "CD-0114 D-2b: 영웅·로비·앱·안내 16곳을 기다림 창구로 · 답이 늦을 때 안내가 다시 시작되던 문제 수정(보이는 동작 그대로)"
-},
-{
-"sha": "a62c6592",
-"at": "2026-11-23 02:12",
-"msg": "CD-0108 되돌림 확인: PlayMode Cd37StatCardTests 2/2 통과 · 단계 마감"
 }
 ]
 },
@@ -9471,12 +9463,14 @@
 "id": "CD-0116",
 "title": "기기 D-4 — 원격 준비: 답의 view 로 상태 맞추기",
 "branch": "cd-116",
-"updated": "2026-11-23 03:29",
+"updated": "2026-11-23 03:43",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-report-core.md",
-"21-report-client.md"
+"21-report-client.md",
+"22-report-client-c2.md",
+"90-close.md"
 ],
 "milestone": "M7",
 "stage": "제작",
@@ -9523,8 +9517,8 @@
 "team": "client",
 "title": "D3 — ViewDriven 길 · 원격처럼 도는 로컬 서버 · 대조 시험",
 "output": "Outgame/OutgameState.Server.cs·OutgameState.Kuji.cs·OutgameState.Legends.cs · (필요하면 Net/Server/TestGameServer.cs 의 SentCommands) · Tests/EditMode/Cd116ViewDrivenTests.cs · 22-report-client-c2.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 22-report-client-c2.md"
 }
 ],
 "phase": "doing",
@@ -22763,7 +22757,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-23 03:33",
-"generatedAt": "2026-11-23 03:34",
-"digest": "c29eb86f0397d3da"
+"sourceAt": "2026-11-23 03:44",
+"generatedAt": "2026-11-23 03:47",
+"digest": "6a67a69f3bd0135a"
 }
