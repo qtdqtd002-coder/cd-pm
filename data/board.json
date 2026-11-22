@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0089",
+"order": "CD-0076",
 "head": "8780551",
 "commits": [
 {
@@ -1485,19 +1485,43 @@
 "msg": "CD-0084 서버 뼈대 1차: Game.Server 라이브러리 · 기기 IGameServer(로컬·Cloud Code REST·꺼짐) — 게임 흐름 연결 없음"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 12,
 "dirty": [
 {
-"file": "studio/orders/CD-0085-정본-이전-판-밖-판정을-서버로-온라인-필수/00-order.md",
-"at": "2026-11-22 15:47"
+"file": "studio/orders/CD-0085-정본-이전-판-밖-판정을-서버로-온라인-필수/20-core.md",
+"at": "2026-11-22 16:15"
 },
 {
-"file": "studio/orders/CD-0085-정본-이전-판-밖-판정을-서버로-온라인-필수/10-spec.md",
-"at": "2026-11-22 15:46"
+"file": "Core/tests/Cd0085CommandTests.cs",
+"at": "2026-11-22 16:10"
+},
+{
+"file": "Core/package/Runtime/Meta/MetaCommands.cs",
+"at": "2026-11-22 16:06"
+},
+{
+"file": "Server/package/Runtime/Clocks.cs",
+"at": "2026-11-22 16:04"
+},
+{
+"file": "Core/package/Runtime/Meta/GameDay.cs",
+"at": "2026-11-22 16:04"
+},
+{
+"file": "Core/tests/Cd0085BundleTests.cs",
+"at": "2026-11-22 15:55"
+},
+{
+"file": "Core/package/Runtime/Meta/AccountCodec.cs",
+"at": "2026-11-22 15:53"
+},
+{
+"file": "Core/package/Runtime/Meta/AccountBundle.cs",
+"at": "2026-11-22 15:52"
 }
 ],
-"lastEdit": "2026-11-22 15:47",
-"lastEditTs": 1795330021.676638,
+"lastEdit": "2026-11-22 16:15",
+"lastEditTs": 1795331717.8164306,
 "lastCommitTs": 1795329909,
 "unpushed": 2,
 "notInMain": 2,
@@ -1647,7 +1671,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 393,
+"commits": 391,
 "byOrder": [
 [
 "CD-0041",
@@ -1722,10 +1746,6 @@
 9
 ],
 [
-"CD-0045",
-8
-],
-[
 "CD-0074",
 7
 ],
@@ -1739,6 +1759,10 @@
 ],
 [
 "CD-0078",
+6
+],
+[
+"CD-0045",
 6
 ],
 [
@@ -8299,11 +8323,12 @@
 "id": "CD-0085",
 "title": "정본 이전 — 판 밖 판정을 서버로 · 온라인 필수",
 "branch": "cd-85",
-"updated": "2026-11-22 15:47",
+"updated": "2026-11-22 16:15",
 "files": [
 "00-order.md",
 "10-design.md",
-"10-spec.md"
+"10-spec.md",
+"20-core.md"
 ],
 "milestone": "M7",
 "stage": "제작",
@@ -8323,8 +8348,8 @@
 "team": "core",
 "title": "D1 — AccountBundle · JsonWriter 옮기기 · AccountCodec(+AccountView) + 시험 Cd0085BundleTests(왕복 = 값이 같음 · 같은 묶음 = 같은 글 · 비밀 빼기 · 깨진 글/상한 초과 20가지 이상 · 쿠지 보는 모양이 시드 없이 뽑힌 칸의 상품과 남은 수를 맞게 냄 · ToSettlementState 로 정산한 결과가 묶음에 남음)",
 "output": "코드 · 시험 · 20-core.md «C1»",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 20-core.md"
 },
 {
 "id": "C2",
@@ -8332,8 +8357,8 @@
 "team": "core",
 "title": "D2 — MetaCommands + 시험 Cd0085CommandTests(명령마다: 성공 · 재화 부족 등 거절(묶음 안 바뀜) · 틀린 인자 · 모르는 명령 · 같은 입력과 같은 엔트로피 = 같은 결과 · 원본 순서를 손으로 따라 한 것과 비교하는 시험을 뽑기·레벨업·일일 상점에 하나씩)",
 "output": "코드 · 시험 · 20-core.md «C2»",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 20-core.md"
 }
 ],
 "phase": "doing",
@@ -21141,7 +21166,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 15:47",
-"generatedAt": "2026-11-22 15:47",
-"digest": "11ae46a55feb1143"
+"sourceAt": "2026-11-22 16:15",
+"generatedAt": "2026-11-22 16:17",
+"digest": "a9097d15d9e1d422"
 }
