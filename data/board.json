@@ -1539,43 +1539,43 @@
 "msg": "CD-0092 B: 접속 명령 · 서버 계정 문서 · 판 밖 명령 20개 등록(동작 변화 없음)"
 }
 ],
-"dirtyCount": 9,
+"dirtyCount": 43,
 "dirty": [
 {
-"file": "Core/tests/Cd0097ServerSwitchTests.cs",
-"at": "2026-11-22 19:16"
+"file": "UnityProject/Assets/InitTestScene057acfef-7cbf-487c-849e-63d0d8d4b022.unity.meta",
+"at": "2026-11-22 19:43"
 },
 {
-"file": "Server/package/Runtime/AccountCommands.cs",
-"at": "2026-11-22 19:15"
+"file": "UnityProject/Assets/InitTestScene057acfef-7cbf-487c-849e-63d0d8d4b022.unity",
+"at": "2026-11-22 19:43"
 },
 {
-"file": "Server/package/Runtime/Abstractions.cs",
-"at": "2026-11-22 19:15"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 19:42"
 },
 {
-"file": "Core/package/Runtime/Meta/MetaCommands.cs",
-"at": "2026-11-22 19:15"
+"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityTestsB.cs",
+"at": "2026-11-22 19:41"
 },
 {
-"file": "Server/package/Runtime/ImportCommands.cs",
-"at": "2026-11-22 19:13"
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.cs",
+"at": "2026-11-22 19:41"
 },
 {
-"file": "Server/package/Runtime/MatchCommands.cs",
-"at": "2026-11-22 19:13"
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.DailyShop.cs",
+"at": "2026-11-22 19:41"
 },
 {
-"file": "Core/package/Runtime/Meta/MetaSession.cs",
-"at": "2026-11-22 19:13"
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Meta.cs",
+"at": "2026-11-22 19:41"
 },
 {
-"file": "studio/orders/CD-0097-기기-C-2-바꾸는-메서드-20개를-서버-길로/00-order.md",
-"at": "2026-11-22 19:10"
+"file": "UnityProject/Assets/Tests/EditMode/Cd97ServerPathClaimTests.cs.meta",
+"at": "2026-11-22 19:39"
 }
 ],
-"lastEdit": "2026-11-22 19:16",
-"lastEditTs": 1795342618.9565485,
+"lastEdit": "2026-11-22 19:43",
+"lastEditTs": 1795344180.3861096,
 "lastCommitTs": 1795341634,
 "unpushed": 0,
 "notInMain": 0,
@@ -1725,7 +1725,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 364,
+"commits": 340,
 "byOrder": [
 [
 "CD-0053",
@@ -1740,16 +1740,12 @@
 25
 ],
 [
-"기타",
-23
-],
-[
 "CD-0064",
 23
 ],
 [
-"CD-0041",
-19
+"기타",
+22
 ],
 [
 "CD-0062",
@@ -1780,6 +1776,10 @@
 11
 ],
 [
+"CD-0041",
+10
+],
+[
 "CD-0073",
 10
 ],
@@ -1793,10 +1793,6 @@
 ],
 [
 "CD-0047",
-9
-],
-[
-"CD-0048",
 9
 ],
 [
@@ -1817,10 +1813,6 @@
 ],
 [
 "CD-0077",
-5
-],
-[
-"CD-0049",
 5
 ],
 [
@@ -1872,6 +1864,10 @@
 2
 ],
 [
+"CD-0048",
+2
+],
+[
 "CD-0093",
 1
 ],
@@ -1897,14 +1893,6 @@
 ],
 [
 "CD-0071",
-1
-],
-[
-"CD-0040",
-1
-],
-[
-"CD-0038",
 1
 ]
 ],
@@ -8672,10 +8660,14 @@
 "id": "CD-0097",
 "title": "기기 C-2 — 바꾸는 메서드 20개를 서버 길로",
 "branch": "cd-97",
-"updated": "2026-11-22 19:10",
+"updated": "2026-11-22 19:38",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"20-report-core.md",
+"21-report-client.md",
+"22-report-client-c2a.md",
+"23-report-client-c2b.md"
 ],
 "milestone": "M7",
 "stage": "제작",
@@ -8695,8 +8687,8 @@
 "team": "core",
 "title": "D1 전부 + Core·Server 시험",
 "output": "Server/package/Runtime/ · (필요하면) Core/package/Runtime/Meta/MetaCommands.cs · 시험 · 20-report-core.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 20-report-core.md"
 },
 {
 "id": "C1",
@@ -8704,8 +8696,8 @@
 "team": "client",
 "title": "D2 뼈대 + 메서드 넷 + ForPlayerData 인자 + 뼈대 시험(EditMode Cd97ServerPathTests)",
 "output": "OutgameState.Server.cs · OutgameState.Kuji/Heroes/Legends.cs · Net/Server/LocalGameServer.cs · 21-report-client.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-report-client.md"
 },
 {
 "id": "C2",
@@ -21422,7 +21414,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 19:16",
-"generatedAt": "2026-11-22 19:17",
-"digest": "fd96d6509348a7d9"
+"sourceAt": "2026-11-22 19:43",
+"generatedAt": "2026-11-22 19:47",
+"digest": "d1594b0fa1f529f3"
 }
