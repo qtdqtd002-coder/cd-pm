@@ -1344,18 +1344,26 @@
 "msg": "CD-0073 빌드 QA 수정 완료 기록: PlayMode 8개 → 3차 0 실패 · 판 시작 굽기 미룸 · stage 마감"
 }
 ],
-"dirtyCount": 14,
+"dirtyCount": 16,
 "dirty": [
 {
-"file": "studio/checks.json",
-"at": "2026-11-22 09:31"
+"file": "UnityProject/Assets/InitTestScene78d1c6e4-f89f-40c9-acb2-37d111df41df.unity.meta",
+"at": "2026-11-22 09:35"
 },
 {
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-22 03:19"
+"file": "UnityProject/Assets/InitTestScene78d1c6e4-f89f-40c9-acb2-37d111df41df.unity",
+"at": "2026-11-22 09:35"
+},
+{
+"file": "studio/checks.json",
+"at": "2026-11-22 09:35"
 },
 {
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 09:35"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
 "at": "2026-11-22 03:19"
 },
 {
@@ -1369,18 +1377,10 @@
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
 "at": "2026-11-22 02:51"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 02:51"
-},
-{
-"file": "_qa/cd54-shots-v2/cd54_propfx_low.png",
-"at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-22 09:31",
-"lastEditTs": 1795307475.1711907,
+"lastEdit": "2026-11-22 09:35",
+"lastEditTs": 1795307732.8558204,
 "lastCommitTs": 1795307307,
 "unpushed": 0,
 "notInMain": 0,
@@ -1391,7 +1391,7 @@
 "lane": "cd-53",
 "session": "",
 "owns": "",
-"order": "CD-0064",
+"order": "CD-0053",
 "head": "d1560eb",
 "commits": [
 {
@@ -1851,7 +1851,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 390,
+"commits": 389,
 "byOrder": [
 [
 "CD-0041",
@@ -1875,7 +1875,7 @@
 ],
 [
 "기타",
-23
+22
 ],
 [
 "CD-0040",
@@ -19791,7 +19791,7 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 09:28",
+"at": "2026-11-22 09:31",
 "commit": "8f72ca00+수정",
 "passed": 710,
 "failed": 2,
@@ -19800,17 +19800,17 @@
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-22 02:51",
-"passed": 627,
-"failed": 2,
-"total": 629,
-"ok": false,
-"fresh": false,
-"commit": "06461eb7+수정"
+"at": "2026-11-22 09:35",
+"passed": 630,
+"failed": 0,
+"total": 630,
+"ok": true,
+"fresh": true,
+"commit": "8f72ca00+수정"
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 09:28",
+"at": "2026-11-22 09:31",
 "commit": "8f72ca00+수정",
 "passed": 1,
 "failed": 0,
@@ -19819,7 +19819,7 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 09:28",
+"at": "2026-11-22 09:31",
 "commit": "8f72ca00+수정",
 "passed": 1,
 "failed": 0,
@@ -19828,7 +19828,7 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 09:28",
+"at": "2026-11-22 09:31",
 "commit": "8f72ca00+수정",
 "passed": 1,
 "failed": 0,
@@ -19837,7 +19837,7 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 09:28",
+"at": "2026-11-22 09:31",
 "commit": "8f72ca00+수정",
 "passed": 1,
 "failed": 0,
@@ -20040,7 +20040,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 09:31",
-"generatedAt": "2026-11-22 09:31",
-"digest": "e48406560970874e"
+"sourceAt": "2026-11-22 09:35",
+"generatedAt": "2026-11-22 09:47",
+"digest": "df50a5dc4f388adf"
 }
