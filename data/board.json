@@ -1305,8 +1305,26 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0076",
-"head": "8395907",
+"head": "ce11c63",
 "commits": [
+{
+"sha": "ce11c639",
+"at": "2026-11-22 15:18",
+"ts": 1795328338,
+"msg": "병합: cd-90 46585bfb(CD-0090 맵툴 인게임 반영 실측·갱신/적용·작업실 개편 — PlayMode Cd90 3/3)"
+},
+{
+"sha": "46585bfb",
+"at": "2026-11-22 15:18",
+"ts": 1795328318,
+"msg": "CD-0090 반영 실측: EditMode Cd78 2/2 · PlayMode Cd90MapReflectTests 3/3(12×16 배치·진짜 맵 전부가 판에 그대로) · 시험 .meta · 90-close · stage 마감"
+},
+{
+"sha": "be88d994",
+"at": "2026-11-22 15:15",
+"ts": 1795328104,
+"msg": "Merge branch 'main' into cd-90"
+},
 {
 "sha": "8395907a",
 "at": "2026-11-22 15:12",
@@ -1324,24 +1342,6 @@
 "at": "2026-11-22 15:11",
 "ts": 1795327915,
 "msg": "개발일지 11-22: 앱 0.10.0 폰 배포(Firebase 1gqvoqamgcreo · base_id 96f7eca1 · CCD 릴리스 35~37)"
-},
-{
-"sha": "8334f525",
-"at": "2026-11-22 15:11",
-"ts": 1795327874,
-"msg": "병합: rel-0100(앱 0.10.0 · versionCode 14 — 버전·content state·공지 v2)"
-},
-{
-"sha": "5a56165d",
-"at": "2026-11-22 15:07",
-"ts": 1795327626,
-"msg": "공지: 0.10.0 업데이트 안내(app_0_10_0, code 14 — notices_v2) — notices_check 통과"
-},
-{
-"sha": "2f222970",
-"at": "2026-11-22 15:07",
-"ts": 1795327625,
-"msg": "앱 0.10.0 · versionCode 14 (CD-0065·0066·0074·0075·0076·0077·0078)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795327924,
+"lastCommitTs": 1795328338,
 "unpushed": 0,
 "notInMain": 0,
-"today": 287
+"today": 291
 },
 {
 "branch": "cd-76",
@@ -1652,43 +1652,43 @@
 "msg": "CD-0074 빌드 QA 되돌림: 문구가 바뀌어 낡은 PlayMode 시험 3곳 맞춤(광부 고용 알림 · 젬스톤 부족 한 문장 · 뽑기 판 교체 뒤 티켓 부족 알림) — PlayMode 확인 전"
 }
 ],
-"dirtyCount": 15,
+"dirtyCount": 30,
 "dirty": [
 {
-"file": "Server/tests/GameServerTests.cs",
-"at": "2026-11-22 15:17"
+"file": "UnityProject/Assets/Tests/EditMode/Cd84GameServerTests.cs",
+"at": "2026-11-22 15:22"
 },
 {
-"file": "Server/tests/TestKit.cs",
-"at": "2026-11-22 15:15"
+"file": "UnityProject/Assets/Tests/EditMode/Game.Tests.EditMode.asmdef",
+"at": "2026-11-22 15:21"
 },
 {
-"file": "Server/package/Runtime/BuiltinCommands.cs",
-"at": "2026-11-22 15:15"
+"file": "UnityProject/Assets/_Game/Game.Client.asmdef",
+"at": "2026-11-22 15:21"
 },
 {
-"file": "Server/package/Runtime/GameServer.cs",
-"at": "2026-11-22 15:15"
+"file": "UnityProject/Packages/manifest.json",
+"at": "2026-11-22 15:21"
 },
 {
-"file": "Server/package/Runtime/UidGenerator.cs",
-"at": "2026-11-22 15:14"
+"file": "UnityProject/Assets/_Game/Net/Server/GameServers.cs",
+"at": "2026-11-22 15:21"
 },
 {
-"file": "Server/package/Runtime/JsonWriter.cs",
-"at": "2026-11-22 15:14"
+"file": "UnityProject/Assets/_Game/Net/Server/UnityWebRequestTransport.cs",
+"at": "2026-11-22 15:21"
 },
 {
-"file": "Server/package/Runtime/MemoryStores.cs",
-"at": "2026-11-22 15:14"
+"file": "UnityProject/Assets/_Game/Net/Server/CloudCodeGameServer.cs",
+"at": "2026-11-22 15:21"
 },
 {
-"file": "Server/package/Runtime/Clocks.cs",
-"at": "2026-11-22 15:14"
+"file": "UnityProject/Assets/_Game/Net/Server/LocalGameServer.cs",
+"at": "2026-11-22 15:20"
 }
 ],
-"lastEdit": "2026-11-22 15:17",
-"lastEditTs": 1795328253.5230367,
+"lastEdit": "2026-11-22 15:22",
+"lastEditTs": 1795328534.0773482,
 "lastCommitTs": 1795326738,
 "unpushed": 0,
 "notInMain": 0,
@@ -1739,10 +1739,43 @@
 "msg": "공지: 0.10.0 업데이트 안내(app_0_10_0, code 14 — notices_v2) — notices_check 통과"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 14,
+"dirty": [
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 15:21"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-22 15:21"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 15:21"
+},
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
+"at": "2026-11-22 15:20"
+},
+{
+"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
+"at": "2026-11-22 15:20"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/key/hero_bg_dragon.png.meta",
+"at": "2026-11-22 15:20"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/key/hero_bg_dwarf.png.meta",
+"at": "2026-11-22 15:20"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/key/hero_bg_human.png.meta",
+"at": "2026-11-22 15:20"
+}
+],
+"lastEdit": "2026-11-22 15:21",
+"lastEditTs": 1795328493.4191394,
 "lastCommitTs": 1795328107,
 "unpushed": 2,
 "notInMain": 2,
@@ -1753,9 +1786,15 @@
 "lane": "cd-90",
 "session": "",
 "owns": "",
-"order": "CD-0090",
-"head": "be88d99",
+"order": "CD-0076",
+"head": "46585bf",
 "commits": [
+{
+"sha": "46585bfb",
+"at": "2026-11-22 15:18",
+"ts": 1795328318,
+"msg": "CD-0090 반영 실측: EditMode Cd78 2/2 · PlayMode Cd90MapReflectTests 3/3(12×16 배치·진짜 맵 전부가 판에 그대로) · 시험 .meta · 90-close · stage 마감"
+},
 {
 "sha": "be88d994",
 "at": "2026-11-22 15:15",
@@ -1785,55 +1824,21 @@
 "at": "2026-11-22 15:11",
 "ts": 1795327874,
 "msg": "병합: rel-0100(앱 0.10.0 · versionCode 14 — 버전·content state·공지 v2)"
-},
-{
-"sha": "5a56165d",
-"at": "2026-11-22 15:07",
-"ts": 1795327626,
-"msg": "공지: 0.10.0 업데이트 안내(app_0_10_0, code 14 — notices_v2) — notices_check 통과"
 }
 ],
-"dirtyCount": 8,
+"dirtyCount": 1,
 "dirty": [
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-22 15:17"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-22 15:17"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-22 15:17"
-},
-{
-"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
-"at": "2026-11-22 15:17"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 15:16"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-22 15:16"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 15:16"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd90MapReflectTests.cs.meta",
-"at": "2026-11-22 15:16"
 }
 ],
 "lastEdit": "2026-11-22 15:17",
-"lastEditTs": 1795328263.6033657,
-"lastCommitTs": 1795328104,
-"unpushed": 2,
-"notInMain": 2,
-"today": 289
+"lastEditTs": 1795328261.467525,
+"lastCommitTs": 1795328318,
+"unpushed": 0,
+"notInMain": 0,
+"today": 290
 },
 {
 "branch": "rel-0100",
@@ -1979,11 +1984,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 395,
+"commits": 394,
 "byOrder": [
 [
 "CD-0041",
-46
+44
 ],
 [
 "CD-0053",
@@ -2110,6 +2115,10 @@
 3
 ],
 [
+"CD-0090",
+2
+],
+[
 "CD-0089",
 2
 ],
@@ -2123,10 +2132,6 @@
 ],
 [
 "CD-0083",
-1
-],
-[
-"CD-0090",
 1
 ],
 [
@@ -2151,6 +2156,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "46585bfb",
+"at": "2026-11-22 15:18",
+"msg": "CD-0090 반영 실측: EditMode Cd78 2/2 · PlayMode Cd90MapReflectTests 3/3(12×16 배치·진짜 맵 전부가 판에 그대로) · 시험 .meta · 90-close · stage 마감"
+},
 {
 "sha": "43b4c53f",
 "at": "2026-11-22 15:11",
@@ -2195,11 +2205,6 @@
 "sha": "1bf3f20b",
 "at": "2026-11-22 14:52",
 "msg": "Codex 기록: CD-0089 영웅 백판 시안 5 · 본 5(main 체크아웃에 적힌 것)"
-},
-{
-"sha": "ea5fc468",
-"at": "2026-11-22 14:43",
-"msg": "CD-0090 작업실: [갱신]=라이브(vX.Y.Z 태그) 기준 비교 · [적용]=빌드 대기(--pending) · 맵툴 개편(사이드 탭·편집/폰 화면 분리·미리보기 제거·폰 비율 12) · 캔버스 크기 바꿀 때 tiles·카메라 같이 맞춤·전체 밀기 · 반영 시험(Core 4 통과 · PlayMode 3 작성, 아직 안 돌림)"
 }
 ]
 },
@@ -8568,10 +8573,11 @@
 "id": "CD-0084",
 "title": "서버 뼈대 — Game.Server 라이브러리 · IGameServer · 로컬 가짜 서버",
 "branch": "cd-84",
-"updated": "2026-11-22 15:08",
+"updated": "2026-11-22 15:18",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"20-core.md"
 ],
 "milestone": "M7",
 "stage": "제작",
@@ -8591,8 +8597,8 @@
 "team": "core",
 "title": "D1 · D2 — Server/ 패키지·프로젝트·시험(Game.Server.Tests: 두 명령 · 같은 요청 두 번 · 잠금 충돌 재시도와 conflict · update_required · 깨진 글 12가지 이상 · uid 겹침 재시도 · 요청 글의 플레이어 id 무시 · 답이 항상 JSON 으로 다시 읽힘)",
 "output": "코드 · 시험 · 20-core.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 20-core.md"
 },
 {
 "id": "C2",
@@ -8664,21 +8670,21 @@
 {
 "id": "CD-0090",
 "title": "맵툴 인게임 반영 실측 · 갱신/적용 절차 · 작업실 UI/UX 개선",
-"branch": "cd-90",
-"updated": "2026-11-22 14:43",
+"branch": "main",
+"updated": "2026-11-22 15:18",
 "files": [
 "00-order.md",
 "10-spec.md",
 "90-close.md"
 ],
 "milestone": "M2",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>맵을 튜토리얼부터 다시 찍기 전에 ① 맵툴 값(캔버스·영역 칸 수 포함)이 게임에 그대로 들어가는지 시험으로 증명하고 ② [갱신]=라이브 기준 · [적용]=빌드 대기로 정리하고 ③ 맵툴을 기능 위주로 단순하게(사이드 탭 넓게 · 편집/폰 화면 분리 · 미리보기 제거 · 대중 폰 비율 전부).</p>",
 "goalShort": "맵을 튜토리얼부터 다시 찍기 전에 ① 맵툴 값(캔버스·영역 칸 수 포함)이 게임에 그대로 들어가는지 시험으로 증명하고 ② [갱신]=라이브 기준 · [적용]=빌드 대기로 정리하고 ③ 맵툴을 기능 위주로 단순하게(사이드 탭 넓게 · 편집/폰 화면 분리 · 미리보기 제거 · 대중 폰 비율 전",
@@ -8689,8 +8695,8 @@
 "team": "client(대표)",
 "title": "server.py 라이브 태그 비교·/api/live·--pending · views/dialogs [갱신]·[적용] 문구",
 "output": "tools/workbench",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "W2",
@@ -8698,8 +8704,8 @@
 "team": "client(대표)",
 "title": "맵툴 개편 · MR.resizeCanvas·shiftLayout · 폰 비율 12",
 "output": "tools/workbench/web",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "T1",
@@ -8707,11 +8713,11 @@
 "team": "studio-member",
 "title": "Core 반영 시험 · PlayMode 반영 실측 시험",
 "output": "Core/tests · Tests/PlayMode",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 }
 ],
@@ -8950,7 +8956,7 @@
 "no": 18,
 "title": "맵툴 인게임 반영 실측 확인 · 갱신/적용 절차 정리 · 작업실 UI/UX 개선",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "high",
 "orders": [
 "CD-0078",
@@ -21411,7 +21417,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 15:17",
-"generatedAt": "2026-11-22 15:17",
-"digest": "c161658d79d3ec60"
+"sourceAt": "2026-11-22 15:22",
+"generatedAt": "2026-11-22 15:22",
+"digest": "23e2ff87c0538ec7"
 }
