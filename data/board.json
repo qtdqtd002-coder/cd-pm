@@ -1504,7 +1504,7 @@
 "lane": "cd-80",
 "session": "",
 "owns": "",
-"order": "CD-0075",
+"order": "CD-0066",
 "head": "8b0fea1",
 "commits": [
 {
@@ -1652,8 +1652,24 @@
 "msg": "CD-0074 빌드 QA 되돌림: 문구가 바뀌어 낡은 PlayMode 시험 3곳 맞춤(광부 고용 알림 · 젬스톤 부족 한 문장 · 뽑기 판 교체 뒤 티켓 부족 알림) — PlayMode 확인 전"
 }
 ],
-"dirtyCount": 11,
+"dirtyCount": 15,
 "dirty": [
+{
+"file": "Server/tests/GameServerTests.cs",
+"at": "2026-11-22 15:17"
+},
+{
+"file": "Server/tests/TestKit.cs",
+"at": "2026-11-22 15:15"
+},
+{
+"file": "Server/package/Runtime/BuiltinCommands.cs",
+"at": "2026-11-22 15:15"
+},
+{
+"file": "Server/package/Runtime/GameServer.cs",
+"at": "2026-11-22 15:15"
+},
 {
 "file": "Server/package/Runtime/UidGenerator.cs",
 "at": "2026-11-22 15:14"
@@ -1669,26 +1685,10 @@
 {
 "file": "Server/package/Runtime/Clocks.cs",
 "at": "2026-11-22 15:14"
-},
-{
-"file": "Server/package/Runtime/Abstractions.cs",
-"at": "2026-11-22 15:14"
-},
-{
-"file": "Server/tests/Game.Server.Tests.csproj",
-"at": "2026-11-22 15:13"
-},
-{
-"file": "Server/Game.Server.csproj",
-"at": "2026-11-22 15:13"
-},
-{
-"file": "Server/package/Runtime/Game.Server.asmdef",
-"at": "2026-11-22 15:13"
 }
 ],
-"lastEdit": "2026-11-22 15:14",
-"lastEditTs": 1795328098.4334276,
+"lastEdit": "2026-11-22 15:17",
+"lastEditTs": 1795328253.5230367,
 "lastCommitTs": 1795326738,
 "unpushed": 0,
 "notInMain": 0,
@@ -1793,10 +1793,43 @@
 "msg": "공지: 0.10.0 업데이트 안내(app_0_10_0, code 14 — notices_v2) — notices_check 통과"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 8,
+"dirty": [
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-22 15:17"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 15:17"
+},
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 15:17"
+},
+{
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-22 15:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 15:16"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-22 15:16"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 15:16"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd90MapReflectTests.cs.meta",
+"at": "2026-11-22 15:16"
+}
+],
+"lastEdit": "2026-11-22 15:17",
+"lastEditTs": 1795328263.6033657,
 "lastCommitTs": 1795328104,
 "unpushed": 2,
 "notInMain": 2,
@@ -1946,11 +1979,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 397,
+"commits": 395,
 "byOrder": [
 [
 "CD-0041",
-47
+46
 ],
 [
 "CD-0053",
@@ -2022,7 +2055,7 @@
 ],
 [
 "CD-0045",
-9
+8
 ],
 [
 "CD-0074",
@@ -21191,8 +21224,8 @@
 "sizeMB": 84.8,
 "branch": "rel-0100",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "",
-"tag": ""
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261122-1506",
+"tag": "build-android-20261122-1506"
 },
 {
 "kind": "android",
@@ -21216,6 +21249,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261122-1506",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261122-1506",
+"kind": "android",
+"at": "2026-11-22 15:06",
+"branch": "rel-0100",
+"sizeMB": 84.8
+},
 {
 "tag": "build-android-20261122-1005",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261122-1005",
@@ -21367,18 +21408,10 @@
 "at": "2026-11-17 11:13",
 "branch": "cd18",
 "sizeMB": 60.7
-},
-{
-"tag": "build-windows-20261117-1008",
-"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-windows-20261117-1008",
-"kind": "windows",
-"at": "2026-11-17 10:08",
-"branch": "cd-int",
-"sizeMB": 57.1
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 15:15",
-"generatedAt": "2026-11-22 15:15",
-"digest": "3832645c61f63023"
+"sourceAt": "2026-11-22 15:17",
+"generatedAt": "2026-11-22 15:17",
+"digest": "c161658d79d3ec60"
 }
