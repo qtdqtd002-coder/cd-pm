@@ -1577,8 +1577,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0076",
-"head": "34aae6c",
+"head": "c965aa6",
 "commits": [
+{
+"sha": "c965aa68",
+"at": "2026-11-22 13:48",
+"ts": 1795322902,
+"msg": "Merge branch 'main' into cd-76"
+},
+{
+"sha": "5db1101a",
+"at": "2026-11-22 13:45",
+"ts": 1795322712,
+"msg": "병합: cd-75 f7b02ca4(CD-0075 빌드 QA 되돌림 6건 + 1 — PlayMode 필터 21/21)"
+},
+{
+"sha": "f7b02ca4",
+"at": "2026-11-22 13:44",
+"ts": 1795322694,
+"msg": "CD-0075 빌드 QA 수정: 영웅 자리를 고르는 법이 바뀐 프레임에 다시 잡음(t14_move 첫 프레임) · 흐름 시험은 로비 탭일 때만 배너를 기다림 · 90-close 빌드 QA 절 · stage 마감 — PlayMode 필터 21 통과·실패 0·건너뜀 1 · EditMode 199/200"
+},
 {
 "sha": "34aae6cb",
 "at": "2026-11-22 13:33",
@@ -1586,69 +1604,59 @@
 "msg": "CD-0076: 선행 QA 되돌림 18건 — [교체] 버튼 터치 128px(세 버튼 220×100·간격 15) · 로비 설정 키와 5위 영웅 겹침 해소(레일 간격 21, 5위 누름 영역 139) · 뽑기·영웅·로비·소셜 낡은 시험을 새 동작에 맞춤 · 컴파일 오류 2건(Theme using, 뽑기 시험) — Unity 확인 전"
 },
 {
-"sha": "e9d283aa",
-"at": "2026-11-22 13:05",
-"ts": 1795320317,
-"msg": "CD-0076 묶음 3: 팝업 가족 — 보상 획득 가로 띠·펼침 · 시스템형 토스트 통일(40% 지점, 영역+글자) · 현상금 알림 절제 · 확인 창 가로 띠와 작은 모달 40%·펼침(Theme.Unfold/Fold) · 뽑기 티켓 줄과 뜯기 연출 · 조정 시안 3차 — Unity 시험·그림 반입 전"
+"sha": "6894dab6",
+"at": "2026-11-22 13:31",
+"ts": 1795321873,
+"msg": "CD-0075 U1 빌드 QA 되돌림: 막는 단계 첫 프레임 멈춤(TutorialHolds 를 Show 뒤에) · match.upgradeBuy 늘 등록 · 시험 3건 G1·항목 5 기대 맞춤·진 판 시험은 안내를 걷고 진행 — 컴파일·시험 안 돌림"
 },
 {
-"sha": "a330fdcc",
-"at": "2026-11-22 12:56",
-"ts": 1795319762,
-"msg": "Merge branch 'main' into cd-76"
-},
-{
-"sha": "de7426f9",
-"at": "2026-11-22 12:56",
-"ts": 1795319762,
-"msg": "CD-0076: 팝업 시안 2차 — 보상 획득(가로 끝까지 띠)·토스트 공통·알림 팝업 대조표 세 장, 접힘→펼침 3컷"
-},
-{
-"sha": "0754556c",
-"at": "2026-11-22 12:47",
-"ts": 1795319220,
-"msg": "병합: cd-66 248bd02d(CD-0066 상점 «노점 가판» — EditMode 83/83 · 캡처 1/1)"
-},
-{
-"sha": "248bd02d",
-"at": "2026-11-22 12:46",
-"ts": 1795319205,
-"msg": "CD-0066 마감 기록: Core 734/737(실패 2) 적음"
+"sha": "66162968",
+"at": "2026-11-22 13:30",
+"ts": 1795321823,
+"msg": "CD-0075 U2 빌드 QA 되돌림: o4_kuji — A상 [다음] 뒤 마지막 [확인] 이 남아 있으면 box.result 단계를 다시 띄움(Revealing → ResultOpen). Cd45 쿠지 흐름 멈춤의 원인 — 컴파일·시험 안 돌림"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 15,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/Art/Final/ui/popup_band_line.png.meta",
-"at": "2026-11-22 13:28"
+"file": "UnityProject/Assets/InitTestScene0473fe8a-aa2c-4684-8846-5732b32b0228.unity.meta",
+"at": "2026-11-22 13:55"
+},
+{
+"file": "UnityProject/Assets/InitTestScene0473fe8a-aa2c-4684-8846-5732b32b0228.unity",
+"at": "2026-11-22 13:55"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 13:55"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Theme.cs",
+"at": "2026-11-22 13:55"
+},
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 13:54"
+},
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
+"at": "2026-11-22 13:51"
+},
+{
+"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
+"at": "2026-11-22 13:51"
 },
 {
 "file": "UnityProject/Assets/_Game/Art/Final/ui/popup_reward_cell.png.meta",
-"at": "2026-11-22 13:28"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/popup_title_glow.png.meta",
-"at": "2026-11-22 13:28"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/popup_title_glow.png",
-"at": "2026-11-22 13:02"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/popup_reward_cell.png",
-"at": "2026-11-22 13:02"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/popup_band_line.png",
-"at": "2026-11-22 13:02"
+"at": "2026-11-22 13:51"
 }
 ],
-"lastEdit": "2026-11-22 13:28",
-"lastEditTs": 1795321735.5867846,
-"lastCommitTs": 1795322034,
-"unpushed": 6,
-"notInMain": 6,
-"today": 261
+"lastEdit": "2026-11-22 13:55",
+"lastEditTs": 1795323326.3934505,
+"lastCommitTs": 1795322902,
+"unpushed": 7,
+"notInMain": 7,
+"today": 266
 },
 {
 "branch": "cd-79",
@@ -1749,10 +1757,15 @@
 "msg": "CD-0066 클라이언트 보고서 20-client.md(한 일 · 검증 · Unity 명령 · 걸리는 점)"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 1,
+"dirty": [
+{
+"file": "studio/orders/CD-0080-판정-서버-1단계-조사-설계-Cloud-Code-대-자/00-order.md",
+"at": "2026-11-22 13:56"
+}
+],
+"lastEdit": "2026-11-22 13:56",
+"lastEditTs": 1795323378.5910926,
 "lastCommitTs": 1795322858,
 "unpushed": 1,
 "notInMain": 1,
@@ -8375,7 +8388,7 @@
 "id": "CD-0080",
 "title": "판정 서버 1단계 — 조사·설계(Cloud Code 대 자체 서버)",
 "branch": "cd-80",
-"updated": "2026-11-22 13:47",
+"updated": "2026-11-22 13:56",
 "files": [
 "00-order.md",
 "10-design.md"
@@ -8590,7 +8603,8 @@
 "phase": "doing",
 "imp": "high",
 "orders": [
-"CD-0080"
+"CD-0080",
+"CD-0083"
 ],
 "createdAt": "2026-11-22 03:53",
 "seen": true,
@@ -8604,7 +8618,8 @@
 "imp": "high",
 "orders": [
 "CD-0080",
-"CD-0081"
+"CD-0081",
+"CD-0085"
 ],
 "createdAt": "2026-11-22 03:53",
 "seen": true,
@@ -20908,7 +20923,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 13:47",
-"generatedAt": "2026-11-22 13:48",
-"digest": "30fab5048ad7f5e1"
+"sourceAt": "2026-11-22 13:56",
+"generatedAt": "2026-11-22 13:56",
+"digest": "58fd00892f40eef3"
 }
