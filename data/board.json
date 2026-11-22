@@ -1490,10 +1490,35 @@
 "msg": "CD-0075 U2 빌드 QA 되돌림: o4_kuji — A상 [다음] 뒤 마지막 [확인] 이 남아 있으면 box.result 단계를 다시 띄움(Revealing → ResultOpen). Cd45 쿠지 흐름 멈춤의 원인 — 컴파일·시험 안 돌림"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 6,
+"dirty": [
+{
+"file": "UnityProject/Assets/InitTestSceneb84584b5-9c2e-4344-893a-a576ac3fe7a7.unity.meta",
+"at": "2026-11-22 14:17"
+},
+{
+"file": "UnityProject/Assets/InitTestSceneb84584b5-9c2e-4344-893a-a576ac3fe7a7.unity",
+"at": "2026-11-22 14:17"
+},
+{
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-22 14:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 14:16"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-22 14:16"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 14:16"
+}
+],
+"lastEdit": "2026-11-22 14:17",
+"lastEditTs": 1795324641.7402208,
 "lastCommitTs": 1795324500,
 "unpushed": 2,
 "notInMain": 2,
@@ -1770,8 +1795,12 @@
 "msg": "CD-0066 마감 기록: Core 734/737(실패 2) 적음"
 }
 ],
-"dirtyCount": 12,
+"dirtyCount": 13,
 "dirty": [
+{
+"file": "Core/tests/Cd0083ReplayTests.cs",
+"at": "2026-11-22 14:17"
+},
 {
 "file": "Core/tests/ReplayTests.cs",
 "at": "2026-11-22 14:15"
@@ -1799,14 +1828,10 @@
 {
 "file": "UnityProject/Assets/_Game/Outgame/OutgameState.Meta.cs",
 "at": "2026-11-22 14:14"
-},
-{
-"file": "studio/orders/CD-0083-Core-정리-판-끝-정산을-Core-로-판-다시-돌리/20-core.md",
-"at": "2026-11-22 14:12"
 }
 ],
-"lastEdit": "2026-11-22 14:15",
-"lastEditTs": 1795324528.024956,
+"lastEdit": "2026-11-22 14:17",
+"lastEditTs": 1795324623.343254,
 "lastCommitTs": 1795322712,
 "unpushed": 0,
 "notInMain": 0,
@@ -21034,7 +21059,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 14:15",
-"generatedAt": "2026-11-22 14:16",
-"digest": "e674192fd9de4bf6"
+"sourceAt": "2026-11-22 14:17",
+"generatedAt": "2026-11-22 14:17",
+"digest": "5389600649a1e89c"
 }
