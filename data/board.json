@@ -1549,27 +1549,43 @@
 "msg": "CD-0115 D-3: 판 정산 세 곳을 기다림 창구로 · 못 보낸 정산을 기기에 남겨 다음 시작에 같은 요청으로 이어 보냄 · 정산의 다시 시도 창에는 [닫기] 없음(보이는 동작 그대로)"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 19,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/Outgame/OutgameState.cs",
-"at": "2026-11-23 04:04"
+"file": "studio/orders/CD-0117-기기-D-5-시작-흐름-로그인-뒤-계정-받기-연결-실패/90-close.md",
+"at": "2026-11-23 04:12"
 },
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd117RemoteStartTests.cs.meta",
-"at": "2026-11-23 04:04"
+"file": "studio/orders/CD-0117-기기-D-5-시작-흐름-로그인-뒤-계정-받기-연결-실패/_shots/cd117_loading_account.png",
+"at": "2026-11-23 04:12"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd117StartFlowTests.cs.meta",
-"at": "2026-11-23 04:04"
+"file": "studio/orders/CD-0117-기기-D-5-시작-흐름-로그인-뒤-계정-받기-연결-실패/_shots/cd117_retry_over_loading.png",
+"at": "2026-11-23 04:12"
 },
 {
-"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Session.cs.meta",
-"at": "2026-11-23 04:04"
+"file": "UnityProject/Assets/InitTestScene905d3e38-3f1a-49c9-a6c3-269feb795495.unity.meta",
+"at": "2026-11-23 04:11"
+},
+{
+"file": "UnityProject/Assets/InitTestScene905d3e38-3f1a-49c9-a6c3-269feb795495.unity",
+"at": "2026-11-23 04:11"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-23 04:11"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd117StartFlowTests.cs",
+"at": "2026-11-23 04:10"
+},
+{
+"file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
+"at": "2026-11-23 04:09"
 }
 ],
-"lastEdit": "2026-11-23 04:04",
-"lastEditTs": 1795374282.7221954,
+"lastEdit": "2026-11-23 04:12",
+"lastEditTs": 1795374777.343892,
 "lastCommitTs": 1795374181,
 "unpushed": 1,
 "notInMain": 1,
@@ -1749,7 +1765,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 177,
+"commits": 175,
 "byOrder": [
 [
 "CD-0075",
@@ -1809,10 +1825,6 @@
 ],
 [
 "CD-0089",
-4
-],
-[
-"CD-0073",
 4
 ],
 [
@@ -1889,6 +1901,10 @@
 ],
 [
 "CD-0063",
+2
+],
+[
+"CD-0073",
 2
 ],
 [
@@ -9571,12 +9587,14 @@
 "id": "CD-0117",
 "title": "기기 D-5 — 시작 흐름: 로그인 뒤 계정 받기, 연결 실패는 다시 시도",
 "branch": "cd-117",
-"updated": "2026-11-23 04:03",
+"updated": "2026-11-23 04:12",
 "files": [
 "00-order.md",
 "10-spec.md",
 "21-report-client.md",
-"22-report-client-c2.md"
+"22-report-client-c2.md",
+"90-close.md",
+"_shots"
 ],
 "milestone": "M7",
 "stage": "제작",
@@ -22845,7 +22863,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-23 04:04",
-"generatedAt": "2026-11-23 04:05",
-"digest": "5e2b5eb7869f01b6"
+"sourceAt": "2026-11-23 04:12",
+"generatedAt": "2026-11-23 04:17",
+"digest": "54464d88f123ac90"
 }
