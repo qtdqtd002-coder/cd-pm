@@ -1669,12 +1669,8 @@
 "msg": "CD-0092 B: 접속 명령 · 서버 계정 문서 · 판 밖 명령 20개 등록(동작 변화 없음)"
 }
 ],
-"dirtyCount": 42,
+"dirtyCount": 36,
 "dirty": [
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-22 20:31"
-},
 {
 "file": "UnityProject/Assets/Tests/EditMode/Cd97ServerPathTests.cs",
 "at": "2026-11-22 20:08"
@@ -1702,10 +1698,14 @@
 {
 "file": "UnityProject/Assets/_Game/Outgame/OutgameState.Server.cs",
 "at": "2026-11-22 20:07"
+},
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 20:05"
 }
 ],
-"lastEdit": "2026-11-22 20:31",
-"lastEditTs": 1795347112.5156605,
+"lastEdit": "2026-11-22 20:08",
+"lastEditTs": 1795345724.088655,
 "lastCommitTs": 1795341634,
 "unpushed": 0,
 "notInMain": 0,
@@ -1756,8 +1756,12 @@
 "msg": "CD-0092 B: 접속 명령 · 서버 계정 문서 · 판 밖 명령 20개 등록(동작 변화 없음)"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 3,
 "dirty": [
+{
+"file": "studio/checks.json",
+"at": "2026-11-22 20:34"
+},
 {
 "file": "UnityProject/Assets/Tests/EditMode/Cd77NoticeListTests.cs",
 "at": "2026-11-22 20:30"
@@ -1767,8 +1771,8 @@
 "at": "2026-11-22 20:30"
 }
 ],
-"lastEdit": "2026-11-22 20:30",
-"lastEditTs": 1795347044.7177272,
+"lastEdit": "2026-11-22 20:34",
+"lastEditTs": 1795347249.206245,
 "lastCommitTs": 1795341634,
 "unpushed": 0,
 "notInMain": 0,
@@ -9194,7 +9198,7 @@
 "no": 20,
 "title": "배속 튜토리얼에서 버튼을 누르면 2배속이 적용되게",
 "state": "open",
-"phase": "built",
+"phase": "new",
 "imp": "mid",
 "orders": [
 "CD-0045",
@@ -9246,6 +9250,21 @@
 "createdAt": "2026-11-22 11:32",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/23"
+},
+{
+"no": 24,
+"title": "SD 캐릭터 크기 규격화 — 종족별 기준 키, 등급과 크기 분리(인게임·로비 공통)",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [
+"CD-0091",
+"CD-0101",
+"CD-0104"
+],
+"createdAt": "2026-11-22 11:34",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/24"
 }
 ],
 "versions": [
@@ -21449,11 +21468,11 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
-"passed": 710,
+"at": "2026-11-22 20:31",
+"commit": "cb3fae48+수정",
+"passed": 1010,
 "failed": 2,
-"total": 713,
+"total": 1013,
 "ok": false
 },
 "unity": {
@@ -21468,8 +21487,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 20:31",
+"commit": "cb3fae48+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21477,8 +21496,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 20:31",
+"commit": "cb3fae48+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21486,8 +21505,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 20:31",
+"commit": "cb3fae48+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21495,8 +21514,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 20:31",
+"commit": "cb3fae48+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21698,7 +21717,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 20:32",
-"generatedAt": "2026-11-22 20:33",
-"digest": "f67d744881c40a22"
+"sourceAt": "2026-11-22 20:34",
+"generatedAt": "2026-11-22 20:34",
+"digest": "89505acb5c2a4d31"
 }
