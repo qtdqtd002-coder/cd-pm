@@ -1304,51 +1304,51 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0067",
-"head": "54c1ca1",
+"order": "CD-0073",
+"head": "ee15bf7",
 "commits": [
 {
-"sha": "54c1ca1b",
-"at": "2026-11-22 03:55",
-"ts": 1795287321,
-"msg": "병합: cd-53 d1560eb8(빌드 QA — 랭킹·강화 창 시험 2개)"
+"sha": "ee15bf78",
+"at": "2026-11-22 09:23",
+"ts": 1795306980,
+"msg": "병합: cd-73 6827ddc0(빌드 QA — 맵 시험 8개·타일 굽기 캐시·다음 프레임 굽기)"
 },
 {
-"sha": "d1560eb8",
-"at": "2026-11-22 03:55",
-"ts": 1795287304,
-"msg": "CD-0053 빌드 QA 수정 확인 — PlayMode 필터 2/2 통과 · 90-close 기록 · stage 마감"
+"sha": "6827ddc0",
+"at": "2026-11-22 09:22",
+"ts": 1795306967,
+"msg": "CD-0073 빌드 QA 수정 완료 기록: PlayMode 8개 → 3차 0 실패 · 판 시작 굽기 미룸 · stage 마감"
 },
 {
-"sha": "643200fb",
-"at": "2026-11-22 03:49",
-"ts": 1795286965,
-"msg": "병합: main f32fd254 → cd-53 (빌드 QA 수정 확인 전)"
+"sha": "e0715923",
+"at": "2026-11-22 09:19",
+"ts": 1795306784,
+"msg": "CD-0073 빌드 QA 3차: 전설 시험은 웨이브 30 인 판으로 · 맵 시험은 [맵] 창이 열려 있으면 배너·일일 큐를 기다리지 않음"
 },
 {
-"sha": "22f94bd4",
-"at": "2026-11-22 03:49",
-"ts": 1795286960,
-"msg": "CD-0053 빌드 QA 수정 — 랭킹 시험 시드·기대값을 데이터 판 수로 · 강화 시험은 1-2 막는 안내(t7_sell·t7_bounty)를 본 것으로"
+"sha": "8e657594",
+"at": "2026-11-22 04:11",
+"ts": 1795288264,
+"msg": "Merge remote-tracking branch 'origin/main' into cd-73"
 },
 {
-"sha": "f32fd254",
-"at": "2026-11-22 03:46",
-"ts": 1795286785,
-"msg": "병합: cd-64 aaeb9eb7(빌드 QA — 뽑기 시험 4개·티켓 칩·F칸 잘림·안내 멈춤)"
+"sha": "13730490",
+"at": "2026-11-22 04:10",
+"ts": 1795288249,
+"msg": "CD-0073 빌드 QA 2차: 타일 굽기를 판 시작 프레임에서 뺌 · 손 소환 시험이 첫 판 안내에 멈추던 것 · 전설 시험 · 맵 시험 대기"
 },
 {
-"sha": "aaeb9eb7",
-"at": "2026-11-22 03:46",
-"ts": 1795286770,
-"msg": "CD-0064 빌드 QA 수정 기록 — PlayMode 4/4 · EditMode 56/56"
+"sha": "3255813e",
+"at": "2026-11-22 04:06",
+"ts": 1795288001,
+"msg": "CD-0073 빌드 QA: OutgameMapsFlowTests 컴파일 고침(using Game.Client.View)"
 }
 ],
 "dirtyCount": 14,
 "dirty": [
 {
 "file": "studio/checks.json",
-"at": "2026-11-22 03:58"
+"at": "2026-11-22 09:25"
 },
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
@@ -1379,19 +1379,19 @@
 "at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-22 03:58",
-"lastEditTs": 1795287495.6983893,
-"lastCommitTs": 1795287321,
+"lastEdit": "2026-11-22 09:25",
+"lastEditTs": 1795307159.4780312,
+"lastCommitTs": 1795306980,
 "unpushed": 0,
 "notInMain": 0,
-"today": 166
+"today": 175
 },
 {
 "branch": "cd-53",
 "lane": "cd-53",
 "session": "",
 "owns": "",
-"order": "CD-0053",
+"order": "CD-0064",
 "head": "d1560eb",
 "commits": [
 {
@@ -1568,54 +1568,54 @@
 "lane": "cd-63",
 "session": "",
 "owns": "",
-"order": "CD-0067",
-"head": "ee0830a",
+"order": "CD-0063",
+"head": "54c1ca1",
 "commits": [
 {
-"sha": "ee0830ab",
-"at": "2026-11-22 03:27",
-"ts": 1795285654,
-"msg": "CD-0063 빌드 QA 수정: 전설 카드도 «+0» 을 보인다(정보창과 같게) — Cd34HeroScreenTests PlayMode 6/6"
+"sha": "e75d40a5",
+"at": "2026-11-22 09:26",
+"ts": 1795307185,
+"msg": "CD-0063 사용자 수정: 초월 0 이면 전설 이름 옆 «+n» 을 숨긴다(카드·정보창) + 시험"
 },
 {
-"sha": "99d7cfaf",
-"at": "2026-11-22 03:20",
-"ts": 1795285256,
-"msg": "병합: cd-62 900cd2bb(빌드 QA — 새 그림 13장 assets.json state final)"
+"sha": "54c1ca1b",
+"at": "2026-11-22 03:55",
+"ts": 1795287321,
+"msg": "병합: cd-53 d1560eb8(빌드 QA — 랭킹·강화 창 시험 2개)"
 },
 {
-"sha": "6496231e",
-"at": "2026-11-22 03:20",
-"ts": 1795285255,
-"msg": "병합: cd-63 f05c51db(빌드 QA — 낡은 Cd63 시험 고침)"
+"sha": "d1560eb8",
+"at": "2026-11-22 03:55",
+"ts": 1795287304,
+"msg": "CD-0053 빌드 QA 수정 확인 — PlayMode 필터 2/2 통과 · 90-close 기록 · stage 마감"
 },
 {
-"sha": "900cd2bb",
-"at": "2026-11-22 03:14",
-"ts": 1795284845,
-"msg": "CD-0062 빌드 QA 고침: 새 그림 13장의 assets.json 상태 temp → final(파일이 Art/Final 에 있다 — CatalogHasEveryTempAddressOfTheFirstGoal 가 Art/Temp 에서 못 찾음)"
+"sha": "643200fb",
+"at": "2026-11-22 03:49",
+"ts": 1795286965,
+"msg": "병합: main f32fd254 → cd-53 (빌드 QA 수정 확인 전)"
 },
 {
-"sha": "f05c51db",
-"at": "2026-11-22 03:11",
-"ts": 1795284676,
-"msg": "CD-0063 시험 수정: «영웅 탭만 SoftText» 단언 제거 — 결정 0087 은 아웃게임 공통(뽑기 CD-0064 가 옮겨서 낡음)"
+"sha": "22f94bd4",
+"at": "2026-11-22 03:49",
+"ts": 1795286960,
+"msg": "CD-0053 빌드 QA 수정 — 랭킹 시험 시드·기대값을 데이터 판 수로 · 강화 시험은 1-2 막는 안내(t7_sell·t7_bounty)를 본 것으로"
 },
 {
-"sha": "06461eb7",
-"at": "2026-11-22 02:45",
-"ts": 1795283100,
-"msg": "관제 기록: CD-0067 stage → 마감(빌드 대기)"
+"sha": "f32fd254",
+"at": "2026-11-22 03:46",
+"ts": 1795286785,
+"msg": "병합: cd-64 aaeb9eb7(빌드 QA — 뽑기 시험 4개·티켓 칩·F칸 잘림·안내 멈춤)"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1795285654,
-"unpushed": 0,
-"notInMain": 0,
-"today": 151
+"lastCommitTs": 1795307185,
+"unpushed": 1,
+"notInMain": 1,
+"today": 167
 },
 {
 "branch": "cd-64",
@@ -1682,8 +1682,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0073",
-"head": "8e65759",
+"head": "6827ddc",
 "commits": [
+{
+"sha": "6827ddc0",
+"at": "2026-11-22 09:22",
+"ts": 1795306967,
+"msg": "CD-0073 빌드 QA 수정 완료 기록: PlayMode 8개 → 3차 0 실패 · 판 시작 굽기 미룸 · stage 마감"
+},
+{
+"sha": "e0715923",
+"at": "2026-11-22 09:19",
+"ts": 1795306784,
+"msg": "CD-0073 빌드 QA 3차: 전설 시험은 웨이브 30 인 판으로 · 맵 시험은 [맵] 창이 열려 있으면 배너·일일 큐를 기다리지 않음"
+},
 {
 "sha": "8e657594",
 "at": "2026-11-22 04:11",
@@ -1707,53 +1719,21 @@
 "at": "2026-11-22 03:55",
 "ts": 1795287321,
 "msg": "병합: cd-53 d1560eb8(빌드 QA — 랭킹·강화 창 시험 2개)"
-},
-{
-"sha": "d1560eb8",
-"at": "2026-11-22 03:55",
-"ts": 1795287304,
-"msg": "CD-0053 빌드 QA 수정 확인 — PlayMode 필터 2/2 통과 · 90-close 기록 · stage 마감"
-},
-{
-"sha": "6e2782b3",
-"at": "2026-11-22 03:52",
-"ts": 1795287139,
-"msg": "Merge remote-tracking branch 'origin/main' into cd-73"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 1,
 "dirty": [
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-22 04:20"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-22 04:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 04:11"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-22 04:11"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 04:11"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-22 04:06"
 }
 ],
-"lastEdit": "2026-11-22 04:20",
-"lastEditTs": 1795288802.4917328,
-"lastCommitTs": 1795288264,
-"unpushed": 6,
-"notInMain": 6,
-"today": 172
+"lastEdit": "2026-11-22 04:06",
+"lastEditTs": 1795287979.0323422,
+"lastCommitTs": 1795306967,
+"unpushed": 0,
+"notInMain": 0,
+"today": 174
 },
 {
 "branch": "rel-080",
@@ -1871,7 +1851,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 386,
+"commits": 389,
 "byOrder": [
 [
 "CD-0041",
@@ -1886,11 +1866,11 @@
 25
 ],
 [
-"CD-0064",
-23
+"CD-0063",
+24
 ],
 [
-"CD-0063",
+"CD-0064",
 23
 ],
 [
@@ -1926,6 +1906,10 @@
 11
 ],
 [
+"CD-0073",
+10
+],
+[
 "CD-0050",
 10
 ],
@@ -1944,10 +1928,6 @@
 [
 "CD-0044",
 9
-],
-[
-"CD-0073",
-8
 ],
 [
 "CD-0061",
@@ -2020,6 +2000,21 @@
 ],
 "latest": [
 {
+"sha": "e75d40a5",
+"at": "2026-11-22 09:26",
+"msg": "CD-0063 사용자 수정: 초월 0 이면 전설 이름 옆 «+n» 을 숨긴다(카드·정보창) + 시험"
+},
+{
+"sha": "6827ddc0",
+"at": "2026-11-22 09:22",
+"msg": "CD-0073 빌드 QA 수정 완료 기록: PlayMode 8개 → 3차 0 실패 · 판 시작 굽기 미룸 · stage 마감"
+},
+{
+"sha": "e0715923",
+"at": "2026-11-22 09:19",
+"msg": "CD-0073 빌드 QA 3차: 전설 시험은 웨이브 30 인 판으로 · 맵 시험은 [맵] 창이 열려 있으면 배너·일일 큐를 기다리지 않음"
+},
+{
 "sha": "13730490",
 "at": "2026-11-22 04:10",
 "msg": "CD-0073 빌드 QA 2차: 타일 굽기를 판 시작 프레임에서 뺌 · 손 소환 시험이 첫 판 안내에 멈추던 것 · 전설 시험 · 맵 시험 대기"
@@ -2053,21 +2048,6 @@
 "sha": "cba4d050",
 "at": "2026-11-22 03:37",
 "msg": "CD-0067 90-close: 빌드 QA 에서 돌아온 4개 — 넷 다 낡은 시험, PlayMode 네 묶음 19/19 통과"
-},
-{
-"sha": "1f1ecda1",
-"at": "2026-11-22 03:35",
-"msg": "CD-0060·0067 빌드 QA 수정(확인 전): 낡은 시험 4개 — o1_stage 대상 stageBar · 무대 영웅이 서는 것이 의도 · 1-1 이 6웨이브라 이어 할 판 시험은 4웨이브에서 멈춤"
-},
-{
-"sha": "b52ee6bf",
-"at": "2026-11-22 03:27",
-"msg": "CD-0073 빌드 QA: 시험을 새 gate_03 배치에 맞춤 + 타일 굽기 캐시(판 시작 프레임)"
-},
-{
-"sha": "ee0830ab",
-"at": "2026-11-22 03:27",
-"msg": "CD-0063 빌드 QA 수정: 전설 카드도 «+0» 을 보인다(정보창과 같게) — Cd34HeroScreenTests PlayMode 6/6"
 }
 ]
 },
@@ -7578,8 +7558,8 @@
 {
 "id": "CD-0063",
 "title": "영웅 탭 현대화 — A 밤 유리: 목록·등급 표식·정보창",
-"branch": "main",
-"updated": "2026-11-22 01:27",
+"branch": "cd-63",
+"updated": "2026-11-22 09:19",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -7591,13 +7571,13 @@
 "_design"
 ],
 "milestone": "M6",
-"stage": "마감",
+"stage": "제작",
 "route": "full",
 "risk": "mid",
 "teams": "client,art",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "마감",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "<p>영웅 탭(<code>UI/CharacterScreen.cs</code>)의 목록·등급 표식·정보창을 사용자가 고른 시안 <strong>A «밤 유리»</strong> 로 바꾼다. 보는 기준은 <code>_design/mock.jpg</code>(왼쪽부터 목록 · 영웅 정보창 · 전설 정보창)와 <code>_design/mock.html</code>(수치·색의 원본, 폰 폭 320px = 설계 1080px 이므로 ×3.375). 규칙·수치·저장은 바꾸지 않는다 — 화면만.</p>\n<p>결정 0087(이 주문이 쓴다): ① 영웅 탭은 글자 규칙(결정 0057 «밝은 글자는 모두 누끼»)의 예외 — 테두리 없는 밝은 글자 + 짧은 그림자 ② 등급 색·표식 변경 ③ 결정 0012 «종족의 상징 없음» 을 «속성이 아니라 생김새·도구로 만든 구분 표식은 허용» 으로 갱신(종족 표식 6개).</p>",
 "goalShort": "영웅 탭(UI/CharacterScreen.cs)의 목록·등급 표식·정보창을 사용자가 고른 시안 A «밤 유리» 로 바꾼다.",
@@ -7608,8 +7588,8 @@
 "team": "client",
 "title": "목록: 위 1~9(바탕·섹션 머리·등급 색·표식·카드·전설 카드·순서·종족 고르기·종족 표식·재화 칩) + 13 글자. 관련 시험 고침",
 "output": "22a-client.md",
-"status": "done",
-"why": "주문 마감"
+"status": "doing",
+"why": "커밋에 언급됨"
 },
 {
 "id": "C2",
@@ -7617,8 +7597,8 @@
 "team": "client",
 "title": "정보창: 위 10~12(영웅 정보창·능력치 칸·전설 정보창의 레벨 업 + 초월 한 화면) + 13 글자. 관련 시험 고침",
 "output": "22b-client.md",
-"status": "done",
-"why": "주문 마감"
+"status": "doing",
+"why": "커밋에 언급됨"
 },
 {
 "id": "A1",
@@ -7627,7 +7607,7 @@
 "title": "Codex 그림(결정 0092): docs/03 §8-1 문구로 한 묶음(같은 세션 --resume) — 등급 표식 5(겹 꺾쇠 1~4줄 = 표식 4장, 꺾쇠 왕관 = 문양 1장) · 종족 표식 6(검·잎·망치·발바닥·방울·날개 = 표식) · 능력치 아이콘 3(검·겹 화살괄호·과녁 십자 = 표식) · 전설 카드 금빛 틀 1(틀·면, 가운데 투명) = 15장(재시도 포함 25회 안). 모양 기준은 _design/mock.html 의 markA·LEG[1]·RI·SI. 대조표로 검수 → art/final/ui/ · 목록 · 장부 · art/tools/check.py",
 "output": "23-art.md",
 "status": "done",
-"why": "주문 마감"
+"why": "보고서 있음: 23-art.md"
 },
 {
 "id": "C3",
@@ -7635,11 +7615,11 @@
 "team": "client",
 "title": "A1 그림을 주소(이름표)로 불러 코드 그림을 바꿔 끼운다(그림이 없으면 코드 그림이 임시로 나오게 유지 — L13). C2 를 한 에이전트에 이어 맡긴다",
 "output": "22b-client.md 에 덧붙임",
-"status": "done",
-"why": "주문 마감"
+"status": "doing",
+"why": "커밋에 언급됨"
 }
 ],
-"phase": "done",
+"phase": "doing",
 "builtIn": ""
 },
 {
@@ -7853,8 +7833,8 @@
 {
 "id": "CD-0073",
 "title": "사용자 맵툴 배치(gate_03 1인) 반영 — 시험·규칙을 새 배치에 맞춤",
-"branch": "cd-73",
-"updated": "2026-11-22 04:10",
+"branch": "main",
+"updated": "2026-11-22 09:23",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -7864,18 +7844,18 @@
 "90-close.md"
 ],
 "milestone": "M2",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "core, planning",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -7954,7 +7934,7 @@
 "no": 5,
 "title": "영웅 탭 UI 현대화 R&D · 시안 여러 개 → 골라서 폴리싱·적용",
 "state": "open",
-"phase": "done",
+"phase": "doing",
 "imp": "mid",
 "orders": [
 "CD-0063"
@@ -19811,8 +19791,8 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 03:55",
-"commit": "54c1ca1b+수정",
+"at": "2026-11-22 09:23",
+"commit": "ee15bf78+수정",
 "passed": 710,
 "failed": 2,
 "total": 713,
@@ -19830,8 +19810,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 03:55",
-"commit": "54c1ca1b+수정",
+"at": "2026-11-22 09:23",
+"commit": "ee15bf78+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19839,8 +19819,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 03:55",
-"commit": "54c1ca1b+수정",
+"at": "2026-11-22 09:23",
+"commit": "ee15bf78+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19848,8 +19828,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 03:55",
-"commit": "54c1ca1b+수정",
+"at": "2026-11-22 09:23",
+"commit": "ee15bf78+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19857,8 +19837,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 03:55",
-"commit": "54c1ca1b+수정",
+"at": "2026-11-22 09:23",
+"commit": "ee15bf78+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20060,7 +20040,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 04:20",
-"generatedAt": "2026-11-22 06:47",
-"digest": "e998dc695745a066"
+"sourceAt": "2026-11-22 09:26",
+"generatedAt": "2026-11-22 09:26",
+"digest": "77de9be2a119e873"
 }
