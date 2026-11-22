@@ -1485,43 +1485,43 @@
 "msg": "CD-0085 A: Core 의 계정 묶음 · 글 형식 · 판 밖 명령 20개 한 입구(동작 변화 없음)"
 }
 ],
-"dirtyCount": 22,
+"dirtyCount": 37,
 "dirty": [
 {
+"file": "studio/orders/CD-0093-기기-1-판-밖-상태를-서버-인터페이스-로컬-위로/21-client.md",
+"at": "2026-11-22 18:47"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityKit.cs",
+"at": "2026-11-22 18:47"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityTestsB.cs",
+"at": "2026-11-22 18:47"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityTestsB.cs.meta",
+"at": "2026-11-22 18:46"
+},
+{
 "file": "UnityProject/Assets/Tests/EditMode/Cd93BridgeTests.cs",
-"at": "2026-11-22 18:16"
+"at": "2026-11-22 18:31"
 },
 {
-"file": "UnityProject/Assets/_Game/Net/Server/OutgameServerParts.cs",
-"at": "2026-11-22 18:15"
+"file": "UnityProject/Assets/Tests/EditMode/Cd93ParityTests.cs",
+"at": "2026-11-22 18:31"
 },
 {
-"file": "studio/orders/CD-0093-기기-1-판-밖-상태를-서버-인터페이스-로컬-위로/20-core.md",
-"at": "2026-11-22 18:14"
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-22 18:30"
 },
 {
-"file": "Server/tests/ReceiptRoundTripTests.cs",
-"at": "2026-11-22 18:11"
-},
-{
-"file": "Core/tests/Cd0093ReceiptTestsB.cs",
-"at": "2026-11-22 18:11"
-},
-{
-"file": "Core/tests/Cd0093ReceiptTests.cs",
-"at": "2026-11-22 18:10"
-},
-{
-"file": "Core/package/Runtime/Meta/MetaReceipts.cs",
-"at": "2026-11-22 18:07"
-},
-{
-"file": "Server/package/Runtime/MatchCommands.cs",
-"at": "2026-11-22 18:07"
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 18:29"
 }
 ],
-"lastEdit": "2026-11-22 18:16",
-"lastEditTs": 1795338965.938041,
+"lastEdit": "2026-11-22 18:47",
+"lastEditTs": 1795340851.5981157,
 "lastCommitTs": 1795337029,
 "unpushed": 0,
 "notInMain": 0,
@@ -1671,7 +1671,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 367,
+"commits": 365,
 "byOrder": [
 [
 "CD-0053",
@@ -1695,7 +1695,7 @@
 ],
 [
 "CD-0041",
-20
+19
 ],
 [
 "CD-0062",
@@ -1847,10 +1847,6 @@
 ],
 [
 "CD-0038",
-1
-],
-[
-"CD-0045",
 1
 ]
 ],
@@ -8518,7 +8514,7 @@
 "id": "CD-0093",
 "title": "기기 1 — 판 밖 상태를 서버 인터페이스(로컬) 위로",
 "branch": "cd-93",
-"updated": "2026-11-22 18:14",
+"updated": "2026-11-22 18:47",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -21315,7 +21311,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 18:16",
-"generatedAt": "2026-11-22 18:17",
-"digest": "3c00115deaebed1f"
+"sourceAt": "2026-11-22 18:47",
+"generatedAt": "2026-11-22 18:47",
+"digest": "775ec2da1e580c96"
 }
