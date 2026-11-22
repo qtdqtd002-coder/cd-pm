@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0089",
+"order": "CD-0085",
 "head": "cb3fae4",
 "commits": [
 {
@@ -1431,10 +1431,23 @@
 "msg": "CD-0092 B: 접속 명령 · 서버 계정 문서 · 판 밖 명령 20개 등록(동작 변화 없음)"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 3,
+"dirty": [
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd45FlowTests.cs",
+"at": "2026-11-22 20:30"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Tutorial/TutorialGuide.cs",
+"at": "2026-11-22 20:30"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/MatchScreen.cs",
+"at": "2026-11-22 20:30"
+}
+],
+"lastEdit": "2026-11-22 20:30",
+"lastEditTs": 1795347054.5473707,
 "lastCommitTs": 1795341634,
 "unpushed": 0,
 "notInMain": 0,
@@ -1593,22 +1606,14 @@
 "msg": "CD-0092 B: 접속 명령 · 서버 계정 문서 · 판 밖 명령 20개 등록(동작 변화 없음)"
 }
 ],
-"dirtyCount": 44,
+"dirtyCount": 42,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd97ServerPathTests.cs",
-"at": "2026-11-22 20:08"
-},
-{
-"file": "UnityProject/Assets/InitTestScenedc23de41-5cdc-4885-9041-4411dc122304.unity.meta",
-"at": "2026-11-22 20:08"
-},
-{
-"file": "UnityProject/Assets/InitTestScenedc23de41-5cdc-4885-9041-4411dc122304.unity",
-"at": "2026-11-22 20:08"
-},
-{
 "file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 20:31"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd97ServerPathTests.cs",
 "at": "2026-11-22 20:08"
 },
 {
@@ -1626,10 +1631,18 @@
 {
 "file": "UnityProject/Assets/_Game/Outgame/OutgameState.Service.cs",
 "at": "2026-11-22 20:07"
+},
+{
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.DailyShop.cs",
+"at": "2026-11-22 20:07"
+},
+{
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Server.cs",
+"at": "2026-11-22 20:07"
 }
 ],
-"lastEdit": "2026-11-22 20:08",
-"lastEditTs": 1795345724.088655,
+"lastEdit": "2026-11-22 20:31",
+"lastEditTs": 1795347112.5156605,
 "lastCommitTs": 1795341634,
 "unpushed": 0,
 "notInMain": 0,
@@ -1680,10 +1693,19 @@
 "msg": "CD-0092 B: 접속 명령 · 서버 계정 문서 · 판 밖 명령 20개 등록(동작 변화 없음)"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 2,
+"dirty": [
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd77NoticeListTests.cs",
+"at": "2026-11-22 20:30"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/NoticeBoard.cs",
+"at": "2026-11-22 20:30"
+}
+],
+"lastEdit": "2026-11-22 20:30",
+"lastEditTs": 1795347044.7177272,
 "lastCommitTs": 1795341634,
 "unpushed": 0,
 "notInMain": 0,
@@ -1833,7 +1855,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 338,
+"commits": 336,
 "byOrder": [
 [
 "CD-0053",
@@ -1884,10 +1906,6 @@
 11
 ],
 [
-"CD-0041",
-10
-],
-[
 "CD-0073",
 10
 ],
@@ -1902,6 +1920,10 @@
 [
 "CD-0047",
 9
+],
+[
+"CD-0041",
+8
 ],
 [
 "CD-0074",
@@ -9109,6 +9131,21 @@
 "createdAt": "2026-11-22 11:28",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/21"
+},
+{
+"no": 22,
+"title": "인게임 영웅 팝업 합성·교체·판매 버튼 퀄리티 다시 만들기(시안 먼저)",
+"state": "open",
+"phase": "built",
+"imp": "mid",
+"orders": [
+"CD-0070",
+"CD-0076",
+"CD-0102"
+],
+"createdAt": "2026-11-22 11:31",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/22"
 }
 ],
 "versions": [
@@ -21561,7 +21598,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 20:08",
-"generatedAt": "2026-11-22 20:29",
-"digest": "c986d83da72a8ee6"
+"sourceAt": "2026-11-22 20:31",
+"generatedAt": "2026-11-22 20:32",
+"digest": "fda67709a051fec2"
 }
