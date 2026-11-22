@@ -1305,8 +1305,26 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0074",
-"head": "291f135",
+"head": "1becee6",
 "commits": [
+{
+"sha": "1becee61",
+"at": "2026-11-22 11:12",
+"ts": 1795313554,
+"msg": "병합: cd-74 ea0eba98(CD-0074 3차 문구 + 표식 5장 — EditMode 필터 148/148)"
+},
+{
+"sha": "ea0eba98",
+"at": "2026-11-22 11:12",
+"ts": 1795313537,
+"msg": "CD-0074 아이콘: Codex 표식 5장(새로고침·시계·반복·방어·이동 속도) 반입 — 몬스터 카드 이름표·업적 반복 표식·우편 남은 날·상점 시계/새로고침·계정 연동 복사 · 반복 업적 이름 «~마다» 뺌 · 90-close · stage 마감 — EditMode 필터 148/148"
+},
+{
+"sha": "af15ee38",
+"at": "2026-11-22 10:47",
+"ts": 1795312070,
+"msg": "CD-0074 3차: «판» → 스테이지 플레이·전투 · «중복» → 같은 영웅 · 몬스터 카드 설명 줄 뺌 · 현상금 설명 다듬음 — EditMode 확인 전"
+},
 {
 "sha": "291f1353",
 "at": "2026-11-22 10:35",
@@ -1324,31 +1342,13 @@
 "at": "2026-11-22 10:31",
 "ts": 1795311074,
 "msg": "개발일지 11-22: 0.9.0 CCD 마무리(카탈로그 릴리스 32 · app_version 13 릴리스 33 · 공지 릴리스 34, 공개 주소 확인)"
-},
-{
-"sha": "2ead9618",
-"at": "2026-11-22 10:27",
-"ts": 1795310852,
-"msg": "CD-0074 2차: 결과 화면 행동력 보상 아이콘 + 숫자만 · 아이콘·배치 정리 계획"
-},
-{
-"sha": "bb8500d3",
-"at": "2026-11-22 10:25",
-"ts": 1795310720,
-"msg": "CD-0074 2차(진행 중): 튜토리얼 말풍선 «~해 보세요» · 미션·업적 «~하기/~달성» · 알림·온라인 글 낱말 통일 — 시험 문구 맞춤, EditMode 확인 전"
-},
-{
-"sha": "02be7ca9",
-"at": "2026-11-22 10:10",
-"ts": 1795309835,
-"msg": "개발일지 11-22: 앱 0.9.0 폰 배포(Firebase 0uu2t4q9av89o · base_id 2f8e0d01 · CCD 는 로그인 대기)"
 }
 ],
 "dirtyCount": 13,
 "dirty": [
 {
 "file": "studio/checks.json",
-"at": "2026-11-22 10:37"
+"at": "2026-11-22 11:15"
 },
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.core/Settings.json",
@@ -1379,12 +1379,12 @@
 "at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-22 10:37",
-"lastEditTs": 1795311465.667519,
-"lastCommitTs": 1795311308,
+"lastEdit": "2026-11-22 11:15",
+"lastEditTs": 1795313710.6745934,
+"lastCommitTs": 1795313554,
 "unpushed": 0,
 "notInMain": 0,
-"today": 190
+"today": 193
 },
 {
 "branch": "cd-64",
@@ -1451,8 +1451,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0065",
-"head": "4ba99b7",
+"head": "bea36a7",
 "commits": [
+{
+"sha": "bea36a79",
+"at": "2026-11-22 10:50",
+"ts": 1795312255,
+"msg": "CD-0065: 누적 보상 판 9-slice 테두리 · 데이터 사본 맞춤"
+},
+{
+"sha": "3347e676",
+"at": "2026-11-22 10:50",
+"ts": 1795312225,
+"msg": "CD-0065 화면: 업적 = 누적 달성 보상 판 + «업적» 구분 줄 + 꼬리표 줄 목록"
+},
 {
 "sha": "4ba99b78",
 "at": "2026-11-22 10:39",
@@ -1476,53 +1488,49 @@
 "at": "2026-11-22 10:34",
 "ts": 1795311282,
 "msg": "CD-0074 2차: 숫자가 채워진 말풍선 시험 기대 문구 맞춤 — EditMode 필터 115/115"
-},
-{
-"sha": "c44d4586",
-"at": "2026-11-22 10:31",
-"ts": 1795311110,
-"msg": "CD-0065 Core: 누적 달성 보상(milestones · ClaimMilestones · 저장 칸) · 업적 이름 «~하기» · 안내 글 · 결정 0089"
-},
-{
-"sha": "28c37620",
-"at": "2026-11-22 10:31",
-"ts": 1795311074,
-"msg": "개발일지 11-22: 0.9.0 CCD 마무리(카탈로그 릴리스 32 · app_version 13 릴리스 33 · 공지 릴리스 34, 공개 주소 확인)"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 61,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd36OutgameEditModeTests.cs",
-"at": "2026-11-22 10:46"
+"file": "studio/orders/CD-0074-게임-전체-문구-정리-AI-티-어색한-표현-아이콘으로-/_art/sheet.png",
+"at": "2026-11-22 11:15"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd15OutgameScreensTests.cs",
-"at": "2026-11-22 10:46"
+"file": "studio/orders/CD-0074-게임-전체-문구-정리-AI-티-어색한-표현-아이콘으로-/00-order.md",
+"at": "2026-11-22 11:15"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd35LobbyAchievementTests.cs",
-"at": "2026-11-22 10:45"
+"file": "studio/orders/CD-0074-게임-전체-문구-정리-AI-티-어색한-표현-아이콘으로-/90-close.md",
+"at": "2026-11-22 11:15"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/AchievementScreen.cs",
-"at": "2026-11-22 10:44"
+"file": "studio/assets-ledger.csv",
+"at": "2026-11-22 11:15"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ClaimRow.cs",
-"at": "2026-11-22 10:44"
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-22 11:15"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
-"at": "2026-11-22 10:42"
+"file": "studio/art-manifest.json",
+"at": "2026-11-22 11:15"
+},
+{
+"file": "art/tools/gen.py",
+"at": "2026-11-22 11:15"
+},
+{
+"file": "art/tools/ui74_marks.py",
+"at": "2026-11-22 11:15"
 }
 ],
-"lastEdit": "2026-11-22 10:46",
-"lastEditTs": 1795312006.3372622,
-"lastCommitTs": 1795311567,
-"unpushed": 6,
-"notInMain": 6,
-"today": 196
+"lastEdit": "2026-11-22 11:15",
+"lastEditTs": 1795313727.3775506,
+"lastCommitTs": 1795312255,
+"unpushed": 8,
+"notInMain": 8,
+"today": 198
 },
 {
 "branch": "cd-74",
@@ -1530,8 +1538,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0074",
-"head": "291f135",
+"head": "ea0eba9",
 "commits": [
+{
+"sha": "ea0eba98",
+"at": "2026-11-22 11:12",
+"ts": 1795313537,
+"msg": "CD-0074 아이콘: Codex 표식 5장(새로고침·시계·반복·방어·이동 속도) 반입 — 몬스터 카드 이름표·업적 반복 표식·우편 남은 날·상점 시계/새로고침·계정 연동 복사 · 반복 업적 이름 «~마다» 뺌 · 90-close · stage 마감 — EditMode 필터 148/148"
+},
+{
+"sha": "af15ee38",
+"at": "2026-11-22 10:47",
+"ts": 1795312070,
+"msg": "CD-0074 3차: «판» → 스테이지 플레이·전투 · «중복» → 같은 영웅 · 몬스터 카드 설명 줄 뺌 · 현상금 설명 다듬음 — EditMode 확인 전"
+},
 {
 "sha": "291f1353",
 "at": "2026-11-22 10:35",
@@ -1555,61 +1575,16 @@
 "at": "2026-11-22 10:27",
 "ts": 1795310852,
 "msg": "CD-0074 2차: 결과 화면 행동력 보상 아이콘 + 숫자만 · 아이콘·배치 정리 계획"
-},
-{
-"sha": "bb8500d3",
-"at": "2026-11-22 10:25",
-"ts": 1795310720,
-"msg": "CD-0074 2차(진행 중): 튜토리얼 말풍선 «~해 보세요» · 미션·업적 «~하기/~달성» · 알림·온라인 글 낱말 통일 — 시험 문구 맞춤, EditMode 확인 전"
-},
-{
-"sha": "02be7ca9",
-"at": "2026-11-22 10:10",
-"ts": 1795309835,
-"msg": "개발일지 11-22: 앱 0.9.0 폰 배포(Firebase 0uu2t4q9av89o · base_id 2f8e0d01 · CCD 는 로그인 대기)"
 }
 ],
-"dirtyCount": 26,
-"dirty": [
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/weekly.json",
-"at": "2026-11-22 10:45"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/tutorial.json",
-"at": "2026-11-22 10:45"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/social.json",
-"at": "2026-11-22 10:45"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/bounty.json",
-"at": "2026-11-22 10:45"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/daily.json",
-"at": "2026-11-22 10:45"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/achievements.json",
-"at": "2026-11-22 10:45"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/MonsterCard.cs",
-"at": "2026-11-22 10:45"
-},
-{
-"file": "UnityProject/Assets/_Game/View/InGamePrewarm.cs",
-"at": "2026-11-22 10:45"
-}
-],
-"lastEdit": "2026-11-22 10:45",
-"lastEditTs": 1795311901.118754,
-"lastCommitTs": 1795311308,
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795313537,
 "unpushed": 0,
 "notInMain": 0,
-"today": 190
+"today": 192
 },
 {
 "branch": "rel-090",
@@ -1731,7 +1706,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 389,
+"commits": 384,
 "byOrder": [
 [
 "CD-0041",
@@ -1742,10 +1717,6 @@
 26
 ],
 [
-"기타",
-25
-],
-[
 "CD-0063",
 25
 ],
@@ -1754,19 +1725,19 @@
 25
 ],
 [
+"기타",
+24
+],
+[
 "CD-0064",
 23
 ],
 [
-"CD-0040",
-17
+"CD-0062",
+16
 ],
 [
 "CD-0045",
-17
-],
-[
-"CD-0062",
 16
 ],
 [
@@ -1778,11 +1749,11 @@
 15
 ],
 [
-"CD-0052",
-11
+"CD-0040",
+15
 ],
 [
-"CD-0039",
+"CD-0052",
 11
 ],
 [
@@ -1810,20 +1781,24 @@
 9
 ],
 [
+"CD-0065",
+7
+],
+[
 "CD-0061",
 7
 ],
 [
-"CD-0065",
-5
+"CD-0039",
+7
+],
+[
+"CD-0074",
+6
 ],
 [
 "CD-0049",
 5
-],
-[
-"CD-0074",
-4
 ],
 [
 "CD-0058",
@@ -1854,10 +1829,6 @@
 2
 ],
 [
-"CD-0042",
-2
-],
-[
 "CD-0068",
 1
 ],
@@ -1872,9 +1843,33 @@
 [
 "CD-0038",
 1
+],
+[
+"CD-0042",
+1
 ]
 ],
 "latest": [
+{
+"sha": "ea0eba98",
+"at": "2026-11-22 11:12",
+"msg": "CD-0074 아이콘: Codex 표식 5장(새로고침·시계·반복·방어·이동 속도) 반입 — 몬스터 카드 이름표·업적 반복 표식·우편 남은 날·상점 시계/새로고침·계정 연동 복사 · 반복 업적 이름 «~마다» 뺌 · 90-close · stage 마감 — EditMode 필터 148/148"
+},
+{
+"sha": "bea36a79",
+"at": "2026-11-22 10:50",
+"msg": "CD-0065: 누적 보상 판 9-slice 테두리 · 데이터 사본 맞춤"
+},
+{
+"sha": "3347e676",
+"at": "2026-11-22 10:50",
+"msg": "CD-0065 화면: 업적 = 누적 달성 보상 판 + «업적» 구분 줄 + 꼬리표 줄 목록"
+},
+{
+"sha": "af15ee38",
+"at": "2026-11-22 10:47",
+"msg": "CD-0074 3차: «판» → 스테이지 플레이·전투 · «중복» → 같은 영웅 · 몬스터 카드 설명 줄 뺌 · 현상금 설명 다듬음 — EditMode 확인 전"
+},
 {
 "sha": "4ba99b78",
 "at": "2026-11-22 10:39",
@@ -1904,26 +1899,6 @@
 "sha": "bb8500d3",
 "at": "2026-11-22 10:25",
 "msg": "CD-0074 2차(진행 중): 튜토리얼 말풍선 «~해 보세요» · 미션·업적 «~하기/~달성» · 알림·온라인 글 낱말 통일 — 시험 문구 맞춤, EditMode 확인 전"
-},
-{
-"sha": "4eac229a",
-"at": "2026-11-22 10:23",
-"msg": "CD-0065 아트: 누적 달성 보상 판 그림 ach/cum_board (Codex 소품, 9-slice 44)"
-},
-{
-"sha": "df618d5b",
-"at": "2026-11-22 10:18",
-"msg": "CD-0065 gate spec 통과(제작)"
-},
-{
-"sha": "0a819380",
-"at": "2026-11-22 10:18",
-"msg": "CD-0065 주문 · 기획서(누적 달성 보상 + 업적 목록) · gate spec"
-},
-{
-"sha": "02be7ca9",
-"at": "2026-11-22 10:10",
-"msg": "개발일지 11-22: 앱 0.9.0 폰 배포(Firebase 0uu2t4q9av89o · base_id 2f8e0d01 · CCD 는 로그인 대기)"
 }
 ]
 },
@@ -7559,11 +7534,12 @@
 "id": "CD-0065",
 "title": "업적 화면 폴리싱 누적 달성 보상과 업적 목록",
 "branch": "cd-65",
-"updated": "2026-11-22 10:39",
+"updated": "2026-11-22 10:50",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-core.md",
+"21-client.md",
 "22-art.md"
 ],
 "milestone": "M6",
@@ -7593,8 +7569,8 @@
 "team": "client",
 "title": "화면: 위 «화면» 대로 AchievementScreen · ClaimRow(업적 줄 모양 — 미션 · 우편이 같은 ClaimRow 를 쓰면 그쪽은 바뀌지 않게 갈래를 둔다). EditMode 시험: 단계 칸 수 = 데이터 · 상태 3가지 · 누르면 받고 알림 · 게이지 폭과 «n/m» 자리가 모든 줄에서 같음 · 줄마다 보상 칸 1개 · «반복» 딱지는 반복 업적에만 · 자리 이름 achievements.claim 유지. 1번이 끝난 뒤 시작한다(Core 의 보기 값을 쓴다)",
 "output": "코드 · 시험 + 21-client.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-client.md"
 },
 {
 "id": "3",
@@ -7792,27 +7768,28 @@
 "id": "CD-0074",
 "title": "게임 전체 문구 정리 — AI 티·어색한 표현·아이콘으로 바꿀 글자·중복 정보",
 "branch": "main",
-"updated": "2026-11-22 10:35",
+"updated": "2026-11-22 11:12",
 "files": [
 "00-order.md",
 "10-문구-조사-메모.md",
 "20-아이콘-배치-계획.md",
-"90-close.md"
+"90-close.md",
+"_art"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "direct",
 "risk": "low",
 "teams": "client, planning",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
-"builtIn": ""
+"phase": "built",
+"builtIn": "0.9.0"
 }
 ],
 "intake": {
@@ -7921,7 +7898,7 @@
 "no": 9,
 "title": "게임 전체 문구 정리 — AI 티·어색한 표현 다듬기, 아이콘으로 바꿀 글자 빼기, 중복 정보 정리",
 "state": "open",
-"phase": "doing",
+"phase": "built",
 "imp": "mid",
 "orders": [
 "CD-0074"
@@ -14628,9 +14605,9 @@
 }
 ]
 },
-"at": "2026-11-22 10:44",
-"branch": "cd-74",
-"dirty": true
+"at": "2026-11-22 11:12",
+"branch": "main",
+"dirty": false
 },
 "reward": {
 "data": {
@@ -16958,11 +16935,61 @@
 "address": "ui/stat_copy",
 "source": "Codex · 주문 CD-0062",
 "hasFile": true
+},
+{
+"id": "ui/stat_refresh",
+"group": "ui",
+"title": "화면 표식: 새로고침",
+"brief": "512×512 RGBA 흰 실루엣+투명(색은 게임이 입힘), 글자 없음",
+"status": "draft",
+"address": "ui/stat_refresh",
+"source": "Codex · 주문 CD-0074",
+"hasFile": true
+},
+{
+"id": "ui/stat_clock",
+"group": "ui",
+"title": "화면 표식: 남은 시간(시계)",
+"brief": "512×512 RGBA 흰 실루엣+투명(색은 게임이 입힘), 글자 없음",
+"status": "draft",
+"address": "ui/stat_clock",
+"source": "Codex · 주문 CD-0074",
+"hasFile": true
+},
+{
+"id": "ui/stat_repeat",
+"group": "ui",
+"title": "화면 표식: 반복",
+"brief": "512×512 RGBA 흰 실루엣+투명(색은 게임이 입힘), 글자 없음",
+"status": "draft",
+"address": "ui/stat_repeat",
+"source": "Codex · 주문 CD-0074",
+"hasFile": true
+},
+{
+"id": "ui/stat_def",
+"group": "ui",
+"title": "능력치 표식: 방어(방패)",
+"brief": "512×512 RGBA 흰 실루엣+투명(색은 게임이 입힘), 글자 없음",
+"status": "draft",
+"address": "ui/stat_def",
+"source": "Codex · 주문 CD-0074",
+"hasFile": true
+},
+{
+"id": "ui/stat_move",
+"group": "ui",
+"title": "능력치 표식: 이동 속도(장화)",
+"brief": "512×512 RGBA 흰 실루엣+투명(색은 게임이 입힘), 글자 없음",
+"status": "draft",
+"address": "ui/stat_move",
+"source": "Codex · 주문 CD-0074",
+"hasFile": true
 }
 ],
-"at": "2026-11-22 10:22",
+"at": "2026-11-22 11:15",
 "branch": "cd-65",
-"dirty": false
+"dirty": true
 },
 "gallery": {
 "v": 1,
@@ -18136,6 +18163,31 @@
 "f": "data/art/73c1801c46d52c36258d.bin",
 "w": 512,
 "h": 512
+},
+"ui/stat_refresh": {
+"f": "data/art/85310b685f39d66a8317.bin",
+"w": 512,
+"h": 512
+},
+"ui/stat_clock": {
+"f": "data/art/0d9d8fcf9ec168c088ca.bin",
+"w": 512,
+"h": 512
+},
+"ui/stat_repeat": {
+"f": "data/art/0459e3729aaede637d13.bin",
+"w": 512,
+"h": 512
+},
+"ui/stat_def": {
+"f": "data/art/53674d4db83a5de0bf7d.bin",
+"w": 512,
+"h": 512
+},
+"ui/stat_move": {
+"f": "data/art/132c58c5e697c5641d2d.bin",
+"w": 512,
+"h": 512
 }
 },
 "keyAt": "2026-11-16 17:14"
@@ -19138,6 +19190,31 @@
 "state": "final"
 },
 {
+"address": "ui/stat_refresh",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/stat_clock",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/stat_repeat",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/stat_def",
+"kind": "ui",
+"state": "final"
+},
+{
+"address": "ui/stat_move",
+"kind": "ui",
+"state": "final"
+},
+{
 "address": "fx/merge_ready",
 "kind": "fx",
 "state": "temp"
@@ -19703,7 +19780,7 @@
 "state": "final"
 }
 ],
-"at": "2026-11-22 10:22",
+"at": "2026-11-22 11:15",
 "branch": "cd-65"
 }
 },
@@ -19768,8 +19845,8 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 11:12",
+"commit": "1becee61+수정",
 "passed": 710,
 "failed": 2,
 "total": 713,
@@ -19782,13 +19859,13 @@
 "failed": 0,
 "total": 630,
 "ok": true,
-"fresh": true,
+"fresh": false,
 "commit": "8f72ca00+수정"
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 11:12",
+"commit": "1becee61+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19796,8 +19873,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 11:12",
+"commit": "1becee61+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19805,8 +19882,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 11:12",
+"commit": "1becee61+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -19814,8 +19891,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-22 11:12",
+"commit": "1becee61+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -20017,7 +20094,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 10:46",
-"generatedAt": "2026-11-22 10:47",
-"digest": "76848a017cb55f42"
+"sourceAt": "2026-11-22 11:15",
+"generatedAt": "2026-11-22 11:15",
+"digest": "54287f99170a9638"
 }
