@@ -1392,62 +1392,86 @@
 "session": "",
 "owns": "",
 "order": "CD-0101",
-"head": "68e8a63",
+"head": "b672855",
 "commits": [
 {
-"sha": "68e8a639",
-"at": "2026-11-22 22:10",
-"ts": 1795353022,
-"msg": "CD-0101 작업 중: «레벨업 가능» 메달 그림·화면 코드(Unity 반입·확인 전)"
+"sha": "b6728552",
+"at": "2026-11-22 22:47",
+"ts": 1795355277,
+"msg": "병합: main b7bdd091 을 cd-101 로(Unity 확인 전에 맞춤)"
 },
 {
-"sha": "3bb8094f",
-"at": "2026-11-22 21:43",
-"ts": 1795351385,
-"msg": "병합: cd-98 1a2d1391(CD-0098 C-3 — 접속 셋·판 둘을 로컬 서버 판정으로, EditMode 916 · PlayMode 298/0 실패)"
+"sha": "b7bdd091",
+"at": "2026-11-22 22:41",
+"ts": 1795354874,
+"msg": "병합: cd-110 b0c95af1(CD-0110 1-6 튜토리얼 — 막는 안내 중 영웅 끌기 잠금·끌던 영웅 제자리, PlayMode 23/0 실패)"
 },
 {
-"sha": "23f7034c",
-"at": "2026-11-22 21:38",
-"ts": 1795351132,
-"msg": "병합: cd-104 312e6fa4(CD-0104 SD 크기 규격화 — 결정 0099, 체형 표 art/sd-size.json, EditMode 35/35)"
+"sha": "b0c95af1",
+"at": "2026-11-22 22:40",
+"ts": 1795354812,
+"msg": "CD-0110: 주문서 검증·마감 초안(빌드 대기)"
 },
 {
-"sha": "1a2d1391",
-"at": "2026-11-22 21:38",
-"ts": 1795351121,
-"msg": "CD-0098 C-3: 접속 셋·판 둘을 서버 길로 — 계정을 바꾸는 판정이 전부 서버 라이브러리를 지난다(보이는 동작 그대로)"
+"sha": "142ce0c9",
+"at": "2026-11-22 22:35",
+"ts": 1795354535,
+"msg": "병합: cd-103 223bbe02(CD-0103 결과창 안 B «영웅 무대» — EditMode 78/78 · PlayMode 12/12)"
 },
 {
-"sha": "312e6fa4",
-"at": "2026-11-22 21:38",
-"ts": 1795351118,
-"msg": "CD-0104: SD 크기 규격화 — 등급이 아니라 체형 표로(판 안·로비·정보창 공통)"
+"sha": "223bbe02",
+"at": "2026-11-22 22:35",
+"ts": 1795354520,
+"msg": "CD-0103 마감 초안: 캡처로 고친 것(레벨 원 글자 고정 24 · 경험치 아이콘 숫자 옆 · 열림 알약 글자만) · 90-close · 결과창 캡처 3차"
 },
 {
-"sha": "c2c908cf",
-"at": "2026-11-22 21:04",
-"ts": 1795349067,
-"msg": "병합: main bfc28cd3 을 cd-98 로(Unity 확인 전에 맞춤)"
+"sha": "b7b7f179",
+"at": "2026-11-22 22:24",
+"ts": 1795353896,
+"msg": "CD-0110: 막는 안내 중 영웅 끌기 잠금 — 1-6 체험 안내가 늘 받은 영웅부터 시작"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 11,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/Art/Final/ui/mark_levelup.png",
-"at": "2026-11-22 22:09"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-22 22:52"
 },
 {
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-22 21:51"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 22:52"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 22:49"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-22 22:49"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 22:49"
+},
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
+"at": "2026-11-22 22:49"
+},
+{
+"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
+"at": "2026-11-22 22:49"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/ui/mark_levelup.png.meta",
+"at": "2026-11-22 22:48"
 }
 ],
-"lastEdit": "2026-11-22 22:09",
-"lastEditTs": 1795352956.7647123,
-"lastCommitTs": 1795353022,
-"unpushed": 1,
-"notInMain": 1,
-"today": 328
+"lastEdit": "2026-11-22 22:52",
+"lastEditTs": 1795355528.5328102,
+"lastCommitTs": 1795355277,
+"unpushed": 2,
+"notInMain": 2,
+"today": 343
 },
 {
 "branch": "cd-102",
@@ -1542,8 +1566,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0103",
-"head": "142ce0c",
+"head": "b7bdd09",
 "commits": [
+{
+"sha": "b7bdd091",
+"at": "2026-11-22 22:41",
+"ts": 1795354874,
+"msg": "병합: cd-110 b0c95af1(CD-0110 1-6 튜토리얼 — 막는 안내 중 영웅 끌기 잠금·끌던 영웅 제자리, PlayMode 23/0 실패)"
+},
+{
+"sha": "b0c95af1",
+"at": "2026-11-22 22:40",
+"ts": 1795354812,
+"msg": "CD-0110: 주문서 검증·마감 초안(빌드 대기)"
+},
 {
 "sha": "142ce0c9",
 "at": "2026-11-22 22:35",
@@ -1557,28 +1593,16 @@
 "msg": "CD-0103 마감 초안: 캡처로 고친 것(레벨 원 글자 고정 24 · 경험치 아이콘 숫자 옆 · 열림 알약 글자만) · 90-close · 결과창 캡처 3차"
 },
 {
+"sha": "b7b7f179",
+"at": "2026-11-22 22:24",
+"ts": 1795353896,
+"msg": "CD-0110: 막는 안내 중 영웅 끌기 잠금 — 1-6 체험 안내가 늘 받은 영웅부터 시작"
+},
+{
 "sha": "44ca784c",
 "at": "2026-11-22 22:16",
 "ts": 1795353366,
 "msg": "병합: cd-105 e7521f98(CD-0105 우편 보상 아이콘 칸 + 가로 밀기, EditMode 20/20)"
-},
-{
-"sha": "e7521f98",
-"at": "2026-11-22 22:15",
-"ts": 1795353350,
-"msg": "CD-0105: 새 스크립트 .meta 2개 · 주문서 검증 기록(EditMode 필터 20/20) · stage 마감"
-},
-{
-"sha": "6a0577cd",
-"at": "2026-11-22 21:55",
-"ts": 1795352149,
-"msg": "Merge branch 'main' into cd-103"
-},
-{
-"sha": "0dbefa7b",
-"at": "2026-11-22 21:55",
-"ts": 1795352130,
-"msg": "CD-0103: 결과창 균열석 칸 색을 판 밖 보상 띠와 같은 규칙으로(은화 회색 · 젬스톤 보라 · 나머지 금색)"
 }
 ],
 "dirtyCount": 6,
@@ -1610,10 +1634,10 @@
 ],
 "lastEdit": "2026-11-22 22:45",
 "lastEditTs": 1795355128.9771328,
-"lastCommitTs": 1795354535,
+"lastCommitTs": 1795354874,
 "unpushed": 0,
 "notInMain": 0,
-"today": 338
+"today": 341
 },
 {
 "branch": "cd-111",
@@ -1660,8 +1684,32 @@
 "msg": "병합: cd-105 e7521f98(CD-0105 우편 보상 아이콘 칸 + 가로 밀기, EditMode 20/20)"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 8,
 "dirty": [
+{
+"file": "tools/validate_data.py",
+"at": "2026-11-22 22:53"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd45FlowTests.cs",
+"at": "2026-11-22 22:53"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd75OutgameEditModeTests.cs",
+"at": "2026-11-22 22:52"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd36OutgameFlowTests.cs",
+"at": "2026-11-22 22:51"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd36FirstEntryTests.cs",
+"at": "2026-11-22 22:51"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Tutorial/OutgameGuide.cs",
+"at": "2026-11-22 22:51"
+},
 {
 "file": "studio/orders/CD-0111-2-1-튜토리얼-월드-채팅-친구-등-안내-켜기-닫기-단/00-order.md",
 "at": "2026-11-22 22:45"
@@ -1671,8 +1719,8 @@
 "at": "2026-11-22 22:45"
 }
 ],
-"lastEdit": "2026-11-22 22:45",
-"lastEditTs": 1795355156.6902547,
+"lastEdit": "2026-11-22 22:53",
+"lastEditTs": 1795355623.3956857,
 "lastCommitTs": 1795354874,
 "unpushed": 0,
 "notInMain": 0,
@@ -1738,8 +1786,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0094",
-"head": "c1130a4",
+"head": "bf265a5",
 "commits": [
+{
+"sha": "bf265a51",
+"at": "2026-11-22 22:52",
+"ts": 1795355544,
+"msg": "병합: main b7bdd091 을 cd-94 로(Unity 확인 전에 맞춤)"
+},
 {
 "sha": "c1130a46",
 "at": "2026-11-22 22:42",
@@ -1747,44 +1801,55 @@
 "msg": "CD-0094 작업 중: 비동기 도우미 · 27개 …Async · ServerGate · 뽑기 시범(Unity 확인 전)"
 },
 {
-"sha": "f0ab7383",
-"at": "2026-11-22 22:27",
-"ts": 1795354045,
-"msg": "CD-0094 조사: 결정 0101(화면 동작 셋) 기록 · 나누는 안(05-split.md) — 코드 변경 없음"
+"sha": "b7bdd091",
+"at": "2026-11-22 22:41",
+"ts": 1795354874,
+"msg": "병합: cd-110 b0c95af1(CD-0110 1-6 튜토리얼 — 막는 안내 중 영웅 끌기 잠금·끌던 영웅 제자리, PlayMode 23/0 실패)"
 },
 {
-"sha": "44ca784c",
-"at": "2026-11-22 22:16",
-"ts": 1795353366,
-"msg": "병합: cd-105 e7521f98(CD-0105 우편 보상 아이콘 칸 + 가로 밀기, EditMode 20/20)"
+"sha": "b0c95af1",
+"at": "2026-11-22 22:40",
+"ts": 1795354812,
+"msg": "CD-0110: 주문서 검증·마감 초안(빌드 대기)"
 },
 {
-"sha": "e7521f98",
-"at": "2026-11-22 22:15",
-"ts": 1795353350,
-"msg": "CD-0105: 새 스크립트 .meta 2개 · 주문서 검증 기록(EditMode 필터 20/20) · stage 마감"
+"sha": "142ce0c9",
+"at": "2026-11-22 22:35",
+"ts": 1795354535,
+"msg": "병합: cd-103 223bbe02(CD-0103 결과창 안 B «영웅 무대» — EditMode 78/78 · PlayMode 12/12)"
 },
 {
-"sha": "af923a50",
-"at": "2026-11-22 21:54",
-"ts": 1795352067,
-"msg": "Merge branch 'main' into cd-105"
-},
-{
-"sha": "94da3a95",
-"at": "2026-11-22 21:54",
-"ts": 1795352067,
-"msg": "CD-0105: 우편 보상 아이콘 칸(아래 수량) + 보상 영역 가로 밀기 — 구현·시험 코드(아직 Unity 미실행, .meta 는 반입 뒤 추가)"
+"sha": "223bbe02",
+"at": "2026-11-22 22:35",
+"ts": 1795354520,
+"msg": "CD-0103 마감 초안: 캡처로 고친 것(레벨 원 글자 고정 24 · 경험치 아이콘 숫자 옆 · 열림 알약 글자만) · 90-close · 결과창 캡처 3차"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795354969,
-"unpushed": 2,
-"notInMain": 2,
-"today": 333
+"dirtyCount": 4,
+"dirty": [
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd94AsyncTests.cs.meta",
+"at": "2026-11-22 22:54"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd94ServerGateTests.cs.meta",
+"at": "2026-11-22 22:54"
+},
+{
+"file": "UnityProject/Assets/_Game/Net/Server/TestGameServer.cs.meta",
+"at": "2026-11-22 22:54"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/ServerGate.cs.meta",
+"at": "2026-11-22 22:54"
+}
+],
+"lastEdit": "2026-11-22 22:54",
+"lastEditTs": 1795355642.5611842,
+"lastCommitTs": 1795355544,
+"unpushed": 3,
+"notInMain": 3,
+"today": 344
 },
 {
 "branch": "rel-0100",
@@ -1930,7 +1995,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 298,
+"commits": 290,
 "byOrder": [
 [
 "CD-0063",
@@ -1961,10 +2026,6 @@
 15
 ],
 [
-"CD-0051",
-15
-],
-[
 "CD-0065",
 12
 ],
@@ -1977,8 +2038,12 @@
 10
 ],
 [
-"CD-0053",
+"CD-0051",
 10
+],
+[
+"CD-0053",
+9
 ],
 [
 "CD-0067",
@@ -2026,10 +2091,6 @@
 ],
 [
 "CD-0080",
-3
-],
-[
-"CD-0050",
 3
 ],
 [
@@ -2118,6 +2179,10 @@
 ],
 [
 "CD-0071",
+1
+],
+[
+"CD-0050",
 1
 ]
 ],
@@ -9800,6 +9865,35 @@
 "createdAt": "2026-11-22 13:18",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/31"
+},
+{
+"no": 32,
+"title": "판 바닥 타일이 위아래로 뒤집혀 그려짐 — 맵툴과 흙길·소품·동선 어긋남",
+"state": "open",
+"phase": "built",
+"imp": "mid",
+"orders": [
+"CD-0051",
+"CD-0073",
+"CD-0118"
+],
+"createdAt": "2026-11-22 13:53",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/32"
+},
+{
+"no": 33,
+"title": "맵툴 폰 화면 미리보기에 게임 바닥 색 보정(Cd39Look) 맞추기",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [
+"CD-0118",
+"CD-0119"
+],
+"createdAt": "2026-11-22 13:53",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/33"
 }
 ],
 "versions": [
@@ -22385,7 +22479,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 22:46",
-"generatedAt": "2026-11-22 22:47",
-"digest": "d4669679e8703d3e"
+"sourceAt": "2026-11-22 22:54",
+"generatedAt": "2026-11-22 22:54",
+"digest": "20551228246abfc3"
 }
