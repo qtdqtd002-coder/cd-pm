@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0097",
+"order": "CD-0098",
 "head": "3bb8094",
 "commits": [
 {
@@ -1348,15 +1348,15 @@
 "dirty": [
 {
 "file": "_qa/hud-sian/hud_sian_bar_states.png",
-"at": "2026-11-22 22:01"
+"at": "2026-11-22 22:02"
 },
 {
 "file": "_qa/hud-sian/hud_sian_compare_full.png",
-"at": "2026-11-22 22:01"
+"at": "2026-11-22 22:02"
 },
 {
 "file": "_qa/hud-sian/hud_sian_full_1080x1920.png",
-"at": "2026-11-22 22:01"
+"at": "2026-11-22 22:02"
 },
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.core/Settings.json",
@@ -1379,8 +1379,8 @@
 "at": "2026-11-22 10:27"
 }
 ],
-"lastEdit": "2026-11-22 22:01",
-"lastEditTs": 1795352468.8435822,
+"lastEdit": "2026-11-22 22:02",
+"lastEditTs": 1795352547.685395,
 "lastCommitTs": 1795351385,
 "unpushed": 0,
 "notInMain": 0,
@@ -1391,9 +1391,15 @@
 "lane": "cd-101",
 "session": "",
 "owns": "",
-"order": "CD-0097",
-"head": "3bb8094",
+"order": "CD-0101",
+"head": "68e8a63",
 "commits": [
+{
+"sha": "68e8a639",
+"at": "2026-11-22 22:10",
+"ts": 1795353022,
+"msg": "CD-0101 작업 중: «레벨업 가능» 메달 그림·화면 코드(Unity 반입·확인 전)"
+},
 {
 "sha": "3bb8094f",
 "at": "2026-11-22 21:43",
@@ -1423,55 +1429,25 @@
 "at": "2026-11-22 21:04",
 "ts": 1795349067,
 "msg": "병합: main bfc28cd3 을 cd-98 로(Unity 확인 전에 맞춤)"
-},
-{
-"sha": "1d916062",
-"at": "2026-11-22 21:04",
-"ts": 1795349067,
-"msg": "CD-0098 C-3 작업 중: 접속 셋·판 둘을 서버 길로(Unity 확인 전)"
 }
 ],
-"dirtyCount": 18,
+"dirtyCount": 2,
 "dirty": [
 {
-"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/00-order.md",
-"at": "2026-11-22 21:57"
+"file": "UnityProject/Assets/_Game/Art/Final/ui/mark_levelup.png",
+"at": "2026-11-22 22:09"
 },
 {
-"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/_design/mock_closeup_100.png",
-"at": "2026-11-22 21:56"
-},
-{
-"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/_design/mock_sheet.png",
-"at": "2026-11-22 21:56"
-},
-{
-"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/_design/mock_sheet_full.png",
-"at": "2026-11-22 21:56"
-},
-{
-"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/_design/mock_C_full.png",
-"at": "2026-11-22 21:56"
-},
-{
-"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/_design/mock_B_full.png",
-"at": "2026-11-22 21:56"
-},
-{
-"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/_design/mock_A_full.png",
-"at": "2026-11-22 21:56"
-},
-{
-"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/_design/mock_now_full.png",
-"at": "2026-11-22 21:56"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 21:51"
 }
 ],
-"lastEdit": "2026-11-22 21:57",
-"lastEditTs": 1795352229.7708685,
-"lastCommitTs": 1795351385,
-"unpushed": 0,
-"notInMain": 0,
-"today": 327
+"lastEdit": "2026-11-22 22:09",
+"lastEditTs": 1795352956.7647123,
+"lastCommitTs": 1795353022,
+"unpushed": 1,
+"notInMain": 1,
+"today": 328
 },
 {
 "branch": "cd-102",
@@ -1518,43 +1494,43 @@
 "msg": "CD-0098 C-3: 접속 셋·판 둘을 서버 길로 — 계정을 바꾸는 판정이 전부 서버 라이브러리를 지난다(보이는 동작 그대로)"
 }
 ],
-"dirtyCount": 37,
+"dirtyCount": 46,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/Match/CellPopup.cs",
-"at": "2026-11-22 22:01"
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/00-order.md",
+"at": "2026-11-22 22:11"
 },
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-22 22:01"
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/13-cross-sheet-a100.png",
+"at": "2026-11-22 22:10"
+},
+{
+"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/13-cross-sheet.png",
+"at": "2026-11-22 22:10"
 },
 {
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_popup_corner_safe_1080x2400.png",
-"at": "2026-11-22 22:00"
+"at": "2026-11-22 22:06"
 },
 {
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_popup_corner_1080x1920.png",
-"at": "2026-11-22 22:00"
+"at": "2026-11-22 22:06"
 },
 {
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_safe_1080x2400.png",
-"at": "2026-11-22 22:00"
+"at": "2026-11-22 22:06"
 },
 {
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_1080x1920.png",
-"at": "2026-11-22 22:00"
+"at": "2026-11-22 22:06"
 },
 {
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_safe_1080x2400.png",
-"at": "2026-11-22 22:00"
-},
-{
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_1080x1920.png",
-"at": "2026-11-22 22:00"
+"at": "2026-11-22 22:06"
 }
 ],
-"lastEdit": "2026-11-22 22:01",
-"lastEditTs": 1795352486.0064518,
+"lastEdit": "2026-11-22 22:11",
+"lastEditTs": 1795353062.0508294,
 "lastCommitTs": 1795351950,
 "unpushed": 3,
 "notInMain": 3,
@@ -1887,7 +1863,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 302,
+"commits": 304,
 "byOrder": [
 [
 "CD-0063",
@@ -1982,6 +1958,10 @@
 4
 ],
 [
+"CD-0102",
+3
+],
+[
 "CD-0080",
 3
 ],
@@ -1992,10 +1972,6 @@
 [
 "CD-0055",
 3
-],
-[
-"CD-0102",
-2
 ],
 [
 "CD-0098",
@@ -2036,6 +2012,10 @@
 [
 "CD-0057",
 2
+],
+[
+"CD-0101",
+1
 ],
 [
 "CD-0105",
@@ -2084,6 +2064,16 @@
 ],
 "latest": [
 {
+"sha": "ef98a1f6",
+"at": "2026-11-22 22:11",
+"msg": "CD-0102: 카탈로그 반입(ui 10개 .meta·SpriteCatalog·Art) · 버튼 면 가장자리 티끌 정리·2px 여백 · 표식 50 · 영웅 둘레 배치 시안 13-cross-sheet — EditMode 104/105(UiSkin 순서 문제, 단독 7/7) · PlayMode 26/26"
+},
+{
+"sha": "68e8a639",
+"at": "2026-11-22 22:10",
+"msg": "CD-0101 작업 중: «레벨업 가능» 메달 그림·화면 코드(Unity 반입·확인 전)"
+},
+{
 "sha": "0dbefa7b",
 "at": "2026-11-22 21:55",
 "msg": "CD-0103: 결과창 균열석 칸 색을 판 밖 보상 띠와 같은 규칙으로(은화 회색 · 젬스톤 보라 · 나머지 금색)"
@@ -2122,16 +2112,6 @@
 "sha": "c40f90c6",
 "at": "2026-11-22 21:28",
 "msg": "CD-0103 기획서: 결과창 안 B «영웅 무대»(사용자 선택) — gate spec 통과"
-},
-{
-"sha": "1d916062",
-"at": "2026-11-22 21:04",
-"msg": "CD-0098 C-3 작업 중: 접속 셋·판 둘을 서버 길로(Unity 확인 전)"
-},
-{
-"sha": "717dfc87",
-"at": "2026-11-22 20:56",
-"msg": "CD-0103 결과창 시안 1차: 안 A 금빛 띠 · 안 B 영웅 무대 · 안 C 전투 보고서(승리·패배), 주문 열림(제작)"
 }
 ]
 },
@@ -9007,38 +8987,62 @@
 "id": "CD-0101",
 "title": "영웅 탭 레벨업 가능 표시를 눈에 띄게",
 "branch": "cd-101",
-"updated": "2026-11-22 21:57",
+"updated": "2026-11-22 22:09",
 "files": [
 "00-order.md",
 "10-spec.md",
+"21-report-client.md",
+"23-art.md",
+"_art",
 "_design"
 ],
 "milestone": "M7",
-"stage": "접수",
+"stage": "제작",
 "route": "full",
 "risk": "mid",
 "teams": "art, client",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
-"phase": "new",
+"goal": "<p>레벨업할 수 있는 영웅을 영웅 탭에서 한눈에 알아보게 한다. 지금 표시는 금색 부분이 16×12px(화면 폭 1080 의 1.5%)이고 바로 옆 레드닷(28px)의 절반이다.</p>\n<div class=tw><table><thead><tr><th>곳</th><th>지금</th><th>바꾼 뒤(1080 폭 기준)</th></tr></thead><tbody><tr><td>영웅 카드</td><td>«Lv.n» 옆 34px 칸의 금색 ▲(코드 그림)</td><td><strong>카드 오른쪽 위 모서리의 금색 메달 84px</strong>(카드 폭의 약 27% — 화살표가 든 둥근 메달, Codex 그림) + 어두운 뒤 그림자. «Lv.n» 옆 ▲ 는 없앤다</td></tr><tr><td>카드 아래 수량 줄</td><td>높이 10px, 레벨업 가능하면 금색</td><td><strong>높이 16px</strong>, 색 규칙은 그대로(가능 = 금색)</td></tr><tr><td>로비 하단 [영웅] 탭</td><td>아이콘 왼쪽 어깨의 ▲(약 18px)</td><td><strong>같은 메달 40px</strong>(레드닷 28px 보다 크다), 같은 자리</td></tr></tbody></table></div>\n<ul>\n<li>표식은 «자루 달린 화살표» 가 든 메달이다 — 같은 화면의 등급 표식이 꺾쇠(^)라서 삼각형은 등급처럼 읽힌다.\n</li>\n<li><strong>움직임·반짝임 없음</strong>(사용자 2026-11-20: 반복 반짝임 금지). 메달이 처음 켜질 때의 한 번 «톡» 커짐(<code>Pop.On</code>, 지금 ▲ 에도 있다)만 그대로 둔다.\n</li>\n<li>메달의 «하이라이트» 는 그림 안의 고정된 빛 표현이다(왼쪽 위에서 빛을 받는 초승달 면 + 작은 반짝 점). 세기 둘을 뽑아 대표가 고른 것으로 넣고, 사용자에게 실제 화면 캡처로 둘 다 보여 준다 — 바꾸는 것은 그림 파일 하나다.\n</li>\n<li>카드 테두리(등급 색) · «Lv.n» 글자 · 이름 · 자물쇠 · 전설 카드의 레드닷은 그대로.\n</li></ul>",
+"goalShort": "레벨업할 수 있는 영웅을 영웅 탭에서 한눈에 알아보게 한다.",
+"tasks": [
+{
+"id": "A1",
+"key": "CD-0101/A1",
+"team": "art",
+"title": "D1 — 메달 다시 뽑기 · 받아들이기 · 검수(대표가 직접)",
+"output": "art/final/ui/mark_levelup.png · art/tools/ui101_marks.py · gen.py 키 · 목록·장부 · 23-art.md",
+"status": "done",
+"why": "보고서 있음: 23-art.md"
+},
+{
+"id": "C1",
+"key": "CD-0101/C1",
+"team": "client",
+"title": "D2 — 카드 메달 · 수량 줄 · 탭 메달 · 시험",
+"output": "UI/HeroMarks.cs · UI/CharacterScreen.cs · UI/LobbyScreen.cs · 시험 · 21-report-client.md",
+"status": "done",
+"why": "보고서 있음: 21-report-client.md"
+}
+],
+"phase": "doing",
 "builtIn": ""
 },
 {
 "id": "CD-0102",
 "title": "인게임 영웅 팝업 합성·교체·판매 버튼 퀄리티 다시 만들기(시안 먼저)",
 "branch": "cd-102",
-"updated": "2026-11-22 22:00",
+"updated": "2026-11-22 22:11",
 "files": [
 "00-order.md",
 "10-spec.md",
 "11-sian-sheet.png",
 "11-sian.md",
 "12-states-preview.png",
+"13-cross-sheet-a100.png",
+"13-cross-sheet.png",
 "90-close.md",
 "_shots"
 ],
@@ -9446,7 +9450,7 @@
 "no": 21,
 "title": "영웅 탭 레벨업 가능 표시를 눈에 띄게",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "mid",
 "orders": [
 "CD-0063",
@@ -9488,7 +9492,7 @@
 "no": 24,
 "title": "SD 캐릭터 크기 규격화 — 종족별 기준 키, 등급과 크기 분리(인게임·로비 공통)",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "mid",
 "orders": [
 "CD-0091",
@@ -9554,6 +9558,20 @@
 "createdAt": "2026-11-22 13:01",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/28"
+},
+{
+"no": 29,
+"title": "1-6 튜토리얼(전설 소환·진화) 중 영웅 이동 막고 안내 강제 진행",
+"state": "open",
+"phase": "built",
+"imp": "mid",
+"orders": [
+"CD-0075",
+"CD-0110"
+],
+"createdAt": "2026-11-22 13:11",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/29"
 }
 ],
 "versions": [
@@ -18749,98 +18767,17 @@
 "hasFile": true
 },
 {
-"id": "ui/hero_key_gold",
+"id": "ui/mark_levelup",
 "group": "ui",
-"title": "영웅 팝업 버튼 면(금): 모서리 깎은 판 + 안쪽 가는 선 + 아래 턱 — 합성·진화",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
+"title": "«레벨업 가능» 메달(금색 원판 + 남색 화살표, 하이라이트)",
+"brief": "CD-0101 A1: docs/03 §8-1 공통+문양 문구, 사용자 요청으로 하이라이트(초승달 빛·반짝 점) 추가, 흰 배경→투명",
 "status": "draft",
-"address": "ui/hero_key_gold",
-"hasFile": true
-},
-{
-"id": "ui/hero_key_teal",
-"group": "ui",
-"title": "영웅 팝업 버튼 면(청록): 모서리 깎은 판 + 안쪽 가는 선 — 교체",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
-"status": "draft",
-"address": "ui/hero_key_teal",
-"hasFile": true
-},
-{
-"id": "ui/hero_key_navy",
-"group": "ui",
-"title": "영웅 팝업 버튼 면(남색): 모서리 깎은 판 + 안쪽 금 선 — 판매",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
-"status": "draft",
-"address": "ui/hero_key_navy",
-"hasFile": true
-},
-{
-"id": "ui/hero_key_slot",
-"group": "ui",
-"title": "영웅 팝업 꼬리표 면: 오목하게 들어간 남색 판(누르는 버튼 아님) — n/3 · 전설 스킬 이름",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
-"status": "draft",
-"address": "ui/hero_key_slot",
-"hasFile": true
-},
-{
-"id": "ui/hero_popup_panel",
-"group": "ui",
-"title": "영웅 팝업 판: 남색 면 + 가는 금 테 + 네 모서리 작은 금 장식(9-slice)",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
-"status": "draft",
-"address": "ui/hero_popup_panel",
-"hasFile": true
-},
-{
-"id": "ui/hero_popup_crest",
-"group": "ui",
-"title": "영웅 팝업 판 꼭대기 금 꺾쇠(판 위 가운데에 따로 얹음)",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
-"status": "draft",
-"address": "ui/hero_popup_crest",
-"hasFile": true
-},
-{
-"id": "ui/glyph_merge",
-"group": "ui",
-"title": "합성 표식: 위로 겹친 꺾쇠 셋(흰 실루엣, 게임이 색을 입힘)",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
-"status": "draft",
-"address": "ui/glyph_merge",
-"hasFile": true
-},
-{
-"id": "ui/glyph_reroll",
-"group": "ui",
-"title": "교체 표식: 서로 쫓는 둥근 화살표 둘(흰 실루엣)",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
-"status": "draft",
-"address": "ui/glyph_reroll",
-"hasFile": true
-},
-{
-"id": "ui/glyph_evolve",
-"group": "ui",
-"title": "진화 표식: 위로 꺾쇠 하나 + 끝 위 작은 별(흰 실루엣)",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
-"status": "draft",
-"address": "ui/glyph_evolve",
-"hasFile": true
-},
-{
-"id": "ui/icon_coin_flat",
-"group": "ui",
-"title": "판매 동전: 두 톤 금색 납작한 동전 + 가운데 오목 별",
-"brief": "CD-0102: 영웅 팝업 버튼 B안(장식 판, 사용자 선택 2026-11-22)의 Codex 그림을 art/tools/ui102_keys.py 로 투명 처리",
-"status": "draft",
-"address": "ui/icon_coin_flat",
+"address": "ui/mark_levelup",
 "hasFile": true
 }
 ],
-"at": "2026-11-22 21:42",
-"branch": "cd-102",
+"at": "2026-11-22 22:06",
+"branch": "cd-101",
 "dirty": false
 },
 "gallery": {
@@ -20116,53 +20053,8 @@
 "w": 512,
 "h": 512
 },
-"ui/hero_key_gold": {
-"f": "data/art/199f64811b354442d5d4.bin",
-"w": 480,
-"h": 185
-},
-"ui/hero_key_teal": {
-"f": "data/art/21db895c07bd8505b25b.bin",
-"w": 480,
-"h": 160
-},
-"ui/hero_key_navy": {
-"f": "data/art/c49973e614230c2d108f.bin",
-"w": 480,
-"h": 167
-},
-"ui/hero_key_slot": {
-"f": "data/art/31633f3dda33d24e81df.bin",
-"w": 480,
-"h": 168
-},
-"ui/hero_popup_panel": {
-"f": "data/art/1c8535902db42fc87575.bin",
-"w": 512,
-"h": 512
-},
-"ui/hero_popup_crest": {
-"f": "data/art/c88739394d1fab117d8a.bin",
-"w": 512,
-"h": 512
-},
-"ui/glyph_merge": {
-"f": "data/art/48d1afac943b4d84047f.bin",
-"w": 512,
-"h": 512
-},
-"ui/glyph_reroll": {
-"f": "data/art/0f28a472672b8af80ed0.bin",
-"w": 512,
-"h": 512
-},
-"ui/glyph_evolve": {
-"f": "data/art/40bcf904f8a4eda684cc.bin",
-"w": 512,
-"h": 512
-},
-"ui/icon_coin_flat": {
-"f": "data/art/cd8e9b4e7e9c3a6bd62b.bin",
+"ui/mark_levelup": {
+"f": "data/art/8031678dd459eb706f8f.bin",
 "w": 512,
 "h": 512
 }
@@ -22196,7 +22088,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 22:01",
-"generatedAt": "2026-11-22 22:01",
-"digest": "ab6ac4761c085198"
+"sourceAt": "2026-11-22 22:11",
+"generatedAt": "2026-11-22 22:11",
+"digest": "c78e30968ce59336"
 }
