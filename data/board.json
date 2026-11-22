@@ -1344,43 +1344,43 @@
 "msg": "병합: cd-75 4090267d(CD-0075 후속 — 작업실 튜토리얼 칸 설명 10개)"
 }
 ],
-"dirtyCount": 20,
+"dirtyCount": 12,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene78e89600-d635-4d6e-a5a2-6c6eec3e133e.unity.meta",
-"at": "2026-11-22 12:59"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.core/Settings.json",
+"at": "2026-11-22 10:28"
 },
 {
-"file": "UnityProject/Assets/InitTestScene78e89600-d635-4d6e-a5a2-6c6eec3e133e.unity",
-"at": "2026-11-22 12:59"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 10:28"
 },
 {
-"file": "studio/checks.json",
-"at": "2026-11-22 12:59"
+"file": "UnityProject/.vscode/extensions.json",
+"at": "2026-11-22 10:27"
 },
 {
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-22 12:59"
+"file": "UnityProject/.vscode/launch.json",
+"at": "2026-11-22 10:27"
 },
 {
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-22 12:59"
+"file": "UnityProject/.vscode/settings.json",
+"at": "2026-11-22 10:27"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 12:58"
+"file": "_qa/cd54-shots-v2/cd54_propfx_low.png",
+"at": "2026-11-22 00:05"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-22 12:58"
+"file": "_qa/cd54-shots-v2/cd54_propfx_high_crop200.png",
+"at": "2026-11-22 00:05"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 12:58"
+"file": "_qa/cd54-shots-v2/cd54_propfx_high.png",
+"at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-22 12:59",
-"lastEditTs": 1795319980.382579,
+"lastEdit": "2026-11-22 10:28",
+"lastEditTs": 1795310895.2319162,
 "lastCommitTs": 1795319220,
 "unpushed": 0,
 "notInMain": 0,
@@ -1451,53 +1451,53 @@
 "session": "",
 "owns": "",
 "order": "CD-0075",
-"head": "4090267",
+"head": "0754556",
 "commits": [
 {
-"sha": "4090267d",
+"sha": "0754556c",
+"at": "2026-11-22 12:47",
+"ts": 1795319220,
+"msg": "병합: cd-66 248bd02d(CD-0066 상점 «노점 가판» — EditMode 83/83 · 캡처 1/1)"
+},
+{
+"sha": "248bd02d",
+"at": "2026-11-22 12:46",
+"ts": 1795319205,
+"msg": "CD-0066 마감 기록: Core 734/737(실패 2) 적음"
+},
+{
+"sha": "22223c11",
+"at": "2026-11-22 12:43",
+"ts": 1795319032,
+"msg": "CD-0066 반입 · 90-close 초안(빌드 대기): 상점 소품 그림 .meta · 카탈로그 4줄 · 캡처 — EditMode 83/83 · 캡처 시험 1/1"
+},
+{
+"sha": "d3f5c79c",
+"at": "2026-11-22 12:37",
+"ts": 1795318627,
+"msg": "Merge branch 'main' into cd-66"
+},
+{
+"sha": "1b997fcd",
 "at": "2026-11-22 12:36",
-"ts": 1795318563,
-"msg": "CD-0075 후속: 작업실 칸 설명 — tutorial.json 새 칸 10개(kujiScript · 단계 open · 조건 moves/upgrades/loneHero/heroes/summons) + pick any — check_fields --strict 빠진 칸 0 · test_workbench 모두 통과"
+"ts": 1795318593,
+"msg": "CD-0066 클라이언트 보고서 20-client.md(한 일 · 검증 · Unity 명령 · 걸리는 점)"
 },
 {
-"sha": "0343e71f",
-"at": "2026-11-22 12:31",
-"ts": 1795318315,
-"msg": "병합: cd-75 e5318b53(CD-0075 튜토리얼 전면 정비 15건 — 결정 0093, EditMode 필터 199/200)"
-},
-{
-"sha": "e5318b53",
-"at": "2026-11-22 12:31",
-"ts": 1795318296,
-"msg": "CD-0075 90-close 초안 · stage 마감(빌드 대기) — check Core 734/737(실패 2 = main 의 밸런스 시험) · EditMode 필터 199/200"
-},
-{
-"sha": "730dbac6",
-"at": "2026-11-22 12:30",
-"ts": 1795318232,
-"msg": "CD-0075 시험 맞춤: 쿠지 일반 추첨 시험은 고정 결과를 쓴 계정으로 · 자리 수 65 → 71 · Cd75 시험 .meta — EditMode 필터 199/200(남은 1 = main 의 OutgameSaveTests 24종, cd-76 몫)"
-},
-{
-"sha": "6f1f28ab",
-"at": "2026-11-22 12:21",
-"ts": 1795317709,
-"msg": "병합: main c4e9b791 → cd-75 (CD-0076 1차 등)"
-},
-{
-"sha": "24a6517c",
-"at": "2026-11-22 12:21",
-"ts": 1795317691,
-"msg": "CD-0075 뽑기 새 판 말풍선: «상위상을 모두 뽑으면 새 판이 열려요» — 고정 결과가 안 쓰인 계정에도 맞는 말로"
+"sha": "d54636a3",
+"at": "2026-11-22 12:36",
+"ts": 1795318574,
+"msg": "병합: cd-75 4090267d(CD-0075 후속 — 작업실 튜토리얼 칸 설명 10개)"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1795318563,
+"lastCommitTs": 1795319220,
 "unpushed": 0,
 "notInMain": 0,
-"today": 245
+"today": 255
 },
 {
 "branch": "cd-76",
@@ -1773,7 +1773,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 405,
+"commits": 401,
 "byOrder": [
 [
 "CD-0041",
@@ -1860,15 +1860,15 @@
 7
 ],
 [
-"CD-0040",
-7
-],
-[
 "CD-0078",
 6
 ],
 [
 "CD-0074",
+6
+],
+[
+"CD-0040",
 6
 ],
 [
@@ -1905,10 +1905,6 @@
 ],
 [
 "CD-0055",
-3
-],
-[
-"CD-0046",
 3
 ],
 [
@@ -20776,6 +20772,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-22 13:11",
-"generatedAt": "2026-11-22 13:17",
-"digest": "09613ca2744dfeec"
+"generatedAt": "2026-11-22 13:28",
+"digest": "cf015a93b517ae32"
 }
