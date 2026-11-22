@@ -1305,8 +1305,32 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0097",
-"head": "3bb8094",
+"head": "44ca784",
 "commits": [
+{
+"sha": "44ca784c",
+"at": "2026-11-22 22:16",
+"ts": 1795353366,
+"msg": "병합: cd-105 e7521f98(CD-0105 우편 보상 아이콘 칸 + 가로 밀기, EditMode 20/20)"
+},
+{
+"sha": "e7521f98",
+"at": "2026-11-22 22:15",
+"ts": 1795353350,
+"msg": "CD-0105: 새 스크립트 .meta 2개 · 주문서 검증 기록(EditMode 필터 20/20) · stage 마감"
+},
+{
+"sha": "af923a50",
+"at": "2026-11-22 21:54",
+"ts": 1795352067,
+"msg": "Merge branch 'main' into cd-105"
+},
+{
+"sha": "94da3a95",
+"at": "2026-11-22 21:54",
+"ts": 1795352067,
+"msg": "CD-0105: 우편 보상 아이콘 칸(아래 수량) + 보상 영역 가로 밀기 — 구현·시험 코드(아직 Unity 미실행, .meta 는 반입 뒤 추가)"
+},
 {
 "sha": "3bb8094f",
 "at": "2026-11-22 21:43",
@@ -1318,30 +1342,6 @@
 "at": "2026-11-22 21:38",
 "ts": 1795351132,
 "msg": "병합: cd-104 312e6fa4(CD-0104 SD 크기 규격화 — 결정 0099, 체형 표 art/sd-size.json, EditMode 35/35)"
-},
-{
-"sha": "1a2d1391",
-"at": "2026-11-22 21:38",
-"ts": 1795351121,
-"msg": "CD-0098 C-3: 접속 셋·판 둘을 서버 길로 — 계정을 바꾸는 판정이 전부 서버 라이브러리를 지난다(보이는 동작 그대로)"
-},
-{
-"sha": "312e6fa4",
-"at": "2026-11-22 21:38",
-"ts": 1795351118,
-"msg": "CD-0104: SD 크기 규격화 — 등급이 아니라 체형 표로(판 안·로비·정보창 공통)"
-},
-{
-"sha": "c2c908cf",
-"at": "2026-11-22 21:04",
-"ts": 1795349067,
-"msg": "병합: main bfc28cd3 을 cd-98 로(Unity 확인 전에 맞춤)"
-},
-{
-"sha": "1d916062",
-"at": "2026-11-22 21:04",
-"ts": 1795349067,
-"msg": "CD-0098 C-3 작업 중: 접속 셋·판 둘을 서버 길로(Unity 확인 전)"
 }
 ],
 "dirtyCount": 15,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 22:02",
 "lastEditTs": 1795352547.685395,
-"lastCommitTs": 1795351385,
-"unpushed": 0,
+"lastCommitTs": 1795353366,
+"unpushed": 4,
 "notInMain": 0,
-"today": 327
+"today": 331
 },
 {
 "branch": "cd-101",
@@ -1494,8 +1494,12 @@
 "msg": "병합: cd-104 312e6fa4(CD-0104 SD 크기 규격화 — 결정 0099, 체형 표 art/sd-size.json, EditMode 35/35)"
 }
 ],
-"dirtyCount": 19,
+"dirtyCount": 20,
 "dirty": [
+{
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-22 22:16"
+},
 {
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_popup_corner_safe_1080x2400.png",
 "at": "2026-11-22 22:06"
@@ -1523,14 +1527,10 @@
 {
 "file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_popup_safe_1080x2400.png",
 "at": "2026-11-22 22:06"
-},
-{
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_popup_1080x1920.png",
-"at": "2026-11-22 22:06"
 }
 ],
-"lastEdit": "2026-11-22 22:06",
-"lastEditTs": 1795352774.1280732,
+"lastEdit": "2026-11-22 22:16",
+"lastEditTs": 1795353417.0960438,
 "lastCommitTs": 1795353103,
 "unpushed": 4,
 "notInMain": 4,
@@ -1616,9 +1616,15 @@
 "lane": "cd-105",
 "session": "",
 "owns": "",
-"order": "CD-0105",
-"head": "af923a5",
+"order": "CD-0098",
+"head": "e7521f9",
 "commits": [
+{
+"sha": "e7521f98",
+"at": "2026-11-22 22:15",
+"ts": 1795353350,
+"msg": "CD-0105: 새 스크립트 .meta 2개 · 주문서 검증 기록(EditMode 필터 20/20) · stage 마감"
+},
 {
 "sha": "af923a50",
 "at": "2026-11-22 21:54",
@@ -1648,22 +1654,16 @@
 "at": "2026-11-22 21:38",
 "ts": 1795351121,
 "msg": "CD-0098 C-3: 접속 셋·판 둘을 서버 길로 — 계정을 바꾸는 판정이 전부 서버 라이브러리를 지난다(보이는 동작 그대로)"
-},
-{
-"sha": "312e6fa4",
-"at": "2026-11-22 21:38",
-"ts": 1795351118,
-"msg": "CD-0104: SD 크기 규격화 — 등급이 아니라 체형 표로(판 안·로비·정보창 공통)"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1795352067,
-"unpushed": 2,
-"notInMain": 2,
-"today": 329
+"lastCommitTs": 1795353350,
+"unpushed": 3,
+"notInMain": 0,
+"today": 330
 },
 {
 "branch": "cd-84",
@@ -1863,7 +1863,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 303,
+"commits": 305,
 "byOrder": [
 [
 "CD-0063",
@@ -1938,6 +1938,10 @@
 5
 ],
 [
+"CD-0102",
+4
+],
+[
 "CD-0103",
 4
 ],
@@ -1958,10 +1962,6 @@
 4
 ],
 [
-"CD-0102",
-3
-],
-[
 "CD-0080",
 3
 ],
@@ -1972,6 +1972,10 @@
 [
 "CD-0055",
 3
+],
+[
+"CD-0105",
+2
 ],
 [
 "CD-0098",
@@ -2018,10 +2022,6 @@
 1
 ],
 [
-"CD-0105",
-1
-],
-[
 "CD-0104",
 1
 ],
@@ -2064,6 +2064,16 @@
 ],
 "latest": [
 {
+"sha": "91a78744",
+"at": "2026-11-22 22:19",
+"msg": "CD-0102: 트렌디 방향 시안 3안(Codex 목업 3장 + 한글 글자) 14-trend-sheet — 사용자 선택 대기"
+},
+{
+"sha": "e7521f98",
+"at": "2026-11-22 22:15",
+"msg": "CD-0105: 새 스크립트 .meta 2개 · 주문서 검증 기록(EditMode 필터 20/20) · stage 마감"
+},
+{
 "sha": "ef98a1f6",
 "at": "2026-11-22 22:11",
 "msg": "CD-0102: 카탈로그 반입(ui 10개 .meta·SpriteCatalog·Art) · 버튼 면 가장자리 티끌 정리·2px 여백 · 표식 50 · 영웅 둘레 배치 시안 13-cross-sheet — EditMode 104/105(UiSkin 순서 문제, 단독 7/7) · PlayMode 26/26"
@@ -2102,16 +2112,6 @@
 "sha": "1a2d1391",
 "at": "2026-11-22 21:38",
 "msg": "CD-0098 C-3: 접속 셋·판 둘을 서버 길로 — 계정을 바꾸는 판정이 전부 서버 라이브러리를 지난다(보이는 동작 그대로)"
-},
-{
-"sha": "312e6fa4",
-"at": "2026-11-22 21:38",
-"msg": "CD-0104: SD 크기 규격화 — 등급이 아니라 체형 표로(판 안·로비·정보창 공통)"
-},
-{
-"sha": "c40f90c6",
-"at": "2026-11-22 21:28",
-"msg": "CD-0103 기획서: 결과창 안 B «영웅 무대»(사용자 선택) — gate spec 통과"
 }
 ]
 },
@@ -9034,7 +9034,7 @@
 "id": "CD-0102",
 "title": "인게임 영웅 팝업 합성·교체·판매 버튼 퀄리티 다시 만들기(시안 먼저)",
 "branch": "cd-102",
-"updated": "2026-11-22 22:11",
+"updated": "2026-11-22 22:18",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -9043,6 +9043,10 @@
 "12-states-preview.png",
 "13-cross-sheet-a100.png",
 "13-cross-sheet.png",
+"14-trend-sheet-1.png",
+"14-trend-sheet-2.png",
+"14-trend-sheet-3.png",
+"14-trend-sheet.png",
 "90-close.md",
 "_shots"
 ],
@@ -9065,12 +9069,13 @@
 "id": "CD-0103",
 "title": "결과창 디자인 폴리싱 아웃게임 톤 일관 트렌디",
 "branch": "cd-103",
-"updated": "2026-11-22 21:54",
+"updated": "2026-11-22 22:19",
 "files": [
 "00-order.md",
 "10-spec.md",
 "21-client.md",
-"_design"
+"_design",
+"_qa"
 ],
 "milestone": "M6",
 "stage": "검수",
@@ -9146,24 +9151,24 @@
 {
 "id": "CD-0105",
 "title": "우편함 보상 목록 아이콘화 — 아이콘 아래 숫자 + 가로 밀기",
-"branch": "cd-105",
-"updated": "2026-11-22 21:43",
+"branch": "main",
+"updated": "2026-11-22 22:16",
 "files": [
 "00-order.md"
 ],
 "milestone": "M1",
-"stage": "제작",
+"stage": "마감",
 "route": "direct",
 "risk": "low",
 "teams": "client",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 }
 ],
@@ -9507,7 +9512,7 @@
 "no": 25,
 "title": "우편함 보상 목록 아이콘화 — 아이콘 아래 숫자 + 가로 슬라이드",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0074",
@@ -9587,6 +9592,17 @@
 "createdAt": "2026-11-22 13:12",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/30"
+},
+{
+"no": 31,
+"title": "인게임 하단 바 개편 — 가운데 랜덤 소환 구슬 + 골드·차원석 날개",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [],
+"createdAt": "2026-11-22 13:18",
+"seen": false,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/31"
 }
 ],
 "versions": [
@@ -22103,7 +22119,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 22:11",
-"generatedAt": "2026-11-22 22:12",
-"digest": "a0244f01c80fd3bb"
+"sourceAt": "2026-11-22 22:16",
+"generatedAt": "2026-11-22 22:17",
+"digest": "ba46ce74f561b5fa"
 }
