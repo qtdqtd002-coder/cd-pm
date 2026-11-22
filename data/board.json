@@ -1305,43 +1305,43 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0112",
-"head": "1767c62",
+"head": "a130b0b",
 "commits": [
+{
+"sha": "a130b0be",
+"at": "2026-11-23 03:14",
+"ts": 1795371271,
+"msg": "병합: cd-115 e6e6676a(CD-0115 D-3 판 결과 — 정산 3곳 ServerGate · pending-settle.json 이어 보내기 · EditMode 1004/1007(남은 1 = base_id 빠짐, main 에서 고침) · PlayMode 전체 366/0 실패, 0.12.0 몫)"
+},
+{
+"sha": "e6e6676a",
+"at": "2026-11-23 03:14",
+"ts": 1795371254,
+"msg": "CD-0115 D-3: 판 정산 세 곳을 기다림 창구로 · 못 보낸 정산을 기기에 남겨 다음 시작에 같은 요청으로 이어 보냄 · 정산의 다시 시도 창에는 [닫기] 없음(보이는 동작 그대로)"
+},
+{
+"sha": "339c3ab7",
+"at": "2026-11-23 03:11",
+"ts": 1795371066,
+"msg": "병합: rel-0110 — 0.11.0 base_id.txt 추가"
+},
+{
+"sha": "e8d3a222",
+"at": "2026-11-23 03:11",
+"ts": 1795371065,
+"msg": "content state: 0.11.0 base_id.txt(a6c466f3) 빠진 것 추가 — SpriteCatalogTests.RemoteCatalogNameCarriesTheBaseBuildId"
+},
+{
+"sha": "8400420b",
+"at": "2026-11-23 02:37",
+"ts": 1795369023,
+"msg": "Merge branch 'main' into cd-115"
+},
 {
 "sha": "1767c626",
 "at": "2026-11-23 02:30",
 "ts": 1795368654,
 "msg": "개발일지: 0.11.0 배포(묶음 QA 두 번 · 수정 둘 · CCD 38~40 · Firebase 03tq22991rr90) + 폰 확인 목록"
-},
-{
-"sha": "6b5f6b5c",
-"at": "2026-11-23 02:30",
-"ts": 1795368632,
-"msg": "병합: rel-0110 a8043ea1(앱 0.11.0 · versionCode 15 배포 — 태그 v0.11.0 · Firebase 03tq22991rr90 · CCD 38 공지 · 39 catalog_0.11.0-a6c466f3 · 40 app_version 15)"
-},
-{
-"sha": "a8043ea1",
-"at": "2026-11-23 02:27",
-"ts": 1795368450,
-"msg": "공지: 0.11.0 업데이트 안내(app_0_11_0, code 15 — notices_v2) — notices_check 통과"
-},
-{
-"sha": "6411197b",
-"at": "2026-11-23 02:27",
-"ts": 1795368437,
-"msg": "앱 0.11.0 · versionCode 15 (CD-0079~0112 · 0118 · 0119)"
-},
-{
-"sha": "e4da16fc",
-"at": "2026-11-23 02:21",
-"ts": 1795368080,
-"msg": "버전 0.11.0 · versionCode 15(CD-0079~0119 묶음)"
-},
-{
-"sha": "79edbbec",
-"at": "2026-11-23 02:21",
-"ts": 1795368063,
-"msg": "병합: cd-112c 950d7fdc(CD-0112 후속 — 아래 카드 올림 SystemBar.CardLift, 판 칸 가림 최대 0.1518 ≤ 1/6 · PlayMode 7/7)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,196 +1381,25 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795368654,
+"lastCommitTs": 1795371271,
 "unpushed": 0,
 "notInMain": 0,
-"today": 57
-},
-{
-"branch": "cd-108b",
-"lane": "cd-108b",
-"session": "",
-"owns": "",
-"order": "CD-0112",
-"head": "a62c659",
-"commits": [
-{
-"sha": "a62c6592",
-"at": "2026-11-23 02:12",
-"ts": 1795367556,
-"msg": "CD-0108 되돌림 확인: PlayMode Cd37StatCardTests 2/2 통과 · 단계 마감"
-},
-{
-"sha": "b0f57727",
-"at": "2026-11-23 01:58",
-"ts": 1795366690,
-"msg": "CD-0108 되돌림: Cd37StatCardTests — 종족 낱말 검사에서 이름 줄을 뺀다(칭호에 «정령» 이 들어감, 결정 0103)"
-},
-{
-"sha": "0735aa4a",
-"at": "2026-11-23 01:06",
-"ts": 1795363561,
-"msg": "크레딧 갱신: 효과음 98→99(CD-0107 종) · 대표 그림 18→26 · 화면 그림 125→142 · 직접 제작 1(0.11.0 QA 내보내기)"
-},
-{
-"sha": "317c0781",
-"at": "2026-11-23 01:05",
-"ts": 1795363545,
-"msg": "병합: cd-112b df1525c4(CD-0112 후속 — 튜토리얼 자리 수 시험 71→72, match.summon)"
-},
-{
-"sha": "df1525c4",
-"at": "2026-11-23 01:05",
-"ts": 1795363531,
-"msg": "CD-0112: 낡은 시험 기대값 71 → 72(match.summon 자리 추가)"
-},
-{
-"sha": "14cddf49",
-"at": "2026-11-23 00:58",
-"ts": 1795363130,
-"msg": "병합: cd-108 d8609a34(CD-0108 네 단계 한 이름 + 칭호 결정 0103 · CD-0109 영웅 엘프 일러스트·SD — EditMode 필터 63/63 · PlayMode Cd67LobbyShot 3/3)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-23 02:12"
-}
-],
-"lastEdit": "2026-11-23 02:12",
-"lastEditTs": 1795367537.7168622,
-"lastCommitTs": 1795367556,
-"unpushed": 0,
-"notInMain": 0,
-"today": 36
-},
-{
-"branch": "cd-112c",
-"lane": "cd-112c",
-"session": "",
-"owns": "",
-"order": "CD-0112",
-"head": "950d7fd",
-"commits": [
-{
-"sha": "950d7fdc",
-"at": "2026-11-23 02:20",
-"ts": 1795368025,
-"msg": "CD-0112: 아래쪽 카드를 구슬 꼭대기 6px 아래까지 낮춤 — 카드가 소환 칸을 가린 최대 비율 0.1518(기준 1/6) · 카드 위치 캡처"
-},
-{
-"sha": "609e99a1",
-"at": "2026-11-23 01:59",
-"ts": 1795366753,
-"msg": "CD-0112: 카드 위치 캡처(cd112_card) 추가 — Unity 확인 전"
-},
-{
-"sha": "2fade48d",
-"at": "2026-11-23 01:58",
-"ts": 1795366733,
-"msg": "CD-0112: 아래쪽 카드를 구슬 꼭대기 2px 위로 낮춤(카드가 소환 칸을 1/6 넘게 가리던 것 — Unity 확인 전)"
-},
-{
-"sha": "0735aa4a",
-"at": "2026-11-23 01:06",
-"ts": 1795363561,
-"msg": "크레딧 갱신: 효과음 98→99(CD-0107 종) · 대표 그림 18→26 · 화면 그림 125→142 · 직접 제작 1(0.11.0 QA 내보내기)"
-},
-{
-"sha": "317c0781",
-"at": "2026-11-23 01:05",
-"ts": 1795363545,
-"msg": "병합: cd-112b df1525c4(CD-0112 후속 — 튜토리얼 자리 수 시험 71→72, match.summon)"
-},
-{
-"sha": "df1525c4",
-"at": "2026-11-23 01:05",
-"ts": 1795363531,
-"msg": "CD-0112: 낡은 시험 기대값 71 → 72(match.summon 자리 추가)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-23 02:17"
-}
-],
-"lastEdit": "2026-11-23 02:17",
-"lastEditTs": 1795367828.9810052,
-"lastCommitTs": 1795368025,
-"unpushed": 0,
-"notInMain": 0,
-"today": 37
-},
-{
-"branch": "cd-114",
-"lane": "cd-114",
-"session": "",
-"owns": "",
-"order": "CD-0112",
-"head": "2212e07",
-"commits": [
-{
-"sha": "2212e073",
-"at": "2026-11-23 02:14",
-"ts": 1795367668,
-"msg": "CD-0114 D-2b: 영웅·로비·앱·안내 16곳을 기다림 창구로 · 답이 늦을 때 안내가 다시 시작되던 문제 수정(보이는 동작 그대로)"
-},
-{
-"sha": "023bb86b",
-"at": "2026-11-23 01:30",
-"ts": 1795365059,
-"msg": "CD-0114 작업 중: 영웅·로비·앱·안내 16곳을 ServerGate.Do/Later + …Async 로 · 안내가 말한 것 기억(Unity 확인 전)"
-},
-{
-"sha": "e72140be",
-"at": "2026-11-23 01:22",
-"ts": 1795364559,
-"msg": "CD-0113: 마감 기록 — main 0d1a087e 합침(EditMode 실패 1건은 CD-0112 탓, main 에서 고쳐짐)"
-},
-{
-"sha": "72ebea16",
-"at": "2026-11-23 01:19",
-"ts": 1795364368,
-"msg": "병합: cd-113 82095607(CD-0113 D-2a — 여섯 화면 14곳을 ServerGate 기다림 창구로 · EditMode 989/990(실패 1 = 이미 고친 71→72) · PlayMode 필터 77/77, 0.12.0 몫)"
-},
-{
-"sha": "82095607",
-"at": "2026-11-23 01:19",
-"ts": 1795364347,
-"msg": "CD-0113 D-2a: 상점·젬 가게·우편함·미션·업적·프로필 화면 14곳을 기다림 창구로(보이는 동작 그대로)"
-},
-{
-"sha": "5ac4a76b",
-"at": "2026-11-23 01:07",
-"ts": 1795363631,
-"msg": "CD-0113 작업 중: 여섯 화면 14곳을 ServerGate.Do + …Async 로(Unity 확인 전)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-23 02:07"
-}
-],
-"lastEdit": "2026-11-23 02:07",
-"lastEditTs": 1795367271.7004926,
-"lastCommitTs": 1795367668,
-"unpushed": 0,
-"notInMain": 0,
-"today": 40
+"today": 63
 },
 {
 "branch": "cd-115",
 "lane": "cd-115",
 "session": "",
 "owns": "",
-"order": "CD-0115",
-"head": "8400420",
+"order": "CD-0112",
+"head": "e6e6676",
 "commits": [
+{
+"sha": "e6e6676a",
+"at": "2026-11-23 03:14",
+"ts": 1795371254,
+"msg": "CD-0115 D-3: 판 정산 세 곳을 기다림 창구로 · 못 보낸 정산을 기기에 남겨 다음 시작에 같은 요청으로 이어 보냄 · 정산의 다시 시도 창에는 [닫기] 없음(보이는 동작 그대로)"
+},
 {
 "sha": "8400420b",
 "at": "2026-11-23 02:37",
@@ -1600,55 +1429,21 @@
 "at": "2026-11-23 02:27",
 "ts": 1795368445,
 "msg": "CD-0115 작업 중: 못 보낸 정산 남기기 · 판 정산 세 곳을 창구로 · 시작 때 이어 보내기(Unity 확인 전)"
-},
-{
-"sha": "6411197b",
-"at": "2026-11-23 02:27",
-"ts": 1795368437,
-"msg": "앱 0.11.0 · versionCode 15 (CD-0079~0112 · 0118 · 0119)"
 }
 ],
-"dirtyCount": 15,
+"dirtyCount": 1,
 "dirty": [
-{
-"file": "studio/orders/CD-0115-기기-D-3-판-결과를-못-보냈을-때-남겨-두고-다시-/90-close.md",
-"at": "2026-11-23 02:46"
-},
-{
-"file": "UnityProject/Assets/InitTestScene48e9aa03-b512-4cdb-aabf-28e6c050e901.unity.meta",
-"at": "2026-11-23 02:45"
-},
-{
-"file": "UnityProject/Assets/InitTestScene48e9aa03-b512-4cdb-aabf-28e6c050e901.unity",
-"at": "2026-11-23 02:45"
-},
-{
-"file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
-"at": "2026-11-23 02:44"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-23 02:44"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-23 02:44"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-23 02:44"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd115PendingSettleTests.cs",
-"at": "2026-11-23 02:39"
 }
 ],
-"lastEdit": "2026-11-23 02:46",
-"lastEditTs": 1795369584.879546,
-"lastCommitTs": 1795369023,
-"unpushed": 2,
-"notInMain": 2,
-"today": 59
+"lastEdit": "2026-11-23 02:44",
+"lastEditTs": 1795369488.9437058,
+"lastCommitTs": 1795371254,
+"unpushed": 0,
+"notInMain": 0,
+"today": 60
 },
 {
 "branch": "cd-84",
@@ -1710,8 +1505,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0112",
-"head": "a8043ea",
+"head": "e8d3a22",
 "commits": [
+{
+"sha": "e8d3a222",
+"at": "2026-11-23 03:11",
+"ts": 1795371065,
+"msg": "content state: 0.11.0 base_id.txt(a6c466f3) 빠진 것 추가 — SpriteCatalogTests.RemoteCatalogNameCarriesTheBaseBuildId"
+},
 {
 "sha": "a8043ea1",
 "at": "2026-11-23 02:27",
@@ -1741,20 +1542,10 @@
 "at": "2026-11-23 02:20",
 "ts": 1795368025,
 "msg": "CD-0112: 아래쪽 카드를 구슬 꼭대기 6px 아래까지 낮춤 — 카드가 소환 칸을 가린 최대 비율 0.1518(기준 1/6) · 카드 위치 캡처"
-},
-{
-"sha": "0152832a",
-"at": "2026-11-23 02:12",
-"ts": 1795367577,
-"msg": "병합: cd-108b a62c6592(CD-0108 후속 — Cd37StatCardTests 종족 낱말 검사에서 이름 줄 뺌 · PlayMode 2/2)"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 2,
 "dirty": [
-{
-"file": "UnityProject/ContentState/0.11.0/Android/base_id.txt",
-"at": "2026-11-23 02:22"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-22 10:27"
@@ -1764,12 +1555,12 @@
 "at": "2026-11-22 10:26"
 }
 ],
-"lastEdit": "2026-11-23 02:22",
-"lastEditTs": 1795368152.8080113,
-"lastCommitTs": 1795368450,
+"lastEdit": "2026-11-22 10:27",
+"lastEditTs": 1795310821.8104656,
+"lastCommitTs": 1795371065,
 "unpushed": 0,
 "notInMain": 0,
-"today": 44
+"today": 45
 },
 {
 "branch": "workbench",
@@ -1836,7 +1627,7 @@
 ],
 [
 "기타",
-12
+13
 ],
 [
 "CD-0112",
@@ -1895,10 +1686,6 @@
 4
 ],
 [
-"CD-0063",
-4
-],
-[
 "CD-0079",
 3
 ],
@@ -1909,6 +1696,14 @@
 [
 "CD-0080",
 3
+],
+[
+"CD-0063",
+3
+],
+[
+"CD-0115",
+2
 ],
 [
 "CD-0114",
@@ -1971,14 +1766,6 @@
 2
 ],
 [
-"CD-0062",
-2
-],
-[
-"CD-0115",
-1
-],
-[
 "CD-0119",
 1
 ],
@@ -2017,9 +1804,23 @@
 [
 "CD-0060",
 1
+],
+[
+"CD-0062",
+1
 ]
 ],
 "latest": [
+{
+"sha": "e6e6676a",
+"at": "2026-11-23 03:14",
+"msg": "CD-0115 D-3: 판 정산 세 곳을 기다림 창구로 · 못 보낸 정산을 기기에 남겨 다음 시작에 같은 요청으로 이어 보냄 · 정산의 다시 시도 창에는 [닫기] 없음(보이는 동작 그대로)"
+},
+{
+"sha": "e8d3a222",
+"at": "2026-11-23 03:11",
+"msg": "content state: 0.11.0 base_id.txt(a6c466f3) 빠진 것 추가 — SpriteCatalogTests.RemoteCatalogNameCarriesTheBaseBuildId"
+},
 {
 "sha": "1767c626",
 "at": "2026-11-23 02:30",
@@ -2059,16 +1860,6 @@
 "sha": "a62c6592",
 "at": "2026-11-23 02:12",
 "msg": "CD-0108 되돌림 확인: PlayMode Cd37StatCardTests 2/2 통과 · 단계 마감"
-},
-{
-"sha": "609e99a1",
-"at": "2026-11-23 01:59",
-"msg": "CD-0112: 카드 위치 캡처(cd112_card) 추가 — Unity 확인 전"
-},
-{
-"sha": "2fade48d",
-"at": "2026-11-23 01:58",
-"msg": "CD-0112: 아래쪽 카드를 구슬 꼭대기 2px 위로 낮춤(카드가 소환 칸을 1/6 넘게 가리던 것 — Unity 확인 전)"
 }
 ]
 },
@@ -9550,8 +9341,8 @@
 {
 "id": "CD-0115",
 "title": "기기 D-3 — 판 결과를 못 보냈을 때 남겨 두고 다시 시도",
-"branch": "cd-115",
-"updated": "2026-11-23 02:46",
+"branch": "main",
+"updated": "2026-11-23 03:14",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -9560,13 +9351,13 @@
 "90-close.md"
 ],
 "milestone": "M7",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "high",
 "teams": "client",
 "opened": "2026-11-23",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<ol>\n<li>화면·앱에 남은 마지막 동기 호출 — <strong>판 정산 3곳</strong>(<code>App/GameApp.cs</code>: 판이 끝났을 때 · 로비에서 [포기] · 깨진 이어 하기 파일의 정리)을 «기다리는 판 + 기다림 창구» 로.\n</li>\n<li><strong>못 보낸 정산을 기기에 남긴다</strong>(<code>pending-settle.json</code> — 요청 글 전체와 판 결과). 답이 오면 지운다. 앱이 꺼졌다 켜지면 <strong>같은 요청</strong>을 다시 보내 한 번만 정산된다.\n</li>\n<li><strong>정산은 [닫기] 가 없다</strong>: 전송이 실패하면 «연결이 불안정해요» [다시 시도] 만 — 보상 없이 로비로 가는 길을 만들지 않는다(결정 0101). 끝내 못 보내고 앱을 끄면 다음 시작 때 이어 보낸다.\n</li></ol>\n<ul>\n<li><strong>빌드에서 보이는 변화는 없다</strong>(로컬 서버는 즉시 답하므로 파일도 남지 않고 창도 뜨지 않는다). 기존 시험은 고치지 않고 통과해야 한다.\n</li>\n<li>이 주문이 끝나면 화면·앱(<code>_Game/UI</code>·<code>_Game/App</code>)의 서버 길 동기 호출은 0 이다(<code>BoxScreen</code> 의 «창구 없이 화면만 만든 시험» 용 예비 한 줄 제외).\n</li></ul>",
 "goalShort": "1.",
@@ -9578,7 +9369,7 @@
 "title": "D1 — CallServerAsync 인자 · RecordMatchAsync 겹쳐 쓰기 · LastSettleAnswered · PendingSettle · EditMode 시험",
 "output": "Outgame/OutgameState.Server.cs·OutgameState.Meta.cs · 새 Outgame/PendingSettle.cs · Tests/EditMode/Cd115PendingSettleTests.cs · 21-report-client.md",
 "status": "done",
-"why": "보고서 있음: 21-report-client.md"
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -9587,10 +9378,10 @@
 "title": "D2·D3 — SettleMatch · 세 곳 · 이어 보내기 · [닫기] 없는 정산 창 · PlayMode 시험",
 "output": "App/GameApp.cs · UI/ServerGate.cs · Tests/PlayMode/Cd115SettleFlowTests.cs · 22-report-client-c2.md",
 "status": "done",
-"why": "보고서 있음: 22-report-client-c2.md"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -22826,7 +22617,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-23 02:46",
-"generatedAt": "2026-11-23 02:47",
-"digest": "fa11e8d0e0ed9b69"
+"sourceAt": "2026-11-23 03:14",
+"generatedAt": "2026-11-23 03:17",
+"digest": "3c96fe3332c4debb"
 }
