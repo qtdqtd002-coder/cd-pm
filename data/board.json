@@ -1549,8 +1549,16 @@
 "msg": "CD-0115 D-3: 판 정산 세 곳을 기다림 창구로 · 못 보낸 정산을 기기에 남겨 다음 시작에 같은 요청으로 이어 보냄 · 정산의 다시 시도 창에는 [닫기] 없음(보이는 동작 그대로)"
 }
 ],
-"dirtyCount": 19,
+"dirtyCount": 17,
 "dirty": [
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-23 04:37"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-23 04:37"
+},
 {
 "file": "studio/orders/CD-0117-기기-D-5-시작-흐름-로그인-뒤-계정-받기-연결-실패/90-close.md",
 "at": "2026-11-23 04:12"
@@ -1564,28 +1572,20 @@
 "at": "2026-11-23 04:12"
 },
 {
-"file": "UnityProject/Assets/InitTestScene905d3e38-3f1a-49c9-a6c3-269feb795495.unity.meta",
-"at": "2026-11-23 04:11"
-},
-{
-"file": "UnityProject/Assets/InitTestScene905d3e38-3f1a-49c9-a6c3-269feb795495.unity",
-"at": "2026-11-23 04:11"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-23 04:11"
-},
-{
 "file": "UnityProject/Assets/Tests/PlayMode/Cd117StartFlowTests.cs",
 "at": "2026-11-23 04:10"
 },
 {
 "file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
 "at": "2026-11-23 04:09"
+},
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-23 04:09"
 }
 ],
-"lastEdit": "2026-11-23 04:12",
-"lastEditTs": 1795374777.343892,
+"lastEdit": "2026-11-23 04:37",
+"lastEditTs": 1795376224.4731278,
 "lastCommitTs": 1795374181,
 "unpushed": 1,
 "notInMain": 1,
@@ -22863,7 +22863,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-23 04:12",
-"generatedAt": "2026-11-23 04:17",
-"digest": "54464d88f123ac90"
+"sourceAt": "2026-11-23 04:37",
+"generatedAt": "2026-11-23 04:47",
+"digest": "37171d5abaa98f34"
 }
