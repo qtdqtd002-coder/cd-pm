@@ -8972,6 +8972,21 @@
 "createdAt": "2026-11-22 11:25",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/19"
+},
+{
+"no": 20,
+"title": "배속 튜토리얼에서 버튼을 누르면 2배속이 적용되게",
+"state": "open",
+"phase": "built",
+"imp": "mid",
+"orders": [
+"CD-0045",
+"CD-0075",
+"CD-0100"
+],
+"createdAt": "2026-11-22 11:27",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/20"
 }
 ],
 "versions": [
@@ -21425,6 +21440,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-22 20:08",
-"generatedAt": "2026-11-22 20:26",
-"digest": "651b3489ac7b822d"
+"generatedAt": "2026-11-22 20:27",
+"digest": "0bf78efd3dbec15c"
 }
