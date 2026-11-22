@@ -1490,10 +1490,19 @@
 "msg": "CD-0074 3차: «판» → 스테이지 플레이·전투 · «중복» → 같은 영웅 · 몬스터 카드 설명 줄 뺌 · 현상금 설명 다듬음 — EditMode 확인 전"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 2,
+"dirty": [
+{
+"file": "UnityProject/Assets/_Game/Art/Final/ach.meta",
+"at": "2026-11-22 11:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/ach/cum_board.png.meta",
+"at": "2026-11-22 11:17"
+}
+],
+"lastEdit": "2026-11-22 11:17",
+"lastEditTs": 1795313877.8707473,
 "lastCommitTs": 1795313812,
 "unpushed": 9,
 "notInMain": 9,
@@ -7873,6 +7882,32 @@
 "createdAt": "2026-11-21 16:54",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/9"
+},
+{
+"no": 10,
+"title": "튜토리얼 전면 정비 — 포커싱(딤드) 단계 처리·강제 튜토리얼·멈춤·순서 15건 + 실측 확인",
+"state": "open",
+"phase": "doing",
+"imp": "mid",
+"orders": [
+"CD-0053",
+"CD-0065",
+"CD-0075"
+],
+"createdAt": "2026-11-22 02:17",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/10"
+},
+{
+"no": 11,
+"title": "플레이 피드백 12건 — 팝업 정리·현상금 등장 알림·영웅 잠금 표시·로비 계정 정보·등급 표시·뽑기 연출·채팅/랭킹 확인",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [],
+"createdAt": "2026-11-22 02:17",
+"seen": false,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/11"
 }
 ],
 "versions": [
@@ -20061,7 +20096,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 11:16",
-"generatedAt": "2026-11-22 11:17",
-"digest": "6bef8e835d83ab6a"
+"sourceAt": "2026-11-22 11:17",
+"generatedAt": "2026-11-22 11:18",
+"digest": "defedc0bbeca8690"
 }
