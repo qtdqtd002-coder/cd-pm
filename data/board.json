@@ -1431,43 +1431,43 @@
 "msg": "CD-0110: 막는 안내 중 영웅 끌기 잠금 — 1-6 체험 안내가 늘 받은 영웅부터 시작"
 }
 ],
-"dirtyCount": 11,
+"dirtyCount": 17,
 "dirty": [
+{
+"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/23-art.md",
+"at": "2026-11-22 22:58"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/ui/mark_levelup.png",
+"at": "2026-11-22 22:57"
+},
+{
+"file": "studio/orders/CD-0101-영웅-탭-레벨업-가능-표시를-눈에-띄게/_art/sheet.png",
+"at": "2026-11-22 22:57"
+},
+{
+"file": "art/final/ui/mark_levelup.png",
+"at": "2026-11-22 22:57"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/LobbyScreen.cs",
+"at": "2026-11-22 22:57"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
+"at": "2026-11-22 22:57"
+},
+{
+"file": "art/tools/ui101_marks.py",
+"at": "2026-11-22 22:57"
+},
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
 "at": "2026-11-22 22:52"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-22 22:52"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-22 22:49"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-22 22:49"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-22 22:49"
-},
-{
-"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
-"at": "2026-11-22 22:49"
-},
-{
-"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
-"at": "2026-11-22 22:49"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/mark_levelup.png.meta",
-"at": "2026-11-22 22:48"
 }
 ],
-"lastEdit": "2026-11-22 22:52",
-"lastEditTs": 1795355528.5328102,
+"lastEdit": "2026-11-22 22:58",
+"lastEditTs": 1795355933.2875316,
 "lastCommitTs": 1795355277,
 "unpushed": 2,
 "notInMain": 2,
@@ -1518,43 +1518,43 @@
 "msg": "CD-0102 결정 0100: 영웅 메뉴를 «빛 고리 메뉴»로 — Codex 조각 6장(고리·메달 테·이름표 테·합성/교체/진화 표식) · CellPopup 새로 씀(위 합성·아래 교체·옆 판매, 열림 연출) · B안 조각 9개 정리 · docs/03 §8-1 예외 한 줄 (Unity 확인 전, .meta·카탈로그는 차례 뒤)"
 }
 ],
-"dirtyCount": 19,
+"dirtyCount": 35,
 "dirty": [
 {
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_popup_corner_safe_1080x2400.png",
-"at": "2026-11-22 22:06"
+"file": "UnityProject/Assets/InitTestSceneb8cc168b-1671-45bd-9caa-36393e36c28a.unity.meta",
+"at": "2026-11-22 23:04"
 },
 {
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_popup_corner_1080x1920.png",
-"at": "2026-11-22 22:06"
+"file": "UnityProject/Assets/InitTestSceneb8cc168b-1671-45bd-9caa-36393e36c28a.unity",
+"at": "2026-11-22 23:04"
 },
 {
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_safe_1080x2400.png",
-"at": "2026-11-22 22:06"
+"file": "UnityProject/Assets/_Game/UI/Match/CellPopup.cs",
+"at": "2026-11-22 23:04"
 },
 {
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_duo_1080x1920.png",
-"at": "2026-11-22 22:06"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-22 23:03"
 },
 {
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_safe_1080x2400.png",
-"at": "2026-11-22 22:06"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 23:03"
 },
 {
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_1080x1920.png",
-"at": "2026-11-22 22:06"
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 22:58"
 },
 {
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_popup_safe_1080x2400.png",
-"at": "2026-11-22 22:06"
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-22 22:58"
 },
 {
-"file": "studio/orders/CD-0102-인게임-영웅-팝업-합성-교체-판매-버튼-퀄리티-다시-만/_shots/cd34_ingame_evolve_locked_popup_1080x1920.png",
-"at": "2026-11-22 22:06"
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 22:58"
 }
 ],
-"lastEdit": "2026-11-22 22:06",
-"lastEditTs": 1795352774.1280732,
+"lastEdit": "2026-11-22 23:04",
+"lastEditTs": 1795356286.4349878,
 "lastCommitTs": 1795355177,
 "unpushed": 10,
 "notInMain": 10,
@@ -1605,35 +1605,43 @@
 "msg": "병합: cd-105 e7521f98(CD-0105 우편 보상 아이콘 칸 + 가로 밀기, EditMode 20/20)"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 25,
 "dirty": [
 {
+"file": "UnityProject/Assets/_Game/View/BoardView.cs",
+"at": "2026-11-22 23:08"
+},
+{
 "file": "Core/package/Runtime/Match/GameMatch.Queries.cs",
-"at": "2026-11-22 22:45"
+"at": "2026-11-22 23:06"
 },
 {
-"file": "Core/package/Runtime/Match/Entities.cs",
-"at": "2026-11-22 22:45"
+"file": "Core/tests/Cd0106ReachTests.cs",
+"at": "2026-11-22 23:06"
 },
 {
-"file": "Core/package/Runtime/Match/GameMatch.Legends.cs",
-"at": "2026-11-22 22:45"
+"file": "Core/tests/Cd0050CoopMapTests.cs",
+"at": "2026-11-22 23:01"
 },
 {
-"file": "Core/package/Runtime/Match/GameMatch.cs",
-"at": "2026-11-22 22:45"
+"file": "Core/tests/Fixtures/noupgrade_pre0023_seed7.txt",
+"at": "2026-11-22 23:00"
 },
 {
-"file": "studio/orders/CD-0106-영웅-공격-범위를-칸-단위-걸침으로-판정하고-칸을-반짝/00-order.md",
-"at": "2026-11-22 22:40"
+"file": "Core/tests/Fixtures/baseline_cd0023_seed7.txt",
+"at": "2026-11-22 23:00"
 },
 {
-"file": "studio/orders/CD-0106-영웅-공격-범위를-칸-단위-걸침으로-판정하고-칸을-반짝/10-spec.md",
-"at": "2026-11-22 22:40"
+"file": "Core/tests/Fixtures/noupgrade_pre0023_seed1.txt",
+"at": "2026-11-22 23:00"
+},
+{
+"file": "Core/tests/Fixtures/baseline_cd0023_seed1.txt",
+"at": "2026-11-22 23:00"
 }
 ],
-"lastEdit": "2026-11-22 22:45",
-"lastEditTs": 1795355128.9771328,
+"lastEdit": "2026-11-22 23:08",
+"lastEditTs": 1795356481.4410355,
 "lastCommitTs": 1795354874,
 "unpushed": 0,
 "notInMain": 0,
@@ -1687,6 +1695,10 @@
 "dirtyCount": 8,
 "dirty": [
 {
+"file": "studio/orders/CD-0111-2-1-튜토리얼-월드-채팅-친구-등-안내-켜기-닫기-단/00-order.md",
+"at": "2026-11-22 22:58"
+},
+{
 "file": "tools/validate_data.py",
 "at": "2026-11-22 22:53"
 },
@@ -1711,16 +1723,12 @@
 "at": "2026-11-22 22:51"
 },
 {
-"file": "studio/orders/CD-0111-2-1-튜토리얼-월드-채팅-친구-등-안내-켜기-닫기-단/00-order.md",
-"at": "2026-11-22 22:45"
-},
-{
 "file": "studio/orders/CD-0111-2-1-튜토리얼-월드-채팅-친구-등-안내-켜기-닫기-단/10-spec.md",
 "at": "2026-11-22 22:45"
 }
 ],
-"lastEdit": "2026-11-22 22:53",
-"lastEditTs": 1795355623.3956857,
+"lastEdit": "2026-11-22 22:58",
+"lastEditTs": 1795355894.8029838,
 "lastCommitTs": 1795354874,
 "unpushed": 0,
 "notInMain": 0,
@@ -1825,27 +1833,43 @@
 "msg": "CD-0103 마감 초안: 캡처로 고친 것(레벨 원 글자 고정 24 · 경험치 아이콘 숫자 옆 · 열림 알약 글자만) · 90-close · 결과창 캡처 3차"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 11,
 "dirty": [
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-22 22:56"
+},
+{
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-22 22:56"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-22 22:56"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-22 22:55"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-22 22:55"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-22 22:55"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd94AsyncTests.cs",
+"at": "2026-11-22 22:54"
+},
 {
 "file": "UnityProject/Assets/Tests/EditMode/Cd94AsyncTests.cs.meta",
 "at": "2026-11-22 22:54"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd94ServerGateTests.cs.meta",
-"at": "2026-11-22 22:54"
-},
-{
-"file": "UnityProject/Assets/_Game/Net/Server/TestGameServer.cs.meta",
-"at": "2026-11-22 22:54"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/ServerGate.cs.meta",
-"at": "2026-11-22 22:54"
 }
 ],
-"lastEdit": "2026-11-22 22:54",
-"lastEditTs": 1795355642.5611842,
+"lastEdit": "2026-11-22 22:56",
+"lastEditTs": 1795355803.2380416,
 "lastCommitTs": 1795355544,
 "unpushed": 3,
 "notInMain": 3,
@@ -1995,7 +2019,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 290,
+"commits": 277,
 "byOrder": [
 [
 "CD-0063",
@@ -2038,14 +2062,6 @@
 10
 ],
 [
-"CD-0051",
-10
-],
-[
-"CD-0053",
-9
-],
-[
 "CD-0067",
 9
 ],
@@ -2062,7 +2078,7 @@
 7
 ],
 [
-"CD-0061",
+"CD-0053",
 7
 ],
 [
@@ -2078,15 +2094,19 @@
 5
 ],
 [
+"CD-0051",
+5
+],
+[
 "CD-0089",
 4
 ],
 [
-"CD-0058",
+"CD-0061",
 4
 ],
 [
-"CD-0059",
+"CD-0058",
 4
 ],
 [
@@ -2127,6 +2147,10 @@
 ],
 [
 "CD-0090",
+2
+],
+[
+"CD-0059",
 2
 ],
 [
@@ -2179,10 +2203,6 @@
 ],
 [
 "CD-0071",
-1
-],
-[
-"CD-0050",
 1
 ]
 ],
@@ -9168,7 +9188,7 @@
 "id": "CD-0101",
 "title": "영웅 탭 레벨업 가능 표시를 눈에 띄게",
 "branch": "cd-101",
-"updated": "2026-11-22 22:09",
+"updated": "2026-11-22 22:58",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -9360,9 +9380,10 @@
 "id": "CD-0106",
 "title": "영웅 공격 범위를 칸 단위 걸침으로 판정하고 칸을 반짝여 표시",
 "branch": "cd-106",
-"updated": "2026-11-22 22:40",
+"updated": "2026-11-22 22:54",
 "files": [
 "00-order.md",
+"05-밸런스-전후.md",
 "10-spec.md"
 ],
 "milestone": "M2",
@@ -9408,14 +9429,14 @@
 "id": "CD-0111",
 "title": "2-1 튜토리얼(월드 채팅·친구 등) 안내·켜기·닫기 단계 꼬임 실측과 개선",
 "branch": "cd-111",
-"updated": "2026-11-22 22:45",
+"updated": "2026-11-22 22:58",
 "files": [
 "00-order.md",
 "10-spec.md"
 ],
 "milestone": "M2",
 "stage": "제작",
-"route": "fast",
+"route": "direct",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-22",
@@ -10879,7 +10900,7 @@
 "data": {
 "units": {
 "data": {
-"_note": "CD-0025(결정 0055): 피해 단위 10배 — stages[].damage·attack.burnDamagePerSecond 를 10배로 했다(비율·틱·사거리·골드·확률은 그대로). 되돌리는 법 = 그 숫자를 10 으로 나눈다. 초안(2026-11-15). 시뮬레이터(M2) 전의 값이다. 구조는 확정, 숫자는 바뀐다. range 는 칸의 1/100 단위. 단계가 올라도 공격 간격과 사거리는 같고 피해만 오른다(초안). 수인 130·인간 170 은 길 옆 가장자리 칸에서만 닿는다(자리 선택이 생긴다). 단계 이름은 고유명(결정 0012). 로마자 표기는 docs/12-콘텐츠목록.md §1.",
+"_note": "CD-0025(결정 0055): 피해 단위 10배 — stages[].damage·attack.burnDamagePerSecond 를 10배로 했다(비율·틱·사거리·골드·확률은 그대로). 되돌리는 법 = 그 숫자를 10 으로 나눈다. 초안(2026-11-15). 시뮬레이터(M2) 전의 값이다. 구조는 확정, 숫자는 바뀐다. range 는 칸의 1/100 단위. 단계가 올라도 공격 간격과 사거리는 같고 피해만 오른다(초안). CD-0106(결정 0102): 공격 범위는 칸 걸침 판정(사거리 원이 몬스터가 선 칸에 조금이라도 걸치면 공격)이라, 사거리를 옛 원 넓이에 맞춰 줄였다 — 인간 170→100(3×3 8칸) · 엘프 350→260(36칸) · 드워프 250→160(20칸) · 수인 130→60(십자 4칸) · 정령 250→160(20칸) · 용족 300→250(28칸). 걸침 칸 수가 바뀌는 사거리 = 50(4) · 71(8) · 150(12) · 159(20) · 213(24) · 250(28) · 255(36) · 292(44) · 350(48). 되돌리는 법 = 옛 값으로(판정도 같이 되돌린다). 단계 이름은 고유명(결정 0012). 로마자 표기는 docs/12-콘텐츠목록.md §1.",
 "stageDamagePct": [
 100,
 340,
@@ -10896,7 +10917,7 @@
 "kind": "single"
 },
 "intervalTicks": 16,
-"range": 170,
+"range": 100,
 "stages": [
 {
 "stage": 1,
@@ -10928,7 +10949,7 @@
 "kind": "single"
 },
 "intervalTicks": 8,
-"range": 350,
+"range": 260,
 "stages": [
 {
 "stage": 1,
@@ -10961,7 +10982,7 @@
 "radius": 100
 },
 "intervalTicks": 30,
-"range": 250,
+"range": 160,
 "stages": [
 {
 "stage": 1,
@@ -10995,7 +11016,7 @@
 "critDamagePct": 200
 },
 "intervalTicks": 6,
-"range": 130,
+"range": 60,
 "stages": [
 {
 "stage": 1,
@@ -11029,7 +11050,7 @@
 "slowTicks": 40
 },
 "intervalTicks": 20,
-"range": 250,
+"range": 160,
 "stages": [
 {
 "stage": 1,
@@ -11064,7 +11085,7 @@
 "burnTicks": 60
 },
 "intervalTicks": 24,
-"range": 300,
+"range": 250,
 "stages": [
 {
 "stage": 1,
@@ -11090,9 +11111,9 @@
 }
 ]
 },
-"at": "2026-11-17 18:32",
-"branch": "main",
-"dirty": false
+"at": "2026-11-22 23:00",
+"branch": "cd-106",
+"dirty": true
 },
 "economy": {
 "data": {
@@ -22479,7 +22500,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 22:54",
-"generatedAt": "2026-11-22 22:54",
-"digest": "20551228246abfc3"
+"sourceAt": "2026-11-22 23:08",
+"generatedAt": "2026-11-22 23:08",
+"digest": "9fe52d46f390a70c"
 }
