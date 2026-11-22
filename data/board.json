@@ -1305,43 +1305,43 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0075",
-"head": "0343e71",
+"head": "0754556",
 "commits": [
 {
-"sha": "0343e71f",
-"at": "2026-11-22 12:31",
-"ts": 1795318315,
-"msg": "병합: cd-75 e5318b53(CD-0075 튜토리얼 전면 정비 15건 — 결정 0093, EditMode 필터 199/200)"
+"sha": "0754556c",
+"at": "2026-11-22 12:47",
+"ts": 1795319220,
+"msg": "병합: cd-66 248bd02d(CD-0066 상점 «노점 가판» — EditMode 83/83 · 캡처 1/1)"
 },
 {
-"sha": "e5318b53",
-"at": "2026-11-22 12:31",
-"ts": 1795318296,
-"msg": "CD-0075 90-close 초안 · stage 마감(빌드 대기) — check Core 734/737(실패 2 = main 의 밸런스 시험) · EditMode 필터 199/200"
+"sha": "248bd02d",
+"at": "2026-11-22 12:46",
+"ts": 1795319205,
+"msg": "CD-0066 마감 기록: Core 734/737(실패 2) 적음"
 },
 {
-"sha": "730dbac6",
-"at": "2026-11-22 12:30",
-"ts": 1795318232,
-"msg": "CD-0075 시험 맞춤: 쿠지 일반 추첨 시험은 고정 결과를 쓴 계정으로 · 자리 수 65 → 71 · Cd75 시험 .meta — EditMode 필터 199/200(남은 1 = main 의 OutgameSaveTests 24종, cd-76 몫)"
+"sha": "22223c11",
+"at": "2026-11-22 12:43",
+"ts": 1795319032,
+"msg": "CD-0066 반입 · 90-close 초안(빌드 대기): 상점 소품 그림 .meta · 카탈로그 4줄 · 캡처 — EditMode 83/83 · 캡처 시험 1/1"
 },
 {
-"sha": "6f1f28ab",
-"at": "2026-11-22 12:21",
-"ts": 1795317709,
-"msg": "병합: main c4e9b791 → cd-75 (CD-0076 1차 등)"
+"sha": "d3f5c79c",
+"at": "2026-11-22 12:37",
+"ts": 1795318627,
+"msg": "Merge branch 'main' into cd-66"
 },
 {
-"sha": "24a6517c",
-"at": "2026-11-22 12:21",
-"ts": 1795317691,
-"msg": "CD-0075 뽑기 새 판 말풍선: «상위상을 모두 뽑으면 새 판이 열려요» — 고정 결과가 안 쓰인 계정에도 맞는 말로"
+"sha": "1b997fcd",
+"at": "2026-11-22 12:36",
+"ts": 1795318593,
+"msg": "CD-0066 클라이언트 보고서 20-client.md(한 일 · 검증 · Unity 명령 · 걸리는 점)"
 },
 {
-"sha": "afa962bb",
-"at": "2026-11-22 12:20",
-"ts": 1795317657,
-"msg": "CD-0075 U2: 판 밖 안내 — R1 확인(뗄 때까지 Drive 정지) · G3 막지 않는 안내 미룸 · G4 돌아올 때 입력 덮개(4초)·로비 탭·연출 직후 확인 · 보상 획득 창 기다림 · o4_kuji 고정 결과 연결(kujiScriptUsed 저장)·box.topLeft·A상 [확인] 재진입 · chat.close·ranking.close · 시험(Cd75Outgame·Cd75Press 누름→뗌) — 컴파일·시험 안 돌림(Unity 차례 대기)"
+"sha": "d54636a3",
+"at": "2026-11-22 12:36",
+"ts": 1795318574,
+"msg": "병합: cd-75 4090267d(CD-0075 후속 — 작업실 튜토리얼 칸 설명 10개)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,85 +1381,69 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795318315,
-"unpushed": 0,
+"lastCommitTs": 1795319220,
+"unpushed": 9,
 "notInMain": 0,
-"today": 244
+"today": 255
 },
 {
 "branch": "cd-66",
 "lane": "cd-66",
 "session": "",
 "owns": "",
-"order": "CD-0066",
-"head": "f05043d",
+"order": "CD-0075",
+"head": "248bd02",
 "commits": [
 {
-"sha": "f05043d9",
-"at": "2026-11-22 12:11",
-"ts": 1795317115,
-"msg": "CD-0066: 상점 소품 그림 9-slice 테두리(item_box · shelf_plank · sign)"
+"sha": "248bd02d",
+"at": "2026-11-22 12:46",
+"ts": 1795319205,
+"msg": "CD-0066 마감 기록: Core 734/737(실패 2) 적음"
 },
 {
-"sha": "d4d26c73",
-"at": "2026-11-22 12:11",
-"ts": 1795317083,
-"msg": "CD-0066 아트: 노점 소품 그림 4장(상품 상자 · 선반 판자 · 구간 간판 · 특가 딱지) · 목록 · 장부 · 이름표 · 유니티 사본"
+"sha": "22223c11",
+"at": "2026-11-22 12:43",
+"ts": 1795319032,
+"msg": "CD-0066 반입 · 90-close 초안(빌드 대기): 상점 소품 그림 .meta · 카탈로그 4줄 · 캡처 — EditMode 83/83 · 캡처 시험 1/1"
 },
 {
-"sha": "0495ac82",
-"at": "2026-11-22 12:05",
-"ts": 1795316721,
-"msg": "CD-0066 주문 · 기획서(상점 노점 가판) · gate spec"
+"sha": "d3f5c79c",
+"at": "2026-11-22 12:37",
+"ts": 1795318627,
+"msg": "Merge branch 'main' into cd-66"
 },
 {
-"sha": "dcad2c57",
-"at": "2026-11-22 12:00",
-"ts": 1795316400,
-"msg": "병합: cd-77 2939b8af(CD-0077 공지 건 단위·필독/최신 라벨·운영툴 공지 — 결정 0094, EditMode 101/101)"
+"sha": "1b997fcd",
+"at": "2026-11-22 12:36",
+"ts": 1795318593,
+"msg": "CD-0066 클라이언트 보고서 20-client.md(한 일 · 검증 · Unity 명령 · 걸리는 점)"
 },
 {
-"sha": "2939b8af",
-"at": "2026-11-22 11:59",
-"ts": 1795316380,
-"msg": "CD-0077 마감: EditMode Cd77;Cd58;Cd0052;Cd59 101/101 · Cd77 시험 .meta · 90-close(관제가 빌드 때 할 일 — notices_v2 첫 올리기·비상용 스크립트 사용법) · stage 마감"
+"sha": "d54636a3",
+"at": "2026-11-22 12:36",
+"ts": 1795318574,
+"msg": "병합: cd-75 4090267d(CD-0075 후속 — 작업실 튜토리얼 칸 설명 10개)"
 },
 {
-"sha": "f919f830",
-"at": "2026-11-22 11:57",
-"ts": 1795316222,
-"msg": "Merge branch 'main' into cd-77"
+"sha": "4090267d",
+"at": "2026-11-22 12:36",
+"ts": 1795318563,
+"msg": "CD-0075 후속: 작업실 칸 설명 — tutorial.json 새 칸 10개(kujiScript · 단계 open · 조건 moves/upgrades/loneHero/heroes/summons) + pick any — check_fields --strict 빠진 칸 0 · test_workbench 모두 통과"
 }
 ],
-"dirtyCount": 5,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/ShopScreen.cs",
-"at": "2026-11-22 12:28"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd15OutgameScreensTests.cs",
-"at": "2026-11-22 12:23"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd35ShopKujiEditModeTests.cs",
-"at": "2026-11-22 12:22"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd13UiPolishTests.cs",
-"at": "2026-11-22 12:19"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd35ShopKujiTests.cs",
-"at": "2026-11-22 12:18"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 12:40"
 }
 ],
-"lastEdit": "2026-11-22 12:28",
-"lastEditTs": 1795318136.7572997,
-"lastCommitTs": 1795317115,
-"unpushed": 3,
-"notInMain": 3,
-"today": 218
+"lastEdit": "2026-11-22 12:40",
+"lastEditTs": 1795318802.9796321,
+"lastCommitTs": 1795319205,
+"unpushed": 8,
+"notInMain": 0,
+"today": 254
 },
 {
 "branch": "cd-75",
@@ -1467,8 +1451,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0075",
-"head": "0343e71",
+"head": "4090267",
 "commits": [
+{
+"sha": "4090267d",
+"at": "2026-11-22 12:36",
+"ts": 1795318563,
+"msg": "CD-0075 후속: 작업실 칸 설명 — tutorial.json 새 칸 10개(kujiScript · 단계 open · 조건 moves/upgrades/loneHero/heroes/summons) + pick any — check_fields --strict 빠진 칸 0 · test_workbench 모두 통과"
+},
 {
 "sha": "0343e71f",
 "at": "2026-11-22 12:31",
@@ -1498,22 +1488,16 @@
 "at": "2026-11-22 12:21",
 "ts": 1795317691,
 "msg": "CD-0075 뽑기 새 판 말풍선: «상위상을 모두 뽑으면 새 판이 열려요» — 고정 결과가 안 쓰인 계정에도 맞는 말로"
-},
-{
-"sha": "afa962bb",
-"at": "2026-11-22 12:20",
-"ts": 1795317657,
-"msg": "CD-0075 U2: 판 밖 안내 — R1 확인(뗄 때까지 Drive 정지) · G3 막지 않는 안내 미룸 · G4 돌아올 때 입력 덮개(4초)·로비 탭·연출 직후 확인 · 보상 획득 창 기다림 · o4_kuji 고정 결과 연결(kujiScriptUsed 저장)·box.topLeft·A상 [확인] 재진입 · chat.close·ranking.close · 시험(Cd75Outgame·Cd75Press 누름→뗌) — 컴파일·시험 안 돌림(Unity 차례 대기)"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1795318315,
+"lastCommitTs": 1795318563,
 "unpushed": 0,
 "notInMain": 0,
-"today": 244
+"today": 245
 },
 {
 "branch": "cd-76",
@@ -1689,7 +1673,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 411,
+"commits": 410,
 "byOrder": [
 [
 "CD-0041",
@@ -1709,7 +1693,7 @@
 ],
 [
 "기타",
-24
+23
 ],
 [
 "CD-0064",
@@ -1717,10 +1701,6 @@
 ],
 [
 "CD-0062",
-16
-],
-[
-"CD-0045",
 16
 ],
 [
@@ -1732,12 +1712,12 @@
 15
 ],
 [
-"CD-0040",
-13
+"CD-0045",
+15
 ],
 [
 "CD-0075",
-11
+12
 ],
 [
 "CD-0065",
@@ -1760,6 +1740,10 @@
 10
 ],
 [
+"CD-0040",
+10
+],
+[
 "CD-0067",
 9
 ],
@@ -1768,11 +1752,11 @@
 9
 ],
 [
-"CD-0061",
+"CD-0066",
 7
 ],
 [
-"CD-0044",
+"CD-0061",
 7
 ],
 [
@@ -1785,6 +1769,10 @@
 ],
 [
 "CD-0074",
+6
+],
+[
+"CD-0044",
 6
 ],
 [
@@ -1806,10 +1794,6 @@
 [
 "CD-0039",
 4
-],
-[
-"CD-0066",
-3
 ],
 [
 "CD-0056",
@@ -1850,6 +1834,31 @@
 ],
 "latest": [
 {
+"sha": "248bd02d",
+"at": "2026-11-22 12:46",
+"msg": "CD-0066 마감 기록: Core 734/737(실패 2) 적음"
+},
+{
+"sha": "22223c11",
+"at": "2026-11-22 12:43",
+"msg": "CD-0066 반입 · 90-close 초안(빌드 대기): 상점 소품 그림 .meta · 카탈로그 4줄 · 캡처 — EditMode 83/83 · 캡처 시험 1/1"
+},
+{
+"sha": "1b997fcd",
+"at": "2026-11-22 12:36",
+"msg": "CD-0066 클라이언트 보고서 20-client.md(한 일 · 검증 · Unity 명령 · 걸리는 점)"
+},
+{
+"sha": "4090267d",
+"at": "2026-11-22 12:36",
+"msg": "CD-0075 후속: 작업실 칸 설명 — tutorial.json 새 칸 10개(kujiScript · 단계 open · 조건 moves/upgrades/loneHero/heroes/summons) + pick any — check_fields --strict 빠진 칸 0 · test_workbench 모두 통과"
+},
+{
+"sha": "031605f8",
+"at": "2026-11-22 12:35",
+"msg": "CD-0066 화면: 상점 노점 가판 — 노점 배경 + 그늘 · 30일 보급 전단(종이) · 붉은 천 간판 · 선반 판자 위 상품 상자(어두운 창 · 이름 · 가격 버튼) · 특가 붉은 테 + 딱지 · 품절 흑백 · 홀로 뺌"
+},
+{
 "sha": "e5318b53",
 "at": "2026-11-22 12:31",
 "msg": "CD-0075 90-close 초안 · stage 마감(빌드 대기) — check Core 734/737(실패 2 = main 의 밸런스 시험) · EditMode 필터 199/200"
@@ -1873,31 +1882,6 @@
 "sha": "afa962bb",
 "at": "2026-11-22 12:20",
 "msg": "CD-0075 U2: 판 밖 안내 — R1 확인(뗄 때까지 Drive 정지) · G3 막지 않는 안내 미룸 · G4 돌아올 때 입력 덮개(4초)·로비 탭·연출 직후 확인 · 보상 획득 창 기다림 · o4_kuji 고정 결과 연결(kujiScriptUsed 저장)·box.topLeft·A상 [확인] 재진입 · chat.close·ranking.close · 시험(Cd75Outgame·Cd75Press 누름→뗌) — 컴파일·시험 안 돌림(Unity 차례 대기)"
-},
-{
-"sha": "1d698192",
-"at": "2026-11-22 12:11",
-"msg": "CD-0076: 90-close 1차(12건 중 10건 + 12번 번호 숨김) · stage 마감 — 9번 팝업 틀·12번 뜯기 연출은 남음"
-},
-{
-"sha": "f05043d9",
-"at": "2026-11-22 12:11",
-"msg": "CD-0066: 상점 소품 그림 9-slice 테두리(item_box · shelf_plank · sign)"
-},
-{
-"sha": "394c1973",
-"at": "2026-11-22 12:11",
-"msg": "CD-0078 마감: EditMode 필터 2/2 · PlayMode 필터 1/1(main dcad2c57 합친 뒤) · 새 시험 .meta · stage 마감"
-},
-{
-"sha": "d4d26c73",
-"at": "2026-11-22 12:11",
-"msg": "CD-0066 아트: 노점 소품 그림 4장(상품 상자 · 선반 판자 · 구간 간판 · 특가 딱지) · 목록 · 장부 · 이름표 · 유니티 사본"
-},
-{
-"sha": "f13fa583",
-"at": "2026-11-22 12:08",
-"msg": "CD-0076: 컴파일 오류 2건(LobbyScreen 중복 Chip · Cd60LobbyTests h2) 수정, 바뀐 동작에 시험 3개 맞춤 — EditMode 필터 294/294"
 }
 ]
 },
@@ -7589,21 +7573,24 @@
 {
 "id": "CD-0066",
 "title": "상점 화면 폴리싱 노점 가판",
-"branch": "cd-66",
-"updated": "2026-11-22 12:11",
+"branch": "main",
+"updated": "2026-11-22 12:47",
 "files": [
 "00-order.md",
 "10-spec.md",
-"21-art.md"
+"20-client.md",
+"21-art.md",
+"90-close.md",
+"_qa"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "mid",
 "teams": "client, art",
 "opened": "2026-11-22",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>상점 탭을 <strong>노점 가판</strong>으로 바꾼다: 상품이 선반 위 상자에 하나씩 놓이고, 배경을 어둡게 가라앉혀 <strong>상품이 배경에 묻히지 않고 먼저 읽히게</strong> 한다(사용자: «배경과 상품 등의 구분이 잘 되지 않아서 인지에 어려움 — 컨셉은 가져가되 디자인 폴리싱은 필요»).</p>\n<p>규칙 · 데이터 · 값 · 차례는 바꾸지 않는다: 30일 보급 → 일일 상점(6칸) → 젬스톤 상점(은화 3 · 쿠지 티켓 3). <code>Data/shop.json</code> · Core <code>Shop</code> · <code>DailyShop</code> · 저장 그대로.</p>",
 "goalShort": "상점 탭을 노점 가판으로 바꾼다: 상품이 선반 위 상자에 하나씩 놓이고, 배경을 어둡게 가라앉혀 상품이 배경에 묻히지 않고 먼저 읽히게 한다(사용자: «배경과 상품 등의 구분이 잘 되지 않아서 인지에 어려움 — 컨셉은 가져가되 디자인 폴리싱은 필요»).",
@@ -7614,8 +7601,8 @@
 "team": "client",
 "title": "화면: ShopScreen 을 위 «화면» 대로(배경 · 어두운 막 · 30일 보급 전단 · 간판 · 선반과 상자 · 특가 · 품절). 규칙 · 창 · 버튼 · 표식 · 자리 이름은 그대로. 상점을 보던 시험(EditMode · PlayMode — grep -rl \"ShopScreen\" UnityProject/Assets/Tests)을 새 화면에 맞추고, EditMode 시험을 더한다(상자 9개 = 일일 6 + 은화 3 + 티켓 3 · 선반마다 3개 · 차례 = 보급 → 일일 → 젬스톤 · 특가 상자에만 붉은 테와 딱지 · 품절 상자는 누를 수 없음 · 가격 글자 = Core 값 · 자리 이름 등록). 캡처 시험 하나(PlayMode, CD_SHOTS_DIR): c66_shop_top · c66_shop_top_1080x2400 · c66_shop_scrolled(젬스톤 상점이 보이게 내림) · c66_shop_confirm(구매 확인 창이 뜬 순간) — 품절 · 보유 · 특가가 한 화면에 보이게 저장을 꾸민다",
 "output": "코드 · 시험 + 20-client.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "2",
@@ -7624,10 +7611,10 @@
 "title": "그림 4장(위 표): Codex(소품 문구) → 정규화 · art/tools/check.py · art/final/shop/ · 목록 · 장부 · Data/assets.json · 유니티 사본(파일만). 1번과 함께 돈다",
 "output": "그림 + 21-art.md(9-slice 값)",
 "status": "done",
-"why": "보고서 있음: 21-art.md"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -8125,7 +8112,7 @@
 "no": 6,
 "title": "뽑기·업적·상점 디자인 폴리싱 — 뽑기는 이치방쿠지 느낌(배너·경품판·티켓·뽑기 연출)",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "high",
 "orders": [
 "CD-0064",
@@ -8140,7 +8127,7 @@
 "no": 7,
 "title": "보상 획득 팝업 (미션·업적·상점 등 공통, 많으면 스크롤)",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0065",
@@ -17328,8 +17315,8 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-22 12:10",
-"branch": "cd-66",
+"at": "2026-11-22 12:47",
+"branch": "main",
 "dirty": false
 },
 "gallery": {
@@ -20161,8 +20148,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-22 12:10",
-"branch": "cd-66"
+"at": "2026-11-22 12:47",
+"branch": "main"
 }
 },
 "devlog": [
@@ -20475,7 +20462,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 12:35",
-"generatedAt": "2026-11-22 12:35",
-"digest": "814f692d9842e9fc"
+"sourceAt": "2026-11-22 12:47",
+"generatedAt": "2026-11-22 12:47",
+"digest": "5b23252406f2721c"
 }
