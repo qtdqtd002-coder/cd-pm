@@ -1305,43 +1305,43 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0112",
-"head": "e72140b",
+"head": "c26c0d1",
 "commits": [
 {
-"sha": "e72140be",
-"at": "2026-11-23 01:22",
-"ts": 1795364559,
-"msg": "CD-0113: 마감 기록 — main 0d1a087e 합침(EditMode 실패 1건은 CD-0112 탓, main 에서 고쳐짐)"
+"sha": "c26c0d15",
+"at": "2026-11-23 02:14",
+"ts": 1795367693,
+"msg": "병합: cd-114 2212e073(CD-0114 D-2b — 영웅·로비·앱·안내 16곳 ServerGate · EditMode 990/990 · PlayMode 필터 108/0, 0.12.0 몫)"
 },
 {
-"sha": "72ebea16",
-"at": "2026-11-23 01:19",
-"ts": 1795364368,
-"msg": "병합: cd-113 82095607(CD-0113 D-2a — 여섯 화면 14곳을 ServerGate 기다림 창구로 · EditMode 989/990(실패 1 = 이미 고친 71→72) · PlayMode 필터 77/77, 0.12.0 몫)"
+"sha": "2212e073",
+"at": "2026-11-23 02:14",
+"ts": 1795367668,
+"msg": "CD-0114 D-2b: 영웅·로비·앱·안내 16곳을 기다림 창구로 · 답이 늦을 때 안내가 다시 시작되던 문제 수정(보이는 동작 그대로)"
 },
 {
-"sha": "82095607",
-"at": "2026-11-23 01:19",
-"ts": 1795364347,
-"msg": "CD-0113 D-2a: 상점·젬 가게·우편함·미션·업적·프로필 화면 14곳을 기다림 창구로(보이는 동작 그대로)"
+"sha": "338349e8",
+"at": "2026-11-23 02:12",
+"ts": 1795367578,
+"msg": "병합: cd-108b a62c6592(CD-0108 후속 — Cd37StatCardTests 종족 낱말 검사에서 이름 줄 뺌 · PlayMode 2/2)"
 },
 {
-"sha": "5ac4a76b",
-"at": "2026-11-23 01:07",
-"ts": 1795363631,
-"msg": "CD-0113 작업 중: 여섯 화면 14곳을 ServerGate.Do + …Async 로(Unity 확인 전)"
+"sha": "a62c6592",
+"at": "2026-11-23 02:12",
+"ts": 1795367556,
+"msg": "CD-0108 되돌림 확인: PlayMode Cd37StatCardTests 2/2 통과 · 단계 마감"
 },
 {
-"sha": "0d1a087e",
-"at": "2026-11-23 01:06",
-"ts": 1795363561,
-"msg": "크레딧 갱신: 효과음 98→99(CD-0107 종) · 대표 그림 18→26 · 화면 그림 125→142 · 직접 제작 1(0.11.0 QA 내보내기)"
+"sha": "b0f57727",
+"at": "2026-11-23 01:58",
+"ts": 1795366690,
+"msg": "CD-0108 되돌림: Cd37StatCardTests — 종족 낱말 검사에서 이름 줄을 뺀다(칭호에 «정령» 이 들어감, 결정 0103)"
 },
 {
-"sha": "5787e22f",
-"at": "2026-11-23 01:05",
-"ts": 1795363546,
-"msg": "병합: cd-112b df1525c4(CD-0112 후속 — 튜토리얼 자리 수 시험 71→72, match.summon)"
+"sha": "023bb86b",
+"at": "2026-11-23 01:30",
+"ts": 1795365059,
+"msg": "CD-0114 작업 중: 영웅·로비·앱·안내 16곳을 ServerGate.Do/Later + …Async 로 · 안내가 말한 것 기억(Unity 확인 전)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,19 +1381,25 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795364559,
-"unpushed": 0,
+"lastCommitTs": 1795367693,
+"unpushed": 3,
 "notInMain": 0,
-"today": 38
+"today": 46
 },
 {
 "branch": "cd-108b",
 "lane": "cd-108b",
 "session": "",
 "owns": "",
-"order": "CD-0108",
-"head": "b0f5772",
+"order": "CD-0112",
+"head": "a62c659",
 "commits": [
+{
+"sha": "a62c6592",
+"at": "2026-11-23 02:12",
+"ts": 1795367556,
+"msg": "CD-0108 되돌림 확인: PlayMode Cd37StatCardTests 2/2 통과 · 단계 마감"
+},
 {
 "sha": "b0f57727",
 "at": "2026-11-23 01:58",
@@ -1423,22 +1429,21 @@
 "at": "2026-11-23 00:58",
 "ts": 1795363130,
 "msg": "병합: cd-108 d8609a34(CD-0108 네 단계 한 이름 + 칭호 결정 0103 · CD-0109 영웅 엘프 일러스트·SD — EditMode 필터 63/63 · PlayMode Cd67LobbyShot 3/3)"
-},
-{
-"sha": "d8609a34",
-"at": "2026-11-23 00:52",
-"ts": 1795362763,
-"msg": "CD-0108·0109: Unity 확인 기록 — EditMode 필터 63/63 · PlayMode Cd67LobbyShot 3/3 (main fd66b889 합친 뒤)"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795366690,
-"unpushed": 3,
-"notInMain": 3,
-"today": 35
+"dirtyCount": 1,
+"dirty": [
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-23 02:12"
+}
+],
+"lastEdit": "2026-11-23 02:12",
+"lastEditTs": 1795367537.7168622,
+"lastCommitTs": 1795367556,
+"unpushed": 0,
+"notInMain": 0,
+"today": 36
 },
 {
 "branch": "cd-112c",
@@ -1485,13 +1490,46 @@
 "msg": "병합: cd-108 d8609a34(CD-0108 네 단계 한 이름 + 칭호 결정 0103 · CD-0109 영웅 엘프 일러스트·SD — EditMode 필터 63/63 · PlayMode Cd67LobbyShot 3/3)"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 15,
+"dirty": [
+{
+"file": "UnityProject/Assets/_Game/UI/Match/SystemBar.cs",
+"at": "2026-11-23 02:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-23 02:17"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-23 02:17"
+},
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-23 02:17"
+},
+{
+"file": "test-results-play.xml",
+"at": "2026-11-23 02:17"
+},
+{
+"file": "studio/orders/CD-0112-인게임-하단-바-개편-랜덤-소환-구슬과-골드-차원석-날/_shots/hud_chat.png",
+"at": "2026-11-23 02:17"
+},
+{
+"file": "studio/orders/CD-0112-인게임-하단-바-개편-랜덤-소환-구슬과-골드-차원석-날/_shots/cd112_bar_poor_1080x1920.png",
+"at": "2026-11-23 02:15"
+},
+{
+"file": "studio/orders/CD-0112-인게임-하단-바-개편-랜덤-소환-구슬과-골드-차원석-날/_shots/cd112_bar_full_1080x1920.png",
+"at": "2026-11-23 02:15"
+}
+],
+"lastEdit": "2026-11-23 02:17",
+"lastEditTs": 1795367850.5223455,
 "lastCommitTs": 1795366753,
-"unpushed": 4,
-"notInMain": 4,
+"unpushed": 2,
+"notInMain": 2,
 "today": 36
 },
 {
@@ -1499,9 +1537,15 @@
 "lane": "cd-114",
 "session": "",
 "owns": "",
-"order": "CD-0114",
-"head": "023bb86",
+"order": "CD-0112",
+"head": "2212e07",
 "commits": [
+{
+"sha": "2212e073",
+"at": "2026-11-23 02:14",
+"ts": 1795367668,
+"msg": "CD-0114 D-2b: 영웅·로비·앱·안내 16곳을 기다림 창구로 · 답이 늦을 때 안내가 다시 시작되던 문제 수정(보이는 동작 그대로)"
+},
 {
 "sha": "023bb86b",
 "at": "2026-11-23 01:30",
@@ -1531,55 +1575,21 @@
 "at": "2026-11-23 01:07",
 "ts": 1795363631,
 "msg": "CD-0113 작업 중: 여섯 화면 14곳을 ServerGate.Do + …Async 로(Unity 확인 전)"
-},
-{
-"sha": "0d1a087e",
-"at": "2026-11-23 01:06",
-"ts": 1795363561,
-"msg": "크레딧 갱신: 효과음 98→99(CD-0107 종) · 대표 그림 18→26 · 화면 그림 125→142 · 직접 제작 1(0.11.0 QA 내보내기)"
 }
 ],
-"dirtyCount": 12,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScenea977be53-02ef-4f57-bde2-a07fe902c167.unity.meta",
-"at": "2026-11-23 02:01"
-},
-{
-"file": "UnityProject/Assets/InitTestScenea977be53-02ef-4f57-bde2-a07fe902c167.unity",
-"at": "2026-11-23 02:01"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-23 02:01"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd63HeroListEditModeTests.cs",
-"at": "2026-11-23 02:00"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-23 01:59"
-},
-{
-"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
-"at": "2026-11-23 01:59"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-23 01:59"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-23 01:59"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-23 02:07"
 }
 ],
-"lastEdit": "2026-11-23 02:01",
-"lastEditTs": 1795366887.9129581,
-"lastCommitTs": 1795365059,
-"unpushed": 1,
-"notInMain": 1,
-"today": 39
+"lastEdit": "2026-11-23 02:07",
+"lastEditTs": 1795367271.7004926,
+"lastCommitTs": 1795367668,
+"unpushed": 2,
+"notInMain": 0,
+"today": 40
 },
 {
 "branch": "cd-84",
@@ -1640,9 +1650,27 @@
 "lane": "rel-0110",
 "session": "",
 "owns": "",
-"order": "CD-0107",
-"head": "0735aa4",
+"order": "CD-0108",
+"head": "0152832",
 "commits": [
+{
+"sha": "0152832a",
+"at": "2026-11-23 02:12",
+"ts": 1795367577,
+"msg": "병합: cd-108b a62c6592(CD-0108 후속 — Cd37StatCardTests 종족 낱말 검사에서 이름 줄 뺌 · PlayMode 2/2)"
+},
+{
+"sha": "a62c6592",
+"at": "2026-11-23 02:12",
+"ts": 1795367556,
+"msg": "CD-0108 되돌림 확인: PlayMode Cd37StatCardTests 2/2 통과 · 단계 마감"
+},
+{
+"sha": "b0f57727",
+"at": "2026-11-23 01:58",
+"ts": 1795366690,
+"msg": "CD-0108 되돌림: Cd37StatCardTests — 종족 낱말 검사에서 이름 줄을 뺀다(칭호에 «정령» 이 들어감, 결정 0103)"
+},
 {
 "sha": "0735aa4a",
 "at": "2026-11-23 01:06",
@@ -1660,24 +1688,6 @@
 "at": "2026-11-23 01:05",
 "ts": 1795363531,
 "msg": "CD-0112: 낡은 시험 기대값 71 → 72(match.summon 자리 추가)"
-},
-{
-"sha": "14cddf49",
-"at": "2026-11-23 00:58",
-"ts": 1795363130,
-"msg": "병합: cd-108 d8609a34(CD-0108 네 단계 한 이름 + 칭호 결정 0103 · CD-0109 영웅 엘프 일러스트·SD — EditMode 필터 63/63 · PlayMode Cd67LobbyShot 3/3)"
-},
-{
-"sha": "d8609a34",
-"at": "2026-11-23 00:52",
-"ts": 1795362763,
-"msg": "CD-0108·0109: Unity 확인 기록 — EditMode 필터 63/63 · PlayMode Cd67LobbyShot 3/3 (main fd66b889 합친 뒤)"
-},
-{
-"sha": "292aa229",
-"at": "2026-11-23 00:51",
-"ts": 1795362713,
-"msg": "병합: cd-112 2f0afdf6(CD-0112 인게임 하단 바 개편 — 랜덤 소환 구슬 + 골드·차원석 날개 결정 0104 · Core 필터 87/0 · Server 272 · EditMode 필터 87/0 · PlayMode 필터 38/0 실패 후 단독 1/1)"
 }
 ],
 "dirtyCount": 2,
@@ -1693,10 +1703,10 @@
 ],
 "lastEdit": "2026-11-22 10:27",
 "lastEditTs": 1795310821.8104656,
-"lastCommitTs": 1795363561,
-"unpushed": 2,
-"notInMain": 2,
-"today": 34
+"lastCommitTs": 1795367577,
+"unpushed": 1,
+"notInMain": 1,
+"today": 37
 },
 {
 "branch": "workbench",
@@ -1755,7 +1765,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 195,
+"commits": 185,
 "byOrder": [
 [
 "CD-0075",
@@ -1778,27 +1788,11 @@
 10
 ],
 [
-"CD-0073",
-10
-],
-[
 "CD-0102",
 9
 ],
 [
-"CD-0067",
-8
-],
-[
-"CD-0062",
-8
-],
-[
 "CD-0107",
-7
-],
-[
-"CD-0074",
 7
 ],
 [
@@ -1806,7 +1800,15 @@
 7
 ],
 [
+"CD-0073",
+7
+],
+[
 "CD-0103",
+6
+],
+[
+"CD-0074",
 6
 ],
 [
@@ -1822,6 +1824,14 @@
 5
 ],
 [
+"CD-0067",
+5
+],
+[
+"CD-0108",
+4
+],
+[
 "CD-0089",
 4
 ],
@@ -1830,8 +1840,8 @@
 4
 ],
 [
-"CD-0108",
-3
+"CD-0062",
+4
 ],
 [
 "CD-0113",
@@ -1840,6 +1850,10 @@
 [
 "CD-0080",
 3
+],
+[
+"CD-0114",
+2
 ],
 [
 "CD-0118",
@@ -1898,10 +1912,6 @@
 2
 ],
 [
-"CD-0114",
-1
-],
-[
 "CD-0119",
 1
 ],
@@ -1940,13 +1950,19 @@
 [
 "CD-0060",
 1
-],
-[
-"CD-0068",
-1
 ]
 ],
 "latest": [
+{
+"sha": "2212e073",
+"at": "2026-11-23 02:14",
+"msg": "CD-0114 D-2b: 영웅·로비·앱·안내 16곳을 기다림 창구로 · 답이 늦을 때 안내가 다시 시작되던 문제 수정(보이는 동작 그대로)"
+},
+{
+"sha": "a62c6592",
+"at": "2026-11-23 02:12",
+"msg": "CD-0108 되돌림 확인: PlayMode Cd37StatCardTests 2/2 통과 · 단계 마감"
+},
 {
 "sha": "609e99a1",
 "at": "2026-11-23 01:59",
@@ -1986,16 +2002,6 @@
 "sha": "0735aa4a",
 "at": "2026-11-23 01:06",
 "msg": "크레딧 갱신: 효과음 98→99(CD-0107 종) · 대표 그림 18→26 · 화면 그림 125→142 · 직접 제작 1(0.11.0 QA 내보내기)"
-},
-{
-"sha": "0d1a087e",
-"at": "2026-11-23 01:06",
-"msg": "크레딧 갱신: 효과음 98→99(CD-0107 종) · 대표 그림 18→26 · 화면 그림 125→142 · 직접 제작 1(0.11.0 QA 내보내기)"
-},
-{
-"sha": "df1525c4",
-"at": "2026-11-23 01:05",
-"msg": "CD-0112: 낡은 시험 기대값 71 → 72(match.summon 자리 추가)"
 }
 ]
 },
@@ -9192,21 +9198,21 @@
 {
 "id": "CD-0108",
 "title": "일반~영웅 등급 이름 칭호 방식 통일",
-"branch": "cd-108b",
-"updated": "2026-11-23 01:57",
+"branch": "main",
+"updated": "2026-11-23 02:12",
 "files": [
 "00-order.md",
 "10-spec.md",
 "90-close.md"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "planning, core, client",
 "opened": "2026-11-23",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>일반~영웅 네 단계가 오를 때 이름이 통째로 바뀌던 것을, <strong>한 이름 + 단계별 칭호</strong>로 바꾼다(결정 0103). 화면 글자는 «칭호 이름»(«숲의 소녀 리엘» → «견습 요정 리엘» → «선발대원 리엘» → «숲의 명궁 리엘»). 대표 이름과 칭호 24개는 <code>docs/decisions/0103-…md</code> 의 표.</p>",
 "goalShort": "일반~영웅 네 단계가 오를 때 이름이 통째로 바뀌던 것을, 한 이름 + 단계별 칭호로 바꾼다(결정 0103).",
@@ -9217,8 +9223,8 @@
 "team": "planning",
 "title": "결정 0103, 0012 고쳐 씀 표시, docs/12 §1 표·설명, docs/15 단계 표, 스킬 cd-canon",
 "output": "문서",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "2",
@@ -9226,8 +9232,8 @@
 "team": "core",
 "title": "Data/units.json 단계마다 title, name 네 단계 같게 · StageConfig.Title·DisplayName · Unit.Name·UnitStats.StageName 이 DisplayName · Data/cosmetics.json 초상 이름 «칭호 이름» · validate_data.py·canon_lint.py·작업실 칸 설명 · Core 시험 4건",
 "output": "데이터·코드·도구",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "3",
@@ -9235,11 +9241,11 @@
 "team": "client",
 "title": "OutgameState.HeroName·CharacterScreen 상세 이름이 DisplayName · InGamePrewarm 에 칭호 글자 · Resources 사본 동기화",
 "output": "화면 코드",
-"status": "doing",
-"why": "커밋에 언급됨"
+"status": "done",
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -9431,22 +9437,23 @@
 {
 "id": "CD-0114",
 "title": "기기 D-2b — 영웅·로비·안내·앱을 기다림 창구로",
-"branch": "cd-114",
-"updated": "2026-11-23 01:30",
+"branch": "main",
+"updated": "2026-11-23 02:14",
 "files": [
 "00-order.md",
 "10-spec.md",
 "21-report-client.md",
-"22-report-client-c2.md"
+"22-report-client-c2.md",
+"90-close.md"
 ],
 "milestone": "M7",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "high",
 "teams": "client",
 "opened": "2026-11-23",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>화면·앱이 서버 길 메서드의 <strong>동기 이름</strong>을 부르는 남은 곳을 «기다리는 판 + 기다림 창구» 로 바꾼다. 이 주문이 끝나면 화면·앱에 남는 동기 호출은 <strong>판 정산 3곳</strong>(CD-0115 몫)과 «창구 없이 화면만 만든 시험» 을 위한 <code>BoxScreen</code> 의 예비 한 줄뿐이다.</p>\n<div class=tw><table><thead><tr><th>파일</th><th>곳</th><th>호출</th><th>종류</th></tr></thead><tbody><tr><td><code>UI/CharacterScreen.cs</code></td><td>3</td><td><code>LevelUpHero</code> ×2(영웅 상세 · 전설 상세) · <code>TranscendLegend</code></td><td>버튼</td></tr><tr><td><code>UI/LobbyScreen.cs</code></td><td>3</td><td><code>GrantOpenedFeatures</code> → <code>RefreshMail</code>(로비가 보일 때) · <code>Rename</code>(이름 창)</td><td>열 때 · 버튼</td></tr><tr><td><code>App/GameApp.cs</code></td><td>3</td><td><code>RefreshDaily</code> → <code>RefreshMail</code>(로비를 보일 때) · <code>TrySpendStamina</code>(출전)</td><td>열 때 · 버튼</td></tr><tr><td><code>App/GameApp.Ops.cs</code></td><td>2</td><td><code>RefreshMail</code> ×2(운영 우편이 내려온 뒤)</td><td>뒤에서</td></tr><tr><td><code>UI/Tutorial/OutgameGuide.cs</code></td><td>4</td><td><code>MarkGuidePending</code> ×2 · <code>MarkGuideDone</code> ×2</td><td>뒤에서</td></tr><tr><td><code>UI/Tutorial/TutorialGuide.cs</code></td><td>1</td><td><code>MarkGuideDone</code></td><td>뒤에서</td></tr></tbody></table></div>\n<p>합 16곳. <strong>나누는 안에서 달라진 점</strong>: 판 정산 <code>RecordMatch</code> 3곳(<code>GameApp.cs</code> — 판 끝 · 이어 하기 포기 · 로비에서 포기)은 CD-0115(판 결과 — 못 보낸 정산·결과 화면)가 통째로 다루므로 이 주문에서 건드리지 않는다(같은 곳을 두 번 고치지 않게).</p>\n<ul>\n<li><strong>빌드에서 보이는 변화는 없다</strong>(로컬 서버는 즉시 답한다). 기존 시험은 고치지 않고 통과해야 한다.\n</li></ul>",
 "goalShort": "화면·앱이 서버 길 메서드의 동기 이름을 부르는 남은 곳을 «기다리는 판 + 기다림 창구» 로 바꾼다.",
@@ -9458,7 +9465,7 @@
 "title": "영웅·로비·앱 11곳(버튼 5 · 열 때의 묶음 4 · GameApp.Ops 2) + ClaimRow + 시험",
 "output": "UI/CharacterScreen.cs · UI/LobbyScreen.cs · App/GameApp.cs · App/GameApp.Ops.cs · UI/ClaimRow.cs · Tests/PlayMode/Cd114GateHeroLobbyTests.cs · 21-report-client.md",
 "status": "done",
-"why": "보고서 있음: 21-report-client.md"
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -9467,10 +9474,10 @@
 "title": "안내 5곳 + 시험",
 "output": "UI/Tutorial/OutgameGuide.cs · UI/Tutorial/TutorialGuide.cs · Tests/PlayMode/Cd114GateGuideTests.cs · 22-report-client-c2.md",
 "status": "done",
-"why": "보고서 있음: 22-report-client-c2.md"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -9906,7 +9913,7 @@
 "no": 28,
 "title": "일반~영웅 등급 이름 통일(칭호 방식) + 영웅 엘프 일러스트 한쪽 스타킹 포인트",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0108",
@@ -22683,7 +22690,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-23 02:01",
-"generatedAt": "2026-11-23 02:03",
-"digest": "75518665e15f88d0"
+"sourceAt": "2026-11-23 02:17",
+"generatedAt": "2026-11-23 02:17",
+"digest": "82db97a7c029ffbe"
 }
