@@ -1544,15 +1544,31 @@
 "msg": "병합: main c4e9b791 → cd-75 (CD-0076 1차 등)"
 }
 ],
-"dirtyCount": 1,
+"dirtyCount": 5,
 "dirty": [
 {
+"file": "studio/orders/CD-0076-플레이-피드백-12건-팝업-정리-현상금-알림-영웅-잠금/27-art.md",
+"at": "2026-11-22 12:54"
+},
+{
+"file": "studio/orders/CD-0076-플레이-피드백-12건-팝업-정리-현상금-알림-영웅-잠금/27-popup-v2-reward.png",
+"at": "2026-11-22 12:54"
+},
+{
+"file": "studio/orders/CD-0076-플레이-피드백-12건-팝업-정리-현상금-알림-영웅-잠금/27-popup-v2-alert.png",
+"at": "2026-11-22 12:54"
+},
+{
+"file": "studio/orders/CD-0076-플레이-피드백-12건-팝업-정리-현상금-알림-영웅-잠금/27-popup-v2-toast.png",
+"at": "2026-11-22 12:54"
+},
+{
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-22 12:49"
+"at": "2026-11-22 12:50"
 }
 ],
-"lastEdit": "2026-11-22 12:49",
-"lastEditTs": 1795319398.114656,
+"lastEdit": "2026-11-22 12:54",
+"lastEditTs": 1795319660.3425975,
 "lastCommitTs": 1795318509,
 "unpushed": 2,
 "notInMain": 2,
@@ -7861,7 +7877,7 @@
 "id": "CD-0076",
 "title": "플레이 피드백 12건 팝업 정리 현상금 알림 영웅 잠금 로비 계정 정보 등급 표시 뽑기 연출 채팅 랭킹",
 "branch": "cd-76",
-"updated": "2026-11-22 12:23",
+"updated": "2026-11-22 12:54",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -7873,6 +7889,9 @@
 "26-client.md",
 "27-art.md",
 "27-popup-sheet.png",
+"27-popup-v2-alert.png",
+"27-popup-v2-reward.png",
+"27-popup-v2-toast.png",
 "28-client.md",
 "90-close.md"
 ],
@@ -8225,6 +8244,48 @@
 "createdAt": "2026-11-22 02:31",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/13"
+},
+{
+"no": 14,
+"title": "보안 빠른 조치 — 업데이트 링크 허용 목록 · 출시용 CCD 버킷 분리 · 크래시 보고 · 개발용 옵션 끄기 · 제재의 뜻",
+"state": "open",
+"phase": "built",
+"imp": "high",
+"orders": [
+"CD-0014",
+"CD-0052",
+"CD-0079"
+],
+"createdAt": "2026-11-22 03:53",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/14"
+},
+{
+"no": 15,
+"title": "판정 서버 — 재화·뽑기·시간·랭킹·uid 를 서버가 정하게(조사·설계 → 이전 → 판 결과 검증)",
+"state": "open",
+"phase": "new",
+"imp": "high",
+"orders": [
+"CD-0080"
+],
+"createdAt": "2026-11-22 03:53",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/15"
+},
+{
+"no": 16,
+"title": "계정 연결(Google Play Games) · 유저 정보 서버 저장 · 계정 삭제",
+"state": "open",
+"phase": "new",
+"imp": "high",
+"orders": [
+"CD-0080",
+"CD-0081"
+],
+"createdAt": "2026-11-22 03:53",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/16"
 }
 ],
 "versions": [
@@ -20467,7 +20528,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-22 12:49",
-"generatedAt": "2026-11-22 12:49",
-"digest": "cdfd39e81526707f"
+"sourceAt": "2026-11-22 12:54",
+"generatedAt": "2026-11-22 12:54",
+"digest": "7918f1cf2e67a7c0"
 }
