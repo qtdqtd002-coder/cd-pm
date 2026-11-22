@@ -8958,6 +8958,20 @@
 "createdAt": "2026-11-22 05:18",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/18"
+},
+{
+"no": 19,
+"title": "공지 상세의 «‹ 목록» 버튼이 창 틀에 겹침 — 디자인 폴리싱",
+"state": "open",
+"phase": "built",
+"imp": "mid",
+"orders": [
+"CD-0077",
+"CD-0099"
+],
+"createdAt": "2026-11-22 11:25",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/19"
 }
 ],
 "versions": [
@@ -21411,6 +21425,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-22 20:08",
-"generatedAt": "2026-11-22 20:17",
-"digest": "d0fcde216e500b66"
+"generatedAt": "2026-11-22 20:26",
+"digest": "651b3489ac7b822d"
 }
