@@ -1305,8 +1305,32 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0133",
-"head": "6ba0915",
+"head": "09c2403",
 "commits": [
+{
+"sha": "09c24038",
+"at": "2026-11-24 02:56",
+"ts": 1795456619,
+"msg": "병합: cd-139 e71d1443(CD-0139 서버 계정일 때 겹친 명령 줄 세워 보내기(8개까지) · 명령+인자 같은 중복은 버림 · 기기 안 서버 그대로 · 켜기 전 막는 항목 0 · EditMode 필터 147/147 · 전체 1144/1144 · PlayMode 21/0/2 · 실제 서버 1/1 · 스위치 끔)"
+},
+{
+"sha": "e71d1443",
+"at": "2026-11-24 02:56",
+"ts": 1795456597,
+"msg": "CD-0139: 서버 계정일 때 겹친 명령을 줄 세워 보내기 · 같은 명령 두 번은 한 번만(EditMode 전체 1144/1144 · PlayMode 21/0/2 · 실제 서버 시험 통과) · 절차서의 막는 항목 해결 · 단계 마감"
+},
+{
+"sha": "23272ecd",
+"at": "2026-11-24 02:44",
+"ts": 1795455844,
+"msg": "CD-0139 작업 중: 서버 계정일 때 겹친 명령을 줄 세워 보내기 · 같은 명령 두 번은 한 번만 + 시험(Unity 확인 전)"
+},
+{
+"sha": "9e529958",
+"at": "2026-11-24 02:38",
+"ts": 1795455504,
+"msg": "병합: main 6ba0915e 을 cd-139 에(cd-133 문서 커밋이 main 에 들어간 뒤 맞춤)"
+},
 {
 "sha": "6ba0915e",
 "at": "2026-11-24 02:35",
@@ -1314,34 +1338,10 @@
 "msg": "병합: cd-133 3d9c6d84(CD-0133 후속 — 절차서 §10·§1 «로비 직후 겹친 조작» 을 켜기 전 막는 항목으로 · 고칠 곳 후보 · 시험 흔적 16명 목록)"
 },
 {
-"sha": "f5bbe667",
-"at": "2026-11-24 02:34",
-"ts": 1795455265,
-"msg": "CLAUDE.md: 정본 문서에 서버 전환 절차(docs/16) · 명령에 서버·모듈 시험 두 줄(CD-0133 마감 요약)"
-},
-{
-"sha": "3d9c6d84",
-"at": "2026-11-24 02:31",
-"ts": 1795455101,
-"msg": "CD-0133: 절차서 §10 «로비 직후 겹친 조작» 을 스위치 켜기 전 막는 항목으로 · 고칠 곳 후보 기록(관제 요청)"
-},
-{
-"sha": "1201d9de",
-"at": "2026-11-24 02:31",
-"ts": 1795455070,
-"msg": "병합: cd-133 5fc74c64(CD-0133 E-5 서버 전환 절차서 docs/16 · 빌드 스크립트 -AccountServer(기본 끔) · 실제 서버 시험 Cd133LiveServerTests(평소 건너뜀, 실제 1/1) · production 모듈 데이터 해시 09dff662 = main · 정책 파일만 · 제품 코드 변경 0 · 스위치 끔)"
-},
-{
-"sha": "5fc74c64",
-"at": "2026-11-24 02:30",
-"ts": 1795455035,
-"msg": "CD-0133 E-5: 전환 절차서(docs/16) · 실제 서버 실행 통과(로그인 → 저장 넘기기 → 로비 → 출전, production) · 모듈 재배포(데이터 해시 09dff6625c844e3a) · 빌드 스크립트 -AccountServer(기본 끔) · 단계 마감"
-},
-{
-"sha": "4035aafb",
-"at": "2026-11-24 02:17",
-"ts": 1795454276,
-"msg": "CD-0133 작업 중: 실제 서버 실행 시험(평소에는 건너뜀) · 빌드 스크립트 -AccountServer 스위치(기본 끔) · production 모듈 재배포(데이터 해시 09dff6625c844e3a)(Unity 확인 전)"
+"sha": "42cfa5c4",
+"at": "2026-11-24 02:35",
+"ts": 1795455313,
+"msg": "병합: cd-133 3d9c6d84 를 cd-139 에(절차서 §10 막는 항목 · 고칠 곳 후보 — main 에 아직 없는 문서 커밋)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795455324,
+"lastCommitTs": 1795456619,
 "unpushed": 0,
 "notInMain": 0,
-"today": 30
+"today": 35
 },
 {
 "branch": "cd-126",
@@ -1446,131 +1446,19 @@
 "today": 20
 },
 {
-"branch": "cd-132",
-"lane": "cd-132",
-"session": "",
-"owns": "",
-"order": "CD-0131",
-"head": "51fdc2c",
-"commits": [
-{
-"sha": "51fdc2c2",
-"at": "2026-11-24 01:59",
-"ts": 1795453156,
-"msg": "병합: cd-132 9cbff621(CD-0132 E-4 저장 옮기기 player.json→account.import→local.json · 원본은 이름만 바꿔 보관 · 서버 계정 프로필 UID = 서버 uid · CD_ACCOUNT_SERVER 기본 끔 · EditMode 필터 93/93 · PlayMode 13/0/2 · 전체 1132/1133(남은 1 = cd-129b 이전 바탕))"
-},
-{
-"sha": "9cbff621",
-"at": "2026-11-24 01:58",
-"ts": 1795453123,
-"msg": "CD-0132 E-4: 저장 옮기기(player.json → account.import → local.json, 원본은 이름만 바꿔 보관) · 서버 계정의 프로필 UID = 서버 uid(EditMode 필터 93/93 · PlayMode 13/0/2 · EditMode 전체 1132/1133) · 단계 마감"
-},
-{
-"sha": "6a904e11",
-"at": "2026-11-24 01:51",
-"ts": 1795452681,
-"msg": "CD-0132 작업 중: C2 서버 계정일 때 프로필 UID = 서버 uid · Cloud Save 의 uid 를 만들지 않음 + 시험(Unity 확인 전)"
-},
-{
-"sha": "1b115319",
-"at": "2026-11-24 01:46",
-"ts": 1795452373,
-"msg": "CD-0132 작업 중: C1 저장 옮기기(player.json → account.import → local.json · 원본은 이름만 바꿔 보관) + 시험 · 기획서(Unity 확인 전)"
-},
-{
-"sha": "e74f6723",
-"at": "2026-11-24 01:40",
-"ts": 1795452028,
-"msg": "병합: cd-129b 53cae5d6(CD-0129 후속 — 튜토리얼 자리 수 시험 72→71 · result.unlock 없음 · EditMode 36/36)"
-},
-{
-"sha": "53cae5d6",
-"at": "2026-11-24 01:40",
-"ts": 1795452019,
-"msg": "CD-0129 후속(cd-129b): 튜토리얼 자리 수 시험 기대값 72 → 71 (result.unlock 없앰 반영)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-24 01:54"
-}
-],
-"lastEdit": "2026-11-24 01:54",
-"lastEditTs": 1795452886.9216614,
-"lastCommitTs": 1795453156,
-"unpushed": 0,
-"notInMain": 0,
-"today": 23
-},
-{
-"branch": "cd-133",
-"lane": "cd-133",
-"session": "",
-"owns": "",
-"order": "CD-0131",
-"head": "3d9c6d8",
-"commits": [
-{
-"sha": "3d9c6d84",
-"at": "2026-11-24 02:31",
-"ts": 1795455101,
-"msg": "CD-0133: 절차서 §10 «로비 직후 겹친 조작» 을 스위치 켜기 전 막는 항목으로 · 고칠 곳 후보 기록(관제 요청)"
-},
-{
-"sha": "5fc74c64",
-"at": "2026-11-24 02:30",
-"ts": 1795455035,
-"msg": "CD-0133 E-5: 전환 절차서(docs/16) · 실제 서버 실행 통과(로그인 → 저장 넘기기 → 로비 → 출전, production) · 모듈 재배포(데이터 해시 09dff6625c844e3a) · 빌드 스크립트 -AccountServer(기본 끔) · 단계 마감"
-},
-{
-"sha": "4035aafb",
-"at": "2026-11-24 02:17",
-"ts": 1795454276,
-"msg": "CD-0133 작업 중: 실제 서버 실행 시험(평소에는 건너뜀) · 빌드 스크립트 -AccountServer 스위치(기본 끔) · production 모듈 재배포(데이터 해시 09dff6625c844e3a)(Unity 확인 전)"
-},
-{
-"sha": "f7b80577",
-"at": "2026-11-24 02:12",
-"ts": 1795453968,
-"msg": "CD-0133 작업 중: 전환 절차서(docs/16) · docs/14 §3-7 · docs/02 판정 서버 · Access Control 정책 파일(올리지 않음) · 기획서"
-},
-{
-"sha": "51fdc2c2",
-"at": "2026-11-24 01:59",
-"ts": 1795453156,
-"msg": "병합: cd-132 9cbff621(CD-0132 E-4 저장 옮기기 player.json→account.import→local.json · 원본은 이름만 바꿔 보관 · 서버 계정 프로필 UID = 서버 uid · CD_ACCOUNT_SERVER 기본 끔 · EditMode 필터 93/93 · PlayMode 13/0/2 · 전체 1132/1133(남은 1 = cd-129b 이전 바탕))"
-},
-{
-"sha": "9cbff621",
-"at": "2026-11-24 01:58",
-"ts": 1795453123,
-"msg": "CD-0132 E-4: 저장 옮기기(player.json → account.import → local.json, 원본은 이름만 바꿔 보관) · 서버 계정의 프로필 UID = 서버 uid(EditMode 필터 93/93 · PlayMode 13/0/2 · EditMode 전체 1132/1133) · 단계 마감"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-24 02:20"
-}
-],
-"lastEdit": "2026-11-24 02:20",
-"lastEditTs": 1795454450.3636281,
-"lastCommitTs": 1795455101,
-"unpushed": 0,
-"notInMain": 0,
-"today": 27
-},
-{
 "branch": "cd-139",
 "lane": "cd-139",
 "session": "",
 "owns": "",
-"order": "CD-0139",
-"head": "23272ec",
+"order": "CD-0133",
+"head": "e71d144",
 "commits": [
+{
+"sha": "e71d1443",
+"at": "2026-11-24 02:56",
+"ts": 1795456597,
+"msg": "CD-0139: 서버 계정일 때 겹친 명령을 줄 세워 보내기 · 같은 명령 두 번은 한 번만(EditMode 전체 1144/1144 · PlayMode 21/0/2 · 실제 서버 시험 통과) · 절차서의 막는 항목 해결 · 단계 마감"
+},
 {
 "sha": "23272ecd",
 "at": "2026-11-24 02:44",
@@ -1600,51 +1488,21 @@
 "at": "2026-11-24 02:34",
 "ts": 1795455265,
 "msg": "CLAUDE.md: 정본 문서에 서버 전환 절차(docs/16) · 명령에 서버·모듈 시험 두 줄(CD-0133 마감 요약)"
-},
-{
-"sha": "3d9c6d84",
-"at": "2026-11-24 02:31",
-"ts": 1795455101,
-"msg": "CD-0133: 절차서 §10 «로비 직후 겹친 조작» 을 스위치 켜기 전 막는 항목으로 · 고칠 곳 후보 기록(관제 요청)"
 }
 ],
-"dirtyCount": 7,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd139QueuedCommandTests.cs",
-"at": "2026-11-24 02:48"
-},
-{
-"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
-"at": "2026-11-24 02:48"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-24 02:47"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-24 02:47"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-24 02:47"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd117StartFlowTests.cs",
-"at": "2026-11-24 02:47"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd139QueuedCommandTests.cs.meta",
-"at": "2026-11-24 02:45"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-24 02:49"
 }
 ],
-"lastEdit": "2026-11-24 02:48",
-"lastEditTs": 1795456118.9210138,
-"lastCommitTs": 1795455844,
-"unpushed": 3,
-"notInMain": 3,
-"today": 33
+"lastEdit": "2026-11-24 02:49",
+"lastEditTs": 1795456189.9591184,
+"lastCommitTs": 1795456597,
+"unpushed": 0,
+"notInMain": 0,
+"today": 34
 },
 {
 "branch": "rel-0110",
@@ -1766,7 +1624,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 51,
+"commits": 52,
 "byOrder": [
 [
 "CD-0121",
@@ -1795,6 +1653,10 @@
 [
 "CD-0122",
 3
+],
+[
+"CD-0139",
+2
 ],
 [
 "CD-0129",
@@ -1833,10 +1695,6 @@
 2
 ],
 [
-"CD-0139",
-1
-],
-[
 "CD-0127",
 1
 ],
@@ -1858,6 +1716,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "e71d1443",
+"at": "2026-11-24 02:56",
+"msg": "CD-0139: 서버 계정일 때 겹친 명령을 줄 세워 보내기 · 같은 명령 두 번은 한 번만(EditMode 전체 1144/1144 · PlayMode 21/0/2 · 실제 서버 시험 통과) · 절차서의 막는 항목 해결 · 단계 마감"
+},
 {
 "sha": "23272ecd",
 "at": "2026-11-24 02:44",
@@ -1902,11 +1765,6 @@
 "sha": "1b115319",
 "at": "2026-11-24 01:46",
 "msg": "CD-0132 작업 중: C1 저장 옮기기(player.json → account.import → local.json · 원본은 이름만 바꿔 보관) + 시험 · 기획서(Unity 확인 전)"
-},
-{
-"sha": "53cae5d6",
-"at": "2026-11-24 01:40",
-"msg": "CD-0129 후속(cd-129b): 튜토리얼 자리 수 시험 기대값 72 → 71 (result.unlock 없앰 반영)"
 }
 ]
 },
@@ -10168,21 +10026,22 @@
 {
 "id": "CD-0139",
 "title": "로비 직후 겹친 조작이 서버에 안 보내짐 — 겹친 명령을 줄 세워 보내기",
-"branch": "cd-139",
-"updated": "2026-11-24 02:40",
+"branch": "main",
+"updated": "2026-11-24 02:57",
 "files": [
 "00-order.md",
 "10-spec.md",
-"21-report-client.md"
+"21-report-client.md",
+"90-close.md"
 ],
 "milestone": "M7",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "high",
 "teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>서버 계정(<code>ViewDriven</code>)일 때, 앞의 명령이 답을 기다리는 동안 들어온 명령을 <strong>버리지 않고 차례를 기다렸다가 보낸다.</strong> 지금은 버리고(경고 로그만) 화면에는 아무 일도 없다. <code>docs/16-서버-전환-절차.md</code> §1 점검 7 · §10 의 «스위치를 켜기 전에 반드시 고칠 것(막는 항목)» 이다.</p>",
 "goalShort": "서버 계정(ViewDriven)일 때, 앞의 명령이 답을 기다리는 동안 들어온 명령을 버리지 않고 차례를 기다렸다가 보낸다.",
@@ -10194,10 +10053,10 @@
 "title": "설계 1~6 + EditMode Cd139QueuedCommandTests + PlayMode 한 건(Cd117StartFlowTests 에 «로비의 새로 고침이 답을 기다리는 동안 누른 조작이 버려지지 않는다») + 실제 서버 시험 Cd133LiveServerTests 에서 WaitQuiet 를 쓰지 않고 로비 직후 바로 보내게(그 시험의 다른 부분은 그대로)",
 "output": "코드 · 시험 · 21-report-client.md",
 "status": "done",
-"why": "보고서 있음: 21-report-client.md"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 }
 ],
@@ -23711,7 +23570,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 02:48",
-"generatedAt": "2026-11-24 02:49",
-"digest": "90fdfb92f1829955"
+"sourceAt": "2026-11-24 02:56",
+"generatedAt": "2026-11-24 02:59",
+"digest": "afca8bd1cdcab2d3"
 }
