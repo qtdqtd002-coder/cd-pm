@@ -1608,8 +1608,16 @@
 "msg": "CD-0133: 절차서 §10 «로비 직후 겹친 조작» 을 스위치 켜기 전 막는 항목으로 · 고칠 곳 후보 기록(관제 요청)"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 7,
 "dirty": [
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd139QueuedCommandTests.cs",
+"at": "2026-11-24 02:48"
+},
+{
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-24 02:48"
+},
 {
 "file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
 "at": "2026-11-24 02:47"
@@ -1627,16 +1635,12 @@
 "at": "2026-11-24 02:47"
 },
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd139QueuedCommandTests.cs",
-"at": "2026-11-24 02:46"
-},
-{
 "file": "UnityProject/Assets/Tests/EditMode/Cd139QueuedCommandTests.cs.meta",
 "at": "2026-11-24 02:45"
 }
 ],
-"lastEdit": "2026-11-24 02:47",
-"lastEditTs": 1795456048.5770743,
+"lastEdit": "2026-11-24 02:48",
+"lastEditTs": 1795456118.9210138,
 "lastCommitTs": 1795455844,
 "unpushed": 3,
 "notInMain": 3,
@@ -23707,7 +23711,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 02:47",
-"generatedAt": "2026-11-24 02:47",
-"digest": "3c560be7eeac0ffb"
+"sourceAt": "2026-11-24 02:48",
+"generatedAt": "2026-11-24 02:49",
+"digest": "90fdfb92f1829955"
 }
