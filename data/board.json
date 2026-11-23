@@ -1450,156 +1450,6 @@
 "today": 1
 },
 {
-"branch": "cd-127",
-"lane": "cd-127",
-"session": "",
-"owns": "",
-"order": "CD-0125",
-"head": "ef21a2a",
-"commits": [
-{
-"sha": "ef21a2a3",
-"at": "2026-11-24 00:30",
-"ts": 1795447840,
-"msg": "CD-0127: 해금 전 빈 차원석 날개는 눌러도 반응 없음 — PressBounce 를 광산 표시에 맞춰 켜고 끔 · EditMode Cd112SystemBar 14/14 · 마감 초안"
-},
-{
-"sha": "d49f4eeb",
-"at": "2026-11-24 00:11",
-"ts": 1795446673,
-"msg": "병합: cd-125b 39cb9bdb(CD-0125 후속 — 결정 0107 전설 스킬 표기 · 스킬 아이콘 4장 사용자 확정)"
-},
-{
-"sha": "39cb9bdb",
-"at": "2026-11-24 00:10",
-"ts": 1795446657,
-"msg": "CD-0125 후속(cd-125b): 결정 0107 «전설 스킬 표기 — 액티브=스킬(주홍 둥근 사각)·패시브=초월 특성(청록 원), 아이콘+이름·설명은 누르면» · 스킬 아이콘 4장 사용자 확정(confirmed) · 그림 오류 0 · 설정 오류 0"
-},
-{
-"sha": "c0f4ced7",
-"at": "2026-11-23 23:49",
-"ts": 1795445381,
-"msg": "병합: cd-125 7967330d(CD-0125 전설 스킬 아이콘 — 액티브 주홍 사각·패시브 청록 원 4장 · SkillBadge · 상세창·진화 카드·진화 연출 · EditMode 7/7)"
-},
-{
-"sha": "7967330d",
-"at": "2026-11-23 23:49",
-"ts": 1795445368,
-"msg": "병합: main 7d1678af → cd-125(CD-0128 튜토리얼 · CD-0084 서버) — 겹치는 파일 없음"
-},
-{
-"sha": "a8df42a6",
-"at": "2026-11-23 23:49",
-"ts": 1795445357,
-"msg": "CD-0125 마감: 스킬 아이콘 4장 카탈로그·Art 그룹 반입(.meta 6개) · EditMode Cd125SkillIcon|Cd34HeroScreen 7/7 · 90-close(관제에 넘길 요약·해 볼 것) · stage 마감"
-}
-],
-"dirtyCount": 5,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
-"at": "2026-11-24 00:29"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-24 00:28"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
-"at": "2026-11-24 00:28"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
-"at": "2026-11-24 00:28"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-24 00:20"
-}
-],
-"lastEdit": "2026-11-24 00:29",
-"lastEditTs": 1795447780.1782258,
-"lastCommitTs": 1795447840,
-"unpushed": 0,
-"notInMain": 0,
-"today": 3
-},
-{
-"branch": "cd-129",
-"lane": "cd-129",
-"session": "",
-"owns": "",
-"order": "CD-0124",
-"head": "203f8d0",
-"commits": [
-{
-"sha": "203f8d05",
-"at": "2026-11-24 00:32",
-"ts": 1795447932,
-"msg": "CD-0129: 결과창 MVP 일러스트 위치 실측 보정 · «MVP» 표기 · «열림» 알약 없앰 · 보상 3칸(은화·쿠지 티켓·경험치) · 첫 클리어 균열석 0(결정 0108)"
-},
-{
-"sha": "7d1678af",
-"at": "2026-11-23 23:44",
-"ts": 1795445042,
-"msg": "병합: cd-128 bf943a77(CD-0128 1-1 튜토리얼 선택 소환 3 → 구슬 랜덤 → 1번 더 → 합성 → 이동 · EditMode 82/82 · PlayMode 3/3)"
-},
-{
-"sha": "bf943a77",
-"at": "2026-11-23 23:43",
-"ts": 1795445027,
-"msg": "CD-0128 마감 초안: main a9d94b0a 합친 뒤 check 통과(Core 1116/1117) 기록"
-},
-{
-"sha": "4f4fb336",
-"at": "2026-11-23 23:40",
-"ts": 1795444834,
-"msg": "Merge branch 'main' into cd-128"
-},
-{
-"sha": "dff87664",
-"at": "2026-11-23 23:40",
-"ts": 1795444830,
-"msg": "CD-0128: 1-1 튜토리얼 — 선택 소환 3 → 구슬 랜덤 소환 2 → 구슬 한 번 더 → 합성 → 이동"
-},
-{
-"sha": "a9d94b0a",
-"at": "2026-11-23 23:39",
-"ts": 1795444753,
-"msg": "병합: cd-84 7b4b45dd(CD-0084 C3 — Cloud Code 모듈 GameServerModule + production 첫 배포 · 실제 호출 확인 · 모듈 시험 29/29 · Server 276)"
-}
-],
-"dirtyCount": 5,
-"dirty": [
-{
-"file": "studio/orders/CD-0129-결과창-MVP-일러스트-위치-실측-보정-MVP-표기-결/_shots/c41_result_1080x2400.png",
-"at": "2026-11-24 00:26"
-},
-{
-"file": "studio/orders/CD-0129-결과창-MVP-일러스트-위치-실측-보정-MVP-표기-결/_shots/c41_result.png",
-"at": "2026-11-24 00:26"
-},
-{
-"file": "studio/orders/CD-0129-결과창-MVP-일러스트-위치-실측-보정-MVP-표기-결/_shots/c41_result_fx.png",
-"at": "2026-11-24 00:26"
-},
-{
-"file": "studio/orders/CD-0129-결과창-MVP-일러스트-위치-실측-보정-MVP-표기-결/_shots/c41_result_lose_1080x2400.png",
-"at": "2026-11-24 00:26"
-},
-{
-"file": "studio/orders/CD-0129-결과창-MVP-일러스트-위치-실측-보정-MVP-표기-결/_shots/c41_result_lose.png",
-"at": "2026-11-24 00:26"
-}
-],
-"lastEdit": "2026-11-24 00:26",
-"lastEditTs": 1795447591.7368634,
-"lastCommitTs": 1795447932,
-"unpushed": 0,
-"notInMain": 0,
-"today": 1
-},
-{
 "branch": "cd-130",
 "lane": "cd-130",
 "session": "",
@@ -1644,131 +1494,47 @@
 "msg": "CD-0127: 해금 전 빈 차원석 날개는 눌러도 반응 없음 — PressBounce 를 광산 표시에 맞춰 켜고 끔 · EditMode Cd112SystemBar 14/14 · 마감 초안"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 17,
 "dirty": [
 {
-"file": "studio/orders/CD-0130-전환-E-2-기기의-계정-문-스위치-기본-끔-토큰-ti/00-order.md",
-"at": "2026-11-24 00:42"
+"file": "UnityProject/Assets/_Game/App/GameApp.Social.cs",
+"at": "2026-11-24 00:47"
 },
 {
-"file": "studio/orders/CD-0130-전환-E-2-기기의-계정-문-스위치-기본-끔-토큰-ti/10-spec.md",
-"at": "2026-11-24 00:42"
+"file": "UnityProject/Assets/_Game/App/GameApp.cs",
+"at": "2026-11-24 00:47"
+},
+{
+"file": "UnityProject/Assets/_Game/Net/Server/GameServers.cs",
+"at": "2026-11-24 00:47"
+},
+{
+"file": "UnityProject/Assets/_Game/App/GameApp.Account.cs",
+"at": "2026-11-24 00:47"
+},
+{
+"file": "UnityProject/Assets/_Game/Net/Server/ServerWarmer.cs",
+"at": "2026-11-24 00:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Net/Server/CloudCodeGameServer.cs",
+"at": "2026-11-24 00:46"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd0052UidEditModeTests.cs",
+"at": "2026-11-24 00:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Editor/BuildFlavor.cs",
+"at": "2026-11-24 00:46"
 }
 ],
-"lastEdit": "2026-11-24 00:42",
-"lastEditTs": 1795448533.596622,
+"lastEdit": "2026-11-24 00:47",
+"lastEditTs": 1795448834.806468,
 "lastCommitTs": 1795448304,
 "unpushed": 0,
 "notInMain": 0,
 "today": 8
-},
-{
-"branch": "cd-84",
-"lane": "cd-84",
-"session": "",
-"owns": "",
-"order": "CD-0084",
-"head": "7b4b45d",
-"commits": [
-{
-"sha": "7b4b45dd",
-"at": "2026-11-23 23:38",
-"ts": 1795444728,
-"msg": "CD-0084 C3: Cloud Code 모듈 첫 배포(production · GameServerModule) 기록 — 실제 호출 확인 · 콜드 스타트 12.5~15.5초 · 배포/지우기 절차 README · 단계 마감"
-},
-{
-"sha": "fec35f4a",
-"at": "2026-11-23 22:40",
-"ts": 1795441247,
-"msg": "CD-0084 C3 작업 중: Cloud Code 모듈 껍데기(Server/cloudcode — GameServer 감싸기 · Cloud Save 저장소 · 시험 29) · 기획서 C3 절(배포 전)"
-},
-{
-"sha": "cc976676",
-"at": "2026-11-23 22:29",
-"ts": 1795440543,
-"msg": "병합: main 3708775f 을 cd-84 에(CD-0084 C3 시작 전)"
-},
-{
-"sha": "3708775f",
-"at": "2026-11-23 09:24",
-"ts": 1795393448,
-"msg": "병합: cd-117 f92e9bc7(CD-0117 D-5 시작 흐름 — 계정 문이 있을 때만 «계정» 단계 · EditMode 1045/1045 · PlayMode 전체 373/0 실패, 0.12.0 몫)"
-},
-{
-"sha": "f92e9bc7",
-"at": "2026-11-23 09:21",
-"ts": 1795393302,
-"msg": "CD-0117 D-5: 계정이 서버에 있을 때의 시작 흐름 — 거울로 시작해 계정 받기 · 로딩의 계정 단계 · 못 받으면 [닫기] 없는 다시 시도 창(계정 문이 있을 때만 — 지금 빌드는 그대로)"
-},
-{
-"sha": "4246640a",
-"at": "2026-11-23 09:20",
-"ts": 1795393259,
-"msg": "병합: cd-108 486b99c1(CD-0109 영웅 엘프 일러스트·SD 사용자 확정 — 기록만 draft → confirmed)"
-}
-],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795444728,
-"unpushed": 0,
-"notInMain": 0,
-"today": 0
-},
-{
-"branch": "cd-95",
-"lane": "cd-95",
-"session": "",
-"owns": "",
-"order": "CD-0122",
-"head": "aa5562f",
-"commits": [
-{
-"sha": "aa5562f4",
-"at": "2026-11-24 00:38",
-"ts": 1795448281,
-"msg": "CD-0095 E-1: Cloud Code 모듈에 게임 데이터 — 모든 명령 실제 호출 확인(production · net10.0 · Warm 예열 · 원인 로그) · 콜드 스타트 12~19초 실측과 대책(timeout 40초) · 임시 Probe 제거 · 단계 마감"
-},
-{
-"sha": "60ab6478",
-"at": "2026-11-23 23:59",
-"ts": 1795445945,
-"msg": "CD-0095 작업 중: E-1 모듈에 게임 데이터·전환기 옵션·운영 우편·예열(Warm)·원인 로그 + 임시 Probe(배포 전) · 나누기·기획서"
-},
-{
-"sha": "a9d94b0a",
-"at": "2026-11-23 23:39",
-"ts": 1795444753,
-"msg": "병합: cd-84 7b4b45dd(CD-0084 C3 — Cloud Code 모듈 GameServerModule + production 첫 배포 · 실제 호출 확인 · 모듈 시험 29/29 · Server 276)"
-},
-{
-"sha": "7b4b45dd",
-"at": "2026-11-23 23:38",
-"ts": 1795444728,
-"msg": "CD-0084 C3: Cloud Code 모듈 첫 배포(production · GameServerModule) 기록 — 실제 호출 확인 · 콜드 스타트 12.5~15.5초 · 배포/지우기 절차 README · 단계 마감"
-},
-{
-"sha": "22959b86",
-"at": "2026-11-23 23:32",
-"ts": 1795444379,
-"msg": "병합: cd-124 82879f2b(CD-0124 기록 — 전설 사거리 사용자 확정 «그 값으로 확정», 문서 3개)"
-},
-{
-"sha": "bc94ae9f",
-"at": "2026-11-23 23:32",
-"ts": 1795444378,
-"msg": "병합: cd-122 fd1e989c(CD-0122 영웅 상세정보 배경판 9:16·위아래 녹임 + ‹ › 이전/다음 영웅 · EditMode 16/16 · PlayMode 5/5, 사용자 확인)"
-}
-],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795448281,
-"unpushed": 0,
-"notInMain": 0,
-"today": 1
 },
 {
 "branch": "rel-0110",
@@ -10104,24 +9870,43 @@
 "id": "CD-0130",
 "title": "전환 E-2 기기의 계정 문 — 스위치(기본 끔)·토큰·timeout 40초·예열·재로그인·안내",
 "branch": "cd-130",
-"updated": "2026-11-24 00:42",
+"updated": "2026-11-24 00:44",
 "files": [
 "00-order.md",
 "10-spec.md"
 ],
 "milestone": "M7",
-"stage": "접수",
+"stage": "제작",
 "route": "full",
 "risk": "high",
 "teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
-"phase": "new",
+"goal": "<p>스위치를 켠 빌드(또는 개발 실행)가 <code>GameApp.AccountDoor</code> 에 실제 문을 달고 시작 흐름(CD-0117)을 그대로 탄다. 스위치가 꺼진 빌드(= 지금 모든 빌드)는 <strong>한 줄도 다르게 돌지 않는다</strong>.</p>",
+"goalShort": "스위치를 켠 빌드(또는 개발 실행)가 GameApp.AccountDoor 에 실제 문을 달고 시작 흐름(CD-0117)을 그대로 탄다.",
+"tasks": [
+{
+"id": "C1",
+"key": "CD-0130/C1",
+"team": "client",
+"title": "설계 1 · 2 — 스위치 · 실제 문(토큰 · timeout · 데이터 해시 · 다시 로그인 · 예열 · 쉬었으면 깨우기) + EditMode Cd130AccountDoorTests",
+"output": "코드 · 시험 · 21-report-client.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "C2",
+"key": "CD-0130/C2",
+"team": "client",
+"title": "설계 3 · 4 — 시작 흐름의 다시 로그인 · 새 버전/제재 안내 · 로비의 update_required + 시험(EditMode Cd130NoticeTests, PlayMode Cd117StartFlowTests 에 두세 건 추가)",
+"output": "코드 · 시험 · 22-report-client-c2.md",
+"status": "todo",
+"why": ""
+}
+],
+"phase": "doing",
 "builtIn": ""
 }
 ],
@@ -23575,7 +23360,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 00:42",
-"generatedAt": "2026-11-24 00:42",
-"digest": "72829305ca3988fc"
+"sourceAt": "2026-11-24 00:47",
+"generatedAt": "2026-11-24 00:47",
+"digest": "7b828c2d6233ad7e"
 }
