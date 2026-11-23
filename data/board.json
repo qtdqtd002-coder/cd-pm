@@ -1391,7 +1391,7 @@
 "lane": "cd-120",
 "session": "",
 "owns": "",
-"order": "CD-0116",
+"order": "CD-0117",
 "head": "3708775",
 "commits": [
 {
@@ -1647,7 +1647,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 91,
+"commits": 85,
 "byOrder": [
 [
 "CD-0112",
@@ -1738,14 +1738,6 @@
 2
 ],
 [
-"CD-0089",
-2
-],
-[
-"CD-0084",
-2
-],
-[
 "CD-0109",
 1
 ],
@@ -1775,14 +1767,6 @@
 ],
 [
 "CD-0092",
-1
-],
-[
-"CD-0083",
-1
-],
-[
-"CD-0090",
 1
 ]
 ],
@@ -22787,6 +22771,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-23 10:59",
-"generatedAt": "2026-11-23 15:17",
-"digest": "eb39173069b5d15d"
+"generatedAt": "2026-11-23 15:43",
+"digest": "0a802ec48090d811"
 }
