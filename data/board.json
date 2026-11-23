@@ -1560,15 +1560,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 173,
+"commits": 171,
 "byOrder": [
 [
 "CD-0075",
 15
-],
-[
-"기타",
-13
 ],
 [
 "CD-0112",
@@ -1581,6 +1577,10 @@
 [
 "CD-0076",
 12
+],
+[
+"기타",
+11
 ],
 [
 "CD-0102",
@@ -22655,6 +22655,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-23 09:24",
-"generatedAt": "2026-11-23 09:29",
-"digest": "e0ee1aed1a6ec98c"
+"generatedAt": "2026-11-23 10:01",
+"digest": "3811f1919c77ead1"
 }
