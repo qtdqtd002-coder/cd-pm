@@ -1549,23 +1549,35 @@
 "msg": "CD-0095 E-1: Cloud Code 모듈에 게임 데이터 — 모든 명령 실제 호출 확인(production · net10.0 · Warm 예열 · 원인 로그) · 콜드 스타트 12~19초 실측과 대책(timeout 40초) · 임시 Probe 제거 · 단계 마감"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 6,
 "dirty": [
 {
-"file": "studio/orders/CD-0131-전환-E-3-운영-옵션-서버에서의-화면-흐름-어긋나는-/05-findings.md",
-"at": "2026-11-24 01:13"
+"file": "UnityProject/Assets/_Game/App/GameApp.cs",
+"at": "2026-11-24 01:16"
+},
+{
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Meta.cs",
+"at": "2026-11-24 01:16"
+},
+{
+"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Stamina.cs",
+"at": "2026-11-24 01:16"
 },
 {
 "file": "studio/orders/CD-0131-전환-E-3-운영-옵션-서버에서의-화면-흐름-어긋나는-/00-order.md",
-"at": "2026-11-24 01:05"
+"at": "2026-11-24 01:15"
 },
 {
 "file": "studio/orders/CD-0131-전환-E-3-운영-옵션-서버에서의-화면-흐름-어긋나는-/10-spec.md",
-"at": "2026-11-24 01:04"
+"at": "2026-11-24 01:14"
+},
+{
+"file": "studio/orders/CD-0131-전환-E-3-운영-옵션-서버에서의-화면-흐름-어긋나는-/05-findings.md",
+"at": "2026-11-24 01:13"
 }
 ],
-"lastEdit": "2026-11-24 01:13",
-"lastEditTs": 1795450438.3233523,
+"lastEdit": "2026-11-24 01:16",
+"lastEditTs": 1795450617.4256365,
 "lastCommitTs": 1795449670,
 "unpushed": 0,
 "notInMain": 0,
@@ -9951,25 +9963,44 @@
 "id": "CD-0131",
 "title": "전환 E-3 운영 옵션 서버에서의 화면 흐름 — 어긋나는 곳 찾고 고치기",
 "branch": "cd-131",
-"updated": "2026-11-24 01:13",
+"updated": "2026-11-24 01:15",
 "files": [
 "00-order.md",
 "05-findings.md",
 "10-spec.md"
 ],
 "milestone": "M7",
-"stage": "접수",
+"stage": "제작",
 "route": "full",
 "risk": "high",
-"teams": "client, core",
+"teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
-"phase": "new",
+"goal": "<p>스위치를 켠 기기가 운영 옵션 서버를 만났을 때 «말없이 실패하는 곳» 과 «서버와 다르게 보이는 곳» 을 없앤다. <strong>스위치가 꺼진 실행(기기 로컬 서버)은 지금과 같게 돈다.</strong></p>",
+"goalShort": "스위치를 켠 기기가 운영 옵션 서버를 만났을 때 «말없이 실패하는 곳» 과 «서버와 다르게 보이는 곳» 을 없앤다.",
+"tasks": [
+{
+"id": "C1",
+"key": "CD-0131/C1",
+"team": "client",
+"title": "설계 4(훑기 시험) + 설계 1 · 2(정산·출전 거절의 값과 안내)",
+"output": "코드 · 시험 · 21-report-client.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "C2",
+"key": "CD-0131/C2",
+"team": "client",
+"title": "설계 3(서버 시각) + 시험 Cd131ServerClockTests",
+"output": "코드 · 시험 · 22-report-client-c2.md",
+"status": "todo",
+"why": ""
+}
+],
+"phase": "doing",
 "builtIn": ""
 }
 ],
@@ -23483,7 +23514,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 01:13",
-"generatedAt": "2026-11-24 01:14",
-"digest": "6f64b0e4bc9b45ad"
+"sourceAt": "2026-11-24 01:16",
+"generatedAt": "2026-11-24 01:17",
+"digest": "cecf01d0b56cae48"
 }
