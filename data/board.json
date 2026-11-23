@@ -1560,7 +1560,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 168,
+"commits": 161,
 "byOrder": [
 [
 "CD-0075",
@@ -1571,20 +1571,20 @@
 12
 ],
 [
-"CD-0065",
-12
-],
-[
 "CD-0076",
 12
 ],
 [
-"기타",
+"CD-0102",
 9
 ],
 [
-"CD-0102",
-9
+"기타",
+8
+],
+[
+"CD-0065",
+8
 ],
 [
 "CD-0107",
@@ -1596,10 +1596,6 @@
 ],
 [
 "CD-0103",
-6
-],
-[
-"CD-0074",
 6
 ],
 [
@@ -1620,6 +1616,10 @@
 ],
 [
 "CD-0089",
+4
+],
+[
+"CD-0074",
 4
 ],
 [
@@ -9933,6 +9933,17 @@
 "createdAt": "2026-11-22 13:53",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/33"
+},
+{
+"no": 34,
+"title": "인게임 하단 소환 버튼·자원 정보 크기 키우기 + 영웅 정보창 상단 고정",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [],
+"createdAt": "2026-11-23 01:20",
+"seen": false,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/34"
 }
 ],
 "versions": [
@@ -22651,6 +22662,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-23 09:24",
-"generatedAt": "2026-11-23 10:17",
-"digest": "d8a4cb1faa822a14"
+"generatedAt": "2026-11-23 10:32",
+"digest": "39070fc723d228d3"
 }
