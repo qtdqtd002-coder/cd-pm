@@ -10036,6 +10036,17 @@
 "createdAt": "2026-11-23 01:20",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/34"
+},
+{
+"no": 35,
+"title": "칭호와 이름을 글자 디자인으로 구분 (칭호를 이름 위 작은 글씨로)",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [],
+"createdAt": "2026-11-23 05:39",
+"seen": false,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/35"
 }
 ],
 "versions": [
@@ -22754,6 +22765,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-23 10:59",
-"generatedAt": "2026-11-23 14:17",
-"digest": "f5fbe1e8b7516270"
+"generatedAt": "2026-11-23 14:40",
+"digest": "36f265c6cda7eb24"
 }
