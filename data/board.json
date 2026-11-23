@@ -1304,7 +1304,7 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0125",
+"order": "CD-0131",
 "head": "e74f672",
 "commits": [
 {
@@ -1446,185 +1446,19 @@
 "today": 20
 },
 {
-"branch": "cd-129b",
-"lane": "cd-129b",
-"session": "",
-"owns": "",
-"order": "CD-0130",
-"head": "53cae5d",
-"commits": [
-{
-"sha": "53cae5d6",
-"at": "2026-11-24 01:40",
-"ts": 1795452019,
-"msg": "CD-0129 후속(cd-129b): 튜토리얼 자리 수 시험 기대값 72 → 71 (result.unlock 없앰 반영)"
-},
-{
-"sha": "8bdcee83",
-"at": "2026-11-24 01:01",
-"ts": 1795449670,
-"msg": "병합: cd-130 49164144(CD-0130 E-2 기기 계정 문 — 스위치 CD_ACCOUNT_SERVER 기본 끔 · timeout 40초 · Warm 예열 · 재로그인 · update_required 새 버전 창 · EditMode 104/104 · PlayMode 11/11)"
-},
-{
-"sha": "49164144",
-"at": "2026-11-24 01:00",
-"ts": 1795449642,
-"msg": "CD-0130 E-2: 기기의 계정 문 — 스위치(기본 끔) · 실제 문(토큰 · timeout 40초 · 데이터 해시 · 다시 로그인 · 예열) · 시작 흐름의 재로그인 · 새 버전/제재 안내(EditMode 104/104 · PlayMode 시작 흐름 11/11) · 단계 마감"
-},
-{
-"sha": "002b1c4f",
-"at": "2026-11-24 00:56",
-"ts": 1795449375,
-"msg": "CD-0130 작업 중: C2 시작 흐름의 다시 로그인 · 새 버전/제재 안내 · 로비의 update_required(Unity 확인 전)"
-},
-{
-"sha": "15ee87e1",
-"at": "2026-11-24 00:49",
-"ts": 1795448946,
-"msg": "CD-0130 작업 중: C1 계정 문 스위치(기본 끔) · 실제 문(토큰 · timeout 40초 · 데이터 해시 · 다시 로그인 · 예열 · 쉬었으면 깨우기) · 기획서(Unity 확인 전)"
-},
-{
-"sha": "c27ff441",
-"at": "2026-11-24 00:38",
-"ts": 1795448304,
-"msg": "병합: cd-95 aa5562f4(CD-0095 E-1 — Cloud Code 모듈에 게임 데이터·모든 명령 · Warm 예열 · 운영 우편 · net10.0 · production 재배포 · 모듈 시험 48/48 · Server 276)"
-}
-],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795452019,
-"unpushed": 0,
-"notInMain": 0,
-"today": 13
-},
-{
-"branch": "cd-130",
-"lane": "cd-130",
-"session": "",
-"owns": "",
-"order": "CD-0125",
-"head": "4916414",
-"commits": [
-{
-"sha": "49164144",
-"at": "2026-11-24 01:00",
-"ts": 1795449642,
-"msg": "CD-0130 E-2: 기기의 계정 문 — 스위치(기본 끔) · 실제 문(토큰 · timeout 40초 · 데이터 해시 · 다시 로그인 · 예열) · 시작 흐름의 재로그인 · 새 버전/제재 안내(EditMode 104/104 · PlayMode 시작 흐름 11/11) · 단계 마감"
-},
-{
-"sha": "002b1c4f",
-"at": "2026-11-24 00:56",
-"ts": 1795449375,
-"msg": "CD-0130 작업 중: C2 시작 흐름의 다시 로그인 · 새 버전/제재 안내 · 로비의 update_required(Unity 확인 전)"
-},
-{
-"sha": "15ee87e1",
-"at": "2026-11-24 00:49",
-"ts": 1795448946,
-"msg": "CD-0130 작업 중: C1 계정 문 스위치(기본 끔) · 실제 문(토큰 · timeout 40초 · 데이터 해시 · 다시 로그인 · 예열 · 쉬었으면 깨우기) · 기획서(Unity 확인 전)"
-},
-{
-"sha": "c27ff441",
-"at": "2026-11-24 00:38",
-"ts": 1795448304,
-"msg": "병합: cd-95 aa5562f4(CD-0095 E-1 — Cloud Code 모듈에 게임 데이터·모든 명령 · Warm 예열 · 운영 우편 · net10.0 · production 재배포 · 모듈 시험 48/48 · Server 276)"
-},
-{
-"sha": "aa5562f4",
-"at": "2026-11-24 00:38",
-"ts": 1795448281,
-"msg": "CD-0095 E-1: Cloud Code 모듈에 게임 데이터 — 모든 명령 실제 호출 확인(production · net10.0 · Warm 예열 · 원인 로그) · 콜드 스타트 12~19초 실측과 대책(timeout 40초) · 임시 Probe 제거 · 단계 마감"
-},
-{
-"sha": "a8790dcf",
-"at": "2026-11-24 00:34",
-"ts": 1795448075,
-"msg": "병합: cd-129 203f8d05(CD-0129 결과창 MVP 위치 실측 보정·«MVP» 표기 · 보상 3칸 은화·쿠지·경험치 · 첫 클리어 균열석 0 — 결정 0108 · EditMode 62/62 · PlayMode 3/3 · Server 276, 사용자 확정)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-24 00:59"
-}
-],
-"lastEdit": "2026-11-24 00:59",
-"lastEditTs": 1795449594.0707164,
-"lastCommitTs": 1795449642,
-"unpushed": 0,
-"notInMain": 0,
-"today": 11
-},
-{
-"branch": "cd-131",
-"lane": "cd-131",
-"session": "",
-"owns": "",
-"order": "CD-0130",
-"head": "289297d",
-"commits": [
-{
-"sha": "289297d4",
-"at": "2026-11-24 01:31",
-"ts": 1795451519,
-"msg": "CD-0131: 보고서 절 제목 맞춤(게이트 impl 통과) · 단계 마감"
-},
-{
-"sha": "2ce50147",
-"at": "2026-11-24 01:31",
-"ts": 1795451500,
-"msg": "CD-0131 E-3: 운영 옵션 서버에서의 화면 흐름 — 정산/출전 거절 안내와 서버 값 · 서버 시각 · 운영 옵션 훑기 시험(EditMode 필터 118/118 · PlayMode 8/8 · EditMode 전체 1106/1107) · 단계 마감"
-},
-{
-"sha": "531d9782",
-"at": "2026-11-24 01:26",
-"ts": 1795451215,
-"msg": "CD-0131 작업 중: C2 서버 시각(서버 계정일 때 답의 now 로 화면 시각을 맞춤) + 시험(Unity 확인 전)"
-},
-{
-"sha": "0e30e3fe",
-"at": "2026-11-24 01:20",
-"ts": 1795450815,
-"msg": "CD-0131 작업 중: C1 운영 옵션 훑기 시험 · 정산/출전 거절의 값과 안내 · 어긋나는 곳 목록·기획서(Unity 확인 전)"
-},
-{
-"sha": "8bdcee83",
-"at": "2026-11-24 01:01",
-"ts": 1795449670,
-"msg": "병합: cd-130 49164144(CD-0130 E-2 기기 계정 문 — 스위치 CD_ACCOUNT_SERVER 기본 끔 · timeout 40초 · Warm 예열 · 재로그인 · update_required 새 버전 창 · EditMode 104/104 · PlayMode 11/11)"
-},
-{
-"sha": "49164144",
-"at": "2026-11-24 01:00",
-"ts": 1795449642,
-"msg": "CD-0130 E-2: 기기의 계정 문 — 스위치(기본 끔) · 실제 문(토큰 · timeout 40초 · 데이터 해시 · 다시 로그인 · 예열) · 시작 흐름의 재로그인 · 새 버전/제재 안내(EditMode 104/104 · PlayMode 시작 흐름 11/11) · 단계 마감"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-24 01:30"
-}
-],
-"lastEdit": "2026-11-24 01:30",
-"lastEditTs": 1795451401.919054,
-"lastCommitTs": 1795451519,
-"unpushed": 0,
-"notInMain": 0,
-"today": 16
-},
-{
 "branch": "cd-132",
 "lane": "cd-132",
 "session": "",
 "owns": "",
-"order": "CD-0131",
-"head": "efd1644",
+"order": "CD-0132",
+"head": "1b11531",
 "commits": [
+{
+"sha": "1b115319",
+"at": "2026-11-24 01:46",
+"ts": 1795452373,
+"msg": "CD-0132 작업 중: C1 저장 옮기기(player.json → account.import → local.json · 원본은 이름만 바꿔 보관) + 시험 · 기획서(Unity 확인 전)"
+},
 {
 "sha": "efd1644c",
 "at": "2026-11-24 01:32",
@@ -1654,55 +1488,29 @@
 "at": "2026-11-24 01:20",
 "ts": 1795450815,
 "msg": "CD-0131 작업 중: C1 운영 옵션 훑기 시험 · 정산/출전 거절의 값과 안내 · 어긋나는 곳 목록·기획서(Unity 확인 전)"
-},
-{
-"sha": "8bdcee83",
-"at": "2026-11-24 01:01",
-"ts": 1795449670,
-"msg": "병합: cd-130 49164144(CD-0130 E-2 기기 계정 문 — 스위치 CD_ACCOUNT_SERVER 기본 끔 · timeout 40초 · Warm 예열 · 재로그인 · update_required 새 버전 창 · EditMode 104/104 · PlayMode 11/11)"
 }
 ],
-"dirtyCount": 10,
+"dirtyCount": 3,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd132MoveFlowTests.cs",
-"at": "2026-11-24 01:45"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd132ImportTests.cs",
-"at": "2026-11-24 01:44"
-},
-{
 "file": "UnityProject/Assets/_Game/App/GameApp.cs",
-"at": "2026-11-24 01:42"
+"at": "2026-11-24 01:47"
 },
 {
-"file": "UnityProject/Assets/_Game/App/GameApp.Import.cs",
-"at": "2026-11-24 01:42"
+"file": "UnityProject/Assets/_Game/App/GameApp.Uid.cs",
+"at": "2026-11-24 01:47"
 },
 {
-"file": "UnityProject/Assets/_Game/Outgame/SavedAccountMoveFlow.cs",
-"at": "2026-11-24 01:42"
-},
-{
-"file": "UnityProject/Assets/_Game/Save/SavedAccountMove.cs",
-"at": "2026-11-24 01:41"
-},
-{
-"file": "UnityProject/Assets/_Game/Save/PlayerStore.cs",
-"at": "2026-11-24 01:41"
-},
-{
-"file": "UnityProject/Assets/_Game/Outgame/OutgameState.Session.cs",
-"at": "2026-11-24 01:41"
+"file": "UnityProject/Assets/_Game/Net/Ops/UidService.cs",
+"at": "2026-11-24 01:47"
 }
 ],
-"lastEdit": "2026-11-24 01:45",
-"lastEditTs": 1795452302.4830067,
-"lastCommitTs": 1795451537,
-"unpushed": 0,
-"notInMain": 0,
-"today": 17
+"lastEdit": "2026-11-24 01:47",
+"lastEditTs": 1795452444.8675725,
+"lastCommitTs": 1795452373,
+"unpushed": 1,
+"notInMain": 1,
+"today": 18
 },
 {
 "branch": "rel-0110",
@@ -1824,7 +1632,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 53,
+"commits": 54,
 "byOrder": [
 [
 "CD-0121",
@@ -1903,6 +1711,10 @@
 2
 ],
 [
+"CD-0132",
+1
+],
+[
 "CD-0127",
 1
 ],
@@ -1920,6 +1732,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "1b115319",
+"at": "2026-11-24 01:46",
+"msg": "CD-0132 작업 중: C1 저장 옮기기(player.json → account.import → local.json · 원본은 이름만 바꿔 보관) + 시험 · 기획서(Unity 확인 전)"
+},
 {
 "sha": "53cae5d6",
 "at": "2026-11-24 01:40",
@@ -1964,11 +1781,6 @@
 "sha": "c27ef115",
 "at": "2026-11-24 00:40",
 "msg": "CD-0126 작업 중: A안(플로팅 미니멀) — 닉네임 글자·그라데이션 백판·하트 5×2 깨짐 연출·반투명 독과 타일(아이콘+이름)·알약 칸·카드 같은 재질·아이콘 4장 다시 그림"
-},
-{
-"sha": "aa5562f4",
-"at": "2026-11-24 00:38",
-"msg": "CD-0095 E-1: Cloud Code 모듈에 게임 데이터 — 모든 명령 실제 호출 확인(production · net10.0 · Warm 예열 · 원인 로그) · 콜드 스타트 12~19초 실측과 대책(timeout 40초) · 임시 Probe 제거 · 단계 마감"
 }
 ]
 },
@@ -10131,10 +9943,11 @@
 "id": "CD-0132",
 "title": "전환 E-4 저장 옮기기 — player.json 가져오기·local.json·uid 이어받기",
 "branch": "cd-132",
-"updated": "2026-11-24 01:38",
+"updated": "2026-11-24 01:45",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"21-report-client.md"
 ],
 "milestone": "M7",
 "stage": "제작",
@@ -10154,8 +9967,8 @@
 "team": "client",
 "title": "설계 1 — 옮기기 + 시험(EditMode Cd132ImportTests · PlayMode Cd132MoveFlowTests)",
 "output": "코드 · 시험 · 21-report-client.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-report-client.md"
 },
 {
 "id": "C2",
@@ -23681,7 +23494,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 01:45",
-"generatedAt": "2026-11-24 01:45",
-"digest": "4c1d3c2b14a7f3f1"
+"sourceAt": "2026-11-24 01:47",
+"generatedAt": "2026-11-24 01:47",
+"digest": "5e957767007f92a8"
 }
