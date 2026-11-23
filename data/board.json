@@ -1382,7 +1382,7 @@
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
 "lastCommitTs": 1795441633,
-"unpushed": 2,
+"unpushed": 0,
 "notInMain": 0,
 "today": 75
 },
@@ -1391,7 +1391,7 @@
 "lane": "cd-120b",
 "session": "",
 "owns": "",
-"order": "CD-0120",
+"order": "CD-0116",
 "head": "745af78",
 "commits": [
 {
@@ -1441,7 +1441,7 @@
 "lastEdit": "2026-11-23 10:55",
 "lastEditTs": 1795398911.1501088,
 "lastCommitTs": 1795441618,
-"unpushed": 1,
+"unpushed": 0,
 "notInMain": 0,
 "today": 74
 },
@@ -1450,94 +1450,94 @@
 "lane": "cd-121",
 "session": "",
 "owns": "",
-"order": "CD-0116",
-"head": "2fab1a6",
+"order": "CD-0121",
+"head": "eeed484",
 "commits": [
+{
+"sha": "eeed484a",
+"at": "2026-11-23 22:51",
+"ts": 1795441870,
+"msg": "CD-0121: 기획서·진행 기록(main faabc95c 합침)"
+},
+{
+"sha": "972ddc15",
+"at": "2026-11-23 22:50",
+"ts": 1795441844,
+"msg": "Merge commit 'faabc95c' into cd-121"
+},
+{
+"sha": "12825d99",
+"at": "2026-11-23 22:50",
+"ts": 1795441844,
+"msg": "CD-0121 작업 중: 칭호와 이름을 두 층으로(칭호 작게·보조색, 후리가나식/같은 줄 두 시안) — 판 안 카드·영웅 탭·뽑기·상점·결과창·진화 창·프로필(Unity 확인 전)"
+},
+{
+"sha": "faabc95c",
+"at": "2026-11-23 22:47",
+"ts": 1795441633,
+"msg": "병합: cd-120b 745af788(CD-0120 후속 — 영웅 카드가 웨이브 숫자 동그라미를 가리면 그 아래로 · EditMode 17/17 · PlayMode 22/22)"
+},
+{
+"sha": "745af788",
+"at": "2026-11-23 22:46",
+"ts": 1795441618,
+"msg": "CD-0120 후속(cd-120b): 영웅 카드가 출현 구멍의 웨이브 숫자 동그라미를 가리지 않게 — 겹치면 동그라미 아래 +8 로(MatchScreen.CardTopY · BoardView.RiftCountdownCorners) · EditMode 17/17 · PlayMode 22/22"
+},
 {
 "sha": "2fab1a6a",
 "at": "2026-11-23 22:28",
 "ts": 1795440529,
 "msg": "병합: cd-120 3515e69e(CD-0120 인게임 하단 바 크게 — 구슬 184·날개 100·골드 72 · 영웅 카드 상단 고정 · EditMode 17/17 · PlayMode 32/32+7/7, 사용자 확정)"
-},
-{
-"sha": "3515e69e",
-"at": "2026-11-23 22:28",
-"ts": 1795440489,
-"msg": "CD-0120: 하단 소환 구슬·자원 날개 크게(구슬 156→184 · 날개 88→100 · 골드 62→72 · 차원석 46→64 · 가격 26→32) + 영웅 카드 상단 고정(알림 자리 아래) — 날개 그림은 같은 원본을 다시 자름 · 사용자 확정"
-},
-{
-"sha": "3708775f",
-"at": "2026-11-23 09:24",
-"ts": 1795393448,
-"msg": "병합: cd-117 f92e9bc7(CD-0117 D-5 시작 흐름 — 계정 문이 있을 때만 «계정» 단계 · EditMode 1045/1045 · PlayMode 전체 373/0 실패, 0.12.0 몫)"
-},
-{
-"sha": "f92e9bc7",
-"at": "2026-11-23 09:21",
-"ts": 1795393302,
-"msg": "CD-0117 D-5: 계정이 서버에 있을 때의 시작 흐름 — 거울로 시작해 계정 받기 · 로딩의 계정 단계 · 못 받으면 [닫기] 없는 다시 시도 창(계정 문이 있을 때만 — 지금 빌드는 그대로)"
-},
-{
-"sha": "4246640a",
-"at": "2026-11-23 09:20",
-"ts": 1795393259,
-"msg": "병합: cd-108 486b99c1(CD-0109 영웅 엘프 일러스트·SD 사용자 확정 — 기록만 draft → confirmed)"
-},
-{
-"sha": "486b99c1",
-"at": "2026-11-23 09:20",
-"ts": 1795393247,
-"msg": "CD-0109: 영웅 엘프 일러스트·SD 사용자 확정(2026-11-23) — 제작 목록 confirmed"
 }
 ],
-"dirtyCount": 16,
+"dirtyCount": 35,
 "dirty": [
 {
-"file": "Core/tests/BountyQueryTests.cs",
-"at": "2026-11-23 22:46"
+"file": "UnityProject/Assets/_Game/UI/Match/StatCard.cs",
+"at": "2026-11-23 22:58"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ProfileScreen.cs",
-"at": "2026-11-23 22:40"
+"file": "studio/orders/CD-0121-칭호와-이름을-글자-디자인으로-구분/_shots/_c_ruby_low.png",
+"at": "2026-11-23 22:57"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/Match/EvolveSheet.cs",
-"at": "2026-11-23 22:40"
+"file": "studio/orders/CD-0121-칭호와-이름을-글자-디자인으로-구분/_shots/_c_ruby_card.png",
+"at": "2026-11-23 22:57"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ResultScreen.cs",
-"at": "2026-11-23 22:39"
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-23 22:57"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ShopScreen.cs",
-"at": "2026-11-23 22:39"
+"file": "studio/orders/CD-0121-칭호와-이름을-글자-디자인으로-구분/_shots/cd121_inline_card_low_1080x1920.png",
+"at": "2026-11-23 22:57"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
-"at": "2026-11-23 22:38"
+"file": "studio/orders/CD-0121-칭호와-이름을-글자-디자인으로-구분/_shots/cd121_inline_card_top_safe_1080x2400.png",
+"at": "2026-11-23 22:57"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
-"at": "2026-11-23 22:38"
+"file": "studio/orders/CD-0121-칭호와-이름을-글자-디자인으로-구분/_shots/cd121_inline_card_top_1080x1920.png",
+"at": "2026-11-23 22:57"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/MatchScreen.cs",
-"at": "2026-11-23 22:37"
+"file": "studio/orders/CD-0121-칭호와-이름을-글자-디자인으로-구분/_shots/cd121_ruby_card_low_1080x1920.png",
+"at": "2026-11-23 22:57"
 }
 ],
-"lastEdit": "2026-11-23 22:46",
-"lastEditTs": 1795441601.778697,
-"lastCommitTs": 1795440529,
-"unpushed": 0,
-"notInMain": 0,
-"today": 73
+"lastEdit": "2026-11-23 22:58",
+"lastEditTs": 1795442289.0933118,
+"lastCommitTs": 1795441870,
+"unpushed": 3,
+"notInMain": 3,
+"today": 78
 },
 {
 "branch": "cd-122",
 "lane": "cd-122",
 "session": "",
 "owns": "",
-"order": "CD-0117",
+"order": "CD-0116",
 "head": "3708775",
 "commits": [
 {
@@ -1624,7 +1624,7 @@
 "lane": "cd-123",
 "session": "",
 "owns": "",
-"order": "CD-0117",
+"order": "CD-0116",
 "head": "3708775",
 "commits": [
 {
@@ -1664,19 +1664,43 @@
 "msg": "병합: cd-116 9fd5408e(CD-0116 D-4 원격 준비 — AccountCodec.TryMergeView · ViewDriven 길(꺼 둠) · local.json 형식 · Core 1113/1116 · Server 276 · EditMode 1031/1031 · PlayMode 필터 70/0, 0.12.0 몫)"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 38,
 "dirty": [
 {
-"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/_wip.patch",
-"at": "2026-11-23 22:35"
+"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/00-order.md",
+"at": "2026-11-23 22:57"
 },
 {
-"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/00-order.md",
-"at": "2026-11-23 22:35"
+"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/90-close.md",
+"at": "2026-11-23 22:57"
+},
+{
+"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/_qa/compare_played_rails.png",
+"at": "2026-11-23 22:51"
+},
+{
+"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/_qa/compare_played.png",
+"at": "2026-11-23 22:51"
+},
+{
+"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/_qa/compare_new_rails.png",
+"at": "2026-11-23 22:51"
+},
+{
+"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/_qa/compare_new.png",
+"at": "2026-11-23 22:51"
+},
+{
+"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/_qa/playmode-results.xml",
+"at": "2026-11-23 22:50"
+},
+{
+"file": "studio/orders/CD-0123-로비-딤드-메뉴-대비-높이기-잠긴-버튼-탭-글자-또렷하/_qa/after/cd60_lobby_new_1080x2400.png",
+"at": "2026-11-23 22:50"
 }
 ],
-"lastEdit": "2026-11-23 22:35",
-"lastEditTs": 1795440924.0087426,
+"lastEdit": "2026-11-23 22:57",
+"lastEditTs": 1795442262.647863,
 "lastCommitTs": 1795393448,
 "unpushed": 0,
 "notInMain": 0,
@@ -1856,7 +1880,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 57,
+"commits": 59,
 "byOrder": [
 [
 "CD-0112",
@@ -1881,6 +1905,10 @@
 [
 "CD-0094",
 3
+],
+[
+"CD-0121",
+2
 ],
 [
 "CD-0120",
@@ -1945,6 +1973,16 @@
 ],
 "latest": [
 {
+"sha": "eeed484a",
+"at": "2026-11-23 22:51",
+"msg": "CD-0121: 기획서·진행 기록(main faabc95c 합침)"
+},
+{
+"sha": "12825d99",
+"at": "2026-11-23 22:50",
+"msg": "CD-0121 작업 중: 칭호와 이름을 두 층으로(칭호 작게·보조색, 후리가나식/같은 줄 두 시안) — 판 안 카드·영웅 탭·뽑기·상점·결과창·진화 창·프로필(Unity 확인 전)"
+},
+{
 "sha": "745af788",
 "at": "2026-11-23 22:46",
 "msg": "CD-0120 후속(cd-120b): 영웅 카드가 출현 구멍의 웨이브 숫자 동그라미를 가리지 않게 — 겹치면 동그라미 아래 +8 로(MatchScreen.CardTopY · BoardView.RiftCountdownCorners) · EditMode 17/17 · PlayMode 22/22"
@@ -1983,16 +2021,6 @@
 "sha": "7443d1f8",
 "at": "2026-11-23 03:36",
 "msg": "CD-0116 작업 중: view 를 계정 묶음에 합치기(Core) · 서버 거울 시험 · 답으로만 맞추는 길 · 기기 전용 칸 파일(Unity 확인 전)"
-},
-{
-"sha": "e6e6676a",
-"at": "2026-11-23 03:14",
-"msg": "CD-0115 D-3: 판 정산 세 곳을 기다림 창구로 · 못 보낸 정산을 기기에 남겨 다음 시작에 같은 요청으로 이어 보냄 · 정산의 다시 시도 창에는 [닫기] 없음(보이는 동작 그대로)"
-},
-{
-"sha": "e8d3a222",
-"at": "2026-11-23 03:11",
-"msg": "content state: 0.11.0 base_id.txt(a6c466f3) 빠진 것 추가 — SpriteCatalogTests.RemoteCatalogNameCarriesTheBaseBuildId"
 }
 ]
 },
@@ -9710,10 +9738,11 @@
 "id": "CD-0121",
 "title": "칭호와 이름을 글자 디자인으로 구분",
 "branch": "cd-121",
-"updated": "2026-11-23 22:33",
+"updated": "2026-11-23 22:57",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"_shots"
 ],
 "milestone": "M6",
 "stage": "제작",
@@ -9724,9 +9753,19 @@
 "closed": "",
 "stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
+"goal": "<p>결정 0103 의 «칭호 이름» 을 화면에서 두 층으로 — <strong>이름이 주인공(크게·라벨 원래 색), 칭호는 수식어(작게·보조색)</strong>. 사용자가 두 시안 중 하나를 고른다:</p>\n<ul>\n<li><strong>후리가나식</strong>(<code>HeroNameStyle.Layout.Ruby</code>, 첫 시안): 칭호를 이름 위 작은 줄로(이름의 52 %).\n</li>\n<li><strong>같은 줄</strong>(<code>Layout.Inline</code>): 칭호를 이름 앞에 작게(66 %).\n</li></ul>\n<p>칭호 색: 어두운 바탕 <code>#E6D6B0</code>(양피지), 밝은 바탕 <code>#9A7B55</code>(바랜 갈색) — 등급 색(회·녹·청·보라·금)과 겹치지 않게(결정 0049). 전설·칭호 없는 옛 데이터 = 이름만.</p>",
+"goalShort": "결정 0103 의 «칭호 이름» 을 화면에서 두 층으로 — 이름이 주인공(크게·라벨 원래 색), 칭호는 수식어(작게·보조색).",
+"tasks": [
+{
+"id": "1",
+"key": "CD-0121/1",
+"team": "client(대표 직접)",
+"title": "HeroNameStyle(Rich·Apply·Plain) + Core UnitStats.StageTitle·OwnName + OutgameState.HeroTitle·HeroOwnName, 이름이 나오는 화면을 그 도우미로",
+"output": "코드 + 시험",
+"status": "todo",
+"why": ""
+}
+],
 "phase": "doing",
 "builtIn": ""
 },
@@ -9760,11 +9799,11 @@
 "id": "CD-0123",
 "title": "로비 딤드 메뉴 대비 높이기 잠긴 버튼 탭 글자 또렷하게",
 "branch": "cd-123",
-"updated": "2026-11-23 22:47",
+"updated": "2026-11-23 22:57",
 "files": [
 "00-order.md",
-"_qa",
-"_wip.patch"
+"90-close.md",
+"_qa"
 ],
 "milestone": "M6",
 "stage": "제작",
@@ -23074,7 +23113,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-23 22:47",
-"generatedAt": "2026-11-23 22:47",
-"digest": "bd7befafb1764dcf"
+"sourceAt": "2026-11-23 22:58",
+"generatedAt": "2026-11-23 22:58",
+"digest": "c8cfb0b3df101d9c"
 }
