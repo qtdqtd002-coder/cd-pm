@@ -1305,8 +1305,14 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0137",
-"head": "3fe367c",
+"head": "bf1849a",
 "commits": [
+{
+"sha": "bf1849a1",
+"at": "2026-11-24 11:49",
+"ts": 1795488575,
+"msg": "기록: 앱 0.12.0 배포 — devlog 2026-11-24 · 폰 확인 목록 · checks.json(main 3fe367c2)"
+},
 {
 "sha": "3fe367c2",
 "at": "2026-11-24 11:38",
@@ -1336,24 +1342,10 @@
 "at": "2026-11-24 11:01",
 "ts": 1795485718,
 "msg": "문서: 0.12.0 빌드 커밋(d06d6044)으로 모듈 재배포한 기록 — 데이터 해시 749afa417b468be1 · 올린 직후 첫 호출 504 한 번 · 시험 흔적 21명"
-},
-{
-"sha": "d06d6044",
-"at": "2026-11-24 10:54",
-"ts": 1795485288,
-"msg": "병합: cd-137 1e4c6117(CD-0137 서버 이어하기(싱글) — match.checkpoint·load·forfeit · 끝나지 않은 판이면 새 출전 거절 · 5웨이브마다 서버 저장(Data/account.json) · 이어 하기 카드 그대로 · 결정 0109 · Server 296 · 모듈 49 · EditMode 전체 1181/1181 · PlayMode 16/0/2 · 실제 서버 1/1 · 스위치 끔)"
 }
 ],
-"dirtyCount": 14,
+"dirtyCount": 12,
 "dirty": [
-{
-"file": "devlog/0.12.0-폰-확인-목록.md",
-"at": "2026-11-24 11:44"
-},
-{
-"file": "devlog/2026-11-24.md",
-"at": "2026-11-24 11:43"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.core/Settings.json",
 "at": "2026-11-22 10:28"
@@ -1377,14 +1369,22 @@
 {
 "file": "_qa/cd54-shots-v2/cd54_propfx_low.png",
 "at": "2026-11-22 00:05"
+},
+{
+"file": "_qa/cd54-shots-v2/cd54_propfx_high_crop200.png",
+"at": "2026-11-22 00:05"
+},
+{
+"file": "_qa/cd54-shots-v2/cd54_propfx_high.png",
+"at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-24 11:44",
-"lastEditTs": 1795488255.9461634,
-"lastCommitTs": 1795487920,
+"lastEdit": "2026-11-22 10:28",
+"lastEditTs": 1795310895.2319162,
+"lastCommitTs": 1795488575,
 "unpushed": 0,
 "notInMain": 0,
-"today": 71
+"today": 72
 },
 {
 "branch": "cd-134",
@@ -1648,7 +1648,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 69,
+"commits": 70,
 "byOrder": [
 [
 "CD-0137",
@@ -1667,6 +1667,10 @@
 5
 ],
 [
+"기타",
+4
+],
+[
 "CD-0125",
 4
 ],
@@ -1677,10 +1681,6 @@
 [
 "CD-0131",
 4
-],
-[
-"기타",
-3
 ],
 [
 "CD-0084",
@@ -1733,6 +1733,11 @@
 ],
 "latest": [
 {
+"sha": "bf1849a1",
+"at": "2026-11-24 11:49",
+"msg": "기록: 앱 0.12.0 배포 — devlog 2026-11-24 · 폰 확인 목록 · checks.json(main 3fe367c2)"
+},
+{
 "sha": "f60c4206",
 "at": "2026-11-24 11:34",
 "msg": "공지 app_0_12_0(notices_v2, notices_check 통과, 28항목)"
@@ -1776,11 +1781,6 @@
 "sha": "22ad3b44",
 "at": "2026-11-24 10:03",
 "msg": "CD-0134 바퀴 1: 안내 고침 4건 + 봇 고침 5건 + 바퀴 1 기록"
-},
-{
-"sha": "87f896e9",
-"at": "2026-11-24 10:02",
-"msg": "CD-0125c: 판 안 스킬 아이콘 — 칸 팝업 전설 슬롯에 액티브 아이콘(누르면 설명 말풍선) · 능력치 카드 스킬 줄 앞 아이콘 · 진화 시트 72 아이콘 터치 영역 126(HitPad, 그림 크기 그대로) · EditMode 필터 8/8 · PlayMode 필터 3/3(Cd39 A15 통과)"
 }
 ]
 },
@@ -10886,6 +10886,19 @@
 "createdAt": "2026-11-24 02:46",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/51"
+},
+{
+"no": 52,
+"title": "인게임 상단 «웨이브» 글자와 목숨 하트 간격 벌리기",
+"state": "open",
+"phase": "built",
+"imp": "mid",
+"orders": [
+"CD-0126"
+],
+"createdAt": "2026-11-24 02:49",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/52"
 }
 ],
 "versions": [
@@ -23483,27 +23496,27 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
-"passed": 710,
-"failed": 2,
-"total": 713,
-"ok": false
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
+"passed": 1118,
+"failed": 0,
+"total": 1119,
+"ok": true
 },
 "unity": {
 "name": "Unity EditMode",
-"at": "2026-11-22 09:35",
-"passed": 630,
-"failed": 0,
-"total": 630,
-"ok": true,
-"fresh": true,
+"at": "2026-11-22 15:38",
+"passed": 787,
+"failed": 1,
+"total": 788,
+"ok": false,
+"fresh": false,
 "commit": "8f72ca00+수정"
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -23511,8 +23524,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -23520,8 +23533,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -23529,8 +23542,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-22 09:31",
-"commit": "8f72ca00+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -23732,7 +23745,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 11:44",
-"generatedAt": "2026-11-24 11:47",
-"digest": "9b789230e46c2cd3"
+"sourceAt": "2026-11-24 11:49",
+"generatedAt": "2026-11-24 11:49",
+"digest": "44fcb1a8cbb1926a"
 }
