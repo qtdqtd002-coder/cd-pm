@@ -1392,8 +1392,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0135",
-"head": "dcabf68",
+"head": "5ce9494",
 "commits": [
+{
+"sha": "5ce9494d",
+"at": "2026-11-24 14:06",
+"ts": 1795496777,
+"msg": "CD-0135 K1 화면: 로비 «최고 N / 50»(한 판 챕터) · 결과창 기록 줄(최고 기록·N웨이브 도달·첫 돌파) · 정산 영수증 채우기 · 깨진 시험 새 꼴로 · 새 시험 Cd135 12건 (Unity 미실행)"
+},
+{
+"sha": "0ed82e2f",
+"at": "2026-11-24 13:58",
+"ts": 1795496307,
+"msg": "CD-0135 C1·C2 보고: 22-core(정산·첫 돌파·최고 웨이브 · K1 API) · 23-core-save(v17 변환·계정 꼴·서버 — Core 1135/1136 · Server 297/297 · Module 49/49)"
+},
+{
+"sha": "8e3c6d2c",
+"at": "2026-11-24 13:54",
+"ts": 1795496088,
+"msg": "CD-0135 C1·C2 Core: 스테이지별 최고 웨이브 · 25웨이브 첫 돌파 보상(waveMilestones) · 게르하르트 옛 소유 유지(kept) · 저장 v17 변환(StageLineV17) · 계정 꼴 새 칸 · 시험 Cd0135 16건 · 깨진 시험 새 데이터 꼴로"
+},
 {
 "sha": "dcabf686",
 "at": "2026-11-24 13:46",
@@ -1411,67 +1429,16 @@
 "at": "2026-11-24 13:30",
 "ts": 1795494611,
 "msg": "CD-0135 P1 데이터: 챕터 2 = 한 판 50웨이브(보스 25·50) · 2-2~2-10 지움 · waveTiers 50까지 · waveMilestones(25 첫 돌파) · 게르하르트 gate_04_01 · mapindex plan 한 판 꼴 · validate_data·gen_stages 새 꼴"
-},
-{
-"sha": "3753e5f1",
-"at": "2026-11-24 13:19",
-"ts": 1795493956,
-"msg": "CD-0135 기획서 확정: 사용자 답 반영(보스 25·50 · 25 첫 돌파 보상 · 게르하르트 챕터 2 클리어 · «챕터 2» · 소환 칸 그대로) · 결정 0110 · gate spec"
-},
-{
-"sha": "1368d84d",
-"at": "2026-11-24 11:56",
-"ts": 1795488967,
-"msg": "CD-0135 기획서: 관제 조율 답 반영 — account.json singleClearExp 칸만 · tutorial 한 칸 · 서버 변경 전 범위 알림 · production 손대지 않음"
-},
-{
-"sha": "3f935c57",
-"at": "2026-11-24 11:55",
-"ts": 1795488925,
-"msg": "CD-0135 기획서 초안: 2장 = 1판 50웨이브 · 챕터별 목표 웨이브 · 사용자 결정 6문항(권장안) · 관제 조율 4건"
 }
 ],
-"dirtyCount": 20,
-"dirty": [
-{
-"file": "Core/tests/Cd0034OutgameTests.cs",
-"at": "2026-11-24 13:47"
-},
-{
-"file": "Core/tests/Cd0028MapTests.cs",
-"at": "2026-11-24 13:47"
-},
-{
-"file": "Core/tests/Cd0038CoreTests.cs",
-"at": "2026-11-24 13:47"
-},
-{
-"file": "Core/tests/SimulatorTests.cs",
-"at": "2026-11-24 13:47"
-},
-{
-"file": "Core/tests/Cd0036TutorialTests.cs",
-"at": "2026-11-24 13:47"
-},
-{
-"file": "Core/tests/ConfigTests.cs",
-"at": "2026-11-24 13:46"
-},
-{
-"file": "Core/tests/StaminaAccountTests.cs",
-"at": "2026-11-24 13:46"
-},
-{
-"file": "Core/tests/StageTests.cs",
-"at": "2026-11-24 13:45"
-}
-],
-"lastEdit": "2026-11-24 13:47",
-"lastEditTs": 1795495647.1143808,
-"lastCommitTs": 1795495579,
-"unpushed": 6,
-"notInMain": 6,
-"today": 78
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795496777,
+"unpushed": 9,
+"notInMain": 9,
+"today": 81
 },
 {
 "branch": "cd-140",
@@ -1518,43 +1485,43 @@
 "msg": "버전 0.12.0 · versionCode 16 + 크레딧 갱신(화면 그림 147) — 묶음 QA EditMode 1186/1186 · PlayMode 386/0/92"
 }
 ],
-"dirtyCount": 128,
+"dirtyCount": 249,
 "dirty": [
 {
-"file": "tools/validate_data.py",
-"at": "2026-11-24 13:46"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/run.jsonl",
+"at": "2026-11-24 14:17"
 },
 {
-"file": "studio/checks.json",
-"at": "2026-11-24 13:46"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/109_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:17"
 },
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd35ShopKujiTests.cs",
-"at": "2026-11-24 13:39"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/108_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:16"
 },
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd134TutorialFixEditModeTests.cs",
-"at": "2026-11-24 13:39"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/107_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:16"
 },
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd35ShopKujiEditModeTests.cs",
-"at": "2026-11-24 13:39"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/106_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:16"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
-"at": "2026-11-24 13:38"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/105_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:15"
 },
 {
-"file": "UnityProject/Assets/_Game/Resources/Data/tutorial.json",
-"at": "2026-11-24 13:38"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/104_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:15"
 },
 {
-"file": "Data/tutorial.json",
-"at": "2026-11-24 13:38"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/103_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:14"
 }
 ],
-"lastEdit": "2026-11-24 13:46",
-"lastEditTs": 1795495590.2353942,
+"lastEdit": "2026-11-24 14:17",
+"lastEditTs": 1795497454.3455448,
 "lastCommitTs": 1795489444,
 "unpushed": 1,
 "notInMain": 1,
@@ -1565,9 +1532,15 @@
 "lane": "cd-142",
 "session": "",
 "owns": "",
-"order": "CD-0134",
-"head": "bf1849a",
+"order": "CD-0142",
+"head": "b7b6944",
 "commits": [
+{
+"sha": "b7b6944c",
+"at": "2026-11-24 13:56",
+"ts": 1795496187,
+"msg": "CD-0142 작업 중: 판 안 미해금 키를 숨기지 않고 잠금(어두운 면·흑백 그림·자물쇠)으로 자리 고정 · 누르면 «언제 열리는지» 알림 · 판 안 해금 때 자물쇠 풀림+한 번 튐 · Unity 확인 전"
+},
 {
 "sha": "bf1849a1",
 "at": "2026-11-24 11:49",
@@ -1597,35 +1570,16 @@
 "at": "2026-11-24 11:28",
 "ts": 1795487280,
 "msg": "버전 0.12.0 · versionCode 16 + 크레딧 갱신(화면 그림 147) — 묶음 QA EditMode 1186/1186 · PlayMode 386/0/92"
-},
-{
-"sha": "110c4699",
-"at": "2026-11-24 11:01",
-"ts": 1795485718,
-"msg": "문서: 0.12.0 빌드 커밋(d06d6044)으로 모듈 재배포한 기록 — 데이터 해시 749afa417b468be1 · 올린 직후 첫 호출 504 한 번 · 시험 흔적 21명"
 }
 ],
-"dirtyCount": 3,
-"dirty": [
-{
-"file": "UnityProject/Assets/_Game/UI/MatchScreen.cs",
-"at": "2026-11-24 13:47"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/SystemBar.cs",
-"at": "2026-11-24 13:46"
-},
-{
-"file": "studio/orders/CD-0142-판-안-미해금-키-숨김-잠금-딤드-자물쇠-으로-자리-고/00-order.md",
-"at": "2026-11-24 13:42"
-}
-],
-"lastEdit": "2026-11-24 13:47",
-"lastEditTs": 1795495647.8934274,
-"lastCommitTs": 1795488575,
-"unpushed": 0,
-"notInMain": 0,
-"today": 72
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795496187,
+"unpushed": 1,
+"notInMain": 1,
+"today": 73
 },
 {
 "branch": "cd-143",
@@ -1672,11 +1626,15 @@
 "msg": "문서: 0.12.0 빌드 커밋(d06d6044)으로 모듈 재배포한 기록 — 데이터 해시 749afa417b468be1 · 올린 직후 첫 호출 504 한 번 · 시험 흔적 21명"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 4,
 "dirty": [
 {
 "file": "studio/orders/CD-0143-판-안-상단-웨이브-글자와-하트-간격-벌리기/00-order.md",
-"at": "2026-11-24 13:44"
+"at": "2026-11-24 13:50"
+},
+{
+"file": "studio/checks.json",
+"at": "2026-11-24 13:49"
 },
 {
 "file": "UnityProject/Assets/Tests/EditMode/Cd143TopBandGapEditModeTests.cs",
@@ -1687,8 +1645,8 @@
 "at": "2026-11-24 13:44"
 }
 ],
-"lastEdit": "2026-11-24 13:44",
-"lastEditTs": 1795495482.6169567,
+"lastEdit": "2026-11-24 13:50",
+"lastEditTs": 1795495834.544647,
 "lastCommitTs": 1795488575,
 "unpushed": 0,
 "notInMain": 0,
@@ -1838,7 +1796,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 77,
+"commits": 81,
 "byOrder": [
 [
 "CD-0137",
@@ -1846,7 +1804,7 @@
 ],
 [
 "CD-0135",
-6
+9
 ],
 [
 "CD-0121",
@@ -1917,6 +1875,10 @@
 2
 ],
 [
+"CD-0142",
+1
+],
+[
 "CD-0140",
 1
 ],
@@ -1930,6 +1892,26 @@
 ]
 ],
 "latest": [
+{
+"sha": "5ce9494d",
+"at": "2026-11-24 14:06",
+"msg": "CD-0135 K1 화면: 로비 «최고 N / 50»(한 판 챕터) · 결과창 기록 줄(최고 기록·N웨이브 도달·첫 돌파) · 정산 영수증 채우기 · 깨진 시험 새 꼴로 · 새 시험 Cd135 12건 (Unity 미실행)"
+},
+{
+"sha": "0ed82e2f",
+"at": "2026-11-24 13:58",
+"msg": "CD-0135 C1·C2 보고: 22-core(정산·첫 돌파·최고 웨이브 · K1 API) · 23-core-save(v17 변환·계정 꼴·서버 — Core 1135/1136 · Server 297/297 · Module 49/49)"
+},
+{
+"sha": "b7b6944c",
+"at": "2026-11-24 13:56",
+"msg": "CD-0142 작업 중: 판 안 미해금 키를 숨기지 않고 잠금(어두운 면·흑백 그림·자물쇠)으로 자리 고정 · 누르면 «언제 열리는지» 알림 · 판 안 해금 때 자물쇠 풀림+한 번 튐 · Unity 확인 전"
+},
+{
+"sha": "8e3c6d2c",
+"at": "2026-11-24 13:54",
+"msg": "CD-0135 C1·C2 Core: 스테이지별 최고 웨이브 · 25웨이브 첫 돌파 보상(waveMilestones) · 게르하르트 옛 소유 유지(kept) · 저장 v17 변환(StageLineV17) · 계정 꼴 새 칸 · 시험 Cd0135 16건 · 깨진 시험 새 데이터 꼴로"
+},
 {
 "sha": "dcabf686",
 "at": "2026-11-24 13:46",
@@ -1959,26 +1941,6 @@
 "sha": "1368d84d",
 "at": "2026-11-24 11:56",
 "msg": "CD-0135 기획서: 관제 조율 답 반영 — account.json singleClearExp 칸만 · tutorial 한 칸 · 서버 변경 전 범위 알림 · production 손대지 않음"
-},
-{
-"sha": "3f935c57",
-"at": "2026-11-24 11:55",
-"msg": "CD-0135 기획서 초안: 2장 = 1판 50웨이브 · 챕터별 목표 웨이브 · 사용자 결정 6문항(권장안) · 관제 조율 4건"
-},
-{
-"sha": "bf1849a1",
-"at": "2026-11-24 11:49",
-"msg": "기록: 앱 0.12.0 배포 — devlog 2026-11-24 · 폰 확인 목록 · checks.json(main 3fe367c2)"
-},
-{
-"sha": "f60c4206",
-"at": "2026-11-24 11:34",
-"msg": "공지 app_0_12_0(notices_v2, notices_check 통과, 28항목)"
-},
-{
-"sha": "7bfe7368",
-"at": "2026-11-24 11:34",
-"msg": "앱 0.12.0 · versionCode 16 (CD-0084·0095·0113~0117·0120~0134·0137·0139) content state(base_id 322126c8)"
 }
 ]
 },
@@ -10272,11 +10234,14 @@
 "id": "CD-0135",
 "title": "챕터 개편 — 2장 1판 50웨이브 · 챕터별 목표 웨이브 · 밸런스",
 "branch": "cd-135",
-"updated": "2026-11-24 13:45",
+"updated": "2026-11-24 14:06",
 "files": [
 "00-order.md",
 "10-spec.md",
 "21-planning.md",
+"22-core.md",
+"23-core-save.md",
+"24-client.md",
 "25-balance.md",
 "_sim"
 ],
@@ -10307,8 +10272,8 @@
 "team": "core",
 "title": "«Core 판 규칙 (C1)» — 스테이지별 최고 · 첫 돌파 보상 · 시험 Cd0135",
 "output": "Core/ · 22-core.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 22-core.md"
 },
 {
 "id": "C2",
@@ -10316,8 +10281,8 @@
 "team": "core",
 "title": "«저장 변환·서버 꼴 (C2)» — C1 뒤, 관제 차례",
 "output": "Core/·Server/ · 23-core-save.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 23-core-save.md"
 },
 {
 "id": "K1",
@@ -10325,8 +10290,8 @@
 "team": "client",
 "title": "«화면 (K1)» — C1 뒤",
 "output": "UnityProject/Assets/_Game/UI·Assets/Tests · 24-client.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 24-client.md"
 },
 {
 "id": "P2",
@@ -10436,10 +10401,11 @@
 "id": "CD-0140",
 "title": "튜토리얼 QA 후속 — 바퀴 3~5 · 1-5 광부 고용 안내 · 경험치 아이콘 · 뽑기 새 판 알림 설계",
 "branch": "cd-140",
-"updated": "2026-11-24 13:19",
+"updated": "2026-11-24 13:54",
 "files": [
 "00-order.md",
 "10-spec.md",
+"40-findings.md",
 "50-f07-design.md",
 "evidence",
 "laps"
@@ -10463,30 +10429,30 @@
 "id": "CD-0142",
 "title": "판 안 미해금 키 숨김 → 잠금(딤드+자물쇠)으로 자리 고정",
 "branch": "cd-142",
-"updated": "2026-11-24 13:42",
+"updated": "2026-11-24 13:54",
 "files": [
 "00-order.md"
 ],
 "milestone": "M6",
-"stage": "접수",
+"stage": "제작",
 "route": "direct",
 "risk": "low",
 "teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "new",
+"phase": "doing",
 "builtIn": ""
 },
 {
 "id": "CD-0143",
 "title": "판 안 상단 웨이브 글자와 하트 간격 벌리기",
 "branch": "cd-143",
-"updated": "2026-11-24 13:44",
+"updated": "2026-11-24 13:50",
 "files": [
 "00-order.md"
 ],
@@ -11225,7 +11191,7 @@
 "no": 51,
 "title": "인게임 미해금 버튼 숨김 → 잠금(딤드+자물쇠)으로 자리 고정해 보여 주기",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "mid",
 "orders": [
 "CD-0045",
@@ -21121,8 +21087,8 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-24 13:39",
-"commit": "a7881020+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1118,
 "failed": 0,
 "total": 1119,
@@ -21140,17 +21106,17 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-24 13:39",
-"commit": "a7881020+수정",
-"passed": 0,
-"failed": 1,
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
+"passed": 1,
+"failed": 0,
 "total": 1,
-"ok": false
+"ok": true
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-24 13:39",
-"commit": "a7881020+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21158,8 +21124,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-24 13:39",
-"commit": "a7881020+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21167,8 +21133,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-24 13:39",
-"commit": "a7881020+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21370,7 +21336,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 13:47",
-"generatedAt": "2026-11-24 13:47",
-"digest": "77c1bd950099f318"
+"sourceAt": "2026-11-24 14:17",
+"generatedAt": "2026-11-24 14:17",
+"digest": "07284818cf1c5932"
 }
