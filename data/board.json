@@ -1542,7 +1542,7 @@
 }
 ],
 "lastEdit": "2026-11-24 10:45",
-"lastEditTs": 1795484711.4579399,
+"lastEditTs": 1795484721.3016806,
 "lastCommitTs": 1795482473,
 "unpushed": 12,
 "notInMain": 12,
@@ -10099,13 +10099,13 @@
 "90-close.md"
 ],
 "milestone": "M7",
-"stage": "검수",
+"stage": "마감",
 "route": "full",
 "risk": "high",
 "teams": "core, client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "검수",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>판 도중 앱이 강제 종료되거나 결과 없이 비정상 종료됐을 때, <strong>서버에 저장해 둔 진행 정보</strong>로 다시 들어와 이어서 한다 — 같은 기기뿐 아니라 다시 설치했거나 다른 기기에서도. 서버가 «끝나지 않은 판이 있다» 를 아는 주체가 된다.</p>\n<p>사용자 요청(접수 #49 의 3): «강제 종료나 결과가 안 나온 채 비정상 종료됐을 때, 게임 진행 정보를 서버에 저장해 두고 다시 들어오면 이어서 할 수 있게. … 이걸 서버 저장으로 넓히고 무한 모드도 포함.»</p>",
 "goalShort": "판 도중 앱이 강제 종료되거나 결과 없이 비정상 종료됐을 때, 서버에 저장해 둔 진행 정보로 다시 들어와 이어서 한다",
@@ -10117,7 +10117,7 @@
 "title": "Data/account.json 의 matchSave.everyWaves 한 줄과 Core 읽기(+ tools/validate_data.py) · 서버 명령 셋 + 바뀌는 명령 셋 + 영수증 · 시험(Server/tests — 뒤로 가는 저장 거절 · 티켓 다름 · match_pending · 포기 정산이 서버의 cleared 로 · 정산 때 저장 칸이 지워짐 · 길이 한도)",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -10126,7 +10126,7 @@
 "title": "판 중 저장 보내기(간격은 데이터) + 다시 들어왔을 때의 고르기(기기 파일 대 서버 저장) + 못 읽는 판의 match.forfeit · 시험(EditMode: 운영 옵션 서버 rig / PlayMode: 파일 없이 켜도 카드가 뜨고 이어 열린다)",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 },
 {
 "id": "S2",
@@ -10135,10 +10135,10 @@
 "title": "모듈 재배포(범위 먼저) · 실제 서버 시험에 «저장 → 파일 없이 다시 켜기 → 이어 하기» 한 줄",
 "output": "",
 "status": "done",
-"why": "주문이 검수 단계"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -23701,6 +23701,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-24 10:45",
-"generatedAt": "2026-11-24 10:45",
-"digest": "46070584eb5e6d53"
+"generatedAt": "2026-11-24 10:47",
+"digest": "c86ea2061111211a"
 }
