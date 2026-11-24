@@ -1504,9 +1504,15 @@
 "lane": "cd-148",
 "session": "",
 "owns": "",
-"order": "CD-0146",
-"head": "1f5ae1d",
+"order": "CD-0148",
+"head": "f882266",
 "commits": [
+{
+"sha": "f882266b",
+"at": "2026-11-24 17:58",
+"ts": 1795510708,
+"msg": "CD-0148 하트 외곽선: 판 안 목숨 하트 켜짐·꺼짐을 Codex 로 다시 그림(굵은 짙은 갈색 바깥 외곽선) · accept·장부·목록 · 유니티 Final 복사 · 모의 비교 캡처 · check 통과 (꺼진 하트 .meta·카탈로그는 Unity 뒤)"
+},
 {
 "sha": "1f5ae1dc",
 "at": "2026-11-24 17:39",
@@ -1536,31 +1542,25 @@
 "at": "2026-11-24 16:04",
 "ts": 1795503886,
 "msg": "CD-0142 마감: 판 안 미해금 키 잠금 표시 — EditMode 42/42 · 캡처 1/1 · 빌드 대기"
-},
-{
-"sha": "c14afe46",
-"at": "2026-11-24 15:52",
-"ts": 1795503159,
-"msg": "병합: main d3666995(CD-0135·0140·0143)를 cd-142 에 받음 — 충돌 없음"
 }
 ],
 "dirtyCount": 2,
 "dirty": [
 {
-"file": "art/tools/gen.py",
-"at": "2026-11-24 17:47"
+"file": "studio/checks.json",
+"at": "2026-11-24 17:57"
 },
 {
-"file": "studio/orders/CD-0148-판-안-목숨-하트-아이콘에-외곽선/00-order.md",
-"at": "2026-11-24 17:45"
+"file": "UnityProject/Assets/_Game/Art/Final/ui/icon_life_off.png",
+"at": "2026-11-24 17:52"
 }
 ],
-"lastEdit": "2026-11-24 17:47",
-"lastEditTs": 1795510044.6787379,
-"lastCommitTs": 1795509577,
-"unpushed": 0,
-"notInMain": 0,
-"today": 112
+"lastEdit": "2026-11-24 17:57",
+"lastEditTs": 1795510642.0576851,
+"lastCommitTs": 1795510708,
+"unpushed": 1,
+"notInMain": 1,
+"today": 113
 },
 {
 "branch": "rel-0120",
@@ -1793,7 +1793,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 101,
+"commits": 102,
 "byOrder": [
 [
 "CD-0137",
@@ -1896,6 +1896,10 @@
 2
 ],
 [
+"CD-0148",
+1
+],
+[
 "CD-0127",
 1
 ],
@@ -1905,6 +1909,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "f882266b",
+"at": "2026-11-24 17:58",
+"msg": "CD-0148 하트 외곽선: 판 안 목숨 하트 켜짐·꺼짐을 Codex 로 다시 그림(굵은 짙은 갈색 바깥 외곽선) · accept·장부·목록 · 유니티 Final 복사 · 모의 비교 캡처 · check 통과 (꺼진 하트 .meta·카탈로그는 Unity 뒤)"
+},
 {
 "sha": "70a1102a",
 "at": "2026-11-24 17:47",
@@ -1949,11 +1958,6 @@
 "sha": "c52ad341",
 "at": "2026-11-24 15:34",
 "msg": "CD-0143 마감: 웨이브↔하트 11→21px(흰 글자 기준) 실측 · EditMode 필터 31/31 · 캡처 1080×1920·1080×2400 · 90-close(하트 그리는 곳 포함)"
-},
-{
-"sha": "54ec089b",
-"at": "2026-11-24 15:30",
-"msg": "CD-0143 90-close 초안 — 관제 요약 · 하트 그리는 곳(CD-0148용) · 해 볼 것"
 }
 ]
 },
@@ -10604,9 +10608,10 @@
 "id": "CD-0148",
 "title": "판 안 목숨 하트 아이콘에 외곽선",
 "branch": "cd-148",
-"updated": "2026-11-24 17:45",
+"updated": "2026-11-24 17:58",
 "files": [
-"00-order.md"
+"00-order.md",
+"_shots"
 ],
 "milestone": "M1",
 "stage": "제작",
@@ -17166,7 +17171,7 @@
 "id": "ui/icon_life",
 "group": "ui",
 "title": "아이콘: 하트(목숨)",
-"brief": "",
+"brief": "CD-0148: 판 안 36px 에서도 테두리가 보이게 굵은 짙은 갈색 바깥 외곽선으로 다시 그림(디자인은 CD-0039 R1 그대로) · 짝 ui/icon_life_off",
 "status": "draft",
 "address": "ui/icon_life",
 "hasFile": true
@@ -18140,10 +18145,20 @@
 "address": "ui/trait_human_gerhard",
 "source": "Codex · 주문 CD-0125",
 "hasFile": true
+},
+{
+"id": "ui/icon_life_off",
+"group": "ui",
+"title": "아이콘: 꺼진 하트(잃은 목숨)",
+"brief": "CD-0148: 꺼진 하트 — 켜진 하트와 같은 모양·같은 굵은 외곽선, 속은 회청색(전에는 Art/Temp 코드 가공본)",
+"status": "draft",
+"address": "ui/icon_life_off",
+"source": "Codex · 주문 CD-0148",
+"hasFile": true
 }
 ],
-"at": "2026-11-24 08:46",
-"branch": "main",
+"at": "2026-11-24 17:52",
+"branch": "cd-148",
 "dirty": false
 },
 "gallery": {
@@ -18970,7 +18985,7 @@
 "h": 512
 },
 "ui/icon_life": {
-"f": "data/art/5ed399a3e642e1906466.bin",
+"f": "data/art/e60ec9e53cfea37d7b8d.bin",
 "w": 512,
 "h": 512
 },
@@ -19496,6 +19511,11 @@
 },
 "ui/trait_human_gerhard": {
 "f": "data/art/fb8f780e5232a2e22757.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_life_off": {
+"f": "data/art/69c7493daae307342e65.bin",
 "w": 512,
 "h": 512
 }
@@ -21308,11 +21328,11 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
-"passed": 1118,
+"at": "2026-11-24 17:52",
+"commit": "1f5ae1dc+수정",
+"passed": 1135,
 "failed": 0,
-"total": 1119,
+"total": 1136,
 "ok": true
 },
 "unity": {
@@ -21327,8 +21347,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
+"at": "2026-11-24 17:52",
+"commit": "1f5ae1dc+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21336,8 +21356,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
+"at": "2026-11-24 17:52",
+"commit": "1f5ae1dc+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21345,8 +21365,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
+"at": "2026-11-24 17:52",
+"commit": "1f5ae1dc+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21354,8 +21374,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
+"at": "2026-11-24 17:52",
+"commit": "1f5ae1dc+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21557,7 +21577,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 17:47",
-"generatedAt": "2026-11-24 17:47",
-"digest": "a7270336c35b6c61"
+"sourceAt": "2026-11-24 17:58",
+"generatedAt": "2026-11-24 18:01",
+"digest": "ecd227aa9a506741"
 }
