@@ -1431,10 +1431,19 @@
 "msg": "CD-0135 P1 데이터: 챕터 2 = 한 판 50웨이브(보스 25·50) · 2-2~2-10 지움 · waveTiers 50까지 · waveMilestones(25 첫 돌파) · 게르하르트 gate_04_01 · mapindex plan 한 판 꼴 · validate_data·gen_stages 새 꼴"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 2,
+"dirty": [
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd42RankingEditModeTests.cs",
+"at": "2026-11-24 14:47"
+},
+{
+"file": "UnityProject/Assets/_Game/Outgame/RankingRecords.cs",
+"at": "2026-11-24 14:46"
+}
+],
+"lastEdit": "2026-11-24 14:47",
+"lastEditTs": 1795499226.5478055,
 "lastCommitTs": 1795496777,
 "unpushed": 9,
 "notInMain": 9,
@@ -1485,43 +1494,43 @@
 "msg": "버전 0.12.0 · versionCode 16 + 크레딧 갱신(화면 그림 147) — 묶음 QA EditMode 1186/1186 · PlayMode 386/0/92"
 }
 ],
-"dirtyCount": 314,
+"dirtyCount": 316,
 "dirty": [
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/run.jsonl",
-"at": "2026-11-24 14:44"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-03/lap.md",
+"at": "2026-11-24 14:47"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/174_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:44"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/try1/evidence/bot_063_paused_after_resume.jpg",
+"at": "2026-11-24 14:47"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/173_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:44"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-03/evidence/F11_079_t16_mine_wait.jpg",
+"at": "2026-11-24 14:47"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/172_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:43"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-03/evidence/F13_104_no_guides_after.jpg",
+"at": "2026-11-24 14:47"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/171_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:43"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-03/evidence/F13_093_shop_gem_read.jpg",
+"at": "2026-11-24 14:47"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/170_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:42"
+"file": "UnityProject/Assets/Tests/PlayMode/Cd134GuideTourTests.cs",
+"at": "2026-11-24 14:46"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/169_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:42"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/try1/run.jsonl",
+"at": "2026-11-24 14:45"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/168_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:41"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/try1/shots/176_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:45"
 }
 ],
-"lastEdit": "2026-11-24 14:44",
-"lastEditTs": 1795499089.18511,
+"lastEdit": "2026-11-24 14:47",
+"lastEditTs": 1795499250.1237216,
 "lastCommitTs": 1795489444,
 "unpushed": 1,
 "notInMain": 1,
@@ -10401,7 +10410,7 @@
 "id": "CD-0140",
 "title": "튜토리얼 QA 후속 — 바퀴 3~5 · 1-5 광부 고용 안내 · 경험치 아이콘 · 뽑기 새 판 알림 설계",
 "branch": "cd-140",
-"updated": "2026-11-24 13:54",
+"updated": "2026-11-24 14:47",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -21336,7 +21345,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 14:44",
-"generatedAt": "2026-11-24 14:44",
-"digest": "00ef17f3ca4d891d"
+"sourceAt": "2026-11-24 14:47",
+"generatedAt": "2026-11-24 14:47",
+"digest": "4a6d63602af41afc"
 }
