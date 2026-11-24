@@ -1391,87 +1391,54 @@
 "lane": "cd-141",
 "session": "",
 "owns": "",
-"order": "CD-0135",
-"head": "d366699",
+"order": "CD-0142",
+"head": "311de39",
 "commits": [
+{
+"sha": "311de39c",
+"at": "2026-11-24 16:31",
+"ts": 1795505470,
+"msg": "병합: main cd16aca0(CD-0142)를 cd-141 에 받음"
+},
+{
+"sha": "dd191806",
+"at": "2026-11-24 16:31",
+"ts": 1795505462,
+"msg": "CD-0141 작업 중: 모든 튜토리얼 단계 시작 때 관계없는 창 닫기 · Unity 확인 전"
+},
+{
+"sha": "cd16aca0",
+"at": "2026-11-24 16:08",
+"ts": 1795504138,
+"msg": "병합: cd-142 1b9bfea2(CD-0142 판 안 미해금 키(현상금·강화·광산·배속) 숨김 → 잠금 자리 고정 · 누르면 «웨이브 3부터 열려요» 등 · 판 안 해금 때 자물쇠 풀림 · EditMode 필터 42/42 · 캡처 1/1, 고친 PlayMode 3개는 빌드 QA)"
+},
+{
+"sha": "1b9bfea2",
+"at": "2026-11-24 16:04",
+"ts": 1795503886,
+"msg": "CD-0142 마감: 판 안 미해금 키 잠금 표시 — EditMode 42/42 · 캡처 1/1 · 빌드 대기"
+},
+{
+"sha": "c14afe46",
+"at": "2026-11-24 15:52",
+"ts": 1795503159,
+"msg": "병합: main d3666995(CD-0135·0140·0143)를 cd-142 에 받음 — 충돌 없음"
+},
 {
 "sha": "d3666995",
 "at": "2026-11-24 15:46",
 "ts": 1795502818,
 "msg": "병합: cd-143 c52ad341(CD-0143 판 안 상단 웨이브↔하트 간격 11→21px · 하트 줄 사이 13→7 · 카드 자리 그대로 · EditMode 필터 31/31 · 캡처 1/1)"
-},
-{
-"sha": "c52ad341",
-"at": "2026-11-24 15:34",
-"ts": 1795502063,
-"msg": "CD-0143 마감: 웨이브↔하트 11→21px(흰 글자 기준) 실측 · EditMode 필터 31/31 · 캡처 1080×1920·1080×2400 · 90-close(하트 그리는 곳 포함)"
-},
-{
-"sha": "6e6b155c",
-"at": "2026-11-24 15:30",
-"ts": 1795501814,
-"msg": "Merge commit 'f745824e' into cd-143"
-},
-{
-"sha": "54ec089b",
-"at": "2026-11-24 15:30",
-"ts": 1795501814,
-"msg": "CD-0143 90-close 초안 — 관제 요약 · 하트 그리는 곳(CD-0148용) · 해 볼 것"
-},
-{
-"sha": "f745824e",
-"at": "2026-11-24 15:25",
-"ts": 1795501507,
-"msg": "병합: cd-137b 9f8c74c4(CD-0137b 50웨이브 스냅숏 재측정 최대 4,347자/12,000 · 고칠 것 없음 · 문서·측정 도구만)"
-},
-{
-"sha": "9cc71f25",
-"at": "2026-11-24 15:25",
-"ts": 1795501507,
-"msg": "병합: cd-140 12e69a46(CD-0140 바퀴 5(긴 화면) 완주 기록 — «최소 5바퀴» 충족 · 넘길 것 F-14·F-06)"
 }
 ],
-"dirtyCount": 11,
-"dirty": [
-{
-"file": "studio/orders/CD-0141-모든-튜토리얼-단계-시작-때-관계없는-창-강제로-닫기/10-spec.md",
-"at": "2026-11-24 16:10"
-},
-{
-"file": "studio/orders/CD-0141-모든-튜토리얼-단계-시작-때-관계없는-창-강제로-닫기/00-order.md",
-"at": "2026-11-24 16:10"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-24 16:10"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Tutorial/OutgameGuide.cs",
-"at": "2026-11-24 16:04"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd36OutgameFlowTests.cs",
-"at": "2026-11-24 16:04"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd36FirstEntryTests.cs",
-"at": "2026-11-24 16:03"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd141CloseForGuideEditModeTests.cs",
-"at": "2026-11-24 16:03"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.Panel.cs",
-"at": "2026-11-24 16:01"
-}
-],
-"lastEdit": "2026-11-24 16:10",
-"lastEditTs": 1795504256.41749,
-"lastCommitTs": 1795502818,
-"unpushed": 0,
-"notInMain": 0,
-"today": 104
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795505470,
+"unpushed": 2,
+"notInMain": 2,
+"today": 111
 },
 {
 "branch": "cd-142",
@@ -1538,8 +1505,32 @@
 "session": "",
 "owns": "",
 "order": "CD-0144",
-"head": "5750bf9",
+"head": "e7e815c",
 "commits": [
+{
+"sha": "e7e815cd",
+"at": "2026-11-24 16:40",
+"ts": 1795506033,
+"msg": "CD-0144: 열린 스킬 말풍선을 IRelayout 으로 다시 놓기(캡처·창 크기 변경에서 말풍선이 화면 밖으로 밀리던 것) · 시험 meta · EditMode 9/9"
+},
+{
+"sha": "194e903b",
+"at": "2026-11-24 16:30",
+"ts": 1795505434,
+"msg": "Merge commit 'cd16aca0' into cd-144"
+},
+{
+"sha": "cd16aca0",
+"at": "2026-11-24 16:08",
+"ts": 1795504138,
+"msg": "병합: cd-142 1b9bfea2(CD-0142 판 안 미해금 키(현상금·강화·광산·배속) 숨김 → 잠금 자리 고정 · 누르면 «웨이브 3부터 열려요» 등 · 판 안 해금 때 자물쇠 풀림 · EditMode 필터 42/42 · 캡처 1/1, 고친 PlayMode 3개는 빌드 QA)"
+},
+{
+"sha": "1b9bfea2",
+"at": "2026-11-24 16:04",
+"ts": 1795503886,
+"msg": "CD-0142 마감: 판 안 미해금 키 잠금 표시 — EditMode 42/42 · 캡처 1/1 · 빌드 대기"
+},
 {
 "sha": "5750bf9e",
 "at": "2026-11-24 15:52",
@@ -1547,49 +1538,53 @@
 "msg": "CD-0144: 영웅 상세창 전설 스킬 — 아이콘만 나열, 누르면 이름·설명 말풍선"
 },
 {
-"sha": "d3666995",
-"at": "2026-11-24 15:46",
-"ts": 1795502818,
-"msg": "병합: cd-143 c52ad341(CD-0143 판 안 상단 웨이브↔하트 간격 11→21px · 하트 줄 사이 13→7 · 카드 자리 그대로 · EditMode 필터 31/31 · 캡처 1/1)"
-},
-{
-"sha": "c52ad341",
-"at": "2026-11-24 15:34",
-"ts": 1795502063,
-"msg": "CD-0143 마감: 웨이브↔하트 11→21px(흰 글자 기준) 실측 · EditMode 필터 31/31 · 캡처 1080×1920·1080×2400 · 90-close(하트 그리는 곳 포함)"
-},
-{
-"sha": "6e6b155c",
-"at": "2026-11-24 15:30",
-"ts": 1795501814,
-"msg": "Merge commit 'f745824e' into cd-143"
-},
-{
-"sha": "54ec089b",
-"at": "2026-11-24 15:30",
-"ts": 1795501814,
-"msg": "CD-0143 90-close 초안 — 관제 요약 · 하트 그리는 곳(CD-0148용) · 해 볼 것"
-},
-{
-"sha": "f745824e",
-"at": "2026-11-24 15:25",
-"ts": 1795501507,
-"msg": "병합: cd-137b 9f8c74c4(CD-0137b 50웨이브 스냅숏 재측정 최대 4,347자/12,000 · 고칠 것 없음 · 문서·측정 도구만)"
+"sha": "c14afe46",
+"at": "2026-11-24 15:52",
+"ts": 1795503159,
+"msg": "병합: main d3666995(CD-0135·0140·0143)를 cd-142 에 받음 — 충돌 없음"
 }
 ],
-"dirtyCount": 1,
+"dirtyCount": 25,
 "dirty": [
 {
-"file": "studio/checks.json",
-"at": "2026-11-24 15:12"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-24 16:38"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-24 16:38"
+},
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-24 16:38"
+},
+{
+"file": "studio/orders/CD-0144-영웅-상세창-전설-스킬-아이콘만-나열-누르면-이름-설명/_playmode.xml",
+"at": "2026-11-24 16:38"
+},
+{
+"file": "studio/orders/CD-0144-영웅-상세창-전설-스킬-아이콘만-나열-누르면-이름-설명/_shots/cd144_b_centre_gerhard_active_1080x2400.png",
+"at": "2026-11-24 16:38"
+},
+{
+"file": "studio/orders/CD-0144-영웅-상세창-전설-스킬-아이콘만-나열-누르면-이름-설명/_shots/cd144_b_centre_gerhard_active_1080x1920.png",
+"at": "2026-11-24 16:38"
+},
+{
+"file": "studio/orders/CD-0144-영웅-상세창-전설-스킬-아이콘만-나열-누르면-이름-설명/_shots/cd144_b_centre_waldemar_passive_1080x2400.png",
+"at": "2026-11-24 16:38"
+},
+{
+"file": "studio/orders/CD-0144-영웅-상세창-전설-스킬-아이콘만-나열-누르면-이름-설명/_shots/cd144_b_centre_waldemar_passive_1080x1920.png",
+"at": "2026-11-24 16:38"
 }
 ],
-"lastEdit": "2026-11-24 15:12",
-"lastEditTs": 1795500756.1435869,
-"lastCommitTs": 1795503172,
-"unpushed": 1,
-"notInMain": 1,
-"today": 105
+"lastEdit": "2026-11-24 16:38",
+"lastEditTs": 1795505923.914157,
+"lastCommitTs": 1795506033,
+"unpushed": 3,
+"notInMain": 3,
+"today": 112
 },
 {
 "branch": "cd-146",
@@ -1885,7 +1880,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 96,
+"commits": 98,
 "byOrder": [
 [
 "CD-0137",
@@ -1948,6 +1943,10 @@
 3
 ],
 [
+"CD-0144",
+2
+],
+[
 "CD-0142",
 2
 ],
@@ -1976,11 +1975,11 @@
 2
 ],
 [
-"CD-0146",
+"CD-0141",
 1
 ],
 [
-"CD-0144",
+"CD-0146",
 1
 ],
 [
@@ -1993,6 +1992,16 @@
 ]
 ],
 "latest": [
+{
+"sha": "e7e815cd",
+"at": "2026-11-24 16:40",
+"msg": "CD-0144: 열린 스킬 말풍선을 IRelayout 으로 다시 놓기(캡처·창 크기 변경에서 말풍선이 화면 밖으로 밀리던 것) · 시험 meta · EditMode 9/9"
+},
+{
+"sha": "dd191806",
+"at": "2026-11-24 16:31",
+"msg": "CD-0141 작업 중: 모든 튜토리얼 단계 시작 때 관계없는 창 닫기 · Unity 확인 전"
+},
 {
 "sha": "40594420",
 "at": "2026-11-24 16:22",
@@ -2032,16 +2041,6 @@
 "sha": "7bc3ed69",
 "at": "2026-11-24 15:19",
 "msg": "CD-0135b 고침: 끝 보스 = 앞 웨이브 × 50%(hpPct 3766) 바로 — 사용자 «밸런스테스트는 하지마 다만들고 마지막에», 확인은 마지막 밸런스 주문"
-},
-{
-"sha": "2eff8b48",
-"at": "2026-11-24 15:13",
-"msg": "CD-0135b 챕터 2 끝 보스: 웨이브 50 = 앞 웨이브 × 40%(hpPct 1883 → 3013) — 25·40·45·50·60% 300판씩 측정, 최대 육성 93.3 → 88.3% · 밸런스 띠는 나중 주문 몫"
-},
-{
-"sha": "cf2fe3e5",
-"at": "2026-11-24 15:12",
-"msg": "CD-0140 바퀴 4(restart) 완주 · main 23c96838 합침 · o6_legend 넷째 단계가 영영 안 뜨던 것"
 }
 ]
 },
@@ -10641,9 +10640,12 @@
 "id": "CD-0144",
 "title": "영웅 상세창 전설 스킬 아이콘만 나열 누르면 이름 설명 말풍선",
 "branch": "cd-144",
-"updated": "2026-11-24 15:06",
+"updated": "2026-11-24 16:38",
 "files": [
-"00-order.md"
+"00-order.md",
+"_editmode.xml",
+"_playmode.xml",
+"_shots"
 ],
 "milestone": "M1",
 "stage": "제작",
@@ -21369,8 +21371,8 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-24 16:17",
-"commit": "cd16aca0+수정",
+"at": "2026-11-24 16:30",
+"commit": "194e903b",
 "passed": 1135,
 "failed": 0,
 "total": 1136,
@@ -21388,8 +21390,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-24 16:17",
-"commit": "cd16aca0+수정",
+"at": "2026-11-24 16:30",
+"commit": "194e903b",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21397,8 +21399,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-24 16:17",
-"commit": "cd16aca0+수정",
+"at": "2026-11-24 16:30",
+"commit": "194e903b",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21406,8 +21408,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-24 16:17",
-"commit": "cd16aca0+수정",
+"at": "2026-11-24 16:30",
+"commit": "194e903b",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21415,8 +21417,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-24 16:17",
-"commit": "cd16aca0+수정",
+"at": "2026-11-24 16:30",
+"commit": "194e903b",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21618,7 +21620,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 16:23",
-"generatedAt": "2026-11-24 16:29",
-"digest": "20db1c155181a9be"
+"sourceAt": "2026-11-24 16:40",
+"generatedAt": "2026-11-24 16:47",
+"digest": "44da995d16fc817f"
 }
