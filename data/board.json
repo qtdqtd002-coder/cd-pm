@@ -1485,43 +1485,43 @@
 "msg": "버전 0.12.0 · versionCode 16 + 크레딧 갱신(화면 그림 147) — 묶음 QA EditMode 1186/1186 · PlayMode 386/0/92"
 }
 ],
-"dirtyCount": 249,
+"dirtyCount": 314,
 "dirty": [
 {
 "file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/run.jsonl",
-"at": "2026-11-24 14:17"
+"at": "2026-11-24 14:44"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/109_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:17"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/174_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:44"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/108_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:16"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/173_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:44"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/107_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:16"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/172_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:43"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/106_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:16"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/171_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:43"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/105_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:15"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/170_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:42"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/104_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:15"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/169_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:42"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/103_gate_03_04_match-w4.png",
-"at": "2026-11-24 14:14"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-04/shots/168_gate_03_04_match-w4.png",
+"at": "2026-11-24 14:41"
 }
 ],
-"lastEdit": "2026-11-24 14:17",
-"lastEditTs": 1795497454.3455448,
+"lastEdit": "2026-11-24 14:44",
+"lastEditTs": 1795499089.18511,
 "lastCommitTs": 1795489444,
 "unpushed": 1,
 "notInMain": 1,
@@ -21336,7 +21336,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 14:17",
-"generatedAt": "2026-11-24 14:17",
-"digest": "07284818cf1c5932"
+"sourceAt": "2026-11-24 14:44",
+"generatedAt": "2026-11-24 14:44",
+"digest": "00ef17f3ca4d891d"
 }
