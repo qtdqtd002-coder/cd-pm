@@ -1431,8 +1431,12 @@
 "msg": "CD-0154 마감 — BuildStep 컴파일 오류 고침 · EditMode 55/55 · PlayMode 캡처 1/1 · 90-close 초안"
 }
 ],
-"dirtyCount": 2367,
+"dirtyCount": 2368,
 "dirty": [
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd35ShopKujiEditModeTests.cs",
+"at": "2026-11-25 00:17"
+},
 {
 "file": "UnityProject/Assets/_Game/Art/Final/box/count_tag.png.meta",
 "at": "2026-11-25 00:16"
@@ -1460,14 +1464,10 @@
 {
 "file": "UnityProject/Assets/_Game/Resources/Audio/Sfx/kuji_tear_2.wav.meta",
 "at": "2026-11-25 00:16"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/KujiDrawBox.cs.meta",
-"at": "2026-11-25 00:16"
 }
 ],
-"lastEdit": "2026-11-25 00:16",
-"lastEditTs": 1795533405.5813456,
+"lastEdit": "2026-11-25 00:17",
+"lastEditTs": 1795533440.6025867,
 "lastCommitTs": 1795533166,
 "unpushed": 6,
 "notInMain": 6,
@@ -1601,8 +1601,12 @@
 "msg": "CD-0162 초월 버튼 차원석 −N: 평소 버튼 글자색, 모자랄 때만 빨강 (Unity 미실행)"
 }
 ],
-"dirtyCount": 36,
+"dirtyCount": 37,
 "dirty": [
+{
+"file": "studio/orders/CD-0155-인게임-미션-폴리싱-미션-골드-줄이기-보이는-히든-미션/22-core.md",
+"at": "2026-11-25 00:17"
+},
 {
 "file": "Core/tests/Cd0155MissionTests.cs",
 "at": "2026-11-25 00:15"
@@ -1630,14 +1634,10 @@
 {
 "file": "Core/tests/Cd0036TutorialTests.cs",
 "at": "2026-11-25 00:03"
-},
-{
-"file": "Core/tests/ResumeSnapshotTests.cs",
-"at": "2026-11-25 00:03"
 }
 ],
-"lastEdit": "2026-11-25 00:15",
-"lastEditTs": 1795533308.7734504,
+"lastEdit": "2026-11-25 00:17",
+"lastEditTs": 1795533442.273643,
 "lastCommitTs": 1795530929,
 "unpushed": 0,
 "notInMain": 0,
@@ -1779,7 +1779,7 @@
 "dirty": [
 {
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-25 00:16"
+"at": "2026-11-25 00:17"
 },
 {
 "file": "art/tools/ui157_marks.py",
@@ -1802,8 +1802,8 @@
 "at": "2026-11-25 00:13"
 }
 ],
-"lastEdit": "2026-11-25 00:16",
-"lastEditTs": 1795533390.801134,
+"lastEdit": "2026-11-25 00:17",
+"lastEditTs": 1795533429.0752957,
 "lastCommitTs": 1795532842,
 "unpushed": 0,
 "notInMain": 0,
@@ -11128,10 +11128,11 @@
 "id": "CD-0155",
 "title": "인게임 미션 폴리싱 — 미션 골드 줄이기 · 보이는/히든 미션 · 조합·조건 미션",
 "branch": "cd-155",
-"updated": "2026-11-24 23:54",
+"updated": "2026-11-25 00:17",
 "files": [
 "00-order.md",
 "10-spec.md",
+"22-core.md",
 "24-art.md"
 ],
 "milestone": "M2",
@@ -23128,7 +23129,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 00:16",
-"generatedAt": "2026-11-25 00:16",
-"digest": "5fa299bbb3e6ba8a"
+"sourceAt": "2026-11-25 00:17",
+"generatedAt": "2026-11-25 00:17",
+"digest": "2d1a6af19355057e"
 }
