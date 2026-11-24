@@ -1305,43 +1305,43 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0135",
-"head": "3dd0784",
+"head": "f745824",
 "commits": [
 {
-"sha": "3dd07841",
-"at": "2026-11-24 15:13",
-"ts": 1795500818,
-"msg": "병합: cd-140 cf2fe3e5(CD-0140 튜토리얼 QA 후속 — 1-5 광부 고용 안내 · 뽑기 새 판 알림(사용자 원문) · 0.12.0 퇴행 상점 확인 창 → 안내 멈춤 고침 · 읽기 단계 누름 통과 막기 · 젬스톤 상품 손가락 · 초월 실패 안내 · 바퀴 3·4 · EditMode 필터 98/98 · Core 1135/1136)"
+"sha": "f745824e",
+"at": "2026-11-24 15:25",
+"ts": 1795501507,
+"msg": "병합: cd-137b 9f8c74c4(CD-0137b 50웨이브 스냅숏 재측정 최대 4,347자/12,000 · 고칠 것 없음 · 문서·측정 도구만)"
 },
 {
-"sha": "cf2fe3e5",
-"at": "2026-11-24 15:12",
-"ts": 1795500769,
-"msg": "CD-0140 바퀴 4(restart) 완주 · main 23c96838 합침 · o6_legend 넷째 단계가 영영 안 뜨던 것"
+"sha": "9cc71f25",
+"at": "2026-11-24 15:25",
+"ts": 1795501507,
+"msg": "병합: cd-140 12e69a46(CD-0140 바퀴 5(긴 화면) 완주 기록 — «최소 5바퀴» 충족 · 넘길 것 F-14·F-06)"
 },
 {
-"sha": "cd88a49a",
-"at": "2026-11-24 15:03",
-"ts": 1795500222,
-"msg": "Merge branch 'main' into cd-140"
+"sha": "9e586116",
+"at": "2026-11-24 15:25",
+"ts": 1795501507,
+"msg": "병합: cd-135b 7bc3ed69(CD-0135b 웨이브 50 보스 = 앞 웨이브 × 50%(hpPct 3766) — 사용자 «50% 근처», 확인은 마지막 밸런스 주문)"
 },
 {
-"sha": "c36537c0",
-"at": "2026-11-24 14:55",
-"ts": 1795499705,
-"msg": "CD-0140 마감(빌드 대기): 경험치 아이콘은 확정 전이라 옛 그림으로 · 90-close · stage 마감"
+"sha": "12e69a46",
+"at": "2026-11-24 15:21",
+"ts": 1795501319,
+"msg": "CD-0140 바퀴 5(tall) 완주 · 5바퀴 정리 · F-14 넘김 · 90-close 갱신"
 },
 {
-"sha": "23c96838",
-"at": "2026-11-24 14:54",
-"ts": 1795499665,
-"msg": "병합: cd-135 e195d4e6(CD-0135 챕터 개편 — 챕터 2 = 한 판 50웨이브 · 보스 25·50 · 25 첫 돌파 보상 · 게르하르트 챕터 2 클리어 + 옛 소유 유지 · 저장 v17 · 랭킹 «챕터·웨이브» · 결정 0110 · Core 1135/1136 · Server 297 · 모듈 49 · EditMode 필터 250/250 · PlayMode 1/1)"
+"sha": "9f8c74c4",
+"at": "2026-11-24 15:21",
+"ts": 1795501307,
+"msg": "CD-0137b 50웨이브 판 스냅숏 크기·저장 수 실측: 챕터 2 1,500판 최대 4,347자(한도 12,000자의 36%) · 계산 상한 약 6,600자 · 판당 웨이브 저장 10번 — 고칠 것 없음 · 보고서 22-report-cd-0137b · 측정 도구 _sim · README·docs/16 숫자 갱신 (제품 코드·Data 변경 없음)"
 },
 {
-"sha": "e195d4e6",
-"at": "2026-11-24 14:54",
-"ts": 1795499644,
-"msg": "CD-0135 마감 초안: 90-close(관제 요약·해 볼 것·랭킹 옛 기록 지우는 법) · EditMode 250/250 · PlayMode 1/1 · Cd135 시험 .meta · 단계 마감"
+"sha": "f59b32cb",
+"at": "2026-11-24 15:19",
+"ts": 1795501174,
+"msg": "병합: cd-135b 2eff8b48(CD-0135b 챕터 2 웨이브 50 보스 체력 = 앞 웨이브 × 40%(hpPct 1883→3013) · 시뮬 300판 25~60% 비교 · validate_data · Core 1135/1136)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795500818,
-"unpushed": 6,
+"lastCommitTs": 1795501507,
+"unpushed": 0,
 "notInMain": 0,
-"today": 90
+"today": 98
 },
 {
 "branch": "cd-135",
@@ -1392,8 +1392,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0135",
-"head": "2eff8b4",
+"head": "7bc3ed6",
 "commits": [
+{
+"sha": "7bc3ed69",
+"at": "2026-11-24 15:19",
+"ts": 1795501157,
+"msg": "CD-0135b 고침: 끝 보스 = 앞 웨이브 × 50%(hpPct 3766) 바로 — 사용자 «밸런스테스트는 하지마 다만들고 마지막에», 확인은 마지막 밸런스 주문"
+},
 {
 "sha": "2eff8b48",
 "at": "2026-11-24 15:13",
@@ -1423,47 +1429,21 @@
 "at": "2026-11-24 14:06",
 "ts": 1795496777,
 "msg": "CD-0135 K1 화면: 로비 «최고 N / 50»(한 판 챕터) · 결과창 기록 줄(최고 기록·N웨이브 도달·첫 돌파) · 정산 영수증 채우기 · 깨진 시험 새 꼴로 · 새 시험 Cd135 12건 (Unity 미실행)"
-},
-{
-"sha": "0ed82e2f",
-"at": "2026-11-24 13:58",
-"ts": 1795496307,
-"msg": "CD-0135 C1·C2 보고: 22-core(정산·첫 돌파·최고 웨이브 · K1 API) · 23-core-save(v17 변환·계정 꼴·서버 — Core 1135/1136 · Server 297/297 · Module 49/49)"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 1,
 "dirty": [
-{
-"file": "studio/orders/CD-0135-챕터-개편-2장-1판-50웨이브-챕터별-목표-웨이브-밸/26-balance-b.md",
-"at": "2026-11-24 15:13"
-},
-{
-"file": "studio/orders/CD-0135-챕터-개편-2장-1판-50웨이브-챕터별-목표-웨이브-밸/90-close.md",
-"at": "2026-11-24 15:13"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/waves.json",
-"at": "2026-11-24 15:13"
-},
-{
-"file": "Data/waves.json",
-"at": "2026-11-24 15:13"
-},
-{
-"file": "studio/orders/CD-0135-챕터-개편-2장-1판-50웨이브-챕터별-목표-웨이브-밸/_sim/params.json",
-"at": "2026-11-24 15:13"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-24 14:53"
 }
 ],
-"lastEdit": "2026-11-24 15:13",
-"lastEditTs": 1795500839.003683,
-"lastCommitTs": 1795500796,
-"unpushed": 1,
-"notInMain": 1,
-"today": 85
+"lastEdit": "2026-11-24 14:53",
+"lastEditTs": 1795499600.0948653,
+"lastCommitTs": 1795501157,
+"unpushed": 0,
+"notInMain": 0,
+"today": 86
 },
 {
 "branch": "cd-137b",
@@ -1471,8 +1451,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0135",
-"head": "23c9683",
+"head": "9f8c74c",
 "commits": [
+{
+"sha": "9f8c74c4",
+"at": "2026-11-24 15:21",
+"ts": 1795501307,
+"msg": "CD-0137b 50웨이브 판 스냅숏 크기·저장 수 실측: 챕터 2 1,500판 최대 4,347자(한도 12,000자의 36%) · 계산 상한 약 6,600자 · 판당 웨이브 저장 10번 — 고칠 것 없음 · 보고서 22-report-cd-0137b · 측정 도구 _sim · README·docs/16 숫자 갱신 (제품 코드·Data 변경 없음)"
+},
 {
 "sha": "23c96838",
 "at": "2026-11-24 14:54",
@@ -1502,35 +1488,16 @@
 "at": "2026-11-24 13:58",
 "ts": 1795496307,
 "msg": "CD-0135 C1·C2 보고: 22-core(정산·첫 돌파·최고 웨이브 · K1 API) · 23-core-save(v17 변환·계정 꼴·서버 — Core 1135/1136 · Server 297/297 · Module 49/49)"
-},
-{
-"sha": "8e3c6d2c",
-"at": "2026-11-24 13:54",
-"ts": 1795496088,
-"msg": "CD-0135 C1·C2 Core: 스테이지별 최고 웨이브 · 25웨이브 첫 돌파 보상(waveMilestones) · 게르하르트 옛 소유 유지(kept) · 저장 v17 변환(StageLineV17) · 계정 꼴 새 칸 · 시험 Cd0135 16건 · 깨진 시험 새 데이터 꼴로"
 }
 ],
-"dirtyCount": 3,
-"dirty": [
-{
-"file": "studio/orders/CD-0137-서버-이어하기-판-도중-꺼지거나-끊겼을-때-서버-기준으/_sim/snapsize-gate_04_01.txt",
-"at": "2026-11-24 15:17"
-},
-{
-"file": "studio/orders/CD-0137-서버-이어하기-판-도중-꺼지거나-끊겼을-때-서버-기준으/_sim/SnapSize.csproj",
-"at": "2026-11-24 15:14"
-},
-{
-"file": "studio/orders/CD-0137-서버-이어하기-판-도중-꺼지거나-끊겼을-때-서버-기준으/_sim/Measure.cs",
-"at": "2026-11-24 15:14"
-}
-],
-"lastEdit": "2026-11-24 15:17",
-"lastEditTs": 1795501049.126885,
-"lastCommitTs": 1795499665,
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795501307,
 "unpushed": 0,
 "notInMain": 0,
-"today": 84
+"today": 85
 },
 {
 "branch": "cd-140",
@@ -1538,8 +1505,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0135",
-"head": "cf2fe3e",
+"head": "12e69a4",
 "commits": [
+{
+"sha": "12e69a46",
+"at": "2026-11-24 15:21",
+"ts": 1795501319,
+"msg": "CD-0140 바퀴 5(tall) 완주 · 5바퀴 정리 · F-14 넘김 · 90-close 갱신"
+},
 {
 "sha": "cf2fe3e5",
 "at": "2026-11-24 15:12",
@@ -1569,62 +1542,56 @@
 "at": "2026-11-24 14:54",
 "ts": 1795499644,
 "msg": "CD-0135 마감 초안: 90-close(관제 요약·해 볼 것·랭킹 옛 기록 지우는 법) · EditMode 250/250 · PlayMode 1/1 · Cd135 시험 .meta · 단계 마감"
-},
-{
-"sha": "72497e31",
-"at": "2026-11-24 14:48",
-"ts": 1795499305,
-"msg": "CD-0135 랭킹 진행도: 기록 = 챕터 × 1000 + 진행(1장 = 이긴 가장 먼 판 번호 · 2장~ = 최고 웨이브) · 화면 «1-4»·«챕터 2 · 32웨이브»·«챕터 2 · 클리어» · validate_data 상한 · Cd42 시험"
 }
 ],
-"dirtyCount": 528,
+"dirtyCount": 560,
 "dirty": [
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/run.jsonl",
-"at": "2026-11-24 15:17"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/playmode.xml",
+"at": "2026-11-24 15:20"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/085_gate_03_05_step-t15_upgrade-1.png",
-"at": "2026-11-24 15:17"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/126_gate_04_01_result-lose.png",
+"at": "2026-11-24 15:20"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/084_gate_03_05_step-t15_upgrade-0.png",
-"at": "2026-11-24 15:17"
-},
-{
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/save/match-resume.json",
-"at": "2026-11-24 15:17"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/save/online.json",
+"at": "2026-11-24 15:20"
 },
 {
 "file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/save/player.json",
-"at": "2026-11-24 15:17"
+"at": "2026-11-24 15:20"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/083_gate_03_05_step-t16_mine-2.png",
-"at": "2026-11-24 15:17"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/125_gate_04_01_match-w27.png",
+"at": "2026-11-24 15:20"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/082_gate_03_05_step-t16_mine-1.png",
-"at": "2026-11-24 15:17"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/124_gate_04_01_match-w16.png",
+"at": "2026-11-24 15:19"
 },
 {
-"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/081_gate_03_05_step-t16_mine-1.png",
-"at": "2026-11-24 15:17"
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/123_gate_04_01_match-w1.png",
+"at": "2026-11-24 15:19"
+},
+{
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-05/shots/122_gate_04_01_match-start.png",
+"at": "2026-11-24 15:19"
 }
 ],
-"lastEdit": "2026-11-24 15:17",
-"lastEditTs": 1795501054.9254239,
-"lastCommitTs": 1795500769,
-"unpushed": 5,
+"lastEdit": "2026-11-24 15:20",
+"lastEditTs": 1795501218.7743256,
+"lastCommitTs": 1795501319,
+"unpushed": 0,
 "notInMain": 0,
-"today": 89
+"today": 90
 },
 {
 "branch": "cd-142",
 "lane": "cd-142",
 "session": "",
 "owns": "",
-"order": "CD-0142",
+"order": "CD-0135",
 "head": "2c58c40",
 "commits": [
 {
@@ -1679,62 +1646,86 @@
 "session": "",
 "owns": "",
 "order": "CD-0143",
-"head": "54ac4f0",
+"head": "c52ad34",
 "commits": [
 {
-"sha": "54ac4f09",
-"at": "2026-11-24 15:06",
-"ts": 1795500393,
-"msg": "Merge commit '23c96838' into cd-143"
+"sha": "c52ad341",
+"at": "2026-11-24 15:34",
+"ts": 1795502063,
+"msg": "CD-0143 마감: 웨이브↔하트 11→21px(흰 글자 기준) 실측 · EditMode 필터 31/31 · 캡처 1080×1920·1080×2400 · 90-close(하트 그리는 곳 포함)"
 },
 {
-"sha": "1d732bc5",
-"at": "2026-11-24 15:06",
-"ts": 1795500393,
-"msg": "CD-0143 제작: 웨이브 글자와 하트 간격 8→약 18px — 하트 줄 간격 12→6 · 웨이브 4px 위 · 하트 아래 끝 고정 · EditMode 시험(Unity 확인 전)"
+"sha": "6e6b155c",
+"at": "2026-11-24 15:30",
+"ts": 1795501814,
+"msg": "Merge commit 'f745824e' into cd-143"
 },
 {
-"sha": "23c96838",
-"at": "2026-11-24 14:54",
-"ts": 1795499665,
-"msg": "병합: cd-135 e195d4e6(CD-0135 챕터 개편 — 챕터 2 = 한 판 50웨이브 · 보스 25·50 · 25 첫 돌파 보상 · 게르하르트 챕터 2 클리어 + 옛 소유 유지 · 저장 v17 · 랭킹 «챕터·웨이브» · 결정 0110 · Core 1135/1136 · Server 297 · 모듈 49 · EditMode 필터 250/250 · PlayMode 1/1)"
+"sha": "54ec089b",
+"at": "2026-11-24 15:30",
+"ts": 1795501814,
+"msg": "CD-0143 90-close 초안 — 관제 요약 · 하트 그리는 곳(CD-0148용) · 해 볼 것"
 },
 {
-"sha": "e195d4e6",
-"at": "2026-11-24 14:54",
-"ts": 1795499644,
-"msg": "CD-0135 마감 초안: 90-close(관제 요약·해 볼 것·랭킹 옛 기록 지우는 법) · EditMode 250/250 · PlayMode 1/1 · Cd135 시험 .meta · 단계 마감"
+"sha": "f745824e",
+"at": "2026-11-24 15:25",
+"ts": 1795501507,
+"msg": "병합: cd-137b 9f8c74c4(CD-0137b 50웨이브 스냅숏 재측정 최대 4,347자/12,000 · 고칠 것 없음 · 문서·측정 도구만)"
 },
 {
-"sha": "72497e31",
-"at": "2026-11-24 14:48",
-"ts": 1795499305,
-"msg": "CD-0135 랭킹 진행도: 기록 = 챕터 × 1000 + 진행(1장 = 이긴 가장 먼 판 번호 · 2장~ = 최고 웨이브) · 화면 «1-4»·«챕터 2 · 32웨이브»·«챕터 2 · 클리어» · validate_data 상한 · Cd42 시험"
+"sha": "9cc71f25",
+"at": "2026-11-24 15:25",
+"ts": 1795501507,
+"msg": "병합: cd-140 12e69a46(CD-0140 바퀴 5(긴 화면) 완주 기록 — «최소 5바퀴» 충족 · 넘길 것 F-14·F-06)"
 },
 {
-"sha": "5ce9494d",
-"at": "2026-11-24 14:06",
-"ts": 1795496777,
-"msg": "CD-0135 K1 화면: 로비 «최고 N / 50»(한 판 챕터) · 결과창 기록 줄(최고 기록·N웨이브 도달·첫 돌파) · 정산 영수증 채우기 · 깨진 시험 새 꼴로 · 새 시험 Cd135 12건 (Unity 미실행)"
+"sha": "9e586116",
+"at": "2026-11-24 15:25",
+"ts": 1795501507,
+"msg": "병합: cd-135b 7bc3ed69(CD-0135b 웨이브 50 보스 = 앞 웨이브 × 50%(hpPct 3766) — 사용자 «50% 근처», 확인은 마지막 밸런스 주문)"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 8,
 "dirty": [
 {
-"file": "studio/orders/CD-0143-판-안-상단-웨이브-글자와-하트-간격-벌리기/90-close.md",
-"at": "2026-11-24 15:13"
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-24 15:33"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-24 15:33"
+},
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-24 15:33"
+},
+{
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-24 15:32"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-24 15:31"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-24 15:31"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-24 15:31"
 },
 {
 "file": "studio/checks.json",
 "at": "2026-11-24 15:12"
 }
 ],
-"lastEdit": "2026-11-24 15:13",
-"lastEditTs": 1795500785.1348472,
-"lastCommitTs": 1795500393,
-"unpushed": 2,
-"notInMain": 2,
-"today": 86
+"lastEdit": "2026-11-24 15:33",
+"lastEditTs": 1795501986.411157,
+"lastCommitTs": 1795502063,
+"unpushed": 5,
+"notInMain": 5,
+"today": 103
 },
 {
 "branch": "cd-144",
@@ -2034,19 +2025,23 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 88,
+"commits": 93,
 "byOrder": [
 [
-"CD-0135",
-12
+"CD-0137",
+13
 ],
 [
-"CD-0137",
-12
+"CD-0135",
+13
 ],
 [
 "CD-0121",
 6
+],
+[
+"CD-0140",
+5
 ],
 [
 "CD-0134",
@@ -2055,10 +2050,6 @@
 [
 "CD-0133",
 5
-],
-[
-"CD-0140",
-4
 ],
 [
 "기타",
@@ -2075,6 +2066,10 @@
 [
 "CD-0131",
 4
+],
+[
+"CD-0143",
+3
 ],
 [
 "CD-0084",
@@ -2117,10 +2112,6 @@
 2
 ],
 [
-"CD-0143",
-1
-],
-[
 "CD-0142",
 1
 ],
@@ -2134,6 +2125,31 @@
 ]
 ],
 "latest": [
+{
+"sha": "c52ad341",
+"at": "2026-11-24 15:34",
+"msg": "CD-0143 마감: 웨이브↔하트 11→21px(흰 글자 기준) 실측 · EditMode 필터 31/31 · 캡처 1080×1920·1080×2400 · 90-close(하트 그리는 곳 포함)"
+},
+{
+"sha": "54ec089b",
+"at": "2026-11-24 15:30",
+"msg": "CD-0143 90-close 초안 — 관제 요약 · 하트 그리는 곳(CD-0148용) · 해 볼 것"
+},
+{
+"sha": "12e69a46",
+"at": "2026-11-24 15:21",
+"msg": "CD-0140 바퀴 5(tall) 완주 · 5바퀴 정리 · F-14 넘김 · 90-close 갱신"
+},
+{
+"sha": "9f8c74c4",
+"at": "2026-11-24 15:21",
+"msg": "CD-0137b 50웨이브 판 스냅숏 크기·저장 수 실측: 챕터 2 1,500판 최대 4,347자(한도 12,000자의 36%) · 계산 상한 약 6,600자 · 판당 웨이브 저장 10번 — 고칠 것 없음 · 보고서 22-report-cd-0137b · 측정 도구 _sim · README·docs/16 숫자 갱신 (제품 코드·Data 변경 없음)"
+},
+{
+"sha": "7bc3ed69",
+"at": "2026-11-24 15:19",
+"msg": "CD-0135b 고침: 끝 보스 = 앞 웨이브 × 50%(hpPct 3766) 바로 — 사용자 «밸런스테스트는 하지마 다만들고 마지막에», 확인은 마지막 밸런스 주문"
+},
 {
 "sha": "2eff8b48",
 "at": "2026-11-24 15:13",
@@ -2158,31 +2174,6 @@
 "sha": "e195d4e6",
 "at": "2026-11-24 14:54",
 "msg": "CD-0135 마감 초안: 90-close(관제 요약·해 볼 것·랭킹 옛 기록 지우는 법) · EditMode 250/250 · PlayMode 1/1 · Cd135 시험 .meta · 단계 마감"
-},
-{
-"sha": "72497e31",
-"at": "2026-11-24 14:48",
-"msg": "CD-0135 랭킹 진행도: 기록 = 챕터 × 1000 + 진행(1장 = 이긴 가장 먼 판 번호 · 2장~ = 최고 웨이브) · 화면 «1-4»·«챕터 2 · 32웨이브»·«챕터 2 · 클리어» · validate_data 상한 · Cd42 시험"
-},
-{
-"sha": "e7b73855",
-"at": "2026-11-24 14:47",
-"msg": "CD-0140 바퀴 3 · F-07 새 판 알림 · 상점 확인 창 퇴행 · 읽기 단계 누름 통과 막기"
-},
-{
-"sha": "5ce9494d",
-"at": "2026-11-24 14:06",
-"msg": "CD-0135 K1 화면: 로비 «최고 N / 50»(한 판 챕터) · 결과창 기록 줄(최고 기록·N웨이브 도달·첫 돌파) · 정산 영수증 채우기 · 깨진 시험 새 꼴로 · 새 시험 Cd135 12건 (Unity 미실행)"
-},
-{
-"sha": "0ed82e2f",
-"at": "2026-11-24 13:58",
-"msg": "CD-0135 C1·C2 보고: 22-core(정산·첫 돌파·최고 웨이브 · K1 API) · 23-core-save(v17 변환·계정 꼴·서버 — Core 1135/1136 · Server 297/297 · Module 49/49)"
-},
-{
-"sha": "b7b6944c",
-"at": "2026-11-24 13:56",
-"msg": "CD-0142 작업 중: 판 안 미해금 키를 숨기지 않고 잠금(어두운 면·흑백 그림·자물쇠)으로 자리 고정 · 누르면 «언제 열리는지» 알림 · 판 안 해금 때 자물쇠 풀림+한 번 튐 · Unity 확인 전"
 }
 ]
 },
@@ -10475,8 +10466,8 @@
 {
 "id": "CD-0135",
 "title": "챕터 개편 — 2장 1판 50웨이브 · 챕터별 목표 웨이브 · 밸런스",
-"branch": "cd-135",
-"updated": "2026-11-24 15:13",
+"branch": "main",
+"updated": "2026-11-24 15:25",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -10553,13 +10544,14 @@
 {
 "id": "CD-0137",
 "title": "서버 이어하기 — 판 도중 꺼지거나 끊겼을 때 서버 기준으로 이어 하기(싱글)",
-"branch": "cd-137b",
-"updated": "2026-11-24 15:14",
+"branch": "main",
+"updated": "2026-11-24 15:25",
 "files": [
 "00-order.md",
 "10-spec.md",
 "20-report-core.md",
 "21-report-client.md",
+"22-report-cd-0137b.md",
 "90-close.md",
 "_sim"
 ],
@@ -10646,7 +10638,7 @@
 "id": "CD-0140",
 "title": "튜토리얼 QA 후속 — 바퀴 3~5 · 1-5 광부 고용 안내 · 경험치 아이콘 · 뽑기 새 판 알림 설계",
 "branch": "main",
-"updated": "2026-11-24 15:13",
+"updated": "2026-11-24 15:25",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -10698,24 +10690,27 @@
 "id": "CD-0143",
 "title": "판 안 상단 웨이브 글자와 하트 간격 벌리기",
 "branch": "cd-143",
-"updated": "2026-11-24 15:13",
+"updated": "2026-11-24 15:34",
 "files": [
 "00-order.md",
-"90-close.md"
+"90-close.md",
+"_editmode.xml",
+"_playmode_shots.xml",
+"_shots"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "direct",
 "risk": "low",
 "teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -11500,7 +11495,7 @@
 "no": 52,
 "title": "인게임 상단 «웨이브» 글자와 목숨 하트 간격 벌리기",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0126",
@@ -11572,7 +11567,7 @@
 "no": 57,
 "title": "인게임 목숨 하트 아이콘에 외곽선 넣기",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0039",
@@ -14365,9 +14360,9 @@
 }
 }
 },
-"at": "2026-11-24 15:13",
-"branch": "cd-135",
-"dirty": true
+"at": "2026-11-24 15:25",
+"branch": "main",
+"dirty": false
 },
 "maps": {
 "data": {
@@ -21425,11 +21420,11 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-24 15:06",
-"commit": "54ac4f09+수정",
-"passed": 1135,
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
+"passed": 1118,
 "failed": 0,
-"total": 1136,
+"total": 1119,
 "ok": true
 },
 "unity": {
@@ -21444,8 +21439,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-24 15:06",
-"commit": "54ac4f09+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21453,8 +21448,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-24 15:06",
-"commit": "54ac4f09+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21462,8 +21457,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-24 15:06",
-"commit": "54ac4f09+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21471,8 +21466,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-24 15:06",
-"commit": "54ac4f09+수정",
+"at": "2026-11-24 11:44",
+"commit": "3fe367c2",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21674,7 +21669,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 15:17",
-"generatedAt": "2026-11-24 15:17",
-"digest": "00f2aac7e2fae786"
+"sourceAt": "2026-11-24 15:34",
+"generatedAt": "2026-11-24 15:46",
+"digest": "f4dd3119818608d9"
 }
