@@ -1581,7 +1581,7 @@
 "dirty": [
 {
 "file": "studio/orders/CD-0134-튜토리얼-QA-및-밸런스-검토-QA봇-5바퀴-1-1-1/laps/lap-01/run.jsonl",
-"at": "2026-11-24 09:17"
+"at": "2026-11-24 09:20"
 },
 {
 "file": "UnityProject/Assets/InitTestScene26340a35-e5d3-4233-a098-375cc19656b5.unity.meta",
@@ -1612,8 +1612,8 @@
 "at": "2026-11-24 08:54"
 }
 ],
-"lastEdit": "2026-11-24 09:17",
-"lastEditTs": 1795479456.8922937,
+"lastEdit": "2026-11-24 09:20",
+"lastEditTs": 1795479618.88933,
 "lastCommitTs": 1795477985,
 "unpushed": 3,
 "notInMain": 3,
@@ -23830,7 +23830,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 09:17",
-"generatedAt": "2026-11-24 09:17",
-"digest": "929a51fc3d17980d"
+"sourceAt": "2026-11-24 09:20",
+"generatedAt": "2026-11-24 09:20",
+"digest": "9330c04fdc79c4ae"
 }
