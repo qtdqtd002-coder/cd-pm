@@ -1387,176 +1387,6 @@
 "today": 11
 },
 {
-"branch": "cd-153",
-"lane": "cd-153",
-"session": "",
-"owns": "",
-"order": "CD-0153",
-"head": "207d86c",
-"commits": [
-{
-"sha": "207d86c6",
-"at": "2026-11-25 00:42",
-"ts": 1795534938,
-"msg": "CD-0153 마감 초안(빌드 대기): 90-close · 통합 기록 · 실제 화면 대조판"
-},
-{
-"sha": "0b7bf19c",
-"at": "2026-11-25 00:40",
-"ts": 1795534845,
-"msg": "CD-0153 통합: Unity 확인 · 고침 — 제비·햇살이 안 그려지던 것(CanvasRenderer) · 가산 셰이더 CD/UiAdd · 10장 상 글자·이름 표시 · 색종이 · A상 무대 뒤 · 카탈로그 4장"
-},
-{
-"sha": "e5c88877",
-"at": "2026-11-25 00:12",
-"ts": 1795533166,
-"msg": "Merge branch 'main' into cd-153"
-},
-{
-"sha": "3bfc4d9c",
-"at": "2026-11-25 00:07",
-"ts": 1795532842,
-"msg": "병합: cd-154b eb151b3b(결정 0114 업적 누적 보상 42단계 문서 · 0089 «→ 0114»)"
-},
-{
-"sha": "eb151b3b",
-"at": "2026-11-25 00:05",
-"ts": 1795532748,
-"msg": "결정 0114 업적 누적 보상 42단계(CD-0154) · 0089 끝 «→ 0114»"
-},
-{
-"sha": "b7f96b2e",
-"at": "2026-11-25 00:04",
-"ts": 1795532691,
-"msg": "CD-0153 클라 2(컴파일 미확인): A상 연출(실루엣 → 색 → 이름판 → 도장) · 추첨함(KujiDrawBox) · 진동 primitive · 색종이"
-}
-],
-"dirtyCount": 2642,
-"dirty": [
-{
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/_shots/5차/out_back_to_lobby_1080x2400.png",
-"at": "2026-11-25 00:37"
-},
-{
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/_shots/5차/out_back_to_lobby.png",
-"at": "2026-11-25 00:37"
-},
-{
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/_shots/5차/out_result_1080x2400.png",
-"at": "2026-11-25 00:37"
-},
-{
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/_shots/5차/out_result.png",
-"at": "2026-11-25 00:37"
-},
-{
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/_shots/5차/out_match_start_1080x2400.png",
-"at": "2026-11-25 00:37"
-},
-{
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/_shots/5차/out_match_start.png",
-"at": "2026-11-25 00:37"
-},
-{
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/_shots/5차/out_no_tickets_1080x2400.png",
-"at": "2026-11-25 00:37"
-},
-{
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/_shots/5차/out_no_tickets.png",
-"at": "2026-11-25 00:37"
-}
-],
-"lastEdit": "2026-11-25 00:37",
-"lastEditTs": 1795534639.790401,
-"lastCommitTs": 1795534938,
-"unpushed": 0,
-"notInMain": 0,
-"today": 6
-},
-{
-"branch": "cd-154b",
-"lane": "cd-154b",
-"session": "",
-"owns": "",
-"order": "CD-0154",
-"head": "eb151b3",
-"commits": [
-{
-"sha": "eb151b3b",
-"at": "2026-11-25 00:05",
-"ts": 1795532748,
-"msg": "결정 0114 업적 누적 보상 42단계(CD-0154) · 0089 끝 «→ 0114»"
-},
-{
-"sha": "674bef7e",
-"at": "2026-11-24 23:58",
-"ts": 1795532334,
-"msg": "병합: cd-154 a7b0ea82(CD-0154 업적 누적 보상 42단계(10~1000) · 막대 0 시작·«달성 n회» · 5칸 묶음 넘기기 · EditMode 55/55 · 캡처 1/1)"
-},
-{
-"sha": "a7b0ea82",
-"at": "2026-11-24 23:58",
-"ts": 1795532320,
-"msg": "CD-0154 마감 — BuildStep 컴파일 오류 고침 · EditMode 55/55 · PlayMode 캡처 1/1 · 90-close 초안"
-},
-{
-"sha": "a3f76681",
-"at": "2026-11-24 23:49",
-"ts": 1795531780,
-"msg": "Merge branch 'main' into cd-154"
-},
-{
-"sha": "0f72cc5a",
-"at": "2026-11-24 23:49",
-"ts": 1795531776,
-"msg": "CD-0154 업적 누적 달성 보상 — 1000회까지 42단계 · 판 0 시작점 · «달성 n회» · 5칸 묶음 넘기기"
-},
-{
-"sha": "739c3209",
-"at": "2026-11-24 23:35",
-"ts": 1795530929,
-"msg": "병합: cd-162 82d5d53f(CD-0162 초월 버튼 −N 평소 기본색·모자랄 때만 빨강 · 결정 0111 파일(초월 용어 통일 + 색 되돌림) · EditMode 21/21 · PlayMode 2/2)"
-}
-],
-"dirtyCount": 7,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-24 23:57"
-},
-{
-"file": "_playmode.xml",
-"at": "2026-11-24 23:57"
-},
-{
-"file": "_shots/cd154/c65_ach_bottom.png",
-"at": "2026-11-24 23:57"
-},
-{
-"file": "_shots/cd154/c65_ach_claimed.png",
-"at": "2026-11-24 23:57"
-},
-{
-"file": "_shots/cd154/c65_ach_top_1080x2400.png",
-"at": "2026-11-24 23:57"
-},
-{
-"file": "_shots/cd154/c65_ach_top.png",
-"at": "2026-11-24 23:57"
-},
-{
-"file": "test-results.xml",
-"at": "2026-11-24 23:56"
-}
-],
-"lastEdit": "2026-11-24 23:57",
-"lastEditTs": 1795532261.111407,
-"lastCommitTs": 1795532748,
-"unpushed": 0,
-"notInMain": 0,
-"today": 1
-},
-{
 "branch": "cd-155",
 "lane": "cd-155",
 "session": "",
@@ -1618,93 +1448,6 @@
 "unpushed": 2,
 "notInMain": 2,
 "today": 8
-},
-{
-"branch": "cd-156",
-"lane": "cd-156",
-"session": "",
-"owns": "",
-"order": "CD-0154",
-"head": "1b9573d",
-"commits": [
-{
-"sha": "1b9573d7",
-"at": "2026-11-25 00:12",
-"ts": 1795533153,
-"msg": "CD-0156 카탈로그 반입 · 시험 정리 · 진동 줄 아이콘 뺌 · 마감 초안"
-},
-{
-"sha": "a6c538ee",
-"at": "2026-11-25 00:02",
-"ts": 1795532544,
-"msg": "Merge commit '674bef7e' into cd-156"
-},
-{
-"sha": "0cc0c5af",
-"at": "2026-11-25 00:02",
-"ts": 1795532541,
-"msg": "CD-0156 설정 창 재구성 · 게임 방법 가이드화 · 크레딧 전부 제거"
-},
-{
-"sha": "674bef7e",
-"at": "2026-11-24 23:58",
-"ts": 1795532334,
-"msg": "병합: cd-154 a7b0ea82(CD-0154 업적 누적 보상 42단계(10~1000) · 막대 0 시작·«달성 n회» · 5칸 묶음 넘기기 · EditMode 55/55 · 캡처 1/1)"
-},
-{
-"sha": "a7b0ea82",
-"at": "2026-11-24 23:58",
-"ts": 1795532320,
-"msg": "CD-0154 마감 — BuildStep 컴파일 오류 고침 · EditMode 55/55 · PlayMode 캡처 1/1 · 90-close 초안"
-},
-{
-"sha": "a3f76681",
-"at": "2026-11-24 23:49",
-"ts": 1795531780,
-"msg": "Merge branch 'main' into cd-154"
-}
-],
-"dirtyCount": 8,
-"dirty": [
-{
-"file": "studio/orders/CD-0156-설정-창-구성-정리-퀄리티-상향-게임-방법-가이드화-크/_qa/u2_reset_2_1080x2400.png",
-"at": "2026-11-25 00:11"
-},
-{
-"file": "studio/orders/CD-0156-설정-창-구성-정리-퀄리티-상향-게임-방법-가이드화-크/_qa/u2_reset_2.png",
-"at": "2026-11-25 00:11"
-},
-{
-"file": "studio/orders/CD-0156-설정-창-구성-정리-퀄리티-상향-게임-방법-가이드화-크/_qa/u2_reset_1_1080x2400.png",
-"at": "2026-11-25 00:11"
-},
-{
-"file": "studio/orders/CD-0156-설정-창-구성-정리-퀄리티-상향-게임-방법-가이드화-크/_qa/u2_reset_1.png",
-"at": "2026-11-25 00:11"
-},
-{
-"file": "studio/orders/CD-0156-설정-창-구성-정리-퀄리티-상향-게임-방법-가이드화-크/_qa/u2_help_1080x2400.png",
-"at": "2026-11-25 00:11"
-},
-{
-"file": "studio/orders/CD-0156-설정-창-구성-정리-퀄리티-상향-게임-방법-가이드화-크/_qa/u2_account_1080x2400.png",
-"at": "2026-11-25 00:11"
-},
-{
-"file": "studio/orders/CD-0156-설정-창-구성-정리-퀄리티-상향-게임-방법-가이드화-크/_qa/u2_settings_1080x2400.png",
-"at": "2026-11-25 00:11"
-},
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-25 00:10"
-}
-],
-"lastEdit": "2026-11-25 00:11",
-"lastEditTs": 1795533078.4993982,
-"lastCommitTs": 1795533153,
-"unpushed": 0,
-"notInMain": 0,
-"today": 3
 },
 {
 "branch": "cd-157",
@@ -2059,7 +1802,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 118,
+"commits": 115,
 "byOrder": [
 [
 "CD-0135",
@@ -2119,10 +1862,6 @@
 ],
 [
 "CD-0132",
-3
-],
-[
-"CD-0130",
 3
 ],
 [
@@ -23253,6 +22992,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-25 00:47",
-"generatedAt": "2026-11-25 00:47",
-"digest": "5aa6d0c13fcb13d3"
+"generatedAt": "2026-11-25 01:17",
+"digest": "f4009d1f2128d320"
 }
