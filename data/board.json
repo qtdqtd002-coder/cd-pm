@@ -1392,8 +1392,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0134",
-"head": "22ad3b4",
+"head": "30554d3",
 "commits": [
+{
+"sha": "30554d3b",
+"at": "2026-11-24 10:16",
+"ts": 1795482963,
+"msg": "병합: main e71d7852 → cd-134(CD-0125c 판 안 스킬 아이콘)"
+},
+{
+"sha": "3f98f989",
+"at": "2026-11-24 10:16",
+"ts": 1795482962,
+"msg": "CD-0134 90-close 초안(바퀴 2 결과 자리 비움)"
+},
 {
 "sha": "22ad3b44",
 "at": "2026-11-24 10:03",
@@ -1401,44 +1413,65 @@
 "msg": "CD-0134 바퀴 1: 안내 고침 4건 + 봇 고침 5건 + 바퀴 1 기록"
 },
 {
+"sha": "e71d7852",
+"at": "2026-11-24 10:03",
+"ts": 1795482202,
+"msg": "병합: cd-125c 87f896e9(CD-0125c 판 안 스킬 아이콘 — 전설 칸 팝업 아이콘+이름 탭·말풍선 · 능력치 카드 스킬 두 줄 앞 아이콘 · 진화 시트 HitPad 126(Cd39 A15 고침) · EditMode 필터 8/8 · PlayMode 3/3)"
+},
+{
+"sha": "87f896e9",
+"at": "2026-11-24 10:02",
+"ts": 1795482122,
+"msg": "CD-0125c: 판 안 스킬 아이콘 — 칸 팝업 전설 슬롯에 액티브 아이콘(누르면 설명 말풍선) · 능력치 카드 스킬 줄 앞 아이콘 · 진화 시트 72 아이콘 터치 영역 126(HitPad, 그림 크기 그대로) · EditMode 필터 8/8 · PlayMode 필터 3/3(Cd39 A15 통과)"
+},
+{
 "sha": "9a566da5",
 "at": "2026-11-24 08:53",
 "ts": 1795477985,
 "msg": "병합: main b265dbae → cd-134(CD-0126 판 안 HUD 새 모습) — 겹치는 파일 없음"
-},
-{
-"sha": "0ceecb11",
-"at": "2026-11-24 08:52",
-"ts": 1795477975,
-"msg": "CD-0134 2-1 임시 완화(사용자 결정 «0134 에서 임시로 완화»): gate_04_01 초반 웨이브 1~10 hpPct·웨이브 3·6 마리·보스 30 hpPct ×0.43"
-},
-{
-"sha": "826551cc",
-"at": "2026-11-24 08:46",
-"ts": 1795477602,
-"msg": "CD-0134 1단계: sim 초보 봇(novice·novice-move) + 스테이지별 승률 표 · 안내 따라가기 봇 시험(Cd134GuideTourTests) · 바퀴 분석 도구"
-},
-{
-"sha": "b265dbae",
-"at": "2026-11-24 08:46",
-"ts": 1795477575,
-"msg": "병합: cd-126 2095c1fd(CD-0126 판 안 HUD A안 플로팅 미니멀 — 상단 판 없음·닉네임·그라데이션 백판·하트 5×2 · 영웅 카드 상단 · 반투명 독·구슬만 큼 · 아이콘 4장 Codex · EditMode 필터 28/28 · PlayMode 필터 51/52(실패 1 = Cd39Touch A15 진화 시트 터치 영역, CD-0125 몫))"
-},
-{
-"sha": "2095c1fd",
-"at": "2026-11-24 08:45",
-"ts": 1795477559,
-"msg": "CD-0126: 판 안 HUD A안(플로팅 미니멀) 마감 — 구슬만 크게 · 닉네임 글자+그라데이션 백판 · 하트 5×2 깨짐 연출 · 영웅 카드 상단 붙임 · 반투명 독과 아이콘+이름 타일 · 아이콘 4장 다시 그림 · 사용자 확정"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795482221,
-"unpushed": 4,
-"notInMain": 4,
-"today": 46
+"dirtyCount": 9,
+"dirty": [
+{
+"file": "studio/orders/CD-0134-튜토리얼-QA-및-밸런스-검토-QA봇-5바퀴-1-1-1/laps/lap-02/run.jsonl",
+"at": "2026-11-24 10:17"
+},
+{
+"file": "UnityProject/Assets/InitTestSceneeb460e26-fb8a-4c10-abfe-558cacd53797.unity.meta",
+"at": "2026-11-24 10:17"
+},
+{
+"file": "UnityProject/Assets/InitTestSceneeb460e26-fb8a-4c10-abfe-558cacd53797.unity",
+"at": "2026-11-24 10:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-24 10:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-24 10:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-24 10:17"
+},
+{
+"file": "studio/orders/CD-0134-튜토리얼-QA-및-밸런스-검토-QA봇-5바퀴-1-1-1/laps/editmode.log",
+"at": "2026-11-24 10:16"
+},
+{
+"file": "studio/orders/CD-0134-튜토리얼-QA-및-밸런스-검토-QA봇-5바퀴-1-1-1/laps/editmode-results.xml",
+"at": "2026-11-24 10:16"
+}
+],
+"lastEdit": "2026-11-24 10:17",
+"lastEditTs": 1795483052.899428,
+"lastCommitTs": 1795482963,
+"unpushed": 6,
+"notInMain": 6,
+"today": 50
 },
 {
 "branch": "cd-137",
@@ -1485,15 +1518,19 @@
 "msg": "CD-0137 작업 중: 문서 — docs/14 §3-1 서버 저장·스냅숏 머리 정본 · docs/16 켜기 전 점검(이 주문 뒤에 켬 · 시험 흔적은 둠) · 결정 0040 뒤의 변화 · 모듈 README 저장 호출 비용"
 }
 ],
-"dirtyCount": 1,
+"dirtyCount": 2,
 "dirty": [
+{
+"file": "studio/orders/CD-0137-서버-이어하기-판-도중-꺼지거나-끊겼을-때-서버-기준으/90-close.md",
+"at": "2026-11-24 10:17"
+},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-24 10:07"
 }
 ],
-"lastEdit": "2026-11-24 10:07",
-"lastEditTs": 1795482455.140436,
+"lastEdit": "2026-11-24 10:17",
+"lastEditTs": 1795483037.3021753,
 "lastCommitTs": 1795482473,
 "unpushed": 12,
 "notInMain": 12,
@@ -1619,7 +1656,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 62,
+"commits": 63,
 "byOrder": [
 [
 "CD-0137",
@@ -1634,6 +1671,10 @@
 5
 ],
 [
+"CD-0134",
+4
+],
+[
 "CD-0125",
 4
 ],
@@ -1644,10 +1685,6 @@
 [
 "CD-0131",
 4
-],
-[
-"CD-0134",
-3
 ],
 [
 "CD-0132",
@@ -1700,6 +1737,11 @@
 ],
 "latest": [
 {
+"sha": "3f98f989",
+"at": "2026-11-24 10:16",
+"msg": "CD-0134 90-close 초안(바퀴 2 결과 자리 비움)"
+},
+{
 "sha": "65cd8566",
 "at": "2026-11-24 10:07",
 "msg": "CD-0137 작업 중: Unity 확인 — using 누락 고침 · 정산 뒤에 돌아온 저장 답이 끝난 판을 되살리지 않게 · 새 .cs 4개의 .meta"
@@ -1743,11 +1785,6 @@
 "sha": "826551cc",
 "at": "2026-11-24 08:46",
 "msg": "CD-0134 1단계: sim 초보 봇(novice·novice-move) + 스테이지별 승률 표 · 안내 따라가기 봇 시험(Cd134GuideTourTests) · 바퀴 분석 도구"
-},
-{
-"sha": "cc25b610",
-"at": "2026-11-24 08:46",
-"msg": "CD-0137 작업 중: 서버 명령(match.checkpoint · match.load · match.forfeit · match_pending · 접속 답의 끝나지 않은 판 요약) + Data account.json matchSave.everyWaves + 시험(Server 296/296 · 모듈 49/49 · Unity 확인 전)"
 }
 ]
 },
@@ -10011,13 +10048,14 @@
 "id": "CD-0134",
 "title": "튜토리얼 QA 및 밸런스 검토 — QA봇 5바퀴(1-1~1-6·2챕터 소셜 해금, 영웅 강화 없이)",
 "branch": "cd-134",
-"updated": "2026-11-24 10:03",
+"updated": "2026-11-24 10:17",
 "files": [
 ".gitignore",
 "00-order.md",
 "10-spec.md",
 "20-balance.md",
 "40-findings.md",
+"90-close.md",
 "_sim",
 "laps"
 ],
@@ -10040,7 +10078,7 @@
 "id": "CD-0137",
 "title": "서버 이어하기 — 판 도중 꺼지거나 끊겼을 때 서버 기준으로 이어 하기(싱글)",
 "branch": "cd-137",
-"updated": "2026-11-24 10:09",
+"updated": "2026-11-24 10:17",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -23650,7 +23688,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 10:07",
-"generatedAt": "2026-11-24 10:09",
-"digest": "3999d44ff88a2427"
+"sourceAt": "2026-11-24 10:17",
+"generatedAt": "2026-11-24 10:17",
+"digest": "7a4a211873253724"
 }
