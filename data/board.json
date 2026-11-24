@@ -1544,8 +1544,12 @@
 "msg": "병합: main d3666995(CD-0135·0140·0143)를 cd-142 에 받음 — 충돌 없음"
 }
 ],
-"dirtyCount": 25,
+"dirtyCount": 26,
 "dirty": [
+{
+"file": "studio/orders/CD-0144-영웅-상세창-전설-스킬-아이콘만-나열-누르면-이름-설명/90-close.md",
+"at": "2026-11-24 17:22"
+},
 {
 "file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
 "at": "2026-11-24 16:38"
@@ -1573,14 +1577,10 @@
 {
 "file": "studio/orders/CD-0144-영웅-상세창-전설-스킬-아이콘만-나열-누르면-이름-설명/_shots/cd144_b_centre_waldemar_passive_1080x2400.png",
 "at": "2026-11-24 16:38"
-},
-{
-"file": "studio/orders/CD-0144-영웅-상세창-전설-스킬-아이콘만-나열-누르면-이름-설명/_shots/cd144_b_centre_waldemar_passive_1080x1920.png",
-"at": "2026-11-24 16:38"
 }
 ],
-"lastEdit": "2026-11-24 16:38",
-"lastEditTs": 1795505923.914157,
+"lastEdit": "2026-11-24 17:22",
+"lastEditTs": 1795508557.0423484,
 "lastCommitTs": 1795506033,
 "unpushed": 3,
 "notInMain": 3,
@@ -1592,8 +1592,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0146",
-"head": "4059442",
+"head": "6bb4279",
 "commits": [
+{
+"sha": "6bb42798",
+"at": "2026-11-24 17:25",
+"ts": 1795508710,
+"msg": "CD-0146 마감 기록: EditMode Cd35ShopKuji 19/19 · stage 마감 · 90-close 초안"
+},
 {
 "sha": "40594420",
 "at": "2026-11-24 16:22",
@@ -1623,31 +1629,41 @@
 "at": "2026-11-24 15:46",
 "ts": 1795502818,
 "msg": "병합: cd-143 c52ad341(CD-0143 판 안 상단 웨이브↔하트 간격 11→21px · 하트 줄 사이 13→7 · 카드 자리 그대로 · EditMode 필터 31/31 · 캡처 1/1)"
-},
-{
-"sha": "c52ad341",
-"at": "2026-11-24 15:34",
-"ts": 1795502063,
-"msg": "CD-0143 마감: 웨이브↔하트 11→21px(흰 글자 기준) 실측 · EditMode 필터 31/31 · 캡처 1080×1920·1080×2400 · 90-close(하트 그리는 곳 포함)"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 6,
 "dirty": [
 {
-"file": "studio/orders/CD-0146-쿠지-10장-뽑기-제비-여는-연출-뒤에-A상/90-close.md",
-"at": "2026-11-24 16:23"
+"file": "_editmode.xml",
+"at": "2026-11-24 17:24"
+},
+{
+"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+"at": "2026-11-24 17:24"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
+"at": "2026-11-24 17:23"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/font-license.txt",
+"at": "2026-11-24 17:23"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Credits/credits.txt",
+"at": "2026-11-24 17:23"
 },
 {
 "file": "studio/checks.json",
 "at": "2026-11-24 16:22"
 }
 ],
-"lastEdit": "2026-11-24 16:23",
-"lastEditTs": 1795504984.4825606,
-"lastCommitTs": 1795504947,
-"unpushed": 1,
-"notInMain": 1,
-"today": 110
+"lastEdit": "2026-11-24 17:24",
+"lastEditTs": 1795508667.4433854,
+"lastCommitTs": 1795508710,
+"unpushed": 2,
+"notInMain": 2,
+"today": 111
 },
 {
 "branch": "rel-0120",
@@ -1880,7 +1896,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 99,
+"commits": 100,
 "byOrder": [
 [
 "CD-0137",
@@ -1943,6 +1959,10 @@
 3
 ],
 [
+"CD-0146",
+2
+],
+[
 "CD-0141",
 2
 ],
@@ -1979,10 +1999,6 @@
 2
 ],
 [
-"CD-0146",
-1
-],
-[
 "CD-0127",
 1
 ],
@@ -1992,6 +2008,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "6bb42798",
+"at": "2026-11-24 17:25",
+"msg": "CD-0146 마감 기록: EditMode Cd35ShopKuji 19/19 · stage 마감 · 90-close 초안"
+},
 {
 "sha": "eafa37d3",
 "at": "2026-11-24 17:05",
@@ -2036,11 +2057,6 @@
 "sha": "12e69a46",
 "at": "2026-11-24 15:21",
 "msg": "CD-0140 바퀴 5(tall) 완주 · 5바퀴 정리 · F-14 넘김 · 90-close 갱신"
-},
-{
-"sha": "9f8c74c4",
-"at": "2026-11-24 15:21",
-"msg": "CD-0137b 50웨이브 판 스냅숏 크기·저장 수 실측: 챕터 2 1,500판 최대 4,347자(한도 12,000자의 36%) · 계산 상한 약 6,600자 · 판당 웨이브 저장 10번 — 고칠 것 없음 · 보고서 22-report-cd-0137b · 측정 도구 _sim · README·docs/16 숫자 갱신 (제품 코드·Data 변경 없음)"
 }
 ]
 },
@@ -10640,9 +10656,10 @@
 "id": "CD-0144",
 "title": "영웅 상세창 전설 스킬 아이콘만 나열 누르면 이름 설명 말풍선",
 "branch": "cd-144",
-"updated": "2026-11-24 16:38",
+"updated": "2026-11-24 17:22",
 "files": [
 "00-order.md",
+"90-close.md",
 "_editmode.xml",
 "_playmode.xml",
 "_shots"
@@ -10666,24 +10683,24 @@
 "id": "CD-0146",
 "title": "쿠지 10장 뽑기: 제비 여는 연출 뒤에 A상",
 "branch": "cd-146",
-"updated": "2026-11-24 16:23",
+"updated": "2026-11-24 17:25",
 "files": [
 "00-order.md",
 "90-close.md"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "direct",
 "risk": "low",
 "teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -11489,7 +11506,7 @@
 "no": 55,
 "title": "쿠지 10장 뽑기: A상이 제비 여는 연출보다 먼저 나옴",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0140",
@@ -21620,7 +21637,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 17:05",
-"generatedAt": "2026-11-24 17:17",
-"digest": "672c9caeb2c678f9"
+"sourceAt": "2026-11-24 17:25",
+"generatedAt": "2026-11-24 17:39",
+"digest": "b1f0549022fc3e3d"
 }
