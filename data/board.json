@@ -1391,7 +1391,7 @@
 "lane": "cd-141",
 "session": "",
 "owns": "",
-"order": "CD-0140",
+"order": "CD-0135",
 "head": "d366699",
 "commits": [
 {
@@ -1596,9 +1596,15 @@
 "lane": "cd-146",
 "session": "",
 "owns": "",
-"order": "CD-0135",
-"head": "cd16aca",
+"order": "CD-0146",
+"head": "4059442",
 "commits": [
+{
+"sha": "40594420",
+"at": "2026-11-24 16:22",
+"ts": 1795504947,
+"msg": "CD-0146 쿠지 여러 장 연출: A상 등장(④)을 제비 뜯김(⑥) 뒤로"
+},
 {
 "sha": "cd16aca0",
 "at": "2026-11-24 16:08",
@@ -1628,39 +1634,25 @@
 "at": "2026-11-24 15:34",
 "ts": 1795502063,
 "msg": "CD-0143 마감: 웨이브↔하트 11→21px(흰 글자 기준) 실측 · EditMode 필터 31/31 · 캡처 1080×1920·1080×2400 · 90-close(하트 그리는 곳 포함)"
-},
-{
-"sha": "6e6b155c",
-"at": "2026-11-24 15:30",
-"ts": 1795501814,
-"msg": "Merge commit 'f745824e' into cd-143"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 2,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd35ShopKujiEditModeTests.cs",
-"at": "2026-11-24 16:16"
+"file": "studio/orders/CD-0146-쿠지-10장-뽑기-제비-여는-연출-뒤에-A상/90-close.md",
+"at": "2026-11-24 16:23"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
-"at": "2026-11-24 16:16"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Tutorial/OutgameGuide.cs",
-"at": "2026-11-24 16:16"
-},
-{
-"file": "studio/orders/CD-0146-쿠지-10장-뽑기-제비-여는-연출-뒤에-A상/00-order.md",
-"at": "2026-11-24 16:15"
+"file": "studio/checks.json",
+"at": "2026-11-24 16:22"
 }
 ],
-"lastEdit": "2026-11-24 16:16",
-"lastEditTs": 1795504613.1740727,
-"lastCommitTs": 1795504138,
-"unpushed": 0,
-"notInMain": 0,
-"today": 109
+"lastEdit": "2026-11-24 16:23",
+"lastEditTs": 1795504984.4825606,
+"lastCommitTs": 1795504947,
+"unpushed": 1,
+"notInMain": 1,
+"today": 110
 },
 {
 "branch": "rel-0120",
@@ -1794,27 +1786,43 @@
 "msg": "Merge commit 'f745824e' into cd-143"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 13,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/Match/TopBand.cs",
-"at": "2026-11-24 16:14"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd120BarSizeEditModeTests.cs",
-"at": "2026-11-24 16:14"
-},
-{
 "file": "studio/orders/CD-0149-판-안-프로필-이름-반투명-백판-복구-CD-0126-회/90-close.md",
-"at": "2026-11-24 15:57"
+"at": "2026-11-24 16:23"
 },
 {
 "file": "studio/orders/CD-0149-판-안-프로필-이름-반투명-백판-복구-CD-0126-회/00-order.md",
-"at": "2026-11-24 15:57"
+"at": "2026-11-24 16:23"
+},
+{
+"file": "studio/orders/CD-0149-판-안-프로필-이름-반투명-백판-복구-CD-0126-회/_shots/cd149_compare_before_after.png",
+"at": "2026-11-24 16:23"
+},
+{
+"file": "studio/orders/CD-0149-판-안-프로필-이름-반투명-백판-복구-CD-0126-회/_shots/cd126_bar_poor_1080x1920.png",
+"at": "2026-11-24 16:22"
+},
+{
+"file": "studio/orders/CD-0149-판-안-프로필-이름-반투명-백판-복구-CD-0126-회/_shots/cd126_card_lowhero_1080x1920.png",
+"at": "2026-11-24 16:22"
+},
+{
+"file": "studio/orders/CD-0149-판-안-프로필-이름-반투명-백판-복구-CD-0126-회/_shots/cd126_card_notice_1080x1920.png",
+"at": "2026-11-24 16:22"
+},
+{
+"file": "studio/orders/CD-0149-판-안-프로필-이름-반투명-백판-복구-CD-0126-회/_shots/cd126_card_tophero_safe_1080x2400.png",
+"at": "2026-11-24 16:22"
+},
+{
+"file": "studio/orders/CD-0149-판-안-프로필-이름-반투명-백판-복구-CD-0126-회/_shots/cd126_card_tophero_1080x1920.png",
+"at": "2026-11-24 16:22"
 }
 ],
-"lastEdit": "2026-11-24 16:14",
-"lastEditTs": 1795504442.9254375,
+"lastEdit": "2026-11-24 16:23",
+"lastEditTs": 1795505009.8935044,
 "lastCommitTs": 1795504138,
 "unpushed": 0,
 "notInMain": 0,
@@ -1877,7 +1885,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 95,
+"commits": 96,
 "byOrder": [
 [
 "CD-0137",
@@ -1968,6 +1976,10 @@
 2
 ],
 [
+"CD-0146",
+1
+],
+[
 "CD-0144",
 1
 ],
@@ -1981,6 +1993,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "40594420",
+"at": "2026-11-24 16:22",
+"msg": "CD-0146 쿠지 여러 장 연출: A상 등장(④)을 제비 뜯김(⑥) 뒤로"
+},
 {
 "sha": "1b9bfea2",
 "at": "2026-11-24 16:04",
@@ -2025,11 +2042,6 @@
 "sha": "cf2fe3e5",
 "at": "2026-11-24 15:12",
 "msg": "CD-0140 바퀴 4(restart) 완주 · main 23c96838 합침 · o6_legend 넷째 단계가 영영 안 뜨던 것"
-},
-{
-"sha": "1d732bc5",
-"at": "2026-11-24 15:06",
-"msg": "CD-0143 제작: 웨이브 글자와 하트 간격 8→약 18px — 하트 줄 간격 12→6 · 웨이브 4px 위 · 하트 아래 끝 고정 · EditMode 시험(Unity 확인 전)"
 }
 ]
 },
@@ -10652,9 +10664,10 @@
 "id": "CD-0146",
 "title": "쿠지 10장 뽑기: 제비 여는 연출 뒤에 A상",
 "branch": "cd-146",
-"updated": "2026-11-24 16:15",
+"updated": "2026-11-24 16:23",
 "files": [
-"00-order.md"
+"00-order.md",
+"90-close.md"
 ],
 "milestone": "M6",
 "stage": "제작",
@@ -10675,10 +10688,11 @@
 "id": "CD-0149",
 "title": "판 안 프로필·이름 반투명 백판 복구(CD-0126 회귀)",
 "branch": "fix-58",
-"updated": "2026-11-24 15:57",
+"updated": "2026-11-24 16:23",
 "files": [
 "00-order.md",
-"90-close.md"
+"90-close.md",
+"_shots"
 ],
 "milestone": "M6",
 "stage": "제작",
@@ -21355,11 +21369,11 @@
 "checks": {
 "core": {
 "name": "Core 규칙 (dotnet test)",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
-"passed": 1118,
+"at": "2026-11-24 16:17",
+"commit": "cd16aca0+수정",
+"passed": 1135,
 "failed": 0,
-"total": 1119,
+"total": 1136,
 "ok": true
 },
 "unity": {
@@ -21374,8 +21388,8 @@
 },
 "data": {
 "name": "수치 데이터 검사",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
+"at": "2026-11-24 16:17",
+"commit": "cd16aca0+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21383,8 +21397,8 @@
 },
 "art": {
 "name": "그림 규격·목록·장부 (art/tools/check.py)",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
+"at": "2026-11-24 16:17",
+"commit": "cd16aca0+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21392,8 +21406,8 @@
 },
 "canon": {
 "name": "설정 검사: 금지어·이름 일치 (tools/canon_lint.py)",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
+"at": "2026-11-24 16:17",
+"commit": "cd16aca0+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21401,8 +21415,8 @@
 },
 "notices": {
 "name": "공지 파일 검사 (tools/notices_check.py)",
-"at": "2026-11-24 11:44",
-"commit": "3fe367c2",
+"at": "2026-11-24 16:17",
+"commit": "cd16aca0+수정",
 "passed": 1,
 "failed": 0,
 "total": 1,
@@ -21604,7 +21618,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 16:16",
-"generatedAt": "2026-11-24 16:17",
-"digest": "d338fbfe962e7ec6"
+"sourceAt": "2026-11-24 16:23",
+"generatedAt": "2026-11-24 16:29",
+"digest": "20db1c155181a9be"
 }
