@@ -1391,9 +1391,15 @@
 "lane": "cd-125c",
 "session": "",
 "owns": "",
-"order": "CD-0133",
-"head": "b265dba",
+"order": "CD-0125",
+"head": "87f896e",
 "commits": [
+{
+"sha": "87f896e9",
+"at": "2026-11-24 10:02",
+"ts": 1795482122,
+"msg": "CD-0125c: 판 안 스킬 아이콘 — 칸 팝업 전설 슬롯에 액티브 아이콘(누르면 설명 말풍선) · 능력치 카드 스킬 줄 앞 아이콘 · 진화 시트 72 아이콘 터치 영역 126(HitPad, 그림 크기 그대로) · EditMode 필터 8/8 · PlayMode 필터 3/3(Cd39 A15 통과)"
+},
 {
 "sha": "b265dbae",
 "at": "2026-11-24 08:46",
@@ -1423,55 +1429,21 @@
 "at": "2026-11-24 02:56",
 "ts": 1795456619,
 "msg": "병합: cd-139 e71d1443(CD-0139 서버 계정일 때 겹친 명령 줄 세워 보내기(8개까지) · 명령+인자 같은 중복은 버림 · 기기 안 서버 그대로 · 켜기 전 막는 항목 0 · EditMode 필터 147/147 · 전체 1144/1144 · PlayMode 21/0/2 · 실제 서버 1/1 · 스위치 끔)"
-},
-{
-"sha": "e71d1443",
-"at": "2026-11-24 02:56",
-"ts": 1795456597,
-"msg": "CD-0139: 서버 계정일 때 겹친 명령을 줄 세워 보내기 · 같은 명령 두 번은 한 번만(EditMode 전체 1144/1144 · PlayMode 21/0/2 · 실제 서버 시험 통과) · 절차서의 막는 항목 해결 · 단계 마감"
 }
 ],
-"dirtyCount": 8,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "studio/orders/CD-0125-전설-영웅-스킬-아이콘-스킬-정보를-아이콘으로-표기/90-close.md",
-"at": "2026-11-24 08:56"
-},
-{
-"file": "studio/orders/CD-0125-전설-영웅-스킬-아이콘-스킬-정보를-아이콘으로-표기/00-order.md",
-"at": "2026-11-24 08:52"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd32LegendTests.cs",
-"at": "2026-11-24 08:52"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/CellPopup.cs",
-"at": "2026-11-24 08:52"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd125SkillIconEditModeTests.cs",
-"at": "2026-11-24 08:52"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/StatCard.cs",
-"at": "2026-11-24 08:52"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/MatchScreen.cs",
-"at": "2026-11-24 08:52"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/SkillBadge.cs",
-"at": "2026-11-24 08:51"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-24 10:01"
 }
 ],
-"lastEdit": "2026-11-24 08:56",
-"lastEditTs": 1795478194.7835605,
-"lastCommitTs": 1795477575,
-"unpushed": 0,
-"notInMain": 0,
-"today": 42
+"lastEdit": "2026-11-24 10:01",
+"lastEditTs": 1795482088.0679455,
+"lastCommitTs": 1795482122,
+"unpushed": 1,
+"notInMain": 1,
+"today": 43
 },
 {
 "branch": "cd-126",
@@ -1577,8 +1549,32 @@
 "msg": "Merge commit '09c24038' into cd-126"
 }
 ],
-"dirtyCount": 11,
+"dirtyCount": 16,
 "dirty": [
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd134TutorialFixEditModeTests.cs",
+"at": "2026-11-24 10:02"
+},
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd134GuideTourTests.cs",
+"at": "2026-11-24 10:01"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/AchievementBanner.cs",
+"at": "2026-11-24 10:01"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Tutorial/TutorialGuide.cs",
+"at": "2026-11-24 10:01"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Match/SystemBar.cs",
+"at": "2026-11-24 10:01"
+},
+{
+"file": "studio/orders/CD-0134-튜토리얼-QA-및-밸런스-검토-QA봇-5바퀴-1-1-1/laps/lap-01/auto.md",
+"at": "2026-11-24 09:57"
+},
 {
 "file": "studio/orders/CD-0134-튜토리얼-QA-및-밸런스-검토-QA봇-5바퀴-1-1-1/laps/lap-01/run.jsonl",
 "at": "2026-11-24 09:31"
@@ -1586,34 +1582,10 @@
 {
 "file": "UnityProject/Assets/InitTestScene9ca87640-bac5-4272-a860-4818f34d25b4.unity.meta",
 "at": "2026-11-24 09:26"
-},
-{
-"file": "UnityProject/Assets/InitTestScene9ca87640-bac5-4272-a860-4818f34d25b4.unity",
-"at": "2026-11-24 09:26"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd134GuideTourTests.cs",
-"at": "2026-11-24 09:26"
-},
-{
-"file": "UnityProject/Assets/InitTestScene26340a35-e5d3-4233-a098-375cc19656b5.unity.meta",
-"at": "2026-11-24 08:55"
-},
-{
-"file": "UnityProject/Assets/InitTestScene26340a35-e5d3-4233-a098-375cc19656b5.unity",
-"at": "2026-11-24 08:55"
-},
-{
-"file": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
-"at": "2026-11-24 08:55"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Credits/code-licenses.txt",
-"at": "2026-11-24 08:55"
 }
 ],
-"lastEdit": "2026-11-24 09:31",
-"lastEditTs": 1795480269.1207914,
+"lastEdit": "2026-11-24 10:02",
+"lastEditTs": 1795482129.8680954,
 "lastCommitTs": 1795477985,
 "unpushed": 3,
 "notInMain": 3,
@@ -1793,7 +1765,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 59,
+"commits": 60,
 "byOrder": [
 [
 "CD-0137",
@@ -1806,6 +1778,10 @@
 [
 "CD-0133",
 5
+],
+[
+"CD-0125",
+4
 ],
 [
 "CD-0126",
@@ -1821,10 +1797,6 @@
 ],
 [
 "CD-0130",
-3
-],
-[
-"CD-0125",
 3
 ],
 [
@@ -1874,6 +1846,11 @@
 ],
 "latest": [
 {
+"sha": "87f896e9",
+"at": "2026-11-24 10:02",
+"msg": "CD-0125c: 판 안 스킬 아이콘 — 칸 팝업 전설 슬롯에 액티브 아이콘(누르면 설명 말풍선) · 능력치 카드 스킬 줄 앞 아이콘 · 진화 시트 72 아이콘 터치 영역 126(HitPad, 그림 크기 그대로) · EditMode 필터 8/8 · PlayMode 필터 3/3(Cd39 A15 통과)"
+},
+{
 "sha": "217347d0",
 "at": "2026-11-24 09:00",
 "msg": "CD-0137 작업 중: 실제 서버 시험에 저장 → 파일 없이 로비 → 이어 하기 → 포기 단계(Unity 확인 전)"
@@ -1917,11 +1894,6 @@
 "sha": "e65bd183",
 "at": "2026-11-24 08:38",
 "msg": "CD-0137: 결정 0109 기록(서버 이어하기 — 싱글 먼저 · 시간 제한 없음 · 5웨이브마다 서버 저장 · 카드 그대로 · 끝나지 않은 판이 있으면 새 출전 없음 · 스위치는 이 주문 뒤)"
-},
-{
-"sha": "73adb72d",
-"at": "2026-11-24 08:37",
-"msg": "CD-0137: 기획서 확정(구현 세부 · 검증 방법 · 결정 0109 · 순서 «지금 구현» · 스위치는 이 주문 뒤) · gate spec"
 }
 ]
 },
@@ -9845,7 +9817,7 @@
 "id": "CD-0125",
 "title": "전설 영웅 스킬 아이콘 · 스킬 정보를 아이콘으로 표기",
 "branch": "cd-125c",
-"updated": "2026-11-24 08:56",
+"updated": "2026-11-24 10:01",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -9854,13 +9826,13 @@
 "90-close.md"
 ],
 "milestone": "M1",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "low",
 "teams": "art, client",
 "opened": "2026-11-23",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>전설 영웅의 스킬마다 아이콘 그림(Codex)을 하나 만들고, 스킬이 보이는 다섯 자리에서 글자 대신(또는 글자 앞에) 그 아이콘을 보여 준다. 아이콘을 누르면 스킬 설명(이름·발동 조건·효과·재사용 대기)을 말풍선으로 본다.</p>",
 "goalShort": "전설 영웅의 스킬마다",
@@ -9871,8 +9843,8 @@
 "team": "art",
 "title": "액티브 2장 + 패시브 2장(gen.py sk125c_, 한 Codex 세션) → art/tools/skill_icons.py 로 모양대로 자르기",
 "output": "art/final/ui/skill_<id>.png · trait_<id>.png, 목록·장부",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "C1",
@@ -9880,11 +9852,11 @@
 "team": "client",
 "title": "SkillBadge(칸·금테·말풍선) + 세 자리 표기",
 "output": "UI/SkillBadge.cs, CharacterScreen · EvolveSheet · LegendReveal",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -10894,7 +10866,7 @@
 "no": 43,
 "title": "전설 영웅 스킬 아이콘 제작 · 스킬 정보를 아이콘으로 표기",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0125"
@@ -23822,7 +23794,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 09:31",
-"generatedAt": "2026-11-24 09:41",
-"digest": "dfe987035bdc1c74"
+"sourceAt": "2026-11-24 10:02",
+"generatedAt": "2026-11-24 10:02",
+"digest": "8aaee99d5161089d"
 }
