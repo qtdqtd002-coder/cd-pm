@@ -1392,8 +1392,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0141",
-"head": "b1d68e4",
+"head": "ac3633d",
 "commits": [
+{
+"sha": "ac3633d0",
+"at": "2026-11-24 18:17",
+"ts": 1795511866,
+"msg": "CD-0141 마감: 중복 MapWindowOpen 지움 · 새 EditMode 시험 .meta · 90-close"
+},
 {
 "sha": "b1d68e43",
 "at": "2026-11-24 18:06",
@@ -1423,54 +1429,28 @@
 "at": "2026-11-24 17:39",
 "ts": 1795509577,
 "msg": "병합: cd-146 6bb42798(CD-0146 쿠지 10장·모두 뽑기 순서 놓임 → 뜯김 → A상 영웅 · 종 한 번 · EditMode Cd35ShopKuji 19/19)"
-},
-{
-"sha": "6bb42798",
-"at": "2026-11-24 17:25",
-"ts": 1795508710,
-"msg": "CD-0146 마감 기록: EditMode Cd35ShopKuji 19/19 · stage 마감 · 90-close 초안"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 1,
 "dirty": [
-{
-"file": "studio/orders/CD-0141-모든-튜토리얼-단계-시작-때-관계없는-창-강제로-닫기/00-order.md",
-"at": "2026-11-24 18:17"
-},
-{
-"file": "studio/orders/CD-0141-모든-튜토리얼-단계-시작-때-관계없는-창-강제로-닫기/90-close.md",
-"at": "2026-11-24 18:17"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-24 18:16"
-},
-{
-"file": "studio/orders/CD-0141-모든-튜토리얼-단계-시작-때-관계없는-창-강제로-닫기/10-spec.md",
-"at": "2026-11-24 18:15"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/LobbyScreen.Panel.cs",
-"at": "2026-11-24 18:14"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd141CloseForGuideEditModeTests.cs.meta",
-"at": "2026-11-24 18:14"
 }
 ],
-"lastEdit": "2026-11-24 18:17",
-"lastEditTs": 1795511852.476889,
-"lastCommitTs": 1795511219,
-"unpushed": 4,
-"notInMain": 4,
-"today": 122
+"lastEdit": "2026-11-24 18:16",
+"lastEditTs": 1795511796.531759,
+"lastCommitTs": 1795511866,
+"unpushed": 5,
+"notInMain": 5,
+"today": 123
 },
 {
 "branch": "cd-144",
 "lane": "cd-144",
 "session": "",
 "owns": "",
-"order": "CD-0144",
+"order": "CD-0146",
 "head": "70a1102",
 "commits": [
 {
@@ -1529,9 +1509,15 @@
 "lane": "cd-145",
 "session": "",
 "owns": "",
-"order": "CD-0144",
-"head": "b47ff21",
+"order": "CD-0145",
+"head": "87b2587",
 "commits": [
+{
+"sha": "87b25873",
+"at": "2026-11-24 18:18",
+"ts": 1795511924,
+"msg": "CD-0145 인게임 능력치 아이콘을 영웅 상세창 선 아이콘으로 통일 + 상세창 등급·이름 간격"
+},
 {
 "sha": "b47ff21a",
 "at": "2026-11-24 18:01",
@@ -1561,55 +1547,16 @@
 "at": "2026-11-24 17:25",
 "ts": 1795508710,
 "msg": "CD-0146 마감 기록: EditMode Cd35ShopKuji 19/19 · stage 마감 · 90-close 초안"
-},
-{
-"sha": "e7e815cd",
-"at": "2026-11-24 16:40",
-"ts": 1795506033,
-"msg": "CD-0144: 열린 스킬 말풍선을 IRelayout 으로 다시 놓기(캡처·창 크기 변경에서 말풍선이 화면 밖으로 밀리던 것) · 시험 meta · EditMode 9/9"
 }
 ],
-"dirtyCount": 8,
-"dirty": [
-{
-"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
-"at": "2026-11-24 18:12"
-},
-{
-"file": "docs/decisions/0087-영웅-탭-A-밤-유리-등급-색-겹-꺾쇠-표식-종족-구분-표식-허용-글자-규칙-예외.md",
-"at": "2026-11-24 18:12"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd145StatIconEditModeTests.cs",
-"at": "2026-11-24 18:12"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd37StatCardTests.cs",
-"at": "2026-11-24 18:11"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/ResultScreen.cs",
-"at": "2026-11-24 18:11"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/StatCard.cs",
-"at": "2026-11-24 18:11"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/HeroMarks.cs",
-"at": "2026-11-24 18:10"
-},
-{
-"file": "studio/orders/CD-0145-스탯-아이콘-상세창-기준-통일-상세창-등급-이름-간격/00-order.md",
-"at": "2026-11-24 18:07"
-}
-],
-"lastEdit": "2026-11-24 18:12",
-"lastEditTs": 1795511575.256661,
-"lastCommitTs": 1795510906,
-"unpushed": 0,
-"notInMain": 0,
-"today": 118
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795511924,
+"unpushed": 1,
+"notInMain": 1,
+"today": 119
 },
 {
 "branch": "cd-148",
@@ -1913,7 +1860,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 103,
+"commits": 104,
 "byOrder": [
 [
 "CD-0137",
@@ -2016,6 +1963,10 @@
 2
 ],
 [
+"CD-0145",
+1
+],
+[
 "CD-0148",
 1
 ],
@@ -2029,6 +1980,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "87b25873",
+"at": "2026-11-24 18:18",
+"msg": "CD-0145 인게임 능력치 아이콘을 영웅 상세창 선 아이콘으로 통일 + 상세창 등급·이름 간격"
+},
 {
 "sha": "ac3633d0",
 "at": "2026-11-24 18:17",
@@ -2073,11 +2029,6 @@
 "sha": "1b9bfea2",
 "at": "2026-11-24 16:04",
 "msg": "CD-0142 마감: 판 안 미해금 키 잠금 표시 — EditMode 42/42 · 캡처 1/1 · 빌드 대기"
-},
-{
-"sha": "5750bf9e",
-"at": "2026-11-24 15:52",
-"msg": "CD-0144: 영웅 상세창 전설 스킬 — 아이콘만 나열, 누르면 이름·설명 말풍선"
 }
 ]
 },
@@ -10705,23 +10656,23 @@
 "id": "CD-0145",
 "title": "스탯 아이콘 상세창 기준 통일 + 상세창 등급·이름 간격",
 "branch": "cd-145",
-"updated": "2026-11-24 18:07",
+"updated": "2026-11-24 18:18",
 "files": [
 "00-order.md"
 ],
 "milestone": "M1",
-"stage": "접수",
+"stage": "제작",
 "route": "direct",
 "risk": "low",
 "teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "new",
+"phase": "doing",
 "builtIn": ""
 },
 {
@@ -11547,7 +11498,7 @@
 "no": 53,
 "title": "CD-0125 피드백: 영웅 상세창 전설 스킬 — 아이콘만 나열, 누르면 이름·설명 말풍선",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "mid",
 "orders": [
 "CD-0125",
@@ -11562,7 +11513,7 @@
 "no": 54,
 "title": "영웅 상세창 기준으로 인게임 스탯 아이콘 통일 + 상세창 등급·이름 간격 벌리기",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "mid",
 "orders": [
 "CD-0144",
@@ -12548,7 +12499,7 @@
 "by": "사용자(시안 A·B·C 중 A 선택, 폴리싱 의견 다섯 차례 — 원문은 `studio/orders/CD-0063-…/00-order.md`) · 번호는 관제",
 "html": "<div class=tw><table><thead><tr><th>무엇</th><th>결정</th></tr></thead><tbody><tr><td>방향</td><td>영웅 탭은 어두운 남색 바탕 한 장에 그림이 카드를 가득 채우는 구성. 등급별 큰 색 판을 없앤다. 정보창은 가운데 작은 창이 아니라 탭 영역 전체.</td></tr><tr><td>등급 색</td><td>일반 회색 #9AA1AD · 고급 녹색 #5FC46E · 희귀 파랑 #5B9BFF · 영웅 보라 #A879F2 · 전설 노랑 #FFD04A. (옛: 4단계 = 금색, 전설 = 보라 + 금) 화면에 등급 글자를 쓰지 않는 규칙(결정 0049)은 그대로.</td></tr><tr><td>등급 표식</td><td>1~4단계 = «겹 꺾쇠» 1~4줄(등급 색). 전설 = «꺾쇠 왕관»(금빛 꺾쇠 두 줄 위에 왕관). 마름모 핍은 영웅 탭에서 쓰지 않는다. 코드로 그린다.</td></tr><tr><td>연출</td><td><strong>1~4단계는 좋아 보이게 꾸미지 않는다</strong> — 1px 색 테두리뿐, 빛·포일·움직임 없음(4단계 카드의 <code>CD/UiHolo</code> 를 끈다). <strong>전설부터</strong> 금빛 테두리·은은한 빛·빛 줄기·정보창 뒤 광선.</td></tr><tr><td>카드 글자</td><td>레벨은 «Lv.n» 글자만(알약·판 없음). 수량 «n/m» 글자는 카드에서 빼고 3px 선으로. 초월 «+n» 은 레벨 옆이 아니라 이름 오른쪽에 균열석 색 기울인 숫자.</td></tr><tr><td>종족 구분 표식</td><td><strong>결정 0012 «종족의 상징 없음» 을 갱신한다</strong>: 불·얼음·번개 같은 속성 상징과 원소색으로 종족을 가르는 것은 계속 금지. 종족의 <strong>생김새·도구로 만든 한 가지 색 구분 표식</strong>은 허용 — 인간 = 검 · 엘프 = 잎 · 드워프 = 망치 · 수인 = 발바닥 · 정령 = 방울 · 용족 = 날개. 쓰는 곳은 영웅 탭의 종족 고르기와 정보창의 종족 줄. 상성·속성 규칙은 여전히 없다.</td></tr><tr><td>능력치 아이콘</td><td>영웅 탭의 공격력·공격속도·사거리 아이콘은 한 가지 색 선 아이콘(<code>ui/mark_stat_*</code>, 없으면 코드 그림). ~~채색 그림 <code>ui/icon_stat_*</code> 은 인게임 카드에만 남는다.~~ → <strong>CD-0145 고침: 인게임 능력치 카드와 결과창 피해량 알약도 같은 선 아이콘·같은 색(<code>HeroMarks.StatInk</code>)을 쓴다. 채색 그림은 더 쓰지 않는다</strong>(아래 «고침 이력»).</td></tr><tr><td>전설 정보창</td><td>레벨 업과 초월을 한 화면에 나란히. 전설의 레벨은 그 종족 4단계 영웅의 레벨(Core 규칙 그대로)이므로, 전설 화면의 [레벨 업] 은 4단계 영웅을 레벨 업한다(재료 = 그 영웅의 중복 + 은화).</td></tr><tr><td>글자 규칙</td><td>결정 0057(밝은 글자는 모두 «누끼», 글꼴 한 벌 Black)을 <strong>아웃게임 화면 공통으로 갱신</strong>(사용자 답 2026-11-22 «아웃게임 공통»): 아웃게임의 밝은 글자는 테두리 없이 짧은 그림자만. 글꼴은 Black 한 벌 그대로(자산 추가 없음). CD-0063 은 공용 프리셋을 만들고 영웅 탭에 적용한다 — 로비·뽑기·업적·상점 등 다른 화면은 각 주문(CD-0060·0064·0065 등)이 관제 안내에 따라 옮긴다. 인게임 글자는 결정 0057 그대로.</td></tr></tbody></table></div>",
 "branch": "cd-145",
-"dirty": true
+"dirty": false
 },
 {
 "id": "0089",
@@ -21722,7 +21673,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 18:17",
-"generatedAt": "2026-11-24 18:17",
-"digest": "bd3393ce6094aab9"
+"sourceAt": "2026-11-24 18:18",
+"generatedAt": "2026-11-24 18:23",
+"digest": "f491f40f94f643a4"
 }
