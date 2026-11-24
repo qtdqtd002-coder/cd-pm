@@ -1387,72 +1387,31 @@
 "today": 72
 },
 {
-"branch": "cd-134",
-"lane": "cd-134",
-"session": "",
-"owns": "",
-"order": "CD-0134",
-"head": "b23b78d",
-"commits": [
-{
-"sha": "b23b78dd",
-"at": "2026-11-24 10:49",
-"ts": 1795484963,
-"msg": "CD-0134 바퀴 2 마감: 안내 고침 4건 더(F-08 뽑기 안내 멈춤 · F-09 우편 창 위 배너 · F-10 구매 확인 위 안내 · F-12 초월 안내) + 바퀴 2 완주 기록"
-},
-{
-"sha": "30554d3b",
-"at": "2026-11-24 10:16",
-"ts": 1795482963,
-"msg": "병합: main e71d7852 → cd-134(CD-0125c 판 안 스킬 아이콘)"
-},
-{
-"sha": "3f98f989",
-"at": "2026-11-24 10:16",
-"ts": 1795482962,
-"msg": "CD-0134 90-close 초안(바퀴 2 결과 자리 비움)"
-},
-{
-"sha": "22ad3b44",
-"at": "2026-11-24 10:03",
-"ts": 1795482221,
-"msg": "CD-0134 바퀴 1: 안내 고침 4건 + 봇 고침 5건 + 바퀴 1 기록"
-},
-{
-"sha": "e71d7852",
-"at": "2026-11-24 10:03",
-"ts": 1795482202,
-"msg": "병합: cd-125c 87f896e9(CD-0125c 판 안 스킬 아이콘 — 전설 칸 팝업 아이콘+이름 탭·말풍선 · 능력치 카드 스킬 두 줄 앞 아이콘 · 진화 시트 HitPad 126(Cd39 A15 고침) · EditMode 필터 8/8 · PlayMode 3/3)"
-},
-{
-"sha": "87f896e9",
-"at": "2026-11-24 10:02",
-"ts": 1795482122,
-"msg": "CD-0125c: 판 안 스킬 아이콘 — 칸 팝업 전설 슬롯에 액티브 아이콘(누르면 설명 말풍선) · 능력치 카드 스킬 줄 앞 아이콘 · 진화 시트 72 아이콘 터치 영역 126(HitPad, 그림 크기 그대로) · EditMode 필터 8/8 · PlayMode 필터 3/3(Cd39 A15 통과)"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-24 10:31"
-}
-],
-"lastEdit": "2026-11-24 10:31",
-"lastEditTs": 1795483892.0062706,
-"lastCommitTs": 1795484963,
-"unpushed": 0,
-"notInMain": 0,
-"today": 51
-},
-{
 "branch": "cd-135",
 "lane": "cd-135",
 "session": "",
 "owns": "",
 "order": "CD-0135",
-"head": "1368d84",
+"head": "ee7c4f4",
 "commits": [
+{
+"sha": "ee7c4f45",
+"at": "2026-11-24 13:40",
+"ts": 1795495209,
+"msg": "CD-0135 결정 0110·기획서: 게르하르트 «이미 가진 사람은 유지»(옛 소유 유지 표시) 반영"
+},
+{
+"sha": "3c9ad379",
+"at": "2026-11-24 13:30",
+"ts": 1795494611,
+"msg": "CD-0135 P1 데이터: 챕터 2 = 한 판 50웨이브(보스 25·50) · 2-2~2-10 지움 · waveTiers 50까지 · waveMilestones(25 첫 돌파) · 게르하르트 gate_04_01 · mapindex plan 한 판 꼴 · validate_data·gen_stages 새 꼴"
+},
+{
+"sha": "3753e5f1",
+"at": "2026-11-24 13:19",
+"ts": 1795493956,
+"msg": "CD-0135 기획서 확정: 사용자 답 반영(보스 25·50 · 25 첫 돌파 보상 · 게르하르트 챕터 2 클리어 · «챕터 2» · 소환 칸 그대로) · 결정 0110 · gate spec"
+},
 {
 "sha": "1368d84d",
 "at": "2026-11-24 11:56",
@@ -1470,93 +1429,49 @@
 "at": "2026-11-24 11:49",
 "ts": 1795488575,
 "msg": "기록: 앱 0.12.0 배포 — devlog 2026-11-24 · 폰 확인 목록 · checks.json(main 3fe367c2)"
-},
-{
-"sha": "3fe367c2",
-"at": "2026-11-24 11:38",
-"ts": 1795487920,
-"msg": "병합: rel-0120(앱 0.12.0 · versionCode 16 배포 — 버전·크레딧·content state 322126c8·공지 app_0_12_0)"
-},
-{
-"sha": "f60c4206",
-"at": "2026-11-24 11:34",
-"ts": 1795487692,
-"msg": "공지 app_0_12_0(notices_v2, notices_check 통과, 28항목)"
-},
-{
-"sha": "7bfe7368",
-"at": "2026-11-24 11:34",
-"ts": 1795487664,
-"msg": "앱 0.12.0 · versionCode 16 (CD-0084·0095·0113~0117·0120~0134·0137·0139) content state(base_id 322126c8)"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795488967,
-"unpushed": 2,
-"notInMain": 2,
-"today": 74
-},
-{
-"branch": "cd-137",
-"lane": "cd-137",
-"session": "",
-"owns": "",
-"order": "CD-0137",
-"head": "110c469",
-"commits": [
-{
-"sha": "110c4699",
-"at": "2026-11-24 11:01",
-"ts": 1795485718,
-"msg": "문서: 0.12.0 빌드 커밋(d06d6044)으로 모듈 재배포한 기록 — 데이터 해시 749afa417b468be1 · 올린 직후 첫 호출 504 한 번 · 시험 흔적 21명"
-},
-{
-"sha": "d06d6044",
-"at": "2026-11-24 10:54",
-"ts": 1795485288,
-"msg": "병합: cd-137 1e4c6117(CD-0137 서버 이어하기(싱글) — match.checkpoint·load·forfeit · 끝나지 않은 판이면 새 출전 거절 · 5웨이브마다 서버 저장(Data/account.json) · 이어 하기 카드 그대로 · 결정 0109 · Server 296 · 모듈 49 · EditMode 전체 1181/1181 · PlayMode 16/0/2 · 실제 서버 1/1 · 스위치 끔)"
-},
-{
-"sha": "1e4c6117",
-"at": "2026-11-24 10:50",
-"ts": 1795485036,
-"msg": "CD-0137: 서버 이어하기(싱글) 마감 — 실제 서버 시험 통과 · 모듈 재배포 기록 · 절차서 흔적 목록 · 빌드 대기"
-},
-{
-"sha": "63be0320",
-"at": "2026-11-24 10:49",
-"ts": 1795484986,
-"msg": "병합: cd-134 b23b78dd(CD-0134 튜토리얼 QA 봇 바퀴 1·2 — 안내 고침 9건(F-01~05·08~10·12, 뽑기 확인 두 번에 안내 사슬 멈춤 등) · 2-1 임시 완화 · EditMode 필터 185/185 · 바퀴 3~5 는 다음 주문)"
-},
-{
-"sha": "b23b78dd",
-"at": "2026-11-24 10:49",
-"ts": 1795484963,
-"msg": "CD-0134 바퀴 2 마감: 안내 고침 4건 더(F-08 뽑기 안내 멈춤 · F-09 우편 창 위 배너 · F-10 구매 확인 위 안내 · F-12 초월 안내) + 바퀴 2 완주 기록"
-},
-{
-"sha": "30554d3b",
-"at": "2026-11-24 10:16",
-"ts": 1795482963,
-"msg": "병합: main e71d7852 → cd-134(CD-0125c 판 안 스킬 아이콘)"
-}
-],
-"dirtyCount": 1,
+"dirtyCount": 40,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-24 10:07"
+"file": "Data/waves.json",
+"at": "2026-11-24 13:40"
+},
+{
+"file": "studio/orders/CD-0135-챕터-개편-2장-1판-50웨이브-챕터별-목표-웨이브-밸/_sim/params.json",
+"at": "2026-11-24 13:40"
+},
+{
+"file": "studio/orders/CD-0135-챕터-개편-2장-1판-50웨이브-챕터별-목표-웨이브-밸/_sim/p2/t5/run-meta.json",
+"at": "2026-11-24 13:40"
+},
+{
+"file": "studio/orders/CD-0135-챕터-개편-2장-1판-50웨이브-챕터별-목표-웨이브-밸/_sim/p2/t5/summary.md",
+"at": "2026-11-24 13:40"
+},
+{
+"file": "studio/orders/CD-0135-챕터-개편-2장-1판-50웨이브-챕터별-목표-웨이브-밸/_sim/p2/t5/summary.json",
+"at": "2026-11-24 13:40"
+},
+{
+"file": "studio/orders/CD-0135-챕터-개편-2장-1판-50웨이브-챕터별-목표-웨이브-밸/_sim/p2/t5/runs.jsonl",
+"at": "2026-11-24 13:40"
+},
+{
+"file": "Core/package/Runtime/Meta/AccountCodec.cs",
+"at": "2026-11-24 13:40"
+},
+{
+"file": "studio/orders/CD-0135-챕터-개편-2장-1판-50웨이브-챕터별-목표-웨이브-밸/_sim/p2/t4/run-meta.json",
+"at": "2026-11-24 13:39"
 }
 ],
-"lastEdit": "2026-11-24 10:07",
-"lastEditTs": 1795482455.140436,
-"lastCommitTs": 1795485718,
-"unpushed": 0,
-"notInMain": 0,
-"today": 67
+"lastEdit": "2026-11-24 13:40",
+"lastEditTs": 1795495223.9455397,
+"lastCommitTs": 1795495209,
+"unpushed": 5,
+"notInMain": 5,
+"today": 77
 },
 {
 "branch": "cd-140",
@@ -1603,10 +1518,43 @@
 "msg": "버전 0.12.0 · versionCode 16 + 크레딧 갱신(화면 그림 147) — 묶음 QA EditMode 1186/1186 · PlayMode 386/0/92"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 126,
+"dirty": [
+{
+"file": "UnityProject/Assets/Tests/PlayMode/Cd35ShopKujiTests.cs",
+"at": "2026-11-24 13:39"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd134TutorialFixEditModeTests.cs",
+"at": "2026-11-24 13:39"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd35ShopKujiEditModeTests.cs",
+"at": "2026-11-24 13:39"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
+"at": "2026-11-24 13:38"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Data/tutorial.json",
+"at": "2026-11-24 13:38"
+},
+{
+"file": "Data/tutorial.json",
+"at": "2026-11-24 13:38"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/ShopScreen.cs",
+"at": "2026-11-24 13:37"
+},
+{
+"file": "studio/orders/CD-0140-튜토리얼-QA-후속-바퀴-3-5-1-5-광부-고용-안내/laps/lap-03/auto.md",
+"at": "2026-11-24 13:33"
+}
+],
+"lastEdit": "2026-11-24 13:39",
+"lastEditTs": 1795495192.2214966,
 "lastCommitTs": 1795489444,
 "unpushed": 1,
 "notInMain": 1,
@@ -1756,7 +1704,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 73,
+"commits": 76,
 "byOrder": [
 [
 "CD-0137",
@@ -1765,6 +1713,10 @@
 [
 "CD-0121",
 6
+],
+[
+"CD-0135",
+5
 ],
 [
 "CD-0134",
@@ -1807,10 +1759,6 @@
 3
 ],
 [
-"CD-0135",
-2
-],
-[
 "CD-0139",
 2
 ],
@@ -1849,6 +1797,21 @@
 ],
 "latest": [
 {
+"sha": "ee7c4f45",
+"at": "2026-11-24 13:40",
+"msg": "CD-0135 결정 0110·기획서: 게르하르트 «이미 가진 사람은 유지»(옛 소유 유지 표시) 반영"
+},
+{
+"sha": "3c9ad379",
+"at": "2026-11-24 13:30",
+"msg": "CD-0135 P1 데이터: 챕터 2 = 한 판 50웨이브(보스 25·50) · 2-2~2-10 지움 · waveTiers 50까지 · waveMilestones(25 첫 돌파) · 게르하르트 gate_04_01 · mapindex plan 한 판 꼴 · validate_data·gen_stages 새 꼴"
+},
+{
+"sha": "3753e5f1",
+"at": "2026-11-24 13:19",
+"msg": "CD-0135 기획서 확정: 사용자 답 반영(보스 25·50 · 25 첫 돌파 보상 · 게르하르트 챕터 2 클리어 · «챕터 2» · 소환 칸 그대로) · 결정 0110 · gate spec"
+},
+{
 "sha": "a7881020",
 "at": "2026-11-24 12:04",
 "msg": "CD-0140 1단계: F-11 1-5 광부 고용 안내(t16_mine) · F-06 경험치 아이콘 금빛 별(draft) · F-07 설계안"
@@ -1882,21 +1845,6 @@
 "sha": "1580cfd3",
 "at": "2026-11-24 11:28",
 "msg": "버전 0.12.0 · versionCode 16 + 크레딧 갱신(화면 그림 147) — 묶음 QA EditMode 1186/1186 · PlayMode 386/0/92"
-},
-{
-"sha": "110c4699",
-"at": "2026-11-24 11:01",
-"msg": "문서: 0.12.0 빌드 커밋(d06d6044)으로 모듈 재배포한 기록 — 데이터 해시 749afa417b468be1 · 올린 직후 첫 호출 504 한 번 · 시험 흔적 21명"
-},
-{
-"sha": "1e4c6117",
-"at": "2026-11-24 10:50",
-"msg": "CD-0137: 서버 이어하기(싱글) 마감 — 실제 서버 시험 통과 · 모듈 재배포 기록 · 절차서 흔적 목록 · 빌드 대기"
-},
-{
-"sha": "b23b78dd",
-"at": "2026-11-24 10:49",
-"msg": "CD-0134 바퀴 2 마감: 안내 고침 4건 더(F-08 뽑기 안내 멈춤 · F-09 우편 창 위 배너 · F-10 구매 확인 위 안내 · F-12 초월 안내) + 바퀴 2 완주 기록"
 }
 ]
 },
@@ -10190,19 +10138,21 @@
 "id": "CD-0135",
 "title": "챕터 개편 — 2장 1판 50웨이브 · 챕터별 목표 웨이브 · 밸런스",
 "branch": "cd-135",
-"updated": "2026-11-24 11:56",
+"updated": "2026-11-24 13:40",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"21-planning.md",
+"_sim"
 ],
 "milestone": "M2",
-"stage": "접수",
+"stage": "제작",
 "route": "full",
 "risk": "mid",
 "teams": "planning, core, client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "<ul>\n<li>2장 «갈대 관문» 을 <strong>스테이지 하나</strong>로 줄이고, <strong>50웨이브를 다 막아야</strong> 2장 클리어(→ 다음 장이 열림).\n</li>\n<li>챕터마다 <strong>목표 웨이브</strong>를 데이터로 둔다(2장 = 50). 3장부터도 같은 꼴(1판 · 목표 웨이브)을 쓴다.\n</li>\n<li>한 판을 여러 번 도전하며 <strong>판 밖 성장으로 점점 더 멀리 가는</strong> 곡선: 진 판도 도달 웨이브만큼 보상 · 챕터별 최고 기록 · 처음 넘은 고비마다 보상.\n</li></ul>",
 "goalShort": "- 2장 «갈대 관문» 을 스테이지 하나로 줄이고, 50웨이브를 다",
@@ -10213,14 +10163,14 @@
 "team": "planning",
 "title": "«데이터 (P1)» 전부 + validate_data 규칙. C1 과 병렬(다른 파일)",
 "output": "Data/·tools/validate_data.py · 21-planning.md",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "보고서 있음: 21-planning.md"
 },
 {
 "id": "C1",
 "key": "CD-0135/C1",
 "team": "core",
-"title": "«Core 판 규칙 (C1)» — 소환 칸 · 도달 해금 · 스테이지별 최고 · 첫 돌파 보상 · 시험 Cd0135",
+"title": "«Core 판 규칙 (C1)» — 스테이지별 최고 · 첫 돌파 보상 · 시험 Cd0135",
 "output": "Core/ · 22-core.md",
 "status": "todo",
 "why": ""
@@ -10253,7 +10203,7 @@
 "why": ""
 }
 ],
-"phase": "new",
+"phase": "doing",
 "builtIn": ""
 },
 {
@@ -10351,12 +10301,13 @@
 "id": "CD-0140",
 "title": "튜토리얼 QA 후속 — 바퀴 3~5 · 1-5 광부 고용 안내 · 경험치 아이콘 · 뽑기 새 판 알림 설계",
 "branch": "cd-140",
-"updated": "2026-11-24 12:04",
+"updated": "2026-11-24 13:19",
 "files": [
 "00-order.md",
 "10-spec.md",
 "50-f07-design.md",
-"evidence"
+"evidence",
+"laps"
 ],
 "milestone": "M6",
 "stage": "제작",
@@ -11041,7 +10992,7 @@
 "no": 48,
 "title": "1-1~1-6 + 2챕터 소셜 해금까지 QA봇 5바퀴 — 영웅 강화 없이 승률·튜토리얼 흐름 점검과 수정",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "mid",
 "orders": [
 "CD-0095",
@@ -11061,7 +11012,7 @@
 "no": 49,
 "title": "챕터 개편(2챕터 = 1판 50웨이브 · 챕터별 목표 웨이브) + 싱글·협동·무한 3모드 + 서버 이어하기·협동 재접속·끊김 표시",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "mid",
 "orders": [
 "CD-0095",
@@ -12144,6 +12095,17 @@
 "html": "<ol>\n<li><strong>범위는 싱글만 먼저.</strong> 무한 모드는 그 모드가 생길 때(CD-0136) 같은 틀에 넣고, 협동은 CD-0138(재접속)에서 따로 한다.\n</li>\n<li><strong>이어 주는 시간에 제한이 없다.</strong> 다만 앱 업데이트로 규칙·데이터가 바뀌면(앱 버전이나 데이터 해시가 저장 때와 다르면) 이어 하지 않고, 막은 웨이브만큼 보상하고 끝낸다(결정 0040 의 규칙 그대로).\n</li>\n<li><strong>서버에는 5웨이브마다 + 앱이 뒤로 갈 때 + 종료할 때 올린다.</strong> 간격은 <code>Data/account.json</code> 의 <code>matchSave.everyWaves</code>(지금 5). 웨이브 1 · 6 · 11 … 이 시작될 때 올린다(판이 시작되자마자 서버에 남는다). 기기 파일(<code>match-resume.json</code>)은 지금처럼 웨이브마다 쓴다 — 같은 기기에서는 가장 최근 웨이브에서, 다른 기기·재설치에서는 최대 4웨이브 앞에서 이어진다.\n</li>\n<li><strong>화면은 지금의 이어 하기 카드 그대로</strong>(«단계 · 웨이브 N» · [이어 하기] · [포기] · [새로 시작]). 새 글자·새 화면 요소가 없다. 달라지는 것은 다른 기기·재설치에서도 카드가 뜬다는 것뿐이다.\n</li>\n<li><strong>이어 하기는 추가 비용이 없다</strong>(출전 때 이미 냈다). [포기] 는 막은 웨이브만큼 보상, [새로 시작] 은 포기 정산 뒤 새 출전 비용. <strong>끝나지 않은 판이 서버에 있으면 서버가 새 출전을 받지 않는다</strong>(<code>match_pending</code> — 먼저 이어 하거나 포기).\n</li>\n<li><strong>스위치(<code>CD_ACCOUNT_SERVER</code>)는 이 주문 뒤에 켠다.</strong> 이 주문의 새 동작은 서버 계정일 때만 돌고, 스위치가 꺼진 빌드는 지금과 같다(기기 파일만). production 의 시험 흔적은 지금은 두고 출시 직전에 정리한다.\n</li></ol>",
 "branch": "main",
 "dirty": false
+},
+{
+"id": "0110",
+"title": "챕터 2 는 한 판 50웨이브 · 보스 25·50 · 25웨이브 첫 돌파 보상 · 게르하르트는 챕터 2 클리어",
+"status": "확정",
+"kind": "confirmed",
+"date": "2026-11-24",
+"by": "사용자(관제가 선택지로 받아 전달)",
+"html": "<ol>\n<li><strong>2장은 스테이지 하나</strong>(<code>gate_04_01</code>, 화면 이름 «챕터 2»)이고 <strong>50웨이브를 다 막아야 클리어</strong>다. 2-2~2-10(<code>gate_04_02~10</code>)은 없앤다. 챕터마다 목표 웨이브를 데이터(<code>mapindex.json chapters[].plan</code>)에 둔다 — 3장부터도 같은 꼴.\n</li>\n<li>보스 웨이브는 <strong>25·50</strong>(behemoth 1마리).\n</li>\n<li><strong>25웨이브를 처음 넘으면 한 번 보상</strong>(<code>reward.json waveMilestones</code>). 50 은 클리어 보상이 그 몫이다.\n</li>\n<li>전설 <strong>게르하르트는 챕터 2 클리어</strong>(50웨이브)로 열린다. 옛 2-5 클리어로 이미 가진 계정은 그대로 가진다(사용자 2026-11-24 «이미 가진 사람은 유지»).\n</li>\n<li>출전 행동력은 <strong>5 그대로</strong>.\n</li>\n<li>구슬 소환 칸 규칙은 <strong>바꾸지 않는다</strong> — 2장 초반 난이도는 웨이브 수치로 맞춘다.\n</li>\n<li>로비·결과창은 «챕터 2 · 최고 N / 50» 처럼 스테이지별 최고 도달 웨이브를 보인다(저장에 스테이지별 최고 웨이브·받은 고비).\n</li></ol>",
+"branch": "cd-135",
+"dirty": false
 }
 ],
 "docs": [
@@ -12807,7 +12769,7 @@
 },
 "waves": {
 "data": {
-"_note": "CD-0036(결정 0064, 사용자 결정 2026-11-19). 웨이브 세트 하나 = 스테이지 하나(stages.json 의 id 와 같다). gate_03_01~(옛 1-10 세트) = 맵 1 «목책 관문»(튜토리얼 맵), 10웨이브, 보스는 웨이브 10 · gate_04_01~gate_04_10 = 맵 2 «갈대 관문», 30웨이브, 보스는 15·30. 규칙(사용자 답 2·10): 비행 유형 없음 · 웨이브 하나 = groups 한 줄(몬스터 1종) · 보스 웨이브 = 보스 1마리만 · 그림자 무리 몬스터만. 맵 1 은 스테이지마다 종이 하나씩 는다(1-1 졸개 → 1-2 추적자 → 1-3 떼 → 1-4 방패병 → 1-5 응어리, 1-6 부터 다섯 종이 돈다), 맵 2 는 졸개·추적자·떼·방패병·응어리 차례. 1-1 의 \"script\": \"intro\" = 튜토리얼 판 깃발(정해진 소환 차례·웨이브 대기·첫 판매 전액 환급, Data/tutorial.json matchScripts.intro — 1인 판만). 1-10 의 \"script\": \"legendTrial\" = 진화 체험 판 깃발(CD-0045 · 결정 0072: 웨이브 5 에 4단계 인간 1명 + 진화 차원석, matchScripts.legendTrial — 1인 판만). hpPct 는 보스 웨이브를 빼면 웨이브마다 내려가지 않는다(맵 1 보스 = 웨이브 9 × 0.85 라 앞 웨이브보다 낮을 수 있다). 숫자 = CD-0036 P2(2026-11-20) 다시 맞춤: 식은 10-spec §8-2(_sim/gen_waves.py m1_hp·m2_hp), 손잡이는 _sim/p2/params.json — 초안(final.json)에서 1-10 보정 0.95 → 0.90 · 맵 2 시작 170 → 155 · 맵 2 스테이지 증가 1.14 → 1.115 만 바꿈, CD-0034 Core·gate_04 자기 배치·시뮬레이터(1인 시드 1~210)로 잼: 1-10 simple 67.1% · 2-1 focus 93.3% · 2-10 focus 49.0%(띠 B 전부 맞음, 표 = 주문 20-planning.md «P2» · _sim/p2/*_table.md). 레벨 구간(Lv.30 이상 2-10 90% 넘음)은 그대로 둠 — 사용자 취침 중 권장안, 이유는 주문 20-planning.md «P2». 웨이브 안의 groups 는 위에서 아래 차례로 나온다. 옛 세트 셋(gate_03_std·hard·elite — 20웨이브·여러 종·비행, CD-0030 P3 값: 보통 simple 50.0%·focus 96.7%, 어려움 1.4%·64.8%, 정예 0.5%·42.9%)은 CD-0036 P1 에서 지웠다. 되돌리는 법 = 커밋 5ee7f23 의 Data/waves.json 에서 그 셋을 다시 넣고 stages·reward·account·legends 도 같은 커밋으로(결정 0064 «되돌리는 법»). 그 전 조정 기록(CD-0005~CD-0030)은 그 커밋의 _note. 【CD-0044 · 결정 0071(2026-11-21)】 웨이브 체력 배율: hpPct = ⌊CD-0036 값 × 배율% / 100 + 0.5⌋(최소 1), 한 스테이지의 모든 웨이브에 같은 배율(웨이브마다 오름·스테이지마다 오름·보스 배율·1-10 보정 0.90 은 식 안에 그대로) — 1-1~1-7 ×0.48 · 1-8 ×0.54 · 1-9 ×0.60 · 1-10 ×0.66 · 맵 2(2-1~2-10) ×0.79. 이유: 웨이브 보너스 0 · 단계 강화 20회(사용자 작업실 값) 에 골드를 메우지 않아(사용자 «메우지마») 수입이 맵 1 −36% · 맵 2 −45% 라 웨이브 체력을 낮춰 띠 B′ 에 맞춤(진짜 Core 시뮬레이터: 1-1 script 100 ×4 · 1-2~1-7 최저 98.1 · 1-10 simple 78.1 · 2-1 focus 95.7 · 2-10 focus 46.7 · simple 8.6). 웨이브·몬스터 종류·마리 수·간격은 그대로. 되돌리는 법 = 커밋 49253de 의 Data/waves.json(이 파일의 hpPct 전부) · docs/decisions/0071. CD-0048 골격은 임시: tools/gen_stages.py 가 Data/mapindex.json 의 plan 대로 만든 챕터 3~5 세트(웨이브 몬스터·마리·간격·hpPct)는 맵 2 gate_04 곡선을 늘려 만든 자리표시다 — 밸런스는 시뮬레이터로 다시 잡는다. 되돌리는 법 = 그 세트(<맵>_NN)와 stages·reward·account 의 같은 id 줄을 지운다. 【CD-0053 · 결정 0080(2026-11-21) — 이 파일의 위 «1-1~1-10»·«10웨이브»·«1-10 의 script»·«1-1~1-7 ×0.48 …» 서술은 맵 1 에 한해 CD-0053 에서 바뀜】 맵 1 = 6판: 1-1 6 · 1-2~1-5 8 · 1-6 10웨이브(1-7~1-10 줄 은 지움). 1-n(n≤5) = 옛 같은 세트의 웨이브 1~(N−1) 줄 그대로 + 마지막 웨이브 = 보스 1마리(shadow_behemoth, spacing 60), 보스 hpPct = round(바로 앞 웨이브 hpPct × 0.85)(1-1 116 · 1-2 224 · 1-3 254 · 1-4 288 · 1-5 328). 새 1-6 = 옛 gate_03_06 10웨이브 그대로(다섯 종 · 보스 756). script 깃발은 셋: gate_03_01 intro · gate_03_02 sellLesson(첫 판매 전액 환급만) · gate_03_06 legendTrial(옛 1-10 에서 옮김, 웨이브 5 < 보스 10). 밸런스는 측정하지 않았다(사용자 «밸런스는 맨 마지막») — 되돌리는 법 = 결정 0080 · 커밋 cb988484 의 Data/waves.json. 【CD-0075(2026-11-22)】 1-2(gate_03_02) 8 → 6웨이브: 웨이브 1~5 그대로, 웨이브 6 = 보스 1마리(shadow_behemoth, spacing 60, hpPct 128 = round(웨이브 5 의 150 × 0.85), CD-0053 보스 규칙 그대로 — 밸런스는 측정하지 않음), 옛 6·7·8 줄은 지움. 챕터 1 = 1-1·1-2 6웨이브 · 1-3~1-5 8웨이브 · 1-6 10웨이브(위 CD-0053 서술의 «1-2~1-5 8웨이브» 는 바뀜). CD-0134(사용자 결정 2026-11-24 «0134 에서 임시로 완화», CD-0135 2장 개편 전까지 임시): gate_04_01(2-1)만 낮췄다 — 사거리를 줄인 CD-0124 뒤 영웅 강화 없는 초보 봇이 2-1 을 14.7% 만 깨서(웨이브 3 떼·웨이브 6 에서 몇 분 만에 짐 + 웨이브 30 보스). hpPct 웨이브 1~10 = 옛 값 × 0.60·0.60·0.52·0.60·0.60·0.55·0.65·0.70·0.80·0.90(내림 반올림 정수 · 보스 뺀 값이 웨이브마다 내려가지 않게 3 은 2 와 같은 85), 웨이브 3 마리 13 → 9 · 웨이브 6 마리 8 → 7, 보스 웨이브 30 hpPct 2275 → 978(×0.43). 11~29 웨이브·보스 15·다른 2장 판·1장은 그대로. 결과(시드 1..300, +lv:1): 옮기는 초보 25.3 → 75.0% · 안 옮기는 초보 14.7 → 51.3% · simple 67.3 → 89.7% · focus 97.0 → 100%(studio/orders/CD-0134…/_sim/winrates.md). 안 옮기는 초보의 초반 패배는 구슬 소환이 아무 빈칸에 놓는 규칙 탓이라 CD-0135 로 넘긴다. 되돌리는 법 = gate_04_01 의 옛 값: hpPct 122,141,164,190,221,257,298,346,401,465 · 웨이브 3 마리 13 · 웨이브 6 마리 8 · 웨이브 30 hpPct 2275.",
+"_note": "CD-0036(결정 0064, 사용자 결정 2026-11-19). 웨이브 세트 하나 = 스테이지 하나(stages.json 의 id 와 같다). gate_03_01~(옛 1-10 세트) = 맵 1 «목책 관문»(튜토리얼 맵), 10웨이브, 보스는 웨이브 10 · gate_04_01~gate_04_10 = 맵 2 «갈대 관문», 30웨이브, 보스는 15·30. 규칙(사용자 답 2·10): 비행 유형 없음 · 웨이브 하나 = groups 한 줄(몬스터 1종) · 보스 웨이브 = 보스 1마리만 · 그림자 무리 몬스터만. 맵 1 은 스테이지마다 종이 하나씩 는다(1-1 졸개 → 1-2 추적자 → 1-3 떼 → 1-4 방패병 → 1-5 응어리, 1-6 부터 다섯 종이 돈다), 맵 2 는 졸개·추적자·떼·방패병·응어리 차례. 1-1 의 \"script\": \"intro\" = 튜토리얼 판 깃발(정해진 소환 차례·웨이브 대기·첫 판매 전액 환급, Data/tutorial.json matchScripts.intro — 1인 판만). 1-10 의 \"script\": \"legendTrial\" = 진화 체험 판 깃발(CD-0045 · 결정 0072: 웨이브 5 에 4단계 인간 1명 + 진화 차원석, matchScripts.legendTrial — 1인 판만). hpPct 는 보스 웨이브를 빼면 웨이브마다 내려가지 않는다(맵 1 보스 = 웨이브 9 × 0.85 라 앞 웨이브보다 낮을 수 있다). 숫자 = CD-0036 P2(2026-11-20) 다시 맞춤: 식은 10-spec §8-2(_sim/gen_waves.py m1_hp·m2_hp), 손잡이는 _sim/p2/params.json — 초안(final.json)에서 1-10 보정 0.95 → 0.90 · 맵 2 시작 170 → 155 · 맵 2 스테이지 증가 1.14 → 1.115 만 바꿈, CD-0034 Core·gate_04 자기 배치·시뮬레이터(1인 시드 1~210)로 잼: 1-10 simple 67.1% · 2-1 focus 93.3% · 2-10 focus 49.0%(띠 B 전부 맞음, 표 = 주문 20-planning.md «P2» · _sim/p2/*_table.md). 레벨 구간(Lv.30 이상 2-10 90% 넘음)은 그대로 둠 — 사용자 취침 중 권장안, 이유는 주문 20-planning.md «P2». 웨이브 안의 groups 는 위에서 아래 차례로 나온다. 옛 세트 셋(gate_03_std·hard·elite — 20웨이브·여러 종·비행, CD-0030 P3 값: 보통 simple 50.0%·focus 96.7%, 어려움 1.4%·64.8%, 정예 0.5%·42.9%)은 CD-0036 P1 에서 지웠다. 되돌리는 법 = 커밋 5ee7f23 의 Data/waves.json 에서 그 셋을 다시 넣고 stages·reward·account·legends 도 같은 커밋으로(결정 0064 «되돌리는 법»). 그 전 조정 기록(CD-0005~CD-0030)은 그 커밋의 _note. 【CD-0044 · 결정 0071(2026-11-21)】 웨이브 체력 배율: hpPct = ⌊CD-0036 값 × 배율% / 100 + 0.5⌋(최소 1), 한 스테이지의 모든 웨이브에 같은 배율(웨이브마다 오름·스테이지마다 오름·보스 배율·1-10 보정 0.90 은 식 안에 그대로) — 1-1~1-7 ×0.48 · 1-8 ×0.54 · 1-9 ×0.60 · 1-10 ×0.66 · 맵 2(2-1~2-10) ×0.79. 이유: 웨이브 보너스 0 · 단계 강화 20회(사용자 작업실 값) 에 골드를 메우지 않아(사용자 «메우지마») 수입이 맵 1 −36% · 맵 2 −45% 라 웨이브 체력을 낮춰 띠 B′ 에 맞춤(진짜 Core 시뮬레이터: 1-1 script 100 ×4 · 1-2~1-7 최저 98.1 · 1-10 simple 78.1 · 2-1 focus 95.7 · 2-10 focus 46.7 · simple 8.6). 웨이브·몬스터 종류·마리 수·간격은 그대로. 되돌리는 법 = 커밋 49253de 의 Data/waves.json(이 파일의 hpPct 전부) · docs/decisions/0071. CD-0048 골격은 임시: tools/gen_stages.py 가 Data/mapindex.json 의 plan 대로 만든 챕터 3~5 세트(웨이브 몬스터·마리·간격·hpPct)는 맵 2 gate_04 곡선을 늘려 만든 자리표시다 — 밸런스는 시뮬레이터로 다시 잡는다. 되돌리는 법 = 그 세트(<맵>_NN)와 stages·reward·account 의 같은 id 줄을 지운다. 【CD-0053 · 결정 0080(2026-11-21) — 이 파일의 위 «1-1~1-10»·«10웨이브»·«1-10 의 script»·«1-1~1-7 ×0.48 …» 서술은 맵 1 에 한해 CD-0053 에서 바뀜】 맵 1 = 6판: 1-1 6 · 1-2~1-5 8 · 1-6 10웨이브(1-7~1-10 줄 은 지움). 1-n(n≤5) = 옛 같은 세트의 웨이브 1~(N−1) 줄 그대로 + 마지막 웨이브 = 보스 1마리(shadow_behemoth, spacing 60), 보스 hpPct = round(바로 앞 웨이브 hpPct × 0.85)(1-1 116 · 1-2 224 · 1-3 254 · 1-4 288 · 1-5 328). 새 1-6 = 옛 gate_03_06 10웨이브 그대로(다섯 종 · 보스 756). script 깃발은 셋: gate_03_01 intro · gate_03_02 sellLesson(첫 판매 전액 환급만) · gate_03_06 legendTrial(옛 1-10 에서 옮김, 웨이브 5 < 보스 10). 밸런스는 측정하지 않았다(사용자 «밸런스는 맨 마지막») — 되돌리는 법 = 결정 0080 · 커밋 cb988484 의 Data/waves.json. 【CD-0075(2026-11-22)】 1-2(gate_03_02) 8 → 6웨이브: 웨이브 1~5 그대로, 웨이브 6 = 보스 1마리(shadow_behemoth, spacing 60, hpPct 128 = round(웨이브 5 의 150 × 0.85), CD-0053 보스 규칙 그대로 — 밸런스는 측정하지 않음), 옛 6·7·8 줄은 지움. 챕터 1 = 1-1·1-2 6웨이브 · 1-3~1-5 8웨이브 · 1-6 10웨이브(위 CD-0053 서술의 «1-2~1-5 8웨이브» 는 바뀜). CD-0134(사용자 결정 2026-11-24 «0134 에서 임시로 완화», CD-0135 2장 개편 전까지 임시): gate_04_01(2-1)만 낮췄다 — 사거리를 줄인 CD-0124 뒤 영웅 강화 없는 초보 봇이 2-1 을 14.7% 만 깨서(웨이브 3 떼·웨이브 6 에서 몇 분 만에 짐 + 웨이브 30 보스). hpPct 웨이브 1~10 = 옛 값 × 0.60·0.60·0.52·0.60·0.60·0.55·0.65·0.70·0.80·0.90(내림 반올림 정수 · 보스 뺀 값이 웨이브마다 내려가지 않게 3 은 2 와 같은 85), 웨이브 3 마리 13 → 9 · 웨이브 6 마리 8 → 7, 보스 웨이브 30 hpPct 2275 → 978(×0.43). 11~29 웨이브·보스 15·다른 2장 판·1장은 그대로. 결과(시드 1..300, +lv:1): 옮기는 초보 25.3 → 75.0% · 안 옮기는 초보 14.7 → 51.3% · simple 67.3 → 89.7% · focus 97.0 → 100%(studio/orders/CD-0134…/_sim/winrates.md). 안 옮기는 초보의 초반 패배는 구슬 소환이 아무 빈칸에 놓는 규칙 탓이라 CD-0135 로 넘긴다. 되돌리는 법 = gate_04_01 의 옛 값: hpPct 122,141,164,190,221,257,298,346,401,465 · 웨이브 3 마리 13 · 웨이브 6 마리 8 · 웨이브 30 hpPct 2275. 【CD-0135 · 결정 0110(2026-11-24)】 챕터 2 = 한 판: gate_04_01 = 50웨이브(보스 25·50 = shadow_behemoth 1마리), gate_04_02~10 세트는 지움. 식과 손잡이는 주문 CD-0135 _sim/gen_ch2.py · params.json(1~29 = 옛 2-1 완화 값, 30~ 은 늘기, 보스 = 앞 웨이브 × bossPct). 숫자는 P2 가 시뮬레이터로 맞춘 값(주문 25-balance.md). 위 «gate_04_01~gate_04_10 = 맵 2, 30웨이브, 보스 15·30» 서술은 이 줄이 바꿈. 되돌리는 법 = 결정 0110.",
 "sets": {
 "gate_03_01": {
 "map": "gate_03",
@@ -13441,7 +13403,7 @@
 },
 {
 "wave": 9,
-"hpPct": 321,
+"hpPct": 348,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -13452,7 +13414,7 @@
 },
 {
 "wave": 10,
-"hpPct": 419,
+"hpPct": 489,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -13463,7 +13425,7 @@
 },
 {
 "wave": 11,
-"hpPct": 540,
+"hpPct": 675,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -13474,7 +13436,7 @@
 },
 {
 "wave": 12,
-"hpPct": 626,
+"hpPct": 835,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -13485,7 +13447,7 @@
 },
 {
 "wave": 13,
-"hpPct": 670,
+"hpPct": 949,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -13496,344 +13458,9 @@
 },
 {
 "wave": 14,
-"hpPct": 717,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 825,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 821,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 878,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 940,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1006,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
 "hpPct": 1076,
 "groups": [
 {
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 1152,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 1232,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 1319,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 1411,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 1510,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 1616,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 1729,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 1849,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 1979,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 978,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_02": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 125,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 145,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 169,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 197,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 229,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 266,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 310,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 361,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 419,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 488,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 569,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 661,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 710,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 762,
-"groups": [
-{
 "monster": "shadow_guard",
 "count": 5,
 "spacingTicks": 36
@@ -13842,18 +13469,18 @@
 },
 {
 "wave": 15,
-"hpPct": 876,
+"hpPct": 1218,
 "groups": [
 {
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
+"monster": "shadow_mender",
+"count": 6,
+"spacingTicks": 30
 }
 ]
 },
 {
 "wave": 16,
-"hpPct": 878,
+"hpPct": 1368,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -13864,7 +13491,7 @@
 },
 {
 "wave": 17,
-"hpPct": 942,
+"hpPct": 1537,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -13875,7 +13502,7 @@
 },
 {
 "wave": 18,
-"hpPct": 1011,
+"hpPct": 1723,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -13886,7 +13513,7 @@
 },
 {
 "wave": 19,
-"hpPct": 1085,
+"hpPct": 1928,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -13897,7 +13524,7 @@
 },
 {
 "wave": 20,
-"hpPct": 1164,
+"hpPct": 2152,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -13908,7 +13535,7 @@
 },
 {
 "wave": 21,
-"hpPct": 1250,
+"hpPct": 2246,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -13919,7 +13546,7 @@
 },
 {
 "wave": 22,
-"hpPct": 1341,
+"hpPct": 2341,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -13930,7 +13557,7 @@
 },
 {
 "wave": 23,
-"hpPct": 1439,
+"hpPct": 2376,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -13941,7 +13568,7 @@
 },
 {
 "wave": 24,
-"hpPct": 1545,
+"hpPct": 2402,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -13952,18 +13579,18 @@
 },
 {
 "wave": 25,
-"hpPct": 1658,
+"hpPct": 2642,
 "groups": [
 {
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
+"monster": "shadow_behemoth",
+"count": 1,
+"spacingTicks": 60
 }
 ]
 },
 {
 "wave": 26,
-"hpPct": 1780,
+"hpPct": 2432,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -13974,7 +13601,7 @@
 },
 {
 "wave": 27,
-"hpPct": 1910,
+"hpPct": 2431,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -13985,7 +13612,7 @@
 },
 {
 "wave": 28,
-"hpPct": 2050,
+"hpPct": 2418,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -13996,7 +13623,7 @@
 },
 {
 "wave": 29,
-"hpPct": 2200,
+"hpPct": 2392,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -14007,2687 +13634,227 @@
 },
 {
 "wave": 30,
-"hpPct": 2530,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_03": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 127,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 149,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 174,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 203,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 237,
+"hpPct": 2350,
 "groups": [
 {
 "monster": "shadow_mender",
-"count": 5,
+"count": 7,
 "spacingTicks": 30
 }
 ]
 },
 {
-"wave": 6,
-"hpPct": 277,
+"wave": 31,
+"hpPct": 2370,
 "groups": [
 {
 "monster": "shadow_grunt",
-"count": 8,
+"count": 14,
 "spacingTicks": 26
 }
 ]
 },
 {
-"wave": 7,
-"hpPct": 322,
+"wave": 32,
+"hpPct": 2381,
 "groups": [
 {
 "monster": "shadow_runner",
-"count": 7,
+"count": 12,
 "spacingTicks": 16
 }
 ]
 },
 {
-"wave": 8,
-"hpPct": 377,
+"wave": 33,
+"hpPct": 2381,
 "groups": [
 {
 "monster": "shadow_swarm",
+"count": 30,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 34,
+"hpPct": 2370,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 7,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 35,
+"hpPct": 2346,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 8,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 36,
+"hpPct": 2447,
+"groups": [
+{
+"monster": "shadow_grunt",
+"count": 15,
+"spacingTicks": 26
+}
+]
+},
+{
+"wave": 37,
+"hpPct": 2652,
+"groups": [
+{
+"monster": "shadow_runner",
+"count": 13,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 38,
+"hpPct": 2874,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 33,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 39,
+"hpPct": 3114,
+"groups": [
+{
+"monster": "shadow_guard",
+"count": 8,
+"spacingTicks": 36
+}
+]
+},
+{
+"wave": 40,
+"hpPct": 3374,
+"groups": [
+{
+"monster": "shadow_mender",
+"count": 8,
+"spacingTicks": 30
+}
+]
+},
+{
+"wave": 41,
+"hpPct": 3655,
+"groups": [
+{
+"monster": "shadow_grunt",
 "count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 439,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 513,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 599,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
 "spacingTicks": 26
 }
 ]
 },
 {
-"wave": 12,
-"hpPct": 699,
+"wave": 42,
+"hpPct": 3958,
 "groups": [
 {
 "monster": "shadow_runner",
+"count": 14,
+"spacingTicks": 16
+}
+]
+},
+{
+"wave": 43,
+"hpPct": 4286,
+"groups": [
+{
+"monster": "shadow_swarm",
+"count": 36,
+"spacingTicks": 20
+}
+]
+},
+{
+"wave": 44,
+"hpPct": 4641,
+"groups": [
+{
+"monster": "shadow_guard",
 "count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 752,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 810,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
 "spacingTicks": 36
 }
 ]
 },
 {
-"wave": 15,
-"hpPct": 931,
+"wave": 45,
+"hpPct": 5024,
 "groups": [
 {
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 939,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1010,
-"groups": [
-{
-"monster": "shadow_runner",
+"monster": "shadow_mender",
 "count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1087,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1171,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 1260,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
 "spacingTicks": 30
 }
 ]
 },
 {
-"wave": 21,
-"hpPct": 1356,
+"wave": 46,
+"hpPct": 5439,
 "groups": [
 {
 "monster": "shadow_grunt",
-"count": 12,
+"count": 17,
 "spacingTicks": 26
 }
 ]
 },
 {
-"wave": 22,
-"hpPct": 1460,
+"wave": 47,
+"hpPct": 5886,
 "groups": [
 {
 "monster": "shadow_runner",
-"count": 10,
+"count": 15,
 "spacingTicks": 16
 }
 ]
 },
 {
-"wave": 23,
-"hpPct": 1572,
+"wave": 48,
+"hpPct": 6370,
 "groups": [
 {
 "monster": "shadow_swarm",
-"count": 24,
+"count": 39,
 "spacingTicks": 20
 }
 ]
 },
 {
-"wave": 24,
-"hpPct": 1692,
+"wave": 49,
+"hpPct": 6892,
 "groups": [
 {
 "monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 1822,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 1961,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 2111,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 2272,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 2446,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 2812,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_04": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 130,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 152,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 179,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 209,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 245,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 287,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 336,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 393,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 460,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 539,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 630,
-"groups": [
-{
-"monster": "shadow_grunt",
 "count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 738,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 797,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 860,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
 "spacingTicks": 36
 }
 ]
 },
 {
-"wave": 15,
-"hpPct": 989,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1003,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1083,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1169,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1262,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 1364,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 1472,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 1589,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 1716,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 1853,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 2000,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 2160,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 2332,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 2518,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 2718,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 3126,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_05": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 134,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 156,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 184,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 216,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 254,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 298,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 349,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 410,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 482,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 566,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 664,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 780,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 845,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 915,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1051,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1073,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1161,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1258,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1362,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 1475,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 1597,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 1730,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 1874,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 2030,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 2198,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 2379,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 2577,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 2791,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 3023,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 3475,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_06": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 136,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 160,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 189,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 223,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 262,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 309,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 363,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 428,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 504,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 594,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 699,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 824,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 895,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 972,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1117,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1147,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1246,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1353,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1469,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 1597,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 1734,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 1883,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 2046,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 2222,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 2413,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 2622,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 2848,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 3094,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 3360,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 3863,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_07": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 139,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 164,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 194,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 230,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 271,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 320,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 378,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 447,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 528,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 623,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 737,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 870,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 948,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1033,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1187,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1226,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1336,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1455,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1586,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 1727,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 1882,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 2050,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 2233,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 2433,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 2651,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 2888,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 3147,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 3429,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 3735,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 4295,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_08": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 142,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 168,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 200,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 237,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 280,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 333,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 393,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 467,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 553,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 655,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 776,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 920,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 1004,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1097,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1262,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1311,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1432,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1565,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1710,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 1869,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 2042,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 2232,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 2439,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 2665,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 2912,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 3182,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 3478,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 3800,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 4152,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 4775,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_09": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 145,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 173,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 205,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 244,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 290,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 344,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 410,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 487,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 578,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 687,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 817,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 971,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 1064,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1167,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1341,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1401,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1536,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1683,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1845,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 2022,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 2217,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 2429,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 2662,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 2918,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 3199,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 3506,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 3843,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 4211,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 4616,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 5308,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-}
-]
-},
-"gate_04_10": {
-"map": "gate_04",
-"waves": [
-{
-"wave": 1,
-"hpPct": 149,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 7,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 2,
-"hpPct": 177,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 6,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 3,
-"hpPct": 211,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 13,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 4,
-"hpPct": 252,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 3,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 5,
-"hpPct": 300,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 6,
-"hpPct": 358,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 8,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 7,
-"hpPct": 427,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 7,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 8,
-"hpPct": 508,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 16,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 9,
-"hpPct": 606,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 4,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 10,
-"hpPct": 722,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 5,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 11,
-"hpPct": 860,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 9,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 12,
-"hpPct": 1025,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 8,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 13,
-"hpPct": 1127,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 19,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 14,
-"hpPct": 1240,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 15,
-"hpPct": 1425,
-"groups": [
-{
-"monster": "shadow_behemoth",
-"count": 1,
-"spacingTicks": 60
-}
-]
-},
-{
-"wave": 16,
-"hpPct": 1498,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 11,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 17,
-"hpPct": 1647,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 9,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 18,
-"hpPct": 1811,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 21,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 19,
-"hpPct": 1991,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 5,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 20,
-"hpPct": 2188,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 21,
-"hpPct": 2406,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 12,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 22,
-"hpPct": 2644,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 10,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 23,
-"hpPct": 2907,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 24,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 24,
-"hpPct": 3196,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 6,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 25,
-"hpPct": 3513,
-"groups": [
-{
-"monster": "shadow_mender",
-"count": 7,
-"spacingTicks": 30
-}
-]
-},
-{
-"wave": 26,
-"hpPct": 3862,
-"groups": [
-{
-"monster": "shadow_grunt",
-"count": 13,
-"spacingTicks": 26
-}
-]
-},
-{
-"wave": 27,
-"hpPct": 4246,
-"groups": [
-{
-"monster": "shadow_runner",
-"count": 11,
-"spacingTicks": 16
-}
-]
-},
-{
-"wave": 28,
-"hpPct": 4667,
-"groups": [
-{
-"monster": "shadow_swarm",
-"count": 27,
-"spacingTicks": 20
-}
-]
-},
-{
-"wave": 29,
-"hpPct": 5131,
-"groups": [
-{
-"monster": "shadow_guard",
-"count": 7,
-"spacingTicks": 36
-}
-]
-},
-{
-"wave": 30,
-"hpPct": 5901,
+"wave": 50,
+"hpPct": 3101,
 "groups": [
 {
 "monster": "shadow_behemoth",
@@ -16700,9 +13867,9 @@
 }
 }
 },
-"at": "2026-11-24 10:49",
-"branch": "main",
-"dirty": false
+"at": "2026-11-24 13:40",
+"branch": "cd-135",
+"dirty": true
 },
 "maps": {
 "data": {
@@ -17936,7 +15103,7 @@
 },
 "reward": {
 "data": {
-"_note": "CD-0036(결정 0064 9 · 10-spec §7-5, 2026-11-20). 판 보상(싱글·협동 같은 표, 협동은 전원 같게 — 결정 0048·0063)은 은화·쿠지 티켓뿐이다. waveTiers: 막은 웨이브마다 그 웨이브 번호가 든 줄의 silver(upTo 이하, 마지막 줄 뒤는 마지막 줄 값) — 30웨이브(맵 2)까지 적는다. victory: 세트를 끝까지 막으면(승리) 은화·쿠지 티켓을 더 준다. setPct: 스테이지 id → %, 은화 합(웨이브 + 승리)과 승리 쿠지 티켓에 곱한다(종류마다 따로 내림, 없는 스테이지는 100). 맵 1 = 70 + 2(s−1) · 맵 2 = 50 + 3(s−1) — 시간당 은화를 옛 보통 근처에 맞춘 초안(P2 에서 행동력당 값을 다시 잰다). ticketEveryWaves: 판마다 ⌊막은 웨이브 / 이 값⌋ 장의 쿠지 티켓 — 지든 이기든, setPct 를 곱하지 않는다(CD-0034 에서 사용자가 고른 «막은 웨이브만큼 쿠지 티켓», 간격 4 는 사용자 취침 중 권장안 2026-11-20 — 하루 제비 맵 1 약 60 · 맵 2 약 83, _sim/supply36.txt). stageClearRift: 스테이지 id → 균열석, 그 스테이지를 처음 이길 때 한 번(결정 0063) — 1-10 = 5, 맵 2 는 스테이지마다 3. 예: 1-1 승리 = 은화 (150 + 300) × 70% = 315 · 쿠지 티켓 2 + ⌊6 × 70%⌋ 4 = 6. 2-1 승리 = 은화 (1,050 + 300) × 50% = 675 · 쿠지 티켓 7 + 3 = 10, 2-1 의 29웨이브 패배 = 은화 990 × 50% = 495 · 쿠지 티켓 7. 시간당·행동력당 보상은 늘 승리가 가장 크다(docs/13 §3 — validate_data 가 거칠게, Core 시험이 틱으로 본다). 계정 경험치는 account.json, 행동력은 stages.json stamina. 옛 키(gate_03_std·hard·elite 의 setPct 100/150/200 · stageClearRift 5/10/15)는 커밋 5ee7f23. 【CD-0053 · 결정 0080(2026-11-21) — 위 «1-10 = 5»·«1-10» 서술은 CD-0053 에서 바뀜】 맵 1 = 6판이라 stageClearRift 는 gate_03_06: 5(1-6 첫 클리어), setPct·stageClearRift 의 1-7~1-10 줄 키는 지움(setPct 1-1~1-6 = 70~80 그대로). 【CD-0129(사용자 2026-11-23 «가운데 아이템(균열석)은 쿠지 티켓을 통해서만 수급할거고 결과창에서 지급하는 재화는 은화, 쿠지 티켓, 경험치 3개만» · «결과창에 한해서만 — 게임 클리어 보상 얘기»)】 stageClearRift 를 비웠다({}) — 스테이지를 처음 이겨도 균열석을 주지 않는다(옛 값: gate_03_06 5 · gate_04_01~10 각 3, 진행 전체 35). 키와 Core 의 지급 구조는 남긴다(값이 없으면 0). 위 서술의 stageClearRift 값·«1-10 = 5»·«맵 2 는 스테이지마다 3» 은 이 줄이 바꿈. 레벨 업·업적·일일/주간·상점·우편의 균열석은 사용자가 따로 조정한다(이 주문 밖). 되돌리는 법 = 이 줄 이전 커밋의 reward.json.",
+"_note": "CD-0036(결정 0064 9 · 10-spec §7-5, 2026-11-20). 판 보상(싱글·협동 같은 표, 협동은 전원 같게 — 결정 0048·0063)은 은화·쿠지 티켓뿐이다. waveTiers: 막은 웨이브마다 그 웨이브 번호가 든 줄의 silver(upTo 이하, 마지막 줄 뒤는 마지막 줄 값) — 30웨이브(맵 2)까지 적는다. victory: 세트를 끝까지 막으면(승리) 은화·쿠지 티켓을 더 준다. setPct: 스테이지 id → %, 은화 합(웨이브 + 승리)과 승리 쿠지 티켓에 곱한다(종류마다 따로 내림, 없는 스테이지는 100). 맵 1 = 70 + 2(s−1) · 맵 2 = 50 + 3(s−1) — 시간당 은화를 옛 보통 근처에 맞춘 초안(P2 에서 행동력당 값을 다시 잰다). ticketEveryWaves: 판마다 ⌊막은 웨이브 / 이 값⌋ 장의 쿠지 티켓 — 지든 이기든, setPct 를 곱하지 않는다(CD-0034 에서 사용자가 고른 «막은 웨이브만큼 쿠지 티켓», 간격 4 는 사용자 취침 중 권장안 2026-11-20 — 하루 제비 맵 1 약 60 · 맵 2 약 83, _sim/supply36.txt). stageClearRift: 스테이지 id → 균열석, 그 스테이지를 처음 이길 때 한 번(결정 0063) — 1-10 = 5, 맵 2 는 스테이지마다 3. 예: 1-1 승리 = 은화 (150 + 300) × 70% = 315 · 쿠지 티켓 2 + ⌊6 × 70%⌋ 4 = 6. 2-1 승리 = 은화 (1,050 + 300) × 50% = 675 · 쿠지 티켓 7 + 3 = 10, 2-1 의 29웨이브 패배 = 은화 990 × 50% = 495 · 쿠지 티켓 7. 시간당·행동력당 보상은 늘 승리가 가장 크다(docs/13 §3 — validate_data 가 거칠게, Core 시험이 틱으로 본다). 계정 경험치는 account.json, 행동력은 stages.json stamina. 옛 키(gate_03_std·hard·elite 의 setPct 100/150/200 · stageClearRift 5/10/15)는 커밋 5ee7f23. 【CD-0053 · 결정 0080(2026-11-21) — 위 «1-10 = 5»·«1-10» 서술은 CD-0053 에서 바뀜】 맵 1 = 6판이라 stageClearRift 는 gate_03_06: 5(1-6 첫 클리어), setPct·stageClearRift 의 1-7~1-10 줄 키는 지움(setPct 1-1~1-6 = 70~80 그대로). 【CD-0129(사용자 2026-11-23 «가운데 아이템(균열석)은 쿠지 티켓을 통해서만 수급할거고 결과창에서 지급하는 재화는 은화, 쿠지 티켓, 경험치 3개만» · «결과창에 한해서만 — 게임 클리어 보상 얘기»)】 stageClearRift 를 비웠다({}) — 스테이지를 처음 이겨도 균열석을 주지 않는다(옛 값: gate_03_06 5 · gate_04_01~10 각 3, 진행 전체 35). 키와 Core 의 지급 구조는 남긴다(값이 없으면 0). 위 서술의 stageClearRift 값·«1-10 = 5»·«맵 2 는 스테이지마다 3» 은 이 줄이 바꿈. 레벨 업·업적·일일/주간·상점·우편의 균열석은 사용자가 따로 조정한다(이 주문 밖). 되돌리는 법 = 이 줄 이전 커밋의 reward.json. 【CD-0135 · 결정 0110(2026-11-24)】 챕터 2 = 한 판 50웨이브: waveTiers 를 50 까지(~35 80 · ~40 100 · ~45 150 · ~50 200 — 뒤가 가파른 것은 «일찍 진 판은 웨이브당 1.5배 넘게 덜 받는다»(docs/13 §3, validate_data ②)를 50웨이브 판에서 지키려고. 승리 보너스 300 은 1장과 같이 쓰는 값이라 그대로), setPct 는 gate_04_01 하나(2-2~2-10 키 지움). waveMilestones: 스테이지 id → [{wave, silver, kujiTickets}] — 그 웨이브를 처음 막으면(도달 웨이브가 그 값보다 크거나 승리) 계정마다 한 번 주는 첫 돌파 보상(setPct 를 곱하지 않음, 마지막 웨이브는 승리 보상 몫이라 쓰지 않는다). 챕터 2 = 25 하나. 숫자는 P2 초안. 위 «30웨이브(맵 2)까지»·«2-1 승리 = …» 예시는 옛 30웨이브 판 값. 되돌리는 법 = 결정 0110.",
 "waveTiers": [
 {
 "upTo": 5,
@@ -17961,6 +15128,22 @@
 {
 "upTo": 30,
 "silver": 60
+},
+{
+"upTo": 35,
+"silver": 80
+},
+{
+"upTo": 40,
+"silver": 100
+},
+{
+"upTo": 45,
+"silver": 150
+},
+{
+"upTo": 50,
+"silver": 200
 }
 ],
 "victory": {
@@ -17969,6 +15152,15 @@
 },
 "ticketEveryWaves": 4,
 "stageClearRift": {},
+"waveMilestones": {
+"gate_04_01": [
+{
+"wave": 25,
+"silver": 300,
+"kujiTickets": 5
+}
+]
+},
 "setPct": {
 "gate_03_01": 70,
 "gate_03_02": 72,
@@ -17976,20 +15168,11 @@
 "gate_03_04": 76,
 "gate_03_05": 78,
 "gate_03_06": 80,
-"gate_04_01": 50,
-"gate_04_02": 53,
-"gate_04_03": 56,
-"gate_04_04": 59,
-"gate_04_05": 62,
-"gate_04_06": 65,
-"gate_04_07": 68,
-"gate_04_08": 71,
-"gate_04_09": 74,
-"gate_04_10": 77
+"gate_04_01": 50
 }
 },
-"at": "2026-11-24 00:34",
-"branch": "main",
+"at": "2026-11-24 13:25",
+"branch": "cd-135",
 "dirty": false
 }
 },
@@ -23993,7 +21176,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 12:04",
-"generatedAt": "2026-11-24 12:17",
-"digest": "2b4ba26379944d46"
+"sourceAt": "2026-11-24 13:40",
+"generatedAt": "2026-11-24 13:40",
+"digest": "b14781df3c44b422"
 }
