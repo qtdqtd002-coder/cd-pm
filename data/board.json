@@ -1305,8 +1305,26 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0140",
-"head": "db322ed",
+"head": "350392c",
 "commits": [
+{
+"sha": "350392c6",
+"at": "2026-11-24 23:13",
+"ts": 1795529609,
+"msg": "병합: cd-152 77bf41f6(CD-0152 전설 카드 지나가는 빛줄기 없앰 · 결정 0112 · EditMode 15/15)"
+},
+{
+"sha": "77bf41f6",
+"at": "2026-11-24 23:11",
+"ts": 1795529501,
+"msg": "CD-0152 결정 0112 — 전설 카드 빛줄기 없앰 · 0087 연출 줄에 표시"
+},
+{
+"sha": "ca2627bc",
+"at": "2026-11-24 22:56",
+"ts": 1795528596,
+"msg": "CD-0152 전설 영웅 카드 빛줄기 빼기"
+},
 {
 "sha": "db322ed6",
 "at": "2026-11-24 22:29",
@@ -1324,24 +1342,6 @@
 "at": "2026-11-24 22:18",
 "ts": 1795526295,
 "msg": "공지 app_0_12_1(notices_v2, notices_check 통과, 24항목)"
-},
-{
-"sha": "2bb90bee",
-"at": "2026-11-24 22:18",
-"ts": 1795526282,
-"msg": "앱 0.12.1 · versionCode 17 (CD-0135~0149·0137b·0140b/c) content state(base_id 3da0f120)"
-},
-{
-"sha": "d164fa30",
-"at": "2026-11-24 22:12",
-"ts": 1795525955,
-"msg": "버전 0.12.1 · versionCode 17 — 묶음 QA EditMode 1218/1219 · PlayMode 388/1/94(실패 2건 = 시험 옛 기대, CD-0135c 로 고침·재확인)"
-},
-{
-"sha": "0dcf8853",
-"at": "2026-11-24 22:09",
-"ts": 1795525758,
-"msg": "병합: cd-135c 2e82db55(CD-0135c 0.12.1 QA 실패 2건 시험 옛 기대 고침 — Cd98 정산에 25웨이브 첫 돌파 은화 · Cd42 랭킹 씨앗 새 꼴 · EditMode 24/24 · PlayMode Cd42 11/11 · 제품 코드 그대로)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795526967,
-"unpushed": 0,
+"lastCommitTs": 1795529609,
+"unpushed": 3,
 "notInMain": 0,
-"today": 156
+"today": 159
 },
 {
 "branch": "cd-150",
@@ -1431,43 +1431,43 @@
 "msg": "병합: cd-135c 2e82db55(CD-0135c 0.12.1 QA 실패 2건 시험 옛 기대 고침 — Cd98 정산에 25웨이브 첫 돌파 은화 · Cd42 랭킹 씨앗 새 꼴 · EditMode 24/24 · PlayMode Cd42 11/11 · 제품 코드 그대로)"
 }
 ],
-"dirtyCount": 9,
+"dirtyCount": 16,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/Net/Social/FakeChat.cs",
-"at": "2026-11-24 22:47"
+"file": "UnityProject/Assets/Tests/EditMode/Cd150ChatNameEditModeTests.cs",
+"at": "2026-11-24 23:15"
 },
 {
-"file": "UnityProject/Assets/_Game/App/GameApp.Social.cs",
-"at": "2026-11-24 22:46"
+"file": "UnityProject/Assets/_Game/Resources/Data/social.json",
+"at": "2026-11-24 23:15"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/ChatScreen.cs",
-"at": "2026-11-24 22:46"
+"file": "tools/workbench/fields/social.json",
+"at": "2026-11-24 23:15"
+},
+{
+"file": "tools/validate_data.py",
+"at": "2026-11-24 23:14"
+},
+{
+"file": "Data/social.json",
+"at": "2026-11-24 23:14"
 },
 {
 "file": "UnityProject/Assets/_Game/Net/Social/ChatRoom.cs",
-"at": "2026-11-24 22:46"
+"at": "2026-11-24 23:13"
 },
 {
-"file": "UnityProject/Assets/_Game/Net/Social/Unity/SocialBackends.cs",
-"at": "2026-11-24 22:45"
+"file": "UnityProject/Assets/_Game/Net/Social/SocialConfig.cs",
+"at": "2026-11-24 23:13"
 },
 {
-"file": "UnityProject/Assets/_Game/Net/Social/Unity/UnityChat.cs",
-"at": "2026-11-24 22:45"
-},
-{
-"file": "UnityProject/Assets/_Game/Net/Social/SocialModels.cs",
-"at": "2026-11-24 22:45"
-},
-{
-"file": "UnityProject/Assets/_Game/Net/Social/ChatCommon.cs",
-"at": "2026-11-24 22:45"
+"file": "studio/orders/CD-0150-채팅-닉네임-표시-고치기-월드-채팅-기록-정책/00-order.md",
+"at": "2026-11-24 22:52"
 }
 ],
-"lastEdit": "2026-11-24 22:47",
-"lastEditTs": 1795528024.061109,
+"lastEdit": "2026-11-24 23:15",
+"lastEditTs": 1795529739.6143026,
 "lastCommitTs": 1795526967,
 "unpushed": 0,
 "notInMain": 0,
@@ -1478,9 +1478,21 @@
 "lane": "cd-151",
 "session": "",
 "owns": "",
-"order": "CD-0135",
-"head": "db322ed",
+"order": "CD-0151",
+"head": "265ecb0",
 "commits": [
+{
+"sha": "265ecb01",
+"at": "2026-11-24 23:14",
+"ts": 1795529667,
+"msg": "CD-0151 마감: EditMode 33/33 · 시험 .meta · 90-close(관제 요약·해 볼 것·production 판 3개는 승인 뒤)"
+},
+{
+"sha": "b929cfd4",
+"at": "2026-11-24 22:52",
+"ts": 1795528337,
+"msg": "CD-0151: 랭킹 판 없음(LeaderboardNotFound)을 «기록 없음»으로 · 그 밖 실패는 이유·코드 로그"
+},
 {
 "sha": "db322ed6",
 "at": "2026-11-24 22:29",
@@ -1504,45 +1516,16 @@
 "at": "2026-11-24 22:18",
 "ts": 1795526282,
 "msg": "앱 0.12.1 · versionCode 17 (CD-0135~0149·0137b·0140b/c) content state(base_id 3da0f120)"
-},
-{
-"sha": "d164fa30",
-"at": "2026-11-24 22:12",
-"ts": 1795525955,
-"msg": "버전 0.12.1 · versionCode 17 — 묶음 QA EditMode 1218/1219 · PlayMode 388/1/94(실패 2건 = 시험 옛 기대, CD-0135c 로 고침·재확인)"
-},
-{
-"sha": "0dcf8853",
-"at": "2026-11-24 22:09",
-"ts": 1795525758,
-"msg": "병합: cd-135c 2e82db55(CD-0135c 0.12.1 QA 실패 2건 시험 옛 기대 고침 — Cd98 정산에 25웨이브 첫 돌파 은화 · Cd42 랭킹 씨앗 새 꼴 · EditMode 24/24 · PlayMode Cd42 11/11 · 제품 코드 그대로)"
 }
 ],
-"dirtyCount": 4,
-"dirty": [
-{
-"file": "studio/orders/CD-0151-랭킹-창-불러오지-못했어요-원인-확인과-고치기/00-order.md",
-"at": "2026-11-24 22:44"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Game.Tests.EditMode.asmdef",
-"at": "2026-11-24 22:43"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd151RankingReasonTests.cs",
-"at": "2026-11-24 22:43"
-},
-{
-"file": "UnityProject/Assets/_Game/Net/Social/Unity/UnityRanking.cs",
-"at": "2026-11-24 22:43"
-}
-],
-"lastEdit": "2026-11-24 22:44",
-"lastEditTs": 1795527855.2681167,
-"lastCommitTs": 1795526967,
-"unpushed": 0,
-"notInMain": 0,
-"today": 156
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795529667,
+"unpushed": 2,
+"notInMain": 2,
+"today": 158
 },
 {
 "branch": "cd-152",
@@ -1550,8 +1533,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0135",
-"head": "db322ed",
+"head": "77bf41f",
 "commits": [
+{
+"sha": "77bf41f6",
+"at": "2026-11-24 23:11",
+"ts": 1795529501,
+"msg": "CD-0152 결정 0112 — 전설 카드 빛줄기 없앰 · 0087 연출 줄에 표시"
+},
+{
+"sha": "ca2627bc",
+"at": "2026-11-24 22:56",
+"ts": 1795528596,
+"msg": "CD-0152 전설 영웅 카드 빛줄기 빼기"
+},
 {
 "sha": "db322ed6",
 "at": "2026-11-24 22:29",
@@ -1575,54 +1570,43 @@
 "at": "2026-11-24 22:18",
 "ts": 1795526282,
 "msg": "앱 0.12.1 · versionCode 17 (CD-0135~0149·0137b·0140b/c) content state(base_id 3da0f120)"
-},
-{
-"sha": "d164fa30",
-"at": "2026-11-24 22:12",
-"ts": 1795525955,
-"msg": "버전 0.12.1 · versionCode 17 — 묶음 QA EditMode 1218/1219 · PlayMode 388/1/94(실패 2건 = 시험 옛 기대, CD-0135c 로 고침·재확인)"
-},
-{
-"sha": "0dcf8853",
-"at": "2026-11-24 22:09",
-"ts": 1795525758,
-"msg": "병합: cd-135c 2e82db55(CD-0135c 0.12.1 QA 실패 2건 시험 옛 기대 고침 — Cd98 정산에 25웨이브 첫 돌파 은화 · Cd42 랭킹 씨앗 새 꼴 · EditMode 24/24 · PlayMode Cd42 11/11 · 제품 코드 그대로)"
 }
 ],
-"dirtyCount": 4,
-"dirty": [
-{
-"file": "studio/orders/CD-0152-전설-영웅-반짝임-효과-빼기/00-order.md",
-"at": "2026-11-24 22:46"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-24 22:45"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
-"at": "2026-11-24 22:42"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd63HeroListEditModeTests.cs",
-"at": "2026-11-24 22:42"
-}
-],
-"lastEdit": "2026-11-24 22:46",
-"lastEditTs": 1795527976.033732,
-"lastCommitTs": 1795526967,
-"unpushed": 0,
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795529501,
+"unpushed": 2,
 "notInMain": 0,
-"today": 156
+"today": 158
 },
 {
 "branch": "cd-153",
 "lane": "cd-153",
 "session": "",
 "owns": "",
-"order": "CD-0135",
-"head": "db322ed",
+"order": "CD-0153",
+"head": "d40912e",
 "commits": [
+{
+"sha": "d40912ef",
+"at": "2026-11-24 23:15",
+"ts": 1795529708,
+"msg": "CD-0153 아트: 추첨함 그림 4장(drawbox · drawbox_heap · count_tag · paper_bit, draft) · 소리 3종 도구 · 장부"
+},
+{
+"sha": "a60c773c",
+"at": "2026-11-24 23:08",
+"ts": 1795529283,
+"msg": "CD-0153 기획서 확정(사용자 컨펌: 권장안대로) · gate spec"
+},
+{
+"sha": "9d0426c2",
+"at": "2026-11-24 23:04",
+"ts": 1795529074,
+"msg": "CD-0153 시안: 쿠지 연출 개편 — R&D · 움직이는 시안 · 영상 · 기획서 초안(사용자 컨펌 대기)"
+},
 {
 "sha": "db322ed6",
 "at": "2026-11-24 22:29",
@@ -1640,43 +1624,49 @@
 "at": "2026-11-24 22:18",
 "ts": 1795526295,
 "msg": "공지 app_0_12_1(notices_v2, notices_check 통과, 24항목)"
-},
-{
-"sha": "2bb90bee",
-"at": "2026-11-24 22:18",
-"ts": 1795526282,
-"msg": "앱 0.12.1 · versionCode 17 (CD-0135~0149·0137b·0140b/c) content state(base_id 3da0f120)"
-},
-{
-"sha": "d164fa30",
-"at": "2026-11-24 22:12",
-"ts": 1795525955,
-"msg": "버전 0.12.1 · versionCode 17 — 묶음 QA EditMode 1218/1219 · PlayMode 388/1/94(실패 2건 = 시험 옛 기대, CD-0135c 로 고침·재확인)"
-},
-{
-"sha": "0dcf8853",
-"at": "2026-11-24 22:09",
-"ts": 1795525758,
-"msg": "병합: cd-135c 2e82db55(CD-0135c 0.12.1 QA 실패 2건 시험 옛 기대 고침 — Cd98 정산에 25웨이브 첫 돌파 은화 · Cd42 랭킹 씨앗 새 꼴 · EditMode 24/24 · PlayMode Cd42 11/11 · 제품 코드 그대로)"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 2359,
 "dirty": [
 {
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/10-spec.md",
-"at": "2026-11-24 22:41"
+"file": "UnityProject/Assets/_Game/UI/KujiSlipGraphic.cs",
+"at": "2026-11-24 23:17"
 },
 {
-"file": "studio/orders/CD-0153-뽑기-쿠지-연출-개편-순서-정리-뜯기-연출-VFX-남은/00-order.md",
-"at": "2026-11-24 22:41"
+"file": "UnityProject/Assets/_Game/Resources/Audio/Sfx/kuji_tear_2.wav",
+"at": "2026-11-24 23:13"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Audio/Sfx/kuji_stamp.wav",
+"at": "2026-11-24 23:13"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Audio/Sfx/kuji_rattle.wav",
+"at": "2026-11-24 23:13"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/box/paper_bit.png",
+"at": "2026-11-24 23:12"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/box/count_tag.png",
+"at": "2026-11-24 23:12"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/box/drawbox.png",
+"at": "2026-11-24 23:12"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/box/drawbox_heap.png",
+"at": "2026-11-24 23:12"
 }
 ],
-"lastEdit": "2026-11-24 22:41",
-"lastEditTs": 1795527715.4421177,
-"lastCommitTs": 1795526967,
-"unpushed": 0,
-"notInMain": 0,
-"today": 156
+"lastEdit": "2026-11-24 23:17",
+"lastEditTs": 1795529827.7275348,
+"lastCommitTs": 1795529708,
+"unpushed": 3,
+"notInMain": 3,
+"today": 159
 },
 {
 "branch": "rel-0121",
@@ -1822,7 +1812,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 118,
+"commits": 117,
 "byOrder": [
 [
 "CD-0135",
@@ -1838,10 +1828,6 @@
 ],
 [
 "기타",
-6
-],
-[
-"CD-0121",
 6
 ],
 [
@@ -1869,6 +1855,10 @@
 4
 ],
 [
+"CD-0153",
+3
+],
+[
 "CD-0141",
 3
 ],
@@ -1889,8 +1879,12 @@
 3
 ],
 [
-"CD-0122",
-3
+"CD-0151",
+2
+],
+[
+"CD-0152",
+2
 ],
 [
 "CD-0147",
@@ -1933,19 +1927,54 @@
 2
 ],
 [
+"CD-0122",
+2
+],
+[
 "CD-0149",
 1
 ],
 [
 "CD-0127",
 1
-],
-[
-"CD-0123",
-1
 ]
 ],
 "latest": [
+{
+"sha": "d40912ef",
+"at": "2026-11-24 23:15",
+"msg": "CD-0153 아트: 추첨함 그림 4장(drawbox · drawbox_heap · count_tag · paper_bit, draft) · 소리 3종 도구 · 장부"
+},
+{
+"sha": "265ecb01",
+"at": "2026-11-24 23:14",
+"msg": "CD-0151 마감: EditMode 33/33 · 시험 .meta · 90-close(관제 요약·해 볼 것·production 판 3개는 승인 뒤)"
+},
+{
+"sha": "77bf41f6",
+"at": "2026-11-24 23:11",
+"msg": "CD-0152 결정 0112 — 전설 카드 빛줄기 없앰 · 0087 연출 줄에 표시"
+},
+{
+"sha": "a60c773c",
+"at": "2026-11-24 23:08",
+"msg": "CD-0153 기획서 확정(사용자 컨펌: 권장안대로) · gate spec"
+},
+{
+"sha": "9d0426c2",
+"at": "2026-11-24 23:04",
+"msg": "CD-0153 시안: 쿠지 연출 개편 — R&D · 움직이는 시안 · 영상 · 기획서 초안(사용자 컨펌 대기)"
+},
+{
+"sha": "ca2627bc",
+"at": "2026-11-24 22:56",
+"msg": "CD-0152 전설 영웅 카드 빛줄기 빼기"
+},
+{
+"sha": "b929cfd4",
+"at": "2026-11-24 22:52",
+"msg": "CD-0151: 랭킹 판 없음(LeaderboardNotFound)을 «기록 없음»으로 · 그 밖 실패는 이유·코드 로그"
+},
 {
 "sha": "db322ed6",
 "at": "2026-11-24 22:29",
@@ -1960,41 +1989,6 @@
 "sha": "2bb90bee",
 "at": "2026-11-24 22:18",
 "msg": "앱 0.12.1 · versionCode 17 (CD-0135~0149·0137b·0140b/c) content state(base_id 3da0f120)"
-},
-{
-"sha": "d164fa30",
-"at": "2026-11-24 22:12",
-"msg": "버전 0.12.1 · versionCode 17 — 묶음 QA EditMode 1218/1219 · PlayMode 388/1/94(실패 2건 = 시험 옛 기대, CD-0135c 로 고침·재확인)"
-},
-{
-"sha": "2e82db55",
-"at": "2026-11-24 22:08",
-"msg": "CD-0135c: Cd42 랭킹 PlayMode 시험 씨앗을 새 진행도 꼴로"
-},
-{
-"sha": "d26c6470",
-"at": "2026-11-24 22:00",
-"msg": "CD-0135c: Cd98 정산 시험 기대에 25웨이브 첫 돌파 보상 더함"
-},
-{
-"sha": "6a889a68",
-"at": "2026-11-24 21:29",
-"msg": "CD-0140c 마감: 가져오기 변화 없음 · EditMode 39/39 · 90-close"
-},
-{
-"sha": "971d8070",
-"at": "2026-11-24 21:15",
-"msg": "CD-0140c F-06: 결과창 경험치 아이콘 금빛 별 확정"
-},
-{
-"sha": "7973b492",
-"at": "2026-11-24 21:07",
-"msg": "CD-0148 마감: 사용자 확정 — 두 하트 confirmed · 단계 마감 · 90-close 상태 갱신"
-},
-{
-"sha": "f86e3223",
-"at": "2026-11-24 21:02",
-"msg": "CD-0149 판 안 프로필·이름 반투명 백판 복구 (#58, CD-0126 회귀)"
 }
 ]
 },
@@ -10751,79 +10745,84 @@
 "id": "CD-0150",
 "title": "채팅 닉네임 표시 고치기 + 월드 채팅 기록 정책",
 "branch": "cd-150",
-"updated": "2026-11-24 22:40",
+"updated": "2026-11-24 22:52",
 "files": [
 "00-order.md"
 ],
 "milestone": "M6",
-"stage": "접수",
+"stage": "제작",
 "route": "direct",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "new",
+"phase": "doing",
 "builtIn": ""
 },
 {
 "id": "CD-0151",
 "title": "랭킹 창 불러오지 못했어요 원인 확인과 고치기",
 "branch": "cd-151",
-"updated": "2026-11-24 22:44",
+"updated": "2026-11-24 23:14",
 "files": [
-"00-order.md"
+"00-order.md",
+"90-close.md"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "direct",
 "risk": "low",
 "teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
 "id": "CD-0152",
 "title": "전설 영웅 반짝임 효과 빼기",
-"branch": "cd-152",
-"updated": "2026-11-24 22:46",
+"branch": "main",
+"updated": "2026-11-24 23:13",
 "files": [
-"00-order.md"
+"00-order.md",
+"90-close.md"
 ],
 "milestone": "M1",
-"stage": "제작",
+"stage": "마감",
 "route": "direct",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-24",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
 "id": "CD-0153",
 "title": "뽑기 쿠지 연출 개편 순서 정리 뜯기 연출 VFX 남은 제비 표시",
 "branch": "cd-153",
-"updated": "2026-11-24 22:47",
+"updated": "2026-11-24 23:14",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"21-art.md",
+"_design",
+"_rnd"
 ],
 "milestone": "M6",
 "stage": "제작",
@@ -10834,9 +10833,37 @@
 "closed": "",
 "stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
+"goal": "<ol>\n<li><strong>순서</strong>: 뜯는 연출 → (A상이 있으면) A상 연출 → 제비별 획득 보상. 뜯기 전에는 상·보상이 보이지 않는다.\n</li>\n<li><strong>뜯는 맛</strong>: 제비가 손가락을 따라 실제로 찢긴다(그림 바꿔치기가 아니다). 틈에서 새는 빛·종이 부스러기·짧은 멈춤·튕김·소리·진동이 한 박자로 맞는다.\n</li>\n<li><strong>남은 제비 표시</strong>: 알약 글자 + 막대 대신 계산대 위 «추첨함»(안 A, 권장). 뽑으면 그 함에서 제비가 나온다.\n</li>\n<li>규칙은 그대로다(결정 0088). Core <code>Kuji</code> · <code>Data/kuji.json</code> · 저장 · 확률을 고치지 않는다. 판정은 뽑는 순간 끝나 있고 화면은 그 결과를 보여 주기만 한다.\n</li></ol>",
+"goalShort": "1.",
+"tasks": [
+{
+"id": "1",
+"key": "CD-0153/1",
+"team": "client",
+"title": "순서 + 뜯기: KujiShow 에 Torn 단계(차례 Laid → Torn → Hero → Opened), 1장 ② 를 «민 만큼 뜯김» 으로(두 조각 메시 · 틈 빛 · 부스러기 · 멈춤 · 튕김), 10장 물결 뜯기, ③ · ⑥b 의 도장 · 보상 등장. 시험: 단계 차례 5경우 · 건너뛰기 · 안내 자동 넘김 · 손종 한 번",
+"output": "코드 + 시험 + 20-client.md",
+"status": "todo",
+"why": ""
+},
+{
+"id": "2",
+"key": "CD-0153/2",
+"team": "client",
+"title": "A상 연출 + 추첨함: ④ 를 실루엣 → 색 → 이름판 → 도장으로, 뽑기창 아래를 추첨함 · 꼬리표로(알약 · 막대 · 제비 줄 제거, 바닥 글 제거), 함에서 제비가 나오는 연결, 진동 도우미. Data/tutorial.json 자리 이름이 바뀌면 함께",
+"output": "코드 + 시험 + 20-client.md 에 이어",
+"status": "todo",
+"why": ""
+},
+{
+"id": "3",
+"key": "CD-0153/3",
+"team": "art",
+"title": "위 «그림» 표 4장 + 소리 3종(kuji_rattle 함 덜컹 · kuji_stamp 도장 · kuji_tear_2 뜯는 소리 변주 — 보유 Kenney CC0 art/source/kenney-audio 에서, 장부)",
+"output": "그림 · 소리 + 21-art.md",
+"status": "done",
+"why": "보고서 있음: 21-art.md"
+}
+],
 "phase": "doing",
 "builtIn": ""
 }
@@ -11676,7 +11703,7 @@
 "no": 59,
 "title": "채팅 닉네임 표시 고치기 + 월드 채팅 기록 정책 검토",
 "state": "open",
-"phase": "new",
+"phase": "doing",
 "imp": "mid",
 "orders": [
 "CD-0150"
@@ -11689,7 +11716,7 @@
 "no": 60,
 "title": "랭킹 창이 여전히 «불러오지 못했어요» — 원인 확인·고치기",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0042",
@@ -11705,7 +11732,7 @@
 "no": 61,
 "title": "전설 영웅 반짝임 효과 빼기",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0152"
@@ -11773,10 +11800,80 @@
 "state": "open",
 "phase": "new",
 "imp": "mid",
-"orders": [],
+"orders": [
+"CD-0157"
+],
 "createdAt": "2026-11-24 13:44",
-"seen": false,
+"seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/66"
+},
+{
+"no": 67,
+"title": "UI 반응·전환 연출 폴리싱(하단 탭 등 «틱» 끊김 없애기) + UI 모션 규칙 정하기",
+"state": "open",
+"phase": "built",
+"imp": "mid",
+"orders": [
+"CD-0041",
+"CD-0158"
+],
+"createdAt": "2026-11-24 13:49",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/67"
+},
+{
+"no": 68,
+"title": "결과창(승리·패배) 등장 연출 — 순서대로 나오는 애니메이션",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [
+"CD-0159"
+],
+"createdAt": "2026-11-24 13:50",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/68"
+},
+{
+"no": 69,
+"title": "자리 바꾸기 강제 튜토리얼 + 첫 랜덤 소환 위치 고정",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [
+"CD-0160"
+],
+"createdAt": "2026-11-24 13:56",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/69"
+},
+{
+"no": 70,
+"title": "튜토리얼에서 재화를 쓰게 할 때는 먼저 재화를 주고 하게(광부 고용 골드 30 등)",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [
+"CD-0160",
+"CD-0161"
+],
+"createdAt": "2026-11-24 14:06",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/70"
+},
+{
+"no": 71,
+"title": "초월 버튼 차원석 −N 빨간 글자 되돌리기 — 모자랄 때만 빨강",
+"state": "open",
+"phase": "built",
+"imp": "mid",
+"orders": [
+"CD-0147",
+"CD-0162"
+],
+"createdAt": "2026-11-24 14:12",
+"seen": true,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/71"
 }
 ],
 "versions": [
@@ -12703,7 +12800,7 @@
 "kind": "confirmed",
 "date": "2026-11-22",
 "by": "사용자(시안 A·B·C 중 A 선택, 폴리싱 의견 다섯 차례 — 원문은 `studio/orders/CD-0063-…/00-order.md`) · 번호는 관제",
-"html": "<div class=tw><table><thead><tr><th>무엇</th><th>결정</th></tr></thead><tbody><tr><td>방향</td><td>영웅 탭은 어두운 남색 바탕 한 장에 그림이 카드를 가득 채우는 구성. 등급별 큰 색 판을 없앤다. 정보창은 가운데 작은 창이 아니라 탭 영역 전체.</td></tr><tr><td>등급 색</td><td>일반 회색 #9AA1AD · 고급 녹색 #5FC46E · 희귀 파랑 #5B9BFF · 영웅 보라 #A879F2 · 전설 노랑 #FFD04A. (옛: 4단계 = 금색, 전설 = 보라 + 금) 화면에 등급 글자를 쓰지 않는 규칙(결정 0049)은 그대로.</td></tr><tr><td>등급 표식</td><td>1~4단계 = «겹 꺾쇠» 1~4줄(등급 색). 전설 = «꺾쇠 왕관»(금빛 꺾쇠 두 줄 위에 왕관). 마름모 핍은 영웅 탭에서 쓰지 않는다. 코드로 그린다.</td></tr><tr><td>연출</td><td><strong>1~4단계는 좋아 보이게 꾸미지 않는다</strong> — 1px 색 테두리뿐, 빛·포일·움직임 없음(4단계 카드의 <code>CD/UiHolo</code> 를 끈다). <strong>전설부터</strong> 금빛 테두리·은은한 빛·빛 줄기·정보창 뒤 광선.</td></tr><tr><td>카드 글자</td><td>레벨은 «Lv.n» 글자만(알약·판 없음). 수량 «n/m» 글자는 카드에서 빼고 3px 선으로. 초월 «+n» 은 레벨 옆이 아니라 이름 오른쪽에 균열석 색 기울인 숫자.</td></tr><tr><td>종족 구분 표식</td><td><strong>결정 0012 «종족의 상징 없음» 을 갱신한다</strong>: 불·얼음·번개 같은 속성 상징과 원소색으로 종족을 가르는 것은 계속 금지. 종족의 <strong>생김새·도구로 만든 한 가지 색 구분 표식</strong>은 허용 — 인간 = 검 · 엘프 = 잎 · 드워프 = 망치 · 수인 = 발바닥 · 정령 = 방울 · 용족 = 날개. 쓰는 곳은 영웅 탭의 종족 고르기와 정보창의 종족 줄. 상성·속성 규칙은 여전히 없다.</td></tr><tr><td>능력치 아이콘</td><td>영웅 탭의 공격력·공격속도·사거리 아이콘은 한 가지 색 선 아이콘(<code>ui/mark_stat_*</code>, 없으면 코드 그림). ~~채색 그림 <code>ui/icon_stat_*</code> 은 인게임 카드에만 남는다.~~ → <strong>CD-0145 고침: 인게임 능력치 카드와 결과창 피해량 알약도 같은 선 아이콘·같은 색(<code>HeroMarks.StatInk</code>)을 쓴다. 채색 그림은 더 쓰지 않는다</strong>(아래 «고침 이력»).</td></tr><tr><td>전설 정보창</td><td>레벨 업과 초월을 한 화면에 나란히. 전설의 레벨은 그 종족 4단계 영웅의 레벨(Core 규칙 그대로)이므로, 전설 화면의 [레벨 업] 은 4단계 영웅을 레벨 업한다(재료 = 그 영웅의 중복 + 은화).</td></tr><tr><td>글자 규칙</td><td>결정 0057(밝은 글자는 모두 «누끼», 글꼴 한 벌 Black)을 <strong>아웃게임 화면 공통으로 갱신</strong>(사용자 답 2026-11-22 «아웃게임 공통»): 아웃게임의 밝은 글자는 테두리 없이 짧은 그림자만. 글꼴은 Black 한 벌 그대로(자산 추가 없음). CD-0063 은 공용 프리셋을 만들고 영웅 탭에 적용한다 — 로비·뽑기·업적·상점 등 다른 화면은 각 주문(CD-0060·0064·0065 등)이 관제 안내에 따라 옮긴다. 인게임 글자는 결정 0057 그대로.</td></tr></tbody></table></div>",
+"html": "<div class=tw><table><thead><tr><th>무엇</th><th>결정</th></tr></thead><tbody><tr><td>방향</td><td>영웅 탭은 어두운 남색 바탕 한 장에 그림이 카드를 가득 채우는 구성. 등급별 큰 색 판을 없앤다. 정보창은 가운데 작은 창이 아니라 탭 영역 전체.</td></tr><tr><td>등급 색</td><td>일반 회색 #9AA1AD · 고급 녹색 #5FC46E · 희귀 파랑 #5B9BFF · 영웅 보라 #A879F2 · 전설 노랑 #FFD04A. (옛: 4단계 = 금색, 전설 = 보라 + 금) 화면에 등급 글자를 쓰지 않는 규칙(결정 0049)은 그대로.</td></tr><tr><td>등급 표식</td><td>1~4단계 = «겹 꺾쇠» 1~4줄(등급 색). 전설 = «꺾쇠 왕관»(금빛 꺾쇠 두 줄 위에 왕관). 마름모 핍은 영웅 탭에서 쓰지 않는다. 코드로 그린다.</td></tr><tr><td>연출</td><td><strong>1~4단계는 좋아 보이게 꾸미지 않는다</strong> — 1px 색 테두리뿐, 빛·포일·움직임 없음(4단계 카드의 <code>CD/UiHolo</code> 를 끈다). <strong>전설부터</strong> 금빛 테두리·은은한 빛·빛 줄기·정보창 뒤 광선. → 0112 로 빛줄기 없앰.</td></tr><tr><td>카드 글자</td><td>레벨은 «Lv.n» 글자만(알약·판 없음). 수량 «n/m» 글자는 카드에서 빼고 3px 선으로. 초월 «+n» 은 레벨 옆이 아니라 이름 오른쪽에 균열석 색 기울인 숫자.</td></tr><tr><td>종족 구분 표식</td><td><strong>결정 0012 «종족의 상징 없음» 을 갱신한다</strong>: 불·얼음·번개 같은 속성 상징과 원소색으로 종족을 가르는 것은 계속 금지. 종족의 <strong>생김새·도구로 만든 한 가지 색 구분 표식</strong>은 허용 — 인간 = 검 · 엘프 = 잎 · 드워프 = 망치 · 수인 = 발바닥 · 정령 = 방울 · 용족 = 날개. 쓰는 곳은 영웅 탭의 종족 고르기와 정보창의 종족 줄. 상성·속성 규칙은 여전히 없다.</td></tr><tr><td>능력치 아이콘</td><td>영웅 탭의 공격력·공격속도·사거리 아이콘은 한 가지 색 선 아이콘(<code>ui/mark_stat_*</code>, 없으면 코드 그림). ~~채색 그림 <code>ui/icon_stat_*</code> 은 인게임 카드에만 남는다.~~ → <strong>CD-0145 고침: 인게임 능력치 카드와 결과창 피해량 알약도 같은 선 아이콘·같은 색(<code>HeroMarks.StatInk</code>)을 쓴다. 채색 그림은 더 쓰지 않는다</strong>(아래 «고침 이력»).</td></tr><tr><td>전설 정보창</td><td>레벨 업과 초월을 한 화면에 나란히. 전설의 레벨은 그 종족 4단계 영웅의 레벨(Core 규칙 그대로)이므로, 전설 화면의 [레벨 업] 은 4단계 영웅을 레벨 업한다(재료 = 그 영웅의 중복 + 은화).</td></tr><tr><td>글자 규칙</td><td>결정 0057(밝은 글자는 모두 «누끼», 글꼴 한 벌 Black)을 <strong>아웃게임 화면 공통으로 갱신</strong>(사용자 답 2026-11-22 «아웃게임 공통»): 아웃게임의 밝은 글자는 테두리 없이 짧은 그림자만. 글꼴은 Black 한 벌 그대로(자산 추가 없음). CD-0063 은 공용 프리셋을 만들고 영웅 탭에 적용한다 — 로비·뽑기·업적·상점 등 다른 화면은 각 주문(CD-0060·0064·0065 등)이 관제 안내에 따라 옮긴다. 인게임 글자는 결정 0057 그대로.</td></tr></tbody></table></div>",
 "branch": "main",
 "dirty": false
 },
@@ -12792,6 +12889,17 @@
 "date": "2026-11-24",
 "by": "사용자(관제가 선택지로 받아 전달)",
 "html": "<ol>\n<li><strong>2장은 스테이지 하나</strong>(<code>gate_04_01</code>, 화면 이름 «챕터 2»)이고 <strong>50웨이브를 다 막아야 클리어</strong>다. 2-2~2-10(<code>gate_04_02~10</code>)은 없앤다. 챕터마다 목표 웨이브를 데이터(<code>mapindex.json chapters[].plan</code>)에 둔다 — 3장부터도 같은 꼴.\n</li>\n<li>보스 웨이브는 <strong>25·50</strong>(behemoth 1마리).\n</li>\n<li><strong>25웨이브를 처음 넘으면 한 번 보상</strong>(<code>reward.json waveMilestones</code>). 50 은 클리어 보상이 그 몫이다.\n</li>\n<li>전설 <strong>게르하르트는 챕터 2 클리어</strong>(50웨이브)로 열린다. 옛 2-5 클리어로 이미 가진 계정은 그대로 가진다(사용자 2026-11-24 «이미 가진 사람은 유지»).\n</li>\n<li>출전 행동력은 <strong>5 그대로</strong>.\n</li>\n<li>구슬 소환 칸 규칙은 <strong>바꾸지 않는다</strong> — 2장 초반 난이도는 웨이브 수치로 맞춘다.\n</li>\n<li>로비·결과창은 «챕터 2 · 최고 N / 50» 처럼 스테이지별 최고 도달 웨이브를 보인다(저장에 스테이지별 최고 웨이브·받은 고비).\n</li></ol>",
+"branch": "main",
+"dirty": false
+},
+{
+"id": "0112",
+"title": "전설 카드 위를 지나가는 빛줄기를 없앤다",
+"status": "확정",
+"kind": "confirmed",
+"date": "2026-11-24",
+"by": "사용자(접수 #61) · 범위는 관제 지시로 권장안(빛줄기만) · 번호는 관제",
+"html": "<ol>\n<li>영웅 탭에서 가진 전설 카드 위를 4.5초마다 지나가던 빛줄기(<code>Gleam.Shine</code>)를 없앤다. 영웅 탭의 어느 카드에도 되풀이하는 빛 쓸림이 없다.\n</li>\n<li>전설은 금빛 테두리, 카드 둘레의 은은한 금빛(<code>OuterGlow</code>), 전설 표식으로 구분한다. 이것들은 그대로 둔다.\n</li>\n<li>인게임 전설 발밑 연출(빛·문장·금 고리)과 레벨 업 금빛 입자는 이 결정에 들지 않는다. 그대로 둔다.\n</li></ol>",
 "branch": "main",
 "dirty": false
 }
@@ -16714,6 +16822,42 @@
 "hasFile": true
 },
 {
+"id": "box/drawbox",
+"group": "ui",
+"title": "추첨함 몸통(속 빈 창)",
+"brief": "앞 창이 뚫린 나무 추첨함. 창 안은 비어 있다. CD-0153",
+"status": "draft",
+"address": "box/drawbox",
+"hasFile": true
+},
+{
+"id": "box/drawbox_heap",
+"group": "ui",
+"title": "제비 더미(창 속)",
+"brief": "접힌 제비 더미 한 장, 창 마스크 안에서 내려 쓴다. CD-0153",
+"status": "draft",
+"address": "box/drawbox_heap",
+"hasFile": true
+},
+{
+"id": "box/count_tag",
+"group": "ui",
+"title": "남은 수 꼬리표",
+"brief": "끈 구멍 종이 꼬리표, 숫자는 코드. CD-0153",
+"status": "draft",
+"address": "box/count_tag",
+"hasFile": true
+},
+{
+"id": "box/paper_bit",
+"group": "ui",
+"title": "종이 부스러기",
+"brief": "뜯길 때 날리는 부스러기 한 조각. CD-0153",
+"status": "draft",
+"address": "box/paper_bit",
+"hasFile": true
+},
+{
 "id": "ui/icon_exp",
 "group": "ui",
 "title": "아이콘: 계정 경험치",
@@ -18459,8 +18603,8 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-24 21:31",
-"branch": "main",
+"at": "2026-11-24 23:12",
+"branch": "cd-153",
 "dirty": false
 },
 "gallery": {
@@ -18865,6 +19009,26 @@
 "f": "data/art/8ca6cd5b0fbd9bbe58de.bin",
 "w": 512,
 "h": 512
+},
+"box/drawbox": {
+"f": "data/art/608790de4ac6a732a69c.bin",
+"w": 512,
+"h": 512
+},
+"box/drawbox_heap": {
+"f": "data/art/299ae5689b6e0328f55a.bin",
+"w": 512,
+"h": 291
+},
+"box/count_tag": {
+"f": "data/art/570c2c78f362f7a721b4.bin",
+"w": 384,
+"h": 124
+},
+"box/paper_bit": {
+"f": "data/art/2aa7a0b7a73fb52b05f6.bin",
+"w": 96,
+"h": 70
 },
 "ui/icon_exp": {
 "f": "data/art/cdcb5a3d5d13d68d7797.bin",
@@ -21237,6 +21401,26 @@
 "state": "final"
 },
 {
+"address": "box/drawbox",
+"kind": "box",
+"state": "final"
+},
+{
+"address": "box/drawbox_heap",
+"kind": "box",
+"state": "final"
+},
+{
+"address": "box/count_tag",
+"kind": "box",
+"state": "final"
+},
+{
+"address": "box/paper_bit",
+"kind": "box",
+"state": "final"
+},
+{
 "address": "ui/icon_exp",
 "kind": "ui",
 "state": "final"
@@ -21537,8 +21721,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-23 00:51",
-"branch": "main"
+"at": "2026-11-24 23:12",
+"branch": "cd-153"
 }
 },
 "devlog": [
@@ -21886,7 +22070,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-24 22:47",
-"generatedAt": "2026-11-24 22:47",
-"digest": "c0831f6a31c0107c"
+"sourceAt": "2026-11-24 23:17",
+"generatedAt": "2026-11-24 23:17",
+"digest": "0235b18e20f8b528"
 }
