@@ -1305,43 +1305,43 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0166",
-"head": "d2ca5a4",
+"head": "04f91b6",
 "commits": [
 {
-"sha": "d2ca5a48",
-"at": "2026-11-25 14:53",
-"ts": 1795586017,
-"msg": "병합: cd-157b 28a6cf6f(레벨업 표식 ui/mark_levelup Unity 사본 반입 · 원본 해시 일치 · EditMode 13/13)"
+"sha": "04f91b67",
+"at": "2026-11-25 16:46",
+"ts": 1795592797,
+"msg": "병합: cd-166 544fdb4e(CD-0166b 영웅 상세창 폴리싱 · 종족 백판 6장 전용 그래픽 배경 · DetailFrames · 긴 화면 백판 채움 · 결정 0119 · EditMode 40/40 · PlayMode 6/6)"
 },
 {
-"sha": "28a6cf6f",
-"at": "2026-11-25 14:53",
-"ts": 1795586003,
-"msg": "CD-0157 후속 cd-157b — 확정한 레벨업 표식을 Unity 사본에 반입"
+"sha": "544fdb4e",
+"at": "2026-11-25 16:44",
+"ts": 1795592647,
+"msg": "CD-0166b 마감 — 긴 화면 백판 채움 · 결정 0119 · 캡처(_qa/after) · EditMode 40/40 · PlayMode 6/6 · 빌드 대기"
 },
 {
-"sha": "410f2789",
-"at": "2026-11-25 14:45",
-"ts": 1795585518,
-"msg": "병합: cd-166 61b49c29(CD-0166 기본 영웅 6명 SD 24장 새 디자인 · 체형 표 · 칭호 24개 · 결정 0118 · EditMode 35/35)"
+"sha": "ad4e9c6a",
+"at": "2026-11-25 16:38",
+"ts": 1795592284,
+"msg": "CD-0166b 상세창 백판 6장 교체 — 문양 없는 전용 그래픽 배경(E) + 채도·밝기 마감"
 },
 {
-"sha": "61b49c29",
-"at": "2026-11-25 14:42",
-"ts": 1795585353,
-"msg": "CD-0166 마감 — 칭호 24개(결정 0118) · EditMode 35/35 · 빌드 대기"
+"sha": "5c2b82da",
+"at": "2026-11-25 16:21",
+"ts": 1795591263,
+"msg": "CD-0166b 백판 E 구성(문양 없는 전용 배경) 시안·비교 그림"
 },
 {
-"sha": "cfe53408",
-"at": "2026-11-25 14:37",
-"ts": 1795585041,
-"msg": "CD-0166 새 디자인 SD 24장 확정본·유니티 반입 · 체형 표"
+"sha": "b8cac10b",
+"at": "2026-11-25 15:42",
+"ts": 1795588927,
+"msg": "CD-0166b 백판 C·D 묶음 비교 그림"
 },
 {
-"sha": "2af27063",
-"at": "2026-11-25 14:29",
-"ts": 1795584541,
-"msg": "CD-0166 주문 열림 · SD 1차 시안 대조 그림"
+"sha": "6b80aaf3",
+"at": "2026-11-25 15:34",
+"ts": 1795588450,
+"msg": "CD-0166b 캡처 시험(영웅 목록·상세 24종·판 안) · 배치 표 EditMode 시험 · _qa 캡처 — EditMode 40/40"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795586017,
+"lastCommitTs": 1795592797,
 "unpushed": 0,
 "notInMain": 0,
-"today": 69
+"today": 77
 },
 {
 "branch": "cd-166",
@@ -1392,8 +1392,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0166",
-"head": "b8cac10",
+"head": "544fdb4",
 "commits": [
+{
+"sha": "544fdb4e",
+"at": "2026-11-25 16:44",
+"ts": 1795592647,
+"msg": "CD-0166b 마감 — 긴 화면 백판 채움 · 결정 0119 · 캡처(_qa/after) · EditMode 40/40 · PlayMode 6/6 · 빌드 대기"
+},
+{
+"sha": "ad4e9c6a",
+"at": "2026-11-25 16:38",
+"ts": 1795592284,
+"msg": "CD-0166b 상세창 백판 6장 교체 — 문양 없는 전용 그래픽 배경(E) + 채도·밝기 마감"
+},
+{
+"sha": "5c2b82da",
+"at": "2026-11-25 16:21",
+"ts": 1795591263,
+"msg": "CD-0166b 백판 E 구성(문양 없는 전용 배경) 시안·비교 그림"
+},
 {
 "sha": "b8cac10b",
 "at": "2026-11-25 15:42",
@@ -1411,43 +1429,16 @@
 "at": "2026-11-25 15:30",
 "ts": 1795588203,
 "msg": "Merge commit 'd2ca5a48' into cd-166"
-},
-{
-"sha": "1d82fda9",
-"at": "2026-11-25 15:30",
-"ts": 1795588202,
-"msg": "CD-0166b 작업 중 — 상세창 일러스트 배치 표(DetailFrames) · 그래픽 백판 배치 · 캡처 시험 · 백판 시안 도구"
-},
-{
-"sha": "d2ca5a48",
-"at": "2026-11-25 14:53",
-"ts": 1795586017,
-"msg": "병합: cd-157b 28a6cf6f(레벨업 표식 ui/mark_levelup Unity 사본 반입 · 원본 해시 일치 · EditMode 13/13)"
-},
-{
-"sha": "28a6cf6f",
-"at": "2026-11-25 14:53",
-"ts": 1795586003,
-"msg": "CD-0157 후속 cd-157b — 확정한 레벨업 표식을 Unity 사본에 반입"
 }
 ],
-"dirtyCount": 2,
-"dirty": [
-{
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-25 16:17"
-},
-{
-"file": "art/tools/plate166.py",
-"at": "2026-11-25 16:13"
-}
-],
-"lastEdit": "2026-11-25 16:17",
-"lastEditTs": 1795591041.457528,
-"lastCommitTs": 1795588927,
-"unpushed": 4,
-"notInMain": 4,
-"today": 73
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795592647,
+"unpushed": 0,
+"notInMain": 0,
+"today": 76
 },
 {
 "branch": "rel-0121",
@@ -1600,12 +1591,12 @@
 12
 ],
 [
-"CD-0153",
-7
+"CD-0166",
+9
 ],
 [
-"CD-0166",
-6
+"CD-0153",
+7
 ],
 [
 "CD-0157",
@@ -1648,10 +1639,6 @@
 3
 ],
 [
-"CD-0141",
-3
-],
-[
 "CD-0160",
 2
 ],
@@ -1684,19 +1671,38 @@
 2
 ],
 [
-"CD-0144",
-2
-],
-[
-"CD-0146",
+"CD-0141",
 2
 ],
 [
 "CD-0149",
 1
+],
+[
+"CD-0144",
+1
+],
+[
+"CD-0146",
+1
 ]
 ],
 "latest": [
+{
+"sha": "544fdb4e",
+"at": "2026-11-25 16:44",
+"msg": "CD-0166b 마감 — 긴 화면 백판 채움 · 결정 0119 · 캡처(_qa/after) · EditMode 40/40 · PlayMode 6/6 · 빌드 대기"
+},
+{
+"sha": "ad4e9c6a",
+"at": "2026-11-25 16:38",
+"msg": "CD-0166b 상세창 백판 6장 교체 — 문양 없는 전용 그래픽 배경(E) + 채도·밝기 마감"
+},
+{
+"sha": "5c2b82da",
+"at": "2026-11-25 16:21",
+"msg": "CD-0166b 백판 E 구성(문양 없는 전용 배경) 시안·비교 그림"
+},
 {
 "sha": "b8cac10b",
 "at": "2026-11-25 15:42",
@@ -1731,21 +1737,6 @@
 "sha": "2af27063",
 "at": "2026-11-25 14:29",
 "msg": "CD-0166 주문 열림 · SD 1차 시안 대조 그림"
-},
-{
-"sha": "7662665a",
-"at": "2026-11-25 14:17",
-"msg": "CD-0163 마감 — 라카 2단계 눈 내림 0 · EditMode 17/17 · 빌드 대기"
-},
-{
-"sha": "15779c17",
-"at": "2026-11-25 14:12",
-"msg": "CD-0163 새 일러스트 유니티 반입 · 얼굴 위치 표 24줄 · 결정 0117"
-},
-{
-"sha": "3f518c25",
-"at": "2026-11-25 14:07",
-"msg": "CD-0163 기본 영웅 6명 리디자인 — 일러스트 24장 확정본 교체 · 설정 문서 반영"
 }
 ]
 },
@@ -11104,22 +11095,30 @@
 {
 "id": "CD-0166",
 "title": "기본 영웅 6명 SD 인게임 모델",
-"branch": "cd-166",
-"updated": "2026-11-25 15:42",
+"branch": "main",
+"updated": "2026-11-25 16:44",
 "files": [
 "00-order.md",
 "10-spec.md",
 "90-close.md",
 "_design",
 "_qa",
+"detail-after-1.png",
+"detail-after-2.png",
+"detail-after-tall.png",
 "detail-new-frame.png",
 "detail-now.png",
 "plate-cmp-beast-spirit-dragon.png",
 "plate-cmp-elf-dwarf.png",
+"plate-e-final-1.png",
+"plate-e-final-2.png",
+"plate-e-finish-1.png",
 "plate-mock-1.png",
 "plate-mock-2.png",
 "plate-set-c.png",
 "plate-set-d.png",
+"plate-set-e-young.png",
+"plate-set-e.png",
 "plate-set-young.png",
 "sd1-beast.png",
 "sd1-dragon.png",
@@ -11130,18 +11129,18 @@
 "sd2-board-size.png"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "art, client",
 "opened": "2026-11-25",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 }
 ],
@@ -13295,6 +13294,17 @@
 "date": "2026-11-25",
 "by": "사용자 · 번호는 관제",
 "html": "<div class=tw><table><thead><tr><th>인물</th><th>1단계</th><th>2단계</th><th>3단계</th><th>4단계</th></tr></thead><tbody><tr><td>테오</td><td>솥뚜껑 소년</td><td>수습 문지기</td><td>관문 수비병</td><td>철벽의 선임</td></tr><tr><td>리엘</td><td>새순 든 아이</td><td>수습 숲지기</td><td>숲 순찰자</td><td>수비대 명궁</td></tr><tr><td>그론</td><td>광산 마을 꼬마</td><td>수습 공병</td><td>수비대 포병</td><td>선임 포격수</td></tr><tr><td>카자</td><td>귀 큰 새끼</td><td>어린 스라소니</td><td>갓 일어선 수인</td><td>수비대 척후</td></tr><tr><td>펠리</td><td>작은 기운</td><td>모이는 기운</td><td>가면 쓴 정령</td><td>물들지 않은 수호령</td></tr><tr><td>라카</td><td>알 속 해츨링</td><td>어린 용</td><td>젊은 비룡</td><td>용창 기사</td></tr></tbody></table></div>\n<p>라카 2~4단계는 옛 칭호 그대로다. 전부 11자 안쪽, 속성 낱말·등급 글자 없음.</p>",
+"branch": "main",
+"dirty": false
+},
+{
+"id": "0119",
+"title": "영웅 상세창 — 종족 백판은 문양 없는 전용 그래픽 배경, 일러스트는 머리 크기 기준 큰 구도",
+"status": "확정(방향은 사용자, 세부 조정은 위임)",
+"kind": "confirmed",
+"date": "2026-11-25",
+"by": "사용자 · 번호는 관제",
+"html": "<ol>\n<li><strong>종족 백판 6장(<code>key/hero_bg_&lt;종족&gt;</code>)은 풍경화가 아니라 그래픽 디자인 판이다.</strong> 문양·아이콘·표식을 넣지 않고, 그 종족의 터전을 종족 색의 옅고 짙은 면 네댓 겹으로 쌓은 포스터풍 장면 + 사선 빛 띠로 만든 <strong>전용 배경</strong>이다 — 인간 관문 성채 · 엘프 숲 도시 · 드워프 광산 설비 · 수인 해 질 녘 초원 · 정령 떠 있는 폐허 성소 · 용족 용의 둥지 산봉우리.\n</li>\n<li>여섯 장은 <strong>한 기준으로 마감</strong>한다(<code>art/tools/plate166_finish.py</code>): 채도 ×0.72 · 무대 부분 평균 밝기 0.27 · 인물 뒤 가운데는 세부를 흐리게 · 아래는 바탕색으로 녹임. 판이 인물보다 밝거나 진하면 안 된다.\n</li>\n<li>그래픽 판은 <strong>무대 맨 위에 매달린다</strong>(구성이 위쪽 44% 에 있다). 바닥선에 발을 세우는 옛 배치(<code>PlateGroundLine</code>)는 전설 두 명의 풍경화 판에만 남는다.\n</li>\n<li><strong>일러스트는 그림마다 정한 큰 구도로 놓는다</strong>(<code>Portraits.DetailFrames</code>, 24줄): 머리 크기를 기준으로 키워 어른은 무릎 아래가 정보 판 뒤로 들어가고, 아이·새끼·기운은 전신이 보인다. «전신을 무대에 넣고 체형 표 배율, 발 = 판 위 가장자리» 는 줄이 없는 그림(전설)에만 쓴다.\n</li>\n<li>다른 작품은 느낌만 참고했다(평면 그래픽 · 겹친 면 · 사선). 그 작품의 로고·문양·글자·화면 배치는 쓰지 않는다(CLAUDE.md 규칙 5).\n</li></ol>",
 "branch": "main",
 "dirty": false
 }
@@ -16961,7 +16971,7 @@
 "id": "key/hero_bg_human",
 "group": "key",
 "title": "영웅 정보창 백판 · 인간",
-"brief": "세로 9:16(1080×1920, 불투명 · 위쪽은 게임이 녹임, 바닥선 80%). 관문 성벽 위의 밤. CD-0089 → CD-0122 세로로 다시 그림",
+"brief": "CD-0166b(2026-11-25): 문양 없는 전용 그래픽 배경 — 관문 성채. 종족 색 면을 겹친 포스터풍 + 사선 빛 띠, 위쪽 44%에 구성. art/tools/plate166.py(E) → plate166_finish.py(채도·밝기 맞춤)",
 "status": "draft",
 "hasFile": true
 },
@@ -16969,7 +16979,7 @@
 "id": "key/hero_bg_elf",
 "group": "key",
 "title": "영웅 정보창 백판 · 엘프",
-"brief": "세로 9:16(1080×1920, 불투명 · 위쪽은 게임이 녹임, 바닥선 80%). 달빛 드는 숲속 빈터. CD-0089 → CD-0122 세로로 다시 그림",
+"brief": "CD-0166b(2026-11-25): 문양 없는 전용 그래픽 배경 — 큰 나무 사이의 숲 도시. 종족 색 면을 겹친 포스터풍 + 사선 빛 띠, 위쪽 44%에 구성. art/tools/plate166.py(E) → plate166_finish.py(채도·밝기 맞춤)",
 "status": "draft",
 "hasFile": true
 },
@@ -16977,7 +16987,7 @@
 "id": "key/hero_bg_dwarf",
 "group": "key",
 "title": "영웅 정보창 백판 · 드워프",
-"brief": "세로 9:16(1080×1920, 불투명 · 위쪽은 게임이 녹임, 바닥선 80%). 산속 돌 회랑 작업장. CD-0089 → CD-0122 세로로 다시 그림",
+"brief": "CD-0166b(2026-11-25): 문양 없는 전용 그래픽 배경 — 산속 광산 설비. 종족 색 면을 겹친 포스터풍 + 사선 빛 띠, 위쪽 44%에 구성. art/tools/plate166.py(E) → plate166_finish.py(채도·밝기 맞춤)",
 "status": "draft",
 "hasFile": true
 },
@@ -16985,7 +16995,7 @@
 "id": "key/hero_bg_beast",
 "group": "key",
 "title": "영웅 정보창 백판 · 수인",
-"brief": "세로 9:16(1080×1920, 불투명 · 위쪽은 게임이 녹임, 바닥선 80%). 밤의 초원 바위 언덕. CD-0089 → CD-0122 세로로 다시 그림",
+"brief": "CD-0166b(2026-11-25): 문양 없는 전용 그래픽 배경 — 해 질 녘 초원. 종족 색 면을 겹친 포스터풍 + 사선 빛 띠, 위쪽 44%에 구성. art/tools/plate166.py(E) → plate166_finish.py(채도·밝기 맞춤)",
 "status": "draft",
 "hasFile": true
 },
@@ -16993,7 +17003,7 @@
 "id": "key/hero_bg_spirit",
 "group": "key",
 "title": "영웅 정보창 백판 · 정령",
-"brief": "세로 9:16(1080×1920, 불투명 · 위쪽은 게임이 녹임, 바닥선 80%). 구름 위 하늘 정원. CD-0089 → CD-0122 세로로 다시 그림",
+"brief": "CD-0166b(2026-11-25): 문양 없는 전용 그래픽 배경 — 떠 있는 폐허 성소. 종족 색 면을 겹친 포스터풍 + 사선 빛 띠, 위쪽 44%에 구성. art/tools/plate166.py(E) → plate166_finish.py(채도·밝기 맞춤)",
 "status": "draft",
 "hasFile": true
 },
@@ -17001,7 +17011,7 @@
 "id": "key/hero_bg_dragon",
 "group": "key",
 "title": "영웅 정보창 백판 · 용족",
-"brief": "세로 9:16(1080×1920, 불투명 · 위쪽은 게임이 녹임, 바닥선 80%). 구름 위 붉은 바위 둥지. CD-0089 → CD-0122 세로로 다시 그림",
+"brief": "CD-0166b(2026-11-25): 문양 없는 전용 그래픽 배경 — 용의 둥지 산봉우리. 종족 색 면을 겹친 포스터풍 + 사선 빛 띠, 위쪽 44%에 구성. art/tools/plate166.py(E) → plate166_finish.py(채도·밝기 맞춤)",
 "status": "draft",
 "hasFile": true
 },
@@ -19556,7 +19566,7 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-25 14:42",
+"at": "2026-11-25 16:44",
 "branch": "main",
 "dirty": false
 },
@@ -19594,32 +19604,32 @@
 "h": 1280
 },
 "key/hero_bg_human": {
-"f": "data/art/9138295920045ec62f29.bin",
+"f": "data/art/d57c01d8734da29d1947.bin",
 "w": 720,
 "h": 1280
 },
 "key/hero_bg_elf": {
-"f": "data/art/ef0c1cd26584be02ae02.bin",
+"f": "data/art/368a982e3e4493a55be8.bin",
 "w": 720,
 "h": 1280
 },
 "key/hero_bg_dwarf": {
-"f": "data/art/cdba73e6f2b54dbf75a8.bin",
+"f": "data/art/3cee976829f341461472.bin",
 "w": 720,
 "h": 1280
 },
 "key/hero_bg_beast": {
-"f": "data/art/19e8397cd6fe42ccc9cf.bin",
+"f": "data/art/3329b343d06d9447e19e.bin",
 "w": 720,
 "h": 1280
 },
 "key/hero_bg_spirit": {
-"f": "data/art/01a49b6b673e71662279.bin",
+"f": "data/art/a3b3957efa7b987b0bde.bin",
 "w": 720,
 "h": 1280
 },
 "key/hero_bg_dragon": {
-"f": "data/art/818a025671f365e80f51.bin",
+"f": "data/art/d93ed0c0aa6200165581.bin",
 "w": 720,
 "h": 1280
 },
@@ -23093,7 +23103,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 16:17",
-"generatedAt": "2026-11-25 16:17",
-"digest": "b0dee37af7d9ddc3"
+"sourceAt": "2026-11-25 16:46",
+"generatedAt": "2026-11-25 16:47",
+"digest": "367f8a347424e0ab"
 }
