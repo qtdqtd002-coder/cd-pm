@@ -1608,23 +1608,43 @@
 "msg": "CD-0164 시안 — 자체 본·메시 리그 런타임 + 유니티 액션툴 + 부위 그림 도구 · 테오 3단계 대기·공격·걷기·등장 · EditMode 9/9"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 100,
 "dirty": [
 {
-"file": "_qa/tool-shot.log",
-"at": "2026-11-25 18:40"
+"file": "art/rig/elf_3/islands.png",
+"at": "2026-11-25 22:12"
 },
 {
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.core/Settings.json",
-"at": "2026-11-25 18:39"
+"file": "UnityProject/Assets/_Game/Resources/Rigs/elf_2.json",
+"at": "2026-11-25 22:12"
 },
 {
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-25 18:39"
+"file": "art/rig/elf_2/out/elf_2.png",
+"at": "2026-11-25 22:12"
+},
+{
+"file": "art/rig/elf_2/out/elf_2.json",
+"at": "2026-11-25 22:12"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/elf_2.png",
+"at": "2026-11-25 22:12"
+},
+{
+"file": "art/rig/elf_2/skeleton.png",
+"at": "2026-11-25 22:12"
+},
+{
+"file": "art/rig/elf_2/skeleton.json",
+"at": "2026-11-25 22:12"
+},
+{
+"file": "art/rig/elf_2/assembled.png",
+"at": "2026-11-25 22:12"
 }
 ],
-"lastEdit": "2026-11-25 18:40",
-"lastEditTs": 1795599618.0851717,
+"lastEdit": "2026-11-25 22:12",
+"lastEditTs": 1795612366.0941358,
 "lastCommitTs": 1795607569,
 "unpushed": 0,
 "notInMain": 0,
@@ -1750,7 +1770,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 82,
+"commits": 79,
 "byOrder": [
 [
 "CD-0158",
@@ -1782,10 +1802,6 @@
 ],
 [
 "CD-0150",
-4
-],
-[
-"CD-0135",
 4
 ],
 [
@@ -1823,6 +1839,10 @@
 [
 "CD-0152",
 2
+],
+[
+"CD-0135",
+1
 ]
 ],
 "latest": [
@@ -23286,7 +23306,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 21:41",
-"generatedAt": "2026-11-25 21:47",
-"digest": "47e4b4fe9eb69038"
+"sourceAt": "2026-11-25 22:12",
+"generatedAt": "2026-11-25 22:13",
+"digest": "14bfc14ea8e2acc0"
 }
