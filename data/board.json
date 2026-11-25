@@ -1539,8 +1539,28 @@
 "msg": "CD-0151: 랭킹 판 없음(LeaderboardNotFound)을 «기록 없음»으로 · 그 밖 실패는 이유·코드 로그"
 }
 ],
-"dirtyCount": 21,
+"dirtyCount": 24,
 "dirty": [
+{
+"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft3-dwarf.png",
+"at": "2026-11-25 13:27"
+},
+{
+"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft3-beast.png",
+"at": "2026-11-25 13:27"
+},
+{
+"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft3-human.png",
+"at": "2026-11-25 13:27"
+},
+{
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-25 13:27"
+},
+{
+"file": "art/tools/redesign.py",
+"at": "2026-11-25 13:19"
+},
 {
 "file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft2-elf.png",
 "at": "2026-11-25 11:12"
@@ -1552,30 +1572,10 @@
 {
 "file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft2-beast.png",
 "at": "2026-11-25 11:12"
-},
-{
-"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft2-human.png",
-"at": "2026-11-25 11:12"
-},
-{
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-25 11:12"
-},
-{
-"file": "art/tools/redesign.py",
-"at": "2026-11-25 10:53"
-},
-{
-"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft-dwarf.png",
-"at": "2026-11-25 09:51"
-},
-{
-"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft-elf.png",
-"at": "2026-11-25 09:51"
 }
 ],
-"lastEdit": "2026-11-25 11:12",
-"lastEditTs": 1795572737.9808834,
+"lastEdit": "2026-11-25 13:27",
+"lastEditTs": 1795580856.0162385,
 "lastCommitTs": 1795529888,
 "unpushed": 0,
 "notInMain": 0,
@@ -1725,15 +1725,15 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 98,
+"commits": 94,
 "byOrder": [
-[
-"CD-0135",
-15
-],
 [
 "CD-0158",
 12
+],
+[
+"CD-0135",
+11
 ],
 [
 "CD-0140",
@@ -11157,7 +11157,7 @@
 "id": "CD-0163",
 "title": "기본 영웅 6명 리디자인 1 성장 컨셉 설정 칭호 정리와 일러스트 시안",
 "branch": "cd-163",
-"updated": "2026-11-25 11:12",
+"updated": "2026-11-25 13:27",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11173,7 +11173,10 @@
 "draft2-elf.png",
 "draft2-human.png",
 "draft2-spirit.png",
+"draft3-beast.png",
 "draft3-dragon.png",
+"draft3-dwarf.png",
+"draft3-human.png",
 "draft3-spirit.png",
 "draft4-dragon-spirit.png",
 "now-illust.png",
@@ -23158,7 +23161,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 11:25",
-"generatedAt": "2026-11-25 12:17",
-"digest": "f31938a682199791"
+"sourceAt": "2026-11-25 13:27",
+"generatedAt": "2026-11-25 13:47",
+"digest": "2a5a7efaa200c5a4"
 }
