@@ -1435,15 +1435,15 @@
 "dirty": [
 {
 "file": "studio/orders/CD-0159-결과창-승리-패배-요소-순서-등장-연출/00-order.md",
-"at": "2026-11-25 09:55"
+"at": "2026-11-25 10:47"
 },
 {
 "file": "studio/orders/CD-0159-결과창-승리-패배-요소-순서-등장-연출/10-spec.md",
-"at": "2026-11-25 09:55"
+"at": "2026-11-25 10:47"
 }
 ],
-"lastEdit": "2026-11-25 09:55",
-"lastEditTs": 1795568133.1658242,
+"lastEdit": "2026-11-25 10:47",
+"lastEditTs": 1795571247.777989,
 "lastCommitTs": 1795567900,
 "unpushed": 0,
 "notInMain": 0,
@@ -11000,7 +11000,7 @@
 "id": "CD-0159",
 "title": "결과창(승리·패배) 요소 순서 등장 연출",
 "branch": "cd-159",
-"updated": "2026-11-25 09:55",
+"updated": "2026-11-25 10:47",
 "files": [
 "00-order.md",
 "10-spec.md"
@@ -11014,9 +11014,19 @@
 "closed": "",
 "stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
+"goal": "<ol>\n<li>결과창(<code>UI/ResultScreen.cs</code>)이 한꺼번에 뜨지 않고 <strong>결과(승패) → 영웅 → 내가 한 것(기록) → 받은 것(보상) → 다음 행동(버튼)</strong> 순서로 차례로 나온다.\n</li>\n<li>승리와 패배·포기의 결이 다르다 — 승리는 밝고 힘차게(햇살 한 번 커짐 · 글자 «쾅» + 화면 살짝 흔들림 + 반짝임), 패배·포기는 조용하고 무겁게(천천히 밝아짐 · 글자 위에서 내려앉음 · 튐·반짝임·흔들림 없음).\n</li>\n<li>어디를 한 번 누르면 등장 연출과 보상 집계가 <strong>바로 끝 상태</strong>(지금 <code>SkipPayout</code> 과 같은 방식). 다음 누름부터 버튼이 눌린다.\n</li>\n<li>값은 공용 모션 규칙(결정 0115 · docs/03 §10-6) 위에: 새 상수는 <code>UiMotion</code> 에 «결과창 등장» 묶음으로, 이징은 <code>UiMotion.OutQuad/OutCubic/OutBack</code>.\n</li></ol>",
+"goalShort": "1.",
+"tasks": [
+{
+"id": "C1",
+"key": "CD-0159/C1",
+"team": "client",
+"title": "위 «등장 순서»·«구현 방식» 대로 ResultScreen.cs 등장 연출 + UiMotion 상수 묶음 + 시험(EditMode: 즉시 모드에서 끝 상태·쉬는 자리 그대로 · Reveal(t) 를 시험용으로 열어 시간대별 알파/거리 — 0 에서 무대 알파 0·버튼 알파 0, 1.0 에서 기록 다 보임·버튼 아직 0, 끝에서 모두 1·쉬는 자리 · 건너뛰기 뒤 모두 끝 상태 · 패배는 햇살 꺼짐·흔들림 없음 · 연출 중 Arrange() 가 다시 돌아도 끝에 쉬는 자리)",
+"output": "코드 · 20-client.md(바꾼 곳 · 뺀 것과 이유 · 시험 이름)",
+"status": "todo",
+"why": ""
+}
+],
 "phase": "doing",
 "builtIn": ""
 },
@@ -23087,7 +23097,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 09:55",
-"generatedAt": "2026-11-25 10:17",
-"digest": "07e43e0953bfea07"
+"sourceAt": "2026-11-25 10:47",
+"generatedAt": "2026-11-25 10:47",
+"digest": "ffe38b49228b52e2"
 }
