@@ -1454,72 +1454,19 @@
 "today": 0
 },
 {
-"branch": "cd-168",
-"lane": "cd-168",
-"session": "",
-"owns": "",
-"order": "CD-0168",
-"head": "39e49da",
-"commits": [
-{
-"sha": "39e49daf",
-"at": "2026-11-25 23:03",
-"ts": 1795615387,
-"msg": "CD-0168 마감 — EditMode 26/26 · PlayMode 맵 캡처 1/1(2챕터 4배속) · 90-close · 빌드 대기"
-},
-{
-"sha": "bf666b6d",
-"at": "2026-11-25 22:53",
-"ts": 1795614797,
-"msg": "CD-0168 2챕터 갈대 관문 ㄹ자 동선·소환 영역 — 사용자 그림대로 · 맵 규칙 장식 칸 0~8·뒷줄 2~8(결정 0121)"
-},
-{
-"sha": "be09ed5d",
-"at": "2026-11-25 22:29",
-"ts": 1795613373,
-"msg": "병합: cd-167 8db011e4(CD-0167 랭킹 불러오는 중 화면 · 빈 판 5개 → 줄 모양 자리 표시·숨쉬기·«불러오는 중…» · EditMode 11/11 · PlayMode 1/1)"
-},
-{
-"sha": "8db011e4",
-"at": "2026-11-25 22:29",
-"ts": 1795613362,
-"msg": "CD-0167 랭킹창 불러오는 중 화면 — 빈 판 대신 줄 모양 자리 표시 · 빌드 대기"
-},
-{
-"sha": "35ceac8e",
-"at": "2026-11-25 21:04",
-"ts": 1795608250,
-"msg": "병합: cd-155c fea5a1d4(0.12.2 QA 고침 · MatchControlTests 영웅 상한 팝업 시험을 gate_04_01 에서 · PlayMode 1/1)"
-},
-{
-"sha": "fea5a1d4",
-"at": "2026-11-25 21:03",
-"ts": 1795608236,
-"msg": "CD-0155c 마감 — 상한 채우기 PlayMode 시험 1/1 통과 · 90-close 후속 기록 · 빌드 대기"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-25 23:02"
-}
-],
-"lastEdit": "2026-11-25 23:02",
-"lastEditTs": 1795615333.5361197,
-"lastCommitTs": 1795615387,
-"unpushed": 0,
-"notInMain": 0,
-"today": 0
-},
-{
 "branch": "cd-169",
 "lane": "cd-169",
 "session": "",
 "owns": "",
 "order": "CD-0169",
-"head": "a650c68",
+"head": "efb018e",
 "commits": [
+{
+"sha": "efb018ed",
+"at": "2026-11-26 00:47",
+"ts": 1795621635,
+"msg": "CD-0169 A2 진지 다섯 조각 셀화풍(deck·rim·palisade·post·tower) · 합성 도구 fort_mock·fort_pieces"
+},
 {
 "sha": "a650c686",
 "at": "2026-11-26 00:32",
@@ -1549,27 +1496,16 @@
 "at": "2026-11-26 00:17",
 "ts": 1795619842,
 "msg": "CD-0169 Codex 호출 기록"
-},
-{
-"sha": "a5cfb299",
-"at": "2026-11-26 00:17",
-"ts": 1795619833,
-"msg": "CD-0169 C1 Unity 확인 — 컴파일·카탈로그 등록(map/gate_03/board)·EditMode 필터 78/79(1 건너뜀) · 미리보기 시험을 통그림 맵에 맞춤"
 }
 ],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-26 00:34"
-}
-],
-"lastEdit": "2026-11-26 00:34",
-"lastEditTs": 1795620851.032146,
-"lastCommitTs": 1795620745,
-"unpushed": 12,
-"notInMain": 12,
-"today": 7
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795621635,
+"unpushed": 13,
+"notInMain": 13,
+"today": 8
 },
 {
 "branch": "rel-0122",
@@ -1699,7 +1635,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 73,
+"commits": 72,
 "byOrder": [
 [
 "CD-0158",
@@ -1707,7 +1643,7 @@
 ],
 [
 "CD-0169",
-10
+11
 ],
 [
 "CD-0164",
@@ -1720,10 +1656,6 @@
 [
 "CD-0155",
 5
-],
-[
-"CD-0153",
-4
 ],
 [
 "CD-0157",
@@ -1758,6 +1690,10 @@
 2
 ],
 [
+"CD-0153",
+2
+],
+[
 "CD-0160",
 2
 ],
@@ -1767,6 +1703,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "efb018ed",
+"at": "2026-11-26 00:47",
+"msg": "CD-0169 A2 진지 다섯 조각 셀화풍(deck·rim·palisade·post·tower) · 합성 도구 fort_mock·fort_pieces"
+},
 {
 "sha": "a650c686",
 "at": "2026-11-26 00:32",
@@ -1811,11 +1752,6 @@
 "sha": "06c6c21e",
 "at": "2026-11-25 23:52",
 "msg": "CD-0169 Codex 호출 기록(시안 7회)"
-},
-{
-"sha": "238a9f2e",
-"at": "2026-11-25 23:51",
-"msg": "CD-0169 주문 열림 — 인터뷰 답·시안 A~F 기록"
 }
 ]
 },
@@ -11317,12 +11253,13 @@
 "id": "CD-0169",
 "title": "1·2챕터 맵 디자인 재제작(docs/17 방식) — 통그림 바닥과 맵 제작 방식 기준",
 "branch": "cd-169",
-"updated": "2026-11-26 00:29",
+"updated": "2026-11-26 00:45",
 "files": [
 "00-order.md",
 "10-spec.md",
 "12-shadow-notes.md",
 "21-art-board.md",
+"22-art-fort.md",
 "23-client-board.md",
 "24-client-shadow.md"
 ],
@@ -18281,7 +18218,7 @@
 "id": "map/fort/deck",
 "group": "map",
 "title": "목책 진지 데크 바닥(판자)",
-"brief": "256x256 RGB, 칸 1장, 사방 이음, 가로 판자 + 왼쪽 이음선·못",
+"brief": "256x256 RGB, 칸 1장, 사방 이음, 가로 판자 4장 · 셀화풍 중립 나무색(CD-0169 A2)",
 "status": "draft",
 "address": "map/fort/deck",
 "hasFile": true
@@ -18290,7 +18227,7 @@
 "id": "map/fort/rim",
 "group": "map",
 "title": "목책 진지 데크 테두리(9-slice)",
-"brief": "256x256 RGBA, 가운데 빔, 9-slice 위·좌·우 32/아래 52",
+"brief": "256x256 RGBA, 가운데 빔, 9-slice 위·좌·우 32/아래 52 · 셀화풍 중립 나무색(CD-0169 A2)",
 "status": "draft",
 "address": "map/fort/rim",
 "hasFile": true
@@ -18299,7 +18236,7 @@
 "id": "map/fort/palisade",
 "group": "map",
 "title": "목책 진지 목책(가로 이음)",
-"brief": "512x128 RGBA, 가로 이음(2칸=1장), 아래가 땅 선",
+"brief": "512x128 RGBA, 가로 이음(통나무 8개=1장), 아래가 땅 선 · 셀화풍 중립 나무색(CD-0169 A2)",
 "status": "draft",
 "address": "map/fort/palisade",
 "hasFile": true
@@ -18308,7 +18245,7 @@
 "id": "map/fort/post",
 "group": "map",
 "title": "목책 진지 망루 기둥",
-"brief": "128x256 RGBA, 발 y248",
+"brief": "128x256 RGBA, 발 y248, 기둥 중심 x=0.385 · 셀화풍 중립 나무색(CD-0169 A2)",
 "status": "draft",
 "address": "map/fort/post",
 "hasFile": true
@@ -18317,7 +18254,7 @@
 "id": "map/fort/tower",
 "group": "map",
 "title": "목책 진지 망루(1x2)",
-"brief": "256x512 RGBA, 발 y500",
+"brief": "256x512 RGBA, 발 y500 · 셀화풍 중립 나무색(CD-0169 A2)",
 "status": "draft",
 "address": "map/fort/tower",
 "hasFile": true
@@ -19798,7 +19735,7 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-26 00:14",
+"at": "2026-11-26 00:40",
 "branch": "cd-169",
 "dirty": false
 },
@@ -20396,27 +20333,27 @@
 "h": 1024
 },
 "map/fort/deck": {
-"f": "data/art/dcbb7790cb418b4b42c9.bin",
+"f": "data/art/8a6fadc9ec7b08a6e27b.bin",
 "w": 256,
 "h": 256
 },
 "map/fort/rim": {
-"f": "data/art/84d76fa4bfdc8f21c282.bin",
+"f": "data/art/1b190d229249a9648329.bin",
 "w": 256,
 "h": 256
 },
 "map/fort/palisade": {
-"f": "data/art/12ff60b9d3f7e3fbf3b1.bin",
+"f": "data/art/eeff997fda6abae774aa.bin",
 "w": 512,
 "h": 128
 },
 "map/fort/post": {
-"f": "data/art/2a8eea0c7d7882e3a3a0.bin",
+"f": "data/art/aec6bf632f49b50e63df.bin",
 "w": 128,
 "h": 256
 },
 "map/fort/tower": {
-"f": "data/art/a727858fdf1ce9ee99cf.bin",
+"f": "data/art/dcab1f7629313d4d67b4.bin",
 "w": 256,
 "h": 512
 },
@@ -23345,7 +23282,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 00:34",
-"generatedAt": "2026-11-26 00:34",
-"digest": "d9bb6145ce168968"
+"sourceAt": "2026-11-26 00:47",
+"generatedAt": "2026-11-26 00:47",
+"digest": "eb8f78deb9a4d995"
 }
