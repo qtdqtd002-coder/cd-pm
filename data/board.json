@@ -1557,16 +1557,8 @@
 "msg": "병합: cd-164d 1ea8c583(CD-0164 둘째 마디 · 기본 영웅 24명 리그 · 사용자 «빌드에 넣기» · RigEditMode 12 · Cd164Rig 2)"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 2,
 "dirty": [
-{
-"file": "UnityProject/Assets/InitTestSceneaf45ee81-772b-43d0-9085-d1b42d2d29b2.unity.meta",
-"at": "2026-11-25 23:10"
-},
-{
-"file": "UnityProject/Assets/InitTestSceneaf45ee81-772b-43d0-9085-d1b42d2d29b2.unity",
-"at": "2026-11-25 23:10"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-22 10:27"
@@ -1576,8 +1568,8 @@
 "at": "2026-11-22 10:26"
 }
 ],
-"lastEdit": "2026-11-25 23:10",
-"lastEditTs": 1795615807.2747817,
+"lastEdit": "2026-11-22 10:27",
+"lastEditTs": 1795310821.8104656,
 "lastCommitTs": 1795618587,
 "unpushed": 8,
 "notInMain": 8,
@@ -23288,6 +23280,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-26 01:00",
-"generatedAt": "2026-11-26 01:06",
-"digest": "82e0966d34d9d8cc"
+"generatedAt": "2026-11-26 01:47",
+"digest": "c1dc44aa1d1a737b"
 }
