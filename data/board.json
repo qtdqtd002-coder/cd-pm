@@ -1305,8 +1305,20 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0164",
-"head": "04bd79f",
+"head": "02cac8d",
 "commits": [
+{
+"sha": "02cac8df",
+"at": "2026-11-25 23:54",
+"ts": 1795618453,
+"msg": "병합: cd-164e df0b1cec(0.12.2 QA3 고침 · Cd16FieldTests 숨쉬기·공격을 리그 기준으로 · BoardView.RigAttackingUnits · PlayMode 3/3)"
+},
+{
+"sha": "df0b1cec",
+"at": "2026-11-25 23:45",
+"ts": 1795617932,
+"msg": "CD-0164e QA 실패 1건 — 판 연출 시험(Cd16FieldTests 숨쉬기·돌진)을 리그 기준으로 · 시험용 RigAttackingUnits · PlayMode 3 통과"
+},
 {
 "sha": "04bd79fe",
 "at": "2026-11-25 23:12",
@@ -1330,18 +1342,6 @@
 "at": "2026-11-25 23:03",
 "ts": 1795615387,
 "msg": "CD-0168 마감 — EditMode 26/26 · PlayMode 맵 캡처 1/1(2챕터 4배속) · 90-close · 빌드 대기"
-},
-{
-"sha": "875c2d5d",
-"at": "2026-11-25 22:57",
-"ts": 1795615055,
-"msg": "CD-0164 둘째 마디 — 24명 리그 Unity 확인(.meta · EditMode 12 · PlayMode 2 통과) · 무릎 방향 보정 · 판·로비 캡처 · 사용자 컨펌 대기"
-},
-{
-"sha": "79cbc4e8",
-"at": "2026-11-25 22:54",
-"ts": 1795614855,
-"msg": "Merge main be09ed5d into cd-164d"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795615946,
+"lastCommitTs": 1795618453,
 "unpushed": 0,
 "notInMain": 0,
-"today": 105
+"today": 0
 },
 {
 "branch": "cd-164e",
@@ -1449,9 +1449,9 @@
 "lastEdit": "2026-11-25 18:40",
 "lastEditTs": 1795599618.0851717,
 "lastCommitTs": 1795617932,
-"unpushed": 1,
-"notInMain": 1,
-"today": 106
+"unpushed": 0,
+"notInMain": 0,
+"today": 0
 },
 {
 "branch": "cd-168",
@@ -1510,74 +1510,94 @@
 "lastCommitTs": 1795615387,
 "unpushed": 0,
 "notInMain": 0,
-"today": 99
+"today": 0
 },
 {
 "branch": "cd-169",
 "lane": "cd-169",
 "session": "",
 "owns": "",
-"order": "CD-0167",
-"head": "be09ed5",
+"order": "CD-0169",
+"head": "c072de0",
 "commits": [
 {
-"sha": "be09ed5d",
-"at": "2026-11-25 22:29",
-"ts": 1795613373,
-"msg": "병합: cd-167 8db011e4(CD-0167 랭킹 불러오는 중 화면 · 빈 판 5개 → 줄 모양 자리 표시·숨쉬기·«불러오는 중…» · EditMode 11/11 · PlayMode 1/1)"
+"sha": "c072de00",
+"at": "2026-11-26 00:17",
+"ts": 1795619842,
+"msg": "Merge main into cd-169"
 },
 {
-"sha": "8db011e4",
-"at": "2026-11-25 22:29",
-"ts": 1795613362,
-"msg": "CD-0167 랭킹창 불러오는 중 화면 — 빈 판 대신 줄 모양 자리 표시 · 빌드 대기"
+"sha": "63160bc9",
+"at": "2026-11-26 00:17",
+"ts": 1795619842,
+"msg": "CD-0169 Codex 호출 기록"
 },
 {
-"sha": "35ceac8e",
-"at": "2026-11-25 21:04",
-"ts": 1795608250,
-"msg": "병합: cd-155c fea5a1d4(0.12.2 QA 고침 · MatchControlTests 영웅 상한 팝업 시험을 gate_04_01 에서 · PlayMode 1/1)"
+"sha": "a5cfb299",
+"at": "2026-11-26 00:17",
+"ts": 1795619833,
+"msg": "CD-0169 C1 Unity 확인 — 컴파일·카탈로그 등록(map/gate_03/board)·EditMode 필터 78/79(1 건너뜀) · 미리보기 시험을 통그림 맵에 맞춤"
 },
 {
-"sha": "fea5a1d4",
-"at": "2026-11-25 21:03",
-"ts": 1795608236,
-"msg": "CD-0155c 마감 — 상한 채우기 PlayMode 시험 1/1 통과 · 90-close 후속 기록 · 빌드 대기"
+"sha": "e8441eac",
+"at": "2026-11-26 00:10",
+"ts": 1795619459,
+"msg": "CD-0169 C1 통그림 그리기 — viewBoard 읽기·BoardView 통그림 층·작업실·검사 (Unity 컴파일·시험 전)"
 },
 {
-"sha": "c8e25c6c",
-"at": "2026-11-25 21:00",
-"ts": 1795608051,
-"msg": "Merge commit '2a7b7877' into cd-155c"
+"sha": "82ce6ef3",
+"at": "2026-11-25 23:56",
+"ts": 1795618595,
+"msg": "CD-0169 진행 기록 — 시안 F 확정·팀 배치·2챕터 인터뷰 답"
 },
 {
-"sha": "f0f25103",
-"at": "2026-11-25 21:00",
-"ts": 1795608047,
-"msg": "병합: cd-153c 5419f654(0.12.2 QA 고침 · Audio 장부 시험 81 · Cd15 상위상 빛 알갱이 기다림 · EditMode 39/39 · PlayMode 5/5)"
+"sha": "cd460391",
+"at": "2026-11-25 23:54",
+"ts": 1795618454,
+"msg": "CD-0169 기획서 · 맵 제작 방식 문서(docs/17) · 결정 0122"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 11,
 "dirty": [
 {
-"file": "studio/orders/CD-0169-1챕터-맵-목책-관문-디자인-전면-재제작-통그림-바닥과/00-order.md",
-"at": "2026-11-25 23:44"
+"file": "art/tools/map_gen.py",
+"at": "2026-11-26 00:17"
 },
 {
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-25 23:44"
+"file": "studio/art-manifest.json",
+"at": "2026-11-26 00:14"
 },
 {
-"file": "studio/orders/CD-0169-1챕터-맵-목책-관문-디자인-전면-재제작-통그림-바닥과/10-spec.md",
-"at": "2026-11-25 22:46"
+"file": "studio/assets-ledger.csv",
+"at": "2026-11-26 00:14"
+},
+{
+"file": "art/final/map/_master/gate_03/board_sway.png",
+"at": "2026-11-26 00:14"
+},
+{
+"file": "art/final/map/_master/gate_03/board.png",
+"at": "2026-11-26 00:14"
+},
+{
+"file": "art/final/map/gate_03/board_sway.png",
+"at": "2026-11-26 00:13"
+},
+{
+"file": "art/final/map/gate_03/board.png",
+"at": "2026-11-26 00:13"
+},
+{
+"file": "art/tools/check.py",
+"at": "2026-11-26 00:13"
 }
 ],
-"lastEdit": "2026-11-25 23:44",
-"lastEditTs": 1795617872.2866158,
-"lastCommitTs": 1795613373,
-"unpushed": 0,
-"notInMain": 0,
-"today": 97
+"lastEdit": "2026-11-26 00:17",
+"lastEditTs": 1795619835.3225894,
+"lastCommitTs": 1795619842,
+"unpushed": 9,
+"notInMain": 9,
+"today": 4
 },
 {
 "branch": "rel-0122",
@@ -1585,8 +1605,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0164",
-"head": "88c1234",
+"head": "0b060a9",
 "commits": [
+{
+"sha": "0b060a93",
+"at": "2026-11-25 23:56",
+"ts": 1795618587,
+"msg": "병합: main → rel-0122 (cd-164e 숨쉬기 시험 고침)"
+},
+{
+"sha": "02cac8df",
+"at": "2026-11-25 23:54",
+"ts": 1795618453,
+"msg": "병합: cd-164e df0b1cec(0.12.2 QA3 고침 · Cd16FieldTests 숨쉬기·공격을 리그 기준으로 · BoardView.RigAttackingUnits · PlayMode 3/3)"
+},
+{
+"sha": "df0b1cec",
+"at": "2026-11-25 23:45",
+"ts": 1795617932,
+"msg": "CD-0164e QA 실패 1건 — 판 연출 시험(Cd16FieldTests 숨쉬기·돌진)을 리그 기준으로 · 시험용 RigAttackingUnits · PlayMode 3 통과"
+},
 {
 "sha": "88c12341",
 "at": "2026-11-25 23:16",
@@ -1604,24 +1642,6 @@
 "at": "2026-11-25 23:12",
 "ts": 1795615946,
 "msg": "병합: cd-164d 1ea8c583(CD-0164 둘째 마디 · 기본 영웅 24명 리그 · 사용자 «빌드에 넣기» · RigEditMode 12 · Cd164Rig 2)"
-},
-{
-"sha": "2015756f",
-"at": "2026-11-25 23:09",
-"ts": 1795615770,
-"msg": "공지 app_0_12_2 갱신 — CD-0167 랭킹 불러오는 중 · CD-0168 챕터 2 ㄹ자 길 (26항목, notices_check·canon_lint 통과)"
-},
-{
-"sha": "78027a28",
-"at": "2026-11-25 23:06",
-"ts": 1795615574,
-"msg": "병합: main f798d817 → rel-0122 (CD-0167 랭킹 불러오는 중 · CD-0168 2챕터 ㄹ자 동선)"
-},
-{
-"sha": "f798d817",
-"at": "2026-11-25 23:06",
-"ts": 1795615560,
-"msg": "병합: cd-168 39e49daf(CD-0168 2챕터 ㄹ자 동선·소환 영역 · gate_04 1인 배치 · 결정 0121 맵 규칙 완화 · EditMode 26/26 · 맵 캡처 1/1)"
 }
 ],
 "dirtyCount": 4,
@@ -1645,10 +1665,10 @@
 ],
 "lastEdit": "2026-11-25 23:10",
 "lastEditTs": 1795615807.2747817,
-"lastCommitTs": 1795616168,
-"unpushed": 7,
-"notInMain": 7,
-"today": 112
+"lastCommitTs": 1795618587,
+"unpushed": 8,
+"notInMain": 8,
+"today": 0
 },
 {
 "branch": "workbench",
@@ -1707,7 +1727,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 73,
+"commits": 74,
 "byOrder": [
 [
 "CD-0158",
@@ -1722,6 +1742,10 @@
 9
 ],
 [
+"CD-0169",
+7
+],
+[
 "CD-0155",
 6
 ],
@@ -1731,11 +1755,7 @@
 ],
 [
 "CD-0153",
-5
-],
-[
-"CD-0156",
-3
+4
 ],
 [
 "CD-0163",
@@ -1747,10 +1767,6 @@
 ],
 [
 "CD-0161",
-3
-],
-[
-"CD-0154",
 3
 ],
 [
@@ -1772,9 +1788,48 @@
 [
 "CD-0160",
 2
+],
+[
+"CD-0156",
+1
 ]
 ],
 "latest": [
+{
+"sha": "63160bc9",
+"at": "2026-11-26 00:17",
+"msg": "CD-0169 Codex 호출 기록"
+},
+{
+"sha": "a5cfb299",
+"at": "2026-11-26 00:17",
+"msg": "CD-0169 C1 Unity 확인 — 컴파일·카탈로그 등록(map/gate_03/board)·EditMode 필터 78/79(1 건너뜀) · 미리보기 시험을 통그림 맵에 맞춤"
+},
+{
+"sha": "e8441eac",
+"at": "2026-11-26 00:10",
+"msg": "CD-0169 C1 통그림 그리기 — viewBoard 읽기·BoardView 통그림 층·작업실·검사 (Unity 컴파일·시험 전)"
+},
+{
+"sha": "82ce6ef3",
+"at": "2026-11-25 23:56",
+"msg": "CD-0169 진행 기록 — 시안 F 확정·팀 배치·2챕터 인터뷰 답"
+},
+{
+"sha": "cd460391",
+"at": "2026-11-25 23:54",
+"msg": "CD-0169 기획서 · 맵 제작 방식 문서(docs/17) · 결정 0122"
+},
+{
+"sha": "06c6c21e",
+"at": "2026-11-25 23:52",
+"msg": "CD-0169 Codex 호출 기록(시안 7회)"
+},
+{
+"sha": "238a9f2e",
+"at": "2026-11-25 23:51",
+"msg": "CD-0169 주문 열림 — 인터뷰 답·시안 A~F 기록"
+},
 {
 "sha": "df0b1cec",
 "at": "2026-11-25 23:45",
@@ -1789,41 +1844,6 @@
 "sha": "2015756f",
 "at": "2026-11-25 23:09",
 "msg": "공지 app_0_12_2 갱신 — CD-0167 랭킹 불러오는 중 · CD-0168 챕터 2 ㄹ자 길 (26항목, notices_check·canon_lint 통과)"
-},
-{
-"sha": "1ea8c583",
-"at": "2026-11-25 23:03",
-"msg": "CD-0164 둘째 마디 마감 — 사용자 컨펌(빌드에 넣기) · 빌드 대기"
-},
-{
-"sha": "39e49daf",
-"at": "2026-11-25 23:03",
-"msg": "CD-0168 마감 — EditMode 26/26 · PlayMode 맵 캡처 1/1(2챕터 4배속) · 90-close · 빌드 대기"
-},
-{
-"sha": "875c2d5d",
-"at": "2026-11-25 22:57",
-"msg": "CD-0164 둘째 마디 — 24명 리그 Unity 확인(.meta · EditMode 12 · PlayMode 2 통과) · 무릎 방향 보정 · 판·로비 캡처 · 사용자 컨펌 대기"
-},
-{
-"sha": "a2720e37",
-"at": "2026-11-25 22:54",
-"msg": "CD-0164 둘째 마디(작업 중) — 기본 영웅 24명 리그·동작 초안 · 부위 시트 24장 · skel.py · 공격 7종과 짐승·기운 동작 · 시험 일반화(.meta 는 Unity 확인 뒤)"
-},
-{
-"sha": "bf666b6d",
-"at": "2026-11-25 22:53",
-"msg": "CD-0168 2챕터 갈대 관문 ㄹ자 동선·소환 영역 — 사용자 그림대로 · 맵 규칙 장식 칸 0~8·뒷줄 2~8(결정 0121)"
-},
-{
-"sha": "8db011e4",
-"at": "2026-11-25 22:29",
-"msg": "CD-0167 랭킹창 불러오는 중 화면 — 빈 판 대신 줄 모양 자리 표시 · 빌드 대기"
-},
-{
-"sha": "a9112b08",
-"at": "2026-11-25 21:41",
-"msg": "공지 app_0_12_2(notices_v2, notices_check·canon_lint 통과, 24항목)"
 }
 ]
 },
@@ -11182,8 +11202,8 @@
 {
 "id": "CD-0164",
 "title": "영웅 SD 본 리깅 애니메이션과 유니티 액션툴",
-"branch": "cd-164e",
-"updated": "2026-11-25 23:45",
+"branch": "main",
+"updated": "2026-11-25 23:54",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11323,12 +11343,14 @@
 },
 {
 "id": "CD-0169",
-"title": "1챕터 맵 목책 관문 디자인 전면 재제작 통그림 바닥과 겹 소품 맵 제작 방식 기준",
+"title": "1·2챕터 맵 디자인 재제작(docs/17 방식) — 통그림 바닥과 맵 제작 방식 기준",
 "branch": "cd-169",
-"updated": "2026-11-25 23:44",
+"updated": "2026-11-26 00:10",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"12-shadow-notes.md",
+"23-client-board.md"
 ],
 "milestone": "M6",
 "stage": "제작",
@@ -12427,6 +12449,7 @@
 "phase": "doing",
 "imp": "mid",
 "orders": [
+"CD-0168",
 "CD-0169"
 ],
 "createdAt": "2026-11-25 13:44",
@@ -13569,6 +13592,17 @@
 "by": "사용자(그림 지시 · 규칙 완화는 작업 세션 추천안, 사용자 «동선과 소환 영역만 검토해»)",
 "html": "<ol>\n<li><code>gate_04</code> 1인 배치를 사용자 그림(<code>studio/orders/CD-0168-…/user-sketch.png</code>)대로 바꾼다.\n<ul>\n<li>땅 길: (50,50) → (750,50) → (750,750) → (450,750) → (450,250) → (50,250) → (50,850). S 왼쪽 위 → 오른쪽 위 → 오른쪽 아래 → 가운데 → 위로 → 왼쪽 → 아래 왼쪽 관문. 길이 22칸 → <strong>32칸</strong>.\n</li>\n<li>영역: origin (0,100) · 8×7(행 1~7). 소환 덩어리 5개 = 4×1 · 2×2 · 3×2 · 2×2 · 3×2(합 24 = maxUnits).\n</li>\n<li>망루: 그림의 두 자리 (5,4)·(6,4)(<code>towers</code> 키). 이 배치에서 망루 발 칸으로 쓸 수 있는 곳은 이 둘뿐이다.\n</li>\n<li>비행 길: (50,50) → (350,50) → (350,850) → (50,850)(땅 길의 43.75% — 지금 비행 웨이브는 없다).\n</li></ul>\n</li>\n<li>맵 배치 규칙 두 개를 모든 맵에 넓힌다(<code>tools/validate_data.py</code>).\n<ul>\n<li>영역 안 «장식 칸»(소환도 길도 아닌 칸): 0~4 → <strong>0~8</strong>.\n</li>\n<li>길에서 1.7칸 밖 «뒷줄» 소환 칸: 4~8 → <strong>2~8</strong>.\n</li></ul>\n</li></ol>",
 "branch": "main",
+"dirty": false
+},
+{
+"id": "0122",
+"title": "맵은 동선만 사용자가 정하고, 디자인은 셀화풍 통그림 바닥으로 Claude 가 한다",
+"status": "방식 확정 · 1챕터 시안 F 사용자 확정(2026-11-25) · 게임 반영은 CD-0169 진행 중",
+"kind": "confirmed",
+"date": "2026-11-25",
+"by": "사용자 · 번호는 관제",
+"html": "<ol>\n<li><strong>새 맵은 «사용자 = 동선과 인터뷰 답, Claude = 디자인» 으로 만든다.</strong> 맵툴로 타일·소품을 직접 찍어 만드는 방식은 새 맵에 쓰지 않는다. 절차·인터뷰 항목·디자인 규칙의 정본은 <code>docs/17-맵-제작-방식.md</code>.\n</li>\n<li><strong>맵 그림은 동선에 맞춘 통그림 바닥 한 장</strong>(<code>map/&lt;맵 id&gt;/board</code>)이다. 길·풀밭·소품·관문·균열 얼룩이 한 장에 들어가고, 게임은 그 위에 진지·효과·캐릭터·그림자·움직임만 그린다.\n</li>\n<li><strong>맵 그림은 캐릭터와 같은 셀화풍</strong>이다(잉크 외곽선 · 평평한 색 면 · 그림자 한 단계 · 질감 잡음 없음).\n</li>\n<li><strong>빛은 왼쪽 위, 그림자는 오른쪽 아래 약 30°</strong> — 맵·소품·진지·영웅·몬스터 모두. 영웅·몬스터는 발밑 타원 대신 <strong>모양을 따라가는 방향 그림자</strong>를 가진다.\n</li>\n<li><strong>소환 불가 칸에는 서 있는 물건</strong>을 그려 못 올리는 자리임을 보인다. 도착 지점(관문)과 출발 지점(균열)도 그림으로 그린다. 분위기 경계는 여러 단계 색 띠로 잇는다.\n</li>\n<li>사용자에게 받는 결정: 동선 · 분위기 · 총 웨이브 · 5웨이브 단위 구성(지상 / 공중 / 지상+공중, 단위마다 한 종류) · 시안 컨펌.\n</li>\n<li>1챕터 «목책 관문»: 동선·6판·웨이브 그대로, «균열이 번지는 숲 가장자리 · 노을», 시안 F(<code>art/raw/cd169d/board_f.png</code>) 확정. 공용 진지 그림(<code>map/fort</code>)도 셀화풍으로 바꾼다.\n</li></ol>",
+"branch": "cd-169",
 "dirty": false
 }
 ],
@@ -15342,9 +15376,18 @@
 {
 "id": "gate_03",
 "name": "목책 관문",
-"viewArt": "map/gate_01",
+"viewArt": "map/gate_03",
 "viewFort": "map/fort",
 "viewTint": null,
+"viewBoard": {
+"1": {
+"art": "map/gate_03/board",
+"cell": 180,
+"top": 630,
+"sway": "map/gate_03/board_sway",
+"lights": []
+}
+},
 "layouts": {
 "1": {
 "canvas": {
@@ -15416,146 +15459,7 @@
 ]
 ]
 ],
-"flyPaths": [],
-"tiles": [
-"dgffffff",
-"dgffffff",
-"dggggggg",
-"dddddddd",
-"kggkfggd",
-"kggkgfgd",
-"dddddddd",
-"dgfgkggk",
-"dggkkggk"
-],
-"decos": [
-{
-"art": "prop_1",
-"col": 1,
-"row": 0,
-"fx": []
-},
-{
-"art": "prop_1",
-"col": 1,
-"row": 1,
-"fx": []
-},
-{
-"art": "prop_1",
-"col": 1,
-"row": 2,
-"fx": []
-},
-{
-"art": "prop_1",
-"col": 2,
-"row": 2,
-"fx": []
-},
-{
-"art": "prop_1",
-"col": 3,
-"row": 2,
-"fx": []
-},
-{
-"art": "prop_1",
-"col": 4,
-"row": 2,
-"fx": []
-},
-{
-"art": "prop_1",
-"col": 5,
-"row": 2,
-"fx": []
-},
-{
-"art": "prop_1",
-"col": 6,
-"row": 2,
-"fx": []
-},
-{
-"art": "prop_1",
-"col": 7,
-"row": 2,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 2,
-"row": 0,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 2,
-"row": 1,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 3,
-"row": 1,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 3,
-"row": 0,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 5,
-"row": 0,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 5,
-"row": 1,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 4,
-"row": 0,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 4,
-"row": 1,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 6,
-"row": 1,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 6,
-"row": 0,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 7,
-"row": 0,
-"fx": []
-},
-{
-"art": "prop_3",
-"col": 7,
-"row": 1,
-"fx": []
-}
-]
+"flyPaths": []
 }
 }
 },
@@ -16299,8 +16203,8 @@
 }
 ]
 },
-"at": "2026-11-25 23:03",
-"branch": "main",
+"at": "2026-11-25 23:59",
+"branch": "cd-169",
 "dirty": false
 },
 "missions": {
@@ -18522,6 +18426,24 @@
 "hasFile": true
 },
 {
+"id": "map/gate_03/board",
+"group": "map",
+"title": "1챕터 목책 관문 통그림(바닥 한 장)",
+"brief": "CD-0169: 1440x2880 RGB, 8칸x16행 칸 180px, 판 9행 y630~2250(위아래 여백 3.5행). 셀화풍, 시안 F 확정(2026-11-25)",
+"status": "confirmed",
+"address": "map/gate_03/board",
+"hasFile": true
+},
+{
+"id": "map/gate_03/board_sway",
+"group": "map",
+"title": "1챕터 통그림 흔들림 마스크",
+"brief": "CD-0169: 360x720 회색(흰=흔들리는 잎·풀, 검정=고정), 통그림 1/4",
+"status": "confirmed",
+"address": "map/gate_03/board_sway",
+"hasFile": true
+},
+{
 "id": "map/props/prop_1",
 "group": "map",
 "title": "공용 꾸밈 소품: 이끼 낀 큰 바위",
@@ -19853,9 +19775,9 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-25 16:44",
-"branch": "main",
-"dirty": false
+"at": "2026-11-26 00:14",
+"branch": "cd-169",
+"dirty": true
 },
 "gallery": {
 "v": 1,
@@ -20544,6 +20466,16 @@
 "f": "data/art/16fb0b043da496821046.bin",
 "w": 512,
 "h": 512
+},
+"map/gate_03/board": {
+"f": "data/art/d6c4d0c37699cdca7a8a.bin",
+"w": 640,
+"h": 1280
+},
+"map/gate_03/board_sway": {
+"f": "data/art/8a699ae26454103c963e.bin",
+"w": 360,
+"h": 720
 },
 "map/props/prop_1": {
 "f": "data/art/f7afcad06350ee411aff.bin",
@@ -23199,12 +23131,12 @@
 {
 "kind": "android",
 "name": "coopdefense-dev-arm64.apk",
-"at": "2026-11-25 21:40",
-"sizeMB": 90.4,
+"at": "2026-11-26 00:02",
+"sizeMB": 95.1,
 "branch": "rel-0122",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261125-2140",
-"tag": "build-android-20261125-2140"
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261126-0002",
+"tag": "build-android-20261126-0002"
 },
 {
 "kind": "android",
@@ -23228,6 +23160,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261126-0002",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261126-0002",
+"kind": "android",
+"at": "2026-11-26 00:02",
+"branch": "rel-0122",
+"sizeMB": 95.1
+},
 {
 "tag": "build-android-20261125-2140",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261125-2140",
@@ -23379,18 +23319,10 @@
 "at": "2026-11-18 09:15",
 "branch": "cd-decos",
 "sizeMB": 50.8
-},
-{
-"tag": "build-android-20261118-0352",
-"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261118-0352",
-"kind": "android",
-"at": "2026-11-18 03:52",
-"branch": "cd28",
-"sizeMB": 50.8
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 23:45",
-"generatedAt": "2026-11-25 23:47",
-"digest": "edee25b870ee3efa"
+"sourceAt": "2026-11-26 00:17",
+"generatedAt": "2026-11-26 00:17",
+"digest": "857f4f7239731f59"
 }
