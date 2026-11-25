@@ -1431,8 +1431,24 @@
 "msg": "CD-0166b 백판 E 구성(문양 없는 전용 배경) 시안·비교 그림"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 7,
 "dirty": [
+{
+"file": "art/rig/human_3/out/human_3.png",
+"at": "2026-11-25 19:17"
+},
+{
+"file": "art/rig/human_3/out/human_3.json",
+"at": "2026-11-25 19:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/human_3.json",
+"at": "2026-11-25 19:17"
+},
+{
+"file": "art/rig/human_3/skeleton.json",
+"at": "2026-11-25 19:17"
+},
 {
 "file": "_qa/tool-shot.log",
 "at": "2026-11-25 18:40"
@@ -1446,8 +1462,8 @@
 "at": "2026-11-25 18:39"
 }
 ],
-"lastEdit": "2026-11-25 18:40",
-"lastEditTs": 1795599618.0851717,
+"lastEdit": "2026-11-25 19:17",
+"lastEditTs": 1795601833.0637133,
 "lastCommitTs": 1795599738,
 "unpushed": 2,
 "notInMain": 2,
@@ -1597,7 +1613,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 79,
+"commits": 77,
 "byOrder": [
 [
 "CD-0158",
@@ -1624,10 +1640,6 @@
 4
 ],
 [
-"CD-0140",
-4
-],
-[
 "CD-0163",
 3
 ],
@@ -1645,6 +1657,10 @@
 ],
 [
 "CD-0154",
+3
+],
+[
+"CD-0140",
 3
 ],
 [
@@ -1685,10 +1701,6 @@
 ],
 [
 "CD-0147",
-1
-],
-[
-"CD-0145",
 1
 ]
 ],
@@ -23148,7 +23160,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 18:42",
-"generatedAt": "2026-11-25 18:47",
-"digest": "e3425670e7370e43"
+"sourceAt": "2026-11-25 19:17",
+"generatedAt": "2026-11-25 19:17",
+"digest": "9e690d91cc35f5a8"
 }
