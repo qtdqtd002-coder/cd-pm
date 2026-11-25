@@ -1304,9 +1304,21 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0153",
-"head": "5f7b65d",
+"order": "CD-0157",
+"head": "90adcc4",
 "commits": [
+{
+"sha": "90adcc40",
+"at": "2026-11-25 09:18",
+"ts": 1795565896,
+"msg": "병합: cd-157 24529728(CD-0157 영웅 탭 다시 누르면 상세 닫기 · 레벨업 표식 남색 원판 + 두 톤 금 화살표(사용자 선택 a) · EditMode 13/13 · PlayMode 1/1)"
+},
+{
+"sha": "24529728",
+"at": "2026-11-25 09:14",
+"ts": 1795565696,
+"msg": "CD-0157: 레벨업 가능 표식을 남색 원판 + 두 톤 금 화살표로 교체(사용자 선택 a) · docs/03 §8-1 · 주문 기록 마감"
+},
 {
 "sha": "5f7b65d1",
 "at": "2026-11-25 00:45",
@@ -1326,65 +1338,53 @@
 "msg": "CD-0153 통합: Unity 확인 · 고침 — 제비·햇살이 안 그려지던 것(CanvasRenderer) · 가산 셰이더 CD/UiAdd · 10장 상 글자·이름 표시 · 색종이 · A상 무대 뒤 · 카탈로그 4장"
 },
 {
-"sha": "bf3e0e32",
-"at": "2026-11-25 00:13",
-"ts": 1795533190,
-"msg": "병합: cd-156 1b9573d7(CD-0156 설정 창 네 묶음 재구성 · 게임 방법 가이드(장 6·항목 35, Data/guide.json) · 크레딧 전부 제거 · 표식 7장 · EditMode 39/39+22/22 · PlayMode 2/2)"
-},
-{
-"sha": "e5c88877",
-"at": "2026-11-25 00:12",
-"ts": 1795533166,
-"msg": "Merge branch 'main' into cd-153"
-},
-{
-"sha": "1b9573d7",
-"at": "2026-11-25 00:12",
-"ts": 1795533153,
-"msg": "CD-0156 카탈로그 반입 · 시험 정리 · 진동 줄 아이콘 뺌 · 마감 초안"
+"sha": "bb12eabc",
+"at": "2026-11-25 00:21",
+"ts": 1795533691,
+"msg": "CD-0157: gen.py 병합 뒤 빈 줄"
 }
 ],
-"dirtyCount": 25,
+"dirtyCount": 12,
 "dirty": [
 {
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-25 09:15"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.core/Settings.json",
+"at": "2026-11-22 10:28"
 },
 {
-"file": "studio/orders/CD-0157-영웅-레벨업-가능-표식-다시-Codex-영웅-상세에서-/_design/cd157_compare_now_a_b_c.png",
-"at": "2026-11-25 09:15"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 10:28"
 },
 {
-"file": "art/tools/ui157_marks.py",
-"at": "2026-11-25 09:15"
+"file": "UnityProject/.vscode/extensions.json",
+"at": "2026-11-22 10:27"
 },
 {
-"file": "docs/03-리소스계획.md",
-"at": "2026-11-25 09:15"
+"file": "UnityProject/.vscode/launch.json",
+"at": "2026-11-22 10:27"
 },
 {
-"file": "studio/art-manifest.json",
-"at": "2026-11-25 09:15"
+"file": "UnityProject/.vscode/settings.json",
+"at": "2026-11-22 10:27"
 },
 {
-"file": "studio/assets-ledger.csv",
-"at": "2026-11-25 09:15"
+"file": "_qa/cd54-shots-v2/cd54_propfx_low.png",
+"at": "2026-11-22 00:05"
 },
 {
-"file": "studio/orders/CD-0157-영웅-레벨업-가능-표식-다시-Codex-영웅-상세에서-/00-order.md",
-"at": "2026-11-25 09:15"
+"file": "_qa/cd54-shots-v2/cd54_propfx_high_crop200.png",
+"at": "2026-11-22 00:05"
 },
 {
-"file": "art/final/ui/mark_levelup.png",
-"at": "2026-11-25 09:15"
+"file": "_qa/cd54-shots-v2/cd54_propfx_high.png",
+"at": "2026-11-22 00:05"
 }
 ],
-"lastEdit": "2026-11-25 09:15",
-"lastEditTs": 1795565718.1233208,
-"lastCommitTs": 1795535149,
+"lastEdit": "2026-11-22 10:28",
+"lastEditTs": 1795310895.2319162,
+"lastCommitTs": 1795565896,
 "unpushed": 0,
 "notInMain": 0,
-"today": 11
+"today": 17
 },
 {
 "branch": "cd-155",
@@ -1495,8 +1495,8 @@
 "lastEdit": "2026-11-25 00:43",
 "lastEditTs": 1795534991.7527597,
 "lastCommitTs": 1795565696,
-"unpushed": 5,
-"notInMain": 5,
+"unpushed": 0,
+"notInMain": 0,
 "today": 11
 },
 {
@@ -1544,35 +1544,43 @@
 "msg": "CD-0153 마감 초안(빌드 대기): 90-close · 통합 기록 · 실제 화면 대조판"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 21,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/UI/NameDialog.cs",
-"at": "2026-11-25 09:17"
+"file": "UnityProject/Assets/_Game/UI/HelpScreen.cs",
+"at": "2026-11-25 09:18"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/AccountLinkWindow.cs",
-"at": "2026-11-25 09:17"
+"file": "UnityProject/Assets/_Game/UI/MailboxScreen.cs",
+"at": "2026-11-25 09:18"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/AccountNotice.cs",
-"at": "2026-11-25 09:17"
+"file": "UnityProject/Assets/_Game/UI/ServerGate.cs",
+"at": "2026-11-25 09:18"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/BlockConfirm.cs",
-"at": "2026-11-25 09:17"
+"file": "UnityProject/Assets/_Game/UI/GemStoreWindow.cs",
+"at": "2026-11-25 09:18"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/Backdrop.cs",
-"at": "2026-11-25 09:16"
+"file": "UnityProject/Assets/_Game/UI/ChatScreen.cs",
+"at": "2026-11-25 09:18"
 },
 {
-"file": "UnityProject/Assets/_Game/UI/UiMotion.cs",
-"at": "2026-11-25 09:16"
+"file": "UnityProject/Assets/_Game/UI/DailyScreen.cs",
+"at": "2026-11-25 09:18"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/FriendAddWindow.cs",
+"at": "2026-11-25 09:18"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/FriendsScreen.cs",
+"at": "2026-11-25 09:18"
 }
 ],
-"lastEdit": "2026-11-25 09:17",
-"lastEditTs": 1795565847.265799,
+"lastEdit": "2026-11-25 09:18",
+"lastEditTs": 1795565926.0810277,
 "lastCommitTs": 1795565516,
 "unpushed": 4,
 "notInMain": 4,
@@ -19543,7 +19551,7 @@
 ],
 "at": "2026-11-25 09:15",
 "branch": "main",
-"dirty": true
+"dirty": false
 },
 "gallery": {
 "v": 1,
@@ -23078,7 +23086,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 09:17",
-"generatedAt": "2026-11-25 09:17",
-"digest": "e2d1804cb8aad91e"
+"sourceAt": "2026-11-25 09:18",
+"generatedAt": "2026-11-25 09:18",
+"digest": "2e6e31f74748bca3"
 }
