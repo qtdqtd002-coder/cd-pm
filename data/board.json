@@ -1391,87 +1391,54 @@
 "lane": "cd-166",
 "session": "",
 "owns": "",
-"order": "CD-0163",
-"head": "61b49c2",
+"order": "CD-0166",
+"head": "b8cac10",
 "commits": [
 {
-"sha": "61b49c29",
-"at": "2026-11-25 14:42",
-"ts": 1795585353,
-"msg": "CD-0166 마감 — 칭호 24개(결정 0118) · EditMode 35/35 · 빌드 대기"
+"sha": "b8cac10b",
+"at": "2026-11-25 15:42",
+"ts": 1795588927,
+"msg": "CD-0166b 백판 C·D 묶음 비교 그림"
 },
 {
-"sha": "cfe53408",
-"at": "2026-11-25 14:37",
-"ts": 1795585041,
-"msg": "CD-0166 새 디자인 SD 24장 확정본·유니티 반입 · 체형 표"
+"sha": "6b80aaf3",
+"at": "2026-11-25 15:34",
+"ts": 1795588450,
+"msg": "CD-0166b 캡처 시험(영웅 목록·상세 24종·판 안) · 배치 표 EditMode 시험 · _qa 캡처 — EditMode 40/40"
 },
 {
-"sha": "2af27063",
-"at": "2026-11-25 14:29",
-"ts": 1795584541,
-"msg": "CD-0166 주문 열림 · SD 1차 시안 대조 그림"
+"sha": "57b0da4a",
+"at": "2026-11-25 15:30",
+"ts": 1795588203,
+"msg": "Merge commit 'd2ca5a48' into cd-166"
 },
 {
-"sha": "95b9fbe2",
-"at": "2026-11-25 14:20",
-"ts": 1795584026,
-"msg": "병합: cd-163 7662665a(CD-0163 기본 영웅 6명 리디자인 · 일러스트 24장 확정본 · 얼굴 위치 표 · 결정 0117 · EditMode 17/17)"
+"sha": "1d82fda9",
+"at": "2026-11-25 15:30",
+"ts": 1795588202,
+"msg": "CD-0166b 작업 중 — 상세창 일러스트 배치 표(DetailFrames) · 그래픽 백판 배치 · 캡처 시험 · 백판 시안 도구"
 },
 {
-"sha": "7662665a",
-"at": "2026-11-25 14:17",
-"ts": 1795583875,
-"msg": "CD-0163 마감 — 라카 2단계 눈 내림 0 · EditMode 17/17 · 빌드 대기"
+"sha": "d2ca5a48",
+"at": "2026-11-25 14:53",
+"ts": 1795586017,
+"msg": "병합: cd-157b 28a6cf6f(레벨업 표식 ui/mark_levelup Unity 사본 반입 · 원본 해시 일치 · EditMode 13/13)"
 },
 {
-"sha": "2f54306d",
-"at": "2026-11-25 14:12",
-"ts": 1795583533,
-"msg": "Merge commit '33d81a01' into cd-163"
+"sha": "28a6cf6f",
+"at": "2026-11-25 14:53",
+"ts": 1795586003,
+"msg": "CD-0157 후속 cd-157b — 확정한 레벨업 표식을 Unity 사본에 반입"
 }
 ],
-"dirtyCount": 12,
-"dirty": [
-{
-"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/plate-mock-2.png",
-"at": "2026-11-25 14:51"
-},
-{
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-25 14:51"
-},
-{
-"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/plate-mock-1.png",
-"at": "2026-11-25 14:50"
-},
-{
-"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/_design/plate_mock.py",
-"at": "2026-11-25 14:50"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Portraits.cs",
-"at": "2026-11-25 14:50"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
-"at": "2026-11-25 14:50"
-},
-{
-"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/_design/detail_frame.py",
-"at": "2026-11-25 14:50"
-},
-{
-"file": "art/tools/plate166.py",
-"at": "2026-11-25 14:48"
-}
-],
-"lastEdit": "2026-11-25 14:51",
-"lastEditTs": 1795585868.1968439,
-"lastCommitTs": 1795585353,
-"unpushed": 0,
-"notInMain": 0,
-"today": 66
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795588927,
+"unpushed": 4,
+"notInMain": 4,
+"today": 73
 },
 {
 "branch": "rel-0121",
@@ -1617,7 +1584,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 90,
+"commits": 88,
 "byOrder": [
 [
 "CD-0158",
@@ -1628,28 +1595,28 @@
 7
 ],
 [
-"CD-0157",
+"CD-0166",
 6
 ],
 [
-"CD-0135",
-5
-],
-[
-"CD-0140",
-5
+"CD-0157",
+6
 ],
 [
 "CD-0155",
 4
 ],
 [
-"CD-0148",
+"CD-0135",
 4
 ],
 [
-"CD-0166",
-3
+"CD-0140",
+4
+],
+[
+"CD-0148",
+4
 ],
 [
 "CD-0163",
@@ -1716,23 +1683,30 @@
 2
 ],
 [
-"CD-0143",
-2
-],
-[
 "CD-0149",
 1
 ],
 [
 "CD-0142",
 1
-],
-[
-"CD-0137",
-1
 ]
 ],
 "latest": [
+{
+"sha": "b8cac10b",
+"at": "2026-11-25 15:42",
+"msg": "CD-0166b 백판 C·D 묶음 비교 그림"
+},
+{
+"sha": "6b80aaf3",
+"at": "2026-11-25 15:34",
+"msg": "CD-0166b 캡처 시험(영웅 목록·상세 24종·판 안) · 배치 표 EditMode 시험 · _qa 캡처 — EditMode 40/40"
+},
+{
+"sha": "1d82fda9",
+"at": "2026-11-25 15:30",
+"msg": "CD-0166b 작업 중 — 상세창 일러스트 배치 표(DetailFrames) · 그래픽 백판 배치 · 캡처 시험 · 백판 시안 도구"
+},
 {
 "sha": "28a6cf6f",
 "at": "2026-11-25 14:53",
@@ -1767,21 +1741,6 @@
 "sha": "3f518c25",
 "at": "2026-11-25 14:07",
 "msg": "CD-0163 기본 영웅 6명 리디자인 — 일러스트 24장 확정본 교체 · 설정 문서 반영"
-},
-{
-"sha": "b8fabf09",
-"at": "2026-11-25 11:22",
-"msg": "CD-0159 90-close: 관제에 넘길 요약에 커밋 해시"
-},
-{
-"sha": "35c44dfb",
-"at": "2026-11-25 11:22",
-"msg": "CD-0159 마감 초안: EditMode 6묶음 104/104(main bb14ab08 합친 상태) · 꺼진 칸 위치는 비교하지 않게 시험 고침 · 90-close · 단계 마감"
-},
-{
-"sha": "5dcd620a",
-"at": "2026-11-25 11:15",
-"msg": "결정 0116 튜토리얼은 재화를 먼저 주고 쓰게 한다(CD-0161)"
 }
 ]
 },
@@ -11141,16 +11100,22 @@
 "id": "CD-0166",
 "title": "기본 영웅 6명 SD 인게임 모델",
 "branch": "cd-166",
-"updated": "2026-11-25 14:51",
+"updated": "2026-11-25 15:42",
 "files": [
 "00-order.md",
 "10-spec.md",
 "90-close.md",
 "_design",
+"_qa",
 "detail-new-frame.png",
 "detail-now.png",
+"plate-cmp-beast-spirit-dragon.png",
+"plate-cmp-elf-dwarf.png",
 "plate-mock-1.png",
 "plate-mock-2.png",
+"plate-set-c.png",
+"plate-set-d.png",
+"plate-set-young.png",
 "sd1-beast.png",
 "sd1-dragon.png",
 "sd1-dwarf.png",
@@ -23123,7 +23088,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 14:53",
-"generatedAt": "2026-11-25 15:17",
-"digest": "321ebd1bafa0035b"
+"sourceAt": "2026-11-25 15:42",
+"generatedAt": "2026-11-25 15:47",
+"digest": "bd53cb8e48f879b1"
 }
