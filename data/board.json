@@ -1518,8 +1518,26 @@
 "session": "",
 "owns": "",
 "order": "CD-0169",
-"head": "c072de0",
+"head": "a650c68",
 "commits": [
+{
+"sha": "a650c686",
+"at": "2026-11-26 00:32",
+"ts": 1795620745,
+"msg": "CD-0169 Unity 2차 — 확정 통그림·마스크 반입(임시본 제거)·카탈로그 · C2 컴파일 · EditMode 필터 73/73"
+},
+{
+"sha": "ff0aa289",
+"at": "2026-11-26 00:29",
+"ts": 1795620585,
+"msg": "CD-0169 C2 방향 그림자·잎 흔들림·등불 깜빡임 코드(Unity 확인 전) · 2챕터 시안 기록 · docs/17 조각 모음 요령"
+},
+{
+"sha": "c389e260",
+"at": "2026-11-26 00:21",
+"ts": 1795620090,
+"msg": "CD-0169 A1 통그림 마감 — gate_03 board 1440x2880·흔들림 마스크·맵 도구(map_guide·map_gen·map_sway·map_stitch)·빛 좌표"
+},
 {
 "sha": "c072de00",
 "at": "2026-11-26 00:17",
@@ -1537,67 +1555,21 @@
 "at": "2026-11-26 00:17",
 "ts": 1795619833,
 "msg": "CD-0169 C1 Unity 확인 — 컴파일·카탈로그 등록(map/gate_03/board)·EditMode 필터 78/79(1 건너뜀) · 미리보기 시험을 통그림 맵에 맞춤"
-},
-{
-"sha": "e8441eac",
-"at": "2026-11-26 00:10",
-"ts": 1795619459,
-"msg": "CD-0169 C1 통그림 그리기 — viewBoard 읽기·BoardView 통그림 층·작업실·검사 (Unity 컴파일·시험 전)"
-},
-{
-"sha": "82ce6ef3",
-"at": "2026-11-25 23:56",
-"ts": 1795618595,
-"msg": "CD-0169 진행 기록 — 시안 F 확정·팀 배치·2챕터 인터뷰 답"
-},
-{
-"sha": "cd460391",
-"at": "2026-11-25 23:54",
-"ts": 1795618454,
-"msg": "CD-0169 기획서 · 맵 제작 방식 문서(docs/17) · 결정 0122"
 }
 ],
-"dirtyCount": 11,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "art/tools/map_gen.py",
-"at": "2026-11-26 00:17"
-},
-{
-"file": "studio/art-manifest.json",
-"at": "2026-11-26 00:14"
-},
-{
-"file": "studio/assets-ledger.csv",
-"at": "2026-11-26 00:14"
-},
-{
-"file": "art/final/map/_master/gate_03/board_sway.png",
-"at": "2026-11-26 00:14"
-},
-{
-"file": "art/final/map/_master/gate_03/board.png",
-"at": "2026-11-26 00:14"
-},
-{
-"file": "art/final/map/gate_03/board_sway.png",
-"at": "2026-11-26 00:13"
-},
-{
-"file": "art/final/map/gate_03/board.png",
-"at": "2026-11-26 00:13"
-},
-{
-"file": "art/tools/check.py",
-"at": "2026-11-26 00:13"
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-26 00:34"
 }
 ],
-"lastEdit": "2026-11-26 00:17",
-"lastEditTs": 1795619835.3225894,
-"lastCommitTs": 1795619842,
-"unpushed": 9,
-"notInMain": 9,
-"today": 4
+"lastEdit": "2026-11-26 00:34",
+"lastEditTs": 1795620851.032146,
+"lastCommitTs": 1795620745,
+"unpushed": 12,
+"notInMain": 12,
+"today": 7
 },
 {
 "branch": "rel-0122",
@@ -1727,11 +1699,15 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 74,
+"commits": 73,
 "byOrder": [
 [
 "CD-0158",
 12
+],
+[
+"CD-0169",
+10
 ],
 [
 "CD-0164",
@@ -1742,20 +1718,16 @@
 9
 ],
 [
-"CD-0169",
-7
-],
-[
 "CD-0155",
-6
-],
-[
-"CD-0157",
-6
+5
 ],
 [
 "CD-0153",
 4
+],
+[
+"CD-0157",
+3
 ],
 [
 "CD-0163",
@@ -1796,6 +1768,21 @@
 ],
 "latest": [
 {
+"sha": "a650c686",
+"at": "2026-11-26 00:32",
+"msg": "CD-0169 Unity 2차 — 확정 통그림·마스크 반입(임시본 제거)·카탈로그 · C2 컴파일 · EditMode 필터 73/73"
+},
+{
+"sha": "ff0aa289",
+"at": "2026-11-26 00:29",
+"msg": "CD-0169 C2 방향 그림자·잎 흔들림·등불 깜빡임 코드(Unity 확인 전) · 2챕터 시안 기록 · docs/17 조각 모음 요령"
+},
+{
+"sha": "c389e260",
+"at": "2026-11-26 00:21",
+"msg": "CD-0169 A1 통그림 마감 — gate_03 board 1440x2880·흔들림 마스크·맵 도구(map_guide·map_gen·map_sway·map_stitch)·빛 좌표"
+},
+{
 "sha": "63160bc9",
 "at": "2026-11-26 00:17",
 "msg": "CD-0169 Codex 호출 기록"
@@ -1829,21 +1816,6 @@
 "sha": "238a9f2e",
 "at": "2026-11-25 23:51",
 "msg": "CD-0169 주문 열림 — 인터뷰 답·시안 A~F 기록"
-},
-{
-"sha": "df0b1cec",
-"at": "2026-11-25 23:45",
-"msg": "CD-0164e QA 실패 1건 — 판 연출 시험(Cd16FieldTests 숨쉬기·돌진)을 리그 기준으로 · 시험용 RigAttackingUnits · PlayMode 3 통과"
-},
-{
-"sha": "88c12341",
-"at": "2026-11-25 23:16",
-"msg": "공지 app_0_12_2 — 기본 영웅 24명 움직임(CD-0164) 반영 (26항목)"
-},
-{
-"sha": "2015756f",
-"at": "2026-11-25 23:09",
-"msg": "공지 app_0_12_2 갱신 — CD-0167 랭킹 불러오는 중 · CD-0168 챕터 2 ㄹ자 길 (26항목, notices_check·canon_lint 통과)"
 }
 ]
 },
@@ -11345,12 +11317,14 @@
 "id": "CD-0169",
 "title": "1·2챕터 맵 디자인 재제작(docs/17 방식) — 통그림 바닥과 맵 제작 방식 기준",
 "branch": "cd-169",
-"updated": "2026-11-26 00:10",
+"updated": "2026-11-26 00:29",
 "files": [
 "00-order.md",
 "10-spec.md",
 "12-shadow-notes.md",
-"23-client-board.md"
+"21-art-board.md",
+"23-client-board.md",
+"24-client-shadow.md"
 ],
 "milestone": "M6",
 "stage": "제작",
@@ -15385,7 +15359,56 @@
 "cell": 180,
 "top": 630,
 "sway": "map/gate_03/board_sway",
-"lights": []
+"lights": [
+[
+50,
+48,
+140,
+"#C77DFF"
+],
+[
+81,
+123,
+70,
+"#B05CFF"
+],
+[
+124,
+192,
+70,
+"#B05CFF"
+],
+[
+218,
+210,
+70,
+"#B05CFF"
+],
+[
+377,
+428,
+60,
+"#FFC24A"
+],
+[
+38,
+934,
+70,
+"#FFC24A"
+],
+[
+167,
+934,
+70,
+"#FFC24A"
+],
+[
+283,
+935,
+100,
+"#FF8A2A"
+]
+]
 }
 },
 "layouts": {
@@ -16203,7 +16226,7 @@
 }
 ]
 },
-"at": "2026-11-25 23:59",
+"at": "2026-11-26 00:21",
 "branch": "cd-169",
 "dirty": false
 },
@@ -19777,7 +19800,7 @@
 ],
 "at": "2026-11-26 00:14",
 "branch": "cd-169",
-"dirty": true
+"dirty": false
 },
 "gallery": {
 "v": 1,
@@ -23322,7 +23345,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 00:17",
-"generatedAt": "2026-11-26 00:17",
-"digest": "857f4f7239731f59"
+"sourceAt": "2026-11-26 00:34",
+"generatedAt": "2026-11-26 00:34",
+"digest": "d9bb6145ce168968"
 }
