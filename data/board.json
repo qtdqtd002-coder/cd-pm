@@ -1304,9 +1304,27 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0157",
-"head": "55e1f03",
+"order": "CD-0158",
+"head": "cfe2322",
 "commits": [
+{
+"sha": "cfe2322c",
+"at": "2026-11-25 09:51",
+"ts": 1795567900,
+"msg": "병합: cd-158 12c1045c(CD-0158 UI 반응·전환 연출 · 공용 UiMotion · 결정 0115 «B 말랑» · 버튼·탭·창 24곳·숫자 굴림·목록 등장 · EditMode 331/331)"
+},
+{
+"sha": "12c1045c",
+"at": "2026-11-25 09:48",
+"ts": 1795567736,
+"msg": "CD-0158 마감 — EditMode 331/331 · 빌드 대기"
+},
+{
+"sha": "461d78b6",
+"at": "2026-11-25 09:47",
+"ts": 1795567633,
+"msg": "Merge branch 'main' into cd-158"
+},
 {
 "sha": "55e1f039",
 "at": "2026-11-25 09:47",
@@ -1324,24 +1342,6 @@
 "at": "2026-11-25 09:44",
 "ts": 1795567485,
 "msg": "CD-0155b 이어 하기 시험 — 스냅샷 머리를 GameMatch.SnapshotVersion 으로 바꿔치기(CDSNAP10 에서 «CDSNAP9» 글자가 헛돌던 것) · CDSNAP9 포기 정산 경우 추가 · EditMode OutgameServiceEditModeTests 7/7"
-},
-{
-"sha": "3cecbf15",
-"at": "2026-11-25 09:43",
-"ts": 1795567382,
-"msg": "CD-0160 마감 초안 — EditMode 80/80 · PlayMode Cd36FirstEntryTests 12/0/1 · check 통과(109cdd57)"
-},
-{
-"sha": "109cdd57",
-"at": "2026-11-25 09:35",
-"ts": 1795566924,
-"msg": "Merge commit '4c4c42d7' into cd-160"
-},
-{
-"sha": "4c4c42d7",
-"at": "2026-11-25 09:34",
-"ts": 1795566883,
-"msg": "병합: cd-157 d85a918e(CD-0157 레벨업 표식 사용자 확정 · art-manifest confirmed)"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795567630,
-"unpushed": 2,
+"lastCommitTs": 1795567900,
+"unpushed": 0,
 "notInMain": 0,
-"today": 31
+"today": 47
 },
 {
 "branch": "cd-155",
@@ -1490,7 +1490,7 @@
 "lastEdit": "",
 "lastEditTs": 0,
 "lastCommitTs": 1795567485,
-"unpushed": 1,
+"unpushed": 0,
 "notInMain": 0,
 "today": 26
 },
@@ -1559,8 +1559,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0158",
-"head": "461d78b",
+"head": "12c1045",
 "commits": [
+{
+"sha": "12c1045c",
+"at": "2026-11-25 09:48",
+"ts": 1795567736,
+"msg": "CD-0158 마감 — EditMode 331/331 · 빌드 대기"
+},
 {
 "sha": "461d78b6",
 "at": "2026-11-25 09:47",
@@ -1590,22 +1596,16 @@
 "at": "2026-11-25 09:43",
 "ts": 1795567382,
 "msg": "CD-0160 마감 초안 — EditMode 80/80 · PlayMode Cd36FirstEntryTests 12/0/1 · check 통과(109cdd57)"
-},
-{
-"sha": "210c896d",
-"at": "2026-11-25 09:41",
-"ts": 1795567278,
-"msg": "CD-0158 마감 기록 초안(2차 EditMode 결과 자리 비움)"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1795567633,
-"unpushed": 16,
-"notInMain": 14,
-"today": 45
+"lastCommitTs": 1795567736,
+"unpushed": 0,
+"notInMain": 0,
+"today": 46
 },
 {
 "branch": "cd-160",
@@ -1765,11 +1765,19 @@
 "msg": "CD-0151: 랭킹 판 없음(LeaderboardNotFound)을 «기록 없음»으로 · 그 밖 실패는 이유·코드 로그"
 }
 ],
-"dirtyCount": 15,
+"dirtyCount": 17,
 "dirty": [
 {
+"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft-dwarf.png",
+"at": "2026-11-25 09:51"
+},
+{
+"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft-elf.png",
+"at": "2026-11-25 09:51"
+},
+{
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-25 09:47"
+"at": "2026-11-25 09:50"
 },
 {
 "file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft-human.png",
@@ -1790,18 +1798,10 @@
 {
 "file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft3-dragon.png",
 "at": "2026-11-25 09:09"
-},
-{
-"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft3-spirit.png",
-"at": "2026-11-25 09:09"
-},
-{
-"file": "studio/orders/CD-0163-기본-영웅-6명-리디자인-1-성장-컨셉-설정-칭호-정리/draft2-spirit.png",
-"at": "2026-11-24 23:54"
 }
 ],
-"lastEdit": "2026-11-25 09:47",
-"lastEditTs": 1795567636.9047244,
+"lastEdit": "2026-11-25 09:51",
+"lastEditTs": 1795567864.2130725,
 "lastCommitTs": 1795529888,
 "unpushed": 0,
 "notInMain": 0,
@@ -1951,7 +1951,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 105,
+"commits": 106,
 "byOrder": [
 [
 "CD-0135",
@@ -1959,7 +1959,7 @@
 ],
 [
 "CD-0158",
-11
+12
 ],
 [
 "CD-0140",
@@ -2064,6 +2064,11 @@
 ],
 "latest": [
 {
+"sha": "12c1045c",
+"at": "2026-11-25 09:48",
+"msg": "CD-0158 마감 — EditMode 331/331 · 빌드 대기"
+},
+{
 "sha": "c35546bb",
 "at": "2026-11-25 09:44",
 "msg": "CD-0155b 이어 하기 시험 — 스냅샷 머리를 GameMatch.SnapshotVersion 으로 바꿔치기(CDSNAP10 에서 «CDSNAP9» 글자가 헛돌던 것) · CDSNAP9 포기 정산 경우 추가 · EditMode OutgameServiceEditModeTests 7/7"
@@ -2107,11 +2112,6 @@
 "sha": "d85a918e",
 "at": "2026-11-25 09:32",
 "msg": "CD-0157: 레벨업 가능 표식 사용자 확정(confirmed)"
-},
-{
-"sha": "73a874ac",
-"at": "2026-11-25 09:29",
-"msg": "CD-0158 규칙 문서: 새 창 WindowOpen/IsShown · 시험 Instant · 뗌 넘침 1.04(ReleasePeak)"
 }
 ]
 },
@@ -11174,8 +11174,8 @@
 {
 "id": "CD-0158",
 "title": "UI 반응·전환 연출 폴리싱과 공용 모션 규칙",
-"branch": "cd-158",
-"updated": "2026-11-25 09:41",
+"branch": "main",
+"updated": "2026-11-25 09:49",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11184,13 +11184,13 @@
 "90-close.md"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-25",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<ol>\n<li>화면이 «틱» 하고 바뀌는 곳을 없앤다 — 누름·탭·창·작은 탭·숫자·목록·영웅 상세 전환에 짧고 말랑한 움직임.\n</li>\n<li><strong>공용 부품 한 곳</strong>(<code>UiMotion</code>)과 <strong>표준 값 한 벌</strong>(아래 «모션 토큰»)로 묶어, 새 UI 가 그 부품만 부르면 같은 결을 갖게 한다. 흩어진 도우미(<code>PressBounce</code>·<code>Pop</code>·<code>Appear</code>·<code>OutgameAnim</code>·<code>Theme.Unfold/Fold</code>)는 이 값을 쓰도록 맞춘다.\n</li>\n<li>규칙 문서(docs/03 §10-6)로 남긴다 — 앞으로의 UI 주문은 이 규칙을 따른다.\n</li></ol>",
 "goalShort": "1.",
@@ -11202,7 +11202,7 @@
 "title": "공용 부품 + 누름·탭·창·작은 탭. ① UI/UiMotion.cs(새 파일): 위 토큰 상수 · Press/Release · Scale/Move/Fade/Color 트윈(LitMotion, 대상별 핸들 사전으로 끊고 이어 가기) · WindowOpen(root, card, dim)/WindowClose(root, card, dim, done)(끝에 SetActive(false)) · Pop · Instant/CompleteAll. ② PressBounce 를 Press/Release 로(모든 버튼이 따라 바뀐다 — interactable=false 면 누름 없음, CD-0127 의 빈 판 예외 유지). ③ 로비 하단 탭(LobbyScreen.ShowTab 1283 부근): 아이콘 크기·위치·색을 TabPick/TabRest/TabWord 로 — 처음 화면을 만들 때·시험 캡처는 즉시. ④ 창 열고 닫기: Theme.DimLayer 를 쓰는 창 26곳 + 판 안 Sheet(·Bounty/Mine/Mission/Upgrade) · PauseMenu 의 Open/Close 를 WindowOpen/Close 로(이미 Theme.Unfold 띠 팝업 가족은 그 모양 그대로, 값만 토큰과 맞는지 확인). Appear 는 WindowIn 값으로. ⑤ Theme.SetTab 18곳: 새로 고른 키 SubTabPick.",
 "output": "코드 · 20-client.md(바꾼 창 목록 · 뺀 곳과 이유 · 바뀐 시험)",
 "status": "done",
-"why": "보고서 있음: 20-client.md"
+"why": "주문 마감"
 },
 {
 "id": "C2",
@@ -11211,10 +11211,10 @@
 "title": "숫자·목록·영웅 상세. ① CurrencyChip.Count 를 토큰으로 맞추고, 재화가 늘거나 줄어드는 순간(보상 받기·우편·구매·레벨업·판에서 돌아옴)에 animate 가 실제로 켜지는지 호출처를 확인해 빠진 곳을 켠다(화면을 처음 열 때는 굴리지 않는다). ② 목록 줄 차례 등장(ListIn): 우편·업적·상점·친구·랭킹·공지·영웅 목록 — 탭·창을 새로 열 때 한 번만(받기 같은 새로고침에는 안 함). 스크롤 위치·레이아웃 계산을 깨지 않게(줄 자체가 아니라 줄 안 내용물 또는 CanvasGroup 으로). ③ 영웅 목록 ↔ 상세(CharacterScreen.OpenDetail/ShowDetail/CloseDetail): PageSwap(영역 Dissolve 0.22초, ScreenTransition area).",
 "output": "코드 · 21-client.md",
 "status": "done",
-"why": "보고서 있음: 21-client.md"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -11298,11 +11298,13 @@
 "id": "CD-0163",
 "title": "기본 영웅 6명 리디자인 1 성장 컨셉 설정 칭호 정리와 일러스트 시안",
 "branch": "cd-163",
-"updated": "2026-11-25 09:42",
+"updated": "2026-11-25 09:51",
 "files": [
 "00-order.md",
 "10-spec.md",
 "draft-beast.png",
+"draft-dwarf.png",
+"draft-elf.png",
 "draft-human.png",
 "draft1-dragon.png",
 "draft1-spirit.png",
@@ -12310,7 +12312,7 @@
 "no": 67,
 "title": "UI 반응·전환 연출 폴리싱(하단 탭 등 «틱» 끊김 없애기) + UI 모션 규칙 정하기",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0041",
@@ -13484,7 +13486,7 @@
 "date": "2026-11-25",
 "by": "사용자(접수 #67) · 번호는 관제",
 "html": "<div class=tw><table><thead><tr><th>무엇</th><th>결정</th></tr></thead><tbody><tr><td>세기</td><td>B 말랑 — 누름 0.93·0.07초, 뗌 0.24초 살짝 넘침(OutBack), 하단 탭 0.24초 튕김/0.16초, 창 열림 0.24초 튕김·닫힘 0.14초, 숫자 0.40초, 목록 줄 0.20초·0.03초 간격·앞 8줄</td></tr><tr><td>부품</td><td>공용 <code>UiMotion</code>(값 상수 한 곳) + <code>PressBounce</code> · <code>Theme.SetTab</code> · <code>Theme.Unfold/Fold</code>(띠 팝업) · <code>ScreenTransition</code> 영역(페이지 바뀜) · <code>CurrencyChip.Set(animate)</code>. 새 UI 는 이 부품만 부르고 모션 숫자를 코드에 박지 않는다</td></tr><tr><td>입력</td><td>연출을 기다리지 않는다 — 논리 상태는 즉시, 그림만 따라간다. 닫히는 창은 누른 순간 뒤를 누를 수 있다</td></tr><tr><td>반복</td><td>없음(CD-0027 반복 반짝임 금지 그대로). 한 번 하고 멈춘다</td></tr><tr><td>저사양</td><td>«낮음» 도 같은 모션(크기·위치·알파). 블러·디졸브 같은 무거운 것만 지금처럼 꺼진다</td></tr><tr><td>범위 밖</td><td>보상·쿠지·균열 관문처럼 따로 짠 큰 연출의 시퀀스(그 안의 버튼·창은 이 규칙을 따른다)</td></tr></tbody></table></div>",
-"branch": "cd-158",
+"branch": "main",
 "dirty": false
 }
 ],
@@ -23282,7 +23284,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 09:47",
-"generatedAt": "2026-11-25 09:47",
-"digest": "36fbc40c31e7dfaa"
+"sourceAt": "2026-11-25 09:51",
+"generatedAt": "2026-11-25 09:52",
+"digest": "60c843f65a657d61"
 }
