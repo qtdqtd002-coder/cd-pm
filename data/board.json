@@ -1304,9 +1304,21 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0158",
-"head": "410f278",
+"order": "CD-0166",
+"head": "d2ca5a4",
 "commits": [
+{
+"sha": "d2ca5a48",
+"at": "2026-11-25 14:53",
+"ts": 1795586017,
+"msg": "병합: cd-157b 28a6cf6f(레벨업 표식 ui/mark_levelup Unity 사본 반입 · 원본 해시 일치 · EditMode 13/13)"
+},
+{
+"sha": "28a6cf6f",
+"at": "2026-11-25 14:53",
+"ts": 1795586003,
+"msg": "CD-0157 후속 cd-157b — 확정한 레벨업 표식을 Unity 사본에 반입"
+},
 {
 "sha": "410f2789",
 "at": "2026-11-25 14:45",
@@ -1330,18 +1342,6 @@
 "at": "2026-11-25 14:29",
 "ts": 1795584541,
 "msg": "CD-0166 주문 열림 · SD 1차 시안 대조 그림"
-},
-{
-"sha": "95b9fbe2",
-"at": "2026-11-25 14:20",
-"ts": 1795584026,
-"msg": "병합: cd-163 7662665a(CD-0163 기본 영웅 6명 리디자인 · 일러스트 24장 확정본 · 얼굴 위치 표 · 결정 0117 · EditMode 17/17)"
-},
-{
-"sha": "7662665a",
-"at": "2026-11-25 14:17",
-"ts": 1795583875,
-"msg": "CD-0163 마감 — 라카 2단계 눈 내림 0 · EditMode 17/17 · 빌드 대기"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795585518,
+"lastCommitTs": 1795586017,
 "unpushed": 0,
 "notInMain": 0,
-"today": 67
+"today": 69
 },
 {
 "branch": "cd-157b",
@@ -1392,8 +1392,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0166",
-"head": "410f278",
+"head": "28a6cf6",
 "commits": [
+{
+"sha": "28a6cf6f",
+"at": "2026-11-25 14:53",
+"ts": 1795586003,
+"msg": "CD-0157 후속 cd-157b — 확정한 레벨업 표식을 Unity 사본에 반입"
+},
 {
 "sha": "410f2789",
 "at": "2026-11-25 14:45",
@@ -1423,27 +1429,16 @@
 "at": "2026-11-25 14:20",
 "ts": 1795584026,
 "msg": "병합: cd-163 7662665a(CD-0163 기본 영웅 6명 리디자인 · 일러스트 24장 확정본 · 얼굴 위치 표 · 결정 0117 · EditMode 17/17)"
-},
-{
-"sha": "7662665a",
-"at": "2026-11-25 14:17",
-"ts": 1795583875,
-"msg": "CD-0163 마감 — 라카 2단계 눈 내림 0 · EditMode 17/17 · 빌드 대기"
 }
 ],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/Assets/_Game/Art/Final/ui/mark_levelup.png",
-"at": "2026-11-25 14:46"
-}
-],
-"lastEdit": "2026-11-25 14:46",
-"lastEditTs": 1795585591.6718562,
-"lastCommitTs": 1795585518,
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795586003,
 "unpushed": 0,
 "notInMain": 0,
-"today": 67
+"today": 68
 },
 {
 "branch": "cd-166",
@@ -1490,39 +1485,43 @@
 "msg": "Merge commit '33d81a01' into cd-163"
 }
 ],
-"dirtyCount": 7,
+"dirtyCount": 12,
 "dirty": [
 {
+"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/plate-mock-2.png",
+"at": "2026-11-25 14:51"
+},
+{
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-25 14:47"
+"at": "2026-11-25 14:51"
 },
 {
-"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/detail-new-frame.png",
-"at": "2026-11-25 14:45"
+"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/plate-mock-1.png",
+"at": "2026-11-25 14:50"
 },
 {
-"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/_design/detail_mock.py",
-"at": "2026-11-25 14:45"
+"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/_design/plate_mock.py",
+"at": "2026-11-25 14:50"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/Portraits.cs",
+"at": "2026-11-25 14:50"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/CharacterScreen.cs",
+"at": "2026-11-25 14:50"
 },
 {
 "file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/_design/detail_frame.py",
-"at": "2026-11-25 14:45"
-},
-{
-"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/00-order.md",
-"at": "2026-11-25 14:45"
+"at": "2026-11-25 14:50"
 },
 {
 "file": "art/tools/plate166.py",
-"at": "2026-11-25 14:45"
-},
-{
-"file": "studio/orders/CD-0166-기본-영웅-6명-SD-인게임-모델/detail-now.png",
-"at": "2026-11-25 14:44"
+"at": "2026-11-25 14:48"
 }
 ],
-"lastEdit": "2026-11-25 14:47",
-"lastEditTs": 1795585623.849352,
+"lastEdit": "2026-11-25 14:51",
+"lastEditTs": 1795585868.1968439,
 "lastCommitTs": 1795585353,
 "unpushed": 0,
 "notInMain": 0,
@@ -1672,19 +1671,11 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 96,
+"commits": 93,
 "byOrder": [
 [
 "CD-0158",
 12
-],
-[
-"CD-0135",
-8
-],
-[
-"CD-0140",
-8
 ],
 [
 "CD-0153",
@@ -1692,7 +1683,15 @@
 ],
 [
 "CD-0157",
-5
+6
+],
+[
+"CD-0135",
+6
+],
+[
+"CD-0140",
+6
 ],
 [
 "CD-0155",
@@ -1789,6 +1788,11 @@
 ],
 "latest": [
 {
+"sha": "28a6cf6f",
+"at": "2026-11-25 14:53",
+"msg": "CD-0157 후속 cd-157b — 확정한 레벨업 표식을 Unity 사본에 반입"
+},
+{
 "sha": "61b49c29",
 "at": "2026-11-25 14:42",
 "msg": "CD-0166 마감 — 칭호 24개(결정 0118) · EditMode 35/35 · 빌드 대기"
@@ -1832,11 +1836,6 @@
 "sha": "5dcd620a",
 "at": "2026-11-25 11:15",
 "msg": "결정 0116 튜토리얼은 재화를 먼저 주고 쓰게 한다(CD-0161)"
-},
-{
-"sha": "6f83543b",
-"at": "2026-11-25 11:15",
-"msg": "CD-0159 C1: 결과창 요소 순서 등장 연출 — 승리 «쾅»+흔들림 / 패배 조용히 · 탭 한 번에 끝 상태 · UiMotion 결과창 상수 (Unity 미실행)"
 }
 ]
 },
@@ -10876,7 +10875,7 @@
 "id": "CD-0157",
 "title": "영웅 레벨업 가능 표식 다시(Codex) + 영웅 상세에서 영웅 탭 다시 누르면 목록으로",
 "branch": "main",
-"updated": "2026-11-25 09:32",
+"updated": "2026-11-25 14:53",
 "files": [
 "00-order.md",
 "_design"
@@ -11196,7 +11195,7 @@
 "id": "CD-0166",
 "title": "기본 영웅 6명 SD 인게임 모델",
 "branch": "cd-166",
-"updated": "2026-11-25 14:47",
+"updated": "2026-11-25 14:51",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11204,6 +11203,8 @@
 "_design",
 "detail-new-frame.png",
 "detail-now.png",
+"plate-mock-1.png",
+"plate-mock-2.png",
 "sd1-beast.png",
 "sd1-dragon.png",
 "sd1-dwarf.png",
@@ -23176,7 +23177,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 14:47",
-"generatedAt": "2026-11-25 14:47",
-"digest": "d52fdd3c7cc97219"
+"sourceAt": "2026-11-25 14:53",
+"generatedAt": "2026-11-25 14:58",
+"digest": "6c360acbd608abce"
 }
