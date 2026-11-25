@@ -1387,13 +1387,31 @@
 "today": 105
 },
 {
-"branch": "cd-164d",
-"lane": "cd-164d",
+"branch": "cd-164e",
+"lane": "cd-164e",
 "session": "",
 "owns": "",
 "order": "CD-0164",
-"head": "1ea8c58",
+"head": "df0b1ce",
 "commits": [
+{
+"sha": "df0b1cec",
+"at": "2026-11-25 23:45",
+"ts": 1795617932,
+"msg": "CD-0164e QA 실패 1건 — 판 연출 시험(Cd16FieldTests 숨쉬기·돌진)을 리그 기준으로 · 시험용 RigAttackingUnits · PlayMode 3 통과"
+},
+{
+"sha": "04bd79fe",
+"at": "2026-11-25 23:12",
+"ts": 1795615946,
+"msg": "병합: cd-164d 1ea8c583(CD-0164 둘째 마디 · 기본 영웅 24명 리그 · 사용자 «빌드에 넣기» · RigEditMode 12 · Cd164Rig 2)"
+},
+{
+"sha": "f798d817",
+"at": "2026-11-25 23:06",
+"ts": 1795615560,
+"msg": "병합: cd-168 39e49daf(CD-0168 2챕터 ㄹ자 동선·소환 영역 · gate_04 1인 배치 · 결정 0121 맵 규칙 완화 · EditMode 26/26 · 맵 캡처 1/1)"
+},
 {
 "sha": "1ea8c583",
 "at": "2026-11-25 23:03",
@@ -1401,34 +1419,16 @@
 "msg": "CD-0164 둘째 마디 마감 — 사용자 컨펌(빌드에 넣기) · 빌드 대기"
 },
 {
+"sha": "39e49daf",
+"at": "2026-11-25 23:03",
+"ts": 1795615387,
+"msg": "CD-0168 마감 — EditMode 26/26 · PlayMode 맵 캡처 1/1(2챕터 4배속) · 90-close · 빌드 대기"
+},
+{
 "sha": "875c2d5d",
 "at": "2026-11-25 22:57",
 "ts": 1795615055,
 "msg": "CD-0164 둘째 마디 — 24명 리그 Unity 확인(.meta · EditMode 12 · PlayMode 2 통과) · 무릎 방향 보정 · 판·로비 캡처 · 사용자 컨펌 대기"
-},
-{
-"sha": "79cbc4e8",
-"at": "2026-11-25 22:54",
-"ts": 1795614855,
-"msg": "Merge main be09ed5d into cd-164d"
-},
-{
-"sha": "a2720e37",
-"at": "2026-11-25 22:54",
-"ts": 1795614850,
-"msg": "CD-0164 둘째 마디(작업 중) — 기본 영웅 24명 리그·동작 초안 · 부위 시트 24장 · skel.py · 공격 7종과 짐승·기운 동작 · 시험 일반화(.meta 는 Unity 확인 뒤)"
-},
-{
-"sha": "be09ed5d",
-"at": "2026-11-25 22:29",
-"ts": 1795613373,
-"msg": "병합: cd-167 8db011e4(CD-0167 랭킹 불러오는 중 화면 · 빈 판 5개 → 줄 모양 자리 표시·숨쉬기·«불러오는 중…» · EditMode 11/11 · PlayMode 1/1)"
-},
-{
-"sha": "8db011e4",
-"at": "2026-11-25 22:29",
-"ts": 1795613362,
-"msg": "CD-0167 랭킹창 불러오는 중 화면 — 빈 판 대신 줄 모양 자리 표시 · 빌드 대기"
 }
 ],
 "dirtyCount": 3,
@@ -1448,10 +1448,10 @@
 ],
 "lastEdit": "2026-11-25 18:40",
 "lastEditTs": 1795599618.0851717,
-"lastCommitTs": 1795615417,
-"unpushed": 0,
-"notInMain": 0,
-"today": 101
+"lastCommitTs": 1795617932,
+"unpushed": 1,
+"notInMain": 1,
+"today": 106
 },
 {
 "branch": "cd-168",
@@ -1561,19 +1561,19 @@
 "dirty": [
 {
 "file": "studio/orders/CD-0169-1챕터-맵-목책-관문-디자인-전면-재제작-통그림-바닥과/00-order.md",
-"at": "2026-11-25 23:11"
+"at": "2026-11-25 23:44"
 },
 {
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-25 23:11"
+"at": "2026-11-25 23:44"
 },
 {
 "file": "studio/orders/CD-0169-1챕터-맵-목책-관문-디자인-전면-재제작-통그림-바닥과/10-spec.md",
 "at": "2026-11-25 22:46"
 }
 ],
-"lastEdit": "2026-11-25 23:11",
-"lastEditTs": 1795615897.7887597,
+"lastEdit": "2026-11-25 23:44",
+"lastEditTs": 1795617872.2866158,
 "lastCommitTs": 1795613373,
 "unpushed": 0,
 "notInMain": 0,
@@ -1624,24 +1624,8 @@
 "msg": "병합: cd-168 39e49daf(CD-0168 2챕터 ㄹ자 동선·소환 영역 · gate_04 1인 배치 · 결정 0121 맵 규칙 완화 · EditMode 26/26 · 맵 캡처 1/1)"
 }
 ],
-"dirtyCount": 8,
+"dirtyCount": 4,
 "dirty": [
-{
-"file": "UnityProject/Assets/InitTestScene63186c17-d7e5-4b14-9002-ebddfa388769.unity.meta",
-"at": "2026-11-25 23:16"
-},
-{
-"file": "UnityProject/Assets/InitTestScene63186c17-d7e5-4b14-9002-ebddfa388769.unity",
-"at": "2026-11-25 23:16"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-25 23:16"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-25 23:16"
-},
 {
 "file": "UnityProject/Assets/InitTestSceneaf45ee81-772b-43d0-9085-d1b42d2d29b2.unity.meta",
 "at": "2026-11-25 23:10"
@@ -1659,8 +1643,8 @@
 "at": "2026-11-22 10:26"
 }
 ],
-"lastEdit": "2026-11-25 23:16",
-"lastEditTs": 1795616207.8841298,
+"lastEdit": "2026-11-25 23:10",
+"lastEditTs": 1795615807.2747817,
 "lastCommitTs": 1795616168,
 "unpushed": 7,
 "notInMain": 7,
@@ -1723,7 +1707,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 77,
+"commits": 73,
 "byOrder": [
 [
 "CD-0158",
@@ -1731,7 +1715,7 @@
 ],
 [
 "CD-0164",
-9
+10
 ],
 [
 "CD-0166",
@@ -1742,16 +1726,12 @@
 6
 ],
 [
-"CD-0153",
-6
-],
-[
 "CD-0157",
 6
 ],
 [
-"CD-0150",
-4
+"CD-0153",
+5
 ],
 [
 "CD-0156",
@@ -1786,15 +1766,20 @@
 2
 ],
 [
-"CD-0160",
+"CD-0150",
 2
 ],
 [
-"CD-0162",
+"CD-0160",
 2
 ]
 ],
 "latest": [
+{
+"sha": "df0b1cec",
+"at": "2026-11-25 23:45",
+"msg": "CD-0164e QA 실패 1건 — 판 연출 시험(Cd16FieldTests 숨쉬기·돌진)을 리그 기준으로 · 시험용 RigAttackingUnits · PlayMode 3 통과"
+},
 {
 "sha": "88c12341",
 "at": "2026-11-25 23:16",
@@ -1839,11 +1824,6 @@
 "sha": "a9112b08",
 "at": "2026-11-25 21:41",
 "msg": "공지 app_0_12_2(notices_v2, notices_check·canon_lint 통과, 24항목)"
-},
-{
-"sha": "b3e560d4",
-"at": "2026-11-25 21:41",
-"msg": "앱 0.12.2 · versionCode 18 (CD-0150~0166·0155b/c·0157b·0161b·0164c 등) content state(base_id f3941c95)"
 }
 ]
 },
@@ -11202,8 +11182,8 @@
 {
 "id": "CD-0164",
 "title": "영웅 SD 본 리깅 애니메이션과 유니티 액션툴",
-"branch": "main",
-"updated": "2026-11-25 23:10",
+"branch": "cd-164e",
+"updated": "2026-11-25 23:45",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11345,7 +11325,7 @@
 "id": "CD-0169",
 "title": "1챕터 맵 목책 관문 디자인 전면 재제작 통그림 바닥과 겹 소품 맵 제작 방식 기준",
 "branch": "cd-169",
-"updated": "2026-11-25 23:11",
+"updated": "2026-11-25 23:44",
 "files": [
 "00-order.md",
 "10-spec.md"
@@ -23410,7 +23390,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 23:16",
-"generatedAt": "2026-11-25 23:17",
-"digest": "9cdf49b8cba1839e"
+"sourceAt": "2026-11-25 23:45",
+"generatedAt": "2026-11-25 23:47",
+"digest": "edee25b870ee3efa"
 }
