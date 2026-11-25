@@ -1305,8 +1305,26 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0158",
-"head": "d30720f",
+"head": "33d81a0",
 "commits": [
+{
+"sha": "33d81a01",
+"at": "2026-11-25 11:25",
+"ts": 1795573513,
+"msg": "병합: cd-159 b8fabf09(CD-0159 결과창 요소 순서 등장 · 승리 쾅·흔들림·반짝임 / 패배 조용히 · 탭 한 번 끝 · UiMotion Result* · EditMode 104/104)"
+},
+{
+"sha": "b8fabf09",
+"at": "2026-11-25 11:22",
+"ts": 1795573341,
+"msg": "CD-0159 90-close: 관제에 넘길 요약에 커밋 해시"
+},
+{
+"sha": "35c44dfb",
+"at": "2026-11-25 11:22",
+"ts": 1795573333,
+"msg": "CD-0159 마감 초안: EditMode 6묶음 104/104(main bb14ab08 합친 상태) · 꺼진 칸 위치는 비교하지 않게 시험 고침 · 90-close · 단계 마감"
+},
 {
 "sha": "d30720fa",
 "at": "2026-11-25 11:15",
@@ -1320,28 +1338,10 @@
 "msg": "결정 0116 튜토리얼은 재화를 먼저 주고 쓰게 한다(CD-0161)"
 },
 {
-"sha": "bb14ab08",
-"at": "2026-11-25 11:14",
-"ts": 1795572846,
-"msg": "병합: cd-161 d5c9dbcd(CD-0161 튜토리얼 재화 먼저 지급 · 광부 골드 30 · 4-1 차원석 45 · 1-6 해금 균열석 1 + 초월 누르기 · Core 1175/1176 · EditMode 54/54)"
-},
-{
-"sha": "d5c9dbcd",
-"at": "2026-11-25 11:11",
-"ts": 1795572679,
-"msg": "CD-0161 마감 초안 — EditMode 54/54 · 빌드 대기"
-},
-{
-"sha": "915f8721",
-"at": "2026-11-25 11:08",
-"ts": 1795572486,
-"msg": "Merge branch 'main' into cd-161"
-},
-{
-"sha": "453a1627",
-"at": "2026-11-25 11:06",
-"ts": 1795572413,
-"msg": "CD-0161 튜토리얼에서 재화를 쓰게 할 때 먼저 지급"
+"sha": "dc42b0f6",
+"at": "2026-11-25 11:15",
+"ts": 1795572937,
+"msg": "Merge commit 'bb14ab08' into cd-159"
 }
 ],
 "dirtyCount": 12,
@@ -1381,10 +1381,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795572958,
-"unpushed": 2,
+"lastCommitTs": 1795573513,
+"unpushed": 0,
 "notInMain": 0,
-"today": 53
+"today": 58
 },
 {
 "branch": "cd-159",
@@ -1392,8 +1392,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0159",
-"head": "dc42b0f",
+"head": "b8fabf0",
 "commits": [
+{
+"sha": "b8fabf09",
+"at": "2026-11-25 11:22",
+"ts": 1795573341,
+"msg": "CD-0159 90-close: 관제에 넘길 요약에 커밋 해시"
+},
+{
+"sha": "35c44dfb",
+"at": "2026-11-25 11:22",
+"ts": 1795573333,
+"msg": "CD-0159 마감 초안: EditMode 6묶음 104/104(main bb14ab08 합친 상태) · 꺼진 칸 위치는 비교하지 않게 시험 고침 · 90-close · 단계 마감"
+},
 {
 "sha": "dc42b0f6",
 "at": "2026-11-25 11:15",
@@ -1417,28 +1429,16 @@
 "at": "2026-11-25 11:11",
 "ts": 1795572679,
 "msg": "CD-0161 마감 초안 — EditMode 54/54 · 빌드 대기"
-},
-{
-"sha": "915f8721",
-"at": "2026-11-25 11:08",
-"ts": 1795572486,
-"msg": "Merge branch 'main' into cd-161"
-},
-{
-"sha": "453a1627",
-"at": "2026-11-25 11:06",
-"ts": 1795572413,
-"msg": "CD-0161 튜토리얼에서 재화를 쓰게 할 때 먼저 지급"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1795572937,
-"unpushed": 2,
-"notInMain": 2,
-"today": 53
+"lastCommitTs": 1795573341,
+"unpushed": 0,
+"notInMain": 0,
+"today": 55
 },
 {
 "branch": "cd-161b",
@@ -1490,7 +1490,7 @@
 "lastEdit": "",
 "lastEditTs": 0,
 "lastCommitTs": 1795572944,
-"unpushed": 1,
+"unpushed": 0,
 "notInMain": 0,
 "today": 52
 },
@@ -1725,7 +1725,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 103,
+"commits": 105,
 "byOrder": [
 [
 "CD-0135",
@@ -1758,6 +1758,10 @@
 [
 "CD-0148",
 4
+],
+[
+"CD-0159",
+3
 ],
 [
 "CD-0161",
@@ -1820,10 +1824,6 @@
 2
 ],
 [
-"CD-0159",
-1
-],
-[
 "CD-0149",
 1
 ],
@@ -1837,6 +1837,16 @@
 ]
 ],
 "latest": [
+{
+"sha": "b8fabf09",
+"at": "2026-11-25 11:22",
+"msg": "CD-0159 90-close: 관제에 넘길 요약에 커밋 해시"
+},
+{
+"sha": "35c44dfb",
+"at": "2026-11-25 11:22",
+"msg": "CD-0159 마감 초안: EditMode 6묶음 104/104(main bb14ab08 합친 상태) · 꺼진 칸 위치는 비교하지 않게 시험 고침 · 90-close · 단계 마감"
+},
 {
 "sha": "5dcd620a",
 "at": "2026-11-25 11:15",
@@ -1876,16 +1886,6 @@
 "sha": "210c896d",
 "at": "2026-11-25 09:41",
 "msg": "CD-0158 마감 기록 초안(2차 EditMode 결과 자리 비움)"
-},
-{
-"sha": "f5be02cc",
-"at": "2026-11-25 09:37",
-"msg": "CD-0158 로비 재화 줄(PurseBar) 은화·젬스톤 숫자 굴림 · 규칙 문서에 ListIn·PurseBar"
-},
-{
-"sha": "a75d2d7c",
-"at": "2026-11-25 09:36",
-"msg": "CD-0158 C2: 재화 숫자 굴림 토큰·영웅 머리 칩 animate·목록 차례 등장(ListIn)·영웅 목록↔상세 영역 디졸브"
 }
 ]
 },
@@ -10994,8 +10994,8 @@
 {
 "id": "CD-0159",
 "title": "결과창(승리·패배) 요소 순서 등장 연출",
-"branch": "cd-159",
-"updated": "2026-11-25 11:15",
+"branch": "main",
+"updated": "2026-11-25 11:23",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11003,13 +11003,13 @@
 "90-close.md"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-25",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<ol>\n<li>결과창(<code>UI/ResultScreen.cs</code>)이 한꺼번에 뜨지 않고 <strong>결과(승패) → 영웅 → 내가 한 것(기록) → 받은 것(보상) → 다음 행동(버튼)</strong> 순서로 차례로 나온다.\n</li>\n<li>승리와 패배·포기의 결이 다르다 — 승리는 밝고 힘차게(햇살 한 번 커짐 · 글자 «쾅» + 화면 살짝 흔들림 + 반짝임), 패배·포기는 조용하고 무겁게(천천히 밝아짐 · 글자 위에서 내려앉음 · 튐·반짝임·흔들림 없음).\n</li>\n<li>어디를 한 번 누르면 등장 연출과 보상 집계가 <strong>바로 끝 상태</strong>(지금 <code>SkipPayout</code> 과 같은 방식). 다음 누름부터 버튼이 눌린다.\n</li>\n<li>값은 공용 모션 규칙(결정 0115 · docs/03 §10-6) 위에: 새 상수는 <code>UiMotion</code> 에 «결과창 등장» 묶음으로, 이징은 <code>UiMotion.OutQuad/OutCubic/OutBack</code>.\n</li></ol>",
 "goalShort": "1.",
@@ -11021,10 +11021,10 @@
 "title": "위 «등장 순서»·«구현 방식» 대로 ResultScreen.cs 등장 연출 + UiMotion 상수 묶음 + 시험(EditMode: 즉시 모드에서 끝 상태·쉬는 자리 그대로 · Reveal(t) 를 시험용으로 열어 시간대별 알파/거리 — 0 에서 무대 알파 0·버튼 알파 0, 1.0 에서 기록 다 보임·버튼 아직 0, 끝에서 모두 1·쉬는 자리 · 건너뛰기 뒤 모두 끝 상태 · 패배는 햇살 꺼짐·흔들림 없음 · 연출 중 Arrange() 가 다시 돌아도 끝에 쉬는 자리)",
 "output": "코드 · 20-client.md(바꾼 곳 · 뺀 것과 이유 · 시험 이름)",
 "status": "done",
-"why": "보고서 있음: 20-client.md"
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -12193,7 +12193,7 @@
 "no": 68,
 "title": "결과창(승리·패배) 등장 연출 — 순서대로 나오는 애니메이션",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0159"
@@ -23162,7 +23162,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 11:15",
-"generatedAt": "2026-11-25 11:17",
-"digest": "41ebbb472be198ba"
+"sourceAt": "2026-11-25 11:25",
+"generatedAt": "2026-11-25 11:25",
+"digest": "889be9f7bf49c708"
 }
