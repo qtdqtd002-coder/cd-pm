@@ -1635,9 +1635,27 @@
 "lane": "rel-0122",
 "session": "",
 "owns": "",
-"order": "CD-0164",
-"head": "35ceac8",
+"order": "CD-0150",
+"head": "a9112b0",
 "commits": [
+{
+"sha": "a9112b08",
+"at": "2026-11-25 21:41",
+"ts": 1795610513,
+"msg": "공지 app_0_12_2(notices_v2, notices_check·canon_lint 통과, 24항목)"
+},
+{
+"sha": "b3e560d4",
+"at": "2026-11-25 21:41",
+"ts": 1795610490,
+"msg": "앱 0.12.2 · versionCode 18 (CD-0150~0166·0155b/c·0157b·0161b·0164c 등) content state(base_id f3941c95)"
+},
+{
+"sha": "28639cf2",
+"at": "2026-11-25 21:35",
+"ts": 1795610100,
+"msg": "앱 0.12.2 / versionCode 18 (CD-0150~0166 묶음)"
+},
 {
 "sha": "35ceac8e",
 "at": "2026-11-25 21:04",
@@ -1655,40 +1673,10 @@
 "at": "2026-11-25 21:00",
 "ts": 1795608051,
 "msg": "Merge commit '2a7b7877' into cd-155c"
-},
-{
-"sha": "f0f25103",
-"at": "2026-11-25 21:00",
-"ts": 1795608047,
-"msg": "병합: cd-153c 5419f654(0.12.2 QA 고침 · Audio 장부 시험 81 · Cd15 상위상 빛 알갱이 기다림 · EditMode 39/39 · PlayMode 5/5)"
-},
-{
-"sha": "5419f654",
-"at": "2026-11-25 21:00",
-"ts": 1795608032,
-"msg": "CD-0153c 기록: QA 실패 2건 고침 확인(EditMode 39/39 · PlayMode Cd15HeroKuji 5/5)"
-},
-{
-"sha": "2a7b7877",
-"at": "2026-11-25 20:57",
-"ts": 1795607863,
-"msg": "병합: cd-156c 51c2a311(0.12.2 QA 고침 · 설정 창 월드채팅 줄 이름 WorldChatRow 복원 · Cd36 계정 초기화 시험 · PlayMode 2/2)"
 }
 ],
-"dirtyCount": 5,
+"dirtyCount": 2,
 "dirty": [
-{
-"file": "UnityProject/Assets/InitTestScene97a81c9e-20d3-47f5-a51c-f4650dff3f9c.unity.meta",
-"at": "2026-11-25 21:07"
-},
-{
-"file": "UnityProject/Assets/InitTestScene97a81c9e-20d3-47f5-a51c-f4650dff3f9c.unity",
-"at": "2026-11-25 21:07"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-25 21:07"
-},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-22 10:27"
@@ -1698,12 +1686,12 @@
 "at": "2026-11-22 10:26"
 }
 ],
-"lastEdit": "2026-11-25 21:07",
-"lastEditTs": 1795608465.7397437,
-"lastCommitTs": 1795608250,
-"unpushed": 0,
-"notInMain": 0,
-"today": 95
+"lastEdit": "2026-11-22 10:27",
+"lastEditTs": 1795310821.8104656,
+"lastCommitTs": 1795610513,
+"unpushed": 3,
+"notInMain": 3,
+"today": 98
 },
 {
 "branch": "workbench",
@@ -1762,7 +1750,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 80,
+"commits": 82,
 "byOrder": [
 [
 "CD-0158",
@@ -1789,6 +1777,14 @@
 5
 ],
 [
+"기타",
+4
+],
+[
+"CD-0150",
+4
+],
+[
 "CD-0135",
 4
 ],
@@ -1809,10 +1805,6 @@
 3
 ],
 [
-"기타",
-3
-],
-[
 "CD-0154",
 3
 ],
@@ -1825,23 +1817,30 @@
 2
 ],
 [
-"CD-0150",
-2
-],
-[
 "CD-0151",
 2
 ],
 [
 "CD-0152",
 2
-],
-[
-"CD-0140",
-1
 ]
 ],
 "latest": [
+{
+"sha": "a9112b08",
+"at": "2026-11-25 21:41",
+"msg": "공지 app_0_12_2(notices_v2, notices_check·canon_lint 통과, 24항목)"
+},
+{
+"sha": "b3e560d4",
+"at": "2026-11-25 21:41",
+"msg": "앱 0.12.2 · versionCode 18 (CD-0150~0166·0155b/c·0157b·0161b·0164c 등) content state(base_id f3941c95)"
+},
+{
+"sha": "28639cf2",
+"at": "2026-11-25 21:35",
+"msg": "앱 0.12.2 / versionCode 18 (CD-0150~0166 묶음)"
+},
 {
 "sha": "fea5a1d4",
 "at": "2026-11-25 21:03",
@@ -1876,21 +1875,6 @@
 "sha": "19f166a2",
 "at": "2026-11-25 20:17",
 "msg": "CD-0164 마감 — 리그를 판(대기·공격·착지)·로비(대기·산책)에 연결 · 공격 끝 자세·툴 색 폴리싱 · EditMode 46 · PlayMode 18 통과 · 빌드 대기"
-},
-{
-"sha": "56351dde",
-"at": "2026-11-25 19:30",
-"msg": "CD-0164 다리 리그·동작 고침 — 무릎 앞으로·관절을 그림 자리로·발바닥 뼈 · 걷기·대기·공격을 사람 동작으로 · IK 가 부모 크기 반영 · EditMode 9 통과"
-},
-{
-"sha": "52799b1d",
-"at": "2026-11-25 18:42",
-"msg": "CD-0164 결정 0120 — 영웅 SD 애니메이션은 자체 본·메시 리그와 유니티 액션툴로 · 줄기 cd-164"
-},
-{
-"sha": "d1c3edeb",
-"at": "2026-11-25 18:41",
-"msg": "CD-0164 시안 — 자체 본·메시 리그 런타임 + 유니티 액션툴 + 부위 그림 도구 · 테오 3단계 대기·공격·걷기·등장 · EditMode 9/9"
 }
 ]
 },
@@ -23111,12 +23095,12 @@
 {
 "kind": "android",
 "name": "coopdefense-dev-arm64.apk",
-"at": "2026-11-24 22:17",
-"sizeMB": 92.5,
+"at": "2026-11-25 21:40",
+"sizeMB": 90.4,
 "branch": "rel-0122",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261124-2217",
-"tag": "build-android-20261124-2217"
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261125-2140",
+"tag": "build-android-20261125-2140"
 },
 {
 "kind": "android",
@@ -23140,6 +23124,14 @@
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261125-2140",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261125-2140",
+"kind": "android",
+"at": "2026-11-25 21:40",
+"branch": "rel-0122",
+"sizeMB": 90.4
+},
 {
 "tag": "build-android-20261124-2217",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261124-2217",
@@ -23291,18 +23283,10 @@
 "at": "2026-11-18 03:52",
 "branch": "cd28",
 "sizeMB": 50.8
-},
-{
-"tag": "build-android-20261117-1823",
-"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261117-1823",
-"kind": "android",
-"at": "2026-11-17 18:23",
-"branch": "rel-052",
-"sizeMB": 57.6
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 21:07",
-"generatedAt": "2026-11-25 21:17",
-"digest": "bf9c66a1407daeb7"
+"sourceAt": "2026-11-25 21:41",
+"generatedAt": "2026-11-25 21:47",
+"digest": "47e4b4fe9eb69038"
 }
