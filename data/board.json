@@ -1431,10 +1431,43 @@
 "msg": "Merge commit 'd2ca5a48' into cd-166"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 18,
+"dirty": [
+{
+"file": "art/rig/human_3/assembled.png",
+"at": "2026-11-25 18:17"
+},
+{
+"file": "art/rig/human_3/assembled_only.png",
+"at": "2026-11-25 18:17"
+},
+{
+"file": "art/rig/human_3/layers/leg_b.png",
+"at": "2026-11-25 18:17"
+},
+{
+"file": "art/rig/human_3/layout.json",
+"at": "2026-11-25 18:17"
+},
+{
+"file": "art/rig/human_3/layers/leg_a.png",
+"at": "2026-11-25 18:17"
+},
+{
+"file": "art/rig/human_3/layers/weapon.png",
+"at": "2026-11-25 18:17"
+},
+{
+"file": "art/rig/human_3/layers/shield.png",
+"at": "2026-11-25 18:17"
+},
+{
+"file": "art/rig/human_3/layers/torso.png",
+"at": "2026-11-25 18:17"
+}
+],
+"lastEdit": "2026-11-25 18:17",
+"lastEditTs": 1795598231.0584607,
 "lastCommitTs": 1795592647,
 "unpushed": 0,
 "notInMain": 0,
@@ -1584,7 +1617,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 84,
+"commits": 82,
 "byOrder": [
 [
 "CD-0158",
@@ -1615,10 +1648,6 @@
 4
 ],
 [
-"CD-0148",
-4
-],
-[
 "CD-0163",
 3
 ],
@@ -1636,6 +1665,10 @@
 ],
 [
 "CD-0154",
+3
+],
+[
+"CD-0148",
 3
 ],
 [
@@ -1676,10 +1709,6 @@
 ],
 [
 "CD-0141",
-1
-],
-[
-"CD-0144",
 1
 ]
 ],
@@ -23099,7 +23128,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 16:46",
-"generatedAt": "2026-11-25 17:47",
-"digest": "4f0513b6749d47fc"
+"sourceAt": "2026-11-25 18:17",
+"generatedAt": "2026-11-25 18:17",
+"digest": "6fdc5218e9c1ff39"
 }
