@@ -1392,8 +1392,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0164",
-"head": "56351dd",
+"head": "19f166a",
 "commits": [
+{
+"sha": "19f166a2",
+"at": "2026-11-25 20:17",
+"ts": 1795605436,
+"msg": "CD-0164 마감 — 리그를 판(대기·공격·착지)·로비(대기·산책)에 연결 · 공격 끝 자세·툴 색 폴리싱 · EditMode 46 · PlayMode 18 통과 · 빌드 대기"
+},
 {
 "sha": "56351dde",
 "at": "2026-11-25 19:30",
@@ -1423,12 +1429,6 @@
 "at": "2026-11-25 16:44",
 "ts": 1795592647,
 "msg": "CD-0166b 마감 — 긴 화면 백판 채움 · 결정 0119 · 캡처(_qa/after) · EditMode 40/40 · PlayMode 6/6 · 빌드 대기"
-},
-{
-"sha": "ad4e9c6a",
-"at": "2026-11-25 16:38",
-"ts": 1795592284,
-"msg": "CD-0166b 상세창 백판 6장 교체 — 문양 없는 전용 그래픽 배경(E) + 채도·밝기 마감"
 }
 ],
 "dirtyCount": 3,
@@ -1448,10 +1448,10 @@
 ],
 "lastEdit": "2026-11-25 18:40",
 "lastEditTs": 1795599618.0851717,
-"lastCommitTs": 1795602626,
-"unpushed": 3,
-"notInMain": 3,
-"today": 80
+"lastCommitTs": 1795605436,
+"unpushed": 4,
+"notInMain": 4,
+"today": 81
 },
 {
 "branch": "rel-0121",
@@ -1597,7 +1597,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 76,
+"commits": 77,
 "byOrder": [
 [
 "CD-0158",
@@ -1616,16 +1616,16 @@
 6
 ],
 [
+"CD-0164",
+4
+],
+[
 "CD-0155",
 4
 ],
 [
 "CD-0135",
 4
-],
-[
-"CD-0164",
-3
 ],
 [
 "CD-0163",
@@ -1686,6 +1686,11 @@
 ],
 "latest": [
 {
+"sha": "19f166a2",
+"at": "2026-11-25 20:17",
+"msg": "CD-0164 마감 — 리그를 판(대기·공격·착지)·로비(대기·산책)에 연결 · 공격 끝 자세·툴 색 폴리싱 · EditMode 46 · PlayMode 18 통과 · 빌드 대기"
+},
+{
 "sha": "56351dde",
 "at": "2026-11-25 19:30",
 "msg": "CD-0164 다리 리그·동작 고침 — 무릎 앞으로·관절을 그림 자리로·발바닥 뼈 · 걷기·대기·공격을 사람 동작으로 · IK 가 부모 크기 반영 · EditMode 9 통과"
@@ -1729,11 +1734,6 @@
 "sha": "1d82fda9",
 "at": "2026-11-25 15:30",
 "msg": "CD-0166b 작업 중 — 상세창 일러스트 배치 표(DetailFrames) · 그래픽 백판 배치 · 캡처 시험 · 백판 시안 도구"
-},
-{
-"sha": "28a6cf6f",
-"at": "2026-11-25 14:53",
-"msg": "CD-0157 후속 cd-157b — 확정한 레벨업 표식을 Unity 사본에 반입"
 }
 ]
 },
@@ -11092,32 +11092,35 @@
 {
 "id": "CD-0164",
 "title": "영웅 SD 본 리깅 애니메이션과 유니티 액션툴",
-"branch": "cd-164",
-"updated": "2026-11-25 19:30",
+"branch": "main",
+"updated": "2026-11-25 20:17",
 "files": [
 "00-order.md",
 "10-spec.md",
+"90-close.md",
 "_qa",
+"cd164-로비-대기-걷기.png",
 "cd164-부위조립.png",
 "cd164-액션툴-동작모드.png",
 "cd164-액션툴-뼈대모드.png",
 "cd164-테오3-걷기-다리확대.mp4",
 "cd164-테오3-동작시안-2차.mp4",
-"cd164-테오3-동작시안.mp4"
+"cd164-테오3-동작시안.mp4",
+"cd164-판-테오-공격.png"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "art, client",
 "opened": "2026-11-25",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>영웅 SD 를 <strong>뼈대로 움직이게</strong> 하고, 그 동작을 <strong>유니티 안의 액션툴</strong>로 만들고 고치는 체계를 세운다. 액션툴은 다른 프로젝트에서 Spine 이 하는 일(뼈대 세우기 · 부위를 뼈에 묶기 · 키프레임 · 곡선 · 미리보기 · 저장)을 한다. 동작은 «어색하지 않고 자연스러워야» 한다(사용자 2026-11-25).</p>",
 "goalShort": "영웅 SD 를 뼈대로 움직이게 하고, 그 동작을 유니티 안의 액션툴로 만들고 고치는 체계를 세운다.",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -12198,7 +12201,7 @@
 "no": 73,
 "title": "영웅 SD 본·리깅 애니메이션 방식 R&D + 유니티 커스텀 애니메이팅 툴 시안(인게임·로비 동작)",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "high",
 "orders": [
 "CD-0164"
@@ -13344,7 +13347,7 @@
 "date": "2026-11-25",
 "by": "사용자(방향) · 번호는 관제",
 "html": "<ol>\n<li><strong>영웅 SD 는 뼈대로 움직인다.</strong> 부위별로 나눈 그림을 뼈에 묶어(메시 + 꼭짓점 가중치) 키프레임으로 움직이는 방식이고, 그 런타임과 편집 도구를 <strong>직접 만든다</strong>(<code>Assets/_Game/Rig/</code>, <code>Editor/RigActionTool.cs</code>).\n</li>\n<li><strong>액션툴(Game ▸ 액션툴)</strong> 이 다른 프로젝트에서 Spine 이 하는 일을 한다 — 뼈대 세우기 · 부위를 뼈에 묶기(자동 가중치) · IK · 키프레임 · 키 사이 완급 · 이벤트 · 미리보기 · 저장.\n</li>\n<li><strong>유료 런타임·에셋·라이선스는 쓰지 않는다</strong>(Spine 포함, 사용자 규칙 «유료 에셋 금지»). 새 패키지는 무료라도 관제에 먼저 알린다. 이 결정으로 새로 들인 패키지는 없다.\n</li>\n<li><strong>정본은 리그 JSON 하나</strong>(<code>Assets/_Game/Resources/Rigs/&lt;이름&gt;.json</code> + 아틀라스 <code>.png</code>). 부위 그림을 다시 뽑아도(<code>art/tools/rig/build.py</code>) 뼈·IK·동작은 지킨다.\n</li>\n<li><strong>영웅 한 명 = UGUI 그래픽 1개 · 메시 1개 · 아틀라스 1장</strong>(그리기 호출 1). 판·로비·상세창이 같은 리그를 쓴다.\n</li>\n<li><strong>부위 그림은 Codex 가 원래 그림 세션에서 «부위 시트» 로 그린다</strong>(<code>redesign.py parts:&lt;종족&gt;:&lt;단계&gt;</code>, 결정 0092 그대로).\n</li>\n<li>동작 규칙(자연스러움)은 주문 기획서 <code>10-spec.md</code> «동작 규칙» 4줄 — 순서대로 늦게 따라옴 · 공격 세 박자 · 발 IK · 양 끝 완급.\n</li></ol>",
-"branch": "cd-164",
+"branch": "main",
 "dirty": false
 }
 ],
@@ -23142,7 +23145,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-25 19:30",
-"generatedAt": "2026-11-25 19:47",
-"digest": "ba3a80d67f540acb"
+"sourceAt": "2026-11-25 20:17",
+"generatedAt": "2026-11-25 20:17",
+"digest": "5bef984c515b93a7"
 }
