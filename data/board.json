@@ -1802,7 +1802,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 91,
+"commits": 86,
 "byOrder": [
 [
 "CD-0135",
@@ -1817,19 +1817,11 @@
 7
 ],
 [
-"CD-0137",
-7
-],
-[
 "기타",
 6
 ],
 [
 "CD-0148",
-4
-],
-[
-"CD-0134",
 4
 ],
 [
@@ -1850,6 +1842,14 @@
 ],
 [
 "CD-0143",
+3
+],
+[
+"CD-0137",
+3
+],
+[
+"CD-0134",
 3
 ],
 [
@@ -17694,6 +17694,15 @@
 "hasFile": true
 },
 {
+"id": "ui/icon_mission_hidden",
+"group": "ui",
+"title": "아이콘: 히든 미션",
+"brief": "CD-0155 A1: 판 안 미션 창 «히든 미션 n/N» 머리 줄·«히든 미션 발견!» 배너용. icon_mission 을 --ref 로 같은 묶음(봉인 띠 두른 두루마리 + 물음표 배지, 글자 없음)",
+"status": "draft",
+"address": "ui/icon_mission_hidden",
+"hasFile": true
+},
+{
 "id": "ui/icon_mail",
 "group": "ui",
 "title": "아이콘: 우편",
@@ -19430,8 +19439,8 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-25 00:42",
-"branch": "main",
+"at": "2026-11-25 09:04",
+"branch": "cd-155",
 "dirty": false
 },
 "gallery": {
@@ -19894,6 +19903,11 @@
 },
 "ui/icon_mission": {
 "f": "data/art/0f968f48641fa822002b.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_mission_hidden": {
+"f": "data/art/c450add270b7349cd667.bin",
 "w": 512,
 "h": 512
 },
@@ -21553,6 +21567,11 @@
 "state": "final"
 },
 {
+"address": "ui/icon_mission_hidden",
+"kind": "ui",
+"state": "final"
+},
+{
 "address": "ui/icon_bounty",
 "kind": "ui",
 "state": "final"
@@ -22618,8 +22637,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-25 00:42",
-"branch": "main"
+"at": "2026-11-25 09:04",
+"branch": "cd-155"
 }
 },
 "devlog": [
@@ -22968,6 +22987,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-25 00:47",
-"generatedAt": "2026-11-25 08:47",
-"digest": "6822ae8f604ce913"
+"generatedAt": "2026-11-25 09:04",
+"digest": "92a96cd08362feab"
 }
