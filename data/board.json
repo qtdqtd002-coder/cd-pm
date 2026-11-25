@@ -1459,8 +1459,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0169",
-"head": "efb018e",
+"head": "6b9af1e",
 "commits": [
+{
+"sha": "6b9af1e6",
+"at": "2026-11-26 01:00",
+"ts": 1795622421,
+"msg": "CD-0169 캡처 뒤 고침 — 통그림 맵 중립 등급·Air 끔 · 진지 원색 · 방향 그림자 진하게(폭 0.9 · #28214C 0.68) · EditMode 49/49(그림자 시험 1개는 재확인 필요)"
+},
+{
+"sha": "3fb2e8a4",
+"at": "2026-11-26 00:50",
+"ts": 1795621820,
+"msg": "CD-0169 Unity 3차 — 진지 새 그림 반입 · EditMode 31/32(1 건너뜀) · 캡처 시험이 웨이브 없는 협동 맵을 건너뛰게"
+},
 {
 "sha": "efb018ed",
 "at": "2026-11-26 00:47",
@@ -1484,28 +1496,21 @@
 "at": "2026-11-26 00:21",
 "ts": 1795620090,
 "msg": "CD-0169 A1 통그림 마감 — gate_03 board 1440x2880·흔들림 마스크·맵 도구(map_guide·map_gen·map_sway·map_stitch)·빛 좌표"
-},
-{
-"sha": "c072de00",
-"at": "2026-11-26 00:17",
-"ts": 1795619842,
-"msg": "Merge main into cd-169"
-},
-{
-"sha": "63160bc9",
-"at": "2026-11-26 00:17",
-"ts": 1795619842,
-"msg": "CD-0169 Codex 호출 기록"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795621635,
-"unpushed": 13,
-"notInMain": 13,
-"today": 8
+"dirtyCount": 1,
+"dirty": [
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-26 00:49"
+}
+],
+"lastEdit": "2026-11-26 00:49",
+"lastEditTs": 1795621775.2933013,
+"lastCommitTs": 1795622421,
+"unpushed": 15,
+"notInMain": 15,
+"today": 10
 },
 {
 "branch": "rel-0122",
@@ -1635,15 +1640,15 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 72,
+"commits": 74,
 "byOrder": [
+[
+"CD-0169",
+13
+],
 [
 "CD-0158",
 12
-],
-[
-"CD-0169",
-11
 ],
 [
 "CD-0164",
@@ -1704,6 +1709,16 @@
 ],
 "latest": [
 {
+"sha": "6b9af1e6",
+"at": "2026-11-26 01:00",
+"msg": "CD-0169 캡처 뒤 고침 — 통그림 맵 중립 등급·Air 끔 · 진지 원색 · 방향 그림자 진하게(폭 0.9 · #28214C 0.68) · EditMode 49/49(그림자 시험 1개는 재확인 필요)"
+},
+{
+"sha": "3fb2e8a4",
+"at": "2026-11-26 00:50",
+"msg": "CD-0169 Unity 3차 — 진지 새 그림 반입 · EditMode 31/32(1 건너뜀) · 캡처 시험이 웨이브 없는 협동 맵을 건너뛰게"
+},
+{
 "sha": "efb018ed",
 "at": "2026-11-26 00:47",
 "msg": "CD-0169 A2 진지 다섯 조각 셀화풍(deck·rim·palisade·post·tower) · 합성 도구 fort_mock·fort_pieces"
@@ -1742,16 +1757,6 @@
 "sha": "82ce6ef3",
 "at": "2026-11-25 23:56",
 "msg": "CD-0169 진행 기록 — 시안 F 확정·팀 배치·2챕터 인터뷰 답"
-},
-{
-"sha": "cd460391",
-"at": "2026-11-25 23:54",
-"msg": "CD-0169 기획서 · 맵 제작 방식 문서(docs/17) · 결정 0122"
-},
-{
-"sha": "06c6c21e",
-"at": "2026-11-25 23:52",
-"msg": "CD-0169 Codex 호출 기록(시안 7회)"
 }
 ]
 },
@@ -11253,7 +11258,7 @@
 "id": "CD-0169",
 "title": "1·2챕터 맵 디자인 재제작(docs/17 방식) — 통그림 바닥과 맵 제작 방식 기준",
 "branch": "cd-169",
-"updated": "2026-11-26 00:45",
+"updated": "2026-11-26 01:00",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -23282,7 +23287,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 00:47",
-"generatedAt": "2026-11-26 00:47",
-"digest": "eb8f78deb9a4d995"
+"sourceAt": "2026-11-26 01:00",
+"generatedAt": "2026-11-26 01:06",
+"digest": "82e0966d34d9d8cc"
 }
