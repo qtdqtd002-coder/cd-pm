@@ -1304,9 +1304,33 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0199",
-"head": "23d96d4",
+"order": "CD-0193",
+"head": "112e710",
 "commits": [
+{
+"sha": "112e7103",
+"at": "2026-11-27 02:12",
+"ts": 1795713120,
+"msg": "대시보드 갱신(studio.py board) — 리소스 탭에 CD-0207 아이콘·CD-0191 범위 표식·CD-0193 플레이트 등 반영 · res/ 3.96MB(3MB 넘음 경고, 품질 40 자동)"
+},
+{
+"sha": "461b4628",
+"at": "2026-11-27 01:48",
+"ts": 1795711715,
+"msg": "병합: cd-193 2681db6f(CD-0193 프로필 A안 — 칭호 5·명패→꾸밈 플레이트·소셜 줄, 결정 0146 · EditMode 92/92 · 캡처 2/2 · 서버 영향 없음 · 장부·codex-usage 양쪽 줄 합침)"
+},
+{
+"sha": "2681db6f",
+"at": "2026-11-27 01:43",
+"ts": 1795711424,
+"msg": "CD-0193 마감 초안 — 관제에 넘길 요약"
+},
+{
+"sha": "f2835db3",
+"at": "2026-11-27 01:43",
+"ts": 1795711397,
+"msg": "CD-0193 Unity 확인 — 컴파일 고침(Cd60LobbyTests name 충돌)·새 플레이트 카탈로그 반입·막대/이름 여백 다듬기·캡처 시험 기대 A안으로"
+},
 {
 "sha": "23d96d40",
 "at": "2026-11-27 01:35",
@@ -1314,77 +1338,29 @@
 "msg": "병합: cd-191 e96d7aa2(CD-0191 공격 범위 표시 A — 칸 면 옅게·모서리 괄호 표식 ui/reach_tile·빛 둘레 세 겹·영웅에서 퍼지는 등장 · EditMode 10/10 · PlayMode 2/2)"
 },
 {
-"sha": "e96d7aa2",
-"at": "2026-11-27 01:24",
-"ts": 1795710246,
-"msg": "CD-0191 마감 — 범위 면 옅게(길 0.22~0.44) · 괄호 진하게 · reach_tile .meta·카탈로그 · 캡처 시험 문턱 · 전후 비교 · EditMode 10/10 · PlayMode 2/2"
-},
-{
-"sha": "ff3992e7",
-"at": "2026-11-27 01:19",
-"ts": 1795709969,
-"msg": "병합: cd-207 973b8dce(CD-0207 아이템 아이콘 11종 셀화풍 세트 — 사용자 A안·전체표 확정, 같은 파일 이름 교체 · Codex 14장 · codex-usage 양쪽 줄 합침)"
-},
-{
-"sha": "973b8dce",
-"at": "2026-11-27 01:16",
-"ts": 1795709791,
-"msg": "CD-0207: 아이템 아이콘 11종 셀화풍 세트 확정(사용자 A안·확정) — art/final·유니티 사본 교체, 목록 confirmed, 그림 검사 오류 0"
-},
-{
-"sha": "21ba01dc",
-"at": "2026-11-27 01:13",
-"ts": 1795709582,
-"msg": "병합: cd-217 5c111456(CD-0217 게임 그래픽 변천사 — devlog/그래픽-변천사.md 38장 · Artifact 페이지, 문서만)"
-},
-{
-"sha": "6ba1604d",
-"at": "2026-11-27 01:12",
-"ts": 1795709522,
-"msg": "병합: cd-199 202f1292(CD-0199 SD 2.3등신 통일 — 인간 3·4·엘프 4·드래곤 4 그림·뼈대, 부품 시트 · Rig 13/13 · PlayMode 1/1 · codex-usage 양쪽 줄 합침)"
+"sha": "e98419a2",
+"at": "2026-11-27 01:33",
+"ts": 1795710823,
+"msg": "CD-0193 U2 친구·랭킹·채팅·미니 프로필 줄에 칭호·플레이트 — 플레이트는 칭호·이름 칸 뒤에만, 옛 카드는 기본"
 }
 ],
-"dirtyCount": 420,
+"dirtyCount": 2,
 "dirty": [
 {
-"file": "studio/site/res/monster_shadow_flier.webp.tmp",
-"at": "2026-11-27 01:47"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.core/Settings.json",
+"at": "2026-11-22 10:28"
 },
 {
-"file": "studio/site/res/monster_shadow_swarm.webp",
-"at": "2026-11-27 01:47"
-},
-{
-"file": "studio/site/res/monster_shadow_behemoth.webp",
-"at": "2026-11-27 01:47"
-},
-{
-"file": "studio/site/res/monster_shadow_guard.webp",
-"at": "2026-11-27 01:47"
-},
-{
-"file": "studio/site/res/monster_shadow_runner.webp",
-"at": "2026-11-27 01:47"
-},
-{
-"file": "studio/site/res/monster_shadow_grunt_d.webp",
-"at": "2026-11-27 01:47"
-},
-{
-"file": "studio/site/res/monster_shadow_grunt_c.webp",
-"at": "2026-11-27 01:47"
-},
-{
-"file": "studio/site/res/monster_shadow_grunt_b.webp",
-"at": "2026-11-27 01:47"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-22 10:28"
 }
 ],
-"lastEdit": "2026-11-27 01:47",
-"lastEditTs": 1795711651.5245216,
-"lastCommitTs": 1795710903,
+"lastEdit": "2026-11-22 10:28",
+"lastEditTs": 1795310895.2319162,
+"lastCommitTs": 1795713120,
 "unpushed": 0,
 "notInMain": 0,
-"today": 53
+"today": 67
 },
 {
 "branch": "cd-193",
@@ -1441,8 +1417,8 @@
 "lastEdit": "2026-11-27 01:40",
 "lastEditTs": 1795711206.7664173,
 "lastCommitTs": 1795711424,
-"unpushed": 12,
-"notInMain": 12,
+"unpushed": 0,
+"notInMain": 0,
 "today": 41
 },
 {
@@ -1451,8 +1427,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0197",
-"head": "f325dad",
+"head": "ca41b91",
 "commits": [
+{
+"sha": "ca41b913",
+"at": "2026-11-27 01:58",
+"ts": 1795712324,
+"msg": "CD-0197: Unity 시험·Portraits 를 전설 6명 데이터에 맞춤(게르하르트 → 아세리엘·에오레아, 저장 접기 시험) — Unity 로 아직 안 돌림"
+},
 {
 "sha": "f325dadc",
 "at": "2026-11-27 01:42",
@@ -1482,51 +1464,16 @@
 "at": "2026-11-27 01:09",
 "ts": 1795709353,
 "msg": "CD-0199 마감: human_3 다리 뼈를 곧게(착지 동작에서 발이 떨어짐) · RigEditModeTests 13/13 · 판 캡처"
-},
-{
-"sha": "cc24f4de",
-"at": "2026-11-27 01:03",
-"ts": 1795708993,
-"msg": "병합: cd-192 736fe986(CD-0192 결과창 무대·시트 한 장 백판으로 함께 페이드 · 안전 영역 밖까지 덮기 · EditMode 23/23 · PlayMode 캡처 1/1)"
 }
 ],
-"dirtyCount": 7,
-"dirty": [
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd89HeroCardEditModeTests.cs",
-"at": "2026-11-27 01:46"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd62ProfileEditModeTests.cs",
-"at": "2026-11-27 01:46"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Portraits.cs",
-"at": "2026-11-27 01:46"
-},
-{
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-27 01:46"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd34SaveEditModeTests.cs",
-"at": "2026-11-27 01:45"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd34HeroScreenEditModeTests.cs",
-"at": "2026-11-27 01:45"
-},
-{
-"file": "UnityProject/Assets/Tests/EditMode/Cd135ChapterTwoEditModeTests.cs",
-"at": "2026-11-27 01:45"
-}
-],
-"lastEdit": "2026-11-27 01:46",
-"lastEditTs": 1795711609.9810724,
-"lastCommitTs": 1795711348,
-"unpushed": 3,
-"notInMain": 3,
-"today": 46
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795712324,
+"unpushed": 4,
+"notInMain": 4,
+"today": 47
 },
 {
 "branch": "cd-209",
@@ -1657,7 +1604,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 166,
+"commits": 168,
 "byOrder": [
 [
 "기타",
@@ -1700,6 +1647,14 @@
 5
 ],
 [
+"CD-0207",
+4
+],
+[
+"CD-0197",
+4
+],
+[
 "CD-0182",
 4
 ],
@@ -1712,15 +1667,7 @@
 4
 ],
 [
-"CD-0197",
-3
-],
-[
 "CD-0191",
-3
-],
-[
-"CD-0207",
 3
 ],
 [
@@ -1850,6 +1797,16 @@
 ],
 "latest": [
 {
+"sha": "112e7103",
+"at": "2026-11-27 02:12",
+"msg": "대시보드 갱신(studio.py board) — 리소스 탭에 CD-0207 아이콘·CD-0191 범위 표식·CD-0193 플레이트 등 반영 · res/ 3.96MB(3MB 넘음 경고, 품질 40 자동)"
+},
+{
+"sha": "ca41b913",
+"at": "2026-11-27 01:58",
+"msg": "CD-0197: Unity 시험·Portraits 를 전설 6명 데이터에 맞춤(게르하르트 → 아세리엘·에오레아, 저장 접기 시험) — Unity 로 아직 안 돌림"
+},
+{
 "sha": "2681db6f",
 "at": "2026-11-27 01:43",
 "msg": "CD-0193 마감 초안 — 관제에 넘길 요약"
@@ -1888,16 +1845,6 @@
 "sha": "e96d7aa2",
 "at": "2026-11-27 01:24",
 "msg": "CD-0191 마감 — 범위 면 옅게(길 0.22~0.44) · 괄호 진하게 · reach_tile .meta·카탈로그 · 캡처 시험 문턱 · 전후 비교 · EditMode 10/10 · PlayMode 2/2"
-},
-{
-"sha": "d993a8cb",
-"at": "2026-11-27 01:22",
-"msg": "결정 0146 프로필 = 꾸밈 플레이트 위 초상화·테두리·칭호·닉네임, 명패 → 플레이트(CD-0193)"
-},
-{
-"sha": "76fef0ff",
-"at": "2026-11-27 01:21",
-"msg": "CD-0193 화면 글자 «명패» → «플레이트»(꾸밈 이름·안내) · Core 시험 맞춤 — Core 1265/1266"
 }
 ]
 },
@@ -15690,7 +15637,7 @@
 "by": "사용자(접수 #90) · 번호는 관제",
 "html": "<ol>\n<li><strong>프로필 = 꾸밈 플레이트 한 장 위에 초상화(+테두리) · 프로필 칭호 · 닉네임</strong>(로비는 + Lv·경험치). 배치는 A안 — 로비는 옛 프로필 띠 자리·높이 그대로, 판 안은 좌상단(«웨이브 n/N» 글자 왼쪽). 다른 요소는 옮기지 않는다. 판 안의 옛 어두운 필름(사용자 항목 3)은 플레이트의 남색 몸통이 대신한다.\n</li>\n<li><strong>명패는 없다.</strong> 꾸밈 종류 <code>nameplate</code> 는 데이터·저장 id 를 그대로 두고(옛 저장 호환) 화면 이름만 <strong>«플레이트»</strong> — «이름을 적는 띠» 가 아니라 프로필 전체를 감싸는 가로 판(9-slice, 모서리만 장식, 가운데 남색). 그림: 기본(금테)·새싹(잎테), Codex, 사용자 확정.\n</li>\n<li><strong>프로필 칭호</strong>(새 꾸밈 종류 <code>title</code>): <strong>글자만</strong> 보인다 — 알약·바탕·앞 아이콘 없음. 칭호마다 데이터 <code>style</code>(채움 또는 세로 그라데이션 · 외곽선 · 빛 · 굵기 Bold/Black)로 다르게 그린다. 글꼴은 Noto Sans KR 그대로(새 글꼴 없음). 영웅 단계 칭호(units.json <code>title</code>)와는 다른 것 — 문서·코드는 «프로필 칭호».\n</li>\n<li>처음 칭호 5개: 관문의 신참(처음부터, 기본) · 새싹 수비대(1-5 환영 선물, 새싹 플레이트와 함께) · 노련한 파수꾼(계정 Lv.10) · 균열을 닫는 자(계정 Lv.30) · 초월의 증인(어떤 초월 영웅이든 +5 — 새 열림 조건 <code>anyLegendPlus</code>). 저장 키 <code>profile.title</code>(없으면 기본).\n</li>\n<li><strong>다른 플레이어에게도 보인다</strong>: 친구·랭킹·채팅·미니 프로필 카드(<code>PlayerCard</code>)에 칭호 <code>ti</code>·플레이트 <code>pl</code>. 옛 카드는 기본. 서버 코드는 바뀌지 않는다(카드는 클라이언트가 채팅·접속 상태·리더보드 메타데이터로 씀).\n</li></ol>",
 "branch": "main",
-"dirty": true
+"dirty": false
 }
 ],
 "docs": [
@@ -26763,7 +26710,7 @@
 ],
 "at": "2026-11-27 01:44",
 "branch": "main",
-"dirty": true
+"dirty": false
 },
 "gallery": {
 "v": 1,
@@ -30678,7 +30625,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 01:47",
-"generatedAt": "2026-11-27 01:47",
-"digest": "869821c6fd4dc912"
+"sourceAt": "2026-11-27 02:12",
+"generatedAt": "2026-11-27 02:17",
+"digest": "178ebcbe77af0ac3"
 }
