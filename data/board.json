@@ -1407,23 +1407,15 @@
 "msg": "CD-0169 Unity 5차 — 2챕터 통그림 반입·카탈로그 · EditMode 108/109(1 건너뜀)+고친 시험 10/10 · 캡처 시험 통과"
 }
 ],
-"dirtyCount": 6,
+"dirtyCount": 4,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene6538c56b-810a-4e54-bbdc-1020fdaec8ae.unity.meta",
-"at": "2026-11-26 11:09"
+"file": "UnityProject/Assets/InitTestScene35adb8b7-a13e-4061-b608-f88cff3d9e87.unity.meta",
+"at": "2026-11-26 11:31"
 },
 {
-"file": "UnityProject/Assets/InitTestScene6538c56b-810a-4e54-bbdc-1020fdaec8ae.unity",
-"at": "2026-11-26 11:09"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-26 11:09"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-26 11:09"
+"file": "UnityProject/Assets/InitTestScene35adb8b7-a13e-4061-b608-f88cff3d9e87.unity",
+"at": "2026-11-26 11:31"
 },
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
@@ -1434,8 +1426,8 @@
 "at": "2026-11-22 10:26"
 }
 ],
-"lastEdit": "2026-11-26 11:09",
-"lastEditTs": 1795658982.5684483,
+"lastEdit": "2026-11-26 11:31",
+"lastEditTs": 1795660275.7890515,
 "lastCommitTs": 1795658601,
 "unpushed": 0,
 "notInMain": 0,
@@ -1444,7 +1436,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 56,
+"commits": 54,
 "byOrder": [
 [
 "CD-0169",
@@ -1484,10 +1476,6 @@
 ],
 [
 "CD-0153",
-2
-],
-[
-"CD-0159",
 2
 ],
 [
@@ -12165,6 +12153,17 @@
 "createdAt": "2026-11-25 13:44",
 "seen": true,
 "url": "https://github.com/qtdqtd002-coder/coop-defense/issues/77"
+},
+{
+"no": 78,
+"title": "몬스터 머리 위 주황색 원(여파 표시) 없애기",
+"state": "open",
+"phase": "new",
+"imp": "mid",
+"orders": [],
+"createdAt": "2026-11-26 02:43",
+"seen": false,
+"url": "https://github.com/qtdqtd002-coder/coop-defense/issues/78"
 }
 ],
 "versions": [
@@ -23200,7 +23199,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 11:09",
-"generatedAt": "2026-11-26 11:17",
-"digest": "153f432ca621d855"
+"sourceAt": "2026-11-26 11:31",
+"generatedAt": "2026-11-26 11:47",
+"digest": "8f8475d181f45dfa"
 }
