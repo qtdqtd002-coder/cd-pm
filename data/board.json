@@ -1520,15 +1520,23 @@
 "msg": "CD-0217 마감: 그래픽 변천사 — devlog/그래픽-변천사.md(판 안 13·로비 8·일러스트 7·SD 5·챕터 맵 5, 저장소 경로 링크 38) · 비공개 Artifact 페이지 · check 통과 · 90-close"
 }
 ],
-"dirtyCount": 1,
+"dirtyCount": 3,
 "dirty": [
 {
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-27 01:34"
+"at": "2026-11-27 08:17"
+},
+{
+"file": "docs/decisions/0148-상점-A안-따뜻한-고급-노점과-첫-화면-젬스톤-충전-구역.md",
+"at": "2026-11-27 08:12"
+},
+{
+"file": "art/tools/gen.py",
+"at": "2026-11-27 08:11"
 }
 ],
-"lastEdit": "2026-11-27 01:34",
-"lastEditTs": 1795710887.6907785,
+"lastEdit": "2026-11-27 08:17",
+"lastEditTs": 1795735051.999704,
 "lastCommitTs": 1795710922,
 "unpushed": 1,
 "notInMain": 1,
@@ -15638,6 +15646,17 @@
 "html": "<ol>\n<li><strong>프로필 = 꾸밈 플레이트 한 장 위에 초상화(+테두리) · 프로필 칭호 · 닉네임</strong>(로비는 + Lv·경험치). 배치는 A안 — 로비는 옛 프로필 띠 자리·높이 그대로, 판 안은 좌상단(«웨이브 n/N» 글자 왼쪽). 다른 요소는 옮기지 않는다. 판 안의 옛 어두운 필름(사용자 항목 3)은 플레이트의 남색 몸통이 대신한다.\n</li>\n<li><strong>명패는 없다.</strong> 꾸밈 종류 <code>nameplate</code> 는 데이터·저장 id 를 그대로 두고(옛 저장 호환) 화면 이름만 <strong>«플레이트»</strong> — «이름을 적는 띠» 가 아니라 프로필 전체를 감싸는 가로 판(9-slice, 모서리만 장식, 가운데 남색). 그림: 기본(금테)·새싹(잎테), Codex, 사용자 확정.\n</li>\n<li><strong>프로필 칭호</strong>(새 꾸밈 종류 <code>title</code>): <strong>글자만</strong> 보인다 — 알약·바탕·앞 아이콘 없음. 칭호마다 데이터 <code>style</code>(채움 또는 세로 그라데이션 · 외곽선 · 빛 · 굵기 Bold/Black)로 다르게 그린다. 글꼴은 Noto Sans KR 그대로(새 글꼴 없음). 영웅 단계 칭호(units.json <code>title</code>)와는 다른 것 — 문서·코드는 «프로필 칭호».\n</li>\n<li>처음 칭호 5개: 관문의 신참(처음부터, 기본) · 새싹 수비대(1-5 환영 선물, 새싹 플레이트와 함께) · 노련한 파수꾼(계정 Lv.10) · 균열을 닫는 자(계정 Lv.30) · 초월의 증인(어떤 초월 영웅이든 +5 — 새 열림 조건 <code>anyLegendPlus</code>). 저장 키 <code>profile.title</code>(없으면 기본).\n</li>\n<li><strong>다른 플레이어에게도 보인다</strong>: 친구·랭킹·채팅·미니 프로필 카드(<code>PlayerCard</code>)에 칭호 <code>ti</code>·플레이트 <code>pl</code>. 옛 카드는 기본. 서버 코드는 바뀌지 않는다(카드는 클라이언트가 채팅·접속 상태·리더보드 메타데이터로 씀).\n</li></ol>",
 "branch": "main",
 "dirty": false
+},
+{
+"id": "0148",
+"title": "상점 A안(따뜻한 고급 노점)과 첫 화면 «젬스톤 충전» 구역",
+"status": "확정",
+"kind": "confirmed",
+"date": "2026-11-27",
+"by": "사용자(이슈 #103-4, 시안 선택)",
+"html": "<ol>\n<li><strong>상점 그림 방향은 A안 «따뜻한 고급 노점»</strong> — 지금 천막 노점 테마를 고급스럽게: 붉은 천·짙은 나무·금테 양피지 상품 카드, 카드 위쪽에 따뜻한 빛, 특가는 붉은·금 모서리 띠, 구역 간판은 금테 양피지 + 월계 끝장식. 그림은 Codex 가 A 콘셉트를 그린 같은 세션에서 낱장으로 그린다(<code>art/tools/gen.py</code> <code>S209_*</code>).\n</li>\n<li><strong>첫 화면 순서</strong>: 30일 보급 배너 → 일일 상점 → <strong>젬스톤 충전(원화 젬스톤 6종, 작은 묶음 → 보물상자, 가장 큰 묶음에 «최고 가치» 띠)</strong> → 젬스톤 상점(은화·쿠지 티켓). 결정 0062 의 «보급 → 일일 → 젬스톤 상점» 사이에 한 구역을 넣는다.\n</li>\n<li>상품 그림은 묶음 크기가 단계로 커진다 — 젬스톤 6단계(한 줌 → 보물상자 가득), 은화 3단계(동전 더미 → 주머니 → 상자), 쿠지 티켓 3단계(한 장 → 묶음 → 상자).\n</li>\n<li><strong>결제 흐름은 그대로</strong> — 첫 화면 «젬스톤 충전» 칸을 누르면 기존 젬스톤 구매 창(<code>GemStoreWindow</code>)이 열리고 그 상품 칸을 강조한다. 원화 결제·영수증 코드는 이 결정에서 바꾸지 않는다(관제 지시).\n</li></ol>",
+"branch": "cd-209",
+"dirty": true
 }
 ],
 "docs": [
@@ -30625,7 +30644,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 02:12",
-"generatedAt": "2026-11-27 02:17",
-"digest": "178ebcbe77af0ac3"
+"sourceAt": "2026-11-27 08:17",
+"generatedAt": "2026-11-27 08:17",
+"digest": "b792128f1aa3743e"
 }
