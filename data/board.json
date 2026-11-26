@@ -1304,44 +1304,44 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0178",
-"head": "b72d321",
+"order": "CD-0182",
+"head": "5f1d064",
 "commits": [
 {
-"sha": "b72d321c",
-"at": "2026-11-26 18:44",
-"ts": 1795686283,
-"msg": "병합: cd-178 2c76388d(CD-0178 4챕터 «용암 협곡» gate_06 — 9×10·70웨이브 지상만·보스 35·70(보상·hp 임시) · 통그림 1620×3060·넓은 배경(Codex 10회, 사용자 확정, 균열 0134 청록) · 9칸 폭 그림 도구 · 결정 0135 · Cd90 시험 기대값 · Core 1245/1246 · 서버 299·49)"
+"sha": "5f1d0640",
+"at": "2026-11-26 19:12",
+"ts": 1795687954,
+"msg": "병합: cd-185 22532471(CD-0185 1~3챕터 균열 검정+청록 — 결정 0134, gate_03·04·05 board·back 진한 보라 → 0.00x%(Codex 7회) · viewBoard 균열 빛 11곳 청록 · Cd39MapShotTests 1인 맵만 찍기 · 캡처 2/2 · 맵 EditMode 141/142)"
 },
 {
-"sha": "2c76388d",
-"at": "2026-11-26 18:40",
-"ts": 1795686057,
-"msg": "CD-0178 마감: gate_06 카탈로그 반입 · 캡처 · 90-close 초안"
+"sha": "22532471",
+"at": "2026-11-26 19:09",
+"ts": 1795687741,
+"msg": "CD-0185 마감: 캡처로 1~3챕터 균열 청록 확인 · Cd39MapShotTests 1인 맵만 찍기(CD-0182 협동 웨이브 뒤) · 90-close 초안"
 },
 {
-"sha": "5f0a66a8",
-"at": "2026-11-26 18:28",
-"ts": 1795685287,
-"msg": "병합: origin/main 을 cd-178 로(CD-0181·0183 받기 — Unity 차례 전)"
+"sha": "066082f4",
+"at": "2026-11-26 18:58",
+"ts": 1795687115,
+"msg": "병합: origin/main 을 cd-185 로(CD-0182 받기 — Unity 캡처 전)"
 },
 {
-"sha": "f2106d18",
-"at": "2026-11-26 18:26",
-"ts": 1795685167,
-"msg": "CD-0178 결정 0134: 4챕터 균열을 검정+청록으로(보라 없앰) · 균열 빛 청록"
+"sha": "fd2cf3e1",
+"at": "2026-11-26 18:58",
+"ts": 1795687096,
+"msg": "CD-0185 결정 0134: 1~3챕터 균열을 검정+청록으로(보라 없앰) · 균열 빛 청록"
 },
 {
-"sha": "a00f3a79",
-"at": "2026-11-26 18:22",
-"ts": 1795684944,
-"msg": "병합: cd-181 aee6d8a3(결정 0134 확정 — 균열과 둘레는 어디서나 검정+청록 빛, 보라 금지 · CD-0181 마감 기록, 문서만)"
+"sha": "2fbb8887",
+"at": "2026-11-26 18:53",
+"ts": 1795686837,
+"msg": "병합: cd-182 307b60a2(CD-0182 멀티 개발 A 협동 맵·데이터 — 2인 «가운데 성채 나선» 9×15 배치 · 보통/악몽/지옥 30웨이브(gen_coop_waves) · 체력 배율 100/160/250% · 해금 조건 · 2인 규격 PlayMode 시험 옮김(14/14) · Core 1245/1246 · 서버 299·49 · sim 2인 30판)"
 },
 {
-"sha": "53c98c6c",
-"at": "2026-11-26 18:21",
-"ts": 1795684916,
-"msg": "병합: cd-183 c37c73ec(CD-0183 보강 — 서버 checkpoint 가 Core 싱글 스냅샷·c 기록을 글 그대로 왕복하는 시험 2 · 싱글 스냅샷 바이트·해시 골든 6장면 · Core 1245/1246 · 서버 299·49)"
+"sha": "307b60a2",
+"at": "2026-11-26 18:50",
+"ts": 1795686608,
+"msg": "병합: origin/main b72d321c(CD-0178 gate_06)를 cd-182 로 — stages.json 챕터 4 줄 + coop[] · waves.json gate_06_01 + 협동 세트 셋(gen_coop_waves 로 다시 붙임) · validate_data PLAN_WAVES_MAX 100 + DIFF_KEYS 둘 다 살림"
 }
 ],
 "dirtyCount": 2,
@@ -1357,69 +1357,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795686283,
+"lastCommitTs": 1795687954,
 "unpushed": 0,
 "notInMain": 0,
-"today": 96
-},
-{
-"branch": "cd-178",
-"lane": "cd-178",
-"session": "",
-"owns": "",
-"order": "CD-0181",
-"head": "2c76388",
-"commits": [
-{
-"sha": "2c76388d",
-"at": "2026-11-26 18:40",
-"ts": 1795686057,
-"msg": "CD-0178 마감: gate_06 카탈로그 반입 · 캡처 · 90-close 초안"
-},
-{
-"sha": "5f0a66a8",
-"at": "2026-11-26 18:28",
-"ts": 1795685287,
-"msg": "병합: origin/main 을 cd-178 로(CD-0181·0183 받기 — Unity 차례 전)"
-},
-{
-"sha": "f2106d18",
-"at": "2026-11-26 18:26",
-"ts": 1795685167,
-"msg": "CD-0178 결정 0134: 4챕터 균열을 검정+청록으로(보라 없앰) · 균열 빛 청록"
-},
-{
-"sha": "a00f3a79",
-"at": "2026-11-26 18:22",
-"ts": 1795684944,
-"msg": "병합: cd-181 aee6d8a3(결정 0134 확정 — 균열과 둘레는 어디서나 검정+청록 빛, 보라 금지 · CD-0181 마감 기록, 문서만)"
-},
-{
-"sha": "53c98c6c",
-"at": "2026-11-26 18:21",
-"ts": 1795684916,
-"msg": "병합: cd-183 c37c73ec(CD-0183 보강 — 서버 checkpoint 가 Core 싱글 스냅샷·c 기록을 글 그대로 왕복하는 시험 2 · 싱글 스냅샷 바이트·해시 골든 6장면 · Core 1245/1246 · 서버 299·49)"
-},
-{
-"sha": "aeb00c31",
-"at": "2026-11-26 18:21",
-"ts": 1795684891,
-"msg": "CD-0178 4챕터 «용암 협곡» 통그림(1620×3060)·넓은 배경 + viewBoard · 시험"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-26 17:50"
-}
-],
-"lastEdit": "2026-11-26 17:50",
-"lastEditTs": 1795683006.5265396,
-"lastCommitTs": 1795686057,
-"unpushed": 0,
-"notInMain": 0,
-"today": 95
+"today": 107
 },
 {
 "branch": "cd-180",
@@ -1427,126 +1368,32 @@
 "session": "",
 "owns": "",
 "order": "CD-0180",
-"head": "d87aea3",
+"head": "5380d13",
 "commits": [
 {
-"sha": "d87aea3d",
-"at": "2026-11-26 18:39",
-"ts": 1795685962,
-"msg": "CD-0180 웨이브 몬스터 10장 교체(결정 0131 검은 몸 + 파랑 형광) · 원본 보관 · 장부·목록 · 90-close 초안"
+"sha": "5380d13a",
+"at": "2026-11-26 18:55",
+"ts": 1795686929,
+"msg": "Merge remote-tracking branch 'origin/main' into cd-180"
 },
 {
-"sha": "7947af0a",
-"at": "2026-11-26 18:12",
-"ts": 1795684320,
-"msg": "CD-0180 반입 도구 build_shadow3.py(채택 시안 → 원본 보관 · 게임 규격 · 장부)"
+"sha": "910dc8a2",
+"at": "2026-11-26 18:54",
+"ts": 1795686881,
+"msg": "CD-0180 마감 — 웨이브 10장 · 사람 확인과 사용자 다음 지시(몬스터 명단 확대) 기록 · stage 마감"
 },
 {
-"sha": "33effe6b",
-"at": "2026-11-26 18:11",
-"ts": 1795684274,
-"msg": "CD-0180 졸개 확정 · 결정 0131(검은 몸 + 파랑 형광 포인트, 0053 색 규칙 변경, 상태 표시는 포인트·테두리로 — 새 주문) · 나머지 9종 지시문"
+"sha": "2fbb8887",
+"at": "2026-11-26 18:53",
+"ts": 1795686837,
+"msg": "병합: cd-182 307b60a2(CD-0182 멀티 개발 A 협동 맵·데이터 — 2인 «가운데 성채 나선» 9×15 배치 · 보통/악몽/지옥 30웨이브(gen_coop_waves) · 체력 배율 100/160/250% · 해금 조건 · 2인 규격 PlayMode 시험 옮김(14/14) · Core 1245/1246 · 서버 299·49 · sim 2인 30판)"
 },
 {
-"sha": "6e521a23",
-"at": "2026-11-26 17:57",
-"ts": 1795683424,
-"msg": "CD-0180 3차 — 파랑 형광 대비 폴리싱 1장(판 크기에서 형광 픽셀 3.7배) · 대조 그림과 기록"
+"sha": "307b60a2",
+"at": "2026-11-26 18:50",
+"ts": 1795686608,
+"msg": "병합: origin/main b72d321c(CD-0178 gate_06)를 cd-182 로 — stages.json 챕터 4 줄 + coop[] · waves.json gate_06_01 + 협동 세트 셋(gen_coop_waves 로 다시 붙임) · validate_data PLAN_WAVES_MAX 100 + DIFF_KEYS 둘 다 살림"
 },
-{
-"sha": "7e1d0f05",
-"at": "2026-11-26 17:14",
-"ts": 1795680876,
-"msg": "CD-0180 2차 시안 — 검은 몸 + 파랑/빨강 형광 포인트(B 세션 이어서 2장) · 대조 그림과 검수 기록"
-},
-{
-"sha": "938db88b",
-"at": "2026-11-26 17:01",
-"ts": 1795680119,
-"msg": "CD-0180 졸개 방향 시안 A·B·C 대조 그림과 실측 기록"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "studio/checks.json",
-"at": "2026-11-26 18:38"
-}
-],
-"lastEdit": "2026-11-26 18:38",
-"lastEditTs": 1795685915.4137015,
-"lastCommitTs": 1795685962,
-"unpushed": 7,
-"notInMain": 7,
-"today": 62
-},
-{
-"branch": "cd-181",
-"lane": "cd-181",
-"session": "",
-"owns": "",
-"order": "CD-0176",
-"head": "aee6d8a",
-"commits": [
-{
-"sha": "aee6d8a3",
-"at": "2026-11-26 18:20",
-"ts": 1795684832,
-"msg": "CD-0181 마감 기록: 결과 줄의 0134 상태 고침"
-},
-{
-"sha": "ac23d785",
-"at": "2026-11-26 18:20",
-"ts": 1795684827,
-"msg": "결정 0134: 그림자 균열은 검정 + 청록으로 통일 — 맵 1~3챕터의 보라도 바꾼다(맵 그림은 새 주문)"
-},
-{
-"sha": "e4a6ec56",
-"at": "2026-11-26 18:18",
-"ts": 1795684736,
-"msg": "병합: cd-181 c5a4c5e4(CD-0181 첫 실행 웹툰 프롤로그 27컷 → 1-1 · 건너뛰기·설정 «프롤로그 다시 보기» · prologueSeen 저장 · 결정 0132(0009 «스토리 없음» 폐지)·0133(웹툰은 스케치풍) · EditMode 52/52 · PlayMode 14/15 · 그림 301장 일치)"
-},
-{
-"sha": "7ebcf643",
-"at": "2026-11-26 18:15",
-"ts": 1795684528,
-"msg": "병합: cd-183 9e06a92d(CD-0183 멀티 개발 B 협동 Core — disconnect·reconnect·Presence · 나가기 정산 · CoopHost 스냅샷 시작·2초·웨이브·끝 · CoopReplica 다시 세우기·이어받기 · CDSNAP11 그대로(끊김 때만 c 기록) · Core 1239/1240 · 서버 297·49)"
-},
-{
-"sha": "c5a4c5e4",
-"at": "2026-11-26 18:12",
-"ts": 1795684362,
-"msg": "병합: main 22218a61 → cd-181 (CD-0181 기록 파일 충돌 풀기)"
-},
-{
-"sha": "9e06a92d",
-"at": "2026-11-26 18:12",
-"ts": 1795684349,
-"msg": "CD-0183 협동 Core 규칙: 끊김·재접속·나가기 정산 · 방장 스냅샷(시작·2초·웨이브·끝) · 손님 사본으로 판 다시 세우기·이어받기"
-}
-],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-26 17:57"
-}
-],
-"lastEdit": "2026-11-26 17:57",
-"lastEditTs": 1795683462.9270601,
-"lastCommitTs": 1795684832,
-"unpushed": 0,
-"notInMain": 0,
-"today": 84
-},
-{
-"branch": "cd-182",
-"lane": "cd-182",
-"session": "",
-"owns": "",
-"order": "CD-0182",
-"head": "7fe3741",
-"commits": [
 {
 "sha": "7fe37413",
 "at": "2026-11-26 18:45",
@@ -1554,140 +1401,46 @@
 "msg": "CD-0182 기록: Unity 확인 — EditMode 필터 8/9(건너뜀 1 원래부터) · PlayMode 필터 14/14 통과"
 },
 {
-"sha": "86ff82f4",
-"at": "2026-11-26 18:31",
-"ts": 1795685507,
-"msg": "CD-0182 PlayMode 시험을 2인 새 규격(9×15·카메라 9×12)으로 옮김 — Unity 확인 전"
-},
-{
-"sha": "f985c837",
-"at": "2026-11-26 18:26",
-"ts": 1795685184,
-"msg": "CD-0182 기록: main(CD-0183 B 포함) 합친 뒤 다시 확인 — Core 1245/1246 · Server 299·49 · Python 169 · sim 30판"
-},
-{
-"sha": "3ce6d8b9",
-"at": "2026-11-26 18:22",
-"ts": 1795684950,
-"msg": "Merge remote-tracking branch 'origin/main' into cd-182"
-},
-{
-"sha": "a00f3a79",
-"at": "2026-11-26 18:22",
-"ts": 1795684944,
-"msg": "병합: cd-181 aee6d8a3(결정 0134 확정 — 균열과 둘레는 어디서나 검정+청록 빛, 보라 금지 · CD-0181 마감 기록, 문서만)"
-},
-{
-"sha": "53c98c6c",
-"at": "2026-11-26 18:21",
-"ts": 1795684916,
-"msg": "병합: cd-183 c37c73ec(CD-0183 보강 — 서버 checkpoint 가 Core 싱글 스냅샷·c 기록을 글 그대로 왕복하는 시험 2 · 싱글 스냅샷 바이트·해시 골든 6장면 · Core 1245/1246 · 서버 299·49)"
+"sha": "b72d321c",
+"at": "2026-11-26 18:44",
+"ts": 1795686283,
+"msg": "병합: cd-178 2c76388d(CD-0178 4챕터 «용암 협곡» gate_06 — 9×10·70웨이브 지상만·보스 35·70(보상·hp 임시) · 통그림 1620×3060·넓은 배경(Codex 10회, 사용자 확정, 균열 0134 청록) · 9칸 폭 그림 도구 · 결정 0135 · Cd90 시험 기대값 · Core 1245/1246 · 서버 299·49)"
 }
 ],
-"dirtyCount": 67,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "UnityProject/Assets/_Game/Resources/Data/waves.json",
-"at": "2026-11-26 18:46"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Data/stages.json",
-"at": "2026-11-26 18:46"
-},
-{
-"file": "Data/waves.json",
-"at": "2026-11-26 18:46"
-},
-{
-"file": "tools/validate_data.py",
-"at": "2026-11-26 18:46"
-},
-{
-"file": "Data/stages.json",
-"at": "2026-11-26 18:46"
-},
-{
-"file": "tools/workbench/test_workbench.py",
-"at": "2026-11-26 18:45"
-},
-{
-"file": "tools/workbench/web/maprules.js",
-"at": "2026-11-26 18:45"
-},
-{
-"file": "tools/test_validate_mapindex.py",
-"at": "2026-11-26 18:45"
+"file": "studio/checks.json",
+"at": "2026-11-26 18:58"
 }
 ],
-"lastEdit": "2026-11-26 18:46",
-"lastEditTs": 1795686370.8220048,
-"lastCommitTs": 1795686315,
-"unpushed": 5,
-"notInMain": 5,
-"today": 92
+"lastEdit": "2026-11-26 18:58",
+"lastEditTs": 1795687080.0201259,
+"lastCommitTs": 1795686929,
+"unpushed": 9,
+"notInMain": 9,
+"today": 112
 },
 {
-"branch": "cd-183",
-"lane": "cd-183",
+"branch": "cd-182",
+"lane": "cd-182",
 "session": "",
 "owns": "",
-"order": "CD-0176",
-"head": "c37c73e",
+"order": "CD-0178",
+"head": "307b60a",
 "commits": [
 {
-"sha": "c37c73ec",
-"at": "2026-11-26 18:18",
-"ts": 1795684733,
-"msg": "CD-0183 관제 확인 반영: 싱글 스냅샷 바이트 고정 시험 · 서버가 스냅샷을 읽지 않고 그대로 보관함을 고정"
+"sha": "307b60a2",
+"at": "2026-11-26 18:50",
+"ts": 1795686608,
+"msg": "병합: origin/main b72d321c(CD-0178 gate_06)를 cd-182 로 — stages.json 챕터 4 줄 + coop[] · waves.json gate_06_01 + 협동 세트 셋(gen_coop_waves 로 다시 붙임) · validate_data PLAN_WAVES_MAX 100 + DIFF_KEYS 둘 다 살림"
 },
 {
-"sha": "9e06a92d",
-"at": "2026-11-26 18:12",
-"ts": 1795684349,
-"msg": "CD-0183 협동 Core 규칙: 끊김·재접속·나가기 정산 · 방장 스냅샷(시작·2초·웨이브·끝) · 손님 사본으로 판 다시 세우기·이어받기"
+"sha": "7fe37413",
+"at": "2026-11-26 18:45",
+"ts": 1795686315,
+"msg": "CD-0182 기록: Unity 확인 — EditMode 필터 8/9(건너뜀 1 원래부터) · PlayMode 필터 14/14 통과"
 },
-{
-"sha": "22218a61",
-"at": "2026-11-26 17:34",
-"ts": 1795682086,
-"msg": "관제: CD-0176 완료 처리(close 게이트 통과)"
-},
-{
-"sha": "bbe559d5",
-"at": "2026-11-26 17:31",
-"ts": 1795681917,
-"msg": "병합: cd-176 c5acaaad(CD-0176 멀티 기획 확정 — 사용자 인터뷰로 대표 초안 5개 확정: 악몽·지옥 방은 손님도 해금 필요 · 대기실 손님 [준비] · 해금 1-6 뒤 · 체력 배율 100/160/250% · 방장 스냅샷 2초+웨이브마다, 결정 0127·0128 반영, 문서만)"
-},
-{
-"sha": "c5acaaad",
-"at": "2026-11-26 17:31",
-"ts": 1795681900,
-"msg": "CD-0176 인터뷰 답 반영: 손님도 난이도를 열어야 입장 · 대기실 준비 버튼 · 해금 1-6 · 배율 시작값 · 스냅샷 2초 확정"
-},
-{
-"sha": "28bfddd0",
-"at": "2026-11-26 17:25",
-"ts": 1795681526,
-"msg": "병합: cd-176 07717d43(CD-0176 멀티(협동) 기획 — 결정 0126 2인 맵 «가운데 성채 나선» 9×15·180° 회전 · 0127 30웨이브 보통/악몽/지옥·방 만들기·랜덤 매칭 · 0128 끊김·재접속·방장 이어받기 · 0129 호스트 Core+복제·서버는 출전·정산 · 개발 주문 A~I · 문서만)"
-}
-],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795684733,
-"unpushed": 0,
-"notInMain": 0,
-"today": 79
-},
-{
-"branch": "cd-185",
-"lane": "cd-185",
-"session": "",
-"owns": "",
-"order": "CD-0181",
-"head": "b72d321",
-"commits": [
 {
 "sha": "b72d321c",
 "at": "2026-11-26 18:44",
@@ -1701,51 +1454,90 @@
 "msg": "CD-0178 마감: gate_06 카탈로그 반입 · 캡처 · 90-close 초안"
 },
 {
+"sha": "86ff82f4",
+"at": "2026-11-26 18:31",
+"ts": 1795685507,
+"msg": "CD-0182 PlayMode 시험을 2인 새 규격(9×15·카메라 9×12)으로 옮김 — Unity 확인 전"
+},
+{
 "sha": "5f0a66a8",
 "at": "2026-11-26 18:28",
 "ts": 1795685287,
 "msg": "병합: origin/main 을 cd-178 로(CD-0181·0183 받기 — Unity 차례 전)"
-},
-{
-"sha": "f2106d18",
-"at": "2026-11-26 18:26",
-"ts": 1795685167,
-"msg": "CD-0178 결정 0134: 4챕터 균열을 검정+청록으로(보라 없앰) · 균열 빛 청록"
-},
-{
-"sha": "a00f3a79",
-"at": "2026-11-26 18:22",
-"ts": 1795684944,
-"msg": "병합: cd-181 aee6d8a3(결정 0134 확정 — 균열과 둘레는 어디서나 검정+청록 빛, 보라 금지 · CD-0181 마감 기록, 문서만)"
-},
-{
-"sha": "53c98c6c",
-"at": "2026-11-26 18:21",
-"ts": 1795684916,
-"msg": "병합: cd-183 c37c73ec(CD-0183 보강 — 서버 checkpoint 가 Core 싱글 스냅샷·c 기록을 글 그대로 왕복하는 시험 2 · 싱글 스냅샷 바이트·해시 골든 6장면 · Core 1245/1246 · 서버 299·49)"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-26 18:47"
-},
-{
-"file": "studio/orders/CD-0185-1-3챕터-맵-균열을-검정-청록으로-결정-0134-보라/10-spec.md",
-"at": "2026-11-26 18:45"
-},
-{
-"file": "studio/orders/CD-0185-1-3챕터-맵-균열을-검정-청록으로-결정-0134-보라/00-order.md",
-"at": "2026-11-26 18:45"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-26 18:44"
 }
 ],
-"lastEdit": "2026-11-26 18:47",
-"lastEditTs": 1795686447.263647,
-"lastCommitTs": 1795686283,
+"lastEdit": "2026-11-26 18:44",
+"lastEditTs": 1795686261.4846287,
+"lastCommitTs": 1795686608,
 "unpushed": 0,
 "notInMain": 0,
-"today": 96
+"today": 102
+},
+{
+"branch": "cd-185",
+"lane": "cd-185",
+"session": "",
+"owns": "",
+"order": "CD-0182",
+"head": "2253247",
+"commits": [
+{
+"sha": "22532471",
+"at": "2026-11-26 19:09",
+"ts": 1795687741,
+"msg": "CD-0185 마감: 캡처로 1~3챕터 균열 청록 확인 · Cd39MapShotTests 1인 맵만 찍기(CD-0182 협동 웨이브 뒤) · 90-close 초안"
+},
+{
+"sha": "066082f4",
+"at": "2026-11-26 18:58",
+"ts": 1795687115,
+"msg": "병합: origin/main 을 cd-185 로(CD-0182 받기 — Unity 캡처 전)"
+},
+{
+"sha": "fd2cf3e1",
+"at": "2026-11-26 18:58",
+"ts": 1795687096,
+"msg": "CD-0185 결정 0134: 1~3챕터 균열을 검정+청록으로(보라 없앰) · 균열 빛 청록"
+},
+{
+"sha": "2fbb8887",
+"at": "2026-11-26 18:53",
+"ts": 1795686837,
+"msg": "병합: cd-182 307b60a2(CD-0182 멀티 개발 A 협동 맵·데이터 — 2인 «가운데 성채 나선» 9×15 배치 · 보통/악몽/지옥 30웨이브(gen_coop_waves) · 체력 배율 100/160/250% · 해금 조건 · 2인 규격 PlayMode 시험 옮김(14/14) · Core 1245/1246 · 서버 299·49 · sim 2인 30판)"
+},
+{
+"sha": "307b60a2",
+"at": "2026-11-26 18:50",
+"ts": 1795686608,
+"msg": "병합: origin/main b72d321c(CD-0178 gate_06)를 cd-182 로 — stages.json 챕터 4 줄 + coop[] · waves.json gate_06_01 + 협동 세트 셋(gen_coop_waves 로 다시 붙임) · validate_data PLAN_WAVES_MAX 100 + DIFF_KEYS 둘 다 살림"
+},
+{
+"sha": "7fe37413",
+"at": "2026-11-26 18:45",
+"ts": 1795686315,
+"msg": "CD-0182 기록: Unity 확인 — EditMode 필터 8/9(건너뜀 1 원래부터) · PlayMode 필터 14/14 통과"
+}
+],
+"dirtyCount": 1,
+"dirty": [
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-26 19:03"
+}
+],
+"lastEdit": "2026-11-26 19:03",
+"lastEditTs": 1795687412.9236238,
+"lastCommitTs": 1795687741,
+"unpushed": 0,
+"notInMain": 0,
+"today": 106
 },
 {
 "branch": "rel-0123",
@@ -1813,7 +1605,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 105,
+"commits": 108,
 "byOrder": [
 [
 "CD-0169",
@@ -1828,16 +1620,16 @@
 9
 ],
 [
+"CD-0180",
+8
+],
+[
 "기타",
 8
 ],
 [
 "CD-0175",
 8
-],
-[
-"CD-0180",
-7
 ],
 [
 "CD-0178",
@@ -1866,6 +1658,10 @@
 [
 "CD-0150",
 3
+],
+[
+"CD-0185",
+2
 ],
 [
 "CD-0181",
@@ -1902,6 +1698,21 @@
 ],
 "latest": [
 {
+"sha": "22532471",
+"at": "2026-11-26 19:09",
+"msg": "CD-0185 마감: 캡처로 1~3챕터 균열 청록 확인 · Cd39MapShotTests 1인 맵만 찍기(CD-0182 협동 웨이브 뒤) · 90-close 초안"
+},
+{
+"sha": "fd2cf3e1",
+"at": "2026-11-26 18:58",
+"msg": "CD-0185 결정 0134: 1~3챕터 균열을 검정+청록으로(보라 없앰) · 균열 빛 청록"
+},
+{
+"sha": "910dc8a2",
+"at": "2026-11-26 18:54",
+"msg": "CD-0180 마감 — 웨이브 10장 · 사람 확인과 사용자 다음 지시(몬스터 명단 확대) 기록 · stage 마감"
+},
+{
 "sha": "7fe37413",
 "at": "2026-11-26 18:45",
 "msg": "CD-0182 기록: Unity 확인 — EditMode 필터 8/9(건너뜀 1 원래부터) · PlayMode 필터 14/14 통과"
@@ -1935,21 +1746,6 @@
 "sha": "fa948745",
 "at": "2026-11-26 18:21",
 "msg": "CD-0182 멀티 개발 A 맵·데이터: coop_2p «가운데 성채 나선» 9×15·180° 회전 · 보통/악몽/지옥 30웨이브 세트 · 난이도 배율·공중·해금 칸 · 검사"
-},
-{
-"sha": "aeb00c31",
-"at": "2026-11-26 18:21",
-"msg": "CD-0178 4챕터 «용암 협곡» 통그림(1620×3060)·넓은 배경 + viewBoard · 시험"
-},
-{
-"sha": "aee6d8a3",
-"at": "2026-11-26 18:20",
-"msg": "CD-0181 마감 기록: 결과 줄의 0134 상태 고침"
-},
-{
-"sha": "ac23d785",
-"at": "2026-11-26 18:20",
-"msg": "결정 0134: 그림자 균열은 검정 + 청록으로 통일 — 맵 1~3챕터의 보라도 바꾼다(맵 그림은 새 주문)"
 }
 ]
 },
@@ -11308,8 +11104,8 @@
 {
 "id": "CD-0164",
 "title": "영웅 SD 본 리깅 애니메이션과 유니티 액션툴",
-"branch": "cd-185",
-"updated": "2026-11-26 18:45",
+"branch": "cd-180",
+"updated": "2026-11-26 18:55",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11450,8 +11246,8 @@
 {
 "id": "CD-0169",
 "title": "1·2챕터 맵 디자인 재제작(docs/17 방식) — 통그림 바닥과 맵 제작 방식 기준",
-"branch": "cd-185",
-"updated": "2026-11-26 18:45",
+"branch": "cd-180",
+"updated": "2026-11-26 18:55",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11584,8 +11380,8 @@
 {
 "id": "CD-0174",
 "title": "판 그래픽 폰 피드백 주황 원 화면 비율 배경 공격 범위 2챕터 출력 순서",
-"branch": "cd-185",
-"updated": "2026-11-26 18:45",
+"branch": "cd-180",
+"updated": "2026-11-26 18:55",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11636,8 +11432,8 @@
 {
 "id": "CD-0176",
 "title": "멀티(협동) 모드 기획 — 맵·규칙·판정 구조·개발 주문 분할",
-"branch": "cd-185",
-"updated": "2026-11-26 18:45",
+"branch": "cd-180",
+"updated": "2026-11-26 18:55",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11720,7 +11516,7 @@
 "id": "CD-0180",
 "title": "몬스터(그림자 무리) 디자인 개선 1 방향 시안",
 "branch": "cd-180",
-"updated": "2026-11-26 18:39",
+"updated": "2026-11-26 18:54",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11731,13 +11527,13 @@
 "draft-wave-10.png"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "art",
 "opened": "2026-11-26",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "<p>그림자 무리를 사용자가 말한 방향으로 다시 디자인한다: <strong>«컴팩트하면서도 위압적인 형태 · 일렁거리는 듯하면서도 형태가 있는 그림자»</strong>.</p>\n<ol>\n<li>대표 1종(그림자 졸개)으로 <strong>방향 시안 3안</strong>(A·B·C)을 뽑아 사용자에게 보이고 하나를 고른다(섞기 가능).\n</li>\n<li>고른 방향으로 웨이브 몬스터 전 종을 다시 그린다(장수는 §6 질문 1의 답으로).\n</li>\n<li>후속 «이동 애니메이션» 주문이 영웅과 같은 리그 체계(결정 0120)로 바로 이어지도록, 그림을 <strong>부위로 나누기 쉬운 모양</strong>으로 잡는다.\n</li></ol>",
 "goalShort": "그림자 무리를 사용자가 말한 방향으로 다시 디자인한다: «컴팩트하면서도 위압적인 형태 · 일렁거리는 듯하면서도 형태가 있는 그림자».",
@@ -11748,8 +11544,8 @@
 "team": "art",
 "title": "졸개 방향 시안 3안 생성(gen_shadow3.py grunt_a grunt_b grunt_c) → 눈 검수(cd-art §5) → 대조 그림(지금 졸개 · 시안 3 · 새 영웅 SD 나란히 + 판 크기 축소본 + 감속·여파 색 곱한 미리보기) → 사용자 컨펌",
 "output": "art/raw/shadow3/(git 제외) · 주문 폴더 draft-.png · 컨펌 기록",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 },
 {
 "id": "2",
@@ -11757,11 +11553,11 @@
 "team": "art",
 "title": "고른 방향으로 웨이브 몬스터 전 종(§5) → 받아들이기(Art/Temp/monster/ 같은 이름표, .meta 그대로) · 장부 how_made · 목록 설명 · check.py",
 "output": "그림 10장 안팎 · studio/assets-ledger.csv · studio/art-manifest.json",
-"status": "todo",
-"why": ""
+"status": "done",
+"why": "주문 마감"
 }
 ],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -11813,8 +11609,8 @@
 {
 "id": "CD-0182",
 "title": "멀티 개발 A 맵·데이터 — 2인 성채 나선 배치·난이도 30웨이브 세트·해금 데이터·검사",
-"branch": "cd-182",
-"updated": "2026-11-26 18:45",
+"branch": "main",
+"updated": "2026-11-26 18:50",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11838,8 +11634,8 @@
 {
 "id": "CD-0183",
 "title": "멀티 협동 Core 규칙 끊김 나가기 스냅샷 이어받기",
-"branch": "cd-181",
-"updated": "2026-11-26 18:20",
+"branch": "main",
+"updated": "2026-11-26 18:19",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11863,25 +11659,28 @@
 {
 "id": "CD-0185",
 "title": "1~3챕터 맵 균열을 검정+청록으로(결정 0134, 보라 없앰)",
-"branch": "cd-185",
-"updated": "2026-11-26 18:45",
+"branch": "main",
+"updated": "2026-11-26 19:09",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"90-close.md",
+"prompts",
+"shots"
 ],
 "milestone": "M6",
-"stage": "접수",
+"stage": "마감",
 "route": "fast",
 "risk": "low",
 "teams": "art",
 "opened": "2026-11-26",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "new",
+"phase": "done",
 "builtIn": ""
 }
 ],
@@ -14457,8 +14256,8 @@
 "tab": "content",
 "file": "docs/12-콘텐츠목록.md",
 "title": "12. 콘텐츠 목록 (영웅·몬스터·맵)",
-"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: <strong>2026-11-17(CD-0015 · 결정 0049: «캐릭터» → «영웅», 단계 이름 일반·고급·희귀·영웅, §4 업적 1회성 19 + 반복 7)</strong> · 2026-11-16(CD-0007: §4 꾸밈·업적 목록, 용족 역할 글 · CD-0009: §2 몬스터 trait 한 줄 — 결정 0042 사용자 확인 대기) · 상태: 구성 확정(사용자: 6종족 × 4단계). 캐릭터 이름 확정(결정 0012). 몬스터·맵 이름은 가칭.\n</li>\n<li>이 목록이 그림 제작 목록(매니페스트)의 바탕이다. 다른 게임의 이름·디자인을 쓰지 않는다.\n</li>\n<li>«첫 목표» 열에 ●가 있는 것만 첫 번째 목표에서 동작한다. 나머지는 자리만 잡는다.\n</li></ul>\n<h3>1. 영웅 — 6종족 × 4단계 = 24명</h3>\n<ul>\n<li><strong>부르는 이름은 «영웅»</strong> 이다(결정 0049 1, 옛 «캐릭터»). 코드 식별자(<code>Character…</code>)는 그대로 둬도 된다.\n</li>\n<li><strong>단계 이름</strong>(결정 0049 2): 1단계 <strong>일반</strong> · 2단계 <strong>고급</strong> · 3단계 <strong>희귀</strong> · 4단계 <strong>영웅</strong>. 문서·데이터(<code>Data/heroes.json</code> <code>tiers</code>)의 이름이고 <strong>화면에는 등급 글자를 쓰지 않는다</strong> — 영웅 창은 단계별 구역과 배경으로만 구분한다(<code>13-보상-육성-꾸밈.md</code> §5-3). 아래 표의 «n단계» 열이 그 단계다.\n</li></ul>\n<p><strong>종족마다 한 인물이고 이름이 하나다</strong>(결정 0103, 2026-11-22 — 결정 0012 의 «네 단계는 서로 다른 인물» 을 고쳐 씀). 일반~영웅 네 단계는 같은 이름을 쓰고 앞의 <strong>칭호</strong>만 바뀐다. 화면 글자는 «칭호 이름»(예: «새순 든 아이 리엘»). 데이터는 <code>Data/units.json</code> 단계마다 <code>name</code>(네 단계 같음) + <code>title</code>. 해외판에서는 칭호를 뜻으로 옮기고 이름은 괄호의 로마자로 옮겨 적는다(괄호 안 영어 칭호는 초안).</p>\n<div class=tw><table><thead><tr><th>종족 (id)</th><th>성별</th><th>생김새</th><th>1단계</th><th>2단계</th><th>3단계</th><th>4단계</th><th>역할(초안, 바뀔 수 있음)</th><th>첫 목표</th></tr></thead><tbody><tr><td>인간 <code>human</code></td><td>남성</td><td>사람</td><td>솥뚜껑 소년 테오 (Pot Lid Boy Theo)</td><td>수습 문지기 테오 (Trainee Gatekeeper Theo)</td><td>관문 수비병 테오 (Gate Guard Theo)</td><td>철벽의 선임 테오 (Ironwall Senior Theo)</td><td>묵직한 단일</td><td>●</td></tr><tr><td>엘프 <code>elf</code></td><td>여성</td><td>뾰족한 귀</td><td>새순 든 아이 리엘 (Sprout Child Liel)</td><td>수습 숲지기 리엘 (Trainee Forest Keeper Liel)</td><td>숲 순찰자 리엘 (Forest Patroller Liel)</td><td>수비대 명궁 리엘 (Guard Marksman Liel)</td><td>긴 사거리 연사</td><td>●</td></tr><tr><td>드워프 <code>dwarf</code></td><td>남성</td><td>작고 다부진 몸, 큰 수염</td><td>광산 마을 꼬마 그론 (Mining Village Kid Gron)</td><td>수습 공병 그론 (Trainee Sapper Gron)</td><td>수비대 포병 그론 (Guard Cannoneer Gron)</td><td>선임 포격수 그론 (Senior Bombardier Gron)</td><td>범위 포격</td><td>●</td></tr><tr><td>수인 <code>beast</code></td><td>여성</td><td>스라소니의 귀(끝에 검은 털술)·짧은 꼬리·점무늬</td><td>귀 큰 새끼 카자 (Big Eared Cub Kaza)</td><td>어린 스라소니 카자 (Young Lynx Kaza)</td><td>갓 일어선 수인 카자 (Newly Risen Beastfolk Kaza)</td><td>수비대 척후 카자 (Guard Scout Kaza)</td><td>연타·치명타</td><td>●</td></tr><tr><td>정령 <code>spirit</code></td><td>여성</td><td>무채 유백색 기운과 연금색 핵. 사람 모양이 아니다</td><td>작은 기운 펠리 (Little Wisp Pheli)</td><td>모이는 기운 펠리 (Gathering Wisp Pheli)</td><td>가면 쓴 정령 펠리 (Masked Spirit Pheli)</td><td>물들지 않은 수호령 펠리 (Untinted Guardian Pheli)</td><td>감속 지원</td><td></td></tr><tr><td>용족 <code>dragon</code></td><td>여성</td><td>1~3단계는 온전한 용, 4단계만 사람 모습(뿔 한 쌍·등의 용 날개)</td><td>알 속 해츨링 라카 (Hatchling in the Egg Raka)</td><td>어린 용 라카 (Young Dragon Raka)</td><td>젊은 비룡 라카 (Young Wyvern Raka)</td><td>용창 기사 라카 (Dragon Lancer Raka)</td><td>관통·여파</td><td></td></tr></tbody></table></div>\n<ul>\n<li><strong>단계가 오를수록 칭호의 격이 높다:</strong> 1단계 풋내기·아이 → 2단계 견습 → 3단계 제 몫을 하는 사람 → 4단계 노련한 정예. 한 종족의 네 단계는 <strong>한 인물이 자라는 모습</strong>이고(결정 0103 · 단계의 축은 결정 0014), 종족의 배색과 생김새를 같이 쓴다. 칭호는 등급 글자(일반·고급 …)가 아니고 속성 낱말을 쓰지 않는다. 옛 이름 18개(2~4단계의 고유명)는 쓰지 않는다 — 목록은 결정 0103.\n</li>\n<li><strong>속성을 쓰지 않는다.</strong> 불·얼음·번개 같은 표현을 이름·그림·연출에 넣지 않는다. 용족의 지속 피해는 «여파» 다(옛 초안의 역할 글은 CD-0007 에서 고쳤다).\n</li>\n<li><strong>4단계 위는 «전설»(5단계, §1-1)</strong> 이다(결정 0060). 4단계까지는 장식을 절제한다(왕관·예복·빽빽한 문양 금지) — 가장 화려한 모습은 전설 몫이다.\n</li>\n<li>화풍만 통일한다: 일러스트는 셀화풍(결정 0013, <code>03-리소스계획.md</code> §8). 등신은 종족마다 달라도 된다. 이용 등급 목표는 12세. 4단계 일러스트 6장 확정본은 <code>art/final/illust/</code>.\n</li>\n<li>그림: 인물마다 <strong>옆모습 인게임 그림 1장</strong>(24장) + 종족마다 <strong>카드 일러스트 1장</strong>(6장, 4단계 기준) = 30장. 상위 성장의 그림 수는 기획 뒤에 더한다.\n</li>\n<li>이름 겹침 확인(2026-11-15, 영어 위주 웹 검색): 지어낸 이름 가운데 다른 작품의 인물과 같았던 7개를 바꿨다(미라엘→시레아, 엘라리엘→이실리아, 하르그림→할드레크, 울드가르→달그룬드, 키라→카자, 피나→펠리, 네리스→벨리사). 남은 주의: 리엘(덜 알려진 작품의 하프엘프와 같은 철자), 자야(다른 게임의 조연 NPC), 세드릭·레오폴드(흔한 실제 이름). 한국어 위키·상표 검색은 하지 않았다 → 출시 준비(M7) 때 다시 본다. (결정 0103 뒤로 쓰는 이름은 테오·리엘·그론·카자·펠리·라카 여섯뿐이다 — 이 줄의 2~4단계 이름은 옛 기록. 칭호 24개는 일반 낱말이라 겹침 검색을 하지 않았다.)\n</li></ul>\n<h3>1-1. 전설 — 5단계, 4단계에서 갈래 진화 (CD-0032 · 결정 0060)</h3>\n<ul>\n<li>판 안에서 4단계 영웅 하나 + 골드로 갈래 하나를 골라 진화한다(규칙 <code>11-규칙.md</code> §3-1, 수치 <code>Data/legends.json</code>). 종족마다 2~3갈래 예정, 지금은 인간 2명.\n</li>\n<li>단계 이름 «전설» 은 문서·데이터용이다. <strong>화면에는 «전설» 글자를 쓰지 않는다</strong>(결정 0049) — 이름·갈래 이름·금빛 테두리·연출로 구분한다.\n</li>\n<li>이름 규칙은 같다(고유명 한 단어, 종족 소리 결, 4단계보다 격 높게, 한 종족 안에서 첫소리가 겹치지 않게). 이름은 사용자가 확정한 뒤에만 이 표와 <code>Data/</code> 에 넣는다.\n</li></ul>\n<div class=tw><table><thead><tr><th>종족</th><th>갈래</th><th>이름</th><th>그 종족 4단계에서</th><th>스킬</th><th>상태</th></tr></thead><tbody><tr><td>인간 <code>human</code></td><td>검의 길</td><td>발데마르 (Waldemar)</td><td>철벽의 선임 테오 → 왕국 제일의 검사</td><td>대검 가르기 — 공격 5번마다 사거리 끝까지 검기, 줄 위 전부·방어 무시</td><td>이름 확정(2026-11-18) · 그림 확정(2026-11-19)</td></tr><tr><td>인간 <code>human</code></td><td>군주의 길</td><td>게르하르트 (Gerhard)</td><td>철벽의 선임 테오 → 연합의 군주</td><td>군주의 일격 — 적 4마리 이상이면 방패로 땅을 내리쳐 주변 전부 피해 + 멈춤</td><td>이름 확정(2026-11-18) · 그림 확정(2026-11-19)</td></tr></tbody></table></div>\n<ul>\n<li><strong>사거리는 전설마다 따로 정한다</strong>(CD-0124 · 결정 0105, 사용자 «전설 등급은 전설 등급 영웅 별로 다른 특징들을 가지고 있었으면 좋겠어»): 발데마르 160(20칸 — 검기가 사거리 끝까지라 멀리 벤다) · 게르하르트 100(8칸 — 곁을 지키는 군주, 일격 반경 190 은 따로). 새 전설도 <code>legends.json</code> 에 <code>range</code> 를 꼭 적는다(Core 시험 <code>EveryLegendHasItsOwnRange</code>).\n</li>\n<li>이름 겹침 검색(2026-11-18, 영어 웹 검색): 발데마르 — 한 게임의 이름 없는 조연 NPC 의 이름과 같음(주요 인물 아님) · 게르하르트 — 덜 알려진 소설의 조연과 같음. 버린 후보: 아달베르트(유명 게임의 기사 Adelbert 와 거의 같음), 에버하르트(에단과 첫소리 ㅇ 겹침), 하드리안(소설 주인공). 한국어 위키·상표 검색은 하지 않았다(M7).\n</li>\n<li>나머지 10명의 갈래 방향(이름 전): CD-0032 <code>10-spec.md</code> §2-3.\n</li></ul>\n<h3>2. 몬스터</h3>\n<p>적은 «그림자 균열에서 쏟아지는 무리» 다(결정 0011). 유형의 뜻은 <code>11-규칙.md</code> §8. 수치는 <code>Data/monsters.json</code>·<code>Data/bounty.json</code>.</p>\n<h4>2-1. 그림자 무리 — 웨이브 몬스터 7종 (CD-0005 4종 + CD-0009 3종)</h4>\n<ul>\n<li>CD-0036(결정 0064 6): 스테이지 세트에는 <strong>비행(그림자 날개)이 나오지 않는다</strong>(데이터는 남김). 한 웨이브에 1종, 보스 웨이브는 보스 1마리뿐. 맵 1 은 1-1 졸개 → 1-2 추적자 → 1-3 떼 → 1-4 방패병 → 1-5 응어리 차례로 종이 늘고 1-6 부터 다섯이 돈다(<code>11-규칙.md</code> §6).\n</li></ul>\n<p>가족 <code>shadow</code>(그림자 무리). 그림은 옆모습(오른쪽)이고 <strong>검은 몸에 파랑 형광 포인트</strong>(눈이 가장 밝고, 가슴 금·주먹 이음매·뿔·무기 끝 같은 작은 점만 빛난다), 영웅보다 키는 작고 폭은 넓은 컴팩트하고 위압적인 덩치, 단단한 외곽에 정해진 곳(머리 위·어깨·등·발목 뒤)만 일렁이는 그림자 조각이다(결정 0131 — 0053 의 청록 발광선을 바꿈, CD-0180. 현상금 6장은 아직 0053 그림). 카드의 특징 한 줄은 <code>monsters.json</code> <code>trait</code>(데이터가 정본).</p>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>유형</th><th>역할</th><th>특징 한 줄(<code>trait</code>)</th><th>그림</th><th>나오는 웨이브</th></tr></thead><tbody><tr><td><code>shadow_grunt</code></td><td>그림자 졸개</td><td>일반</td><td>기준. 수가 가장 많다</td><td>균열에서 갓 나온 그림자</td><td>자기 그림</td><td>1~</td></tr><tr><td><code>shadow_runner</code></td><td>그림자 추적자</td><td>질주</td><td>빠르고 약하다. 사거리 짧은 캐릭터를 지나친다</td><td>발소리 없이 빠르게 쫓는다</td><td>자기 그림</td><td>6~</td></tr><tr><td><code>shadow_guard</code></td><td>그림자 방패병</td><td>중장</td><td>느리고 단단하다(방어). 약한 한 방은 깎인다</td><td>그림자 방패로 피해를 깎는다</td><td>자기 그림</td><td>7~</td></tr><tr><td><code>shadow_behemoth</code></td><td>균열의 거수</td><td>보스</td><td>체력이 매우 많고 느리다. 놓치면 목숨 5</td><td>균열을 지키는 거대한 짐승</td><td>자기 그림</td><td>10, 20</td></tr><tr><td><code>shadow_swarm</code></td><td>그림자 떼</td><td>무리</td><td>작고 약한 것이 4마리씩 몰려온다. 범위 공격이 잘 듣는다</td><td>작은 그림자가 한꺼번에 몰려온다</td><td>자기 그림(가시 등의 작은 네발 기는 놈) · 90%</td><td>4~(어려움·정예 6~)</td></tr><tr><td><code>shadow_flier</code></td><td>그림자 날개</td><td>비행</td><td>지름길로 날아온다. 지름길 옆 칸이 잘 잡는다</td><td>길을 건너질러 날아온다</td><td>자기 그림(찢긴 막 날개의 비행 마물) · 크기 <code>view.scalePct</code> · 0.45칸 떠 있음</td><td>12~</td></tr><tr><td><code>shadow_mender</code></td><td>그림자 응어리</td><td>재생</td><td>맞지 않으면 체력이 찬다. 꾸준히 때려야 한다</td><td>맞지 않으면 상처가 아문다</td><td>자기 그림(청록 실로 꿰맨 사슬 거한) · 100%</td><td>13~</td></tr></tbody></table></div>\n<ul>\n<li>1~3웨이브는 졸개만 나온다. 4웨이브에 떼, 6웨이브부터 추적자와 방패병, 12웨이브에 날개, 13웨이브에 응어리가 처음 섞인다. 10·20 웨이브는 거수 1마리와 졸개(10웨이브는 새 유형 없음).\n</li>\n<li>새 3종은 처음엔 기존 그림을 크기·색조로 변형해 썼고(결정 0042 초안), CD-0022 에서 고유 그림을 넣었다(결정 0050, <code>view.art</code> — 화면 전용). 색조 칸은 결정 0045 이후 0 이다(셰이더가 검게 칠한다). 이름·특징 글은 결정 0042 와 함께 사용자 확인 대기.\n</li>\n<li>옛 20종(고블린·오크·언데드·마수·마족, 아래 표)은 <code>Data/monsters.json</code> 에 남아 있지만 새 세트는 쓰지 않는다.\n</li></ul>\n<h4>2-2. 현상금 — 이름 있는 몬스터 6종</h4>\n<p>같은 무리의 «이름 있는» 개체다. 몬스터 카드에서 유형 이름은 «현상금»(<code>bounty.json</code> <code>typeName</code>), 특징 한 줄은 아래 «화면 특징» 열(<code>trait</code>)이다. 판 안에서 «현상금» 으로 불러내 잡으면 골드를 준다(<code>11-규칙.md</code> §11). 그림 이름표는 <code>monster/bounty_N</code>, 실루엣이 서로 달라야 한다.</p>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>체력(CD-0025 에서 10배)</th><th>속도</th><th>방어(10배)</th><th>보상(골드, 결정 0065)</th><th>열리는 때(CD-0171)</th><th>화면 특징</th></tr></thead><tbody><tr><td><code>bounty_1</code></td><td>좀도둑 그림자</td><td>6,000</td><td>100%</td><td>0</td><td>40</td><td>판 시작부터(웨이브 0)</td><td>가장 만만함</td></tr><tr><td><code>bounty_2</code></td><td>발 빠른 약탈자</td><td>9,000</td><td>160%</td><td>0</td><td>80</td><td>좀도둑 그림자를 잡은 뒤</td><td>아주 빠름</td></tr><tr><td><code>bounty_3</code></td><td>무쇠 등껍질</td><td>20,000</td><td>70%</td><td>60</td><td>200</td><td>발 빠른 약탈자를 잡은 뒤</td><td>방어가 높음</td></tr><tr><td><code>bounty_4</code></td><td>굶주린 큰입</td><td>45,000</td><td>90%</td><td>20</td><td>350</td><td>무쇠 등껍질을 잡은 뒤</td><td>묵직한 체력</td></tr><tr><td><code>bounty_5</code></td><td>균열 파수꾼</td><td>90,000</td><td>60%</td><td>40</td><td>500</td><td>굶주린 큰입을 잡은 뒤</td><td>느린 거구</td></tr><tr><td><code>bounty_6</code></td><td>그림자 수괴</td><td>200,000</td><td>70%</td><td>80</td><td>800</td><td>균열 파수꾼을 잡은 뒤</td><td>가장 단단함</td></tr></tbody></table></div>\n<p>옛 «열리는 웨이브» 1·3·5·8·12·16 은 CD-0171 에서 «앞 현상금을 잡으면 열림» 으로 바뀌었다(<code>11-규칙.md</code> §11). 숫자의 정본은 <code>Data/bounty.json</code>.</p>\n<h4>2-3. 옛 초안 — 5군단 20종 (쓰지 않음)</h4>\n<blockquote>결정 0011 이전의 초안이다. 새 세트는 쓰지 않고, 데이터에는 남겨 두었다. 옛 첫 목표 세트는 CD-0028 에서 데이터에서 지웠다.</blockquote>\n<div class=tw><table><thead><tr><th>군단 (id)</th><th>일반 계열</th><th>특수 1</th><th>특수 2</th><th>보스</th><th>첫 목표</th></tr></thead><tbody><tr><td>고블린 <code>goblin</code></td><td>고블린 졸개(일반)</td><td>고블린 떼(무리)</td><td>늑대 기수(질주)</td><td>고블린 대족장</td><td>● 졸개만</td></tr><tr><td>오크 <code>orc</code></td><td>오크 전사(일반)</td><td>철갑 오크(중장)</td><td>오크 돌격병(질주)</td><td>오크 전쟁군주</td><td></td></tr><tr><td>언데드 <code>undead</code></td><td>해골 병사(일반)</td><td>썩은 거인(재생)</td><td>해골 무리(무리)</td><td>망자의 왕</td><td></td></tr><tr><td>마수 <code>fiend</code></td><td>가시 멧돼지(중장)</td><td>박쥐 떼(비행·무리)</td><td>그림자 표범(질주)</td><td>삼두 마수</td><td></td></tr><tr><td>마족 <code>demon</code></td><td>임프(비행)</td><td>지옥 기사(중장)</td><td>재생 악령(재생)</td><td>심연의 군주</td><td></td></tr></tbody></table></div>\n<ul>\n<li>일반 몬스터 15종 + 보스 5종. 웨이브 구간마다 한 군단이 주로 나온다(초안: 6웨이브씩).\n</li>\n<li>카드에 보이는 특징 한 줄(\trait, 데이터 Data/monsters.json 이 정본 — 스크립트로 옮긴 것):\n</li></ul>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>유형</th><th>특징 한 줄(<code>trait</code>)</th></tr></thead><tbody><tr><td><code>goblin_grunt</code></td><td>고블린 졸개</td><td>일반</td><td>가장 흔한 그림자 무리 졸개</td></tr><tr><td><code>goblin_pack</code></td><td>고블린 떼</td><td>무리</td><td>몸은 약하지만 떼로 몰려온다</td></tr><tr><td><code>goblin_rider</code></td><td>늑대 기수</td><td>질주</td><td>늑대를 타고 빠르게 달린다</td></tr><tr><td><code>goblin_chief</code></td><td>고블린 대족장</td><td>보스</td><td>고블린을 이끄는 큰 우두머리</td></tr><tr><td><code>orc_warrior</code></td><td>오크 전사</td><td>일반</td><td>단단한 몸으로 꾸준히 걷는다</td></tr><tr><td><code>orc_ironclad</code></td><td>철갑 오크</td><td>중장</td><td>두꺼운 철갑이 피해를 깎는다</td></tr><tr><td><code>orc_charger</code></td><td>오크 돌격병</td><td>질주</td><td>앞만 보고 빠르게 돌진한다</td></tr><tr><td><code>orc_warlord</code></td><td>오크 전쟁군주</td><td>보스</td><td>오크를 호령하는 전쟁의 주인</td></tr><tr><td><code>undead_skeleton</code></td><td>해골 병사</td><td>일반</td><td>뼈만 남은 채 줄지어 걷는다</td></tr><tr><td><code>undead_giant</code></td><td>썩은 거인</td><td>재생</td><td>입은 상처가 조금씩 아문다</td></tr><tr><td><code>undead_horde</code></td><td>해골 무리</td><td>무리</td><td>약한 해골이 무리 지어 온다</td></tr><tr><td><code>undead_king</code></td><td>망자의 왕</td><td>보스</td><td>망자를 거느린 왕, 체력이 많다</td></tr><tr><td><code>fiend_boar</code></td><td>가시 멧돼지</td><td>중장</td><td>가시 가죽이 피해를 깎는다</td></tr><tr><td><code>fiend_bats</code></td><td>박쥐 떼</td><td>비행</td><td>날아서 길을 질러 온다</td></tr><tr><td><code>fiend_panther</code></td><td>그림자 표범</td><td>질주</td><td>그림자 속을 빠르게 달린다</td></tr><tr><td><code>fiend_cerberus</code></td><td>삼두 마수</td><td>보스</td><td>머리 셋 달린 거대한 마수</td></tr><tr><td><code>demon_imp</code></td><td>임프</td><td>비행</td><td>작은 날개로 길을 질러 온다</td></tr><tr><td><code>demon_knight</code></td><td>지옥 기사</td><td>중장</td><td>무거운 갑옷의 느린 기사</td></tr><tr><td><code>demon_wraith</code></td><td>재생 악령</td><td>재생</td><td>입은 상처를 천천히 되돌린다</td></tr><tr><td><code>demon_lord</code></td><td>심연의 군주</td><td>보스</td><td>심연에서 온 마족의 군주</td></tr></tbody></table></div>\n<ul>\n<li>그림: 종마다 옆모습 1장(20장). 보스는 크게 그린다.\n</li></ul>\n<h3>3. 맵</h3>\n<div class=tw><table><thead><tr><th>id</th><th>이름(가칭)</th><th>구성</th><th>첫 목표</th></tr></thead><tbody><tr><td><code>gate_03</code></td><td>목책 관문</td><td>화면 폭 8칸. 1인 캔버스 8×9(들판 2줄 + 큰길 2줄 + 내 영역 8×5, 길 22.0칸), 1인 배치만(2인은 협동 맵 <code>coop_2p</code> — 8×12 위아래 거울 영역 둘 + 가운데 큰길 2줄, 한 줄 길 19.5칸, 결정 0077). 사람당 영역 8×5 = 소환 칸 24 + 길 12 + 장식 칸(망루 자리) 4, 소환 칸 24 = 3×2 덩어리 «진지» 넷(<code>11-규칙.md</code> §1, CD-0030 결정 0059). 그림: 풀밭·흙길은 지금 그림(<code>viewArt</code> <code>map/gate_01</code>), 데크·테두리·목책·망루 기둥·망루는 <code>map/fort/*</code> 5장(<code>viewFort</code>, 후속 art — 그림이 없으면 데크 없이 그린다). 이름은 사용자 확인됨(2026-11-18, id <code>gate_03</code> 그대로)</td><td>● 1인 배치</td></tr><tr><td><code>gate_04</code></td><td>갈대 관문</td><td>맵 2(CD-0036 · 결정 0064, 이름·배치는 기획 초안 — 사용자 취침 중 권장안 2026-11-20, 사용자 확인 전 · 겹침 검색 안 함). 같은 규격(1인 8×9 길 22.0칸 · 영역 = 소환 칸 24 + 길 12 + 망루 자리 4). 덩어리 4×2 · 2×2 · 3×2 · 3×2(크기를 섞음), 영역 안 길이 계단꼴로 세로 두 번 꺾인다. 그림 <code>viewArt</code> <code>map/gate_04</code>(물가 풀밭·젖은 흙길·갈대·돌), 진지 조각 <code>map/fort</code> 같음. 스테이지 2-1~2-10(30웨이브). 1인 배치만</td><td>● 1인 배치</td></tr><tr><td><code>coop_2p</code></td><td>협동 2인 맵</td><td>결정 0077. 2인 배치 하나(8×12 위아래 거울 · 길 19.5칸 · 주문 전 <code>gate_03</code> 의 2인 배치와 같은 값). 그림 <code>viewArt</code> <code>map/gate_01</code> · <code>viewFort</code> <code>map/fort</code> · <code>viewTint</code> 없음. 난이도는 맵이 아니라 색조만(<code>mapindex.json</code> <code>difficulties</code>)</td><td>협동 방(M4)</td></tr><tr><td><code>coop_3p</code> · <code>coop_4p</code></td><td>협동 3·4인 맵</td><td>결정 0077. 임시 초안 틀(영역 8×5 를 세로로 쌓고 큰길 두 줄 — 사용자가 맵툴로 덮어쓴다). 자료가 읽히고 검사를 통과하는 데까지, 판 진행은 M5</td><td>3·4인 판(M5)</td></tr></tbody></table></div>\n<ul>\n<li>맵 1 <code>gate_03</code> 은 <strong>튜토리얼 맵</strong>이다(스테이지 1-1~1-10, 10웨이브 — 결정 0064). 맵을 다 깨면 맵 2 의 2-1 로 간다. <strong>[CD-0053 · 결정 0080 에서 바뀜]</strong> 스테이지 <strong>1-1~1-6</strong>(웨이브 6·8·8·8·8·10, 보스 = 마지막 웨이브). <strong>[CD-0075 에서 바뀜]</strong> 웨이브 <strong>6·6·8·8·8·10</strong>(1-2 가 8 → 6웨이브, 보스 = 웨이브 6).\n</li>\n<li>옛 맵 둘(<code>숲길 관문</code>·<code>바윗골 관문</code>)은 CD-0028 에서 지웠다. 그 단계를 새 단계로 잇던 <code>stages.json</code> <code>legacyIds</code> 는 CD-0036 에서 지웠다(저장 v13 은 옛 저장을 전부 초기화한다).\n</li>\n<li>덩어리 «관문 앞»·«둑»·«입구»·«뒤뜰» 의 뜻(설계 의도)은 주문 기획서(<code>studio/orders/CD-0028-…/10-spec.md</code> §3)에 있다.\n</li></ul>\n<h3>4. 꾸밈과 업적</h3>\n<p>꾸밈 <strong>36개 = 기본 3 + 기준 세트 33</strong>(CD-0062 · 결정 0086 — 옛 22개를 새로 짰다, 결정 0049 «꾸밈은 업적뿐» 대체 · 전설 기본 초상 해금=보유는 사용자 확인 대기). 업적은 <strong>1회성 19 + 반복 7</strong>(결정 0049 13) 이고 <strong>재화만</strong> 준다 — 꾸밈은 업적이 아니라 <code>Data/cosmetics.json</code> 의 <code>unlock</code> 조건으로 열린다(영웅 레벨·전설·계정 레벨·우편). 규칙과 이유는 <code>13-보상-육성-꾸밈.md</code> §6, 결정 <code>0086</code>.</p>\n<div class=tw><table><thead><tr><th>종류</th><th>설명</th><th>수</th><th>얻는 길</th></tr></thead><tbody><tr><td>프로필 이미지</td><td>기본 1 + 영웅 24(그 영웅 이름·확정 일러스트 크롭) + 전설 2 + 전설 «+10» 2</td><td>29</td><td>기본은 처음부터 · 영웅은 그 영웅 <strong>Lv.30</strong> · 전설은 <strong>보유</strong> · «+10» 은 그 전설 <strong>초월 +10</strong></td></tr><tr><td>프레임</td><td>기본 1 + 청동·은빛·금빛·플래티넘 4</td><td>5</td><td>기본은 처음부터 · 계정 <strong>Lv.10 · 30 · 60 · 100</strong></td></tr><tr><td>네임플레이트</td><td>기본 1 + 새싹 명패(임시 이름) 1</td><td>2</td><td>기본은 처음부터 · 새싹 명패는 우편 «환영 선물»(1-5 클리어)</td></tr></tbody></table></div>\n<h4>4-1. 꾸밈 36개 (기본 3 + 기준 세트 33)</h4>\n<p><code>Data/cosmetics.json</code> 이 정본이다(조건 숫자 30·10·30·60·100·+10 도 거기에만). 영웅 이름은 <code>units.json</code>, 전설 이름은 <code>legends.json</code> 과 같다. «+10» 초상은 화면이 이름 뒤에 «+10» 을 붙이고 데이터 이름은 전설 이름 그대로다.</p>\n<div class=tw><table><thead><tr><th>#</th><th>종류</th><th>id</th><th>이름</th><th>그림 이름표</th><th>얻는 길</th></tr></thead><tbody><tr><td>1</td><td>프로필 이미지</td><td><code>default</code></td><td>기본</td><td><code>ui/profile_default</code></td><td>처음부터</td></tr><tr><td>2</td><td>프레임</td><td><code>default</code></td><td>기본 테</td><td><code>ui/frame_default</code></td><td>처음부터</td></tr><tr><td>3</td><td>네임플레이트</td><td><code>default</code></td><td>기본 명패</td><td><code>ui/nameplate_default</code></td><td>처음부터</td></tr><tr><td>4</td><td>프로필 이미지</td><td><code>face_human_1</code></td><td>솥뚜껑 소년 테오</td><td><code>illust/human/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>5</td><td>프로필 이미지</td><td><code>face_human_2</code></td><td>수습 문지기 테오</td><td><code>illust/human/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>6</td><td>프로필 이미지</td><td><code>face_human_3</code></td><td>관문 수비병 테오</td><td><code>illust/human/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>7</td><td>프로필 이미지</td><td><code>face_human_4</code></td><td>철벽의 선임 테오</td><td><code>illust/human/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>8</td><td>프로필 이미지</td><td><code>face_elf_1</code></td><td>새순 든 아이 리엘</td><td><code>illust/elf/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>9</td><td>프로필 이미지</td><td><code>face_elf_2</code></td><td>수습 숲지기 리엘</td><td><code>illust/elf/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>10</td><td>프로필 이미지</td><td><code>face_elf_3</code></td><td>숲 순찰자 리엘</td><td><code>illust/elf/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>11</td><td>프로필 이미지</td><td><code>face_elf_4</code></td><td>수비대 명궁 리엘</td><td><code>illust/elf/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>12</td><td>프로필 이미지</td><td><code>face_dwarf_1</code></td><td>광산 마을 꼬마 그론</td><td><code>illust/dwarf/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>13</td><td>프로필 이미지</td><td><code>face_dwarf_2</code></td><td>수습 공병 그론</td><td><code>illust/dwarf/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>14</td><td>프로필 이미지</td><td><code>face_dwarf_3</code></td><td>수비대 포병 그론</td><td><code>illust/dwarf/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>15</td><td>프로필 이미지</td><td><code>face_dwarf_4</code></td><td>선임 포격수 그론</td><td><code>illust/dwarf/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>16</td><td>프로필 이미지</td><td><code>face_beast_1</code></td><td>귀 큰 새끼 카자</td><td><code>illust/beast/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>17</td><td>프로필 이미지</td><td><code>face_beast_2</code></td><td>어린 스라소니 카자</td><td><code>illust/beast/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>18</td><td>프로필 이미지</td><td><code>face_beast_3</code></td><td>갓 일어선 수인 카자</td><td><code>illust/beast/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>19</td><td>프로필 이미지</td><td><code>face_beast_4</code></td><td>수비대 척후 카자</td><td><code>illust/beast/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>20</td><td>프로필 이미지</td><td><code>face_spirit_1</code></td><td>작은 기운 펠리</td><td><code>illust/spirit/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>21</td><td>프로필 이미지</td><td><code>face_spirit_2</code></td><td>모이는 기운 펠리</td><td><code>illust/spirit/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>22</td><td>프로필 이미지</td><td><code>face_spirit_3</code></td><td>가면 쓴 정령 펠리</td><td><code>illust/spirit/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>23</td><td>프로필 이미지</td><td><code>face_spirit_4</code></td><td>물들지 않은 수호령 펠리</td><td><code>illust/spirit/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>24</td><td>프로필 이미지</td><td><code>face_dragon_1</code></td><td>알 속 해츨링 라카</td><td><code>illust/dragon/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>25</td><td>프로필 이미지</td><td><code>face_dragon_2</code></td><td>어린 용 라카</td><td><code>illust/dragon/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>26</td><td>프로필 이미지</td><td><code>face_dragon_3</code></td><td>젊은 비룡 라카</td><td><code>illust/dragon/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>27</td><td>프로필 이미지</td><td><code>face_dragon_4</code></td><td>용창 기사 라카</td><td><code>illust/dragon/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>28</td><td>프로필 이미지</td><td><code>face_legend_human_waldemar</code></td><td>발데마르</td><td><code>illust/legend/human_waldemar</code></td><td>그 전설을 보유(스테이지 클리어로 해금)</td></tr><tr><td>29</td><td>프로필 이미지</td><td><code>face_legend_human_gerhard</code></td><td>게르하르트</td><td><code>illust/legend/human_gerhard</code></td><td>그 전설을 보유(스테이지 클리어로 해금)</td></tr><tr><td>30</td><td>프로필 이미지</td><td><code>face_legend_human_waldemar_t10</code></td><td>발데마르</td><td><code>illust/legend/human_waldemar_t10</code></td><td>그 전설 초월 +10</td></tr><tr><td>31</td><td>프로필 이미지</td><td><code>face_legend_human_gerhard_t10</code></td><td>게르하르트</td><td><code>illust/legend/human_gerhard_t10</code></td><td>그 전설 초월 +10</td></tr><tr><td>32</td><td>프레임</td><td><code>frame_bronze</code></td><td>청동 테</td><td><code>ui/frame_bronze</code></td><td>계정 Lv.10</td></tr><tr><td>33</td><td>프레임</td><td><code>frame_silver</code></td><td>은빛 테</td><td><code>ui/frame_silver</code></td><td>계정 Lv.30</td></tr><tr><td>34</td><td>프레임</td><td><code>frame_gold</code></td><td>금빛 테</td><td><code>ui/frame_gold</code></td><td>계정 Lv.60</td></tr><tr><td>35</td><td>프레임</td><td><code>frame_plat</code></td><td>플래티넘 테</td><td><code>ui/frame_plat</code></td><td>계정 Lv.100</td></tr><tr><td>36</td><td>네임플레이트</td><td><code>plate_welcome</code></td><td>새싹 명패</td><td><code>ui/plate_welcome</code></td><td>우편으로 받으면(환영 선물, 1-5 클리어)</td></tr></tbody></table></div>\n<ul>\n<li>새 그림(draft): <code>ui/frame_bronze|silver|gold|plat</code> · <code>ui/plate_welcome</code> · <code>illust/legend/human_waldemar_t10</code>·<code>human_gerhard_t10</code>. 초상 24장·전설 2장은 확정 일러스트를 잘라 쓴다(그림 0장 추가). 프레임·명패는 이제 색을 입히지 않는다(<code>tint</code> 전부 null).\n</li>\n<li>옛 22개 중 지워진 것: 승리·쿠지·토벌 명패, 종족 명패 6, 보랏빛 테. id 가 같은 채 규칙이 바뀐 것: 종족 4단계 초상 6(<code>face_&lt;종족&gt;_4</code> → 그 영웅 Lv.30)·청동·은빛·금빛 테(업적 → 계정 레벨). 옛 저장의 옛 id 는 무시되고 기본으로 보인다.\n</li></ul>\n<h4>4-2. 업적 — 1회성 19 · 반복 7</h4>\n<p>1회성(달성하면 한 번, 재화만 — CD-0062 부터 꾸밈은 주지 않는다):</p>\n<div class=tw><table><thead><tr><th>#</th><th>id</th><th>이름</th><th>조건</th><th>재화</th></tr></thead><tbody><tr><td>1</td><td><code>first_win</code></td><td>처음으로 이기기</td><td>승리 1번</td><td>쿠지 티켓 5</td></tr><tr><td>2</td><td><code>stage4_first</code></td><td>4단계 영웅 처음 만들기</td><td>판 안 4단계 처음</td><td>쿠지 티켓 5</td></tr><tr><td>3~8</td><td><code>stage4_&lt;종족&gt;</code></td><td>(종족) 4단계 만들기</td><td>그 종족 4단계를 판 안에서</td><td>균열석 1</td></tr><tr><td>9</td><td><code>flawless_win</code></td><td>목숨을 잃지 않고 이기기</td><td>목숨을 안 잃고 승리</td><td>쿠지 티켓 5</td></tr><tr><td>10</td><td><code>kuji_reset</code></td><td>쿠지 판 새로 열기</td><td>상위상을 모두 뽑아 새 판 1번</td><td>쿠지 티켓 5</td></tr><tr><td>11~16</td><td><code>level10_&lt;종족&gt;</code></td><td>(종족) 영웅 레벨 10</td><td>그 종족 영웅 하나를 레벨 10</td><td>균열석 2</td></tr><tr><td>17</td><td><code>kills_1000</code></td><td>적 1,000 처치하기</td><td>누적 처치</td><td>은화 500</td></tr><tr><td>18</td><td><code>kills_5000</code></td><td>적 5,000 처치하기</td><td>누적 처치</td><td>은화 1,000</td></tr><tr><td>19</td><td><code>kills_20000</code></td><td>적 20,000 처치하기</td><td>누적 처치</td><td>은화 2,000</td></tr></tbody></table></div>\n<p>반복(누적이 step 의 배수에 닿을 때마다, 재화만): <code>rep_wins</code>(승리 5번마다) · <code>rep_matches</code>(판 10번마다) · <code>rep_kills</code>(처치 1,000마다) · <code>rep_kuji</code>(쿠지 50장마다) · <code>rep_hero_level</code>(영웅 레벨 업 10번마다) · <code>rep_enhance</code>(강화 10번마다) · <code>rep_daily</code>(일일 미션 10개마다). 보상은 <code>13-보상-육성-꾸밈.md</code> §6 표.</p>\n<ul>\n<li>옛 <code>box_emptied</code>·<code>awaken4_&lt;종족&gt;</code> 은 <code>kuji_reset</code>·<code>level10_&lt;종족&gt;</code> 으로 바뀌었다(옛 저장의 달성은 옮긴다, <code>Data/convert_v9.json</code>).\n</li>\n<li>프로필 이미지는 확정 일러스트(영웅 24·전설 2)에서 얼굴을 잘라 쓴다.\n</li>\n<li>협동 첫 승리 업적은 협동이 들어올 때 더한다.\n</li></ul>\n<h3>5. 그림 제작량 (본 리소스 기준 추정)</h3>\n<div class=tw><table><thead><tr><th>묶음</th><th>장수</th></tr></thead><tbody><tr><td>수비 캐릭터 인게임</td><td>24</td></tr><tr><td>종족 일러스트</td><td>6</td></tr><tr><td>몬스터</td><td>20</td></tr><tr><td>맵 배경·타일</td><td>3~5</td></tr><tr><td>UI·아이콘</td><td>약 40 (대부분 코드 제작)</td></tr><tr><td>꾸밈(프로필 12, 프레임 8, 네임플레이트 8)</td><td>약 28 — CD-0007 은 새 그림 없이 기본 그림에 색만 입히고 얼굴은 기존 4단계 일러스트를 잘라 쓴다(그림 0장)</td></tr><tr><td><strong>Codex 로 뽑는 것 합계</strong></td><td><strong>약 80~90장</strong>, 재시도 30% 포함 약 105~120장</td></tr></tbody></table></div>\n<p>Codex 상한(5시간 20장, 7일 150장) 안에서 1주면 된다. 그 전까지는 전부 임시 그림으로 간다(<code>03-리소스계획.md</code> §7).</p>",
-"at": "2026-11-26 18:10",
+"html": "<ul>\n<li>작성: 2026-11-15 · 갱신: <strong>2026-11-17(CD-0015 · 결정 0049: «캐릭터» → «영웅», 단계 이름 일반·고급·희귀·영웅, §4 업적 1회성 19 + 반복 7)</strong> · 2026-11-16(CD-0007: §4 꾸밈·업적 목록, 용족 역할 글 · CD-0009: §2 몬스터 trait 한 줄 — 결정 0042 사용자 확인 대기) · 상태: 구성 확정(사용자: 6종족 × 4단계). 캐릭터 이름 확정(결정 0012). 몬스터·맵 이름은 가칭.\n</li>\n<li>이 목록이 그림 제작 목록(매니페스트)의 바탕이다. 다른 게임의 이름·디자인을 쓰지 않는다.\n</li>\n<li>«첫 목표» 열에 ●가 있는 것만 첫 번째 목표에서 동작한다. 나머지는 자리만 잡는다.\n</li></ul>\n<h3>1. 영웅 — 6종족 × 4단계 = 24명</h3>\n<ul>\n<li><strong>부르는 이름은 «영웅»</strong> 이다(결정 0049 1, 옛 «캐릭터»). 코드 식별자(<code>Character…</code>)는 그대로 둬도 된다.\n</li>\n<li><strong>단계 이름</strong>(결정 0049 2): 1단계 <strong>일반</strong> · 2단계 <strong>고급</strong> · 3단계 <strong>희귀</strong> · 4단계 <strong>영웅</strong>. 문서·데이터(<code>Data/heroes.json</code> <code>tiers</code>)의 이름이고 <strong>화면에는 등급 글자를 쓰지 않는다</strong> — 영웅 창은 단계별 구역과 배경으로만 구분한다(<code>13-보상-육성-꾸밈.md</code> §5-3). 아래 표의 «n단계» 열이 그 단계다.\n</li></ul>\n<p><strong>종족마다 한 인물이고 이름이 하나다</strong>(결정 0103, 2026-11-22 — 결정 0012 의 «네 단계는 서로 다른 인물» 을 고쳐 씀). 일반~영웅 네 단계는 같은 이름을 쓰고 앞의 <strong>칭호</strong>만 바뀐다. 화면 글자는 «칭호 이름»(예: «새순 든 아이 리엘»). 데이터는 <code>Data/units.json</code> 단계마다 <code>name</code>(네 단계 같음) + <code>title</code>. 해외판에서는 칭호를 뜻으로 옮기고 이름은 괄호의 로마자로 옮겨 적는다(괄호 안 영어 칭호는 초안).</p>\n<div class=tw><table><thead><tr><th>종족 (id)</th><th>성별</th><th>생김새</th><th>1단계</th><th>2단계</th><th>3단계</th><th>4단계</th><th>역할(초안, 바뀔 수 있음)</th><th>첫 목표</th></tr></thead><tbody><tr><td>인간 <code>human</code></td><td>남성</td><td>사람</td><td>솥뚜껑 소년 테오 (Pot Lid Boy Theo)</td><td>수습 문지기 테오 (Trainee Gatekeeper Theo)</td><td>관문 수비병 테오 (Gate Guard Theo)</td><td>철벽의 선임 테오 (Ironwall Senior Theo)</td><td>묵직한 단일</td><td>●</td></tr><tr><td>엘프 <code>elf</code></td><td>여성</td><td>뾰족한 귀</td><td>새순 든 아이 리엘 (Sprout Child Liel)</td><td>수습 숲지기 리엘 (Trainee Forest Keeper Liel)</td><td>숲 순찰자 리엘 (Forest Patroller Liel)</td><td>수비대 명궁 리엘 (Guard Marksman Liel)</td><td>긴 사거리 연사</td><td>●</td></tr><tr><td>드워프 <code>dwarf</code></td><td>남성</td><td>작고 다부진 몸, 큰 수염</td><td>광산 마을 꼬마 그론 (Mining Village Kid Gron)</td><td>수습 공병 그론 (Trainee Sapper Gron)</td><td>수비대 포병 그론 (Guard Cannoneer Gron)</td><td>선임 포격수 그론 (Senior Bombardier Gron)</td><td>범위 포격</td><td>●</td></tr><tr><td>수인 <code>beast</code></td><td>여성</td><td>스라소니의 귀(끝에 검은 털술)·짧은 꼬리·점무늬</td><td>귀 큰 새끼 카자 (Big Eared Cub Kaza)</td><td>어린 스라소니 카자 (Young Lynx Kaza)</td><td>갓 일어선 수인 카자 (Newly Risen Beastfolk Kaza)</td><td>수비대 척후 카자 (Guard Scout Kaza)</td><td>연타·치명타</td><td>●</td></tr><tr><td>정령 <code>spirit</code></td><td>여성</td><td>무채 유백색 기운과 연금색 핵. 사람 모양이 아니다</td><td>작은 기운 펠리 (Little Wisp Pheli)</td><td>모이는 기운 펠리 (Gathering Wisp Pheli)</td><td>가면 쓴 정령 펠리 (Masked Spirit Pheli)</td><td>물들지 않은 수호령 펠리 (Untinted Guardian Pheli)</td><td>감속 지원</td><td></td></tr><tr><td>용족 <code>dragon</code></td><td>여성</td><td>1~3단계는 온전한 용, 4단계만 사람 모습(뿔 한 쌍·등의 용 날개)</td><td>알 속 해츨링 라카 (Hatchling in the Egg Raka)</td><td>어린 용 라카 (Young Dragon Raka)</td><td>젊은 비룡 라카 (Young Wyvern Raka)</td><td>용창 기사 라카 (Dragon Lancer Raka)</td><td>관통·여파</td><td></td></tr></tbody></table></div>\n<ul>\n<li><strong>단계가 오를수록 칭호의 격이 높다:</strong> 1단계 풋내기·아이 → 2단계 견습 → 3단계 제 몫을 하는 사람 → 4단계 노련한 정예. 한 종족의 네 단계는 <strong>한 인물이 자라는 모습</strong>이고(결정 0103 · 단계의 축은 결정 0014), 종족의 배색과 생김새를 같이 쓴다. 칭호는 등급 글자(일반·고급 …)가 아니고 속성 낱말을 쓰지 않는다. 옛 이름 18개(2~4단계의 고유명)는 쓰지 않는다 — 목록은 결정 0103.\n</li>\n<li><strong>속성을 쓰지 않는다.</strong> 불·얼음·번개 같은 표현을 이름·그림·연출에 넣지 않는다. 용족의 지속 피해는 «여파» 다(옛 초안의 역할 글은 CD-0007 에서 고쳤다).\n</li>\n<li><strong>4단계 위는 «전설»(5단계, §1-1)</strong> 이다(결정 0060). 4단계까지는 장식을 절제한다(왕관·예복·빽빽한 문양 금지) — 가장 화려한 모습은 전설 몫이다.\n</li>\n<li>화풍만 통일한다: 일러스트는 셀화풍(결정 0013, <code>03-리소스계획.md</code> §8). 등신은 종족마다 달라도 된다. 이용 등급 목표는 12세. 4단계 일러스트 6장 확정본은 <code>art/final/illust/</code>.\n</li>\n<li>그림: 인물마다 <strong>옆모습 인게임 그림 1장</strong>(24장) + 종족마다 <strong>카드 일러스트 1장</strong>(6장, 4단계 기준) = 30장. 상위 성장의 그림 수는 기획 뒤에 더한다.\n</li>\n<li>이름 겹침 확인(2026-11-15, 영어 위주 웹 검색): 지어낸 이름 가운데 다른 작품의 인물과 같았던 7개를 바꿨다(미라엘→시레아, 엘라리엘→이실리아, 하르그림→할드레크, 울드가르→달그룬드, 키라→카자, 피나→펠리, 네리스→벨리사). 남은 주의: 리엘(덜 알려진 작품의 하프엘프와 같은 철자), 자야(다른 게임의 조연 NPC), 세드릭·레오폴드(흔한 실제 이름). 한국어 위키·상표 검색은 하지 않았다 → 출시 준비(M7) 때 다시 본다. (결정 0103 뒤로 쓰는 이름은 테오·리엘·그론·카자·펠리·라카 여섯뿐이다 — 이 줄의 2~4단계 이름은 옛 기록. 칭호 24개는 일반 낱말이라 겹침 검색을 하지 않았다.)\n</li></ul>\n<h3>1-1. 전설 — 5단계, 4단계에서 갈래 진화 (CD-0032 · 결정 0060)</h3>\n<ul>\n<li>판 안에서 4단계 영웅 하나 + 골드로 갈래 하나를 골라 진화한다(규칙 <code>11-규칙.md</code> §3-1, 수치 <code>Data/legends.json</code>). 종족마다 2~3갈래 예정, 지금은 인간 2명.\n</li>\n<li>단계 이름 «전설» 은 문서·데이터용이다. <strong>화면에는 «전설» 글자를 쓰지 않는다</strong>(결정 0049) — 이름·갈래 이름·금빛 테두리·연출로 구분한다.\n</li>\n<li>이름 규칙은 같다(고유명 한 단어, 종족 소리 결, 4단계보다 격 높게, 한 종족 안에서 첫소리가 겹치지 않게). 이름은 사용자가 확정한 뒤에만 이 표와 <code>Data/</code> 에 넣는다.\n</li></ul>\n<div class=tw><table><thead><tr><th>종족</th><th>갈래</th><th>이름</th><th>그 종족 4단계에서</th><th>스킬</th><th>상태</th></tr></thead><tbody><tr><td>인간 <code>human</code></td><td>검의 길</td><td>발데마르 (Waldemar)</td><td>철벽의 선임 테오 → 왕국 제일의 검사</td><td>대검 가르기 — 공격 5번마다 사거리 끝까지 검기, 줄 위 전부·방어 무시</td><td>이름 확정(2026-11-18) · 그림 확정(2026-11-19)</td></tr><tr><td>인간 <code>human</code></td><td>군주의 길</td><td>게르하르트 (Gerhard)</td><td>철벽의 선임 테오 → 연합의 군주</td><td>군주의 일격 — 적 4마리 이상이면 방패로 땅을 내리쳐 주변 전부 피해 + 멈춤</td><td>이름 확정(2026-11-18) · 그림 확정(2026-11-19)</td></tr></tbody></table></div>\n<ul>\n<li><strong>사거리는 전설마다 따로 정한다</strong>(CD-0124 · 결정 0105, 사용자 «전설 등급은 전설 등급 영웅 별로 다른 특징들을 가지고 있었으면 좋겠어»): 발데마르 160(20칸 — 검기가 사거리 끝까지라 멀리 벤다) · 게르하르트 100(8칸 — 곁을 지키는 군주, 일격 반경 190 은 따로). 새 전설도 <code>legends.json</code> 에 <code>range</code> 를 꼭 적는다(Core 시험 <code>EveryLegendHasItsOwnRange</code>).\n</li>\n<li>이름 겹침 검색(2026-11-18, 영어 웹 검색): 발데마르 — 한 게임의 이름 없는 조연 NPC 의 이름과 같음(주요 인물 아님) · 게르하르트 — 덜 알려진 소설의 조연과 같음. 버린 후보: 아달베르트(유명 게임의 기사 Adelbert 와 거의 같음), 에버하르트(에단과 첫소리 ㅇ 겹침), 하드리안(소설 주인공). 한국어 위키·상표 검색은 하지 않았다(M7).\n</li>\n<li>나머지 10명의 갈래 방향(이름 전): CD-0032 <code>10-spec.md</code> §2-3.\n</li></ul>\n<h3>2. 몬스터</h3>\n<p>적은 «그림자 균열에서 쏟아지는 무리» 다(결정 0011). 유형의 뜻은 <code>11-규칙.md</code> §8. 수치는 <code>Data/monsters.json</code>·<code>Data/bounty.json</code>.</p>\n<h4>2-1. 그림자 무리 — 웨이브 몬스터 7종 (CD-0005 4종 + CD-0009 3종)</h4>\n<ul>\n<li>CD-0036(결정 0064 6): 스테이지 세트에는 <strong>비행(그림자 날개)이 나오지 않는다</strong>(데이터는 남김). 한 웨이브에 1종, 보스 웨이브는 보스 1마리뿐. 맵 1 은 1-1 졸개 → 1-2 추적자 → 1-3 떼 → 1-4 방패병 → 1-5 응어리 차례로 종이 늘고 1-6 부터 다섯이 돈다(<code>11-규칙.md</code> §6).\n</li></ul>\n<p>가족 <code>shadow</code>(그림자 무리). 그림은 옆모습(오른쪽)이고 <strong>검은 몸에 파랑 형광 포인트</strong>(눈이 가장 밝고, 가슴 금·주먹 이음매·뿔·무기 끝 같은 작은 점만 빛난다), 영웅보다 키는 작고 폭은 넓은 컴팩트하고 위압적인 덩치, 단단한 외곽에 정해진 곳(머리 위·어깨·등·발목 뒤)만 일렁이는 그림자 조각이다(결정 0131 — 0053 의 청록 발광선을 바꿈, CD-0180. 현상금 6장은 아직 0053 그림). 카드의 특징 한 줄은 <code>monsters.json</code> <code>trait</code>(데이터가 정본).</p>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>유형</th><th>역할</th><th>특징 한 줄(<code>trait</code>)</th><th>그림</th><th>나오는 웨이브</th></tr></thead><tbody><tr><td><code>shadow_grunt</code></td><td>그림자 졸개</td><td>일반</td><td>기준. 수가 가장 많다</td><td>균열에서 갓 나온 그림자</td><td>자기 그림</td><td>1~</td></tr><tr><td><code>shadow_runner</code></td><td>그림자 추적자</td><td>질주</td><td>빠르고 약하다. 사거리 짧은 캐릭터를 지나친다</td><td>발소리 없이 빠르게 쫓는다</td><td>자기 그림</td><td>6~</td></tr><tr><td><code>shadow_guard</code></td><td>그림자 방패병</td><td>중장</td><td>느리고 단단하다(방어). 약한 한 방은 깎인다</td><td>그림자 방패로 피해를 깎는다</td><td>자기 그림</td><td>7~</td></tr><tr><td><code>shadow_behemoth</code></td><td>균열의 거수</td><td>보스</td><td>체력이 매우 많고 느리다. 놓치면 목숨 5</td><td>균열을 지키는 거대한 짐승</td><td>자기 그림</td><td>10, 20</td></tr><tr><td><code>shadow_swarm</code></td><td>그림자 떼</td><td>무리</td><td>작고 약한 것이 4마리씩 몰려온다. 범위 공격이 잘 듣는다</td><td>작은 그림자가 한꺼번에 몰려온다</td><td>자기 그림(가시 등의 작은 네발 기는 놈) · 90%</td><td>4~(어려움·정예 6~)</td></tr><tr><td><code>shadow_flier</code></td><td>그림자 날개</td><td>비행</td><td>지름길로 날아온다. 지름길 옆 칸이 잘 잡는다</td><td>길을 건너질러 날아온다</td><td>자기 그림(찢긴 막 날개의 비행 마물) · 크기 <code>view.scalePct</code> · 0.45칸 떠 있음</td><td>12~</td></tr><tr><td><code>shadow_mender</code></td><td>그림자 응어리</td><td>재생</td><td>맞지 않으면 체력이 찬다. 꾸준히 때려야 한다</td><td>맞지 않으면 상처가 아문다</td><td>자기 그림(청록 실로 꿰맨 사슬 거한) · 100%</td><td>13~</td></tr></tbody></table></div>\n<ul>\n<li>1~3웨이브는 졸개만 나온다. 4웨이브에 떼, 6웨이브부터 추적자와 방패병, 12웨이브에 날개, 13웨이브에 응어리가 처음 섞인다. 10·20 웨이브는 거수 1마리와 졸개(10웨이브는 새 유형 없음).\n</li>\n<li>새 3종은 처음엔 기존 그림을 크기·색조로 변형해 썼고(결정 0042 초안), CD-0022 에서 고유 그림을 넣었다(결정 0050, <code>view.art</code> — 화면 전용). 색조 칸은 결정 0045 이후 0 이다(셰이더가 검게 칠한다). 이름·특징 글은 결정 0042 와 함께 사용자 확인 대기.\n</li>\n<li>옛 20종(고블린·오크·언데드·마수·마족, 아래 표)은 <code>Data/monsters.json</code> 에 남아 있지만 새 세트는 쓰지 않는다.\n</li></ul>\n<h4>2-2. 현상금 — 이름 있는 몬스터 6종</h4>\n<p>같은 무리의 «이름 있는» 개체다. 몬스터 카드에서 유형 이름은 «현상금»(<code>bounty.json</code> <code>typeName</code>), 특징 한 줄은 아래 «화면 특징» 열(<code>trait</code>)이다. 판 안에서 «현상금» 으로 불러내 잡으면 골드를 준다(<code>11-규칙.md</code> §11). 그림 이름표는 <code>monster/bounty_N</code>, 실루엣이 서로 달라야 한다.</p>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>체력(CD-0025 에서 10배)</th><th>속도</th><th>방어(10배)</th><th>보상(골드, 결정 0065)</th><th>열리는 때(CD-0171)</th><th>화면 특징</th></tr></thead><tbody><tr><td><code>bounty_1</code></td><td>좀도둑 그림자</td><td>6,000</td><td>100%</td><td>0</td><td>40</td><td>판 시작부터(웨이브 0)</td><td>가장 만만함</td></tr><tr><td><code>bounty_2</code></td><td>발 빠른 약탈자</td><td>9,000</td><td>160%</td><td>0</td><td>80</td><td>좀도둑 그림자를 잡은 뒤</td><td>아주 빠름</td></tr><tr><td><code>bounty_3</code></td><td>무쇠 등껍질</td><td>20,000</td><td>70%</td><td>60</td><td>200</td><td>발 빠른 약탈자를 잡은 뒤</td><td>방어가 높음</td></tr><tr><td><code>bounty_4</code></td><td>굶주린 큰입</td><td>45,000</td><td>90%</td><td>20</td><td>350</td><td>무쇠 등껍질을 잡은 뒤</td><td>묵직한 체력</td></tr><tr><td><code>bounty_5</code></td><td>균열 파수꾼</td><td>90,000</td><td>60%</td><td>40</td><td>500</td><td>굶주린 큰입을 잡은 뒤</td><td>느린 거구</td></tr><tr><td><code>bounty_6</code></td><td>그림자 수괴</td><td>200,000</td><td>70%</td><td>80</td><td>800</td><td>균열 파수꾼을 잡은 뒤</td><td>가장 단단함</td></tr></tbody></table></div>\n<p>옛 «열리는 웨이브» 1·3·5·8·12·16 은 CD-0171 에서 «앞 현상금을 잡으면 열림» 으로 바뀌었다(<code>11-규칙.md</code> §11). 숫자의 정본은 <code>Data/bounty.json</code>.</p>\n<h4>2-3. 옛 초안 — 5군단 20종 (쓰지 않음)</h4>\n<blockquote>결정 0011 이전의 초안이다. 새 세트는 쓰지 않고, 데이터에는 남겨 두었다. 옛 첫 목표 세트는 CD-0028 에서 데이터에서 지웠다.</blockquote>\n<div class=tw><table><thead><tr><th>군단 (id)</th><th>일반 계열</th><th>특수 1</th><th>특수 2</th><th>보스</th><th>첫 목표</th></tr></thead><tbody><tr><td>고블린 <code>goblin</code></td><td>고블린 졸개(일반)</td><td>고블린 떼(무리)</td><td>늑대 기수(질주)</td><td>고블린 대족장</td><td>● 졸개만</td></tr><tr><td>오크 <code>orc</code></td><td>오크 전사(일반)</td><td>철갑 오크(중장)</td><td>오크 돌격병(질주)</td><td>오크 전쟁군주</td><td></td></tr><tr><td>언데드 <code>undead</code></td><td>해골 병사(일반)</td><td>썩은 거인(재생)</td><td>해골 무리(무리)</td><td>망자의 왕</td><td></td></tr><tr><td>마수 <code>fiend</code></td><td>가시 멧돼지(중장)</td><td>박쥐 떼(비행·무리)</td><td>그림자 표범(질주)</td><td>삼두 마수</td><td></td></tr><tr><td>마족 <code>demon</code></td><td>임프(비행)</td><td>지옥 기사(중장)</td><td>재생 악령(재생)</td><td>심연의 군주</td><td></td></tr></tbody></table></div>\n<ul>\n<li>일반 몬스터 15종 + 보스 5종. 웨이브 구간마다 한 군단이 주로 나온다(초안: 6웨이브씩).\n</li>\n<li>카드에 보이는 특징 한 줄(\trait, 데이터 Data/monsters.json 이 정본 — 스크립트로 옮긴 것):\n</li></ul>\n<div class=tw><table><thead><tr><th>id</th><th>이름</th><th>유형</th><th>특징 한 줄(<code>trait</code>)</th></tr></thead><tbody><tr><td><code>goblin_grunt</code></td><td>고블린 졸개</td><td>일반</td><td>가장 흔한 그림자 무리 졸개</td></tr><tr><td><code>goblin_pack</code></td><td>고블린 떼</td><td>무리</td><td>몸은 약하지만 떼로 몰려온다</td></tr><tr><td><code>goblin_rider</code></td><td>늑대 기수</td><td>질주</td><td>늑대를 타고 빠르게 달린다</td></tr><tr><td><code>goblin_chief</code></td><td>고블린 대족장</td><td>보스</td><td>고블린을 이끄는 큰 우두머리</td></tr><tr><td><code>orc_warrior</code></td><td>오크 전사</td><td>일반</td><td>단단한 몸으로 꾸준히 걷는다</td></tr><tr><td><code>orc_ironclad</code></td><td>철갑 오크</td><td>중장</td><td>두꺼운 철갑이 피해를 깎는다</td></tr><tr><td><code>orc_charger</code></td><td>오크 돌격병</td><td>질주</td><td>앞만 보고 빠르게 돌진한다</td></tr><tr><td><code>orc_warlord</code></td><td>오크 전쟁군주</td><td>보스</td><td>오크를 호령하는 전쟁의 주인</td></tr><tr><td><code>undead_skeleton</code></td><td>해골 병사</td><td>일반</td><td>뼈만 남은 채 줄지어 걷는다</td></tr><tr><td><code>undead_giant</code></td><td>썩은 거인</td><td>재생</td><td>입은 상처가 조금씩 아문다</td></tr><tr><td><code>undead_horde</code></td><td>해골 무리</td><td>무리</td><td>약한 해골이 무리 지어 온다</td></tr><tr><td><code>undead_king</code></td><td>망자의 왕</td><td>보스</td><td>망자를 거느린 왕, 체력이 많다</td></tr><tr><td><code>fiend_boar</code></td><td>가시 멧돼지</td><td>중장</td><td>가시 가죽이 피해를 깎는다</td></tr><tr><td><code>fiend_bats</code></td><td>박쥐 떼</td><td>비행</td><td>날아서 길을 질러 온다</td></tr><tr><td><code>fiend_panther</code></td><td>그림자 표범</td><td>질주</td><td>그림자 속을 빠르게 달린다</td></tr><tr><td><code>fiend_cerberus</code></td><td>삼두 마수</td><td>보스</td><td>머리 셋 달린 거대한 마수</td></tr><tr><td><code>demon_imp</code></td><td>임프</td><td>비행</td><td>작은 날개로 길을 질러 온다</td></tr><tr><td><code>demon_knight</code></td><td>지옥 기사</td><td>중장</td><td>무거운 갑옷의 느린 기사</td></tr><tr><td><code>demon_wraith</code></td><td>재생 악령</td><td>재생</td><td>입은 상처를 천천히 되돌린다</td></tr><tr><td><code>demon_lord</code></td><td>심연의 군주</td><td>보스</td><td>심연에서 온 마족의 군주</td></tr></tbody></table></div>\n<ul>\n<li>그림: 종마다 옆모습 1장(20장). 보스는 크게 그린다.\n</li></ul>\n<h3>3. 맵</h3>\n<div class=tw><table><thead><tr><th>id</th><th>이름(가칭)</th><th>구성</th><th>첫 목표</th></tr></thead><tbody><tr><td><code>gate_03</code></td><td>목책 관문</td><td>화면 폭 8칸. 1인 캔버스 8×9(들판 2줄 + 큰길 2줄 + 내 영역 8×5, 길 22.0칸), 1인 배치만(2인은 협동 맵 <code>coop_2p</code> — 8×12 위아래 거울 영역 둘 + 가운데 큰길 2줄, 한 줄 길 19.5칸, 결정 0077). 사람당 영역 8×5 = 소환 칸 24 + 길 12 + 장식 칸(망루 자리) 4, 소환 칸 24 = 3×2 덩어리 «진지» 넷(<code>11-규칙.md</code> §1, CD-0030 결정 0059). 그림: 풀밭·흙길은 지금 그림(<code>viewArt</code> <code>map/gate_01</code>), 데크·테두리·목책·망루 기둥·망루는 <code>map/fort/*</code> 5장(<code>viewFort</code>, 후속 art — 그림이 없으면 데크 없이 그린다). 이름은 사용자 확인됨(2026-11-18, id <code>gate_03</code> 그대로)</td><td>● 1인 배치</td></tr><tr><td><code>gate_04</code></td><td>갈대 관문</td><td>맵 2(CD-0036 · 결정 0064, 이름·배치는 기획 초안 — 사용자 취침 중 권장안 2026-11-20, 사용자 확인 전 · 겹침 검색 안 함). 같은 규격(1인 8×9 길 22.0칸 · 영역 = 소환 칸 24 + 길 12 + 망루 자리 4). 덩어리 4×2 · 2×2 · 3×2 · 3×2(크기를 섞음), 영역 안 길이 계단꼴로 세로 두 번 꺾인다. 그림 <code>viewArt</code> <code>map/gate_04</code>(물가 풀밭·젖은 흙길·갈대·돌), 진지 조각 <code>map/fort</code> 같음. 스테이지 2-1~2-10(30웨이브). 1인 배치만</td><td>● 1인 배치</td></tr><tr><td><code>coop_2p</code></td><td>협동 2인 맵</td><td><strong>결정 0126 에서 «가운데 성채 나선» 9×15 · 180° 회전 · 길 29칸 · 공중 43% · 카메라 9×12 로 바뀜(데이터 반영은 개발 주문 — 아래는 지금 데이터)</strong>. 결정 0077. 2인 배치 하나(8×12 위아래 거울 · 길 19.5칸 · 주문 전 <code>gate_03</code> 의 2인 배치와 같은 값). 그림 <code>viewArt</code> <code>map/gate_01</code> · <code>viewFort</code> <code>map/fort</code> · <code>viewTint</code> 없음. 난이도는 맵이 아니라 색조만(<code>mapindex.json</code> <code>difficulties</code>)</td><td>협동 방(M4)</td></tr><tr><td><code>coop_3p</code> · <code>coop_4p</code></td><td>협동 3·4인 맵</td><td>결정 0077. 임시 초안 틀(영역 8×5 를 세로로 쌓고 큰길 두 줄 — 사용자가 맵툴로 덮어쓴다). 자료가 읽히고 검사를 통과하는 데까지, 판 진행은 M5</td><td>3·4인 판(M5)</td></tr></tbody></table></div>\n<ul>\n<li>맵 1 <code>gate_03</code> 은 <strong>튜토리얼 맵</strong>이다(스테이지 1-1~1-10, 10웨이브 — 결정 0064). 맵을 다 깨면 맵 2 의 2-1 로 간다. <strong>[CD-0053 · 결정 0080 에서 바뀜]</strong> 스테이지 <strong>1-1~1-6</strong>(웨이브 6·8·8·8·8·10, 보스 = 마지막 웨이브). <strong>[CD-0075 에서 바뀜]</strong> 웨이브 <strong>6·6·8·8·8·10</strong>(1-2 가 8 → 6웨이브, 보스 = 웨이브 6).\n</li>\n<li>옛 맵 둘(<code>숲길 관문</code>·<code>바윗골 관문</code>)은 CD-0028 에서 지웠다. 그 단계를 새 단계로 잇던 <code>stages.json</code> <code>legacyIds</code> 는 CD-0036 에서 지웠다(저장 v13 은 옛 저장을 전부 초기화한다).\n</li>\n<li>덩어리 «관문 앞»·«둑»·«입구»·«뒤뜰» 의 뜻(설계 의도)은 주문 기획서(<code>studio/orders/CD-0028-…/10-spec.md</code> §3)에 있다.\n</li></ul>\n<h3>4. 꾸밈과 업적</h3>\n<p>꾸밈 <strong>36개 = 기본 3 + 기준 세트 33</strong>(CD-0062 · 결정 0086 — 옛 22개를 새로 짰다, 결정 0049 «꾸밈은 업적뿐» 대체 · 전설 기본 초상 해금=보유는 사용자 확인 대기). 업적은 <strong>1회성 19 + 반복 7</strong>(결정 0049 13) 이고 <strong>재화만</strong> 준다 — 꾸밈은 업적이 아니라 <code>Data/cosmetics.json</code> 의 <code>unlock</code> 조건으로 열린다(영웅 레벨·전설·계정 레벨·우편). 규칙과 이유는 <code>13-보상-육성-꾸밈.md</code> §6, 결정 <code>0086</code>.</p>\n<div class=tw><table><thead><tr><th>종류</th><th>설명</th><th>수</th><th>얻는 길</th></tr></thead><tbody><tr><td>프로필 이미지</td><td>기본 1 + 영웅 24(그 영웅 이름·확정 일러스트 크롭) + 전설 2 + 전설 «+10» 2</td><td>29</td><td>기본은 처음부터 · 영웅은 그 영웅 <strong>Lv.30</strong> · 전설은 <strong>보유</strong> · «+10» 은 그 전설 <strong>초월 +10</strong></td></tr><tr><td>프레임</td><td>기본 1 + 청동·은빛·금빛·플래티넘 4</td><td>5</td><td>기본은 처음부터 · 계정 <strong>Lv.10 · 30 · 60 · 100</strong></td></tr><tr><td>네임플레이트</td><td>기본 1 + 새싹 명패(임시 이름) 1</td><td>2</td><td>기본은 처음부터 · 새싹 명패는 우편 «환영 선물»(1-5 클리어)</td></tr></tbody></table></div>\n<h4>4-1. 꾸밈 36개 (기본 3 + 기준 세트 33)</h4>\n<p><code>Data/cosmetics.json</code> 이 정본이다(조건 숫자 30·10·30·60·100·+10 도 거기에만). 영웅 이름은 <code>units.json</code>, 전설 이름은 <code>legends.json</code> 과 같다. «+10» 초상은 화면이 이름 뒤에 «+10» 을 붙이고 데이터 이름은 전설 이름 그대로다.</p>\n<div class=tw><table><thead><tr><th>#</th><th>종류</th><th>id</th><th>이름</th><th>그림 이름표</th><th>얻는 길</th></tr></thead><tbody><tr><td>1</td><td>프로필 이미지</td><td><code>default</code></td><td>기본</td><td><code>ui/profile_default</code></td><td>처음부터</td></tr><tr><td>2</td><td>프레임</td><td><code>default</code></td><td>기본 테</td><td><code>ui/frame_default</code></td><td>처음부터</td></tr><tr><td>3</td><td>네임플레이트</td><td><code>default</code></td><td>기본 명패</td><td><code>ui/nameplate_default</code></td><td>처음부터</td></tr><tr><td>4</td><td>프로필 이미지</td><td><code>face_human_1</code></td><td>솥뚜껑 소년 테오</td><td><code>illust/human/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>5</td><td>프로필 이미지</td><td><code>face_human_2</code></td><td>수습 문지기 테오</td><td><code>illust/human/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>6</td><td>프로필 이미지</td><td><code>face_human_3</code></td><td>관문 수비병 테오</td><td><code>illust/human/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>7</td><td>프로필 이미지</td><td><code>face_human_4</code></td><td>철벽의 선임 테오</td><td><code>illust/human/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>8</td><td>프로필 이미지</td><td><code>face_elf_1</code></td><td>새순 든 아이 리엘</td><td><code>illust/elf/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>9</td><td>프로필 이미지</td><td><code>face_elf_2</code></td><td>수습 숲지기 리엘</td><td><code>illust/elf/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>10</td><td>프로필 이미지</td><td><code>face_elf_3</code></td><td>숲 순찰자 리엘</td><td><code>illust/elf/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>11</td><td>프로필 이미지</td><td><code>face_elf_4</code></td><td>수비대 명궁 리엘</td><td><code>illust/elf/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>12</td><td>프로필 이미지</td><td><code>face_dwarf_1</code></td><td>광산 마을 꼬마 그론</td><td><code>illust/dwarf/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>13</td><td>프로필 이미지</td><td><code>face_dwarf_2</code></td><td>수습 공병 그론</td><td><code>illust/dwarf/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>14</td><td>프로필 이미지</td><td><code>face_dwarf_3</code></td><td>수비대 포병 그론</td><td><code>illust/dwarf/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>15</td><td>프로필 이미지</td><td><code>face_dwarf_4</code></td><td>선임 포격수 그론</td><td><code>illust/dwarf/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>16</td><td>프로필 이미지</td><td><code>face_beast_1</code></td><td>귀 큰 새끼 카자</td><td><code>illust/beast/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>17</td><td>프로필 이미지</td><td><code>face_beast_2</code></td><td>어린 스라소니 카자</td><td><code>illust/beast/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>18</td><td>프로필 이미지</td><td><code>face_beast_3</code></td><td>갓 일어선 수인 카자</td><td><code>illust/beast/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>19</td><td>프로필 이미지</td><td><code>face_beast_4</code></td><td>수비대 척후 카자</td><td><code>illust/beast/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>20</td><td>프로필 이미지</td><td><code>face_spirit_1</code></td><td>작은 기운 펠리</td><td><code>illust/spirit/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>21</td><td>프로필 이미지</td><td><code>face_spirit_2</code></td><td>모이는 기운 펠리</td><td><code>illust/spirit/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>22</td><td>프로필 이미지</td><td><code>face_spirit_3</code></td><td>가면 쓴 정령 펠리</td><td><code>illust/spirit/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>23</td><td>프로필 이미지</td><td><code>face_spirit_4</code></td><td>물들지 않은 수호령 펠리</td><td><code>illust/spirit/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>24</td><td>프로필 이미지</td><td><code>face_dragon_1</code></td><td>알 속 해츨링 라카</td><td><code>illust/dragon/1</code></td><td>그 영웅 Lv.30</td></tr><tr><td>25</td><td>프로필 이미지</td><td><code>face_dragon_2</code></td><td>어린 용 라카</td><td><code>illust/dragon/2</code></td><td>그 영웅 Lv.30</td></tr><tr><td>26</td><td>프로필 이미지</td><td><code>face_dragon_3</code></td><td>젊은 비룡 라카</td><td><code>illust/dragon/3</code></td><td>그 영웅 Lv.30</td></tr><tr><td>27</td><td>프로필 이미지</td><td><code>face_dragon_4</code></td><td>용창 기사 라카</td><td><code>illust/dragon/4</code></td><td>그 영웅 Lv.30</td></tr><tr><td>28</td><td>프로필 이미지</td><td><code>face_legend_human_waldemar</code></td><td>발데마르</td><td><code>illust/legend/human_waldemar</code></td><td>그 전설을 보유(스테이지 클리어로 해금)</td></tr><tr><td>29</td><td>프로필 이미지</td><td><code>face_legend_human_gerhard</code></td><td>게르하르트</td><td><code>illust/legend/human_gerhard</code></td><td>그 전설을 보유(스테이지 클리어로 해금)</td></tr><tr><td>30</td><td>프로필 이미지</td><td><code>face_legend_human_waldemar_t10</code></td><td>발데마르</td><td><code>illust/legend/human_waldemar_t10</code></td><td>그 전설 초월 +10</td></tr><tr><td>31</td><td>프로필 이미지</td><td><code>face_legend_human_gerhard_t10</code></td><td>게르하르트</td><td><code>illust/legend/human_gerhard_t10</code></td><td>그 전설 초월 +10</td></tr><tr><td>32</td><td>프레임</td><td><code>frame_bronze</code></td><td>청동 테</td><td><code>ui/frame_bronze</code></td><td>계정 Lv.10</td></tr><tr><td>33</td><td>프레임</td><td><code>frame_silver</code></td><td>은빛 테</td><td><code>ui/frame_silver</code></td><td>계정 Lv.30</td></tr><tr><td>34</td><td>프레임</td><td><code>frame_gold</code></td><td>금빛 테</td><td><code>ui/frame_gold</code></td><td>계정 Lv.60</td></tr><tr><td>35</td><td>프레임</td><td><code>frame_plat</code></td><td>플래티넘 테</td><td><code>ui/frame_plat</code></td><td>계정 Lv.100</td></tr><tr><td>36</td><td>네임플레이트</td><td><code>plate_welcome</code></td><td>새싹 명패</td><td><code>ui/plate_welcome</code></td><td>우편으로 받으면(환영 선물, 1-5 클리어)</td></tr></tbody></table></div>\n<ul>\n<li>새 그림(draft): <code>ui/frame_bronze|silver|gold|plat</code> · <code>ui/plate_welcome</code> · <code>illust/legend/human_waldemar_t10</code>·<code>human_gerhard_t10</code>. 초상 24장·전설 2장은 확정 일러스트를 잘라 쓴다(그림 0장 추가). 프레임·명패는 이제 색을 입히지 않는다(<code>tint</code> 전부 null).\n</li>\n<li>옛 22개 중 지워진 것: 승리·쿠지·토벌 명패, 종족 명패 6, 보랏빛 테. id 가 같은 채 규칙이 바뀐 것: 종족 4단계 초상 6(<code>face_&lt;종족&gt;_4</code> → 그 영웅 Lv.30)·청동·은빛·금빛 테(업적 → 계정 레벨). 옛 저장의 옛 id 는 무시되고 기본으로 보인다.\n</li></ul>\n<h4>4-2. 업적 — 1회성 19 · 반복 7</h4>\n<p>1회성(달성하면 한 번, 재화만 — CD-0062 부터 꾸밈은 주지 않는다):</p>\n<div class=tw><table><thead><tr><th>#</th><th>id</th><th>이름</th><th>조건</th><th>재화</th></tr></thead><tbody><tr><td>1</td><td><code>first_win</code></td><td>처음으로 이기기</td><td>승리 1번</td><td>쿠지 티켓 5</td></tr><tr><td>2</td><td><code>stage4_first</code></td><td>4단계 영웅 처음 만들기</td><td>판 안 4단계 처음</td><td>쿠지 티켓 5</td></tr><tr><td>3~8</td><td><code>stage4_&lt;종족&gt;</code></td><td>(종족) 4단계 만들기</td><td>그 종족 4단계를 판 안에서</td><td>균열석 1</td></tr><tr><td>9</td><td><code>flawless_win</code></td><td>목숨을 잃지 않고 이기기</td><td>목숨을 안 잃고 승리</td><td>쿠지 티켓 5</td></tr><tr><td>10</td><td><code>kuji_reset</code></td><td>쿠지 판 새로 열기</td><td>상위상을 모두 뽑아 새 판 1번</td><td>쿠지 티켓 5</td></tr><tr><td>11~16</td><td><code>level10_&lt;종족&gt;</code></td><td>(종족) 영웅 레벨 10</td><td>그 종족 영웅 하나를 레벨 10</td><td>균열석 2</td></tr><tr><td>17</td><td><code>kills_1000</code></td><td>적 1,000 처치하기</td><td>누적 처치</td><td>은화 500</td></tr><tr><td>18</td><td><code>kills_5000</code></td><td>적 5,000 처치하기</td><td>누적 처치</td><td>은화 1,000</td></tr><tr><td>19</td><td><code>kills_20000</code></td><td>적 20,000 처치하기</td><td>누적 처치</td><td>은화 2,000</td></tr></tbody></table></div>\n<p>반복(누적이 step 의 배수에 닿을 때마다, 재화만): <code>rep_wins</code>(승리 5번마다) · <code>rep_matches</code>(판 10번마다) · <code>rep_kills</code>(처치 1,000마다) · <code>rep_kuji</code>(쿠지 50장마다) · <code>rep_hero_level</code>(영웅 레벨 업 10번마다) · <code>rep_enhance</code>(강화 10번마다) · <code>rep_daily</code>(일일 미션 10개마다). 보상은 <code>13-보상-육성-꾸밈.md</code> §6 표.</p>\n<ul>\n<li>옛 <code>box_emptied</code>·<code>awaken4_&lt;종족&gt;</code> 은 <code>kuji_reset</code>·<code>level10_&lt;종족&gt;</code> 으로 바뀌었다(옛 저장의 달성은 옮긴다, <code>Data/convert_v9.json</code>).\n</li>\n<li>프로필 이미지는 확정 일러스트(영웅 24·전설 2)에서 얼굴을 잘라 쓴다.\n</li>\n<li>협동 첫 승리 업적은 협동이 들어올 때 더한다.\n</li></ul>\n<h3>5. 그림 제작량 (본 리소스 기준 추정)</h3>\n<div class=tw><table><thead><tr><th>묶음</th><th>장수</th></tr></thead><tbody><tr><td>수비 캐릭터 인게임</td><td>24</td></tr><tr><td>종족 일러스트</td><td>6</td></tr><tr><td>몬스터</td><td>20</td></tr><tr><td>맵 배경·타일</td><td>3~5</td></tr><tr><td>UI·아이콘</td><td>약 40 (대부분 코드 제작)</td></tr><tr><td>꾸밈(프로필 12, 프레임 8, 네임플레이트 8)</td><td>약 28 — CD-0007 은 새 그림 없이 기본 그림에 색만 입히고 얼굴은 기존 4단계 일러스트를 잘라 쓴다(그림 0장)</td></tr><tr><td><strong>Codex 로 뽑는 것 합계</strong></td><td><strong>약 80~90장</strong>, 재시도 30% 포함 약 105~120장</td></tr></tbody></table></div>\n<p>Codex 상한(5시간 20장, 7일 150장) 안에서 1주면 된다. 그 전까지는 전부 임시 그림으로 간다(<code>03-리소스계획.md</code> §7).</p>",
+"at": "2026-11-26 18:55",
 "branch": "cd-180",
 "dirty": false
 },
@@ -18620,9 +18419,9 @@
 }
 }
 },
-"at": "2026-11-26 18:46",
-"branch": "cd-182",
-"dirty": true
+"at": "2026-11-26 18:50",
+"branch": "main",
+"dirty": false
 },
 "maps": {
 "data": {
@@ -18651,25 +18450,25 @@
 50,
 48,
 140,
-"#C77DFF"
+"#3FE0D0"
 ],
 [
 81,
 123,
 70,
-"#B05CFF"
+"#2BB5A8"
 ],
 [
 124,
 192,
 70,
-"#B05CFF"
+"#2BB5A8"
 ],
 [
 218,
 210,
 70,
-"#B05CFF"
+"#2BB5A8"
 ],
 [
 377,
@@ -18797,25 +18596,25 @@
 55,
 70,
 140,
-"#C77DFF"
+"#3FE0D0"
 ],
 [
 72,
 95,
 70,
-"#B05CFF"
+"#2BB5A8"
 ],
 [
 30,
 105,
 70,
-"#B05CFF"
+"#2BB5A8"
 ],
 [
 120,
 58,
 70,
-"#B05CFF"
+"#2BB5A8"
 ],
 [
 652,
@@ -19654,19 +19453,19 @@
 348,
 48,
 140,
-"#C77DFF"
+"#3FE0D0"
 ],
 [
 300,
 20,
 70,
-"#B05CFF"
+"#2BB5A8"
 ],
 [
 400,
 70,
 70,
-"#B05CFF"
+"#2BB5A8"
 ],
 [
 202,
@@ -19965,9 +19764,9 @@
 }
 ]
 },
-"at": "2026-11-26 18:45",
-"branch": "cd-182",
-"dirty": true
+"at": "2026-11-26 19:09",
+"branch": "main",
+"dirty": false
 },
 "missions": {
 "data": {
@@ -20985,7 +20784,7 @@
 {
 "id": "monster",
 "title": "몬스터(그림자 무리) 16",
-"note": "검은 실루엣·청록 발광선·검은 연기의 SD 무장 병사와 짐승(결정 0053, CD-0022). Codex 시안을 유니티 Art/Temp 에 넣어 쓰는 중(사용자 확정 전). 옛 초안 20종(고블린·오크…)은 쓰지 않는다"
+"note": "웨이브 몬스터 10장 = 검은 몸 + 파랑 형광 포인트(눈이 가장 밝음)의 컴팩트하고 위압적인 무리(결정 0131, CD-0180). 현상금 6장은 아직 검은 실루엣·청록 발광선(결정 0053, CD-0022). Codex 시안을 유니티 Art/Temp 에 넣어 쓰는 중(사용자 확정 전). 옛 초안 20종(고블린·오크…)은 쓰지 않는다"
 },
 {
 "id": "map",
@@ -21640,7 +21439,7 @@
 "id": "monster/shadow_grunt",
 "group": "monster",
 "title": "그림자 졸개",
-"brief": "보병: 찌그러진 반갑옷, 슬릿 투구, 이 빠진 짧은 검 (CD-0022, 결정 0053)",
+"brief": "보병: 컴팩트한 검은 갑주 거한, 뿔 반투구, 가시 철퇴, 등에 그림자 망토 조각 (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_grunt",
 "status": "temp",
 "hasFile": true
@@ -21649,7 +21448,7 @@
 "id": "monster/shadow_grunt_b",
 "group": "monster",
 "title": "그림자 졸개 변형 b",
-"brief": "보병 변형: 두건 쓴 키 큰 창병, 찢긴 짧은 망토 (CD-0022, 결정 0053)",
+"brief": "보병 변형: 두건 쓴 창병 (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_grunt_b",
 "status": "temp",
 "hasFile": true
@@ -21658,7 +21457,7 @@
 "id": "monster/shadow_grunt_c",
 "group": "monster",
 "title": "그림자 졸개 변형 c",
-"brief": "보병 변형: 땅딸막, 둥근 투구, 작은 방패와 손도끼 (CD-0022, 결정 0053)",
+"brief": "보병 변형: 코가리개 둥근 투구, 작은 방패와 손도끼 (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_grunt_c",
 "status": "temp",
 "hasFile": true
@@ -21667,7 +21466,7 @@
 "id": "monster/shadow_grunt_d",
 "group": "monster",
 "title": "그림자 졸개 변형 d",
-"brief": "보병 변형: 몸을 숙인 척후병, 두 단검 (CD-0022, 결정 0053)",
+"brief": "보병 변형: 두건 쓴 척후병, 굽은 단검 둘 (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_grunt_d",
 "status": "temp",
 "hasFile": true
@@ -21676,7 +21475,7 @@
 "id": "monster/shadow_runner",
 "group": "monster",
 "title": "그림자 추적자",
-"brief": "낮게 달리는 그림자 사냥개 (CD-0022, 결정 0053)",
+"brief": "추적자: 목이 굵은 그림자 사냥개, 낮게 질주 (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_runner",
 "status": "temp",
 "hasFile": true
@@ -21685,7 +21484,7 @@
 "id": "monster/shadow_guard",
 "group": "monster",
 "title": "그림자 방패병",
-"brief": "두꺼운 판갑, 큰 탑 방패 위로 눈빛 (CD-0022, 결정 0053)",
+"brief": "방패병: 큰 탑 방패 뒤의 낮고 넓은 덩어리, 방패에 형광 금 (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_guard",
 "status": "temp",
 "hasFile": true
@@ -21694,7 +21493,7 @@
 "id": "monster/shadow_behemoth",
 "group": "monster",
 "title": "균열의 거수 (보스)",
-"brief": "뿔 둘 달린 갑옷 짐승(네 발), 짙은 연기 (CD-0022, 결정 0053)",
+"brief": "보스 거수: 뿔 둘 달린 갑옷 짐승(네 발) (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_behemoth",
 "status": "temp",
 "hasFile": true
@@ -21703,7 +21502,7 @@
 "id": "monster/shadow_swarm",
 "group": "monster",
 "title": "그림자 떼",
-"brief": "가시 등의 작은 네발 기는 놈. 넷씩 몰려 나온다 (CD-0022, 결정 0053)",
+"brief": "떼: 가시 등의 작은 네발 기는 놈 (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_swarm",
 "status": "temp",
 "hasFile": true
@@ -21712,7 +21511,7 @@
 "id": "monster/shadow_flier",
 "group": "monster",
 "title": "그림자 날개",
-"brief": "찢긴 막 날개의 비행 마물, 떠서 날아온다 (CD-0022, 결정 0053)",
+"brief": "날개: 찢긴 막 날개의 비행 마물 (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_flier",
 "status": "temp",
 "hasFile": true
@@ -21721,7 +21520,7 @@
 "id": "monster/shadow_mender",
 "group": "monster",
 "title": "그림자 응어리",
-"brief": "금 간 몸을 청록 실로 꿰맨 사슬 찬 거한. 상처가 아문다 (CD-0022, 결정 0053)",
+"brief": "응어리: 파랑 형광 실로 금을 꿰맨 웅크린 거한, 손목 사슬 (CD-0180, 결정 0131 — 검은 몸 + 파랑 형광 포인트)",
 "address": "monster/shadow_mender",
 "status": "temp",
 "hasFile": true
@@ -23985,8 +23784,8 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-26 18:41",
-"branch": "main",
+"at": "2026-11-26 18:55",
+"branch": "cd-180",
 "dirty": false
 },
 "gallery": {
@@ -24678,7 +24477,7 @@
 "h": 512
 },
 "map/gate_03/board": {
-"f": "data/art/d6c4d0c37699cdca7a8a.bin",
+"f": "data/art/0d019ca2b7b9722d05e3.bin",
 "w": 640,
 "h": 1280
 },
@@ -24688,7 +24487,7 @@
 "h": 720
 },
 "map/gate_04/board": {
-"f": "data/art/c60baf7dc1cb8b594d6c.bin",
+"f": "data/art/5d85248a2aa06db28e4f.bin",
 "w": 640,
 "h": 1280
 },
@@ -25423,17 +25222,17 @@
 "h": 512
 },
 "map/gate_03/back": {
-"f": "data/art/29d99f99f3ed9e8d3ce3.bin",
+"f": "data/art/cddb81da895e99978ae8.bin",
 "w": 853,
 "h": 1280
 },
 "map/gate_04/back": {
-"f": "data/art/7d3f0b23fa028a95bf9f.bin",
+"f": "data/art/334f06c7b8eeb1fd49e8.bin",
 "w": 853,
 "h": 1280
 },
 "map/gate_05/board": {
-"f": "data/art/27796b2a9e02c1c499cc.bin",
+"f": "data/art/0ab08cc689d4e8f60e28.bin",
 "w": 640,
 "h": 1280
 },
@@ -25443,7 +25242,7 @@
 "h": 720
 },
 "map/gate_05/back": {
-"f": "data/art/affc489279e8b323f2b7.bin",
+"f": "data/art/f1a52280675d26154dc1.bin",
 "w": 853,
 "h": 1280
 },
@@ -27713,7 +27512,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 18:47",
-"generatedAt": "2026-11-26 18:47",
-"digest": "eb421bc2baf3034b"
+"sourceAt": "2026-11-26 19:12",
+"generatedAt": "2026-11-26 19:17",
+"digest": "05e86e95186c7937"
 }
