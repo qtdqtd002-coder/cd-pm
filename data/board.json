@@ -1407,8 +1407,24 @@
 "msg": "CD-0169 Unity 5차 — 2챕터 통그림 반입·카탈로그 · EditMode 108/109(1 건너뜀)+고친 시험 10/10 · 캡처 시험 통과"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 6,
 "dirty": [
+{
+"file": "UnityProject/Assets/InitTestScene6538c56b-810a-4e54-bbdc-1020fdaec8ae.unity.meta",
+"at": "2026-11-26 11:09"
+},
+{
+"file": "UnityProject/Assets/InitTestScene6538c56b-810a-4e54-bbdc-1020fdaec8ae.unity",
+"at": "2026-11-26 11:09"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-26 11:09"
+},
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-26 11:09"
+},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-22 10:27"
@@ -1418,8 +1434,8 @@
 "at": "2026-11-22 10:26"
 }
 ],
-"lastEdit": "2026-11-22 10:27",
-"lastEditTs": 1795310821.8104656,
+"lastEdit": "2026-11-26 11:09",
+"lastEditTs": 1795658982.5684483,
 "lastCommitTs": 1795658601,
 "unpushed": 0,
 "notInMain": 0,
@@ -1428,7 +1444,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 59,
+"commits": 56,
 "byOrder": [
 [
 "CD-0169",
@@ -1448,10 +1464,6 @@
 ],
 [
 "CD-0163",
-3
-],
-[
-"CD-0159",
 3
 ],
 [
@@ -1475,7 +1487,7 @@
 2
 ],
 [
-"CD-0161",
+"CD-0159",
 2
 ],
 [
@@ -23021,11 +23033,19 @@
 "sizeMB": 97.9,
 "branch": "rel-0122",
 "local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "",
-"tag": ""
+"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261126-1102",
+"tag": "build-android-20261126-1102"
 }
 ],
 "buildHistory": [
+{
+"tag": "build-android-20261126-1102",
+"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261126-1102",
+"kind": "android",
+"at": "2026-11-26 11:02",
+"branch": "rel-0122",
+"sizeMB": 97.9
+},
 {
 "tag": "build-android-20261126-0002",
 "url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261126-0002",
@@ -23177,18 +23197,10 @@
 "at": "2026-11-18 09:15",
 "branch": "cd28",
 "sizeMB": 50.8
-},
-{
-"tag": "build-android-20261118-0915",
-"url": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261118-0915",
-"kind": "android",
-"at": "2026-11-18 09:15",
-"branch": "cd-decos",
-"sizeMB": 50.8
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 11:07",
-"generatedAt": "2026-11-26 11:08",
-"digest": "53e03728fa0dc261"
+"sourceAt": "2026-11-26 11:09",
+"generatedAt": "2026-11-26 11:17",
+"digest": "153f432ca621d855"
 }
