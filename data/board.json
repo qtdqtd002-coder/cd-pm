@@ -1498,8 +1498,12 @@
 "msg": "CD-0169 A1 통그림 마감 — gate_03 board 1440x2880·흔들림 마스크·맵 도구(map_guide·map_gen·map_sway·map_stitch)·빛 좌표"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 5,
 "dirty": [
+{
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-26 10:16"
+},
 {
 "file": "UnityProject/Assets/_Game/UI/MapArt.cs",
 "at": "2026-11-26 10:15"
@@ -1517,8 +1521,8 @@
 "at": "2026-11-26 00:49"
 }
 ],
-"lastEdit": "2026-11-26 10:15",
-"lastEditTs": 1795655738.339828,
+"lastEdit": "2026-11-26 10:16",
+"lastEditTs": 1795655803.9529345,
 "lastCommitTs": 1795622421,
 "unpushed": 15,
 "notInMain": 15,
@@ -23283,7 +23287,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 10:15",
-"generatedAt": "2026-11-26 10:16",
-"digest": "655ac86770373de4"
+"sourceAt": "2026-11-26 10:16",
+"generatedAt": "2026-11-26 10:17",
+"digest": "4c9f872703cce7b8"
 }
