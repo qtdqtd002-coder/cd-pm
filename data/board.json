@@ -1363,13 +1363,31 @@
 "today": 67
 },
 {
-"branch": "cd-193",
-"lane": "cd-193",
+"branch": "cd-193b",
+"lane": "cd-193b",
 "session": "",
 "owns": "",
 "order": "CD-0193",
-"head": "2681db6",
+"head": "c9379dc",
 "commits": [
+{
+"sha": "c9379dc1",
+"at": "2026-11-27 08:38",
+"ts": 1795736303,
+"msg": "CD-0193b 프로필 창 카드 — 플레이트가 카드 전체를 감싸는 테두리(가운데 비움), 칭호·닉네임은 그 안에 글자로"
+},
+{
+"sha": "112e7103",
+"at": "2026-11-27 02:12",
+"ts": 1795713120,
+"msg": "대시보드 갱신(studio.py board) — 리소스 탭에 CD-0207 아이콘·CD-0191 범위 표식·CD-0193 플레이트 등 반영 · res/ 3.96MB(3MB 넘음 경고, 품질 40 자동)"
+},
+{
+"sha": "461b4628",
+"at": "2026-11-27 01:48",
+"ts": 1795711715,
+"msg": "병합: cd-193 2681db6f(CD-0193 프로필 A안 — 칭호 5·명패→꾸밈 플레이트·소셜 줄, 결정 0146 · EditMode 92/92 · 캡처 2/2 · 서버 영향 없음 · 장부·codex-usage 양쪽 줄 합침)"
+},
 {
 "sha": "2681db6f",
 "at": "2026-11-27 01:43",
@@ -1383,43 +1401,37 @@
 "msg": "CD-0193 Unity 확인 — 컴파일 고침(Cd60LobbyTests name 충돌)·새 플레이트 카탈로그 반입·막대/이름 여백 다듬기·캡처 시험 기대 A안으로"
 },
 {
-"sha": "e98419a2",
-"at": "2026-11-27 01:33",
-"ts": 1795710823,
-"msg": "CD-0193 U2 친구·랭킹·채팅·미니 프로필 줄에 칭호·플레이트 — 플레이트는 칭호·이름 칸 뒤에만, 옛 카드는 기본"
-},
-{
-"sha": "d993a8cb",
-"at": "2026-11-27 01:22",
-"ts": 1795710138,
-"msg": "결정 0146 프로필 = 꾸밈 플레이트 위 초상화·테두리·칭호·닉네임, 명패 → 플레이트(CD-0193)"
-},
-{
-"sha": "76fef0ff",
-"at": "2026-11-27 01:21",
-"ts": 1795710097,
-"msg": "CD-0193 화면 글자 «명패» → «플레이트»(꾸밈 이름·안내) · Core 시험 맞춤 — Core 1265/1266"
-},
-{
-"sha": "1c70caa9",
-"at": "2026-11-27 01:20",
-"ts": 1795710000,
-"msg": "CD-0193 U1 프로필 A안 화면 — 칭호 글자(ProfileTitleText)·로비 칩/판 안 플레이트·프로필 칭호 탭·카드 ti/pl"
+"sha": "23d96d40",
+"at": "2026-11-27 01:35",
+"ts": 1795710903,
+"msg": "병합: cd-191 e96d7aa2(CD-0191 공격 범위 표시 A — 칸 면 옅게·모서리 괄호 표식 ui/reach_tile·빛 둘레 세 겹·영웅에서 퍼지는 등장 · EditMode 10/10 · PlayMode 2/2)"
 }
 ],
-"dirtyCount": 1,
+"dirtyCount": 4,
 "dirty": [
+{
+"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
+"at": "2026-11-27 08:47"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/ProfileScreen.cs",
+"at": "2026-11-27 08:46"
+},
+{
+"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
+"at": "2026-11-27 08:46"
+},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-27 01:40"
 }
 ],
-"lastEdit": "2026-11-27 01:40",
-"lastEditTs": 1795711206.7664173,
-"lastCommitTs": 1795711424,
-"unpushed": 0,
-"notInMain": 0,
-"today": 41
+"lastEdit": "2026-11-27 08:47",
+"lastEditTs": 1795736837.07117,
+"lastCommitTs": 1795736303,
+"unpushed": 1,
+"notInMain": 1,
+"today": 68
 },
 {
 "branch": "cd-197",
@@ -1481,8 +1493,32 @@
 "session": "",
 "owns": "",
 "order": "CD-0209",
-"head": "b307bba",
+"head": "0faed33",
 "commits": [
+{
+"sha": "0faed334",
+"at": "2026-11-27 08:44",
+"ts": 1795736683,
+"msg": "CD-0209 마감: 상품 그림 2장 다시(은화·티켓) · 충전 구역 띠 자리·특가 띠 크기 · EditMode 28/28 · 캡처 · 마감 초안"
+},
+{
+"sha": "a73955ef",
+"at": "2026-11-27 08:39",
+"ts": 1795736385,
+"msg": "CD-0209: 새 상점 그림 15장 카탈로그·Addressables 등록(.meta 는 Unity 가 만듦) · 간판 9-slice 72·0"
+},
+{
+"sha": "1522e64c",
+"at": "2026-11-27 08:37",
+"ts": 1795736223,
+"msg": "CD-0209: 상점 캡처에 «젬스톤 충전» 한 장 추가"
+},
+{
+"sha": "1d753fbb",
+"at": "2026-11-27 08:36",
+"ts": 1795736167,
+"msg": "CD-0209: 상점 A안 부품 17장(Codex) · 카드·간판·특가 띠·배너 교체 · 묶음 단계 그림 · 첫 화면 «젬스톤 충전» 구역(결정 0148, 결제는 기존 창) · 시험(Unity 확인 전)"
+},
 {
 "sha": "b307bba9",
 "at": "2026-11-27 01:35",
@@ -1494,53 +1530,49 @@
 "at": "2026-11-27 01:19",
 "ts": 1795709969,
 "msg": "병합: cd-207 973b8dce(CD-0207 아이템 아이콘 11종 셀화풍 세트 — 사용자 A안·전체표 확정, 같은 파일 이름 교체 · Codex 14장 · codex-usage 양쪽 줄 합침)"
-},
-{
-"sha": "973b8dce",
-"at": "2026-11-27 01:16",
-"ts": 1795709791,
-"msg": "CD-0207: 아이템 아이콘 11종 셀화풍 세트 확정(사용자 A안·확정) — art/final·유니티 사본 교체, 목록 confirmed, 그림 검사 오류 0"
-},
-{
-"sha": "21ba01dc",
-"at": "2026-11-27 01:13",
-"ts": 1795709582,
-"msg": "병합: cd-217 5c111456(CD-0217 게임 그래픽 변천사 — devlog/그래픽-변천사.md 38장 · Artifact 페이지, 문서만)"
-},
-{
-"sha": "6ba1604d",
-"at": "2026-11-27 01:12",
-"ts": 1795709522,
-"msg": "병합: cd-199 202f1292(CD-0199 SD 2.3등신 통일 — 인간 3·4·엘프 4·드래곤 4 그림·뼈대, 부품 시트 · Rig 13/13 · PlayMode 1/1 · codex-usage 양쪽 줄 합침)"
-},
-{
-"sha": "5c111456",
-"at": "2026-11-27 01:11",
-"ts": 1795709503,
-"msg": "CD-0217 마감: 그래픽 변천사 — devlog/그래픽-변천사.md(판 안 13·로비 8·일러스트 7·SD 5·챕터 맵 5, 저장소 경로 링크 38) · 비공개 Artifact 페이지 · check 통과 · 90-close"
 }
 ],
-"dirtyCount": 3,
+"dirtyCount": 437,
 "dirty": [
 {
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-27 08:17"
+"file": "studio/assets-ledger.csv",
+"at": "2026-11-27 08:46"
 },
 {
-"file": "docs/decisions/0148-상점-A안-따뜻한-고급-노점과-첫-화면-젬스톤-충전-구역.md",
-"at": "2026-11-27 08:12"
+"file": "studio/art-manifest.json",
+"at": "2026-11-27 08:46"
 },
 {
-"file": "art/tools/gen.py",
-"at": "2026-11-27 08:11"
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
+"at": "2026-11-27 08:46"
+},
+{
+"file": "art/tools/check.py",
+"at": "2026-11-27 08:45"
+},
+{
+"file": "studio/site/res/ui_tutorial_hand_down.webp",
+"at": "2026-11-27 08:45"
+},
+{
+"file": "studio/site/res/ui_tutorial_hand_downleft.webp",
+"at": "2026-11-27 08:45"
+},
+{
+"file": "studio/site/res/ui_tutorial_hand_downright.webp",
+"at": "2026-11-27 08:45"
+},
+{
+"file": "studio/site/res/ui_tutorial_hand_up.webp",
+"at": "2026-11-27 08:45"
 }
 ],
-"lastEdit": "2026-11-27 08:17",
-"lastEditTs": 1795735051.999704,
-"lastCommitTs": 1795710922,
-"unpushed": 1,
-"notInMain": 1,
-"today": 50
+"lastEdit": "2026-11-27 08:46",
+"lastEditTs": 1795736786.7647886,
+"lastCommitTs": 1795736683,
+"unpushed": 5,
+"notInMain": 5,
+"today": 54
 },
 {
 "branch": "rel-0124",
@@ -1612,7 +1644,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 168,
+"commits": 174,
 "byOrder": [
 [
 "기타",
@@ -1620,7 +1652,7 @@
 ],
 [
 "CD-0193",
-12
+14
 ],
 [
 "CD-0174",
@@ -1641,6 +1673,10 @@
 [
 "CD-0169",
 7
+],
+[
+"CD-0209",
+5
 ],
 [
 "CD-0199",
@@ -1783,10 +1819,6 @@
 2
 ],
 [
-"CD-0209",
-1
-],
-[
 "CD-0217",
 1
 ],
@@ -1804,6 +1836,36 @@
 ]
 ],
 "latest": [
+{
+"sha": "eb948bd0",
+"at": "2026-11-27 08:47",
+"msg": "CD-0193b 카드 테두리 다듬기(모서리 기준 100·기록 칸 여백) — EditMode 13/13 · 프로필 캡처"
+},
+{
+"sha": "0faed334",
+"at": "2026-11-27 08:44",
+"msg": "CD-0209 마감: 상품 그림 2장 다시(은화·티켓) · 충전 구역 띠 자리·특가 띠 크기 · EditMode 28/28 · 캡처 · 마감 초안"
+},
+{
+"sha": "a73955ef",
+"at": "2026-11-27 08:39",
+"msg": "CD-0209: 새 상점 그림 15장 카탈로그·Addressables 등록(.meta 는 Unity 가 만듦) · 간판 9-slice 72·0"
+},
+{
+"sha": "c9379dc1",
+"at": "2026-11-27 08:38",
+"msg": "CD-0193b 프로필 창 카드 — 플레이트가 카드 전체를 감싸는 테두리(가운데 비움), 칭호·닉네임은 그 안에 글자로"
+},
+{
+"sha": "1522e64c",
+"at": "2026-11-27 08:37",
+"msg": "CD-0209: 상점 캡처에 «젬스톤 충전» 한 장 추가"
+},
+{
+"sha": "1d753fbb",
+"at": "2026-11-27 08:36",
+"msg": "CD-0209: 상점 A안 부품 17장(Codex) · 카드·간판·특가 띠·배너 교체 · 묶음 단계 그림 · 첫 화면 «젬스톤 충전» 구역(결정 0148, 결제는 기존 창) · 시험(Unity 확인 전)"
+},
 {
 "sha": "112e7103",
 "at": "2026-11-27 02:12",
@@ -1823,36 +1885,6 @@
 "sha": "f2835db3",
 "at": "2026-11-27 01:43",
 "msg": "CD-0193 Unity 확인 — 컴파일 고침(Cd60LobbyTests name 충돌)·새 플레이트 카탈로그 반입·막대/이름 여백 다듬기·캡처 시험 기대 A안으로"
-},
-{
-"sha": "f325dadc",
-"at": "2026-11-27 01:42",
-"msg": "CD-0197 ③ 준비: 전설 6명 새 디자인 지시문(series.py LEGENDS) — 영웅 4단계와 다른 인물"
-},
-{
-"sha": "aacc4ca0",
-"at": "2026-11-27 01:41",
-"msg": "CD-0197 ②: 전설 종족당 하나 — 새 스킬(elite·volley·rapid·nova 대상 중심)·전설 6명 데이터·게르하르트→발데마르 저장 접기 · Core 1259/1260"
-},
-{
-"sha": "b307bba9",
-"at": "2026-11-27 01:35",
-"msg": "CD-0209: 상점 콘셉트 시안 A(고급 노점)·B(왕실 보물고) 지시문·비교표(사용자 선택 대기)"
-},
-{
-"sha": "e98419a2",
-"at": "2026-11-27 01:33",
-"msg": "CD-0193 U2 친구·랭킹·채팅·미니 프로필 줄에 칭호·플레이트 — 플레이트는 칭호·이름 칸 뒤에만, 옛 카드는 기본"
-},
-{
-"sha": "80e1c0f5",
-"at": "2026-11-27 01:24",
-"msg": "CD-0197 기획 방향 확정(사용자): 발데마르 남김·새로 그림·뼈대 동작·여섯 전설 초안"
-},
-{
-"sha": "e96d7aa2",
-"at": "2026-11-27 01:24",
-"msg": "CD-0191 마감 — 범위 면 옅게(길 0.22~0.44) · 괄호 진하게 · reach_tile .meta·카탈로그 · 캡처 시험 문턱 · 전후 비교 · EditMode 10/10 · PlayMode 2/2"
 }
 ]
 },
@@ -12140,8 +12172,8 @@
 {
 "id": "CD-0193",
 "title": "프로필 재설계 — 명패 빼고 초상화·테두리·칭호·꾸밈 플레이트(A안)",
-"branch": "main",
-"updated": "2026-11-27 01:44",
+"branch": "cd-193b",
+"updated": "2026-11-27 08:47",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -12151,6 +12183,7 @@
 "_design",
 "shot-lobby.png",
 "shot-match.png",
+"shot-profile-b.png",
 "shot-profile.png",
 "shot-top-crop.png"
 ],
@@ -12522,25 +12555,27 @@
 "id": "CD-0209",
 "title": "상점 디자인 개선 — 과금 화면 퀄리티·구매 욕구, 시안 먼저 확인",
 "branch": "cd-209",
-"updated": "2026-11-27 01:35",
+"updated": "2026-11-27 08:44",
 "files": [
 "00-order.md",
 "10-spec.md",
+"90-close.md",
+"_shots",
 "review"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "art, client",
 "opened": "2026-11-27",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -15656,7 +15691,7 @@
 "by": "사용자(이슈 #103-4, 시안 선택)",
 "html": "<ol>\n<li><strong>상점 그림 방향은 A안 «따뜻한 고급 노점»</strong> — 지금 천막 노점 테마를 고급스럽게: 붉은 천·짙은 나무·금테 양피지 상품 카드, 카드 위쪽에 따뜻한 빛, 특가는 붉은·금 모서리 띠, 구역 간판은 금테 양피지 + 월계 끝장식. 그림은 Codex 가 A 콘셉트를 그린 같은 세션에서 낱장으로 그린다(<code>art/tools/gen.py</code> <code>S209_*</code>).\n</li>\n<li><strong>첫 화면 순서</strong>: 30일 보급 배너 → 일일 상점 → <strong>젬스톤 충전(원화 젬스톤 6종, 작은 묶음 → 보물상자, 가장 큰 묶음에 «최고 가치» 띠)</strong> → 젬스톤 상점(은화·쿠지 티켓). 결정 0062 의 «보급 → 일일 → 젬스톤 상점» 사이에 한 구역을 넣는다.\n</li>\n<li>상품 그림은 묶음 크기가 단계로 커진다 — 젬스톤 6단계(한 줌 → 보물상자 가득), 은화 3단계(동전 더미 → 주머니 → 상자), 쿠지 티켓 3단계(한 장 → 묶음 → 상자).\n</li>\n<li><strong>결제 흐름은 그대로</strong> — 첫 화면 «젬스톤 충전» 칸을 누르면 기존 젬스톤 구매 창(<code>GemStoreWindow</code>)이 열리고 그 상품 칸을 강조한다. 원화 결제·영수증 코드는 이 결정에서 바꾸지 않는다(관제 지시).\n</li></ol>",
 "branch": "cd-209",
-"dirty": true
+"dirty": false
 }
 ],
 "docs": [
@@ -25524,8 +25559,8 @@
 {
 "id": "shop/item_box",
 "group": "ui",
-"title": "상점: 상품 상자 (밝은 종이 나무 상자)",
-"brief": "256×256 · 9-slice 사방 32(바깥 투명 여백 6 포함) · 가운데 한 색 #F5E9CD · 곱하지 않음",
+"title": "상점: 상품 카드 (나무 틀 + 금 테 + 양피지)",
+"brief": "256×256 · 9-slice 사방 32(바깥 투명 여백 6 포함) · 위쪽에 따뜻한 빛 · 곱하지 않음 · CD-0209 A안",
 "status": "draft",
 "address": "shop/item_box",
 "hasFile": true
@@ -25542,8 +25577,8 @@
 {
 "id": "shop/sign",
 "group": "ui",
-"title": "상점: 구간 간판 (붉은 천 + 금 테)",
-"brief": "768×160 · 9-slice 사방 20(바깥 투명 여백 6 포함) · 가운데 한 색 #7B1817 · 곱하지 않음",
+"title": "상점: 구역 간판 (양피지 + 금 테 + 월계 끝)",
+"brief": "폭 768 · 가로 9-slice(양 끝 장식은 늘지 않게) · 글자는 게임이 · CD-0209 A안",
 "status": "draft",
 "address": "shop/sign",
 "hasFile": true
@@ -25551,8 +25586,8 @@
 {
 "id": "shop/deal_seal",
 "group": "ui",
-"title": "상점: 특가 딱지 (붉은 톱니 + 금 테)",
-"brief": "192×192 통그림 · 9-slice 아님 · 곱하지 않음",
+"title": "상점: 특가 모서리 띠 (붉은·금 비단)",
+"brief": "192×192 통그림 · 카드 왼쪽 위 모서리에 걸친다 · 글자는 게임이 · CD-0209 A안",
 "status": "draft",
 "address": "shop/deal_seal",
 "hasFile": true
@@ -26725,11 +26760,137 @@
 "status": "confirmed",
 "address": "ui/nameplate_default",
 "hasFile": true
+},
+{
+"id": "shop/banner",
+"group": "ui",
+"title": "상점: 대표 상품 배너 (금 테 + 붉은 면 + 햇살)",
+"brief": "폭 1024 · 9-slice(금 테) · 인물·글자는 게임이 · CD-0209 A안",
+"status": "draft",
+"address": "shop/banner",
+"hasFile": true
+},
+{
+"id": "shop/best_ribbon",
+"group": "ui",
+"title": "상점: «최고 가치» 띠 (붉은 비단 + 월계)",
+"brief": "폭 512 통그림 · 가장 큰 묶음 위 · 글자는 게임이 · CD-0209 A안",
+"status": "draft",
+"address": "shop/best_ribbon",
+"hasFile": true
+},
+{
+"id": "shop/pack_gems_1",
+"group": "ui",
+"title": "상점 상품 그림: 젬스톤 한 줌",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_gems_1",
+"hasFile": true
+},
+{
+"id": "shop/pack_gems_2",
+"group": "ui",
+"title": "상점 상품 그림: 젬스톤 더미",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_gems_2",
+"hasFile": true
+},
+{
+"id": "shop/pack_gems_3",
+"group": "ui",
+"title": "상점 상품 그림: 젬스톤 주머니",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_gems_3",
+"hasFile": true
+},
+{
+"id": "shop/pack_gems_4",
+"group": "ui",
+"title": "상점 상품 그림: 젬스톤 바구니",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_gems_4",
+"hasFile": true
+},
+{
+"id": "shop/pack_gems_5",
+"group": "ui",
+"title": "상점 상품 그림: 젬스톤 보물상자",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_gems_5",
+"hasFile": true
+},
+{
+"id": "shop/pack_gems_6",
+"group": "ui",
+"title": "상점 상품 그림: 젬스톤이 넘치는 큰 보물상자",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_gems_6",
+"hasFile": true
+},
+{
+"id": "shop/pack_silver_1",
+"group": "ui",
+"title": "상점 상품 그림: 은화 더미",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_silver_1",
+"hasFile": true
+},
+{
+"id": "shop/pack_silver_2",
+"group": "ui",
+"title": "상점 상품 그림: 은화 주머니",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_silver_2",
+"hasFile": true
+},
+{
+"id": "shop/pack_silver_3",
+"group": "ui",
+"title": "상점 상품 그림: 은화 상자",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_silver_3",
+"hasFile": true
+},
+{
+"id": "shop/pack_tickets_1",
+"group": "ui",
+"title": "상점 상품 그림: 쿠지 티켓 한 장",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_tickets_1",
+"hasFile": true
+},
+{
+"id": "shop/pack_tickets_2",
+"group": "ui",
+"title": "상점 상품 그림: 쿠지 티켓 묶음",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_tickets_2",
+"hasFile": true
+},
+{
+"id": "shop/pack_tickets_3",
+"group": "ui",
+"title": "상점 상품 그림: 쿠지 티켓 상자",
+"brief": "512×512 · 아래 가운데 · CD-0209 A안 묶음 단계",
+"status": "draft",
+"address": "shop/pack_tickets_3",
+"hasFile": true
 }
 ],
-"at": "2026-11-27 01:44",
-"branch": "main",
-"dirty": false
+"at": "2026-11-27 08:46",
+"branch": "cd-209",
+"dirty": true
 },
 "gallery": {
 "v": 1,
@@ -27775,7 +27936,7 @@
 "h": 200
 },
 "shop/item_box": {
-"f": "data/art/5d4a0c42f82fefeab89a.bin",
+"f": "data/art/887994cc12f2d64a62ad.bin",
 "w": 256,
 "h": 256
 },
@@ -27785,12 +27946,12 @@
 "h": 54
 },
 "shop/sign": {
-"f": "data/art/1c181caac7521731a8f3.bin",
+"f": "data/art/31ac96ced309d2c083b5.bin",
 "w": 768,
-"h": 160
+"h": 151
 },
 "shop/deal_seal": {
-"f": "data/art/5bd3c47fa52afd6c0ac2.bin",
+"f": "data/art/ba81752fe62b73fe32a6.bin",
 "w": 192,
 "h": 192
 },
@@ -28428,6 +28589,76 @@
 "f": "data/art/b292c723bc1449aa6e23.bin",
 "w": 1024,
 "h": 280
+},
+"shop/banner": {
+"f": "data/art/811b927152f90209f448.bin",
+"w": 1024,
+"h": 431
+},
+"shop/best_ribbon": {
+"f": "data/art/0cd37a9e253ffba49a13.bin",
+"w": 512,
+"h": 145
+},
+"shop/pack_gems_1": {
+"f": "data/art/8ad956d83e495d625119.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_gems_2": {
+"f": "data/art/8a839ceb77830751a4aa.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_gems_3": {
+"f": "data/art/4b323652f9569fdc3b08.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_gems_4": {
+"f": "data/art/fb7a72827affc030ee74.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_gems_5": {
+"f": "data/art/26b50e2b68e8dc88e5d4.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_gems_6": {
+"f": "data/art/42f9526ee3c026eb0894.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_silver_1": {
+"f": "data/art/6142ab3ccb28a453f711.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_silver_2": {
+"f": "data/art/36cb4be283bab5695d1d.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_silver_3": {
+"f": "data/art/1a4f94fdfe81f2bd506f.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_tickets_1": {
+"f": "data/art/374eb95531e105fdf90a.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_tickets_2": {
+"f": "data/art/a18f3ef9485834ea6d3d.bin",
+"w": 512,
+"h": 512
+},
+"shop/pack_tickets_3": {
+"f": "data/art/19c3578f21b6180fe09d.bin",
+"w": 512,
+"h": 512
 }
 },
 "keyAt": "2026-11-16 17:14"
@@ -29266,11 +29497,6 @@
 },
 {
 "address": "ui/glyph_ranking",
-"kind": "ui",
-"state": "final"
-},
-{
-"address": "ui/reach_tile",
 "kind": "ui",
 "state": "final"
 },
@@ -30265,6 +30491,106 @@
 "state": "final"
 },
 {
+"address": "illust/legend/elf_seina",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "illust/legend/elf_seina_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_elf_seina",
+"kind": "key",
+"state": "none"
+},
+{
+"address": "unit/legend/elf_seina/idle",
+"kind": "unit",
+"state": "none"
+},
+{
+"address": "illust/legend/dwarf_durgan",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "illust/legend/dwarf_durgan_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_dwarf_durgan",
+"kind": "key",
+"state": "none"
+},
+{
+"address": "unit/legend/dwarf_durgan/idle",
+"kind": "unit",
+"state": "none"
+},
+{
+"address": "illust/legend/beast_nadia",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "illust/legend/beast_nadia_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_beast_nadia",
+"kind": "key",
+"state": "none"
+},
+{
+"address": "unit/legend/beast_nadia/idle",
+"kind": "unit",
+"state": "none"
+},
+{
+"address": "illust/legend/spirit_silpina",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "illust/legend/spirit_silpina_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_spirit_silpina",
+"kind": "key",
+"state": "none"
+},
+{
+"address": "unit/legend/spirit_silpina/idle",
+"kind": "unit",
+"state": "none"
+},
+{
+"address": "illust/legend/dragon_vermilia",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "illust/legend/dragon_vermilia_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_dragon_vermilia",
+"kind": "key",
+"state": "none"
+},
+{
+"address": "unit/legend/dragon_vermilia/idle",
+"kind": "unit",
+"state": "none"
+},
+{
 "address": "ui/summon_orb",
 "kind": "ui",
 "state": "final"
@@ -30280,8 +30606,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-27 01:30",
-"branch": "main"
+"at": "2026-11-27 08:49",
+"branch": "cd-197"
 }
 },
 "devlog": [
@@ -30644,7 +30970,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 08:17",
-"generatedAt": "2026-11-27 08:17",
-"digest": "b792128f1aa3743e"
+"sourceAt": "2026-11-27 08:47",
+"generatedAt": "2026-11-27 08:47",
+"digest": "3da826e9ad0d7463"
 }
