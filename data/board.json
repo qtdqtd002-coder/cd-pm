@@ -1305,43 +1305,43 @@
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
 "order": "CD-0179",
-"head": "1efb382",
+"head": "1b6d9ec",
 "commits": [
 {
-"sha": "1efb382d",
-"at": "2026-11-26 22:16",
-"ts": 1795698968,
-"msg": "devlog: 앱 0.12.4 폰 배포 기록·폰 확인 목록"
+"sha": "1b6d9ec5",
+"at": "2026-11-26 23:00",
+"ts": 1795701640,
+"msg": "병합: cd-179b 097a5f6d(0.12.4 QA 고침 — 맵 수 시험 2개를 stages.json 에서 읽게, 시험만 · EditMode 2/2 · PlayMode 2/2)"
 },
 {
-"sha": "4e589e3f",
-"at": "2026-11-26 22:15",
-"ts": 1795698938,
-"msg": "병합: rel-0124(앱 0.12.4 · versionCode 20 · content state fae9534b · 공지 app_0_12_4 · 저장 v18 전체 초기화 CD-0189)"
+"sha": "097a5f6d",
+"at": "2026-11-26 22:58",
+"ts": 1795701483,
+"msg": "CD-0179b 마감: OutgameMapsEditModeTests 2/2 · OutgameAudit2FlowTests 2/2(origin/main bc2a8b44 병합 뒤)"
 },
 {
-"sha": "2dd4d478",
-"at": "2026-11-26 22:11",
-"ts": 1795698711,
-"msg": "앱 0.12.4 · versionCode 20 content state 다시(base_id fae9534b, 저장 v18 포함 재빌드)"
+"sha": "7b7efa81",
+"at": "2026-11-26 22:55",
+"ts": 1795701358,
+"msg": "병합: origin/main 을 cd-179b 로(Unity 차례 전)"
 },
 {
-"sha": "9226e277",
-"at": "2026-11-26 22:00",
-"ts": 1795698020,
-"msg": "공지 app_0_12_4 고침 — 모든 계정 초기화 안내(결정 0139)"
+"sha": "bc2a8b44",
+"at": "2026-11-26 22:55",
+"ts": 1795701344,
+"msg": "병합: cd-189b a6de0838(0.12.4 QA 고침 — Cd38ClientTests v13 시험을 v18 규칙(옛 저장 → 새 계정, 레벨 알림 없음)으로, 시험만 · PlayMode 10/10)"
 },
 {
-"sha": "24defaf5",
-"at": "2026-11-26 21:57",
-"ts": 1795697873,
-"msg": "병합: cd-189 d7c42a6e(CD-0189 저장 v18 — 17 이하 저장은 변환 없이 새 계정으로 다시 시작(결정 0139, 사용자 «계정들도 다 초기화해줘»), 기기 이어하기·대기 정산·local·online 파일 지움, 설정은 남김 · EditMode 140/140·16/16)"
+"sha": "2552a32c",
+"at": "2026-11-26 22:52",
+"ts": 1795701149,
+"msg": "병합: cd-190 ca0773f1(CD-0190 첫 웹툰 연출 개선 — 건너뛰기 빼기·다음 표식·이름 숨김·컷→효과음 글자→대사 지연·5초 자동 진행·글자 가림 고침(결정 0140) · EditMode 16/16 · 새 APK 필요)"
 },
 {
-"sha": "d7c42a6e",
-"at": "2026-11-26 21:57",
-"ts": 1795697846,
-"msg": "CD-0189 저장 v18 — 17 이하 폰 저장은 처음부터 다시 시작(결정 0139)"
+"sha": "a6de0838",
+"at": "2026-11-26 22:52",
+"ts": 1795701146,
+"msg": "CD-0189b 낡은 PlayMode 시험 고침 — v13 저장은 새 계정이라 레벨 알림 카드 없음(결정 0139)"
 }
 ],
 "dirtyCount": 2,
@@ -1357,64 +1357,69 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795698968,
+"lastCommitTs": 1795701640,
 "unpushed": 0,
 "notInMain": 0,
-"today": 150
+"today": 159
 },
 {
 "branch": "cd-179b",
 "lane": "cd-179b",
 "session": "",
 "owns": "",
-"order": "CD-0179",
-"head": "3dab61c",
+"order": "CD-0189",
+"head": "097a5f6",
 "commits": [
 {
-"sha": "3dab61c4",
-"at": "2026-11-26 22:46",
-"ts": 1795700802,
-"msg": "CD-0179b 시험 기대값: 맵 수를 stages.json 에서 읽게(3~5챕터로 2 → 5, 게임 버그 아님)"
+"sha": "097a5f6d",
+"at": "2026-11-26 22:58",
+"ts": 1795701483,
+"msg": "CD-0179b 마감: OutgameMapsEditModeTests 2/2 · OutgameAudit2FlowTests 2/2(origin/main bc2a8b44 병합 뒤)"
 },
 {
-"sha": "1efb382d",
-"at": "2026-11-26 22:16",
-"ts": 1795698968,
-"msg": "devlog: 앱 0.12.4 폰 배포 기록·폰 확인 목록"
+"sha": "7b7efa81",
+"at": "2026-11-26 22:55",
+"ts": 1795701358,
+"msg": "병합: origin/main 을 cd-179b 로(Unity 차례 전)"
 },
 {
-"sha": "4e589e3f",
-"at": "2026-11-26 22:15",
-"ts": 1795698938,
-"msg": "병합: rel-0124(앱 0.12.4 · versionCode 20 · content state fae9534b · 공지 app_0_12_4 · 저장 v18 전체 초기화 CD-0189)"
+"sha": "bc2a8b44",
+"at": "2026-11-26 22:55",
+"ts": 1795701344,
+"msg": "병합: cd-189b a6de0838(0.12.4 QA 고침 — Cd38ClientTests v13 시험을 v18 규칙(옛 저장 → 새 계정, 레벨 알림 없음)으로, 시험만 · PlayMode 10/10)"
 },
 {
-"sha": "2dd4d478",
-"at": "2026-11-26 22:11",
-"ts": 1795698711,
-"msg": "앱 0.12.4 · versionCode 20 content state 다시(base_id fae9534b, 저장 v18 포함 재빌드)"
+"sha": "2552a32c",
+"at": "2026-11-26 22:52",
+"ts": 1795701149,
+"msg": "병합: cd-190 ca0773f1(CD-0190 첫 웹툰 연출 개선 — 건너뛰기 빼기·다음 표식·이름 숨김·컷→효과음 글자→대사 지연·5초 자동 진행·글자 가림 고침(결정 0140) · EditMode 16/16 · 새 APK 필요)"
 },
 {
-"sha": "9226e277",
-"at": "2026-11-26 22:00",
-"ts": 1795698020,
-"msg": "공지 app_0_12_4 고침 — 모든 계정 초기화 안내(결정 0139)"
+"sha": "a6de0838",
+"at": "2026-11-26 22:52",
+"ts": 1795701146,
+"msg": "CD-0189b 낡은 PlayMode 시험 고침 — v13 저장은 새 계정이라 레벨 알림 카드 없음(결정 0139)"
 },
 {
-"sha": "24defaf5",
-"at": "2026-11-26 21:57",
-"ts": 1795697873,
-"msg": "병합: cd-189 d7c42a6e(CD-0189 저장 v18 — 17 이하 저장은 변환 없이 새 계정으로 다시 시작(결정 0139, 사용자 «계정들도 다 초기화해줘»), 기기 이어하기·대기 정산·local·online 파일 지움, 설정은 남김 · EditMode 140/140·16/16)"
+"sha": "ca0773f1",
+"at": "2026-11-26 22:49",
+"ts": 1795700968,
+"msg": "CD-0190 마감 기록 — EditMode Cd181PrologueEditModeTests 16/16"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795700802,
-"unpushed": 1,
-"notInMain": 1,
-"today": 151
+"dirtyCount": 1,
+"dirty": [
+{
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-26 22:57"
+}
+],
+"lastEdit": "2026-11-26 22:57",
+"lastEditTs": 1795701470.3897552,
+"lastCommitTs": 1795701483,
+"unpushed": 0,
+"notInMain": 0,
+"today": 158
 },
 {
 "branch": "cd-189",
@@ -1422,8 +1427,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0189",
-"head": "1efb382",
+"head": "a6de083",
 "commits": [
+{
+"sha": "a6de0838",
+"at": "2026-11-26 22:52",
+"ts": 1795701146,
+"msg": "CD-0189b 낡은 PlayMode 시험 고침 — v13 저장은 새 계정이라 레벨 알림 카드 없음(결정 0139)"
+},
 {
 "sha": "1efb382d",
 "at": "2026-11-26 22:16",
@@ -1453,36 +1464,36 @@
 "at": "2026-11-26 21:57",
 "ts": 1795697873,
 "msg": "병합: cd-189 d7c42a6e(CD-0189 저장 v18 — 17 이하 저장은 변환 없이 새 계정으로 다시 시작(결정 0139, 사용자 «계정들도 다 초기화해줘»), 기기 이어하기·대기 정산·local·online 파일 지움, 설정은 남김 · EditMode 140/140·16/16)"
-},
-{
-"sha": "d7c42a6e",
-"at": "2026-11-26 21:57",
-"ts": 1795697846,
-"msg": "CD-0189 저장 v18 — 17 이하 폰 저장은 처음부터 다시 시작(결정 0139)"
 }
 ],
 "dirtyCount": 1,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/PlayMode/Cd38ClientTests.cs",
-"at": "2026-11-26 22:45"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-26 22:50"
 }
 ],
-"lastEdit": "2026-11-26 22:45",
-"lastEditTs": 1795700742.413554,
-"lastCommitTs": 1795698968,
+"lastEdit": "2026-11-26 22:50",
+"lastEditTs": 1795701047.1925724,
+"lastCommitTs": 1795701146,
 "unpushed": 0,
 "notInMain": 0,
-"today": 150
+"today": 151
 },
 {
 "branch": "cd-190",
 "lane": "cd-190",
 "session": "",
 "owns": "",
-"order": "CD-0190",
-"head": "79bce5b",
+"order": "CD-0189",
+"head": "ca0773f",
 "commits": [
+{
+"sha": "ca0773f1",
+"at": "2026-11-26 22:49",
+"ts": 1795700968,
+"msg": "CD-0190 마감 기록 — EditMode Cd181PrologueEditModeTests 16/16"
+},
 {
 "sha": "79bce5b6",
 "at": "2026-11-26 22:43",
@@ -1512,22 +1523,16 @@
 "at": "2026-11-26 22:00",
 "ts": 1795698020,
 "msg": "공지 app_0_12_4 고침 — 모든 계정 초기화 안내(결정 0139)"
-},
-{
-"sha": "24defaf5",
-"at": "2026-11-26 21:57",
-"ts": 1795697873,
-"msg": "병합: cd-189 d7c42a6e(CD-0189 저장 v18 — 17 이하 저장은 변환 없이 새 계정으로 다시 시작(결정 0139, 사용자 «계정들도 다 초기화해줘»), 기기 이어하기·대기 정산·local·online 파일 지움, 설정은 남김 · EditMode 140/140·16/16)"
 }
 ],
 "dirtyCount": 0,
 "dirty": [],
 "lastEdit": "",
 "lastEditTs": 0,
-"lastCommitTs": 1795700613,
-"unpushed": 1,
-"notInMain": 1,
-"today": 151
+"lastCommitTs": 1795700968,
+"unpushed": 0,
+"notInMain": 0,
+"today": 152
 },
 {
 "branch": "rel-0124",
@@ -1599,7 +1604,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 121,
+"commits": 117,
 "byOrder": [
 [
 "CD-0169",
@@ -1623,11 +1628,7 @@
 ],
 [
 "CD-0179",
-6
-],
-[
-"CD-0164",
-6
+7
 ],
 [
 "CD-0178",
@@ -1662,6 +1663,14 @@
 3
 ],
 [
+"CD-0189",
+2
+],
+[
+"CD-0190",
+2
+],
+[
 "CD-0188",
 2
 ],
@@ -1682,31 +1691,34 @@
 2
 ],
 [
+"CD-0164",
+2
+],
+[
 "CD-0173",
 2
 ],
 [
-"CD-0168",
-2
-],
-[
-"CD-0190",
-1
-],
-[
-"CD-0189",
-1
-],
-[
 "CD-0150",
-1
-],
-[
-"CD-0167",
 1
 ]
 ],
 "latest": [
+{
+"sha": "097a5f6d",
+"at": "2026-11-26 22:58",
+"msg": "CD-0179b 마감: OutgameMapsEditModeTests 2/2 · OutgameAudit2FlowTests 2/2(origin/main bc2a8b44 병합 뒤)"
+},
+{
+"sha": "a6de0838",
+"at": "2026-11-26 22:52",
+"msg": "CD-0189b 낡은 PlayMode 시험 고침 — v13 저장은 새 계정이라 레벨 알림 카드 없음(결정 0139)"
+},
+{
+"sha": "ca0773f1",
+"at": "2026-11-26 22:49",
+"msg": "CD-0190 마감 기록 — EditMode Cd181PrologueEditModeTests 16/16"
+},
 {
 "sha": "3dab61c4",
 "at": "2026-11-26 22:46",
@@ -1741,21 +1753,6 @@
 "sha": "6de275b2",
 "at": "2026-11-26 21:35",
 "msg": "공지 app_0_12_4(notices_v2, notices_check·canon_lint 통과, 13항목)"
-},
-{
-"sha": "9e73b109",
-"at": "2026-11-26 21:35",
-"msg": "앱 0.12.4 · versionCode 20 content state(base_id 1f360082)"
-},
-{
-"sha": "0944e0d1",
-"at": "2026-11-26 21:27",
-"msg": "앱 0.12.4 / versionCode 20 (CD-0174b·0175·0177·0178·0179·0180·0181·0182·0183·0184·0185·0186·0187·0188 묶음)"
-},
-{
-"sha": "f490c7fd",
-"at": "2026-11-26 21:23",
-"msg": "CD-0188 마감 — 새 그림 15장 .meta·카탈로그 · 상태 표시 캡처 시험 · EditMode 14/14 · PlayMode 캡처 1/1 · 90-close"
 }
 ]
 },
@@ -11525,8 +11522,8 @@
 {
 "id": "CD-0179",
 "title": "5챕터 맵 «균열 폐허» 제작 — 80웨이브 · 공중 스폰·동선 · 출현 타이머",
-"branch": "cd-179b",
-"updated": "2026-11-26 22:46",
+"branch": "main",
+"updated": "2026-11-26 22:58",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -11536,19 +11533,19 @@
 "shots"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "mid",
 "teams": "art, client",
 "opened": "2026-11-26",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
-"builtIn": ""
+"phase": "built",
+"builtIn": "0.12.4"
 },
 {
 "id": "CD-0180",
@@ -11941,7 +11938,7 @@
 "id": "CD-0189",
 "title": "0.12.4 테스터 폰 저장 처음부터 다시 시작(저장 v18)",
 "branch": "main",
-"updated": "2026-11-26 22:15",
+"updated": "2026-11-26 22:53",
 "files": [
 "00-order.md",
 "90-close.md",
@@ -11965,26 +11962,26 @@
 {
 "id": "CD-0190",
 "title": "첫 웹툰 연출 개선 — 건너뛰기 빼기·다음 표식·이름 숨김·컷→효과음→대사·5초 자동·글자 가림",
-"branch": "cd-190",
-"updated": "2026-11-26 22:47",
+"branch": "main",
+"updated": "2026-11-26 22:49",
 "files": [
 "00-order.md",
 "90-close.md",
 "_qa"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "direct",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-26",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 }
 ],
@@ -13168,7 +13165,7 @@
 "no": 84,
 "title": "5챕터 맵 «균열 폐허» 제작 — 80웨이브 · 동선은 사용자 맵툴",
 "state": "open",
-"phase": "doing",
+"phase": "built",
 "imp": "mid",
 "orders": [
 "CD-0177",
@@ -14619,7 +14616,7 @@
 "date": "2026-11-26",
 "by": "사용자(이슈 #87)",
 "html": "<ol>\n<li><strong>첫 실행 프롤로그에는 «건너뛰기» 가 없다.</strong> 안드로이드 뒤로 가기도 건너뛰지 않는다. 설정 «프롤로그 다시 보기» 는 그대로 «건너뛰기 ›» 와 뒤로 가기로 닫을 수 있다.\n</li>\n<li><strong>첫 컷은 탭 없이 바로</strong> 나온다.\n</li>\n<li><strong>오른쪽 아래에 «다음» 표식</strong> — 확정 UI 그림 <code>ui/hero_nav_arrow</code>(CD-0122 영웅 넘기기 화살표)를 어두운 원 위에 얹고, 둘레의 청록 고리가 자동 진행까지 남은 시간을 채운다. 표식은 탭을 받지 않는다(화면 어디를 눌러도 다음).\n</li>\n<li><strong>웹툰에 인물 이름표를 띄우지 않는다</strong> — <code>prologue.json</code> 의 <code>tag</code> 여섯 개를 지웠고, 코드도 <code>tag</code> 를 그리지 않는다.\n</li>\n<li><strong>한 컷 = 세 박자</strong>: 그림(0.5초 페이드) → 0.7초 뒤 효과음 글자(0.3초) → 1.3초 뒤 대사·설명(0.4초). 숫자는 <code>PrologueScreen</code> 상수(연출 값이라 <code>Data/</code> 가 아니다).\n</li>\n<li><strong>5초 동안 탭이 없으면 다음 컷</strong>(컷이 나온 때부터 셈). 마지막 컷 뒤 5초면 끝 → 1-1.\n</li>\n<li>글 가림 정리: 첫 실행 위 안개 띠를 얇게(버튼이 없으니) · 긴 컷은 위 끝이 띠 밑으로 안 가게 스크롤 · 이웃 컷에 덮이던 글 넷을 옮김.\n</li></ol>",
-"branch": "cd-190",
+"branch": "main",
 "dirty": false
 }
 ],
@@ -29663,7 +29660,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 22:46",
-"generatedAt": "2026-11-26 22:47",
-"digest": "de032f2ffa909e49"
+"sourceAt": "2026-11-26 23:00",
+"generatedAt": "2026-11-26 23:17",
+"digest": "8ca70d1d09b5ddca"
 }
