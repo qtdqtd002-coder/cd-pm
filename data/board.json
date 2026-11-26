@@ -1304,44 +1304,44 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0169",
-"head": "9e9c079",
+"order": "CD-0174",
+"head": "2baaf96",
 "commits": [
 {
-"sha": "9e9c0790",
-"at": "2026-11-26 13:04",
-"ts": 1795665877,
-"msg": "병합: cd-170b 17ed9fde(결정 0125 튜토리얼 판 1-1~1-6 첫 클리어 전 행동력 0·지면 보상 0 · docs/13 · stages.json _note)"
+"sha": "2baaf969",
+"at": "2026-11-26 13:26",
+"ts": 1795667217,
+"msg": "병합: cd-174 e06a895a(CD-0174 판 그래픽 · 여파 주황 원 제거 · 넓은 배경 back.png 1·2챕터·늘임 띠 제거(결정 0123) · 사거리 겹테두리 · 말뚝·망루 발 y 순서·진지 그림자 · EditMode 83/83 · PlayMode 11/12)"
 },
 {
-"sha": "17ed9fde",
-"at": "2026-11-26 13:04",
-"ts": 1795665860,
-"msg": "결정 0125 — 튜토리얼 판(1-1~1-6)은 첫 클리어 전까지 행동력 0 · 지면 보상 0 (CD-0170 11번)"
+"sha": "e06a895a",
+"at": "2026-11-26 13:23",
+"ts": 1795667037,
+"msg": "CD-0174 마감 초안 — docs/17 넓은 배경·앞뒤 순서 · 결정 0123 · 90-close · 빌드 대기"
 },
 {
-"sha": "ec0e8fc7",
-"at": "2026-11-26 13:00",
-"ts": 1795665617,
-"msg": "병합: cd-170 30d8d1c8(CD-0170 튜토리얼 · 1-1 이동 안내 중 [합성]·[판매] 숨김 · 상위상 포커스 배너 전체 · 판 밖 안내는 결과가 나와야 다음 · 1-1~1-6 첫 클리어 전 행동력 0·지면 보상 0(Core·서버 같은 규칙) · EditMode 21/21)"
+"sha": "de9deed5",
+"at": "2026-11-26 13:20",
+"ts": 1795666823,
+"msg": "CD-0174 Unity 2차 — 넓은 배경 그림 반입·카탈로그 · EditMode 83/83 · PlayMode 12 중 11 통과·1 건너뜀 · 화면 비율·사거리·벽 캡처"
 },
 {
-"sha": "30d8d1c8",
-"at": "2026-11-26 12:57",
-"ts": 1795665446,
-"msg": "CD-0170 EditMode 시험: 옛 규칙 가정 2건 고침(1-1 패배 보상 0 · 거절 시험은 챕터 2) · 새 시험 meta · 마감 기록"
+"sha": "0bcaccb3",
+"at": "2026-11-26 13:13",
+"ts": 1795666439,
+"msg": "CD-0174 A1 넓은 배경 그림 back.png 두 장(2048x3072, 1·2챕터) · 맞춤·합성 도구"
 },
 {
-"sha": "a0c33142",
-"at": "2026-11-26 12:51",
-"ts": 1795665066,
-"msg": "병합: main 04815f98 → cd-170 (CD-0173 UI 다듬기 포함)"
+"sha": "e67f3387",
+"at": "2026-11-26 13:11",
+"ts": 1795666275,
+"msg": "CD-0174 글꼴 SDF 에셋 되돌림(Unity 부작용이 앞 커밋에 섞임)"
 },
 {
-"sha": "5d1e5f83",
-"at": "2026-11-26 12:51",
-"ts": 1795665066,
-"msg": "CD-0170 마감 초안·진행 기록"
+"sha": "24a3cfc8",
+"at": "2026-11-26 13:11",
+"ts": 1795666269,
+"msg": "CD-0174 Unity 1차 뒤 고침 — 가장자리 녹임은 화면이 더 이어지는 변만 · 시험 3건 · 화면 비율 캡처(폴드 펼침·3:4)·사거리·벽 캡처 추가 · gate_04 진지 색조(Unity 확인 전)"
 }
 ],
 "dirtyCount": 2,
@@ -1357,10 +1357,10 @@
 ],
 "lastEdit": "2026-11-22 10:28",
 "lastEditTs": 1795310895.2319162,
-"lastCommitTs": 1795665877,
+"lastCommitTs": 1795667217,
 "unpushed": 0,
 "notInMain": 0,
-"today": 31
+"today": 42
 },
 {
 "branch": "cd-174",
@@ -1368,8 +1368,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0174",
-"head": "0bcaccb",
+"head": "e06a895",
 "commits": [
+{
+"sha": "e06a895a",
+"at": "2026-11-26 13:23",
+"ts": 1795667037,
+"msg": "CD-0174 마감 초안 — docs/17 넓은 배경·앞뒤 순서 · 결정 0123 · 90-close · 빌드 대기"
+},
+{
+"sha": "de9deed5",
+"at": "2026-11-26 13:20",
+"ts": 1795666823,
+"msg": "CD-0174 Unity 2차 — 넓은 배경 그림 반입·카탈로그 · EditMode 83/83 · PlayMode 12 중 11 통과·1 건너뜀 · 화면 비율·사거리·벽 캡처"
+},
 {
 "sha": "0bcaccb3",
 "at": "2026-11-26 13:13",
@@ -1393,61 +1405,21 @@
 "at": "2026-11-26 13:00",
 "ts": 1795665640,
 "msg": "Merge main into cd-174"
-},
-{
-"sha": "8f3135f8",
-"at": "2026-11-26 13:00",
-"ts": 1795665640,
-"msg": "CD-0174 A1 중간 — 넓은 배경 초안 도구(back_align·back_compose)·check 규격·중간 보고"
-},
-{
-"sha": "ec0e8fc7",
-"at": "2026-11-26 13:00",
-"ts": 1795665617,
-"msg": "병합: cd-170 30d8d1c8(CD-0170 튜토리얼 · 1-1 이동 안내 중 [합성]·[판매] 숨김 · 상위상 포커스 배너 전체 · 판 밖 안내는 결과가 나와야 다음 · 1-1~1-6 첫 클리어 전 행동력 0·지면 보상 0(Core·서버 같은 규칙) · EditMode 21/21)"
 }
 ],
-"dirtyCount": 12,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "UnityProject/Assets/InitTestScene3cec6ba8-478d-4d85-a873-dbefefcec864.unity.meta",
-"at": "2026-11-26 13:15"
-},
-{
-"file": "UnityProject/Assets/InitTestScene3cec6ba8-478d-4d85-a873-dbefefcec864.unity",
-"at": "2026-11-26 13:15"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-26 13:15"
-},
-{
-"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
-"at": "2026-11-26 13:14"
-},
-{
-"file": "UnityProject/Assets/AddressableAssetsData/AddressableAssetSettings.asset",
-"at": "2026-11-26 13:14"
-},
-{
-"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Schemas/Art_BundledAssetGroupSchema.asset",
-"at": "2026-11-26 13:14"
-},
-{
-"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
-"at": "2026-11-26 13:14"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Final/map/gate_03/back.png.meta",
-"at": "2026-11-26 13:14"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-26 12:15"
 }
 ],
-"lastEdit": "2026-11-26 13:15",
-"lastEditTs": 1795666530.7054465,
-"lastCommitTs": 1795666439,
-"unpushed": 8,
-"notInMain": 8,
-"today": 37
+"lastEdit": "2026-11-26 12:15",
+"lastEditTs": 1795662936.97167,
+"lastCommitTs": 1795667037,
+"unpushed": 0,
+"notInMain": 0,
+"today": 39
 },
 {
 "branch": "cd-171",
@@ -1569,7 +1541,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 70,
+"commits": 72,
 "byOrder": [
 [
 "CD-0169",
@@ -1580,12 +1552,12 @@
 10
 ],
 [
-"CD-0166",
+"CD-0174",
 9
 ],
 [
-"CD-0174",
-7
+"CD-0166",
+9
 ],
 [
 "CD-0170",
@@ -1638,6 +1610,16 @@
 ],
 "latest": [
 {
+"sha": "e06a895a",
+"at": "2026-11-26 13:23",
+"msg": "CD-0174 마감 초안 — docs/17 넓은 배경·앞뒤 순서 · 결정 0123 · 90-close · 빌드 대기"
+},
+{
+"sha": "de9deed5",
+"at": "2026-11-26 13:20",
+"msg": "CD-0174 Unity 2차 — 넓은 배경 그림 반입·카탈로그 · EditMode 83/83 · PlayMode 12 중 11 통과·1 건너뜀 · 화면 비율·사거리·벽 캡처"
+},
+{
 "sha": "0bcaccb3",
 "at": "2026-11-26 13:13",
 "msg": "CD-0174 A1 넓은 배경 그림 back.png 두 장(2048x3072, 1·2챕터) · 맞춤·합성 도구"
@@ -1676,16 +1658,6 @@
 "sha": "d0f5df92",
 "at": "2026-11-26 12:49",
 "msg": "CD-0171 판 안 미션 일반 10종 + 히든 10종 · 전부 걸기 · CDSNAP11"
-},
-{
-"sha": "bcf22a1e",
-"at": "2026-11-26 12:48",
-"msg": "CD-0173 마감 — JumpToOpened 를 ⑥a·④ 에서만 · EditMode 91/91 · 90-close 기록"
-},
-{
-"sha": "6b8a2ddb",
-"at": "2026-11-26 12:38",
-"msg": "CD-0174 여파 표식(주황 원) 제거 — 사용자 «원을 지움», 몸 색 물듦만 남김(Unity 확인 전)"
 }
 ]
 },
@@ -11320,27 +11292,28 @@
 {
 "id": "CD-0174",
 "title": "판 그래픽 폰 피드백 주황 원 화면 비율 배경 공격 범위 2챕터 출력 순서",
-"branch": "cd-174",
-"updated": "2026-11-26 13:13",
+"branch": "main",
+"updated": "2026-11-26 13:24",
 "files": [
 "00-order.md",
 "10-spec.md",
 "21-art.md",
-"23-client.md"
+"23-client.md",
+"90-close.md"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "mid",
 "teams": "art, client",
 "opened": "2026-11-26",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 }
 ],
@@ -12436,7 +12409,7 @@
 "no": 78,
 "title": "몬스터 머리 위 주황색 원(여파 표시) 없애기",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0174"
@@ -13636,6 +13609,17 @@
 "date": "2026-11-25",
 "by": "사용자 · 번호는 관제",
 "html": "<ol>\n<li><strong>새 맵은 «사용자 = 동선과 인터뷰 답, Claude = 디자인» 으로 만든다.</strong> 맵툴로 타일·소품을 직접 찍어 만드는 방식은 새 맵에 쓰지 않는다. 절차·인터뷰 항목·디자인 규칙의 정본은 <code>docs/17-맵-제작-방식.md</code>.\n</li>\n<li><strong>맵 그림은 동선에 맞춘 통그림 바닥 한 장</strong>(<code>map/&lt;맵 id&gt;/board</code>)이다. 길·풀밭·소품·관문·균열 얼룩이 한 장에 들어가고, 게임은 그 위에 진지·효과·캐릭터·그림자·움직임만 그린다.\n</li>\n<li><strong>맵 그림은 캐릭터와 같은 셀화풍</strong>이다(잉크 외곽선 · 평평한 색 면 · 그림자 한 단계 · 질감 잡음 없음).\n</li>\n<li><strong>빛은 왼쪽 위, 그림자는 오른쪽 아래 약 30°</strong> — 맵·소품·진지·영웅·몬스터 모두. 영웅·몬스터는 발밑 타원 대신 <strong>모양을 따라가는 방향 그림자</strong>를 가진다.\n</li>\n<li><strong>소환 불가 칸에는 서 있는 물건</strong>을 그려 못 올리는 자리임을 보인다. 도착 지점(관문)과 출발 지점(균열)도 그림으로 그린다. 분위기 경계는 여러 단계 색 띠로 잇는다.\n</li>\n<li>사용자에게 받는 결정: 동선 · 분위기 · 총 웨이브 · 5웨이브 단위 구성(지상 / 공중 / 지상+공중, 단위마다 한 종류) · 시안 컨펌.\n</li>\n<li>1챕터 «목책 관문»: 동선·6판·웨이브 그대로, «균열이 번지는 숲 가장자리 · 노을», 시안 F(<code>art/raw/cd169d/board_f.png</code>) 확정. 공용 진지 그림(<code>map/fort</code>)도 셀화풍으로 바꾼다.\n</li>\n<li>2챕터 «갈대 관문»: 동선은 CD-0168 ㄹ자 그대로, «전투가 휩쓴 갈대 습지 · 달빛 밤», 50웨이브·전부 지상 유지(웨이브 데이터 변경 없음). 소환 불가 칸 = 부서진 투석기 · 망루 · 무너진 목책, 아래 줄 = 불탄 나무.\n</li></ol>",
+"branch": "main",
+"dirty": false
+},
+{
+"id": "0123",
+"title": "통그림 맵은 넓은 배경 그림을 뒤에 깔아 여러 화면 비율을 채운다",
+"status": "확정(구현 CD-0174 · 실제 화면 캡처로 확인, 빌드 QA 는 관제)",
+"kind": "confirmed",
+"date": "2026-11-26",
+"by": "사용자(방향) · 번호는 관제",
+"html": "<ol>\n<li>통그림 맵은 통그림(<code>board</code>, 8칸 × 16행) 뒤에 <strong>넓은 배경 그림</strong>(<code>back</code>, 16칸 × 24행, 2048×3072)을 한 장 더 깐다. 판 밖 사방을 같은 장면으로 이어 그린 그림이다.\n</li>\n<li>그림 끝 줄을 늘여 화면을 채우던 방식은 없앤다. 배경 그림보다도 화면이 넓은 변에서만 그림 끝이 바탕색으로 녹아든다.\n</li>\n<li>새 맵을 만들 때 <code>back</code> 도 같이 만든다(<code>docs/17-맵-제작-방식.md</code> §3-1 · §6). 화면 비율 확인은 9:20 · 9:23 · 폴드 펼침(5:6) · 3:4 캡처로 한다.\n</li>\n<li>진지의 서 있는 조각(말뚝 벽 · 기둥 · 망루)은 영웅·몬스터와 발 y 순서로 그린다. 진지는 땅에 그림자를 떨어뜨리고, 맵별 색조(<code>fortTint</code>)를 가질 수 있다.\n</li>\n<li>용족 «여파» 상태의 주황 원 표식은 없앤다(몸 색 물듦만 남김).\n</li></ol>",
 "branch": "main",
 "dirty": false
 },
@@ -16380,8 +16364,8 @@
 }
 ]
 },
-"at": "2026-11-26 13:08",
-"branch": "cd-174",
+"at": "2026-11-26 13:24",
+"branch": "main",
 "dirty": false
 },
 "missions": {
@@ -20094,8 +20078,8 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-26 13:10",
-"branch": "cd-174",
+"at": "2026-11-26 13:24",
+"branch": "main",
 "dirty": false
 },
 "gallery": {
@@ -23655,7 +23639,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 13:15",
-"generatedAt": "2026-11-26 13:17",
-"digest": "555e61b68376a168"
+"sourceAt": "2026-11-26 13:26",
+"generatedAt": "2026-11-26 13:27",
+"digest": "ed3c8841c0da7d1a"
 }
