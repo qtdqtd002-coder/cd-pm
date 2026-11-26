@@ -1498,15 +1498,27 @@
 "msg": "CD-0169 A1 통그림 마감 — gate_03 board 1440x2880·흔들림 마스크·맵 도구(map_guide·map_gen·map_sway·map_stitch)·빛 좌표"
 }
 ],
-"dirtyCount": 1,
+"dirtyCount": 4,
 "dirty": [
+{
+"file": "UnityProject/Assets/_Game/UI/MapArt.cs",
+"at": "2026-11-26 10:15"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/MatchScreen.cs",
+"at": "2026-11-26 10:15"
+},
+{
+"file": "UnityProject/Assets/_Game/View/Cd39Look.cs",
+"at": "2026-11-26 10:15"
+},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-26 00:49"
 }
 ],
-"lastEdit": "2026-11-26 00:49",
-"lastEditTs": 1795621775.2933013,
+"lastEdit": "2026-11-26 10:15",
+"lastEditTs": 1795655738.339828,
 "lastCommitTs": 1795622421,
 "unpushed": 15,
 "notInMain": 15,
@@ -1632,7 +1644,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 55,
+"commits": 54,
 "byOrder": [
 [
 "CD-0169",
@@ -1688,10 +1700,6 @@
 ],
 [
 "CD-0157",
-1
-],
-[
-"CD-0158",
 1
 ]
 ],
@@ -23275,7 +23283,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-26 01:00",
-"generatedAt": "2026-11-26 09:47",
-"digest": "eaad32edb733874d"
+"sourceAt": "2026-11-26 10:15",
+"generatedAt": "2026-11-26 10:16",
+"digest": "655ac86770373de4"
 }
