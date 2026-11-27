@@ -1392,8 +1392,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0197",
-"head": "c1ef458",
+"head": "05aa834",
 "commits": [
+{
+"sha": "05aa8348",
+"at": "2026-11-27 12:55",
+"ts": 1795751736,
+"msg": "CD-0197: 전설 새 그림 24장 Unity 반입(카탈로그) · 상세 화면 캡처(PlayMode 1/1)"
+},
+{
+"sha": "35139d1e",
+"at": "2026-11-27 12:51",
+"ts": 1795751495,
+"msg": "CD-0197: 전설 전용 백판 6 · 스킬·특성 아이콘 12 (시안) + 상세 화면 캡처 시험"
+},
 {
 "sha": "c1ef4584",
 "at": "2026-11-27 11:59",
@@ -1417,42 +1429,70 @@
 "at": "2026-11-27 08:56",
 "ts": 1795737383,
 "msg": "병합: cd-209 6eda0c2b(CD-0209 상점 A안 «따뜻한 고급 노점» + 첫 화면 «젬스톤 충전» 6칸, 결정 0148 — 카드·간판·특가 띠·30일 보급 배너·묶음 그림 교체 · 충전 칸은 기존 GemStoreWindow 열기(결제 코드 그대로) · Codex 21장 · EditMode 28/28 · 캡처 1/1 · origin/main 병합해 Art.asset·check.py·art-manifest·장부 충돌 풀림)"
-},
-{
-"sha": "61998a3e",
-"at": "2026-11-27 08:51",
-"ts": 1795737113,
-"msg": "병합: cd-193b eb948bd0(CD-0193b 프로필 창 카드 — 플레이트가 카드 전체 금테(가운데 비움)·칭호·닉네임은 그 안 글자 · 사용자 «바꿔» · EditMode 13/13 · 캡처 1/1 · 서버 영향 없음)"
-},
-{
-"sha": "4501407c",
-"at": "2026-11-27 08:51",
-"ts": 1795737082,
-"msg": "CD-0197: cd-canon 전설 규칙(종족마다 하나·컨셉·속성은 디자인과 FX 에만)"
 }
 ],
-"dirtyCount": 1,
+"dirtyCount": 15,
 "dirty": [
 {
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-27 12:13"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-27 12:55"
+},
+{
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_qa_playmode_capture.xml",
+"at": "2026-11-27 12:55"
+},
+{
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_zone_1080x2400.png",
+"at": "2026-11-27 12:55"
+},
+{
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_dragon_vermilia_1080x2400.png",
+"at": "2026-11-27 12:55"
+},
+{
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_dragon_vermilia.png",
+"at": "2026-11-27 12:55"
+},
+{
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_spirit_silpina_1080x2400.png",
+"at": "2026-11-27 12:55"
+},
+{
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_spirit_silpina.png",
+"at": "2026-11-27 12:55"
+},
+{
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_beast_nadia_1080x2400.png",
+"at": "2026-11-27 12:55"
 }
 ],
-"lastEdit": "2026-11-27 12:13",
-"lastEditTs": 1795749227.760401,
-"lastCommitTs": 1795748392,
-"unpushed": 9,
-"notInMain": 9,
-"today": 86
+"lastEdit": "2026-11-27 12:55",
+"lastEditTs": 1795751706.46668,
+"lastCommitTs": 1795751736,
+"unpushed": 11,
+"notInMain": 11,
+"today": 88
 },
 {
 "branch": "cd-208",
 "lane": "cd-208",
 "session": "",
 "owns": "",
-"order": "CD-0193",
-"head": "3e1e926",
+"order": "CD-0208",
+"head": "5ec1605",
 "commits": [
+{
+"sha": "5ec16052",
+"at": "2026-11-27 12:56",
+"ts": 1795751776,
+"msg": "CD-0208 마감: 전설 그림 머리 잘림 고침(배너 안쪽 16·34) · 주석 옛 문구 정리 · EditMode 29/29 · 캡처 · 합성 미리보기 · 마감 초안"
+},
+{
+"sha": "624407f3",
+"at": "2026-11-27 12:49",
+"ts": 1795751349,
+"msg": "CD-0208: 뽑기 배너 — 판 번호 빼기 · «상위상 모두 획득 시 상품이 초기화됩니다» · A상 옆 전설 일러스트 셋(이름표 연결) · 시험(Unity 확인 전)"
+},
 {
 "sha": "3e1e9264",
 "at": "2026-11-27 08:56",
@@ -1476,45 +1516,21 @@
 "at": "2026-11-27 08:47",
 "ts": 1795736867,
 "msg": "CD-0193b 카드 테두리 다듬기(모서리 기준 100·기록 칸 여백) — EditMode 13/13 · 프로필 캡처"
-},
-{
-"sha": "0faed334",
-"at": "2026-11-27 08:44",
-"ts": 1795736683,
-"msg": "CD-0209 마감: 상품 그림 2장 다시(은화·티켓) · 충전 구역 띠 자리·특가 띠 크기 · EditMode 28/28 · 캡처 · 마감 초안"
-},
-{
-"sha": "a73955ef",
-"at": "2026-11-27 08:39",
-"ts": 1795736385,
-"msg": "CD-0209: 새 상점 그림 15장 카탈로그·Addressables 등록(.meta 는 Unity 가 만듦) · 간판 9-slice 72·0"
 }
 ],
-"dirtyCount": 4,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "UnityProject/Assets/Tests/EditMode/Cd35ShopKujiEditModeTests.cs",
-"at": "2026-11-27 12:46"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
-"at": "2026-11-27 12:46"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd15HeroKujiTests.cs",
-"at": "2026-11-27 12:46"
-},
-{
-"file": "studio/orders/CD-0208-뽑기-상단-배너-판-번호-빼기-상위상-모두-획득-시-상/00-order.md",
-"at": "2026-11-27 12:14"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-27 12:51"
 }
 ],
-"lastEdit": "2026-11-27 12:46",
-"lastEditTs": 1795751182.833738,
-"lastCommitTs": 1795737383,
-"unpushed": 0,
-"notInMain": 0,
-"today": 77
+"lastEdit": "2026-11-27 12:51",
+"lastEditTs": 1795751516.2694492,
+"lastCommitTs": 1795751776,
+"unpushed": 2,
+"notInMain": 2,
+"today": 79
 },
 {
 "branch": "rel-0124",
@@ -1586,7 +1602,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 165,
+"commits": 160,
 "byOrder": [
 [
 "기타",
@@ -1598,11 +1614,7 @@
 ],
 [
 "CD-0197",
-8
-],
-[
-"CD-0174",
-8
+10
 ],
 [
 "CD-0180",
@@ -1637,6 +1649,10 @@
 4
 ],
 [
+"CD-0174",
+4
+],
+[
 "CD-0182",
 4
 ],
@@ -1661,8 +1677,8 @@
 3
 ],
 [
-"CD-0170",
-3
+"CD-0208",
+2
 ],
 [
 "CD-0192",
@@ -1753,10 +1769,6 @@
 2
 ],
 [
-"CD-0171",
-2
-],
-[
 "CD-0217",
 1
 ],
@@ -1769,11 +1781,31 @@
 1
 ],
 [
-"CD-0173",
+"CD-0171",
 1
 ]
 ],
 "latest": [
+{
+"sha": "5ec16052",
+"at": "2026-11-27 12:56",
+"msg": "CD-0208 마감: 전설 그림 머리 잘림 고침(배너 안쪽 16·34) · 주석 옛 문구 정리 · EditMode 29/29 · 캡처 · 합성 미리보기 · 마감 초안"
+},
+{
+"sha": "05aa8348",
+"at": "2026-11-27 12:55",
+"msg": "CD-0197: 전설 새 그림 24장 Unity 반입(카탈로그) · 상세 화면 캡처(PlayMode 1/1)"
+},
+{
+"sha": "35139d1e",
+"at": "2026-11-27 12:51",
+"msg": "CD-0197: 전설 전용 백판 6 · 스킬·특성 아이콘 12 (시안) + 상세 화면 캡처 시험"
+},
+{
+"sha": "624407f3",
+"at": "2026-11-27 12:49",
+"msg": "CD-0208: 뽑기 배너 — 판 번호 빼기 · «상위상 모두 획득 시 상품이 초기화됩니다» · A상 옆 전설 일러스트 셋(이름표 연결) · 시험(Unity 확인 전)"
+},
 {
 "sha": "b96d664e",
 "at": "2026-11-27 11:57",
@@ -1803,26 +1835,6 @@
 "sha": "0faed334",
 "at": "2026-11-27 08:44",
 "msg": "CD-0209 마감: 상품 그림 2장 다시(은화·티켓) · 충전 구역 띠 자리·특가 띠 크기 · EditMode 28/28 · 캡처 · 마감 초안"
-},
-{
-"sha": "a73955ef",
-"at": "2026-11-27 08:39",
-"msg": "CD-0209: 새 상점 그림 15장 카탈로그·Addressables 등록(.meta 는 Unity 가 만듦) · 간판 9-slice 72·0"
-},
-{
-"sha": "c9379dc1",
-"at": "2026-11-27 08:38",
-"msg": "CD-0193b 프로필 창 카드 — 플레이트가 카드 전체를 감싸는 테두리(가운데 비움), 칭호·닉네임은 그 안에 글자로"
-},
-{
-"sha": "1522e64c",
-"at": "2026-11-27 08:37",
-"msg": "CD-0209: 상점 캡처에 «젬스톤 충전» 한 장 추가"
-},
-{
-"sha": "1d753fbb",
-"at": "2026-11-27 08:36",
-"msg": "CD-0209: 상점 A안 부품 17장(Codex) · 카드·간판·특가 띠·배너 교체 · 묶음 단계 그림 · 첫 화면 «젬스톤 충전» 구역(결정 0148, 결제는 기존 창) · 시험(Unity 확인 전)"
 }
 ]
 },
@@ -12278,10 +12290,12 @@
 "id": "CD-0197",
 "title": "전설 재구성 — 인간 2→1, 종족별 전설 1종(새 디자인·스킬·동작·FX)",
 "branch": "cd-197",
-"updated": "2026-11-27 08:51",
+"updated": "2026-11-27 12:55",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"_qa_playmode_capture.xml",
+"_shots"
 ],
 "milestone": "M6",
 "stage": "제작",
@@ -12493,23 +12507,26 @@
 "id": "CD-0208",
 "title": "뽑기 상단 배너 — 판 번호 빼기·«상위상 모두 획득 시 상품이 초기화됩니다»·A상 옆 전설 영웅 2~3명",
 "branch": "cd-208",
-"updated": "2026-11-27 12:14",
+"updated": "2026-11-27 12:56",
 "files": [
-"00-order.md"
+"00-order.md",
+"90-close.md",
+"_shots",
+"review"
 ],
 "milestone": "M6",
-"stage": "접수",
+"stage": "마감",
 "route": "direct",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-27",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "new",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -23662,7 +23679,7 @@
 {
 "id": "key/hero_bg_legend_human_waldemar",
 "group": "key",
-"title": "영웅 정보창 백판 · 발데마르 전용",
+"title": "전설 전용 상세 백판: 엘레노어 (CD-0197)",
 "brief": "세로 9:16(1080×1920, 불투명 · 위쪽은 게임이 녹임, 바닥선 80%). 기사단 대회랑. CD-0089 → CD-0122 세로로 다시 그림",
 "status": "draft",
 "hasFile": true
@@ -26279,9 +26296,9 @@
 {
 "id": "ui/skill_human_waldemar",
 "group": "ui",
-"title": "스킬 아이콘(액티브): 발데마르 «대검 가르기»",
+"title": "스킬 아이콘(액티브): 엘레노어 (CD-0197)",
 "brief": "512×512 RGBA, 셀화풍 평면 2D, 백판 주홍 · 둥근 사각(액티브), 바깥 투명(금테는 게임이 그림), 글자 없음",
-"status": "confirmed",
+"status": "draft",
 "address": "ui/skill_human_waldemar",
 "source": "Codex · 주문 CD-0125",
 "hasFile": true
@@ -26299,9 +26316,9 @@
 {
 "id": "ui/trait_human_waldemar",
 "group": "ui",
-"title": "스킬 아이콘(패시브): 발데마르 초월 특성 «공격속도»",
+"title": "스킬 아이콘(패시브): 엘레노어 초월 특성 (CD-0197)",
 "brief": "512×512 RGBA, 셀화풍 평면 2D, 백판 청록 · 원(패시브), 바깥 투명(금테는 게임이 그림), 글자 없음",
-"status": "confirmed",
+"status": "draft",
 "address": "ui/trait_human_waldemar",
 "source": "Codex · 주문 CD-0125",
 "hasFile": true
@@ -26892,9 +26909,144 @@
 "status": "draft",
 "address": "shop/pack_tickets_3",
 "hasFile": true
+},
+{
+"id": "key/hero_bg_legend_elf_seina",
+"group": "key",
+"title": "전설 전용 상세 백판: 세이나 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "key/hero_bg_legend_elf_seina",
+"hasFile": true
+},
+{
+"id": "ui/skill_elf_seina",
+"group": "ui",
+"title": "스킬 아이콘(액티브): 세이나 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/skill_elf_seina",
+"hasFile": true
+},
+{
+"id": "ui/trait_elf_seina",
+"group": "ui",
+"title": "스킬 아이콘(패시브): 세이나 초월 특성 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/trait_elf_seina",
+"hasFile": true
+},
+{
+"id": "key/hero_bg_legend_dwarf_durgan",
+"group": "key",
+"title": "전설 전용 상세 백판: 두르간 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "key/hero_bg_legend_dwarf_durgan",
+"hasFile": true
+},
+{
+"id": "ui/skill_dwarf_durgan",
+"group": "ui",
+"title": "스킬 아이콘(액티브): 두르간 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/skill_dwarf_durgan",
+"hasFile": true
+},
+{
+"id": "ui/trait_dwarf_durgan",
+"group": "ui",
+"title": "스킬 아이콘(패시브): 두르간 초월 특성 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/trait_dwarf_durgan",
+"hasFile": true
+},
+{
+"id": "key/hero_bg_legend_beast_nadia",
+"group": "key",
+"title": "전설 전용 상세 백판: 나디아 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "key/hero_bg_legend_beast_nadia",
+"hasFile": true
+},
+{
+"id": "ui/skill_beast_nadia",
+"group": "ui",
+"title": "스킬 아이콘(액티브): 나디아 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/skill_beast_nadia",
+"hasFile": true
+},
+{
+"id": "ui/trait_beast_nadia",
+"group": "ui",
+"title": "스킬 아이콘(패시브): 나디아 초월 특성 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/trait_beast_nadia",
+"hasFile": true
+},
+{
+"id": "key/hero_bg_legend_spirit_silpina",
+"group": "key",
+"title": "전설 전용 상세 백판: 실피나 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "key/hero_bg_legend_spirit_silpina",
+"hasFile": true
+},
+{
+"id": "ui/skill_spirit_silpina",
+"group": "ui",
+"title": "스킬 아이콘(액티브): 실피나 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/skill_spirit_silpina",
+"hasFile": true
+},
+{
+"id": "ui/trait_spirit_silpina",
+"group": "ui",
+"title": "스킬 아이콘(패시브): 실피나 초월 특성 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/trait_spirit_silpina",
+"hasFile": true
+},
+{
+"id": "key/hero_bg_legend_dragon_vermilia",
+"group": "key",
+"title": "전설 전용 상세 백판: 베르밀리아 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "key/hero_bg_legend_dragon_vermilia",
+"hasFile": true
+},
+{
+"id": "ui/skill_dragon_vermilia",
+"group": "ui",
+"title": "스킬 아이콘(액티브): 베르밀리아 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/skill_dragon_vermilia",
+"hasFile": true
+},
+{
+"id": "ui/trait_dragon_vermilia",
+"group": "ui",
+"title": "스킬 아이콘(패시브): 베르밀리아 초월 특성 (CD-0197)",
+"brief": "",
+"status": "draft",
+"address": "ui/trait_dragon_vermilia",
+"hasFile": true
 }
 ],
-"at": "2026-11-27 11:58",
+"at": "2026-11-27 12:50",
 "branch": "cd-197",
 "dirty": false
 },
@@ -26962,7 +27114,7 @@
 "h": 1280
 },
 "key/hero_bg_legend_human_waldemar": {
-"f": "data/art/568ea13e2f618d6f2c46.bin",
+"f": "data/art/70e37459b4e6bb591707.bin",
 "w": 720,
 "h": 1280
 },
@@ -28352,7 +28504,7 @@
 "h": 512
 },
 "ui/skill_human_waldemar": {
-"f": "data/art/6d9a4ba3c9451d3f2c15.bin",
+"f": "data/art/645528a95d34c0e2f92d.bin",
 "w": 512,
 "h": 512
 },
@@ -28362,7 +28514,7 @@
 "h": 512
 },
 "ui/trait_human_waldemar": {
-"f": "data/art/68fb49d4b32cc061f8ef.bin",
+"f": "data/art/75260584ce3a1f2a1881.bin",
 "w": 512,
 "h": 512
 },
@@ -28688,6 +28840,81 @@
 },
 "shop/pack_tickets_3": {
 "f": "data/art/19c3578f21b6180fe09d.bin",
+"w": 512,
+"h": 512
+},
+"key/hero_bg_legend_elf_seina": {
+"f": "data/art/236b6bfa0c78c93cb09a.bin",
+"w": 720,
+"h": 1280
+},
+"ui/skill_elf_seina": {
+"f": "data/art/85582b49a6fc41ea13a9.bin",
+"w": 512,
+"h": 512
+},
+"ui/trait_elf_seina": {
+"f": "data/art/fbfa809079aa0dc4213e.bin",
+"w": 512,
+"h": 512
+},
+"key/hero_bg_legend_dwarf_durgan": {
+"f": "data/art/eaec609d164357d2d078.bin",
+"w": 720,
+"h": 1280
+},
+"ui/skill_dwarf_durgan": {
+"f": "data/art/8926049d717b65a43fe3.bin",
+"w": 512,
+"h": 512
+},
+"ui/trait_dwarf_durgan": {
+"f": "data/art/eb5a16c658cef2827b27.bin",
+"w": 512,
+"h": 512
+},
+"key/hero_bg_legend_beast_nadia": {
+"f": "data/art/fec4583827a70365f9bf.bin",
+"w": 720,
+"h": 1280
+},
+"ui/skill_beast_nadia": {
+"f": "data/art/26499261b3f400411986.bin",
+"w": 512,
+"h": 512
+},
+"ui/trait_beast_nadia": {
+"f": "data/art/7c53fa9ae7c4b1eccbd3.bin",
+"w": 512,
+"h": 512
+},
+"key/hero_bg_legend_spirit_silpina": {
+"f": "data/art/f5ff32ab21052a06bdd0.bin",
+"w": 720,
+"h": 1280
+},
+"ui/skill_spirit_silpina": {
+"f": "data/art/296341e419fe07d8957c.bin",
+"w": 512,
+"h": 512
+},
+"ui/trait_spirit_silpina": {
+"f": "data/art/dfb9f48190ee91faef1b.bin",
+"w": 512,
+"h": 512
+},
+"key/hero_bg_legend_dragon_vermilia": {
+"f": "data/art/ba24c973cdd2ecc6ea4a.bin",
+"w": 720,
+"h": 1280
+},
+"ui/skill_dragon_vermilia": {
+"f": "data/art/e653eba9746a9073b0bb.bin",
+"w": 512,
+"h": 512
+},
+"ui/trait_dragon_vermilia": {
+"f": "data/art/1f2c1a54e33b1004a5a8.bin",
 "w": 512,
 "h": 512
 }
@@ -30529,7 +30756,7 @@
 {
 "address": "illust/legend/elf_seina",
 "kind": "illust",
-"state": "none"
+"state": "final"
 },
 {
 "address": "illust/legend/elf_seina_t10",
@@ -30539,7 +30766,7 @@
 {
 "address": "key/hero_bg_legend_elf_seina",
 "kind": "key",
-"state": "none"
+"state": "final"
 },
 {
 "address": "unit/legend/elf_seina/idle",
@@ -30549,7 +30776,7 @@
 {
 "address": "illust/legend/dwarf_durgan",
 "kind": "illust",
-"state": "none"
+"state": "final"
 },
 {
 "address": "illust/legend/dwarf_durgan_t10",
@@ -30559,7 +30786,7 @@
 {
 "address": "key/hero_bg_legend_dwarf_durgan",
 "kind": "key",
-"state": "none"
+"state": "final"
 },
 {
 "address": "unit/legend/dwarf_durgan/idle",
@@ -30569,7 +30796,7 @@
 {
 "address": "illust/legend/beast_nadia",
 "kind": "illust",
-"state": "none"
+"state": "final"
 },
 {
 "address": "illust/legend/beast_nadia_t10",
@@ -30579,7 +30806,7 @@
 {
 "address": "key/hero_bg_legend_beast_nadia",
 "kind": "key",
-"state": "none"
+"state": "final"
 },
 {
 "address": "unit/legend/beast_nadia/idle",
@@ -30589,7 +30816,7 @@
 {
 "address": "illust/legend/spirit_silpina",
 "kind": "illust",
-"state": "none"
+"state": "final"
 },
 {
 "address": "illust/legend/spirit_silpina_t10",
@@ -30599,7 +30826,7 @@
 {
 "address": "key/hero_bg_legend_spirit_silpina",
 "kind": "key",
-"state": "none"
+"state": "final"
 },
 {
 "address": "unit/legend/spirit_silpina/idle",
@@ -30609,7 +30836,7 @@
 {
 "address": "illust/legend/dragon_vermilia",
 "kind": "illust",
-"state": "none"
+"state": "final"
 },
 {
 "address": "illust/legend/dragon_vermilia_t10",
@@ -30619,7 +30846,7 @@
 {
 "address": "key/hero_bg_legend_dragon_vermilia",
 "kind": "key",
-"state": "none"
+"state": "final"
 },
 {
 "address": "unit/legend/dragon_vermilia/idle",
@@ -30712,7 +30939,7 @@
 "state": "final"
 }
 ],
-"at": "2026-11-27 11:58",
+"at": "2026-11-27 12:48",
 "branch": "cd-197"
 }
 },
@@ -31076,7 +31303,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 12:46",
-"generatedAt": "2026-11-27 12:47",
-"digest": "90b6985721561cd7"
+"sourceAt": "2026-11-27 12:56",
+"generatedAt": "2026-11-27 13:17",
+"digest": "a32c0e347964c634"
 }
