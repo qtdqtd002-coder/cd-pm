@@ -1518,15 +1518,43 @@
 "msg": "CD-0193b 카드 테두리 다듬기(모서리 기준 100·기록 칸 여백) — EditMode 13/13 · 프로필 캡처"
 }
 ],
-"dirtyCount": 1,
+"dirtyCount": 27,
 "dirty": [
 {
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-27 12:51"
+"file": "test-results.xml",
+"at": "2026-11-27 14:47"
+},
+{
+"file": "UnityProject/Assets/AddressableAssetsData/AssetGroups/Art.asset",
+"at": "2026-11-27 14:47"
+},
+{
+"file": "UnityProject/Assets/_Game/Catalog/SpriteCatalog.asset",
+"at": "2026-11-27 14:47"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/box/banner_gift.png.meta",
+"at": "2026-11-27 14:46"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd35ShopKujiEditModeTests.cs",
+"at": "2026-11-27 14:43"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/BoxScreen.cs",
+"at": "2026-11-27 14:43"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/Final/box/banner_gift.png",
+"at": "2026-11-27 14:42"
+},
+{
+"file": "studio/assets-ledger.csv",
+"at": "2026-11-27 14:41"
 }
 ],
-"lastEdit": "2026-11-27 12:51",
-"lastEditTs": 1795751516.2694492,
+"lastEdit": "2026-11-27 14:47",
+"lastEditTs": 1795758453.3953323,
 "lastCommitTs": 1795751776,
 "unpushed": 2,
 "notInMain": 2,
@@ -12499,7 +12527,7 @@
 "id": "CD-0208",
 "title": "뽑기 상단 배너 — 판 번호 빼기·«상위상 모두 획득 시 상품이 초기화됩니다»·A상 옆 전설 영웅 2~3명",
 "branch": "cd-208",
-"updated": "2026-11-27 12:56",
+"updated": "2026-11-27 14:39",
 "files": [
 "00-order.md",
 "90-close.md",
@@ -12507,18 +12535,18 @@
 "review"
 ],
 "milestone": "M6",
-"stage": "마감",
+"stage": "제작",
 "route": "direct",
 "risk": "mid",
 "teams": "client",
 "opened": "2026-11-27",
 "closed": "",
-"stageRaw": "마감",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "done",
+"phase": "doing",
 "builtIn": ""
 },
 {
@@ -23671,7 +23699,7 @@
 {
 "id": "key/hero_bg_legend_human_waldemar",
 "group": "key",
-"title": "전설 전용 상세 백판: 엘레노어 (CD-0197)",
+"title": "영웅 정보창 백판 · 발데마르 전용",
 "brief": "세로 9:16(1080×1920, 불투명 · 위쪽은 게임이 녹임, 바닥선 80%). 기사단 대회랑. CD-0089 → CD-0122 세로로 다시 그림",
 "status": "draft",
 "hasFile": true
@@ -26288,9 +26316,9 @@
 {
 "id": "ui/skill_human_waldemar",
 "group": "ui",
-"title": "스킬 아이콘(액티브): 엘레노어 (CD-0197)",
+"title": "스킬 아이콘(액티브): 발데마르 «대검 가르기»",
 "brief": "512×512 RGBA, 셀화풍 평면 2D, 백판 주홍 · 둥근 사각(액티브), 바깥 투명(금테는 게임이 그림), 글자 없음",
-"status": "draft",
+"status": "confirmed",
 "address": "ui/skill_human_waldemar",
 "source": "Codex · 주문 CD-0125",
 "hasFile": true
@@ -26308,9 +26336,9 @@
 {
 "id": "ui/trait_human_waldemar",
 "group": "ui",
-"title": "스킬 아이콘(패시브): 엘레노어 초월 특성 (CD-0197)",
+"title": "스킬 아이콘(패시브): 발데마르 초월 특성 «공격속도»",
 "brief": "512×512 RGBA, 셀화풍 평면 2D, 백판 청록 · 원(패시브), 바깥 투명(금테는 게임이 그림), 글자 없음",
-"status": "draft",
+"status": "confirmed",
 "address": "ui/trait_human_waldemar",
 "source": "Codex · 주문 CD-0125",
 "hasFile": true
@@ -26723,51 +26751,6 @@
 "hasFile": true
 },
 {
-"id": "illust/legend/elf_seina",
-"group": "legend",
-"title": "전설 일러스트 elf_seina",
-"brief": "",
-"status": "confirmed",
-"address": "illust/legend/elf_seina",
-"hasFile": true
-},
-{
-"id": "illust/legend/dwarf_durgan",
-"group": "legend",
-"title": "전설 일러스트 dwarf_durgan",
-"brief": "",
-"status": "confirmed",
-"address": "illust/legend/dwarf_durgan",
-"hasFile": true
-},
-{
-"id": "illust/legend/beast_nadia",
-"group": "legend",
-"title": "전설 일러스트 beast_nadia",
-"brief": "",
-"status": "confirmed",
-"address": "illust/legend/beast_nadia",
-"hasFile": true
-},
-{
-"id": "illust/legend/spirit_silpina",
-"group": "legend",
-"title": "전설 일러스트 spirit_silpina",
-"brief": "",
-"status": "confirmed",
-"address": "illust/legend/spirit_silpina",
-"hasFile": true
-},
-{
-"id": "illust/legend/dragon_vermilia",
-"group": "legend",
-"title": "전설 일러스트 dragon_vermilia",
-"brief": "",
-"status": "confirmed",
-"address": "illust/legend/dragon_vermilia",
-"hasFile": true
-},
-{
 "id": "ui/nameplate_default",
 "group": "ui",
 "title": "프로필 플레이트: 기본(가로, 9-slice — CD-0193)",
@@ -26903,144 +26886,18 @@
 "hasFile": true
 },
 {
-"id": "key/hero_bg_legend_elf_seina",
-"group": "key",
-"title": "전설 전용 상세 백판: 세이나 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "key/hero_bg_legend_elf_seina",
-"hasFile": true
-},
-{
-"id": "ui/skill_elf_seina",
+"id": "box/banner_gift",
 "group": "ui",
-"title": "스킬 아이콘(액티브): 세이나 (CD-0197)",
-"brief": "",
+"title": "뽑기 배너: A상 선물 그림 (선물 상자 위 베르밀리아)",
+"brief": "폭 768 통그림 · 배너 오른쪽(«A상» 딱지 옆) · 글자 없음 · CD-0208 C안(사용자 «매력적으로 폴리싱»)",
 "status": "draft",
-"address": "ui/skill_elf_seina",
-"hasFile": true
-},
-{
-"id": "ui/trait_elf_seina",
-"group": "ui",
-"title": "스킬 아이콘(패시브): 세이나 초월 특성 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "ui/trait_elf_seina",
-"hasFile": true
-},
-{
-"id": "key/hero_bg_legend_dwarf_durgan",
-"group": "key",
-"title": "전설 전용 상세 백판: 두르간 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "key/hero_bg_legend_dwarf_durgan",
-"hasFile": true
-},
-{
-"id": "ui/skill_dwarf_durgan",
-"group": "ui",
-"title": "스킬 아이콘(액티브): 두르간 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "ui/skill_dwarf_durgan",
-"hasFile": true
-},
-{
-"id": "ui/trait_dwarf_durgan",
-"group": "ui",
-"title": "스킬 아이콘(패시브): 두르간 초월 특성 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "ui/trait_dwarf_durgan",
-"hasFile": true
-},
-{
-"id": "key/hero_bg_legend_beast_nadia",
-"group": "key",
-"title": "전설 전용 상세 백판: 나디아 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "key/hero_bg_legend_beast_nadia",
-"hasFile": true
-},
-{
-"id": "ui/skill_beast_nadia",
-"group": "ui",
-"title": "스킬 아이콘(액티브): 나디아 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "ui/skill_beast_nadia",
-"hasFile": true
-},
-{
-"id": "ui/trait_beast_nadia",
-"group": "ui",
-"title": "스킬 아이콘(패시브): 나디아 초월 특성 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "ui/trait_beast_nadia",
-"hasFile": true
-},
-{
-"id": "key/hero_bg_legend_spirit_silpina",
-"group": "key",
-"title": "전설 전용 상세 백판: 실피나 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "key/hero_bg_legend_spirit_silpina",
-"hasFile": true
-},
-{
-"id": "ui/skill_spirit_silpina",
-"group": "ui",
-"title": "스킬 아이콘(액티브): 실피나 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "ui/skill_spirit_silpina",
-"hasFile": true
-},
-{
-"id": "ui/trait_spirit_silpina",
-"group": "ui",
-"title": "스킬 아이콘(패시브): 실피나 초월 특성 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "ui/trait_spirit_silpina",
-"hasFile": true
-},
-{
-"id": "key/hero_bg_legend_dragon_vermilia",
-"group": "key",
-"title": "전설 전용 상세 백판: 베르밀리아 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "key/hero_bg_legend_dragon_vermilia",
-"hasFile": true
-},
-{
-"id": "ui/skill_dragon_vermilia",
-"group": "ui",
-"title": "스킬 아이콘(액티브): 베르밀리아 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "ui/skill_dragon_vermilia",
-"hasFile": true
-},
-{
-"id": "ui/trait_dragon_vermilia",
-"group": "ui",
-"title": "스킬 아이콘(패시브): 베르밀리아 초월 특성 (CD-0197)",
-"brief": "",
-"status": "draft",
-"address": "ui/trait_dragon_vermilia",
+"address": "box/banner_gift",
 "hasFile": true
 }
 ],
-"at": "2026-11-27 12:50",
-"branch": "cd-197",
-"dirty": false
+"at": "2026-11-27 14:41",
+"branch": "cd-208",
+"dirty": true
 },
 "gallery": {
 "v": 1,
@@ -28735,31 +28592,6 @@
 "w": 1280,
 "h": 967
 },
-"illust/legend/elf_seina": {
-"f": "data/art/7d1a8869285076db0ad9.bin",
-"w": 768,
-"h": 1024
-},
-"illust/legend/dwarf_durgan": {
-"f": "data/art/90fa4511ee35b204cd3e.bin",
-"w": 768,
-"h": 1024
-},
-"illust/legend/beast_nadia": {
-"f": "data/art/5213332e7f981ff6a5ab.bin",
-"w": 768,
-"h": 1024
-},
-"illust/legend/spirit_silpina": {
-"f": "data/art/9f9baf1bf8f592db2220.bin",
-"w": 768,
-"h": 1024
-},
-"illust/legend/dragon_vermilia": {
-"f": "data/art/2692a6fbd9b3a8256e32.bin",
-"w": 768,
-"h": 1024
-},
 "ui/nameplate_default": {
 "f": "data/art/b292c723bc1449aa6e23.bin",
 "w": 1024,
@@ -28835,80 +28667,10 @@
 "w": 512,
 "h": 512
 },
-"key/hero_bg_legend_elf_seina": {
-"f": "data/art/236b6bfa0c78c93cb09a.bin",
-"w": 720,
-"h": 1280
-},
-"ui/skill_elf_seina": {
-"f": "data/art/85582b49a6fc41ea13a9.bin",
-"w": 512,
-"h": 512
-},
-"ui/trait_elf_seina": {
-"f": "data/art/fbfa809079aa0dc4213e.bin",
-"w": 512,
-"h": 512
-},
-"key/hero_bg_legend_dwarf_durgan": {
-"f": "data/art/eaec609d164357d2d078.bin",
-"w": 720,
-"h": 1280
-},
-"ui/skill_dwarf_durgan": {
-"f": "data/art/8926049d717b65a43fe3.bin",
-"w": 512,
-"h": 512
-},
-"ui/trait_dwarf_durgan": {
-"f": "data/art/eb5a16c658cef2827b27.bin",
-"w": 512,
-"h": 512
-},
-"key/hero_bg_legend_beast_nadia": {
-"f": "data/art/fec4583827a70365f9bf.bin",
-"w": 720,
-"h": 1280
-},
-"ui/skill_beast_nadia": {
-"f": "data/art/26499261b3f400411986.bin",
-"w": 512,
-"h": 512
-},
-"ui/trait_beast_nadia": {
-"f": "data/art/7c53fa9ae7c4b1eccbd3.bin",
-"w": 512,
-"h": 512
-},
-"key/hero_bg_legend_spirit_silpina": {
-"f": "data/art/f5ff32ab21052a06bdd0.bin",
-"w": 720,
-"h": 1280
-},
-"ui/skill_spirit_silpina": {
-"f": "data/art/296341e419fe07d8957c.bin",
-"w": 512,
-"h": 512
-},
-"ui/trait_spirit_silpina": {
-"f": "data/art/dfb9f48190ee91faef1b.bin",
-"w": 512,
-"h": 512
-},
-"key/hero_bg_legend_dragon_vermilia": {
-"f": "data/art/ba24c973cdd2ecc6ea4a.bin",
-"w": 720,
-"h": 1280
-},
-"ui/skill_dragon_vermilia": {
-"f": "data/art/e653eba9746a9073b0bb.bin",
-"w": 512,
-"h": 512
-},
-"ui/trait_dragon_vermilia": {
-"f": "data/art/1f2c1a54e33b1004a5a8.bin",
-"w": 512,
-"h": 512
+"box/banner_gift": {
+"f": "data/art/0eee86df889f42762bad.bin",
+"w": 768,
+"h": 520
 }
 },
 "keyAt": "2026-11-16 17:14"
@@ -30746,106 +30508,6 @@
 "state": "final"
 },
 {
-"address": "illust/legend/elf_seina",
-"kind": "illust",
-"state": "final"
-},
-{
-"address": "illust/legend/elf_seina_t10",
-"kind": "illust",
-"state": "none"
-},
-{
-"address": "key/hero_bg_legend_elf_seina",
-"kind": "key",
-"state": "final"
-},
-{
-"address": "unit/legend/elf_seina/idle",
-"kind": "unit",
-"state": "none"
-},
-{
-"address": "illust/legend/dwarf_durgan",
-"kind": "illust",
-"state": "final"
-},
-{
-"address": "illust/legend/dwarf_durgan_t10",
-"kind": "illust",
-"state": "none"
-},
-{
-"address": "key/hero_bg_legend_dwarf_durgan",
-"kind": "key",
-"state": "final"
-},
-{
-"address": "unit/legend/dwarf_durgan/idle",
-"kind": "unit",
-"state": "none"
-},
-{
-"address": "illust/legend/beast_nadia",
-"kind": "illust",
-"state": "final"
-},
-{
-"address": "illust/legend/beast_nadia_t10",
-"kind": "illust",
-"state": "none"
-},
-{
-"address": "key/hero_bg_legend_beast_nadia",
-"kind": "key",
-"state": "final"
-},
-{
-"address": "unit/legend/beast_nadia/idle",
-"kind": "unit",
-"state": "none"
-},
-{
-"address": "illust/legend/spirit_silpina",
-"kind": "illust",
-"state": "final"
-},
-{
-"address": "illust/legend/spirit_silpina_t10",
-"kind": "illust",
-"state": "none"
-},
-{
-"address": "key/hero_bg_legend_spirit_silpina",
-"kind": "key",
-"state": "final"
-},
-{
-"address": "unit/legend/spirit_silpina/idle",
-"kind": "unit",
-"state": "none"
-},
-{
-"address": "illust/legend/dragon_vermilia",
-"kind": "illust",
-"state": "final"
-},
-{
-"address": "illust/legend/dragon_vermilia_t10",
-"kind": "illust",
-"state": "none"
-},
-{
-"address": "key/hero_bg_legend_dragon_vermilia",
-"kind": "key",
-"state": "final"
-},
-{
-"address": "unit/legend/dragon_vermilia/idle",
-"kind": "unit",
-"state": "none"
-},
-{
 "address": "ui/summon_orb",
 "kind": "ui",
 "state": "final"
@@ -30929,10 +30591,15 @@
 "address": "shop/pack_tickets_3",
 "kind": "shop",
 "state": "final"
+},
+{
+"address": "box/banner_gift",
+"kind": "box",
+"state": "final"
 }
 ],
-"at": "2026-11-27 12:48",
-"branch": "cd-197"
+"at": "2026-11-27 14:36",
+"branch": "cd-208"
 }
 },
 "devlog": [
@@ -31295,7 +30962,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 14:02",
-"generatedAt": "2026-11-27 14:17",
-"digest": "ed6dd7b264d9c677"
+"sourceAt": "2026-11-27 14:47",
+"generatedAt": "2026-11-27 14:47",
+"digest": "e061e02c9936e9eb"
 }
