@@ -1431,19 +1431,43 @@
 "msg": "CD-0197 마감 요약: 실피나 군중 조건은 시험 데이터만 4→2, 실제 데이터 4 — QA 관찰 거리"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 9,
 "dirty": [
 {
-"file": "studio/codex-usage.jsonl",
-"at": "2026-11-27 20:39"
+"file": "studio/assets-ledger.csv",
+"at": "2026-11-27 21:15"
 },
 {
-"file": "art/tools/gen.py",
-"at": "2026-11-27 20:36"
+"file": "UnityProject/Assets/_Game/Art/AppIcon/adaptive_bg_432.png",
+"at": "2026-11-27 21:15"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/AppIcon/icon_round_512.png",
+"at": "2026-11-27 21:15"
+},
+{
+"file": "UnityProject/Assets/_Game/Art/AppIcon/icon_512.png",
+"at": "2026-11-27 21:15"
+},
+{
+"file": "studio/art-manifest.json",
+"at": "2026-11-27 21:14"
+},
+{
+"file": "art/final/icon/app.png",
+"at": "2026-11-27 21:14"
+},
+{
+"file": "art/final/icon/_master/app.png",
+"at": "2026-11-27 21:14"
+},
+{
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-27 21:14"
 }
 ],
-"lastEdit": "2026-11-27 20:39",
-"lastEditTs": 1795779574.6270912,
+"lastEdit": "2026-11-27 21:15",
+"lastEditTs": 1795781758.6182597,
 "lastCommitTs": 1795779298,
 "unpushed": 0,
 "notInMain": 0,
@@ -1519,7 +1543,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 106,
+"commits": 102,
 "byOrder": [
 [
 "CD-0197",
@@ -1555,10 +1579,6 @@
 ],
 [
 "CD-0194",
-3
-],
-[
-"CD-0179",
 3
 ],
 [
@@ -1618,19 +1638,15 @@
 2
 ],
 [
+"CD-0179",
+2
+],
+[
 "CD-0189",
 2
 ],
 [
 "CD-0190",
-2
-],
-[
-"CD-0188",
-2
-],
-[
-"CD-0187",
 2
 ],
 [
@@ -1647,6 +1663,10 @@
 ],
 [
 "CD-0174",
+1
+],
+[
+"CD-0188",
 1
 ]
 ],
@@ -23483,8 +23503,8 @@
 "id": "icon/app",
 "group": "icon",
 "title": "앱 아이콘 그림",
-"brief": "엘프 1단계 «리엘» 상반신 + 튕겨 올린 금화(구슬 테·잎 고리 장식), 하늘색→금빛 배경(2026-11-17 사용자 선택, 코인은 «밋밋하다» 피드백으로 금화로 다시 그림)",
-"status": "draft",
+"brief": "성문 탑 창문에서 손 흔드는 엘프 1단계 «리엘»(CD-0198 B안, 사용자 2026-11-27 «B 성문 탑»)",
+"status": "confirmed",
 "hasFile": true
 },
 {
@@ -27041,9 +27061,9 @@
 "hasFile": true
 }
 ],
-"at": "2026-11-27 20:14",
-"branch": "main",
-"dirty": false
+"at": "2026-11-27 21:14",
+"branch": "cd-198",
+"dirty": true
 },
 "gallery": {
 "v": 1,
@@ -27054,7 +27074,7 @@
 "cipher": "AES-256-GCM(iv12+ct)",
 "files": {
 "icon/app": {
-"f": "data/art/b70b4c15cddac631e1c4.bin",
+"f": "data/art/da1f01ada9c8b46926f8.bin",
 "w": 1024,
 "h": 1024
 },
@@ -31358,7 +31378,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 20:39",
-"generatedAt": "2026-11-27 20:47",
-"digest": "a328d480061ed34c"
+"sourceAt": "2026-11-27 21:15",
+"generatedAt": "2026-11-27 21:17",
+"digest": "8dbbc5dbf75d9411"
 }
