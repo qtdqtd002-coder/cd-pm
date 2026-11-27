@@ -1344,8 +1344,32 @@
 "msg": "CD-0209: 새 상점 그림 15장 카탈로그·Addressables 등록(.meta 는 Unity 가 만듦) · 간판 9-slice 72·0"
 }
 ],
-"dirtyCount": 20,
+"dirtyCount": 26,
 "dirty": [
+{
+"file": "art-lab/legend-plates2/plate_dragon_vermilia.png",
+"at": "2026-11-27 13:54"
+},
+{
+"file": "art-lab/legend-plates2/plate_spirit_silpina.png",
+"at": "2026-11-27 13:53"
+},
+{
+"file": "art-lab/legend-plates2/plate_beast_nadia.png",
+"at": "2026-11-27 13:52"
+},
+{
+"file": "art-lab/legend-plates2/plate_dwarf_durgan.png",
+"at": "2026-11-27 13:52"
+},
+{
+"file": "art-lab/legend-plates2/plate_elf_seina.png",
+"at": "2026-11-27 13:51"
+},
+{
+"file": "art-lab/legend-plates2/plate_human_waldemar.png",
+"at": "2026-11-27 13:50"
+},
 {
 "file": "art-lab/legend-icons/trait_dragon_vermilia.png",
 "at": "2026-11-27 12:13"
@@ -1353,34 +1377,10 @@
 {
 "file": "art-lab/legend-icons/skill_dragon_vermilia.png",
 "at": "2026-11-27 12:12"
-},
-{
-"file": "art-lab/legend-icons/trait_spirit_silpina.png",
-"at": "2026-11-27 12:12"
-},
-{
-"file": "art-lab/legend-icons/skill_spirit_silpina.png",
-"at": "2026-11-27 12:11"
-},
-{
-"file": "art-lab/legend-icons/trait_beast_nadia.png",
-"at": "2026-11-27 12:10"
-},
-{
-"file": "art-lab/legend-icons/skill_beast_nadia.png",
-"at": "2026-11-27 12:09"
-},
-{
-"file": "art-lab/legend-icons/trait_dwarf_durgan.png",
-"at": "2026-11-27 12:09"
-},
-{
-"file": "art-lab/legend-icons/skill_dwarf_durgan.png",
-"at": "2026-11-27 12:08"
 }
 ],
-"lastEdit": "2026-11-27 12:13",
-"lastEditTs": 1795749216.7247572,
+"lastEdit": "2026-11-27 13:54",
+"lastEditTs": 1795755275.9713502,
 "lastCommitTs": 1795737383,
 "unpushed": 0,
 "notInMain": 0,
@@ -1392,8 +1392,20 @@
 "session": "",
 "owns": "",
 "order": "CD-0197",
-"head": "05aa834",
+"head": "b757d9c",
 "commits": [
+{
+"sha": "b757d9cf",
+"at": "2026-11-27 13:51",
+"ts": 1795755113,
+"msg": "CD-0197 3차 지시문: 역동적 공격 자세 + 일러스트화한 FX, 세이나 서브컬처 암살자로 다시 디자인"
+},
+{
+"sha": "4d3c3e04",
+"at": "2026-11-27 13:49",
+"ts": 1795754978,
+"msg": "CD-0197: 전설 상세 화면 후광(광선) 끔 · 백판 지시문을 전설마다 시간대·색이 다른 전용 디자인으로"
+},
 {
 "sha": "05aa8348",
 "at": "2026-11-27 12:55",
@@ -1417,22 +1429,14 @@
 "at": "2026-11-27 11:57",
 "ts": 1795748255,
 "msg": "CD-0197: 전설 나머지 그림 도구(legend_assets.py) — 전용 백판·아이콘·+10 초상·SD·부품 시트 지시문"
-},
-{
-"sha": "7001ff67",
-"at": "2026-11-27 11:53",
-"ts": 1795748002,
-"msg": "CD-0197: 전설 6명 일러스트 확정(사용자 «이대로») — art/final/illust/legend"
-},
-{
-"sha": "3e1e9264",
-"at": "2026-11-27 08:56",
-"ts": 1795737383,
-"msg": "병합: cd-209 6eda0c2b(CD-0209 상점 A안 «따뜻한 고급 노점» + 첫 화면 «젬스톤 충전» 6칸, 결정 0148 — 카드·간판·특가 띠·30일 보급 배너·묶음 그림 교체 · 충전 칸은 기존 GemStoreWindow 열기(결제 코드 그대로) · Codex 21장 · EditMode 28/28 · 캡처 1/1 · origin/main 병합해 Art.asset·check.py·art-manifest·장부 충돌 풀림)"
 }
 ],
-"dirtyCount": 15,
+"dirtyCount": 16,
 "dirty": [
+{
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-27 14:02"
+},
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
 "at": "2026-11-27 12:55"
@@ -1460,18 +1464,14 @@
 {
 "file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_spirit_silpina.png",
 "at": "2026-11-27 12:55"
-},
-{
-"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_beast_nadia_1080x2400.png",
-"at": "2026-11-27 12:55"
 }
 ],
-"lastEdit": "2026-11-27 12:55",
-"lastEditTs": 1795751706.46668,
-"lastCommitTs": 1795751736,
-"unpushed": 11,
-"notInMain": 11,
-"today": 88
+"lastEdit": "2026-11-27 14:02",
+"lastEditTs": 1795755743.993906,
+"lastCommitTs": 1795755113,
+"unpushed": 13,
+"notInMain": 13,
+"today": 90
 },
 {
 "branch": "cd-208",
@@ -1602,26 +1602,22 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 154,
+"commits": 150,
 "byOrder": [
 [
 "CD-0193",
 14
 ],
 [
-"기타",
-14
+"CD-0197",
+12
 ],
 [
-"CD-0197",
-10
+"기타",
+12
 ],
 [
 "CD-0180",
-8
-],
-[
-"CD-0175",
 8
 ],
 [
@@ -1654,6 +1650,10 @@
 ],
 [
 "CD-0176",
+4
+],
+[
+"CD-0175",
 4
 ],
 [
@@ -1779,6 +1779,16 @@
 ],
 "latest": [
 {
+"sha": "b757d9cf",
+"at": "2026-11-27 13:51",
+"msg": "CD-0197 3차 지시문: 역동적 공격 자세 + 일러스트화한 FX, 세이나 서브컬처 암살자로 다시 디자인"
+},
+{
+"sha": "4d3c3e04",
+"at": "2026-11-27 13:49",
+"msg": "CD-0197: 전설 상세 화면 후광(광선) 끔 · 백판 지시문을 전설마다 시간대·색이 다른 전용 디자인으로"
+},
+{
 "sha": "5ec16052",
 "at": "2026-11-27 12:56",
 "msg": "CD-0208 마감: 전설 그림 머리 잘림 고침(배너 안쪽 16·34) · 주석 옛 문구 정리 · EditMode 29/29 · 캡처 · 합성 미리보기 · 마감 초안"
@@ -1817,16 +1827,6 @@
 "sha": "ef0a08c9",
 "at": "2026-11-27 08:51",
 "msg": "CD-0197 두 번째 안: 종족마다 고유 컨셉(검객·암살자·망치·권투사·바람 정령왕·화염 성룡) — 이름·스킬·설계 지시문, 속성은 컨셉·FX 에만 · Core 1260/1261"
-},
-{
-"sha": "eb948bd0",
-"at": "2026-11-27 08:47",
-"msg": "CD-0193b 카드 테두리 다듬기(모서리 기준 100·기록 칸 여백) — EditMode 13/13 · 프로필 캡처"
-},
-{
-"sha": "0faed334",
-"at": "2026-11-27 08:44",
-"msg": "CD-0209 마감: 상품 그림 2장 다시(은화·티켓) · 충전 구역 띠 자리·특가 띠 크기 · EditMode 28/28 · 캡처 · 마감 초안"
 }
 ]
 },
@@ -31295,7 +31295,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 12:56",
-"generatedAt": "2026-11-27 13:47",
-"digest": "f1b00e492ea2200e"
+"sourceAt": "2026-11-27 14:02",
+"generatedAt": "2026-11-27 14:17",
+"digest": "ed6dd7b264d9c677"
 }
