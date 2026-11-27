@@ -1504,43 +1504,43 @@
 "msg": "cd-219c: CD-0219·0220 뒤 옛 기대값 시험 3개 고침"
 }
 ],
-"dirtyCount": 10,
+"dirtyCount": 12,
 "dirty": [
 {
-"file": "docs/decisions/0190-1-4단계-종족은-특수-효과-없이-같은-힘-차이는-전설만.md",
-"at": "2026-11-28 03:15"
+"file": "Data/waves.json",
+"at": "2026-11-28 03:46"
+},
+{
+"file": "studio/orders/CD-0229-1-4단계-종족-특수-효과-빼고-같은-단계-같은-힘/_sim/tune_log.md",
+"at": "2026-11-28 03:46"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Data/units.json",
-"at": "2026-11-28 03:15"
-},
-{
-"file": "Data/units.json",
-"at": "2026-11-28 03:15"
-},
-{
-"file": "studio/orders/CD-0229-1-4단계-종족-특수-효과-빼고-같은-단계-같은-힘/_sim/race_value_log.md",
-"at": "2026-11-28 03:15"
-},
-{
-"file": "studio/orders/CD-0229-1-4단계-종족-특수-효과-빼고-같은-단계-같은-힘/_sim/units_candidate.json",
-"at": "2026-11-28 03:15"
-},
-{
-"file": "studio/checks.json",
-"at": "2026-11-28 03:11"
+"at": "2026-11-28 03:29"
 },
 {
 "file": "UnityProject/Assets/_Game/Resources/Data/waves.json",
-"at": "2026-11-28 03:08"
+"at": "2026-11-28 03:29"
 },
 {
-"file": "Data/waves.json",
-"at": "2026-11-28 03:08"
+"file": "Data/units.json",
+"at": "2026-11-28 03:29"
+},
+{
+"file": "studio/orders/CD-0229-1-4단계-종족-특수-효과-빼고-같은-단계-같은-힘/_sim/race_value_log.md",
+"at": "2026-11-28 03:29"
+},
+{
+"file": "studio/orders/CD-0229-1-4단계-종족-특수-효과-빼고-같은-단계-같은-힘/_sim/units_candidate.json",
+"at": "2026-11-28 03:29"
+},
+{
+"file": "studio/orders/CD-0229-1-4단계-종족-특수-효과-빼고-같은-단계-같은-힘/_sim/race_value.py",
+"at": "2026-11-28 03:27"
 }
 ],
-"lastEdit": "2026-11-28 03:15",
-"lastEditTs": 1795803344.4154313,
+"lastEdit": "2026-11-28 03:46",
+"lastEditTs": 1795805185.2337382,
 "lastCommitTs": 1795802101,
 "unpushed": 2,
 "notInMain": 2,
@@ -16887,19 +16887,19 @@
 "stage": 2,
 "name": "리엘",
 "title": "수습 숲지기",
-"damage": 245
+"damage": 243
 },
 {
 "stage": 3,
 "name": "리엘",
 "title": "숲 순찰자",
-"damage": 812
+"damage": 813
 },
 {
 "stage": 4,
 "name": "리엘",
 "title": "수비대 명궁",
-"damage": 2858
+"damage": 2861
 }
 ]
 },
@@ -16918,25 +16918,25 @@
 "stage": 1,
 "name": "그론",
 "title": "광산 마을 꼬마",
-"damage": 128
+"damage": 129
 },
 {
 "stage": 2,
 "name": "그론",
 "title": "수습 공병",
-"damage": 617
+"damage": 599
 },
 {
 "stage": 3,
 "name": "그론",
 "title": "수비대 포병",
-"damage": 2578
+"damage": 2568
 },
 {
 "stage": 4,
 "name": "그론",
 "title": "선임 포격수",
-"damage": 9366
+"damage": 9378
 }
 ]
 },
@@ -16960,19 +16960,19 @@
 "stage": 2,
 "name": "카자",
 "title": "어린 스라소니",
-"damage": 373
+"damage": 363
 },
 {
 "stage": 3,
 "name": "카자",
 "title": "갓 일어선 수인",
-"damage": 1038
+"damage": 1076
 },
 {
 "stage": 4,
 "name": "카자",
 "title": "수비대 척후",
-"damage": 3276
+"damage": 3468
 }
 ]
 },
@@ -16991,25 +16991,25 @@
 "stage": 1,
 "name": "펠리",
 "title": "작은 기운",
-"damage": 66
+"damage": 69
 },
 {
 "stage": 2,
 "name": "펠리",
 "title": "모이는 기운",
-"damage": 311
+"damage": 306
 },
 {
 "stage": 3,
 "name": "펠리",
 "title": "가면 쓴 정령",
-"damage": 1221
+"damage": 1215
 },
 {
 "stage": 4,
 "name": "펠리",
 "title": "물들지 않은 수호령",
-"damage": 4496
+"damage": 4506
 }
 ]
 },
@@ -17034,25 +17034,25 @@
 "stage": 2,
 "name": "라카",
 "title": "어린 용",
-"damage": 500
+"damage": 490
 },
 {
 "stage": 3,
 "name": "라카",
 "title": "젊은 비룡",
-"damage": 2099
+"damage": 2112
 },
 {
 "stage": 4,
 "name": "라카",
 "title": "용창 기사",
-"damage": 7144
+"damage": 7536
 }
 ]
 }
 ]
 },
-"at": "2026-11-28 03:15",
+"at": "2026-11-28 03:29",
 "branch": "cd-229",
 "dirty": true
 },
@@ -19466,7 +19466,7 @@
 "waves": [
 {
 "wave": 1,
-"hpPct": 138,
+"hpPct": 114,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19477,7 +19477,7 @@
 },
 {
 "wave": 2,
-"hpPct": 138,
+"hpPct": 114,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19488,7 +19488,7 @@
 },
 {
 "wave": 3,
-"hpPct": 161,
+"hpPct": 134,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19499,7 +19499,7 @@
 },
 {
 "wave": 4,
-"hpPct": 161,
+"hpPct": 134,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19510,7 +19510,7 @@
 },
 {
 "wave": 5,
-"hpPct": 216,
+"hpPct": 179,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19521,7 +19521,7 @@
 },
 {
 "wave": 6,
-"hpPct": 216,
+"hpPct": 179,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -19532,7 +19532,7 @@
 },
 {
 "wave": 7,
-"hpPct": 252,
+"hpPct": 209,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -19543,7 +19543,7 @@
 },
 {
 "wave": 8,
-"hpPct": 267,
+"hpPct": 221,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -19554,7 +19554,7 @@
 },
 {
 "wave": 9,
-"hpPct": 267,
+"hpPct": 221,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -19565,7 +19565,7 @@
 },
 {
 "wave": 10,
-"hpPct": 367,
+"hpPct": 304,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -19576,7 +19576,7 @@
 },
 {
 "wave": 11,
-"hpPct": 458,
+"hpPct": 380,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19587,7 +19587,7 @@
 },
 {
 "wave": 12,
-"hpPct": 649,
+"hpPct": 538,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19598,7 +19598,7 @@
 },
 {
 "wave": 13,
-"hpPct": 649,
+"hpPct": 538,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19609,7 +19609,7 @@
 },
 {
 "wave": 14,
-"hpPct": 904,
+"hpPct": 750,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19620,7 +19620,7 @@
 },
 {
 "wave": 15,
-"hpPct": 1235,
+"hpPct": 1024,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19631,7 +19631,7 @@
 },
 {
 "wave": 16,
-"hpPct": 1235,
+"hpPct": 1024,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19642,7 +19642,7 @@
 },
 {
 "wave": 17,
-"hpPct": 1515,
+"hpPct": 1256,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19653,7 +19653,7 @@
 },
 {
 "wave": 18,
-"hpPct": 1712,
+"hpPct": 1420,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19664,7 +19664,7 @@
 },
 {
 "wave": 19,
-"hpPct": 1926,
+"hpPct": 1597,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19675,7 +19675,7 @@
 },
 {
 "wave": 20,
-"hpPct": 1926,
+"hpPct": 1597,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19686,7 +19686,7 @@
 },
 {
 "wave": 21,
-"hpPct": 2168,
+"hpPct": 1798,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -19697,7 +19697,7 @@
 },
 {
 "wave": 22,
-"hpPct": 2423,
+"hpPct": 2009,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -19708,7 +19708,7 @@
 },
 {
 "wave": 23,
-"hpPct": 2423,
+"hpPct": 2009,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -19719,7 +19719,7 @@
 },
 {
 "wave": 24,
-"hpPct": 2707,
+"hpPct": 2245,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -19730,7 +19730,7 @@
 },
 {
 "wave": 25,
-"hpPct": 3023,
+"hpPct": 2507,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -19741,7 +19741,7 @@
 },
 {
 "wave": 26,
-"hpPct": 3369,
+"hpPct": 2794,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19752,7 +19752,7 @@
 },
 {
 "wave": 27,
-"hpPct": 3369,
+"hpPct": 2794,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19763,7 +19763,7 @@
 },
 {
 "wave": 28,
-"hpPct": 3745,
+"hpPct": 3106,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19774,7 +19774,7 @@
 },
 {
 "wave": 29,
-"hpPct": 3912,
+"hpPct": 3244,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19785,7 +19785,7 @@
 },
 {
 "wave": 30,
-"hpPct": 3912,
+"hpPct": 3244,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -19796,7 +19796,7 @@
 },
 {
 "wave": 31,
-"hpPct": 4078,
+"hpPct": 3382,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -19807,7 +19807,7 @@
 },
 {
 "wave": 32,
-"hpPct": 4139,
+"hpPct": 3432,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -19818,7 +19818,7 @@
 },
 {
 "wave": 33,
-"hpPct": 4184,
+"hpPct": 3470,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -19829,7 +19829,7 @@
 },
 {
 "wave": 34,
-"hpPct": 4184,
+"hpPct": 3470,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -19840,7 +19840,7 @@
 },
 {
 "wave": 35,
-"hpPct": 4602,
+"hpPct": 3816,
 "groups": [
 {
 "monster": "shadow_ram",
@@ -19851,7 +19851,7 @@
 },
 {
 "wave": 36,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19862,7 +19862,7 @@
 },
 {
 "wave": 37,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19873,7 +19873,7 @@
 },
 {
 "wave": 38,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19884,7 +19884,7 @@
 },
 {
 "wave": 39,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19895,7 +19895,7 @@
 },
 {
 "wave": 40,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -19906,7 +19906,7 @@
 },
 {
 "wave": 41,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19917,7 +19917,7 @@
 },
 {
 "wave": 42,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19928,7 +19928,7 @@
 },
 {
 "wave": 43,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19939,7 +19939,7 @@
 },
 {
 "wave": 44,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19950,7 +19950,7 @@
 },
 {
 "wave": 45,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -19961,7 +19961,7 @@
 },
 {
 "wave": 46,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -19972,7 +19972,7 @@
 },
 {
 "wave": 47,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -19983,7 +19983,7 @@
 },
 {
 "wave": 48,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -19994,7 +19994,7 @@
 },
 {
 "wave": 49,
-"hpPct": 4233,
+"hpPct": 3510,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -20005,7 +20005,7 @@
 },
 {
 "wave": 50,
-"hpPct": 4628,
+"hpPct": 3838,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -20016,7 +20016,7 @@
 },
 {
 "wave": 51,
-"hpPct": 4628,
+"hpPct": 3838,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -20027,7 +20027,7 @@
 },
 {
 "wave": 52,
-"hpPct": 5058,
+"hpPct": 4194,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -20038,7 +20038,7 @@
 },
 {
 "wave": 53,
-"hpPct": 5525,
+"hpPct": 4582,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -20049,7 +20049,7 @@
 },
 {
 "wave": 54,
-"hpPct": 6032,
+"hpPct": 5002,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -20060,7 +20060,7 @@
 },
 {
 "wave": 55,
-"hpPct": 6032,
+"hpPct": 5002,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -20071,7 +20071,7 @@
 },
 {
 "wave": 56,
-"hpPct": 6584,
+"hpPct": 5460,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -20082,7 +20082,7 @@
 },
 {
 "wave": 57,
-"hpPct": 7184,
+"hpPct": 5957,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -20093,7 +20093,7 @@
 },
 {
 "wave": 58,
-"hpPct": 7184,
+"hpPct": 5957,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -20104,7 +20104,7 @@
 },
 {
 "wave": 59,
-"hpPct": 7835,
+"hpPct": 6497,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -20115,7 +20115,7 @@
 },
 {
 "wave": 60,
-"hpPct": 8542,
+"hpPct": 7083,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -20126,7 +20126,7 @@
 },
 {
 "wave": 61,
-"hpPct": 9310,
+"hpPct": 7720,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -20137,7 +20137,7 @@
 },
 {
 "wave": 62,
-"hpPct": 9310,
+"hpPct": 7720,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -20148,7 +20148,7 @@
 },
 {
 "wave": 63,
-"hpPct": 10142,
+"hpPct": 8410,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -20159,7 +20159,7 @@
 },
 {
 "wave": 64,
-"hpPct": 11046,
+"hpPct": 9160,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -20170,7 +20170,7 @@
 },
 {
 "wave": 65,
-"hpPct": 11046,
+"hpPct": 9160,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -20181,7 +20181,7 @@
 },
 {
 "wave": 66,
-"hpPct": 12028,
+"hpPct": 9974,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -20192,7 +20192,7 @@
 },
 {
 "wave": 67,
-"hpPct": 13093,
+"hpPct": 10857,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -20203,7 +20203,7 @@
 },
 {
 "wave": 68,
-"hpPct": 14247,
+"hpPct": 11814,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -20214,7 +20214,7 @@
 },
 {
 "wave": 69,
-"hpPct": 14247,
+"hpPct": 11814,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -20225,7 +20225,7 @@
 },
 {
 "wave": 70,
-"hpPct": 7123,
+"hpPct": 5907,
 "groups": [
 {
 "monster": "shadow_scorpion",
@@ -21246,7 +21246,7 @@
 "waves": [
 {
 "wave": 1,
-"hpPct": 157,
+"hpPct": 174,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21257,7 +21257,7 @@
 },
 {
 "wave": 2,
-"hpPct": 157,
+"hpPct": 174,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21268,7 +21268,7 @@
 },
 {
 "wave": 3,
-"hpPct": 183,
+"hpPct": 203,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21279,7 +21279,7 @@
 },
 {
 "wave": 4,
-"hpPct": 183,
+"hpPct": 203,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21290,7 +21290,7 @@
 },
 {
 "wave": 5,
-"hpPct": 183,
+"hpPct": 203,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21301,7 +21301,7 @@
 },
 {
 "wave": 6,
-"hpPct": 246,
+"hpPct": 272,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21312,7 +21312,7 @@
 },
 {
 "wave": 7,
-"hpPct": 246,
+"hpPct": 272,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21323,7 +21323,7 @@
 },
 {
 "wave": 8,
-"hpPct": 287,
+"hpPct": 318,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21334,7 +21334,7 @@
 },
 {
 "wave": 9,
-"hpPct": 304,
+"hpPct": 336,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21345,7 +21345,7 @@
 },
 {
 "wave": 10,
-"hpPct": 304,
+"hpPct": 336,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21356,7 +21356,7 @@
 },
 {
 "wave": 11,
-"hpPct": 418,
+"hpPct": 463,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21367,7 +21367,7 @@
 },
 {
 "wave": 12,
-"hpPct": 522,
+"hpPct": 578,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21378,7 +21378,7 @@
 },
 {
 "wave": 13,
-"hpPct": 522,
+"hpPct": 578,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21389,7 +21389,7 @@
 },
 {
 "wave": 14,
-"hpPct": 740,
+"hpPct": 819,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21400,7 +21400,7 @@
 },
 {
 "wave": 15,
-"hpPct": 740,
+"hpPct": 819,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21411,7 +21411,7 @@
 },
 {
 "wave": 16,
-"hpPct": 1031,
+"hpPct": 1141,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21422,7 +21422,7 @@
 },
 {
 "wave": 17,
-"hpPct": 1409,
+"hpPct": 1559,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21433,7 +21433,7 @@
 },
 {
 "wave": 18,
-"hpPct": 1409,
+"hpPct": 1559,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21444,7 +21444,7 @@
 },
 {
 "wave": 19,
-"hpPct": 1728,
+"hpPct": 1912,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21455,7 +21455,7 @@
 },
 {
 "wave": 20,
-"hpPct": 1952,
+"hpPct": 2160,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21466,7 +21466,7 @@
 },
 {
 "wave": 21,
-"hpPct": 1952,
+"hpPct": 2160,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21477,7 +21477,7 @@
 },
 {
 "wave": 22,
-"hpPct": 2196,
+"hpPct": 2430,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21488,7 +21488,7 @@
 },
 {
 "wave": 23,
-"hpPct": 2196,
+"hpPct": 2430,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21499,7 +21499,7 @@
 },
 {
 "wave": 24,
-"hpPct": 2472,
+"hpPct": 2736,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21510,7 +21510,7 @@
 },
 {
 "wave": 25,
-"hpPct": 2763,
+"hpPct": 3058,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21521,7 +21521,7 @@
 },
 {
 "wave": 26,
-"hpPct": 2763,
+"hpPct": 3058,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21532,7 +21532,7 @@
 },
 {
 "wave": 27,
-"hpPct": 3087,
+"hpPct": 3416,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21543,7 +21543,7 @@
 },
 {
 "wave": 28,
-"hpPct": 3447,
+"hpPct": 3815,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21554,7 +21554,7 @@
 },
 {
 "wave": 29,
-"hpPct": 3447,
+"hpPct": 3815,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21565,7 +21565,7 @@
 },
 {
 "wave": 30,
-"hpPct": 3842,
+"hpPct": 4252,
 "groups": [
 {
 "monster": "shadow_grunt",
@@ -21576,7 +21576,7 @@
 },
 {
 "wave": 31,
-"hpPct": 3842,
+"hpPct": 4252,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21587,7 +21587,7 @@
 },
 {
 "wave": 32,
-"hpPct": 4271,
+"hpPct": 4727,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21598,7 +21598,7 @@
 },
 {
 "wave": 33,
-"hpPct": 4461,
+"hpPct": 4937,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21609,7 +21609,7 @@
 },
 {
 "wave": 34,
-"hpPct": 4461,
+"hpPct": 4937,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21620,7 +21620,7 @@
 },
 {
 "wave": 35,
-"hpPct": 4651,
+"hpPct": 5147,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21631,7 +21631,7 @@
 },
 {
 "wave": 36,
-"hpPct": 4720,
+"hpPct": 5224,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21642,7 +21642,7 @@
 },
 {
 "wave": 37,
-"hpPct": 4720,
+"hpPct": 5224,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21653,7 +21653,7 @@
 },
 {
 "wave": 38,
-"hpPct": 4772,
+"hpPct": 5281,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21664,7 +21664,7 @@
 },
 {
 "wave": 39,
-"hpPct": 4772,
+"hpPct": 5281,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21675,7 +21675,7 @@
 },
 {
 "wave": 40,
-"hpPct": 5248,
+"hpPct": 5808,
 "groups": [
 {
 "monster": "shadow_scorpion",
@@ -21686,7 +21686,7 @@
 },
 {
 "wave": 41,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21697,7 +21697,7 @@
 },
 {
 "wave": 42,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21708,7 +21708,7 @@
 },
 {
 "wave": 43,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21719,7 +21719,7 @@
 },
 {
 "wave": 44,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21730,7 +21730,7 @@
 },
 {
 "wave": 45,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21741,7 +21741,7 @@
 },
 {
 "wave": 46,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21752,7 +21752,7 @@
 },
 {
 "wave": 47,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21763,7 +21763,7 @@
 },
 {
 "wave": 48,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21774,7 +21774,7 @@
 },
 {
 "wave": 49,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21785,7 +21785,7 @@
 },
 {
 "wave": 50,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21796,7 +21796,7 @@
 },
 {
 "wave": 51,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21807,7 +21807,7 @@
 },
 {
 "wave": 52,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21818,7 +21818,7 @@
 },
 {
 "wave": 53,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21829,7 +21829,7 @@
 },
 {
 "wave": 54,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21840,7 +21840,7 @@
 },
 {
 "wave": 55,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -21851,7 +21851,7 @@
 },
 {
 "wave": 56,
-"hpPct": 4828,
+"hpPct": 5343,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21862,7 +21862,7 @@
 },
 {
 "wave": 57,
-"hpPct": 5279,
+"hpPct": 5842,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21873,7 +21873,7 @@
 },
 {
 "wave": 58,
-"hpPct": 5279,
+"hpPct": 5842,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21884,7 +21884,7 @@
 },
 {
 "wave": 59,
-"hpPct": 5768,
+"hpPct": 6383,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21895,7 +21895,7 @@
 },
 {
 "wave": 60,
-"hpPct": 6301,
+"hpPct": 6973,
 "groups": [
 {
 "monster": "shadow_swarm",
@@ -21906,7 +21906,7 @@
 },
 {
 "wave": 61,
-"hpPct": 6301,
+"hpPct": 6973,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21917,7 +21917,7 @@
 },
 {
 "wave": 62,
-"hpPct": 6879,
+"hpPct": 7613,
 "groups": [
 {
 "monster": "shadow_flier",
@@ -21928,7 +21928,7 @@
 },
 {
 "wave": 63,
-"hpPct": 6879,
+"hpPct": 7613,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21939,7 +21939,7 @@
 },
 {
 "wave": 64,
-"hpPct": 7509,
+"hpPct": 8310,
 "groups": [
 {
 "monster": "shadow_flier",
@@ -21950,7 +21950,7 @@
 },
 {
 "wave": 65,
-"hpPct": 8193,
+"hpPct": 9067,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -21961,7 +21961,7 @@
 },
 {
 "wave": 66,
-"hpPct": 8193,
+"hpPct": 9067,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21972,7 +21972,7 @@
 },
 {
 "wave": 67,
-"hpPct": 8935,
+"hpPct": 9888,
 "groups": [
 {
 "monster": "shadow_gnats",
@@ -21983,7 +21983,7 @@
 },
 {
 "wave": 68,
-"hpPct": 9742,
+"hpPct": 10781,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -21994,7 +21994,7 @@
 },
 {
 "wave": 69,
-"hpPct": 9742,
+"hpPct": 10781,
 "groups": [
 {
 "monster": "shadow_gnats",
@@ -22005,7 +22005,7 @@
 },
 {
 "wave": 70,
-"hpPct": 10618,
+"hpPct": 11751,
 "groups": [
 {
 "monster": "shadow_mender",
@@ -22016,7 +22016,7 @@
 },
 {
 "wave": 71,
-"hpPct": 10618,
+"hpPct": 11751,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -22027,7 +22027,7 @@
 },
 {
 "wave": 72,
-"hpPct": 11567,
+"hpPct": 12801,
 "groups": [
 {
 "monster": "shadow_diver",
@@ -22038,7 +22038,7 @@
 },
 {
 "wave": 73,
-"hpPct": 12598,
+"hpPct": 13942,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -22049,7 +22049,7 @@
 },
 {
 "wave": 74,
-"hpPct": 12598,
+"hpPct": 13942,
 "groups": [
 {
 "monster": "shadow_diver",
@@ -22060,7 +22060,7 @@
 },
 {
 "wave": 75,
-"hpPct": 13718,
+"hpPct": 15181,
 "groups": [
 {
 "monster": "shadow_runner",
@@ -22071,7 +22071,7 @@
 },
 {
 "wave": 76,
-"hpPct": 14932,
+"hpPct": 16525,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -22082,7 +22082,7 @@
 },
 {
 "wave": 77,
-"hpPct": 14932,
+"hpPct": 16525,
 "groups": [
 {
 "monster": "shadow_ironwing",
@@ -22093,7 +22093,7 @@
 },
 {
 "wave": 78,
-"hpPct": 16248,
+"hpPct": 17981,
 "groups": [
 {
 "monster": "shadow_guard",
@@ -22104,7 +22104,7 @@
 },
 {
 "wave": 79,
-"hpPct": 16248,
+"hpPct": 17981,
 "groups": [
 {
 "monster": "shadow_ironwing",
@@ -22115,7 +22115,7 @@
 },
 {
 "wave": 80,
-"hpPct": 8124,
+"hpPct": 8991,
 "groups": [
 {
 "monster": "shadow_colossus",
@@ -22128,7 +22128,7 @@
 }
 }
 },
-"at": "2026-11-28 03:08",
+"at": "2026-11-28 03:46",
 "branch": "cd-229",
 "dirty": true
 },
@@ -33019,7 +33019,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-28 03:15",
-"generatedAt": "2026-11-28 03:17",
-"digest": "3eae8561a1bd89ab"
+"sourceAt": "2026-11-28 03:46",
+"generatedAt": "2026-11-28 03:47",
+"digest": "e0d9cd1627611bc8"
 }
