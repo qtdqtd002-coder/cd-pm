@@ -1344,8 +1344,28 @@
 "msg": "CD-0208: 뽑기 배너 — 판 번호 빼기 · «상위상 모두 획득 시 상품이 초기화됩니다» · A상 옆 전설 일러스트 셋(이름표 연결) · 시험(Unity 확인 전)"
 }
 ],
-"dirtyCount": 32,
+"dirtyCount": 37,
 "dirty": [
+{
+"file": "art-lab/legend-r5/elf_seina/legend_elf_seina.png",
+"at": "2026-11-27 16:44"
+},
+{
+"file": "art-lab/legend-r5/human_waldemar/legend_human_waldemar.png",
+"at": "2026-11-27 16:43"
+},
+{
+"file": "art-lab/legend-r5/dragon_vermilia/legend_dragon_vermilia.png",
+"at": "2026-11-27 16:40"
+},
+{
+"file": "art-lab/legend-r5/spirit_silpina/legend_spirit_silpina.png",
+"at": "2026-11-27 16:39"
+},
+{
+"file": "art-lab/legend-r5/dwarf_durgan/legend_dwarf_durgan.png",
+"at": "2026-11-27 16:37"
+},
 {
 "file": "art-lab/legend-r4/dragon_vermilia/legend_dragon_vermilia.png",
 "at": "2026-11-27 16:00"
@@ -1357,30 +1377,10 @@
 {
 "file": "art-lab/legend-r4/human_waldemar/legend_human_waldemar.png",
 "at": "2026-11-27 15:56"
-},
-{
-"file": "art-lab/legend-r4/spirit_silpina/legend_spirit_silpina.png",
-"at": "2026-11-27 15:55"
-},
-{
-"file": "art-lab/legend-r4/beast_nadia/legend_beast_nadia.png",
-"at": "2026-11-27 15:53"
-},
-{
-"file": "art-lab/legend-r4/elf_seina/legend_elf_seina.png",
-"at": "2026-11-27 15:51"
-},
-{
-"file": "art-lab/legend-plates2/plate_dragon_vermilia.png",
-"at": "2026-11-27 13:54"
-},
-{
-"file": "art-lab/legend-plates2/plate_spirit_silpina.png",
-"at": "2026-11-27 13:53"
 }
 ],
-"lastEdit": "2026-11-27 16:00",
-"lastEditTs": 1795762823.4878054,
+"lastEdit": "2026-11-27 16:44",
+"lastEditTs": 1795765484.6265676,
 "lastCommitTs": 1795762766,
 "unpushed": 0,
 "notInMain": 0,
@@ -1435,15 +1435,15 @@
 "dirty": [
 {
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-27 16:00"
+"at": "2026-11-27 16:46"
 },
 {
 "file": "art/tools/legend_assets.py",
-"at": "2026-11-27 15:50"
+"at": "2026-11-27 16:31"
 },
 {
 "file": "art/tools/legend_design.py",
-"at": "2026-11-27 15:50"
+"at": "2026-11-27 16:31"
 },
 {
 "file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
@@ -1466,8 +1466,8 @@
 "at": "2026-11-27 12:55"
 }
 ],
-"lastEdit": "2026-11-27 16:00",
-"lastEditTs": 1795762834.1025298,
+"lastEdit": "2026-11-27 16:46",
+"lastEditTs": 1795765591.741903,
 "lastCommitTs": 1795755113,
 "unpushed": 13,
 "notInMain": 13,
@@ -1543,7 +1543,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 151,
+"commits": 145,
 "byOrder": [
 [
 "CD-0193",
@@ -1578,10 +1578,6 @@
 5
 ],
 [
-"CD-0177",
-5
-],
-[
 "CD-0208",
 4
 ],
@@ -1611,10 +1607,6 @@
 ],
 [
 "CD-0186",
-3
-],
-[
-"CD-0175",
 3
 ],
 [
@@ -1682,10 +1674,6 @@
 2
 ],
 [
-"CD-0174",
-2
-],
-[
 "CD-0188",
 2
 ],
@@ -1706,6 +1694,10 @@
 2
 ],
 [
+"CD-0177",
+2
+],
+[
 "CD-0217",
 1
 ],
@@ -1714,7 +1706,15 @@
 1
 ],
 [
+"CD-0174",
+1
+],
+[
 "CD-0164",
+1
+],
+[
+"CD-0175",
 1
 ]
 ],
@@ -30875,7 +30875,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 16:00",
-"generatedAt": "2026-11-27 16:17",
-"digest": "1b8ebd84c6a8a4d8"
+"sourceAt": "2026-11-27 16:46",
+"generatedAt": "2026-11-27 16:47",
+"digest": "b48b469c7fbf170c"
 }
