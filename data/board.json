@@ -1431,43 +1431,43 @@
 "msg": "CD-0197: 전설 나머지 그림 도구(legend_assets.py) — 전용 백판·아이콘·+10 초상·SD·부품 시트 지시문"
 }
 ],
-"dirtyCount": 56,
+"dirtyCount": 190,
 "dirty": [
 {
-"file": "art/rig/legend_dragon_vermilia/skeleton.json",
-"at": "2026-11-27 19:17"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/90-close.md",
+"at": "2026-11-27 19:47"
 },
 {
-"file": "art/rig/legend_beast_nadia/skeleton.json",
-"at": "2026-11-27 19:17"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/00-order.md",
+"at": "2026-11-27 19:46"
 },
 {
-"file": "art/rig/legend_dwarf_durgan/skeleton.json",
-"at": "2026-11-27 19:17"
+"file": "UnityProject/Assets/_Game/View/BoardView.Legends.cs",
+"at": "2026-11-27 19:46"
 },
 {
-"file": "art/rig/legend_elf_seina/skeleton.json",
-"at": "2026-11-27 19:17"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_qa/playmode3.xml",
+"at": "2026-11-27 19:46"
 },
 {
-"file": "art/rig/legend_human_waldemar/skeleton.json",
-"at": "2026-11-27 19:17"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_4_fight.png",
+"at": "2026-11-27 19:46"
 },
 {
-"file": "art/rig/legend_dragon_vermilia/layout.json",
-"at": "2026-11-27 19:17"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_6_nova.png",
+"at": "2026-11-27 19:46"
 },
 {
-"file": "art/rig/legend_spirit_silpina/layout.json",
-"at": "2026-11-27 19:16"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_5_line.png",
+"at": "2026-11-27 19:43"
 },
 {
-"file": "art/rig/legend_dwarf_durgan/layout.json",
-"at": "2026-11-27 19:15"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_3_card.png",
+"at": "2026-11-27 19:43"
 }
 ],
-"lastEdit": "2026-11-27 19:17",
-"lastEditTs": 1795774633.8207014,
+"lastEdit": "2026-11-27 19:47",
+"lastEditTs": 1795776440.9850535,
 "lastCommitTs": 1795755113,
 "unpushed": 13,
 "notInMain": 13,
@@ -1543,7 +1543,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 111,
+"commits": 110,
 "byOrder": [
 [
 "CD-0193",
@@ -1551,7 +1551,7 @@
 ],
 [
 "CD-0197",
-12
+13
 ],
 [
 "기타",
@@ -1587,10 +1587,6 @@
 ],
 [
 "CD-0187",
-3
-],
-[
-"CD-0186",
 3
 ],
 [
@@ -1676,9 +1672,18 @@
 [
 "CD-0174",
 1
+],
+[
+"CD-0186",
+1
 ]
 ],
 "latest": [
+{
+"sha": "c85b929d",
+"at": "2026-11-27 19:47",
+"msg": "CD-0197 마감: 전설 6명 일러스트 확정(6차) · 전용 백판(눌러 줌) · 나디아 붕대 주먹 · SD·부품·+10 초상 · 리그 6 + 전용 스킬 동작 · 전설별 스킬 FX"
+},
 {
 "sha": "3d816662",
 "at": "2026-11-27 15:55",
@@ -1723,11 +1728,6 @@
 "sha": "b96d664e",
 "at": "2026-11-27 11:57",
 "msg": "CD-0197: 전설 나머지 그림 도구(legend_assets.py) — 전용 백판·아이콘·+10 초상·SD·부품 시트 지시문"
-},
-{
-"sha": "7001ff67",
-"at": "2026-11-27 11:53",
-"msg": "CD-0197: 전설 6명 일러스트 확정(사용자 «이대로») — art/final/illust/legend"
 }
 ]
 },
@@ -12183,26 +12183,28 @@
 "id": "CD-0197",
 "title": "전설 재구성 — 인간 2→1, 종족별 전설 1종(새 디자인·스킬·동작·FX)",
 "branch": "cd-197",
-"updated": "2026-11-27 12:55",
+"updated": "2026-11-27 19:47",
 "files": [
 "00-order.md",
 "10-spec.md",
+"90-close.md",
+"_qa",
 "_qa_playmode_capture.xml",
 "_shots"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "full",
 "risk": "mid",
 "teams": "planning, core, client, art",
 "opened": "2026-11-27",
 "closed": "",
-"stageRaw": "제작",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -26937,11 +26939,65 @@
 "status": "draft",
 "address": "ui/trait_dragon_vermilia",
 "hasFile": true
+},
+{
+"id": "sprite/legend/elf_seina/idle",
+"group": "legend",
+"title": "전설 인게임 elf_seina idle",
+"brief": "",
+"status": "confirmed",
+"address": "unit/legend/elf_seina/idle",
+"hasFile": true
+},
+{
+"id": "sprite/legend/dwarf_durgan/idle",
+"group": "legend",
+"title": "전설 인게임 dwarf_durgan idle",
+"brief": "",
+"status": "confirmed",
+"address": "unit/legend/dwarf_durgan/idle",
+"hasFile": true
+},
+{
+"id": "sprite/legend/beast_nadia/idle",
+"group": "legend",
+"title": "전설 인게임 beast_nadia idle",
+"brief": "",
+"status": "confirmed",
+"address": "unit/legend/beast_nadia/idle",
+"hasFile": true
+},
+{
+"id": "sprite/legend/spirit_silpina/idle",
+"group": "legend",
+"title": "전설 인게임 spirit_silpina idle",
+"brief": "",
+"status": "confirmed",
+"address": "unit/legend/spirit_silpina/idle",
+"hasFile": true
+},
+{
+"id": "sprite/legend/dragon_vermilia/idle",
+"group": "legend",
+"title": "전설 인게임 dragon_vermilia idle",
+"brief": "",
+"status": "confirmed",
+"address": "unit/legend/dragon_vermilia/idle",
+"hasFile": true
+},
+{
+"id": "box/banner_gift",
+"group": "ui",
+"title": "뽑기 배너: A상 선물 그림 (선물 상자 위 베르밀리아)",
+"brief": "폭 768 통그림 · 배너 오른쪽(«A상» 딱지 옆) · 글자 없음 · CD-0208 C안(사용자 «매력적으로 폴리싱»)",
+"status": "draft",
+"address": "box/banner_gift",
+"hasFile": true
 }
 ],
-"at": "2026-11-27 18:45",
+"at": "2026-11-27 19:47",
 "branch": "cd-197",
-"dirty": false
+"dirty": true
 },
 "gallery": {
 "v": 1,
@@ -27642,17 +27698,17 @@
 "h": 1024
 },
 "sprite/legend/human_waldemar/idle": {
-"f": "data/art/2389793476f5e5f0f761.bin",
+"f": "data/art/08c4e235d6b5fa38288c.bin",
 "w": 640,
 "h": 640
 },
 "sprite/legend/human_waldemar/windup": {
-"f": "data/art/a5a9670131bbd67d1a3e.bin",
+"f": "data/art/dd55dc953962fde6c2bb.bin",
 "w": 640,
 "h": 640
 },
 "sprite/legend/human_waldemar/strike": {
-"f": "data/art/99346bce9caab80d0f86.bin",
+"f": "data/art/92c6055734b2b6b29fef.bin",
 "w": 640,
 "h": 640
 },
@@ -28232,7 +28288,7 @@
 "h": 512
 },
 "illust/legend/human_waldemar_t10": {
-"f": "data/art/82fc4c57625e7447f227.bin",
+"f": "data/art/147b9677f603cef9922f.bin",
 "w": 768,
 "h": 1024
 },
@@ -28772,12 +28828,12 @@
 "h": 1280
 },
 "ui/skill_beast_nadia": {
-"f": "data/art/26499261b3f400411986.bin",
+"f": "data/art/ef25651b974be8bfdf6f.bin",
 "w": 512,
 "h": 512
 },
 "ui/trait_beast_nadia": {
-"f": "data/art/7c53fa9ae7c4b1eccbd3.bin",
+"f": "data/art/be7cde35ed2cfa12e998.bin",
 "w": 512,
 "h": 512
 },
@@ -28810,6 +28866,36 @@
 "f": "data/art/1f2c1a54e33b1004a5a8.bin",
 "w": 512,
 "h": 512
+},
+"sprite/legend/elf_seina/idle": {
+"f": "data/art/61df1a17010174549021.bin",
+"w": 640,
+"h": 640
+},
+"sprite/legend/dwarf_durgan/idle": {
+"f": "data/art/b3ec3102e90f7b6064dd.bin",
+"w": 640,
+"h": 640
+},
+"sprite/legend/beast_nadia/idle": {
+"f": "data/art/de4bb30f61020e88e81b.bin",
+"w": 640,
+"h": 640
+},
+"sprite/legend/spirit_silpina/idle": {
+"f": "data/art/37a8ea684a7b2bd23849.bin",
+"w": 640,
+"h": 640
+},
+"sprite/legend/dragon_vermilia/idle": {
+"f": "data/art/ac52138c38661a42df32.bin",
+"w": 640,
+"h": 640
+},
+"box/banner_gift": {
+"f": "data/art/0eee86df889f42762bad.bin",
+"w": 768,
+"h": 520
 }
 },
 "keyAt": "2026-11-16 17:14"
@@ -30647,6 +30733,106 @@
 "state": "final"
 },
 {
+"address": "illust/legend/elf_seina",
+"kind": "illust",
+"state": "final"
+},
+{
+"address": "illust/legend/elf_seina_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_elf_seina",
+"kind": "key",
+"state": "final"
+},
+{
+"address": "unit/legend/elf_seina/idle",
+"kind": "unit",
+"state": "none"
+},
+{
+"address": "illust/legend/dwarf_durgan",
+"kind": "illust",
+"state": "final"
+},
+{
+"address": "illust/legend/dwarf_durgan_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_dwarf_durgan",
+"kind": "key",
+"state": "final"
+},
+{
+"address": "unit/legend/dwarf_durgan/idle",
+"kind": "unit",
+"state": "none"
+},
+{
+"address": "illust/legend/beast_nadia",
+"kind": "illust",
+"state": "final"
+},
+{
+"address": "illust/legend/beast_nadia_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_beast_nadia",
+"kind": "key",
+"state": "final"
+},
+{
+"address": "unit/legend/beast_nadia/idle",
+"kind": "unit",
+"state": "none"
+},
+{
+"address": "illust/legend/spirit_silpina",
+"kind": "illust",
+"state": "final"
+},
+{
+"address": "illust/legend/spirit_silpina_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_spirit_silpina",
+"kind": "key",
+"state": "final"
+},
+{
+"address": "unit/legend/spirit_silpina/idle",
+"kind": "unit",
+"state": "none"
+},
+{
+"address": "illust/legend/dragon_vermilia",
+"kind": "illust",
+"state": "final"
+},
+{
+"address": "illust/legend/dragon_vermilia_t10",
+"kind": "illust",
+"state": "none"
+},
+{
+"address": "key/hero_bg_legend_dragon_vermilia",
+"kind": "key",
+"state": "final"
+},
+{
+"address": "unit/legend/dragon_vermilia/idle",
+"kind": "unit",
+"state": "none"
+},
+{
 "address": "ui/summon_orb",
 "kind": "ui",
 "state": "final"
@@ -30737,8 +30923,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-27 14:49",
-"branch": "main"
+"at": "2026-11-27 19:47",
+"branch": "cd-197"
 }
 },
 "devlog": [
@@ -31101,7 +31287,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 19:17",
-"generatedAt": "2026-11-27 19:17",
-"digest": "609ff6d6e163c2f2"
+"sourceAt": "2026-11-27 19:47",
+"generatedAt": "2026-11-27 19:47",
+"digest": "b4ba9eceddf9e3c0"
 }
