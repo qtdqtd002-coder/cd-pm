@@ -1344,8 +1344,12 @@
 "msg": "CD-0208: 뽑기 배너 — 판 번호 빼기 · «상위상 모두 획득 시 상품이 초기화됩니다» · A상 옆 전설 일러스트 셋(이름표 연결) · 시험(Unity 확인 전)"
 }
 ],
-"dirtyCount": 37,
+"dirtyCount": 38,
 "dirty": [
+{
+"file": "art-lab/legend-r5/beast_nadia/legend_beast_nadia.png",
+"at": "2026-11-27 16:47"
+},
 {
 "file": "art-lab/legend-r5/elf_seina/legend_elf_seina.png",
 "at": "2026-11-27 16:44"
@@ -1373,14 +1377,10 @@
 {
 "file": "art-lab/legend-r4/dwarf_durgan/legend_dwarf_durgan.png",
 "at": "2026-11-27 15:59"
-},
-{
-"file": "art-lab/legend-r4/human_waldemar/legend_human_waldemar.png",
-"at": "2026-11-27 15:56"
 }
 ],
-"lastEdit": "2026-11-27 16:44",
-"lastEditTs": 1795765484.6265676,
+"lastEdit": "2026-11-27 16:47",
+"lastEditTs": 1795765677.250199,
 "lastCommitTs": 1795762766,
 "unpushed": 0,
 "notInMain": 0,
@@ -1435,7 +1435,7 @@
 "dirty": [
 {
 "file": "studio/codex-usage.jsonl",
-"at": "2026-11-27 16:46"
+"at": "2026-11-27 16:48"
 },
 {
 "file": "art/tools/legend_assets.py",
@@ -1466,8 +1466,8 @@
 "at": "2026-11-27 12:55"
 }
 ],
-"lastEdit": "2026-11-27 16:46",
-"lastEditTs": 1795765591.741903,
+"lastEdit": "2026-11-27 16:48",
+"lastEditTs": 1795765688.4916713,
 "lastCommitTs": 1795755113,
 "unpushed": 13,
 "notInMain": 13,
@@ -1543,7 +1543,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 145,
+"commits": 138,
 "byOrder": [
 [
 "CD-0193",
@@ -1558,10 +1558,6 @@
 12
 ],
 [
-"CD-0180",
-8
-],
-[
 "CD-0179",
 7
 ],
@@ -1571,6 +1567,10 @@
 ],
 [
 "CD-0199",
+5
+],
+[
+"CD-0180",
 5
 ],
 [
@@ -1694,10 +1694,6 @@
 2
 ],
 [
-"CD-0177",
-2
-],
-[
 "CD-0217",
 1
 ],
@@ -1707,14 +1703,6 @@
 ],
 [
 "CD-0174",
-1
-],
-[
-"CD-0164",
-1
-],
-[
-"CD-0175",
 1
 ]
 ],
@@ -30875,7 +30863,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 16:46",
-"generatedAt": "2026-11-27 16:47",
-"digest": "b48b469c7fbf170c"
+"sourceAt": "2026-11-27 16:48",
+"generatedAt": "2026-11-27 17:17",
+"digest": "996df7a57e633444"
 }
