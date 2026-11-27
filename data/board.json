@@ -1344,43 +1344,43 @@
 "msg": "CD-0208: 뽑기 배너 — 판 번호 빼기 · «상위상 모두 획득 시 상품이 초기화됩니다» · A상 옆 전설 일러스트 셋(이름표 연결) · 시험(Unity 확인 전)"
 }
 ],
-"dirtyCount": 44,
+"dirtyCount": 322,
 "dirty": [
 {
-"file": "art-lab/legend-icons/trait_beast_nadia.png",
-"at": "2026-11-27 18:49"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_6_nova.png",
+"at": "2026-11-27 20:14"
 },
 {
-"file": "art-lab/legend-icons/skill_beast_nadia.png",
-"at": "2026-11-27 18:48"
+"file": "tools/canon_lint.py",
+"at": "2026-11-27 20:14"
 },
 {
-"file": "art-lab/legend-r6/dwarf_durgan/legend_dwarf_durgan.png",
-"at": "2026-11-27 18:40"
+"file": "tools/test_validate_mapindex.py",
+"at": "2026-11-27 20:14"
 },
 {
-"file": "art-lab/legend-r6/dragon_vermilia/legend_dragon_vermilia.png",
-"at": "2026-11-27 18:39"
+"file": "tools/validate_data.py",
+"at": "2026-11-27 20:14"
 },
 {
-"file": "art-lab/legend-r6/spirit_silpina/legend_spirit_silpina.png",
-"at": "2026-11-27 18:38"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_5_line.png",
+"at": "2026-11-27 20:14"
 },
 {
-"file": "art-lab/legend-r6/beast_nadia/legend_beast_nadia.png",
-"at": "2026-11-27 18:37"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_4_fight.png",
+"at": "2026-11-27 20:14"
 },
 {
-"file": "art-lab/legend-r6/elf_seina/legend_elf_seina.png",
-"at": "2026-11-27 18:36"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_3_card.png",
+"at": "2026-11-27 20:14"
 },
 {
-"file": "art-lab/legend-r6/human_waldemar/legend_human_waldemar.png",
-"at": "2026-11-27 18:34"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_2_reveal.png",
+"at": "2026-11-27 20:14"
 }
 ],
-"lastEdit": "2026-11-27 18:49",
-"lastEditTs": 1795772982.799935,
+"lastEdit": "2026-11-27 20:14",
+"lastEditTs": 1795778053.6617708,
 "lastCommitTs": 1795762766,
 "unpushed": 0,
 "notInMain": 0,
@@ -1392,86 +1392,86 @@
 "session": "",
 "owns": "",
 "order": "CD-0197",
-"head": "b757d9c",
+"head": "207a2d6",
 "commits": [
 {
-"sha": "b757d9cf",
-"at": "2026-11-27 13:51",
-"ts": 1795755113,
-"msg": "CD-0197 3차 지시문: 역동적 공격 자세 + 일러스트화한 FX, 세이나 서브컬처 암살자로 다시 디자인"
+"sha": "207a2d62",
+"at": "2026-11-27 20:13",
+"ts": 1795778038,
+"msg": "CD-0197: Core 시험 BadNewSkillDataIsRefused — 데이터 줄 끝이 CRLF 여도 맞게(\\s* 정규식, main 체크아웃에서만 실패하던 것)"
 },
 {
-"sha": "4d3c3e04",
-"at": "2026-11-27 13:49",
-"ts": 1795754978,
-"msg": "CD-0197: 전설 상세 화면 후광(광선) 끔 · 백판 지시문을 전설마다 시간대·색이 다른 전용 디자인으로"
+"sha": "906e2233",
+"at": "2026-11-27 20:08",
+"ts": 1795777734,
+"msg": "CD-0197: 맵 검사 시험 — 챕터 5 를 비울 때 그 클리어로 열리는 전설(실피나·베르밀리아)과 tutorial legend.* 도 남은 마지막 스테이지로 옮김"
 },
 {
-"sha": "05aa8348",
-"at": "2026-11-27 12:55",
-"ts": 1795751736,
-"msg": "CD-0197: 전설 새 그림 24장 Unity 반입(카탈로그) · 상세 화면 캡처(PlayMode 1/1)"
+"sha": "860a412d",
+"at": "2026-11-27 19:54",
+"ts": 1795776843,
+"msg": "CD-0197 마감 요약: 실피나 군중 조건은 시험 데이터만 4→2, 실제 데이터 4 — QA 관찰 거리"
 },
 {
-"sha": "35139d1e",
-"at": "2026-11-27 12:51",
-"ts": 1795751495,
-"msg": "CD-0197: 전설 전용 백판 6 · 스킬·특성 아이콘 12 (시안) + 상세 화면 캡처 시험"
+"sha": "97f04021",
+"at": "2026-11-27 19:53",
+"ts": 1795776817,
+"msg": "CD-0197: 전설 +10 초상 5장 제작 목록에 올림(그림 검사 오류 5 → 0)"
 },
 {
-"sha": "c1ef4584",
-"at": "2026-11-27 11:59",
-"ts": 1795748392,
-"msg": "병합: origin/main 을 cd-197 로(CD-0193 칭호 꾸밈 수 + 전설 6명, Core 1273/1274)"
+"sha": "cea86e37",
+"at": "2026-11-27 19:48",
+"ts": 1795776480,
+"msg": "Merge remote-tracking branch 'origin/main' into cd-197"
 },
 {
-"sha": "b96d664e",
-"at": "2026-11-27 11:57",
-"ts": 1795748255,
-"msg": "CD-0197: 전설 나머지 그림 도구(legend_assets.py) — 전용 백판·아이콘·+10 초상·SD·부품 시트 지시문"
+"sha": "c85b929d",
+"at": "2026-11-27 19:47",
+"ts": 1795776456,
+"msg": "CD-0197 마감: 전설 6명 일러스트 확정(6차) · 전용 백판(눌러 줌) · 나디아 붕대 주먹 · SD·부품·+10 초상 · 리그 6 + 전용 스킬 동작 · 전설별 스킬 FX"
 }
 ],
-"dirtyCount": 190,
+"dirtyCount": 15,
 "dirty": [
 {
-"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/90-close.md",
-"at": "2026-11-27 19:47"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-27 12:55"
 },
 {
-"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/00-order.md",
-"at": "2026-11-27 19:46"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_qa_playmode_capture.xml",
+"at": "2026-11-27 12:55"
 },
 {
-"file": "UnityProject/Assets/_Game/View/BoardView.Legends.cs",
-"at": "2026-11-27 19:46"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_zone_1080x2400.png",
+"at": "2026-11-27 12:55"
 },
 {
-"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_qa/playmode3.xml",
-"at": "2026-11-27 19:46"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_dragon_vermilia_1080x2400.png",
+"at": "2026-11-27 12:55"
 },
 {
-"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_4_fight.png",
-"at": "2026-11-27 19:46"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_dragon_vermilia.png",
+"at": "2026-11-27 12:55"
 },
 {
-"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_6_nova.png",
-"at": "2026-11-27 19:46"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_spirit_silpina_1080x2400.png",
+"at": "2026-11-27 12:55"
 },
 {
-"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_5_line.png",
-"at": "2026-11-27 19:43"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_spirit_silpina.png",
+"at": "2026-11-27 12:55"
 },
 {
-"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd32_3_card.png",
-"at": "2026-11-27 19:43"
+"file": "studio/orders/CD-0197-전설-재구성-인간-2-1-종족별-전설-1종-새-디자인-/_shots/cd197_legend_detail_beast_nadia_1080x2400.png",
+"at": "2026-11-27 12:55"
 }
 ],
-"lastEdit": "2026-11-27 19:47",
-"lastEditTs": 1795776440.9850535,
-"lastCommitTs": 1795755113,
-"unpushed": 13,
-"notInMain": 13,
-"today": 90
+"lastEdit": "2026-11-27 12:55",
+"lastEditTs": 1795751706.46668,
+"lastCommitTs": 1795778038,
+"unpushed": 19,
+"notInMain": 19,
+"today": 102
 },
 {
 "branch": "rel-0124",
@@ -1543,23 +1543,19 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 110,
+"commits": 111,
 "byOrder": [
+[
+"CD-0197",
+17
+],
 [
 "CD-0193",
 14
 ],
 [
-"CD-0197",
-13
-],
-[
 "기타",
-9
-],
-[
-"CD-0179",
-7
+8
 ],
 [
 "CD-0209",
@@ -1567,6 +1563,10 @@
 ],
 [
 "CD-0199",
+5
+],
+[
+"CD-0179",
 5
 ],
 [
@@ -1680,6 +1680,26 @@
 ],
 "latest": [
 {
+"sha": "207a2d62",
+"at": "2026-11-27 20:13",
+"msg": "CD-0197: Core 시험 BadNewSkillDataIsRefused — 데이터 줄 끝이 CRLF 여도 맞게(\\s* 정규식, main 체크아웃에서만 실패하던 것)"
+},
+{
+"sha": "906e2233",
+"at": "2026-11-27 20:08",
+"msg": "CD-0197: 맵 검사 시험 — 챕터 5 를 비울 때 그 클리어로 열리는 전설(실피나·베르밀리아)과 tutorial legend.* 도 남은 마지막 스테이지로 옮김"
+},
+{
+"sha": "860a412d",
+"at": "2026-11-27 19:54",
+"msg": "CD-0197 마감 요약: 실피나 군중 조건은 시험 데이터만 4→2, 실제 데이터 4 — QA 관찰 거리"
+},
+{
+"sha": "97f04021",
+"at": "2026-11-27 19:53",
+"msg": "CD-0197: 전설 +10 초상 5장 제작 목록에 올림(그림 검사 오류 5 → 0)"
+},
+{
 "sha": "c85b929d",
 "at": "2026-11-27 19:47",
 "msg": "CD-0197 마감: 전설 6명 일러스트 확정(6차) · 전용 백판(눌러 줌) · 나디아 붕대 주먹 · SD·부품·+10 초상 · 리그 6 + 전용 스킬 동작 · 전설별 스킬 FX"
@@ -1708,26 +1728,6 @@
 "sha": "5ec16052",
 "at": "2026-11-27 12:56",
 "msg": "CD-0208 마감: 전설 그림 머리 잘림 고침(배너 안쪽 16·34) · 주석 옛 문구 정리 · EditMode 29/29 · 캡처 · 합성 미리보기 · 마감 초안"
-},
-{
-"sha": "05aa8348",
-"at": "2026-11-27 12:55",
-"msg": "CD-0197: 전설 새 그림 24장 Unity 반입(카탈로그) · 상세 화면 캡처(PlayMode 1/1)"
-},
-{
-"sha": "35139d1e",
-"at": "2026-11-27 12:51",
-"msg": "CD-0197: 전설 전용 백판 6 · 스킬·특성 아이콘 12 (시안) + 상세 화면 캡처 시험"
-},
-{
-"sha": "624407f3",
-"at": "2026-11-27 12:49",
-"msg": "CD-0208: 뽑기 배너 — 판 번호 빼기 · «상위상 모두 획득 시 상품이 초기화됩니다» · A상 옆 전설 일러스트 셋(이름표 연결) · 시험(Unity 확인 전)"
-},
-{
-"sha": "b96d664e",
-"at": "2026-11-27 11:57",
-"msg": "CD-0197: 전설 나머지 그림 도구(legend_assets.py) — 전용 백판·아이콘·+10 초상·SD·부품 시트 지시문"
 }
 ]
 },
@@ -12182,14 +12182,13 @@
 {
 "id": "CD-0197",
 "title": "전설 재구성 — 인간 2→1, 종족별 전설 1종(새 디자인·스킬·동작·FX)",
-"branch": "cd-197",
-"updated": "2026-11-27 19:47",
+"branch": "main",
+"updated": "2026-11-27 20:14",
 "files": [
 "00-order.md",
 "10-spec.md",
 "90-close.md",
 "_qa",
-"_qa_playmode_capture.xml",
 "_shots"
 ],
 "milestone": "M6",
@@ -25873,11 +25872,11 @@
 {
 "id": "illust/legend/human_waldemar_t10",
 "group": "legend",
-"title": "전설 +10 일러스트 human_waldemar_t10",
+"title": "전설 +10 일러스트 엘레노어",
 "brief": "768×1024 RGBA, 전설 +10 초상",
-"status": "draft",
+"status": "confirmed",
 "address": "illust/legend/human_waldemar_t10",
-"source": "Codex · 주문 CD-0062",
+"source": "Codex · 주문 CD-0197",
 "hasFile": true
 },
 {
@@ -26993,10 +26992,60 @@
 "status": "draft",
 "address": "box/banner_gift",
 "hasFile": true
+},
+{
+"id": "illust/legend/elf_seina_t10",
+"group": "legend",
+"title": "전설 +10 일러스트 세이나",
+"brief": "768×1024 RGBA, 초월 +10 초상",
+"status": "confirmed",
+"address": "illust/legend/elf_seina_t10",
+"source": "Codex · 주문 CD-0197",
+"hasFile": true
+},
+{
+"id": "illust/legend/dwarf_durgan_t10",
+"group": "legend",
+"title": "전설 +10 일러스트 두르간",
+"brief": "768×1024 RGBA, 초월 +10 초상",
+"status": "confirmed",
+"address": "illust/legend/dwarf_durgan_t10",
+"source": "Codex · 주문 CD-0197",
+"hasFile": true
+},
+{
+"id": "illust/legend/beast_nadia_t10",
+"group": "legend",
+"title": "전설 +10 일러스트 나디아",
+"brief": "768×1024 RGBA, 초월 +10 초상",
+"status": "confirmed",
+"address": "illust/legend/beast_nadia_t10",
+"source": "Codex · 주문 CD-0197",
+"hasFile": true
+},
+{
+"id": "illust/legend/spirit_silpina_t10",
+"group": "legend",
+"title": "전설 +10 일러스트 실피나",
+"brief": "768×1024 RGBA, 초월 +10 초상",
+"status": "confirmed",
+"address": "illust/legend/spirit_silpina_t10",
+"source": "Codex · 주문 CD-0197",
+"hasFile": true
+},
+{
+"id": "illust/legend/dragon_vermilia_t10",
+"group": "legend",
+"title": "전설 +10 일러스트 베르밀리아",
+"brief": "768×1024 RGBA, 초월 +10 초상",
+"status": "confirmed",
+"address": "illust/legend/dragon_vermilia_t10",
+"source": "Codex · 주문 CD-0197",
+"hasFile": true
 }
 ],
-"at": "2026-11-27 19:47",
-"branch": "cd-197",
+"at": "2026-11-27 20:14",
+"branch": "main",
 "dirty": true
 },
 "gallery": {
@@ -28896,6 +28945,31 @@
 "f": "data/art/0eee86df889f42762bad.bin",
 "w": 768,
 "h": 520
+},
+"illust/legend/elf_seina_t10": {
+"f": "data/art/e5e765070642af85c313.bin",
+"w": 768,
+"h": 1024
+},
+"illust/legend/dwarf_durgan_t10": {
+"f": "data/art/7ce056e6decffb4e66d0.bin",
+"w": 768,
+"h": 1024
+},
+"illust/legend/beast_nadia_t10": {
+"f": "data/art/8fe9e67c21bfb33e57a3.bin",
+"w": 768,
+"h": 1024
+},
+"illust/legend/spirit_silpina_t10": {
+"f": "data/art/a50010eb92f55797f7ec.bin",
+"w": 768,
+"h": 1024
+},
+"illust/legend/dragon_vermilia_t10": {
+"f": "data/art/0f48e1caf99427a58c54.bin",
+"w": 768,
+"h": 1024
 }
 },
 "keyAt": "2026-11-16 17:14"
@@ -30923,8 +30997,8 @@
 "state": "final"
 }
 ],
-"at": "2026-11-27 19:47",
-"branch": "cd-197"
+"at": "2026-11-27 20:14",
+"branch": "main"
 }
 },
 "devlog": [
@@ -31287,7 +31361,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-27 19:47",
-"generatedAt": "2026-11-27 19:47",
-"digest": "b4ba9eceddf9e3c0"
+"sourceAt": "2026-11-27 20:14",
+"generatedAt": "2026-11-27 20:17",
+"digest": "ba71733f8c2f6e63"
 }
