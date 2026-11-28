@@ -1354,19 +1354,27 @@
 "msg": "Merge remote-tracking branch 'origin/main' into cd-219c"
 }
 ],
-"dirtyCount": 109,
+"dirtyCount": 111,
 "dirty": [
 {
-"file": "art-lab/legend-r8/eval_human_waldemar_key_char11b.png",
-"at": "2026-11-28 09:23"
+"file": "art-lab/legend-r8/eval_human_waldemar_key_char11c.png",
+"at": "2026-11-28 09:55"
 },
 {
 "file": "art-lab/legend-r8/key_human_waldemar_motion.mp4",
-"at": "2026-11-28 09:23"
+"at": "2026-11-28 09:55"
 },
 {
 "file": "art-lab/legend-r8/key_human_waldemar.png",
-"at": "2026-11-28 09:20"
+"at": "2026-11-28 09:53"
+},
+{
+"file": "art-lab/legend-r8/key_char11b_v1.png",
+"at": "2026-11-28 09:48"
+},
+{
+"file": "art-lab/legend-r8/eval_human_waldemar_key_char11b.png",
+"at": "2026-11-28 09:23"
 },
 {
 "file": "art-lab/legend-r8/human_waldemar/fxlayers11/key_fxfront_human_waldemar.png",
@@ -1379,18 +1387,10 @@
 {
 "file": "art-lab/legend-r8/key_fxfront9.png",
 "at": "2026-11-28 09:18"
-},
-{
-"file": "art-lab/legend-r8/key_fxback10.png",
-"at": "2026-11-28 09:18"
-},
-{
-"file": "art-lab/legend-r8/eval_human_waldemar_key_char11.png",
-"at": "2026-11-28 09:17"
 }
 ],
-"lastEdit": "2026-11-28 09:23",
-"lastEditTs": 1795825396.2071269,
+"lastEdit": "2026-11-28 09:55",
+"lastEditTs": 1795827356.0743742,
 "lastCommitTs": 1795806670,
 "unpushed": 0,
 "notInMain": 0,
@@ -1441,10 +1441,43 @@
 "msg": "Merge remote-tracking branch 'origin/main' into cd-219c"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 12,
+"dirty": [
+{
+"file": "art/tools/gen.py",
+"at": "2026-11-28 09:57"
+},
+{
+"file": "UnityProject/Assets/Tests/EditMode/Cd220SeasonClientEditModeTests.cs",
+"at": "2026-11-28 09:57"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/SeasonScreen.cs",
+"at": "2026-11-28 09:56"
+},
+{
+"file": "UnityProject/Assets/_Game/Editor/TempArtPostprocessor.cs",
+"at": "2026-11-28 09:56"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/SeasonBuyPopup.cs",
+"at": "2026-11-28 09:56"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/LobbyScreen.Season.cs",
+"at": "2026-11-28 09:55"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/SeasonTwinkle.cs",
+"at": "2026-11-28 09:52"
+},
+{
+"file": "UnityProject/Assets/_Game/UI/ClaimRow.cs",
+"at": "2026-11-28 09:51"
+}
+],
+"lastEdit": "2026-11-28 09:57",
+"lastEditTs": 1795827457.3733158,
 "lastCommitTs": 1795806670,
 "unpushed": 0,
 "notInMain": 0,
@@ -1456,8 +1489,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0223",
-"head": "1784585",
+"head": "600e029",
 "commits": [
+{
+"sha": "600e0293",
+"at": "2026-11-28 09:59",
+"ts": 1795827571,
+"msg": "CD-0223 기획서(full): 대기실은 지금 로비 그대로(영웅 대신 발판 2개·협동 탭 안 방 정보) · 출전·정산·나중 정산 · 결정 0172 테스터 빌드 열기·출시 스위치"
+},
 {
 "sha": "1784585f",
 "at": "2026-11-28 09:02",
@@ -1487,31 +1526,21 @@
 "at": "2026-11-28 02:20",
 "ts": 1795800046,
 "msg": "CD-0228 마감 초안: 90-close(관제에 넘길 요약·해 볼 것) · stage 마감"
-},
-{
-"sha": "d6334b96",
-"at": "2026-11-28 02:17",
-"ts": 1795799822,
-"msg": "CD-0228 Unity 차례 3: 시나리오 ② 성공 — 방장 죽임(틱 756) → 손님이 epoch 1 로 이어받아(이어받은 틱 756) 끝까지 · 옛 방장 다시 켜 -e1 손님 참가 · 두 쪽 해시 9C280C3AFDF4940A 같음"
 }
 ],
-"dirtyCount": 2,
+"dirtyCount": 1,
 "dirty": [
 {
 "file": "studio/codex-usage.jsonl",
 "at": "2026-11-28 09:00"
-},
-{
-"file": "studio/orders/CD-0223-멀티-개발-E-파티-대기-로비-협동-탭-방-만들기-난이/10-spec.md",
-"at": "2026-11-28 02:27"
 }
 ],
 "lastEdit": "2026-11-28 09:00",
 "lastEditTs": 1795824019.4262998,
-"lastCommitTs": 1795824173,
-"unpushed": 2,
-"notInMain": 2,
-"today": 68
+"lastCommitTs": 1795827571,
+"unpushed": 3,
+"notInMain": 3,
+"today": 69
 },
 {
 "branch": "cd-233",
@@ -1561,16 +1590,24 @@
 "dirtyCount": 22,
 "dirty": [
 {
+"file": ".claude/skills/cd-legend/SKILL.md",
+"at": "2026-11-28 09:56"
+},
+{
+"file": "docs/18-전설-일러스트-제작-규격.md",
+"at": "2026-11-28 09:56"
+},
+{
 "file": "art/tools/legend_keyart.py",
-"at": "2026-11-28 09:20"
+"at": "2026-11-28 09:52"
+},
+{
+"file": "art/tools/legend_blade.py",
+"at": "2026-11-28 09:48"
 },
 {
 "file": "studio/codex-usage.jsonl",
 "at": "2026-11-28 09:19"
-},
-{
-"file": ".claude/skills/cd-legend/SKILL.md",
-"at": "2026-11-28 09:18"
 },
 {
 "file": "art/tools/legend_assets.py",
@@ -1581,20 +1618,12 @@
 "at": "2026-11-28 09:18"
 },
 {
-"file": "art/tools/legend_blade.py",
-"at": "2026-11-28 09:18"
-},
-{
 "file": "studio/orders/CD-0233-엘레노어-칭호-후리가나-전설-일러스트-폴리싱-전설-제작/00-order.md",
 "at": "2026-11-28 02:07"
-},
-{
-"file": "docs/decisions/0106-칭호는-이름-위-작게-후리가나식-한-줄-칸은-같은-줄에서-칭호만-작게.md",
-"at": "2026-11-28 01:30"
 }
 ],
-"lastEdit": "2026-11-28 09:20",
-"lastEditTs": 1795825237.254843,
+"lastEdit": "2026-11-28 09:56",
+"lastEditTs": 1795827367.7735837,
 "lastCommitTs": 1795796642,
 "unpushed": 0,
 "notInMain": 0,
@@ -1645,10 +1674,43 @@
 "msg": "CD-0220 Unity: 그림 11장 반입·.meta·9-slice 경계·카탈로그 +11·컴파일 오류 3종 고침"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 27,
+"dirty": [
+{
+"file": "studio/orders/CD-0234-그림자-무리-몬스터-본-리깅-걷기-애니메이션-대표-4종/00-order.md",
+"at": "2026-11-28 09:59"
+},
+{
+"file": "art/rig/recipes.sh",
+"at": "2026-11-28 09:59"
+},
+{
+"file": "studio/orders/CD-0234-그림자-무리-몬스터-본-리깅-걷기-애니메이션-대표-4종/cd234-rest-vs-picture.png",
+"at": "2026-11-28 09:59"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_behemoth.json",
+"at": "2026-11-28 09:59"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_behemoth.png",
+"at": "2026-11-28 09:59"
+},
+{
+"file": "art/rig/shadow_behemoth/layout.json",
+"at": "2026-11-28 09:59"
+},
+{
+"file": "art/rig/shadow_behemoth/skeleton.json",
+"at": "2026-11-28 09:59"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_flier.json",
+"at": "2026-11-28 09:59"
+}
+],
+"lastEdit": "2026-11-28 09:59",
+"lastEditTs": 1795827594.824236,
 "lastCommitTs": 1795825746,
 "unpushed": 2,
 "notInMain": 2,
@@ -1657,7 +1719,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 118,
+"commits": 119,
 "byOrder": [
 [
 "CD-0218",
@@ -1692,11 +1754,11 @@
 5
 ],
 [
-"CD-0234",
-2
+"CD-0223",
+3
 ],
 [
-"CD-0223",
+"CD-0234",
 2
 ],
 [
@@ -1737,6 +1799,11 @@
 ]
 ],
 "latest": [
+{
+"sha": "600e0293",
+"at": "2026-11-28 09:59",
+"msg": "CD-0223 기획서(full): 대기실은 지금 로비 그대로(영웅 대신 발판 2개·협동 탭 안 방 정보) · 출전·정산·나중 정산 · 결정 0172 테스터 빌드 열기·출시 스위치"
+},
 {
 "sha": "f1aea0d1",
 "at": "2026-11-28 09:29",
@@ -1781,11 +1848,6 @@
 "sha": "d6334b96",
 "at": "2026-11-28 02:17",
 "msg": "CD-0228 Unity 차례 3: 시나리오 ② 성공 — 방장 죽임(틱 756) → 손님이 epoch 1 로 이어받아(이어받은 틱 756) 끝까지 · 옛 방장 다시 켜 -e1 손님 참가 · 두 쪽 해시 9C280C3AFDF4940A 같음"
-},
-{
-"sha": "cee856de",
-"at": "2026-11-28 02:16",
-"msg": "CD-0218 병합 검사 고침: 맵·챕터 도구 시험이 victoryTickets 를 알게 · 챕터 생성 도구가 새 챕터 승리 티켓을 씀 · 결정 0149~0155"
 }
 ]
 },
@@ -13011,7 +13073,7 @@
 "id": "CD-0223",
 "title": "멀티 개발 E 파티 대기 로비 — 협동 탭·방 만들기(난이도)·6자리 코드·코드 참가·친구 초대·준비·자리 2개·해금 안내",
 "branch": "cd-223",
-"updated": "2026-11-28 09:01",
+"updated": "2026-11-28 09:59",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -13026,9 +13088,37 @@
 "closed": "",
 "stageRaw": "제작",
 "stageBad": false,
-"goal": "",
-"goalShort": "",
-"tasks": [],
+"goal": "<p>로비 협동 탭에서 방을 만들거나(난이도) 6자리 코드로 들어가, <strong>지금 로비 화면 그대로</strong> 대기실이 되고(돌아다니는 영웅 대신 발판 2개), 손님이 준비하면 방장이 시작해 협동 판(CD-0222/0228 운전수)으로 들어간다. 출전·정산은 판정 서버 규칙(stage·room·stage_locked·나중 정산)에 맞게 부른다. 테스터 빌드에서도 열리고, 출시(스토어) 빌드는 스위치 하나로 끈다.</p>",
+"goalShort": "로비 협동 탭에서 방을 만들거나(난이도) 6자리 코드로 들어가, 지금 로비 화면 그대로 대기실이 되고(돌아다니는 영웅 대신 발판 2개), 손님이 준비하면 방장이 시작해 협동 판(CD-0222/0228 운전수)으로 들어간다.",
+"tasks": [
+{
+"id": "art",
+"key": "CD-0223/art",
+"team": "art",
+"title": "§5 그림 8~9장(Codex 차례 받아서) → 검수 → accept(draft) → 비교 한 장",
+"output": "",
+"status": "todo",
+"why": ""
+},
+{
+"id": "client",
+"key": "CD-0223/client",
+"team": "client",
+"title": "§1 협동 탭·해금 줄·안내 · §2 대기실(영웅 숨김·발판·방 정보 판) · §4 스위치 · EditMode 시험",
+"output": "",
+"status": "todo",
+"why": ""
+},
+{
+"id": "client",
+"key": "CD-0223/client",
+"team": "client",
+"title": "§3 출전·정산·나중 정산·스위치 끔 길 · 개발 빌드 2개로 «방 만들기 → 코드 참가 → 준비 → 시작 → 판 → 결과» 한 번(자동 확인 확장)",
+"output": "",
+"status": "todo",
+"why": ""
+}
+],
 "phase": "doing",
 "builtIn": ""
 },
@@ -13286,7 +13376,7 @@
 "id": "CD-0234",
 "title": "그림자 무리 몬스터 본·리깅·걷기 애니메이션 (대표 4종)",
 "branch": "cd-234",
-"updated": "2026-11-28 09:29",
+"updated": "2026-11-28 09:59",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -16577,6 +16667,17 @@
 "by": "사용자(답 «우리가 직접 (추천)») · 번호는 관제(0171~ 범위)",
 "html": "<ol>\n<li>손님은 방장 프레임이 정해진 시간 동안 오지 않으면 «방장 끊김» 으로 본다(시간은 동기화 설정 상수).\n</li>\n<li>남은 사람이 새 세션을 열어 새 방장이 된다. 받아 둔 스냅샷 + 그 뒤 명령으로 Core 를 다시 세우고(<code>CoopReplica.Rebuild</code> → <code>TakeOver</code>, epoch +1) 판을 이어 간다. 넘어가는 동안 틱을 멈춘다(0128 3 그대로).\n</li>\n<li>새 세션 아이디는 옛 세션 아이디에서 정해진 규칙으로 만든다(예 <code>&lt;옛 id&gt;-e&lt;epoch&gt;</code>). 옛 방장이 돌아오면 그 규칙으로 새 세션에 손님으로 참가한다.\n</li>\n<li>서비스의 호스트 이전(<code>WithHostMigration</code>)은 쓰지 않는다.\n</li></ol>",
 "branch": "main",
+"dirty": false
+},
+{
+"id": "0172",
+"title": "협동 탭은 테스터 빌드에서 열고 출시 빌드는 스위치로 끈다 · 대기실은 지금 로비 그대로",
+"status": "확정(사용자)",
+"kind": "confirmed",
+"date": "2026-11-28",
+"by": "사용자 · 번호는 관제(0172~ 범위)",
+"html": "<ol>\n<li>협동 탭은 테스터 배포 빌드(개발·release 모두)에서 열린다(1-6 클리어 해금은 그대로). 출시(스토어) 빌드는 스위치 하나로 «준비 중» 으로 되돌린다 — 스위치 방식과 «출시 전에 끌 것» 은 CD-0223 이 정해 docs 출시 전 목록에 적는다.\n</li>\n<li>테스터에게 끊김 표시(F)·랜덤 매칭(G)이 아직 없다는 점은 배포 공지 한 줄(관제)로 알린다.\n</li>\n<li>대기실은 새 화면이 아니라 <strong>지금 로비 그대로</strong>: 방에 들어가면 돌아다니는 대표 영웅을 숨기고 같은 바닥에 발판 2개(사람마다 대표 영웅·닉네임·레벨, 빈 자리는 «초대»), 아래 판의 협동 탭 안이 방 정보(난이도·방 코드·친구 초대·시작/준비·나가기)로 바뀐다. 방을 나가면 원래 로비.\n</li></ol>",
+"branch": "cd-223",
 "dirty": false
 },
 {
@@ -27982,7 +28083,7 @@
 },
 "season": {
 "data": {
-"_note": "CD-0220 임시값 — CD-0218 가치표 뒤 맞춤. startDay 는 시험용 2026-11-28(UTC+9 일 번호 20785), 출시 때 관제가 바꾼다. 이 파일의 모든 수치(레벨 경험치·젬 값·보상·미션 경험치)는 임시이고 값은 여기에만 둔다(코드에 두지 않는다). 결정 0161. levelExp = 레벨 하나의 경험치(레벨 = min(maxLevel, 1 + exp / levelExp)), levelGemCost = 레벨 구매 한 레벨당 젬스톤, graceDays = 시즌이 끝난 뒤 받기만 되는 날, product = shop.json 상품 id(같은 id 를 시즌마다 다시 산다). seasons[] = 시즌(id·name·startDay = UTC+9 일 번호(GameDay, 1970-01-01 = 0)·days·art = 그림 이름표(assets.json, none 상태 — 아트가 채움)·rewards 50줄·missions). rewards[] = {level, free, paid, key}: free·paid 는 ItemGrant 목록(kind silver·rift·kuji_tickets·gems 또는 {kind:cosmetic,id} — cosmetics.json 의 grant 꾸밈), key = 핵심 보상 칸(5·10·…·30, 화면에서 크게·빛나게). 행동력은 없다. missions: daily(날마다 같음)·weekly(주 번호 기준)·season(시즌에 한 번) 줄 = {id, kind, goal, stage(stage_clear 만), text, exp}. exp = 받을 때 오르는 경험치. kind 는 이벤트 미션과 같은 사건(matches·wins·waves·merges·bounties·kuji_draws·hero_level_ups·evolves·silver_shop_buys·miners_hired·stage_clear) + 새 둘 logins(그날 첫 접속 · goal 1)·daily_all(일일 패스 미션을 모두 끝낸 날 수 · 주간 줄). 판 수는 matchMinWave 이상 웨이브까지 간 판만 센다. 곡선(validate_data.py 가 검산): 하드 = 일일 전부·주간 전부·시즌 미션을 14일에 고르게 → 14일 안 레벨 30 이상 · 21일 레벨 50, 보통 = 일일 700·주간 2,500·시즌 5,000/28일 → 28일 레벨 25 이상. 가치(shop.value 의 기준 + 쿠지 티켓 1 = 100원 · 젬 1 ≈ 17원 · 은화 1,000 = 250원 · 균열석 1 = 500원): 무료 줄 ≈ 8,000원어치, 유료 줄 ≈ 30,000원어치 이상(젬스톤 합 ≈ 400).",
+"_note": "CD-0220 임시값 — CD-0218 가치표 뒤 맞춤. startDay 는 시험용 2026-11-28(UTC+9 일 번호 20785), 출시 때 관제가 바꾼다. 이 파일의 모든 수치(레벨 경험치·젬 값·보상·미션 경험치)는 임시이고 값은 여기에만 둔다(코드에 두지 않는다). 결정 0161. levelExp = 레벨 하나의 경험치(레벨 = min(maxLevel, 1 + exp / levelExp)), levelGemCost = 레벨 구매 한 레벨당 젬스톤, graceDays = 시즌이 끝난 뒤 받기만 되는 날, product = shop.json 상품 id(같은 id 를 시즌마다 다시 산다). seasons[] = 시즌(id·name·startDay = UTC+9 일 번호(GameDay, 1970-01-01 = 0)·days·art = 시즌 스킨(CD-0220b 결정 0162 — 시즌마다 바꾸는 것은 이 칸뿐: key 키 그림 1600x900 · entrance 로비 버튼 면 · buyPanel 유료 팝업·레벨 구매 창 판(9-slice) · levelBadge 레벨 배지 · exp 경험치 아이콘 · paidBadge 유료 방패 · lock 자물쇠 = assets.json 이름표, accent = 시즌 강조색 #RRGGBB(경험치 막대·핵심 칸 테·현재 레벨 고리). 보상 칸 판·미션 줄·띠는 시즌과 무관한 공용 부품)·rewards 50줄·missions). rewards[] = {level, free, paid, key}: free·paid 는 ItemGrant 목록(kind silver·rift·kuji_tickets·gems 또는 {kind:cosmetic,id} — cosmetics.json 의 grant 꾸밈), key = 핵심 보상 칸(5·10·…·30, 화면에서 크게·빛나게). 행동력은 없다. missions: daily(날마다 같음)·weekly(주 번호 기준)·season(시즌에 한 번) 줄 = {id, kind, goal, stage(stage_clear 만), text, exp}. exp = 받을 때 오르는 경험치. kind 는 이벤트 미션과 같은 사건(matches·wins·waves·merges·bounties·kuji_draws·hero_level_ups·evolves·silver_shop_buys·miners_hired·stage_clear) + 새 둘 logins(그날 첫 접속 · goal 1)·daily_all(일일 패스 미션을 모두 끝낸 날 수 · 주간 줄). 판 수는 matchMinWave 이상 웨이브까지 간 판만 센다. 곡선(validate_data.py 가 검산): 하드 = 일일 전부·주간 전부·시즌 미션을 14일에 고르게 → 14일 안 레벨 30 이상 · 21일 레벨 50, 보통 = 일일 700·주간 2,500·시즌 5,000/28일 → 28일 레벨 25 이상. 가치(shop.value 의 기준 + 쿠지 티켓 1 = 100원 · 젬 1 ≈ 17원 · 은화 1,000 = 250원 · 균열석 1 = 500원): 무료 줄 ≈ 8,000원어치, 유료 줄 ≈ 30,000원어치 이상(젬스톤 합 ≈ 400).",
 "levelExp": 1000,
 "maxLevel": 50,
 "levelGemCost": 20,
@@ -27999,11 +28100,11 @@
 "key": "key/season_s1",
 "entrance": "ui/season_key",
 "buyPanel": "ui/season_buy_panel",
-"cell": "ui/season_cell",
-"cellKey": "ui/season_cell_key",
-"lock": "ui/season_lock",
 "levelBadge": "ui/season_level_badge",
-"exp": "ui/season_exp"
+"exp": "ui/season_exp",
+"paidBadge": "ui/season_paid_badge",
+"lock": "ui/season_lock",
+"accent": "#F6A0BE"
 },
 "rewards": [
 {
@@ -29213,9 +29314,9 @@
 }
 ]
 },
-"at": "2026-11-28 01:12",
-"branch": "main",
-"dirty": false
+"at": "2026-11-28 09:51",
+"branch": "cd-220b",
+"dirty": true
 }
 },
 "dataBefore": {
@@ -39283,7 +39384,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-28 09:29",
-"generatedAt": "2026-11-28 09:48",
-"digest": "e8442b127848b16c"
+"sourceAt": "2026-11-28 09:59",
+"generatedAt": "2026-11-28 10:00",
+"digest": "917088dc8b42a32a"
 }

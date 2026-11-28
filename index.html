@@ -663,7 +663,7 @@ function accReward(V,a,L){if(!a)return{v:0,t:""};var g=[];(a.levelUp||[]).forEac
 function vEconomy(){
   var shop=D("shop"),shop0=DB("shop"),V=ecoVal(shop),V0=ecoVal(shop0),rw=D("reward"),rw0=DB("reward"),w=D("waves"),acc=D("account"),acc0=DB("account"),h=D("heroes"),h0=DB("heroes"),st=D("stamina"),st0=DB("stamina");
   var hb=!!B.dataBefore&&Object.keys(B.dataBefore).length>0;
-  var h1='<h1>재화</h1><div class="eyebrow" style="margin-top:2px">가치표(결정 0149: 쿠지 티켓 1장 = 100원)로 모든 재화·상품을 원·티켓으로 바꿔 나란히 본다. «이전» = CD-0218 이전 값'+(hb?'':' (이전 값 없음)')+'. 숫자는 전부 데이터에서 바로 계산 — 데이터를 고치면 표도 바뀐다.</div>';
+  var h1='<h1>재화</h1><div class="eyebrow" style="margin-top:2px">가치표(결정 0149: 쿠지 티켓 1장 = 100원)로 모든 재화·상품을 원·티켓으로 바꿔 나란히 본다. «이전» = CD-0218 이전 값'+(hb?'':' (이전 값 없음)')+'. 숫자는 전부 데이터에서 바로 계산 — 데이터를 고치면 표도 바뀐다. <b><a href="economy.html">경제 시뮬레이터 열기 →</a></b> (아이템 가치를 바꿔 보며 육성 비용·무과금 기간·이상 신호 확인)</div>';
   /* 1. 가치표 */
   /* 1. 아이템 가치표(사용자 2026-11-28 «재화시트에 아이템 리스트 … 1개당 현금 가치, 쿠지 티켓 갯수, 뽑기 등장 여부, 은화 가치, 젬스톤 가치 … 하나씩 다시 잡는» — 확정 전, 빌드에 넣지 않음) */
   var KJ=D("kuji"),kpz=(KJ&&KJ.boards&&KJ.boards[0]&&KJ.boards[0].prizes)||[],kN=0;kpz.forEach(function(p){kN+=p.count});

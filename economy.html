@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>포트메이츠 경제 시뮬레이터</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1b;--ink2:#4a4a46;--ink3:#7d7c76;--line:#e3e1da;--acc:#2f6fdc;--ok:#1f8a4c;--warn:#b7791f;--bad:#c2372f;--hl:#fff7e0;--in:#fbfaf7}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15161a;--card:#1e2026;--ink:#ecebe6;--ink2:#c3c2bc;--ink3:#8e8d88;--line:#2f323a;--acc:#6fa0ff;--ok:#4cc27e;--warn:#e0a948;--bad:#ff6b61;--hl:#2d2818;--in:#23252c}}
+:root[data-theme="dark"]{--bg:#15161a;--card:#1e2026;--ink:#ecebe6;--ink2:#c3c2bc;--ink3:#8e8d88;--line:#2f323a;--acc:#6fa0ff;--ok:#4cc27e;--warn:#e0a948;--bad:#ff6b61;--hl:#2d2818;--in:#23252c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,"Segoe UI","Malgun Gothic","Apple SD Gothic Neo",sans-serif}
+.wrap{max-width:1280px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 4px}
+h2{font-size:16px;margin:0 0 10px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+h2 .no{display:inline-block;min-width:22px;height:22px;line-height:22px;text-align:center;border-radius:6px;background:var(--acc);color:#fff;font-size:12px}
+.muted{color:var(--ink3)}.small{font-size:12px}
+a{color:var(--acc)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;white-space:nowrap}
+th{font-size:12px;color:var(--ink3);font-weight:600;background:var(--in)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+td.wrapc{white-space:normal;min-width:180px}
+input[type=number],select{width:88px;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--in);color:var(--ink);font:inherit;text-align:right}
+select{width:auto;text-align:left}
+input.chg{background:var(--hl);border-color:var(--warn)}
+button{font:inherit;padding:6px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer}
+button:hover{border-color:var(--acc)}
+button.pri{background:var(--acc);border-color:var(--acc);color:#fff}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:6px 0}
+label.ck{display:flex;gap:6px;align-items:center}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:4px 0 8px}
+.stat{border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--in)}
+.stat .l{font-size:12px;color:var(--ink3)}.stat .v{font-size:18px;font-weight:700}.stat .s{font-size:11px;color:var(--ink3)}
+.up{color:var(--bad)}.down{color:var(--ok)}
+.warns{list-style:none;margin:0;padding:0}
+.warns li{padding:6px 8px;border-left:3px solid var(--line);margin:4px 0;background:var(--in);border-radius:4px}
+.warns li.bad{border-color:var(--bad)}.warns li.warn{border-color:var(--warn)}.warns li.ok{border-color:var(--ok)}
+.tag{display:inline-block;font-size:11px;padding:0 6px;border-radius:9px;margin-right:6px;font-weight:700}
+.tag.bad{background:var(--bad);color:#fff}.tag.warn{background:var(--warn);color:#fff}.tag.ok{background:var(--ok);color:#fff}
+tr.flag td:first-child{color:var(--bad);font-weight:700}
+.err{color:var(--bad);padding:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>포트메이츠 경제 시뮬레이터</h1>
+<div class="small muted" style="margin-bottom:12px">아이템 1개의 현금 가치를 바꾸면 그와 엮인 값(쿠지 판·상점 할인율·판 가치·영웅 육성 비용·무과금 소요 기간)이 어떻게 바뀌는지, 어디가 이상해지는지 바로 본다. <b>재검토용 — 게임 데이터·빌드는 바꾸지 않는다</b>(사용자 2026-11-28 «확정 전까지 가치만 작업»). 수량(보상·요구량·쿠지 판)은 지금 데이터 그대로 읽는다. <a href="./#economy">← PM 사이트 «재화» 탭</a> · <span id="dataAt"></span></div>
+<div id="app"><div class="muted">불러오는 중…</div></div>
+</div>
+<script>
+"use strict";
+var B=null;
+function D(n){var x=((B&&B.data)||{})[n];return x&&x.data?x.data:null}
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function fmt(n,d){return typeof n==="number"&&isFinite(n)?n.toLocaleString("ko-KR",{maximumFractionDigits:d==null?1:d}):"-"}
+function won(n){return n==null||!isFinite(n)?"-":fmt(Math.round(n),0)+"원"}
+function pc(n,d){return n==null||!isFinite(n)?"-":fmt(n,d==null?0:d)+"%"}
+function days(n){if(n==null||!isFinite(n))return"불가";if(n>3650)return"10년+";if(n<1)return"1일 안";return fmt(Math.ceil(n),0)+"일 <span class=\"muted\">("+fmt(n/30.4,1)+"개월)</span>"}
+function delta(a,b){if(!b||!isFinite(a)||!isFinite(b))return"";var p=(a/b-1)*100;if(Math.abs(p)<0.5)return'<span class="muted">±0</span>';return'<span class="'+(p>0?"up":"down")+'">'+(p>0?"+":"")+fmt(p,0)+'%</span>'}
+function tbl(head,rows,num,flags){num=num||[];return'<div class="tw"><table><thead><tr>'+head.map(function(h,i){return'<th'+(num.indexOf(i)>=0?' class="num"':'')+'>'+h+'</th>'}).join("")+'</tr></thead><tbody>'+rows.map(function(r,ri){return'<tr'+(flags&&flags[ri]?' class="flag"':'')+'>'+r.map(function(c,i){return'<td'+(num.indexOf(i)>=0?' class="num"':'')+'>'+(c==null?"-":c)+'</td>'}).join("")+'</tr>'}).join("")+'</tbody></table></div>'}
+function stat(l,v,s){return'<div class="stat"><div class="l">'+l+'</div><div class="v">'+v+'</div><div class="s">'+(s||"&nbsp;")+'</div></div>'}
+function sum(a){var s=0;(a||[]).forEach(function(x){s+=x||0});return s}
+
+/* ---------- 입력 ---------- */
+var ITEMS=[["tickets","쿠지 티켓 1장"],["gems","젬스톤 1개"],["silver1000","은화 1,000"],["rift","균열석 1개"],["h1","1단계 영웅 1장"],["h2","2단계 영웅 1장"],["h3","3단계 영웅 1장"],["h4","4단계(영웅 등급) 1장"],["legend","전설 영웅 1장"],["stamina","행동력 1"]];
+var MULTS=[["hc","영웅 중복 수"],["hs","영웅 은화"],["lc","전설 중복 수"],["ls","전설 은화"],["tr","초월 균열석"]];
+function baseValues(){ /* index.html ecoVal 과 같은 식: 티켓 100원이 기준, 나머지는 shop.value(은화 기준) */
+  var v=(D("shop")||{}).value||{},t=v.kuji_tickets||400,sw=100/t,h=v.hero||[400,1200,4000,12000];
+  return{tickets:100,gems:(v.silverPerGemsUnit||40)/(v.gemsUnit||1)*sw,silver1000:sw*1000,rift:(v.rift||2000)*sw,h1:h[0]*sw,h2:h[1]*sw,h3:h[2]*sw,h4:h[3]*sw,legend:3000,stamina:200};
+}
+var S=null;
+function defaults(){var v=baseValues(),m={};MULTS.forEach(function(x){m[x[0]]=1});return{v:v,m:m,n:10,stage:"gate_04_01",conv:true,rebal:true}}
+function load(){S=defaults();try{var raw=localStorage.getItem("fm-econ-sim");if(raw){var o=JSON.parse(raw);if(o&&o.v){Object.keys(S.v).forEach(function(k){if(typeof o.v[k]==="number")S.v[k]=o.v[k]});Object.keys(S.m).forEach(function(k){if(o.m&&typeof o.m[k]==="number")S.m[k]=o.m[k]});["n","stage","conv","rebal"].forEach(function(k){if(o[k]!=null)S[k]=o[k]})}}}catch(e){}}
+function save(){try{localStorage.setItem("fm-econ-sim",JSON.stringify(S))}catch(e){}}
+function V(vals){return{tickets:vals.tickets,gems:vals.gems,silver:vals.silver1000/1000,rift:vals.rift,hero:[vals.h1,vals.h2,vals.h3,vals.h4],legend:vals.legend,stamina:vals.stamina}}
+
+/* ---------- 계산 (index.html 의 matchReward·kujiStats·heroTotals·trscRows 를 옮김) ---------- */
+function tierSilver(rw,n){var t=rw.waveTiers||[],r=t[t.length-1];for(var i=0;i<t.length;i++)if(n<=t[i].upTo){r=t[i];break}return r?r.silver:0}
+function matchReward(sid){var rw=D("reward"),w=D("waves");if(!rw||!w||!w.sets[sid])return null;var n=w.sets[sid].waves.length,pct0=(rw.setPct||{})[sid];if(pct0==null)pct0=100;var s=0;for(var i=1;i<=n;i++)s+=tierSilver(rw,i);s+=(rw.victory||{}).silver||0;var vt=(rw.victoryTickets||{})[sid];var t=Math.floor(n/(rw.ticketEveryWaves||1e9))+(vt!=null?vt:Math.floor(((rw.victory||{}).kujiTickets||0)*pct0/100));var kills=0;w.sets[sid].waves.forEach(function(x){(x.groups||[]).forEach(function(g){kills+=g.count||0})});return{silver:Math.floor(s*pct0/100),tickets:t,n:n,kills:kills}}
+function keyOf(o){var t=o.type||o.kind;return t==="hero"?"h"+o.tier:t==="kuji_tickets"?"tickets":t}
+function valOf(v,o){var k=keyOf(o),a=o.amount||0;if(k.charAt(0)==="h"&&k.length===2)return v.hero[+k.charAt(1)-1]*a;if(k==="silver")return v.silver*a;return(v[k]||0)*a}
+function board(v,gCount){var k=D("kuji");if(!k||!k.boards||!k.boards.length)return null;var pz=k.boards[0].prizes.map(function(p){var q=Object.assign({},p);if(gCount!=null&&p.grade==="G")q.count=gCount;return q});
+  var N=0,T=0;pz.forEach(function(p){N+=p.count;if(p.top)T+=p.count});var Dn=T*(N+1)/(T+1),fr=T/(T+1),ev=0,back=0,units={},grades=[];
+  pz.forEach(function(p){var opts=p.rewards?p.rewards:[Object.assign({weight:1},p.reward)],tw=0;opts.forEach(function(o){tw+=o.weight});var n=p.count*(p.top?1:fr),avg=0;
+    opts.forEach(function(o){var sh=o.weight/tw,key=keyOf(o),val=valOf(v,o);units[key]=(units[key]||0)+n*sh*(o.amount||0);avg+=sh*val;if(key==="tickets")back+=n*sh*(o.amount||0);else ev+=n*sh*val});
+    grades.push({g:p.grade,top:!!p.top,count:p.count,avg:avg,opts:opts,tw:tw})});
+  var net=Dn-back;return{N:N,T:T,D:Dn,fr:fr,ev:ev,back:back,net:net,per:ev/net,units:units,grades:grades,G:(pz.filter(function(p){return p.grade==="G"})[0]||{}).count}}
+function rebalance(v){var b0=board(v,null),best=null,bestG=b0?b0.G:0;if(!b0)return null;for(var g=0;g<=5000;g++){var b=board(v,g),d=Math.abs(b.per-v.tickets);if(best==null||d<best){best=d;bestG=g}}var b=board(v,bestG);b.fit=Math.abs(b.per/v.tickets-1)<=0.1;b.clamped=(bestG===0||bestG===5000)&&!b.fit;return b}
+function heroTotals(h,m){var ml=h.maxLevel||50,out=[];[1,2,3,4].forEach(function(t){var cp=(h.copiesPerLevel||{})[t]||[],sv=(h.silverPerLevel||{})[t]||[];var c=0,c30=0,s=0,s30=0;for(var i=0;i<ml-1;i++){c+=cp[i]||0;s+=sv[i]||0;if(i<29){c30+=cp[i]||0;s30+=sv[i]||0}}out.push({tier:t,c:c*m.hc,c30:c30*m.hc,s:s*m.hs,s30:s30*m.hs})});return out}
+function legendTotals(h,m){var L=h.legend||{},cp=L.copiesPerLevel||[],sv=L.silverPerLevel||[];return{c:sum(cp)*m.lc,c30:sum(cp.slice(0,29))*m.lc,s:sum(sv)*m.ls,s30:sum(sv.slice(0,29))*m.ls}}
+function trscRows(h,mul){var st=((h||{}).transcend||{}).steps||[],cum=0;return st.map(function(s,i){var p=s.weight/10000,n=s.pity||0,q=1-p,tries=n>0?(1-Math.pow(q,n+1))/p:1/p;cum+=s.rift*tries*mul;return{i:i+1,p:p,rift:s.rift*mul,pity:n,tries:tries,cum:cum}})}
+function grantAdd(u,gs,k){(gs||[]).forEach(function(g){var key=g.kind==="kuji_tickets"?"tickets":g.kind;u[key]=(u[key]||0)+(g.amount||0)*(k==null?1:k)})}
+function accountPerDay(expPerMatch,N){var a=D("account");if(!a)return{};var exp=N*expPerMatch*365,L=1,need=0;function step(l){return a.expBase+a.expStep*(l-1)}while(L<a.maxLevel&&need+step(L)<=exp){need+=step(L);L++}var u={};for(var l=2;l<=L;l++){(a.levelUp||[]).forEach(function(r){grantAdd(u,[{kind:r.kind,amount:r.base+Math.floor(r.perLevel*l/r.div)}])});if(l%(a.milestoneEvery||5)===0)(a.milestone||[]).forEach(function(r){grantAdd(u,[{kind:r.kind,amount:r.base+Math.floor(r.perLevel*l/r.div)}])})}Object.keys(u).forEach(function(k){u[k]/=365});u._L=L;return u}
+function gemTicketRate(){var g=(D("shop")||{}).gemShop||{},best=null;(g.items||[]).forEach(function(it){var x=(it.grants||[])[0];if(x&&x.kind==="kuji_tickets"){var r=it.priceGems/x.amount;if(best==null||r<best)best=r}});return best||10}
+function gemSilverRate(){var g=(D("shop")||{}).gemShop||{},best=null;(g.items||[]).forEach(function(it){var x=(it.grants||[])[0];if(x&&x.kind==="silver"){var r=it.priceGems/x.amount;if(best==null||r<best)best=r}});return best||0.025}
+function income(N,sid,conv){var r=matchReward(sid),src=[];if(!r)return null;
+  var mt={silver:r.silver*N,tickets:r.tickets*N};src.push(["판 보상 ×"+N,mt]);
+  var dl=D("daily"),dd={};if(dl){var pool=dl.pool||[];pool.forEach(function(m){grantAdd(dd,m.grants,(dl.perDay||0)/(pool.length||1))});grantAdd(dd,dl.allDoneBonus)}src.push(["일일 미션",dd]);
+  var wk=D("weekly"),ww={};if(wk){(wk.missions||[]).forEach(function(m){grantAdd(ww,m.grants,1/7)});grantAdd(ww,wk.allDoneBonus,1/7)}src.push(["주간 미션 ÷7",ww]);
+  var exp=((D("account")||{}).singleClearExp||{})[sid]||300,ac=accountPerDay(exp,N),accL=ac._L;delete ac._L;src.push(["계정 레벨(1년 평균, Lv."+accL+")",ac]);
+  var pre=0;src.forEach(function(x){pre+=x[1].tickets||0});
+  var ev={wins:N,matches:N,kills:r.kills*N,kuji_draws:pre,hero_level_ups:Math.min(3.5,N*0.12),evolves:N*0.5,daily_done:(dl||{}).perDay||0},rp={};
+  ((D("achievements")||{}).achievements||[]).filter(function(x){return x.type==="repeat"}).forEach(function(x){var e=ev[x.kind];if(e)grantAdd(rp,x.grants,e/x.step)});src.push(["반복 업적",rp]);
+  var tot={};src.forEach(function(x){Object.keys(x[1]).forEach(function(k){tot[k]=(tot[k]||0)+x[1][k]})});
+  var gemT=0;if(conv&&tot.gems){gemT=tot.gems/gemTicketRate();tot.tickets=(tot.tickets||0)+gemT;src.push(["젬 → 쿠지 티켓("+fmt(gemTicketRate(),1)+"젬/장)",{gems:-tot.gems,tickets:gemT}]);tot.gems=0}
+  return{r:r,src:src,tot:tot,accL:accL,exp:exp}}
+
+function model(vals,st){var v=V(vals),h=D("heroes")||{},bd=st.rebal?rebalance(v):board(v,null);var inc=income(st.n,st.stage,st.conv);if(!bd||!inc)return null;
+  var races=6;try{var rs={};(h.startOwned||[]).forEach(function(id){rs[id.split("/")[0]]=1});races=Object.keys(rs).length||6}catch(e){}
+  var legN=((D("legends")||{}).legends||[]).length||6;
+  var per=function(key){return(bd.units[key]||0)/bd.net}; /* 순 티켓 1장당 */
+  var day={silver:(inc.tot.silver||0)+inc.tot.tickets*per("silver"),rift:(inc.tot.rift||0)+inc.tot.tickets*per("rift"),legend:inc.tot.tickets*per("legend")/legN,tickets:inc.tot.tickets,gems:inc.tot.gems||0};
+  [1,2,3,4].forEach(function(t){day["h"+t]=inc.tot.tickets*per("h"+t)/races});
+  var HT=heroTotals(h,st.m),LG=legendTotals(h,st.m),TR=trscRows(h,st.m.tr),T5=(TR[4]||{}).cum||0,T10=(TR[TR.length-1]||{}).cum||0;
+  var tCash=gemTicketRate()*v.gems,sCash=gemSilverRate()*v.gems;
+  var allSilver=races*sum(HT.map(function(x){return x.s}))+legN*LG.s,allSilver30=races*sum(HT.map(function(x){return x.s30}))+legN*LG.s30;
+  var dS=allSilver/day.silver,dS30=allSilver30/day.silver,allRift=legN*T10,allRift5=legN*T5;
+  var rows=[];
+  HT.forEach(function(x){var cd=day["h"+x.tier],val=x.c*v.hero[x.tier-1]+x.s*v.silver,tk=x.c/(per("h"+x.tier)/races);
+    rows.push({key:"h"+x.tier,n:x.tier+"단계 영웅 Lv.1→50",need:fmt(x.c,0)+"장 · 은화 "+fmt(x.s,0),val:val,cash:tk*tCash+x.s*sCash,
+      focus:Math.max(x.c/cd,x.s/day.silver),all:Math.max(x.c/cd,dS),f30:Math.max(x.c30/cd,x.s30/day.silver),a30:Math.max(x.c30/cd,dS30)})});
+  var lv=LG.c*v.legend+LG.s*v.silver,ltk=LG.c/(per("legend")/legN);
+  rows.push({key:"lg",n:"전설 레벨 Lv.1→50",need:fmt(LG.c,0)+"장 · 은화 "+fmt(LG.s,0),val:lv,cash:ltk*tCash+LG.s*sCash,focus:Math.max(LG.c/day.legend,LG.s/day.silver),all:Math.max(LG.c/day.legend,dS),f30:Math.max(LG.c30/day.legend,LG.s30/day.silver),a30:Math.max(LG.c30/day.legend,dS30)});
+  var rtk=T10/per("rift");
+  rows.push({key:"tr",n:"전설 초월 +0→+10 (기대값)",need:"균열석 "+fmt(T10,0)+"개",val:T10*v.rift,cash:rtk*tCash,focus:T10/day.rift,all:allRift/day.rift,f30:T5/day.rift,a30:allRift5/day.rift,l30:"+5"});
+  var lgAll={key:"la",n:"전설 하나 전체(레벨 + 초월 +10)",need:"",val:lv+T10*v.rift,cash:ltk*tCash+LG.s*sCash+rtk*tCash};
+  lgAll.need=rows[4].need+" · 균열석 "+fmt(T10,0);lgAll.focus=Math.max(rows[4].focus,rows[5].focus);lgAll.all=Math.max(rows[4].all,rows[5].all);lgAll.f30=Math.max(rows[4].f30,rows[5].f30);lgAll.a30=Math.max(rows[4].a30,rows[5].a30);rows.push(lgAll);
+  var everything=Math.max.apply(null,rows.map(function(r){return r.all}));
+  var dayWon=day.silver*v.silver+day.rift*v.rift+[1,2,3,4].reduce(function(a,t){return a+day["h"+t]*races*v.hero[t-1]},0)+day.legend*legN*v.legend+day.gems*v.gems;
+  var matchWon=inc.r.silver*v.silver+inc.r.tickets*v.tickets;
+  return{v:v,bd:bd,inc:inc,day:day,rows:rows,races:races,legN:legN,TR:TR,tCash:tCash,sCash:sCash,everything:everything,dayWon:dayWon,matchWon:matchWon,h:h}}
+
+/* ---------- 경고 ---------- */
+function checks(M,st){var out=[],v=M.v,h=M.h,shop=D("shop")||{};function add(lv,t){out.push([lv,t])}
+  var cv=[v.hero[0],v.hero[1],v.hero[2],v.hero[3],v.legend];
+  if(!(cv[0]<cv[1]&&cv[1]<cv[2]&&cv[2]<cv[3]&&cv[3]<=cv[4]))add("bad","중복 1장 값 순서가 1단계 < 2단계 < 3단계 < 4단계 ≤ 전설이 아니다: "+cv.map(won).join(" · "));else add("ok","중복 1장 값 순서 1 < 2 < 3 < 4 ≤ 전설");
+  var R=M.rows,g=[R[0].val,R[1].val,R[2].val,R[3].val,R[4].val];
+  if(!(g[0]<g[1]&&g[1]<g[2]&&g[2]<g[3]&&g[3]<g[4]))add("bad","끝까지 키우는 값 순서가 1 < 2 < 3 < 4단계 < 전설 레벨이 아니다: "+g.map(function(x){return fmt(x/10000,1)+"만"}).join(" · "));else add("ok","끝까지 키우는 값 1 < 2 < 3 < 4단계 < 전설 레벨");
+  var maxOther=Math.max(g[0],g[1],g[2],g[3],g[4]);if(R[5].val<=maxOther)add("bad","초월 +10 값("+won(R[5].val)+")이 가장 비싸지 않다(가장 비싼 다른 것 "+won(maxOther)+") — 사용자 요구 «전설 초월 10 찍는게 제일 어려워야»");else add("ok","초월 +10 이 가장 비싸다");
+  var mf=Math.max.apply(null,R.slice(0,5).map(function(r){return r.focus}));if(R[5].focus<=mf)add("bad","무과금 집중 일수로도 초월 +10("+fmt(Math.ceil(R[5].focus),0)+"일)이 가장 오래 걸리지 않는다(가장 긴 다른 것 "+fmt(Math.ceil(mf),0)+"일)");else add("ok","무과금 집중 일수로 초월 +10 이 가장 오래 걸린다");
+  var bd=M.bd,dev=bd.per/v.tickets-1;
+  if(st.rebal){if(!bd.fit)add("bad","쿠지 판을 G상 장 수만으로 못 맞춘다(G "+bd.G+"장에서 티켓 실가치 "+won(bd.per)+") — 상 구성 자체를 바꿔야 한다");else if(bd.G!==M.G0)add("warn","쿠지 판을 맞추려면 G상 "+M.G0+"장 → "+bd.G+"장(판 "+fmt(bd.N,0)+"장). 확정 때 kuji.json 도 바뀐다");else add("ok","쿠지 판 그대로 맞다(G상 "+bd.G+"장)")}
+  else{if(Math.abs(dev)>0.1)add("bad","쿠지 티켓 1장 실가치 "+won(bd.per)+" — 티켓 가치 "+won(v.tickets)+"의 ±10% 를 벗어났다("+(dev>0?"+":"")+fmt(dev*100,0)+"%)");else add("ok","쿠지 티켓 실가치 "+won(bd.per)+"(±10% 안)")}
+  var bad=[];for(var i=1;i<bd.grades.length;i++)if(bd.grades[i].avg>bd.grades[i-1].avg)bad.push(bd.grades[i-1].g+"상 "+won(bd.grades[i-1].avg)+" < "+bd.grades[i].g+"상 "+won(bd.grades[i].avg));
+  if(bad.length)add("warn","쿠지 상 평균 가치 순서가 뒤집힌 곳: "+bad.join(" · "));else add("ok","쿠지 상 평균 가치 A ≥ B ≥ … ≥ G");
+  var ds=shop.dailyShop||{},shopBad=[];Object.keys(ds.pools||{}).forEach(function(pk){(ds.pools[pk]||[]).forEach(function(it){var val=it.hero?v.hero[it.hero-1]:sum((it.grants||[]).map(function(gg){return valOf(v,gg)}));if(!val)return;var price,lo,hi;if(it.priceSilver!=null){price=it.priceSilver*v.silver;lo=85;hi=100}else{price=it.priceGems*v.gems;lo=75;hi=100}var r=price/val*100;it._r=r;if(r<lo||r>hi)shopBad.push("일일 상점 "+(it.name||(it.hero+"단계 영웅"))+" "+pc(r)+"("+lo+"~"+hi+"%)")})});
+  ((shop.gemShop||{}).items||[]).forEach(function(it){var val=sum((it.grants||[]).map(function(gg){return valOf(v,gg)})),r=it.priceGems*v.gems/val*100;if(r<85||r>100)shopBad.push("젬 상점 "+it.name+" "+pc(r)+"(85~100%)")});
+  if(shopBad.length)add("warn","상점 값이 가치 할인 범위를 벗어남: "+shopBad.join(" · "));else add("ok","일일 상점·젬 상점 값이 모두 할인 범위 안");
+  var packs=(shop.products||[]).filter(function(p){return p.tab==="gem"}),pb=[];packs.forEach(function(p){var gm=(p.grants[0]||{}).amount||0;if(gm&&p.priceWon/gm>v.gems*1.001)pb.push(p.name+" "+fmt(p.priceWon/gm,2)+"원/젬")});
+  if(pb.length)add("warn","젬 묶음 값이 젬 1개 가치("+won(v.gems)+")보다 비싸다: "+pb.join(" · "));else add("ok","젬 묶음은 모두 젬 1개 "+won(v.gems)+" 이하");
+  var cost=((D("stamina")||{}).cost||{}).single||5,sv=M.matchWon/cost;if(Math.abs(v.stamina/sv-1)>0.2)add("warn","행동력 1 가치 "+won(v.stamina)+" vs 이 스테이지 승리 1판 ÷ "+cost+" = "+won(sv)+"(±20% 밖)");else add("ok","행동력 1 가치가 승리 판 가치 ÷ "+cost+"("+won(sv)+")와 ±20% 안");
+  var ov=h.overflowSilver||{},ob=[];[1,2,3,4].forEach(function(t){var want=v.hero[t-1]*0.25/v.silver;if(Math.abs((ov[t]||0)/want-1)>0.1)ob.push(t+"단계 "+fmt(ov[t],0)+"(가치의 25% = "+fmt(want,0)+")")});var lwant=v.legend*0.25/v.silver,lo2=(h.legend||{}).overflowSilver||0;if(Math.abs(lo2/lwant-1)>0.1)ob.push("전설 "+fmt(lo2,0)+"(25% = "+fmt(lwant,0)+")");
+  if(ob.length)add("warn","만렙 뒤 중복 1장 → 은화(overflowSilver)가 가치의 25% 가 아니다: "+ob.join(" · "));else add("ok","overflowSilver 가 가치의 25%");
+  var stm=D("stamina")||{},maxM=Math.floor((86400/(stm.regenSeconds||300))/cost);if(st.n>maxM)add("bad","하루 "+st.n+"판은 행동력 자연 회복 한도(하루 약 "+maxM+"판)를 넘는다");
+  return out}
+
+/* ---------- 화면 ---------- */
+function render(){var st=S,M=model(st.v,st),M0=model(baseValues(),Object.assign({},st,{m:st.m}));if(!M){document.getElementById("app").innerHTML='<div class="err">데이터가 모자란다(heroes·kuji·reward·waves)</div>';return}
+  M.G0=(board(M.v,null)||{}).G;var bv=baseValues(),W=checks(M,st),nb=W.filter(function(x){return x[0]==="bad"}).length,nw=W.filter(function(x){return x[0]==="warn"}).length;
+  var h='';
+  /* 입력 */
+  var inp=tbl(["아이템","지금 값(원)","변동","기준(데이터)","쿠지 티켓","은화","젬스톤"],ITEMS.map(function(x){var k=x[0],val=st.v[k],b=bv[k];return["<b>"+x[1]+"</b>",'<input type="number" step="any" min="0" data-v="'+k+'" value="'+(+val.toFixed(4))+'"'+(Math.abs(val-b)>1e-9?' class="chg"':'')+'>',delta(val,b),won(b),fmt(val/st.v.tickets,3),fmt(val/(st.v.silver1000/1000),0),fmt(val/st.v.gems,1)]}),[2,3,4,5,6]);
+  var cond='<div class="row"><label>하루 판 수 <input type="number" min="0" step="1" id="n" value="'+st.n+'"></label>'+[2,5,10,30].map(function(n){return'<button data-n="'+n+'"'+(st.n===n?' class="pri"':'')+'>'+n+'판</button>'}).join("")+'</div>';
+  var sids=Object.keys((D("reward")||{}).setPct||{}).filter(function(s){return s!=="gate_03_01"&&s!=="gate_03_02"&&s!=="gate_03_03"&&s!=="gate_03_04"&&s!=="gate_03_05"});
+  var chOf={};((D("mapindex")||{}).chapters||[]).forEach(function(c){if(c.map)chOf[c.map]=c.chapter});var stg=(D("stages")||{}).stages||[];function chName(sid){var s=stg.filter(function(x){return x.id===sid})[0];var c=s&&chOf[s.map];return c?"챕터 "+c:""}
+  cond+='<div class="row"><label>스테이지 <select id="stage">'+sids.map(function(s){return'<option value="'+s+'"'+(s===st.stage?" selected":"")+'>'+s+' '+chName(s)+'</option>'}).join("")+'</select></label><span class="small muted">승리 기준 · 판당 은화 '+fmt(M.inc.r.silver,0)+' · 티켓 '+M.inc.r.tickets+' · 몬스터 '+M.inc.r.kills+'마리 · 경험치 '+M.inc.exp+'</span></div>';
+  cond+='<div class="row"><label class="ck"><input type="checkbox" id="conv"'+(st.conv?" checked":"")+'> 젬을 모두 쿠지 티켓으로 바꾼다(젬 상점 최저 '+fmt(gemTicketRate(),1)+'젬/장)</label></div>';
+  cond+='<div class="row"><label class="ck"><input type="checkbox" id="rebal"'+(st.rebal?" checked":"")+'> 쿠지 판을 새 가치에 맞춰 G상 장 수 다시 맞춤</label><span class="small muted">켜면 가치 변경이 «얼마나 걸리나» 에도 이어진다(판이 커지면 같은 티켓에서 나오는 영웅·균열석이 준다)</span></div>';
+  var mul=tbl(["육성 요구량 배율(시험용)","배율"],MULTS.map(function(x){return[x[1],'<input type="number" step="0.05" min="0" data-m="'+x[0]+'" value="'+st.m[x[0]]+'"'+(st.m[x[0]]!==1?' class="chg"':'')+'>']}),[1]);
+  var btn='<div class="row"><button data-act="base">기준값</button><button data-act="leg50">전설 50티켓안(5,000원)</button><button data-act="copy">설정 복사</button><span class="small muted" id="copied"></span></div>';
+  h+='<div class="grid"><div class="card"><h2><span class="no">1</span>아이템 가치(원)</h2>'+inp+btn+'</div><div class="card"><h2><span class="no">2</span>플레이 조건</h2>'+cond+mul+'<div class="small muted">배율은 heroes.json 의 레벨 중복·은화 합, 초월 단계 균열석에 곱한다(확률·pity 는 그대로). 데이터는 바꾸지 않는다.</div></div></div>';
+  /* 경고 */
+  h+='<div class="card"><h2><span class="no">!</span>이상 신호 <span class="small muted">문제 '+nb+' · 주의 '+nw+'</span></h2><ul class="warns">'+W.map(function(x){return'<li class="'+x[0]+'"><span class="tag '+x[0]+'">'+{bad:"문제",warn:"주의",ok:"정상"}[x[0]]+'</span>'+esc(x[1])+'</li>'}).join("")+'</ul></div>';
+  /* 요약 */
+  var bd=M.bd;
+  h+='<div class="card"><h2><span class="no">3</span>연계 값 요약 <span class="small muted">괄호 = 기준 가치일 때 대비</span></h2><div class="stats">'+
+    stat("쿠지 티켓 1장 실가치",won(bd.per),"티켓 가치 "+won(M.v.tickets)+" · 기준 "+won(M0.bd.per))+
+    stat("쿠지 판 크기",fmt(bd.N,0)+"장","G상 "+bd.G+"장 · 뽑는 수 "+fmt(bd.D,1)+" · 순 "+fmt(bd.net,1))+
+    stat("판 하나 기대 가치",won(bd.ev),delta(bd.ev,M0.bd.ev)+" · 되돌아오는 티켓 "+fmt(bd.back,1)+"장")+
+    stat("승리 1판 가치",won(M.matchWon),delta(M.matchWon,M0.matchWon)+" · 행동력 1 = "+won(M.matchWon/5))+
+    stat("하루 수입 가치(무과금)",won(M.dayWon),delta(M.dayWon,M0.dayWon)+" · 티켓 "+fmt(M.day.tickets,1)+"장")+
+    stat("티켓 현금 단가",won(M.tCash),"젬 상점 "+fmt(gemTicketRate(),1)+"젬 × "+won(M.v.gems))+
+    stat("전부 다 키우기",days(M.everything),"24종 Lv.50 + 전설 "+M.legN+"명 Lv.50·+10 · 기준 "+fmt(Math.ceil(M0.everything),0)+"일")+'</div>';
+  h+=tbl(["상","상위","장 수","후보(비율 · 가치)","상 평균 가치","기준 대비"],bd.grades.map(function(g,i){return[g.g+"상",g.top?"●":"",g.count,g.opts.map(function(o){var k=keyOf(o),nm=k==="tickets"?"쿠지 티켓":k==="silver"?"은화":k==="rift"?"균열석":k==="legend"?"전설":k.charAt(1)+"단계 영웅";return nm+" ×"+fmt(o.amount,0)+' <span class="muted">('+pc(o.weight*100/g.tw)+" · "+won(valOf(M.v,o))+")</span>"}).join("<br>"),won(g.avg),delta(g.avg,(M0.bd.grades[i]||{}).avg)]}),[2,4,5])+'</div>';
+  /* 육성 */
+  var flags=M.rows.map(function(r,i){return(i===4&&r.val<=M.rows[3].val)||(i===5&&r.val<=Math.max(M.rows[0].val,M.rows[1].val,M.rows[2].val,M.rows[3].val,M.rows[4].val))});
+  h+='<div class="card"><h2><span class="no">4</span>영웅별 끝까지 키우는 값과 무과금 기간</h2>'+tbl(["대상","필요량","가치 합","티켓 환산","기준 대비","현금으로 쿠지만 돌리면","무과금 · 이 하나만 집중","무과금 · 전부 같이","Lv.30(+5) 집중","Lv.30(+5) 전부 같이","기준 대비(전부 같이)"],M.rows.map(function(r,i){var b=M0.rows[i];return["<b>"+r.n+"</b>",'<span class="small">'+r.need+'</span>',won(r.val),fmt(r.val/M.v.tickets,0)+"장",delta(r.val,b.val),won(r.cash),days(r.focus),days(r.all),days(r.f30),days(r.a30),delta(r.all,b.all)]}),[2,3,4,5],flags)+
+   '<div class="small muted" style="margin-top:6px">빨간 이름 = 순서가 이상한 줄(전설 레벨이 4단계보다 싸거나, 초월 +10 이 가장 비싸지 않다). «현금으로 쿠지만 돌리면» = 그 종족(전설은 그 전설) 중복을 쿠지에서만 기대값으로 모으는 티켓 수 × 티켓 현금 단가 + 은화는 젬 상점 값 — 종족이 '+M.races+'개(전설 '+M.legN+'명)로 나뉘어 가치 합보다 훨씬 크다. «이 하나만 집중» = 은화를 이것에만 쓸 때, «전부 같이» = 은화를 모두에게 나눠 쓸 때(은화 총량 ÷ 하루 은화와 중복 일수 중 큰 쪽). 초월은 균열석만, 전부 같이 = 전설 '+M.legN+'명. 만렙 뒤 남는 중복·일일 상점 구매·이벤트·시즌 패스는 넣지 않았다.</div></div>';
+  /* 하루 수급 */
+  var keys=["silver","tickets","gems","rift"],KN={silver:"은화",tickets:"쿠지 티켓",gems:"젬스톤",rift:"균열석"};
+  var rowsI=M.inc.src.map(function(x){return[x[0]].concat(keys.map(function(k){return x[1][k]?fmt(x[1][k],1):""}))});
+  rowsI.push(["<b>판 밖·판 보상 합</b>"].concat(keys.map(function(k){return"<b>"+fmt(M.inc.tot[k]||0,1)+"</b>"})));
+  var u=M.bd.units,net=M.bd.net,tk=M.day.tickets;
+  rowsI.push(["쿠지에서(하루 티켓 "+fmt(tk,1)+" ÷ 순 "+fmt(net,1)+" × 판당)",fmt(tk*(u.silver||0)/net,0),"(되돌아옴 반영)","",fmt(tk*(u.rift||0)/net,2)]);
+  h+='<div class="card"><h2><span class="no">5</span>하루 수급(무과금, 하루 '+st.n+'판)</h2>'+tbl(["어디서","은화","쿠지 티켓","젬스톤","균열석"],rowsI,[1,2,3,4])+
+   tbl(["하루에 쌓이는 것","전체","종족 하나(전설은 하나)","기준 대비"],[["은화",fmt(M.day.silver,0),"-",delta(M.day.silver,M0.day.silver)],["균열석",fmt(M.day.rift,2),"-",delta(M.day.rift,M0.day.rift)]].concat([1,2,3,4].map(function(t){return[t+"단계 영웅 중복",fmt(M.day["h"+t]*M.races,2),fmt(M.day["h"+t],3),delta(M.day["h"+t],M0.day["h"+t])]})).concat([["전설 중복",fmt(M.day.legend*M.legN,3),fmt(M.day.legend,4),delta(M.day.legend,M0.day.legend)]]),[1,2,3])+
+   '<div class="small muted">계정 레벨은 1년 동안 오르는 레벨의 보상을 365일로 나눈 평균, 반복 업적 사건 = 승리·판 = '+st.n+' · 처치 = 판당 몬스터 수 × '+st.n+' · 쿠지 = 하루 티켓 · 레벨 업 min(3.5, 0.12×판) · 진화 0.5×판 (주문 CD-0218 _sim/fixed_income.py 와 같은 식).</div></div>';
+  /* 초월 */
+  h+='<div class="card"><h2><span class="no">6</span>초월 단계(전설 하나)</h2>'+tbl(["단계","확률","시도당 균열석","pity","기대 시도","누적 기대 균열석","누적 가치"],M.TR.map(function(r){return["+"+r.i,pc(r.p*100),fmt(r.rift,1),r.pity||"-",fmt(r.tries,2),fmt(r.cum,1),won(r.cum*M.v.rift)]}),[1,2,3,4,5,6])+'</div>';
+  document.getElementById("app").innerHTML=h;bind()}
+function bind(){var app=document.getElementById("app");
+  app.querySelectorAll("input[data-v]").forEach(function(el){el.addEventListener("change",function(){var x=parseFloat(el.value);if(isFinite(x)&&x>0){S.v[el.dataset.v]=x;save();render()}})});
+  app.querySelectorAll("input[data-m]").forEach(function(el){el.addEventListener("change",function(){var x=parseFloat(el.value);if(isFinite(x)&&x>=0){S.m[el.dataset.m]=x;save();render()}})});
+  var n=document.getElementById("n");n.addEventListener("change",function(){var x=parseInt(n.value,10);if(x>=0){S.n=x;save();render()}});
+  app.querySelectorAll("button[data-n]").forEach(function(b){b.addEventListener("click",function(){S.n=+b.dataset.n;save();render()})});
+  document.getElementById("stage").addEventListener("change",function(e){S.stage=e.target.value;save();render()});
+  document.getElementById("conv").addEventListener("change",function(e){S.conv=e.target.checked;save();render()});
+  document.getElementById("rebal").addEventListener("change",function(e){S.rebal=e.target.checked;save();render()});
+  app.querySelectorAll("button[data-act]").forEach(function(b){b.addEventListener("click",function(){var a=b.dataset.act;
+    if(a==="base"){var d=defaults();S.v=d.v;S.m=d.m;save();render()}
+    else if(a==="leg50"){S.v.legend=5000;save();render()}
+    else if(a==="copy"){var txt="포트메이츠 경제 시뮬 설정: 가치(원) "+ITEMS.map(function(x){return x[1]+" "+fmt(S.v[x[0]],2)}).join(" · ")+" / 배율 "+MULTS.map(function(x){return x[1]+" ×"+S.m[x[0]]}).join(" · ")+" / 하루 "+S.n+"판 · "+S.stage+" · 젬→티켓 "+(S.conv?"예":"아니오")+" · 쿠지 판 다시 맞춤 "+(S.rebal?"예":"아니오");
+      var done=function(){document.getElementById("copied").textContent="복사함"};try{navigator.clipboard.writeText(txt).then(done,function(){prompt("복사해 주세요",txt)})}catch(e){prompt("복사해 주세요",txt)}}})});
+}
+fetch("data/board.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(b){B=b;var at=(((B.data||{}).heroes)||{}).at;document.getElementById("dataAt").textContent=at?"데이터 "+at:"";load();render()}).catch(function(e){document.getElementById("app").innerHTML='<div class="err">board.json 을 못 읽었다: '+esc(e.message)+'</div>'});
+</script>
+</body>
+</html>
