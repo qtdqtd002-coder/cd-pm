@@ -1641,9 +1641,21 @@
 "lane": "cd-286",
 "session": "",
 "owns": "",
-"order": "CD-0273",
-"head": "19fa3ba",
+"order": "CD-0286",
+"head": "5217a1f",
 "commits": [
+{
+"sha": "5217a1f6",
+"at": "2026-11-29 02:46",
+"ts": 1795887978,
+"msg": "CD-0286 화면: 받은 영웅·전설·경험치를 보상 창과 보상 칸에 표시"
+},
+{
+"sha": "2b7346b3",
+"at": "2026-11-29 02:37",
+"ts": 1795887423,
+"msg": "CD-0286 영웅·전설·계정 경험치 보상 줄(Core·Data·검사기) — 1차"
+},
 {
 "sha": "19fa3bae",
 "at": "2026-11-29 02:10",
@@ -1667,61 +1679,21 @@
 "at": "2026-11-29 01:55",
 "ts": 1795884954,
 "msg": "Merge remote-tracking branch 'origin/main' into cd-273"
-},
-{
-"sha": "2ca79875",
-"at": "2026-11-29 01:55",
-"ts": 1795884953,
-"msg": "CD-0273 EditMode: 시험 세이브는 깬 스테이지의 조건 우편을 모두 받은 것으로(Data) · 25웨이브 시험은 «데이터에 없음» · 젬 상점 값은 shop.json 에서 — 379 중 실패 9 → 63/63"
-},
-{
-"sha": "40f59ffa",
-"at": "2026-11-29 01:51",
-"ts": 1795884668,
-"msg": "CD-0273 A 챕터 클리어 보상 = 조건 우편(챕터 1~5 · 티켓+젬) · 25웨이브 첫 돌파 뺌 · 결정 0292"
 }
 ],
-"dirtyCount": 10,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "Core/package/Runtime/Meta/MetaCommands.cs",
-"at": "2026-11-29 02:17"
-},
-{
-"file": "Core/package/Runtime/Meta/Season.cs",
-"at": "2026-11-29 02:15"
-},
-{
-"file": "Core/package/Runtime/Meta/Events.cs",
-"at": "2026-11-29 02:15"
-},
-{
-"file": "Core/package/Runtime/Meta/EventsRules.cs",
-"at": "2026-11-29 02:15"
-},
-{
-"file": "Core/package/Runtime/Meta/SeasonRules.cs",
-"at": "2026-11-29 02:15"
-},
-{
-"file": "Core/package/Runtime/Meta/UnitGrant.cs",
-"at": "2026-11-29 02:14"
-},
-{
-"file": "Core/package/Runtime/Meta/Daily.cs",
-"at": "2026-11-29 02:14"
-},
-{
-"file": "Core/package/Runtime/Meta/Missions.cs",
-"at": "2026-11-29 02:14"
+"file": "Core/package/Runtime/Meta/UnitGrant.cs.meta",
+"at": "2026-11-29 02:47"
 }
 ],
-"lastEdit": "2026-11-29 02:17",
-"lastEditTs": 1795886244.077251,
-"lastCommitTs": 1795885841,
-"unpushed": 0,
-"notInMain": 0,
-"today": 43
+"lastEdit": "2026-11-29 02:47",
+"lastEditTs": 1795888030.751672,
+"lastCommitTs": 1795887978,
+"unpushed": 2,
+"notInMain": 2,
+"today": 45
 },
 {
 "branch": "rel-0126",
@@ -1793,7 +1765,7 @@
 ],
 "recent": {
 "hours": 24,
-"commits": 217,
+"commits": 215,
 "byOrder": [
 [
 "CD-0223",
@@ -1912,8 +1884,8 @@
 3
 ],
 [
-"CD-0228",
-3
+"CD-0286",
+2
 ],
 [
 "CD-0271",
@@ -1990,13 +1962,19 @@
 [
 "CD-0245",
 1
-],
-[
-"CD-0219",
-1
 ]
 ],
 "latest": [
+{
+"sha": "5217a1f6",
+"at": "2026-11-29 02:46",
+"msg": "CD-0286 화면: 받은 영웅·전설·경험치를 보상 창과 보상 칸에 표시"
+},
+{
+"sha": "2b7346b3",
+"at": "2026-11-29 02:37",
+"msg": "CD-0286 영웅·전설·계정 경험치 보상 줄(Core·Data·검사기) — 1차"
+},
 {
 "sha": "3b36807f",
 "at": "2026-11-29 02:16",
@@ -2036,16 +2014,6 @@
 "sha": "2ca79875",
 "at": "2026-11-29 01:55",
 "msg": "CD-0273 EditMode: 시험 세이브는 깬 스테이지의 조건 우편을 모두 받은 것으로(Data) · 25웨이브 시험은 «데이터에 없음» · 젬 상점 값은 shop.json 에서 — 379 중 실패 9 → 63/63"
-},
-{
-"sha": "40f59ffa",
-"at": "2026-11-29 01:51",
-"msg": "CD-0273 A 챕터 클리어 보상 = 조건 우편(챕터 1~5 · 티켓+젬) · 25웨이브 첫 돌파 뺌 · 결정 0292"
-},
-{
-"sha": "efce700f",
-"at": "2026-11-29 01:41",
-"msg": "CD-0285 엘레노어·세이나·두르간 리그를 SD 에서 직접 자름(sd_cut.py) — 부품 시트가 SD 와 달라 «잘못 붙은» 모습(세이나 단검 휨·두르간 팔·어깨·엘레노어 소매) · 두르간 망치·엘레노어 칼자루 손은 걷기에서 고정(clips.py --still-all) · recipes"
 }
 ]
 },
@@ -14941,23 +14909,23 @@
 "id": "CD-0286",
 "title": "영웅·전설 랜덤 보상 칸 + 계정 경험치 보상",
 "branch": "cd-286",
-"updated": "2026-11-29 02:11",
+"updated": "2026-11-29 02:37",
 "files": [
 "00-order.md"
 ],
 "milestone": "M6",
-"stage": "접수",
+"stage": "제작",
 "route": "direct",
 "risk": "mid",
 "teams": "core, client",
 "opened": "2026-11-29",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "new",
+"phase": "doing",
 "builtIn": ""
 }
 ],
@@ -27999,7 +27967,7 @@
 },
 "weekly": {
 "data": {
-"_note": "【CD-0271 경제 확정안(사용자 2026-11-29 «확정하고 게임에 반영» · 정본 = 구글 시트 «경제 밸런스 수정안»)】 주간 7개: 은화 1만 ×2 · 균열석 1 ×2 · 티켓 25 · «영웅 랜덤(가치 2,500)» 칸은 영웅 grant kind 가 없어 임시로 티켓 10 · «계정 경험치» 칸은 임시로 은화 2,000. 전부 완료 = 균열석 3 + 티켓 100 (+전설 랜덤 1 은 grant kind 가 없어 미룸 — CD-0273 쪽). CD-0036(결정 0064 · 10-spec §4-1): 줄마다 feature = 그 줄이 묶인 기능(tutorial.json features 의 id, null = 미션 창이 열려 있으면 늘). 그 기능이 열리기 전(깬 스테이지로 계산)에는 그 줄이 없는 것으로 친다 — 주간 목록은 열린 줄만 보이고, allDoneBonus 는 그 주에 열린 줄을 모두 받으면 준다(사용자 취침 중 권장안 2026-11-20 — 1-10 전에는 «전설 진화» 줄이 없어 모두 받기가 막히지 않게). 같은 날·같은 해금이면 같은 목록(결정성). 결정 0063(CD-0034, 2026-11-19): 연합의 결정 → 균열석(kind rift): 승리 10번 = 3 · 영웅 레벨 업 5번 = 2 · 모두 받으면 쿠지 티켓 15 + 균열석 2. 옛 «강화 10번» 은 «전설 진화 3번»(은화 1,500, w_evolves_3), kind evolves(전설로 진화한 수 — 판마다 더한다)로 바꿨다(CD-0034 인게임, 10-spec §2-7; 임시 합성 300번 줄을 되돌림). 결정 0049 초안(2026-11-17, CD-0015 · 사용자 확인 대기). 주간 미션. 주 번호 = (UTC+9 일 번호 + weekDayOffset) / 7 (내림) — 일 번호 0 이 1970-01-01 목요일이라 offset 3 이면 월요일 0시(UTC+9)에 바뀐다. 매주 아래 목록 전부(무작위 아님). 주가 바뀌면 진행은 0 부터, 받지 않은 보상은 사라진다. 달성하면 «받기» 로 받는다(docs/13 §8). 모두 받으면 allDoneBonus. kind 는 일일 미션과 같은 사건을 센다(hero_level_ups = 영웅 레벨 업 횟수, daily_done = 받은 일일 미션 수). grants 의 kind: silver·crystals·kuji_tickets·gems.",
+"_note": "【CD-0271 경제 확정안(사용자 2026-11-29 «확정하고 게임에 반영» · 정본 = 구글 시트 «경제 밸런스 수정안»)】 주간 7개: 은화 1만 ×2 · 균열석 1 ×2 · 티켓 25 · «영웅 랜덤(가치 2,500)» 칸 = CD-0286 hero 줄(1단계 5장 40% · 2단계 2장 17.5% · 2단계 3장 17.5% · 3단계 1장 25%, 종족은 무작위 — 기대 가치 2,500원 근처) · «계정 경험치» 칸은 양이 아직 안 정해져 임시로 은화 2,000. 전부 완료 = 균열석 3 + 티켓 100 + 전설 랜덤 1(CD-0286 legend 줄). CD-0036(결정 0064 · 10-spec §4-1): 줄마다 feature = 그 줄이 묶인 기능(tutorial.json features 의 id, null = 미션 창이 열려 있으면 늘). 그 기능이 열리기 전(깬 스테이지로 계산)에는 그 줄이 없는 것으로 친다 — 주간 목록은 열린 줄만 보이고, allDoneBonus 는 그 주에 열린 줄을 모두 받으면 준다(사용자 취침 중 권장안 2026-11-20 — 1-10 전에는 «전설 진화» 줄이 없어 모두 받기가 막히지 않게). 같은 날·같은 해금이면 같은 목록(결정성). 결정 0063(CD-0034, 2026-11-19): 연합의 결정 → 균열석(kind rift): 승리 10번 = 3 · 영웅 레벨 업 5번 = 2 · 모두 받으면 쿠지 티켓 15 + 균열석 2. 옛 «강화 10번» 은 «전설 진화 3번»(은화 1,500, w_evolves_3), kind evolves(전설로 진화한 수 — 판마다 더한다)로 바꿨다(CD-0034 인게임, 10-spec §2-7; 임시 합성 300번 줄을 되돌림). 결정 0049 초안(2026-11-17, CD-0015 · 사용자 확인 대기). 주간 미션. 주 번호 = (UTC+9 일 번호 + weekDayOffset) / 7 (내림) — 일 번호 0 이 1970-01-01 목요일이라 offset 3 이면 월요일 0시(UTC+9)에 바뀐다. 매주 아래 목록 전부(무작위 아님). 주가 바뀌면 진행은 0 부터, 받지 않은 보상은 사라진다. 달성하면 «받기» 로 받는다(docs/13 §8). 모두 받으면 allDoneBonus. kind 는 일일 미션과 같은 사건을 센다(hero_level_ups = 영웅 레벨 업 횟수, daily_done = 받은 일일 미션 수). grants 의 kind: silver·crystals·kuji_tickets·gems.",
 "weekDayOffset": 3,
 "allDoneBonus": [
 {
@@ -28009,6 +27977,10 @@
 {
 "kind": "kuji_tickets",
 "amount": 100
+},
+{
+"kind": "legend",
+"amount": 1
 }
 ],
 "missions": [
@@ -28059,8 +28031,29 @@
 "feature": "kuji",
 "grants": [
 {
-"kind": "kuji_tickets",
-"amount": 10
+"kind": "hero",
+"options": [
+{
+"weight": 80,
+"tier": 1,
+"amount": 5
+},
+{
+"weight": 35,
+"tier": 2,
+"amount": 2
+},
+{
+"weight": 35,
+"tier": 2,
+"amount": 3
+},
+{
+"weight": 50,
+"tier": 3,
+"amount": 1
+}
+]
 }
 ]
 },
@@ -28105,8 +28098,8 @@
 }
 ]
 },
-"at": "2026-11-29 00:58",
-"branch": "main",
+"at": "2026-11-29 02:26",
+"branch": "cd-286",
 "dirty": false
 },
 "achievements": {
@@ -30008,7 +30001,7 @@
 },
 "season": {
 "data": {
-"_note": "【CD-0271 경제 확정안(사용자 2026-11-29 «확정하고 게임에 반영» · 정본 = 구글 시트 «경제 밸런스 수정안»)】 시즌 28일 합: 무료 = 티켓 120(열쇠 칸) · 젬 300 · 은화 4만 · 균열석 2 + 꾸밈 1 / 유료 = 티켓 300 · 젬 1,500 · 은화 8만 · 균열석 5 + 꾸밈 2 (+4단계 1 · 전설 1 은 grant kind 가 없어 미룸 — CD-0273 쪽). 유료 효율이 큰 것은 사용자 결정(유료 목표 유지). CD-0220 임시값 — CD-0218 가치표 뒤 맞춤. startDay 는 시험용 2026-11-28(UTC+9 일 번호 20785), 출시 때 관제가 바꾼다. 이 파일의 모든 수치(레벨 경험치·젬 값·보상·미션 경험치)는 임시이고 값은 여기에만 둔다(코드에 두지 않는다). 결정 0161. levelExp = 레벨 하나의 경험치(레벨 = min(maxLevel, 1 + exp / levelExp)), levelGemCost = 레벨 구매 한 레벨당 젬스톤, graceDays = 시즌이 끝난 뒤 받기만 되는 날, product = shop.json 상품 id(같은 id 를 시즌마다 다시 산다). seasons[] = 시즌(id·name·startDay = UTC+9 일 번호(GameDay, 1970-01-01 = 0)·days·art = 시즌 스킨(CD-0220b 결정 0162 — 시즌마다 바꾸는 것은 이 칸뿐: key 키 그림 1600x900 · entrance 로비 버튼 면 · buyPanel 유료 팝업·레벨 구매 창 판(9-slice) · levelBadge 레벨 배지 · exp 경험치 아이콘 · paidBadge 유료 방패 · lock 자물쇠 = assets.json 이름표, accent = 시즌 강조색 #RRGGBB(경험치 막대·핵심 칸 테·현재 레벨 고리). 보상 칸 판·미션 줄·띠는 시즌과 무관한 공용 부품)·rewards 50줄·missions). rewards[] = {level, free, paid, key}: free·paid 는 ItemGrant 목록(kind silver·rift·kuji_tickets·gems 또는 {kind:cosmetic,id} — cosmetics.json 의 grant 꾸밈), key = 핵심 보상 칸(5·10·…·30, 화면에서 크게·빛나게). 행동력은 없다. missions: daily(날마다 같음)·weekly(주 번호 기준)·season(시즌에 한 번) 줄 = {id, kind, goal, stage(stage_clear 만), text, exp}. exp = 받을 때 오르는 경험치. kind 는 이벤트 미션과 같은 사건(matches·wins·waves·merges·bounties·kuji_draws·hero_level_ups·evolves·silver_shop_buys·miners_hired·stage_clear) + 새 둘 logins(그날 첫 접속 · goal 1)·daily_all(일일 패스 미션을 모두 끝낸 날 수 · 주간 줄). 판 수는 matchMinWave 이상 웨이브까지 간 판만 센다. 곡선(validate_data.py 가 검산): 하드 = 일일 전부·주간 전부·시즌 미션을 14일에 고르게 → 14일 안 레벨 30 이상 · 21일 레벨 50, 보통 = 일일 700·주간 2,500·시즌 5,000/28일 → 28일 레벨 25 이상. 가치(shop.value 의 기준 + 쿠지 티켓 1 = 100원 · 젬 1 ≈ 17원 · 은화 1,000 = 250원 · 균열석 1 = 500원): 무료 줄 ≈ 8,000원어치, 유료 줄 ≈ 30,000원어치 이상(젬스톤 합 ≈ 400).",
+"_note": "【CD-0271 경제 확정안(사용자 2026-11-29 «확정하고 게임에 반영» · 정본 = 구글 시트 «경제 밸런스 수정안»)】 시즌 28일 합: 무료 = 티켓 120(열쇠 칸) · 젬 300 · 은화 4만 · 균열석 2 + 꾸밈 1 / 유료 = 티켓 300 · 젬 1,500 · 은화 8만 · 균열석 5 + 꾸밈 2 (+ 유료 15 칸 4단계 1 · 유료 30 칸 전설 1 = CD-0286 hero·legend 줄). 유료 효율이 큰 것은 사용자 결정(유료 목표 유지). CD-0220 임시값 — CD-0218 가치표 뒤 맞춤. startDay 는 시험용 2026-11-28(UTC+9 일 번호 20785), 출시 때 관제가 바꾼다. 이 파일의 모든 수치(레벨 경험치·젬 값·보상·미션 경험치)는 임시이고 값은 여기에만 둔다(코드에 두지 않는다). 결정 0161. levelExp = 레벨 하나의 경험치(레벨 = min(maxLevel, 1 + exp / levelExp)), levelGemCost = 레벨 구매 한 레벨당 젬스톤, graceDays = 시즌이 끝난 뒤 받기만 되는 날, product = shop.json 상품 id(같은 id 를 시즌마다 다시 산다). seasons[] = 시즌(id·name·startDay = UTC+9 일 번호(GameDay, 1970-01-01 = 0)·days·art = 시즌 스킨(CD-0220b 결정 0162 — 시즌마다 바꾸는 것은 이 칸뿐: key 키 그림 1600x900 · entrance 로비 버튼 면 · buyPanel 유료 팝업·레벨 구매 창 판(9-slice) · levelBadge 레벨 배지 · exp 경험치 아이콘 · paidBadge 유료 방패 · lock 자물쇠 = assets.json 이름표, accent = 시즌 강조색 #RRGGBB(경험치 막대·핵심 칸 테·현재 레벨 고리). 보상 칸 판·미션 줄·띠는 시즌과 무관한 공용 부품)·rewards 50줄·missions). rewards[] = {level, free, paid, key}: free·paid 는 ItemGrant 목록(kind silver·rift·kuji_tickets·gems 또는 {kind:cosmetic,id} — cosmetics.json 의 grant 꾸밈), key = 핵심 보상 칸(5·10·…·30, 화면에서 크게·빛나게). 행동력은 없다. missions: daily(날마다 같음)·weekly(주 번호 기준)·season(시즌에 한 번) 줄 = {id, kind, goal, stage(stage_clear 만), text, exp}. exp = 받을 때 오르는 경험치. kind 는 이벤트 미션과 같은 사건(matches·wins·waves·merges·bounties·kuji_draws·hero_level_ups·evolves·silver_shop_buys·miners_hired·stage_clear) + 새 둘 logins(그날 첫 접속 · goal 1)·daily_all(일일 패스 미션을 모두 끝낸 날 수 · 주간 줄). 판 수는 matchMinWave 이상 웨이브까지 간 판만 센다. 곡선(validate_data.py 가 검산): 하드 = 일일 전부·주간 전부·시즌 미션을 14일에 고르게 → 14일 안 레벨 30 이상 · 21일 레벨 50, 보통 = 일일 700·주간 2,500·시즌 5,000/28일 → 28일 레벨 25 이상. 가치(shop.value 의 기준 + 쿠지 티켓 1 = 100원 · 젬 1 ≈ 17원 · 은화 1,000 = 250원 · 균열석 1 = 500원): 무료 줄 ≈ 8,000원어치, 유료 줄 ≈ 30,000원어치 이상(젬스톤 합 ≈ 400).",
 "levelExp": 1000,
 "maxLevel": 50,
 "levelGemCost": 20,
@@ -30340,6 +30333,16 @@
 {
 "kind": "gems",
 "amount": 170
+},
+{
+"kind": "hero",
+"options": [
+{
+"weight": 1,
+"tier": 4,
+"amount": 1
+}
+]
 }
 ],
 "key": true
@@ -30659,6 +30662,10 @@
 },
 {
 "kind": "rift",
+"amount": 1
+},
+{
+"kind": "legend",
 "amount": 1
 }
 ],
@@ -31231,8 +31238,8 @@
 }
 ]
 },
-"at": "2026-11-29 00:58",
-"branch": "main",
+"at": "2026-11-29 02:26",
+"branch": "cd-286",
 "dirty": false
 }
 },
@@ -42345,7 +42352,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-29 02:17",
-"generatedAt": "2026-11-29 02:17",
-"digest": "27311d606c5f0976"
+"sourceAt": "2026-11-29 02:47",
+"generatedAt": "2026-11-29 02:47",
+"digest": "b7fbc69681d1e9c6"
 }
