@@ -27979,6 +27979,1243 @@
 "at": "2026-11-27 22:45",
 "branch": "main",
 "dirty": false
+},
+"season": {
+"data": {
+"_note": "CD-0220 임시값 — CD-0218 가치표 뒤 맞춤. startDay 는 시험용 2026-11-28(UTC+9 일 번호 20785), 출시 때 관제가 바꾼다. 이 파일의 모든 수치(레벨 경험치·젬 값·보상·미션 경험치)는 임시이고 값은 여기에만 둔다(코드에 두지 않는다). 결정 0161. levelExp = 레벨 하나의 경험치(레벨 = min(maxLevel, 1 + exp / levelExp)), levelGemCost = 레벨 구매 한 레벨당 젬스톤, graceDays = 시즌이 끝난 뒤 받기만 되는 날, product = shop.json 상품 id(같은 id 를 시즌마다 다시 산다). seasons[] = 시즌(id·name·startDay = UTC+9 일 번호(GameDay, 1970-01-01 = 0)·days·art = 그림 이름표(assets.json, none 상태 — 아트가 채움)·rewards 50줄·missions). rewards[] = {level, free, paid, key}: free·paid 는 ItemGrant 목록(kind silver·rift·kuji_tickets·gems 또는 {kind:cosmetic,id} — cosmetics.json 의 grant 꾸밈), key = 핵심 보상 칸(5·10·…·30, 화면에서 크게·빛나게). 행동력은 없다. missions: daily(날마다 같음)·weekly(주 번호 기준)·season(시즌에 한 번) 줄 = {id, kind, goal, stage(stage_clear 만), text, exp}. exp = 받을 때 오르는 경험치. kind 는 이벤트 미션과 같은 사건(matches·wins·waves·merges·bounties·kuji_draws·hero_level_ups·evolves·silver_shop_buys·miners_hired·stage_clear) + 새 둘 logins(그날 첫 접속 · goal 1)·daily_all(일일 패스 미션을 모두 끝낸 날 수 · 주간 줄). 판 수는 matchMinWave 이상 웨이브까지 간 판만 센다. 곡선(validate_data.py 가 검산): 하드 = 일일 전부·주간 전부·시즌 미션을 14일에 고르게 → 14일 안 레벨 30 이상 · 21일 레벨 50, 보통 = 일일 700·주간 2,500·시즌 5,000/28일 → 28일 레벨 25 이상. 가치(shop.value 의 기준 + 쿠지 티켓 1 = 100원 · 젬 1 ≈ 17원 · 은화 1,000 = 250원 · 균열석 1 = 500원): 무료 줄 ≈ 8,000원어치, 유료 줄 ≈ 30,000원어치 이상(젬스톤 합 ≈ 400).",
+"levelExp": 1000,
+"maxLevel": 50,
+"levelGemCost": 20,
+"graceDays": 3,
+"matchMinWave": 3,
+"product": "season_pass",
+"seasons": [
+{
+"id": "s1",
+"name": "첫 성벽의 봄",
+"startDay": 20785,
+"days": 28,
+"art": {
+"key": "key/season_s1",
+"entrance": "ui/season_key",
+"buyPanel": "ui/season_buy_panel",
+"cell": "ui/season_cell",
+"cellKey": "ui/season_cell_key",
+"lock": "ui/season_lock",
+"levelBadge": "ui/season_level_badge",
+"exp": "ui/season_exp"
+},
+"rewards": [
+{
+"level": 1,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "cosmetic",
+"id": "frame_season_s1"
+},
+{
+"kind": "kuji_tickets",
+"amount": 3
+}
+],
+"key": false
+},
+{
+"level": 2,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 3,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 4,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 5,
+"free": [
+{
+"kind": "kuji_tickets",
+"amount": 3
+}
+],
+"paid": [
+{
+"kind": "gems",
+"amount": 40
+},
+{
+"kind": "kuji_tickets",
+"amount": 5
+}
+],
+"key": true
+},
+{
+"level": 6,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 7,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 8,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 9,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 10,
+"free": [
+{
+"kind": "rift",
+"amount": 1
+}
+],
+"paid": [
+{
+"kind": "rift",
+"amount": 2
+},
+{
+"kind": "kuji_tickets",
+"amount": 5
+}
+],
+"key": true
+},
+{
+"level": 11,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 12,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 13,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 14,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 15,
+"free": [
+{
+"kind": "cosmetic",
+"id": "title_season_s1"
+},
+{
+"kind": "kuji_tickets",
+"amount": 3
+}
+],
+"paid": [
+{
+"kind": "gems",
+"amount": 50
+},
+{
+"kind": "rift",
+"amount": 2
+},
+{
+"kind": "kuji_tickets",
+"amount": 5
+}
+],
+"key": true
+},
+{
+"level": 16,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 17,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 18,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 19,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 20,
+"free": [
+{
+"kind": "rift",
+"amount": 1
+},
+{
+"kind": "kuji_tickets",
+"amount": 2
+}
+],
+"paid": [
+{
+"kind": "gems",
+"amount": 50
+},
+{
+"kind": "rift",
+"amount": 3
+},
+{
+"kind": "kuji_tickets",
+"amount": 5
+}
+],
+"key": true
+},
+{
+"level": 21,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 22,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 23,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 24,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 25,
+"free": [
+{
+"kind": "kuji_tickets",
+"amount": 5
+}
+],
+"paid": [
+{
+"kind": "gems",
+"amount": 60
+},
+{
+"kind": "rift",
+"amount": 3
+},
+{
+"kind": "kuji_tickets",
+"amount": 8
+}
+],
+"key": true
+},
+{
+"level": 26,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 27,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 28,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 29,
+"free": [
+{
+"kind": "silver",
+"amount": 400
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 1000
+}
+],
+"key": false
+},
+{
+"level": 30,
+"free": [
+{
+"kind": "rift",
+"amount": 2
+}
+],
+"paid": [
+{
+"kind": "cosmetic",
+"id": "face_season_s1"
+},
+{
+"kind": "gems",
+"amount": 100
+},
+{
+"kind": "rift",
+"amount": 4
+},
+{
+"kind": "kuji_tickets",
+"amount": 10
+}
+],
+"key": true
+},
+{
+"level": 31,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 32,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 33,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 34,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 35,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+},
+{
+"kind": "kuji_tickets",
+"amount": 2
+}
+],
+"paid": [
+{
+"kind": "gems",
+"amount": 20
+},
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 36,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 37,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 38,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 39,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 40,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+},
+{
+"kind": "kuji_tickets",
+"amount": 2
+}
+],
+"paid": [
+{
+"kind": "gems",
+"amount": 20
+},
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 41,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 42,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 43,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 44,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 45,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+},
+{
+"kind": "kuji_tickets",
+"amount": 2
+}
+],
+"paid": [
+{
+"kind": "gems",
+"amount": 20
+},
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 46,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 47,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 48,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 49,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+}
+],
+"paid": [
+{
+"kind": "kuji_tickets",
+"amount": 1
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+},
+{
+"level": 50,
+"free": [
+{
+"kind": "silver",
+"amount": 300
+},
+{
+"kind": "kuji_tickets",
+"amount": 2
+}
+],
+"paid": [
+{
+"kind": "gems",
+"amount": 40
+},
+{
+"kind": "kuji_tickets",
+"amount": 2
+},
+{
+"kind": "silver",
+"amount": 500
+}
+],
+"key": false
+}
+],
+"missions": {
+"daily": [
+{
+"id": "d_login",
+"kind": "logins",
+"goal": 1,
+"text": "오늘 접속하기",
+"exp": 100
+},
+{
+"id": "d_m3",
+"kind": "matches",
+"goal": 3,
+"text": "판 3번 하기",
+"exp": 250
+},
+{
+"id": "d_m10",
+"kind": "matches",
+"goal": 10,
+"text": "판 10번 하기",
+"exp": 450
+},
+{
+"id": "d_w3",
+"kind": "wins",
+"goal": 3,
+"text": "승리 3번 하기",
+"exp": 400
+}
+],
+"weekly": [
+{
+"id": "w_m40",
+"kind": "matches",
+"goal": 40,
+"text": "판 40번 하기",
+"exp": 1200
+},
+{
+"id": "w_w25",
+"kind": "wins",
+"goal": 25,
+"text": "승리 25번 하기",
+"exp": 1000
+},
+{
+"id": "w_hl10",
+"kind": "hero_level_ups",
+"goal": 10,
+"text": "영웅 레벨 업 10번",
+"exp": 700
+},
+{
+"id": "w_k20",
+"kind": "kuji_draws",
+"goal": 20,
+"text": "뽑기 20번 하기",
+"exp": 700
+},
+{
+"id": "w_b15",
+"kind": "bounties",
+"goal": 15,
+"text": "현상금 15번 잡기",
+"exp": 600
+},
+{
+"id": "w_da5",
+"kind": "daily_all",
+"goal": 5,
+"text": "일일 미션 모두 5일 끝내기",
+"exp": 800
+}
+],
+"season": [
+{
+"id": "s_m100",
+"kind": "matches",
+"goal": 100,
+"text": "판 100번 하기",
+"exp": 800
+},
+{
+"id": "s_m200",
+"kind": "matches",
+"goal": 200,
+"text": "판 200번 하기",
+"exp": 1200
+},
+{
+"id": "s_w80",
+"kind": "wins",
+"goal": 80,
+"text": "승리 80번 하기",
+"exp": 1200
+},
+{
+"id": "s_ev20",
+"kind": "evolves",
+"goal": 20,
+"text": "초월 20번 하기",
+"exp": 1000
+},
+{
+"id": "s_mg1000",
+"kind": "merges",
+"goal": 1000,
+"text": "합성 1,000번 하기",
+"exp": 1000
+},
+{
+"id": "s_wv2000",
+"kind": "waves",
+"goal": 2000,
+"text": "웨이브 2,000 막기",
+"exp": 1200
+},
+{
+"id": "s_k100",
+"kind": "kuji_draws",
+"goal": 100,
+"text": "뽑기 100번 하기",
+"exp": 1100
+},
+{
+"id": "s_c3",
+"kind": "stage_clear",
+"goal": 1,
+"stage": "gate_05_01",
+"text": "챕터 3 클리어",
+"exp": 1000
+},
+{
+"id": "s_c4",
+"kind": "stage_clear",
+"goal": 1,
+"stage": "gate_06_01",
+"text": "챕터 4 클리어",
+"exp": 1500
+}
+]
+}
+}
+]
+},
+"at": "2026-11-28 01:12",
+"branch": "main",
+"dirty": false
 }
 },
 "dataBefore": {
@@ -38047,6 +39284,6 @@
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
 "sourceAt": "2026-11-28 09:29",
-"generatedAt": "2026-11-28 09:29",
-"digest": "7727d1d8e97e189e"
+"generatedAt": "2026-11-28 09:48",
+"digest": "e8442b127848b16c"
 }
