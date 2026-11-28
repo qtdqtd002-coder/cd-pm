@@ -1354,8 +1354,16 @@
 "msg": "Merge remote-tracking branch 'origin/main' into cd-219c"
 }
 ],
-"dirtyCount": 102,
+"dirtyCount": 104,
 "dirty": [
+{
+"file": "art-lab/legend-r8/eval_human_waldemar_key_char11.png",
+"at": "2026-11-28 09:17"
+},
+{
+"file": "art-lab/legend-r8/human_waldemar/char11/key_char11_human_waldemar.png",
+"at": "2026-11-28 09:16"
+},
 {
 "file": "art-lab/legend-r8/r10_compare.png",
 "at": "2026-11-28 01:04"
@@ -1379,18 +1387,10 @@
 {
 "file": "art-lab/legend-r8/human_waldemar/fxlayers10/key_fxback_human_waldemar.png",
 "at": "2026-11-28 01:00"
-},
-{
-"file": "art-lab/legend-r8/key_fxback9_v2.png",
-"at": "2026-11-28 00:57"
-},
-{
-"file": "art-lab/legend-r8/eval_human_waldemar_key_char10.png",
-"at": "2026-11-28 00:57"
 }
 ],
-"lastEdit": "2026-11-28 01:04",
-"lastEditTs": 1795795486.0314407,
+"lastEdit": "2026-11-28 09:17",
+"lastEditTs": 1795825027.4984744,
 "lastCommitTs": 1795806670,
 "unpushed": 0,
 "notInMain": 0,
@@ -1401,9 +1401,21 @@
 "lane": "cd-223",
 "session": "",
 "owns": "",
-"order": "CD-0218",
-"head": "8a5b7a5",
+"order": "CD-0223",
+"head": "1784585",
 "commits": [
+{
+"sha": "1784585f",
+"at": "2026-11-28 09:02",
+"ts": 1795824173,
+"msg": "CD-0223 협동 대기 로비 시안 A/B: gen.py party223_a·party223_b 키 · 비교표 review/01-concept-ab.png"
+},
+{
+"sha": "df97935d",
+"at": "2026-11-28 08:55",
+"ts": 1795823730,
+"msg": "CD-0223 접수 기록: 사용자 답 둘(친구 초대 따로·테스터 빌드에도 열기) · stage 제작"
+},
 {
 "sha": "8a5b7a50",
 "at": "2026-11-28 02:26",
@@ -1427,37 +1439,25 @@
 "at": "2026-11-28 02:17",
 "ts": 1795799822,
 "msg": "CD-0228 Unity 차례 3: 시나리오 ② 성공 — 방장 죽임(틱 756) → 손님이 epoch 1 로 이어받아(이어받은 틱 756) 끝까지 · 옛 방장 다시 켜 -e1 손님 참가 · 두 쪽 해시 9C280C3AFDF4940A 같음"
-},
-{
-"sha": "cee856de",
-"at": "2026-11-28 02:16",
-"ts": 1795799788,
-"msg": "CD-0218 병합 검사 고침: 맵·챕터 도구 시험이 victoryTickets 를 알게 · 챕터 생성 도구가 새 챕터 승리 티켓을 씀 · 결정 0149~0155"
-},
-{
-"sha": "701bb5ca",
-"at": "2026-11-28 01:59",
-"ts": 1795798785,
-"msg": "CD-0218 Unity: 데이터 사본 맞춤 · A상 전설 영웅 등장 연출 · 옛 값 Unity 시험 갱신 — EditMode 1406/1411(실패 3 = CD-0219 기존)"
 }
 ],
 "dirtyCount": 2,
 "dirty": [
 {
-"file": "studio/orders/CD-0223-멀티-개발-E-파티-대기-로비-협동-탭-방-만들기-난이/00-order.md",
-"at": "2026-11-28 02:27"
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-28 09:00"
 },
 {
 "file": "studio/orders/CD-0223-멀티-개발-E-파티-대기-로비-협동-탭-방-만들기-난이/10-spec.md",
 "at": "2026-11-28 02:27"
 }
 ],
-"lastEdit": "2026-11-28 02:27",
-"lastEditTs": 1795800436.058318,
-"lastCommitTs": 1795800375,
-"unpushed": 0,
-"notInMain": 0,
-"today": 66
+"lastEdit": "2026-11-28 09:00",
+"lastEditTs": 1795824019.4262998,
+"lastCommitTs": 1795824173,
+"unpushed": 2,
+"notInMain": 2,
+"today": 68
 },
 {
 "branch": "cd-233",
@@ -1507,6 +1507,18 @@
 "dirtyCount": 21,
 "dirty": [
 {
+"file": "studio/codex-usage.jsonl",
+"at": "2026-11-28 09:17"
+},
+{
+"file": "art/tools/legend_assets.py",
+"at": "2026-11-28 09:15"
+},
+{
+"file": "art/tools/legend_design.py",
+"at": "2026-11-28 09:15"
+},
+{
 "file": "studio/orders/CD-0233-엘레노어-칭호-후리가나-전설-일러스트-폴리싱-전설-제작/00-order.md",
 "at": "2026-11-28 02:07"
 },
@@ -1525,22 +1537,10 @@
 {
 "file": "Core/package/Runtime/Config/LegendsConfig.cs",
 "at": "2026-11-28 01:30"
-},
-{
-"file": "Core/tests/Cd0233LegendTitleTests.cs",
-"at": "2026-11-28 01:28"
-},
-{
-"file": "UnityProject/Assets/Tests/PlayMode/Cd34HeroScreenTests.cs",
-"at": "2026-11-28 01:28"
-},
-{
-"file": "UnityProject/Assets/_Game/UI/Match/LegendReveal.cs",
-"at": "2026-11-28 01:27"
 }
 ],
-"lastEdit": "2026-11-28 02:07",
-"lastEditTs": 1795799233.4263592,
+"lastEdit": "2026-11-28 09:17",
+"lastEditTs": 1795825021.1318386,
 "lastCommitTs": 1795796642,
 "unpushed": 0,
 "notInMain": 0,
@@ -1591,102 +1591,52 @@
 "msg": "Merge remote-tracking branch 'origin/main' into cd-220"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
+"dirtyCount": 23,
+"dirty": [
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_behemoth.json",
+"at": "2026-11-28 09:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_behemoth.png",
+"at": "2026-11-28 09:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_flier.json",
+"at": "2026-11-28 09:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_flier.png",
+"at": "2026-11-28 09:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_runner.json",
+"at": "2026-11-28 09:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_runner.png",
+"at": "2026-11-28 09:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_grunt.json",
+"at": "2026-11-28 09:17"
+},
+{
+"file": "UnityProject/Assets/_Game/Resources/Rigs/shadow_grunt.png",
+"at": "2026-11-28 09:17"
+}
+],
+"lastEdit": "2026-11-28 09:17",
+"lastEditTs": 1795825027.0402503,
 "lastCommitTs": 1795798404,
 "unpushed": 1,
 "notInMain": 1,
 "today": 36
-},
-{
-"branch": "rel-0125",
-"lane": "rel-0125",
-"session": "",
-"owns": "",
-"order": "CD-0197",
-"head": "c100f44",
-"commits": [
-{
-"sha": "c100f44c",
-"at": "2026-11-27 21:47",
-"ts": 1795783644,
-"msg": "릴리스 0.12.5: 공지 app_0_12_5(새 전설 6명·판 안·판 밖·알아 두세요)"
-},
-{
-"sha": "742ab471",
-"at": "2026-11-27 21:47",
-"ts": 1795783632,
-"msg": "릴리스 0.12.5: Addressables content state(base_id fded976f)"
-},
-{
-"sha": "30797068",
-"at": "2026-11-27 21:39",
-"ts": 1795783197,
-"msg": "릴리스 0.12.5: 버전 0.12.5 · versionCode 21"
-},
-{
-"sha": "2056c54e",
-"at": "2026-11-27 21:39",
-"ts": 1795783164,
-"msg": "병합: cd-198b 9564018f(CD-0198b 앱 아이콘 A+B 섞기 «섞기 2 꼭대기» — 두 친구가 성문 탑 꼭대기 성벽에 기댐, 사용자 선택 · AppIcon 다시 교체(파일 이름·GUID 그대로) · Codex 2장 · 그림만, 서버 영향 없음)"
-},
-{
-"sha": "9564018f",
-"at": "2026-11-27 21:35",
-"ts": 1795782937,
-"msg": "CD-0198b 앱 아이콘 2차: A+B 섞기 «탑 꼭대기에 둘»(사용자 선택) — 두 친구가 성문 탑 꼭대기 성벽에, 아이콘 4장 다시 교체"
-},
-{
-"sha": "e53e4037",
-"at": "2026-11-27 21:25",
-"ts": 1795782337,
-"msg": "병합: cd-198 1f18f2cc(CD-0198 앱 아이콘 새 디자인 B «성문 탑» — 리엘이 탑 창문에서 손 흔듦·금발 다듬기 · AppIcon 4장 교체(파일 이름·GUID 그대로) · Codex 4장 · 서버 영향 없음)"
-}
-],
-"dirtyCount": 7,
-"dirty": [
-{
-"file": "UnityProject/Assets/ProjectSettings/UIEffectProjectSettings.asset",
-"at": "2026-11-27 22:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Fonts/NotoSansKR-Black SDF.asset",
-"at": "2026-11-27 22:20"
-},
-{
-"file": "UnityProject/ProjectSettings/ProjectSettings.asset",
-"at": "2026-11-27 22:20"
-},
-{
-"file": "UnityProject/Assets/_Game/Art/Temp/ui/nameplate_default.png.meta",
-"at": "2026-11-27 21:52"
-},
-{
-"file": "UnityProject/Assets/Resources.meta",
-"at": "2026-11-26 22:01"
-},
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
-"at": "2026-11-22 10:27"
-},
-{
-"file": "UnityProject/ProjectSettings/Packages/com.unity.services.core/Settings.json",
-"at": "2026-11-22 10:26"
-}
-],
-"lastEdit": "2026-11-27 22:20",
-"lastEditTs": 1795785657.9872289,
-"lastCommitTs": 1795783644,
-"unpushed": 0,
-"notInMain": 0,
-"today": 0
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 118,
+"commits": 117,
 "byOrder": [
 [
 "CD-0218",
@@ -1697,15 +1647,15 @@
 19
 ],
 [
-"CD-0197",
-13
-],
-[
 "CD-0220",
 11
 ],
 [
 "CD-0222",
+11
+],
+[
+"CD-0197",
 11
 ],
 [
@@ -1719,6 +1669,10 @@
 [
 "CD-0208",
 5
+],
+[
+"CD-0223",
+2
 ],
 [
 "CD-0229",
@@ -1759,13 +1713,19 @@
 [
 "CD-0201",
 1
-],
-[
-"CD-0193",
-1
 ]
 ],
 "latest": [
+{
+"sha": "1784585f",
+"at": "2026-11-28 09:02",
+"msg": "CD-0223 협동 대기 로비 시안 A/B: gen.py party223_a·party223_b 키 · 비교표 review/01-concept-ab.png"
+},
+{
+"sha": "df97935d",
+"at": "2026-11-28 08:55",
+"msg": "CD-0223 접수 기록: 사용자 답 둘(친구 초대 따로·테스터 빌드에도 열기) · stage 제작"
+},
 {
 "sha": "8b645d94",
 "at": "2026-11-28 04:06",
@@ -1805,16 +1765,6 @@
 "sha": "701bb5ca",
 "at": "2026-11-28 01:59",
 "msg": "CD-0218 Unity: 데이터 사본 맞춤 · A상 전설 영웅 등장 연출 · 옛 값 Unity 시험 갱신 — EditMode 1406/1411(실패 3 = CD-0219 기존)"
-},
-{
-"sha": "1ce2dc9f",
-"at": "2026-11-28 01:54",
-"msg": "CD-0228 바로잡기: 빌드 부작용 되돌리기 때 빠진 1차 고침 다시 넣음(전송 끊김 8초 · 참가 1번+2.5초 간격 · -cdCoopAutoSpeed)"
-},
-{
-"sha": "03b2ed7c",
-"at": "2026-11-28 01:53",
-"msg": "CD-0234 몬스터 리그 1단계: 리그 셰이더 효과(그림 따라하기·겉면 값·연기 길이)·build --fx·부위 시트 5장(원본은 art/raw)·대표 4종 리그·걷기/숨쉬기 초안·비교 영상 4개"
 }
 ]
 },
@@ -13040,24 +12990,25 @@
 "id": "CD-0223",
 "title": "멀티 개발 E 파티 대기 로비 — 협동 탭·방 만들기(난이도)·6자리 코드·코드 참가·친구 초대·준비·자리 2개·해금 안내",
 "branch": "cd-223",
-"updated": "2026-11-28 02:27",
+"updated": "2026-11-28 09:01",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"review"
 ],
 "milestone": "M4",
-"stage": "접수",
+"stage": "제작",
 "route": "full",
 "risk": "mid",
 "teams": "client, art",
 "opened": "2026-11-28",
 "closed": "",
-"stageRaw": "접수",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "new",
+"phase": "doing",
 "builtIn": ""
 },
 {
@@ -32754,18 +32705,7 @@
 "ok": true
 }
 },
-"builds": [
-{
-"kind": "android",
-"name": "coopdefense-dev-arm64.apk",
-"at": "2026-11-27 21:46",
-"sizeMB": 131.3,
-"branch": "rel-0125",
-"local": "Builds\\Android\\coopdefense-dev-arm64.apk",
-"release": "https://github.com/qtdqtd002-coder/coop-defense/releases/tag/build-android-20261127-2146",
-"tag": "build-android-20261127-2146"
-}
-],
+"builds": [],
 "buildHistory": [
 {
 "tag": "build-android-20261127-2146",
@@ -32929,7 +32869,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-28 04:11",
-"generatedAt": "2026-11-28 08:47",
-"digest": "7db0df1ae4b814ac"
+"sourceAt": "2026-11-28 09:17",
+"generatedAt": "2026-11-28 09:17",
+"digest": "22a63b5ce942a897"
 }
