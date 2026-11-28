@@ -294,7 +294,7 @@ span.who{font-size:11px;font-weight:700;color:var(--a);background:var(--as);bord
 (function(){
 "use strict";
 var B=null,V={};
-var TABS=[["overview","현황 보고"],["kanban","칸반"],["milestones","마일스톤"],["orders","주문"],["decisions","결정"],["resources","리소스"],["system","시스템"],["balance","밸런스"],["economy","재화"],["content","콘텐츠"],["builds","빌드"],["log","기록"],["service","서비스 구조"],["process","작업 프로세스"]];
+var TABS=[["overview","현황 보고"],["kanban","칸반"],["milestones","마일스톤"],["orders","주문"],["decisions","결정"],["resources","리소스"],["system","시스템"],["balance","밸런스"],["economy","재화"],["chapters","챕터"],["content","콘텐츠"],["builds","빌드"],["log","기록"],["service","서비스 구조"],["process","작업 프로세스"]];
 var ST={todo:"할 일",doing:"진행 중",wait:"사용자 대기",done:"완료",active:"진행 중"};
 var TEAM={"대표":"대표","사용자":"사용자",planning:"기획",core:"Core",client:"클라이언트",art:"아트",qa:"QA",member:"팀원"};
 var RACE={human:"인간",elf:"엘프",dwarf:"드워프",beast:"수인",spirit:"정령",dragon:"용족"};
@@ -719,6 +719,42 @@ function vEconomy(){
   return h1+body;
 }
 
+/* ===== 챕터 (CD-0238 · 사용자 2026-11-28 «재화 오른쪽에 챕터 … 챕터별로 웨이브 등장 몬스터와 챕터 기준 난이도») ===== */
+/* 챕터 목표 성장 = 결정 0154(10챕터 = 헤비 하루 30판 240일). 영웅 Lv = 그날 헤비의 4단계 영웅 레벨, 전설 Lv = 같은 날 전설 중복으로 오른 레벨. 데이터 칸이 없어 여기 둔다. */
+var CH_TARGET={1:{day:0,lv:1,plus:0,note:"튜토리얼 판"},2:{day:2,lv:1,plus:0},3:{day:10,lv:4,plus:1},4:{day:22,lv:7,plus:2},5:{day:40,lv:13,plus:3},6:{day:65,lv:20,plus:4},7:{day:95,lv:30,plus:5},8:{day:130,lv:35,plus:6},9:{day:180,lv:39,plus:7},10:{day:240,lv:43,plus:8}};
+/* 전설 레벨 = 헤비가 그날까지 모은 같은 전설 중복(쿠지 A상 — 전설 하나당 1년에 약 48장, 주문 CD-0218 _sim/kuji_pools.py)으로 heroes.json legend 표를 따라 오른 레벨 */
+function legendLvAt(day){var h=D("heroes");if(!h||!h.legend)return 1;var c=48*day/365,L=1,cp=h.legend.copiesPerLevel;while(L<h.maxLevel&&c>=cp[L-1]){c-=cp[L-1];L++}return L}
+function monHp(m,typ,wavePct){return Math.floor((m.baseHp||0)*((typ||{}).hpPct||100)*wavePct/10000)}
+function vChapters(){
+  var mi=D("mapindex"),st=D("stages"),w=D("waves"),mo=D("monsters"),mp=D("maps"),rw=D("reward"),shop=D("shop"),acc=D("account");
+  if(!mi||!w||!mo)return'<h1>챕터</h1><div class="err">mapindex·waves·monsters 데이터가 없다(수집기 갱신 전일 수 있음)</div>';
+  var V=ecoVal(shop),MON={},MAP={};(mo.monsters||[]).forEach(function(m){MON[m.id]=m});((mp||{}).maps||[]).forEach(function(m){MAP[m.id]=m});
+  var stages=(st&&st.stages)||[];
+  function setsOf(map){var ids=stages.filter(function(s){return s.map===map}).map(function(s){return s.id});return ids.filter(function(id){return w.sets&&w.sets[id]})}
+  function waveRows(sid){var set=w.sets[sid],rows=[],tot=0,boss=0,kinds={};(set.waves||[]).forEach(function(x){(x.groups||[]).forEach(function(g){var m=MON[g.monster]||{name:g.monster,type:"?"},ty=(mo.types||{})[m.type]||{},hp=monHp(mo,ty,x.hpPct),sum=hp*g.count;tot+=sum;if(m.type==="boss")boss=Math.max(boss,hp);kinds[g.monster]=(kinds[g.monster]||0)+1;rows.push({wave:x.wave,m:m,ty:ty,count:g.count,hp:hp,sum:sum,pct:x.hpPct,gap:g.spacingTicks})})});return{rows:rows,tot:tot,boss:boss,kinds:kinds,n:(set.waves||[]).length}}
+  var tps=((D("economy")||{}).ticksPerSecond)||20;
+  /* 비교 표 */
+  var summary=[],detail="";
+  (mi.chapters||[]).forEach(function(c){var map=c.map,sids=map?setsOf(map):[],T=CH_TARGET[c.chapter]||{},mapName=map&&MAP[map]?MAP[map].name:(map||"(맵 없음)");
+    if(T.lv!=null)T.llv=legendLvAt(T.day);
+    if(!sids.length){summary.push([c.chapter,mapName,"-","-","-","-","-","-",T.day!=null?T.day+"일":"-",T.lv!=null?("Lv."+T.lv+" · 전설 Lv."+T.llv+" · +"+T.plus):"-","아직 없음"]);return}
+    var last=sids[sids.length-1],R=waveRows(last),r=matchReward(rw,last,R.n),stg=stages.filter(function(s){return s.id===last})[0]||{};
+    summary.push([c.chapter,mapName,sids.length,R.n,(c.plan&&c.plan.bossWaves||[]).join("·"),Object.keys(R.kinds).length,fmt(R.tot,0),fmt(R.boss,0),T.day!=null?T.day+"일 (10판 약 "+Math.round(T.day*2.6)+"일)":"-",T.lv!=null?("Lv."+T.lv+" · 전설 Lv."+T.llv+" · 초월 +"+T.plus):"-",r?won(r.silver*V.silver+r.tickets*V.tickets)+" (은화 "+fmt(r.silver,0)+" · 티켓 "+r.tickets+")":"-"]);
+    /* 챕터 상세 */
+    var body='<div class="small muted">'+esc((c.plan||{}).note||"")+'</div>';
+    sids.forEach(function(sid){var S=waveRows(sid),s0=stages.filter(function(s){return s.id===sid})[0]||{},rr=matchReward(rw,sid,S.n);
+      var mons=Object.keys(S.kinds).map(function(id){var m=MON[id]||{name:id},ty=(mo.types||{})[m.type]||{},first=null;S.rows.forEach(function(x){if(x.m===m&&first==null)first=x.wave});return[H('<b>'+esc(m.name||id)+'</b> <code>'+esc(id)+'</code>'),(ty.name||m.type)+(m.fly?" · 비행":""),pct(ty.hpPct,0),pct(ty.speedPct,0),ty.armor||0,first,S.kinds[id],H('<span class="small muted">'+esc(m.trait||"")+'</span>')]});
+      body+='<div class="small" style="margin:10px 0 2px"><b>'+esc(s0.label||sid)+'</b> <code>'+esc(sid)+'</code> <span class="muted">'+S.n+'웨이브 · 행동력 '+esc(s0.stamina)+' · 모든 웨이브 체력 합 '+fmt(S.tot,0)+(S.boss?' · 보스 1마리 '+fmt(S.boss,0):'')+(rr?' · 승리 은화 '+fmt(rr.silver,0)+' · 티켓 '+rr.tickets+' · 경험치 '+esc(((acc||{}).singleClearExp||{})[sid]):'')+'</span></div>';
+      body+=tbl(["등장 몬스터","유형","체력%","속도%","방어","처음 웨이브","나오는 웨이브 수","특징"],mons,[2,3,4,5,6]);
+      body+='<details style="margin:4px 0 8px"><summary class="small muted" style="cursor:pointer">웨이브별 표 ('+S.n+'줄)</summary>'+tbl(["웨이브","몬스터","유형","마리","1마리 체력","웨이브 체력%","웨이브 체력 합","간격"],S.rows.map(function(x){return[x.wave,x.m.name||"?",(x.ty.name||x.m.type)+(x.m.fly?" · 비행":""),x.count,fmt(x.hp,0),x.pct,fmt(x.sum,0),fmt(x.gap/tps,2)+"초"]}),[0,3,4,5,6])+'</details>'});
+    if(T.lv!=null)T.llv=legendLvAt(T.day);var Tline=T.lv!=null?'<div class="stats">'+stat("헤비 도달",T.day+"일",T.note||"하루 30판")+stat("10판 유저 도달","약 "+Math.round(T.day*2.6)+"일","")+stat("영웅 레벨",T.lv!=null?"Lv."+T.lv:"-","4단계 기준(가장 늦게 큼)")+stat("전설 레벨","Lv."+T.llv,"6명 · 1-6 해금")+stat("전설 초월","+"+T.plus,"")+'</div>':'';
+    detail+='<details class="row"'+(c.chapter===3?" open":"")+'><summary class="g-gr"><span class="caret">▸</span><span><b>챕터 '+c.chapter+'</b> '+esc(mapName)+' <code>'+esc(map||"")+'</code></span><span class="src">'+sids.length+'판 · '+((c.plan||{}).waves||"-")+'웨이브</span></summary><div class="body">'+Tline+body+'</div></details>'});
+  var h='<h1>챕터</h1><div class="eyebrow" style="margin-top:2px">챕터마다 맵 · 웨이브 · 등장 몬스터 · 체력 · 승리 보상 · 목표 성장을 나란히. 몬스터 1마리 체력 = 기본 체력 '+esc(mo.baseHp)+' × 유형 체력% × 웨이브 체력%(Core 와 같은 식). 목표 성장 = 결정 0154(10챕터 = 헤비 240일) — 그 성장에서 봇(광부 5 · 판 안 전설 진화) 승률 50% 쯤이 되게 웨이브 체력을 맞춘다.</div>';
+  h+=sec("1","챕터 비교",tbl(["챕터","맵","판","웨이브","보스 웨이브","몬스터 종류","웨이브 체력 합(마지막 판)","보스 1마리 체력","목표 도달(헤비 30판)","목표 성장","승리 판 가치"],summary,[0,2,3,5,6,7])+'<div class="small muted">챕터 6~10 은 맵이 생기면 같은 일정으로 맞춘다(주문 CD-0218 _sim/tune_chapters.py). 목표 성장 칸의 영웅 Lv 은 4단계 기준 — 1~3단계는 더 높다.</div>');
+  h+=sec("2","챕터별 상세",'<div class="card flush">'+detail+'</div>');
+  return h;
+}
+
 /* ===== 빌드 ===== */
 function vBuilds(){
   var bs=B.builds||[],KIND={android:"안드로이드 APK",windows:"Windows PC"},lb={};bs.forEach(function(b){if(!lb[b.kind]||b.at>lb[b.kind].at)lb[b.kind]=b});
@@ -908,7 +944,7 @@ function vProcess(){
   return h;
 }
 
-var VIEWS={overview:vOverview,kanban:vKanban,milestones:vMilestones,orders:vOrders,decisions:vDecisions,resources:vResources,system:vSystem,balance:vBalance,economy:vEconomy,content:vContent,builds:vBuilds,log:vLog,service:vService,process:vProcess};
+var VIEWS={overview:vOverview,kanban:vKanban,milestones:vMilestones,orders:vOrders,decisions:vDecisions,resources:vResources,system:vSystem,balance:vBalance,economy:vEconomy,chapters:vChapters,content:vContent,builds:vBuilds,log:vLog,service:vService,process:vProcess};
 function route(){var r=(location.hash||"#overview").slice(1);return VIEWS[r]?r:"overview"}
 function render(){
   var r=route(),cnt={kanban:cards().filter(function(c){return c.status!=="done"&&(c.src==="ms"||c.open)}).length,orders:(B.orders||[]).filter(function(o){return phaseOf(o)!=="built"}).length+((B.intake||{}).requests||[]).filter(function(q){return q.state==="open"&&!(q.orders&&q.orders.length)}).length,decisions:(B.decisions||[]).filter(function(d){return d.kind!=="confirmed"}).length};
