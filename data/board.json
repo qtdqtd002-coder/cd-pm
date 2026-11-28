@@ -1315,9 +1315,15 @@
 "lane": "통합(main)",
 "session": "",
 "owns": "모든 줄기가 합쳐지는 곳 · 최종 빌드",
-"order": "CD-0255",
-"head": "f7c3b7d",
+"order": "CD-0224",
+"head": "72c6124",
 "commits": [
+{
+"sha": "72c61243",
+"at": "2026-11-28 15:49",
+"ts": 1795848579,
+"msg": "병합: cd-224 27bbee5b(CD-0224 + CD-0246 판 안 협동 화면 F1 — 위 띠 오른쪽 동료 판(결정 0173)·끊김/나감 딤드+배지·다시 잇는 중 리본·동료 화면 보기 · 손님 화면 180°(maps.json symmetry, Core LayoutConfig.Symmetry 화면 전용) · 방 버전 확인(앱 버전·데이터 해시, Data 글자) + 출전 취소 match.cancel 호출 · 그림 4장 draft(사용자 확정 대기) · EditMode 126 · PlayMode 9 · 개발 빌드 2개 네 장면 통과(스위치 끔))"
+},
 {
 "sha": "f7c3b7d5",
 "at": "2026-11-28 15:44",
@@ -1325,91 +1331,16 @@
 "msg": "병합: cd-255 d07972a2(CD-0255 서버 maintenance 오류 → 점검 안내 창 — 서버 답 maintenance(result.end)를 일반 실패 대신 CD-0244 점검 창으로 · 결정 0253 · EditMode 74 · 서버 341 · 서버·Data·세이브 변화 없음, 해시 그대로)"
 },
 {
-"sha": "d07972a2",
-"at": "2026-11-28 15:40",
-"ts": 1795848050,
-"msg": "CD-0255 마감 — EditMode 필터 74/74 · 새 시험 meta"
-},
-{
-"sha": "08d58c73",
-"at": "2026-11-28 15:18",
-"ts": 1795846696,
-"msg": "CD-0255 90-close 초안(EditMode 는 Unity 차례 뒤)"
-},
-{
-"sha": "5829683f",
-"at": "2026-11-28 15:15",
-"ts": 1795846505,
-"msg": "병합: origin/main 9d480040 를 cd-255 로(CD-0253 래칫 새 기준선)"
-},
-{
-"sha": "f3217a8a",
-"at": "2026-11-28 15:14",
-"ts": 1795846477,
-"msg": "CD-0255 결정 0253 서버 점검 거절은 점검 안내 창으로"
-},
-{
-"sha": "3e27fe24",
-"at": "2026-11-28 15:13",
-"ts": 1795846383,
-"msg": "CD-0255 서버 점검 오류를 점검 안내 창으로(결정 0253)"
-}
-],
-"dirtyCount": 249,
-"dirty": [
-{
-"file": "art-lab/legend-fx/fixed_attack_reach.png",
-"at": "2026-11-28 15:47"
-},
-{
-"file": "art-lab/legend-fx/fixed_skill_reach.png",
-"at": "2026-11-28 15:47"
-},
-{
-"file": "studio/orders/CD-0224-멀티-개발-F1-판-안-협동-화면-동료-프로필-골드-동/review/02-ui-pieces.png",
-"at": "2026-11-28 15:45"
-},
-{
-"file": "studio/orders/CD-0224-멀티-개발-F1-판-안-협동-화면-동료-프로필-골드-동/review/01-concept-ab.png",
-"at": "2026-11-28 15:45"
-},
-{
-"file": "studio/orders/CD-0224-멀티-개발-F1-판-안-협동-화면-동료-프로필-골드-동/_shots/cd224_match_reconnecting.png",
-"at": "2026-11-28 15:45"
-},
-{
-"file": "studio/orders/CD-0224-멀티-개발-F1-판-안-협동-화면-동료-프로필-골드-동/review/00-ref-match.jpg",
-"at": "2026-11-28 15:45"
-},
-{
-"file": "studio/orders/CD-0224-멀티-개발-F1-판-안-협동-화면-동료-프로필-골드-동/_shots/cd224_match_host_peek.png",
-"at": "2026-11-28 15:45"
-},
-{
-"file": "studio/orders/CD-0224-멀티-개발-F1-판-안-협동-화면-동료-프로필-골드-동/_shots/cd224_match_host_partner_disconnected.png",
-"at": "2026-11-28 15:45"
-}
-],
-"lastEdit": "2026-11-28 15:47",
-"lastEditTs": 1795848440.0440204,
-"lastCommitTs": 1795848299,
-"unpushed": 0,
-"notInMain": 0,
-"today": 173
-},
-{
-"branch": "cd-224",
-"lane": "cd-224",
-"session": "",
-"owns": "",
-"order": "CD-0224",
-"head": "27bbee5",
-"commits": [
-{
 "sha": "27bbee5b",
 "at": "2026-11-28 15:41",
 "ts": 1795848112,
 "msg": "CD-0224 마감 초안: 90-close(구조 점검·관제에 넘길 요약·해 볼 것) · art 보고서 · gate impl · stage 마감"
+},
+{
+"sha": "d07972a2",
+"at": "2026-11-28 15:40",
+"ts": 1795848050,
+"msg": "CD-0255 마감 — EditMode 필터 74/74 · 새 시험 meta"
 },
 {
 "sha": "ff89a8da",
@@ -1422,24 +1353,93 @@
 "at": "2026-11-28 15:37",
 "ts": 1795847856,
 "msg": "CD-0224 Unity 차례: EditMode 126/126 · PlayMode 9/9 · 개발 빌드 네 장면(기본·버전 다름 막힘·출전 취소 돌려받음·방장 끊김 이어받기) · 버전 거절 로그를 방 나가기 전에 읽게"
+}
+],
+"dirtyCount": 183,
+"dirty": [
+{
+"file": "art-lab/legend-fx/fixed_attack_reach.png",
+"at": "2026-11-28 15:47"
 },
 {
-"sha": "16847f3a",
-"at": "2026-11-28 15:19",
-"ts": 1795846753,
-"msg": "CD-0224 캡처: 방장(동료 판)·손님(180°)·동료 끊김·다시 잇는 중·동료 화면 보기"
+"file": "art-lab/legend-fx/fixed_skill_reach.png",
+"at": "2026-11-28 15:47"
 },
 {
-"sha": "643604ea",
-"at": "2026-11-28 15:14",
-"ts": 1795846445,
-"msg": "CD-0224 반입: 판 안 협동 UI 그림 4장(카탈로그·Addressables 줄) · 새 스크립트·시험 .meta 4개"
+"file": "art-lab/legend-fx/shots/ingame_skill_zoom.png",
+"at": "2026-11-28 15:06"
 },
 {
-"sha": "583acea6",
-"at": "2026-11-28 15:11",
-"ts": 1795846261,
+"file": "art-lab/legend-fx/shots/zoom_line_fight.png",
+"at": "2026-11-28 15:06"
+},
+{
+"file": "art-lab/legend-fx/shots/cd32_4_fight.png",
+"at": "2026-11-28 15:06"
+},
+{
+"file": "art-lab/legend-fx/shots/cd32_6_nova.png",
+"at": "2026-11-28 15:06"
+},
+{
+"file": "art-lab/legend-fx/shots/cd32_5_line.png",
+"at": "2026-11-28 15:03"
+},
+{
+"file": "art-lab/legend-fx/shots/cd32_3_card.png",
+"at": "2026-11-28 15:03"
+}
+],
+"lastEdit": "2026-11-28 15:47",
+"lastEditTs": 1795848440.0440204,
+"lastCommitTs": 1795848579,
+"unpushed": 0,
+"notInMain": 0,
+"today": 188
+},
+{
+"branch": "cd-224",
+"lane": "cd-224",
+"session": "",
+"owns": "",
+"order": "CD-0224",
+"head": "c4e81b8",
+"commits": [
+{
+"sha": "c4e81b85",
+"at": "2026-11-28 15:54",
+"ts": 1795848864,
 "msg": "Merge remote-tracking branch 'origin/main' into cd-224"
+},
+{
+"sha": "2fe34b5d",
+"at": "2026-11-28 15:54",
+"ts": 1795848843,
+"msg": "CD-0224 사용자 피드백: 동료 판 끊김·나감을 흑백·어둡게 + «연결 끊김»/«나감» 글자 띠"
+},
+{
+"sha": "72c61243",
+"at": "2026-11-28 15:49",
+"ts": 1795848579,
+"msg": "병합: cd-224 27bbee5b(CD-0224 + CD-0246 판 안 협동 화면 F1 — 위 띠 오른쪽 동료 판(결정 0173)·끊김/나감 딤드+배지·다시 잇는 중 리본·동료 화면 보기 · 손님 화면 180°(maps.json symmetry, Core LayoutConfig.Symmetry 화면 전용) · 방 버전 확인(앱 버전·데이터 해시, Data 글자) + 출전 취소 match.cancel 호출 · 그림 4장 draft(사용자 확정 대기) · EditMode 126 · PlayMode 9 · 개발 빌드 2개 네 장면 통과(스위치 끔))"
+},
+{
+"sha": "e955fdc8",
+"at": "2026-11-28 15:48",
+"ts": 1795848480,
+"msg": "CD-0224 사용자 피드백: 끊김 표시 흑백·글자 띠로 다시 고침 · stage 제작"
+},
+{
+"sha": "f7c3b7d5",
+"at": "2026-11-28 15:44",
+"ts": 1795848299,
+"msg": "병합: cd-255 d07972a2(CD-0255 서버 maintenance 오류 → 점검 안내 창 — 서버 답 maintenance(result.end)를 일반 실패 대신 CD-0244 점검 창으로 · 결정 0253 · EditMode 74 · 서버 341 · 서버·Data·세이브 변화 없음, 해시 그대로)"
+},
+{
+"sha": "27bbee5b",
+"at": "2026-11-28 15:41",
+"ts": 1795848112,
+"msg": "CD-0224 마감 초안: 90-close(구조 점검·관제에 넘길 요약·해 볼 것) · art 보고서 · gate impl · stage 마감"
 }
 ],
 "dirtyCount": 1,
@@ -1451,106 +1451,84 @@
 ],
 "lastEdit": "2026-11-28 15:17",
 "lastEditTs": 1795846661.8096278,
-"lastCommitTs": 1795848112,
-"unpushed": 14,
-"notInMain": 14,
-"today": 181
+"lastCommitTs": 1795848864,
+"unpushed": 3,
+"notInMain": 3,
+"today": 191
 },
 {
 "branch": "cd-233",
 "lane": "cd-233",
 "session": "",
 "owns": "",
-"order": "CD-0220",
-"head": "44a3c28",
+"order": "CD-0233",
+"head": "234a0e7",
 "commits": [
 {
-"sha": "44a3c283",
-"at": "2026-11-28 01:24",
-"ts": 1795796642,
-"msg": "병합: cd-235 791bc6a7(CD-0235 모두 레벨업 — 버튼 옆 숫자 삭제 · 결과 팝업 LevelUpPopup «레벨 업!»(작은 일러스트 4칸·Lv.a → Lv.b·3줄 넘으면 스크롤·탭 닫기, 새 그림 없음) · EditMode Cd34HeroScreen 8/8 · 서버 영향 없음)"
+"sha": "234a0e7f",
+"at": "2026-11-28 15:57",
+"ts": 1795849021,
+"msg": "CD-0233 마감 기록: main 합친 뒤 check"
 },
 {
-"sha": "791bc6a7",
-"at": "2026-11-28 01:20",
-"ts": 1795796444,
-"msg": "CD-0235 마감 — LevelUpPopup.cs.meta(Unity 생성) · EditMode Cd34 8/8 · 90-close"
+"sha": "fd890e29",
+"at": "2026-11-28 15:54",
+"ts": 1795848843,
+"msg": "CD-0233 칸 설명 사전: legends[].title(전설 칭호, 선택 칸)"
 },
 {
-"sha": "9704c9b0",
-"at": "2026-11-28 01:18",
-"ts": 1795796298,
-"msg": "병합: origin/main 7a892e78 → cd-235"
+"sha": "4ccddaaa",
+"at": "2026-11-28 15:50",
+"ts": 1795848639,
+"msg": "Merge remote-tracking branch 'origin/main' into cd-233"
 },
 {
-"sha": "26570bc9",
-"at": "2026-11-28 01:18",
-"ts": 1795796286,
-"msg": "CD-0235 모두 레벨 업 — 버튼 숫자 삭제 · «레벨 업!» 결과 팝업(작은 영웅 카드 4칸 + Lv.a → Lv.b · 3줄 넘으면 스크롤 · 탭으로만 닫힘)"
+"sha": "9d06f43f",
+"at": "2026-11-28 15:49",
+"ts": 1795848591,
+"msg": "CD-0233 마감 — 엘레노어 칭호·일러스트·SD·공격/스킬 키 포즈(B안)·스킬 FX"
 },
 {
-"sha": "7a892e78",
-"at": "2026-11-28 01:17",
-"ts": 1795796223,
-"msg": "병합: cd-220 24bbc2c6(CD-0220 시즌 패스 «첫 성벽의 봄» — 시즌 규칙·저장 season 칸·명령 6·원화 상품 season_pass(5,900원) · 로비 입구·패스 창·구매 팝업·레벨 구매 창 · shop.complete 잠금 상품별(시즌 상품만 seasonPass, 다른 원화 상품 그대로) · 결정 0161 · Core 1331 · Server 318 · 모듈 49 · EditMode 271/271 · 그림 11장 · 서버 모듈 재배포 필요)"
+"sha": "72c61243",
+"at": "2026-11-28 15:49",
+"ts": 1795848579,
+"msg": "병합: cd-224 27bbee5b(CD-0224 + CD-0246 판 안 협동 화면 F1 — 위 띠 오른쪽 동료 판(결정 0173)·끊김/나감 딤드+배지·다시 잇는 중 리본·동료 화면 보기 · 손님 화면 180°(maps.json symmetry, Core LayoutConfig.Symmetry 화면 전용) · 방 버전 확인(앱 버전·데이터 해시, Data 글자) + 출전 취소 match.cancel 호출 · 그림 4장 draft(사용자 확정 대기) · EditMode 126 · PlayMode 9 · 개발 빌드 2개 네 장면 통과(스위치 끔))"
 },
 {
-"sha": "24bbc2c6",
-"at": "2026-11-28 01:12",
-"ts": 1795795946,
-"msg": "CD-0220 마감 초안(90-close·관제에 넘길 요약·해 볼 것)·Unity 단계 결과 기록 · 단계 마감"
+"sha": "f7c3b7d5",
+"at": "2026-11-28 15:44",
+"ts": 1795848299,
+"msg": "병합: cd-255 d07972a2(CD-0255 서버 maintenance 오류 → 점검 안내 창 — 서버 답 maintenance(result.end)를 일반 실패 대신 CD-0244 점검 창으로 · 결정 0253 · EditMode 74 · 서버 341 · 서버·Data·세이브 변화 없음, 해시 그대로)"
 }
 ],
-"dirtyCount": 118,
+"dirtyCount": 1,
 "dirty": [
 {
-"file": "studio/orders/CD-0233-엘레노어-칭호-후리가나-전설-일러스트-폴리싱-전설-제작/00-order.md",
-"at": "2026-11-28 15:47"
-},
-{
-"file": "studio/art-manifest.json",
-"at": "2026-11-28 15:46"
-},
-{
-"file": "studio/assets-ledger.csv",
-"at": "2026-11-28 15:46"
-},
-{
-"file": "UnityProject/Assets/_Game/Resources/Rigs/legend_human_waldemar.json",
-"at": "2026-11-28 15:46"
-},
-{
-"file": "art/final/fx/legend/human_waldemar/shard_3.png",
-"at": "2026-11-28 15:46"
-},
-{
-"file": "art/final/fx/_master/legend/human_waldemar/shard_3.png",
-"at": "2026-11-28 15:46"
-},
-{
-"file": "art/final/fx/legend/human_waldemar/shard_2.png",
-"at": "2026-11-28 15:46"
-},
-{
-"file": "art/final/fx/_master/legend/human_waldemar/shard_2.png",
-"at": "2026-11-28 15:46"
+"file": "UnityProject/ProjectSettings/Packages/com.unity.services.vivox/Settings.json",
+"at": "2026-11-28 15:02"
 }
 ],
-"lastEdit": "2026-11-28 15:47",
-"lastEditTs": 1795848440.0139241,
-"lastCommitTs": 1795796642,
-"unpushed": 0,
-"notInMain": 0,
-"today": 39
+"lastEdit": "2026-11-28 15:02",
+"lastEditTs": 1795845759.402277,
+"lastCommitTs": 1795849021,
+"unpushed": 4,
+"notInMain": 4,
+"today": 192
 },
 {
 "branch": "cd-256",
 "lane": "cd-256",
 "session": "",
 "owns": "",
-"order": "CD-0255",
-"head": "f7c3b7d",
+"order": "CD-0256",
+"head": "ca5336d",
 "commits": [
+{
+"sha": "ca5336d2",
+"at": "2026-11-28 16:04",
+"ts": 1795849454,
+"msg": "CD-0256 데이터 해시 판정용으로 · 보스 isBoss 칸 · 하루 시작 Data 로(결정 0254)"
+},
 {
 "sha": "f7c3b7d5",
 "at": "2026-11-28 15:44",
@@ -1580,27 +1558,26 @@
 "at": "2026-11-28 15:14",
 "ts": 1795846477,
 "msg": "CD-0255 결정 0253 서버 점검 거절은 점검 안내 창으로"
-},
-{
-"sha": "3e27fe24",
-"at": "2026-11-28 15:13",
-"ts": 1795846383,
-"msg": "CD-0255 서버 점검 오류를 점검 안내 창으로(결정 0253)"
 }
 ],
-"dirtyCount": 0,
-"dirty": [],
-"lastEdit": "",
-"lastEditTs": 0,
-"lastCommitTs": 1795848299,
-"unpushed": 0,
-"notInMain": 0,
-"today": 173
+"dirtyCount": 1,
+"dirty": [
+{
+"file": "studio/orders/CD-0256-데이터-해시-판정용으로-좁히기-보스-플래그-하루-시작-/90-close.md",
+"at": "2026-11-28 16:05"
+}
+],
+"lastEdit": "2026-11-28 16:05",
+"lastEditTs": 1795849505.8765035,
+"lastCommitTs": 1795849454,
+"unpushed": 1,
+"notInMain": 1,
+"today": 174
 }
 ],
 "recent": {
 "hours": 24,
-"commits": 193,
+"commits": 197,
 "byOrder": [
 [
 "CD-0218",
@@ -1615,12 +1592,12 @@
 19
 ],
 [
-"CD-0220",
+"CD-0224",
 14
 ],
 [
-"CD-0224",
-13
+"CD-0220",
+14
 ],
 [
 "CD-0222",
@@ -1657,6 +1634,10 @@
 [
 "CD-0255",
 4
+],
+[
+"CD-0233",
+3
 ],
 [
 "CD-0247",
@@ -1707,16 +1688,16 @@
 2
 ],
 [
-"CD-0208",
-2
-],
-[
 "CD-0221",
 2
 ],
 [
 "CD-0198",
 2
+],
+[
+"CD-0256",
+1
 ],
 [
 "CD-0253",
@@ -1735,11 +1716,40 @@
 1
 ],
 [
+"CD-0208",
+1
+],
+[
 "CD-0201",
 1
 ]
 ],
 "latest": [
+{
+"sha": "ca5336d2",
+"at": "2026-11-28 16:04",
+"msg": "CD-0256 데이터 해시 판정용으로 · 보스 isBoss 칸 · 하루 시작 Data 로(결정 0254)"
+},
+{
+"sha": "234a0e7f",
+"at": "2026-11-28 15:57",
+"msg": "CD-0233 마감 기록: main 합친 뒤 check"
+},
+{
+"sha": "fd890e29",
+"at": "2026-11-28 15:54",
+"msg": "CD-0233 칸 설명 사전: legends[].title(전설 칭호, 선택 칸)"
+},
+{
+"sha": "2fe34b5d",
+"at": "2026-11-28 15:54",
+"msg": "CD-0224 사용자 피드백: 동료 판 끊김·나감을 흑백·어둡게 + «연결 끊김»/«나감» 글자 띠"
+},
+{
+"sha": "9d06f43f",
+"at": "2026-11-28 15:49",
+"msg": "CD-0233 마감 — 엘레노어 칭호·일러스트·SD·공격/스킬 키 포즈(B안)·스킬 FX"
+},
 {
 "sha": "e955fdc8",
 "at": "2026-11-28 15:48",
@@ -1764,31 +1774,6 @@
 "sha": "4727a344",
 "at": "2026-11-28 15:37",
 "msg": "CD-0224 Unity 차례: EditMode 126/126 · PlayMode 9/9 · 개발 빌드 네 장면(기본·버전 다름 막힘·출전 취소 돌려받음·방장 끊김 이어받기) · 버전 거절 로그를 방 나가기 전에 읽게"
-},
-{
-"sha": "16847f3a",
-"at": "2026-11-28 15:19",
-"msg": "CD-0224 캡처: 방장(동료 판)·손님(180°)·동료 끊김·다시 잇는 중·동료 화면 보기"
-},
-{
-"sha": "08d58c73",
-"at": "2026-11-28 15:18",
-"msg": "CD-0255 90-close 초안(EditMode 는 Unity 차례 뒤)"
-},
-{
-"sha": "f3217a8a",
-"at": "2026-11-28 15:14",
-"msg": "CD-0255 결정 0253 서버 점검 거절은 점검 안내 창으로"
-},
-{
-"sha": "643604ea",
-"at": "2026-11-28 15:14",
-"msg": "CD-0224 반입: 판 안 협동 UI 그림 4장(카탈로그·Addressables 줄) · 새 스크립트·시험 .meta 4개"
-},
-{
-"sha": "3e27fe24",
-"at": "2026-11-28 15:13",
-"msg": "CD-0255 서버 점검 오류를 점검 안내 창으로(결정 0253)"
 }
 ]
 },
@@ -13073,8 +13058,8 @@
 {
 "id": "CD-0224",
 "title": "멀티 개발 F1 판 안 협동 화면 — 동료 프로필·골드·동료 화면 보기·끊김/나감 딤드·다시 잇는 중·손님 180° 화면 + 방 버전 확인 + 출전 취소 호출",
-"branch": "main",
-"updated": "2026-11-28 15:45",
+"branch": "cd-224",
+"updated": "2026-11-28 15:54",
 "files": [
 "00-order.md",
 "10-spec.md",
@@ -13085,13 +13070,13 @@
 "review"
 ],
 "milestone": "M4",
-"stage": "마감",
+"stage": "제작",
 "route": "full",
 "risk": "mid",
 "teams": "client, art",
 "opened": "2026-11-28",
 "closed": "",
-"stageRaw": "마감",
+"stageRaw": "제작",
 "stageBad": false,
 "goal": "<p>협동 판에서 동료가 누구인지·골드·연결 상태가 위 띠 오른쪽에 보이고, 동료 판을 누르면 동료 쪽 화면을 볼 수 있다. 손님 화면은 맵을 180° 돌려 그린다. 같은 방에는 같은 앱 버전·데이터끼리만 들어간다. 출전이 한쪽만 되면 된 쪽이 취소해 행동력을 돌려받는다.</p>",
 "goalShort": "협동 판에서 동료가 누구인지·골드·연결 상태가 위 띠 오른쪽에 보이고, 동료 판을 누르면 동료 쪽 화면을 볼 수 있다.",
@@ -13102,8 +13087,8 @@
 "team": "art",
 "title": "§6 그림 2~4장(Codex 차례 받아서) · 비교 한 장",
 "output": "",
-"status": "done",
-"why": "주문 마감"
+"status": "doing",
+"why": "커밋에 언급됨"
 },
 {
 "id": "client",
@@ -13111,8 +13096,8 @@
 "team": "client",
 "title": "§1 동료 판·상태·다시 잇는 중 · §2 동료 화면 보기 · §3 손님 180° · EditMode 시험",
 "output": "",
-"status": "done",
-"why": "주문 마감"
+"status": "todo",
+"why": ""
 },
 {
 "id": "client",
@@ -13120,8 +13105,8 @@
 "team": "client",
 "title": "§4 방 버전 확인 · §5 출전 취소 호출 · 자동 확인 확장(버전 다른 손님 막힘·출전 한쪽 실패 → 취소) · 개발 빌드 2개 확인 · 캡처",
 "output": "",
-"status": "done",
-"why": "주문 마감"
+"status": "todo",
+"why": ""
 }
 ],
 "phase": "doing",
@@ -13357,24 +13342,25 @@
 "id": "CD-0233",
 "title": "엘레노어 칭호 후리가나 + 전설 일러스트 폴리싱(전설 제작 기준)",
 "branch": "cd-233",
-"updated": "2026-11-28 15:47",
+"updated": "2026-11-28 15:57",
 "files": [
 "00-order.md",
-"10-spec.md"
+"10-spec.md",
+"90-close.md"
 ],
 "milestone": "M6",
-"stage": "제작",
+"stage": "마감",
 "route": "fast",
 "risk": "mid",
 "teams": "planning, client, art",
 "opened": "2026-11-28",
-"closed": "",
-"stageRaw": "제작",
+"closed": "2026-11-28",
+"stageRaw": "마감",
 "stageBad": false,
 "goal": "",
 "goalShort": "",
 "tasks": [],
-"phase": "doing",
+"phase": "done",
 "builtIn": ""
 },
 {
@@ -13854,6 +13840,30 @@
 "goalShort": "",
 "tasks": [],
 "phase": "done",
+"builtIn": ""
+},
+{
+"id": "CD-0256",
+"title": "데이터 해시 판정용으로 좁히기 · 보스 플래그 · 하루 시작 Data 로",
+"branch": "cd-256",
+"updated": "2026-11-28 16:05",
+"files": [
+"00-order.md",
+"90-close.md"
+],
+"milestone": "M6",
+"stage": "제작",
+"route": "direct",
+"risk": "medium",
+"teams": "core, client (서버 라이브러리 포함)",
+"opened": "2026-11-28",
+"closed": "",
+"stageRaw": "제작",
+"stageBad": false,
+"goal": "",
+"goalShort": "",
+"tasks": [],
+"phase": "doing",
 "builtIn": ""
 }
 ],
@@ -15477,7 +15487,7 @@
 "no": 119,
 "title": "나머지 전설 5명 폴리싱 — 엘레노어(CD-0233) 기준 같은 프로세스",
 "state": "open",
-"phase": "doing",
+"phase": "done",
 "imp": "mid",
 "orders": [
 "CD-0233"
@@ -16525,7 +16535,7 @@
 "by": "사용자",
 "html": "<ol>\n<li><strong>칭호와 이름은 두 층으로 그린다.</strong> 이름이 주인공 — 라벨의 원래 크기·색. 칭호는 수식어 — 작게, 보조색.\n</li>\n<li><strong>칭호는 이름 위 작은 줄(후리가나식)</strong> 이 기본이다. 크기 = 이름의 52 %.\n</li>\n<li><strong>한 줄밖에 없는 칸</strong>(판 안 영웅 카드·접힌 카드·상점 상품 칸·구매 확인·창 제목·뽑기 한 장 결과 글자)은 같은 줄에서 칭호만 작게 이름 앞에 둔다. 크기 = 이름의 60 %.\n</li>\n<li>칭호 색: 어두운 바탕 <code>#E6D6B0</code>(양피지), 밝은 바탕 <code>#7A5A36</code>(갈색). <strong>등급 색(회·녹·청·보라·금)을 쓰지 않는다</strong>(결정 0049 — 화면에 등급을 글자·색으로 따로 말하지 않는다).\n</li>\n<li>칭호가 없는 이름(전설, 칭호 없는 옛 데이터)은 이름만 쓴다. <strong>→ 결정 0210(2026-11-28, CD-0233)이 고침: 전설도 칭호를 가진다. 칭호가 정해지지 않은 전설만 이름만.</strong>\n</li>\n<li>구현은 <code>Game.Client.UI.HeroNameStyle</code> 하나로 모든 화면이 같이 쓴다(TMP 리치 텍스트). 시험·기록이 읽는 이름 글자는 지금처럼 «칭호 이름» 한 줄(<code>HeroNameStyle.Plain</code>).\n</li></ol>",
 "branch": "cd-233",
-"dirty": true
+"dirty": false
 },
 {
 "id": "0107",
@@ -17119,7 +17129,7 @@
 "by": "사용자 · 번호는 관제(0173~ 범위)",
 "html": "<ol>\n<li>협동 판에서 동료의 초상·닉네임은 위 띠 <strong>오른쪽 위</strong>, 왼쪽 위 내 프로필 판과 거울로 둔다. 동료 골드는 그 아래 작은 캡슐.\n</li>\n<li>끊김·나감(결정 0128)은 이 판의 딤드 + 배지로 보인다. «연결을 다시 잇는 중» 은 화면 가운데 위쪽 리본.\n</li>\n<li>동료 판을 누르면 동료 화면 보기(결정 0126 6).\n</li>\n<li>동료 영역 영웅을 가리지 않게 판 크기·위치를 맞춘다.\n</li></ol>",
 "branch": "main",
-"dirty": true
+"dirty": false
 },
 {
 "id": "0180",
@@ -17185,7 +17195,7 @@
 "by": "사용자",
 "html": "<ol>\n<li><strong>전설(5단계)도 칭호를 가진다.</strong> 영웅 1~4단계처럼 이름은 그대로 두고, 앞에 붙는 칭호를 이름 위에 작게 그린다(결정 0106 후리가나식, 크기 = 이름의 52 %). 한 줄밖에 없는 칸(판 안 초월 창 카드·등장 연출의 이름판)은 같은 줄에서 칭호만 작게 이름 앞에 둔다(0106 3번, 60 %).\n</li>\n<li>엘레노어 칭호 = <strong>«칼을 모시는 무녀»</strong>(사용자 2026-11-27).\n</li>\n<li>데이터: <code>Data/legends.json</code> 전설마다 <code>title</code>(선택). 없으면 지금처럼 이름만 — 칭호가 정해지지 않은 전설은 이름만 그린다.\n</li>\n<li>칭호 색·규칙은 0106 4번 그대로(어두운 바탕 양피지 #E6D6B0, 밝은 바탕 갈색 #7A5A36, 등급 색 안 씀). 칭호에 속성 낱말을 넣지 않는다(0103 5번) — 전설의 «길»(발도의 길 …)은 칭호와 따로 남는다.\n</li>\n<li>전설 순서·개수는 바꾸지 않는다(쿠지가 <code>legends.json</code> 차례대로 고른다 — CD-0218).\n</li></ol>",
 "branch": "cd-233",
-"dirty": true
+"dirty": false
 },
 {
 "id": "0215",
@@ -17328,6 +17338,17 @@
 "by": "관제(범위) · 설계는 이 주문(`studio/orders/CD-0255-…/00-order.md`)",
 "html": "<ol>\n<li>모든 서버 호출의 한 곳(<code>CallServerAsync</code>)에서 <code>maintenance</code> 를 알아보고 <code>MaintenanceSaid(end)</code> 를 한 번 낸다(<code>update_required</code> → 새 버전 창과 같은 자리). <code>end</code> = 서버가 준 유닉스 초, 없으면 0.\n</li>\n<li>창은 CD-0244 점검 창과 <strong>같은 글</strong>(Data <code>system_text.json</code> 의 제목·본문·버튼)이고, 끝 시각은 <strong>서버가 준 값</strong>을 기기 현지 시각으로 보인다. 끝이 없으면 «끝 없음» 문구.\n</li>\n<li>창은 한 번에 하나(여러 호출이 겹쳐 거절돼도 하나), 로딩 화면이 뜬 뒤에만 띄운다(그 전에는 기록만).\n</li>\n<li>시작 단계(«계정»)는 <code>SessionOpenStatus.Maintenance</code> 면 창 → [다시 확인] → 0.5초 뒤 다시 묻는다(서버가 점검을 끝낼 때까지 머문다). 로비·판 중 호출은 그 호출만 실패하고 창을 띄운다 — 판정·저장은 서버가 막으니 앱은 따로 잠그지 않는다.\n</li></ol>",
 "branch": "main",
+"dirty": false
+},
+{
+"id": "0254",
+"title": "데이터 해시는 판정이 읽는 값만 · 보스는 유형의 `isBoss` 칸 · 하루 시작은 `daily.json` 한 칸",
+"status": "확정(관제 주문 2026-11-28, CD-0256 — 이슈 #118 #9(a) · #13 · #19)",
+"kind": "confirmed",
+"date": "2026-11-28",
+"by": "관제(범위·묶음) · 설계는 이 주문(`studio/orders/CD-0256-…/00-order.md`)",
+"html": "<ol>\n<li><strong>해시 = 판정이 읽는 값</strong>: 각 파일이 JSON 이면 이름이 <code>_</code> 로 시작하는 칸을 어느 깊이에서든 빼고, 공백 없이 칸 순서 그대로·숫자는 적힌 글자 그대로 한 꼴로 만든 뒤 해시한다. JSON 이 아닌 글·없는 파일은 그대로(그런 데이터는 어차피 읽기에서 거절). → <strong><code>_</code> 로 시작하는 칸은 규칙이 읽지 않는다</strong>는 규약을 지킨다(지금 0곳; 새로 읽으면 해시 밖 값으로 판정이 갈린다).\n<ul>\n<li>화면 전용 값(<code>maps.json viewArt</code>·<code>tutorial.json</code> 문구 등)은 이번에 빼지 않는다 — 어느 칸이 판정에 안 쓰이는지 표로 갈라 두면 잘못 적은 한 줄이 desync 가 된다. 판정용/표현용 파일 분리는 #9(b)(c) 와 같이 따로.\n</li></ul>\n</li>\n<li><strong>보스 = <code>monsters.json types.*.isBoss</code></strong>(없으면 false). Core·화면·도구 모두 <code>Monster.IsBoss</code>/<code>MonstersConfig.IsBoss</code>/<code>is_boss</code> 만 본다. 칸 이름이 유형 id <code>boss</code> 와 같으면 래칫이 콘텐츠 id 로 세므로 <code>isBoss</code>. 검사기: boolean · 적어도 한 유형.\n</li>\n<li><strong>하루 시작 = <code>daily.json dayStartUtcOffsetMinutes</code></strong>(UTC 자정 뒤 분, -720..840, 없으면 540 = UTC+9). 날 번호는 <code>Daily.DayOf</code>, 남은 시간은 <code>Daily.SecondsLeftInDay</code>·<code>Weekly.SecondsLeftInWeek</code>(같은 값) — 앱 <code>Today()</code>·서버 <code>DayOf</code>·새 계정 이벤트 시작 날이 모두 그 한 값. <code>GameDay.FromUnix(now)</code> 는 기본값 판(시험·옛 데이터)만.\n<ul>\n<li><strong>출시 뒤 이 값을 바꾸면 날 번호가 한 번 밀린다</strong> — 점검 중에만, 줄이는 쪽(날 번호가 뒤로 가 같은 날 보상을 두 번)은 피한다. 바꾸는 주문은 «그날 받은 미션·상점·우편» 을 따로 시험한다.\n</li></ul>\n</li></ol>",
+"branch": "cd-256",
 "dirty": false
 },
 {
@@ -17808,6 +17829,7 @@
 },
 "boss": {
 "name": "보스",
+"isBoss": true,
 "hpPct": 1200,
 "speedPct": 60,
 "armor": 20,
@@ -18273,8 +18295,8 @@
 }
 ]
 },
-"at": "2026-11-26 21:23",
-"branch": "main",
+"at": "2026-11-28 15:59",
+"branch": "cd-256",
 "dirty": false
 },
 "waves": {
@@ -26443,6 +26465,7 @@
 "data": {
 "_note": "CD-0036(결정 0064 · 10-spec §4-1): 줄마다 feature = 그 줄이 묶인 기능(tutorial.json features 의 id, null = 미션 창이 열려 있으면 늘). 그 기능이 열리기 전(깬 스테이지로 계산)에는 그 줄이 없는 것으로 친다 — 뽑기는 열린 줄만으로 하고(같은 kind 는 하루에 하나 그대로), 미션 창이 열리는 1-1 클리어 때 열린 kind 가 perDay 이상이다(validate_data). 같은 날·같은 해금이면 같은 목록(결정성). 결정 0063(CD-0034, 2026-11-19): 일일 미션에는 균열석 줄이 없다(은화로 — 옛 결정 × 20) · 모두 받으면 쿠지 티켓 5 + 균열석 1. 옛 «강화» 줄 둘은 «광부 3명 고용»(은화 150, miners_3) · «광부 8명 고용»(은화 300, miners_8), kind miners_hired(광부 고용 수 — 판마다 더한다)로 바꿨다(CD-0034 인게임, 10-spec §2-7; 임시로 합성·현상금 줄이던 것을 되돌림). 결정 0049 초안(2026-11-17, CD-0015 · 사용자 확인 대기 · 옛 결정 0039 «일일 목표 3개·뽑기 코인만» 대체). 일일 미션. 화면이 «UTC+9 기준 일 번호»(정수)를 넘기면 그 번호를 시드로 pool 에서 perDay 개를 뽑는다(같은 날 같은 목록, 같은 kind 는 하루에 하나). 달성하면 «받기» 로 받는다(docs/13 §8). perDay 개를 모두 받으면 allDoneBonus. 날이 바뀌면 진행은 0 부터, 받지 않은 보상은 사라진다. matchMinWave: «판 N번 하기» 는 그 웨이브까지 간 판(또는 이긴 판)만 센다. text 는 화면에 그대로 보이는 한 줄. grants 의 kind: silver·crystals·kuji_tickets·gems. kind: miners_hired(광부 고용 수) · matches(판) · waves(막은 웨이브 합) · merges(합성) · bounties(현상금 잡기) · kuji_draws(뽑은 제비 장 수 — 화면 이름은 «뽑기», CD-0035) · (옛 enhances = 강화 횟수 — 없어짐) · wins(승리) · silver_shop_buys(일일 상점 구매 횟수 — CD-0035: 은화 칸·젬스톤 칸 모두 세고 새로고침은 세지 않는다. id 는 옛 이름 그대로). 협동 판도 센다.",
 "perDay": 5,
+"dayStartUtcOffsetMinutes": 540,
 "matchMinWave": 3,
 "allDoneBonus": [
 {
@@ -26665,8 +26688,8 @@
 }
 ]
 },
-"at": "2026-11-22 11:12",
-"branch": "main",
+"at": "2026-11-28 15:51",
+"branch": "cd-256",
 "dirty": false
 },
 "weekly": {
@@ -27781,7 +27804,7 @@
 },
 "at": "2026-11-28 01:26",
 "branch": "cd-233",
-"dirty": true
+"dirty": false
 },
 "stages": {
 "data": {
@@ -32987,7 +33010,7 @@
 "group": "legend",
 "title": "전설 인게임 human_waldemar idle",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "unit/legend/human_waldemar/idle",
 "hasFile": true
 },
@@ -32996,7 +33019,7 @@
 "group": "legend",
 "title": "전설 인게임 human_waldemar windup",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "unit/legend/human_waldemar/windup",
 "hasFile": true
 },
@@ -33005,7 +33028,7 @@
 "group": "legend",
 "title": "전설 인게임 human_waldemar strike",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "unit/legend/human_waldemar/strike",
 "hasFile": true
 },
@@ -34049,7 +34072,7 @@
 "group": "legend",
 "title": "전설 +10 일러스트 엘레노어",
 "brief": "768×1024 RGBA, 전설 +10 초상",
-"status": "draft",
+"status": "confirmed",
 "address": "illust/legend/human_waldemar_t10",
 "source": "Codex · 주문 CD-0197",
 "hasFile": true
@@ -35443,7 +35466,7 @@
 "group": "legend",
 "title": "전설 키 포즈 human_waldemar/key_atk_windup",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "unit/legend/human_waldemar/key_atk_windup",
 "hasFile": true
 },
@@ -35452,7 +35475,7 @@
 "group": "legend",
 "title": "전설 키 포즈 human_waldemar/key_atk_strike",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "unit/legend/human_waldemar/key_atk_strike",
 "hasFile": true
 },
@@ -35461,7 +35484,7 @@
 "group": "legend",
 "title": "전설 키 포즈 human_waldemar/key_sk_ready",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "unit/legend/human_waldemar/key_sk_ready",
 "hasFile": true
 },
@@ -35470,7 +35493,7 @@
 "group": "legend",
 "title": "전설 키 포즈 human_waldemar/key_sk_flash",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "unit/legend/human_waldemar/key_sk_flash",
 "hasFile": true
 },
@@ -35479,7 +35502,7 @@
 "group": "legend",
 "title": "전설 효과 human_waldemar/slash_arc",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "fx/legend/human_waldemar/slash_arc",
 "hasFile": true
 },
@@ -35488,7 +35511,7 @@
 "group": "legend",
 "title": "전설 효과 human_waldemar/iai_line",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "fx/legend/human_waldemar/iai_line",
 "hasFile": true
 },
@@ -35497,7 +35520,7 @@
 "group": "legend",
 "title": "전설 효과 human_waldemar/cut_hit",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "fx/legend/human_waldemar/cut_hit",
 "hasFile": true
 },
@@ -35506,7 +35529,7 @@
 "group": "legend",
 "title": "전설 효과 human_waldemar/leaf_0",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "fx/legend/human_waldemar/leaf_0",
 "hasFile": true
 },
@@ -35515,7 +35538,7 @@
 "group": "legend",
 "title": "전설 효과 human_waldemar/leaf_1",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "fx/legend/human_waldemar/leaf_1",
 "hasFile": true
 },
@@ -35524,7 +35547,7 @@
 "group": "legend",
 "title": "전설 효과 human_waldemar/shard_0",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "fx/legend/human_waldemar/shard_0",
 "hasFile": true
 },
@@ -35533,7 +35556,7 @@
 "group": "legend",
 "title": "전설 효과 human_waldemar/shard_1",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "fx/legend/human_waldemar/shard_1",
 "hasFile": true
 },
@@ -35542,7 +35565,7 @@
 "group": "legend",
 "title": "전설 효과 human_waldemar/shard_2",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "fx/legend/human_waldemar/shard_2",
 "hasFile": true
 },
@@ -35551,14 +35574,174 @@
 "group": "legend",
 "title": "전설 효과 human_waldemar/shard_3",
 "brief": "",
-"status": "draft",
+"status": "confirmed",
 "address": "fx/legend/human_waldemar/shard_3",
+"hasFile": true
+},
+{
+"id": "ui/coop_pedestal",
+"group": "ui",
+"title": "협동 대기실: 돌 발판 (영웅이 서는 받침)",
+"brief": "512×512 · 정면 약간 위 · 윗면 가운데에 SD 발 · CD-0223 시안 A 세션",
+"status": "confirmed",
+"address": "ui/coop_pedestal",
+"source": "Codex · 주문 CD-0223",
+"hasFile": true
+},
+{
+"id": "ui/coop_pedestal_empty",
+"group": "ui",
+"title": "협동 대기실: 빈 발판 + 초대 표시 (점선 원·더하기)",
+"brief": "512×512 · coop_pedestal 과 같은 발판(제자리 교체) + 위에 뜬 점선 원 · Codex 두 장을 이어 붙임 · CD-0223",
+"status": "confirmed",
+"address": "ui/coop_pedestal_empty",
+"source": "Codex · 주문 CD-0223",
+"hasFile": true
+},
+{
+"id": "ui/coop_ready_ribbon",
+"group": "ui",
+"title": "협동 대기실: «준비 완료» 리본 (녹색·금 테, 빈 면)",
+"brief": "폭 512 · 가로 9-slice(양 끝 제비꼬리는 늘지 않게) · 글자는 게임이 · CD-0223",
+"status": "confirmed",
+"address": "ui/coop_ready_ribbon",
+"source": "Codex · 주문 CD-0223",
+"hasFile": true
+},
+{
+"id": "ui/coop_code_plate",
+"group": "ui",
+"title": "협동 대기실: 방 코드 명판 (남색 + 금 테, 빈 면)",
+"brief": "폭 512 · 9-slice(모서리 금 끝만) · 코드·복사 아이콘은 게임이 · CD-0223",
+"status": "confirmed",
+"address": "ui/coop_code_plate",
+"source": "Codex · 주문 CD-0223",
+"hasFile": true
+},
+{
+"id": "ui/coop_diff_tab_on",
+"group": "ui",
+"title": "협동 대기실: 난이도 칸 면 — 켜짐 (크림 금)",
+"brief": "폭 512 · 9-slice · 글자는 게임이 · coop_diff_tab_off 와 같은 외곽 · CD-0223",
+"status": "confirmed",
+"address": "ui/coop_diff_tab_on",
+"source": "Codex · 주문 CD-0223",
+"hasFile": true
+},
+{
+"id": "ui/coop_diff_tab_off",
+"group": "ui",
+"title": "협동 대기실: 난이도 칸 면 — 꺼짐 (남회색)",
+"brief": "폭 512 · 9-slice · coop_diff_tab_on 의 색만 바꿈(같은 외곽, 제자리 교체) · 잠긴 칸은 자물쇠를 게임이 얹음 · CD-0223",
+"status": "confirmed",
+"address": "ui/coop_diff_tab_off",
+"source": "Codex · 주문 CD-0223",
+"hasFile": true
+},
+{
+"id": "ui/icon_copy",
+"group": "ui",
+"title": "아이콘: 복사 (겹친 네모)",
+"brief": "512×512 흰 글리프 · 색은 게임이 · CD-0223",
+"status": "confirmed",
+"address": "ui/icon_copy",
+"source": "Codex · 주문 CD-0223",
+"hasFile": true
+},
+{
+"id": "ui/icon_leave",
+"group": "ui",
+"title": "아이콘: 방 나가기 (문 + 화살표)",
+"brief": "512×512 흰 글리프 · 색은 게임이 · CD-0223",
+"status": "confirmed",
+"address": "ui/icon_leave",
+"source": "Codex · 주문 CD-0223",
+"hasFile": true
+},
+{
+"id": "ui/icon_invite",
+"group": "ui",
+"title": "아이콘: 친구 초대 (사람 + 더하기)",
+"brief": "512×512 흰 글리프 · 색은 게임이 · CD-0223",
+"status": "confirmed",
+"address": "ui/icon_invite",
+"source": "Codex · 주문 CD-0223",
+"hasFile": true
+},
+{
+"id": "ui/season_plate_free",
+"group": "ui",
+"title": "시즌 트랙 공용 판: 무료 (푸른 회색 + 은청 테, 장식 없음)",
+"brief": "512×512 · 9-slice 64 · 시즌과 무관한 공용 부품(스킨 교체 대상 아님) · 미션 줄·무료 띠에도 씀 · CD-0220b",
+"status": "draft",
+"address": "ui/season_plate_free",
+"source": "Codex · 주문 CD-0220b",
+"hasFile": true
+},
+{
+"id": "ui/season_plate_paid",
+"group": "ui",
+"title": "시즌 트랙 공용 판: 유료 (따뜻한 호박색 + 금 테, 장식 없음)",
+"brief": "512×512 · 9-slice 64 · 무료 판과 같은 모양 · 시즌과 무관한 공용 부품 · CD-0220b",
+"status": "draft",
+"address": "ui/season_plate_paid",
+"source": "Codex · 주문 CD-0220b",
+"hasFile": true
+},
+{
+"id": "ui/season_plate_keyrim",
+"group": "ui",
+"title": "시즌 트랙 공용: 핵심 칸 테 (흰 테, 게임이 시즌 강조색으로 물들임)",
+"brief": "512×512 · 9-slice 64 · 무료 판에서 잘라 냄(얼굴 투명, 테만 밝은 회백) · CD-0220b",
+"status": "draft",
+"address": "ui/season_plate_keyrim",
+"source": "Codex · 주문 CD-0220b (무료 판에서 잘라 냄)",
+"hasFile": true
+},
+{
+"id": "ui/coop_badge_frame",
+"group": "ui",
+"title": "협동 판: 동료 상태 배지 틀 (빈 남색 원 + 금 테)",
+"brief": "512×512 · 가운데에 기호를 게임이 얹음(끊김 icon_disconnect · 나감 icon_leave) · CD-0224 시안 A 세션",
+"status": "draft",
+"address": "ui/coop_badge_frame",
+"source": "Codex · 주문 CD-0224",
+"hasFile": true
+},
+{
+"id": "ui/icon_disconnect",
+"group": "ui",
+"title": "아이콘: 연결 끊김 (떨어진 사슬 고리 둘)",
+"brief": "512×512 흰 글리프 · 색은 게임이 · icon_leave 와 같은 꼴 · CD-0224",
+"status": "draft",
+"address": "ui/icon_disconnect",
+"source": "Codex · 주문 CD-0224",
+"hasFile": true
+},
+{
+"id": "ui/coop_badge_disconnect",
+"group": "ui",
+"title": "협동 판: 끊김 배지 (배지 틀 + 떨어진 사슬, 주황)",
+"brief": "512×512 · coop_badge_frame 에 icon_disconnect 를 주황으로 얹어 이어 붙임 · CD-0224",
+"status": "draft",
+"address": "ui/coop_badge_disconnect",
+"source": "Codex · 주문 CD-0224",
+"hasFile": true
+},
+{
+"id": "ui/coop_reconnect_ribbon",
+"group": "ui",
+"title": "협동 판: «연결을 다시 잇는 중» 리본 (남색 + 금 테, 빈 면)",
+"brief": "폭 512 · 가로 9-slice(양 끝 금 뾰족 끝은 늘지 않게) · 글자·도는 표시는 게임이 · CD-0224",
+"status": "draft",
+"address": "ui/coop_reconnect_ribbon",
+"source": "Codex · 주문 CD-0224",
 "hasFile": true
 }
 ],
-"at": "2026-11-28 15:46",
+"at": "2026-11-28 15:50",
 "branch": "cd-233",
-"dirty": true
+"dirty": false
 },
 "gallery": {
 "v": 1,
@@ -37657,6 +37840,86 @@
 "f": "data/art/4a9b26f4500dd5f72180.bin",
 "w": 92,
 "h": 120
+},
+"ui/coop_pedestal": {
+"f": "data/art/635b0186c7645d025893.bin",
+"w": 512,
+"h": 512
+},
+"ui/coop_pedestal_empty": {
+"f": "data/art/a71b4c58b746db6a194d.bin",
+"w": 512,
+"h": 512
+},
+"ui/coop_ready_ribbon": {
+"f": "data/art/0183a3a014a6e64c9cc6.bin",
+"w": 512,
+"h": 83
+},
+"ui/coop_code_plate": {
+"f": "data/art/f651a8bbe0bed4daf1fc.bin",
+"w": 512,
+"h": 98
+},
+"ui/coop_diff_tab_on": {
+"f": "data/art/80ad3dfc55a6a419bec7.bin",
+"w": 512,
+"h": 129
+},
+"ui/coop_diff_tab_off": {
+"f": "data/art/5993eedb7fa4d39fd675.bin",
+"w": 512,
+"h": 129
+},
+"ui/icon_copy": {
+"f": "data/art/4c85ea3095d4ebc9d68d.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_leave": {
+"f": "data/art/3dcb76d36dfb0a94e054.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_invite": {
+"f": "data/art/f6976becd0505b92b100.bin",
+"w": 512,
+"h": 512
+},
+"ui/season_plate_free": {
+"f": "data/art/a987130cfb2273f649d7.bin",
+"w": 512,
+"h": 512
+},
+"ui/season_plate_paid": {
+"f": "data/art/d23b5617b2c0bf93dab2.bin",
+"w": 512,
+"h": 512
+},
+"ui/season_plate_keyrim": {
+"f": "data/art/497db33c39658411fff5.bin",
+"w": 512,
+"h": 512
+},
+"ui/coop_badge_frame": {
+"f": "data/art/d14dd472ff77e10a84e7.bin",
+"w": 512,
+"h": 512
+},
+"ui/icon_disconnect": {
+"f": "data/art/e46f5eff73126b7a330e.bin",
+"w": 512,
+"h": 512
+},
+"ui/coop_badge_disconnect": {
+"f": "data/art/d44ad22239f53e526a00.bin",
+"w": 512,
+"h": 512
+},
+"ui/coop_reconnect_ribbon": {
+"f": "data/art/aa301386b610500be110.bin",
+"w": 512,
+"h": 90
 }
 },
 "keyAt": "2026-11-16 17:14"
@@ -40236,7 +40499,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-28 15:47",
-"generatedAt": "2026-11-28 15:47",
-"digest": "880e2510f61aebe2"
+"sourceAt": "2026-11-28 16:05",
+"generatedAt": "2026-11-28 16:17",
+"digest": "5dd90f3cfc0971fb"
 }
