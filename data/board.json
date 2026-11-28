@@ -1642,8 +1642,14 @@
 "session": "",
 "owns": "",
 "order": "CD-0286",
-"head": "5217a1f",
+"head": "a70104a",
 "commits": [
+{
+"sha": "a70104a5",
+"at": "2026-11-29 02:49",
+"ts": 1795888154,
+"msg": "CD-0286 UnitGrant.cs.meta(Unity 가 만든 것) · EditMode 82/82 (Cd68·Cd219 이벤트·미니게임·Cd220 시즌·Cd36)"
+},
 {
 "sha": "5217a1f6",
 "at": "2026-11-29 02:46",
@@ -1673,27 +1679,16 @@
 "at": "2026-11-29 01:57",
 "ts": 1795885045,
 "msg": "CD-0273 마감 — 90-close · stage 마감"
-},
-{
-"sha": "89539b0c",
-"at": "2026-11-29 01:55",
-"ts": 1795884954,
-"msg": "Merge remote-tracking branch 'origin/main' into cd-273"
 }
 ],
-"dirtyCount": 1,
-"dirty": [
-{
-"file": "Core/package/Runtime/Meta/UnitGrant.cs.meta",
-"at": "2026-11-29 02:47"
-}
-],
-"lastEdit": "2026-11-29 02:47",
-"lastEditTs": 1795888030.751672,
-"lastCommitTs": 1795887978,
-"unpushed": 2,
-"notInMain": 2,
-"today": 45
+"dirtyCount": 0,
+"dirty": [],
+"lastEdit": "",
+"lastEditTs": 0,
+"lastCommitTs": 1795888154,
+"unpushed": 3,
+"notInMain": 3,
+"today": 46
 },
 {
 "branch": "rel-0126",
@@ -1852,6 +1847,10 @@
 4
 ],
 [
+"CD-0286",
+3
+],
+[
 "CD-0283",
 3
 ],
@@ -1882,10 +1881,6 @@
 [
 "CD-0220",
 3
-],
-[
-"CD-0286",
-2
 ],
 [
 "CD-0271",
@@ -1928,10 +1923,6 @@
 2
 ],
 [
-"CD-0229",
-2
-],
-[
 "CD-0285",
 1
 ],
@@ -1962,9 +1953,18 @@
 [
 "CD-0245",
 1
+],
+[
+"CD-0229",
+1
 ]
 ],
 "latest": [
+{
+"sha": "a70104a5",
+"at": "2026-11-29 02:49",
+"msg": "CD-0286 UnitGrant.cs.meta(Unity 가 만든 것) · EditMode 82/82 (Cd68·Cd219 이벤트·미니게임·Cd220 시즌·Cd36)"
+},
 {
 "sha": "5217a1f6",
 "at": "2026-11-29 02:46",
@@ -2009,11 +2009,6 @@
 "sha": "25ee1300",
 "at": "2026-11-29 01:57",
 "msg": "CD-0279 협동 탭·난이도 고르기·대기실 퀄업(난이도 아이콘)"
-},
-{
-"sha": "2ca79875",
-"at": "2026-11-29 01:55",
-"msg": "CD-0273 EditMode: 시험 세이브는 깬 스테이지의 조건 우편을 모두 받은 것으로(Data) · 25웨이브 시험은 «데이터에 없음» · 젬 상점 값은 shop.json 에서 — 379 중 실패 9 → 63/63"
 }
 ]
 },
@@ -42352,7 +42347,7 @@
 }
 ],
 "releasesUrl": "https://github.com/qtdqtd002-coder/coop-defense/releases",
-"sourceAt": "2026-11-29 02:47",
-"generatedAt": "2026-11-29 02:47",
-"digest": "b7fbc69681d1e9c6"
+"sourceAt": "2026-11-29 02:49",
+"generatedAt": "2026-11-29 03:17",
+"digest": "51d24a393bec698d"
 }
